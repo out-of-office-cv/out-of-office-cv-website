@@ -165,7 +165,7 @@ function generateGigsSection(gigs: Gig[]): string {
   <dd>
     <p>${gig.organisation} (${gig.category})</p>
     <p>${dateRange}</p>
-    <p><a href="${gig.source}">${gig.verified_by}</a></p>
+    <p>Source: <a href="${gig.source}">${gig.verified_by}</a></p>
   </dd>`;
     })
     .join("\n");
