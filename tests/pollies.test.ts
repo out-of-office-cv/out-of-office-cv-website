@@ -4,7 +4,8 @@ import { resolve } from "node:path";
 import { execSync } from "node:child_process";
 
 const rootDir = resolve(import.meta.dirname, "..");
-const distPolliesDir = resolve(rootDir, ".vitepress/dist/pollies");
+const distDir = resolve(rootDir, ".vitepress/dist");
+const distPolliesDir = resolve(distDir, "pollies");
 const gigsPath = resolve(rootDir, "data/gigs.ts");
 
 describe("pollie page generation", () => {
@@ -14,12 +15,11 @@ describe("pollie page generation", () => {
 
   it("generates pollie html pages", () => {
     expect(existsSync(distPolliesDir)).toBe(true);
-    expect(existsSync(resolve(distPolliesDir, "index.html"))).toBe(true);
   });
 
   it("generates index with links to pollies", () => {
-    const index = readFileSync(resolve(distPolliesDir, "index.html"), "utf-8");
-    expect(index).toContain("Pollies");
+    const index = readFileSync(resolve(distDir, "index.html"), "utf-8");
+    expect(index).toContain("Out of Office");
     expect(index).toContain("Anthony Norman Albanese");
     expect(index).toContain("/pollies/anthony-norman-albanese");
   });
@@ -87,8 +87,7 @@ export const gigs: Gig[] = [
     role: "Board Member",
     organisation: "Test Corp",
     category: "consulting",
-    verified_by: "https://example.com/source",
-    source: "Test News",
+    source: "https://example.com/source",
     pollie_slug: "anthony-john-abbott",
     start_date: "2020-06-15",
   },
@@ -96,8 +95,7 @@ export const gigs: Gig[] = [
     role: "Advisor",
     organisation: "Another Org",
     category: "lobbying",
-    verified_by: "https://example.com/other",
-    source: "Other News",
+    source: "https://example.com/other",
     pollie_slug: "anthony-john-abbott",
     start_date: "2021-01-01",
     end_date: "2022-12-31",
@@ -137,8 +135,7 @@ export const gigs: Gig[] = [
     const content = readFileSync(abbottPath, "utf-8");
 
     expect(content).toContain("https://example.com/source");
-    expect(content).toContain("Test News");
-    expect(content).toContain("Other News");
+    expect(content).toContain("https://example.com/other");
   });
 
   it("does not include gigs section for pollies without gigs", () => {

@@ -13,8 +13,8 @@ export interface Gig {
   role: string;
   organisation: string;
   category: string;
-  verified_by: string;
-  source: string;
+  source: string; // URL to source
+  verified_by?: string; // name of person who verified this info
   pollie_slug: string;
   start_date: string; // ISO format: "2024-03-15"
   end_date?: string;
