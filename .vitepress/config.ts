@@ -5,19 +5,12 @@ export default defineConfig({
   description:
     "Tracking what Australian Parliamentarians do when they leave office",
   cleanUrls: true,
+  ignoreDeadLinks: false,
   themeConfig: {
     search: {
       provider: "local",
     },
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Pollies", link: "/pollies/" },
-    ],
-    sidebar: [
-      {
-        text: "Pollies",
-        link: "/pollies/",
-      },
-    ],
+    nav: [{ text: "Home", link: "/" }],
+    sidebar: [],
   },
 });
