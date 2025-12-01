@@ -9,13 +9,32 @@ export interface Pollie {
   stillInOffice: boolean;
 }
 
+export type PollieListItem = Pick<
+  Pollie,
+  "slug" | "name" | "division" | "state" | "party" | "ceasedDate"
+>;
+
+export interface PolliesByDecade {
+  decade: string;
+  pollies: PollieListItem[];
+}
+
+export type GigCategory =
+  | "consulting"
+  | "advocacy"
+  | "health"
+  | "lobbying"
+  | "defence"
+  | "public-sector"
+  | "education";
+
 export interface Gig {
   role: string;
   organisation: string;
-  category: string;
-  source: string; // URL to source
-  verified_by?: string; // name of person who verified this info
+  category: GigCategory;
+  source: string;
+  verified_by?: string;
   pollie_slug: string;
-  start_date: string; // ISO format: "2024-03-15"
+  start_date: string;
   end_date?: string;
 }

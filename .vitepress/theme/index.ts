@@ -1,3 +1,4 @@
+import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import PollieList from "./components/PollieList.vue";
 import PollieSearch from "./components/PollieSearch.vue";
@@ -8,4 +9,4 @@ export default {
     app.component("PollieList", PollieList);
     app.component("PollieSearch", PollieSearch);
   },
-};
+} satisfies Theme;

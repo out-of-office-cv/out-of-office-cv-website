@@ -2,80 +2,17 @@ import { readFileSync, existsSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import type { Pollie, Gig } from "../.vitepress/types";
+import {
+  parseCSV,
+  slugify,
+  parseDate,
+  formatDate,
+  formatISODate,
+  timeAgo,
+} from "../.vitepress/utils";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = resolve(__dirname, "..");
-
-function parseCSV(content: string): string[][] {
-  const lines = content.trim().split("\n");
-  return lines.map((line) => {
-    const values: string[] = [];
-    let current = "";
-    let inQuotes = false;
-
-    for (const char of line) {
-      if (char === '"') {
-        inQuotes = !inQuotes;
-      } else if (char === "," && !inQuotes) {
-        values.push(current.trim());
-        current = "";
-      } else {
-        current += char;
-      }
-    }
-    values.push(current.trim());
-    return values;
-  });
-}
-
-function slugify(name: string): string {
-  return name
-    .toLowerCase()
-    .replace(/['']/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-}
-
-function parseDate(dateStr: string): Date | null {
-  if (!dateStr) return null;
-  const parts = dateStr.split(".");
-  if (parts.length !== 3) return null;
-  const [day, month, year] = parts.map(Number);
-  return new Date(year, month - 1, day);
-}
-
-function formatDate(dateStr: string): string {
-  const date = parseDate(dateStr);
-  if (!date) return "";
-  return date.toLocaleDateString("en-AU", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  });
-}
-
-function formatISODate(isoDateStr: string): string {
-  const date = new Date(isoDateStr);
-  return date.toLocaleDateString("en-AU", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  });
-}
-
-function timeAgo(dateStr: string): string {
-  const date = parseDate(dateStr);
-  if (!date) return "";
-  const now = new Date();
-  const months =
-    (now.getFullYear() - date.getFullYear()) * 12 +
-    (now.getMonth() - date.getMonth());
-  if (months < 12) {
-    return `${months} month${months === 1 ? "" : "s"} ago`;
-  }
-  const years = Math.floor(months / 12);
-  return `${years} year${years === 1 ? "" : "s"} ago`;
-}
 
 function loadPollies(): Pollie[] {
   const csvPath = resolve(rootDir, "data/representatives.csv");
@@ -102,8 +39,6 @@ function loadPollies(): Pollie[] {
     if (!existing) {
       pollieMap.set(slug, { row, ceasedDate });
     } else {
-      // Prefer entry still in office (null ceasedDate)
-      // Otherwise prefer most recent ceasedDate
       const existingStillInOffice = existing.ceasedDate === null;
       const newStillInOffice = ceasedDate === null;
 
@@ -205,9 +140,23 @@ function generateContent(pollie: Pollie, gigs: Gig[]): string {
 ${gigsSection}`;
 }
 
-declare const data: ReturnType<typeof transformData>;
+interface PolliePath {
+  params: {
+    slug: string;
+    name: string;
+    division: string;
+    state: string;
+    party: string;
+  };
+  content: string;
+}
 
-function transformData(pollies: Pollie[], gigsByPollie: Map<string, Gig[]>) {
+declare const data: PolliePath[];
+
+function transformData(
+  pollies: Pollie[],
+  gigsByPollie: Map<string, Gig[]>,
+): PolliePath[] {
   return pollies.map((pollie) => {
     const pollieGigs = gigsByPollie.get(pollie.slug) || [];
     return {
@@ -226,7 +175,7 @@ function transformData(pollies: Pollie[], gigsByPollie: Map<string, Gig[]>) {
 export { data };
 
 export default {
-  async paths() {
+  async paths(): Promise<PolliePath[]> {
     const pollies = loadPollies();
     const allGigs = await loadGigs();
     const gigsByPollie = getGigsByPollie(allGigs);

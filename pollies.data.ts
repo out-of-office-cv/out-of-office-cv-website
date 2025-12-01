@@ -1,64 +1,15 @@
 import { readFileSync, existsSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import type { PollieListItem, PolliesByDecade } from "./.vitepress/types";
+import { parseCSV, slugify, parseDate } from "./.vitepress/utils";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = __dirname;
 
-function parseCSV(content: string): string[][] {
-  const lines = content.trim().split("\n");
-  return lines.map((line) => {
-    const values: string[] = [];
-    let current = "";
-    let inQuotes = false;
-
-    for (const char of line) {
-      if (char === '"') {
-        inQuotes = !inQuotes;
-      } else if (char === "," && !inQuotes) {
-        values.push(current.trim());
-        current = "";
-      } else {
-        current += char;
-      }
-    }
-    values.push(current.trim());
-    return values;
-  });
-}
-
-function slugify(name: string): string {
-  return name
-    .toLowerCase()
-    .replace(/['']/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-}
-
-function parseDate(dateStr: string): Date | null {
-  if (!dateStr) return null;
-  const parts = dateStr.split(".");
-  if (parts.length !== 3) return null;
-  const [day, month, year] = parts.map(Number);
-  return new Date(year, month - 1, day);
-}
-
-export interface PollieListItem {
-  slug: string;
-  name: string;
-  division: string;
-  state: string;
-  party: string;
-  ceasedDate: string;
-}
-
-export interface PolliesByDecade {
-  decade: string;
-  pollies: PollieListItem[];
-}
-
 declare const data: PolliesByDecade[];
 export { data };
+export type { PollieListItem, PolliesByDecade };
 
 function getDecade(date: Date | null): string {
   if (!date) return "Current";
@@ -67,8 +18,12 @@ function getDecade(date: Date | null): string {
   return `${decadeStart}s`;
 }
 
+interface PollieWithParsedDate extends PollieListItem {
+  _ceasedDateParsed: Date | null;
+}
+
 export default {
-  watch: ["../data/representatives.csv"],
+  watch: ["./data/representatives.csv"],
   load(): PolliesByDecade[] {
     const csvPath = resolve(rootDir, "data/representatives.csv");
     if (!existsSync(csvPath)) {
@@ -111,7 +66,7 @@ export default {
       }
     }
 
-    const pollies = Array.from(pollieMap.values())
+    const pollies: PollieWithParsedDate[] = Array.from(pollieMap.values())
       .map(({ row, ceasedDate }) => ({
         slug: slugify(row[2]),
         name: row[2],
@@ -122,14 +77,11 @@ export default {
         _ceasedDateParsed: ceasedDate,
       }))
       .sort((a, b) => {
-        // Current members first
         if (!a._ceasedDateParsed && b._ceasedDateParsed) return -1;
         if (a._ceasedDateParsed && !b._ceasedDateParsed) return 1;
-        // Then by date descending (most recent first)
         if (a._ceasedDateParsed && b._ceasedDateParsed) {
           return b._ceasedDateParsed.getTime() - a._ceasedDateParsed.getTime();
         }
-        // Alphabetical for current members
         return a.name.localeCompare(b.name);
       });
 
