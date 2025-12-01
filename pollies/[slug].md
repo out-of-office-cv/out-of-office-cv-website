@@ -3,9 +3,17 @@ outline: deep
 ---
 
 <script setup>
-import { useData } from 'vitepress'
+import { useData, useRoute } from 'vitepress'
+import { watchEffect } from 'vue'
 
 const { params } = useData()
+const route = useRoute()
+
+watchEffect(() => {
+  if (typeof document !== 'undefined' && params.value?.name) {
+    document.title = `${params.value.name} | Out of Office`
+  }
+})
 </script>
 
 # {{ params.name }}
