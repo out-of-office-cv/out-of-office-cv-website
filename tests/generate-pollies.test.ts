@@ -56,6 +56,22 @@ describe("pollie page generation", () => {
     );
     expect(files.length).toBeGreaterThan(700);
   });
+
+  it("deduplicates pollies with multiple terms, keeping most recent", () => {
+    // Russell Broadbent has 5 entries in the CSV spanning 1990-2025
+    // Should show his most recent term (Monash, IND, defeated 2025)
+    const broadbentPath = resolve(
+      distPolliesDir,
+      "russell-evan-broadbent.html",
+    );
+    expect(existsSync(broadbentPath)).toBe(true);
+
+    const content = readFileSync(broadbentPath, "utf-8");
+    expect(content).toContain("Monash"); // most recent electorate (2019-2025)
+    expect(content).toContain("IND"); // party from final term
+    expect(content).not.toContain("Corinella"); // first electorate (1990-1993)
+    expect(content).not.toContain("McMillan"); // middle electorate
+  });
 });
 
 describe("gig integration", () => {

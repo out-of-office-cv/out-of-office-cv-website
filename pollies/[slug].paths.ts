@@ -1,31 +1,31 @@
-import { readFileSync, existsSync } from "node:fs"
-import { resolve, dirname } from "node:path"
-import { fileURLToPath } from "node:url"
-import type { Pollie, Gig } from "../.vitepress/types"
+import { readFileSync, existsSync } from "node:fs";
+import { resolve, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+import type { Pollie, Gig } from "../.vitepress/types";
 
-const __dirname = dirname(fileURLToPath(import.meta.url))
-const rootDir = resolve(__dirname, "..")
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const rootDir = resolve(__dirname, "..");
 
 function parseCSV(content: string): string[][] {
-  const lines = content.trim().split("\n")
+  const lines = content.trim().split("\n");
   return lines.map((line) => {
-    const values: string[] = []
-    let current = ""
-    let inQuotes = false
+    const values: string[] = [];
+    let current = "";
+    let inQuotes = false;
 
     for (const char of line) {
       if (char === '"') {
-        inQuotes = !inQuotes
+        inQuotes = !inQuotes;
       } else if (char === "," && !inQuotes) {
-        values.push(current.trim())
-        current = ""
+        values.push(current.trim());
+        current = "";
       } else {
-        current += char
+        current += char;
       }
     }
-    values.push(current.trim())
-    return values
-  })
+    values.push(current.trim());
+    return values;
+  });
 }
 
 function slugify(name: string): string {
@@ -33,105 +33,142 @@ function slugify(name: string): string {
     .toLowerCase()
     .replace(/['']/g, "")
     .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "")
+    .replace(/^-|-$/g, "");
 }
 
-function parseDate(dateStr: string): Date {
-  const [day, month, year] = dateStr.split(".")
-  return new Date(Number(year), Number(month) - 1, Number(day))
+function parseDate(dateStr: string): Date | null {
+  if (!dateStr) return null;
+  const parts = dateStr.split(".");
+  if (parts.length !== 3) return null;
+  const [day, month, year] = parts.map(Number);
+  return new Date(year, month - 1, day);
 }
 
 function formatDate(dateStr: string): string {
-  const date = parseDate(dateStr)
+  const date = parseDate(dateStr);
+  if (!date) return "";
   return date.toLocaleDateString("en-AU", {
     day: "numeric",
     month: "long",
     year: "numeric",
-  })
+  });
 }
 
 function formatISODate(isoDateStr: string): string {
-  const date = new Date(isoDateStr)
+  const date = new Date(isoDateStr);
   return date.toLocaleDateString("en-AU", {
     day: "numeric",
     month: "long",
     year: "numeric",
-  })
+  });
 }
 
 function timeAgo(dateStr: string): string {
-  const date = parseDate(dateStr)
-  const now = new Date()
+  const date = parseDate(dateStr);
+  if (!date) return "";
+  const now = new Date();
   const months =
     (now.getFullYear() - date.getFullYear()) * 12 +
-    (now.getMonth() - date.getMonth())
+    (now.getMonth() - date.getMonth());
   if (months < 12) {
-    return `${months} month${months === 1 ? "" : "s"} ago`
+    return `${months} month${months === 1 ? "" : "s"} ago`;
   }
-  const years = Math.floor(months / 12)
-  return `${years} year${years === 1 ? "" : "s"} ago`
+  const years = Math.floor(months / 12);
+  return `${years} year${years === 1 ? "" : "s"} ago`;
 }
 
 function loadPollies(): Pollie[] {
-  const csvPath = resolve(rootDir, "data/representatives.csv")
+  const csvPath = resolve(rootDir, "data/representatives.csv");
   if (!existsSync(csvPath)) {
-    return []
+    return [];
   }
 
-  const content = readFileSync(csvPath, "utf-8")
-  const rows = parseCSV(content)
-  const [, ...dataRows] = rows
+  const content = readFileSync(csvPath, "utf-8");
+  const rows = parseCSV(content);
+  const [, ...dataRows] = rows;
 
-  return dataRows
-    .filter((row) => row[2])
-    .map((row) => ({
-      slug: slugify(row[2]),
-      name: row[2],
-      division: row[3] || "",
-      state: row[4] || "",
-      party: row[9] || "",
-      ceasedDate: row[7] || "",
-      reason: row[8] || "",
-      stillInOffice: row[8] === "still_in_office",
-    }))
+  const pollieMap = new Map<
+    string,
+    { row: string[]; ceasedDate: Date | null }
+  >();
+
+  for (const row of dataRows) {
+    if (!row[2]) continue;
+
+    const slug = slugify(row[2]);
+    const ceasedDate = parseDate(row[7]);
+    const existing = pollieMap.get(slug);
+
+    if (!existing) {
+      pollieMap.set(slug, { row, ceasedDate });
+    } else {
+      // Prefer entry still in office (null ceasedDate)
+      // Otherwise prefer most recent ceasedDate
+      const existingStillInOffice = existing.ceasedDate === null;
+      const newStillInOffice = ceasedDate === null;
+
+      if (newStillInOffice && !existingStillInOffice) {
+        pollieMap.set(slug, { row, ceasedDate });
+      } else if (
+        !existingStillInOffice &&
+        !newStillInOffice &&
+        ceasedDate &&
+        existing.ceasedDate &&
+        ceasedDate > existing.ceasedDate
+      ) {
+        pollieMap.set(slug, { row, ceasedDate });
+      }
+    }
+  }
+
+  return Array.from(pollieMap.values()).map(({ row }) => ({
+    slug: slugify(row[2]),
+    name: row[2],
+    division: row[3] || "",
+    state: row[4] || "",
+    party: row[9] || "",
+    ceasedDate: row[7] || "",
+    reason: row[8] || "",
+    stillInOffice: row[8] === "still_in_office",
+  }));
 }
 
 async function loadGigs(): Promise<Gig[]> {
-  const gigsPath = resolve(rootDir, "data/gigs.ts")
+  const gigsPath = resolve(rootDir, "data/gigs.ts");
   if (!existsSync(gigsPath)) {
-    return []
+    return [];
   }
-  const module = await import(`${gigsPath}?t=${Date.now()}`)
-  return module.gigs || []
+  const module = await import(`${gigsPath}?t=${Date.now()}`);
+  return module.gigs || [];
 }
 
 function getGigsByPollie(gigs: Gig[]): Map<string, Gig[]> {
-  const gigsByPollie = new Map<string, Gig[]>()
+  const gigsByPollie = new Map<string, Gig[]>();
   for (const gig of gigs) {
-    const existing = gigsByPollie.get(gig.pollie_slug) || []
-    existing.push(gig)
-    gigsByPollie.set(gig.pollie_slug, existing)
+    const existing = gigsByPollie.get(gig.pollie_slug) || [];
+    existing.push(gig);
+    gigsByPollie.set(gig.pollie_slug, existing);
   }
-  return gigsByPollie
+  return gigsByPollie;
 }
 
 function generateGigsSection(gigs: Gig[]): string {
-  if (gigs.length === 0) return ""
+  if (gigs.length === 0) return "";
 
   const gigItems = gigs
     .map((gig) => {
       const dateRange = gig.end_date
         ? `${formatISODate(gig.start_date)} – ${formatISODate(gig.end_date)}`
-        : `${formatISODate(gig.start_date)} – present`
+        : `${formatISODate(gig.start_date)} – present`;
 
       return `  <dt>${gig.role}</dt>
   <dd>
     <p>${gig.organisation} (${gig.category})</p>
     <p>${dateRange}</p>
     <p><a href="${gig.verified_by}">${gig.source}</a></p>
-  </dd>`
+  </dd>`;
     })
-    .join("\n")
+    .join("\n");
 
   return `
 
@@ -140,20 +177,20 @@ function generateGigsSection(gigs: Gig[]): string {
 <dl>
 ${gigItems}
 </dl>
-`
+`;
 }
 
 function generateContent(pollie: Pollie, gigs: Gig[]): string {
-  const status = pollie.stillInOffice ? "In office" : pollie.reason
+  const status = pollie.stillInOffice ? "In office" : pollie.reason;
 
-  let leftOffice = ""
+  let leftOffice = "";
   if (!pollie.stillInOffice && pollie.ceasedDate) {
     leftOffice = `
   <dt>Left office</dt>
-  <dd>${formatDate(pollie.ceasedDate)} (${timeAgo(pollie.ceasedDate)})</dd>`
+  <dd>${formatDate(pollie.ceasedDate)} (${timeAgo(pollie.ceasedDate)})</dd>`;
   }
 
-  const gigsSection = generateGigsSection(gigs)
+  const gigsSection = generateGigsSection(gigs);
 
   return `<dl>
   <dt>Electorate</dt>
@@ -165,14 +202,14 @@ function generateContent(pollie: Pollie, gigs: Gig[]): string {
   <dt>Status</dt>
   <dd>${status}</dd>${leftOffice}
 </dl>
-${gigsSection}`
+${gigsSection}`;
 }
 
-declare const data: ReturnType<typeof transformData>
+declare const data: ReturnType<typeof transformData>;
 
 function transformData(pollies: Pollie[], gigsByPollie: Map<string, Gig[]>) {
   return pollies.map((pollie) => {
-    const pollieGigs = gigsByPollie.get(pollie.slug) || []
+    const pollieGigs = gigsByPollie.get(pollie.slug) || [];
     return {
       params: {
         slug: pollie.slug,
@@ -182,17 +219,17 @@ function transformData(pollies: Pollie[], gigsByPollie: Map<string, Gig[]>) {
         party: pollie.party,
       },
       content: generateContent(pollie, pollieGigs),
-    }
-  })
+    };
+  });
 }
 
-export { data }
+export { data };
 
 export default {
   async paths() {
-    const pollies = loadPollies()
-    const allGigs = await loadGigs()
-    const gigsByPollie = getGigsByPollie(allGigs)
-    return transformData(pollies, gigsByPollie)
+    const pollies = loadPollies();
+    const allGigs = await loadGigs();
+    const gigsByPollie = getGigsByPollie(allGigs);
+    return transformData(pollies, gigsByPollie);
   },
-}
+};
