@@ -165,12 +165,17 @@ export function generatePolliesPlugin(): Plugin {
     },
     configureServer(server) {
       const csvPath = resolve(rootDir, "data/representatives.csv");
+      let debounceTimer: ReturnType<typeof setTimeout> | null = null;
+
       server.watcher.add(csvPath);
       server.watcher.on("change", (path) => {
         if (path === csvPath) {
-          const count = generatePollies(rootDir);
-          console.log(`CSV changed, regenerated ${count} pollie pages`);
-          server.restart();
+          if (debounceTimer) clearTimeout(debounceTimer);
+          debounceTimer = setTimeout(() => {
+            const count = generatePollies(rootDir);
+            console.log(`CSV changed, regenerated ${count} pollie pages`);
+            server.restart();
+          }, 100);
         }
       });
     },
