@@ -49,14 +49,27 @@ export interface PollieListItem {
   division: string;
   state: string;
   party: string;
+  ceasedDate: string;
 }
 
-declare const data: PollieListItem[];
+export interface PolliesByDecade {
+  decade: string;
+  pollies: PollieListItem[];
+}
+
+declare const data: PolliesByDecade[];
 export { data };
+
+function getDecade(date: Date | null): string {
+  if (!date) return "Current";
+  const year = date.getFullYear();
+  const decadeStart = Math.floor(year / 10) * 10;
+  return `${decadeStart}s`;
+}
 
 export default {
   watch: ["../data/representatives.csv"],
-  load(): PollieListItem[] {
+  load(): PolliesByDecade[] {
     const csvPath = resolve(rootDir, "data/representatives.csv");
     if (!existsSync(csvPath)) {
       return [];
@@ -81,8 +94,6 @@ export default {
       if (!existing) {
         pollieMap.set(slug, { row, ceasedDate });
       } else {
-        // Prefer entry still in office (null ceasedDate)
-        // Otherwise prefer most recent ceasedDate
         const existingStillInOffice = existing.ceasedDate === null;
         const newStillInOffice = ceasedDate === null;
 
@@ -100,12 +111,49 @@ export default {
       }
     }
 
-    return Array.from(pollieMap.values()).map(({ row }) => ({
-      slug: slugify(row[2]),
-      name: row[2],
-      division: row[3] || "",
-      state: row[4] || "",
-      party: row[9] || "",
-    }));
+    const pollies = Array.from(pollieMap.values())
+      .map(({ row, ceasedDate }) => ({
+        slug: slugify(row[2]),
+        name: row[2],
+        division: row[3] || "",
+        state: row[4] || "",
+        party: row[9] || "",
+        ceasedDate: row[7] || "",
+        _ceasedDateParsed: ceasedDate,
+      }))
+      .sort((a, b) => {
+        // Current members first
+        if (!a._ceasedDateParsed && b._ceasedDateParsed) return -1;
+        if (a._ceasedDateParsed && !b._ceasedDateParsed) return 1;
+        // Then by date descending (most recent first)
+        if (a._ceasedDateParsed && b._ceasedDateParsed) {
+          return b._ceasedDateParsed.getTime() - a._ceasedDateParsed.getTime();
+        }
+        // Alphabetical for current members
+        return a.name.localeCompare(b.name);
+      });
+
+    const decadeMap = new Map<string, PollieListItem[]>();
+    for (const pollie of pollies) {
+      const decade = getDecade(pollie._ceasedDateParsed);
+      const list = decadeMap.get(decade) || [];
+      const { _ceasedDateParsed, ...pollieData } = pollie;
+      list.push(pollieData);
+      decadeMap.set(decade, list);
+    }
+
+    const decadeOrder = [
+      "Current",
+      ...Array.from(decadeMap.keys())
+        .filter((d) => d !== "Current")
+        .sort((a, b) => b.localeCompare(a)),
+    ];
+
+    return decadeOrder
+      .filter((decade) => decadeMap.has(decade))
+      .map((decade) => ({
+        decade,
+        pollies: decadeMap.get(decade)!,
+      }));
   },
 };
