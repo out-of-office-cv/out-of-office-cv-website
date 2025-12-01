@@ -1,9 +1,9 @@
-import { loadPollies } from '../data/pollies.data'
+import { loadPollies } from "../data/pollies.data";
 
 export default {
   paths() {
-    const pollies = loadPollies()
-    return pollies.map(pollie => ({
+    const pollies = loadPollies();
+    return pollies.map((pollie) => ({
       params: {
         slug: pollie.slug,
         name: pollie.name,
@@ -11,8 +11,9 @@ export default {
         state: pollie.state,
         party: pollie.party,
         stillInOffice: pollie.stillInOffice,
-        reason: pollie.reason
-      }
-    }))
-  }
-}
+        reason: pollie.reason,
+        ceasedDate: pollie.ceasedDate,
+      },
+    }));
+  },
+};
