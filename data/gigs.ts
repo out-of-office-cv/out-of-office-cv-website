@@ -4,7 +4,7 @@ export const gigs: Gig[] = [
   {
     role: "Executive Chairman",
     organisation: "Pyne and Partners",
-    category: "consulting",
+    category: "Professional Services & Management Consulting",
     source:
       "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/christopher-pyne.html",
     pollie_slug: "christopher-maurice-pyne",
@@ -13,7 +13,7 @@ export const gigs: Gig[] = [
   {
     role: "Independent Chair",
     organisation: "COTA Australia",
-    category: "advocacy",
+    category: "Nonprofit, NGO and Charity",
     source: "https://cota.org.au/news-items/our-new-chair/",
     pollie_slug: "christopher-maurice-pyne",
     start_date: "2024-02-15",
@@ -21,7 +21,7 @@ export const gigs: Gig[] = [
   {
     role: "Chair",
     organisation: "Vision 2020 Australia",
-    category: "health",
+    category: "Health, Medical & Aged Care",
     source:
       "https://mivision.com.au/2020/11/hon-chris-pyne-to-chair-vision-2020-australia/",
     pollie_slug: "christopher-maurice-pyne",
@@ -31,7 +31,7 @@ export const gigs: Gig[] = [
   {
     role: "Co-Chair",
     organisation: "Australia United Arab Emirates Business Council",
-    category: "lobbying",
+    category: "Professional Services & Management Consulting",
     source: "https://ausuaebc.com/cochairs",
     pollie_slug: "christopher-maurice-pyne",
     start_date: "2020-11-01",
@@ -39,7 +39,7 @@ export const gigs: Gig[] = [
   {
     role: "Chair, Advisory Board",
     organisation: "NIOA Group",
-    category: "defence",
+    category: "Defence & Military and Security",
     source:
       "https://defence.nioa.com.au/latest-news/former-defence-minister-heads-up-new-nioa-board",
     pollie_slug: "christopher-maurice-pyne",
@@ -48,7 +48,7 @@ export const gigs: Gig[] = [
   {
     role: "Chair, SA Governors Council",
     organisation: "American Chamber of Commerce in Australia",
-    category: "lobbying",
+    category: "Professional Services & Management Consulting",
     source:
       "https://www.icac.sa.gov.au/prevention-and-education/christopher-pyne",
     pollie_slug: "christopher-maurice-pyne",
@@ -57,7 +57,7 @@ export const gigs: Gig[] = [
   {
     role: "Director",
     organisation: "International Centre for Democratic Partnerships",
-    category: "lobbying",
+    category: "Diplomacy & International Relations",
     source: "https://michaelwest.com.au/christopher-pyne/",
     pollie_slug: "christopher-maurice-pyne",
     start_date: "2020-03-01",
@@ -65,7 +65,7 @@ export const gigs: Gig[] = [
   {
     role: "Non-Executive Director",
     organisation: "Xtek Ltd",
-    category: "defence",
+    category: "Defence & Military and Security",
     source:
       "https://www.proactiveinvestors.com/companies/news/935169/xtek-appoints-new-non-executive-director-in-former-minister-for-defence-christopher-pyne-935169.html",
     pollie_slug: "christopher-maurice-pyne",
@@ -74,7 +74,7 @@ export const gigs: Gig[] = [
   {
     role: "Council Member",
     organisation: "National Library of Australia",
-    category: "public-sector",
+    category: "Government, Public Administration & Civil Service",
     source:
       "https://www.library.gov.au/news-media/hon-christopher-pyne-appointed-national-library-australia-council",
     pollie_slug: "christopher-maurice-pyne",
@@ -83,7 +83,7 @@ export const gigs: Gig[] = [
   {
     role: "Industry Professor",
     organisation: "University of South Australia",
-    category: "education",
+    category: "Education, Academia & Research",
     source:
       "https://www.unisa.edu.au/Media-Centre/Releases/2019/weatherill-and-pyne-join-unisa-to-nurture--tomorrows-business-leaders/",
     pollie_slug: "christopher-maurice-pyne",
@@ -92,7 +92,7 @@ export const gigs: Gig[] = [
   {
     role: "Co-owner",
     organisation: "GC Advisory",
-    category: "lobbying",
+    category: "Professional Services & Management Consulting",
     source:
       "https://www.canberratimes.com.au/story/6357666/pyne-on-lobbyist-register-but-not-breaking-the-rules/",
     pollie_slug: "christopher-maurice-pyne",
@@ -101,7 +101,7 @@ export const gigs: Gig[] = [
   {
     role: "Advisory Board Member",
     organisation: "Orygen Institute",
-    category: "health",
+    category: "Health, Medical & Aged Care",
     source:
       "https://www.orygen.org.au/Orygen-Institute/External-Advisory-Board/Christopher-Pyne",
     pollie_slug: "christopher-maurice-pyne",
