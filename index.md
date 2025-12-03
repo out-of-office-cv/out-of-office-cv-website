@@ -2,7 +2,7 @@
 layout: home
 ---
 
-# Out of Office (AU)
+# Out of Office CV
 
 Australia has a strong democracy, and we need to make a conscious effort to keep
 it that way. While we have systems that track our representatives while they are

@@ -1,4 +1,4 @@
-project_name: "out-of-office"
+project_name: "outofoffice-cv"
 default_status: "To Do"
 statuses: ["To Do", "In Progress", "Done"]
 labels: []
