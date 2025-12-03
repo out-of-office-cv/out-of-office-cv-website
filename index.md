@@ -28,7 +28,7 @@ categories to make it easy to navigate.
 We are not politically affiliated and while our best efforts are made to ensure
 that the information is accurate, some errors may occur.
 
-If you would like more to contact us, please email [TODO](insert email) and you
-can find code on our github [TODO](TODO).
+If you would like more to contact us, please email [TODO](https://todo.com) and
+you can find code on our github [TODO](https://todo.com).
 
 <PollieList />
