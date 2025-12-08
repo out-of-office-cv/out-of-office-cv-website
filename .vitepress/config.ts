@@ -9,7 +9,10 @@ export default defineConfig({
   ignoreDeadLinks: false,
   themeConfig: {
     search: false,
-    nav: [{ text: "Home", link: "/" }],
+    nav: [
+      { text: "Home", link: "/" },
+      { text: "Add gigs", link: "/contribute" },
+    ],
     sidebar: [],
   },
 });

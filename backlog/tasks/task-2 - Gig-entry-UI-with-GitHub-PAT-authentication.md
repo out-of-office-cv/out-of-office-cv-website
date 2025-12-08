@@ -1,10 +1,10 @@
 ---
 id: task-2
 title: Gig entry UI with GitHub PAT authentication
-status: To Do
+status: Done
 assignee: []
 created_date: '2025-12-01 09:36'
-updated_date: '2025-12-08 04:52'
+updated_date: '2025-12-08 06:00'
 labels:
   - feature
   - frontend
@@ -37,23 +37,23 @@ be frictionless.
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 #1 Gig entry page with form UI for all Gig fields (role, organisation, category, source, pollie_slug, start_date, end_date)
+- [x] #1 #1 Gig entry page with form UI for all Gig fields (role, organisation, category, source, pollie_slug, start_date, end_date)
       category, source, pollie_slug, start_date, end_date)
-- [ ] #2 #2 Form validation matching the Gig TypeScript type (required fields, valid category enum, URL format for source, date format)
+- [x] #2 #2 Form validation matching the Gig TypeScript type (required fields, valid category enum, URL format for source, date format)
       valid category enum, URL format for source, date format)
-- [ ] #3 #3 Pollie slug field has autocomplete from existing pollies
-- [ ] #4 #4 Multiple gigs can be drafted before submitting
-- [ ] #5 #5 Draft gigs persist to localStorage
-- [ ] #6 #6 GitHub PAT authentication with clear setup instructions (link to token creation page with required scopes)
+- [x] #3 #3 Pollie slug field has autocomplete from existing pollies
+- [x] #4 #4 Multiple gigs can be drafted before submitting
+- [x] #5 #5 Draft gigs persist to localStorage
+- [x] #6 #6 GitHub PAT authentication with clear setup instructions (link to token creation page with required scopes)
       github.com/login/device)
-- [ ] #7 #7 PAT persists in localStorage across sessions with validation on page load
-- [ ] #8 #8 Authenticated users can create a PR with their gig entries
-- [ ] #9 #9 GitHub Action auto-merges PRs from users with write access
-- [ ] #10 #10 Navigation link to gig entry page in site header
+- [x] #7 #7 PAT persists in localStorage across sessions with validation on page load
+- [x] #8 #8 Authenticated users can create a PR with their gig entries
+- [x] #9 #9 GitHub Action auto-merges PRs from users with write access
+- [x] #10 #10 Navigation link to gig entry page in site header
 
-- [ ] #11 #11 Remember last pollie slug to streamline repeat entries
-- [ ] #12 #12 Show GitHub username when authenticated for confirmation
-- [ ] #13 #13 Display PR status after submission (created → merged)
+- [x] #11 #11 Remember last pollie slug to streamline repeat entries
+- [x] #12 #12 Show GitHub username when authenticated for confirmation
+- [x] #13 #13 Display PR status after submission (created → merged)
 <!-- AC:END -->
 
 ## Implementation Plan
