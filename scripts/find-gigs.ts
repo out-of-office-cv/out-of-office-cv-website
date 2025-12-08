@@ -160,8 +160,12 @@ export function selectPollie(
 function getSearchName(fullName: string): string {
   const parts = fullName.trim().split(/\s+/);
   if (parts.length <= 2) return fullName;
-  // Use first and last name only, dropping middle names
   return `${parts[0]} ${parts[parts.length - 1]}`;
+}
+
+function estimateCost(inputTokens: number, outputTokens: number): number {
+  // gpt-5-nano: $0.05/1M input, $0.40/1M output
+  return inputTokens * 0.00000005 + outputTokens * 0.0000004;
 }
 
 export function buildPrompt(pollie: Pollie): string {
@@ -287,7 +291,10 @@ export async function findGigsFromApi(pollie: Pollie): Promise<FoundGig[]> {
 
   if (response.usage) {
     const { input_tokens, output_tokens } = response.usage;
-    console.log(`  Tokens: ${input_tokens} in, ${output_tokens} out`);
+    const cost = estimateCost(input_tokens, output_tokens);
+    console.log(
+      `  Tokens: ${input_tokens} in, ${output_tokens} out ($${cost.toFixed(4)})`,
+    );
   }
 
   const outputText = response.output_text;
