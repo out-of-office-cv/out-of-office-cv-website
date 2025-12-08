@@ -59,20 +59,20 @@ const filteredData = computed(() => {
                     <span
                         :class="[
                             'badge',
-                            'badge-house',
-                            `badge-${pollie.house}`,
-                        ]"
-                    >
-                        {{ pollie.house === "senate" ? "Senator" : "MP" }}
-                    </span>
-                    <span
-                        :class="[
-                            'badge',
                             'badge-party',
                             `badge-party-${getPartyColour(pollie.party) || 'default'}`,
                         ]"
                     >
                         {{ pollie.party }}
+                    </span>
+                    <span
+                        :class="[
+                            'badge',
+                            'badge-house',
+                            `badge-${pollie.house}`,
+                        ]"
+                    >
+                        {{ pollie.house === "senate" ? "Senator" : "MP" }}
                     </span>
                     <span class="pollie-location">
                         {{ pollie.division || pollie.state

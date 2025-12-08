@@ -18,9 +18,6 @@ const props = defineProps<{
     <div class="pollie-header">
         <h1 class="pollie-name">{{ name }}</h1>
         <div class="pollie-badges">
-            <span :class="['badge', 'badge-house', `badge-${house}`]">
-                {{ house === "senate" ? "Senator" : "MP" }}
-            </span>
             <span
                 :class="[
                     'badge',
@@ -30,7 +27,13 @@ const props = defineProps<{
             >
                 {{ party }}
             </span>
-            <span v-if="stillInOffice" class="badge badge-status badge-in-office">
+            <span :class="['badge', 'badge-house', `badge-${house}`]">
+                {{ house === "senate" ? "Senator" : "MP" }}
+            </span>
+            <span
+                v-if="stillInOffice"
+                class="badge badge-status badge-in-office"
+            >
                 In office
             </span>
             <span v-else class="badge badge-status badge-left-office">
@@ -48,7 +51,9 @@ const props = defineProps<{
             </div>
             <div class="meta-item" v-if="!stillInOffice && leftOfficeDate">
                 <span class="meta-label">Left office</span>
-                <span class="meta-value">{{ leftOfficeDate }} ({{ leftOfficeAgo }})</span>
+                <span class="meta-value"
+                    >{{ leftOfficeDate }} ({{ leftOfficeAgo }})</span
+                >
             </div>
         </div>
     </div>
