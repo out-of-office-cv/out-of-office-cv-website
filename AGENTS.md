@@ -8,9 +8,15 @@ This static site is hosted at `https://www.outofoffice.cv` using GitHub Pages.
 
 ## Commands
 
-- `npm run dev` — development server
-- `npm run build` — production build
+- `npm run dev` — development server (includes TypeScript type checking)
+- `npm run build` — production build (includes TypeScript type checking)
 - `npm run test` — run integration tests
+
+## Type checking
+
+vite-plugin-checker runs TypeScript and Vue type checking during dev and build.
+Errors appear in the terminal and browser overlay. The build will fail on type
+errors.
 
 ## Structure
 
