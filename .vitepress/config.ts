@@ -11,6 +11,7 @@ export default defineConfig({
     search: false,
     nav: [
       { text: "Home", link: "/" },
+      { text: "About", link: "/about" },
       { text: "Add gigs", link: "/contribute" },
     ],
     sidebar: [],
