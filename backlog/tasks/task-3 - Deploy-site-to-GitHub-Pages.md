@@ -1,9 +1,10 @@
 ---
 id: task-3
 title: Deploy site to GitHub Pages
-status: To Do
+status: Done
 assignee: []
 created_date: '2025-12-01 09:44'
+updated_date: '2025-12-08 05:10'
 labels:
   - infrastructure
   - deployment
@@ -25,9 +26,9 @@ Requirements:
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 GitHub Actions workflow file exists in `.github/workflows/`
-- [ ] #2 Workflow triggers on push to main branch
-- [ ] #3 Uses matching Node.js version from local dev environment
-- [ ] #4 Site builds and deploys successfully to GitHub Pages
-- [ ] #5 Pages URL serves the live site
+- [x] #1 GitHub Actions workflow file exists in `.github/workflows/`
+- [x] #2 Workflow triggers on push to main branch
+- [x] #3 Uses matching Node.js version from local dev environment
+- [x] #4 Site builds and deploys successfully to GitHub Pages
+- [x] #5 Pages URL serves the live site
 <!-- AC:END -->
