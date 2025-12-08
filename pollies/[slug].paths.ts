@@ -109,15 +109,29 @@ function generateGigsSection(gigs: Gig[]): string {
 
   const gigItems = gigs
     .map((gig) => {
-      const dateRange = gig.end_date
-        ? `${formatISODate(gig.start_date)} – ${formatISODate(gig.end_date)}`
-        : `${formatISODate(gig.start_date)} – present`;
+      let dateRange: string;
+      if (gig.start_date) {
+        dateRange = gig.end_date
+          ? `${formatISODate(gig.start_date)} – ${formatISODate(gig.end_date)}`
+          : `${formatISODate(gig.start_date)} – present`;
+      } else {
+        dateRange = gig.end_date
+          ? `until ${formatISODate(gig.end_date)}`
+          : "dates unknown";
+      }
+
+      const sourcesHtml =
+        gig.sources.length === 1
+          ? `<a href="${gig.sources[0]}">${gig.sources[0]}</a>`
+          : gig.sources
+              .map((s, i) => `<a href="${s}">[${i + 1}]</a>`)
+              .join(" ");
 
       return `  <dt>${gig.role}</dt>
   <dd>
     <p>${gig.organisation} (${gig.category})</p>
     <p>${dateRange}</p>
-    <p>Source: <a href="${gig.source}">${gig.source}</a></p>
+    <p>Sources: ${sourcesHtml}</p>
   </dd>`;
     })
     .join("\n");

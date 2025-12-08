@@ -51,9 +51,9 @@ export interface Gig {
   role: string;
   organisation: string;
   category: GigCategory;
-  source: string;
+  sources: string[];
   verified_by?: string;
   pollie_slug: string;
-  start_date: string;
+  start_date?: string;
   end_date?: string;
 }

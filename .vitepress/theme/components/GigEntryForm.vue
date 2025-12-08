@@ -60,7 +60,7 @@ const editingGigId = ref<string | null>(null);
 const role = ref("");
 const organisation = ref("");
 const category = ref<GigCategory | "">("");
-const source = ref("");
+const sources = ref<string[]>([""]);
 const verifiedBy = ref("");
 const pollieSlug = ref("");
 const startDate = ref("");
@@ -170,13 +170,17 @@ function validateForm(): boolean {
     if (!organisation.value.trim())
         formErrors.value.organisation = "Organisation is required";
     if (!category.value) formErrors.value.category = "Category is required";
-    if (!source.value.trim()) {
-        formErrors.value.source = "Source URL is required";
+    const validSources = sources.value.filter((s) => s.trim());
+    if (validSources.length === 0) {
+        formErrors.value.sources = "At least one source URL is required";
     } else {
-        try {
-            new URL(source.value);
-        } catch {
-            formErrors.value.source = "Must be a valid URL";
+        for (const s of validSources) {
+            try {
+                new URL(s);
+            } catch {
+                formErrors.value.sources = "All sources must be valid URLs";
+                break;
+            }
         }
     }
     if (verifiedBy.value.trim()) {
@@ -188,9 +192,7 @@ function validateForm(): boolean {
     }
     if (!pollieSlug.value.trim())
         formErrors.value.pollieSlug = "Pollie slug is required";
-    if (!startDate.value) {
-        formErrors.value.startDate = "Start date is required";
-    } else if (!/^\d{4}-\d{2}-\d{2}$/.test(startDate.value)) {
+    if (startDate.value && !/^\d{4}-\d{2}-\d{2}$/.test(startDate.value)) {
         formErrors.value.startDate = "Must be YYYY-MM-DD format";
     }
     if (endDate.value && !/^\d{4}-\d{2}-\d{2}$/.test(endDate.value)) {
@@ -203,16 +205,20 @@ function validateForm(): boolean {
 function addOrUpdateGig() {
     if (!validateForm()) return;
 
+    const validSources = sources.value
+        .filter((s) => s.trim())
+        .map((s) => s.trim());
+
     const gig: DraftGig = {
         id: editingGigId.value || crypto.randomUUID(),
         role: role.value.trim(),
         organisation: organisation.value.trim(),
         category: category.value as GigCategory,
-        source: source.value.trim(),
+        sources: validSources,
         pollie_slug: pollieSlug.value.trim(),
-        start_date: startDate.value,
     };
 
+    if (startDate.value) gig.start_date = startDate.value;
     if (verifiedBy.value.trim()) gig.verified_by = verifiedBy.value.trim();
     if (endDate.value) gig.end_date = endDate.value;
 
@@ -236,13 +242,13 @@ function editGig(gig: DraftGig) {
     role.value = gig.role;
     organisation.value = gig.organisation;
     category.value = gig.category;
-    source.value = gig.source;
+    sources.value = gig.sources.length > 0 ? [...gig.sources] : [""];
     verifiedBy.value = gig.verified_by || "";
     pollieSlug.value = gig.pollie_slug;
     pollieSearch.value =
         polliesList.find((p) => p.slug === gig.pollie_slug)?.name ||
         gig.pollie_slug;
-    startDate.value = gig.start_date;
+    startDate.value = gig.start_date || "";
     endDate.value = gig.end_date || "";
 }
 
@@ -259,7 +265,7 @@ function clearForm() {
     role.value = "";
     organisation.value = "";
     category.value = "";
-    source.value = "";
+    sources.value = [""];
     verifiedBy.value = "";
     startDate.value = "";
     endDate.value = "";
@@ -333,18 +339,25 @@ function disconnectGitHub() {
 }
 
 function formatGigForTs(gig: DraftGig): string {
+    const sourcesStr =
+        gig.sources.length === 1
+            ? `[${JSON.stringify(gig.sources[0])}]`
+            : `[\n      ${gig.sources.map((s) => JSON.stringify(s)).join(",\n      ")},\n    ]`;
+
     const lines = [
         "  {",
         `    role: ${JSON.stringify(gig.role)},`,
         `    organisation: ${JSON.stringify(gig.organisation)},`,
         `    category: ${JSON.stringify(gig.category)},`,
-        `    source: ${JSON.stringify(gig.source)},`,
+        `    sources: ${sourcesStr},`,
     ];
     if (gig.verified_by) {
         lines.push(`    verified_by: ${JSON.stringify(gig.verified_by)},`);
     }
     lines.push(`    pollie_slug: ${JSON.stringify(gig.pollie_slug)},`);
-    lines.push(`    start_date: ${JSON.stringify(gig.start_date)},`);
+    if (gig.start_date) {
+        lines.push(`    start_date: ${JSON.stringify(gig.start_date)},`);
+    }
     if (gig.end_date) {
         lines.push(`    end_date: ${JSON.stringify(gig.end_date)},`);
     }
@@ -385,9 +398,9 @@ function addVerifiedByToGig(
 
         if (currentGigIndex === gigIndex && braceDepth === 1) {
             if (
-                (line.includes("source:") &&
+                (line.includes("sources:") &&
                     !content.includes(`verified_by:`)) ||
-                (line.includes("source:") &&
+                (line.includes("sources:") &&
                     lines
                         .slice(0, i + 1)
                         .filter((l) => l.includes("verified_by:")).length <=
@@ -412,7 +425,6 @@ function addVerifiedByToGigByMatching(
     const roleStr = JSON.stringify(gig.role);
     const orgStr = JSON.stringify(gig.organisation);
     const pollieStr = JSON.stringify(gig.pollie_slug);
-    const startStr = JSON.stringify(gig.start_date);
 
     const lines = content.split("\n");
     let inTargetGig = false;
@@ -426,13 +438,12 @@ function addVerifiedByToGigByMatching(
             line.includes(`role:${roleStr}`)
         ) {
             let checkStart = Math.max(0, i - 2);
-            let checkEnd = Math.min(lines.length - 1, i + 10);
+            let checkEnd = Math.min(lines.length - 1, i + 15);
             let slice = lines.slice(checkStart, checkEnd + 1).join("\n");
 
             if (
                 slice.includes(`organisation: ${orgStr}`) &&
-                slice.includes(`pollie_slug: ${pollieStr}`) &&
-                slice.includes(`start_date: ${startStr}`)
+                slice.includes(`pollie_slug: ${pollieStr}`)
             ) {
                 inTargetGig = true;
                 braceDepth = 1;
@@ -443,11 +454,21 @@ function addVerifiedByToGigByMatching(
             if (line.includes("{")) braceDepth++;
             if (line.includes("}")) braceDepth--;
 
-            if (line.includes("source:")) {
-                const indent = line.match(/^(\s*)/)?.[1] || "    ";
-                const verifiedByLine = `${indent}verified_by: ${JSON.stringify(verifier)},`;
-                lines.splice(i + 1, 0, verifiedByLine);
-                return lines.join("\n");
+            if (line.includes("sources:")) {
+                let insertIndex = i + 1;
+                while (
+                    insertIndex < lines.length &&
+                    !lines[insertIndex].includes("],")
+                ) {
+                    insertIndex++;
+                }
+                if (insertIndex < lines.length) {
+                    const indent =
+                        lines[insertIndex].match(/^(\s*)/)?.[1] || "    ";
+                    const verifiedByLine = `${indent}verified_by: ${JSON.stringify(verifier)},`;
+                    lines.splice(insertIndex + 1, 0, verifiedByLine);
+                    return lines.join("\n");
+                }
             }
 
             if (braceDepth === 0) {
@@ -934,10 +955,7 @@ watch(pollieSearch, (val) => {
 
                     <div class="form-row two-col">
                         <div class="form-group">
-                            <label for="start-date"
-                                >Start date
-                                <span class="required">*</span></label
-                            >
+                            <label for="start-date">Start date</label>
                             <input
                                 id="start-date"
                                 v-model="startDate"
@@ -962,18 +980,41 @@ watch(pollieSearch, (val) => {
 
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="source"
-                                >Source URL
+                            <label
+                                >Source URLs
                                 <span class="required">*</span></label
                             >
-                            <input
-                                id="source"
-                                v-model="source"
-                                type="url"
-                                placeholder="https://..."
-                            />
-                            <p v-if="formErrors.source" class="error-text">
-                                {{ formErrors.source }}
+                            <div class="sources-list">
+                                <div
+                                    v-for="(_, index) in sources"
+                                    :key="index"
+                                    class="source-row"
+                                >
+                                    <input
+                                        v-model="sources[index]"
+                                        type="url"
+                                        placeholder="https://..."
+                                    />
+                                    <button
+                                        v-if="sources.length > 1"
+                                        type="button"
+                                        class="btn-icon btn-danger"
+                                        title="Remove source"
+                                        @click="sources.splice(index, 1)"
+                                    >
+                                        ×
+                                    </button>
+                                </div>
+                            </div>
+                            <button
+                                type="button"
+                                class="btn-secondary btn-small"
+                                @click="sources.push('')"
+                            >
+                                + Add another source
+                            </button>
+                            <p v-if="formErrors.sources" class="error-text">
+                                {{ formErrors.sources }}
                             </p>
                         </div>
                     </div>
@@ -1206,21 +1247,34 @@ watch(pollieSearch, (val) => {
                                     <dd>{{ gig.category }}</dd>
                                     <dt>Dates</dt>
                                     <dd>
-                                        {{ gig.start_date }}
+                                        {{
+                                            gig.start_date
+                                                ? gig.start_date
+                                                : "unknown"
+                                        }}
                                         {{
                                             gig.end_date
                                                 ? `– ${gig.end_date}`
                                                 : "– present"
                                         }}
                                     </dd>
-                                    <dt>Source</dt>
+                                    <dt>Sources</dt>
                                     <dd>
-                                        <a
-                                            :href="gig.source"
-                                            target="_blank"
-                                            rel="noopener"
-                                            >{{ gig.source }}</a
+                                        <template
+                                            v-for="(src, i) in gig.sources"
+                                            :key="i"
                                         >
+                                            <a
+                                                :href="src"
+                                                target="_blank"
+                                                rel="noopener"
+                                                >{{ src }}</a
+                                            ><br
+                                                v-if="
+                                                    i < gig.sources.length - 1
+                                                "
+                                            />
+                                        </template>
                                     </dd>
                                 </dl>
                             </div>
@@ -1489,6 +1543,34 @@ h3 {
 
 .autocomplete-wrapper {
     position: relative;
+}
+
+.sources-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.source-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.source-row input {
+    flex: 1;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--vp-c-border);
+    border-radius: 4px;
+    background: var(--vp-c-bg);
+    color: var(--vp-c-text-1);
+    font-size: 1rem;
+}
+
+.source-row input:focus {
+    outline: none;
+    border-color: var(--vp-c-brand-1);
 }
 
 .autocomplete-results {
