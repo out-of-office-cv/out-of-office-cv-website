@@ -9,7 +9,7 @@
     "build": "vitepress build",
     "preview": "vitepress preview",
     "test": "vitest run",
-    "update-data": "curl -sL https://raw.githubusercontent.com/openaustralia/openaustralia-parser/main/data/representatives.csv -o data/representatives.csv"
+    "update-data": "curl -sL https://raw.githubusercontent.com/openaustralia/openaustralia-parser/main/data/representatives.csv -o data/representatives.csv && curl -sL https://raw.githubusercontent.com/openaustralia/openaustralia-parser/main/data/senators.csv -o data/senators.csv"
   },
   "keywords": [],
   "author": "",

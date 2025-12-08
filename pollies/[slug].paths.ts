@@ -15,14 +15,26 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = resolve(__dirname, "..");
 
 function loadPollies(): Pollie[] {
-  const csvPath = resolve(rootDir, "data/representatives.csv");
-  if (!existsSync(csvPath)) {
-    return [];
+  const repsCsvPath = resolve(rootDir, "data/representatives.csv");
+  const senatorsCsvPath = resolve(rootDir, "data/senators.csv");
+
+  const dataRows: string[][] = [];
+
+  if (existsSync(repsCsvPath)) {
+    const content = readFileSync(repsCsvPath, "utf-8");
+    const rows = parseCSV(content);
+    dataRows.push(...rows.slice(1));
   }
 
-  const content = readFileSync(csvPath, "utf-8");
-  const rows = parseCSV(content);
-  const [, ...dataRows] = rows;
+  if (existsSync(senatorsCsvPath)) {
+    const content = readFileSync(senatorsCsvPath, "utf-8");
+    const rows = parseCSV(content);
+    dataRows.push(...rows.slice(1));
+  }
+
+  if (dataRows.length === 0) {
+    return [];
+  }
 
   const pollieMap = new Map<
     string,
