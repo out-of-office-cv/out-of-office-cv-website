@@ -27,6 +27,14 @@ function getDateRange(gig: Gig): string {
     }
     return gig.end_date ? `until ${formatDate(gig.end_date)}` : "";
 }
+
+function getHostname(url: string): string {
+    try {
+        return new URL(url).hostname;
+    } catch {
+        return url;
+    }
+}
 </script>
 
 <template>
@@ -47,22 +55,17 @@ function getDateRange(gig: Gig): string {
                     }}</span>
                 </div>
                 <div class="gig-sources">
-                    <template v-if="gig.sources.length === 1">
-                        <a :href="gig.sources[0]" target="_blank" rel="noopener"
-                            >Source</a
-                        >
-                    </template>
-                    <template v-else>
-                        <span>Sources: </span>
+                    <span>{{
+                        gig.sources.length === 1 ? "Source: " : "Sources: "
+                    }}</span>
+                    <template v-for="(source, i) in gig.sources" :key="i">
                         <a
-                            v-for="(source, i) in gig.sources"
-                            :key="i"
                             :href="source"
                             target="_blank"
                             rel="noopener"
                             class="source-link"
-                            >[{{ i + 1 }}]</a
-                        >
+                            >{{ getHostname(source) }}</a
+                        ><span v-if="i < gig.sources.length - 1">, </span>
                     </template>
                 </div>
             </li>

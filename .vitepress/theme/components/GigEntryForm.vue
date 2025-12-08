@@ -149,6 +149,14 @@ function getPollieNameBySlug(slug: string): string {
     return pollie?.name || slug;
 }
 
+function getHostname(url: string): string {
+    try {
+        return new URL(url).hostname;
+    } catch {
+        return url;
+    }
+}
+
 function toggleVerifySelection(index: number) {
     if (selectedVerifyIndices.value.has(index)) {
         selectedVerifyIndices.value.delete(index);
@@ -1270,7 +1278,13 @@ watch(pollieSearch, (val) => {
                                                 : "– present"
                                         }}
                                     </dd>
-                                    <dt>Sources</dt>
+                                    <dt>
+                                        {{
+                                            gig.sources.length === 1
+                                                ? "Source"
+                                                : "Sources"
+                                        }}
+                                    </dt>
                                     <dd>
                                         <template
                                             v-for="(src, i) in gig.sources"
@@ -1280,12 +1294,13 @@ watch(pollieSearch, (val) => {
                                                 :href="src"
                                                 target="_blank"
                                                 rel="noopener"
-                                                >{{ src }}</a
-                                            ><br
+                                                >{{ getHostname(src) }}</a
+                                            ><span
                                                 v-if="
                                                     i < gig.sources.length - 1
                                                 "
-                                            />
+                                                >,
+                                            </span>
                                         </template>
                                     </dd>
                                 </dl>
