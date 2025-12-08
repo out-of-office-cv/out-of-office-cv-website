@@ -20,4 +20,4 @@ const { params } = useData()
     :left-office-ago="params.leftOfficeAgo"
 />
 
-<!-- @content -->
+<GigList :gigs="params.gigs" />

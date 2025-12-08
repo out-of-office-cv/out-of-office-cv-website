@@ -124,7 +124,8 @@ export const gigs: Gig[] = [
 
     expect(content).toContain("Post-office roles");
     expect(content).toContain("Board Member");
-    expect(content).toContain("Test Corp (consulting)");
+    expect(content).toContain("Test Corp");
+    expect(content).toContain("consulting");
     expect(content).toContain("15 June 2020");
     expect(content).toContain("present");
   });
