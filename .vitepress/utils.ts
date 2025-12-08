@@ -68,3 +68,32 @@ export function timeAgo(dateStr: string): string {
   const years = Math.floor(months / 12);
   return `${years} year${years === 1 ? "" : "s"} ago`;
 }
+
+export type PartyColour =
+  | "red"
+  | "blue"
+  | "green"
+  | "grey"
+  | "orange"
+  | "purple";
+
+const partyColourMap: Record<string, PartyColour> = {
+  ALP: "red",
+  LIB: "blue",
+  LNP: "blue",
+  CLP: "blue",
+  NPA: "green",
+  NP: "green",
+  Nats: "green",
+  NCP: "green",
+  GRN: "green",
+  IND: "grey",
+  PHON: "orange",
+  UAP: "orange",
+  PUP: "orange",
+  AD: "purple",
+};
+
+export function getPartyColour(party: string): PartyColour | null {
+  return partyColourMap[party] ?? null;
+}

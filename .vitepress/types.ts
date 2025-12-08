@@ -1,3 +1,5 @@
+export type House = "senate" | "reps";
+
 export interface Pollie {
   slug: string;
   name: string;
@@ -7,11 +9,12 @@ export interface Pollie {
   ceasedDate: string;
   reason: string;
   stillInOffice: boolean;
+  house: House;
 }
 
 export type PollieListItem = Pick<
   Pollie,
-  "slug" | "name" | "division" | "state" | "party" | "ceasedDate"
+  "slug" | "name" | "division" | "state" | "party" | "ceasedDate" | "house"
 >;
 
 export interface PolliesByDecade {

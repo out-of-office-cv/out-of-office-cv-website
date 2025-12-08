@@ -28,18 +28,22 @@ export default {
     const repsCsvPath = resolve(rootDir, "data/representatives.csv");
     const senatorsCsvPath = resolve(rootDir, "data/senators.csv");
 
-    const dataRows: string[][] = [];
+    const dataRows: { row: string[]; house: "reps" | "senate" }[] = [];
 
     if (existsSync(repsCsvPath)) {
       const content = readFileSync(repsCsvPath, "utf-8");
       const rows = parseCSV(content);
-      dataRows.push(...rows.slice(1));
+      dataRows.push(
+        ...rows.slice(1).map((row) => ({ row, house: "reps" as const })),
+      );
     }
 
     if (existsSync(senatorsCsvPath)) {
       const content = readFileSync(senatorsCsvPath, "utf-8");
       const rows = parseCSV(content);
-      dataRows.push(...rows.slice(1));
+      dataRows.push(
+        ...rows.slice(1).map((row) => ({ row, house: "senate" as const })),
+      );
     }
 
     if (dataRows.length === 0) {
@@ -48,10 +52,10 @@ export default {
 
     const pollieMap = new Map<
       string,
-      { row: string[]; ceasedDate: Date | null }
+      { row: string[]; ceasedDate: Date | null; house: "reps" | "senate" }
     >();
 
-    for (const row of dataRows) {
+    for (const { row, house } of dataRows) {
       if (!row[2]) continue;
 
       const slug = slugify(row[2]);
@@ -59,13 +63,13 @@ export default {
       const existing = pollieMap.get(slug);
 
       if (!existing) {
-        pollieMap.set(slug, { row, ceasedDate });
+        pollieMap.set(slug, { row, ceasedDate, house });
       } else {
         const existingStillInOffice = existing.ceasedDate === null;
         const newStillInOffice = ceasedDate === null;
 
         if (newStillInOffice && !existingStillInOffice) {
-          pollieMap.set(slug, { row, ceasedDate });
+          pollieMap.set(slug, { row, ceasedDate, house });
         } else if (
           !existingStillInOffice &&
           !newStillInOffice &&
@@ -73,19 +77,20 @@ export default {
           existing.ceasedDate &&
           ceasedDate > existing.ceasedDate
         ) {
-          pollieMap.set(slug, { row, ceasedDate });
+          pollieMap.set(slug, { row, ceasedDate, house });
         }
       }
     }
 
     const pollies: PollieWithParsedDate[] = Array.from(pollieMap.values())
-      .map(({ row, ceasedDate }) => ({
+      .map(({ row, ceasedDate, house }) => ({
         slug: slugify(row[2]),
         name: row[2],
         division: row[3] || "",
         state: row[4] || "",
         party: row[9] || "",
         ceasedDate: row[7] || "",
+        house,
         _ceasedDateParsed: ceasedDate,
       }))
       .sort((a, b) => {
