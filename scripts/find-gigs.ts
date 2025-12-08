@@ -174,7 +174,7 @@ Background:
 - Left parliament: ${ceasedDateFormatted}
 - Reason for leaving: ${pollie.reason || "unknown"}
 
-Find any roles, positions, or jobs they have taken since leaving parliament. This includes:
+Find ALL roles, positions, or jobs they have taken since leaving parliament. Return every role you can find with verifiable sources. This includes:
 - Board positions (director, chair, advisory board member)
 - Consulting or lobbying work
 - Academic positions (professor, fellow, visiting scholar)
@@ -195,6 +195,7 @@ Important:
 - Only include roles taken AFTER leaving parliament
 - Each role MUST have at least one verifiable source URL
 - Do not include speculation or unverified claims
+- Return ALL roles found, not just the most prominent one
 - If no post-parliamentary roles can be found with sources, return an empty array`;
 }
 
@@ -225,15 +226,23 @@ export const gigSchema = {
             description: "URLs that verify this role",
           },
           start_date: {
-            type: "string" as const,
-            description: "Start date in YYYY-MM-DD format, if known",
+            type: ["string", "null"] as const,
+            description: "Start date in YYYY-MM-DD format, or null if unknown",
           },
           end_date: {
-            type: "string" as const,
-            description: "End date in YYYY-MM-DD format, if the role has ended",
+            type: ["string", "null"] as const,
+            description:
+              "End date in YYYY-MM-DD format, or null if ongoing/unknown",
           },
         },
-        required: ["role", "organisation", "category", "sources"] as const,
+        required: [
+          "role",
+          "organisation",
+          "category",
+          "sources",
+          "start_date",
+          "end_date",
+        ] as const,
         additionalProperties: false,
       },
     },
@@ -266,6 +275,11 @@ export async function findGigsFromApi(pollie: Pollie): Promise<FoundGig[]> {
       },
     },
   });
+
+  if (response.usage) {
+    const { input_tokens, output_tokens } = response.usage;
+    console.log(`  Tokens: ${input_tokens} in, ${output_tokens} out`);
+  }
 
   const outputText = response.output_text;
   if (!outputText) {
