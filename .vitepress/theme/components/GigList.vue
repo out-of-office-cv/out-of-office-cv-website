@@ -1,9 +1,14 @@
 <script setup lang="ts">
+import { computed } from "vue";
 import type { Gig } from "../../types";
 
-defineProps<{
+const props = defineProps<{
     gigs: Gig[];
 }>();
+
+const verifiedGigs = computed(() =>
+    props.gigs.filter((gig) => gig.verified_by),
+);
 
 function formatDate(isoDateStr: string): string {
     const date = new Date(isoDateStr);
@@ -25,10 +30,14 @@ function getDateRange(gig: Gig): string {
 </script>
 
 <template>
-    <div v-if="gigs.length > 0" class="gig-section">
+    <div v-if="verifiedGigs.length > 0" class="gig-section">
         <h2>Post-office roles</h2>
         <ul class="gig-list">
-            <li v-for="(gig, index) in gigs" :key="index" class="gig-card">
+            <li
+                v-for="(gig, index) in verifiedGigs"
+                :key="index"
+                class="gig-card"
+            >
                 <div class="gig-role">{{ gig.role }}</div>
                 <div class="gig-organisation">{{ gig.organisation }}</div>
                 <div class="gig-meta">

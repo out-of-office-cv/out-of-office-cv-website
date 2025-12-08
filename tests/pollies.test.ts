@@ -98,6 +98,7 @@ export const gigs: Gig[] = [
     sources: ["https://example.com/source"],
     pollie_slug: "anthony-john-abbott",
     start_date: "2020-06-15",
+    verified_by: "test",
   },
   {
     role: "Advisor",
@@ -107,6 +108,7 @@ export const gigs: Gig[] = [
     pollie_slug: "anthony-john-abbott",
     start_date: "2021-01-01",
     end_date: "2022-12-31",
+    verified_by: "test",
   },
 ]
 `;
