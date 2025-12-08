@@ -789,11 +789,11 @@ watch(pollieSearch, (val) => {
                     To submit gigs, you need a GitHub Personal Access Token
                     (PAT). This is a one-time setup that takes about a minute.
                 </p>
-                <h3>How to create a token</h3>
+                <h3>How to create a classic token</h3>
                 <ol class="setup-steps">
                     <li>
                         <a
-                            href="https://github.com/settings/tokens/new?scopes=repo&description=Out%20of%20Office%20CV"
+                            href="https://github.com/settings/tokens/new?scopes=public_repo&description=Out%20of%20Office%20CV"
                             target="_blank"
                             rel="noopener"
                         >
@@ -804,7 +804,8 @@ watch(pollieSearch, (val) => {
                     <li>
                         The form should be pre-filled. If not, add a note like
                         "Out of Office CV" and tick the
-                        <code>repo</code> checkbox under scopes.
+                        <code>public_repo</code> checkbox under scopes (this is
+                        the minimum permission needed).
                     </li>
                     <li>
                         Scroll down and click <strong>Generate token</strong>
