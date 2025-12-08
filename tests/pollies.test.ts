@@ -24,6 +24,14 @@ describe("pollie page generation", () => {
     expect(index).toContain("/pollies/anthony-norman-albanese");
   });
 
+  it("filters out pollies from before the 1980s on the index", () => {
+    const index = readFileSync(resolve(distDir, "index.html"), "utf-8");
+    expect(index).not.toMatch(/1970s/);
+    expect(index).not.toMatch(/1960s/);
+    expect(index).not.toMatch(/1950s/);
+    expect(index).toContain("1980s");
+  });
+
   it("generates individual pollie pages with correct content", () => {
     const albanesePath = resolve(
       distPolliesDir,
