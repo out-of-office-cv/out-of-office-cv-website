@@ -94,7 +94,7 @@ export const gigs: Gig[] = [
   {
     role: "Board Member",
     organisation: "Test Corp",
-    category: "consulting",
+    category: "Professional Services & Management Consulting",
     sources: ["https://example.com/source"],
     pollie_slug: "anthony-john-abbott",
     start_date: "2020-06-15",
@@ -103,7 +103,7 @@ export const gigs: Gig[] = [
   {
     role: "Advisor",
     organisation: "Another Org",
-    category: "lobbying",
+    category: "Government, Public Administration & Civil Service",
     sources: ["https://example.com/other"],
     pollie_slug: "anthony-john-abbott",
     start_date: "2021-01-01",
@@ -127,7 +127,9 @@ export const gigs: Gig[] = [
     expect(content).toContain("Post-office roles");
     expect(content).toContain("Board Member");
     expect(content).toContain("Test Corp");
-    expect(content).toContain("consulting");
+    expect(content).toContain(
+      "Professional Services &amp; Management Consulting",
+    );
     expect(content).toContain("15 June 2020");
     expect(content).toContain("present");
   });
