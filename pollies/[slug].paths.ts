@@ -1,7 +1,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import type { Pollie, Gig } from "../.vitepress/types";
+import type { Pollie, Gig, House } from "../.vitepress/types";
 import {
   parseCSV,
   slugify,
@@ -18,18 +18,22 @@ function loadPollies(): Pollie[] {
   const repsCsvPath = resolve(rootDir, "data/representatives.csv");
   const senatorsCsvPath = resolve(rootDir, "data/senators.csv");
 
-  const dataRows: string[][] = [];
+  const dataRows: { row: string[]; house: House }[] = [];
 
   if (existsSync(repsCsvPath)) {
     const content = readFileSync(repsCsvPath, "utf-8");
     const rows = parseCSV(content);
-    dataRows.push(...rows.slice(1));
+    dataRows.push(
+      ...rows.slice(1).map((row) => ({ row, house: "reps" as const })),
+    );
   }
 
   if (existsSync(senatorsCsvPath)) {
     const content = readFileSync(senatorsCsvPath, "utf-8");
     const rows = parseCSV(content);
-    dataRows.push(...rows.slice(1));
+    dataRows.push(
+      ...rows.slice(1).map((row) => ({ row, house: "senate" as const })),
+    );
   }
 
   if (dataRows.length === 0) {
@@ -38,10 +42,10 @@ function loadPollies(): Pollie[] {
 
   const pollieMap = new Map<
     string,
-    { row: string[]; ceasedDate: Date | null }
+    { row: string[]; ceasedDate: Date | null; house: House }
   >();
 
-  for (const row of dataRows) {
+  for (const { row, house } of dataRows) {
     if (!row[2]) continue;
 
     const slug = slugify(row[2]);
@@ -49,13 +53,13 @@ function loadPollies(): Pollie[] {
     const existing = pollieMap.get(slug);
 
     if (!existing) {
-      pollieMap.set(slug, { row, ceasedDate });
+      pollieMap.set(slug, { row, ceasedDate, house });
     } else {
       const existingStillInOffice = existing.ceasedDate === null;
       const newStillInOffice = ceasedDate === null;
 
       if (newStillInOffice && !existingStillInOffice) {
-        pollieMap.set(slug, { row, ceasedDate });
+        pollieMap.set(slug, { row, ceasedDate, house });
       } else if (
         !existingStillInOffice &&
         !newStillInOffice &&
@@ -63,12 +67,12 @@ function loadPollies(): Pollie[] {
         existing.ceasedDate &&
         ceasedDate > existing.ceasedDate
       ) {
-        pollieMap.set(slug, { row, ceasedDate });
+        pollieMap.set(slug, { row, ceasedDate, house });
       }
     }
   }
 
-  return Array.from(pollieMap.values()).map(({ row }) => ({
+  return Array.from(pollieMap.values()).map(({ row, house }) => ({
     slug: slugify(row[2]),
     name: row[2],
     division: row[3] || "",
@@ -77,6 +81,7 @@ function loadPollies(): Pollie[] {
     ceasedDate: row[7] || "",
     reason: row[8] || "",
     stillInOffice: row[8] === "still_in_office",
+    house,
   }));
 }
 
@@ -128,28 +133,7 @@ ${gigItems}
 }
 
 function generateContent(pollie: Pollie, gigs: Gig[]): string {
-  const status = pollie.stillInOffice ? "In office" : pollie.reason;
-
-  let leftOffice = "";
-  if (!pollie.stillInOffice && pollie.ceasedDate) {
-    leftOffice = `
-  <dt>Left office</dt>
-  <dd>${formatDate(pollie.ceasedDate)} (${timeAgo(pollie.ceasedDate)})</dd>`;
-  }
-
-  const gigsSection = generateGigsSection(gigs);
-
-  return `<dl>
-  <dt>Electorate</dt>
-  <dd>${pollie.division}</dd>
-  <dt>State</dt>
-  <dd>${pollie.state}</dd>
-  <dt>Party</dt>
-  <dd>${pollie.party}</dd>
-  <dt>Status</dt>
-  <dd>${status}</dd>${leftOffice}
-</dl>
-${gigsSection}`;
+  return generateGigsSection(gigs);
 }
 
 interface PolliePath {
@@ -159,6 +143,10 @@ interface PolliePath {
     division: string;
     state: string;
     party: string;
+    house: House;
+    stillInOffice: boolean;
+    leftOfficeDate: string;
+    leftOfficeAgo: string;
   };
   content: string;
 }
@@ -178,6 +166,10 @@ function transformData(
         division: pollie.division,
         state: pollie.state,
         party: pollie.party,
+        house: pollie.house,
+        stillInOffice: pollie.stillInOffice,
+        leftOfficeDate: pollie.ceasedDate ? formatDate(pollie.ceasedDate) : "",
+        leftOfficeAgo: pollie.ceasedDate ? timeAgo(pollie.ceasedDate) : "",
       },
       content: generateContent(pollie, pollieGigs),
     };

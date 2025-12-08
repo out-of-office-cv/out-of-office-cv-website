@@ -9,6 +9,15 @@ const { params } = useData()
 
 <PollieSearch />
 
-# {{ params.name }}
+<PollieHeader
+    :name="params.name"
+    :division="params.division"
+    :state="params.state"
+    :party="params.party"
+    :house="params.house"
+    :still-in-office="params.stillInOffice"
+    :left-office-date="params.leftOfficeDate"
+    :left-office-ago="params.leftOfficeAgo"
+/>
 
 <!-- @content -->
