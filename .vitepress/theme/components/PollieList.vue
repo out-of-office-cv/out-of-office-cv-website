@@ -46,27 +46,41 @@ const filteredData = computed(() => {
 
     <template v-for="group of filteredData" :key="group.decade">
         <h2>{{ group.decade }}</h2>
-        <ul>
-            <li v-for="pollie of group.pollies" :key="pollie.slug">
-                <a :href="'/pollies/' + pollie.slug">{{ pollie.name }}</a>
-                <span
-                    :class="['badge', 'badge-house', `badge-${pollie.house}`]"
-                >
-                    {{ pollie.house === "senate" ? "Senator" : "MP" }}
-                </span>
-                <span
-                    :class="[
-                        'badge',
-                        'badge-party',
-                        `badge-party-${getPartyColour(pollie.party) || 'default'}`,
-                    ]"
-                >
-                    {{ pollie.party }}
-                </span>
-                — {{ pollie.division || pollie.state
-                }}<template v-if="pollie.division"
-                    >, {{ pollie.state }}</template
-                >
+        <ul class="pollie-list">
+            <li
+                v-for="pollie of group.pollies"
+                :key="pollie.slug"
+                class="pollie-card"
+            >
+                <a :href="'/pollies/' + pollie.slug" class="pollie-name">{{
+                    pollie.name
+                }}</a>
+                <div class="pollie-meta">
+                    <span
+                        :class="[
+                            'badge',
+                            'badge-house',
+                            `badge-${pollie.house}`,
+                        ]"
+                    >
+                        {{ pollie.house === "senate" ? "Senator" : "MP" }}
+                    </span>
+                    <span
+                        :class="[
+                            'badge',
+                            'badge-party',
+                            `badge-party-${getPartyColour(pollie.party) || 'default'}`,
+                        ]"
+                    >
+                        {{ pollie.party }}
+                    </span>
+                    <span class="pollie-location">
+                        {{ pollie.division || pollie.state
+                        }}<template v-if="pollie.division"
+                            >, {{ pollie.state }}</template
+                        >
+                    </span>
+                </div>
             </li>
         </ul>
     </template>
@@ -93,14 +107,51 @@ const filteredData = computed(() => {
     color: var(--vp-c-text-3);
 }
 
+.pollie-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 0.75rem;
+}
+
+.pollie-card {
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--vp-c-border);
+    border-radius: 8px;
+    background: var(--vp-c-bg-soft);
+}
+
+.pollie-name {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--vp-c-text-1);
+    text-decoration: none;
+    margin-bottom: 0.375rem;
+}
+
+.pollie-name:hover {
+    color: var(--vp-c-brand-1);
+}
+
+.pollie-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.pollie-location {
+    color: var(--vp-c-text-2);
+    font-size: 0.875rem;
+}
+
 .badge {
     display: inline-block;
     font-size: 0.75rem;
     font-weight: 500;
     padding: 0.125rem 0.5rem;
     border-radius: 4px;
-    margin-left: 0.5rem;
-    vertical-align: middle;
 }
 
 .badge-senate {
