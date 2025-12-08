@@ -104,6 +104,9 @@ export default {
 
     const decadeMap = new Map<string, PollieListItem[]>();
     for (const pollie of pollies) {
+      // Skip pollies still in office
+      if (!pollie._ceasedDateParsed) continue;
+
       const decade = getDecade(pollie._ceasedDateParsed);
       const list = decadeMap.get(decade) || [];
       const { _ceasedDateParsed, ...pollieData } = pollie;
@@ -111,12 +114,9 @@ export default {
       decadeMap.set(decade, list);
     }
 
-    const decadeOrder = [
-      "Current",
-      ...Array.from(decadeMap.keys())
-        .filter((d) => d !== "Current")
-        .sort((a, b) => b.localeCompare(a)),
-    ];
+    const decadeOrder = Array.from(decadeMap.keys()).sort((a, b) =>
+      b.localeCompare(a),
+    );
 
     return decadeOrder
       .filter((decade) => decadeMap.has(decade))

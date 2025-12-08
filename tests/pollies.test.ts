@@ -20,8 +20,8 @@ describe("pollie page generation", () => {
   it("generates index with links to pollies", () => {
     const index = readFileSync(resolve(distDir, "index.html"), "utf-8");
     expect(index).toContain("Out of Office");
-    expect(index).toContain("Anthony Norman Albanese");
-    expect(index).toContain("/pollies/anthony-norman-albanese");
+    expect(index).toContain("Anthony John Abbott");
+    expect(index).toContain("/pollies/anthony-john-abbott");
   });
 
   it("filters out pollies from before the 1980s on the index", () => {
@@ -33,19 +33,15 @@ describe("pollie page generation", () => {
   });
 
   it("generates individual pollie pages with correct content", () => {
-    const albanesePath = resolve(
-      distPolliesDir,
-      "anthony-norman-albanese.html",
-    );
-    expect(existsSync(albanesePath)).toBe(true);
+    const abbottPath = resolve(distPolliesDir, "anthony-john-abbott.html");
+    expect(existsSync(abbottPath)).toBe(true);
 
-    const content = readFileSync(albanesePath, "utf-8");
-    expect(content).toContain("Anthony Norman Albanese");
+    const content = readFileSync(abbottPath, "utf-8");
+    expect(content).toContain("Anthony John Abbott");
     expect(content).toContain("Electorate");
-    expect(content).toContain("Grayndler");
+    expect(content).toContain("Warringah");
     expect(content).toContain("NSW");
-    expect(content).toContain("ALP");
-    expect(content).toContain("In office");
+    expect(content).toContain("LP");
   });
 
   it("includes left office date for former members", () => {
@@ -152,11 +148,11 @@ export const gigs: Gig[] = [
   });
 
   it("does not include gigs section for pollies without gigs", () => {
-    const albanesePath = resolve(
+    const broadbentPath = resolve(
       distPolliesDir,
-      "anthony-norman-albanese.html",
+      "russell-evan-broadbent.html",
     );
-    const content = readFileSync(albanesePath, "utf-8");
+    const content = readFileSync(broadbentPath, "utf-8");
 
     expect(content).not.toContain("Post-office roles");
   });

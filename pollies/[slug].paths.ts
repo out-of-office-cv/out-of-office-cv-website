@@ -124,7 +124,8 @@ function transformData(
   pollies: Pollie[],
   gigsByPollie: Map<string, Gig[]>,
 ): PolliePath[] {
-  return pollies.map((pollie) => {
+  const formerPollies = pollies.filter((p) => !p.stillInOffice);
+  return formerPollies.map((pollie) => {
     const pollieGigs = gigsByPollie.get(pollie.slug) || [];
     return {
       params: {
