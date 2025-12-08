@@ -26,6 +26,7 @@ export const gigs: Gig[] = [
     sources: [
       "https://mivision.com.au/2020/11/hon-chris-pyne-to-chair-vision-2020-australia/",
     ],
+    verified_by: "ben",
     pollie_slug: "christopher-maurice-pyne",
     start_date: "2020-11-16",
     end_date: "2025-11-01",
