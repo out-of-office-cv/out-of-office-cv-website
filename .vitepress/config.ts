@@ -8,9 +8,7 @@ export default defineConfig({
   cleanUrls: true,
   ignoreDeadLinks: false,
   themeConfig: {
-    search: {
-      provider: "local",
-    },
+    search: false,
     nav: [{ text: "Home", link: "/" }],
     sidebar: [],
   },
