@@ -2,6 +2,7 @@
 import { ref, computed, onMounted, watch } from "vue";
 import { Octokit } from "@octokit/rest";
 import { data as polliesList } from "../../../pollies-list.data";
+import { data as gigsList } from "../../../gigs-list.data";
 import type { Gig, GigCategory } from "../../types";
 
 const REPO_OWNER = "benswift";
@@ -9,6 +10,11 @@ const REPO_NAME = "out-of-office";
 const STORAGE_KEY_TOKEN = "ooo-github-token";
 const STORAGE_KEY_DRAFTS = "ooo-draft-gigs";
 const STORAGE_KEY_LAST_POLLIE = "ooo-last-pollie-slug";
+
+const VERIFIER_MAP: Record<string, string> = {
+    "out-of-office-cv": "khoi",
+    benswift: "ben",
+};
 
 const categories: GigCategory[] = [
     "Natural Resources (Mining, Oil & Gas)",
@@ -40,6 +46,9 @@ interface DraftGig extends Gig {
     id: string;
 }
 
+type Mode = "add" | "verify";
+const mode = ref<Mode>("add");
+
 const githubToken = ref("");
 const githubUsername = ref("");
 const isValidatingToken = ref(false);
@@ -70,6 +79,30 @@ let pollInterval: ReturnType<typeof setInterval> | null = null;
 
 const formErrors = ref<Record<string, string>>({});
 
+const verifySearch = ref("");
+const selectedVerifyIndices = ref<Set<number>>(new Set());
+const expandedVerifyIndex = ref<number | null>(null);
+
+const verifierId = computed(() => VERIFIER_MAP[githubUsername.value] || null);
+
+const canVerify = computed(() => verifierId.value !== null);
+
+const unverifiedGigs = computed(() =>
+    gigsList.filter((gig) => !gig.verified_by),
+);
+
+const filteredUnverifiedGigs = computed(() => {
+    const query = verifySearch.value.toLowerCase().trim();
+    if (!query) return unverifiedGigs.value;
+    return unverifiedGigs.value.filter(
+        (gig) =>
+            gig.role.toLowerCase().includes(query) ||
+            gig.organisation.toLowerCase().includes(query) ||
+            gig.pollie_slug.toLowerCase().includes(query) ||
+            gig.category.toLowerCase().includes(query),
+    );
+});
+
 const filteredPollies = computed(() => {
     const query = pollieSearch.value.toLowerCase().trim();
     if (!query) return polliesList.slice(0, 10);
@@ -89,9 +122,46 @@ const pollieWarning = computed(() => {
 
 const isAuthenticated = computed(() => !!githubUsername.value);
 
-const canSubmit = computed(
+const canSubmitAdd = computed(
     () => isAuthenticated.value && draftGigs.value.length > 0,
 );
+
+const canSubmitVerify = computed(
+    () =>
+        isAuthenticated.value &&
+        canVerify.value &&
+        selectedVerifyIndices.value.size > 0,
+);
+
+function getPollieNameBySlug(slug: string): string {
+    const pollie = polliesList.find((p) => p.slug === slug);
+    return pollie?.name || slug;
+}
+
+function toggleVerifySelection(index: number) {
+    if (selectedVerifyIndices.value.has(index)) {
+        selectedVerifyIndices.value.delete(index);
+    } else {
+        selectedVerifyIndices.value.add(index);
+    }
+    selectedVerifyIndices.value = new Set(selectedVerifyIndices.value);
+}
+
+function selectAllVisible() {
+    for (const gig of filteredUnverifiedGigs.value) {
+        selectedVerifyIndices.value.add(gig.index);
+    }
+    selectedVerifyIndices.value = new Set(selectedVerifyIndices.value);
+}
+
+function clearVerifySelection() {
+    selectedVerifyIndices.value = new Set();
+}
+
+function toggleExpandGig(index: number) {
+    expandedVerifyIndex.value =
+        expandedVerifyIndex.value === index ? null : index;
+}
 
 function validateForm(): boolean {
     formErrors.value = {};
@@ -282,8 +352,115 @@ function formatGigForTs(gig: DraftGig): string {
     return lines.join("\n");
 }
 
+function addVerifiedByToGig(
+    content: string,
+    gigIndex: number,
+    verifier: string,
+): string {
+    const lines = content.split("\n");
+    let currentGigIndex = -1;
+    let braceDepth = 0;
+    let inGigsArray = false;
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+
+        if (line.includes("export const gigs")) {
+            inGigsArray = true;
+            continue;
+        }
+
+        if (!inGigsArray) continue;
+
+        if (line.trim() === "{") {
+            if (braceDepth === 0) {
+                currentGigIndex++;
+            }
+            braceDepth++;
+        }
+
+        if (line.trim().startsWith("}")) {
+            braceDepth--;
+        }
+
+        if (currentGigIndex === gigIndex && braceDepth === 1) {
+            if (
+                (line.includes("source:") &&
+                    !content.includes(`verified_by:`)) ||
+                (line.includes("source:") &&
+                    lines
+                        .slice(0, i + 1)
+                        .filter((l) => l.includes("verified_by:")).length <=
+                        currentGigIndex)
+            ) {
+                const indent = line.match(/^(\s*)/)?.[1] || "    ";
+                const verifiedByLine = `${indent}verified_by: ${JSON.stringify(verifier)},`;
+                lines.splice(i + 1, 0, verifiedByLine);
+                return lines.join("\n");
+            }
+        }
+    }
+
+    return content;
+}
+
+function addVerifiedByToGigByMatching(
+    content: string,
+    gig: Gig,
+    verifier: string,
+): string {
+    const roleStr = JSON.stringify(gig.role);
+    const orgStr = JSON.stringify(gig.organisation);
+    const pollieStr = JSON.stringify(gig.pollie_slug);
+    const startStr = JSON.stringify(gig.start_date);
+
+    const lines = content.split("\n");
+    let inTargetGig = false;
+    let braceDepth = 0;
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+
+        if (
+            line.includes(`role: ${roleStr}`) ||
+            line.includes(`role:${roleStr}`)
+        ) {
+            let checkStart = Math.max(0, i - 2);
+            let checkEnd = Math.min(lines.length - 1, i + 10);
+            let slice = lines.slice(checkStart, checkEnd + 1).join("\n");
+
+            if (
+                slice.includes(`organisation: ${orgStr}`) &&
+                slice.includes(`pollie_slug: ${pollieStr}`) &&
+                slice.includes(`start_date: ${startStr}`)
+            ) {
+                inTargetGig = true;
+                braceDepth = 1;
+            }
+        }
+
+        if (inTargetGig) {
+            if (line.includes("{")) braceDepth++;
+            if (line.includes("}")) braceDepth--;
+
+            if (line.includes("source:")) {
+                const indent = line.match(/^(\s*)/)?.[1] || "    ";
+                const verifiedByLine = `${indent}verified_by: ${JSON.stringify(verifier)},`;
+                lines.splice(i + 1, 0, verifiedByLine);
+                return lines.join("\n");
+            }
+
+            if (braceDepth === 0) {
+                inTargetGig = false;
+            }
+        }
+    }
+
+    return content;
+}
+
 async function submitPR() {
-    if (!canSubmit.value) return;
+    if (!canSubmitAdd.value) return;
 
     prStatus.value = "creating";
     prError.value = "";
@@ -379,7 +556,107 @@ async function submitPR() {
     }
 }
 
-function startPollingPRStatus(prNum: number) {
+async function submitVerifyPR() {
+    if (!canSubmitVerify.value || !verifierId.value) return;
+
+    prStatus.value = "creating";
+    prError.value = "";
+
+    const token = localStorage.getItem(STORAGE_KEY_TOKEN);
+    if (!token) {
+        prError.value = "No GitHub token found";
+        prStatus.value = "error";
+        return;
+    }
+
+    const octokit = new Octokit({ auth: token });
+
+    try {
+        const { data: mainRef } = await octokit.git.getRef({
+            owner: REPO_OWNER,
+            repo: REPO_NAME,
+            ref: "heads/main",
+        });
+        const mainSha = mainRef.object.sha;
+
+        const { data: fileData } = await octokit.repos.getContent({
+            owner: REPO_OWNER,
+            repo: REPO_NAME,
+            path: "data/gigs.ts",
+            ref: "main",
+        });
+
+        if (!("content" in fileData)) {
+            throw new Error("Could not read gigs.ts");
+        }
+
+        let currentContent = atob(fileData.content);
+
+        const gigsToVerify = gigsList.filter((g) =>
+            selectedVerifyIndices.value.has(g.index),
+        );
+
+        for (const gig of gigsToVerify) {
+            currentContent = addVerifiedByToGigByMatching(
+                currentContent,
+                gig,
+                verifierId.value,
+            );
+        }
+
+        const branchName = `gig-verification-${Date.now()}`;
+        await octokit.git.createRef({
+            owner: REPO_OWNER,
+            repo: REPO_NAME,
+            ref: `refs/heads/${branchName}`,
+            sha: mainSha,
+        });
+
+        await octokit.repos.createOrUpdateFileContents({
+            owner: REPO_OWNER,
+            repo: REPO_NAME,
+            path: "data/gigs.ts",
+            message: `Verify ${gigsToVerify.length} gig(s)`,
+            content: btoa(currentContent),
+            branch: branchName,
+            sha: fileData.sha,
+        });
+
+        const pollieNames = [
+            ...new Set(gigsToVerify.map((g) => g.pollie_slug)),
+        ];
+        const prTitle = `Verify ${gigsToVerify.length} gig(s) for ${pollieNames.slice(0, 3).join(", ")}${pollieNames.length > 3 ? ` and ${pollieNames.length - 3} more` : ""}`;
+        const prBody =
+            `Verified by: ${verifierId.value}\n\n` +
+            gigsToVerify
+                .map(
+                    (g) =>
+                        `- ${g.role} at ${g.organisation} (${g.pollie_slug})`,
+                )
+                .join("\n");
+
+        const { data: pr } = await octokit.pulls.create({
+            owner: REPO_OWNER,
+            repo: REPO_NAME,
+            title: prTitle,
+            body: prBody,
+            head: branchName,
+            base: "main",
+        });
+
+        prNumber.value = pr.number;
+        prUrl.value = pr.html_url;
+        prStatus.value = "created";
+
+        startPollingPRStatus(pr.number, true);
+    } catch (err) {
+        prError.value =
+            err instanceof Error ? err.message : "Failed to create PR";
+        prStatus.value = "error";
+    }
+}
+
+function startPollingPRStatus(prNum: number, isVerify = false) {
     if (pollInterval) clearInterval(pollInterval);
 
     pollInterval = setInterval(async () => {
@@ -396,8 +673,12 @@ function startPollingPRStatus(prNum: number) {
 
             if (pr.merged) {
                 prStatus.value = "merged";
-                draftGigs.value = [];
-                saveDrafts();
+                if (isVerify) {
+                    selectedVerifyIndices.value = new Set();
+                } else {
+                    draftGigs.value = [];
+                    saveDrafts();
+                }
                 if (pollInterval) {
                     clearInterval(pollInterval);
                     pollInterval = null;
@@ -460,6 +741,9 @@ watch(pollieSearch, (val) => {
             <div v-if="isAuthenticated" class="auth-status connected">
                 <span class="status-indicator"></span>
                 Connected as <strong>@{{ githubUsername }}</strong>
+                <span v-if="verifierId" class="verifier-badge"
+                    >Verifier: {{ verifierId }}</span
+                >
                 <button
                     type="button"
                     class="btn-link"
@@ -523,259 +807,494 @@ watch(pollieSearch, (val) => {
             </div>
         </section>
 
-        <section class="form-section">
-            <h2>{{ editingGigId ? "Edit gig" : "Add a new gig" }}</h2>
-            <form @submit.prevent="addOrUpdateGig">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="pollie-search">Politician</label>
-                        <div class="autocomplete-wrapper">
-                            <input
-                                id="pollie-search"
-                                v-model="pollieSearch"
-                                type="text"
-                                placeholder="Search by name..."
-                                autocomplete="off"
-                                @focus="onPollieInputFocus"
-                                @blur="onPollieInputBlur"
-                            />
-                            <ul
-                                v-if="
-                                    showPollieResults &&
-                                    filteredPollies.length > 0
-                                "
-                                class="autocomplete-results"
-                            >
-                                <li
-                                    v-for="pollie of filteredPollies"
-                                    :key="pollie.slug"
-                                    @mousedown="
-                                        selectPollie(pollie.slug, pollie.name)
+        <div class="mode-tabs">
+            <button
+                type="button"
+                :class="['tab', { active: mode === 'add' }]"
+                @click="mode = 'add'"
+            >
+                Add new gigs
+                <span v-if="draftGigs.length > 0" class="tab-badge">{{
+                    draftGigs.length
+                }}</span>
+            </button>
+            <button
+                type="button"
+                :class="['tab', { active: mode === 'verify' }]"
+                @click="mode = 'verify'"
+            >
+                Verify existing
+                <span class="tab-badge">{{ unverifiedGigs.length }}</span>
+            </button>
+        </div>
+
+        <template v-if="mode === 'add'">
+            <section class="form-section">
+                <h2>{{ editingGigId ? "Edit gig" : "Add a new gig" }}</h2>
+                <form @submit.prevent="addOrUpdateGig">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="pollie-search">Politician</label>
+                            <div class="autocomplete-wrapper">
+                                <input
+                                    id="pollie-search"
+                                    v-model="pollieSearch"
+                                    type="text"
+                                    placeholder="Search by name..."
+                                    autocomplete="off"
+                                    @focus="onPollieInputFocus"
+                                    @blur="onPollieInputBlur"
+                                />
+                                <ul
+                                    v-if="
+                                        showPollieResults &&
+                                        filteredPollies.length > 0
                                     "
+                                    class="autocomplete-results"
                                 >
-                                    {{ pollie.name }}
-                                </li>
-                            </ul>
+                                    <li
+                                        v-for="pollie of filteredPollies"
+                                        :key="pollie.slug"
+                                        @mousedown="
+                                            selectPollie(
+                                                pollie.slug,
+                                                pollie.name,
+                                            )
+                                        "
+                                    >
+                                        {{ pollie.name }}
+                                    </li>
+                                </ul>
+                            </div>
+                            <input type="hidden" v-model="pollieSlug" />
+                            <p v-if="pollieWarning" class="warning-text">
+                                {{ pollieWarning }}
+                            </p>
+                            <p v-if="formErrors.pollieSlug" class="error-text">
+                                {{ formErrors.pollieSlug }}
+                            </p>
                         </div>
-                        <input type="hidden" v-model="pollieSlug" />
-                        <p v-if="pollieWarning" class="warning-text">
-                            {{ pollieWarning }}
-                        </p>
-                        <p v-if="formErrors.pollieSlug" class="error-text">
-                            {{ formErrors.pollieSlug }}
-                        </p>
                     </div>
-                </div>
 
-                <div class="form-row two-col">
-                    <div class="form-group">
-                        <label for="role"
-                            >Role <span class="required">*</span></label
-                        >
-                        <input
-                            id="role"
-                            v-model="role"
-                            type="text"
-                            placeholder="e.g. Non-Executive Director"
-                        />
-                        <p v-if="formErrors.role" class="error-text">
-                            {{ formErrors.role }}
-                        </p>
-                    </div>
-                    <div class="form-group">
-                        <label for="organisation"
-                            >Organisation <span class="required">*</span></label
-                        >
-                        <input
-                            id="organisation"
-                            v-model="organisation"
-                            type="text"
-                            placeholder="e.g. Acme Corp"
-                        />
-                        <p v-if="formErrors.organisation" class="error-text">
-                            {{ formErrors.organisation }}
-                        </p>
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="category"
-                            >Category <span class="required">*</span></label
-                        >
-                        <select id="category" v-model="category">
-                            <option value="">Select a category...</option>
-                            <option
-                                v-for="cat of categories"
-                                :key="cat"
-                                :value="cat"
+                    <div class="form-row two-col">
+                        <div class="form-group">
+                            <label for="role"
+                                >Role <span class="required">*</span></label
                             >
-                                {{ cat }}
-                            </option>
-                        </select>
-                        <p v-if="formErrors.category" class="error-text">
-                            {{ formErrors.category }}
-                        </p>
+                            <input
+                                id="role"
+                                v-model="role"
+                                type="text"
+                                placeholder="e.g. Non-Executive Director"
+                            />
+                            <p v-if="formErrors.role" class="error-text">
+                                {{ formErrors.role }}
+                            </p>
+                        </div>
+                        <div class="form-group">
+                            <label for="organisation"
+                                >Organisation
+                                <span class="required">*</span></label
+                            >
+                            <input
+                                id="organisation"
+                                v-model="organisation"
+                                type="text"
+                                placeholder="e.g. Acme Corp"
+                            />
+                            <p
+                                v-if="formErrors.organisation"
+                                class="error-text"
+                            >
+                                {{ formErrors.organisation }}
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="form-row two-col">
-                    <div class="form-group">
-                        <label for="start-date"
-                            >Start date <span class="required">*</span></label
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="category"
+                                >Category <span class="required">*</span></label
+                            >
+                            <select id="category" v-model="category">
+                                <option value="">Select a category...</option>
+                                <option
+                                    v-for="cat of categories"
+                                    :key="cat"
+                                    :value="cat"
+                                >
+                                    {{ cat }}
+                                </option>
+                            </select>
+                            <p v-if="formErrors.category" class="error-text">
+                                {{ formErrors.category }}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="form-row two-col">
+                        <div class="form-group">
+                            <label for="start-date"
+                                >Start date
+                                <span class="required">*</span></label
+                            >
+                            <input
+                                id="start-date"
+                                v-model="startDate"
+                                type="date"
+                            />
+                            <p v-if="formErrors.startDate" class="error-text">
+                                {{ formErrors.startDate }}
+                            </p>
+                        </div>
+                        <div class="form-group">
+                            <label for="end-date">End date</label>
+                            <input
+                                id="end-date"
+                                v-model="endDate"
+                                type="date"
+                            />
+                            <p v-if="formErrors.endDate" class="error-text">
+                                {{ formErrors.endDate }}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="source"
+                                >Source URL
+                                <span class="required">*</span></label
+                            >
+                            <input
+                                id="source"
+                                v-model="source"
+                                type="url"
+                                placeholder="https://..."
+                            />
+                            <p v-if="formErrors.source" class="error-text">
+                                {{ formErrors.source }}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn-primary">
+                            {{ editingGigId ? "Update gig" : "Add to draft" }}
+                        </button>
+                        <button
+                            v-if="editingGigId"
+                            type="button"
+                            class="btn-secondary"
+                            @click="cancelEdit"
                         >
-                        <input
-                            id="start-date"
-                            v-model="startDate"
-                            type="date"
-                        />
-                        <p v-if="formErrors.startDate" class="error-text">
-                            {{ formErrors.startDate }}
-                        </p>
+                            Cancel
+                        </button>
                     </div>
-                    <div class="form-group">
-                        <label for="end-date">End date</label>
-                        <input id="end-date" v-model="endDate" type="date" />
-                        <p v-if="formErrors.endDate" class="error-text">
-                            {{ formErrors.endDate }}
-                        </p>
-                    </div>
-                </div>
+                </form>
+            </section>
 
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="source"
-                            >Source URL <span class="required">*</span></label
-                        >
-                        <input
-                            id="source"
-                            v-model="source"
-                            type="url"
-                            placeholder="https://..."
-                        />
-                        <p v-if="formErrors.source" class="error-text">
-                            {{ formErrors.source }}
-                        </p>
-                    </div>
-                </div>
+            <section v-if="draftGigs.length > 0" class="drafts-section">
+                <h2>Draft gigs ({{ draftGigs.length }})</h2>
+                <ul class="draft-list">
+                    <li
+                        v-for="gig of draftGigs"
+                        :key="gig.id"
+                        class="draft-item"
+                    >
+                        <div class="draft-content">
+                            <strong>{{ gig.role }}</strong> at
+                            {{ gig.organisation }}
+                            <span class="draft-meta"
+                                >{{ gig.pollie_slug }} ·
+                                {{ gig.category }}</span
+                            >
+                        </div>
+                        <div class="draft-actions">
+                            <button
+                                type="button"
+                                class="btn-icon"
+                                title="Edit"
+                                @click="editGig(gig)"
+                            >
+                                ✎
+                            </button>
+                            <button
+                                type="button"
+                                class="btn-icon btn-danger"
+                                title="Delete"
+                                @click="deleteGig(gig.id)"
+                            >
+                                ×
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </section>
 
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="verified-by">Verified by URL</label>
-                        <input
-                            id="verified-by"
-                            v-model="verifiedBy"
-                            type="url"
-                            placeholder="https://..."
-                        />
-                        <p v-if="formErrors.verifiedBy" class="error-text">
-                            {{ formErrors.verifiedBy }}
-                        </p>
-                    </div>
-                </div>
-
-                <div class="form-actions">
-                    <button type="submit" class="btn-primary">
-                        {{ editingGigId ? "Update gig" : "Add to draft" }}
-                    </button>
+            <section v-if="draftGigs.length > 0" class="submit-section">
+                <h2>Submit</h2>
+                <div v-if="prStatus === 'idle'">
+                    <p v-if="!isAuthenticated" class="warning-text">
+                        Connect to GitHub above to submit your gigs.
+                    </p>
                     <button
-                        v-if="editingGigId"
+                        type="button"
+                        class="btn-primary btn-large"
+                        :disabled="!canSubmitAdd"
+                        @click="submitPR"
+                    >
+                        Create pull request with {{ draftGigs.length }} gig(s)
+                    </button>
+                </div>
+                <div v-else-if="prStatus === 'creating'" class="pr-status">
+                    <span class="spinner"></span> Creating pull request...
+                </div>
+                <div v-else-if="prStatus === 'created'" class="pr-status">
+                    <p>
+                        <a :href="prUrl" target="_blank" rel="noopener"
+                            >PR #{{ prNumber }}</a
+                        >
+                        created! Waiting for merge...
+                    </p>
+                    <span class="spinner"></span>
+                </div>
+                <div
+                    v-else-if="prStatus === 'merged'"
+                    class="pr-status success"
+                >
+                    <p>
+                        <a :href="prUrl" target="_blank" rel="noopener"
+                            >PR #{{ prNumber }}</a
+                        >
+                        merged!
+                    </p>
+                    <button
                         type="button"
                         class="btn-secondary"
-                        @click="cancelEdit"
+                        @click="resetPRStatus"
                     >
-                        Cancel
+                        Add more gigs
                     </button>
                 </div>
-            </form>
-        </section>
-
-        <section v-if="draftGigs.length > 0" class="drafts-section">
-            <h2>Draft gigs ({{ draftGigs.length }})</h2>
-            <ul class="draft-list">
-                <li v-for="gig of draftGigs" :key="gig.id" class="draft-item">
-                    <div class="draft-content">
-                        <strong>{{ gig.role }}</strong> at
-                        {{ gig.organisation }}
-                        <span class="draft-meta"
-                            >{{ gig.pollie_slug }} · {{ gig.category }}</span
-                        >
-                    </div>
-                    <div class="draft-actions">
-                        <button
-                            type="button"
-                            class="btn-icon"
-                            title="Edit"
-                            @click="editGig(gig)"
-                        >
-                            ✎
-                        </button>
-                        <button
-                            type="button"
-                            class="btn-icon btn-danger"
-                            title="Delete"
-                            @click="deleteGig(gig.id)"
-                        >
-                            ×
-                        </button>
-                    </div>
-                </li>
-            </ul>
-        </section>
-
-        <section v-if="draftGigs.length > 0" class="submit-section">
-            <h2>Submit</h2>
-            <div v-if="prStatus === 'idle'">
-                <p v-if="!isAuthenticated" class="warning-text">
-                    Connect to GitHub above to submit your gigs.
-                </p>
-                <button
-                    type="button"
-                    class="btn-primary btn-large"
-                    :disabled="!canSubmit"
-                    @click="submitPR"
-                >
-                    Create pull request with {{ draftGigs.length }} gig(s)
-                </button>
-            </div>
-            <div v-else-if="prStatus === 'creating'" class="pr-status">
-                <span class="spinner"></span> Creating pull request...
-            </div>
-            <div v-else-if="prStatus === 'created'" class="pr-status">
-                <p>
-                    <a :href="prUrl" target="_blank" rel="noopener"
-                        >PR #{{ prNumber }}</a
+                <div v-else-if="prStatus === 'error'" class="pr-status error">
+                    <p class="error-text">{{ prError }}</p>
+                    <button
+                        type="button"
+                        class="btn-secondary"
+                        @click="resetPRStatus"
                     >
-                    created! Waiting for merge...
-                </p>
-                <span class="spinner"></span>
-            </div>
-            <div v-else-if="prStatus === 'merged'" class="pr-status success">
-                <p>
-                    <a :href="prUrl" target="_blank" rel="noopener"
-                        >PR #{{ prNumber }}</a
+                        Try again
+                    </button>
+                </div>
+            </section>
+        </template>
+
+        <template v-else-if="mode === 'verify'">
+            <section class="verify-section">
+                <h2>Verify existing gigs</h2>
+
+                <div v-if="!isAuthenticated" class="warning-box">
+                    Connect to GitHub above to verify gigs.
+                </div>
+                <div v-else-if="!canVerify" class="warning-box">
+                    Your GitHub account (@{{ githubUsername }}) is not
+                    authorised to verify gigs. Contact the project maintainers
+                    if you should have access.
+                </div>
+
+                <div v-else>
+                    <p class="verify-intro">
+                        Select gigs you've verified are accurate, then submit a
+                        PR to mark them as verified by
+                        <strong>{{ verifierId }}</strong
+                        >.
+                    </p>
+
+                    <div class="verify-controls">
+                        <input
+                            v-model="verifySearch"
+                            type="text"
+                            placeholder="Filter by role, organisation, politician..."
+                            class="verify-search"
+                        />
+                        <div class="verify-bulk-actions">
+                            <button
+                                type="button"
+                                class="btn-secondary btn-small"
+                                @click="selectAllVisible"
+                            >
+                                Select all visible
+                            </button>
+                            <button
+                                type="button"
+                                class="btn-secondary btn-small"
+                                @click="clearVerifySelection"
+                                :disabled="selectedVerifyIndices.size === 0"
+                            >
+                                Clear selection
+                            </button>
+                        </div>
+                    </div>
+
+                    <div
+                        v-if="filteredUnverifiedGigs.length === 0"
+                        class="empty-state"
                     >
-                    merged!
-                </p>
-                <button
-                    type="button"
-                    class="btn-secondary"
-                    @click="resetPRStatus"
-                >
-                    Add more gigs
-                </button>
-            </div>
-            <div v-else-if="prStatus === 'error'" class="pr-status error">
-                <p class="error-text">{{ prError }}</p>
-                <button
-                    type="button"
-                    class="btn-secondary"
-                    @click="resetPRStatus"
-                >
-                    Try again
-                </button>
-            </div>
-        </section>
+                        <p v-if="verifySearch">
+                            No unverified gigs match your search.
+                        </p>
+                        <p v-else>All gigs have been verified!</p>
+                    </div>
+
+                    <ul v-else class="verify-list">
+                        <li
+                            v-for="gig of filteredUnverifiedGigs"
+                            :key="gig.index"
+                            :class="[
+                                'verify-item',
+                                {
+                                    selected: selectedVerifyIndices.has(
+                                        gig.index,
+                                    ),
+                                    expanded: expandedVerifyIndex === gig.index,
+                                },
+                            ]"
+                        >
+                            <div class="verify-item-header">
+                                <label class="verify-checkbox-label">
+                                    <input
+                                        type="checkbox"
+                                        :checked="
+                                            selectedVerifyIndices.has(gig.index)
+                                        "
+                                        @change="
+                                            toggleVerifySelection(gig.index)
+                                        "
+                                    />
+                                    <span class="verify-item-summary">
+                                        <strong>{{ gig.role }}</strong> at
+                                        {{ gig.organisation }}
+                                        <span class="verify-item-pollie">{{
+                                            getPollieNameBySlug(gig.pollie_slug)
+                                        }}</span>
+                                    </span>
+                                </label>
+                                <button
+                                    type="button"
+                                    class="btn-icon btn-expand"
+                                    :title="
+                                        expandedVerifyIndex === gig.index
+                                            ? 'Collapse'
+                                            : 'Expand'
+                                    "
+                                    @click="toggleExpandGig(gig.index)"
+                                >
+                                    {{
+                                        expandedVerifyIndex === gig.index
+                                            ? "▲"
+                                            : "▼"
+                                    }}
+                                </button>
+                            </div>
+                            <div
+                                v-if="expandedVerifyIndex === gig.index"
+                                class="verify-item-details"
+                            >
+                                <dl>
+                                    <dt>Category</dt>
+                                    <dd>{{ gig.category }}</dd>
+                                    <dt>Dates</dt>
+                                    <dd>
+                                        {{ gig.start_date }}
+                                        {{
+                                            gig.end_date
+                                                ? `– ${gig.end_date}`
+                                                : "– present"
+                                        }}
+                                    </dd>
+                                    <dt>Source</dt>
+                                    <dd>
+                                        <a
+                                            :href="gig.source"
+                                            target="_blank"
+                                            rel="noopener"
+                                            >{{ gig.source }}</a
+                                        >
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div
+                        v-if="selectedVerifyIndices.size > 0"
+                        class="verify-submit-section"
+                    >
+                        <div v-if="prStatus === 'idle'">
+                            <button
+                                type="button"
+                                class="btn-primary btn-large"
+                                @click="submitVerifyPR"
+                            >
+                                Verify {{ selectedVerifyIndices.size }} gig(s)
+                                as {{ verifierId }}
+                            </button>
+                        </div>
+                        <div
+                            v-else-if="prStatus === 'creating'"
+                            class="pr-status"
+                        >
+                            <span class="spinner"></span> Creating pull
+                            request...
+                        </div>
+                        <div
+                            v-else-if="prStatus === 'created'"
+                            class="pr-status"
+                        >
+                            <p>
+                                <a :href="prUrl" target="_blank" rel="noopener"
+                                    >PR #{{ prNumber }}</a
+                                >
+                                created! Waiting for merge...
+                            </p>
+                            <span class="spinner"></span>
+                        </div>
+                        <div
+                            v-else-if="prStatus === 'merged'"
+                            class="pr-status success"
+                        >
+                            <p>
+                                <a :href="prUrl" target="_blank" rel="noopener"
+                                    >PR #{{ prNumber }}</a
+                                >
+                                merged!
+                            </p>
+                            <button
+                                type="button"
+                                class="btn-secondary"
+                                @click="resetPRStatus"
+                            >
+                                Verify more gigs
+                            </button>
+                        </div>
+                        <div
+                            v-else-if="prStatus === 'error'"
+                            class="pr-status error"
+                        >
+                            <p class="error-text">{{ prError }}</p>
+                            <button
+                                type="button"
+                                class="btn-secondary"
+                                @click="resetPRStatus"
+                            >
+                                Try again
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
     </div>
 </template>
 
@@ -822,6 +1341,7 @@ h3 {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .status-indicator {
@@ -829,6 +1349,15 @@ h3 {
     height: 10px;
     border-radius: 50%;
     background: var(--vp-c-green-1);
+}
+
+.verifier-badge {
+    background: var(--vp-c-brand-soft);
+    color: var(--vp-c-brand-1);
+    padding: 0.125rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    margin-left: 0.5rem;
 }
 
 .btn-link {
@@ -857,6 +1386,58 @@ h3 {
     border-radius: 4px;
     background: var(--vp-c-bg);
     color: var(--vp-c-text-1);
+}
+
+.mode-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--vp-c-border);
+}
+
+.tab {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    background: var(--vp-c-bg);
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: var(--vp-c-text-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition:
+        background 0.2s,
+        color 0.2s;
+}
+
+.tab:not(:last-child) {
+    border-right: 1px solid var(--vp-c-border);
+}
+
+.tab:hover {
+    background: var(--vp-c-bg-soft);
+}
+
+.tab.active {
+    background: var(--vp-c-brand-soft);
+    color: var(--vp-c-brand-1);
+    font-weight: 500;
+}
+
+.tab-badge {
+    background: var(--vp-c-bg-soft);
+    padding: 0.125rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.75rem;
+}
+
+.tab.active .tab-badge {
+    background: var(--vp-c-brand-1);
+    color: var(--vp-c-white);
 }
 
 .form-row {
@@ -949,6 +1530,14 @@ h3 {
     margin: 0.25rem 0 0;
 }
 
+.warning-box {
+    background: var(--vp-c-yellow-soft);
+    color: var(--vp-c-yellow-1);
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
 .form-actions {
     display: flex;
     gap: 0.5rem;
@@ -989,8 +1578,18 @@ h3 {
     font-size: 1rem;
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover:not(:disabled) {
     background: var(--vp-c-bg-soft);
+}
+
+.btn-secondary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn-secondary.btn-small {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
 }
 
 .draft-list {
@@ -1048,6 +1647,10 @@ h3 {
     border-color: var(--vp-c-red-1);
 }
 
+.btn-icon.btn-expand {
+    font-size: 0.75rem;
+}
+
 .pr-status {
     display: flex;
     align-items: center;
@@ -1084,5 +1687,135 @@ code {
     padding: 0.1rem 0.3rem;
     border-radius: 3px;
     font-size: 0.9em;
+}
+
+.verify-section {
+    margin-top: 0;
+}
+
+.verify-intro {
+    margin-bottom: 1rem;
+    color: var(--vp-c-text-2);
+}
+
+.verify-controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.verify-search {
+    flex: 1;
+    min-width: 200px;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--vp-c-border);
+    border-radius: 4px;
+    background: var(--vp-c-bg);
+    color: var(--vp-c-text-1);
+    font-size: 1rem;
+}
+
+.verify-search:focus {
+    outline: none;
+    border-color: var(--vp-c-brand-1);
+}
+
+.verify-bulk-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 2rem;
+    color: var(--vp-c-text-2);
+}
+
+.verify-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.verify-item {
+    background: var(--vp-c-bg);
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.verify-item.selected {
+    border-color: var(--vp-c-brand-1);
+}
+
+.verify-item-header {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    gap: 0.5rem;
+}
+
+.verify-checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    flex: 1;
+    cursor: pointer;
+}
+
+.verify-checkbox-label input[type="checkbox"] {
+    margin-top: 0.25rem;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.verify-item-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.verify-item-pollie {
+    font-size: 0.875rem;
+    color: var(--vp-c-text-2);
+}
+
+.verify-item-details {
+    padding: 0 0.75rem 0.75rem 2.75rem;
+    border-top: 1px solid var(--vp-c-border);
+    margin-top: 0.5rem;
+    padding-top: 0.75rem;
+}
+
+.verify-item-details dl {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.25rem 1rem;
+    font-size: 0.875rem;
+}
+
+.verify-item-details dt {
+    color: var(--vp-c-text-2);
+}
+
+.verify-item-details dd {
+    margin: 0;
+}
+
+.verify-item-details a {
+    color: var(--vp-c-brand-1);
+    word-break: break-all;
+}
+
+.verify-submit-section {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--vp-c-border);
 }
 </style>
