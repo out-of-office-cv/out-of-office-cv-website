@@ -1,9 +1,10 @@
 ---
 id: task-1
 title: initialise vitepress site
-status: To Do
+status: Done
 assignee: []
-created_date: "2025-12-01 04:39"
+created_date: '2025-12-01 04:39'
+updated_date: '2025-12-03 09:31'
 labels: []
 dependencies: []
 ---
