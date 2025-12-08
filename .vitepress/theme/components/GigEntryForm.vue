@@ -5,8 +5,8 @@ import { data as polliesList } from "../../../pollies-list.data";
 import { data as gigsList } from "../../../gigs-list.data";
 import type { Gig, GigCategory } from "../../types";
 
-const REPO_OWNER = "benswift";
-const REPO_NAME = "out-of-office";
+const REPO_OWNER = "out-of-office-cv";
+const REPO_NAME = "out-of-office-cv-website";
 const STORAGE_KEY_TOKEN = "ooo-github-token";
 const STORAGE_KEY_DRAFTS = "ooo-draft-gigs";
 const STORAGE_KEY_LAST_POLLIE = "ooo-last-pollie-slug";
