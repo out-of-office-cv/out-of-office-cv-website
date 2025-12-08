@@ -2,6 +2,9 @@ import { defineConfig } from "vitepress";
 import checker from "vite-plugin-checker";
 
 export default defineConfig({
+  markdown: {
+    typographer: true,
+  },
   vite: {
     plugins: [
       checker({
