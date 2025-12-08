@@ -14,6 +14,10 @@ This static site is hosted at `https://www.outofoffice.cv` using GitHub Pages.
 
 ## Structure
 
+The two main types in this site's data model are `Pollie` (a politician) and
+`Gig` (a gig/job/role they take after leaving office). This (and a few other
+helper types) are defined in `.vitepress/types.ts`.
+
 - `.vitepress/config.ts` — site config
 - `.vitepress/types.ts` — shared TypeScript interfaces
 - `.vitepress/utils.ts` — shared utility functions (CSV parsing, date
