@@ -1,6 +1,10 @@
 # Agents
 
-VitePress site with TypeScript. Data loaded at build time from CSV.
+VitePress site with TypeScript. Data loaded at build time from CSV. Always do
+things the idiomatic VitePress way, using modern TypeScript and Vue best
+practices.
+
+This static site is hosted at `https://www.outofoffice.cv` using GitHub Pages.
 
 ## Commands
 
