@@ -3,8 +3,8 @@ id: task-7
 title: add senators as well
 status: Done
 assignee: []
-created_date: '2025-12-08 05:34'
-updated_date: '2025-12-08 05:38'
+created_date: "2025-12-08 05:34"
+updated_date: "2025-12-08 05:38"
 labels: []
 dependencies: []
 ---

@@ -3,8 +3,8 @@ id: task-2
 title: Gig entry UI with GitHub PAT authentication
 status: Done
 assignee: []
-created_date: '2025-12-01 09:36'
-updated_date: '2025-12-08 06:00'
+created_date: "2025-12-01 09:36"
+updated_date: "2025-12-08 06:00"
 labels:
   - feature
   - frontend
@@ -16,6 +16,7 @@ priority: medium
 ## Description
 
 <!-- SECTION:DESCRIPTION:BEGIN -->
+
 Add a web UI for creating new Gig entries with a two-stage workflow:
 
 1. **Draft stage**: Users create and validate gigs locally, stored in
@@ -33,20 +34,26 @@ smooth contribution experience.
 Target users are a small group of trusted "gig reviewers" who will submit many
 gigs over time. Initial setup (creating PAT) is acceptable; repeat visits should
 be frictionless.
+
 <!-- SECTION:DESCRIPTION:END -->
 
 ## Acceptance Criteria
+
 <!-- AC:BEGIN -->
-- [x] #1 #1 Gig entry page with form UI for all Gig fields (role, organisation, category, source, pollie_slug, start_date, end_date)
-      category, source, pollie_slug, start_date, end_date)
-- [x] #2 #2 Form validation matching the Gig TypeScript type (required fields, valid category enum, URL format for source, date format)
-      valid category enum, URL format for source, date format)
+
+- [x] #1 #1 Gig entry page with form UI for all Gig fields (role, organisation,
+      category, source, pollie_slug, start_date, end_date) category, source,
+      pollie_slug, start_date, end_date)
+- [x] #2 #2 Form validation matching the Gig TypeScript type (required fields,
+      valid category enum, URL format for source, date format) valid category
+      enum, URL format for source, date format)
 - [x] #3 #3 Pollie slug field has autocomplete from existing pollies
 - [x] #4 #4 Multiple gigs can be drafted before submitting
 - [x] #5 #5 Draft gigs persist to localStorage
-- [x] #6 #6 GitHub PAT authentication with clear setup instructions (link to token creation page with required scopes)
-      github.com/login/device)
-- [x] #7 #7 PAT persists in localStorage across sessions with validation on page load
+- [x] #6 #6 GitHub PAT authentication with clear setup instructions (link to
+      token creation page with required scopes) github.com/login/device)
+- [x] #7 #7 PAT persists in localStorage across sessions with validation on page
+      load
 - [x] #8 #8 Authenticated users can create a PR with their gig entries
 - [x] #9 #9 GitHub Action auto-merges PRs from users with write access
 - [x] #10 #10 Navigation link to gig entry page in site header
@@ -59,6 +66,7 @@ be frictionless.
 ## Implementation Plan
 
 <!-- SECTION:PLAN:BEGIN -->
+
 ## Implementation Plan
 
 ### 1. Create gig entry page
@@ -127,7 +135,8 @@ Use this in the component for autocomplete suggestions on `pollie_slug` field.
 **Setup flow (first visit)**:
 
 1. User sees "Connect to GitHub" section
-2. Instructions with direct link: `https://github.com/settings/tokens/new?scopes=repo&description=Out%20of%20Office%20CV`
+2. Instructions with direct link:
+   `https://github.com/settings/tokens/new?scopes=repo&description=Out%20of%20Office%20CV`
 3. User creates token, pastes into input field
 4. Token stored in localStorage key `ooo-github-token`
 
@@ -140,7 +149,8 @@ Use this in the component for autocomplete suggestions on `pollie_slug` field.
 **Token requirements**:
 
 - Classic PAT with `repo` scope (for creating branches, commits, PRs)
-- Fine-grained PAT alternative: Contents (read/write), Pull requests (read/write) on the specific repo
+- Fine-grained PAT alternative: Contents (read/write), Pull requests
+  (read/write) on the specific repo
 
 ### 5. Create PR with gig entries
 
@@ -248,4 +258,5 @@ Return visit (30 seconds to submit a gig):
 7. Shows "PR #123 created" → polls → "Merged!"
 8. Draft cleared, ready for next batch
 ```
+
 <!-- SECTION:PLAN:END -->

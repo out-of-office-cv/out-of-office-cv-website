@@ -3,8 +3,8 @@ id: task-11
 title: data model changes
 status: Done
 assignee: []
-created_date: '2025-12-08 06:21'
-updated_date: '2025-12-08 06:30'
+created_date: "2025-12-08 06:21"
+updated_date: "2025-12-08 06:30"
 labels: []
 dependencies: []
 ---
@@ -20,7 +20,9 @@ updated as well.
 ## Implementation Notes
 
 <!-- SECTION:NOTES:BEGIN -->
+
 Completed data model changes:
+
 - Changed `source: string` to `sources: string[]` in Gig interface
 - Made `start_date` optional
 - Migrated all existing gigs in data/gigs.ts

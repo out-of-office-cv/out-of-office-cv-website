@@ -3,8 +3,8 @@ id: task-8
 title: add badges to PollieList items
 status: Done
 assignee: []
-created_date: '2025-12-08 05:39'
-updated_date: '2025-12-08 05:48'
+created_date: "2025-12-08 05:39"
+updated_date: "2025-12-08 05:48"
 labels: []
 dependencies: []
 ---
