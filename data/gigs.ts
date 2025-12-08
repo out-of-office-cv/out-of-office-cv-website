@@ -117,4 +117,16 @@ export const gigs: Gig[] = [
     pollie_slug: "christopher-maurice-pyne",
     start_date: "2019-06-01",
   },
+  {
+    role: "Chief Executive Officer (CEO) of Executive Search",
+    organisation: "eg.1 Global",
+    category: "Professional Services & Management Consulting",
+    sources: [
+      "https://www.recruiter.co.uk/news/2025/11/appointments-3-7-november-2025",
+      "https://eg1global.com/our-people/",
+    ],
+    pollie_slug: "warwick-stacey",
+    start_date: "unknown",
+    end_date: "present",
+  },
 ];
