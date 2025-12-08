@@ -14,12 +14,14 @@ Politicians are free to choose their post-parliament careers, but those choices
 reveal what they value. This project helps you decide whether that aligns with
 you.
 
+<PollieList />
+
 ## About us
 
-**OutOfOffice** was created by Khoi and Ben---a couple of individuals who care
-deeply about Australian democracy. Like many others, we wanted an easy way to
-see what our representatives do after they leave office. We couldn’t find it, so
-we built it.
+**OutOfOffice CV** was created by Khoi and Ben---a couple of individuals who
+care deeply about Australian democracy. Like many others, we wanted an easy way
+to see what our representatives do after they leave office. We couldn’t find it,
+so we built it.
 
 Our project uses both AI and human intelligence to search the internet for each
 former politician and what roles they have taken since leaving office. Our team
@@ -31,5 +33,3 @@ email [info@outofoffice.cv](mailto:info@outofoffice.cv). If you've got
 ideas/feature requests/corrections then you can find the website source code and
 database on
 [GitHub](https://github.com/out-of-office-cv/out-of-office-cv-website).
-
-<PollieList />
