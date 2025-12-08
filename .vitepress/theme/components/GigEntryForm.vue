@@ -46,6 +46,17 @@ interface DraftGig extends Gig {
     id: string;
 }
 
+function generateUUID(): string {
+    if (typeof crypto !== "undefined" && crypto.randomUUID) {
+        return crypto.randomUUID();
+    }
+    return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (c) => {
+        const r = (Math.random() * 16) | 0;
+        const v = c === "x" ? r : (r & 0x3) | 0x8;
+        return v.toString(16);
+    });
+}
+
 type Mode = "add" | "verify";
 const mode = ref<Mode>("add");
 
@@ -210,7 +221,7 @@ function addOrUpdateGig() {
         .map((s) => s.trim());
 
     const gig: DraftGig = {
-        id: editingGigId.value || crypto.randomUUID(),
+        id: editingGigId.value || generateUUID(),
         role: role.value.trim(),
         organisation: organisation.value.trim(),
         category: category.value as GigCategory,
