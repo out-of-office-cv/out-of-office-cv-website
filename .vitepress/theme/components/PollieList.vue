@@ -112,6 +112,7 @@ const filteredData = computed(() => {
     padding: 0;
     display: grid;
     gap: 0.75rem;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
 
 .pollie-card {
