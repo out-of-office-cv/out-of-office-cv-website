@@ -157,6 +157,13 @@ export function selectPollie(
   return null;
 }
 
+function getSearchName(fullName: string): string {
+  const parts = fullName.trim().split(/\s+/);
+  if (parts.length <= 2) return fullName;
+  // Use first and last name only, dropping middle names
+  return `${parts[0]} ${parts[parts.length - 1]}`;
+}
+
 export function buildPrompt(pollie: Pollie): string {
   const ceasedDateFormatted = pollie.ceasedDate
     ? parseDate(pollie.ceasedDate)?.toLocaleDateString("en-AU", {
@@ -165,7 +172,9 @@ export function buildPrompt(pollie: Pollie): string {
       })
     : "unknown";
 
-  return `Search the web for information about ${pollie.name}, a former Australian politician.
+  const searchName = getSearchName(pollie.name);
+
+  return `Search the web for information about ${searchName}, a former Australian politician.
 
 Background:
 - Party: ${pollie.party}
