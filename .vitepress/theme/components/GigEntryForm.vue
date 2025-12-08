@@ -571,7 +571,7 @@ async function submitPR() {
         const prBody = draftGigs.value
             .map(
                 (g) =>
-                    `- ${g.role} at ${g.organisation} (${g.pollie_slug})\n  Source: ${g.source}`,
+                    `- ${g.role} at ${g.organisation} (${g.pollie_slug})\n  Sources: ${g.sources.join(", ")}`,
             )
             .join("\n");
 

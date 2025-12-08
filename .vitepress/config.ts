@@ -1,6 +1,15 @@
 import { defineConfig } from "vitepress";
+import checker from "vite-plugin-checker";
 
 export default defineConfig({
+  vite: {
+    plugins: [
+      checker({
+        typescript: true,
+        vueTsc: true,
+      }),
+    ],
+  },
   title: "Out of Office CV",
   description:
     "Tracking what Australian Parliamentarians do when they leave office",
@@ -8,6 +17,7 @@ export default defineConfig({
   cleanUrls: true,
   ignoreDeadLinks: false,
   themeConfig: {
+    // @ts-expect-error disable search widget
     search: false,
     nav: [
       { text: "Home", link: "/" },
