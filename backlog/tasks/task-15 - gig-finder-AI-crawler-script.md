@@ -1,10 +1,10 @@
 ---
 id: task-15
 title: gig finder AI crawler script
-status: To Do
+status: Done
 assignee: []
-created_date: '2025-12-08 22:02'
-updated_date: '2025-12-08 22:18'
+created_date: "2025-12-08 22:02"
+updated_date: "2025-12-08 22:18"
 labels: []
 dependencies: []
 ---
@@ -26,7 +26,9 @@ us a reasonably high hit-rate). These can then be verified, after which time
 they'll show up on the website.
 
 ## Acceptance Criteria
+
 <!-- AC:BEGIN -->
+
 - [ ] #1 Script runs via `npm run find-gigs`
 - [ ] #2 Selects pollie based on configurable strategy
 - [ ] #3 Calls OpenAI Responses API with web_search tool
@@ -39,17 +41,21 @@ they'll show up on the website.
 ## Implementation Plan
 
 <!-- SECTION:PLAN:BEGIN -->
+
 ## Implementation Plan
 
 ### Script: `scripts/find-gigs.ts`
 
 **Dependencies:**
+
 - `openai` npm package (OpenAI SDK)
 
 **Environment:**
+
 - `OPENAI_API_KEY` required
 
 **CLI:**
+
 ```bash
 npm run find-gigs                              # default: most recent pollie with no gigs
 npm run find-gigs -- --pollie <slug>           # explicit pollie
@@ -73,19 +79,21 @@ npm run find-gigs -- --strategy random         # random selection
 ### Pollie Selection Strategies
 
 - `recent-no-gigs` (default): most recently departed with no associated gigs
-- `recent-few-gigs`: recently departed with fewer than N gigs  
+- `recent-few-gigs`: recently departed with fewer than N gigs
 - `random`: random selection from those without gigs
 - `--pollie <slug>`: explicit selection
 
 ### API Details
 
 Using Responses API which handles multi-turn web search automatically:
+
 - Multiple searches per request as needed
 - Aggregates results before structured output
 - Returns multiple gigs with multiple sources each
 
 ### Output
 
-Gigs appended to `data/gigs.ts` without `verified_by` field.
-Human verification required before `verified_by` is added.
+Gigs appended to `data/gigs.ts` without `verified_by` field. Human verification
+required before `verified_by` is added.
+
 <!-- SECTION:PLAN:END -->
