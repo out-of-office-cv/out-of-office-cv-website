@@ -728,4 +728,81 @@ export const gigs: Gig[] = [
     pollie_slug: "stuart-rowland-robert",
     start_date: "2022-01-01",
   },
+
+  // Karen Andrews
+  {
+    role: "Non-Executive Director",
+    organisation: "Australian Resources Recovery Council",
+    category: "Environment, Climate & Sustainability",
+    sources: [
+      "https://www.insidewaste.com.au/112761-karen-andrews/",
+      "https://wastemanagementreview.com.au/former-minister-joins-resources-recovery-sector",
+    ],
+    pollie_slug: "karen-lesley-andrews",
+    start_date: "2025-04-01",
+  },
+
+  // Adam Bandt
+  {
+    role: "Chief Executive Officer",
+    organisation: "Australian Conservation Foundation",
+    category: "Nonprofit, NGO and Charity",
+    sources: [
+      "https://www.thenewdaily.com.au/news/politics/australian-politics/2025/09/08/adam-bandt-conservation-job",
+      "https://au.news.yahoo.com/former-greens-leader-reveals-role-054008809.html",
+    ],
+    pollie_slug: "adam-bandt",
+    start_date: "2026-01-01",
+  },
+
+  // Stephen Jones
+  {
+    role: "Ambassador and Permanent Representative to the OECD",
+    organisation: "Australian Government",
+    category: "Diplomacy & International Relations",
+    sources: [
+      "https://www.foreignminister.gov.au/minister/penny-wong/media-release/ambassador-and-permanent-representative-australia-oecd",
+      "https://www.illawarramercury.com.au/story/9012807/stephen-jones-to-represent-australia-at-oecd-in-paris/",
+    ],
+    pollie_slug: "stephen-jones",
+    start_date: "2025-09-11",
+  },
+
+  // Michael Sukkar
+  {
+    role: "Non-Executive Director",
+    organisation: "Simonds Group",
+    category: "Professional Services & Management Consulting",
+    sources: [
+      "https://www.sharecafe.com.au/2025/08/21/simonds-group-appoints-michael-sukkar-to-board/",
+      "https://www.finnewsnetwork.com.au/archives/finance_news_network2482256.html",
+    ],
+    pollie_slug: "michael-sukkar",
+    start_date: "2025-08-21",
+  },
+
+  // Paul Fletcher
+  {
+    role: "Director",
+    organisation: "Tech Council of Australia",
+    category: "Technology (Software, IT & Digital Services)",
+    sources: [
+      "https://www.paulfletcher.com.au/media-releases/paul-fletcher-join-tech-council-australia",
+      "https://www.innovationaus.com/robyn-denholm-departs-tech-council-prompting-board-refresh/",
+    ],
+    pollie_slug: "paul-william-fletcher",
+    start_date: "2025-12-01",
+  },
+
+  // Brendan O'Connor
+  {
+    role: "Professor of Practice, Workforce Skills & Innovation",
+    organisation: "RMIT University",
+    category: "Education, Academia & Research",
+    sources: [
+      "https://www.rmit.edu.au/news/all-news/2025/aug/brendan-oconnor-rmit",
+    ],
+    pollie_slug: "brendan-patrick-oconnor",
+    start_date: "2025-08-01",
+  },
 ];
