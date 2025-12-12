@@ -805,4 +805,67 @@ export const gigs: Gig[] = [
     pollie_slug: "brendan-patrick-oconnor",
     start_date: "2025-08-01",
   },
+
+  // Linda Burney
+  {
+    role: "Chair, First Nations Pharmacy Network",
+    organisation: "Pharmacy Guild of Australia",
+    category: "Health, Medical & Aged Care",
+    sources: [
+      "https://www.guild.org.au/news-events/news/2025/pharmacy-guild-appoints-linda-burney-chair-of-newly-established-first-nations-pharmacy-network",
+      "https://ajp.com.au/news/former-minister-to-lead-first-nations-pharmacy-network/",
+    ],
+    pollie_slug: "linda-burney",
+    start_date: "2025-11-05",
+  },
+
+  // Bill Shorten
+  {
+    role: "Vice-Chancellor and President",
+    organisation: "University of Canberra",
+    category: "Education, Academia & Research",
+    sources: [
+      "https://www.canberra.edu.au/about-uc/media/media-releases/2024/september/the-honourable-bill-shorten-mp-announced-as-the-next-university-of-canberra-vice-chancellor-and-president",
+      "https://ministers.dss.gov.au/media-releases/17341",
+    ],
+    pollie_slug: "william-richard-shorten",
+    start_date: "2025-02-01",
+  },
+
+  // Simon Birmingham
+  {
+    role: "Chief Executive Officer",
+    organisation: "Australian Banking Association",
+    category: "Financial Services and Banking",
+    sources: [
+      "https://www.ausbanking.org.au/simon-birmingham-appointed-as-aba-ceo/",
+      "https://www.businessnewsaustralia.com/articles/former-finance-minister-simon-birmingham-to-lead-australian-banking-association.html",
+    ],
+    pollie_slug: "simon-john-birmingham",
+    start_date: "2025-08-18",
+  },
+  {
+    role: "Board Member",
+    organisation: "Tech Council of Australia",
+    category: "Technology (Software, IT & Digital Services)",
+    sources: [
+      "https://www.startupdaily.net/topic/people/robyn-denholm-is-stepping-down-from-the-tech-council-of-australia-board-as-its-two-ex-pollie-directors-are-also-swapped-out/",
+      "https://techcouncil.com.au/board/",
+    ],
+    pollie_slug: "simon-john-birmingham",
+    start_date: "2025-12-01",
+  },
+
+  // Keith Pitt
+  {
+    role: "Ambassador to the Holy See",
+    organisation: "Australian Government",
+    category: "Diplomacy & International Relations",
+    sources: [
+      "https://www.foreignminister.gov.au/minister/penny-wong/media-release/ambassador-holy-see",
+      "https://melbournecatholic.org/news/former-mp-keith-pitt-selected-as-australias-new-ambassador-to-the-holy-see/",
+    ],
+    pollie_slug: "keith-pitt",
+    start_date: "2025-02-16",
+  },
 ];
