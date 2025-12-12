@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
 import { data } from "../../../pollies.data";
-import { getPartyColour, type PartyColour } from "../../utils";
-import type { House } from "../../types";
+import { getPartyColour } from "../../utils";
 
 const search = ref("");
 

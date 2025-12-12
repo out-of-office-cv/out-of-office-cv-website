@@ -2,7 +2,7 @@
 import { getPartyColour } from "../../utils";
 import type { House } from "../../types";
 
-const props = defineProps<{
+defineProps<{
     name: string;
     division: string;
     state: string;
@@ -69,7 +69,7 @@ const props = defineProps<{
 .pollie-name {
     font-size: 2rem;
     font-weight: 700;
-    margin: 0 0 0.75rem 0;
+    margin: 0 0 0.75rem;
     line-height: 1.2;
 }
 

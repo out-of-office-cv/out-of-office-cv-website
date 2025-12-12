@@ -10,6 +10,13 @@ export default defineConfig({
       checker({
         typescript: true,
         vueTsc: true,
+        eslint: {
+          lintCommand: 'eslint "./**/*.{ts,vue}"',
+          useFlatConfig: true,
+        },
+        stylelint: {
+          lintCommand: 'stylelint ".vitepress/**/*.vue"',
+        },
       }),
     ],
   },

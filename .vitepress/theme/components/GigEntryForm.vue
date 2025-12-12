@@ -384,58 +384,6 @@ function formatGigForTs(gig: DraftGig): string {
     return lines.join("\n");
 }
 
-function addVerifiedByToGig(
-    content: string,
-    gigIndex: number,
-    verifier: string,
-): string {
-    const lines = content.split("\n");
-    let currentGigIndex = -1;
-    let braceDepth = 0;
-    let inGigsArray = false;
-
-    for (let i = 0; i < lines.length; i++) {
-        const line = lines[i];
-
-        if (line.includes("export const gigs")) {
-            inGigsArray = true;
-            continue;
-        }
-
-        if (!inGigsArray) continue;
-
-        if (line.trim() === "{") {
-            if (braceDepth === 0) {
-                currentGigIndex++;
-            }
-            braceDepth++;
-        }
-
-        if (line.trim().startsWith("}")) {
-            braceDepth--;
-        }
-
-        if (currentGigIndex === gigIndex && braceDepth === 1) {
-            if (
-                (line.includes("sources:") &&
-                    !content.includes(`verified_by:`)) ||
-                (line.includes("sources:") &&
-                    lines
-                        .slice(0, i + 1)
-                        .filter((l) => l.includes("verified_by:")).length <=
-                        currentGigIndex)
-            ) {
-                const indent = line.match(/^(\s*)/)?.[1] || "    ";
-                const verifiedByLine = `${indent}verified_by: ${JSON.stringify(verifier)},`;
-                lines.splice(i + 1, 0, verifiedByLine);
-                return lines.join("\n");
-            }
-        }
-    }
-
-    return content;
-}
-
 function addVerifiedByToGigByMatching(
     content: string,
     gig: Gig,
@@ -1531,7 +1479,7 @@ h3 {
     gap: 1rem;
 }
 
-@media (max-width: 600px) {
+@media (width <= 600px) {
     .form-row.two-col {
         grid-template-columns: 1fr;
     }
@@ -1612,7 +1560,7 @@ h3 {
     border: 1px solid var(--vp-c-border);
     border-top: none;
     border-radius: 0 0 4px 4px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
     z-index: 100;
     max-height: 200px;
     overflow-y: auto;

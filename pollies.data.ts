@@ -109,7 +109,7 @@ export default {
 
       const decade = getDecade(pollie._ceasedDateParsed);
       const list = decadeMap.get(decade) || [];
-      const { _ceasedDateParsed, ...pollieData } = pollie;
+      const { _ceasedDateParsed: _, ...pollieData } = pollie;
       list.push(pollieData);
       decadeMap.set(decade, list);
     }

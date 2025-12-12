@@ -101,7 +101,7 @@ function onBlur() {
   border: 1px solid var(--vp-c-border);
   border-top: none;
   border-radius: 0 0 8px 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
   z-index: 100;
   max-height: 300px;
   overflow-y: auto;
