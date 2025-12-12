@@ -6,6 +6,7 @@ import { GIG_CATEGORIES } from "../.vitepress/types";
 import { loadPollies } from "../.vitepress/loaders";
 import {
   selectPollie,
+  listCandidates,
   buildPrompt,
   formatGig,
   formatGigsFile,
@@ -135,6 +136,56 @@ describe("selectPollie", () => {
     }));
     const result = selectPollie(mockPollies, gigsForAll, "recent-no-gigs");
     expect(result).toBeNull();
+  });
+});
+
+describe("listCandidates", () => {
+  it("returns multiple candidates sorted by recency", () => {
+    const candidates = listCandidates(mockPollies, mockGigs, "recent-no-gigs");
+    expect(candidates.length).toBe(2);
+    expect(candidates[0].slug).toBe("recent-no-gigs");
+    expect(candidates[1].slug).toBe("older-no-gigs");
+  });
+
+  it("excludes pollies with gigs for recent-no-gigs strategy", () => {
+    const candidates = listCandidates(mockPollies, mockGigs, "recent-no-gigs");
+    expect(candidates.map((c) => c.slug)).not.toContain("has-gigs");
+  });
+
+  it("excludes current members", () => {
+    const candidates = listCandidates(mockPollies, mockGigs, "recent-no-gigs");
+    expect(candidates.map((c) => c.slug)).not.toContain("still-in-office");
+  });
+
+  it("respects limit parameter", () => {
+    const candidates = listCandidates(
+      mockPollies,
+      mockGigs,
+      "recent-no-gigs",
+      1,
+    );
+    expect(candidates.length).toBe(1);
+    expect(candidates[0].slug).toBe("recent-no-gigs");
+  });
+
+  it("includes pollies with few gigs for recent-few-gigs strategy", () => {
+    const candidates = listCandidates(mockPollies, mockGigs, "recent-few-gigs");
+    expect(candidates.map((c) => c.slug)).toContain("has-gigs");
+  });
+
+  it("excludes pollies with 3+ gigs for recent-few-gigs strategy", () => {
+    const manyGigs: Gig[] = [
+      { ...mockGigs[0], pollie_slug: "has-gigs" },
+      { ...mockGigs[0], pollie_slug: "has-gigs", role: "Role 2" },
+      { ...mockGigs[0], pollie_slug: "has-gigs", role: "Role 3" },
+    ];
+    const candidates = listCandidates(mockPollies, manyGigs, "recent-few-gigs");
+    expect(candidates.map((c) => c.slug)).not.toContain("has-gigs");
+  });
+
+  it("returns all candidates without limit", () => {
+    const candidates = listCandidates(mockPollies, [], "recent-no-gigs");
+    expect(candidates.length).toBe(3);
   });
 });
 
