@@ -1,8 +1,8 @@
-import { readFileSync, existsSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import type { PollieListItem, PolliesByDecade } from "./.vitepress/types";
-import { parseCSV, slugify, parseDate } from "./.vitepress/utils";
+import { parseDate } from "./.vitepress/utils";
+import { loadPollies } from "./.vitepress/loaders";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = __dirname;
@@ -25,73 +25,18 @@ interface PollieWithParsedDate extends PollieListItem {
 export default {
   watch: ["./data/representatives.csv", "./data/senators.csv"],
   load(): PolliesByDecade[] {
-    const repsCsvPath = resolve(rootDir, "data/representatives.csv");
-    const senatorsCsvPath = resolve(rootDir, "data/senators.csv");
+    const allPollies = loadPollies(resolve(rootDir, "data"));
 
-    const dataRows: { row: string[]; house: "reps" | "senate" }[] = [];
-
-    if (existsSync(repsCsvPath)) {
-      const content = readFileSync(repsCsvPath, "utf-8");
-      const rows = parseCSV(content);
-      dataRows.push(
-        ...rows.slice(1).map((row) => ({ row, house: "reps" as const })),
-      );
-    }
-
-    if (existsSync(senatorsCsvPath)) {
-      const content = readFileSync(senatorsCsvPath, "utf-8");
-      const rows = parseCSV(content);
-      dataRows.push(
-        ...rows.slice(1).map((row) => ({ row, house: "senate" as const })),
-      );
-    }
-
-    if (dataRows.length === 0) {
-      return [];
-    }
-
-    const pollieMap = new Map<
-      string,
-      { row: string[]; ceasedDate: Date | null; house: "reps" | "senate" }
-    >();
-
-    for (const { row, house } of dataRows) {
-      if (!row[2]) continue;
-
-      const slug = slugify(row[2]);
-      const ceasedDate = parseDate(row[7]);
-      const existing = pollieMap.get(slug);
-
-      if (!existing) {
-        pollieMap.set(slug, { row, ceasedDate, house });
-      } else {
-        const existingStillInOffice = existing.ceasedDate === null;
-        const newStillInOffice = ceasedDate === null;
-
-        if (newStillInOffice && !existingStillInOffice) {
-          pollieMap.set(slug, { row, ceasedDate, house });
-        } else if (
-          !existingStillInOffice &&
-          !newStillInOffice &&
-          ceasedDate &&
-          existing.ceasedDate &&
-          ceasedDate > existing.ceasedDate
-        ) {
-          pollieMap.set(slug, { row, ceasedDate, house });
-        }
-      }
-    }
-
-    const pollies: PollieWithParsedDate[] = Array.from(pollieMap.values())
-      .map(({ row, ceasedDate, house }) => ({
-        slug: slugify(row[2]),
-        name: row[2],
-        division: row[3] || "",
-        state: row[4] || "",
-        party: row[9] || "",
-        ceasedDate: row[7] || "",
-        house,
-        _ceasedDateParsed: ceasedDate,
+    const pollies: PollieWithParsedDate[] = allPollies
+      .map((pollie) => ({
+        slug: pollie.slug,
+        name: pollie.name,
+        division: pollie.division,
+        state: pollie.state,
+        party: pollie.party,
+        ceasedDate: pollie.ceasedDate,
+        house: pollie.house,
+        _ceasedDateParsed: parseDate(pollie.ceasedDate),
       }))
       .sort((a, b) => {
         if (!a._ceasedDateParsed && b._ceasedDateParsed) return -1;
@@ -104,7 +49,6 @@ export default {
 
     const decadeMap = new Map<string, PollieListItem[]>();
     for (const pollie of pollies) {
-      // Skip pollies still in office
       if (!pollie._ceasedDateParsed) continue;
 
       const decade = getDecade(pollie._ceasedDateParsed);

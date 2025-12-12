@@ -1,13 +1,18 @@
 import { describe, it, expect } from "vitest";
+import { resolve, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 import type { Pollie, Gig } from "../.vitepress/types";
+import { GIG_CATEGORIES } from "../.vitepress/types";
+import { loadPollies } from "../.vitepress/loaders";
 import {
   selectPollie,
   buildPrompt,
   formatGig,
   formatGigsFile,
-  loadPollies,
-  GIG_CATEGORIES,
 } from "../scripts/find-gigs";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const rootDir = resolve(__dirname, "..");
 
 const mockPollies: Pollie[] = [
   {
@@ -69,12 +74,22 @@ const mockGigs: Gig[] = [
 
 describe("selectPollie", () => {
   it("selects explicit pollie by slug", () => {
-    const result = selectPollie(mockPollies, mockGigs, "recent-no-gigs", "older-no-gigs");
+    const result = selectPollie(
+      mockPollies,
+      mockGigs,
+      "recent-no-gigs",
+      "older-no-gigs",
+    );
     expect(result?.slug).toBe("older-no-gigs");
   });
 
   it("returns null for non-existent explicit slug", () => {
-    const result = selectPollie(mockPollies, mockGigs, "recent-no-gigs", "not-found");
+    const result = selectPollie(
+      mockPollies,
+      mockGigs,
+      "recent-no-gigs",
+      "not-found",
+    );
     expect(result).toBeNull();
   });
 
@@ -100,7 +115,9 @@ describe("selectPollie", () => {
 
   it("includes pollies with fewer than 3 gigs in recent-few-gigs strategy", () => {
     const result = selectPollie(mockPollies, mockGigs, "recent-few-gigs");
-    expect(["recent-no-gigs", "older-no-gigs", "has-gigs"]).toContain(result?.slug);
+    expect(["recent-no-gigs", "older-no-gigs", "has-gigs"]).toContain(
+      result?.slug,
+    );
   });
 
   it("selects random pollie without gigs for random strategy", () => {
@@ -185,7 +202,9 @@ describe("formatGig", () => {
 
     expect(formatted).toContain('"Board Member"');
     expect(formatted).toContain('"Test Corp"');
-    expect(formatted).toContain('"Professional Services & Management Consulting"');
+    expect(formatted).toContain(
+      '"Professional Services & Management Consulting"',
+    );
     expect(formatted).toContain('"https://example.com/source1"');
     expect(formatted).toContain('"https://example.com/source2"');
     expect(formatted).toContain('"test-pollie"');
@@ -257,26 +276,30 @@ export const gigs: Gig[] = [
 
   it("throws error if closing bracket not found", () => {
     const badContent = "export const gigs = [";
-    expect(() => formatGigsFile(badContent, [])).toThrow("Could not find closing bracket");
+    expect(() => formatGigsFile(badContent, [])).toThrow(
+      "Could not find closing bracket",
+    );
   });
 });
 
 describe("loadPollies", () => {
   it("loads pollies from CSV files", () => {
-    const pollies = loadPollies();
+    const pollies = loadPollies(resolve(rootDir, "data"));
     expect(pollies.length).toBeGreaterThan(700);
   });
 
   it("deduplicates pollies with multiple terms", () => {
-    const pollies = loadPollies();
-    const slugs = pollies.map((p) => p.slug);
+    const pollies = loadPollies(resolve(rootDir, "data"));
+    const slugs = pollies.map((p: Pollie) => p.slug);
     const uniqueSlugs = new Set(slugs);
     expect(slugs.length).toBe(uniqueSlugs.size);
   });
 
   it("keeps most recent term for duplicates", () => {
-    const pollies = loadPollies();
-    const broadbent = pollies.find((p) => p.slug === "russell-evan-broadbent");
+    const pollies = loadPollies(resolve(rootDir, "data"));
+    const broadbent = pollies.find(
+      (p: Pollie) => p.slug === "russell-evan-broadbent",
+    );
     expect(broadbent).toBeDefined();
     expect(broadbent?.division).toBe("Monash");
   });

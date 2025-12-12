@@ -1,3 +1,5 @@
+import type { House } from "./types";
+
 export function parseCSV(content: string): string[][] {
   const lines = content.trim().split("\n");
   return lines.map((line) => {
@@ -96,4 +98,56 @@ const partyColourMap: Record<string, PartyColour> = {
 
 export function getPartyColour(party: string): PartyColour | null {
   return partyColourMap[party] ?? null;
+}
+
+export interface CsvRow {
+  row: string[];
+  house: House;
+}
+
+export function parsePollieFromRow(row: string[], house: House) {
+  const ceasedDate = row[7] || "";
+  const stillInOffice = !ceasedDate;
+
+  return {
+    slug: slugify(row[2]),
+    name: row[2],
+    division: row[3] || "",
+    state: row[4] || "",
+    party: row[9] || "",
+    ceasedDate,
+    reason: row[8] || "",
+    stillInOffice,
+    house,
+  };
+}
+
+export function deduplicatePollies<
+  T extends { slug: string; ceasedDate: string; stillInOffice: boolean },
+>(pollies: T[]): T[] {
+  const pollieMap = new Map<string, T>();
+
+  for (const pollie of pollies) {
+    const existing = pollieMap.get(pollie.slug);
+    if (!existing) {
+      pollieMap.set(pollie.slug, pollie);
+    } else {
+      const existingDate = parseDate(existing.ceasedDate);
+      const newDate = parseDate(pollie.ceasedDate);
+
+      if (pollie.stillInOffice && !existing.stillInOffice) {
+        pollieMap.set(pollie.slug, pollie);
+      } else if (
+        !existing.stillInOffice &&
+        !pollie.stillInOffice &&
+        newDate &&
+        existingDate &&
+        newDate > existingDate
+      ) {
+        pollieMap.set(pollie.slug, pollie);
+      }
+    }
+  }
+
+  return Array.from(pollieMap.values());
 }

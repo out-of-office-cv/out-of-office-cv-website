@@ -1,40 +1,18 @@
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execSync } from "node:child_process";
 import OpenAI from "openai";
-import { parseCSV, slugify, parseDate } from "../.vitepress/utils.js";
+import { parseDate } from "../.vitepress/utils.js";
+import { loadPollies } from "../.vitepress/loaders.js";
 import type { Pollie, Gig, GigCategory } from "../.vitepress/types.js";
+import { GIG_CATEGORIES } from "../.vitepress/types.js";
 import { gigs as existingGigs } from "../data/gigs.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = resolve(__dirname, "..");
 
-export const GIG_CATEGORIES: GigCategory[] = [
-  "Natural Resources (Mining, Oil & Gas)",
-  "Energy (Renewables & Traditional)",
-  "Agriculture, Forestry & Fisheries",
-  "Environment, Climate & Sustainability",
-  "Health, Medical & Aged Care",
-  "Pharmaceutical & Biotechnology",
-  "Education, Academia & Research",
-  "Government, Public Administration & Civil Service",
-  "Diplomacy & International Relations",
-  "Politics, Campaigning & Party Operations",
-  "Defence & Military and Security",
-  "Nonprofit, NGO and Charity",
-  "Legal & Judicial",
-  "Professional Services & Management Consulting",
-  "Financial Services and Banking",
-  "Technology (Software, IT & Digital Services)",
-  "Telecommunications & Network Infrastructure",
-  "Media, Communications & Public Relations",
-  "Gambling, Gaming and Racing",
-  "Retail, Hospitality & Tourism",
-  "Arts, Culture & Sport",
-  "Science, Engineering & Technical Professions",
-  "Retired",
-];
+export { GIG_CATEGORIES };
 
 export interface FoundGig {
   role: string;
@@ -43,66 +21,6 @@ export interface FoundGig {
   sources: string[];
   start_date?: string;
   end_date?: string;
-}
-
-export function loadPollies(dataDir?: string): Pollie[] {
-  const baseDir = dataDir ?? resolve(rootDir, "data");
-  const pollies: Pollie[] = [];
-
-  for (const { file, house } of [
-    { file: "representatives.csv", house: "reps" as const },
-    { file: "senators.csv", house: "senate" as const },
-  ]) {
-    const csvPath = resolve(baseDir, file);
-    if (!existsSync(csvPath)) continue;
-
-    const content = readFileSync(csvPath, "utf-8");
-    const rows = parseCSV(content);
-
-    for (const row of rows.slice(1)) {
-      if (!row[2]) continue;
-
-      const ceasedDate = row[7] || "";
-      const stillInOffice = !ceasedDate;
-
-      pollies.push({
-        slug: slugify(row[2]),
-        name: row[2],
-        division: row[3] || "",
-        state: row[4] || "",
-        party: row[9] || "",
-        ceasedDate,
-        reason: row[8] || "",
-        stillInOffice,
-        house,
-      });
-    }
-  }
-
-  const pollieMap = new Map<string, Pollie>();
-  for (const pollie of pollies) {
-    const existing = pollieMap.get(pollie.slug);
-    if (!existing) {
-      pollieMap.set(pollie.slug, pollie);
-    } else {
-      const existingDate = parseDate(existing.ceasedDate);
-      const newDate = parseDate(pollie.ceasedDate);
-
-      if (pollie.stillInOffice && !existing.stillInOffice) {
-        pollieMap.set(pollie.slug, pollie);
-      } else if (
-        !existing.stillInOffice &&
-        !pollie.stillInOffice &&
-        newDate &&
-        existingDate &&
-        newDate > existingDate
-      ) {
-        pollieMap.set(pollie.slug, pollie);
-      }
-    }
-  }
-
-  return Array.from(pollieMap.values());
 }
 
 export type Strategy = "recent-no-gigs" | "recent-few-gigs" | "random";
@@ -164,7 +82,6 @@ function getSearchName(fullName: string): string {
 }
 
 function estimateCost(inputTokens: number, outputTokens: number): number {
-  // gpt-5-nano: $0.05/1M input, $0.40/1M output
   return inputTokens * 0.00000005 + outputTokens * 0.0000004;
 }
 
@@ -421,7 +338,7 @@ async function main() {
   }
 
   console.log("Loading pollies...");
-  const pollies = loadPollies();
+  const pollies = loadPollies(resolve(rootDir, "data"));
   console.log(`Loaded ${pollies.length} pollies`);
 
   console.log(`Using strategy: ${strategy}`);

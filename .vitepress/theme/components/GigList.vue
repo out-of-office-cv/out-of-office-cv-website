@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import type { Gig } from "../../types";
+import { formatISODate } from "../../utils";
+import PollieBadge from "./PollieBadge.vue";
 
 const props = defineProps<{
     gigs: Gig[];
@@ -10,22 +12,13 @@ const verifiedGigs = computed(() =>
     props.gigs.filter((gig) => gig.verified_by),
 );
 
-function formatDate(isoDateStr: string): string {
-    const date = new Date(isoDateStr);
-    return date.toLocaleDateString("en-AU", {
-        day: "numeric",
-        month: "long",
-        year: "numeric",
-    });
-}
-
 function getDateRange(gig: Gig): string {
     if (gig.start_date) {
         return gig.end_date
-            ? `${formatDate(gig.start_date)} – ${formatDate(gig.end_date)}`
-            : `${formatDate(gig.start_date)} – present`;
+            ? `${formatISODate(gig.start_date)} – ${formatISODate(gig.end_date)}`
+            : `${formatISODate(gig.start_date)} – present`;
     }
-    return gig.end_date ? `until ${formatDate(gig.end_date)}` : "";
+    return gig.end_date ? `until ${formatISODate(gig.end_date)}` : "";
 }
 
 function getHostname(url: string): string {
@@ -49,7 +42,9 @@ function getHostname(url: string): string {
                 <div class="gig-role">{{ gig.role }}</div>
                 <div class="gig-organisation">{{ gig.organisation }}</div>
                 <div class="gig-meta">
-                    <span class="badge badge-category">{{ gig.category }}</span>
+                    <PollieBadge variant="category">{{
+                        gig.category
+                    }}</PollieBadge>
                     <span v-if="getDateRange(gig)" class="gig-dates">{{
                         getDateRange(gig)
                     }}</span>
@@ -135,19 +130,5 @@ function getHostname(url: string): string {
 
 .source-link {
     margin-right: 0.25rem;
-}
-
-.badge {
-    display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 500;
-    padding: 0.125rem 0.5rem;
-    border-radius: 4px;
-}
-
-.badge-category {
-    background-color: var(--vp-c-bg-soft);
-    color: var(--vp-c-text-2);
-    border: 1px solid var(--vp-c-border);
 }
 </style>

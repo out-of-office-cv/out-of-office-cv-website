@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
 import { data } from "../../../pollies.data";
-import { getPartyColour } from "../../utils";
+import PollieBadge from "./PollieBadge.vue";
 
 const search = ref("");
 
@@ -55,24 +55,12 @@ const filteredData = computed(() => {
                     pollie.name
                 }}</a>
                 <div class="pollie-meta">
-                    <span
-                        :class="[
-                            'badge',
-                            'badge-party',
-                            `badge-party-${getPartyColour(pollie.party) || 'default'}`,
-                        ]"
-                    >
+                    <PollieBadge variant="party" :party="pollie.party">
                         {{ pollie.party }}
-                    </span>
-                    <span
-                        :class="[
-                            'badge',
-                            'badge-house',
-                            `badge-${pollie.house}`,
-                        ]"
-                    >
+                    </PollieBadge>
+                    <PollieBadge variant="house" :house="pollie.house">
                         {{ pollie.house === "senate" ? "Senator" : "MP" }}
-                    </span>
+                    </PollieBadge>
                     <span class="pollie-location">
                         {{ pollie.division || pollie.state
                         }}<template v-if="pollie.division"
@@ -144,59 +132,5 @@ const filteredData = computed(() => {
 .pollie-location {
     color: var(--vp-c-text-2);
     font-size: 0.875rem;
-}
-
-.badge {
-    display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 500;
-    padding: 0.125rem 0.5rem;
-    border-radius: 4px;
-}
-
-.badge-senate {
-    background-color: #a51c30;
-    color: white;
-}
-
-.badge-reps {
-    background-color: #0d5f2c;
-    color: white;
-}
-
-.badge-party-red {
-    background-color: #e53935;
-    color: white;
-}
-
-.badge-party-blue {
-    background-color: #1565c0;
-    color: white;
-}
-
-.badge-party-green {
-    background-color: #2e7d32;
-    color: white;
-}
-
-.badge-party-grey {
-    background-color: #616161;
-    color: white;
-}
-
-.badge-party-orange {
-    background-color: #ef6c00;
-    color: white;
-}
-
-.badge-party-purple {
-    background-color: #7b1fa2;
-    color: white;
-}
-
-.badge-party-default {
-    background-color: var(--vp-c-bg-soft);
-    color: var(--vp-c-text-2);
-    border: 1px solid var(--vp-c-border);
 }
 </style>
