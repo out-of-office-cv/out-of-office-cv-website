@@ -9,6 +9,7 @@ export const gigs: Gig[] = [
     sources: [
       "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/christopher-pyne.html",
     ],
+    verified_by: "khoi",
     pollie_slug: "christopher-maurice-pyne",
     start_date: "2019-06-01",
   },
