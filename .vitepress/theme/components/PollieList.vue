@@ -4,6 +4,7 @@ import { data } from "../../../pollies.data";
 import PollieBadge from "./PollieBadge.vue";
 
 const search = ref("");
+const photoErrors = ref(new Set<string>());
 
 function isDecade1980sOrLater(decade: string): boolean {
     if (decade === "Current") return true;
@@ -51,23 +52,34 @@ const filteredData = computed(() => {
                 :key="pollie.slug"
                 class="pollie-card"
             >
-                <a :href="'/pollies/' + pollie.slug" class="pollie-name">{{
-                    pollie.name
-                }}</a>
-                <div class="pollie-meta">
-                    <PollieBadge variant="party" :party="pollie.party">
-                        {{ pollie.party }}
-                    </PollieBadge>
-                    <PollieBadge variant="house" :house="pollie.house">
-                        {{ pollie.house === "senate" ? "Senator" : "MP" }}
-                    </PollieBadge>
-                    <span class="pollie-location">
-                        {{ pollie.division || pollie.state
-                        }}<template v-if="pollie.division"
-                            >, {{ pollie.state }}</template
-                        >
-                    </span>
-                </div>
+                <a :href="'/pollies/' + pollie.slug" class="pollie-link">
+                    <img
+                        v-if="pollie.photoUrl && !photoErrors.has(pollie.slug)"
+                        :src="pollie.photoUrl"
+                        :alt="`Photo of ${pollie.name}`"
+                        class="pollie-photo"
+                        @error="photoErrors.add(pollie.slug)"
+                    />
+                    <div class="pollie-content">
+                        <span class="pollie-name">{{ pollie.name }}</span>
+                        <div class="pollie-meta">
+                            <PollieBadge variant="party" :party="pollie.party">
+                                {{ pollie.party }}
+                            </PollieBadge>
+                            <PollieBadge variant="house" :house="pollie.house">
+                                {{
+                                    pollie.house === "senate" ? "Senator" : "MP"
+                                }}
+                            </PollieBadge>
+                            <span class="pollie-location">
+                                {{ pollie.division || pollie.state
+                                }}<template v-if="pollie.division"
+                                    >, {{ pollie.state }}</template
+                                >
+                            </span>
+                        </div>
+                    </div>
+                </a>
             </li>
         </ul>
     </template>
@@ -103,10 +115,36 @@ const filteredData = computed(() => {
 }
 
 .pollie-card {
-    padding: 0.75rem 1rem;
     border: 1px solid var(--vp-c-border);
     border-radius: 8px;
     background: var(--vp-c-bg-soft);
+    overflow: hidden;
+}
+
+.pollie-link {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.pollie-link:hover {
+    background: var(--vp-c-bg-alt);
+}
+
+.pollie-photo {
+    width: 48px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    background-color: var(--vp-c-bg-alt);
+    flex-shrink: 0;
+}
+
+.pollie-content {
+    flex: 1;
+    min-width: 0;
 }
 
 .pollie-name {
@@ -114,11 +152,10 @@ const filteredData = computed(() => {
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--vp-c-text-1);
-    text-decoration: none;
     margin-bottom: 0.375rem;
 }
 
-.pollie-name:hover {
+.pollie-link:hover .pollie-name {
     color: var(--vp-c-brand-1);
 }
 

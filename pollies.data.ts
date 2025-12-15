@@ -36,6 +36,7 @@ export default {
         party: pollie.party,
         ceasedDate: pollie.ceasedDate,
         house: pollie.house,
+        photoUrl: pollie.photoUrl,
         _ceasedDateParsed: parseDate(pollie.ceasedDate),
       }))
       .sort((a, b) => {

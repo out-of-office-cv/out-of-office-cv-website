@@ -15,7 +15,14 @@ export interface Pollie {
 
 export type PollieListItem = Pick<
   Pollie,
-  "slug" | "name" | "division" | "state" | "party" | "ceasedDate" | "house"
+  | "slug"
+  | "name"
+  | "division"
+  | "state"
+  | "party"
+  | "ceasedDate"
+  | "house"
+  | "photoUrl"
 >;
 
 export interface PolliesByDecade {
