@@ -9,7 +9,6 @@ defineProps<{
     state: string;
     party: string;
     house: House;
-    stillInOffice: boolean;
     leftOfficeDate: string;
     leftOfficeAgo: string;
     photoUrl?: string;
@@ -42,16 +41,6 @@ function onPhotoError() {
                     <PollieBadge variant="house" :house="house">
                         {{ house === "senate" ? "Senator" : "MP" }}
                     </PollieBadge>
-                    <PollieBadge
-                        v-if="stillInOffice"
-                        variant="status"
-                        status="in-office"
-                    >
-                        In office
-                    </PollieBadge>
-                    <PollieBadge v-else variant="status" status="left-office">
-                        Left office
-                    </PollieBadge>
                 </div>
                 <div class="pollie-meta">
                     <div class="meta-item" v-if="division">
@@ -62,10 +51,7 @@ function onPhotoError() {
                         <span class="meta-label">State</span>
                         <span class="meta-value">{{ state }}</span>
                     </div>
-                    <div
-                        class="meta-item"
-                        v-if="!stillInOffice && leftOfficeDate"
-                    >
+                    <div class="meta-item" v-if="leftOfficeDate">
                         <span class="meta-label">Left office</span>
                         <span class="meta-value"
                             >{{ leftOfficeDate }} ({{ leftOfficeAgo }})</span

@@ -8,7 +8,6 @@ export interface Pollie {
   state: string;
   party: string;
   ceasedDate: string;
-  stillInOffice: boolean;
   house: House;
   photoUrl: string;
 }

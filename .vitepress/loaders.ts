@@ -21,7 +21,6 @@ export function loadPollies(dataDir: string): Pollie[] {
     if (!row[1]) continue;
 
     const ceasedDate = row[5] || "";
-    const stillInOffice = !ceasedDate;
     const phid = row[0];
 
     pollies.push({
@@ -32,7 +31,6 @@ export function loadPollies(dataDir: string): Pollie[] {
       state: row[3] || "",
       party: row[4] || "",
       ceasedDate,
-      stillInOffice,
       house: (row[6] as House) || "reps",
       photoUrl: buildPhotoUrl(phid),
     });

@@ -35,7 +35,6 @@ interface PolliePath {
     state: string;
     party: string;
     house: House;
-    stillInOffice: boolean;
     leftOfficeDate: string;
     leftOfficeAgo: string;
     photoUrl: string;
@@ -49,8 +48,7 @@ function transformData(
   pollies: Pollie[],
   gigsByPollie: Map<string, Gig[]>,
 ): PolliePath[] {
-  const formerPollies = pollies.filter((p) => !p.stillInOffice);
-  return formerPollies.map((pollie) => {
+  return pollies.map((pollie) => {
     const pollieGigs = gigsByPollie.get(pollie.slug) || [];
     return {
       params: {
@@ -60,9 +58,8 @@ function transformData(
         state: pollie.state,
         party: pollie.party,
         house: pollie.house,
-        stillInOffice: pollie.stillInOffice,
-        leftOfficeDate: pollie.ceasedDate ? formatDate(pollie.ceasedDate) : "",
-        leftOfficeAgo: pollie.ceasedDate ? timeAgo(pollie.ceasedDate) : "",
+        leftOfficeDate: formatDate(pollie.ceasedDate),
+        leftOfficeAgo: timeAgo(pollie.ceasedDate),
         photoUrl: pollie.photoUrl,
         gigs: pollieGigs,
       },

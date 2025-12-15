@@ -45,19 +45,15 @@ export function listCandidates(
     gigCounts.set(gig.pollie_slug, (gigCounts.get(gig.pollie_slug) || 0) + 1);
   }
 
-  const formerPollies = pollies.filter((p) => !p.stillInOffice);
-
   let candidates: Pollie[];
   if (strategy === "recent-no-gigs") {
-    candidates = sortByRecency(
-      formerPollies.filter((p) => !gigSlugs.has(p.slug)),
-    );
+    candidates = sortByRecency(pollies.filter((p) => !gigSlugs.has(p.slug)));
   } else if (strategy === "recent-few-gigs") {
     candidates = sortByRecency(
-      formerPollies.filter((p) => (gigCounts.get(p.slug) || 0) < 3),
+      pollies.filter((p) => (gigCounts.get(p.slug) || 0) < 3),
     );
   } else {
-    candidates = formerPollies.filter((p) => !gigSlugs.has(p.slug));
+    candidates = pollies.filter((p) => !gigSlugs.has(p.slug));
   }
 
   return limit ? candidates.slice(0, limit) : candidates;

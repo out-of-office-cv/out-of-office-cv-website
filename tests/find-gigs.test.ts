@@ -26,7 +26,6 @@ const mockPollies: Pollie[] = [
     state: "NSW",
     party: "ALP",
     ceasedDate: "2024-06-01",
-    stillInOffice: false,
     house: "reps",
     photoUrl: "https://www.aph.gov.au/api/parliamentarian/TEST1/image",
   },
@@ -38,7 +37,6 @@ const mockPollies: Pollie[] = [
     state: "VIC",
     party: "LIB",
     ceasedDate: "2020-01-01",
-    stillInOffice: false,
     house: "reps",
     photoUrl: "https://www.aph.gov.au/api/parliamentarian/TEST2/image",
   },
@@ -50,21 +48,8 @@ const mockPollies: Pollie[] = [
     state: "QLD",
     party: "GRN",
     ceasedDate: "2023-03-15",
-    stillInOffice: false,
     house: "senate",
     photoUrl: "https://www.aph.gov.au/api/parliamentarian/TEST3/image",
-  },
-  {
-    slug: "still-in-office",
-    phid: "TEST4",
-    name: "Still In Office",
-    division: "Test",
-    state: "SA",
-    party: "ALP",
-    ceasedDate: "",
-    stillInOffice: true,
-    house: "reps",
-    photoUrl: "https://www.aph.gov.au/api/parliamentarian/TEST4/image",
   },
 ];
 
@@ -110,11 +95,6 @@ describe("selectPollie", () => {
     expect(result?.slug).not.toBe("has-gigs");
   });
 
-  it("excludes current members for recent-no-gigs strategy", () => {
-    const result = selectPollie(mockPollies, mockGigs, "recent-no-gigs");
-    expect(result?.slug).not.toBe("still-in-office");
-  });
-
   it("selects pollie with few gigs for recent-few-gigs strategy", () => {
     const result = selectPollie(mockPollies, mockGigs, "recent-few-gigs");
     expect(result?.slug).toBe("recent-no-gigs");
@@ -131,12 +111,10 @@ describe("selectPollie", () => {
     const result = selectPollie(mockPollies, mockGigs, "random");
     expect(result).not.toBeNull();
     expect(result?.slug).not.toBe("has-gigs");
-    expect(result?.slug).not.toBe("still-in-office");
   });
 
   it("returns null when no suitable pollies exist", () => {
-    const allWithGigs = mockPollies.filter((p) => !p.stillInOffice);
-    const gigsForAll = allWithGigs.map((p) => ({
+    const gigsForAll = mockPollies.map((p) => ({
       ...mockGigs[0],
       pollie_slug: p.slug,
     }));
@@ -156,11 +134,6 @@ describe("listCandidates", () => {
   it("excludes pollies with gigs for recent-no-gigs strategy", () => {
     const candidates = listCandidates(mockPollies, mockGigs, "recent-no-gigs");
     expect(candidates.map((c) => c.slug)).not.toContain("has-gigs");
-  });
-
-  it("excludes current members", () => {
-    const candidates = listCandidates(mockPollies, mockGigs, "recent-no-gigs");
-    expect(candidates.map((c) => c.slug)).not.toContain("still-in-office");
   });
 
   it("respects limit parameter", () => {
@@ -204,7 +177,6 @@ describe("buildPrompt", () => {
     state: "NSW",
     party: "ALP",
     ceasedDate: "2023-06-15",
-    stillInOffice: false,
     house: "reps",
     photoUrl: "https://www.aph.gov.au/api/parliamentarian/TEST5/image",
   };

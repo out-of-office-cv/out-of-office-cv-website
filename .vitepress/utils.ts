@@ -106,7 +106,7 @@ export function getPartyColour(party: string): PartyColour | null {
 }
 
 export function deduplicatePollies<
-  T extends { slug: string; ceasedDate: string; stillInOffice: boolean },
+  T extends { slug: string; ceasedDate: string },
 >(pollies: T[]): T[] {
   const pollieMap = new Map<string, T>();
 
@@ -118,15 +118,7 @@ export function deduplicatePollies<
       const existingDate = parseDate(existing.ceasedDate);
       const newDate = parseDate(pollie.ceasedDate);
 
-      if (pollie.stillInOffice && !existing.stillInOffice) {
-        pollieMap.set(pollie.slug, pollie);
-      } else if (
-        !existing.stillInOffice &&
-        !pollie.stillInOffice &&
-        newDate &&
-        existingDate &&
-        newDate > existingDate
-      ) {
+      if (newDate && existingDate && newDate > existingDate) {
         pollieMap.set(pollie.slug, pollie);
       }
     }
