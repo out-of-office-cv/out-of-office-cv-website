@@ -1,9 +1,14 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
 import { data } from "../../../pollies.data";
+import type { House } from "../../types";
 import PollieBadge from "./PollieBadge.vue";
 
 const search = ref("");
+const houseFilter = ref<House | "">("");
+const stateFilter = ref("");
+const partyFilter = ref("");
+const decadeFilter = ref("");
 const photoErrors = ref(new Set<string>());
 
 function isDecade1980sOrLater(decade: string): boolean {
@@ -12,37 +17,152 @@ function isDecade1980sOrLater(decade: string): boolean {
     return !isNaN(year) && year >= 1980;
 }
 
+const recentData = computed(() =>
+    data.filter((group) => isDecade1980sOrLater(group.decade)),
+);
+
+const uniqueStates = computed(() => {
+    const states = new Set<string>();
+    for (const group of recentData.value) {
+        for (const p of group.pollies) {
+            if (p.state) states.add(p.state);
+        }
+    }
+    return Array.from(states).sort();
+});
+
+const uniqueParties = computed(() => {
+    const parties = new Set<string>();
+    for (const group of recentData.value) {
+        for (const p of group.pollies) {
+            if (p.party) parties.add(p.party.trim());
+        }
+    }
+    return Array.from(parties).sort();
+});
+
+const uniqueDecades = computed(() =>
+    recentData.value.map((group) => group.decade),
+);
+
 const filteredData = computed(() => {
     const query = search.value.toLowerCase().trim();
 
-    const recentData = data.filter((group) =>
-        isDecade1980sOrLater(group.decade),
-    );
+    let result = recentData.value;
 
-    if (!query) return recentData;
+    if (decadeFilter.value) {
+        result = result.filter((group) => group.decade === decadeFilter.value);
+    }
 
-    return recentData
-        .map((group) => ({
-            ...group,
-            pollies: group.pollies.filter(
-                (p) =>
-                    p.name.toLowerCase().includes(query) ||
-                    p.division.toLowerCase().includes(query) ||
-                    p.state.toLowerCase().includes(query) ||
-                    p.party.toLowerCase().includes(query),
-            ),
-        }))
-        .filter((group) => group.pollies.length > 0);
+    if (query || houseFilter.value || stateFilter.value || partyFilter.value) {
+        result = result
+            .map((group) => ({
+                ...group,
+                pollies: group.pollies.filter((p) => {
+                    if (houseFilter.value && p.house !== houseFilter.value)
+                        return false;
+                    if (stateFilter.value && p.state !== stateFilter.value)
+                        return false;
+                    if (
+                        partyFilter.value &&
+                        p.party.trim() !== partyFilter.value
+                    )
+                        return false;
+                    if (query) {
+                        return (
+                            p.name.toLowerCase().includes(query) ||
+                            p.division.toLowerCase().includes(query) ||
+                            p.state.toLowerCase().includes(query) ||
+                            p.party.toLowerCase().includes(query)
+                        );
+                    }
+                    return true;
+                }),
+            }))
+            .filter((group) => group.pollies.length > 0);
+    }
+
+    return result;
 });
+
+function clearFilters() {
+    search.value = "";
+    houseFilter.value = "";
+    stateFilter.value = "";
+    partyFilter.value = "";
+    decadeFilter.value = "";
+}
+
+const hasActiveFilters = computed(
+    () =>
+        search.value ||
+        houseFilter.value ||
+        stateFilter.value ||
+        partyFilter.value ||
+        decadeFilter.value,
+);
 </script>
 
 <template>
-    <input
-        v-model="search"
-        type="search"
-        placeholder="Search by name, electorate, state or party..."
-        class="pollie-search"
-    />
+    <div class="pollie-filters">
+        <h2 class="filter-heading">Find a politician</h2>
+        <input
+            v-model="search"
+            type="search"
+            placeholder="Search by name, electorate, state or party..."
+            class="pollie-search"
+        />
+
+        <div class="filter-row">
+            <select v-model="houseFilter" class="filter-select">
+                <option value="">All chambers</option>
+                <option value="senate">Senators</option>
+                <option value="reps">MPs</option>
+            </select>
+
+            <select v-model="stateFilter" class="filter-select">
+                <option value="">All states</option>
+                <option
+                    v-for="state in uniqueStates"
+                    :key="state"
+                    :value="state"
+                >
+                    {{ state }}
+                </option>
+            </select>
+
+            <select v-model="partyFilter" class="filter-select">
+                <option value="">All parties</option>
+                <option
+                    v-for="party in uniqueParties"
+                    :key="party"
+                    :value="party"
+                >
+                    {{ party }}
+                </option>
+            </select>
+
+            <select v-model="decadeFilter" class="filter-select">
+                <option value="">All decades</option>
+                <option
+                    v-for="decade in uniqueDecades"
+                    :key="decade"
+                    :value="decade"
+                >
+                    {{ decade }}
+                </option>
+            </select>
+
+            <button
+                v-if="hasActiveFilters"
+                type="button"
+                class="clear-filters"
+                @click="clearFilters"
+            >
+                Clear filters
+            </button>
+        </div>
+    </div>
 
     <template v-for="group of filteredData" :key="group.decade">
         <h2>{{ group.decade }}</h2>
@@ -83,9 +203,23 @@ const filteredData = computed(() => {
             </li>
         </ul>
     </template>
+
+    <p v-if="filteredData.length === 0" class="no-results">
+        No results found. Try adjusting your filters.
+    </p>
 </template>
 
 <style scoped>
+.pollie-filters {
+    margin-bottom: 1.5rem;
+}
+
+.filter-heading {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    border-top: none;
+}
+
 .pollie-search {
     width: 100%;
     padding: 0.75rem 1rem;
@@ -94,7 +228,7 @@ const filteredData = computed(() => {
     border-radius: 8px;
     background: var(--vp-c-bg);
     color: var(--vp-c-text-1);
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.75rem;
 }
 
 .pollie-search:focus {
@@ -104,6 +238,44 @@ const filteredData = computed(() => {
 
 .pollie-search::placeholder {
     color: var(--vp-c-text-3);
+}
+
+.filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.filter-select {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    border: 1px solid var(--vp-c-border);
+    border-radius: 6px;
+    background: var(--vp-c-bg);
+    color: var(--vp-c-text-1);
+    cursor: pointer;
+    min-width: 120px;
+}
+
+.filter-select:focus {
+    outline: none;
+    border-color: var(--vp-c-brand-1);
+}
+
+.clear-filters {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    border: 1px solid var(--vp-c-border);
+    border-radius: 6px;
+    background: var(--vp-c-bg-soft);
+    color: var(--vp-c-text-2);
+    cursor: pointer;
+}
+
+.clear-filters:hover {
+    background: var(--vp-c-bg-alt);
+    color: var(--vp-c-text-1);
 }
 
 .pollie-list {
@@ -169,5 +341,11 @@ const filteredData = computed(() => {
 .pollie-location {
     color: var(--vp-c-text-2);
     font-size: 0.875rem;
+}
+
+.no-results {
+    text-align: center;
+    color: var(--vp-c-text-2);
+    padding: 2rem;
 }
 </style>
