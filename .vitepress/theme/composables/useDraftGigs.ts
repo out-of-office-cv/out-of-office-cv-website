@@ -90,45 +90,11 @@ export function useDraftGigs() {
     localStorage.setItem(STORAGE_KEY_LAST_POLLIE, slug);
   }
 
-  function formatGigForTs(gig: DraftGig): string {
-    const sourcesStr =
-      gig.sources.length === 1
-        ? `[${JSON.stringify(gig.sources[0])}]`
-        : `[\n      ${gig.sources.map((s) => JSON.stringify(s)).join(",\n      ")},\n    ]`;
-
-    const lines = [
-      "  {",
-      `    role: ${JSON.stringify(gig.role)},`,
-      `    organisation: ${JSON.stringify(gig.organisation)},`,
-      `    category: ${JSON.stringify(gig.category)},`,
-      `    sources: ${sourcesStr},`,
-    ];
-    if (gig.verified_by) {
-      lines.push(`    verified_by: ${JSON.stringify(gig.verified_by)},`);
-    }
-    lines.push(`    pollie_slug: ${JSON.stringify(gig.pollie_slug)},`);
-    if (gig.start_date) {
-      lines.push(`    start_date: ${JSON.stringify(gig.start_date)},`);
-    }
-    if (gig.end_date) {
-      lines.push(`    end_date: ${JSON.stringify(gig.end_date)},`);
-    }
-    lines.push("  },");
-    return lines.join("\n");
-  }
-
   function generateFileUpdate(content: string): string {
-    const insertIndex = content.lastIndexOf("];");
-    if (insertIndex === -1) {
-      throw new Error("Could not find insertion point in gigs.ts");
-    }
-    const newGigsCode = draftGigs.value.map(formatGigForTs).join("\n");
-    return (
-      content.slice(0, insertIndex) +
-      newGigsCode +
-      "\n" +
-      content.slice(insertIndex)
-    );
+    const existingGigs: Gig[] = JSON.parse(content);
+    const newGigs: Gig[] = draftGigs.value.map(({ id: _id, ...gig }) => gig);
+    const allGigs = [...existingGigs, ...newGigs];
+    return JSON.stringify(allGigs, null, 2) + "\n";
   }
 
   return {

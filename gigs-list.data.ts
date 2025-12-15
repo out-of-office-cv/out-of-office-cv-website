@@ -9,7 +9,7 @@ declare const data: GigWithIndex[];
 export { data };
 
 export default {
-  watch: ["./data/gigs.ts"],
+  watch: ["./data/gigs.json"],
   load(): GigWithIndex[] {
     return gigs.map((gig, index) => ({ ...gig, index }));
   },

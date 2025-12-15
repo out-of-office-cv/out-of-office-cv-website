@@ -1,13 +1,12 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { execSync } from "node:child_process";
 import OpenAI from "openai";
 import { parseDate } from "../.vitepress/utils.js";
 import { loadPollies } from "../.vitepress/loaders.js";
 import type { Pollie, Gig, GigCategory } from "../.vitepress/types.js";
 import { GIG_CATEGORIES } from "../.vitepress/types.js";
-import { gigs as existingGigs } from "../data/gigs.js";
+import { GigsArraySchema } from "../data/gigs-schema.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = resolve(__dirname, "..");
@@ -239,56 +238,23 @@ export async function findGigsFromApi(pollie: Pollie): Promise<FoundGig[]> {
   }
 }
 
-export function formatGig(gig: Gig): string {
-  const lines = [
-    "  {",
-    `    role: ${JSON.stringify(gig.role)},`,
-    `    organisation: ${JSON.stringify(gig.organisation)},`,
-    `    category: ${JSON.stringify(gig.category)},`,
-    `    sources: [`,
-    ...gig.sources.map((s) => `      ${JSON.stringify(s)},`),
-    "    ],",
-    `    pollie_slug: ${JSON.stringify(gig.pollie_slug)},`,
-  ];
-
-  if (gig.start_date) {
-    lines.push(`    start_date: ${JSON.stringify(gig.start_date)},`);
-  }
-  if (gig.end_date) {
-    lines.push(`    end_date: ${JSON.stringify(gig.end_date)},`);
-  }
-
-  lines.push("  },");
-  return lines.join("\n");
-}
-
-export function formatGigsFile(
-  existingContent: string,
-  newGigs: Gig[],
-): string {
-  const closingBracket = existingContent.lastIndexOf("];");
-  if (closingBracket === -1) {
-    throw new Error("Could not find closing bracket in gigs.ts");
-  }
-
-  const formattedGigs = newGigs.map(formatGig).join("\n");
-  return existingContent.slice(0, closingBracket) + formattedGigs + "\n];\n";
-}
-
-export function appendGigsToFile(newGigs: Gig[], gigsPath?: string): void {
-  const path = gigsPath ?? resolve(rootDir, "data/gigs.ts");
+export function readGigsJson(gigsPath?: string): Gig[] {
+  const path = gigsPath ?? resolve(rootDir, "data/gigs.json");
   const content = readFileSync(path, "utf-8");
-  const newContent = formatGigsFile(content, newGigs);
-  writeFileSync(path, newContent, "utf-8");
+  return GigsArraySchema.parse(JSON.parse(content));
 }
 
-export function validateTypeScript(cwd?: string): boolean {
-  try {
-    execSync("npx tsc --noEmit", { cwd: cwd ?? rootDir, stdio: "pipe" });
-    return true;
-  } catch {
-    return false;
-  }
+export function writeGigsJson(gigs: Gig[], gigsPath?: string): void {
+  const path = gigsPath ?? resolve(rootDir, "data/gigs.json");
+  GigsArraySchema.parse(gigs);
+  writeFileSync(path, JSON.stringify(gigs, null, 2) + "\n", "utf-8");
+}
+
+export function appendGigsToJson(newGigs: Gig[], gigsPath?: string): void {
+  const path = gigsPath ?? resolve(rootDir, "data/gigs.json");
+  const existingGigs = readGigsJson(path);
+  const allGigs = [...existingGigs, ...newGigs];
+  writeGigsJson(allGigs, path);
 }
 
 interface ParsedArgs {
@@ -370,6 +336,7 @@ async function main() {
   } = parseArgs();
 
   const pollies = loadPollies(resolve(rootDir, "data"));
+  const existingGigs = readGigsJson();
 
   if (showCandidates) {
     const candidates = listCandidates(pollies, existingGigs, strategy, limit);
@@ -429,23 +396,13 @@ async function main() {
     return;
   }
 
-  const gigsPath = resolve(rootDir, "data/gigs.ts");
-  const originalContent = readFileSync(gigsPath, "utf-8");
-
   const newGigs: Gig[] = foundGigs.map((g) => ({
     ...g,
     pollie_slug: selectedPollie.slug,
   }));
 
-  console.log("Appending gigs to data/gigs.ts...");
-  appendGigsToFile(newGigs);
-
-  console.log("Validating TypeScript...");
-  if (!validateTypeScript()) {
-    console.error("TypeScript validation failed, reverting changes");
-    writeFileSync(gigsPath, originalContent, "utf-8");
-    process.exit(1);
-  }
+  console.log("Appending gigs to data/gigs.json...");
+  appendGigsToJson(newGigs);
 
   console.log("Done! New gigs added (unverified)");
 }

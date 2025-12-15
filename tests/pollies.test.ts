@@ -2,11 +2,12 @@ import { describe, it, expect, beforeAll, afterAll } from "vitest";
 import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { execSync } from "node:child_process";
+import type { Gig } from "../.vitepress/types";
 
 const rootDir = resolve(import.meta.dirname, "..");
 const distDir = resolve(rootDir, ".vitepress/dist");
 const distPolliesDir = resolve(distDir, "pollies");
-const gigsPath = resolve(rootDir, "data/gigs.ts");
+const gigsJsonPath = resolve(rootDir, "data/gigs.json");
 
 describe("pollie page generation", () => {
   beforeAll(() => {
@@ -62,8 +63,6 @@ describe("pollie page generation", () => {
   });
 
   it("deduplicates pollies with multiple terms, keeping most recent", () => {
-    // Russell Broadbent has 5 entries in the CSV spanning 1990-2025
-    // Should show his most recent term (Monash, IND, defeated 2025)
     const broadbentPath = resolve(
       distPolliesDir,
       "russell-evan-broadbent.html",
@@ -71,49 +70,46 @@ describe("pollie page generation", () => {
     expect(existsSync(broadbentPath)).toBe(true);
 
     const content = readFileSync(broadbentPath, "utf-8");
-    expect(content).toContain("Monash"); // most recent electorate (2019-2025)
-    expect(content).toContain("IND"); // party from final term
-    expect(content).not.toContain("Corinella"); // first electorate (1990-1993)
-    expect(content).not.toContain("McMillan"); // middle electorate
+    expect(content).toContain("Monash");
+    expect(content).toContain("IND");
+    expect(content).not.toContain("Corinella");
+    expect(content).not.toContain("McMillan");
   });
 });
 
 describe("gig integration", () => {
-  let originalGigs: string;
+  let originalGigsJson: string;
 
   beforeAll(() => {
-    originalGigs = readFileSync(gigsPath, "utf-8");
+    originalGigsJson = readFileSync(gigsJsonPath, "utf-8");
 
-    const testGigs = `import type { Gig } from "../.vitepress/types"
-
-export const gigs: Gig[] = [
-  {
-    role: "Board Member",
-    organisation: "Test Corp",
-    category: "Professional Services & Management Consulting",
-    sources: ["https://example.com/source"],
-    pollie_slug: "anthony-john-abbott",
-    start_date: "2020-06-15",
-    verified_by: "test",
-  },
-  {
-    role: "Advisor",
-    organisation: "Another Org",
-    category: "Government, Public Administration & Civil Service",
-    sources: ["https://example.com/other"],
-    pollie_slug: "anthony-john-abbott",
-    start_date: "2021-01-01",
-    end_date: "2022-12-31",
-    verified_by: "test",
-  },
-]
-`;
-    writeFileSync(gigsPath, testGigs);
+    const testGigs: Gig[] = [
+      {
+        role: "Board Member",
+        organisation: "Test Corp",
+        category: "Professional Services & Management Consulting",
+        sources: ["https://example.com/source"],
+        pollie_slug: "anthony-john-abbott",
+        start_date: "2020-06-15",
+        verified_by: "test",
+      },
+      {
+        role: "Advisor",
+        organisation: "Another Org",
+        category: "Government, Public Administration & Civil Service",
+        sources: ["https://example.com/other"],
+        pollie_slug: "anthony-john-abbott",
+        start_date: "2021-01-01",
+        end_date: "2022-12-31",
+        verified_by: "test",
+      },
+    ];
+    writeFileSync(gigsJsonPath, JSON.stringify(testGigs, null, 2) + "\n");
     execSync("npm run build", { cwd: rootDir, stdio: "pipe" });
   });
 
   afterAll(() => {
-    writeFileSync(gigsPath, originalGigs);
+    writeFileSync(gigsJsonPath, originalGigsJson);
   });
 
   it("includes gigs section on pollie page", () => {

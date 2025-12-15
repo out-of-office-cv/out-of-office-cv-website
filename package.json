@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "@octokit/rest": "^22.0.1",
-    "openai": "^6.10.0"
+    "openai": "^6.10.0",
+    "zod": "^4.2.0"
   }
 }

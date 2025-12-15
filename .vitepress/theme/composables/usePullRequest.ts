@@ -13,10 +13,7 @@ export function usePullRequest(getStoredToken: () => string | null) {
   const prError = ref("");
   let pollInterval: ReturnType<typeof setInterval> | null = null;
 
-  function startPollingPRStatus(
-    prNum: number,
-    onMerged: () => void,
-  ): void {
+  function startPollingPRStatus(prNum: number, onMerged: () => void): void {
     if (pollInterval) clearInterval(pollInterval);
 
     pollInterval = setInterval(async () => {
@@ -91,12 +88,12 @@ export function usePullRequest(getStoredToken: () => string | null) {
       const { data: fileData } = await octokit.repos.getContent({
         owner: REPO_OWNER,
         repo: REPO_NAME,
-        path: "data/gigs.ts",
+        path: "data/gigs.json",
         ref: "main",
       });
 
       if (!("content" in fileData)) {
-        throw new Error("Could not read gigs.ts");
+        throw new Error("Could not read gigs.json");
       }
 
       const currentContent = atob(fileData.content);
@@ -113,7 +110,7 @@ export function usePullRequest(getStoredToken: () => string | null) {
       await octokit.repos.createOrUpdateFileContents({
         owner: REPO_OWNER,
         repo: REPO_NAME,
-        path: "data/gigs.ts",
+        path: "data/gigs.json",
         message: options.title,
         content: btoa(newContent),
         branch: branchName,

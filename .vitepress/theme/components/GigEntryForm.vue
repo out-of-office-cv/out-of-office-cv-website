@@ -93,67 +93,18 @@ async function submitAddPR() {
     });
 }
 
-function addVerifiedByToGigByMatching(
+function addVerifiedByToGigs(
     content: string,
-    gig: Gig,
+    indicesToVerify: number[],
     verifier: string,
 ): string {
-    const roleStr = JSON.stringify(gig.role);
-    const orgStr = JSON.stringify(gig.organisation);
-    const pollieStr = JSON.stringify(gig.pollie_slug);
-
-    const lines = content.split("\n");
-    let inTargetGig = false;
-    let braceDepth = 0;
-
-    for (let i = 0; i < lines.length; i++) {
-        const line = lines[i];
-
-        if (
-            line.includes(`role: ${roleStr}`) ||
-            line.includes(`role:${roleStr}`)
-        ) {
-            let checkStart = Math.max(0, i - 2);
-            let checkEnd = Math.min(lines.length - 1, i + 15);
-            let slice = lines.slice(checkStart, checkEnd + 1).join("\n");
-
-            if (
-                slice.includes(`organisation: ${orgStr}`) &&
-                slice.includes(`pollie_slug: ${pollieStr}`)
-            ) {
-                inTargetGig = true;
-                braceDepth = 1;
-            }
-        }
-
-        if (inTargetGig) {
-            if (line.includes("{")) braceDepth++;
-            if (line.includes("}")) braceDepth--;
-
-            if (line.includes("sources:")) {
-                let insertIndex = i + 1;
-                while (
-                    insertIndex < lines.length &&
-                    !lines[insertIndex].includes("],")
-                ) {
-                    insertIndex++;
-                }
-                if (insertIndex < lines.length) {
-                    const indent =
-                        lines[insertIndex].match(/^(\s*)/)?.[1] || "    ";
-                    const verifiedByLine = `${indent}verified_by: ${JSON.stringify(verifier)},`;
-                    lines.splice(insertIndex + 1, 0, verifiedByLine);
-                    return lines.join("\n");
-                }
-            }
-
-            if (braceDepth === 0) {
-                inTargetGig = false;
-            }
+    const gigs: Gig[] = JSON.parse(content);
+    for (const index of indicesToVerify) {
+        if (gigs[index]) {
+            gigs[index].verified_by = verifier;
         }
     }
-
-    return content;
+    return JSON.stringify(gigs, null, 2) + "\n";
 }
 
 async function handleVerifySubmit(indices: number[], verifier: string) {
@@ -171,13 +122,8 @@ async function handleVerifySubmit(indices: number[], verifier: string) {
                         `- ${g.role} at ${g.organisation} (${g.pollie_slug})`,
                 )
                 .join("\n"),
-        updateFile: (content) => {
-            let result = content;
-            for (const gig of gigsToVerify) {
-                result = addVerifiedByToGigByMatching(result, gig, verifier);
-            }
-            return result;
-        },
+        updateFile: (content) =>
+            addVerifiedByToGigs(content, indices, verifier),
         onMerged: () => verifyListRef.value?.clearSelection(),
     });
 }

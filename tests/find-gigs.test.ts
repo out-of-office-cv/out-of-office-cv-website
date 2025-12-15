@@ -1,6 +1,7 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, beforeEach, afterEach } from "vitest";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { writeFileSync, unlinkSync, existsSync } from "node:fs";
 import type { Pollie, Gig } from "../.vitepress/types";
 import { GIG_CATEGORIES } from "../.vitepress/types";
 import { loadPollies } from "../.vitepress/loaders";
@@ -8,8 +9,9 @@ import {
   selectPollie,
   listCandidates,
   buildPrompt,
-  formatGig,
-  formatGigsFile,
+  readGigsJson,
+  writeGigsJson,
+  appendGigsToJson,
 } from "../scripts/find-gigs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -238,98 +240,102 @@ describe("buildPrompt", () => {
   });
 });
 
-describe("formatGig", () => {
-  it("formats gig with all fields", () => {
-    const gig: Gig = {
-      role: "Board Member",
-      organisation: "Test Corp",
-      category: "Professional Services & Management Consulting",
-      sources: ["https://example.com/source1", "https://example.com/source2"],
-      pollie_slug: "test-pollie",
-      start_date: "2023-06-01",
-      end_date: "2024-12-31",
-    };
-    const formatted = formatGig(gig);
+describe("JSON functions", () => {
+  const testJsonPath = resolve(__dirname, "test-gigs.json");
 
-    expect(formatted).toContain('"Board Member"');
-    expect(formatted).toContain('"Test Corp"');
-    expect(formatted).toContain(
-      '"Professional Services & Management Consulting"',
-    );
-    expect(formatted).toContain('"https://example.com/source1"');
-    expect(formatted).toContain('"https://example.com/source2"');
-    expect(formatted).toContain('"test-pollie"');
-    expect(formatted).toContain('"2023-06-01"');
-    expect(formatted).toContain('"2024-12-31"');
+  beforeEach(() => {
+    if (existsSync(testJsonPath)) {
+      unlinkSync(testJsonPath);
+    }
   });
 
-  it("omits end_date when not present", () => {
-    const gig: Gig = {
-      role: "Advisor",
-      organisation: "Corp",
-      category: "Education, Academia & Research",
-      sources: ["https://example.com"],
-      pollie_slug: "test",
-      start_date: "2023-01-01",
-    };
-    const formatted = formatGig(gig);
-
-    expect(formatted).toContain("start_date");
-    expect(formatted).not.toContain("end_date");
+  afterEach(() => {
+    if (existsSync(testJsonPath)) {
+      unlinkSync(testJsonPath);
+    }
   });
 
-  it("omits start_date when not present", () => {
-    const gig: Gig = {
-      role: "Advisor",
-      organisation: "Corp",
-      category: "Education, Academia & Research",
-      sources: ["https://example.com"],
-      pollie_slug: "test",
-    };
-    const formatted = formatGig(gig);
+  describe("readGigsJson", () => {
+    it("reads and parses valid JSON", () => {
+      const testGigs: Gig[] = [
+        {
+          role: "Board Member",
+          organisation: "Test Corp",
+          category: "Professional Services & Management Consulting",
+          sources: ["https://example.com/source"],
+          pollie_slug: "test-pollie",
+          start_date: "2024-01-01",
+        },
+      ];
+      writeFileSync(testJsonPath, JSON.stringify(testGigs, null, 2));
 
-    expect(formatted).not.toContain("start_date");
-    expect(formatted).not.toContain("end_date");
-  });
-});
+      const result = readGigsJson(testJsonPath);
+      expect(result).toHaveLength(1);
+      expect(result[0].role).toBe("Board Member");
+    });
 
-describe("formatGigsFile", () => {
-  const existingContent = `import type { Gig } from "../.vitepress/types";
+    it("throws on invalid JSON schema", () => {
+      const invalidGigs = [{ role: "Missing fields" }];
+      writeFileSync(testJsonPath, JSON.stringify(invalidGigs, null, 2));
 
-export const gigs: Gig[] = [
-  {
-    role: "Existing Role",
-    organisation: "Existing Org",
-    category: "Retired",
-    sources: ["https://example.com"],
-    pollie_slug: "existing-pollie",
-  },
-];
-`;
-
-  it("appends new gigs before closing bracket", () => {
-    const newGigs: Gig[] = [
-      {
-        role: "New Role",
-        organisation: "New Org",
-        category: "Education, Academia & Research",
-        sources: ["https://new.com"],
-        pollie_slug: "new-pollie",
-      },
-    ];
-    const result = formatGigsFile(existingContent, newGigs);
-
-    expect(result).toContain("Existing Role");
-    expect(result).toContain("New Role");
-    expect(result).toContain('"new-pollie"');
-    expect(result.endsWith("];\n")).toBe(true);
+      expect(() => readGigsJson(testJsonPath)).toThrow();
+    });
   });
 
-  it("throws error if closing bracket not found", () => {
-    const badContent = "export const gigs = [";
-    expect(() => formatGigsFile(badContent, [])).toThrow(
-      "Could not find closing bracket",
-    );
+  describe("writeGigsJson", () => {
+    it("writes valid gigs to JSON file", () => {
+      const testGigs: Gig[] = [
+        {
+          role: "Advisor",
+          organisation: "Test Org",
+          category: "Education, Academia & Research",
+          sources: ["https://example.com/advisor"],
+          pollie_slug: "test-pollie",
+        },
+      ];
+
+      writeGigsJson(testGigs, testJsonPath);
+      const result = readGigsJson(testJsonPath);
+      expect(result).toHaveLength(1);
+      expect(result[0].role).toBe("Advisor");
+    });
+
+    it("throws on invalid gigs data", () => {
+      const invalidGigs = [{ role: "Missing fields" }] as unknown as Gig[];
+      expect(() => writeGigsJson(invalidGigs, testJsonPath)).toThrow();
+    });
+  });
+
+  describe("appendGigsToJson", () => {
+    it("appends new gigs to existing file", () => {
+      const existingGigs: Gig[] = [
+        {
+          role: "Existing Role",
+          organisation: "Existing Org",
+          category: "Retired",
+          sources: ["https://example.com/existing"],
+          pollie_slug: "existing-pollie",
+        },
+      ];
+      writeFileSync(testJsonPath, JSON.stringify(existingGigs, null, 2));
+
+      const newGigs: Gig[] = [
+        {
+          role: "New Role",
+          organisation: "New Org",
+          category: "Education, Academia & Research",
+          sources: ["https://example.com/new"],
+          pollie_slug: "new-pollie",
+        },
+      ];
+
+      appendGigsToJson(newGigs, testJsonPath);
+
+      const result = readGigsJson(testJsonPath);
+      expect(result).toHaveLength(2);
+      expect(result[0].role).toBe("Existing Role");
+      expect(result[1].role).toBe("New Role");
+    });
   });
 });
 

@@ -4,7 +4,7 @@ on:
   pull_request:
     types: [opened, synchronize]
     paths:
-      - "data/gigs.ts"
+      - "data/gigs.json"
 
 jobs:
   auto-merge:
@@ -24,13 +24,13 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Validate gigs.ts
-        run: npx tsc --noEmit data/gigs.ts
+      - name: Validate gigs.json
+        run: npm run test -- tests/gigs.test.ts
 
       - name: Auto-merge
         run: gh pr merge ${{ github.event.pull_request.number }} --auto --squash
