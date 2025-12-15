@@ -18,6 +18,7 @@ const { params } = useData()
     :still-in-office="params.stillInOffice"
     :left-office-date="params.leftOfficeDate"
     :left-office-ago="params.leftOfficeAgo"
+    :photo-url="params.photoUrl"
 />
 
 <GigList :gigs="params.gigs" />

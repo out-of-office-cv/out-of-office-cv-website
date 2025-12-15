@@ -9,7 +9,7 @@
     "build": "vitepress build",
     "preview": "vitepress preview",
     "test": "vitest run",
-    "update-data": "curl -sL https://raw.githubusercontent.com/openaustralia/openaustralia-parser/main/data/representatives.csv -o data/representatives.csv && curl -sL https://raw.githubusercontent.com/openaustralia/openaustralia-parser/main/data/senators.csv -o data/senators.csv",
+    "fetch-pollies": "npx tsx scripts/fetch-pollies.ts",
     "find-gigs": "npx tsx scripts/find-gigs.ts"
   },
   "keywords": [],

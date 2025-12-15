@@ -111,7 +111,6 @@ Background:
 - State: ${pollie.state}
 - ${pollie.house === "senate" ? "Senator" : `Member for ${pollie.division}`}
 - Left parliament: ${ceasedDateFormatted}
-- Reason for leaving: ${pollie.reason || "unknown"}
 
 Find ALL roles, positions, or jobs they have taken since leaving parliament. Return every role you can find with verifiable sources. This includes:
 - Board positions (director, chair, advisory board member)

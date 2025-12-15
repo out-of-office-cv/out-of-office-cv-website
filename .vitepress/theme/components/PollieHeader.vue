@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ref } from "vue";
 import type { House } from "../../types";
 import PollieBadge from "./PollieBadge.vue";
 
@@ -11,44 +12,66 @@ defineProps<{
     stillInOffice: boolean;
     leftOfficeDate: string;
     leftOfficeAgo: string;
+    photoUrl?: string;
 }>();
+
+const photoError = ref(false);
+
+function onPhotoError() {
+    photoError.value = true;
+}
 </script>
 
 <template>
     <div class="pollie-header">
-        <h1 class="pollie-name">{{ name }}</h1>
-        <div class="pollie-badges">
-            <PollieBadge variant="party" :party="party">
-                {{ party }}
-            </PollieBadge>
-            <PollieBadge variant="house" :house="house">
-                {{ house === "senate" ? "Senator" : "MP" }}
-            </PollieBadge>
-            <PollieBadge
-                v-if="stillInOffice"
-                variant="status"
-                status="in-office"
-            >
-                In office
-            </PollieBadge>
-            <PollieBadge v-else variant="status" status="left-office">
-                Left office
-            </PollieBadge>
-        </div>
-        <div class="pollie-meta">
-            <div class="meta-item" v-if="division">
-                <span class="meta-label">Electorate</span>
-                <span class="meta-value">{{ division }}</span>
+        <div class="pollie-header-content">
+            <div v-if="photoUrl && !photoError" class="pollie-photo-container">
+                <img
+                    :src="photoUrl"
+                    :alt="`Photo of ${name}`"
+                    class="pollie-photo"
+                    @error="onPhotoError"
+                />
             </div>
-            <div class="meta-item">
-                <span class="meta-label">State</span>
-                <span class="meta-value">{{ state }}</span>
-            </div>
-            <div class="meta-item" v-if="!stillInOffice && leftOfficeDate">
-                <span class="meta-label">Left office</span>
-                <span class="meta-value"
-                    >{{ leftOfficeDate }} ({{ leftOfficeAgo }})</span
-                >
+            <div class="pollie-info">
+                <h1 class="pollie-name">{{ name }}</h1>
+                <div class="pollie-badges">
+                    <PollieBadge variant="party" :party="party">
+                        {{ party }}
+                    </PollieBadge>
+                    <PollieBadge variant="house" :house="house">
+                        {{ house === "senate" ? "Senator" : "MP" }}
+                    </PollieBadge>
+                    <PollieBadge
+                        v-if="stillInOffice"
+                        variant="status"
+                        status="in-office"
+                    >
+                        In office
+                    </PollieBadge>
+                    <PollieBadge v-else variant="status" status="left-office">
+                        Left office
+                    </PollieBadge>
+                </div>
+                <div class="pollie-meta">
+                    <div class="meta-item" v-if="division">
+                        <span class="meta-label">Electorate</span>
+                        <span class="meta-value">{{ division }}</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">State</span>
+                        <span class="meta-value">{{ state }}</span>
+                    </div>
+                    <div
+                        class="meta-item"
+                        v-if="!stillInOffice && leftOfficeDate"
+                    >
+                        <span class="meta-label">Left office</span>
+                        <span class="meta-value"
+                            >{{ leftOfficeDate }} ({{ leftOfficeAgo }})</span
+                        >
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -59,6 +82,29 @@ defineProps<{
     margin-bottom: 2rem;
     padding-bottom: 1.5rem;
     border-bottom: 1px solid var(--vp-c-border);
+}
+
+.pollie-header-content {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.pollie-photo-container {
+    flex-shrink: 0;
+}
+
+.pollie-photo {
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    background-color: var(--vp-c-bg-soft);
+}
+
+.pollie-info {
+    flex: 1;
+    min-width: 0;
 }
 
 .pollie-name {
@@ -103,5 +149,21 @@ defineProps<{
 .meta-value {
     font-size: 1rem;
     color: var(--vp-c-text-1);
+}
+
+@media (width <= 480px) {
+    .pollie-header-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pollie-badges {
+        justify-content: center;
+    }
+
+    .pollie-meta {
+        justify-content: center;
+    }
 }
 </style>

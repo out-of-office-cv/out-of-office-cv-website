@@ -14,6 +14,11 @@ This static site is hosted at `https://www.outofoffice.cv` using GitHub Pages.
 
 ## Scripts
 
+- `npm run fetch-pollies` — fetch pollie data from APH Parliamentary Handbook
+  API
+  - `--since YYYY` — fetch pollies who left since year (default 1980)
+  - `--dry-run` — preview without writing file
+  - `--output <path>` — custom output path (default `data/pollies.csv`)
 - `npx tsx scripts/find-gigs.ts` — search for post-parliament gigs using OpenAI
   - `--list-candidates` or `-l` — list candidate pollies without running API
     search
@@ -39,7 +44,8 @@ helper types) are defined in `.vitepress/types.ts`.
 - `.vitepress/types.ts` — shared TypeScript interfaces
 - `.vitepress/utils.ts` — shared utility functions (CSV parsing, date
   formatting)
+- `.vitepress/loaders.ts` — data loading from CSV
 - `pollies.data.ts` — data loader for home page (groups by decade)
 - `pollies/[slug].paths.ts` — dynamic route generation for individual pages
-- `data/gigs.ts` — post-office roles data
-- `data/representatives.csv` — source data from OpenAustralia
+- `data/pollies.csv` — pollie data from APH Parliamentary Handbook API
+- `data/gigs.json` — post-office roles data

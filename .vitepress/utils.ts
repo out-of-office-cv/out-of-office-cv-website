@@ -1,5 +1,3 @@
-import type { House } from "./types";
-
 export function parseCSV(content: string): string[][] {
   const lines = content.trim().split("\n");
   return lines.map((line) => {
@@ -32,6 +30,13 @@ export function slugify(name: string): string {
 
 export function parseDate(dateStr: string): Date | null {
   if (!dateStr) return null;
+
+  if (dateStr.includes("-")) {
+    const date = new Date(dateStr);
+    if (!isNaN(date.getTime())) return date;
+    return null;
+  }
+
   const parts = dateStr.split(".");
   if (parts.length !== 3) return null;
   const [day, month, year] = parts.map(Number);
@@ -98,28 +103,6 @@ const partyColourMap: Record<string, PartyColour> = {
 
 export function getPartyColour(party: string): PartyColour | null {
   return partyColourMap[party] ?? null;
-}
-
-export interface CsvRow {
-  row: string[];
-  house: House;
-}
-
-export function parsePollieFromRow(row: string[], house: House) {
-  const ceasedDate = row[7] || "";
-  const stillInOffice = !ceasedDate;
-
-  return {
-    slug: slugify(row[2]),
-    name: row[2],
-    division: row[3] || "",
-    state: row[4] || "",
-    party: row[9] || "",
-    ceasedDate,
-    reason: row[8] || "",
-    stillInOffice,
-    house,
-  };
 }
 
 export function deduplicatePollies<

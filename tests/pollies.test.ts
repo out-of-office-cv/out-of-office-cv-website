@@ -42,7 +42,7 @@ describe("pollie page generation", () => {
     expect(content).toContain("Electorate");
     expect(content).toContain("Warringah");
     expect(content).toContain("NSW");
-    expect(content).toContain("LP");
+    expect(content).toContain("LIB");
   });
 
   it("includes left office date for former members", () => {

@@ -38,6 +38,7 @@ interface PolliePath {
     stillInOffice: boolean;
     leftOfficeDate: string;
     leftOfficeAgo: string;
+    photoUrl: string;
     gigs: Gig[];
   };
 }
@@ -62,6 +63,7 @@ function transformData(
         stillInOffice: pollie.stillInOffice,
         leftOfficeDate: pollie.ceasedDate ? formatDate(pollie.ceasedDate) : "",
         leftOfficeAgo: pollie.ceasedDate ? timeAgo(pollie.ceasedDate) : "",
+        photoUrl: pollie.photoUrl,
         gigs: pollieGigs,
       },
     };

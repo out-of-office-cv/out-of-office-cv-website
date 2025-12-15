@@ -23,7 +23,7 @@ interface PollieWithParsedDate extends PollieListItem {
 }
 
 export default {
-  watch: ["./data/representatives.csv", "./data/senators.csv"],
+  watch: ["./data/pollies.csv"],
   load(): PolliesByDecade[] {
     const allPollies = loadPollies(resolve(rootDir, "data"));
 

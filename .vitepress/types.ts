@@ -2,14 +2,15 @@ export type House = "senate" | "reps";
 
 export interface Pollie {
   slug: string;
+  phid: string;
   name: string;
   division: string;
   state: string;
   party: string;
   ceasedDate: string;
-  reason: string;
   stillInOffice: boolean;
   house: House;
+  photoUrl: string;
 }
 
 export type PollieListItem = Pick<
