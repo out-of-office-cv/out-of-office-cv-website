@@ -360,7 +360,7 @@ describe("loadPollies", () => {
   it("keeps most recent term for duplicates", () => {
     const pollies = loadPollies(resolve(rootDir, "data"));
     const broadbent = pollies.find(
-      (p: Pollie) => p.slug === "russell-evan-broadbent",
+      (p: Pollie) => p.slug === "russell-broadbent",
     );
     expect(broadbent).toBeDefined();
     expect(broadbent?.division).toBe("Monash");

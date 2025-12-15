@@ -8,8 +8,8 @@ const rootDir = resolve(__dirname, "..");
 interface ApiParliamentarian {
   PHID: string;
   GivenName: string;
-  MiddleNames: string;
   FamilyName: string;
+  PreferredName: string;
   PartyAbbrev: string;
   Electorate: string;
   SenateState: string;
@@ -42,8 +42,8 @@ function buildApiUrl(since: number, skip: number): string {
   const select = [
     "PHID",
     "GivenName",
-    "MiddleNames",
     "FamilyName",
+    "PreferredName",
     "PartyAbbrev",
     "Electorate",
     "SenateState",
@@ -78,9 +78,9 @@ function toTitleCase(str: string): string {
 }
 
 function buildFullName(p: ApiParliamentarian): string {
-  const parts = [p.GivenName, p.MiddleNames, p.FamilyName]
-    .filter(Boolean)
-    .map(toTitleCase);
+  const preferredName = p.PreferredName?.replace(/[()]/g, "").trim();
+  const firstName = preferredName || p.GivenName;
+  const parts = [firstName, p.FamilyName].filter(Boolean).map(toTitleCase);
   return parts.join(" ");
 }
 
