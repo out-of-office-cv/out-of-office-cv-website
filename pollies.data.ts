@@ -1,11 +1,32 @@
 import { resolve, dirname } from "node:path";
+import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
-import type { PollieListItem, PolliesByDecade } from "./.vitepress/types";
+import type { PollieListItem, PolliesByDecade, Gig } from "./.vitepress/types";
 import { parseDate } from "./.vitepress/utils";
 import { loadPollies } from "./.vitepress/loaders";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = __dirname;
+
+async function loadGigs(): Promise<Gig[]> {
+  const gigsPath = resolve(rootDir, "data/gigs.ts");
+  if (!existsSync(gigsPath)) {
+    return [];
+  }
+  const module = await import(`${gigsPath}?t=${Date.now()}`);
+  return module.gigs || [];
+}
+
+function countVerifiedGigsByPollie(gigs: Gig[]): Map<string, number> {
+  const counts = new Map<string, number>();
+  for (const gig of gigs) {
+    if (gig.verified_by) {
+      const current = counts.get(gig.pollie_slug) || 0;
+      counts.set(gig.pollie_slug, current + 1);
+    }
+  }
+  return counts;
+}
 
 declare const data: PolliesByDecade[];
 export { data };
@@ -23,9 +44,11 @@ interface PollieWithParsedDate extends PollieListItem {
 }
 
 export default {
-  watch: ["./data/pollies.csv"],
-  load(): PolliesByDecade[] {
+  watch: ["./data/pollies.csv", "./data/gigs.ts"],
+  async load(): Promise<PolliesByDecade[]> {
     const allPollies = loadPollies(resolve(rootDir, "data"));
+    const allGigs = await loadGigs();
+    const gigCounts = countVerifiedGigsByPollie(allGigs);
 
     const pollies: PollieWithParsedDate[] = allPollies
       .map((pollie) => ({
@@ -37,6 +60,7 @@ export default {
         ceasedDate: pollie.ceasedDate,
         house: pollie.house,
         photoUrl: pollie.photoUrl,
+        gigCount: gigCounts.get(pollie.slug) || 0,
         _ceasedDateParsed: parseDate(pollie.ceasedDate),
       }))
       .sort((a, b) => {

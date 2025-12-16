@@ -197,6 +197,10 @@ const hasActiveFilters = computed(
                                     >, {{ pollie.state }}</template
                                 >
                             </span>
+                            <span v-if="pollie.gigCount > 0" class="gig-count">
+                                {{ pollie.gigCount }}
+                                {{ pollie.gigCount === 1 ? "gig" : "gigs" }}
+                            </span>
                         </div>
                     </div>
                 </a>
@@ -341,6 +345,14 @@ const hasActiveFilters = computed(
 .pollie-location {
     color: var(--vp-c-text-2);
     font-size: 0.875rem;
+}
+
+.gig-count {
+    font-size: 0.75rem;
+    color: var(--vp-c-text-3);
+    background: var(--vp-c-bg-alt);
+    padding: 0.125rem 0.5rem;
+    border-radius: 9999px;
 }
 
 .no-results {

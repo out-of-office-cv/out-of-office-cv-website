@@ -31,9 +31,13 @@ function getHostname(url: string): string {
 </script>
 
 <template>
-    <div v-if="verifiedGigs.length > 0" class="gig-section">
+    <div class="gig-section">
         <h2>Post-office roles</h2>
-        <ul class="gig-list">
+        <p v-if="verifiedGigs.length === 0" class="no-gigs">
+            No out-of-office gigs found yet. Know of one?
+            <a href="/contribute">Help us add it.</a>
+        </p>
+        <ul v-else class="gig-list">
             <li
                 v-for="(gig, index) in verifiedGigs"
                 :key="index"
@@ -130,5 +134,14 @@ function getHostname(url: string): string {
 
 .source-link {
     margin-right: 0.25rem;
+}
+
+.no-gigs {
+    color: var(--vp-c-text-2);
+    font-style: italic;
+}
+
+.no-gigs a {
+    color: var(--vp-c-brand-1);
 }
 </style>

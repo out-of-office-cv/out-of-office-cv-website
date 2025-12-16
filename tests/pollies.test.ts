@@ -140,10 +140,12 @@ describe("gig integration", () => {
     expect(content).toContain("https://example.com/other");
   });
 
-  it("does not include gigs section for pollies without gigs", () => {
+  it("shows no gigs message for pollies without gigs", () => {
     const broadbentPath = resolve(distPolliesDir, "russell-broadbent.html");
     const content = readFileSync(broadbentPath, "utf-8");
 
-    expect(content).not.toContain("Post-office roles");
+    expect(content).toContain("Post-office roles");
+    expect(content).toContain("No out-of-office gigs found yet");
+    expect(content).toContain("Help us add it");
   });
 });

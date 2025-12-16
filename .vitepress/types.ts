@@ -22,7 +22,9 @@ export type PollieListItem = Pick<
   | "ceasedDate"
   | "house"
   | "photoUrl"
->;
+> & {
+  gigCount: number;
+};
 
 export interface PolliesByDecade {
   decade: string;
