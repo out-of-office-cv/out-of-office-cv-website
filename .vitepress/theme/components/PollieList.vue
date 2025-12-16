@@ -259,7 +259,6 @@ const hasActiveFilters = computed(
     background: var(--vp-c-bg);
     color: var(--vp-c-text-1);
     cursor: pointer;
-    min-width: 120px;
 }
 
 .filter-select:focus {
