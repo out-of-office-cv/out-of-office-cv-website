@@ -180,6 +180,7 @@ const hasActiveFilters = computed(
                         class="pollie-photo"
                         @error="photoErrors.add(pollie.slug)"
                     />
+                    <div v-else class="pollie-photo" aria-hidden="true" />
                     <div class="pollie-content">
                         <span class="pollie-name">{{ pollie.name }}</span>
                         <div class="pollie-meta">
@@ -294,6 +295,7 @@ const hasActiveFilters = computed(
     border-radius: 8px;
     background: var(--vp-c-bg-soft);
     overflow: hidden;
+    margin-top: 0;
 }
 
 .pollie-link {
