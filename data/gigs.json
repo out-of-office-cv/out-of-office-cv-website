@@ -14,9 +14,12 @@
     "role": "Independent Chair",
     "organisation": "COTA Australia",
     "category": "Nonprofit, NGO and Charity",
-    "sources": ["https://cota.org.au/news-items/our-new-chair/"],
+    "sources": [
+      "https://cota.org.au/news-items/our-new-chair/"
+    ],
     "pollie_slug": "christopher-pyne",
-    "start_date": "2024-02-15"
+    "start_date": "2024-02-15",
+    "verified_by": "khoi"
   },
   {
     "role": "Chair",
@@ -34,9 +37,12 @@
     "role": "Co-Chair",
     "organisation": "Australia United Arab Emirates Business Council",
     "category": "Professional Services & Management Consulting",
-    "sources": ["https://ausuaebc.com/cochairs"],
+    "sources": [
+      "https://ausuaebc.com/cochairs"
+    ],
     "pollie_slug": "christopher-pyne",
-    "start_date": "2020-11-01"
+    "start_date": "2020-11-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Chair, Advisory Board",
@@ -46,7 +52,8 @@
       "https://defence.nioa.com.au/latest-news/former-defence-minister-heads-up-new-nioa-board"
     ],
     "pollie_slug": "christopher-pyne",
-    "start_date": "2020-12-01"
+    "start_date": "2020-12-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Chair, SA Governors Council",
@@ -56,13 +63,16 @@
       "https://www.icac.sa.gov.au/prevention-and-education/christopher-pyne"
     ],
     "pollie_slug": "christopher-pyne",
-    "start_date": "2019-06-01"
+    "start_date": "2019-06-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Director",
     "organisation": "International Centre for Democratic Partnerships",
     "category": "Diplomacy & International Relations",
-    "sources": ["https://michaelwest.com.au/christopher-pyne/"],
+    "sources": [
+      "https://michaelwest.com.au/christopher-pyne/"
+    ],
     "pollie_slug": "christopher-pyne",
     "start_date": "2020-03-01"
   },
@@ -84,7 +94,8 @@
       "https://www.library.gov.au/news-media/hon-christopher-pyne-appointed-national-library-australia-council"
     ],
     "pollie_slug": "christopher-pyne",
-    "start_date": "2025-11-20"
+    "start_date": "2025-11-20",
+    "verified_by": "khoi"
   },
   {
     "role": "Industry Professor",
@@ -94,7 +105,8 @@
       "https://www.unisa.edu.au/Media-Centre/Releases/2019/weatherill-and-pyne-join-unisa-to-nurture--tomorrows-business-leaders/"
     ],
     "pollie_slug": "christopher-pyne",
-    "start_date": "2019-06-07"
+    "start_date": "2019-06-07",
+    "verified_by": "khoi"
   },
   {
     "role": "Co-owner",
@@ -104,7 +116,8 @@
       "https://www.canberratimes.com.au/story/6357666/pyne-on-lobbyist-register-but-not-breaking-the-rules/"
     ],
     "pollie_slug": "christopher-pyne",
-    "start_date": "2019-07-26"
+    "start_date": "2019-07-26",
+    "verified_by": "khoi"
   },
   {
     "role": "Advisory Board Member",
@@ -114,7 +127,8 @@
       "https://www.orygen.org.au/Orygen-Institute/External-Advisory-Board/Christopher-Pyne"
     ],
     "pollie_slug": "christopher-pyne",
-    "start_date": "2019-06-01"
+    "start_date": "2019-06-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Chief Executive Officer (CEO) of Executive Search",
@@ -175,7 +189,9 @@
     "role": "Chairman",
     "organisation": "i4give Foundation",
     "category": "Nonprofit, NGO and Charity",
-    "sources": ["https://www.scottmorrison.com.au/post-politics"],
+    "sources": [
+      "https://www.scottmorrison.com.au/post-politics"
+    ],
     "pollie_slug": "scott-morrison",
     "start_date": "unknown"
   },
@@ -226,7 +242,9 @@
     "role": "Strategic Advisory Board Member",
     "organisation": "Wellington Advocacy",
     "category": "Professional Services & Management Consulting",
-    "sources": ["https://wellingtonadvocacy.com/strategic-advisory-board/"],
+    "sources": [
+      "https://wellingtonadvocacy.com/strategic-advisory-board/"
+    ],
     "pollie_slug": "scott-morrison",
     "start_date": "unknown"
   },
@@ -267,7 +285,9 @@
     "role": "Principal",
     "organisation": "Julie Bishop & Partners",
     "category": "Professional Services & Management Consulting",
-    "sources": ["https://juliebishopandpartners.com.au/"],
+    "sources": [
+      "https://juliebishopandpartners.com.au/"
+    ],
     "pollie_slug": "julie-bishop",
     "start_date": "2019-06-01"
   },
@@ -307,7 +327,9 @@
     "role": "Chair",
     "organisation": "The King's Trust Australia",
     "category": "Nonprofit, NGO and Charity",
-    "sources": ["https://www.kingstrust.org.au/team/the-hon-julie-bishop"],
+    "sources": [
+      "https://www.kingstrust.org.au/team/the-hon-julie-bishop"
+    ],
     "pollie_slug": "julie-bishop",
     "start_date": "2020-01-01"
   },
@@ -315,7 +337,9 @@
     "role": "Member, Global Board of Advisors",
     "organisation": "Council on Foreign Relations",
     "category": "Diplomacy & International Relations",
-    "sources": ["https://www.cfr.org/global-board-advisors"],
+    "sources": [
+      "https://www.cfr.org/global-board-advisors"
+    ],
     "pollie_slug": "julie-bishop",
     "start_date": "unknown"
   },
@@ -323,7 +347,9 @@
     "role": "Steering Committee Member",
     "organisation": "MIT AI Policy Forum",
     "category": "Education, Academia & Research",
-    "sources": ["https://aipolicyforum.mit.edu/about/people/"],
+    "sources": [
+      "https://aipolicyforum.mit.edu/about/people/"
+    ],
     "pollie_slug": "julie-bishop",
     "start_date": "2021-01-01"
   },
@@ -429,7 +455,9 @@
     "role": "Chairman",
     "organisation": "Turnbull Renewables",
     "category": "Energy (Renewables & Traditional)",
-    "sources": ["https://www.turnbullrenewables.com.au/our_team/"],
+    "sources": [
+      "https://www.turnbullrenewables.com.au/our_team/"
+    ],
     "pollie_slug": "malcolm-turnbull",
     "start_date": "unknown"
   },
@@ -570,7 +598,9 @@
     "role": "Advisory Board Member",
     "organisation": "Alliance for Responsible Citizenship",
     "category": "Nonprofit, NGO and Charity",
-    "sources": ["https://www.arc-conference.com/advisory-board"],
+    "sources": [
+      "https://www.arc-conference.com/advisory-board"
+    ],
     "pollie_slug": "tony-abbott",
     "start_date": "2023-01-01"
   },
@@ -598,7 +628,9 @@
     "role": "Director",
     "organisation": "Ramsay Centre for Western Civilisation",
     "category": "Education, Academia & Research",
-    "sources": ["https://wwsg.com/speakers/tony-abbott/"],
+    "sources": [
+      "https://wwsg.com/speakers/tony-abbott/"
+    ],
     "pollie_slug": "tony-abbott",
     "start_date": "2016-01-01"
   },
@@ -606,7 +638,9 @@
     "role": "Independent Non-Executive Director",
     "organisation": "Energy Resources of Australia Ltd",
     "category": "Natural Resources (Mining, Oil & Gas)",
-    "sources": ["https://www.energyres.com.au/about/board/hon-ken-wyatt/"],
+    "sources": [
+      "https://www.energyres.com.au/about/board/hon-ken-wyatt/"
+    ],
     "pollie_slug": "ken-wyatt",
     "start_date": "2022-12-01"
   },
