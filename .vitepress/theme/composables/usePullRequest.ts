@@ -99,6 +99,13 @@ export function usePullRequest(getStoredToken: () => string | null) {
       const currentContent = atob(fileData.content);
       const newContent = options.updateFile(currentContent);
 
+      if (newContent === currentContent) {
+        prError.value =
+          "These changes have already been made by another user. Please refresh the page to see the latest data.";
+        prStatus.value = "error";
+        return;
+      }
+
       const branchName = `${options.branchPrefix}-${Date.now()}`;
       await octokit.git.createRef({
         owner: REPO_OWNER,
