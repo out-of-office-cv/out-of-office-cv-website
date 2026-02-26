@@ -870,5 +870,24 @@
     ],
     "pollie_slug": "keith-pitt",
     "start_date": "2025-02-16"
+  },
+  {
+    "role": "Board of Directors",
+    "organisation": "SpinalCure Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://spinalcure.org.au/news/spinalcure-appoints-linda-reynolds-csc-to-board-of-directors/"
+    ],
+    "pollie_slug": "linda-reynolds",
+    "start_date": "2026-01-23"
+  },
+  {
+    "role": "Consultant and Advocate",
+    "organisation": "Alliance for Gambling Reform",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://au.linkedin.com/in/zoe-daniel"
+    ],
+    "pollie_slug": "zoe-daniel"
   }
 ]

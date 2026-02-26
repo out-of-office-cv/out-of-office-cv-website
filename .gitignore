@@ -4,3 +4,8 @@ node_modules
 .vitepress/.temp
 
 mise.local.toml
+
+# Allow .claude/skills/ to be tracked (overrides global ~/.gitignore)
+!.claude/
+.claude/*
+!.claude/skills/
