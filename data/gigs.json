@@ -371,17 +371,20 @@
       "https://aipolicyforum.mit.edu/about/people/"
     ],
     "pollie_slug": "julie-bishop",
-    "start_date": "2021-01-01"
+    "start_date": "2021-01-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Strategic Advisor and Ambassador",
     "organisation": "Mineral Resources Limited",
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://womensagenda.com.au/latest/bishop-stars-in-a-comically-long-mining-company-promotional-video/"
+      "https://womensagenda.com.au/latest/bishop-stars-in-a-comically-long-mining-company-promotional-video/",
+      "https://www.news.com.au/entertainment/celebrity-life/celebrity-photos/julie-bishop-announces-new-role-with-perth-mining-services-company/news-story/1618d0bc7401b8955322dc9f0fa87e7f"
     ],
     "pollie_slug": "julie-bishop",
-    "start_date": "2022-07-01"
+    "start_date": "2022-07-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Special Envoy on Myanmar",
@@ -392,7 +395,8 @@
       "https://www.un.org/sg/en/content/profiles/julie-bishop"
     ],
     "pollie_slug": "julie-bishop",
-    "start_date": "2024-05-26"
+    "start_date": "2024-04-05",
+    "verified_by": "khoi"
   },
   {
     "role": "Senior Adviser",
