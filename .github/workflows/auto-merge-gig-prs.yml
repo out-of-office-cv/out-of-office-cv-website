@@ -17,6 +17,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: write
 
     steps:
       - uses: actions/checkout@v4
@@ -32,7 +33,12 @@ jobs:
       - name: Validate gigs.json
         run: npm run test -- tests/gigs.test.ts
 
-      - name: Auto-merge
-        run: gh pr merge ${{ github.event.pull_request.number }} --auto --squash
+      - name: Merge
+        run: gh pr merge ${{ github.event.pull_request.number }} --squash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Trigger deploy
+        run: gh workflow run deploy.yml
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
