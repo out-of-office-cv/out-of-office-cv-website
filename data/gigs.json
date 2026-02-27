@@ -399,18 +399,21 @@
     "verified_by": "khoi"
   },
   {
-    "role": "Senior Adviser",
+    "role": "Global Senior Adviser",
     "organisation": "KKR & Co Inc",
     "category": "Financial Services and Banking",
     "sources": [
       "https://www.euronews.com/2019/05/31/kkr-hires-former-australian-prime-minister-turnbull-as-global-senior-advisor",
-      "https://www.kkr.com/our-firm/leadership/honorable-malcolm-turnbull"
+      "https://www.kkr.com/our-firm/leadership/honorable-malcolm-turnbull",
+      "https://www.afr.com/rear-window/kkr-cuts-ties-with-turnbull-after-trump-attack-20250507-p5lxe4"
     ],
     "pollie_slug": "malcolm-turnbull",
-    "start_date": "2019-06-01"
+    "start_date": "2019-06-01",
+    "verified_by": "khoi",
+    "end_date": "2025-05-07"
   },
   {
-    "role": "Director",
+    "role": "Member, Board of Directors",
     "organisation": "Kasada",
     "category": "Technology (Software, IT & Digital Services)",
     "sources": [
@@ -418,7 +421,8 @@
       "https://australiancybersecuritymagazine.com.au/former-australian-prime-minister-malcolm-turnbull-joins-kasadas-board-of-directors/"
     ],
     "pollie_slug": "malcolm-turnbull",
-    "start_date": "2020-06-23"
+    "start_date": "2020-06-23",
+    "verified_by": "khoi"
   },
   {
     "role": "President",
