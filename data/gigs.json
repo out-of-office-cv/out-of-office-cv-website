@@ -292,7 +292,8 @@
       "https://www.anu.edu.au/news/all-news/julie-bishop-reappointed-as-anu-chancellor"
     ],
     "pollie_slug": "julie-bishop",
-    "start_date": "2020-01-01"
+    "start_date": "2020-01-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Principal",
@@ -302,11 +303,12 @@
       "https://juliebishopandpartners.com.au/"
     ],
     "pollie_slug": "julie-bishop",
-    "start_date": "2019-06-01"
+    "start_date": "2019-06-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Chair",
-    "organisation": "Telethon Kids Institute",
+    "organisation": "Perths The Kids Research Institute Australia",
     "category": "Health, Medical & Aged Care",
     "sources": [
       "https://www.thekids.org.au/news--events/news-and-events-nav/2019/june/hon-julie-bishop-to-chair-telethon-kids-institute/",
@@ -314,7 +316,8 @@
     ],
     "pollie_slug": "julie-bishop",
     "start_date": "2019-08-01",
-    "end_date": "2024-06-20"
+    "end_date": "2024-06-20",
+    "verified_by": "khoi"
   },
   {
     "role": "Member, International Advisory Board",
@@ -324,7 +327,8 @@
       "https://www.pressrelease.com/news/julie-bishop-to-join-afinitis-advisory-board-20957578"
     ],
     "pollie_slug": "julie-bishop",
-    "start_date": "2019-07-30"
+    "start_date": "2019-07-30",
+    "verified_by": "khoi"
   },
   {
     "role": "Board Member",
@@ -334,17 +338,19 @@
       "https://www.prnewswire.com/news-releases/four-distinguished-global-leaders-join-the-human-vaccines-projects-efforts-to-decode-the-human-immune-system-300902643.html"
     ],
     "pollie_slug": "julie-bishop",
-    "start_date": "2019-08-01"
+    "start_date": "2019-08-01",
+    "verified_by": "khoi"
   },
   {
-    "role": "Chair",
+    "role": "Board Chair",
     "organisation": "The King's Trust Australia",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.kingstrust.org.au/team/the-hon-julie-bishop"
     ],
     "pollie_slug": "julie-bishop",
-    "start_date": "2020-01-01"
+    "start_date": "2020-01-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Member, Global Board of Advisors",
@@ -354,7 +360,8 @@
       "https://www.cfr.org/global-board-advisors"
     ],
     "pollie_slug": "julie-bishop",
-    "start_date": "unknown"
+    "start_date": "unknown",
+    "verified_by": "khoi"
   },
   {
     "role": "Steering Committee Member",
