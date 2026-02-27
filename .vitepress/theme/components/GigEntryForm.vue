@@ -97,18 +97,29 @@ function addVerifiedByToGigs(
     content: string,
     indicesToVerify: number[],
     verifier: string,
+    edits: Record<number, Partial<Gig>>,
 ): string {
     const gigs: Gig[] = JSON.parse(content);
     for (const index of indicesToVerify) {
         if (gigs[index]) {
             gigs[index].verified_by = verifier;
+            if (edits[index]) {
+                Object.assign(gigs[index], edits[index]);
+            }
         }
     }
     return JSON.stringify(gigs, null, 2) + "\n";
 }
 
-async function handleVerifySubmit(indices: number[], verifier: string) {
+async function handleVerifySubmit(
+    indices: number[],
+    verifier: string,
+    edits: Record<number, Partial<Gig>>,
+) {
     const gigsToVerify = gigsList.filter((g) => indices.includes(g.index));
+    const editedIndices = Object.keys(edits)
+        .map(Number)
+        .filter((i) => indices.includes(i));
     const pollieNames = [...new Set(gigsToVerify.map((g) => g.pollie_slug))];
 
     await createPR({
@@ -119,11 +130,11 @@ async function handleVerifySubmit(indices: number[], verifier: string) {
             gigsToVerify
                 .map(
                     (g) =>
-                        `- ${g.role} at ${g.organisation} (${g.pollie_slug})`,
+                        `- ${g.role} at ${g.organisation} (${g.pollie_slug})${editedIndices.includes(g.index) ? " (edited)" : ""}`,
                 )
                 .join("\n"),
         updateFile: (content) =>
-            addVerifiedByToGigs(content, indices, verifier),
+            addVerifiedByToGigs(content, indices, verifier, edits),
         onMerged: () => verifyListRef.value?.clearSelection(),
     });
 }
