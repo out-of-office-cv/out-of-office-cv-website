@@ -425,29 +425,29 @@
     "verified_by": "khoi"
   },
   {
-    "role": "President",
+    "role": "President Designate ",
     "organisation": "International Hydropower Association",
     "category": "Energy (Renewables & Traditional)",
     "sources": [
-      "https://www.hydropower.org/team/malcolm-turnbull",
       "https://www.hydropower.org/news/malcolm-turnbull-former-pm-of-australia-announced-as-ihas-new-president"
     ],
     "pollie_slug": "malcolm-turnbull",
-    "start_date": "2023-10-31"
+    "start_date": "2023-10-31",
+    "verified_by": "khoi"
   },
   {
     "role": "Advisory Board Member",
-    "organisation": "Cado Security",
+    "organisation": "Cado Security (now acquired by Dark Trace)",
     "category": "Technology (Software, IT & Digital Services)",
     "sources": [
-      "https://www.cadosecurity.com/blog/honourable-malcolm-turnbull-joins-our-board-of-advisors",
       "https://www.businesswire.com/news/home/20210510005584/en/Former-Australian-Prime-Minister-Malcolm-Turnbull-Joins-Cado-Security-Board-of-Advisors"
     ],
     "pollie_slug": "malcolm-turnbull",
-    "start_date": "2021-05-01"
+    "start_date": "2021-05-01",
+    "verified_by": "khoi"
   },
   {
-    "role": "Chairman",
+    "role": "Director of the Board",
     "organisation": "Advanced Navigation",
     "category": "Technology (Software, IT & Digital Services)",
     "sources": [
@@ -455,7 +455,8 @@
       "https://www.smartcompany.com.au/startupsmart/malcolm-turnbull-board-ai-advanced-navigation/"
     ],
     "pollie_slug": "malcolm-turnbull",
-    "start_date": "2021-08-02"
+    "start_date": "2021-08-02",
+    "verified_by": "khoi"
   },
   {
     "role": "Founding Chairman",
@@ -463,10 +464,12 @@
     "category": "Energy (Renewables & Traditional)",
     "sources": [
       "https://gh2.org/speech/malcolm-turnbull-cop29-hydrogen-transition-summit",
-      "https://reneweconomy.com.au/turnbull-and-forrest-push-green-only-hydrogen-dismiss-carbon-capture/"
+      "https://reneweconomy.com.au/turnbull-and-forrest-push-green-only-hydrogen-dismiss-carbon-capture/",
+      "https://gh2.org/partners"
     ],
     "pollie_slug": "malcolm-turnbull",
-    "start_date": "2021-09-01"
+    "start_date": "2021-09-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Advisory Board Member",
