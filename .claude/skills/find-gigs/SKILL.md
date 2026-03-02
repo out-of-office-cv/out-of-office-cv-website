@@ -8,6 +8,14 @@ allowed-tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
 
 # Find post-parliamentary gigs
 
+**Non-interactive mode:** When there is no interactive user (e.g. running from a
+cron job):
+
+1. Before anything else, pull the latest changes: `git pull --rebase origin main`
+2. Skip the confirmation in step 4---add all found gigs
+3. Follow the non-interactive instructions at the end of step 5 to commit and
+   open a PR
+
 You are searching the internet for jobs, roles, and positions that former
 Australian politicians have taken after leaving parliament. Results will be
 added to `data/gigs.json` for human verification.
@@ -27,20 +35,22 @@ If no arguments, pick candidates using the default heuristic described below.
 
 ### Selection heuristic
 
-The goal over time is to cover all pollies. Prioritise those who:
+The goal is to find new gigs for any pollie, including those who already have
+gigs listed (they may have taken on new roles). Search broadly and rely on
+duplicate detection to avoid re-adding existing entries.
+
+Prioritise those who:
 
 1. have no gigs listed at all
-2. have few gigs listed (under 3) --- they likely have more we haven't found yet
-3. left parliament recently (more likely to have findable news coverage)
+2. left parliament recently (more likely to have findable news coverage)
+3. haven't been searched recently --- spread coverage across all pollies over time
 
 To select candidates:
 
 1. Read `data/pollies.csv` and `data/gigs.json`.
-2. Cross-reference to find pollies with zero or few gigs, preferring those who
-   departed more recently.
-3. Select up to 3 politicians to search for (or just the one if a slug was
-   given).
-4. Show the user who you've selected and ask for confirmation before searching.
+2. Select up to 3 politicians to search for (or just the one if a slug was
+   given), using the priorities above.
+3. Show the user who you've selected and ask for confirmation before searching.
 
 ## Step 2: search the internet
 
@@ -147,7 +157,12 @@ For approved gigs only:
    correctly.
 5. Show a summary of what was added.
 
-Do NOT commit the changes --- leave that for the user to review and commit.
+**If interactive:** Do NOT commit the changes --- leave that for the user to
+review and commit.
+
+**If non-interactive (cron):** Commit the changes, push to a new branch, and
+open a PR using `gh pr create`. Use a descriptive branch name like
+`find-gigs-TIMESTAMP` and include the gig summary table in the PR body.
 
 ## Important rules
 
