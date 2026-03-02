@@ -534,35 +534,35 @@
   {
     "role": "Special Advisor to Renewable Energy Business",
     "organisation": "Macquarie Group",
-    "category": "Energy (Renewables & Traditional)",
+    "category": "Financial Services and Banking",
     "sources": [
-      "https://www.thenewdaily.com.au/finance/finance-news/2020/05/15/joe-hockey-is-off-to-macquarie",
       "https://www.energynewsbulletin.net/operations/news/1387023/joe-hockey-wins-renewables-gig-macquarie"
     ],
     "pollie_slug": "joe-hockey",
-    "start_date": "2020-05-01"
+    "start_date": "2020-05-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Political Contributor",
     "organisation": "Sky News Australia",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://tvtonight.com.au/2020/06/joe-hockey-joins-sky-news.html",
-      "https://mumbrella.com.au/joe-hockey-joins-sky-news-as-us-political-contributor-629771"
+      "https://tvtonight.com.au/2020/06/joe-hockey-joins-sky-news.html"
     ],
     "pollie_slug": "joe-hockey",
-    "start_date": "2020-06-01"
+    "start_date": "2020-06-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Visiting Fellow",
     "organisation": "American University",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.saxtonglobal.com/speakers/joe-hockey",
-      "https://www.chartwellspeakers.com/speaker/ambassador-joe-hockey/"
+      "https://talentcorp.com.au/speakers/the-hon-joe-hockey/"
     ],
     "pollie_slug": "joe-hockey",
-    "start_date": "2020-01-01"
+    "start_date": "2020-01-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Chairman",
@@ -573,10 +573,11 @@
       "https://rode.com/en/about/news-info/The-Honourable-Joe-Hockey-Appointed-to-Freedman-Electronics-Board-of-Directors"
     ],
     "pollie_slug": "joe-hockey",
-    "start_date": "2021-03-11"
+    "start_date": "2021-03-11",
+    "verified_by": "khoi"
   },
   {
-    "role": "Director",
+    "role": "Board Member",
     "organisation": "Perth Bears (NRL)",
     "category": "Arts, Culture & Sport",
     "sources": [
@@ -584,7 +585,8 @@
       "https://sen.com.au/news/2025/06/28/nrl-announces-inaugural-perth-bears-board"
     ],
     "pollie_slug": "joe-hockey",
-    "start_date": "2025-06-28"
+    "start_date": "2025-06-28",
+    "verified_by": "khoi"
   },
   {
     "role": "Council Member",
