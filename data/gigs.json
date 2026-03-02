@@ -965,8 +965,12 @@
     "organisation": "Hotel Alexander (The Rydal Pub)",
     "category": "Retail, Hospitality & Tourism",
     "sources": [
-      "https://www.canberratimes.com.au/story/9108609/from-senator-to-publican-hollie-hughes-new-venture/"
+      "https://www.canberratimes.com.au/story/9108609/from-senator-to-publican-hollie-hughes-new-venture/",
+      "https://www.facebook.com/HollieHughesSenate/posts/new-adventure-begins-next-week-rydalpub-here-we-come/1212123724056740/",
+      "https://www.hospitalitydirectory.com.au/industry-news/22746-ex-senator-swaps-canberra-for-cold-ones-at-a-country-pub/"
     ],
-    "pollie_slug": "hollie-hughes"
+    "pollie_slug": "hollie-hughes",
+    "verified_by": "khoi",
+    "start_date": "2025-02-01"
   }
 ]
