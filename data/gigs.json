@@ -909,5 +909,57 @@
       "https://au.linkedin.com/in/zoe-daniel"
     ],
     "pollie_slug": "zoe-daniel"
+  },
+  {
+    "role": "Minister for Health, Mental Health and Wellbeing",
+    "organisation": "Tasmanian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.premier.tas.gov.au/your-government/bridget-archer",
+      "https://www.premier.tas.gov.au/latest-news/2025/august/new-tasmanian-government-ministry-announced"
+    ],
+    "pollie_slug": "bridget-archer",
+    "start_date": "2025-08-07"
+  },
+  {
+    "role": "Treasurer",
+    "organisation": "Tasmanian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.premier.tas.gov.au/your-government/eric-abetz",
+      "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/eric-abetz"
+    ],
+    "pollie_slug": "eric-abetz",
+    "start_date": "2025-08-07"
+  },
+  {
+    "role": "Minister for Primary Industries and Water",
+    "organisation": "Tasmanian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.premier.tas.gov.au/your-government/gavin-pearce",
+      "https://www.premier.tas.gov.au/latest-news/2025/august/new-tasmanian-government-ministry-announced"
+    ],
+    "pollie_slug": "gavin-pearce",
+    "start_date": "2025-08-07"
+  },
+  {
+    "role": "Member for Lyons",
+    "organisation": "Parliament of Tasmania",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/brian-mitchell"
+    ],
+    "pollie_slug": "brian-mitchell",
+    "start_date": "2025-07-19"
+  },
+  {
+    "role": "Owner/Publican",
+    "organisation": "Hotel Alexander (The Rydal Pub)",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.canberratimes.com.au/story/9108609/from-senator-to-publican-hollie-hughes-new-venture/"
+    ],
+    "pollie_slug": "hollie-hughes"
   }
 ]
