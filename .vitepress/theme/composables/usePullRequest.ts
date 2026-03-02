@@ -4,6 +4,21 @@ import { Octokit } from "@octokit/rest";
 const REPO_OWNER = "out-of-office-cv";
 const REPO_NAME = "out-of-office-cv-website";
 
+function base64ToUtf8(base64: string): string {
+  const binary = atob(base64.replace(/\n/g, ""));
+  const bytes = Uint8Array.from(binary, (c) => c.charCodeAt(0));
+  return new TextDecoder().decode(bytes);
+}
+
+function utf8ToBase64(str: string): string {
+  const bytes = new TextEncoder().encode(str);
+  let binary = "";
+  for (const byte of bytes) {
+    binary += String.fromCharCode(byte);
+  }
+  return btoa(binary);
+}
+
 export type PrStatus = "idle" | "creating" | "created" | "merged" | "error";
 
 export function usePullRequest(getStoredToken: () => string | null) {
@@ -96,7 +111,7 @@ export function usePullRequest(getStoredToken: () => string | null) {
         throw new Error("Could not read gigs.json");
       }
 
-      const currentContent = atob(fileData.content);
+      const currentContent = base64ToUtf8(fileData.content);
       const newContent = options.updateFile(currentContent);
 
       if (newContent === currentContent) {
@@ -119,7 +134,7 @@ export function usePullRequest(getStoredToken: () => string | null) {
         repo: REPO_NAME,
         path: "data/gigs.json",
         message: options.title,
-        content: btoa(newContent),
+        content: utf8ToBase64(newContent),
         branch: branchName,
         sha: fileData.sha,
       });
