@@ -597,18 +597,22 @@
       "https://the-riotact.com/tony-abbott-confirmed-as-war-memorials-newest-council-member/327688"
     ],
     "pollie_slug": "tony-abbott",
-    "start_date": "2019-10-01"
+    "start_date": "2019-10-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Trade Adviser",
     "organisation": "UK Board of Trade",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://www.lbc.co.uk/hot-topics/brexit/former-australian-pm-tony-abbott-confirmed-as-uk-trade-envoy/"
+      "https://www.lbc.co.uk/hot-topics/brexit/former-australian-pm-tony-abbott-confirmed-as-uk-trade-envoy/",
+      "https://www.theguardian.com/politics/2020/sep/06/tony-abbott-board-of-trade-appointment-raises-concern-in-australia",
+      "https://www.desmog.com/2024/10/11/climate-denier-tony-abbott-dumped-as-government-trade-advisor/"
     ],
     "pollie_slug": "tony-abbott",
     "start_date": "2020-09-04",
-    "end_date": "2024-10-01"
+    "end_date": "2024-10-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Trustee",
@@ -630,7 +634,8 @@
       "https://www.prnewswire.com/news-releases/tony-abbott-ac-and-peggy-johnson-nominated-to-the-board-of-directors-of-fox-corporation-301936523.html"
     ],
     "pollie_slug": "tony-abbott",
-    "start_date": "2023-11-01"
+    "start_date": "2023-11-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Advisory Board Member",
@@ -640,7 +645,8 @@
       "https://www.arc-conference.com/advisory-board"
     ],
     "pollie_slug": "tony-abbott",
-    "start_date": "2023-01-01"
+    "start_date": "2023-01-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Visiting Fellow",
