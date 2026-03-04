@@ -18,7 +18,7 @@ log "=== find-gigs started ==="
 
 git pull --rebase origin main >> "$LOG_FILE" 2>&1
 
-/home/ben/.local/bin/claude \
+env -u CLAUDECODE /home/ben/.local/bin/claude \
   --dangerously-skip-permissions \
   -p "/find-gigs" \
   >> "$LOG_FILE" 2>&1 || true
