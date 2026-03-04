@@ -978,5 +978,107 @@
     "pollie_slug": "hollie-hughes",
     "verified_by": "khoi",
     "start_date": "2025-02-01"
+  },
+  {
+    "role": "Distinguished Visiting Fellow",
+    "organisation": "Hoover Institution (Stanford University)",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.hoover.org/news/marise-payne-australias-minister-foreign-affairs-2018-2022-joins-hoover-institution",
+      "https://www.hoover.org/profiles/marise-payne"
+    ],
+    "pollie_slug": "marise-payne",
+    "start_date": "2024-01-31"
+  },
+  {
+    "role": "Vice-Chancellor's Fellow & Professor of Practice",
+    "organisation": "Western Sydney University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.westernsydney.edu.au/newscentre/news_centre/more_news_stories/marise_payne_joins_western_sydney_university"
+    ],
+    "pollie_slug": "marise-payne",
+    "start_date": "2024-02-01"
+  },
+  {
+    "role": "Advisory Council Member",
+    "organisation": "ORF-America (Observer Research Foundation)",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://orfamerica.org/board"
+    ],
+    "pollie_slug": "marise-payne"
+  },
+  {
+    "role": "Senior Advisor",
+    "organisation": "Bondi Partners",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.bondipartners.com/teams/marise-payne/"
+    ],
+    "pollie_slug": "marise-payne"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "HaemaLogiX Ltd",
+    "category": "Pharmaceutical & Biotechnology",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/haemalogix-welcomes-former-australian-federal-minister-for-health-professor-the-hon-greg-hunt-to-the-company-board-as-non-executive-director-302149935.html",
+      "https://www.haemalogix.com/news/haemalogix-welcomes-former-federal-minister-for-health-professor-the-hon-greg-hunt-to-the-company-board-as-non-executive-director-"
+    ],
+    "pollie_slug": "greg-hunt",
+    "start_date": "2024-05-20"
+  },
+  {
+    "role": "Chair, Advisory Council",
+    "organisation": "Turner Institute for Brain and Mental Health (Monash University)",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.monash.edu/news/articles/the-hon-greg-hunt-appointed-turner-institute-advisory-council-chair"
+    ],
+    "pollie_slug": "greg-hunt",
+    "start_date": "2022-10-01"
+  },
+  {
+    "role": "Honorary Enterprise Professor",
+    "organisation": "University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://about.unimelb.edu.au/news-resources/awards-and-achievements/announcements/honorary-enterprise-professor-greg-hunt",
+      "https://mdhs.unimelb.edu.au/news-and-events/news-archive/welcome-to-honorary-enterprise-professor-greg-hunt"
+    ],
+    "pollie_slug": "greg-hunt",
+    "start_date": "2022-12-01"
+  },
+  {
+    "role": "Senior Advisor",
+    "organisation": "Alvarez & Marsal Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.alvarezandmarsal.com/press-release/former-federal-health-minister-professor-greg-hunt-joins-alvarez-marsal-australia",
+      "https://www.alvarezandmarsal.com/our-people/greg-hunt-0"
+    ],
+    "pollie_slug": "greg-hunt",
+    "start_date": "2025-05-27"
+  },
+  {
+    "role": "Honorary Professor of Practice",
+    "organisation": "UCL Global Business School for Health",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.alvarezandmarsal.com/our-people/greg-hunt-0",
+      "https://en.wikipedia.org/wiki/Greg_Hunt"
+    ],
+    "pollie_slug": "greg-hunt",
+    "start_date": "2024-02-01"
+  },
+  {
+    "role": "Chair, CARDIO4Cities Accelerator Steering Committee",
+    "organisation": "Novartis Foundation",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/haemalogix-welcomes-former-australian-federal-minister-for-health-professor-the-hon-greg-hunt-to-the-company-board-as-non-executive-director-302149935.html"
+    ],
+    "pollie_slug": "greg-hunt"
   }
 ]
