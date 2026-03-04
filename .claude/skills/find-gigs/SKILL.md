@@ -11,10 +11,9 @@ allowed-tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
 **Non-interactive mode:** When there is no interactive user (e.g. running from a
 cron job):
 
-1. Before anything else, pull the latest changes: `git pull --rebase origin main`
-2. Skip the confirmation in step 4---add all found gigs
-3. Follow the non-interactive instructions at the end of step 5 to commit and
-   open a PR
+1. Skip ALL confirmations---do not ask questions or wait for input at any step
+2. The calling script handles git pull, commit, push, and PR creation---just
+   write to the data file and verify the build
 
 You are searching the internet for jobs, roles, and positions that former
 Australian politicians have taken after leaving parliament. Results will be
@@ -157,12 +156,8 @@ For approved gigs only:
    correctly.
 5. Show a summary of what was added.
 
-**If interactive:** Do NOT commit the changes --- leave that for the user to
-review and commit.
-
-**If non-interactive (cron):** Commit the changes, push to a new branch, and
-open a PR using `gh pr create`. Use a descriptive branch name like
-`find-gigs-TIMESTAMP` and include the gig summary table in the PR body.
+Do NOT commit the changes. In interactive mode, the user will review and commit.
+In non-interactive mode (cron), the calling script handles git operations.
 
 ## Important rules
 
