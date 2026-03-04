@@ -16,6 +16,8 @@ cd "$PROJECT_DIR"
 
 log "=== find-gigs started ==="
 
+git checkout main >> "$LOG_FILE" 2>&1
+git reset --hard >> "$LOG_FILE" 2>&1
 git pull --rebase origin main >> "$LOG_FILE" 2>&1
 
 env -u CLAUDECODE /home/ben/.local/bin/claude \
