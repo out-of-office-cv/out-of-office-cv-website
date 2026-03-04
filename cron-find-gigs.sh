@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PROJECT_DIR="/home/ben/Code/out-of-office-cv-website"
+PROJECT_DIR="/home/ben/projects/out-of-office-cv-website"
 LOG_DIR="${PROJECT_DIR}/logs"
 LOG_FILE="${LOG_DIR}/find-gigs-$(date +%Y-%m-%d).log"
 
