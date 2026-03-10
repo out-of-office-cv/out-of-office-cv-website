@@ -1080,5 +1080,25 @@
       "https://www.prnewswire.com/news-releases/haemalogix-welcomes-former-australian-federal-minister-for-health-professor-the-hon-greg-hunt-to-the-company-board-as-non-executive-director-302149935.html"
     ],
     "pollie_slug": "greg-hunt"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Foodbank Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.foodbank.org.au/foodbank-australia-announces-new-ceo-kylea-tink/"
+    ],
+    "pollie_slug": "kylea-tink",
+    "start_date": "2025-10-27"
+  },
+  {
+    "role": "Board Director",
+    "organisation": "Beyond Zero Emissions",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.bze.org.au/news-events/item/beyond-zero-emissions-strengthens-board-with-appointment-of-kylea-tink-and-rod-henderson"
+    ],
+    "pollie_slug": "kylea-tink",
+    "start_date": "2025-10-23"
   }
 ]
