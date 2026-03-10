@@ -8,13 +8,6 @@ allowed-tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
 
 # Find post-parliamentary gigs
 
-**Non-interactive mode:** When there is no interactive user (e.g. running from a
-cron job):
-
-1. Skip ALL confirmations---do not ask questions or wait for input at any step
-2. The calling script handles git pull, commit, push, and PR creation---just
-   write to the data file and verify the build
-
 You are searching the internet for jobs, roles, and positions that former
 Australian politicians have taken after leaving parliament. Results will be
 added to `data/gigs.json` for human verification.
@@ -49,7 +42,7 @@ To select candidates:
 1. Read `data/pollies.csv` and `data/gigs.json`.
 2. Select up to 3 politicians to search for (or just the one if a slug was
    given), using the priorities above.
-3. Show the user who you've selected and ask for confirmation before searching.
+3. Show who you've selected, then proceed immediately to searching.
 
 ## Step 2: search the internet
 
@@ -137,16 +130,11 @@ Present all found gigs in a clear table showing:
 Also flag any gigs that already exist in `data/gigs.json` (matching on
 pollie_slug + organisation + role) so duplicates are obvious.
 
-Ask the user which gigs to add. They may want to:
-
-- Add all of them
-- Add only some (specify which)
-- Skip all (if none look right)
-- Edit details before adding
+Add all non-duplicate gigs automatically.
 
 ## Step 5: write to data file
 
-For approved gigs only:
+For all non-duplicate gigs found:
 
 1. Read the current `data/gigs.json`.
 2. Append the new gigs to the array.
@@ -156,8 +144,7 @@ For approved gigs only:
    correctly.
 5. Show a summary of what was added.
 
-Do NOT commit the changes. In interactive mode, the user will review and commit.
-In non-interactive mode (cron), the calling script handles git operations.
+Do NOT commit the changes --- the calling script or user handles git operations.
 
 ## Important rules
 
