@@ -1100,5 +1100,190 @@
     ],
     "pollie_slug": "kylea-tink",
     "start_date": "2025-10-23"
+  },
+  {
+    "role": "Contributor",
+    "organisation": "Deepcut News",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.deepcutnews.com/p/now-is-the-time-to-talk-about-nationalising",
+      "https://en.wikipedia.org/wiki/Max_Chandler-Mather"
+    ],
+    "pollie_slug": "max-chandler-mather",
+    "start_date": "2025-09-01"
+  },
+  {
+    "role": "Director of Government Affairs and Policy",
+    "organisation": "Alexion Pharmaceuticals Australasia",
+    "category": "Pharmaceutical & Biotechnology",
+    "sources": [
+      "https://www.healthindustryhub.com.au/pharmaceutical-news-trends/from-parliament-to-health-industry-trent-zimmerman-takes-the-helm-at-alexion-paving-the-way-for-transformation/",
+      "https://theorg.com/org/alexion-pharmaceuticals/org-chart/trent-zimmerman"
+    ],
+    "pollie_slug": "trent-zimmerman",
+    "start_date": "2023-08-01"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Social Policy Group",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://socialpolicy.org.au/the-board/"
+    ],
+    "pollie_slug": "trent-zimmerman"
+  },
+  {
+    "role": "Barrister",
+    "organisation": "Geoffrey Miller Chambers",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://doylesguide.com/leading-criminal-law-barristers-western-australia-2025/",
+      "https://en.wikipedia.org/wiki/Christian_Porter"
+    ],
+    "pollie_slug": "christian-porter",
+    "start_date": "2022-06-01"
+  },
+  {
+    "role": "President",
+    "organisation": "NSW Liberal Party (NSW Division)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://nswliberal.org.au/news/jason-falinski-elected-nsw-liberal-party-president"
+    ],
+    "pollie_slug": "jason-falinski",
+    "start_date": "2023-01-01",
+    "end_date": "2024-10-01"
+  },
+  {
+    "role": "Spokesperson",
+    "organisation": "Australians for Prosperity",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.australiansforprosperity.com/",
+      "https://en.wikipedia.org/wiki/Jason_Falinski"
+    ],
+    "pollie_slug": "jason-falinski",
+    "start_date": "2024-01-01"
+  },
+  {
+    "role": "Independent Chair",
+    "organisation": "headspace Cairns",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.cairnslocalnews.com.au/headspace-cairns-celebrates-10-years-of-service-2022-05-09",
+      "https://www.northqueenslandregister.com.au/story/8956964/warren-entsch-on-life-after-politics-and-plans-in-retirement/"
+    ],
+    "pollie_slug": "warren-entsch"
+  },
+  {
+    "role": "Board member",
+    "organisation": "The Junction Clubhouse Cairns",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.northqueenslandregister.com.au/story/8956964/warren-entsch-on-life-after-politics-and-plans-in-retirement/"
+    ],
+    "pollie_slug": "warren-entsch"
+  },
+  {
+    "role": "Global Vice Chair and Co-Chair, Asia-Pacific Caucus",
+    "organisation": "Global TB Caucus",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.globaltbcaucus.org/who-we-are",
+      "https://www.northqueenslandregister.com.au/story/8956964/warren-entsch-on-life-after-politics-and-plans-in-retirement/"
+    ],
+    "pollie_slug": "warren-entsch"
+  },
+  {
+    "role": "Co-founder",
+    "organisation": "National Threatened Species Institute",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://the-riotact.com/warren-entsch-parliamentarian-croc-catcher-and-passionate-advocate-for-threatened-species/666789",
+      "https://www.northqueenslandregister.com.au/story/8956964/warren-entsch-on-life-after-politics-and-plans-in-retirement/"
+    ],
+    "pollie_slug": "warren-entsch"
+  },
+  {
+    "role": "Barrister",
+    "organisation": "New Chambers (Victorian Bar)",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.linkedin.com/in/keith-wolahan-b02b76108/",
+      "https://www.vicbar.com.au/Web/Web/Account/Barrister-Profile.aspx?ID=24453"
+    ],
+    "pollie_slug": "keith-wolahan",
+    "start_date": "2025-06-01"
+  },
+  {
+    "role": "Principal",
+    "organisation": "Paul Fletcher and Associates",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.paulfletcher.com.au/"
+    ],
+    "pollie_slug": "paul-fletcher",
+    "start_date": "2025-04-01"
+  },
+  {
+    "role": "Host, Sunday with Stoker",
+    "organisation": "Sky News Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://tvtonight.com.au/2023/01/sky-news-2023-line-up.html"
+    ],
+    "pollie_slug": "amanda-stoker",
+    "start_date": "2023-01-29",
+    "end_date": "2023-10-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Samuel Griffith Society",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Amanda-Stoker"
+    ],
+    "pollie_slug": "amanda-stoker",
+    "start_date": "2022-07-01"
+  },
+  {
+    "role": "Member for Oodgeroo",
+    "organisation": "Queensland Parliament",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=789128387"
+    ],
+    "pollie_slug": "amanda-stoker",
+    "start_date": "2024-10-26"
+  },
+  {
+    "role": "Assistant Minister for Finance, Trade, Employment and Training",
+    "organisation": "Queensland Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=789128387"
+    ],
+    "pollie_slug": "amanda-stoker",
+    "start_date": "2024-11-14"
+  },
+  {
+    "role": "Principal",
+    "organisation": "Transparency Warrior",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://transparencywarrior.com.au/about/"
+    ],
+    "pollie_slug": "rex-patrick",
+    "start_date": "2022-07-01"
+  },
+  {
+    "role": "Contributor",
+    "organisation": "Michael West Media",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://michaelwest.com.au/author/rex-patrick/"
+    ],
+    "pollie_slug": "rex-patrick",
+    "start_date": "2022-07-01"
   }
 ]
