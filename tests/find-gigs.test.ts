@@ -66,105 +66,80 @@ const mockGigs: Gig[] = [
 
 describe("selectPollie", () => {
   it("selects explicit pollie by slug", () => {
-    const result = selectPollie(
-      mockPollies,
-      mockGigs,
-      "recent-no-gigs",
-      "older-no-gigs",
-    );
+    const result = selectPollie(mockPollies, mockGigs, "older-no-gigs");
     expect(result?.slug).toBe("older-no-gigs");
   });
 
   it("returns null for non-existent explicit slug", () => {
-    const result = selectPollie(
-      mockPollies,
-      mockGigs,
-      "recent-no-gigs",
-      "not-found",
-    );
+    const result = selectPollie(mockPollies, mockGigs, "not-found");
     expect(result).toBeNull();
   });
 
-  it("selects most recent pollie without gigs for recent-no-gigs strategy", () => {
-    const result = selectPollie(mockPollies, mockGigs, "recent-no-gigs");
-    expect(result?.slug).toBe("recent-no-gigs");
-  });
-
-  it("excludes pollies with gigs for recent-no-gigs strategy", () => {
-    const result = selectPollie(mockPollies, mockGigs, "recent-no-gigs");
-    expect(result?.slug).not.toBe("has-gigs");
-  });
-
-  it("selects pollie with few gigs for recent-few-gigs strategy", () => {
-    const result = selectPollie(mockPollies, mockGigs, "recent-few-gigs");
-    expect(result?.slug).toBe("recent-no-gigs");
-  });
-
-  it("includes pollies with fewer than 3 gigs in recent-few-gigs strategy", () => {
-    const result = selectPollie(mockPollies, mockGigs, "recent-few-gigs");
-    expect(["recent-no-gigs", "older-no-gigs", "has-gigs"]).toContain(
-      result?.slug,
-    );
-  });
-
-  it("selects random pollie without gigs for random strategy", () => {
-    const result = selectPollie(mockPollies, mockGigs, "random");
+  it("selects a pollie with fewest gigs", () => {
+    const result = selectPollie(mockPollies, mockGigs);
     expect(result).not.toBeNull();
     expect(result?.slug).not.toBe("has-gigs");
   });
 
-  it("returns null when no suitable pollies exist", () => {
+  it("returns a pollie when all have gigs", () => {
     const gigsForAll = mockPollies.map((p) => ({
       ...mockGigs[0],
       pollie_slug: p.slug,
     }));
-    const result = selectPollie(mockPollies, gigsForAll, "recent-no-gigs");
+    const result = selectPollie(mockPollies, gigsForAll);
+    expect(result).not.toBeNull();
+  });
+
+  it("returns null for empty pollie list", () => {
+    const result = selectPollie([], mockGigs);
     expect(result).toBeNull();
   });
 });
 
 describe("listCandidates", () => {
-  it("returns multiple candidates sorted by recency", () => {
-    const candidates = listCandidates(mockPollies, mockGigs, "recent-no-gigs");
-    expect(candidates.length).toBe(2);
-    expect(candidates[0].slug).toBe("recent-no-gigs");
-    expect(candidates[1].slug).toBe("older-no-gigs");
-  });
-
-  it("excludes pollies with gigs for recent-no-gigs strategy", () => {
-    const candidates = listCandidates(mockPollies, mockGigs, "recent-no-gigs");
-    expect(candidates.map((c) => c.slug)).not.toContain("has-gigs");
+  it("sorts by gig count ascending", () => {
+    const candidates = listCandidates(mockPollies, mockGigs);
+    const hasGigsIndex = candidates.findIndex((c) => c.slug === "has-gigs");
+    const noGigsSlugs = ["recent-no-gigs", "older-no-gigs"];
+    const noGigsIndices = candidates
+      .map((c, i) => (noGigsSlugs.includes(c.slug) ? i : -1))
+      .filter((i) => i >= 0);
+    for (const i of noGigsIndices) {
+      expect(i).toBeLessThan(hasGigsIndex);
+    }
   });
 
   it("respects limit parameter", () => {
-    const candidates = listCandidates(
-      mockPollies,
-      mockGigs,
-      "recent-no-gigs",
-      1,
-    );
+    const candidates = listCandidates(mockPollies, mockGigs, 1);
     expect(candidates.length).toBe(1);
-    expect(candidates[0].slug).toBe("recent-no-gigs");
   });
 
-  it("includes pollies with few gigs for recent-few-gigs strategy", () => {
-    const candidates = listCandidates(mockPollies, mockGigs, "recent-few-gigs");
+  it("includes all pollies regardless of gig count", () => {
+    const candidates = listCandidates(mockPollies, mockGigs);
+    expect(candidates.length).toBe(3);
     expect(candidates.map((c) => c.slug)).toContain("has-gigs");
   });
 
-  it("excludes pollies with 3+ gigs for recent-few-gigs strategy", () => {
+  it("returns all candidates without limit", () => {
+    const candidates = listCandidates(mockPollies, []);
+    expect(candidates.length).toBe(3);
+  });
+
+  it("pollies with more gigs sort later", () => {
     const manyGigs: Gig[] = [
       { ...mockGigs[0], pollie_slug: "has-gigs" },
       { ...mockGigs[0], pollie_slug: "has-gigs", role: "Role 2" },
       { ...mockGigs[0], pollie_slug: "has-gigs", role: "Role 3" },
+      { ...mockGigs[0], pollie_slug: "older-no-gigs", role: "Role 1" },
     ];
-    const candidates = listCandidates(mockPollies, manyGigs, "recent-few-gigs");
-    expect(candidates.map((c) => c.slug)).not.toContain("has-gigs");
-  });
-
-  it("returns all candidates without limit", () => {
-    const candidates = listCandidates(mockPollies, [], "recent-no-gigs");
-    expect(candidates.length).toBe(3);
+    const candidates = listCandidates(mockPollies, manyGigs);
+    const slugs = candidates.map((c) => c.slug);
+    expect(slugs.indexOf("recent-no-gigs")).toBeLessThan(
+      slugs.indexOf("older-no-gigs"),
+    );
+    expect(slugs.indexOf("older-no-gigs")).toBeLessThan(
+      slugs.indexOf("has-gigs"),
+    );
   });
 });
 

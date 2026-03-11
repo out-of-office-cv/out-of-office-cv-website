@@ -20,9 +20,6 @@ Current gig count: !`cat data/gigs.json | python3 -c "import sys,json; print(len
 If `$ARGUMENTS` is a pollie slug (e.g. `christopher-pyne`), search for that
 specific politician.
 
-If `$ARGUMENTS` is a strategy name (`recent-no-gigs`, `recent-few-gigs`,
-`random`), use that to select candidates.
-
 If no arguments, pick candidates using the default heuristic described below.
 
 ### Selection heuristic
@@ -31,18 +28,15 @@ The goal is to find new gigs for any pollie, including those who already have
 gigs listed (they may have taken on new roles). Search broadly and rely on
 duplicate detection to avoid re-adding existing entries.
 
-Prioritise those who:
-
-1. have no gigs listed at all
-2. left parliament recently (more likely to have findable news coverage)
-3. haven't been searched recently --- spread coverage across all pollies over time
-
 To select candidates:
 
 1. Read `data/pollies.csv` and `data/gigs.json`.
-2. Select up to 3 politicians to search for (or just the one if a slug was
-   given), using the priorities above.
-3. Show who you've selected, then proceed immediately to searching.
+2. Count how many gigs each pollie has.
+3. Sort pollies by gig count (ascending), so those with fewer gigs are checked
+   first. Among pollies with the same gig count, pick randomly.
+4. Select up to 5 politicians to search for (or just the one if a slug was
+   given).
+5. Show who you've selected, then proceed immediately to searching.
 
 ## Step 2: search the internet
 

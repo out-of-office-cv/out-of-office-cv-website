@@ -22,38 +22,35 @@ export interface FoundGig {
   end_date?: string;
 }
 
-export type Strategy = "recent-no-gigs" | "recent-few-gigs" | "random";
-
-function sortByRecency(pollies: Pollie[]): Pollie[] {
-  return [...pollies].sort((a, b) => {
-    const dateA = parseDate(a.ceasedDate);
-    const dateB = parseDate(b.ceasedDate);
-    if (!dateA || !dateB) return 0;
-    return dateB.getTime() - dateA.getTime();
-  });
+function shuffle<T>(arr: T[]): T[] {
+  const result = [...arr];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
 }
 
 export function listCandidates(
   pollies: Pollie[],
   gigs: Gig[],
-  strategy: Strategy,
   limit?: number,
 ): Pollie[] {
-  const gigSlugs = new Set(gigs.map((g) => g.pollie_slug));
   const gigCounts = new Map<string, number>();
   for (const gig of gigs) {
     gigCounts.set(gig.pollie_slug, (gigCounts.get(gig.pollie_slug) || 0) + 1);
   }
 
-  let candidates: Pollie[];
-  if (strategy === "recent-no-gigs") {
-    candidates = sortByRecency(pollies.filter((p) => !gigSlugs.has(p.slug)));
-  } else if (strategy === "recent-few-gigs") {
-    candidates = sortByRecency(
-      pollies.filter((p) => (gigCounts.get(p.slug) || 0) < 3),
-    );
-  } else {
-    candidates = pollies.filter((p) => !gigSlugs.has(p.slug));
+  const grouped = new Map<number, Pollie[]>();
+  for (const p of pollies) {
+    const count = gigCounts.get(p.slug) || 0;
+    if (!grouped.has(count)) grouped.set(count, []);
+    grouped.get(count)!.push(p);
+  }
+
+  const candidates: Pollie[] = [];
+  for (const count of [...grouped.keys()].sort((a, b) => a - b)) {
+    candidates.push(...shuffle(grouped.get(count)!));
   }
 
   return limit ? candidates.slice(0, limit) : candidates;
@@ -62,22 +59,14 @@ export function listCandidates(
 export function selectPollie(
   pollies: Pollie[],
   gigs: Gig[],
-  strategy: Strategy,
   explicitSlug?: string,
 ): Pollie | null {
   if (explicitSlug) {
     return pollies.find((p) => p.slug === explicitSlug) || null;
   }
 
-  const candidates = listCandidates(pollies, gigs, strategy, 1);
-  if (candidates.length === 0) return null;
-
-  if (strategy === "random") {
-    const all = listCandidates(pollies, gigs, strategy);
-    return all[Math.floor(Math.random() * all.length)] || null;
-  }
-
-  return candidates[0];
+  const candidates = listCandidates(pollies, gigs, 1);
+  return candidates[0] || null;
 }
 
 function getSearchName(fullName: string): string {
@@ -253,7 +242,6 @@ export function appendGigsToJson(newGigs: Gig[], gigsPath?: string): void {
 }
 
 interface ParsedArgs {
-  strategy: Strategy;
   pollie?: string;
   dryRun: boolean;
   listCandidates: boolean;
@@ -262,20 +250,13 @@ interface ParsedArgs {
 
 function parseArgs(): ParsedArgs {
   const args = process.argv.slice(2);
-  let strategy: Strategy = "recent-no-gigs";
   let pollie: string | undefined;
   let dryRun = false;
   let listCandidates = false;
   let limit = 10;
 
   for (let i = 0; i < args.length; i++) {
-    if (args[i] === "--strategy" && args[i + 1]) {
-      const s = args[i + 1];
-      if (s === "recent-no-gigs" || s === "recent-few-gigs" || s === "random") {
-        strategy = s;
-      }
-      i++;
-    } else if (args[i] === "--pollie" && args[i + 1]) {
+    if (args[i] === "--pollie" && args[i + 1]) {
       pollie = args[i + 1];
       i++;
     } else if (args[i] === "--dry-run") {
@@ -288,7 +269,7 @@ function parseArgs(): ParsedArgs {
     }
   }
 
-  return { strategy, pollie, dryRun, listCandidates, limit };
+  return { pollie, dryRun, listCandidates, limit };
 }
 
 function getMockGigs(): FoundGig[] {
@@ -323,7 +304,6 @@ function formatCeasedDate(pollie: Pollie): string {
 
 async function main() {
   const {
-    strategy,
     pollie: explicitPollie,
     dryRun,
     listCandidates: showCandidates,
@@ -334,8 +314,8 @@ async function main() {
   const existingGigs = readGigsJson();
 
   if (showCandidates) {
-    const candidates = listCandidates(pollies, existingGigs, strategy, limit);
-    console.log(`Candidates for gig search (strategy: ${strategy}):\n`);
+    const candidates = listCandidates(pollies, existingGigs, limit);
+    console.log(`Candidates for gig search:\n`);
     for (const p of candidates) {
       console.log(
         `  ${p.slug.padEnd(30)} ${p.party.padEnd(10)} ${formatCeasedDate(p)}`,
@@ -354,11 +334,9 @@ async function main() {
   console.log("Loading pollies...");
   console.log(`Loaded ${pollies.length} pollies`);
 
-  console.log(`Using strategy: ${strategy}`);
   const selectedPollie = selectPollie(
     pollies,
     existingGigs,
-    strategy,
     explicitPollie,
   );
 
