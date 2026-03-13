@@ -1681,5 +1681,149 @@
     ],
     "pollie_slug": "ian-macfarlane",
     "start_date": "2018-10-01"
+  },
+  {
+    "role": "Senior Fellow",
+    "organisation": "Belfer Center for Science and International Affairs, Harvard Kennedy School",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.belfercenter.org/publication/former-australian-prime-minister-named-senior-fellow-harvards-belfer-center"
+    ],
+    "pollie_slug": "kevin-rudd",
+    "start_date": "2014-02-01"
+  },
+  {
+    "role": "Inaugural President",
+    "organisation": "Asia Society Policy Institute",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://asiasociety.org/honorable-kevin-rudd-joins-asia-society-ny-inaugural-president-asia-society-policy-institute"
+    ],
+    "pollie_slug": "kevin-rudd",
+    "start_date": "2015-01-01",
+    "end_date": "2021-01-01"
+  },
+  {
+    "role": "President and CEO",
+    "organisation": "Asia Society",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://asiasociety.org/asia-society-announces-appointment-honorable-kevin-rudd-president-and-chief-executive-officer"
+    ],
+    "pollie_slug": "kevin-rudd",
+    "start_date": "2021-01-01",
+    "end_date": "2023-03-01"
+  },
+  {
+    "role": "Ambassador to the United States",
+    "organisation": "Australian Government",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.foreignminister.gov.au/minister/penny-wong/media-release/australias-ambassador-united-states-america"
+    ],
+    "pollie_slug": "kevin-rudd",
+    "start_date": "2023-03-20",
+    "end_date": "2026-03-31"
+  },
+  {
+    "role": "President and CEO",
+    "organisation": "Asia Society",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://asiasociety.org/asia-society-announces-appointment-hon-kevin-rudd-president-and-ceo"
+    ],
+    "pollie_slug": "kevin-rudd",
+    "start_date": "2026-03-31"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Australian Conservation Foundation",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.acf.org.au/about/our-organisation/our-patron"
+    ],
+    "pollie_slug": "peter-garrett"
+  },
+  {
+    "role": "Independent Reviewer",
+    "organisation": "Melbourne Symphony Orchestra",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://petergarrett.com.au/melbourne-symphony-orchestra-appoints-peter-garrett-and-kpmg-australia-to-conduct-independent-review-and-engages-globally-renowned-music-leader-richard-wigley-as-strategic-advisor/"
+    ],
+    "pollie_slug": "peter-garrett",
+    "start_date": "2024-08-26"
+  },
+  {
+    "role": "Consultant, Government Relations",
+    "organisation": "Tenix Defence",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://michaelwest.com.au/peter-reith/"
+    ],
+    "pollie_slug": "peter-reith",
+    "start_date": "2001-11-01"
+  },
+  {
+    "role": "Executive Director",
+    "organisation": "European Bank for Reconstruction and Development",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://ministers.treasury.gov.au/ministers/peter-costello-1996/media-releases/nomination-european-bank-reconstruction-and"
+    ],
+    "pollie_slug": "peter-reith",
+    "start_date": "2003-01-01",
+    "end_date": "2009-01-01"
+  },
+  {
+    "role": "Director of Strategy and Business Development",
+    "organisation": "Consolidated Press Holdings",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Arbib"
+    ],
+    "pollie_slug": "mark-arbib",
+    "start_date": "2012-03-01"
+  },
+  {
+    "role": "President",
+    "organisation": "Athletics Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.athletics.com.au/news/australian-athletics-congratulates-mark-arbib-on-appointment-as-aoc-ceo/"
+    ],
+    "pollie_slug": "mark-arbib",
+    "start_date": "2015-01-01",
+    "end_date": "2021-01-01"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "South Sydney Rabbitohs",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Arbib"
+    ],
+    "pollie_slug": "mark-arbib"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Australian Olympic Committee",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.olympics.com.au/news/aoc-appoints-mark-arbib-as-chief-executive-officer/"
+    ],
+    "pollie_slug": "mark-arbib",
+    "start_date": "2025-05-01"
+  },
+  {
+    "role": "Head of Asia Pacific Engagement and SA Chairman",
+    "organisation": "ANZ",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.mpamag.com/au/mortgage-industry/industry-moves/outgoing-senator-takes-on-role-at-anz/516894"
+    ],
+    "pollie_slug": "simon-birmingham",
+    "start_date": "2025-02-01",
+    "end_date": "2025-08-01"
   }
 ]
