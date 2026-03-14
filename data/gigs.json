@@ -656,7 +656,8 @@
       "https://www.hungarianconservative.com/articles/culture_society/former_australian_prime_minister_tony_abbott_danube_institute_guest_speaker_autumn_2023/"
     ],
     "pollie_slug": "tony-abbott",
-    "start_date": "2023-01-01"
+    "start_date": "2023-01-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Distinguished Fellow",
@@ -666,17 +667,19 @@
       "https://ipa.org.au/ipa-today/former-prime-minister-tony-abbott-joins-the-ipas-fight-for-australian-values"
     ],
     "pollie_slug": "tony-abbott",
-    "start_date": "2020-01-01"
+    "start_date": "2020-01-25",
+    "verified_by": "khoi"
   },
   {
-    "role": "Director",
+    "role": "Board Member",
     "organisation": "Ramsay Centre for Western Civilisation",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://wwsg.com/speakers/tony-abbott/"
+      "https://www.ramsaycentre.org/about-us/our-people/our-board/"
     ],
     "pollie_slug": "tony-abbott",
-    "start_date": "2016-01-01"
+    "start_date": "2016-01-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Independent Non-Executive Director",
