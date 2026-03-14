@@ -690,28 +690,30 @@
       "https://www.energyres.com.au/about/board/hon-ken-wyatt/"
     ],
     "pollie_slug": "ken-wyatt",
-    "start_date": "2022-12-01"
+    "start_date": "2022-12-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Chair, International Advisory Board",
     "organisation": "University of Western Australia Public Policy Institute",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.uwa.edu.au/news/Article/2022/December/Ken-Wyatt-AM-JP-appointed-Chair-of-Public-Policy-Board",
-      "https://www.uwa.edu.au/institutes/public-policy/advisory-board"
+      "https://www.uwa.edu.au/news/Article/2022/December/Ken-Wyatt-AM-JP-appointed-Chair-of-Public-Policy-Board"
     ],
     "pollie_slug": "ken-wyatt",
-    "start_date": "2022-12-12"
+    "start_date": "2022-12-12",
+    "verified_by": "khoi"
   },
   {
-    "role": "Director",
+    "role": "Chair",
     "organisation": "Rock Art Australia",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://rockartaustralia.org.au/ken-wyatt-am-appointed-chair-of-rock-art-australia/"
     ],
     "pollie_slug": "ken-wyatt",
-    "start_date": "2023-01-01"
+    "start_date": "2023-01-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Board Director",
@@ -722,18 +724,20 @@
       "https://www.beyondblue.org.au/about/board-of-directors"
     ],
     "pollie_slug": "ken-wyatt",
-    "start_date": "2023-05-29"
+    "start_date": "2023-05-29",
+    "verified_by": "khoi"
   },
   {
     "role": "Committee Member",
     "organisation": "Aboriginal Cultural Heritage Committee (WA)",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.wa.gov.au/organisation/department-of-planning-lands-and-heritage/aboriginal-cultural-heritage-committee"
+      "https://www.wa.gov.au/government/media-statements/Cook-Labor-Government/Implementation-on-track-for-new-Aboriginal-cultural-heritage-laws-20230628"
     ],
     "pollie_slug": "ken-wyatt",
-    "start_date": "2023-11-01",
-    "end_date": "2025-06-30"
+    "start_date": "2023-06-29",
+    "end_date": "2025-06-30",
+    "verified_by": "khoi"
   },
   {
     "role": "Campaigns Director, Australia",
