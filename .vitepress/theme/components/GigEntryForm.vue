@@ -81,7 +81,7 @@ async function submitAddPR() {
 
     await createPR({
         branchPrefix: "gig-contribution",
-        title: `Add ${draftGigs.value.length} gig(s)`,
+        title: `Add ${draftGigs.value.length} ${draftGigs.value.length === 1 ? "gig" : "gigs"}`,
         body: draftGigs.value
             .map(
                 (g) =>
@@ -124,7 +124,7 @@ async function handleVerifySubmit(
 
     await createPR({
         branchPrefix: "gig-verification",
-        title: `Verify ${gigsToVerify.length} gig(s) for ${pollieNames.slice(0, 3).join(", ")}${pollieNames.length > 3 ? ` and ${pollieNames.length - 3} more` : ""}`,
+        title: `Verify ${gigsToVerify.length} ${gigsToVerify.length === 1 ? "gig" : "gigs"} for ${pollieNames.slice(0, 3).join(", ")}${pollieNames.length > 3 ? ` and ${pollieNames.length - 3} more` : ""}`,
         body:
             `Verified by: ${verifier}\n\n` +
             gigsToVerify
@@ -196,7 +196,7 @@ onMounted(async () => {
                         :disabled="!canSubmitAdd"
                         @click="submitAddPR"
                     >
-                        Create pull request with {{ draftGigs.length }} gig(s)
+                        Create pull request with {{ draftGigs.length }} {{ draftGigs.length === 1 ? 'gig' : 'gigs' }}
                     </button>
                 </div>
                 <PrStatusIndicator
@@ -237,7 +237,7 @@ onMounted(async () => {
                                     class="btn-primary btn-large"
                                     @click="onSubmit"
                                 >
-                                    Verify {{ count }} gig(s) as
+                                    Verify {{ count }} {{ count === 1 ? 'gig' : 'gigs' }} as
                                     {{ verifierId }}
                                 </button>
                             </div>
