@@ -33,11 +33,57 @@ else
   git checkout -b "$BRANCH"
   git add data/gigs.json
   GIG_COUNT=$(git diff --cached --numstat data/gigs.json | awk '{print $1}')
+  PR_BODY=$(git diff --cached data/gigs.json \
+    | grep '^+' | grep -v '^+++' \
+    | python3 -c '
+import sys, json
+
+lines = sys.stdin.read()
+# Extract added JSON objects by finding pollie_slug, role, organisation fields
+entries = {}
+current = {}
+for line in lines.split("\n"):
+    line = line.lstrip("+").strip().rstrip(",")
+    if not line or line in ("{", "}", "[", "]"):
+        if "pollie_slug" in current and "role" in current:
+            slug = current["pollie_slug"]
+            gig = current.get("role", "")
+            org = current.get("organisation", "")
+            label = f"{gig}, {org}" if org else gig
+            entries.setdefault(slug, []).append(label)
+        current = {}
+        continue
+    try:
+        key, val = line.split(":", 1)
+        key = json.loads(key)
+        val = val.strip()
+        if val.startswith("[") or val.startswith("{"):
+            continue
+        current[key] = json.loads(val)
+    except (ValueError, json.JSONDecodeError):
+        pass
+
+if "pollie_slug" in current and "role" in current:
+    slug = current["pollie_slug"]
+    gig = current.get("role", "")
+    org = current.get("organisation", "")
+    label = f"{gig}, {org}" if org else gig
+    entries.setdefault(slug, []).append(label)
+
+if entries:
+    parts = []
+    for slug, gigs in sorted(entries.items()):
+        gig_list = "; ".join(gigs)
+        parts.append(f"- **{slug}**: {gig_list}")
+    print("New gigs found:\n\n" + "\n".join(parts))
+else:
+    print("Automated gig search run.")
+')
   git commit -m "Add gigs found by cron job"
   git push -u origin "$BRANCH"
   gh pr create \
     --title "Add gigs found by cron job (${GIG_COUNT} lines changed)" \
-    --body "Automated gig search run. Please review the additions to \`data/gigs.json\`." \
+    --body "$PR_BODY" \
     >> "$LOG_FILE" 2>&1
   git checkout main
   log "PR created on branch ${BRANCH}"
