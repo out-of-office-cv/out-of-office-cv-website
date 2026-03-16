@@ -2115,5 +2115,23 @@
       "https://au.linkedin.com/in/alan-tudge-0970214a"
     ],
     "pollie_slug": "alan-tudge"
+  },
+  {
+    "role": "Vice Chancellor's Professorial Fellow",
+    "organisation": "Monash University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://publishing.monash.edu/authors/kim-carr/"
+    ],
+    "pollie_slug": "kim-carr"
+  },
+  {
+    "role": "Director",
+    "organisation": "Made in Australia Campaign Limited",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://publishing.monash.edu/authors/kim-carr/"
+    ],
+    "pollie_slug": "kim-carr"
   }
 ]
