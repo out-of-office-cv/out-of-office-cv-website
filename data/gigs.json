@@ -2133,5 +2133,65 @@
       "https://publishing.monash.edu/authors/kim-carr/"
     ],
     "pollie_slug": "kim-carr"
+  },
+  {
+    "role": "Head of Asia Pacific Engagement and Chairman, South Australia",
+    "organisation": "ANZ",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.anz.com.au/newsroom/media/2024/december/simon-birmingham-appointed-head-of-asia-pacific-engagement-and-c/"
+    ],
+    "pollie_slug": "simon-birmingham",
+    "start_date": "2025-02-01",
+    "end_date": "2025-08-18"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Australian Banking Association",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.ausbanking.org.au/simon-birmingham-appointed-as-aba-ceo/"
+    ],
+    "pollie_slug": "simon-birmingham",
+    "start_date": "2025-08-18"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Tech Council of Australia",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://www.paulfletcher.com.au/media-releases/paul-fletcher-join-tech-council-australia",
+      "https://techcouncil.com.au/board/"
+    ],
+    "pollie_slug": "paul-fletcher",
+    "start_date": "2025-12-03"
+  },
+  {
+    "role": "Principal",
+    "organisation": "Paul Fletcher and Associates",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.paulfletcher.com.au/"
+    ],
+    "pollie_slug": "paul-fletcher"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Australian Resources Recovery Council",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.insidewaste.com.au/112761-karen-andrews/",
+      "https://wastemanagementreview.com.au/former-minister-joins-resources-recovery-sector"
+    ],
+    "pollie_slug": "karen-andrews"
+  },
+  {
+    "role": "Commonwealth Government Representative, Advisory Board",
+    "organisation": "SAiGENCI (South Australian immunoGENomics Cancer Institute)",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.adelaide.edu.au/saigenci/advisory-board"
+    ],
+    "pollie_slug": "stirling-griff"
   }
 ]
