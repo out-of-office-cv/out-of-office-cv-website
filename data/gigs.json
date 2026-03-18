@@ -2193,5 +2193,53 @@
       "https://www.adelaide.edu.au/saigenci/advisory-board"
     ],
     "pollie_slug": "stirling-griff"
+  },
+  {
+    "role": "Special Advisor, Policy Division",
+    "organisation": "National Retail Association",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.nationalretail.org.au/trevor-evans-appointed-as-special-advisor-to-national-retail-association/"
+    ],
+    "pollie_slug": "trevor-evans",
+    "start_date": "2024-07-16"
+  },
+  {
+    "role": "Director",
+    "organisation": "Healthy Land & Water",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://hlw.org.au/portfolio/trevor-evans"
+    ],
+    "pollie_slug": "trevor-evans"
+  },
+  {
+    "role": "Interim CEO",
+    "organisation": "Container Exchange (COEX)",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://wastemanagementreview.com.au/trevor-evans-appointed-interim-ceo-of-container-exchange"
+    ],
+    "pollie_slug": "trevor-evans",
+    "start_date": "2026-01-01"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Water Corporation",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.miragenews.com/water-corp-board-gains-expertise-with-new-1596874/"
+    ],
+    "pollie_slug": "louise-pratt",
+    "start_date": "2026-01-02"
+  },
+  {
+    "role": "Ophthalmologist",
+    "organisation": "Barossa Eye Clinic",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.barossaeyeclinic.com.au/dr-andrew-laming/"
+    ],
+    "pollie_slug": "andrew-laming"
   }
 ]
