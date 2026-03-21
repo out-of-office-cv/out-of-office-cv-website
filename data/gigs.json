@@ -2241,5 +2241,48 @@
       "https://www.barossaeyeclinic.com.au/dr-andrew-laming/"
     ],
     "pollie_slug": "andrew-laming"
+  },
+  {
+    "role": "Ambassador to the Holy See",
+    "organisation": "Australian Government (DFAT)",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.dfat.gov.au/about-us/our-people/homs/ambassador-to-the-holy-see",
+      "https://catholicoutlook.org/new-australian-ambassador-of-the-holy-see-appointed/",
+      "https://zenit.org/2025/02/18/australian-government-appoints-keith-pitt-as-new-ambassador-to-the-holy-see"
+    ],
+    "pollie_slug": "keith-pitt",
+    "start_date": "2025-02-16"
+  },
+  {
+    "role": "CEO",
+    "organisation": "Foodbank Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.foodbank.org.au/foodbank-australia-announces-new-ceo-kylea-tink/",
+      "https://womensagenda.com.au/latest/kylea-tink-appointed-new-ceo-of-foodbank-australia/"
+    ],
+    "pollie_slug": "kylea-tink",
+    "start_date": "2025-10-27"
+  },
+  {
+    "role": "Director",
+    "organisation": "Beyond Zero Emissions",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.bze.org.au/news-events/item/beyond-zero-emissions-strengthens-board-with-appointment-of-kylea-tink-and-rod-henderson"
+    ],
+    "pollie_slug": "kylea-tink",
+    "start_date": "2025-10-23"
+  },
+  {
+    "role": "Director",
+    "organisation": "Community Independents Project",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.communityindependentsproject.org/about-us"
+    ],
+    "pollie_slug": "kylea-tink",
+    "start_date": "2025-03-01"
   }
 ]
