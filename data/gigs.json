@@ -3014,5 +3014,62 @@
     "pollie_slug": "guy-barnett",
     "start_date": "2024-10-01",
     "end_date": "2025-08-01"
+  },
+  {
+    "role": "Deputy President",
+    "organisation": "Fair Work Commission",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.canberratimes.com.au/story/8724923/terri-butler-appointed-deputy-president-of-fair-work-commission/"
+    ],
+    "pollie_slug": "terri-butler",
+    "start_date": "2024-09-09"
+  },
+  {
+    "role": "President",
+    "organisation": "Smart Energy Council",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://www.miragenews.com/terri-butler-joins-smart-energy-council-board-908448/"
+    ],
+    "pollie_slug": "terri-butler",
+    "start_date": "2022-12-05"
+  },
+  {
+    "role": "Advisory Board Member",
+    "organisation": "Griffith University Climate Ready Initiative",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://news.griffith.edu.au/2022/12/08/terri-butler-brought-in-to-bat-for-griffiths-climate-ready-initiative/"
+    ],
+    "pollie_slug": "terri-butler",
+    "start_date": "2022-12-08"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Sustainable Aviation Fuels Alliance of Australia and New Zealand (SAFAANZ)",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://mtai.edu.au/about/about-mtai/terri-butler/"
+    ],
+    "pollie_slug": "terri-butler"
+  },
+  {
+    "role": "Chair",
+    "organisation": "MTA Institute",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://mtai.edu.au/about/about-mtai/terri-butler/"
+    ],
+    "pollie_slug": "terri-butler"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Circular Australia",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://terributler.net/updates/patronages-boards/appointment-as-chair-circular-australia/"
+    ],
+    "pollie_slug": "terri-butler"
   }
 ]
