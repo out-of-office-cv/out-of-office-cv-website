@@ -3118,5 +3118,109 @@
     ],
     "pollie_slug": "kerryn-phelps",
     "start_date": "2014-01-01"
+  },
+  {
+    "role": "Chief Executive",
+    "organisation": "Australian American Leadership Dialogue (AALD)",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.aald.org/aald-team-members/hon-tony-smith/",
+      "https://en.wikipedia.org/wiki/Tony_Smith_(Victorian_politician)"
+    ],
+    "pollie_slug": "tony-smith",
+    "start_date": "2022-08-01"
+  },
+  {
+    "role": "Professor in the Practice of Politics",
+    "organisation": "Australian National University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.anu.edu.au/news/all-news/giants-of-australian-democracy-join-anu",
+      "https://srwfoundation.anu.edu.au/hon-anthony-smith"
+    ],
+    "pollie_slug": "tony-smith",
+    "start_date": "2022-09-05",
+    "end_date": "2025-12-31"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Rare Cancers Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.rarecancers.org.au/news/former-speaker-of-the-house-appointed-as-official-patron-of-rare-cancers-australia/"
+    ],
+    "pollie_slug": "tony-smith",
+    "start_date": "2025-03-24"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Rail Track Corporation (ARTC)",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.farmonline.com.au/story/5354433/former-nationals-leader-truss-takes-key-inland-rail-post-video/",
+      "https://ministers.finance.gov.au/financeminister/media-release/2021/04/21/hon-warren-truss-ac-reappointed-chair-australian-rail-track-corporation"
+    ],
+    "pollie_slug": "warren-truss",
+    "start_date": "2018-04-20",
+    "end_date": "2022-11-30"
+  },
+  {
+    "role": "Segment Contributor ('Gutter Politics')",
+    "organisation": "KIIS 106.5 (Kyle & Jackie O Show)",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://radiotoday.com.au/dastyaris-gutter-politics/"
+    ],
+    "pollie_slug": "sam-dastyari",
+    "start_date": "2018-03-01"
+  },
+  {
+    "role": "Host (Pilot)",
+    "organisation": "Disgrace! (Network Ten)",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://tvtonight.com.au/2018/07/ten-locks-on-pilot-week.html"
+    ],
+    "pollie_slug": "sam-dastyari",
+    "start_date": "2018-08-20",
+    "end_date": "2018-08-20"
+  },
+  {
+    "role": "Celebrity Contestant",
+    "organisation": "I'm a Celebrity...Get Me Out of Here! (Network Ten)",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://10.com.au/im-a-celebrity-get-me-out-of-here/celebrities/season-5/sam-dastyari/pa190315fzk"
+    ],
+    "pollie_slug": "sam-dastyari",
+    "start_date": "2019-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "HORKA International (Horka Pty Ltd)",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.zoominfo.com/p/Dio-Wang/5131117184",
+      "https://au.linkedin.com/in/dio-wang"
+    ],
+    "pollie_slug": "dio-wang"
+  },
+  {
+    "role": "Business Development Manager",
+    "organisation": "MSP Engineering",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.zoominfo.com/p/Dio-Wang/5131117184"
+    ],
+    "pollie_slug": "dio-wang"
+  },
+  {
+    "role": "Policy Advisor, National Management Committee",
+    "organisation": "Australian Citizens Party",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://citizensparty.org.au/videos/citizens-insight/20220930_citizens_insight_dio_wang"
+    ],
+    "pollie_slug": "dio-wang"
   }
 ]
