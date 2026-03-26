@@ -3222,5 +3222,117 @@
       "https://citizensparty.org.au/videos/citizens-insight/20220930_citizens_insight_dio_wang"
     ],
     "pollie_slug": "dio-wang"
+  },
+  {
+    "role": "Professor and Vice-Chancellor's Fellow",
+    "organisation": "University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.mup.com.au/authors/david-kemp"
+    ],
+    "pollie_slug": "david-kemp",
+    "start_date": "2005-01-01",
+    "end_date": "2010-12-31"
+  },
+  {
+    "role": "President",
+    "organisation": "Liberal Party of Australia (Victorian Division)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Kemp_(politician)"
+    ],
+    "pollie_slug": "david-kemp",
+    "start_date": "2007-01-01",
+    "end_date": "2011-12-31"
+  },
+  {
+    "role": "Foundation Board Member",
+    "organisation": "Grattan Institute",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.education.gov.au/biographies-reviewers"
+    ],
+    "pollie_slug": "david-kemp",
+    "start_date": "2008-01-01",
+    "end_date": "2018-11-27"
+  },
+  {
+    "role": "Chairman of Council",
+    "organisation": "Scotch College Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.scotch.vic.edu.au/greatscot/2016SepGs/chairman.htm"
+    ],
+    "pollie_slug": "david-kemp",
+    "start_date": "2012-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Museum of Australian Democracy",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "http://static.moadoph.gov.au/ophgovau/media/docs/corporate/1718annualreport/MoAD_AR1718_Acc_01e.html"
+    ],
+    "pollie_slug": "david-kemp",
+    "start_date": "2016-01-01",
+    "end_date": "2019-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Heritage Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://joshfrydenberg.com.au/latest-news/reappointments-to-australian-heritage-council/"
+    ],
+    "pollie_slug": "david-kemp",
+    "start_date": "2016-01-01",
+    "end_date": "2021-12-31"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Robert Menzies Institute",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.robertmenziesinstitute.org.au/news/menzies-research-centre-and-the-university-of-melbourne-jointly-establish-the-robert-menzies-institute/"
+    ],
+    "pollie_slug": "david-kemp"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Winnunga Nimmityjah Aboriginal Medical Service",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jim_Snow"
+    ],
+    "pollie_slug": "james-snow"
+  },
+  {
+    "role": "Foundation Member",
+    "organisation": "Drug Law Reform Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jim_Snow"
+    ],
+    "pollie_slug": "james-snow"
+  },
+  {
+    "role": "Co-convenor",
+    "organisation": "Beyond Federation",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jim_Snow"
+    ],
+    "pollie_slug": "james-snow"
+  },
+  {
+    "role": "Councillor",
+    "organisation": "West Tamar Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.examiner.com.au/story/2611487/west-tamar-council-candidates/"
+    ],
+    "pollie_slug": "john-watson",
+    "start_date": "2008-01-01",
+    "end_date": "2013-12-31"
   }
 ]
