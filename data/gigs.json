@@ -3334,5 +3334,86 @@
     "pollie_slug": "john-watson",
     "start_date": "2008-01-01",
     "end_date": "2013-12-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "Brickworks Limited",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://reneweconomy.com.au/joel-fitzgibbon-appointed-to-board-of-coal-mine-investor-as-profits-flood-in/"
+    ],
+    "pollie_slug": "joel-fitzgibbon",
+    "start_date": "2022-11-21"
+  },
+  {
+    "role": "Special Counsel",
+    "organisation": "CMAX Advisory",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.defenceconnect.com.au/joint-capabilities/10064-joel-fitzgibbon-joins-cmax-advisory"
+    ],
+    "pollie_slug": "joel-fitzgibbon",
+    "start_date": "2022-05-25"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Forest Products Association",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://woodcentral.com.au/ex-agriculture-minister-fitzgibbon-is-new-forest-products-chair/"
+    ],
+    "pollie_slug": "joel-fitzgibbon",
+    "start_date": "2023-01-01",
+    "end_date": "2024-10-01"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "The Crawford Fund",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.crawfordfund.org/news/welcome-to-new-chair-and-deputy-chair/"
+    ],
+    "pollie_slug": "joel-fitzgibbon",
+    "start_date": "2025-08-20"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Sydney Children's Hospitals Foundation",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.schf.org.au/blog/national-leader-kristina-keneally-joins-sydney-childrens-hospitals-foundation"
+    ],
+    "pollie_slug": "kristina-keneally",
+    "start_date": "2022-11-07"
+  },
+  {
+    "role": "External Director",
+    "organisation": "AFL Victoria",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://play.afl/victoria/news/afl-vic-welcomes-new-board-members"
+    ],
+    "pollie_slug": "damian-drum",
+    "start_date": "2024-07-09"
+  },
+  {
+    "role": "Columnist and Commentator",
+    "organisation": "Sky News Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nicolle_Flint"
+    ],
+    "pollie_slug": "nicolle-flint",
+    "start_date": "2022-05-01"
+  },
+  {
+    "role": "Facilitator and Trainer",
+    "organisation": "Janet Rice Facilitation and Training",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.linkedin.com/in/janet-rice-people-and-planet/"
+    ],
+    "pollie_slug": "janet-rice",
+    "start_date": "2024-04-19"
   }
 ]
