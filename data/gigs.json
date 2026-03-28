@@ -3415,5 +3415,27 @@
     ],
     "pollie_slug": "janet-rice",
     "start_date": "2024-04-19"
+  },
+  {
+    "role": "Councillor",
+    "organisation": "City of Melbourne",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gladys_Liu",
+      "https://www.cbdnews.com.au/helping-people-is-in-my-dna-gladys-lius-community-driven-vision-for-melbourne/"
+    ],
+    "pollie_slug": "gladys-liu",
+    "start_date": "2024-10-26"
+  },
+  {
+    "role": "Minister for Housing and Urban Development and Planning",
+    "organisation": "South Australian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nick_Champion",
+      "https://www.premier.sa.gov.au/the-team/nick-champion-mp"
+    ],
+    "pollie_slug": "nick-champion",
+    "start_date": "2022-03-24"
   }
 ]
