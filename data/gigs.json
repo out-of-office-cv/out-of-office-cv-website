@@ -3437,5 +3437,25 @@
     ],
     "pollie_slug": "nick-champion",
     "start_date": "2022-03-24"
+  },
+  {
+    "role": "Independent Chair",
+    "organisation": "Mental Health Victoria",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://au.linkedin.com/in/zoe-daniel"
+    ],
+    "pollie_slug": "zoe-daniel",
+    "start_date": "2025-08-01"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Women for Election",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://au.linkedin.com/in/zoe-daniel"
+    ],
+    "pollie_slug": "zoe-daniel",
+    "start_date": "2025-08-01"
   }
 ]
