@@ -3457,5 +3457,36 @@
     ],
     "pollie_slug": "zoe-daniel",
     "start_date": "2025-08-01"
+  },
+  {
+    "role": "Secretary-General",
+    "organisation": "Organisation for Economic Co-operation and Development (OECD)",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.oecd.org/newsroom/mathias-cormann-takes-office-as-oecd-secretary-general.htm"
+    ],
+    "pollie_slug": "mathias-cormann",
+    "start_date": "2021-06-01"
+  },
+  {
+    "role": "High Commissioner to Canada",
+    "organisation": "Australian Government",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Scott_Ryan_(Australian_politician)"
+    ],
+    "pollie_slug": "scott-ryan",
+    "start_date": "2021-12-20",
+    "end_date": "2024-12-31"
+  },
+  {
+    "role": "Executive Director",
+    "organisation": "National Catholic Education Commission",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://ncec.catholic.edu.au/media-centre/the-honourable-scott-ryan-appointed-next-executive-director-of-the-national-catholic-education-commission/"
+    ],
+    "pollie_slug": "scott-ryan",
+    "start_date": "2026-01-19"
   }
 ]
