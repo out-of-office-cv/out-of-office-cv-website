@@ -3488,5 +3488,44 @@
     ],
     "pollie_slug": "scott-ryan",
     "start_date": "2026-01-19"
+  },
+  {
+    "role": "Special Board Adviser",
+    "organisation": "Connected Global Pty Ltd",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://ground.news/article/greg-hunt-an-adviser-to-exclusive-brethren-linked-firm"
+    ],
+    "pollie_slug": "greg-hunt",
+    "start_date": "2022-12-01"
+  },
+  {
+    "role": "Strategic Advisor",
+    "organisation": "Akula Tech",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://www.akulatech.com/news/greg-hunt"
+    ],
+    "pollie_slug": "greg-hunt",
+    "start_date": "2024-08-01"
+  },
+  {
+    "role": "Member",
+    "organisation": "Melbourne and Olympic Parks Trust",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.melbournepark.com.au/news/tony-smith-appointed-to-melbourne-and-olympic-parks-trust/"
+    ],
+    "pollie_slug": "tony-smith",
+    "start_date": "2024-12-17"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Eating Disorders Victoria",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://au.linkedin.com/in/zoe-daniel"
+    ],
+    "pollie_slug": "zoe-daniel"
   }
 ]
