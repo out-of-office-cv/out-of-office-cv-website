@@ -3473,11 +3473,12 @@
     "organisation": "Australian Government",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Scott_Ryan_(Australian_politician)"
+      "https://www.foreignminister.gov.au/minister/marise-payne/media-release/high-commissioner-canada"
     ],
     "pollie_slug": "scott-ryan",
     "start_date": "2021-12-20",
-    "end_date": "2024-12-31"
+    "end_date": "2024-12-31",
+    "verified_by": "khoi"
   },
   {
     "role": "Executive Director",
@@ -3487,27 +3488,30 @@
       "https://ncec.catholic.edu.au/media-centre/the-honourable-scott-ryan-appointed-next-executive-director-of-the-national-catholic-education-commission/"
     ],
     "pollie_slug": "scott-ryan",
-    "start_date": "2026-01-19"
+    "start_date": "2026-01-19",
+    "verified_by": "khoi"
   },
   {
     "role": "Special Board Adviser",
     "organisation": "Connected Global Pty Ltd",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://ground.news/article/greg-hunt-an-adviser-to-exclusive-brethren-linked-firm"
+      "https://www.theage.com.au/national/former-health-minister-greg-hunt-an-adviser-to-exclusive-brethren-linked-firm-20250911-p5mu6j.html"
     ],
     "pollie_slug": "greg-hunt",
-    "start_date": "2022-12-01"
+    "start_date": "2022-12-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Strategic Advisor",
     "organisation": "Akula Tech",
     "category": "Technology (Software, IT & Digital Services)",
     "sources": [
-      "https://www.akulatech.com/news/greg-hunt"
+      "https://www.einpresswire.com/article/735114376/akula-tech-welcomes-professor-the-hon-greg-hunt-as-strategic-advisor"
     ],
     "pollie_slug": "greg-hunt",
-    "start_date": "2024-08-01"
+    "start_date": "2024-08-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Member",
@@ -3517,7 +3521,8 @@
       "https://www.melbournepark.com.au/news/tony-smith-appointed-to-melbourne-and-olympic-parks-trust/"
     ],
     "pollie_slug": "tony-smith",
-    "start_date": "2024-12-17"
+    "start_date": "2024-12-17",
+    "verified_by": "khoi"
   },
   {
     "role": "Board Member",
