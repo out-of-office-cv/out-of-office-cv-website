@@ -3532,5 +3532,164 @@
       "https://au.linkedin.com/in/zoe-daniel"
     ],
     "pollie_slug": "zoe-daniel"
+  },
+  {
+    "role": "Strategic Adviser, Regional Development",
+    "organisation": "Charles Sturt University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://news.csu.edu.au/latest-news/charles-sturt-university/csu-research/csu-strengthens-support-for-regions-with-two-new-senior-appointments"
+    ],
+    "pollie_slug": "fiona-nash",
+    "start_date": "2018-01-01",
+    "end_date": "2021-12-01"
+  },
+  {
+    "role": "Regional Education Commissioner",
+    "organisation": "Australian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://ministers.dese.gov.au/mckenzie/australian-government-appoints-first-regional-education-commissioner"
+    ],
+    "pollie_slug": "fiona-nash",
+    "start_date": "2021-12-01"
+  },
+  {
+    "role": "Interim Commissioner",
+    "organisation": "Australian Tertiary Education Commission",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://ministers.education.gov.au/clare/new-commissioners-appointed-australian-tertiary-education-commission"
+    ],
+    "pollie_slug": "fiona-nash",
+    "start_date": "2026-01-19"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Sana Living",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.crikey.com.au/2020/10/08/disability-accommodation-provider-michael-keenan/"
+    ],
+    "pollie_slug": "michael-keenan",
+    "start_date": "2019-08-01",
+    "end_date": "2023-01-01"
+  },
+  {
+    "role": "Principal",
+    "organisation": "Branksome Advisory",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.linkedin.com/in/hon-michael-keenan-52615b300/"
+    ],
+    "pollie_slug": "michael-keenan"
+  },
+  {
+    "role": "Director",
+    "organisation": "Adelaide Oval",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.linkedin.com/in/hon-michael-keenan-52615b300/"
+    ],
+    "pollie_slug": "michael-keenan"
+  },
+  {
+    "role": "Founding Director",
+    "organisation": "Bespoke Approach",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nick_Bolkus"
+    ],
+    "pollie_slug": "nick-bolkus",
+    "start_date": "2008-01-01",
+    "end_date": "2015-01-01"
+  },
+  {
+    "role": "Principal",
+    "organisation": "Kazaru",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nick_Bolkus"
+    ],
+    "pollie_slug": "nick-bolkus",
+    "start_date": "2016-01-01"
+  },
+  {
+    "role": "Chairman of Directors",
+    "organisation": "Nuturf Australia",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nick_Bolkus"
+    ],
+    "pollie_slug": "nick-bolkus"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Fisheries Academy",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nick_Bolkus"
+    ],
+    "pollie_slug": "nick-bolkus"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Tourism and Transport Forum",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://ttf.org.au/conference/greenrevolution2023/speakers/hon-bruce-baird-am/"
+    ],
+    "pollie_slug": "bruce-baird",
+    "start_date": "2008-01-01",
+    "end_date": "2014-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Refugee Resettlement Advisory Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bruce_Baird"
+    ],
+    "pollie_slug": "bruce-baird",
+    "start_date": "2008-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "National Heavy Vehicle Regulator",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.nhvr.gov.au/news/2018/09/24/ministerial-statement-new-leadership-to-drive-heavy-vehicle-regulator"
+    ],
+    "pollie_slug": "bruce-baird",
+    "end_date": "2018-10-01"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Business Events Sydney",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.spicenews.com.au/industry-news/business-tourism-news/besydney-appoints-bruce-baird-new-chair/"
+    ],
+    "pollie_slug": "bruce-baird",
+    "start_date": "2017-09-01"
+  },
+  {
+    "role": "Trustee",
+    "organisation": "Sydney Opera House",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://ttf.org.au/conference/leadership2021/speakers/kenconway-2/"
+    ],
+    "pollie_slug": "bruce-baird"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Asylum Seekers Centre",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://asylumseekerscentre.org.au/about/our-team/board-and-patrons/"
+    ],
+    "pollie_slug": "bruce-baird",
+    "start_date": "2014-01-01"
   }
 ]
