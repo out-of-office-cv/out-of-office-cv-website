@@ -3691,5 +3691,61 @@
     ],
     "pollie_slug": "bruce-baird",
     "start_date": "2014-01-01"
+  },
+  {
+    "role": "Employer Director & Deputy Co-Chair",
+    "organisation": "Hostplus",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://hostplus.com.au/about-us/who-we-are/board-of-directors/craig-laundy"
+    ],
+    "pollie_slug": "craig-laundy",
+    "start_date": "2021-07-01"
+  },
+  {
+    "role": "Co-Chairman, Advisory Board",
+    "organisation": "Cornerstone Group Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://theorg.com/org/cornerstone-group/org-chart/craig-laundy"
+    ],
+    "pollie_slug": "craig-laundy"
+  },
+  {
+    "role": "Director",
+    "organisation": "Queensland Eye Institute Foundation",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://qei.org.au/qei-foundation/our-people/our-board/jane-prentice/"
+    ],
+    "pollie_slug": "jane-prentice"
+  },
+  {
+    "role": "Chairperson",
+    "organisation": "Tennis Queensland",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.tennis.com.au/qld/about/meet-the-team/board-of-directors"
+    ],
+    "pollie_slug": "jane-prentice",
+    "start_date": "2020-10-01"
+  },
+  {
+    "role": "President",
+    "organisation": "Scouts Queensland",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.govhouse.qld.gov.au/the-governor-of-queensland/speeches/reception-in-support-of-scouts-queensland"
+    ],
+    "pollie_slug": "jane-prentice"
+  },
+  {
+    "role": "Vice Chancellor's Fellow",
+    "organisation": "Queensland University of Technology",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://rocketreach.co/susan-lamb-email_241570920"
+    ],
+    "pollie_slug": "susan-lamb"
   }
 ]
