@@ -117,6 +117,7 @@ For each role found, provide:
 Important:
 - Only include roles taken AFTER leaving parliament
 - Each role MUST have at least one verifiable source URL
+- Do not use Wikipedia as a source URL. If you find information via Wikipedia, follow its references to the primary sources (news articles, official announcements, company pages) and use those URLs instead
 - Do not include speculation or unverified claims
 - Return ALL roles found, not just the most prominent one
 - If no post-parliamentary roles can be found with sources, return an empty array`;
