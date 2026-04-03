@@ -3747,5 +3747,89 @@
       "https://rocketreach.co/susan-lamb-email_241570920"
     ],
     "pollie_slug": "susan-lamb"
+  },
+  {
+    "role": "Director",
+    "organisation": "Villa Maria Catholic Homes",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://catholicweekly.com.au/kevin-andrews-remembered-for-his-life-of-service/"
+    ],
+    "pollie_slug": "kevin-andrews",
+    "start_date": "2022-05-01",
+    "end_date": "2024-12-14"
+  },
+  {
+    "role": "Mentor",
+    "organisation": "Commonwealth Parliamentary Association Parliamentary Academy",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://melbournecatholic.org/news/vale-kevin-andrews-man-of-faith-family-and-service",
+      "https://www.cpahq.org/knowledge-centre/blogs/5-tips-for-new-mps/"
+    ],
+    "pollie_slug": "kevin-andrews",
+    "start_date": "2022-05-01"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "The Spectator Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.spectator.com.au/author/kevinandrews/",
+      "https://www.spectator.com.au/2024/12/vale-kevin-andrews/"
+    ],
+    "pollie_slug": "kevin-andrews",
+    "end_date": "2024-12-14"
+  },
+  {
+    "role": "Principal",
+    "organisation": "Core Law & Advisory",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Celia-Hammond"
+    ],
+    "pollie_slug": "celia-hammond",
+    "start_date": "2022-07-01"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "The Bethanie Group",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.bethanie.com.au/about-us/our-people",
+      "https://www.businessnews.com.au/Person/Celia-Hammond"
+    ],
+    "pollie_slug": "celia-hammond",
+    "start_date": "2023-05-01"
+  },
+  {
+    "role": "Trustee",
+    "organisation": "St John of God Health Care",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://theorg.com/org/st-john-of-god-health-care/org-chart/celia-hammond",
+      "https://www.businessnews.com.au/Person/Celia-Hammond"
+    ],
+    "pollie_slug": "celia-hammond",
+    "start_date": "2023-01-01"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "Catholic Education Western Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Celia-Hammond"
+    ],
+    "pollie_slug": "celia-hammond",
+    "start_date": "2023-03-01"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Women for Election",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.linkedin.com/in/celia-hammond-65bb54240/"
+    ],
+    "pollie_slug": "celia-hammond"
   }
 ]
