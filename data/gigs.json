@@ -4082,5 +4082,105 @@
       "https://www.icrict.com/commission/wayne-swan/"
     ],
     "pollie_slug": "wayne-swan"
+  },
+  {
+    "role": "Principal Consultant",
+    "organisation": "Govstrat",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://govstrat.com.au/team-members/zed-seselja-2/"
+    ],
+    "pollie_slug": "zed-seselja"
+  },
+  {
+    "role": "Principal",
+    "organisation": "Zed Advisory",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.linkedin.com/company/zedadvisory"
+    ],
+    "pollie_slug": "zed-seselja"
+  },
+  {
+    "role": "Executive Director, Institute for Resilient Regions",
+    "organisation": "University of Southern Queensland",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.unisq.edu.au/research/sqnnsw-hub/blogs/john-mcveigh"
+    ],
+    "pollie_slug": "john-mcveigh",
+    "start_date": "2020"
+  },
+  {
+    "role": "Director, SQNNSW Innovation Hub",
+    "organisation": "University of Southern Queensland",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.unisq.edu.au/research/sqnnsw-hub/blogs/john-mcveigh"
+    ],
+    "pollie_slug": "john-mcveigh"
+  },
+  {
+    "role": "Chancellor",
+    "organisation": "University of Southern Queensland",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.unisq.edu.au/news/2024/08/chancellor-announcement"
+    ],
+    "pollie_slug": "john-mcveigh",
+    "start_date": "2024-12-01"
+  },
+  {
+    "role": "Honorary Enterprise Professor, Department of Paediatrics",
+    "organisation": "University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://medicine.unimelb.edu.au/school-structure/paediatrics/news-and-events/congratulations-to-our-new-honoraries"
+    ],
+    "pollie_slug": "katie-allen",
+    "start_date": "2022-12",
+    "end_date": "2025-12-23"
+  },
+  {
+    "role": "Leadership Advisory Board Member",
+    "organisation": "Australian Regenerative Medicine Institute (ARMI), Monash University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://armi.org.au/news-media/blog/honouring-a-legacy-of-grace-and-innovation-a-tribute-to-professor-katie-allen/"
+    ],
+    "pollie_slug": "katie-allen",
+    "start_date": "2022",
+    "end_date": "2025-12-23"
+  },
+  {
+    "role": "Commercialisation Consultant",
+    "organisation": "Murdoch Children's Research Institute",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://scienceandtechnologyaustralia.org.au/profile/katie-allen/"
+    ],
+    "pollie_slug": "katie-allen",
+    "start_date": "2022"
+  },
+  {
+    "role": "Host, Bernardi Show",
+    "organisation": "Sky News Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.imdb.com/title/tt11681674/characters/nm5278976"
+    ],
+    "pollie_slug": "cory-bernardi",
+    "start_date": "2021",
+    "end_date": "2024"
+  },
+  {
+    "role": "SA Leader & Member of the Legislative Council",
+    "organisation": "One Nation",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.starobserver.com.au/news/controversial-one-nation-leader-cory-bernardi-wins-sa-upper-house-seat/241277"
+    ],
+    "pollie_slug": "cory-bernardi",
+    "start_date": "2026-03"
   }
 ]
