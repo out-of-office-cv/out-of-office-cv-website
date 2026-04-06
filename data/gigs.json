@@ -4182,5 +4182,179 @@
     ],
     "pollie_slug": "cory-bernardi",
     "start_date": "2026-03"
+  },
+  {
+    "role": "Ambassador to Belgium, Luxembourg, the European Union and NATO",
+    "organisation": "Australian Government (DFAT)",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.awm.gov.au/media/press-releases/new-director-brendan-nelson-arrives-memorial"
+    ],
+    "pollie_slug": "brendan-nelson",
+    "start_date": "2010-02-18",
+    "end_date": "2012-12-17"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian War Memorial",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.awm.gov.au/media/press-releases/new-director-brendan-nelson-arrives-memorial"
+    ],
+    "pollie_slug": "brendan-nelson",
+    "start_date": "2012-12-17",
+    "end_date": "2019-12-31"
+  },
+  {
+    "role": "Chair of Council",
+    "organisation": "Australian War Memorial",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.awm.gov.au/media/press-releases/new-council-chair-appointed"
+    ],
+    "pollie_slug": "brendan-nelson",
+    "start_date": "2022-04-22"
+  },
+  {
+    "role": "President, Boeing Australia, New Zealand and South Pacific",
+    "organisation": "Boeing",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.boeing.com/company/bios/dr-brendan-nelson"
+    ],
+    "pollie_slug": "brendan-nelson",
+    "start_date": "2020-02-01",
+    "end_date": "2022-12-31"
+  },
+  {
+    "role": "President, Boeing Global and Senior Vice President",
+    "organisation": "Boeing",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.boeing.com/company/bios/dr-brendan-nelson"
+    ],
+    "pollie_slug": "brendan-nelson",
+    "start_date": "2023-01-12"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "American Chamber of Commerce in Australia (AmCham)",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.aspi.org.au/bio/brendan-nelson"
+    ],
+    "pollie_slug": "brendan-nelson"
+  },
+  {
+    "role": "Advisory Council Member",
+    "organisation": "Climate 200",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.crikey.com.au/2021/10/01/windsor-and-oakeshott-ride-again-in-climate-push/"
+    ],
+    "pollie_slug": "tony-windsor",
+    "start_date": "2021-10-01"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "FNZ Australia",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.moneymarketing.co.uk/news/fnz-australia-appoints-former-minister-nick-sherry-as-chair/"
+    ],
+    "pollie_slug": "nick-sherry",
+    "start_date": "2012-11-18"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Citi Australia",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://ioandc.com/life-after-politics-for-sherry-also-good-news-for-fnz-citi/"
+    ],
+    "pollie_slug": "nick-sherry",
+    "start_date": "2012-11-18"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Spotless",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nick_Sherry"
+    ],
+    "pollie_slug": "nick-sherry",
+    "end_date": "2017-08-01"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Household Capital",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://householdcapital.com.au/third-pillar-forum/retirement-insights/nick-sherry/"
+    ],
+    "pollie_slug": "nick-sherry"
+  },
+  {
+    "role": "Winthrop Professor of International Law",
+    "organisation": "University of Western Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.news.uwa.edu.au/archive/201404296632/appointments/stephen-smith-appointed-wintrhop-professor-law-uwa/"
+    ],
+    "pollie_slug": "stephen-smith",
+    "start_date": "2014-04-29",
+    "end_date": "2022-12-31"
+  },
+  {
+    "role": "Chair, Asia Desk",
+    "organisation": "Lavan",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.wheelercentre.com/people/stephen-smith"
+    ],
+    "pollie_slug": "stephen-smith",
+    "start_date": "2014-01-01",
+    "end_date": "2017-12-31"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "archTIS",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://itwire.com/it-people-news/people-moves/cyber-security-firm-archtis-appoints-new-chairman.html"
+    ],
+    "pollie_slug": "stephen-smith",
+    "start_date": "2018-03-01",
+    "end_date": "2020-07-01"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Sapien Cyber",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://www.businessnews.com.au/article/Sapien-Cyber-appoints-new-chair"
+    ],
+    "pollie_slug": "stephen-smith",
+    "start_date": "2019-09-01"
+  },
+  {
+    "role": "High Commissioner to the United Kingdom",
+    "organisation": "Australian Government (DFAT)",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.foreignminister.gov.au/minister/penny-wong/media-release/appointment-australian-ambassadors-high-commissioners-and-consuls-general-0"
+    ],
+    "pollie_slug": "stephen-smith",
+    "start_date": "2023-01-26",
+    "end_date": "2026-01-01"
+  },
+  {
+    "role": "Director and Lobbyist",
+    "organisation": "Santoro Consulting (Sanlaan Pty Ltd)",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://lobbyists.pmc.gov.au/register/view_agency.cfm?id=685"
+    ],
+    "pollie_slug": "santo-santoro"
   }
 ]
