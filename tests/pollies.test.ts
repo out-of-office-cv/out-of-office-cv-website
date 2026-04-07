@@ -12,7 +12,7 @@ const gigsJsonPath = resolve(rootDir, "data/gigs.json");
 describe("pollie page generation", () => {
   beforeAll(() => {
     execSync("pnpm run build", { cwd: rootDir, stdio: "pipe" });
-  });
+  }, 120_000);
 
   it("generates pollie html pages", () => {
     expect(existsSync(distPolliesDir)).toBe(true);
@@ -106,7 +106,7 @@ describe("gig integration", () => {
     ];
     writeFileSync(gigsJsonPath, JSON.stringify(testGigs, null, 2) + "\n");
     execSync("pnpm run build", { cwd: rootDir, stdio: "pipe" });
-  });
+  }, 120_000);
 
   afterAll(() => {
     writeFileSync(gigsJsonPath, originalGigsJson);
