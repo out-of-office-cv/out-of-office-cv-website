@@ -2,16 +2,16 @@ import { describe, it, expect, beforeAll, afterAll } from "vitest";
 import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { execSync } from "node:child_process";
-import type { Gig } from "../.vitepress/types";
+import type { Gig } from "../src/types";
 
 const rootDir = resolve(import.meta.dirname, "..");
-const distDir = resolve(rootDir, ".vitepress/dist");
+const distDir = resolve(rootDir, "dist");
 const distPolliesDir = resolve(distDir, "pollies");
 const gigsJsonPath = resolve(rootDir, "data/gigs.json");
 
 describe("pollie page generation", () => {
   beforeAll(() => {
-    execSync("npm run build", { cwd: rootDir, stdio: "pipe" });
+    execSync("pnpm run build", { cwd: rootDir, stdio: "pipe" });
   });
 
   it("generates pollie html pages", () => {
@@ -34,7 +34,8 @@ describe("pollie page generation", () => {
   });
 
   it("generates individual pollie pages with correct content", () => {
-    const abbottPath = resolve(distPolliesDir, "tony-abbott.html");
+    const abbottDir = resolve(distPolliesDir, "tony-abbott");
+    const abbottPath = resolve(abbottDir, "index.html");
     expect(existsSync(abbottPath)).toBe(true);
 
     const content = readFileSync(abbottPath, "utf-8");
@@ -46,7 +47,7 @@ describe("pollie page generation", () => {
   });
 
   it("includes left office date for former members", () => {
-    const abbottPath = resolve(distPolliesDir, "tony-abbott.html");
+    const abbottPath = resolve(distPolliesDir, "tony-abbott/index.html");
     expect(existsSync(abbottPath)).toBe(true);
 
     const content = readFileSync(abbottPath, "utf-8");
@@ -56,14 +57,16 @@ describe("pollie page generation", () => {
   });
 
   it("generates correct number of pollie pages", () => {
-    const files = readdirSync(distPolliesDir).filter(
-      (f: string) => f.endsWith(".html") && f !== "index.html",
-    );
-    expect(files.length).toBeGreaterThan(700);
+    const dirs = readdirSync(distPolliesDir, { withFileTypes: true })
+      .filter((d) => d.isDirectory());
+    expect(dirs.length).toBeGreaterThan(700);
   });
 
   it("deduplicates pollies with multiple terms, keeping most recent", () => {
-    const broadbentPath = resolve(distPolliesDir, "russell-broadbent.html");
+    const broadbentPath = resolve(
+      distPolliesDir,
+      "russell-broadbent/index.html",
+    );
     expect(existsSync(broadbentPath)).toBe(true);
 
     const content = readFileSync(broadbentPath, "utf-8");
@@ -102,7 +105,7 @@ describe("gig integration", () => {
       },
     ];
     writeFileSync(gigsJsonPath, JSON.stringify(testGigs, null, 2) + "\n");
-    execSync("npm run build", { cwd: rootDir, stdio: "pipe" });
+    execSync("pnpm run build", { cwd: rootDir, stdio: "pipe" });
   });
 
   afterAll(() => {
@@ -110,7 +113,10 @@ describe("gig integration", () => {
   });
 
   it("includes gigs section on pollie page", () => {
-    const abbottPath = resolve(distPolliesDir, "tony-abbott.html");
+    const abbottPath = resolve(
+      distPolliesDir,
+      "tony-abbott/index.html",
+    );
     const content = readFileSync(abbottPath, "utf-8");
 
     expect(content).toContain("Post-office roles");
@@ -124,7 +130,10 @@ describe("gig integration", () => {
   });
 
   it("formats gig date ranges correctly", () => {
-    const abbottPath = resolve(distPolliesDir, "tony-abbott.html");
+    const abbottPath = resolve(
+      distPolliesDir,
+      "tony-abbott/index.html",
+    );
     const content = readFileSync(abbottPath, "utf-8");
 
     expect(content).toContain("Advisor");
@@ -133,7 +142,10 @@ describe("gig integration", () => {
   });
 
   it("includes source links for gigs", () => {
-    const abbottPath = resolve(distPolliesDir, "tony-abbott.html");
+    const abbottPath = resolve(
+      distPolliesDir,
+      "tony-abbott/index.html",
+    );
     const content = readFileSync(abbottPath, "utf-8");
 
     expect(content).toContain("https://example.com/source");
@@ -141,7 +153,10 @@ describe("gig integration", () => {
   });
 
   it("shows no gigs message for pollies without gigs", () => {
-    const broadbentPath = resolve(distPolliesDir, "russell-broadbent.html");
+    const broadbentPath = resolve(
+      distPolliesDir,
+      "russell-broadbent/index.html",
+    );
     const content = readFileSync(broadbentPath, "utf-8");
 
     expect(content).toContain("Post-office roles");

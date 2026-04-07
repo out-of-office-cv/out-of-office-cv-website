@@ -1,49 +1,48 @@
 # Agents
 
-VitePress site with TypeScript. Data loaded at build time from CSV. Always do
-things the idiomatic VitePress way, using modern TypeScript and Vue best
-practices.
+Astro 6 site with TypeScript, Svelte 5, and Bits UI. Data loaded at build time
+from CSV and JSON. Always do things the idiomatic Astro way, using modern
+TypeScript, Svelte 5 runes, and Astro best practices.
 
 This static site is hosted at `https://www.outofoffice.cv` using GitHub Pages.
 
 ## Commands
 
-- `npm run dev` — development server (includes TypeScript type checking)
-- `npm run build` — production build (includes TypeScript type checking)
-- `npm run test` — run integration tests
+- `pnpm dev` --- development server
+- `pnpm build` --- production build
+- `pnpm check` --- Astro type checking
+- `pnpm test` --- run integration tests
 
 ## Scripts
 
-- `npm run fetch-pollies` — fetch pollie data from APH Parliamentary Handbook
-  API
-  - `--since YYYY` — fetch pollies who left since year (default 1980)
-  - `--dry-run` — preview without writing file
-  - `--output <path>` — custom output path (default `data/pollies.csv`)
-- `npx tsx scripts/find-gigs.ts` — search for post-parliament gigs using OpenAI
-  - `--list-candidates` or `-l` — list candidate pollies without running API
+- `pnpm fetch-pollies` --- fetch pollie data from APH Parliamentary Handbook API
+  - `--since YYYY` --- fetch pollies who left since year (default 1980)
+  - `--dry-run` --- preview without writing file
+  - `--output <path>` --- custom output path (default `data/pollies.csv`)
+- `pnpm find-gigs` --- search for post-parliament gigs using OpenAI
+  - `--list-candidates` or `-l` --- list candidate pollies without running API
     search
-  - `--limit N` — limit number of candidates shown (default 10)
-  - `--pollie <slug>` — search for a specific pollie by slug
-  - `--dry-run` — use mock data, don't write to file
-
-## Type checking
-
-vite-plugin-checker runs TypeScript and Vue type checking during dev and build.
-Errors appear in the terminal and browser overlay. The build will fail on type
-errors.
+  - `--limit N` --- limit number of candidates shown (default 10)
+  - `--pollie <slug>` --- search for a specific pollie by slug
+  - `--dry-run` --- use mock data, don't write to file
 
 ## Structure
 
 The two main types in this site's data model are `Pollie` (a politician) and
-`Gig` (a gig/job/role they take after leaving office). This (and a few other
-helper types) are defined in `.vitepress/types.ts`.
+`Gig` (a gig/job/role they take after leaving office). These are defined in
+`src/types.ts`.
 
-- `.vitepress/config.ts` — site config
-- `.vitepress/types.ts` — shared TypeScript interfaces
-- `.vitepress/utils.ts` — shared utility functions (CSV parsing, date
-  formatting)
-- `.vitepress/loaders.ts` — data loading from CSV
-- `pollies.data.ts` — data loader for home page (groups by decade)
-- `pollies/[slug].paths.ts` — dynamic route generation for individual pages
-- `data/pollies.csv` — pollie data from APH Parliamentary Handbook API
-- `data/gigs.json` — post-office roles data
+- `astro.config.ts` --- site config
+- `src/types.ts` --- shared TypeScript interfaces
+- `src/utils/` --- shared utility functions (CSV parsing, date formatting, pollie helpers)
+- `src/loaders.ts` --- data loading from CSV and JSON
+- `src/content.config.ts` --- Astro content collection with custom loader
+- `src/layouts/BaseLayout.astro` --- main page layout
+- `src/components/*.astro` --- server-rendered Astro components (zero JS)
+- `src/components/*.svelte` --- interactive Svelte 5 islands (client:load)
+- `src/stores/*.svelte.ts` --- Svelte 5 reactive stores (draft gigs, GitHub auth, PR)
+- `src/pages/index.astro` --- home page with PollieList island
+- `src/pages/pollies/[slug].astro` --- dynamic pollie detail pages
+- `data/pollies.csv` --- pollie data from APH Parliamentary Handbook API
+- `data/gigs.json` --- post-office roles data
+- `data/gigs-schema.ts` --- Zod schema for gig validation

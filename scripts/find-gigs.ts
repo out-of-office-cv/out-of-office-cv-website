@@ -2,10 +2,10 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import OpenAI from "openai";
-import { parseDate } from "../.vitepress/utils.js";
-import { loadPollies } from "../.vitepress/loaders.js";
-import type { Pollie, Gig, GigCategory } from "../.vitepress/types.js";
-import { GIG_CATEGORIES } from "../.vitepress/types.js";
+import { parseDate } from "../src/utils/date.js";
+import { loadPollies } from "../src/loaders.js";
+import type { Pollie, Gig, GigCategory } from "../src/types.js";
+import { GIG_CATEGORIES } from "../src/types.js";
 import { GigsArraySchema } from "../data/gigs-schema.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));

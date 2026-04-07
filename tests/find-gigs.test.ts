@@ -2,9 +2,9 @@ import { describe, it, expect, beforeEach, afterEach } from "vitest";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { writeFileSync, unlinkSync, existsSync } from "node:fs";
-import type { Pollie, Gig } from "../.vitepress/types";
-import { GIG_CATEGORIES } from "../.vitepress/types";
-import { loadPollies } from "../.vitepress/loaders";
+import type { Pollie, Gig } from "../src/types";
+import { GIG_CATEGORIES } from "../src/types";
+import { loadPollies } from "../src/loaders";
 import {
   selectPollie,
   listCandidates,

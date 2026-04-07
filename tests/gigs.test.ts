@@ -2,7 +2,7 @@ import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { GIG_CATEGORIES } from "../.vitepress/types";
+import { GIG_CATEGORIES } from "../src/types";
 import { GigSchema, GigsArraySchema } from "../data/gigs-schema";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
