@@ -1,0 +1,41 @@
+---
+import "../styles/global.css"
+import Nav from "../components/Nav.astro"
+import SiteFooter from "../components/SiteFooter.astro"
+
+interface Props {
+  title?: string
+  description?: string
+}
+
+const { title, description } = Astro.props
+const siteTitle = title ? `${title} | Out of Office CV` : "Out of Office CV"
+const siteDescription =
+  description ||
+  "Tracking what Australian Parliamentarians do when they leave office"
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{siteTitle}</title>
+    <meta name="description" content={siteDescription} />
+    <link rel="canonical" href="https://www.outofoffice.cv" />
+  </head>
+  <body>
+    <Nav />
+    <main>
+      <slot />
+    </main>
+    <SiteFooter />
+  </body>
+</html>
+
+<style>
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+</style>
