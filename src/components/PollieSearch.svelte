@@ -1,6 +1,4 @@
 <script lang="ts">
-  import { Combobox } from "bits-ui"
-
   interface PollieOption {
     slug: string
     name: string
@@ -14,47 +12,75 @@
 
   let inputValue = $state("")
   let open = $state(false)
-  let touchedSinceOpen = $state(false)
+  let highlightedIndex = $state(-1)
 
   let filtered = $derived.by(() => {
     const query = inputValue.toLowerCase().trim()
-    if (!query) return pollies.slice(0, 20)
+    if (!query) return []
     return pollies
       .filter((p) => p.name.toLowerCase().includes(query) || p.slug.includes(query))
       .slice(0, 20)
   })
 
-  function handleSelect(slug: string | undefined) {
-    if (slug) {
-      window.location.href = `/pollies/${slug}`
+  function handleKeydown(e: KeyboardEvent) {
+    if (!open) return
+    if (e.key === "ArrowDown") {
+      e.preventDefault()
+      highlightedIndex = Math.min(highlightedIndex + 1, filtered.length - 1)
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault()
+      highlightedIndex = Math.max(highlightedIndex - 1, 0)
+    } else if (e.key === "Enter" && highlightedIndex >= 0) {
+      e.preventDefault()
+      window.location.href = `/pollies/${filtered[highlightedIndex].slug}`
+    } else if (e.key === "Escape") {
+      open = false
     }
+  }
+
+  function handleInput() {
+    open = inputValue.trim().length > 0
+    highlightedIndex = -1
   }
 </script>
 
 <div class="pollie-search-wrapper">
-  <Combobox.Root
-    type="single"
-    onValueChange={handleSelect}
-    bind:inputValue
-    bind:open
-    bind:touchedSinceOpen
-  >
-    <div class="input-wrapper">
-      <Combobox.Input
-        placeholder="Search by name..."
-        class="pollie-search-input"
-      />
-    </div>
-    <Combobox.Content class="pollie-search-content" sameWidth>
-      {#each filtered as pollie (pollie.slug)}
-        <Combobox.Item value={pollie.slug} label={pollie.name} class="pollie-search-item">
-          {pollie.name}
-        </Combobox.Item>
-      {:else}
-        <div class="no-results">No politicians found</div>
-      {/each}
-    </Combobox.Content>
-  </Combobox.Root>
+  <div class="search-wrapper">
+    <input
+      type="text"
+      bind:value={inputValue}
+      oninput={handleInput}
+      onkeydown={handleKeydown}
+      onfocusin={() => { if (inputValue.trim()) open = true }}
+      onfocusout={() => { setTimeout(() => open = false, 150) }}
+      placeholder="Search by name..."
+      class="pollie-search-input"
+      role="combobox"
+      aria-expanded={open}
+      aria-controls="pollie-search-listbox"
+      aria-autocomplete="list"
+      aria-activedescendant={highlightedIndex >= 0 ? `pollie-search-option-${highlightedIndex}` : undefined}
+    />
+    {#if open && inputValue.trim()}
+      <ul id="pollie-search-listbox" class="pollie-search-content" role="listbox">
+        {#each filtered as pollie, i (pollie.slug)}
+          <li
+            id={`pollie-search-option-${i}`}
+            role="option"
+            class="pollie-search-item"
+            class:highlighted={i === highlightedIndex}
+            aria-selected={i === highlightedIndex}
+            onmousedown={() => { window.location.href = `/pollies/${pollie.slug}` }}
+            onmouseenter={() => { highlightedIndex = i }}
+          >
+            {pollie.name}
+          </li>
+        {:else}
+          <li class="no-results">No politicians found</li>
+        {/each}
+      </ul>
+    {/if}
+  </div>
 </div>
 
 <style>
@@ -62,7 +88,11 @@
     margin-bottom: 1.5rem;
   }
 
-  .pollie-search-wrapper :global(.pollie-search-input) {
+  .search-wrapper {
+    position: relative;
+  }
+
+  .pollie-search-input {
     width: 100%;
     padding: 0.75rem 1rem;
     font-size: 1rem;
@@ -72,16 +102,23 @@
     color: var(--color-text-1);
   }
 
-  .pollie-search-wrapper :global(.pollie-search-input):focus {
+  .pollie-search-input:focus {
     outline: none;
     border-color: var(--color-brand-1);
   }
 
-  .pollie-search-wrapper :global(.pollie-search-input)::placeholder {
+  .pollie-search-input::placeholder {
     color: var(--color-text-3);
   }
 
-  .pollie-search-wrapper :global(.pollie-search-content) {
+  .pollie-search-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    list-style: none;
+    padding: 0;
+    margin: 4px 0 0;
     background: var(--color-bg);
     border: 1px solid var(--color-border);
     border-radius: 8px;
@@ -89,15 +126,14 @@
     max-height: 300px;
     overflow-y: auto;
     z-index: 100;
-    margin-top: 4px;
   }
 
-  .pollie-search-wrapper :global(.pollie-search-item) {
+  .pollie-search-item {
     padding: 0.75rem 1rem;
     cursor: pointer;
   }
 
-  .pollie-search-wrapper :global(.pollie-search-item[data-highlighted]) {
+  .pollie-search-item.highlighted {
     background: var(--color-bg-soft);
   }
 

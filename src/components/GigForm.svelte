@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { Combobox } from "bits-ui"
   import type { GigCategory } from "../types"
   import { GIG_CATEGORIES } from "../types"
   import type { DraftGig } from "../stores/draft-gigs.svelte"
@@ -29,12 +28,12 @@
 
   let pollieSearch = $state("")
   let pollieComboboxOpen = $state(false)
-  let touchedSinceOpen = $state(false)
+  let pollieHighlightedIndex = $state(-1)
   let formErrors = $state<Record<string, string>>({})
 
   let filteredPollies = $derived.by(() => {
     const query = pollieSearch.toLowerCase().trim()
-    if (!query) return pollies.slice(0, 10)
+    if (!query) return []
     return pollies
       .filter((p) => p.name.toLowerCase().includes(query) || p.slug.includes(query))
       .slice(0, 10)
@@ -106,12 +105,33 @@
     formErrors = {}
   }
 
-  function handlePollieSelect(slug: string | undefined) {
-    if (!slug) return
+  function handlePollieSelect(slug: string) {
     pollieSlug = slug
     const pollie = pollies.find((p) => p.slug === slug)
     if (pollie) pollieSearch = pollie.name
     pollieComboboxOpen = false
+  }
+
+  function handlePollieInput() {
+    pollieComboboxOpen = pollieSearch.trim().length > 0
+    pollieHighlightedIndex = -1
+    pollieSlug = ""
+  }
+
+  function handlePollieKeydown(e: KeyboardEvent) {
+    if (!pollieComboboxOpen) return
+    if (e.key === "ArrowDown") {
+      e.preventDefault()
+      pollieHighlightedIndex = Math.min(pollieHighlightedIndex + 1, filteredPollies.length - 1)
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault()
+      pollieHighlightedIndex = Math.max(pollieHighlightedIndex - 1, 0)
+    } else if (e.key === "Enter" && pollieHighlightedIndex >= 0) {
+      e.preventDefault()
+      handlePollieSelect(filteredPollies[pollieHighlightedIndex].slug)
+    } else if (e.key === "Escape") {
+      pollieComboboxOpen = false
+    }
   }
 
   $effect(() => {
@@ -144,29 +164,42 @@
     <div class="form-row">
       <div class="form-group">
         <label for="pollie-search">Politician</label>
-        <Combobox.Root
-          type="single"
-          onValueChange={handlePollieSelect}
-          bind:inputValue={pollieSearch}
-          bind:open={pollieComboboxOpen}
-          bind:touchedSinceOpen
-        >
-          <Combobox.Input
+        <div class="autocomplete-wrapper">
+          <input
             id="pollie-search"
+            type="text"
+            bind:value={pollieSearch}
+            oninput={handlePollieInput}
+            onkeydown={handlePollieKeydown}
+            onfocusin={() => { if (pollieSearch.trim()) pollieComboboxOpen = true }}
+            onfocusout={() => { setTimeout(() => pollieComboboxOpen = false, 150) }}
             placeholder="Search by name..."
             autocomplete="off"
             class="form-input"
+            role="combobox"
+            aria-expanded={pollieComboboxOpen}
+            aria-controls="pollie-autocomplete-listbox"
+            aria-autocomplete="list"
+            aria-activedescendant={pollieHighlightedIndex >= 0 ? `pollie-ac-option-${pollieHighlightedIndex}` : undefined}
           />
-          {#if filteredPollies.length > 0}
-            <Combobox.Content class="autocomplete-content" sameWidth>
-              {#each filteredPollies as pollie (pollie.slug)}
-                <Combobox.Item value={pollie.slug} label={pollie.name} class="autocomplete-item">
+          {#if pollieComboboxOpen && filteredPollies.length > 0}
+            <ul id="pollie-autocomplete-listbox" class="autocomplete-content" role="listbox">
+              {#each filteredPollies as pollie, i (pollie.slug)}
+                <li
+                  id={`pollie-ac-option-${i}`}
+                  role="option"
+                  class="autocomplete-item"
+                  class:highlighted={i === pollieHighlightedIndex}
+                  aria-selected={i === pollieHighlightedIndex}
+                  onmousedown={() => handlePollieSelect(pollie.slug)}
+                  onmouseenter={() => { pollieHighlightedIndex = i }}
+                >
                   {pollie.name}
-                </Combobox.Item>
+                </li>
               {/each}
-            </Combobox.Content>
+            </ul>
           {/if}
-        </Combobox.Root>
+        </div>
         {#if pollieWarning}
           <p class="warning-text">{pollieWarning}</p>
         {/if}
@@ -331,7 +364,11 @@
     border-color: var(--color-brand-1);
   }
 
-  .form-group :global(.form-input) {
+  .autocomplete-wrapper {
+    position: relative;
+  }
+
+  .form-input {
     padding: 0.5rem 0.75rem;
     border: 1px solid var(--color-border);
     border-radius: 4px;
@@ -341,12 +378,19 @@
     width: 100%;
   }
 
-  .form-group :global(.form-input):focus {
+  .form-input:focus {
     outline: none;
     border-color: var(--color-brand-1);
   }
 
-  .form-group :global(.autocomplete-content) {
+  .autocomplete-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
     background: var(--color-bg);
     border: 1px solid var(--color-border);
     border-radius: 0 0 4px 4px;
@@ -356,12 +400,12 @@
     overflow-y: auto;
   }
 
-  .form-group :global(.autocomplete-item) {
+  .autocomplete-item {
     padding: 0.5rem 0.75rem;
     cursor: pointer;
   }
 
-  .form-group :global(.autocomplete-item[data-highlighted]) {
+  .autocomplete-item.highlighted {
     background: var(--color-bg-soft);
   }
 

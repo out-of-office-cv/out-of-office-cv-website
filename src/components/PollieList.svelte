@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { Combobox } from "bits-ui"
   import { getPartyColour } from "../utils/pollie"
 
   import type { PolliesByDecade, House } from "../types"
@@ -16,6 +15,8 @@
   let partyFilter = $state("")
   let decadeFilter = $state("")
   let photoErrors = $state(new Set<string>())
+  let searchOpen = $state(false)
+  let highlightedIndex = $state(-1)
 
   let uniqueStates = $derived.by(() => {
     const states = new Set<string>()
@@ -41,7 +42,7 @@
 
   let allPollies = $derived(polliesByDecade.flatMap((g) => g.pollies))
 
-  let comboboxFiltered = $derived.by(() => {
+  let searchResults = $derived.by(() => {
     const query = searchInput.toLowerCase().trim()
     if (!query) return []
     return allPollies
@@ -55,13 +56,25 @@
       .slice(0, 20)
   })
 
-  let comboboxOpen = $state(false)
-  let touchedSinceOpen = $state(false)
-
-  function handleComboboxSelect(slug: string | undefined) {
-    if (slug) {
-      window.location.href = `/pollies/${slug}`
+  function handleSearchKeydown(e: KeyboardEvent) {
+    if (!searchOpen) return
+    if (e.key === "ArrowDown") {
+      e.preventDefault()
+      highlightedIndex = Math.min(highlightedIndex + 1, searchResults.length - 1)
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault()
+      highlightedIndex = Math.max(highlightedIndex - 1, 0)
+    } else if (e.key === "Enter" && highlightedIndex >= 0) {
+      e.preventDefault()
+      window.location.href = `/pollies/${searchResults[highlightedIndex].slug}`
+    } else if (e.key === "Escape") {
+      searchOpen = false
     }
+  }
+
+  function handleSearchInput() {
+    searchOpen = searchInput.trim().length > 0
+    highlightedIndex = -1
   }
 
   let filteredData = $derived.by(() => {
@@ -113,21 +126,35 @@
 <div class="pollie-filters">
   <h2 class="filter-heading">Find a politician</h2>
 
-  <Combobox.Root
-    type="single"
-    onValueChange={handleComboboxSelect}
-    bind:inputValue={searchInput}
-    bind:open={comboboxOpen}
-    bind:touchedSinceOpen
-  >
-    <Combobox.Input
+  <!-- svelte-ignore a11y_role_supports_aria_props -->
+  <div class="search-wrapper">
+    <input
+      type="text"
+      bind:value={searchInput}
+      oninput={handleSearchInput}
+      onkeydown={handleSearchKeydown}
+      onfocusin={() => { if (searchInput.trim()) searchOpen = true }}
+      onfocusout={() => { setTimeout(() => searchOpen = false, 150) }}
       placeholder="Search by name, electorate, state or party..."
       class="pollie-search"
+      role="combobox"
+      aria-expanded={searchOpen}
+      aria-controls="pollie-search-listbox"
+      aria-autocomplete="list"
+      aria-activedescendant={highlightedIndex >= 0 ? `pollie-option-${highlightedIndex}` : undefined}
     />
-    {#if comboboxFiltered.length > 0}
-      <Combobox.Content class="combobox-content" sameWidth>
-        {#each comboboxFiltered as pollie (pollie.slug)}
-          <Combobox.Item value={pollie.slug} label={pollie.name} class="combobox-item">
+    {#if searchOpen && searchInput.trim()}
+      <ul id="pollie-search-listbox" class="combobox-content" role="listbox">
+        {#each searchResults as pollie, i (pollie.slug)}
+          <li
+            id={`pollie-option-${i}`}
+            role="option"
+            class="combobox-item"
+            class:highlighted={i === highlightedIndex}
+            aria-selected={i === highlightedIndex}
+            onmousedown={() => { window.location.href = `/pollies/${pollie.slug}` }}
+            onmouseenter={() => { highlightedIndex = i }}
+          >
             <div class="combobox-item-inner">
               <strong>{pollie.name}</strong>
               <span class="combobox-meta">
@@ -140,11 +167,13 @@
                 </span>
               </span>
             </div>
-          </Combobox.Item>
+          </li>
+        {:else}
+          <li class="no-results">No politicians found</li>
         {/each}
-      </Combobox.Content>
+      </ul>
     {/if}
-  </Combobox.Root>
+  </div>
 
   <div class="filter-row">
     <select bind:value={houseFilter} class="filter-select">
@@ -239,7 +268,12 @@
     border-top: none;
   }
 
-  .pollie-filters :global(.pollie-search) {
+  .search-wrapper {
+    position: relative;
+    margin-bottom: 0.75rem;
+  }
+
+  .pollie-search {
     width: 100%;
     padding: 0.75rem 1rem;
     font-size: 1rem;
@@ -247,19 +281,25 @@
     border-radius: 8px;
     background: var(--color-bg);
     color: var(--color-text-1);
-    margin-bottom: 0.75rem;
   }
 
-  .pollie-filters :global(.pollie-search):focus {
+  .pollie-search:focus {
     outline: none;
     border-color: var(--color-brand-1);
   }
 
-  .pollie-filters :global(.pollie-search)::placeholder {
+  .pollie-search::placeholder {
     color: var(--color-text-3);
   }
 
-  .pollie-filters :global(.combobox-content) {
+  .combobox-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    list-style: none;
+    padding: 0;
+    margin: 4px 0 0;
     background: var(--color-bg);
     border: 1px solid var(--color-border);
     border-radius: 8px;
@@ -267,16 +307,14 @@
     max-height: 350px;
     overflow-y: auto;
     z-index: 100;
-    margin-top: 4px;
-    margin-bottom: 0.75rem;
   }
 
-  .pollie-filters :global(.combobox-item) {
+  .combobox-item {
     padding: 0.75rem 1rem;
     cursor: pointer;
   }
 
-  .pollie-filters :global(.combobox-item[data-highlighted]) {
+  .combobox-item.highlighted {
     background: var(--color-bg-soft);
   }
 
