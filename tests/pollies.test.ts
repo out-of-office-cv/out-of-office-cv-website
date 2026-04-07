@@ -69,11 +69,14 @@ describe("pollie page generation", () => {
     );
     expect(existsSync(broadbentPath)).toBe(true);
 
-    const content = readFileSync(broadbentPath, "utf-8");
-    expect(content).toContain("Monash");
-    expect(content).toContain("IND");
-    expect(content).not.toContain("Corinella");
-    expect(content).not.toContain("McMillan");
+    const page = readFileSync(broadbentPath, "utf-8");
+    const header = page.match(
+      /<div class="pollie-header"[\s\S]*?class="pollie-meta"[\s\S]*?<\/div>\s*<\/div>/,
+    )?.[0] ?? "";
+    expect(header).toContain("Monash");
+    expect(header).toContain("IND");
+    expect(header).not.toContain("Corinella");
+    expect(header).not.toContain("McMillan");
   });
 });
 
