@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { GIG_CATEGORIES } from "../.vitepress/types";
+import { GIG_CATEGORIES } from "../src/types";
 
 export const GigSchema = z.object({
   role: z.string().min(1),

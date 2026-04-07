@@ -1,8 +1,7 @@
 logs/
 node_modules
-.vitepress/cache
-.vitepress/dist
-.vitepress/.temp
+dist/
+.astro/
 
 mise.local.toml
 

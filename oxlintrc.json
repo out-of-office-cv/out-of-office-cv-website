@@ -1,5 +1,5 @@
 {
   "extends": ["@nkzw/oxlint-config"],
   "plugins": ["typescript"],
-  "ignorePatterns": [".vitepress/cache/", ".vitepress/dist/"]
+  "ignorePatterns": ["dist/", ".astro/"]
 }
