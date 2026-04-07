@@ -4356,5 +4356,84 @@
       "https://lobbyists.pmc.gov.au/register/view_agency.cfm?id=685"
     ],
     "pollie_slug": "santo-santoro"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Harry Perkins Institute of Medical Research",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://perkins.org.au/person/hon-ben-morton/",
+      "https://perkins.org.au/hon-ben-morton-takes-the-helm-of-the-harry-perkins-institute/"
+    ],
+    "pollie_slug": "ben-morton"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "Insurance Commission of Western Australia",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.celebratewa.com.au/our-people/the-hon-ben-morton/"
+    ],
+    "pollie_slug": "ben-morton"
+  },
+  {
+    "role": "Director",
+    "organisation": "Southern Ports Authority",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.southernports.com.au/board",
+      "https://theorg.com/org/southern-ports-authority/org-chart/ben-morton"
+    ],
+    "pollie_slug": "ben-morton"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Perth Bears Rugby League Football Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://sen.com.au/news/2025/06/28/nrl-announces-inaugural-perth-bears-board",
+      "https://www.nrl.com/news/2025/06/28/perth-bears-inaugural-board-announced/"
+    ],
+    "pollie_slug": "ben-morton",
+    "start_date": "2025-06-28"
+  },
+  {
+    "role": "Director",
+    "organisation": "Celebrate WA",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.celebratewa.com.au/our-people/the-hon-ben-morton/"
+    ],
+    "pollie_slug": "ben-morton"
+  },
+  {
+    "role": "President",
+    "organisation": "Liberal Party of Australia (Victorian Division)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Greg_Mirabella"
+    ],
+    "pollie_slug": "greg-mirabella",
+    "start_date": "2022-08-01",
+    "end_date": "2023-09-01"
+  },
+  {
+    "role": "Senior Adviser",
+    "organisation": "Bondi Partners",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.bondipartners.com/joe-hockey-poaches-agl-executive-michelle-wood/"
+    ],
+    "pollie_slug": "trent-zimmerman",
+    "end_date": "2023-08-01"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Epilepsy Action Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://peoplepill.com/i/trent-zimmerman"
+    ],
+    "pollie_slug": "trent-zimmerman"
   }
 ]
