@@ -1,0 +1,25 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+import GigEntryForm from "../components/GigEntryForm.svelte"
+import { getCollection } from "astro:content"
+import { loadGigs } from "../loaders"
+import { resolve } from "node:path"
+
+const allPollies = await getCollection("pollies")
+const pollieOptions = allPollies
+  .map((p) => ({ slug: p.data.slug, name: p.data.name }))
+  .sort((a, b) => a.name.localeCompare(b.name))
+
+const dataDir = resolve(process.cwd(), "data")
+const allGigs = loadGigs(dataDir)
+const gigsWithIndex = allGigs.map((gig, index) => ({ ...gig, index }))
+---
+
+<BaseLayout title="Add gigs">
+  <h1>Add gigs</h1>
+  <GigEntryForm
+    pollies={pollieOptions}
+    gigs={gigsWithIndex}
+    client:load
+  />
+</BaseLayout>

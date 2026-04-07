@@ -1,0 +1,437 @@
+<script lang="ts">
+  import { Combobox } from "bits-ui"
+  import { getPartyColour } from "../utils/pollie"
+
+  import type { PolliesByDecade, House } from "../types"
+
+  interface Props {
+    polliesByDecade: PolliesByDecade[]
+  }
+
+  let { polliesByDecade }: Props = $props()
+
+  let searchInput = $state("")
+  let houseFilter = $state<House | "">("")
+  let stateFilter = $state("")
+  let partyFilter = $state("")
+  let decadeFilter = $state("")
+  let photoErrors = $state(new Set<string>())
+
+  let uniqueStates = $derived.by(() => {
+    const states = new Set<string>()
+    for (const group of polliesByDecade) {
+      for (const p of group.pollies) {
+        if (p.state) states.add(p.state)
+      }
+    }
+    return Array.from(states).sort()
+  })
+
+  let uniqueParties = $derived.by(() => {
+    const parties = new Set<string>()
+    for (const group of polliesByDecade) {
+      for (const p of group.pollies) {
+        if (p.party) parties.add(p.party.trim())
+      }
+    }
+    return Array.from(parties).sort()
+  })
+
+  let uniqueDecades = $derived(polliesByDecade.map((group) => group.decade))
+
+  let allPollies = $derived(polliesByDecade.flatMap((g) => g.pollies))
+
+  let comboboxFiltered = $derived.by(() => {
+    const query = searchInput.toLowerCase().trim()
+    if (!query) return []
+    return allPollies
+      .filter(
+        (p) =>
+          p.name.toLowerCase().includes(query) ||
+          p.division.toLowerCase().includes(query) ||
+          p.state.toLowerCase().includes(query) ||
+          p.party.toLowerCase().includes(query),
+      )
+      .slice(0, 20)
+  })
+
+  let comboboxOpen = $state(false)
+  let touchedSinceOpen = $state(false)
+
+  function handleComboboxSelect(slug: string | undefined) {
+    if (slug) {
+      window.location.href = `/pollies/${slug}`
+    }
+  }
+
+  let filteredData = $derived.by(() => {
+    let result = polliesByDecade
+
+    if (decadeFilter) {
+      result = result.filter((group) => group.decade === decadeFilter)
+    }
+
+    if (houseFilter || stateFilter || partyFilter) {
+      result = result
+        .map((group) => ({
+          ...group,
+          pollies: group.pollies.filter((p) => {
+            if (houseFilter && p.house !== houseFilter) return false
+            if (stateFilter && p.state !== stateFilter) return false
+            if (partyFilter && p.party.trim() !== partyFilter) return false
+            return true
+          }),
+        }))
+        .filter((group) => group.pollies.length > 0)
+    }
+
+    return result
+  })
+
+  function clearFilters() {
+    searchInput = ""
+    houseFilter = ""
+    stateFilter = ""
+    partyFilter = ""
+    decadeFilter = ""
+  }
+
+  let hasActiveFilters = $derived(
+    searchInput || houseFilter || stateFilter || partyFilter || decadeFilter,
+  )
+
+  function badgeClass(party: string): string {
+    const colour = getPartyColour(party)
+    return `badge badge-party-${colour || "default"}`
+  }
+
+  function houseClass(house: House): string {
+    return `badge badge-${house}`
+  }
+</script>
+
+<div class="pollie-filters">
+  <h2 class="filter-heading">Find a politician</h2>
+
+  <Combobox.Root
+    type="single"
+    onValueChange={handleComboboxSelect}
+    bind:inputValue={searchInput}
+    bind:open={comboboxOpen}
+    bind:touchedSinceOpen
+  >
+    <Combobox.Input
+      placeholder="Search by name, electorate, state or party..."
+      class="pollie-search"
+    />
+    {#if comboboxFiltered.length > 0}
+      <Combobox.Content class="combobox-content" sameWidth>
+        {#each comboboxFiltered as pollie (pollie.slug)}
+          <Combobox.Item value={pollie.slug} label={pollie.name} class="combobox-item">
+            <div class="combobox-item-inner">
+              <strong>{pollie.name}</strong>
+              <span class="combobox-meta">
+                <span class={badgeClass(pollie.party)}>{pollie.party}</span>
+                <span class={houseClass(pollie.house)}>
+                  {pollie.house === "senate" ? "Senator" : "MP"}
+                </span>
+                <span class="pollie-location">
+                  {pollie.division || pollie.state}{pollie.division ? `, ${pollie.state}` : ""}
+                </span>
+              </span>
+            </div>
+          </Combobox.Item>
+        {/each}
+      </Combobox.Content>
+    {/if}
+  </Combobox.Root>
+
+  <div class="filter-row">
+    <select bind:value={houseFilter} class="filter-select">
+      <option value="">All chambers</option>
+      <option value="senate">Senators</option>
+      <option value="reps">MPs</option>
+    </select>
+
+    <select bind:value={stateFilter} class="filter-select">
+      <option value="">All states</option>
+      {#each uniqueStates as state}
+        <option value={state}>{state}</option>
+      {/each}
+    </select>
+
+    <select bind:value={partyFilter} class="filter-select">
+      <option value="">All parties</option>
+      {#each uniqueParties as party}
+        <option value={party}>{party}</option>
+      {/each}
+    </select>
+
+    <select bind:value={decadeFilter} class="filter-select">
+      <option value="">All decades</option>
+      {#each uniqueDecades as decade}
+        <option value={decade}>{decade}</option>
+      {/each}
+    </select>
+
+    {#if hasActiveFilters}
+      <button type="button" class="clear-filters" onclick={clearFilters}>
+        Clear filters
+      </button>
+    {/if}
+  </div>
+</div>
+
+{#each filteredData as group (group.decade)}
+  <h2>{group.decade}</h2>
+  <ul class="pollie-list">
+    {#each group.pollies as pollie (pollie.slug)}
+      <li class="pollie-card">
+        <a href={`/pollies/${pollie.slug}`} class="pollie-link">
+          {#if pollie.photoUrl && !photoErrors.has(pollie.slug)}
+            <img
+              src={pollie.photoUrl}
+              alt={`Photo of ${pollie.name}`}
+              class="pollie-photo"
+              onerror={() => {
+                photoErrors.add(pollie.slug)
+                photoErrors = new Set(photoErrors)
+              }}
+            />
+          {:else}
+            <div class="pollie-photo" aria-hidden="true"></div>
+          {/if}
+          <div class="pollie-content">
+            <span class="pollie-name">{pollie.name}</span>
+            <div class="pollie-meta">
+              <span class={badgeClass(pollie.party)}>{pollie.party}</span>
+              <span class={houseClass(pollie.house)}>
+                {pollie.house === "senate" ? "Senator" : "MP"}
+              </span>
+              <span class="pollie-location">
+                {pollie.division || pollie.state}{pollie.division ? `, ${pollie.state}` : ""}
+              </span>
+              {#if pollie.gigCount > 0}
+                <span class="gig-count">
+                  {pollie.gigCount} {pollie.gigCount === 1 ? "gig" : "gigs"}
+                </span>
+              {/if}
+            </div>
+          </div>
+        </a>
+      </li>
+    {/each}
+  </ul>
+{/each}
+
+{#if filteredData.length === 0}
+  <p class="no-results">No results found. Try adjusting your filters.</p>
+{/if}
+
+<style>
+  .pollie-filters {
+    margin-bottom: 1.5rem;
+  }
+
+  .filter-heading {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    border-top: none;
+  }
+
+  .pollie-filters :global(.pollie-search) {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background: var(--color-bg);
+    color: var(--color-text-1);
+    margin-bottom: 0.75rem;
+  }
+
+  .pollie-filters :global(.pollie-search):focus {
+    outline: none;
+    border-color: var(--color-brand-1);
+  }
+
+  .pollie-filters :global(.pollie-search)::placeholder {
+    color: var(--color-text-3);
+  }
+
+  .pollie-filters :global(.combobox-content) {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
+    max-height: 350px;
+    overflow-y: auto;
+    z-index: 100;
+    margin-top: 4px;
+    margin-bottom: 0.75rem;
+  }
+
+  .pollie-filters :global(.combobox-item) {
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+  }
+
+  .pollie-filters :global(.combobox-item[data-highlighted]) {
+    background: var(--color-bg-soft);
+  }
+
+  .combobox-item-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .combobox-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .filter-select {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    background: var(--color-bg);
+    color: var(--color-text-1);
+    cursor: pointer;
+  }
+
+  .filter-select:focus {
+    outline: none;
+    border-color: var(--color-brand-1);
+  }
+
+  .clear-filters {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    background: var(--color-bg-soft);
+    color: var(--color-text-2);
+    cursor: pointer;
+  }
+
+  .clear-filters:hover {
+    background: var(--color-bg-alt);
+    color: var(--color-text-1);
+  }
+
+  .pollie-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+
+  .pollie-card {
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background: var(--color-bg-soft);
+    overflow: hidden;
+    margin-top: 0;
+  }
+
+  .pollie-link {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .pollie-link:hover {
+    background: var(--color-bg-alt);
+  }
+
+  .pollie-photo {
+    width: 48px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    background-color: var(--color-bg-alt);
+    flex-shrink: 0;
+  }
+
+  .pollie-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .pollie-name {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-text-1);
+    margin-bottom: 0.375rem;
+  }
+
+  .pollie-link:hover .pollie-name {
+    color: var(--color-brand-1);
+  }
+
+  .pollie-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .pollie-location {
+    color: var(--color-text-2);
+    font-size: 0.875rem;
+  }
+
+  .gig-count {
+    font-size: 0.75rem;
+    color: var(--color-text-3);
+    background: var(--color-bg-alt);
+    padding: 0.125rem 0.5rem;
+    border-radius: 9999px;
+  }
+
+  .no-results {
+    text-align: center;
+    color: var(--color-text-2);
+    padding: 2rem;
+  }
+
+  /* Badge styles (inline since these are in a Svelte component) */
+  .badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.125rem 0.5rem;
+    border-radius: 4px;
+    color: white;
+  }
+
+  .badge-party-red { background-color: var(--badge-party-red); }
+  .badge-party-blue { background-color: var(--badge-party-blue); }
+  .badge-party-green { background-color: var(--badge-party-green); }
+  .badge-party-grey { background-color: var(--badge-party-grey); }
+  .badge-party-orange { background-color: var(--badge-party-orange); }
+  .badge-party-purple { background-color: var(--badge-party-purple); }
+  .badge-party-default {
+    background-color: var(--color-bg-soft);
+    color: var(--color-text-2);
+    border: 1px solid var(--color-border);
+  }
+
+  .badge-senate { background-color: var(--badge-senate); }
+  .badge-reps { background-color: var(--badge-reps); }
+</style>

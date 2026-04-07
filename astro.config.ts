@@ -6,6 +6,11 @@ export default defineConfig({
   site: "https://www.outofoffice.cv",
   trailingSlash: "never",
   integrations: [svelte()],
+  vite: {
+    resolve: {
+      noExternal: ["bits-ui"],
+    },
+  },
   markdown: {
     remarkPlugins: [[remarkSmartypants as never, { dashes: "oldschool" }]],
   },

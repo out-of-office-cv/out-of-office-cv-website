@@ -1,0 +1,38 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro"
+import PollieHeader from "../../components/PollieHeader.astro"
+import GigList from "../../components/GigList.astro"
+import PollieSearch from "../../components/PollieSearch.svelte"
+import { getCollection } from "astro:content"
+import { formatDate, timeAgo } from "../../utils"
+
+export async function getStaticPaths() {
+  const pollies = await getCollection("pollies")
+  return pollies.map((pollie) => ({
+    params: { slug: pollie.data.slug },
+    props: { pollie: pollie.data },
+  }))
+}
+
+const { pollie } = Astro.props
+
+const allPollies = await getCollection("pollies")
+const pollieOptions = allPollies
+  .map((p) => ({ slug: p.data.slug, name: p.data.name }))
+  .sort((a, b) => a.name.localeCompare(b.name))
+---
+
+<BaseLayout title={pollie.name}>
+  <PollieSearch pollies={pollieOptions} client:load />
+  <PollieHeader
+    name={pollie.name}
+    division={pollie.division}
+    state={pollie.state}
+    party={pollie.party}
+    house={pollie.house}
+    leftOfficeDate={formatDate(pollie.ceasedDate)}
+    leftOfficeAgo={timeAgo(pollie.ceasedDate)}
+    photoUrl={pollie.photoUrl}
+  />
+  <GigList gigs={pollie.gigs} />
+</BaseLayout>
