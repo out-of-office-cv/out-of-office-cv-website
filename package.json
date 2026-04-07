@@ -4,6 +4,7 @@
   "description": "An open database for tracking what Australian Parliamentarians do when they leave office.",
   "homepage": "https://outofoffice.cv",
   "type": "module",
+  "packageManager": "pnpm@10.33.0",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
