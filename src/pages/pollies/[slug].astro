@@ -5,21 +5,24 @@ import GigList from "../../components/GigList.astro"
 import PollieSearch from "../../components/PollieSearch.svelte"
 import { getCollection } from "astro:content"
 import { formatDate, timeAgo } from "../../utils"
+import type { Pollie, Gig } from "../../types"
+
+type PollieData = Pollie & { gigCount: number; gigs: Gig[] }
 
 export async function getStaticPaths() {
   const pollies = await getCollection("pollies")
-  return pollies.map((pollie) => ({
+  return pollies.map((pollie: { data: PollieData }) => ({
     params: { slug: pollie.data.slug },
     props: { pollie: pollie.data },
   }))
 }
 
-const { pollie } = Astro.props
+const { pollie } = Astro.props as { pollie: PollieData }
 
 const allPollies = await getCollection("pollies")
 const pollieOptions = allPollies
-  .map((p) => ({ slug: p.data.slug, name: p.data.name }))
-  .sort((a, b) => a.name.localeCompare(b.name))
+  .map((p: { data: { slug: string; name: string } }) => ({ slug: p.data.slug, name: p.data.name }))
+  .sort((a: { name: string }, b: { name: string }) => a.name.localeCompare(b.name))
 ---
 
 <BaseLayout title={pollie.name}>

@@ -37,7 +37,7 @@ function getHostname(url: string): string {
     </p>
   ) : (
     <ul class="gig-list">
-      {verifiedGigs.map((gig, index) => (
+      {verifiedGigs.map((gig) => (
         <li class="gig-card">
           <div class="gig-role">{gig.role}</div>
           <div class="gig-organisation">{gig.organisation}</div>
