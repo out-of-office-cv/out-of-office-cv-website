@@ -21,7 +21,14 @@ const { pollie } = Astro.props as { pollie: PollieData }
 
 const allPollies = await getCollection("pollies")
 const pollieOptions = allPollies
-  .map((p: { data: { slug: string; name: string } }) => ({ slug: p.data.slug, name: p.data.name }))
+  .map((p: { data: PollieData }) => ({
+    slug: p.data.slug,
+    name: p.data.name,
+    party: p.data.party,
+    house: p.data.house,
+    division: p.data.division,
+    state: p.data.state,
+  }))
   .sort((a: { name: string }, b: { name: string }) => a.name.localeCompare(b.name))
 ---
 

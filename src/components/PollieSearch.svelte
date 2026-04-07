@@ -1,7 +1,14 @@
 <script lang="ts">
+  import { getPartyColour } from "../utils/pollie"
+  import type { House } from "../types"
+
   interface PollieOption {
     slug: string
     name: string
+    party: string
+    house: House
+    division: string
+    state: string
   }
 
   interface Props {
@@ -18,7 +25,14 @@
     const query = inputValue.toLowerCase().trim()
     if (!query) return []
     return pollies
-      .filter((p) => p.name.toLowerCase().includes(query) || p.slug.includes(query))
+      .filter(
+        (p) =>
+          p.name.toLowerCase().includes(query) ||
+          p.slug.includes(query) ||
+          p.division.toLowerCase().includes(query) ||
+          p.state.toLowerCase().includes(query) ||
+          p.party.toLowerCase().includes(query),
+      )
       .slice(0, 20)
   })
 
@@ -42,6 +56,15 @@
     open = inputValue.trim().length > 0
     highlightedIndex = -1
   }
+
+  function badgeClass(party: string): string {
+    const colour = getPartyColour(party)
+    return `badge badge-party-${colour || "default"}`
+  }
+
+  function houseClass(house: House): string {
+    return `badge badge-${house}`
+  }
 </script>
 
 <div class="pollie-search-wrapper">
@@ -53,7 +76,7 @@
       onkeydown={handleKeydown}
       onfocusin={() => { if (inputValue.trim()) open = true }}
       onfocusout={() => { setTimeout(() => open = false, 150) }}
-      placeholder="Search by name..."
+      placeholder="Search by name, electorate, state or party..."
       class="pollie-search-input"
       role="combobox"
       aria-expanded={open}
@@ -73,7 +96,18 @@
             onmousedown={() => { window.location.href = `/pollies/${pollie.slug}` }}
             onmouseenter={() => { highlightedIndex = i }}
           >
-            {pollie.name}
+            <div class="combobox-item-inner">
+              <strong>{pollie.name}</strong>
+              <span class="combobox-meta">
+                <span class={badgeClass(pollie.party)}>{pollie.party}</span>
+                <span class={houseClass(pollie.house)}>
+                  {pollie.house === "senate" ? "Senator" : "MP"}
+                </span>
+                <span class="pollie-location">
+                  {pollie.division || pollie.state}{pollie.division ? `, ${pollie.state}` : ""}
+                </span>
+              </span>
+            </div>
           </li>
         {:else}
           <li class="no-results">No politicians found</li>
@@ -137,8 +171,50 @@
     background: var(--color-bg-soft);
   }
 
+  .combobox-item-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .combobox-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .pollie-location {
+    color: var(--color-text-2);
+    font-size: 0.875rem;
+  }
+
   .no-results {
     padding: 0.75rem 1rem;
     color: var(--color-text-3);
   }
+
+  .badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.125rem 0.5rem;
+    border-radius: 4px;
+    color: white;
+  }
+
+  .badge-party-red { background-color: var(--badge-party-red); }
+  .badge-party-blue { background-color: var(--badge-party-blue); }
+  .badge-party-green { background-color: var(--badge-party-green); }
+  .badge-party-grey { background-color: var(--badge-party-grey); }
+  .badge-party-orange { background-color: var(--badge-party-orange); }
+  .badge-party-purple { background-color: var(--badge-party-purple); }
+  .badge-party-default {
+    background-color: var(--color-bg-soft);
+    color: var(--color-text-2);
+    border: 1px solid var(--color-border);
+  }
+
+  .badge-senate { background-color: var(--badge-senate); }
+  .badge-reps { background-color: var(--badge-reps); }
 </style>
