@@ -1,0 +1,107 @@
+---
+import { getPartyColour } from "../utils"
+import type { House } from "../types"
+
+interface Props {
+  variant: "party" | "house" | "status" | "category"
+  party?: string
+  house?: House
+  status?: "in-office" | "left-office"
+}
+
+const { variant, party, house, status } = Astro.props
+
+function getBadgeClass(): string {
+  if (variant === "party" && party) {
+    const colour = getPartyColour(party)
+    return `badge-party badge-party-${colour || "default"}`
+  }
+  if (variant === "house" && house) {
+    return `badge-house badge-${house}`
+  }
+  if (variant === "status" && status) {
+    return `badge-status badge-${status}`
+  }
+  if (variant === "category") {
+    return "badge-category"
+  }
+  return ""
+}
+---
+
+<span class:list={["badge", getBadgeClass()]}>
+  <slot />
+</span>
+
+<style>
+  .badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.125rem 0.5rem;
+    border-radius: 4px;
+  }
+
+  .badge-senate {
+    background-color: var(--badge-senate);
+    color: white;
+  }
+
+  .badge-reps {
+    background-color: var(--badge-reps);
+    color: white;
+  }
+
+  .badge-party-red {
+    background-color: var(--badge-party-red);
+    color: white;
+  }
+
+  .badge-party-blue {
+    background-color: var(--badge-party-blue);
+    color: white;
+  }
+
+  .badge-party-green {
+    background-color: var(--badge-party-green);
+    color: white;
+  }
+
+  .badge-party-grey {
+    background-color: var(--badge-party-grey);
+    color: white;
+  }
+
+  .badge-party-orange {
+    background-color: var(--badge-party-orange);
+    color: white;
+  }
+
+  .badge-party-purple {
+    background-color: var(--badge-party-purple);
+    color: white;
+  }
+
+  .badge-party-default {
+    background-color: var(--color-bg-soft);
+    color: var(--color-text-2);
+    border: 1px solid var(--color-border);
+  }
+
+  .badge-in-office {
+    background-color: var(--color-green-1);
+    color: white;
+  }
+
+  .badge-left-office {
+    background-color: var(--color-bg-soft);
+    color: var(--color-text-2);
+    border: 1px solid var(--color-border);
+  }
+
+  .badge-category {
+    background-color: var(--color-bg-soft);
+    color: var(--color-text-2);
+    border: 1px solid var(--color-border);
+  }
+</style>
