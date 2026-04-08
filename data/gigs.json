@@ -4377,5 +4377,104 @@
       "https://lobbyists.pmc.gov.au/register/view_agency.cfm?id=685"
     ],
     "pollie_slug": "santo-santoro"
+  },
+  {
+    "role": "Administrator of Norfolk Island",
+    "organisation": "Norfolk Island",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/messner-anthony-john/"
+    ],
+    "pollie_slug": "tony-messner",
+    "start_date": "1997-08-01",
+    "end_date": "2003-07-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Health Services Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://biography.senate.gov.au/messner-anthony-john/"
+    ],
+    "pollie_slug": "tony-messner",
+    "start_date": "2004-01-01",
+    "end_date": "2006-01-01"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Health Services Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://biography.senate.gov.au/messner-anthony-john/"
+    ],
+    "pollie_slug": "tony-messner",
+    "start_date": "2006-01-01",
+    "end_date": "2009-01-01"
+  },
+  {
+    "role": "Treasurer",
+    "organisation": "Operation Flinders Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/messner-anthony-john/"
+    ],
+    "pollie_slug": "tony-messner"
+  },
+  {
+    "role": "Foundation Chairman",
+    "organisation": "Global Voices",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Lindsay"
+    ],
+    "pollie_slug": "peter-lindsay",
+    "start_date": "2011-01-01"
+  },
+  {
+    "role": "Strategic Advisor",
+    "organisation": "Origin Net",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://au.linkedin.com/in/hon-peter-lindsay-oam-a1881243"
+    ],
+    "pollie_slug": "peter-lindsay",
+    "start_date": "2011-01-01"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Guildford Coal",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.mining-journal.com/australia/news/1167862/guildford-coal-chairman"
+    ],
+    "pollie_slug": "peter-lindsay",
+    "start_date": "2014-01-01"
+  },
+  {
+    "role": "Senior Manager Community & Place Partner",
+    "organisation": "Roads and Maritime Services (NSW)",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.linkedin.com/in/sharon-grierson-1b604786/"
+    ],
+    "pollie_slug": "sharon-grierson"
+  },
+  {
+    "role": "Founding Partner",
+    "organisation": "Duncan Basheer Hannon (DBH Lawyers)",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.wakefieldpress.com.au/product/a-view-from-the-horizon/"
+    ],
+    "pollie_slug": "peter-duncan"
+  },
+  {
+    "role": "Hotel Owner",
+    "organisation": "The Taman, Lombok",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.indaily.com.au/news/2014/03/20/campaign-diary-duncan-ashbourne-hard-edge"
+    ],
+    "pollie_slug": "peter-duncan"
   }
 ]
