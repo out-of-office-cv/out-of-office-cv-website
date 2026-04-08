@@ -946,7 +946,7 @@
     "pollie_slug": "zoe-daniel"
   },
   {
-    "role": "Minister for Health, Mental Health and Wellbeing",
+    "role": "Minister for Health, Mental Health and Wellbeing, Minister for Ageing, Minister for Aboriginal Affairs",
     "organisation": "Tasmanian Government",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
@@ -954,10 +954,11 @@
       "https://www.premier.tas.gov.au/latest-news/2025/august/new-tasmanian-government-ministry-announced"
     ],
     "pollie_slug": "bridget-archer",
-    "start_date": "2025-08-07"
+    "start_date": "2025-08-07",
+    "verified_by": "khoi"
   },
   {
-    "role": "Treasurer",
+    "role": "Treasurer, Leader of the House, Minister for Macquarie Point Urban Renewal",
     "organisation": "Tasmanian Government",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
@@ -965,7 +966,8 @@
       "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/eric-abetz"
     ],
     "pollie_slug": "eric-abetz",
-    "start_date": "2025-08-07"
+    "start_date": "2025-08-07",
+    "verified_by": "khoi"
   },
   {
     "role": "Minister for Primary Industries and Water",
