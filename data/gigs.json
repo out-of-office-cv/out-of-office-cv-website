@@ -787,10 +787,13 @@
     "organisation": "Coram Deo Capital Pty Ltd",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.datacenterdynamics.com/en/news/australias-former-digital-minister-proposes-500m-top-secret-data-center-in-canberra/"
+      "https://www.datacenterdynamics.com/en/news/australias-former-digital-minister-proposes-500m-top-secret-data-center-in-canberra/",
+      "https://www.aph.gov.au/-/media/03_Senators_and_Members/32_Members/Register/47P/OR/Robert_47P.pdf",
+      "https://w.media/proposal-for-new-data-centre-in-canberra-founded-on-morrison-government-policy-under-scrutiny/"
     ],
     "pollie_slug": "stuart-robert",
-    "start_date": "2022-01-01"
+    "start_date": "2022-01-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Non-Executive Director",
@@ -801,7 +804,8 @@
       "https://wastemanagementreview.com.au/former-minister-joins-resources-recovery-sector"
     ],
     "pollie_slug": "karen-andrews",
-    "start_date": "2025-04-01"
+    "start_date": "2025-04-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Chief Executive Officer",
@@ -809,10 +813,12 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.thenewdaily.com.au/news/politics/australian-politics/2025/09/08/adam-bandt-conservation-job",
-      "https://au.news.yahoo.com/former-greens-leader-reveals-role-054008809.html"
+      "https://au.news.yahoo.com/former-greens-leader-reveals-role-054008809.html",
+      "https://www.acf.org.au/news/acf-appoints-adam-bandt-as-its-next-ceo"
     ],
     "pollie_slug": "adam-bandt",
-    "start_date": "2026-01-01"
+    "start_date": "2026-01-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Ambassador and Permanent Representative to the OECD",
