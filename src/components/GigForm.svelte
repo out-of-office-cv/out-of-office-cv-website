@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { GigCategory } from "../types"
   import { GIG_CATEGORIES } from "../types"
+  import { validateGigDate, DATE_HINT } from "../utils"
   import type { DraftGig } from "../stores/draft-gigs.svelte"
 
   interface PollieOption {
@@ -25,6 +26,9 @@
   let pollieSlug = $state("")
   let startDate = $state("")
   let endDate = $state("")
+
+  let startDateValidation = $derived(startDate ? validateGigDate(startDate) : null)
+  let endDateValidation = $derived(endDate ? validateGigDate(endDate) : null)
 
   let pollieSearch = $state("")
   let pollieComboboxOpen = $state(false)
@@ -65,11 +69,11 @@
       }
     }
     if (!pollieSlug.trim()) formErrors.pollieSlug = "Pollie slug is required"
-    if (startDate && !/^\d{4}-\d{2}-\d{2}$/.test(startDate)) {
-      formErrors.startDate = "Must be YYYY-MM-DD format"
+    if (startDate && !validateGigDate(startDate).valid) {
+      formErrors.startDate = `Must be ${DATE_HINT}`
     }
-    if (endDate && !/^\d{4}-\d{2}-\d{2}$/.test(endDate)) {
-      formErrors.endDate = "Must be YYYY-MM-DD format"
+    if (endDate && !validateGigDate(endDate).valid) {
+      formErrors.endDate = `Must be ${DATE_HINT}`
     }
 
     return Object.keys(formErrors).length === 0
@@ -244,14 +248,34 @@
     <div class="form-row two-col">
       <div class="form-group">
         <label for="start-date">Start date</label>
-        <input id="start-date" bind:value={startDate} type="date" />
+        <input
+          id="start-date"
+          bind:value={startDate}
+          type="text"
+          placeholder={DATE_HINT}
+          class:date-invalid={startDateValidation && !startDateValidation.valid}
+          class:date-valid={startDateValidation?.valid}
+        />
+        {#if startDateValidation && !startDateValidation.valid}
+          <p class="date-error">Not a valid date — use {DATE_HINT}</p>
+        {/if}
         {#if formErrors.startDate}
           <p class="error-text">{formErrors.startDate}</p>
         {/if}
       </div>
       <div class="form-group">
         <label for="end-date">End date</label>
-        <input id="end-date" bind:value={endDate} type="date" />
+        <input
+          id="end-date"
+          bind:value={endDate}
+          type="text"
+          placeholder={DATE_HINT}
+          class:date-invalid={endDateValidation && !endDateValidation.valid}
+          class:date-valid={endDateValidation?.valid}
+        />
+        {#if endDateValidation && !endDateValidation.valid}
+          <p class="date-error">Not a valid date — use {DATE_HINT}</p>
+        {/if}
         {#if formErrors.endDate}
           <p class="error-text">{formErrors.endDate}</p>
         {/if}
@@ -435,6 +459,20 @@
   .source-row input:focus {
     outline: none;
     border-color: var(--color-brand-1);
+  }
+
+  .date-invalid {
+    border-color: var(--color-red-1) !important;
+  }
+
+  .date-valid {
+    border-color: var(--color-green-1, #22c55e) !important;
+  }
+
+  .date-error {
+    color: var(--color-red-1);
+    font-size: 0.75rem;
+    margin: 0.25rem 0 0;
   }
 
   .error-text {

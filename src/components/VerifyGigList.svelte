@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { Gig } from "../types"
   import { GIG_CATEGORIES } from "../types"
+  import { validateGigDate, DATE_HINT } from "../utils"
   import type { Snippet } from "svelte"
 
   interface GigWithIndex extends Gig {
@@ -100,6 +101,11 @@
   function isFieldModified(index: number, field: keyof Gig): boolean {
     const edits = gigEdits[index]
     return edits !== undefined && field in edits
+  }
+
+  function getDateValidation(gig: GigWithIndex, field: "start_date" | "end_date") {
+    const val = getFieldValue(gig, field)
+    return val ? validateGigDate(val) : null
   }
 
   function hasAnyEdits(index: number): boolean {
@@ -328,10 +334,16 @@
                       {/if}
                     </div>
                     <input
-                      type="date"
+                      type="text"
                       value={getFieldValue(gig, "start_date")}
+                      placeholder={DATE_HINT}
+                      class:date-invalid={getDateValidation(gig, "start_date") && !getDateValidation(gig, "start_date")?.valid}
+                      class:date-valid={getDateValidation(gig, "start_date")?.valid}
                       oninput={(e) => updateStringField(gig.index, "start_date", e.currentTarget.value, gig.start_date)}
                     />
+                    {#if getDateValidation(gig, "start_date") && !getDateValidation(gig, "start_date")?.valid}
+                      <span class="date-error">Not a valid date — use {DATE_HINT}</span>
+                    {/if}
                     {#if isFieldModified(gig.index, "start_date")}
                       <span class="was-text">was: {gig.start_date || "none"}</span>
                     {/if}
@@ -344,10 +356,16 @@
                       {/if}
                     </div>
                     <input
-                      type="date"
+                      type="text"
                       value={getFieldValue(gig, "end_date")}
+                      placeholder={DATE_HINT}
+                      class:date-invalid={getDateValidation(gig, "end_date") && !getDateValidation(gig, "end_date")?.valid}
+                      class:date-valid={getDateValidation(gig, "end_date")?.valid}
                       oninput={(e) => updateStringField(gig.index, "end_date", e.currentTarget.value, gig.end_date)}
                     />
+                    {#if getDateValidation(gig, "end_date") && !getDateValidation(gig, "end_date")?.valid}
+                      <span class="date-error">Not a valid date — use {DATE_HINT}</span>
+                    {/if}
                     {#if isFieldModified(gig.index, "end_date")}
                       <span class="was-text">was: {gig.end_date || "none"}</span>
                     {/if}
@@ -627,6 +645,20 @@
     margin-top: 1.5rem;
     padding-top: 1rem;
     border-top: 1px solid var(--color-border);
+  }
+
+  .date-invalid {
+    border-color: var(--color-red-1) !important;
+  }
+
+  .date-valid {
+    border-color: var(--color-green-1, #22c55e) !important;
+  }
+
+  .date-error {
+    font-size: 0.75rem;
+    color: var(--color-red-1);
+    margin-top: 0.125rem;
   }
 
   .btn-expand {

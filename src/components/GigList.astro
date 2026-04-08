@@ -11,12 +11,14 @@ const { gigs } = Astro.props
 const verifiedGigs = gigs.filter((gig) => gig.verified_by)
 
 function getDateRange(gig: Gig): string {
-  if (gig.start_date) {
-    return gig.end_date
-      ? `${formatISODate(gig.start_date)} – ${formatISODate(gig.end_date)}`
-      : `${formatISODate(gig.start_date)} – present`
+  const hasEnd = gig.end_date && gig.end_date !== "unknown" && gig.end_date !== "present"
+  const hasStart = gig.start_date && gig.start_date !== "unknown"
+  if (hasStart) {
+    return hasEnd
+      ? `${formatISODate(gig.start_date!)} – ${formatISODate(gig.end_date!)}`
+      : `${formatISODate(gig.start_date!)} – present`
   }
-  return gig.end_date ? `until ${formatISODate(gig.end_date)}` : ""
+  return hasEnd ? `until ${formatISODate(gig.end_date!)}` : ""
 }
 
 function getHostname(url: string): string {
