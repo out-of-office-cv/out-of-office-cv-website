@@ -825,11 +825,11 @@
     "organisation": "Australian Government",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://www.foreignminister.gov.au/minister/penny-wong/media-release/ambassador-and-permanent-representative-australia-oecd",
-      "https://www.illawarramercury.com.au/story/9012807/stephen-jones-to-represent-australia-at-oecd-in-paris/"
+      "https://www.foreignminister.gov.au/minister/penny-wong/media-release/ambassador-and-permanent-representative-australia-oecd"
     ],
     "pollie_slug": "stephen-jones",
-    "start_date": "2025-09-11"
+    "start_date": "2025-09-11",
+    "verified_by": "khoi"
   },
   {
     "role": "Non-Executive Director",
@@ -840,7 +840,8 @@
       "https://www.finnewsnetwork.com.au/archives/finance_news_network2482256.html"
     ],
     "pollie_slug": "michael-sukkar",
-    "start_date": "2025-08-21"
+    "start_date": "2025-08-21",
+    "verified_by": "khoi"
   },
   {
     "role": "Director",
@@ -851,7 +852,8 @@
       "https://www.innovationaus.com/robyn-denholm-departs-tech-council-prompting-board-refresh/"
     ],
     "pollie_slug": "paul-fletcher",
-    "start_date": "2025-12-01"
+    "start_date": "2025-12-03",
+    "verified_by": "khoi"
   },
   {
     "role": "Professor of Practice, Workforce Skills & Innovation",
@@ -861,7 +863,8 @@
       "https://www.rmit.edu.au/news/all-news/2025/aug/brendan-oconnor-rmit"
     ],
     "pollie_slug": "brendan-oconnor",
-    "start_date": "2025-08-01"
+    "start_date": "2025-08-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Chair, First Nations Pharmacy Network",
@@ -872,10 +875,11 @@
       "https://ajp.com.au/news/former-minister-to-lead-first-nations-pharmacy-network/"
     ],
     "pollie_slug": "linda-burney",
-    "start_date": "2025-11-05"
+    "start_date": "2025-11-05",
+    "verified_by": "khoi"
   },
   {
-    "role": "Vice-Chancellor and President",
+    "role": "Vice-Chancellor",
     "organisation": "University of Canberra",
     "category": "Education, Academia & Research",
     "sources": [
@@ -883,7 +887,8 @@
       "https://ministers.dss.gov.au/media-releases/17341"
     ],
     "pollie_slug": "bill-shorten",
-    "start_date": "2025-02-01"
+    "start_date": "2025-02-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Chief Executive Officer",
@@ -894,7 +899,8 @@
       "https://www.businessnewsaustralia.com/articles/former-finance-minister-simon-birmingham-to-lead-australian-banking-association.html"
     ],
     "pollie_slug": "simon-birmingham",
-    "start_date": "2025-08-18"
+    "start_date": "2025-08-18",
+    "verified_by": "khoi"
   },
   {
     "role": "Board Member",
@@ -916,7 +922,8 @@
       "https://melbournecatholic.org/news/former-mp-keith-pitt-selected-as-australias-new-ambassador-to-the-holy-see/"
     ],
     "pollie_slug": "keith-pitt",
-    "start_date": "2025-02-16"
+    "start_date": "2025-02-16",
+    "verified_by": "khoi"
   },
   {
     "role": "Board of Directors",
@@ -926,7 +933,8 @@
       "https://spinalcure.org.au/news/spinalcure-appoints-linda-reynolds-csc-to-board-of-directors/"
     ],
     "pollie_slug": "linda-reynolds",
-    "start_date": "2026-01-23"
+    "start_date": "2026-01-23",
+    "verified_by": "khoi"
   },
   {
     "role": "Consultant and Advocate",
