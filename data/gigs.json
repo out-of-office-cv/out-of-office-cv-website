@@ -4219,7 +4219,8 @@
     ],
     "pollie_slug": "brendan-nelson",
     "start_date": "2012-12-17",
-    "end_date": "2019-12-31"
+    "end_date": "2019-12-31",
+    "verified_by": "khoi"
   },
   {
     "role": "Chair of Council",
@@ -4229,7 +4230,8 @@
       "https://www.awm.gov.au/media/press-releases/new-council-chair-appointed"
     ],
     "pollie_slug": "brendan-nelson",
-    "start_date": "2022-04-22"
+    "start_date": "2022-04-22",
+    "verified_by": "khoi"
   },
   {
     "role": "President, Boeing Australia, New Zealand and South Pacific",
@@ -4240,7 +4242,8 @@
     ],
     "pollie_slug": "brendan-nelson",
     "start_date": "2020-02-01",
-    "end_date": "2022-12-31"
+    "end_date": "2022-12-31",
+    "verified_by": "khoi"
   },
   {
     "role": "President, Boeing Global and Senior Vice President",
@@ -4250,16 +4253,18 @@
       "https://www.boeing.com/company/bios/dr-brendan-nelson"
     ],
     "pollie_slug": "brendan-nelson",
-    "start_date": "2023-01-12"
+    "start_date": "2023-01-12",
+    "verified_by": "khoi"
   },
   {
     "role": "Chairman",
     "organisation": "American Chamber of Commerce in Australia (AmCham)",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.aspi.org.au/bio/brendan-nelson"
+      "https://amcham.com.au/web/web/Information/CEO_Message/New_AmCham_Chair.aspx"
     ],
-    "pollie_slug": "brendan-nelson"
+    "pollie_slug": "brendan-nelson",
+    "verified_by": "khoi"
   },
   {
     "role": "Advisory Council Member",
