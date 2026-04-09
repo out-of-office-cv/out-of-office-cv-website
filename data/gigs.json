@@ -1048,10 +1048,12 @@
     "category": "Pharmaceutical & Biotechnology",
     "sources": [
       "https://www.prnewswire.com/news-releases/haemalogix-welcomes-former-australian-federal-minister-for-health-professor-the-hon-greg-hunt-to-the-company-board-as-non-executive-director-302149935.html",
-      "https://www.haemalogix.com/news/haemalogix-welcomes-former-federal-minister-for-health-professor-the-hon-greg-hunt-to-the-company-board-as-non-executive-director-"
+      "https://haemalogix.com/news-details/board-and-executive-team-update"
     ],
     "pollie_slug": "greg-hunt",
-    "start_date": "2024-05-20"
+    "start_date": "2024-05-20",
+    "verified_by": "khoi",
+    "end_date": "2025-10-08"
   },
   {
     "role": "Chair, Advisory Council",
@@ -1061,7 +1063,8 @@
       "https://www.monash.edu/news/articles/the-hon-greg-hunt-appointed-turner-institute-advisory-council-chair"
     ],
     "pollie_slug": "greg-hunt",
-    "start_date": "2022-10-01"
+    "start_date": "2022-10-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Honorary Enterprise Professor",
@@ -1072,7 +1075,8 @@
       "https://mdhs.unimelb.edu.au/news-and-events/news-archive/welcome-to-honorary-enterprise-professor-greg-hunt"
     ],
     "pollie_slug": "greg-hunt",
-    "start_date": "2022-12-01"
+    "start_date": "2023-02-07",
+    "verified_by": "khoi"
   },
   {
     "role": "Senior Advisor",
@@ -1083,28 +1087,30 @@
       "https://www.alvarezandmarsal.com/our-people/greg-hunt-0"
     ],
     "pollie_slug": "greg-hunt",
-    "start_date": "2025-05-27"
+    "start_date": "2025-05-27",
+    "verified_by": "khoi"
   },
   {
     "role": "Honorary Professor of Practice",
     "organisation": "UCL Global Business School for Health",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.alvarezandmarsal.com/our-people/greg-hunt-0",
-      "https://www.ucl.ac.uk/global-business-school-health/news/2024/feb/we-are-excited-announce-our-newest-ucl-gbsh-staff-members",
-      "https://www.fenews.co.uk/student-view/ucl-global-business-school-for-health-appoints-former-australian-health-minister-and-launches-undergrad-course/"
+      "https://www.ucl.ac.uk/population-health-sciences/news/2024/feb/we-are-excited-announce-our-newest-ucl-gbsh-staff-members"
     ],
     "pollie_slug": "greg-hunt",
-    "start_date": "2024-02-01"
+    "start_date": "2024-02-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Chair, CARDIO4Cities Accelerator Steering Committee",
     "organisation": "Novartis Foundation",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://www.prnewswire.com/news-releases/haemalogix-welcomes-former-australian-federal-minister-for-health-professor-the-hon-greg-hunt-to-the-company-board-as-non-executive-director-302149935.html"
+      "https://www.prnewswire.com/news-releases/haemalogix-welcomes-former-australian-federal-minister-for-health-professor-the-hon-greg-hunt-to-the-company-board-as-non-executive-director-302149935.html",
+      "https://www.linkedin.com/posts/greg-hunt-morn-pen_delighted-to-support-the-novartis-foundation-activity-7440870367679795200-_e0A/"
     ],
-    "pollie_slug": "greg-hunt"
+    "pollie_slug": "greg-hunt",
+    "verified_by": "khoi"
   },
   {
     "role": "Chief Executive Officer",
