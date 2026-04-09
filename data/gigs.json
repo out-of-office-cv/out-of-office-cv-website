@@ -4490,5 +4490,34 @@
       "https://www.indaily.com.au/news/2014/03/20/campaign-diary-duncan-ashbourne-hard-edge"
     ],
     "pollie_slug": "peter-duncan"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "University of Technology Sydney",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.uts.edu.au/news/2026/02/the-hon.-linda-burney-joins-uts-council",
+      "https://www.nsw.gov.au/ministerial-releases/linda-burney-joins-uts-council-bringing-lifelong-commitment-to-education"
+    ],
+    "pollie_slug": "linda-burney",
+    "start_date": "2026-02-19"
+  },
+  {
+    "role": "Director",
+    "organisation": "Amalgamated Telecom Holdings Limited",
+    "category": "Telecommunications & Network Infrastructure",
+    "sources": [
+      "https://www.paulfletcher.com.au/about-paul-fletcher"
+    ],
+    "pollie_slug": "paul-fletcher"
+  },
+  {
+    "role": "Adviser",
+    "organisation": "CompassIOT",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://www.paulfletcher.com.au/about-paul-fletcher"
+    ],
+    "pollie_slug": "paul-fletcher"
   }
 ]
