@@ -2028,10 +2028,12 @@
     "organisation": "Climate 200",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://www.crikey.com.au/2021/10/01/windsor-and-oakeshott-ride-again-in-climate-push/"
+      "https://www.crikey.com.au/2021/10/01/windsor-and-oakeshott-ride-again-in-climate-push/",
+      "https://www.climate200.com.au/about-us"
     ],
     "pollie_slug": "rob-oakeshott",
-    "start_date": "2021-10-01"
+    "start_date": "2021-10-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Medical Doctor (GP)",
@@ -4271,10 +4273,12 @@
     "organisation": "Climate 200",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://www.crikey.com.au/2021/10/01/windsor-and-oakeshott-ride-again-in-climate-push/"
+      "https://www.crikey.com.au/2021/10/01/windsor-and-oakeshott-ride-again-in-climate-push/",
+      "https://www.climate200.com.au/about-us"
     ],
     "pollie_slug": "tony-windsor",
-    "start_date": "2021-10-01"
+    "start_date": "2021-10-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Chairman",
