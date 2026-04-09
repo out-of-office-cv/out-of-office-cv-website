@@ -4387,7 +4387,8 @@
     ],
     "pollie_slug": "tony-messner",
     "start_date": "1997-08-01",
-    "end_date": "2003-07-01"
+    "end_date": "2003-07-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Director",
@@ -4398,7 +4399,8 @@
     ],
     "pollie_slug": "tony-messner",
     "start_date": "2004-01-01",
-    "end_date": "2006-01-01"
+    "end_date": "2006-01-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Chairman",
@@ -4409,7 +4411,8 @@
     ],
     "pollie_slug": "tony-messner",
     "start_date": "2006-01-01",
-    "end_date": "2009-01-01"
+    "end_date": "2009-01-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Treasurer",
@@ -4418,7 +4421,8 @@
     "sources": [
       "https://biography.senate.gov.au/messner-anthony-john/"
     ],
-    "pollie_slug": "tony-messner"
+    "pollie_slug": "tony-messner",
+    "verified_by": "khoi"
   },
   {
     "role": "Foundation Chairman",
