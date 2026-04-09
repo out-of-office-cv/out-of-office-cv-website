@@ -970,7 +970,7 @@
     "verified_by": "khoi"
   },
   {
-    "role": "Minister for Primary Industries and Water",
+    "role": "Minister for Primary Industries and Water, Minister for Veteran's Affairs",
     "organisation": "Tasmanian Government",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
@@ -978,7 +978,8 @@
       "https://www.premier.tas.gov.au/latest-news/2025/august/new-tasmanian-government-ministry-announced"
     ],
     "pollie_slug": "gavin-pearce",
-    "start_date": "2025-08-07"
+    "start_date": "2025-08-07",
+    "verified_by": "khoi"
   },
   {
     "role": "Member for Lyons",
@@ -988,7 +989,8 @@
       "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/brian-mitchell"
     ],
     "pollie_slug": "brian-mitchell",
-    "start_date": "2025-07-19"
+    "start_date": "2025-07-19",
+    "verified_by": "khoi"
   },
   {
     "role": "Owner/Publican",
@@ -1012,17 +1014,19 @@
       "https://www.hoover.org/profiles/marise-payne"
     ],
     "pollie_slug": "marise-payne",
-    "start_date": "2024-01-31"
+    "start_date": "2024-01-31",
+    "verified_by": "khoi"
   },
   {
     "role": "Vice-Chancellor's Fellow & Professor of Practice",
     "organisation": "Western Sydney University",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.westernsydney.edu.au/newscentre/news_centre/more_news_stories/marise_payne_joins_western_sydney_university"
+      "https://www.westernsydney.edu.au/news-centre/stories/2024/marise-payne-joins-western-sydney-university"
     ],
     "pollie_slug": "marise-payne",
-    "start_date": "2024-02-01"
+    "start_date": "2024-02-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Advisory Council Member",
@@ -1031,7 +1035,8 @@
     "sources": [
       "https://orfamerica.org/board"
     ],
-    "pollie_slug": "marise-payne"
+    "pollie_slug": "marise-payne",
+    "verified_by": "khoi"
   },
   {
     "role": "Senior Advisor",
@@ -1040,7 +1045,8 @@
     "sources": [
       "https://www.bondipartners.com/teams/marise-payne/"
     ],
-    "pollie_slug": "marise-payne"
+    "pollie_slug": "marise-payne",
+    "verified_by": "khoi"
   },
   {
     "role": "Non-Executive Director",
