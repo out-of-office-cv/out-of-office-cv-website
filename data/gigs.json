@@ -1211,10 +1211,10 @@
     "organisation": "headspace Cairns",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://www.cairnslocalnews.com.au/headspace-cairns-celebrates-10-years-of-service-2022-05-09",
-      "https://www.northqueenslandregister.com.au/story/8956964/warren-entsch-on-life-after-politics-and-plans-in-retirement/"
+      "https://nqphn.com.au/news/headspace-cairns-marks-major-milestone-delivering-vital-mental-health-services-young-people/"
     ],
-    "pollie_slug": "warren-entsch"
+    "pollie_slug": "warren-entsch",
+    "verified_by": "khoi"
   },
   {
     "role": "Board member",
@@ -1223,17 +1223,18 @@
     "sources": [
       "https://www.northqueenslandregister.com.au/story/8956964/warren-entsch-on-life-after-politics-and-plans-in-retirement/"
     ],
-    "pollie_slug": "warren-entsch"
+    "pollie_slug": "warren-entsch",
+    "verified_by": "khoi"
   },
   {
     "role": "Global Vice Chair and Co-Chair, Asia-Pacific Caucus",
     "organisation": "Global TB Caucus",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://www.globaltbcaucus.org/who-we-are",
-      "https://www.northqueenslandregister.com.au/story/8956964/warren-entsch-on-life-after-politics-and-plans-in-retirement/"
+      "https://www.globaltbcaucus.org/who-we-are"
     ],
-    "pollie_slug": "warren-entsch"
+    "pollie_slug": "warren-entsch",
+    "verified_by": "khoi"
   },
   {
     "role": "Co-founder",
@@ -1241,9 +1242,11 @@
     "category": "Environment, Climate & Sustainability",
     "sources": [
       "https://the-riotact.com/warren-entsch-parliamentarian-croc-catcher-and-passionate-advocate-for-threatened-species/666789",
-      "https://www.northqueenslandregister.com.au/story/8956964/warren-entsch-on-life-after-politics-and-plans-in-retirement/"
+      "https://www.northqueenslandregister.com.au/story/8956964/warren-entsch-on-life-after-politics-and-plans-in-retirement/",
+      "https://www.newsport.com.au/2025/february/entsch-on-global-rescue-mission"
     ],
-    "pollie_slug": "warren-entsch"
+    "pollie_slug": "warren-entsch",
+    "verified_by": "khoi"
   },
   {
     "role": "Barrister",
