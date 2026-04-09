@@ -1148,39 +1148,40 @@
       "https://www.deepcutnews.com/about"
     ],
     "pollie_slug": "max-chandler-mather",
-    "start_date": "2025-09-01"
+    "start_date": "2025-09-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Director of Government Affairs and Policy",
     "organisation": "Alexion Pharmaceuticals Australasia",
     "category": "Pharmaceutical & Biotechnology",
     "sources": [
-      "https://www.healthindustryhub.com.au/pharmaceutical-news-trends/from-parliament-to-health-industry-trent-zimmerman-takes-the-helm-at-alexion-paving-the-way-for-transformation/",
-      "https://theorg.com/org/alexion-pharmaceuticals/org-chart/trent-zimmerman"
+      "https://www.linkedin.com/posts/trent-zimmerman-42037739_some-career-news-from-me-i-am-excited-that-activity-7091693438559006720-TOBf/"
     ],
     "pollie_slug": "trent-zimmerman",
-    "start_date": "2023-08-01"
+    "start_date": "2023-08-01",
+    "verified_by": "khoi"
   },
   {
     "role": "Board Member",
     "organisation": "Social Policy Group",
-    "category": "Professional Services & Management Consulting",
+    "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://socialpolicy.org.au/the-board/"
     ],
-    "pollie_slug": "trent-zimmerman"
+    "pollie_slug": "trent-zimmerman",
+    "verified_by": "khoi"
   },
   {
     "role": "Barrister",
     "organisation": "Geoffrey Miller Chambers",
     "category": "Legal & Judicial",
     "sources": [
-      "https://doylesguide.com/leading-criminal-law-barristers-western-australia-2025/",
-      "https://millerchambers.com.au/",
-      "https://doylesguide.com/leading-criminal-law-barristers-western-australia-2025/"
+      "https://millerchambers.com.au/#barristers"
     ],
     "pollie_slug": "christian-porter",
-    "start_date": "2022-06-01"
+    "start_date": "2022-06-01",
+    "verified_by": "khoi"
   },
   {
     "role": "President",
