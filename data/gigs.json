@@ -4529,5 +4529,134 @@
       "https://www.paulfletcher.com.au/about-paul-fletcher"
     ],
     "pollie_slug": "paul-fletcher"
+  },
+  {
+    "role": "Senior Adviser",
+    "organisation": "Lazard",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paul_Keating"
+    ],
+    "pollie_slug": "paul-keating",
+    "start_date": "1996-06-01"
+  },
+  {
+    "role": "International Advisory Council Member",
+    "organisation": "China Development Bank",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paul_Keating",
+      "https://www.3aw.com.au/the-china-conflict-paul-keating-has-you-need-to-be-aware-of/"
+    ],
+    "pollie_slug": "paul-keating",
+    "start_date": "2005-01-01",
+    "end_date": "2018-12-31"
+  },
+  {
+    "role": "Visiting Professor of Public Policy",
+    "organisation": "University of New South Wales",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paul_Keating",
+      "https://www.naa.gov.au/explore-collection/australias-prime-ministers/paul-keating/after-office"
+    ],
+    "pollie_slug": "paul-keating"
+  },
+  {
+    "role": "Co-founder & Shareholder",
+    "organisation": "Boost Mobile Australia",
+    "category": "Telecommunications & Network Infrastructure",
+    "sources": [
+      "https://www.techguide.com.au/news/mobiles-news/telstra-buys-boost-mobile-for-140m-and-earns-former-pm-paul-keating-a-40m-windfall/"
+    ],
+    "pollie_slug": "paul-keating",
+    "start_date": "2000-01-01",
+    "end_date": "2024-12-03"
+  },
+  {
+    "role": "Director",
+    "organisation": "MaxCap Group",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.apartments.com.au/news/former-pm-paul-keating-takes-stake-joins-board-of-commercial-financier-maxcap"
+    ],
+    "pollie_slug": "paul-keating",
+    "start_date": "2017-01-01",
+    "end_date": "2018-12-31"
+  },
+  {
+    "role": "Executive Director",
+    "organisation": "National Catholic Education Commission",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.bbcatholic.org.au/news/latest-news/jacinta-collins-appointed-executive-director-of-ncec",
+      "https://cathnews.com/2025/08/28/collins-hailed-for-significant-service-to-catholic-education/"
+    ],
+    "pollie_slug": "jacinta-collins",
+    "start_date": "2019-02-18",
+    "end_date": "2026-02-28"
+  },
+  {
+    "role": "Winthrop Professor / Emerita Professor",
+    "organisation": "University of Western Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://research-repository.uwa.edu.au/en/persons/carmen-lawrence/",
+      "https://en.wikipedia.org/wiki/Carmen_Lawrence"
+    ],
+    "pollie_slug": "carmen-lawrence",
+    "start_date": "2008-01-01"
+  },
+  {
+    "role": "President",
+    "organisation": "Conservation Council of Western Australia",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Carmen_Lawrence"
+    ],
+    "pollie_slug": "carmen-lawrence",
+    "start_date": "2016-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "COTA WA",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.cotawa.org.au/media-release-dr-carmen-lawrence-ao-appointed-new-chair-of-cota-wa/"
+    ],
+    "pollie_slug": "carmen-lawrence",
+    "start_date": "2024-08-06"
+  },
+  {
+    "role": "President & Chair of the Board",
+    "organisation": "Diabetes Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.diabetesaustralia.com.au/blog/diabetes-australia-congratulates-president-judi-moylan/"
+    ],
+    "pollie_slug": "judi-moylan",
+    "start_date": "2013-09-01",
+    "end_date": "2018-12-31"
+  },
+  {
+    "role": "Government Affairs Adviser",
+    "organisation": "Diabetes Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.diabetesaustralia.com.au/mediarelease/barry-ofarrell-appointed-as-diabetes-australias-president-and-board-chair/"
+    ],
+    "pollie_slug": "judi-moylan",
+    "start_date": "2019-01-01",
+    "end_date": "2022-10-31"
+  },
+  {
+    "role": "Leader",
+    "organisation": "Gerard Rennick People First",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gerard_Rennick_People_First"
+    ],
+    "pollie_slug": "gerard-rennick",
+    "start_date": "2024-08-25"
   }
 ]
