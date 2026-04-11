@@ -4658,5 +4658,55 @@
     ],
     "pollie_slug": "gerard-rennick",
     "start_date": "2024-08-25"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "Insurance Commission of Western Australia",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.icwa.wa.gov.au/about-us/board"
+    ],
+    "pollie_slug": "ben-morton",
+    "start_date": "2022-10-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Southern Ports Authority",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.southernports.com.au/board"
+    ],
+    "pollie_slug": "ben-morton",
+    "start_date": "2023-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Harry Perkins Institute of Medical Research",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://perkins.org.au/former-federal-minister-joins-perkins-board/"
+    ],
+    "pollie_slug": "ben-morton",
+    "start_date": "2024-02-08"
+  },
+  {
+    "role": "Director",
+    "organisation": "Celebrate WA",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.celebratewa.com.au/our-people/the-hon-ben-morton/"
+    ],
+    "pollie_slug": "ben-morton",
+    "start_date": "2024-01-01"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Perth Bears Rugby League Football Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.nrl.com/news/2025/06/28/perth-bears-inaugural-board-announced/"
+    ],
+    "pollie_slug": "ben-morton",
+    "start_date": "2025-06-28"
   }
 ]
