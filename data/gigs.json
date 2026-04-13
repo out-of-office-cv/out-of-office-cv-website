@@ -4931,5 +4931,15 @@
       "https://biography.senate.gov.au/richardson-graham-frederick/"
     ],
     "pollie_slug": "graham-richardson"
+  },
+  {
+    "role": "Director",
+    "organisation": "Queensland Investment Corporation",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://thenightly.com.au/business/ex-opposition-leader-peter-dutton-score-new-130000-a-year-job-to-sit-on-queensland-investment-corporation-c-22122602"
+    ],
+    "pollie_slug": "peter-dutton",
+    "start_date": "2026-04-10"
   }
 ]
