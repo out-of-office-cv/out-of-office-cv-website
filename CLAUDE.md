@@ -1,8 +1,8 @@
 # Agents
 
-Astro 6 site with TypeScript, Svelte 5, and Bits UI. Data loaded at build time
-from CSV and JSON. Always do things the idiomatic Astro way, using modern
-TypeScript, Svelte 5 runes, and Astro best practices.
+Astro 6 site with TypeScript and Svelte 5. Data loaded at build time from CSV
+and JSON. Always do things the idiomatic Astro way, using modern TypeScript,
+Svelte 5 runes, and Astro best practices.
 
 This static site is hosted at `https://www.outofoffice.cv` using GitHub Pages.
 
@@ -42,9 +42,10 @@ The two main types in this site's data model are `Pollie` (a politician) and
 - `src/components/*.svelte` --- interactive Svelte 5 islands (client:load)
 - `src/stores/*.svelte.ts` --- Svelte 5 reactive stores (draft gigs, GitHub auth, PR)
 - `src/pages/index.astro` --- home page with PollieList island
-- `src/pages/about.astro` --- about page
+- `src/pages/about.md` --- about page
 - `src/pages/contribute.astro` --- contribute page with GigEntryForm island
 - `src/pages/pollies/[slug].astro` --- dynamic pollie detail pages
 - `data/pollies.csv` --- pollie data from APH Parliamentary Handbook API
 - `data/gigs.json` --- post-office roles data
+- `data/gigs.ts` --- typed re-export of `gigs.json` as `Gig[]`
 - `data/gigs-schema.ts` --- Zod schema for gig validation
