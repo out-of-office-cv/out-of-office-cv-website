@@ -2,6 +2,7 @@ import { readFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
 import type { Pollie, House, Gig } from "./types";
 import { parseCSV, slugify, deduplicatePollies } from "./utils";
+import { GigsArraySchema } from "../data/gigs-schema";
 
 function buildPhotoUrl(phid: string): string {
   return `https://www.aph.gov.au/api/parliamentarian/${phid}/image`;
@@ -45,5 +46,6 @@ export function loadGigs(dataDir: string): Gig[] {
     return [];
   }
   const content = readFileSync(gigsPath, "utf-8");
-  return JSON.parse(content);
+  const parsed = JSON.parse(content);
+  return GigsArraySchema.parse(parsed);
 }

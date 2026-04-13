@@ -134,6 +134,10 @@
 <div class="gig-entry-form">
   <GitHubAuthSection {auth} />
 
+  {#if drafts.storageError}
+    <div class="warning-box" role="alert">{drafts.storageError}</div>
+  {/if}
+
   <div class="mode-tabs">
     <button
       type="button"

@@ -2,6 +2,7 @@ import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { z } from "zod";
 import { GIG_CATEGORIES } from "../src/types";
 import { GigSchema, GigsArraySchema } from "../data/gigs-schema";
 
@@ -15,7 +16,7 @@ describe("gigs.json schema validation", () => {
     const result = GigsArraySchema.safeParse(data);
 
     if (!result.success) {
-      console.error("Validation errors:", result.error.format());
+      console.error("Validation errors:\n" + z.prettifyError(result.error));
     }
 
     expect(result.success).toBe(true);

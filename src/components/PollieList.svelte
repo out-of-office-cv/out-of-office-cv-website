@@ -126,9 +126,18 @@
 <div class="pollie-filters">
   <h2 class="filter-heading">Find a politician</h2>
 
-  <!-- svelte-ignore a11y_role_supports_aria_props -->
   <div class="search-wrapper">
+    <label for="pollie-search" class="visually-hidden">
+      Search politicians by name, electorate, state or party
+    </label>
+    <!--
+      Svelte's a11y linter follows ARIA 1.1, where role="combobox" had to wrap
+      the input. ARIA 1.2 (the current spec) puts the role on the input itself,
+      so this pattern is correct — see WAI-ARIA Authoring Practices "Combobox".
+    -->
+    <!-- svelte-ignore a11y_role_supports_aria_props -->
     <input
+      id="pollie-search"
       type="text"
       bind:value={searchInput}
       oninput={handleSearchInput}
@@ -271,6 +280,18 @@
   .search-wrapper {
     position: relative;
     margin-bottom: 0.75rem;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 
   .pollie-search {

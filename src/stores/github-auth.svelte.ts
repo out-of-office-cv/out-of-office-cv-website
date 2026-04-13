@@ -1,13 +1,18 @@
 import { Octokit } from "@octokit/rest";
+import { getVerifierId } from "../config";
 
 const STORAGE_KEY_TOKEN = "ooo-github-token";
 
 const isBrowser = typeof window !== "undefined";
 
-const VERIFIER_MAP: Record<string, string> = {
-  "out-of-office-cv": "khoi",
-  benswift: "ben",
-};
+function safeSetItem(key: string, value: string): boolean {
+  try {
+    localStorage.setItem(key, value);
+    return true;
+  } catch {
+    return false;
+  }
+}
 
 export function createGitHubAuth() {
   let token = $state("");
@@ -16,7 +21,7 @@ export function createGitHubAuth() {
   let tokenError = $state("");
 
   let isAuthenticated = $derived(!!username);
-  let verifierId = $derived(VERIFIER_MAP[username] || null);
+  let verifierId = $derived(getVerifierId(username));
   let canVerify = $derived(verifierId !== null);
 
   async function validateToken(t: string): Promise<string | null> {
@@ -39,7 +44,11 @@ export function createGitHubAuth() {
     if (!isBrowser) return;
     const user = await validateToken(token);
     if (user) {
-      localStorage.setItem(STORAGE_KEY_TOKEN, token);
+      if (!safeSetItem(STORAGE_KEY_TOKEN, token)) {
+        tokenError =
+          "Could not save token — browser storage is full or disabled.";
+        return;
+      }
       username = user;
     }
   }

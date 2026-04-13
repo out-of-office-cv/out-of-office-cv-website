@@ -12,10 +12,17 @@ export interface DraftGig extends Gig {
 export function createDraftGigs() {
   let gigs = $state<DraftGig[]>([]);
   let editingGigId = $state<string | null>(null);
+  let storageError = $state("");
 
   function saveDrafts(): void {
     if (!isBrowser) return;
-    localStorage.setItem(STORAGE_KEY_DRAFTS, JSON.stringify(gigs));
+    try {
+      localStorage.setItem(STORAGE_KEY_DRAFTS, JSON.stringify(gigs));
+      storageError = "";
+    } catch {
+      storageError =
+        "Could not save drafts — browser storage is full or disabled.";
+    }
   }
 
   function loadDrafts(): void {
@@ -75,7 +82,11 @@ export function createDraftGigs() {
 
   function setLastPollie(slug: string): void {
     if (!isBrowser) return;
-    localStorage.setItem(STORAGE_KEY_LAST_POLLIE, slug);
+    try {
+      localStorage.setItem(STORAGE_KEY_LAST_POLLIE, slug);
+    } catch {
+      // Non-critical: last-pollie hint can be lost without harming drafts.
+    }
   }
 
   function generateFileUpdate(content: string): string {
@@ -91,6 +102,9 @@ export function createDraftGigs() {
     },
     get editingGigId() {
       return editingGigId;
+    },
+    get storageError() {
+      return storageError;
     },
     loadDrafts,
     addGig,

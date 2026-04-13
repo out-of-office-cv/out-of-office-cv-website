@@ -1,7 +1,10 @@
 import { Octokit } from "@octokit/rest";
-
-const REPO_OWNER = "out-of-office-cv";
-const REPO_NAME = "out-of-office-cv-website";
+import {
+  REPO_OWNER,
+  REPO_NAME,
+  REPO_BASE_BRANCH,
+  DATA_FILE_PATH,
+} from "../config";
 
 function base64ToUtf8(base64: string): string {
   const binary = atob(base64.replace(/\n/g, ""));
@@ -95,15 +98,15 @@ export function createPullRequest(getStoredToken: () => string | null) {
       const { data: mainRef } = await octokit.git.getRef({
         owner: REPO_OWNER,
         repo: REPO_NAME,
-        ref: "heads/main",
+        ref: `heads/${REPO_BASE_BRANCH}`,
       });
       const mainSha = mainRef.object.sha;
 
       const { data: fileData } = await octokit.repos.getContent({
         owner: REPO_OWNER,
         repo: REPO_NAME,
-        path: "data/gigs.json",
-        ref: "main",
+        path: DATA_FILE_PATH,
+        ref: REPO_BASE_BRANCH,
       });
 
       if (!("content" in fileData)) {
@@ -131,7 +134,7 @@ export function createPullRequest(getStoredToken: () => string | null) {
       await octokit.repos.createOrUpdateFileContents({
         owner: REPO_OWNER,
         repo: REPO_NAME,
-        path: "data/gigs.json",
+        path: DATA_FILE_PATH,
         message: options.title,
         content: utf8ToBase64(newContent),
         branch: branchName,
@@ -144,7 +147,7 @@ export function createPullRequest(getStoredToken: () => string | null) {
         title: options.title,
         body: options.body,
         head: branchName,
-        base: "main",
+        base: REPO_BASE_BRANCH,
       });
 
       number = pr.number;

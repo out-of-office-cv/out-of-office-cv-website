@@ -14,3 +14,9 @@ export {
   deduplicatePollies,
   type PartyColour,
 } from "./pollie";
+export {
+  countVerifiedGigsByPollie,
+  getDecade,
+  isDecade1980sOrLater,
+  getPolliesByDecade,
+} from "./decade";
