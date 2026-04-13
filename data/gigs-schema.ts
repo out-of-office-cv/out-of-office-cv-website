@@ -5,7 +5,12 @@ export const GigSchema = z.object({
   role: z.string().min(1),
   organisation: z.string().min(1),
   category: z.enum(GIG_CATEGORIES),
-  sources: z.array(z.url()).min(1),
+  sources: z
+    .array(z.url())
+    .min(1)
+    .refine((urls) => new Set(urls).size === urls.length, {
+      message: "sources must not contain duplicate URLs",
+    }),
   verified_by: z.string().optional(),
   pollie_slug: z.string().min(1),
   start_date: z.string().optional(),

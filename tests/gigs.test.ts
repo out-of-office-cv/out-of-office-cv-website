@@ -92,6 +92,19 @@ describe("GigSchema validation", () => {
     expect(result.success).toBe(false);
   });
 
+  it("rejects gig with duplicate sources", () => {
+    const invalidGig = {
+      role: "Board Member",
+      organisation: "Test Corp",
+      category: "Professional Services & Management Consulting",
+      sources: ["https://example.com/a", "https://example.com/a"],
+      pollie_slug: "test-pollie",
+    };
+
+    const result = GigSchema.safeParse(invalidGig);
+    expect(result.success).toBe(false);
+  });
+
   it("rejects gig with invalid source URL", () => {
     const invalidGig = {
       role: "Board Member",
