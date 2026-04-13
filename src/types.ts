@@ -12,6 +12,11 @@ export interface Pollie {
   photoUrl: string;
 }
 
+export interface GigCountSplit {
+  verified: number;
+  unverified: number;
+}
+
 export type PollieListItem = Pick<
   Pollie,
   | "slug"
@@ -23,7 +28,7 @@ export type PollieListItem = Pick<
   | "house"
   | "photoUrl"
 > & {
-  gigCount: number;
+  gigCount: GigCountSplit;
 };
 
 export interface PolliesByDecade {

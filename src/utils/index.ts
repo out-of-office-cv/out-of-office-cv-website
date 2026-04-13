@@ -15,8 +15,12 @@ export {
   type PartyColour,
 } from "./pollie";
 export {
-  countVerifiedGigsByPollie,
   getDecade,
   isDecade1980sOrLater,
   getPolliesByDecade,
 } from "./decade";
+export {
+  countGigsByPollie,
+  sortGigsForDisplay,
+  sortGigsForVerification,
+} from "./gigs";

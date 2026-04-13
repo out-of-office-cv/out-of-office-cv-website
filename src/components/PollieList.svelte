@@ -249,9 +249,17 @@
               <span class="pollie-location">
                 {pollie.division || pollie.state}{pollie.division ? `, ${pollie.state}` : ""}
               </span>
-              {#if pollie.gigCount > 0}
+              {#if pollie.gigCount.verified > 0 && pollie.gigCount.unverified === 0}
                 <span class="gig-count">
-                  {pollie.gigCount} {pollie.gigCount === 1 ? "gig" : "gigs"}
+                  {pollie.gigCount.verified} {pollie.gigCount.verified === 1 ? "gig" : "gigs"}
+                </span>
+              {:else if pollie.gigCount.verified > 0}
+                <span class="gig-count">
+                  {pollie.gigCount.verified} {pollie.gigCount.verified === 1 ? "gig" : "gigs"} ({pollie.gigCount.unverified} unverified)
+                </span>
+              {:else if pollie.gigCount.unverified > 0}
+                <span class="gig-count gig-count-unverified">
+                  {pollie.gigCount.unverified} unverified
                 </span>
               {/if}
             </div>
@@ -461,6 +469,10 @@
     background: var(--color-bg-alt);
     padding: 0.125rem 0.5rem;
     border-radius: 9999px;
+  }
+
+  .gig-count-unverified {
+    font-style: italic;
   }
 
   .no-results {

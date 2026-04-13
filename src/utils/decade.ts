@@ -1,16 +1,5 @@
-import type { Gig, PollieListItem, PolliesByDecade } from "../types";
+import type { GigCountSplit, PollieListItem, PolliesByDecade } from "../types";
 import { parseDate } from "./date";
-
-export function countVerifiedGigsByPollie(gigs: Gig[]): Map<string, number> {
-  const counts = new Map<string, number>();
-  for (const gig of gigs) {
-    if (gig.verified_by) {
-      const current = counts.get(gig.pollie_slug) || 0;
-      counts.set(gig.pollie_slug, current + 1);
-    }
-  }
-  return counts;
-}
 
 export function getDecade(date: Date | null): string {
   if (!date) return "Current";
@@ -36,7 +25,7 @@ export function getPolliesByDecade(
       ceasedDate: string;
       house: "senate" | "reps";
       photoUrl: string;
-      gigCount: number;
+      gigCount: GigCountSplit;
     };
   }>,
 ): PolliesByDecade[] {

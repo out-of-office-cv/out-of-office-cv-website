@@ -1,6 +1,6 @@
 ---
 import type { Gig } from "../types"
-import { formatISODate } from "../utils"
+import { formatISODate, sortGigsForDisplay } from "../utils"
 import PollieBadge from "./PollieBadge.astro"
 
 interface Props {
@@ -8,7 +8,7 @@ interface Props {
 }
 
 const { gigs } = Astro.props
-const verifiedGigs = gigs.filter((gig) => gig.verified_by)
+const sortedGigs = sortGigsForDisplay(gigs)
 
 function getDateRange(gig: Gig): string {
   const hasEnd = gig.end_date && gig.end_date !== "unknown" && gig.end_date !== "present"
@@ -32,16 +32,21 @@ function getHostname(url: string): string {
 
 <div class="gig-section">
   <h2>Post-office roles</h2>
-  {verifiedGigs.length === 0 ? (
+  {sortedGigs.length === 0 ? (
     <p class="no-gigs">
       No out-of-office gigs found yet. Know of one?
       <a href="/contribute">Help us add it.</a>
     </p>
   ) : (
     <ul class="gig-list">
-      {verifiedGigs.map((gig) => (
-        <li class="gig-card">
-          <div class="gig-role">{gig.role}</div>
+      {sortedGigs.map((gig) => (
+        <li class:list={["gig-card", !gig.verified_by && "gig-card-unverified"]}>
+          <div class="gig-role">
+            {gig.role}
+            {!gig.verified_by && (
+              <span class="unverified-label" title="This gig has not been human-verified yet">Unverified</span>
+            )}
+          </div>
           <div class="gig-organisation">{gig.organisation}</div>
           <div class="gig-meta">
             <PollieBadge variant="category">{gig.category}</PollieBadge>
@@ -92,11 +97,30 @@ function getHostname(url: string): string {
     background: var(--color-bg-soft);
   }
 
+  .gig-card-unverified {
+    opacity: 0.6;
+  }
+
   .gig-role {
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--color-text-1);
     margin-bottom: 0.25rem;
+  }
+
+  .unverified-label {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--color-text-2);
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    padding: 0.0625rem 0.375rem;
+    border-radius: 3px;
+    margin-left: 0.5rem;
+    vertical-align: middle;
   }
 
   .gig-organisation {

@@ -2,7 +2,7 @@ import { defineCollection } from "astro:content";
 import { z } from "astro/zod";
 import { resolve } from "node:path";
 import { loadPollies, loadGigs } from "./loaders";
-import { countVerifiedGigsByPollie } from "./utils/decade";
+import { countGigsByPollie } from "./utils/gigs";
 import { GIG_CATEGORIES } from "./types";
 import type { Gig } from "./types";
 
@@ -23,7 +23,7 @@ const pollies = defineCollection({
   loader: async () => {
     const allPollies = loadPollies(dataDir);
     const allGigs = loadGigs(dataDir);
-    const gigCounts = countVerifiedGigsByPollie(allGigs);
+    const gigCounts = countGigsByPollie(allGigs);
     const gigsByPollie = new Map<string, Gig[]>();
     for (const gig of allGigs) {
       const existing = gigsByPollie.get(gig.pollie_slug) || [];
@@ -34,7 +34,7 @@ const pollies = defineCollection({
     return allPollies.map((pollie) => ({
       id: pollie.slug,
       ...pollie,
-      gigCount: gigCounts.get(pollie.slug) || 0,
+      gigCount: gigCounts.get(pollie.slug) ?? { verified: 0, unverified: 0 },
       gigs: gigsByPollie.get(pollie.slug) || [],
     }));
   },
@@ -48,7 +48,10 @@ const pollies = defineCollection({
     ceasedDate: z.string(),
     house: z.enum(["senate", "reps"]),
     photoUrl: z.string(),
-    gigCount: z.number(),
+    gigCount: z.object({
+      verified: z.number(),
+      unverified: z.number(),
+    }),
     gigs: z.array(gigSchema),
   }),
 });

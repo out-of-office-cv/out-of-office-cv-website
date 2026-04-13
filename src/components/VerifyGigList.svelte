@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { Gig } from "../types"
   import { GIG_CATEGORIES } from "../types"
-  import { validateGigDate, DATE_HINT } from "../utils"
+  import { validateGigDate, DATE_HINT, sortGigsForVerification } from "../utils"
   import type { Snippet } from "svelte"
 
   interface GigWithIndex extends Gig {
@@ -32,10 +32,12 @@
   let expandedIndex = $state<number | null>(null)
   let gigEdits = $state<Record<number, Partial<Gig>>>({})
 
+  let sortedGigs = $derived(sortGigsForVerification(unverifiedGigs))
+
   let filteredGigs = $derived.by(() => {
     const query = verifySearch.toLowerCase().trim()
-    if (!query) return unverifiedGigs
-    return unverifiedGigs.filter(
+    if (!query) return sortedGigs
+    return sortedGigs.filter(
       (gig) =>
         gig.role.toLowerCase().includes(query) ||
         gig.organisation.toLowerCase().includes(query) ||

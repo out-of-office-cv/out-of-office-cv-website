@@ -1,43 +1,9 @@
 import { describe, it, expect } from "vitest";
 import {
-  countVerifiedGigsByPollie,
   getDecade,
   isDecade1980sOrLater,
   getPolliesByDecade,
 } from "../src/utils/decade";
-import type { Gig } from "../src/types";
-
-const baseGig = {
-  role: "Board Member",
-  organisation: "Org",
-  category: "Professional Services & Management Consulting" as const,
-  sources: ["https://example.com"],
-  pollie_slug: "x",
-};
-
-describe("countVerifiedGigsByPollie", () => {
-  it("counts only verified gigs per pollie", () => {
-    const gigs: Gig[] = [
-      { ...baseGig, pollie_slug: "a", verified_by: "ben" },
-      { ...baseGig, pollie_slug: "a", verified_by: "ben" },
-      { ...baseGig, pollie_slug: "a" },
-      { ...baseGig, pollie_slug: "b", verified_by: "khoi" },
-    ];
-    const counts = countVerifiedGigsByPollie(gigs);
-    expect(counts.get("a")).toBe(2);
-    expect(counts.get("b")).toBe(1);
-  });
-
-  it("returns empty map for no gigs", () => {
-    expect(countVerifiedGigsByPollie([]).size).toBe(0);
-  });
-
-  it("ignores pollies with no verified gigs", () => {
-    const gigs: Gig[] = [{ ...baseGig, pollie_slug: "a" }];
-    const counts = countVerifiedGigsByPollie(gigs);
-    expect(counts.has("a")).toBe(false);
-  });
-});
 
 describe("getDecade", () => {
   it("returns Current for null", () => {
@@ -90,7 +56,7 @@ describe("getPolliesByDecade", () => {
         ceasedDate: over.ceasedDate ?? "",
         house: "reps" as const,
         photoUrl: "",
-        gigCount: 0,
+        gigCount: { verified: 0, unverified: 0 },
       },
     };
   }
