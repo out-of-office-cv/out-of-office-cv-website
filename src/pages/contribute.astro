@@ -15,11 +15,36 @@ const allGigs = loadGigs(dataDir)
 const gigsWithIndex = allGigs.map((gig, index) => ({ ...gig, index }))
 ---
 
-<BaseLayout title="Add gigs">
-  <h1>Add gigs</h1>
+<BaseLayout title="Contribute">
+  <section class="contribute-intro">
+    <h1>File a gig</h1>
+    <p class="lede">
+      Contributions are made by opening a pull request against the public
+      data repository. Add entries you've seen reported, or verify existing
+      entries against their sources. Every change is reviewed before it
+      appears on the site.
+    </p>
+  </section>
+
   <GigEntryForm
     pollies={pollieOptions}
     gigs={gigsWithIndex}
     client:load
   />
 </BaseLayout>
+
+<style>
+  .contribute-intro {
+    margin-bottom: var(--space-2xl);
+    max-width: var(--measure-reading);
+  }
+
+  .contribute-intro h1 {
+    margin-bottom: var(--space-md);
+  }
+
+  .lede {
+    font-size: 1.05rem;
+    color: var(--color-ink-2);
+  }
+</style>

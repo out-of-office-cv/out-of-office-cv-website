@@ -9,42 +9,38 @@ const polliesByDecade = getPolliesByDecade(allPollies)
 ---
 
 <BaseLayout>
-  <h1>Out of Office CV</h1>
-  <p>
-    Australia has a strong democracy, and we need to make a conscious effort to
-    keep it that way. While we have systems that track our representatives while
-    they are in office, there is very little organised information about what
-    happens after they leave. By making this data clear, accessible, and easy to
-    understand, we can help close the gap and support transparency and public
-    discourse.
-  </p>
-  <p>
-    Politicians are free to choose their post-parliament careers, but those
-    choices reveal what they value. This project helps you decide whether that
-    aligns with you.
-  </p>
+  <section class="lede">
+    <p class="lede-para">
+      Australia has a strong democracy, and we need to make a conscious effort
+      to keep it that way. While we have systems that track our representatives
+      while they are in office, there is very little organised information
+      about what happens after they leave. By making this data clear,
+      accessible, and easy to understand, we can help close the gap and
+      support transparency and public discourse.
+    </p>
+    <p class="lede-para">
+      Politicians are free to choose their post-parliament careers, but those
+      choices reveal what they value. This project helps you decide whether
+      that aligns with you.
+    </p>
+  </section>
 
   <PollieList polliesByDecade={polliesByDecade} client:load />
-
-  <h2>About us</h2>
-  <p>
-    <strong>OutOfOffice CV</strong> was created by Khoi and Ben—a couple of
-    individuals who care deeply about Australian democracy. Like many others, we
-    wanted an easy way to see what our representatives do after they leave office.
-    We couldn't find it, so we built it.
-  </p>
-  <p>
-    Our project uses both AI and human intelligence to search the internet for
-    each former politician and what roles they have taken since leaving office.
-    Our team then manually verifies the information and includes a source.
-  </p>
-  <p>
-    We are not politically affiliated and while our best efforts are made to
-    ensure that the information is accurate, some errors may occur. To get in
-    touch, please email <a href="mailto:info@outofoffice.cv">info@outofoffice.cv</a>.
-    If you've got ideas/feature requests/corrections then you can find the website
-    source code and database on
-    <a href="https://github.com/out-of-office-cv/out-of-office-cv-website">GitHub</a>,
-    or email us at <a href="mailto:corrections@outofoffice.cv">corrections@outofoffice.cv</a>.
-  </p>
 </BaseLayout>
+
+<style>
+  .lede {
+    max-width: var(--measure-reading);
+    margin-bottom: var(--space-2xl);
+  }
+
+  .lede-para {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--color-ink);
+  }
+
+  .lede-para:first-child::first-letter {
+    font-weight: 600;
+  }
+</style>

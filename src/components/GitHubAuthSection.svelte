@@ -8,14 +8,31 @@
   let { auth }: Props = $props()
 </script>
 
-<section class="auth-section">
-  <h2>GitHub connection</h2>
+<section class="auth-section" aria-labelledby="auth-heading">
+  <header class="auth-header">
+    <h2 id="auth-heading">GitHub connection</h2>
+    {#if auth.isAuthenticated}
+      <span class="auth-status connected" role="status">
+        <span class="status-indicator" aria-hidden="true"></span>
+        <span>
+          Connected as <strong>@{auth.username}</strong>
+        </span>
+      </span>
+    {:else}
+      <span class="auth-status disconnected" role="status">
+        <span class="status-indicator status-indicator-off" aria-hidden="true"></span>
+        <span>Not connected</span>
+      </span>
+    {/if}
+  </header>
+
   {#if auth.isAuthenticated}
-    <div class="auth-status connected">
-      <span class="status-indicator"></span>
-      Connected as <strong>@{auth.username}</strong>
+    <div class="auth-connected">
       {#if auth.verifierId}
-        <span class="verifier-badge">Verifier: {auth.verifierId}</span>
+        <p class="verifier-line">
+          <span class="caps">Verifier ID</span>
+          <span class="verifier-id">{auth.verifierId}</span>
+        </p>
       {/if}
       <button type="button" class="btn-link" onclick={() => auth.disconnectGitHub()}>
         Disconnect
@@ -24,10 +41,10 @@
   {:else}
     <div class="auth-setup">
       <p>
-        To submit gigs, you need a GitHub Personal Access Token (PAT). This is a
-        one-time setup that takes about a minute.
+        Submitting gigs requires a GitHub Personal Access Token. One-time setup,
+        about a minute.
       </p>
-      <h3>How to create a classic token</h3>
+      <h3>Create a classic token</h3>
       <ol class="setup-steps">
         <li>
           <a
@@ -35,31 +52,34 @@
             target="_blank"
             rel="noopener"
           >
-            Open GitHub's token creation page &rarr;
+            Open GitHub's token creation page →
           </a>
-          (you may need to log in)
+          (log in if prompted).
         </li>
         <li>
           The form should be pre-filled. If not, add a note like "Out of Office
-          CV" and tick the <code>public_repo</code> checkbox under scopes (this
-          is the minimum permission needed).
+          CV" and tick <code>public_repo</code> under scopes (the minimum
+          permission needed).
         </li>
-        <li>Scroll down and click <strong>Generate token</strong></li>
+        <li>Scroll down and click <strong>Generate token</strong>.</li>
         <li>
-          Copy the token (starts with <code>ghp_</code>) and paste it below
+          Copy the token (starts with <code>ghp_</code>) and paste it below.
         </li>
       </ol>
       <p class="hint">
-        Your token is stored only in this browser's localStorage and sent
-        directly to GitHub.
+        Your token is stored only in this browser's <code>localStorage</code>
+        and sent directly to GitHub.
       </p>
       <div class="token-input-row">
+        <label for="github-token" class="visually-hidden">GitHub token</label>
         <input
+          id="github-token"
           bind:value={auth.token}
           type="password"
           placeholder="Paste your token here"
           class="token-input"
           disabled={auth.isValidatingToken}
+          autocomplete="off"
         />
         <button
           type="button"
@@ -67,7 +87,7 @@
           disabled={!auth.token || auth.isValidatingToken}
           onclick={() => auth.saveToken()}
         >
-          {auth.isValidatingToken ? "Validating..." : "Connect"}
+          {auth.isValidatingToken ? "Validating…" : "Connect"}
         </button>
       </div>
       {#if auth.tokenError}
@@ -79,92 +99,126 @@
 
 <style>
   .auth-section {
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-    background: var(--color-bg-soft);
-    border-radius: 8px;
+    margin-bottom: var(--space-lg);
+    padding-bottom: var(--space-lg);
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .auth-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    margin-bottom: var(--space-md);
   }
 
   h2 {
-    margin: 0 0 1rem;
-    font-size: 1.25rem;
+    margin: 0;
   }
 
   h3 {
-    margin: 1rem 0 0.5rem;
+    margin: var(--space-md) 0 var(--space-xs);
     font-size: 1rem;
   }
 
-  .setup-steps {
-    margin: 0.5rem 0 1rem;
-    padding-left: 1.25rem;
-  }
-
-  .setup-steps li {
-    margin-bottom: 0.5rem;
-    line-height: 1.5;
-  }
-
-  .hint {
-    font-size: 0.875rem;
-    color: var(--color-text-2);
-    margin-top: 1rem;
-  }
-
-  .auth-status.connected {
-    display: flex;
+  .auth-status {
+    display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
-    flex-wrap: wrap;
+    gap: var(--space-xs);
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-meta);
+    color: var(--color-ink-2);
   }
 
   .status-indicator {
-    width: 10px;
-    height: 10px;
+    width: 0.6rem;
+    height: 0.6rem;
     border-radius: 50%;
-    background: var(--color-green-1);
+    background: var(--color-success);
+    box-shadow: 0 0 0 2px color-mix(in oklch, var(--color-success) 15%, transparent);
   }
 
-  .verifier-badge {
-    background: var(--color-brand-soft);
-    color: var(--color-brand-1);
-    padding: 0.125rem 0.5rem;
-    border-radius: 4px;
-    font-size: 0.875rem;
-    margin-left: 0.5rem;
+  .status-indicator-off {
+    background: var(--color-ink-3);
+    box-shadow: none;
   }
 
-  .btn-link {
-    background: none;
-    border: none;
-    color: var(--color-brand-1);
-    cursor: pointer;
-    padding: 0;
-    margin-left: 1rem;
+  .auth-connected {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: var(--space-md);
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-small);
   }
 
-  .btn-link:hover {
-    text-decoration: underline;
+  .verifier-line {
+    margin: 0;
+    display: inline-flex;
+    align-items: baseline;
+    gap: var(--space-xs);
+  }
+
+  .verifier-id {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.9em;
+    color: var(--color-accent);
+    font-weight: 600;
+  }
+
+  .setup-steps {
+    margin: var(--space-xs) 0 var(--space-md);
+    padding-left: var(--space-lg);
+    font-family: var(--font-serif-stack);
+    line-height: 1.6;
+  }
+
+  .setup-steps li {
+    margin-bottom: var(--space-xs);
+  }
+
+  .setup-steps li::marker {
+    font-family: var(--font-serif-stack);
+    font-variant-numeric: lining-nums;
+    color: var(--color-ink-3);
+  }
+
+  .hint {
+    font-family: var(--font-serif-stack);
+    font-style: italic;
+    font-size: var(--text-small);
+    color: var(--color-ink-2);
+    margin-top: var(--space-md);
   }
 
   .token-input-row {
     display: flex;
-    gap: 0.5rem;
-    margin-top: 0.75rem;
+    gap: var(--space-xs);
+    margin-top: var(--space-sm);
+    max-width: 34rem;
   }
 
   .token-input {
     flex: 1;
-    padding: 0.5rem 0.75rem;
-    border: 1px solid var(--color-border);
-    border-radius: 4px;
-    background: var(--color-bg);
-    color: var(--color-text-1);
   }
 
   .error-text {
-    color: var(--color-red-1);
-    font-size: 0.875rem;
-    margin: 0.25rem 0 0;
+    font-family: var(--font-sans-stack);
+    color: var(--color-error);
+    font-size: var(--text-meta);
+    margin: var(--space-xs) 0 0;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 </style>

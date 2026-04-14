@@ -2,32 +2,43 @@
 ---
 
 <aside class="verification-note">
+  <span class="caps note-label">A note on verification</span>
   <p>
     Gigs on this site come from public reporting, parliamentary records, and
-    AI-assisted searches. <strong>Verified</strong> gigs have been
-    human-reviewed against their sources.
-    <strong>Unverified</strong> gigs (shown faded with an "unverified" label)
-    haven't been reviewed yet and may be inaccurate. Spotted something
-    wrong or missing? <a href="/contribute">Help us verify.</a>
+    AI-assisted searches. <strong>Verified</strong> entries have been reviewed
+    against their sources by a human. <em>Unverified</em> entries (shown
+    faded, tagged <em>unverified</em>) have not yet been checked and may
+    be inaccurate. Spotted something wrong or missing?
+    <a href="/contribute">Help us verify.</a>
   </p>
 </aside>
 
 <style>
   .verification-note {
-    margin: 1.5rem 0 0;
-    padding: 0.75rem 1rem;
-    border-left: 3px solid var(--color-border);
-    background: var(--color-bg-soft);
-    border-radius: 0 4px 4px 0;
-    color: var(--color-text-2);
-    font-size: 0.9rem;
+    font-family: var(--font-serif-stack);
+    color: var(--color-ink-2);
+    background: var(--color-paper-alt);
+    padding: var(--space-md) var(--space-lg);
+    margin: var(--space-lg) 0 var(--space-xl);
+    border: 1px solid var(--color-rule);
+    border-radius: var(--radius-sm);
+    max-width: var(--measure-wide);
+    display: grid;
+    gap: var(--space-xs);
+  }
+
+  .note-label {
+    color: var(--color-ink-2);
   }
 
   .verification-note p {
     margin: 0;
+    font-size: var(--text-small);
+    line-height: 1.55;
+    max-width: 60ch;
   }
 
-  .verification-note a {
-    color: var(--color-brand-1);
+  .verification-note strong {
+    color: var(--color-ink);
   }
 </style>

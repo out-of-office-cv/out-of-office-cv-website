@@ -1,20 +1,133 @@
 ---
+const year = new Date().getFullYear()
 ---
 
-<footer>
-  <a href="https://github.com/out-of-office-cv/out-of-office-cv-website" target="_blank" rel="noopener">Source on GitHub</a>
-  &middot;
-  <a href="mailto:info@outofoffice.cv">info@outofoffice.cv</a>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="colophon">
+      <span class="colophon-name">Out of Office CV</span>
+      <span class="colophon-sep" aria-hidden="true">·</span>
+      <span class="colophon-desc">
+        An open record of what Australian ex-parliamentarians do next.
+      </span>
+    </p>
+    <ul class="footer-links">
+      <li>
+        <a
+          href="https://github.com/out-of-office-cv/out-of-office-cv-website"
+          target="_blank"
+          rel="noopener"
+        >
+          Source on GitHub
+        </a>
+      </li>
+      <li>
+        <a href="mailto:info@outofoffice.cv">info@outofoffice.cv</a>
+      </li>
+      <li>
+        <a href="mailto:corrections@outofoffice.cv">Corrections</a>
+      </li>
+    </ul>
+    <p class="footer-date">
+      <span class="caps">Compiled</span> <span class="year-range">2020–{year}</span>
+    </p>
+  </div>
 </footer>
 
 <style>
-  footer {
-    max-width: 1200px;
+  .site-footer {
+    background: var(--color-paper-alt);
+    border-top: 1px solid var(--color-rule);
+    margin-top: var(--space-3xl);
+    padding-block: var(--space-2xl);
+  }
+
+  .footer-inner {
+    max-width: 78rem;
     margin: 0 auto;
-    padding: 2rem 1.5rem;
-    border-top: 1px solid var(--color-border);
-    text-align: center;
-    font-size: 0.875rem;
-    color: var(--color-text-3);
+    padding-inline: var(--space-lg);
+    display: grid;
+    gap: var(--space-lg);
+  }
+
+  @media (width >= 60rem) {
+    .footer-inner {
+      padding-inline: var(--space-2xl);
+      grid-template-columns: 1fr auto auto;
+      align-items: baseline;
+      gap: var(--space-xl);
+    }
+  }
+
+  .colophon {
+    margin: 0;
+    font-family: var(--font-serif-stack);
+    font-size: var(--text-meta);
+    color: var(--color-ink-2);
+    max-width: none;
+    line-height: 1.45;
+  }
+
+  .colophon-name {
+    font-weight: 600;
+    color: var(--color-ink);
+    letter-spacing: -0.005em;
+  }
+
+  .colophon-sep {
+    margin-inline: var(--space-xs);
+    color: var(--color-ink-3);
+  }
+
+  .colophon-desc {
+    font-style: italic;
+  }
+
+  .footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-lg);
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-caps);
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+  }
+
+  .footer-links a {
+    color: var(--color-ink-2);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+    transition:
+      color var(--dur-fast) var(--ease-out),
+      border-color var(--dur-fast) var(--ease-out);
+  }
+
+  .footer-links a:hover {
+    color: var(--color-accent);
+    border-bottom-color: var(--color-accent);
+  }
+
+  .footer-date {
+    margin: 0;
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-caps);
+    color: var(--color-ink-3);
+    letter-spacing: 0.08em;
+    font-feature-settings: "tnum";
+  }
+
+  .footer-date .caps {
+    color: var(--color-ink-2);
+    margin-right: var(--space-2xs);
+  }
+
+  .year-range {
+    font-variant-numeric: tabular-nums lining-nums;
+    letter-spacing: 0.02em;
   }
 </style>

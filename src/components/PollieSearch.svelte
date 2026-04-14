@@ -57,27 +57,32 @@
     highlightedIndex = -1
   }
 
-  function badgeClass(party: string): string {
+  function markerClass(party: string): string {
     const colour = getPartyColour(party)
-    return `badge badge-party-${colour || "default"}`
+    return `marker marker-${colour || "default"}`
   }
 
   function houseClass(house: House): string {
-    return `badge badge-${house}`
+    return `marker marker-${house}`
   }
 </script>
 
 <div class="pollie-search-wrapper">
+  <label for="pollie-detail-search" class="visually-hidden">
+    Jump to another politician
+  </label>
   <div class="search-wrapper">
+    <!-- svelte-ignore a11y_role_supports_aria_props -->
     <input
+      id="pollie-detail-search"
       type="text"
       bind:value={inputValue}
       oninput={handleInput}
       onkeydown={handleKeydown}
       onfocusin={() => { if (inputValue.trim()) open = true }}
       onfocusout={() => { setTimeout(() => open = false, 150) }}
-      placeholder="Search by name, electorate, state or party..."
-      class="pollie-search-input"
+      placeholder="Jump to another politician…"
+      class="search-input"
       role="combobox"
       aria-expanded={open}
       aria-controls="pollie-search-listbox"
@@ -85,32 +90,30 @@
       aria-activedescendant={highlightedIndex >= 0 ? `pollie-search-option-${highlightedIndex}` : undefined}
     />
     {#if open && inputValue.trim()}
-      <ul id="pollie-search-listbox" class="pollie-search-content" role="listbox">
+      <ul id="pollie-search-listbox" class="combobox-content" role="listbox">
         {#each filtered as pollie, i (pollie.slug)}
           <li
             id={`pollie-search-option-${i}`}
             role="option"
-            class="pollie-search-item"
+            class="combobox-item"
             class:highlighted={i === highlightedIndex}
             aria-selected={i === highlightedIndex}
             onmousedown={() => { window.location.href = `/pollies/${pollie.slug}` }}
             onmouseenter={() => { highlightedIndex = i }}
           >
-            <div class="combobox-item-inner">
-              <strong>{pollie.name}</strong>
-              <span class="combobox-meta">
-                <span class={badgeClass(pollie.party)}>{pollie.party}</span>
-                <span class={houseClass(pollie.house)}>
-                  {pollie.house === "senate" ? "Senator" : "MP"}
-                </span>
-                <span class="pollie-location">
-                  {pollie.division || pollie.state}{pollie.division ? `, ${pollie.state}` : ""}
-                </span>
+            <span class="combobox-name">{pollie.name}</span>
+            <span class="combobox-meta">
+              <span class={markerClass(pollie.party)}>{pollie.party}</span>
+              <span class={houseClass(pollie.house)}>
+                {pollie.house === "senate" ? "Senator" : "MP"}
               </span>
-            </div>
+              <span class="combobox-location">
+                {pollie.division || pollie.state}{pollie.division ? `, ${pollie.state}` : ""}
+              </span>
+            </span>
           </li>
         {:else}
-          <li class="no-results">No politicians found</li>
+          <li class="combobox-empty">No politicians found</li>
         {/each}
       </ul>
     {/if}
@@ -119,102 +122,128 @@
 
 <style>
   .pollie-search-wrapper {
-    margin-bottom: 1.5rem;
+    margin-bottom: var(--space-xl);
+    max-width: 34rem;
   }
 
   .search-wrapper {
     position: relative;
   }
 
-  .pollie-search-input {
+  .search-input {
     width: 100%;
-    padding: 0.75rem 1rem;
+    font-family: var(--font-serif-stack);
     font-size: 1rem;
-    border: 1px solid var(--color-border);
-    border-radius: 8px;
-    background: var(--color-bg);
-    color: var(--color-text-1);
+    font-style: italic;
+    padding: var(--space-xs) 0;
+    background: transparent;
+    color: var(--color-ink);
+    border: none;
+    border-bottom: 1px solid var(--color-rule);
+    border-radius: 0;
+    transition: border-bottom-color var(--dur-fast) var(--ease-out);
   }
 
-  .pollie-search-input:focus {
+  .search-input::placeholder {
+    color: var(--color-ink-3);
+    font-style: italic;
+  }
+
+  .search-input:focus {
     outline: none;
-    border-color: var(--color-brand-1);
+    border-bottom-color: var(--color-accent);
+    box-shadow: 0 1px 0 0 var(--color-accent);
   }
 
-  .pollie-search-input::placeholder {
-    color: var(--color-text-3);
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 
-  .pollie-search-content {
+  .combobox-content {
     position: absolute;
     top: 100%;
     left: 0;
     right: 0;
     list-style: none;
     padding: 0;
-    margin: 4px 0 0;
-    background: var(--color-bg);
-    border: 1px solid var(--color-border);
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
-    max-height: 300px;
+    margin: 0;
+    background: var(--color-paper);
+    border: 1px solid var(--color-rule-strong);
+    border-top: none;
+    max-height: 20rem;
     overflow-y: auto;
     z-index: 100;
   }
 
-  .pollie-search-item {
-    padding: 0.75rem 1rem;
+  .combobox-item {
+    padding: var(--space-sm) var(--space-md);
     cursor: pointer;
+    border-bottom: 1px solid var(--color-rule);
+    display: grid;
+    gap: 0.2rem;
   }
 
-  .pollie-search-item.highlighted {
-    background: var(--color-bg-soft);
+  .combobox-item:last-child {
+    border-bottom: none;
   }
 
-  .combobox-item-inner {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
+  .combobox-item.highlighted {
+    background: var(--color-paper-tint);
+  }
+
+  .combobox-name {
+    font-family: var(--font-serif-stack);
+    font-weight: 600;
+    color: var(--color-ink);
   }
 
   .combobox-meta {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0.5rem;
+    gap: var(--space-xs);
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-meta);
   }
 
-  .pollie-location {
-    color: var(--color-text-2);
-    font-size: 0.875rem;
+  .combobox-location {
+    color: var(--color-ink-3);
   }
 
-  .no-results {
-    padding: 0.75rem 1rem;
-    color: var(--color-text-3);
+  .combobox-empty {
+    padding: var(--space-md);
+    font-style: italic;
+    color: var(--color-ink-3);
   }
 
-  .badge {
+  .marker {
     display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 500;
-    padding: 0.125rem 0.5rem;
-    border-radius: 4px;
-    color: white;
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-caps);
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 0.1rem 0.5rem 0.125rem;
+    border-radius: var(--radius-sm);
+    white-space: nowrap;
+    line-height: 1.3;
   }
 
-  .badge-party-red { background-color: var(--badge-party-red); }
-  .badge-party-blue { background-color: var(--badge-party-blue); }
-  .badge-party-green { background-color: var(--badge-party-green); }
-  .badge-party-grey { background-color: var(--badge-party-grey); }
-  .badge-party-orange { background-color: var(--badge-party-orange); }
-  .badge-party-purple { background-color: var(--badge-party-purple); }
-  .badge-party-default {
-    background-color: var(--color-bg-soft);
-    color: var(--color-text-2);
-    border: 1px solid var(--color-border);
-  }
-
-  .badge-senate { background-color: var(--badge-senate); }
-  .badge-reps { background-color: var(--badge-reps); }
+  .marker-senate { background: var(--marker-senate-bg); color: var(--marker-senate-ink); border: 1px solid var(--marker-senate-rule); }
+  .marker-reps { background: var(--marker-reps-bg); color: var(--marker-reps-ink); border: 1px solid var(--marker-reps-rule); }
+  .marker-red { background: var(--marker-red-bg); color: var(--marker-red-ink); border: 1px solid var(--marker-red-rule); }
+  .marker-blue { background: var(--marker-blue-bg); color: var(--marker-blue-ink); border: 1px solid var(--marker-blue-rule); }
+  .marker-green { background: var(--marker-green-bg); color: var(--marker-green-ink); border: 1px solid var(--marker-green-rule); }
+  .marker-grey { background: var(--marker-grey-bg); color: var(--marker-grey-ink); border: 1px solid var(--marker-grey-rule); }
+  .marker-orange { background: var(--marker-orange-bg); color: var(--marker-orange-ink); border: 1px solid var(--marker-orange-rule); }
+  .marker-purple { background: var(--marker-purple-bg); color: var(--marker-purple-ink); border: 1px solid var(--marker-purple-rule); }
+  .marker-default { background: var(--marker-default-bg); color: var(--marker-default-ink); border: 1px solid var(--marker-default-rule); }
 </style>

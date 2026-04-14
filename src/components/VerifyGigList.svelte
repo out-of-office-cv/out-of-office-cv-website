@@ -53,7 +53,7 @@
 
   function getHostname(url: string): string {
     try {
-      return new URL(url).hostname
+      return new URL(url).hostname.replace(/^www\./, "")
     } catch {
       return url
     }
@@ -199,16 +199,18 @@
 
 <div class="verify-section">
   <p class="verify-intro">
-    Select gigs you've verified are accurate, then submit a PR to mark
-    them as verified by <strong>{verifierId}</strong>.
-    Expand a gig to edit its details before verifying.
+    Select gigs you've confirmed are accurate, then open a pull request to
+    mark them as verified by <strong>{verifierId}</strong>. Expand a gig to
+    edit its details before verifying.
   </p>
 
   <div class="verify-controls">
+    <label for="verify-filter" class="visually-hidden">Filter gigs</label>
     <input
+      id="verify-filter"
       bind:value={verifySearch}
       type="text"
-      placeholder="Filter by role, organisation, politician..."
+      placeholder="Filter by role, organisation, politician…"
       class="verify-search"
     />
     <div class="verify-bulk-actions">
@@ -227,15 +229,15 @@
   </div>
 
   {#if filteredGigs.length === 0}
-    <div class="empty-state">
+    <p class="empty-state">
       {#if verifySearch}
-        <p>No unverified gigs match your search.</p>
+        <em>No unverified gigs match your filter.</em>
       {:else}
-        <p>All gigs have been verified!</p>
+        <em>All gigs have been verified.</em>
       {/if}
-    </div>
+    </p>
   {:else}
-    <ul class="verify-list">
+    <ol class="verify-list">
       {#each filteredGigs as gig (gig.index)}
         <li
           class="verify-item"
@@ -250,13 +252,16 @@
                 onchange={() => toggleSelection(gig.index)}
               />
               <span class="verify-item-summary">
-                <strong>{getFieldValue(gig, "role")}</strong>
-                at {getFieldValue(gig, "organisation")}
+                <span class="verify-headline">
+                  <span class="verify-role">{getFieldValue(gig, "role")}</span>
+                  <span class="verify-at">at</span>
+                  <span class="verify-org">{getFieldValue(gig, "organisation")}</span>
+                  {#if hasAnyEdits(gig.index)}
+                    <span class="edited-tag">· edited</span>
+                  {/if}
+                </span>
                 <span class="verify-item-pollie">
                   {getPollieNameBySlug(gig.pollie_slug)}
-                  {#if hasAnyEdits(gig.index)}
-                    <span class="edited-badge">edited</span>
-                  {/if}
                 </span>
               </span>
             </label>
@@ -264,6 +269,8 @@
               type="button"
               class="btn-icon btn-expand"
               title={expandedIndex === gig.index ? "Collapse" : "Expand"}
+              aria-label={expandedIndex === gig.index ? "Collapse" : "Expand"}
+              aria-expanded={expandedIndex === gig.index}
               onclick={() => toggleExpand(gig.index)}
             >
               {expandedIndex === gig.index ? "▲" : "▼"}
@@ -271,16 +278,17 @@
           </div>
           {#if expandedIndex === gig.index}
             <div class="verify-item-details">
-              <div class="verify-edit-fields">
+              <div class="edit-fields">
                 <div class="edit-field-row">
                   <div class="edit-field" class:field-modified={isFieldModified(gig.index, "role")}>
                     <div class="edit-field-header">
-                      <label>Role</label>
+                      <label class="field-label" for={`role-${gig.index}`}>Role</label>
                       {#if isFieldModified(gig.index, "role")}
-                        <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "role")}>↩</button>
+                        <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "role")}>↩ revert</button>
                       {/if}
                     </div>
                     <input
+                      id={`role-${gig.index}`}
                       type="text"
                       value={getFieldValue(gig, "role")}
                       oninput={(e) => updateStringField(gig.index, "role", e.currentTarget.value, gig.role)}
@@ -291,12 +299,13 @@
                   </div>
                   <div class="edit-field" class:field-modified={isFieldModified(gig.index, "organisation")}>
                     <div class="edit-field-header">
-                      <label>Organisation</label>
+                      <label class="field-label" for={`org-${gig.index}`}>Organisation</label>
                       {#if isFieldModified(gig.index, "organisation")}
-                        <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "organisation")}>↩</button>
+                        <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "organisation")}>↩ revert</button>
                       {/if}
                     </div>
                     <input
+                      id={`org-${gig.index}`}
                       type="text"
                       value={getFieldValue(gig, "organisation")}
                       oninput={(e) => updateStringField(gig.index, "organisation", e.currentTarget.value, gig.organisation)}
@@ -309,12 +318,13 @@
 
                 <div class="edit-field" class:field-modified={isFieldModified(gig.index, "category")}>
                   <div class="edit-field-header">
-                    <label>Category</label>
+                    <label class="field-label" for={`cat-${gig.index}`}>Category</label>
                     {#if isFieldModified(gig.index, "category")}
-                      <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "category")}>↩</button>
+                      <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "category")}>↩ revert</button>
                     {/if}
                   </div>
                   <select
+                    id={`cat-${gig.index}`}
                     value={getFieldValue(gig, "category")}
                     onchange={(e) => updateCategory(gig.index, e.currentTarget.value, gig.category)}
                   >
@@ -330,12 +340,13 @@
                 <div class="edit-field-row">
                   <div class="edit-field" class:field-modified={isFieldModified(gig.index, "start_date")}>
                     <div class="edit-field-header">
-                      <label>Start date</label>
+                      <label class="field-label" for={`sd-${gig.index}`}>Start date</label>
                       {#if isFieldModified(gig.index, "start_date")}
-                        <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "start_date")}>↩</button>
+                        <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "start_date")}>↩ revert</button>
                       {/if}
                     </div>
                     <input
+                      id={`sd-${gig.index}`}
                       type="text"
                       value={getFieldValue(gig, "start_date")}
                       placeholder={DATE_HINT}
@@ -352,12 +363,13 @@
                   </div>
                   <div class="edit-field" class:field-modified={isFieldModified(gig.index, "end_date")}>
                     <div class="edit-field-header">
-                      <label>End date</label>
+                      <label class="field-label" for={`ed-${gig.index}`}>End date</label>
                       {#if isFieldModified(gig.index, "end_date")}
-                        <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "end_date")}>↩</button>
+                        <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "end_date")}>↩ revert</button>
                       {/if}
                     </div>
                     <input
+                      id={`ed-${gig.index}`}
                       type="text"
                       value={getFieldValue(gig, "end_date")}
                       placeholder={DATE_HINT}
@@ -376,9 +388,9 @@
 
                 <div class="edit-field" class:field-modified={isFieldModified(gig.index, "sources")}>
                   <div class="edit-field-header">
-                    <label>Sources</label>
+                    <span class="field-label">Sources</span>
                     {#if isFieldModified(gig.index, "sources")}
-                      <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "sources")}>↩</button>
+                      <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "sources")}>↩ revert</button>
                     {/if}
                   </div>
                   <div class="sources-list">
@@ -387,7 +399,7 @@
                         <input
                           type="url"
                           value={src}
-                          placeholder="https://..."
+                          placeholder="https://…"
                           oninput={(e) => updateSource(gig, i, e.currentTarget.value)}
                         />
                         {#if getSourcesValue(gig).length > 1}
@@ -395,15 +407,16 @@
                             type="button"
                             class="btn-icon btn-danger"
                             title="Remove source"
+                            aria-label="Remove source"
                             onclick={() => removeSource(gig, i)}
                           >
-                            &times;
+                            ×
                           </button>
                         {/if}
                       </div>
                     {/each}
                   </div>
-                  <button type="button" class="btn-secondary btn-small" onclick={() => addSource(gig)}>
+                  <button type="button" class="btn-secondary btn-small add-src-btn" onclick={() => addSource(gig)}>
                     + Add source
                   </button>
                   {#if isFieldModified(gig.index, "sources")}
@@ -415,7 +428,7 @@
           {/if}
         </li>
       {/each}
-    </ul>
+    </ol>
   {/if}
 
   {#if selectedIndices.size > 0}
@@ -437,205 +450,232 @@
   }
 
   .verify-intro {
-    margin-bottom: 1rem;
-    color: var(--color-text-2);
+    font-family: var(--font-serif-stack);
+    color: var(--color-ink-2);
+    max-width: var(--measure-reading);
+    margin: 0 0 var(--space-lg);
+  }
+
+  .verify-intro strong {
+    color: var(--color-ink);
   }
 
   .verify-controls {
     display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    gap: var(--space-md);
+    margin-bottom: var(--space-lg);
     flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--color-rule);
   }
 
   .verify-search {
     flex: 1;
-    min-width: 200px;
-    padding: 0.5rem 0.75rem;
-    border: 1px solid var(--color-border);
-    border-radius: 4px;
-    background: var(--color-bg);
-    color: var(--color-text-1);
+    min-width: 14rem;
+    font-family: var(--font-serif-stack);
+    font-style: italic;
     font-size: 1rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--color-rule);
+    border-radius: 0;
+    padding: var(--space-xs) 0;
   }
 
   .verify-search:focus {
     outline: none;
-    border-color: var(--color-brand-1);
+    border-bottom-color: var(--color-accent);
+    box-shadow: 0 1px 0 0 var(--color-accent);
   }
 
   .verify-bulk-actions {
     display: flex;
-    gap: 0.5rem;
+    gap: var(--space-xs);
   }
 
   .empty-state {
-    text-align: center;
-    padding: 2rem;
-    color: var(--color-text-2);
+    font-family: var(--font-serif-stack);
+    color: var(--color-ink-2);
+    padding: var(--space-xl) 0;
+    max-width: var(--measure-reading);
   }
 
   .verify-list {
     list-style: none;
     margin: 0;
     padding: 0;
-    max-height: 400px;
+    max-height: 32rem;
     overflow-y: auto;
   }
 
   .verify-item {
-    background: var(--color-bg);
-    border-radius: 4px;
-    margin-bottom: 0.5rem;
-    border: 2px solid transparent;
-    transition: border-color 0.2s;
+    border-top: 1px solid var(--color-rule);
+    transition: background var(--dur-fast) var(--ease-out);
+  }
+
+  .verify-item:last-child {
+    border-bottom: 1px solid var(--color-rule);
   }
 
   .verify-item.selected {
-    border-color: var(--color-brand-1);
+    background: var(--color-accent-soft);
   }
 
   .verify-item-header {
     display: flex;
-    align-items: center;
-    padding: 0.75rem;
-    gap: 0.5rem;
+    align-items: flex-start;
+    padding: var(--space-md) var(--space-xs);
+    gap: var(--space-sm);
   }
 
   .verify-checkbox-label {
     display: flex;
     align-items: flex-start;
-    gap: 0.75rem;
+    gap: var(--space-sm);
     flex: 1;
     cursor: pointer;
+    min-width: 0;
   }
 
   .verify-checkbox-label input[type="checkbox"] {
-    margin-top: 0.25rem;
-    width: 18px;
-    height: 18px;
+    margin-top: 0.3rem;
+    width: 1.05rem;
+    height: 1.05rem;
     cursor: pointer;
+    accent-color: var(--color-accent);
+    flex-shrink: 0;
   }
 
   .verify-item-summary {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
+    display: grid;
+    gap: 0.2rem;
+    min-width: 0;
+  }
+
+  .verify-headline {
+    font-family: var(--font-serif-stack);
+    font-size: 1rem;
+    color: var(--color-ink);
+    text-wrap: pretty;
+    line-height: 1.4;
+  }
+
+  .verify-role {
+    font-weight: 600;
+  }
+
+  .verify-at {
+    color: var(--color-ink-3);
+    font-style: italic;
+    margin: 0 0.2em;
+    font-size: 0.95em;
   }
 
   .verify-item-pollie {
-    font-size: 0.875rem;
-    color: var(--color-text-2);
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-meta);
+    color: var(--color-ink-3);
   }
 
-  .edited-badge {
-    display: inline-block;
-    font-size: 0.75rem;
-    padding: 0.0625rem 0.375rem;
-    background: var(--color-brand-soft);
-    color: var(--color-brand-1);
-    border-radius: 3px;
-    margin-left: 0.5rem;
+  .edited-tag {
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-meta);
+    font-style: italic;
+    color: var(--color-accent);
     font-weight: 500;
+    margin-left: 0.3rem;
+    letter-spacing: 0;
   }
 
   .verify-item-details {
-    padding: 0 0.75rem 0.75rem 2.75rem;
-    border-top: 1px solid var(--color-border);
-    margin-top: 0.5rem;
-    padding-top: 0.75rem;
+    padding: 0 var(--space-xs) var(--space-md) calc(var(--space-sm) + 1.9rem);
+    border-top: 1px dashed var(--color-rule);
+    margin-top: 0;
+    padding-top: var(--space-md);
   }
 
-  .verify-edit-fields {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
+  .edit-fields {
+    display: grid;
+    gap: var(--space-md);
   }
 
+  /* Modified-field treatment: background tint + status label, no side stripe */
   .edit-field {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0.5rem;
-    border-left: 3px solid transparent;
-    transition: border-color 0.2s;
+    display: grid;
+    gap: 0.25rem;
+    padding: var(--space-xs) var(--space-sm);
+    background: transparent;
+    border-radius: var(--radius-sm);
+    transition: background var(--dur-fast) var(--ease-out);
   }
 
   .edit-field.field-modified {
-    border-left-color: var(--color-brand-1);
+    background: var(--color-accent-soft);
   }
 
   .edit-field-header {
     display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 0.25rem;
+    align-items: baseline;
+    gap: var(--space-sm);
   }
 
-  .edit-field-header label {
-    font-weight: 500;
-    font-size: 0.875rem;
-    color: var(--color-text-2);
+  .field-label {
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-caps);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-ink-3);
   }
 
   .edit-field-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.75rem;
+    gap: var(--space-sm);
   }
 
-  @media (width <= 600px) {
+  @media (width <= 40rem) {
     .edit-field-row {
       grid-template-columns: 1fr;
     }
   }
 
-  .edit-field input,
-  .edit-field select {
-    padding: 0.375rem 0.5rem;
-    border: 1px solid var(--color-border);
-    border-radius: 4px;
-    background: var(--color-bg);
-    color: var(--color-text-1);
-    font-size: 0.875rem;
-  }
-
-  .edit-field input:focus,
-  .edit-field select:focus {
-    outline: none;
-    border-color: var(--color-brand-1);
-  }
-
   .btn-revert {
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-caps);
     background: none;
     border: none;
     cursor: pointer;
-    font-size: 0.875rem;
-    color: var(--color-brand-1);
-    padding: 0 0.25rem;
-    line-height: 1;
+    color: var(--color-accent);
+    padding: 0;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: 600;
   }
 
   .btn-revert:hover {
-    color: var(--color-brand-2);
+    color: var(--color-accent-hover);
+    text-decoration: underline;
   }
 
   .was-text {
-    font-size: 0.75rem;
-    color: var(--color-text-3);
-    margin-top: 0.125rem;
+    font-family: var(--font-serif-stack);
+    font-size: var(--text-meta);
+    color: var(--color-ink-3);
     font-style: italic;
+    margin-top: 0.15rem;
   }
 
   .sources-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.375rem;
-    margin-bottom: 0.375rem;
+    display: grid;
+    gap: var(--space-xs);
+    margin-bottom: var(--space-xs);
   }
 
   .source-row {
     display: flex;
-    gap: 0.375rem;
+    gap: var(--space-xs);
     align-items: center;
   }
 
@@ -643,27 +683,44 @@
     flex: 1;
   }
 
+  .add-src-btn {
+    justify-self: start;
+  }
+
   .verify-submit-section {
-    margin-top: 1.5rem;
-    padding-top: 1rem;
-    border-top: 1px solid var(--color-border);
+    margin-top: var(--space-lg);
+    padding-top: var(--space-lg);
+    border-top: 1px solid var(--color-rule);
   }
 
   .date-invalid {
-    border-color: var(--color-red-1) !important;
+    border-color: var(--color-error) !important;
   }
 
   .date-valid {
-    border-color: var(--color-green-1, #22c55e) !important;
+    border-color: var(--color-success) !important;
   }
 
   .date-error {
-    font-size: 0.75rem;
-    color: var(--color-red-1);
-    margin-top: 0.125rem;
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-meta);
+    color: var(--color-error);
+    margin-top: 0.1rem;
   }
 
   .btn-expand {
-    font-size: 0.75rem;
+    flex-shrink: 0;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 </style>

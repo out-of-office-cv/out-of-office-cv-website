@@ -23,31 +23,36 @@ function getDateRange(gig: Gig): string {
 
 function getHostname(url: string): string {
   try {
-    return new URL(url).hostname
+    return new URL(url).hostname.replace(/^www\./, "")
   } catch {
     return url
   }
 }
 ---
 
-<div class="gig-section">
-  <h2>Post-office roles</h2>
+<section class="gig-section" aria-labelledby="post-office-heading">
+  <h2 id="post-office-heading">Post-office roles</h2>
+
   {sortedGigs.length === 0 ? (
     <p class="no-gigs">
-      No out-of-office gigs found yet. Know of one?
-      <a href="/contribute">Help us add it.</a>
+      <em>No post-office roles recorded yet.</em>
+      {" "}
+      <a href="/contribute">Know of one? Help us add it.</a>
     </p>
   ) : (
-    <ul class="gig-list">
+    <ol class="gig-list">
       {sortedGigs.map((gig) => (
-        <li class:list={["gig-card", !gig.verified_by && "gig-card-unverified"]}>
-          <div class="gig-role">
-            {gig.role}
+        <li class:list={["gig", !gig.verified_by && "gig-unverified"]}>
+          <div class="gig-headline">
+            <span class="gig-role">{gig.role}</span>
+            <span class="gig-at">at</span>
+            <span class="gig-org">{gig.organisation}</span>
             {!gig.verified_by && (
-              <span class="unverified-label" title="This gig has not been human-verified yet">Unverified</span>
+              <span class="unverified-tag" title="This role has not been human-verified yet">
+                · unverified
+              </span>
             )}
           </div>
-          <div class="gig-organisation">{gig.organisation}</div>
           <div class="gig-meta">
             <PollieBadge variant="category">{gig.category}</PollieBadge>
             {getDateRange(gig) && (
@@ -55,116 +60,144 @@ function getHostname(url: string): string {
             )}
           </div>
           <div class="gig-sources">
-            <span>{gig.sources.length === 1 ? "Source: " : "Sources: "}</span>
-            {gig.sources.map((source, i) => (
-              <>
-                <a
-                  href={source}
-                  target="_blank"
-                  rel="noopener"
-                  class="source-link"
-                >
-                  {getHostname(source)}
-                </a>
-                {i < gig.sources.length - 1 && ", "}
-              </>
-            ))}
+            <span class="caps sources-label">
+              {gig.sources.length === 1 ? "Source" : "Sources"}
+            </span>
+            <span class="sources-list">
+              {gig.sources.map((source, i) => (
+                <>
+                  <a
+                    href={source}
+                    target="_blank"
+                    rel="noopener"
+                    class="source-link"
+                  >
+                    {getHostname(source)}
+                  </a>
+                  {i < gig.sources.length - 1 && <span class="source-sep">·</span>}
+                </>
+              ))}
+            </span>
           </div>
         </li>
       ))}
-    </ul>
+    </ol>
   )}
-</div>
+</section>
 
 <style>
+  .gig-section {
+    margin-top: var(--space-xl);
+  }
+
   .gig-section h2 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: var(--space-lg);
+  }
+
+  .no-gigs {
+    font-family: var(--font-serif-stack);
+    font-size: 1.05rem;
+    color: var(--color-ink-2);
+    max-width: var(--measure-reading);
   }
 
   .gig-list {
     list-style: none;
+    margin: 0;
     padding: 0;
+  }
+
+  .gig {
+    padding: var(--space-lg) 0;
+    border-top: 1px solid var(--color-rule);
     display: grid;
-    gap: 0.75rem;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--space-xs);
+    max-width: var(--measure-wide);
   }
 
-  .gig-card {
-    padding: 0.75rem 1rem;
-    border: 1px solid var(--color-border);
-    border-radius: 8px;
-    background: var(--color-bg-soft);
+  .gig:last-child {
+    border-bottom: 1px solid var(--color-rule);
   }
 
-  .gig-card-unverified {
-    opacity: 0.6;
+  .gig-unverified {
+    opacity: 0.78;
+  }
+
+  .gig-headline {
+    font-family: var(--font-serif-stack);
+    font-size: 1.2rem;
+    line-height: 1.35;
+    color: var(--color-ink);
+    text-wrap: pretty;
   }
 
   .gig-role {
-    font-size: 1.1rem;
     font-weight: 600;
-    color: var(--color-text-1);
-    margin-bottom: 0.25rem;
   }
 
-  .unverified-label {
-    display: inline-block;
-    font-size: 0.7rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    color: var(--color-text-2);
-    background: var(--color-bg-alt);
-    border: 1px solid var(--color-border);
-    padding: 0.0625rem 0.375rem;
-    border-radius: 3px;
-    margin-left: 0.5rem;
-    vertical-align: middle;
+  .gig-at {
+    color: var(--color-ink-3);
+    font-style: italic;
+    margin: 0 0.25em;
+    font-size: 0.95em;
   }
 
-  .gig-organisation {
-    color: var(--color-text-1);
-    margin-bottom: 0.5rem;
+  .gig-org {
+    color: var(--color-ink);
+  }
+
+  .unverified-tag {
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-meta);
+    font-style: italic;
+    color: var(--color-ink-3);
+    margin-left: 0.3rem;
+    font-weight: 400;
   }
 
   .gig-meta {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 0.5rem;
+    gap: var(--space-sm);
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-meta);
   }
 
   .gig-dates {
-    color: var(--color-text-2);
-    font-size: 0.875rem;
+    color: var(--color-ink-2);
+    font-variant-numeric: tabular-nums lining-nums;
+    font-feature-settings: "tnum", "lnum";
   }
 
   .gig-sources {
-    font-size: 0.8rem;
-    color: var(--color-text-3);
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-meta);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: var(--space-xs);
+    color: var(--color-ink-3);
   }
 
-  .gig-sources a {
-    color: var(--color-brand-1);
-    text-decoration: none;
+  .sources-label {
+    color: var(--color-ink-3);
   }
 
-  .gig-sources a:hover {
-    text-decoration: underline;
+  .sources-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.5rem;
+    align-items: baseline;
   }
 
   .source-link {
-    margin-right: 0.25rem;
+    color: var(--color-accent);
+    font-variant-numeric: lining-nums;
   }
 
-  .no-gigs {
-    color: var(--color-text-2);
-    font-style: italic;
-  }
-
-  .no-gigs a {
-    color: var(--color-brand-1);
+  .source-sep {
+    color: var(--color-ink-3);
   }
 </style>

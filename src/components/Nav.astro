@@ -2,56 +2,98 @@
 const currentPath = Astro.url.pathname
 ---
 
-<nav>
-  <div class="nav-inner">
-    <a href="/" class="nav-brand">Out of Office CV</a>
-    <ul class="nav-links">
-      <li>
-        <a href="/" class:list={[{ active: currentPath === "/" }]}>Home</a>
-      </li>
-      <li>
-        <a
-          href="/about"
-          class:list={[{ active: currentPath === "/about" }]}
-        >
-          About
-        </a>
-      </li>
-      <li>
-        <a
-          href="/contribute"
-          class:list={[{ active: currentPath === "/contribute" }]}
-        >
-          Contribute
-        </a>
-      </li>
-    </ul>
+<header class="masthead">
+  <div class="masthead-inner">
+    <a href="/" class="wordmark-link" aria-label="Out of Office CV — home">
+      <span class="wordmark">Out of Office CV</span>
+      <span class="tagline">
+        A record of what Australian ex-parliamentarians do next
+      </span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li>
+          <a href="/" class:list={[{ active: currentPath === "/" }]}>
+            Directory
+          </a>
+        </li>
+        <li>
+          <a href="/about" class:list={[{ active: currentPath === "/about" }]}>
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contribute"
+            class:list={[{ active: currentPath === "/contribute" }]}
+          >
+            Contribute
+          </a>
+        </li>
+      </ul>
+    </nav>
   </div>
-</nav>
+</header>
 
 <style>
-  nav {
-    border-bottom: 1px solid var(--color-border);
-    background: var(--color-bg);
-    position: sticky;
-    top: 0;
-    z-index: 50;
+  .masthead {
+    background: var(--color-paper);
+    border-bottom: 1px solid var(--color-rule);
   }
 
-  .nav-inner {
-    max-width: 1200px;
+  .masthead-inner {
+    max-width: 78rem;
     margin: 0 auto;
-    padding: 0.75rem 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: var(--space-xl) var(--space-lg) var(--space-lg);
+    display: grid;
+    gap: var(--space-md);
+    grid-template-columns: 1fr;
   }
 
-  .nav-brand {
-    font-weight: 700;
-    font-size: 1.1rem;
-    color: var(--color-text-1);
+  @media (width >= 48rem) {
+    .masthead-inner {
+      grid-template-columns: 1fr auto;
+      align-items: end;
+      padding-inline: var(--space-2xl);
+      padding-top: var(--space-2xl);
+    }
+  }
+
+  .wordmark-link {
+    color: var(--color-ink);
     text-decoration: none;
+    display: block;
+    line-height: var(--lh-display);
+  }
+
+  .wordmark-link:hover {
+    color: var(--color-ink);
+  }
+
+  .wordmark-link:hover .wordmark {
+    color: var(--color-accent-hover);
+  }
+
+  .wordmark {
+    font-family: var(--font-serif-stack);
+    font-size: var(--text-masthead);
+    font-weight: 500;
+    letter-spacing: -0.018em;
+    color: var(--color-ink);
+    font-feature-settings: "kern", "liga", "lnum";
+    display: block;
+    transition: color var(--dur-fast) var(--ease-out);
+  }
+
+  .tagline {
+    display: block;
+    font-family: var(--font-serif-stack);
+    font-style: italic;
+    font-size: var(--text-meta);
+    color: var(--color-ink-3);
+    margin-top: var(--space-2xs);
+    max-width: 42ch;
+    line-height: 1.4;
   }
 
   .nav-links {
@@ -59,17 +101,32 @@ const currentPath = Astro.url.pathname
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 1.5rem;
+    gap: var(--space-xl);
+    align-items: baseline;
   }
 
   .nav-links a {
-    color: var(--color-text-2);
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-caps);
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--color-ink-2);
     text-decoration: none;
-    font-size: 0.95rem;
+    padding-block: var(--space-2xs);
+    border-bottom: 1px solid transparent;
+    transition:
+      color var(--dur-fast) var(--ease-out),
+      border-color var(--dur-fast) var(--ease-out);
   }
 
-  .nav-links a:hover,
+  .nav-links a:hover {
+    color: var(--color-ink);
+    border-bottom-color: var(--color-ink-2);
+  }
+
   .nav-links a.active {
-    color: var(--color-brand-1);
+    color: var(--color-accent);
+    border-bottom-color: var(--color-accent);
   }
 </style>

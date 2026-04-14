@@ -113,28 +113,23 @@
     searchInput || houseFilter || stateFilter || partyFilter || decadeFilter,
   )
 
-  function badgeClass(party: string): string {
+  function markerClass(party: string): string {
     const colour = getPartyColour(party)
-    return `badge badge-party-${colour || "default"}`
+    return `marker marker-${colour || "default"}`
   }
 
   function houseClass(house: House): string {
-    return `badge badge-${house}`
+    return `marker marker-${house}`
   }
 </script>
 
-<div class="pollie-filters">
-  <h2 class="filter-heading">Find a politician</h2>
+<section class="directory-controls" aria-label="Directory filters">
+  <h2 class="directory-heading">The directory</h2>
 
   <div class="search-wrapper">
     <label for="pollie-search" class="visually-hidden">
       Search politicians by name, electorate, state or party
     </label>
-    <!--
-      Svelte's a11y linter follows ARIA 1.1, where role="combobox" had to wrap
-      the input. ARIA 1.2 (the current spec) puts the role on the input itself,
-      so this pattern is correct — see WAI-ARIA Authoring Practices "Combobox".
-    -->
     <!-- svelte-ignore a11y_role_supports_aria_props -->
     <input
       id="pollie-search"
@@ -144,8 +139,8 @@
       onkeydown={handleSearchKeydown}
       onfocusin={() => { if (searchInput.trim()) searchOpen = true }}
       onfocusout={() => { setTimeout(() => searchOpen = false, 150) }}
-      placeholder="Search by name, electorate, state or party..."
-      class="pollie-search"
+      placeholder="Search by name, electorate, state or party"
+      class="search-input"
       role="combobox"
       aria-expanded={searchOpen}
       aria-controls="pollie-search-listbox"
@@ -164,48 +159,47 @@
             onmousedown={() => { window.location.href = `/pollies/${pollie.slug}` }}
             onmouseenter={() => { highlightedIndex = i }}
           >
-            <div class="combobox-item-inner">
-              <strong>{pollie.name}</strong>
-              <span class="combobox-meta">
-                <span class={badgeClass(pollie.party)}>{pollie.party}</span>
-                <span class={houseClass(pollie.house)}>
-                  {pollie.house === "senate" ? "Senator" : "MP"}
-                </span>
-                <span class="pollie-location">
-                  {pollie.division || pollie.state}{pollie.division ? `, ${pollie.state}` : ""}
-                </span>
+            <span class="combobox-name">{pollie.name}</span>
+            <span class="combobox-meta">
+              <span class={markerClass(pollie.party)}>{pollie.party}</span>
+              <span class={houseClass(pollie.house)}>
+                {pollie.house === "senate" ? "Senator" : "MP"}
               </span>
-            </div>
+              <span class="combobox-location">
+                {pollie.division || pollie.state}{pollie.division ? `, ${pollie.state}` : ""}
+              </span>
+            </span>
           </li>
         {:else}
-          <li class="no-results">No politicians found</li>
+          <li class="combobox-empty">No politicians found</li>
         {/each}
       </ul>
     {/if}
   </div>
 
   <div class="filter-row">
-    <select bind:value={houseFilter} class="filter-select">
+    <span class="filter-label caps">Filter</span>
+    <select bind:value={houseFilter} class="filter-select" aria-label="Filter by chamber">
       <option value="">All chambers</option>
       <option value="senate">Senators</option>
       <option value="reps">MPs</option>
     </select>
 
-    <select bind:value={stateFilter} class="filter-select">
+    <select bind:value={stateFilter} class="filter-select" aria-label="Filter by state">
       <option value="">All states</option>
       {#each uniqueStates as state}
         <option value={state}>{state}</option>
       {/each}
     </select>
 
-    <select bind:value={partyFilter} class="filter-select">
+    <select bind:value={partyFilter} class="filter-select" aria-label="Filter by party">
       <option value="">All parties</option>
       {#each uniqueParties as party}
         <option value={party}>{party}</option>
       {/each}
     </select>
 
-    <select bind:value={decadeFilter} class="filter-select">
+    <select bind:value={decadeFilter} class="filter-select" aria-label="Filter by decade">
       <option value="">All decades</option>
       {#each uniqueDecades as decade}
         <option value={decade}>{decade}</option>
@@ -213,113 +207,146 @@
     </select>
 
     {#if hasActiveFilters}
-      <button type="button" class="clear-filters" onclick={clearFilters}>
-        Clear filters
+      <button type="button" class="btn-link clear-link" onclick={clearFilters}>
+        Clear
       </button>
     {/if}
   </div>
-</div>
+</section>
 
 {#each filteredData as group (group.decade)}
-  <h2>{group.decade}</h2>
-  <ul class="pollie-list">
-    {#each group.pollies as pollie (pollie.slug)}
-      <li class="pollie-card">
-        <a href={`/pollies/${pollie.slug}`} class="pollie-link">
-          {#if pollie.photoUrl && !photoErrors.has(pollie.slug)}
-            <img
-              src={pollie.photoUrl}
-              alt={`Photo of ${pollie.name}`}
-              class="pollie-photo"
-              onerror={() => {
-                photoErrors.add(pollie.slug)
-                photoErrors = new Set(photoErrors)
-              }}
-            />
-          {:else}
-            <div class="pollie-photo" aria-hidden="true"></div>
-          {/if}
-          <div class="pollie-content">
-            <span class="pollie-name">{pollie.name}</span>
-            <div class="pollie-meta">
-              <span class={badgeClass(pollie.party)}>{pollie.party}</span>
-              <span class={houseClass(pollie.house)}>
-                {pollie.house === "senate" ? "Senator" : "MP"}
+  <section class="decade-section" aria-labelledby={`decade-${group.decade}`}>
+    <header class="decade-header">
+      <h2 id={`decade-${group.decade}`} class="decade-heading">{group.decade}</h2>
+      <span class="decade-count caps">
+        {group.pollies.length} {group.pollies.length === 1 ? "entry" : "entries"}
+      </span>
+    </header>
+    <ol class="entry-list">
+      {#each group.pollies as pollie (pollie.slug)}
+        <li class="entry">
+          <a href={`/pollies/${pollie.slug}`} class="entry-link">
+            {#if pollie.photoUrl && !photoErrors.has(pollie.slug)}
+              <img
+                src={pollie.photoUrl}
+                alt=""
+                class="entry-portrait"
+                loading="lazy"
+                onerror={() => {
+                  photoErrors.add(pollie.slug)
+                  photoErrors = new Set(photoErrors)
+                }}
+              />
+            {:else}
+              <span class="entry-portrait entry-portrait-placeholder" aria-hidden="true">
+                {pollie.name.split(/\s+/).slice(0, 2).map((s) => s[0]).join("")}
               </span>
-              <span class="pollie-location">
-                {pollie.division || pollie.state}{pollie.division ? `, ${pollie.state}` : ""}
+            {/if}
+            <div class="entry-body">
+              <span class="entry-name">{pollie.name}</span>
+              <span class="entry-meta">
+                <span class={markerClass(pollie.party)}>{pollie.party}</span>
+                <span class={houseClass(pollie.house)}>
+                  {pollie.house === "senate" ? "Senator" : "MP"}
+                </span>
+                <span class="entry-location">
+                  {pollie.division || pollie.state}{pollie.division ? `, ${pollie.state}` : ""}
+                </span>
               </span>
+            </div>
+            <span class="entry-gigs">
               {#if pollie.gigCount.verified > 0 && pollie.gigCount.unverified === 0}
                 <span class="gig-count">
-                  {pollie.gigCount.verified} {pollie.gigCount.verified === 1 ? "gig" : "gigs"}
+                  <span class="gig-number">{pollie.gigCount.verified}</span>
+                  <span class="gig-label">{pollie.gigCount.verified === 1 ? "gig" : "gigs"}</span>
                 </span>
               {:else if pollie.gigCount.verified > 0}
                 <span class="gig-count">
-                  {pollie.gigCount.verified} {pollie.gigCount.verified === 1 ? "gig" : "gigs"} ({pollie.gigCount.unverified} unverified)
+                  <span class="gig-number">{pollie.gigCount.verified}</span>
+                  <span class="gig-label">{pollie.gigCount.verified === 1 ? "gig" : "gigs"}</span>
+                  <span class="gig-plus">+ {pollie.gigCount.unverified} unverified</span>
                 </span>
               {:else if pollie.gigCount.unverified > 0}
                 <span class="gig-count gig-count-unverified">
-                  {pollie.gigCount.unverified} unverified
+                  <span class="gig-number">{pollie.gigCount.unverified}</span>
+                  <span class="gig-label">unverified</span>
+                </span>
+              {:else}
+                <span class="gig-count gig-count-empty">
+                  <span class="gig-label">—</span>
                 </span>
               {/if}
-            </div>
-          </div>
-        </a>
-      </li>
-    {/each}
-  </ul>
+            </span>
+          </a>
+        </li>
+      {/each}
+    </ol>
+  </section>
 {/each}
 
 {#if filteredData.length === 0}
-  <p class="no-results">No results found. Try adjusting your filters.</p>
+  <p class="empty-state">
+    <em>No entries match those filters.</em>
+    {#if hasActiveFilters}
+      <button type="button" class="btn-link" onclick={clearFilters}>
+        Clear filters
+      </button>
+    {/if}
+  </p>
 {/if}
 
 <style>
-  .pollie-filters {
-    margin-bottom: 1.5rem;
+  /* ------------------------------------------------------------
+     Controls block
+     ------------------------------------------------------------ */
+
+  .directory-controls {
+    margin-bottom: var(--space-2xl);
+    padding-bottom: var(--space-lg);
+    border-bottom: 1px solid var(--color-rule);
   }
 
-  .filter-heading {
+  .directory-heading {
     margin-top: 0;
-    margin-bottom: 0.75rem;
-    border-top: none;
+    margin-bottom: var(--space-md);
   }
 
   .search-wrapper {
     position: relative;
-    margin-bottom: 0.75rem;
+    margin-bottom: var(--space-md);
   }
 
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-  }
-
-  .pollie-search {
+  /* Editorial underline-rule input — no boxed field */
+  .search-input {
     width: 100%;
-    padding: 0.75rem 1rem;
-    font-size: 1rem;
-    border: 1px solid var(--color-border);
-    border-radius: 8px;
-    background: var(--color-bg);
-    color: var(--color-text-1);
+    font-family: var(--font-serif-stack);
+    font-size: 1.2rem;
+    font-style: italic;
+    padding: var(--space-sm) 0;
+    background: transparent;
+    color: var(--color-ink);
+    border: none;
+    border-bottom: 1px solid var(--color-rule-strong);
+    border-radius: 0;
+    box-shadow: none;
+    transition: border-bottom-color var(--dur-fast) var(--ease-out),
+                border-bottom-width var(--dur-fast) var(--ease-out);
   }
 
-  .pollie-search:focus {
+  .search-input::placeholder {
+    color: var(--color-ink-3);
+    font-style: italic;
+  }
+
+  .search-input:focus {
     outline: none;
-    border-color: var(--color-brand-1);
+    border-bottom-color: var(--color-accent);
+    box-shadow: 0 1px 0 0 var(--color-accent);
   }
 
-  .pollie-search::placeholder {
-    color: var(--color-text-3);
-  }
+  /* ------------------------------------------------------------
+     Combobox dropdown
+     ------------------------------------------------------------ */
 
   .combobox-content {
     position: absolute;
@@ -328,181 +355,417 @@
     right: 0;
     list-style: none;
     padding: 0;
-    margin: 4px 0 0;
-    background: var(--color-bg);
-    border: 1px solid var(--color-border);
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
-    max-height: 350px;
+    margin: 0;
+    background: var(--color-paper);
+    border: 1px solid var(--color-rule-strong);
+    border-top: none;
+    max-height: 22rem;
     overflow-y: auto;
     z-index: 100;
   }
 
   .combobox-item {
-    padding: 0.75rem 1rem;
+    padding: var(--space-sm) var(--space-md);
     cursor: pointer;
+    border-bottom: 1px solid var(--color-rule);
+    display: grid;
+    gap: 0.2rem;
+    transition: background var(--dur-fast) var(--ease-out);
+  }
+
+  .combobox-item:last-child {
+    border-bottom: none;
   }
 
   .combobox-item.highlighted {
-    background: var(--color-bg-soft);
+    background: var(--color-paper-tint);
   }
 
-  .combobox-item-inner {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
+  .combobox-name {
+    font-family: var(--font-serif-stack);
+    font-weight: 600;
+    color: var(--color-ink);
   }
 
   .combobox-meta {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0.5rem;
+    gap: var(--space-xs);
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-meta);
   }
+
+  .combobox-location {
+    color: var(--color-ink-3);
+  }
+
+  .combobox-empty {
+    padding: var(--space-md);
+    font-style: italic;
+    color: var(--color-ink-3);
+  }
+
+  /* ------------------------------------------------------------
+     Filter row
+     ------------------------------------------------------------ */
 
   .filter-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
     align-items: center;
+    gap: var(--space-sm);
+  }
+
+  .filter-label {
+    color: var(--color-ink-3);
+    margin-right: var(--space-2xs);
   }
 
   .filter-select {
-    padding: 0.5rem 0.75rem;
-    font-size: 0.875rem;
-    border: 1px solid var(--color-border);
-    border-radius: 6px;
-    background: var(--color-bg);
-    color: var(--color-text-1);
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-meta);
+    padding: 0.3rem 1.8rem 0.3rem 0.55rem;
+    background: transparent;
+    color: var(--color-ink-2);
+    border: 1px solid var(--color-rule-strong);
+    border-radius: var(--radius-sm);
     cursor: pointer;
+    width: auto;
+    appearance: none;
+    background-image: linear-gradient(45deg, transparent 50%, var(--color-ink-3) 50%),
+                      linear-gradient(-45deg, transparent 50%, var(--color-ink-3) 50%);
+    background-position: calc(100% - 0.8rem) 50%, calc(100% - 0.5rem) 50%;
+    background-size: 5px 5px;
+    background-repeat: no-repeat;
+    transition: border-color var(--dur-fast) var(--ease-out),
+                color var(--dur-fast) var(--ease-out);
+  }
+
+  .filter-select:hover {
+    color: var(--color-ink);
+    border-color: var(--color-ink-2);
   }
 
   .filter-select:focus {
     outline: none;
-    border-color: var(--color-brand-1);
+    border-color: var(--color-accent);
+    color: var(--color-ink);
   }
 
-  .clear-filters {
-    padding: 0.5rem 0.75rem;
-    font-size: 0.875rem;
-    border: 1px solid var(--color-border);
-    border-radius: 6px;
-    background: var(--color-bg-soft);
-    color: var(--color-text-2);
-    cursor: pointer;
-  }
-
-  .clear-filters:hover {
-    background: var(--color-bg-alt);
-    color: var(--color-text-1);
-  }
-
-  .pollie-list {
-    list-style: none;
-    padding: 0;
-    display: grid;
-    gap: 0.75rem;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  }
-
-  .pollie-card {
-    border: 1px solid var(--color-border);
-    border-radius: 8px;
-    background: var(--color-bg-soft);
-    overflow: hidden;
-    margin-top: 0;
-  }
-
-  .pollie-link {
-    display: flex;
-    gap: 0.75rem;
-    padding: 0.75rem 1rem;
-    text-decoration: none;
-    color: inherit;
-  }
-
-  .pollie-link:hover {
-    background: var(--color-bg-alt);
-  }
-
-  .pollie-photo {
-    width: 48px;
-    height: 60px;
-    object-fit: cover;
-    border-radius: 4px;
-    background-color: var(--color-bg-alt);
-    flex-shrink: 0;
-  }
-
-  .pollie-content {
-    flex: 1;
-    min-width: 0;
-  }
-
-  .pollie-name {
-    display: block;
-    font-size: 1.1rem;
+  .clear-link {
+    margin-left: auto;
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-caps);
     font-weight: 600;
-    color: var(--color-text-1);
-    margin-bottom: 0.375rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
   }
 
-  .pollie-link:hover .pollie-name {
-    color: var(--color-brand-1);
+  /* ------------------------------------------------------------
+     Decade sections
+     ------------------------------------------------------------ */
+
+  .decade-section {
+    margin-bottom: var(--space-3xl);
   }
 
-  .pollie-meta {
+  .decade-header {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-lg);
+    margin-bottom: var(--space-lg);
+    padding-bottom: var(--space-xs);
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .decade-heading {
+    margin: 0;
+    font-variant-numeric: lining-nums;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  .decade-count {
+    color: var(--color-ink-3);
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+
+  /* ------------------------------------------------------------
+     Entry list
+     ------------------------------------------------------------ */
+
+  .entry-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .entry {
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .entry:first-child {
+    border-top: 1px solid var(--color-rule);
+  }
+
+  .entry-link {
+    display: grid;
+    grid-template-columns: 3rem 1fr auto;
+    gap: var(--space-md);
+    align-items: center;
+    padding: var(--space-md) 0;
+    color: inherit;
+    text-decoration: none;
+    transition: background var(--dur-fast) var(--ease-out);
+  }
+
+  .entry-link:hover {
+    background: var(--color-paper-alt);
+  }
+
+  .entry-link:hover .entry-name {
+    color: var(--color-accent);
+  }
+
+  /* Portrait: small reserved column, square-ish */
+  .entry-portrait {
+    width: 3rem;
+    height: 3.75rem;
+    object-fit: cover;
+    background: var(--color-paper-deep);
+    border: 1px solid var(--color-rule);
+    border-radius: var(--radius-sm);
+    display: block;
+  }
+
+  .entry-portrait-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-serif-stack);
+    font-style: italic;
+    font-size: 0.92rem;
+    color: var(--color-ink-3);
+    font-feature-settings: "lnum";
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .entry-body {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .entry-name {
+    font-family: var(--font-serif-stack);
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--color-ink);
+    letter-spacing: -0.005em;
+    transition: color var(--dur-fast) var(--ease-out);
+  }
+
+  .entry-meta {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0.5rem;
+    gap: var(--space-xs);
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-meta);
   }
 
-  .pollie-location {
-    color: var(--color-text-2);
-    font-size: 0.875rem;
+  .entry-location {
+    color: var(--color-ink-3);
+  }
+
+  /* ------------------------------------------------------------
+     Gig count, right-hand column
+     ------------------------------------------------------------ */
+
+  .entry-gigs {
+    font-family: var(--font-sans-stack);
+    text-align: right;
+    color: var(--color-ink-2);
+    font-feature-settings: "tnum", "lnum";
   }
 
   .gig-count {
-    font-size: 0.75rem;
-    color: var(--color-text-3);
-    background: var(--color-bg-alt);
-    padding: 0.125rem 0.5rem;
-    border-radius: 9999px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 0.3rem;
   }
 
-  .gig-count-unverified {
+  .gig-number {
+    font-family: var(--font-serif-stack);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-ink);
+    font-variant-numeric: lining-nums tabular-nums;
+    letter-spacing: -0.01em;
+  }
+
+  .gig-label {
+    font-size: var(--text-caps);
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--color-ink-3);
+  }
+
+  .gig-plus {
+    display: block;
+    flex-basis: 100%;
+    font-size: var(--text-caps);
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: normal;
+    color: var(--color-ink-3);
+    margin-top: 0.1rem;
+  }
+
+  .gig-count-unverified .gig-number {
+    color: var(--color-ink-3);
     font-style: italic;
   }
 
-  .no-results {
-    text-align: center;
-    color: var(--color-text-2);
-    padding: 2rem;
+  .gig-count-empty .gig-label {
+    color: var(--color-ink-3);
+    font-family: var(--font-serif-stack);
+    font-size: 1.1rem;
+    text-transform: none;
+    letter-spacing: normal;
   }
 
-  /* Badge styles (inline since these are in a Svelte component) */
-  .badge {
+  /* ------------------------------------------------------------
+     Markers (party / chamber) — archival stamp style
+     ------------------------------------------------------------ */
+
+  .marker {
     display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 500;
-    padding: 0.125rem 0.5rem;
-    border-radius: 4px;
-    color: white;
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-caps);
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 0.1rem 0.5rem 0.125rem;
+    border-radius: var(--radius-sm);
+    white-space: nowrap;
+    line-height: 1.3;
   }
 
-  .badge-party-red { background-color: var(--badge-party-red); }
-  .badge-party-blue { background-color: var(--badge-party-blue); }
-  .badge-party-green { background-color: var(--badge-party-green); }
-  .badge-party-grey { background-color: var(--badge-party-grey); }
-  .badge-party-orange { background-color: var(--badge-party-orange); }
-  .badge-party-purple { background-color: var(--badge-party-purple); }
-  .badge-party-default {
-    background-color: var(--color-bg-soft);
-    color: var(--color-text-2);
-    border: 1px solid var(--color-border);
+  .marker-senate {
+    background: var(--marker-senate-bg);
+    color: var(--marker-senate-ink);
+    border: 1px solid var(--marker-senate-rule);
   }
 
-  .badge-senate { background-color: var(--badge-senate); }
-  .badge-reps { background-color: var(--badge-reps); }
+  .marker-reps {
+    background: var(--marker-reps-bg);
+    color: var(--marker-reps-ink);
+    border: 1px solid var(--marker-reps-rule);
+  }
+
+  .marker-red {
+    background: var(--marker-red-bg);
+    color: var(--marker-red-ink);
+    border: 1px solid var(--marker-red-rule);
+  }
+
+  .marker-blue {
+    background: var(--marker-blue-bg);
+    color: var(--marker-blue-ink);
+    border: 1px solid var(--marker-blue-rule);
+  }
+
+  .marker-green {
+    background: var(--marker-green-bg);
+    color: var(--marker-green-ink);
+    border: 1px solid var(--marker-green-rule);
+  }
+
+  .marker-grey {
+    background: var(--marker-grey-bg);
+    color: var(--marker-grey-ink);
+    border: 1px solid var(--marker-grey-rule);
+  }
+
+  .marker-orange {
+    background: var(--marker-orange-bg);
+    color: var(--marker-orange-ink);
+    border: 1px solid var(--marker-orange-rule);
+  }
+
+  .marker-purple {
+    background: var(--marker-purple-bg);
+    color: var(--marker-purple-ink);
+    border: 1px solid var(--marker-purple-rule);
+  }
+
+  .marker-default {
+    background: var(--marker-default-bg);
+    color: var(--marker-default-ink);
+    border: 1px solid var(--marker-default-rule);
+  }
+
+  /* ------------------------------------------------------------
+     Empty state
+     ------------------------------------------------------------ */
+
+  .empty-state {
+    font-family: var(--font-serif-stack);
+    font-size: 1.05rem;
+    color: var(--color-ink-2);
+    padding: var(--space-xl) 0;
+    max-width: var(--measure-reading);
+  }
+
+  .empty-state .btn-link {
+    margin-left: var(--space-xs);
+  }
+
+  /* ------------------------------------------------------------
+     Responsive: on narrow screens, collapse gig column below body
+     ------------------------------------------------------------ */
+
+  @media (width < 40rem) {
+    .entry-link {
+      grid-template-columns: 2.5rem 1fr;
+      grid-template-areas:
+        "portrait body"
+        "portrait gigs";
+      gap: var(--space-sm) var(--space-md);
+    }
+
+    .entry-portrait {
+      grid-area: portrait;
+      width: 2.5rem;
+      height: 3.125rem;
+    }
+
+    .entry-body {
+      grid-area: body;
+    }
+
+    .entry-gigs {
+      grid-area: gigs;
+      text-align: left;
+    }
+
+    .gig-count {
+      justify-content: flex-start;
+    }
+
+    .gig-number {
+      font-size: 1rem;
+    }
+
+    .decade-header {
+      flex-wrap: wrap;
+    }
+  }
 </style>

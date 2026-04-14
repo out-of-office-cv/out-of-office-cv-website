@@ -14,29 +14,35 @@
 </script>
 
 {#if status === "creating"}
-  <div class="pr-status">
-    <span class="spinner"></span> Creating pull request...
+  <div class="pr-status" role="status">
+    <span class="dots" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </span>
+    <span>Opening pull request…</span>
   </div>
 {:else if status === "created"}
-  <div class="pr-status">
-    <p>
+  <div class="pr-status" role="status">
+    <span class="dots" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </span>
+    <p class="pr-line">
       <a href={prUrl} target="_blank" rel="noopener">PR #{prNumber}</a>
-      created! Waiting for merge...
+      opened — waiting for merge…
     </p>
-    <span class="spinner"></span>
   </div>
 {:else if status === "merged"}
-  <div class="pr-status success">
-    <p>
+  <div class="pr-status success" role="status">
+    <span class="success-mark" aria-hidden="true">✓</span>
+    <p class="pr-line">
       <a href={prUrl} target="_blank" rel="noopener">PR #{prNumber}</a>
-      merged!
+      merged. Thank you.
     </p>
     <button type="button" class="btn-secondary" onclick={onreset}>
       {actionLabel}
     </button>
   </div>
 {:else if status === "error"}
-  <div class="pr-status error">
+  <div class="pr-status error" role="alert">
     <p class="error-text">{prError}</p>
     <button type="button" class="btn-secondary" onclick={onreset}>
       Try again
@@ -48,12 +54,15 @@
   .pr-status {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: var(--space-sm);
     flex-wrap: wrap;
+    font-family: var(--font-serif-stack);
+    color: var(--color-ink);
+    padding: var(--space-sm) 0;
   }
 
   .pr-status.success {
-    color: var(--color-green-1);
+    color: var(--color-success);
   }
 
   .pr-status.error {
@@ -61,24 +70,71 @@
     align-items: flex-start;
   }
 
-  .spinner {
-    width: 20px;
-    height: 20px;
-    border: 2px solid var(--color-border);
-    border-top-color: var(--color-brand-1);
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
+  .pr-line {
+    margin: 0;
+    font-size: 1rem;
   }
 
-  @keyframes spin {
-    to {
-      transform: rotate(360deg);
+  .success-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    background: var(--color-success);
+    color: var(--color-paper);
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: var(--font-sans-stack);
+  }
+
+  /* Subtle ellipsis dot animation, respects reduced-motion */
+  .dots {
+    display: inline-flex;
+    gap: 0.25rem;
+    align-items: center;
+  }
+
+  .dots span {
+    width: 0.35rem;
+    height: 0.35rem;
+    border-radius: 50%;
+    background: var(--color-accent);
+    opacity: 0.35;
+    animation: dot-pulse 1.4s ease-in-out infinite;
+  }
+
+  .dots span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  .dots span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+
+  @keyframes dot-pulse {
+    0%, 70%, 100% {
+      opacity: 0.35;
+      transform: scale(1);
+    }
+    35% {
+      opacity: 1;
+      transform: scale(1.25);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .dots span {
+      animation: none;
+      opacity: 0.7;
     }
   }
 
   .error-text {
-    color: var(--color-red-1);
-    font-size: 0.875rem;
-    margin: 0.25rem 0 0;
+    font-family: var(--font-sans-stack);
+    color: var(--color-error);
+    font-size: var(--text-small);
+    margin: 0 0 var(--space-xs);
   }
 </style>

@@ -71,7 +71,7 @@ describe("pollie page generation", () => {
 
     const page = readFileSync(broadbentPath, "utf-8");
     const header = page.match(
-      /<div class="pollie-header"[\s\S]*?class="pollie-meta"[\s\S]*?<\/div>\s*<\/div>/,
+      /<header class="pollie-masthead[\s\S]*?<\/header>/,
     )?.[0] ?? "";
     expect(header).toContain("Monash");
     expect(header).toContain("IND");
@@ -163,7 +163,7 @@ describe("gig integration", () => {
     const content = readFileSync(broadbentPath, "utf-8");
 
     expect(content).toContain("Post-office roles");
-    expect(content).toContain("No out-of-office gigs found yet");
+    expect(content).toContain("No post-office roles recorded yet");
     expect(content).toContain("Help us add it");
   });
 });

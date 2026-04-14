@@ -135,29 +135,33 @@
   <GitHubAuthSection {auth} />
 
   {#if drafts.storageError}
-    <div class="warning-box" role="alert">{drafts.storageError}</div>
+    <div class="notice notice-warn" role="alert">{drafts.storageError}</div>
   {/if}
 
-  <div class="mode-tabs">
+  <div class="mode-tabs" role="tablist">
     <button
       type="button"
+      role="tab"
+      aria-selected={mode === "add"}
       class="tab"
       class:active={mode === "add"}
       onclick={() => (mode = "add")}
     >
       Add new gigs
       {#if drafts.gigs.length > 0}
-        <span class="tab-badge">{drafts.gigs.length}</span>
+        <span class="tab-count">{drafts.gigs.length}</span>
       {/if}
     </button>
     <button
       type="button"
+      role="tab"
+      aria-selected={mode === "verify"}
       class="tab"
       class:active={mode === "verify"}
       onclick={() => (mode = "verify")}
     >
       Verify existing
-      <span class="tab-badge">{unverifiedGigs.length}</span>
+      <span class="tab-count">{unverifiedGigs.length}</span>
     </button>
   </div>
 
@@ -178,10 +182,10 @@
 
     {#if drafts.gigs.length > 0}
       <section class="submit-section">
-        <h2>Submit</h2>
+        <h2>Submit your drafts</h2>
         {#if pr.status === "idle"}
           {#if !auth.isAuthenticated}
-            <p class="warning-text">Connect to GitHub above to submit your gigs.</p>
+            <p class="notice-text">Connect to GitHub above to submit your gigs.</p>
           {/if}
           <button
             type="button"
@@ -189,7 +193,7 @@
             disabled={!canSubmitAdd}
             onclick={submitAddPR}
           >
-            Create pull request with {drafts.gigs.length}
+            Open pull request with {drafts.gigs.length}
             {drafts.gigs.length === 1 ? "gig" : "gigs"}
           </button>
         {:else}
@@ -209,12 +213,12 @@
       <h2>Verify existing gigs</h2>
 
       {#if !auth.isAuthenticated}
-        <div class="warning-box">Connect to GitHub above to verify gigs.</div>
+        <p class="notice notice-warn">Connect to GitHub above to verify gigs.</p>
       {:else if !auth.canVerify}
-        <div class="warning-box">
+        <p class="notice notice-warn">
           Your GitHub account (@{auth.username}) is not authorised to verify
           gigs. Contact the project maintainers if you should have access.
-        </div>
+        </p>
       {:else}
         <VerifyGigList
           bind:this={verifyListRef}
@@ -247,84 +251,92 @@
 
 <style>
   .gig-entry-form {
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 46rem;
   }
 
+  /* Tabs: text-based, bottom-border active state — no pills, no cards */
   .mode-tabs {
     display: flex;
-    gap: 0;
-    margin-bottom: 1rem;
-    border-radius: 8px;
-    overflow: hidden;
-    border: 1px solid var(--color-border);
+    gap: var(--space-xl);
+    margin: var(--space-xl) 0 var(--space-lg);
+    border-bottom: 1px solid var(--color-rule);
   }
 
   .tab {
-    flex: 1;
-    padding: 0.75rem 1rem;
-    background: var(--color-bg);
+    background: transparent;
     border: none;
+    padding: var(--space-sm) 0;
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-caps);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-ink-3);
     cursor: pointer;
-    font-size: 1rem;
-    color: var(--color-text-2);
-    display: flex;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    transition: background 0.2s, color 0.2s;
-  }
-
-  .tab:not(:last-child) {
-    border-right: 1px solid var(--color-border);
+    gap: var(--space-xs);
+    transition:
+      color var(--dur-fast) var(--ease-out),
+      border-color var(--dur-fast) var(--ease-out);
   }
 
   .tab:hover {
-    background: var(--color-bg-soft);
+    color: var(--color-ink);
   }
 
   .tab.active {
-    background: var(--color-brand-soft);
-    color: var(--color-brand-1);
+    color: var(--color-accent);
+    border-bottom-color: var(--color-accent);
+  }
+
+  .tab-count {
+    font-family: var(--font-serif-stack);
+    font-size: 0.95rem;
     font-weight: 500;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--color-ink-3);
+    font-variant-numeric: lining-nums tabular-nums;
   }
 
-  .tab-badge {
-    background: var(--color-bg-soft);
-    padding: 0.125rem 0.5rem;
-    border-radius: 10px;
-    font-size: 0.75rem;
+  .tab.active .tab-count {
+    color: var(--color-accent);
   }
 
-  .tab.active .tab-badge {
-    background: var(--color-brand-1);
-    color: #fff;
-  }
-
+  /* Sections — typographic, not boxed */
   .submit-section,
   .verify-wrapper {
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-    background: var(--color-bg-soft);
-    border-radius: 8px;
+    margin-top: var(--space-2xl);
+    padding-top: var(--space-lg);
+    border-top: 1px solid var(--color-rule);
   }
 
   h2 {
-    margin: 0 0 1rem;
-    font-size: 1.25rem;
+    margin: 0 0 var(--space-md);
   }
 
-  .warning-text {
-    color: var(--color-yellow-1);
-    font-size: 0.875rem;
-    margin: 0.25rem 0 1rem;
+  .notice {
+    font-family: var(--font-serif-stack);
+    padding: var(--space-sm) var(--space-md);
+    margin-bottom: var(--space-md);
+    font-size: var(--text-small);
+    border-radius: var(--radius-sm);
+    max-width: var(--measure-reading);
   }
 
-  .warning-box {
-    background: var(--color-yellow-soft);
-    color: var(--color-yellow-1);
-    padding: 1rem;
-    border-radius: 4px;
-    margin-bottom: 1rem;
+  .notice-warn {
+    background: var(--color-warn-soft);
+    color: oklch(32% 0.08 75);
+    border: 1px solid oklch(82% 0.08 75);
+  }
+
+  .notice-text {
+    font-family: var(--font-serif-stack);
+    font-style: italic;
+    color: var(--color-ink-2);
+    margin-bottom: var(--space-sm);
   }
 </style>

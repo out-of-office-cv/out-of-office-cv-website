@@ -16,20 +16,21 @@ interface Props {
 const { name, division, state, party, house, leftOfficeDate, leftOfficeAgo, photoUrl } = Astro.props
 ---
 
-<div class="pollie-header">
-  <div class="pollie-header-content">
+<header class="pollie-masthead">
+  <div class="masthead-grid">
     {photoUrl && (
-      <div class="pollie-photo-container">
+      <div class="portrait-frame">
         <img
           src={photoUrl}
-          alt={`Photo of ${name}`}
-          class="pollie-photo"
+          alt={`Portrait of ${name}`}
+          class="portrait"
+          loading="eager"
         />
       </div>
     )}
-    <div class="pollie-info">
+    <div class="info">
       <h1 class="pollie-name">{name}</h1>
-      <div class="pollie-badges">
+      <div class="markers">
         <PollieBadge variant="party" party={party}>
           {party}
         </PollieBadge>
@@ -37,110 +38,114 @@ const { name, division, state, party, house, leftOfficeDate, leftOfficeAgo, phot
           {house === "senate" ? "Senator" : "MP"}
         </PollieBadge>
       </div>
-      <div class="pollie-meta">
+      <dl class="meta">
         {division && (
-          <div class="meta-item">
-            <span class="meta-label">Electorate</span>
-            <span class="meta-value">{division}</span>
+          <div class="meta-row">
+            <dt class="caps">Electorate</dt>
+            <dd>{division}</dd>
           </div>
         )}
-        <div class="meta-item">
-          <span class="meta-label">State</span>
-          <span class="meta-value">{state}</span>
+        <div class="meta-row">
+          <dt class="caps">State</dt>
+          <dd>{state}</dd>
         </div>
         {leftOfficeDate && (
-          <div class="meta-item">
-            <span class="meta-label">Left office</span>
-            <span class="meta-value">{leftOfficeDate} ({leftOfficeAgo})</span>
+          <div class="meta-row">
+            <dt class="caps">Left office</dt>
+            <dd>
+              {leftOfficeDate}
+              <span class="meta-qualifier">({leftOfficeAgo})</span>
+            </dd>
           </div>
         )}
-      </div>
+      </dl>
     </div>
   </div>
-</div>
+</header>
 
 <style>
-  .pollie-header {
-    margin-bottom: 2rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid var(--color-border);
+  .pollie-masthead {
+    padding-bottom: var(--space-xl);
+    margin-bottom: var(--space-xl);
+    border-bottom: 1px solid var(--color-rule);
   }
 
-  .pollie-header-content {
-    display: flex;
-    gap: 1.5rem;
-    align-items: flex-start;
+  .masthead-grid {
+    display: grid;
+    gap: var(--space-lg) var(--space-xl);
+    grid-template-columns: 1fr;
   }
 
-  .pollie-photo-container {
-    flex-shrink: 0;
+  @media (width >= 32rem) {
+    .masthead-grid {
+      grid-template-columns: 8rem 1fr;
+      align-items: start;
+    }
   }
 
-  .pollie-photo {
-    width: 120px;
-    height: 150px;
+  .portrait-frame {
+    /* Reserve slot; behaves well when photo missing */
+  }
+
+  .portrait {
+    width: 100%;
+    max-width: 9rem;
+    aspect-ratio: 4 / 5;
     object-fit: cover;
-    border-radius: 4px;
-    background-color: var(--color-bg-soft);
+    background: var(--color-paper-deep);
+    border: 1px solid var(--color-rule);
+    border-radius: var(--radius-sm);
+    display: block;
   }
 
-  .pollie-info {
-    flex: 1;
+  .info {
     min-width: 0;
   }
 
   .pollie-name {
-    font-size: 2rem;
-    font-weight: 700;
-    margin: 0 0 0.75rem;
-    line-height: 1.2;
+    margin: 0 0 var(--space-sm);
+    font-feature-settings: "kern", "liga", "lnum";
   }
 
-  .pollie-badges {
+  .markers {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
+    gap: var(--space-xs);
+    margin-bottom: var(--space-lg);
   }
 
-  .pollie-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
+  .meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, max-content));
+    gap: var(--space-md) var(--space-xl);
+    margin: 0;
+    font-family: var(--font-sans-stack);
   }
 
-  .meta-item {
+  .meta-row {
     display: flex;
     flex-direction: column;
-    gap: 0.125rem;
+    gap: 0.2rem;
   }
 
-  .meta-label {
-    font-size: 0.75rem;
+  .meta-row dt {
+    font-size: var(--text-caps);
     font-weight: 600;
+    letter-spacing: 0.09em;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--color-text-3);
+    color: var(--color-ink-3);
   }
 
-  .meta-value {
-    font-size: 1rem;
-    color: var(--color-text-1);
+  .meta-row dd {
+    margin: 0;
+    font-size: var(--text-body);
+    color: var(--color-ink);
+    font-feature-settings: "kern", "liga", "lnum", "tnum";
   }
 
-  @media (width <= 480px) {
-    .pollie-header-content {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-
-    .pollie-badges {
-      justify-content: center;
-    }
-
-    .pollie-meta {
-      justify-content: center;
-    }
+  .meta-qualifier {
+    color: var(--color-ink-3);
+    font-style: italic;
+    margin-left: 0.2rem;
   }
 </style>

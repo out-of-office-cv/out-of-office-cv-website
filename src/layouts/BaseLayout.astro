@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css"
+import { Font } from "astro:assets"
 import Nav from "../components/Nav.astro"
 import SiteFooter from "../components/SiteFooter.astro"
 
@@ -12,7 +13,7 @@ const { title, description } = Astro.props
 const siteTitle = title ? `${title} | Out of Office CV` : "Out of Office CV"
 const siteDescription =
   description ||
-  "Tracking what Australian Parliamentarians do when they leave office"
+  "A record of what Australian ex-parliamentarians do next."
 ---
 
 <html lang="en">
@@ -22,6 +23,8 @@ const siteDescription =
     <title>{siteTitle}</title>
     <meta name="description" content={siteDescription} />
     <link rel="canonical" href="https://www.outofoffice.cv" />
+    <Font cssVariable="--font-serif" preload />
+    <Font cssVariable="--font-sans" preload />
   </head>
   <body>
     <Nav />
@@ -34,8 +37,16 @@ const siteDescription =
 
 <style>
   main {
-    max-width: 1200px;
+    max-width: 78rem;
     margin: 0 auto;
-    padding: 2rem 1.5rem;
+    padding: var(--space-xl) var(--space-lg) var(--space-3xl);
+    width: 100%;
+  }
+
+  @media (width >= 60rem) {
+    main {
+      padding-inline: var(--space-2xl);
+      padding-top: var(--space-2xl);
+    }
   }
 </style>

@@ -165,64 +165,62 @@
 <section class="form-section">
   <h2>{editingGig ? "Edit gig" : "Add a new gig"}</h2>
   <form onsubmit={(e) => { e.preventDefault(); handleSubmit() }}>
-    <div class="form-row">
-      <div class="form-group">
-        <label for="pollie-search">Politician</label>
-        <div class="autocomplete-wrapper">
-          <input
-            id="pollie-search"
-            type="text"
-            bind:value={pollieSearch}
-            oninput={handlePollieInput}
-            onkeydown={handlePollieKeydown}
-            onfocusin={() => { if (pollieSearch.trim()) pollieComboboxOpen = true }}
-            onfocusout={() => { setTimeout(() => pollieComboboxOpen = false, 150) }}
-            placeholder="Search by name..."
-            autocomplete="off"
-            class="form-input"
-            role="combobox"
-            aria-expanded={pollieComboboxOpen}
-            aria-controls="pollie-autocomplete-listbox"
-            aria-autocomplete="list"
-            aria-activedescendant={pollieHighlightedIndex >= 0 ? `pollie-ac-option-${pollieHighlightedIndex}` : undefined}
-          />
-          {#if pollieComboboxOpen && filteredPollies.length > 0}
-            <ul id="pollie-autocomplete-listbox" class="autocomplete-content" role="listbox">
-              {#each filteredPollies as pollie, i (pollie.slug)}
-                <li
-                  id={`pollie-ac-option-${i}`}
-                  role="option"
-                  class="autocomplete-item"
-                  class:highlighted={i === pollieHighlightedIndex}
-                  aria-selected={i === pollieHighlightedIndex}
-                  onmousedown={() => handlePollieSelect(pollie.slug)}
-                  onmouseenter={() => { pollieHighlightedIndex = i }}
-                >
-                  {pollie.name}
-                </li>
-              {/each}
-            </ul>
-          {/if}
-        </div>
-        {#if pollieWarning}
-          <p class="warning-text">{pollieWarning}</p>
-        {/if}
-        {#if formErrors.pollieSlug}
-          <p class="error-text">{formErrors.pollieSlug}</p>
+    <div class="form-group">
+      <label for="pollie-search" class="field-label">Politician <span class="required" aria-hidden="true">·</span></label>
+      <div class="autocomplete-wrapper">
+        <!-- svelte-ignore a11y_role_supports_aria_props -->
+        <input
+          id="pollie-search"
+          type="text"
+          bind:value={pollieSearch}
+          oninput={handlePollieInput}
+          onkeydown={handlePollieKeydown}
+          onfocusin={() => { if (pollieSearch.trim()) pollieComboboxOpen = true }}
+          onfocusout={() => { setTimeout(() => pollieComboboxOpen = false, 150) }}
+          placeholder="Search by name…"
+          autocomplete="off"
+          role="combobox"
+          aria-expanded={pollieComboboxOpen}
+          aria-controls="pollie-autocomplete-listbox"
+          aria-autocomplete="list"
+          aria-activedescendant={pollieHighlightedIndex >= 0 ? `pollie-ac-option-${pollieHighlightedIndex}` : undefined}
+        />
+        {#if pollieComboboxOpen && filteredPollies.length > 0}
+          <ul id="pollie-autocomplete-listbox" class="autocomplete-content" role="listbox">
+            {#each filteredPollies as pollie, i (pollie.slug)}
+              <li
+                id={`pollie-ac-option-${i}`}
+                role="option"
+                class="autocomplete-item"
+                class:highlighted={i === pollieHighlightedIndex}
+                aria-selected={i === pollieHighlightedIndex}
+                onmousedown={() => handlePollieSelect(pollie.slug)}
+                onmouseenter={() => { pollieHighlightedIndex = i }}
+              >
+                {pollie.name}
+              </li>
+            {/each}
+          </ul>
         {/if}
       </div>
+      {#if pollieWarning}
+        <p class="warning-text">{pollieWarning}</p>
+      {/if}
+      {#if formErrors.pollieSlug}
+        <p class="error-text">{formErrors.pollieSlug}</p>
+      {/if}
     </div>
 
-    <div class="form-row two-col">
+    <div class="form-grid-two">
       <div class="form-group">
-        <label for="role">Role <span class="required">*</span></label>
+        <label for="role" class="field-label">Role <span class="required" aria-hidden="true">·</span></label>
         <input id="role" bind:value={role} type="text" placeholder="e.g. Non-Executive Director" />
         {#if formErrors.role}
           <p class="error-text">{formErrors.role}</p>
         {/if}
       </div>
       <div class="form-group">
-        <label for="organisation">Organisation <span class="required">*</span></label>
+        <label for="organisation" class="field-label">Organisation <span class="required" aria-hidden="true">·</span></label>
         <input id="organisation" bind:value={organisation} type="text" placeholder="e.g. Acme Corp" />
         {#if formErrors.organisation}
           <p class="error-text">{formErrors.organisation}</p>
@@ -230,24 +228,22 @@
       </div>
     </div>
 
-    <div class="form-row">
-      <div class="form-group">
-        <label for="category">Category <span class="required">*</span></label>
-        <select id="category" bind:value={category}>
-          <option value="">Select a category...</option>
-          {#each GIG_CATEGORIES as cat}
-            <option value={cat}>{cat}</option>
-          {/each}
-        </select>
-        {#if formErrors.category}
-          <p class="error-text">{formErrors.category}</p>
-        {/if}
-      </div>
+    <div class="form-group">
+      <label for="category" class="field-label">Category <span class="required" aria-hidden="true">·</span></label>
+      <select id="category" bind:value={category}>
+        <option value="">Select a category…</option>
+        {#each GIG_CATEGORIES as cat}
+          <option value={cat}>{cat}</option>
+        {/each}
+      </select>
+      {#if formErrors.category}
+        <p class="error-text">{formErrors.category}</p>
+      {/if}
     </div>
 
-    <div class="form-row two-col">
+    <div class="form-grid-two">
       <div class="form-group">
-        <label for="start-date">Start date</label>
+        <label for="start-date" class="field-label">Start date</label>
         <input
           id="start-date"
           bind:value={startDate}
@@ -257,14 +253,14 @@
           class:date-valid={startDateValidation?.valid}
         />
         {#if startDateValidation && !startDateValidation.valid}
-          <p class="date-error">Not a valid date — use {DATE_HINT}</p>
+          <p class="error-text">Not a valid date — use {DATE_HINT}</p>
         {/if}
         {#if formErrors.startDate}
           <p class="error-text">{formErrors.startDate}</p>
         {/if}
       </div>
       <div class="form-group">
-        <label for="end-date">End date</label>
+        <label for="end-date" class="field-label">End date</label>
         <input
           id="end-date"
           bind:value={endDate}
@@ -274,7 +270,7 @@
           class:date-valid={endDateValidation?.valid}
         />
         {#if endDateValidation && !endDateValidation.valid}
-          <p class="date-error">Not a valid date — use {DATE_HINT}</p>
+          <p class="error-text">Not a valid date — use {DATE_HINT}</p>
         {/if}
         {#if formErrors.endDate}
           <p class="error-text">{formErrors.endDate}</p>
@@ -282,42 +278,41 @@
       </div>
     </div>
 
-    <div class="form-row">
-      <div class="form-group">
-        <label>Source URLs <span class="required">*</span></label>
-        <div class="sources-list">
-          {#each sources as _, index}
-            <div class="source-row">
-              <input bind:value={sources[index]} type="url" placeholder="https://..." />
-              {#if sources.length > 1}
-                <button
-                  type="button"
-                  class="btn-icon btn-danger"
-                  title="Remove source"
-                  onclick={() => { sources = sources.filter((_, i) => i !== index) }}
-                >
-                  &times;
-                </button>
-              {/if}
-            </div>
-          {/each}
-        </div>
-        <button
-          type="button"
-          class="btn-secondary btn-small"
-          onclick={() => { sources = [...sources, ""] }}
-        >
-          + Add another source
-        </button>
-        {#if formErrors.sources}
-          <p class="error-text">{formErrors.sources}</p>
-        {/if}
+    <div class="form-group">
+      <span class="field-label">Source URLs <span class="required" aria-hidden="true">·</span></span>
+      <div class="sources-list">
+        {#each sources as _, index}
+          <div class="source-row">
+            <input bind:value={sources[index]} type="url" placeholder="https://…" />
+            {#if sources.length > 1}
+              <button
+                type="button"
+                class="btn-icon btn-danger"
+                title="Remove source"
+                aria-label="Remove source"
+                onclick={() => { sources = sources.filter((_, i) => i !== index) }}
+              >
+                ×
+              </button>
+            {/if}
+          </div>
+        {/each}
       </div>
+      <button
+        type="button"
+        class="btn-secondary btn-small add-source-btn"
+        onclick={() => { sources = [...sources, ""] }}
+      >
+        + Add another source
+      </button>
+      {#if formErrors.sources}
+        <p class="error-text">{formErrors.sources}</p>
+      {/if}
     </div>
 
     <div class="form-actions">
       <button type="submit" class="btn-primary">
-        {editingGig ? "Update gig" : "Add to draft"}
+        {editingGig ? "Update gig" : "Add to drafts"}
       </button>
       {#if editingGig}
         <button type="button" class="btn-secondary" onclick={oncancel}>
@@ -329,30 +324,23 @@
 </section>
 
 <style>
-  .form-section {
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-    background: var(--color-bg-soft);
-    border-radius: 8px;
+  .form-section h2 {
+    margin: 0 0 var(--space-lg);
   }
 
-  h2 {
-    margin: 0 0 1rem;
-    font-size: 1.25rem;
+  form {
+    display: grid;
+    gap: var(--space-md);
   }
 
-  .form-row {
-    margin-bottom: 1rem;
-  }
-
-  .form-row.two-col {
+  .form-grid-two {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: var(--space-md);
   }
 
-  @media (width <= 600px) {
-    .form-row.two-col {
+  @media (width <= 40rem) {
+    .form-grid-two {
       grid-template-columns: 1fr;
     }
   }
@@ -360,51 +348,26 @@
   .form-group {
     display: flex;
     flex-direction: column;
+    gap: var(--space-2xs);
   }
 
-  .form-group label {
-    font-weight: 500;
-    margin-bottom: 0.25rem;
-    font-size: 0.875rem;
+  .field-label {
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-caps);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-ink-3);
   }
 
   .required {
-    color: var(--color-red-1);
-  }
-
-  .form-group input,
-  .form-group select {
-    padding: 0.5rem 0.75rem;
-    border: 1px solid var(--color-border);
-    border-radius: 4px;
-    background: var(--color-bg);
-    color: var(--color-text-1);
-    font-size: 1rem;
-  }
-
-  .form-group input:focus,
-  .form-group select:focus {
-    outline: none;
-    border-color: var(--color-brand-1);
+    color: var(--color-accent);
+    font-weight: 700;
+    letter-spacing: 0;
   }
 
   .autocomplete-wrapper {
     position: relative;
-  }
-
-  .form-input {
-    padding: 0.5rem 0.75rem;
-    border: 1px solid var(--color-border);
-    border-radius: 4px;
-    background: var(--color-bg);
-    color: var(--color-text-1);
-    font-size: 1rem;
-    width: 100%;
-  }
-
-  .form-input:focus {
-    outline: none;
-    border-color: var(--color-brand-1);
   }
 
   .autocomplete-content {
@@ -415,81 +378,75 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    background: var(--color-bg);
-    border: 1px solid var(--color-border);
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
+    background: var(--color-paper);
+    border: 1px solid var(--color-rule-strong);
+    border-top: none;
     z-index: 100;
-    max-height: 200px;
+    max-height: 14rem;
     overflow-y: auto;
   }
 
   .autocomplete-item {
-    padding: 0.5rem 0.75rem;
+    padding: var(--space-xs) var(--space-md);
     cursor: pointer;
+    font-family: var(--font-serif-stack);
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .autocomplete-item:last-child {
+    border-bottom: none;
   }
 
   .autocomplete-item.highlighted {
-    background: var(--color-bg-soft);
+    background: var(--color-paper-tint);
   }
 
   .sources-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    margin-bottom: 0.5rem;
+    display: grid;
+    gap: var(--space-xs);
+    margin-bottom: var(--space-xs);
   }
 
   .source-row {
     display: flex;
-    gap: 0.5rem;
+    gap: var(--space-xs);
     align-items: center;
   }
 
   .source-row input {
     flex: 1;
-    padding: 0.5rem 0.75rem;
-    border: 1px solid var(--color-border);
-    border-radius: 4px;
-    background: var(--color-bg);
-    color: var(--color-text-1);
-    font-size: 1rem;
   }
 
-  .source-row input:focus {
-    outline: none;
-    border-color: var(--color-brand-1);
+  .add-source-btn {
+    justify-self: start;
   }
 
   .date-invalid {
-    border-color: var(--color-red-1) !important;
+    border-color: var(--color-error) !important;
   }
 
   .date-valid {
-    border-color: var(--color-green-1, #22c55e) !important;
-  }
-
-  .date-error {
-    color: var(--color-red-1);
-    font-size: 0.75rem;
-    margin: 0.25rem 0 0;
+    border-color: var(--color-success) !important;
   }
 
   .error-text {
-    color: var(--color-red-1);
-    font-size: 0.875rem;
-    margin: 0.25rem 0 0;
+    font-family: var(--font-sans-stack);
+    color: var(--color-error);
+    font-size: var(--text-meta);
+    margin: 0;
   }
 
   .warning-text {
-    color: var(--color-yellow-1);
-    font-size: 0.875rem;
-    margin: 0.25rem 0 0;
+    font-family: var(--font-sans-stack);
+    color: oklch(40% 0.1 75);
+    font-size: var(--text-meta);
+    margin: 0;
+    font-style: italic;
   }
 
   .form-actions {
     display: flex;
-    gap: 0.5rem;
-    margin-top: 1.5rem;
+    gap: var(--space-sm);
+    margin-top: var(--space-sm);
   }
 </style>
