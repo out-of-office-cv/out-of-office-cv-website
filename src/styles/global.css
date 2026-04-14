@@ -161,6 +161,7 @@ h1 {
   font-weight: 500;
   letter-spacing: -0.015em;
   margin-top: 0;
+  margin-bottom: var(--space-lg);
 }
 
 h2 {
@@ -168,12 +169,14 @@ h2 {
   font-weight: 600;
   letter-spacing: -0.005em;
   margin-top: var(--space-2xl);
+  margin-bottom: var(--space-md);
 }
 
 h3 {
   font-size: var(--text-h3);
   font-weight: 600;
   margin-top: var(--space-xl);
+  margin-bottom: var(--space-sm);
 }
 
 p {
@@ -184,14 +187,6 @@ p {
 
 p:last-child {
   margin-bottom: 0;
-}
-
-/* Restore top margin after headings for paragraphs that follow list items etc. */
-h2 + p,
-h3 + p,
-h2 + ul,
-h2 + ol {
-  margin-top: var(--space-md);
 }
 
 main {
