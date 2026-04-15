@@ -5187,5 +5187,44 @@
     ],
     "pollie_slug": "nick-xenophon",
     "start_date": "2019-12-01"
+  },
+  {
+    "role": "Interim Board Chair",
+    "organisation": "Mid North Coast Local Health District",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://mnclhd.health.nsw.gov.au/governing-board/hon-luke-hartsuyker/"
+    ],
+    "pollie_slug": "luke-hartsuyker"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Regional Telecommunications Independent Review Committee",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.infrastructure.gov.au/have-your-say/2021-regional-telecommunications-review"
+    ],
+    "pollie_slug": "luke-hartsuyker",
+    "start_date": "2021-06-02"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "McKell Institute Queensland",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://mckellinstitute.org.au/the-mckell-institute-queensland-unveils-its-board/"
+    ],
+    "pollie_slug": "john-hogg",
+    "start_date": "2018-09-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Invigorate PR",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.crikey.com.au/2015/07/07/meet-glenn-lazarus-the-crucial-crossbencher-marching-leftwards/",
+      "https://www.melbournestorm.com.au/news/2017/03/16/where-are-they-now-glenn-lazarus/"
+    ],
+    "pollie_slug": "glenn-lazarus"
   }
 ]
