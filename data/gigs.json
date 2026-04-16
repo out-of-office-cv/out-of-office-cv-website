@@ -5226,5 +5226,98 @@
       "https://www.melbournestorm.com.au/news/2017/03/16/where-are-they-now-glenn-lazarus/"
     ],
     "pollie_slug": "glenn-lazarus"
+  },
+  {
+    "role": "Adjunct Professor",
+    "organisation": "ANU Institute for Climate, Energy & Disaster Solutions",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://iceds.anu.edu.au/people/academics/adjunct-professor-robert-mcmullan"
+    ],
+    "pollie_slug": "robert-mcmullan"
+  },
+  {
+    "role": "Visiting Fellow",
+    "organisation": "ANU Crawford School of Public Policy",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.crawfordfund.org/about/board-of-directors/board-bob-mcmullan/"
+    ],
+    "pollie_slug": "robert-mcmullan"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Crawford Fund",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.crawfordfund.org/about/board-of-directors/board-bob-mcmullan/"
+    ],
+    "pollie_slug": "robert-mcmullan"
+  },
+  {
+    "role": "Chair, Advisory Committee",
+    "organisation": "Australian Water Partnership",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://waterpartnership.org.au/about/team/bob-mcmullan/"
+    ],
+    "pollie_slug": "robert-mcmullan"
+  },
+  {
+    "role": "Alternate Executive Director",
+    "organisation": "European Bank for Reconstruction and Development",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.crawfordfund.org/about/board-of-directors/board-bob-mcmullan/"
+    ],
+    "pollie_slug": "robert-mcmullan"
+  },
+  {
+    "role": "Member, High-level Advisory Group on Climate Change Financing",
+    "organisation": "United Nations",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.crawfordfund.org/about/board-of-directors/board-bob-mcmullan/"
+    ],
+    "pollie_slug": "robert-mcmullan",
+    "start_date": "2010-02-01"
+  },
+  {
+    "role": "Contributor",
+    "organisation": "Pearls and Irritations",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://johnmenadue.com/authors/bob-mcmullan/"
+    ],
+    "pollie_slug": "robert-mcmullan"
+  },
+  {
+    "role": "Founder and Principal",
+    "organisation": "Gambaro Consulting",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://lymph.org.au/meet-the-laq-committee/"
+    ],
+    "pollie_slug": "teresa-gambaro",
+    "start_date": "2016-01-01"
+  },
+  {
+    "role": "President",
+    "organisation": "Lymphoedema Association of Queensland",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://lymph.org.au/meet-the-laq-committee/"
+    ],
+    "pollie_slug": "teresa-gambaro",
+    "start_date": "2018-01-01"
+  },
+  {
+    "role": "Adjunct Professor",
+    "organisation": "QUT Business School",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.qut.edu.au/news?id=146310"
+    ],
+    "pollie_slug": "teresa-gambaro"
   }
 ]
