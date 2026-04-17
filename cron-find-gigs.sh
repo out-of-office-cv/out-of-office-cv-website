@@ -32,57 +32,47 @@ else
   BRANCH="find-gigs-$(date +%Y%m%d-%H%M%S)"
   git checkout -b "$BRANCH"
   git add data/gigs.json
-  GIG_COUNT=$(git diff --cached --numstat data/gigs.json | awk '{print $1}')
-  PR_BODY=$(git diff --cached data/gigs.json \
-    | grep '^+' | grep -v '^+++' \
-    | python3 -c '
-import sys, json
+  git show HEAD:data/gigs.json > /tmp/find-gigs-old.json
+  python3 <<'PYEOF'
+import json
+from collections import Counter
 
-lines = sys.stdin.read()
-# Extract added JSON objects by finding pollie_slug, role, organisation fields
-entries = {}
-current = {}
-for line in lines.split("\n"):
-    line = line.lstrip("+").strip().rstrip(",")
-    if not line or line in ("{", "}", "[", "]"):
-        if "pollie_slug" in current and "role" in current:
-            slug = current["pollie_slug"]
-            gig = current.get("role", "")
-            org = current.get("organisation", "")
-            label = f"{gig}, {org}" if org else gig
-            entries.setdefault(slug, []).append(label)
-        current = {}
-        continue
-    try:
-        key, val = line.split(":", 1)
-        key = json.loads(key)
-        val = val.strip()
-        if val.startswith("[") or val.startswith("{"):
-            continue
-        current[key] = json.loads(val)
-    except (ValueError, json.JSONDecodeError):
-        pass
+with open("/tmp/find-gigs-old.json") as f:
+    old = json.load(f)
+with open("data/gigs.json") as f:
+    new = json.load(f)
 
-if "pollie_slug" in current and "role" in current:
-    slug = current["pollie_slug"]
-    gig = current.get("role", "")
-    org = current.get("organisation", "")
-    label = f"{gig}, {org}" if org else gig
-    entries.setdefault(slug, []).append(label)
+def key(g):
+    return (g.get("pollie_slug"), g.get("role"), g.get("organisation"), g.get("start_date"))
 
-if entries:
-    parts = []
-    for slug, gigs in sorted(entries.items()):
-        gig_list = "; ".join(gigs)
-        parts.append(f"- **{slug}**: {gig_list}")
-    print("New gigs found:\n\n" + "\n".join(parts))
-else:
-    print("Automated gig search run.")
-')
+old_keys = {key(g) for g in old}
+added = [g for g in new if key(g) not in old_keys]
+counts = Counter(g["pollie_slug"] for g in added)
+
+slugs = sorted(counts.keys())
+title_suffix = ", ".join(slugs)
+if len(title_suffix) > 60:
+    title_suffix = f"{len(counts)} pollies"
+gig_word = "gig" if len(added) == 1 else "gigs"
+title = f"Add {len(added)} {gig_word}: {title_suffix}"
+
+body_lines = [f"Found {len(added)} new {gig_word}:", ""]
+for slug, n in sorted(counts.items(), key=lambda x: (-x[1], x[0])):
+    plural = "" if n == 1 else "s"
+    body_lines.append(f"- {slug} ({n} new gig{plural})")
+
+with open("/tmp/find-gigs-title", "w") as f:
+    f.write(title)
+with open("/tmp/find-gigs-body", "w") as f:
+    f.write("\n".join(body_lines))
+PYEOF
+  PR_TITLE=$(cat /tmp/find-gigs-title)
+  PR_BODY=$(cat /tmp/find-gigs-body)
+  rm -f /tmp/find-gigs-old.json /tmp/find-gigs-title /tmp/find-gigs-body
   git commit -m "Add gigs found by cron job"
   git push -u origin "$BRANCH"
   gh pr create \
-    --title "Add gigs found by cron job (${GIG_COUNT} lines changed)" \
+    --title "$PR_TITLE" \
     --body "$PR_BODY" \
     >> "$LOG_FILE" 2>&1
   git checkout main
