@@ -5576,5 +5576,72 @@
     ],
     "pollie_slug": "terrence-aulich",
     "start_date": "2012"
+  },
+  {
+    "role": "Special Advisor in Gender and Politics",
+    "organisation": "Gender Equity Victoria",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://womensagenda.com.au/latest/julia-banks-appointed-special-advisor-in-gender-and-politics-at-gender-equity-victoria/"
+    ],
+    "pollie_slug": "julia-banks",
+    "start_date": "2020-05-27"
+  },
+  {
+    "role": "Advisor",
+    "organisation": "Climate 200",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Julia_Banks",
+      "https://neoskosmos.com/en/2021/09/09/news/former-liberal-mp-julia-banks-joins-climate-200/"
+    ],
+    "pollie_slug": "julia-banks",
+    "start_date": "2021-10-01"
+  },
+  {
+    "role": "Founder",
+    "organisation": "Julia Banks Advisory",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.juliabanks.net/about/"
+    ],
+    "pollie_slug": "julia-banks"
+  },
+  {
+    "role": "Advisory Board Member",
+    "organisation": "Mentor List",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://mentorlist.com/mentors/julia-banks/"
+    ],
+    "pollie_slug": "julia-banks"
+  },
+  {
+    "role": "Student Ombudsman",
+    "organisation": "Monash University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ann_Corcoran_(politician)"
+    ],
+    "pollie_slug": "ann-corcoran",
+    "start_date": "2007-11-01"
+  },
+  {
+    "role": "Member",
+    "organisation": "Road Safety Remuneration Tribunal",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.mattcanavan.com.au/road_safety_and_the_transport_workers_union"
+    ],
+    "pollie_slug": "steve-hutchins"
+  },
+  {
+    "role": "President, Broadmeadows Chapter",
+    "organisation": "St Vincent de Paul Society",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.premier.vic.gov.au/statement-passing-steve-hutchins"
+    ],
+    "pollie_slug": "steve-hutchins"
   }
 ]
