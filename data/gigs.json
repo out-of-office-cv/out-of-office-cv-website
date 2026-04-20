@@ -5653,5 +5653,75 @@
       "https://au.linkedin.com/in/david-gillespie-71976141"
     ],
     "pollie_slug": "david-gillespie"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Murray-Darling Basin Authority",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Neil_Andrew",
+      "https://www.crawfordfund.org/about/crawford-fund-patrons/"
+    ],
+    "pollie_slug": "neil-andrew",
+    "start_date": "2015-01-01",
+    "end_date": "2019-02-28"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Crawford Fund",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.crawfordfund.org/about/crawford-fund-patrons/"
+    ],
+    "pollie_slug": "neil-andrew"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Foreign Investment Review Board",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Miles_(politician)"
+    ],
+    "pollie_slug": "christopher-miles",
+    "start_date": "1999-01-01",
+    "end_date": "2009-01-01"
+  },
+  {
+    "role": "Director of Corporate Development",
+    "organisation": "Pacific Hills Education",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Miles_(politician)"
+    ],
+    "pollie_slug": "christopher-miles"
+  },
+  {
+    "role": "Managing Director",
+    "organisation": "Gaunts Holdings Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Miles_(politician)"
+    ],
+    "pollie_slug": "christopher-miles"
+  },
+  {
+    "role": "Board Director",
+    "organisation": "Crohn's & Colitis Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://crohnsandcolitis.org.au/2026/01/14/board-appointment-jenny-ware/",
+      "https://crohnsandcolitis.org.au/about-cca/our-board/"
+    ],
+    "pollie_slug": "jenny-ware",
+    "start_date": "2026-01-14"
+  },
+  {
+    "role": "Principal / Consultant",
+    "organisation": "GALS Government And Legal Solutions",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.linkedin.com/in/jenny-ware-mp/"
+    ],
+    "pollie_slug": "jenny-ware"
   }
 ]
