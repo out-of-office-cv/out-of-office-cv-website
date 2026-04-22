@@ -5929,5 +5929,38 @@
     ],
     "pollie_slug": "gareth-evans",
     "start_date": "2010-01-01"
+  },
+  {
+    "role": "Public Health Advisor",
+    "organisation": "cohealth",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.monash.edu/medicine/news/latest/2023-articles/dr-richard-di-natale-recognised-with-a-2023-distinguished-alumni-award",
+      "https://www.cohealth.org.au/news/ten-takeaways-how-to-future-proof-our-health-system/"
+    ],
+    "pollie_slug": "richard-di-natale",
+    "start_date": "2020-08-26"
+  },
+  {
+    "role": "Inaugural Chair, Medicinal Cannabis Health Advisory Council",
+    "organisation": "Medicinal Cannabis Industry Australia",
+    "category": "Pharmaceutical & Biotechnology",
+    "sources": [
+      "https://mcia.org.au/medicinal-cannabis-champion-to-chair-new-advisory-council/",
+      "https://www.cannabiz.com.au/former-green-party-leader-richard-di-natale-to-head-up-new-medicinal-cannabis-advisory-body/"
+    ],
+    "pollie_slug": "richard-di-natale",
+    "start_date": "2020-11-23"
+  },
+  {
+    "role": "President",
+    "organisation": "Palantir Technologies Australia",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://www.canberratimes.com.au/story/6752504/mike-kelly-defends-new-role-with-palantir-after-quitting-parliament-due-to-health-issues/",
+      "https://michaelwest.com.au/hon-dr-mike-kelly-am/"
+    ],
+    "pollie_slug": "mike-kelly",
+    "start_date": "2020-05-10"
   }
 ]
