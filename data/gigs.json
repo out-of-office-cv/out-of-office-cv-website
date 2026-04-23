@@ -5962,5 +5962,168 @@
     ],
     "pollie_slug": "mike-kelly",
     "start_date": "2020-05-10"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Whitehaven Coal",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Vaile",
+      "https://www.aald.org/board-of-directors/mark-vaile-ao/"
+    ],
+    "pollie_slug": "mark-vaile",
+    "start_date": "2012-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Virgin Australia Holdings",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Vaile"
+    ],
+    "pollie_slug": "mark-vaile",
+    "start_date": "2008-09-01",
+    "end_date": "2018-12-01"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Hostplus",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Vaile",
+      "https://www.investordaily.com.au/go-to-investorweekly/30711-hostplus-appoints-new-directors"
+    ],
+    "pollie_slug": "mark-vaile",
+    "start_date": "2012-01-01"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Servcorp",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.aald.org/board-of-directors/mark-vaile-ao/"
+    ],
+    "pollie_slug": "mark-vaile"
+  },
+  {
+    "role": "Director",
+    "organisation": "Stamford Land Corporation",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.aald.org/board-of-directors/mark-vaile-ao/"
+    ],
+    "pollie_slug": "mark-vaile"
+  },
+  {
+    "role": "Director",
+    "organisation": "AAM Investment Group",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.aald.org/board-of-directors/mark-vaile-ao/"
+    ],
+    "pollie_slug": "mark-vaile"
+  },
+  {
+    "role": "Director",
+    "organisation": "Regional Australia Institute",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.aald.org/board-of-directors/mark-vaile-ao/"
+    ],
+    "pollie_slug": "mark-vaile"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Palisade Investment Partners",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Vaile"
+    ],
+    "pollie_slug": "mark-vaile"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "123 Childcare",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Vaile"
+    ],
+    "pollie_slug": "mark-vaile"
+  },
+  {
+    "role": "Director",
+    "organisation": "Mary MacKillop Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Leo_McLeay"
+    ],
+    "pollie_slug": "leo-mcleay",
+    "start_date": "2005-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Enhance Group",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.miragenews.com/new-appointment-made-to-national-maritime-1221169/"
+    ],
+    "pollie_slug": "leo-mcleay",
+    "start_date": "2006-01-01",
+    "end_date": "2010-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Metropolitan Cemeteries Trust",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.miragenews.com/new-appointment-made-to-national-maritime-1221169/"
+    ],
+    "pollie_slug": "leo-mcleay",
+    "start_date": "2010-01-01",
+    "end_date": "2017-12-31"
+  },
+  {
+    "role": "Director and Deputy Chair",
+    "organisation": "Sydney Harbour Federation Trust",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.miragenews.com/new-appointment-made-to-national-maritime-1221169/"
+    ],
+    "pollie_slug": "leo-mcleay",
+    "start_date": "2011-01-01",
+    "end_date": "2017-12-31"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Australian National Maritime Museum",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.miragenews.com/new-appointment-made-to-national-maritime-1221169/",
+      "https://minister.infrastructure.gov.au/burke/media-release/appointment-australian-national-maritime-museum-council-0"
+    ],
+    "pollie_slug": "leo-mcleay",
+    "start_date": "2024-04-24"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Sir Edgeworth David Memorial Museum",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.maitlandmercury.com.au/story/7690282/former-mayor-and-mp-farewelled/"
+    ],
+    "pollie_slug": "bob-brown",
+    "end_date": "2022-03-30"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Waubra Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://reneweconomy.com.au/anti-wind-circle-unbroken-taylor-steps-up-schultz-joins-waubra-66493/",
+      "https://www.sourcewatch.org/index.php/Waubra_Foundation"
+    ],
+    "pollie_slug": "alby-schultz",
+    "start_date": "2013-10-29",
+    "end_date": "2015-07-14"
   }
 ]
