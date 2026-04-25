@@ -5815,7 +5815,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Sa\u00efd Business School, University of Oxford",
+    "organisation": "Saïd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -6169,5 +6169,192 @@
     ],
     "pollie_slug": "josephine-vallentine",
     "start_date": "1994-01-01"
+  },
+  {
+    "role": "Member Representative Director",
+    "organisation": "Statewide Super",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.statewide.com.au/public/about-us/board-of-directors/"
+    ],
+    "pollie_slug": "anne-mcewen"
+  },
+  {
+    "role": "Presiding Member",
+    "organisation": "SA Parks and Wilderness Council",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.statewide.com.au/public/about-us/board-of-directors/"
+    ],
+    "pollie_slug": "anne-mcewen"
+  },
+  {
+    "role": "Director",
+    "organisation": "Forestry SA",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.statewide.com.au/public/about-us/board-of-directors/"
+    ],
+    "pollie_slug": "anne-mcewen"
+  },
+  {
+    "role": "Director",
+    "organisation": "Indigenous Land and Sea Corporation",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Trish_Crossin",
+      "https://www.ilsc.gov.au/news/vale-trish-crossin-am"
+    ],
+    "pollie_slug": "trish-crossin",
+    "start_date": "2015-10-20",
+    "end_date": "2021-10-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "Voyages Indigenous Tourism",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.ilsc.gov.au/news/vale-trish-crossin-am"
+    ],
+    "pollie_slug": "trish-crossin"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Indigenous Agribusiness Company (Primary Partners)",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.ilsc.gov.au/news/vale-trish-crossin-am"
+    ],
+    "pollie_slug": "trish-crossin"
+  },
+  {
+    "role": "Board Chair",
+    "organisation": "The Gordon Institute of TAFE",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.thegordon.edu.au/blog/september-2024/new-board-chair-announced"
+    ],
+    "pollie_slug": "trish-crossin",
+    "start_date": "2024-09-01",
+    "end_date": "2026-04-13"
+  },
+  {
+    "role": "Director",
+    "organisation": "Westjustice Community Legal Centre",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.andra.com.au/andra-pays-tribute-to-board-member-trish-crossin-am/"
+    ],
+    "pollie_slug": "trish-crossin",
+    "end_date": "2026-04-13"
+  },
+  {
+    "role": "Director",
+    "organisation": "Gender Equity Victoria",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.genvic.org.au/media-releases/gen-vic-appoints-board-of-directors-and-special-advisors-to-drive-agenda-for-gender-equal-recovery-for-victoria/"
+    ],
+    "pollie_slug": "trish-crossin",
+    "start_date": "2020-05-01",
+    "end_date": "2026-04-13"
+  },
+  {
+    "role": "Independent Director",
+    "organisation": "Australian National Drag Racing Association",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.andra.com.au/andra-pays-tribute-to-board-member-trish-crossin-am/"
+    ],
+    "pollie_slug": "trish-crossin",
+    "end_date": "2026-04-13"
+  },
+  {
+    "role": "Director",
+    "organisation": "St Columba's College",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.andra.com.au/andra-pays-tribute-to-board-member-trish-crossin-am/"
+    ],
+    "pollie_slug": "trish-crossin",
+    "end_date": "2026-04-13"
+  },
+  {
+    "role": "Director",
+    "organisation": "Asthma Foundation NT",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.andra.com.au/andra-pays-tribute-to-board-member-trish-crossin-am/"
+    ],
+    "pollie_slug": "trish-crossin",
+    "end_date": "2026-04-13"
+  },
+  {
+    "role": "Director",
+    "organisation": "Rainbow Disability Services Club",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.andra.com.au/andra-pays-tribute-to-board-member-trish-crossin-am/"
+    ],
+    "pollie_slug": "trish-crossin",
+    "end_date": "2026-04-13"
+  },
+  {
+    "role": "Senior Media Adviser",
+    "organisation": "Office of Queensland Health Minister Lawrence Springborg",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cameron_Thompson_(politician)",
+      "https://statements.qld.gov.au/statements/69982"
+    ],
+    "pollie_slug": "cameron-thompson",
+    "start_date": "2012-08-02",
+    "end_date": "2015-01-31"
+  },
+  {
+    "role": "Journalist",
+    "organisation": "Queensland Country Life",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.queenslandcountrylife.com.au/story/7513871/clear-skies-finally-deliver-springborg-harvest/"
+    ],
+    "pollie_slug": "cameron-thompson"
+  },
+  {
+    "role": "Special Liaison Officer",
+    "organisation": "Office of Warren Truss MP",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Grace,_Elizabeth"
+    ],
+    "pollie_slug": "elizabeth-grace",
+    "start_date": "1999-01-01"
+  },
+  {
+    "role": "President",
+    "organisation": "Rotary Club of Nundah",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Grace,_Elizabeth"
+    ],
+    "pollie_slug": "elizabeth-grace"
+  },
+  {
+    "role": "President",
+    "organisation": "Brisbane North Committee on the Ageing",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Grace,_Elizabeth"
+    ],
+    "pollie_slug": "elizabeth-grace"
+  },
+  {
+    "role": "Vice-President",
+    "organisation": "Northgate/Spring Hill and Districts Ambulance Committee",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Grace,_Elizabeth"
+    ],
+    "pollie_slug": "elizabeth-grace"
   }
 ]
