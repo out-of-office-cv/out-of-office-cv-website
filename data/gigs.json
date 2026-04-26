@@ -6356,5 +6356,349 @@
       "https://en.wikipedia.org/wiki/Grace,_Elizabeth"
     ],
     "pollie_slug": "elizabeth-grace"
+  },
+  {
+    "role": "Director",
+    "organisation": "Clyde Agriculture",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/anthony-john-douglas-doug-31361",
+      "https://www.farmonline.com.au/story/7063720/tributes-flow-for-ex-deputy-prime-minister-doug-anthony/"
+    ],
+    "pollie_slug": "john-anthony"
+  },
+  {
+    "role": "Director",
+    "organisation": "Normandy Mining",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/anthony-john-douglas-doug-31361",
+      "https://www.maynereport.com/articles/2009/11/23-1615-6931.html"
+    ],
+    "pollie_slug": "john-anthony"
+  },
+  {
+    "role": "Director",
+    "organisation": "PosGold",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/anthony-john-douglas-doug-31361",
+      "https://www.maynereport.com/articles/2009/11/23-1615-6931.html"
+    ],
+    "pollie_slug": "john-anthony"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Resource Finance Corporation",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/anthony-john-douglas-doug-31361"
+    ],
+    "pollie_slug": "john-anthony"
+  },
+  {
+    "role": "Founding Director",
+    "organisation": "Northern Rivers Railroad",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/anthony-john-douglas-doug-31361"
+    ],
+    "pollie_slug": "john-anthony"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Regional Telecommunications Infrastructure Fund",
+    "category": "Telecommunications & Network Infrastructure",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/anthony-john-douglas-doug-31361"
+    ],
+    "pollie_slug": "john-anthony",
+    "start_date": "1997-01-01"
+  },
+  {
+    "role": "Honorary Fellow",
+    "organisation": "Australian Academy of Technological Sciences and Engineering",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/anthony-john-douglas-doug-31361"
+    ],
+    "pollie_slug": "john-anthony",
+    "start_date": "1990-01-01"
+  },
+  {
+    "role": "Member for Franklin",
+    "organisation": "Parliament of Tasmania",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ken_Wriedt",
+      "https://biography.senate.gov.au/wriedt-kenneth-shaw/"
+    ],
+    "pollie_slug": "kenneth-wriedt",
+    "start_date": "1982-05-15",
+    "end_date": "1990-10-31"
+  },
+  {
+    "role": "Leader of the Opposition",
+    "organisation": "Parliament of Tasmania",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ken_Wriedt"
+    ],
+    "pollie_slug": "kenneth-wriedt",
+    "start_date": "1982-05-27",
+    "end_date": "1986-02-19"
+  },
+  {
+    "role": "Minister for Roads and Transport",
+    "organisation": "Government of Tasmania",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ken_Wriedt"
+    ],
+    "pollie_slug": "kenneth-wriedt",
+    "start_date": "1989-06-29",
+    "end_date": "1990-10-31"
+  },
+  {
+    "role": "Councillor",
+    "organisation": "City of Sydney Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Lee_(Australian_politician)",
+      "https://www.sydneyaldermen.com.au/alderman/michael-lee/"
+    ],
+    "pollie_slug": "michael-lee",
+    "start_date": "2004-01-01",
+    "end_date": "2008-12-31"
+  },
+  {
+    "role": "President, New South Wales Branch",
+    "organisation": "Australian Labor Party",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Lee_(Australian_politician)"
+    ],
+    "pollie_slug": "michael-lee",
+    "start_date": "2010-01-01"
+  },
+  {
+    "role": "Board Director",
+    "organisation": "Tourism Australia",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.tourism.australia.com/en/about/leadership/michael-lee.html"
+    ],
+    "pollie_slug": "michael-lee",
+    "start_date": "2024-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Calvary Ministries",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.tourism.australia.com/en/about/leadership/michael-lee.html",
+      "https://cathnews.com/2025/07/22/major-appointments-at-health-organisations/"
+    ],
+    "pollie_slug": "michael-lee"
+  },
+  {
+    "role": "Director",
+    "organisation": "Catholic Schools NSW",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.tourism.australia.com/en/about/leadership/michael-lee.html"
+    ],
+    "pollie_slug": "michael-lee"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Communications Alliance",
+    "category": "Telecommunications & Network Infrastructure",
+    "sources": [
+      "https://www.tourism.australia.com/en/about/leadership/michael-lee.html"
+    ],
+    "pollie_slug": "michael-lee"
+  },
+  {
+    "role": "Director",
+    "organisation": "Sydney Airport",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.tourism.australia.com/en/about/leadership/michael-lee.html"
+    ],
+    "pollie_slug": "michael-lee"
+  },
+  {
+    "role": "Director",
+    "organisation": "Macquarie Airports",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.tourism.australia.com/en/about/leadership/michael-lee.html"
+    ],
+    "pollie_slug": "michael-lee"
+  },
+  {
+    "role": "Director",
+    "organisation": "Country Energy",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://www.tourism.australia.com/en/about/leadership/michael-lee.html"
+    ],
+    "pollie_slug": "michael-lee"
+  },
+  {
+    "role": "Chair",
+    "organisation": "NSW TAFE Commission Board",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://catholicoutlook.org/new-ceo-board-directors-appointed-catholic-schools-nsw/"
+    ],
+    "pollie_slug": "michael-lee"
+  },
+  {
+    "role": "Chair, Central Coast Campuses Board",
+    "organisation": "University of Newcastle",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://catholicoutlook.org/new-ceo-board-directors-appointed-catholic-schools-nsw/"
+    ],
+    "pollie_slug": "michael-lee"
+  },
+  {
+    "role": "Director",
+    "organisation": "National Film and Sound Archive",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://catholicoutlook.org/new-ceo-board-directors-appointed-catholic-schools-nsw/"
+    ],
+    "pollie_slug": "michael-lee"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Institute of Public Affairs",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://sourcewatch.org/index.php/Charles_Roderick_Kemp",
+      "https://en.wikipedia.org/wiki/Institute_of_Public_Affairs"
+    ],
+    "pollie_slug": "rod-kemp",
+    "start_date": "2008-08-01"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Sport Australia Hall of Fame",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://sourcewatch.org/index.php/Charles_Roderick_Kemp"
+    ],
+    "pollie_slug": "rod-kemp"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "National Institute of Circus Arts",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://sourcewatch.org/index.php/Charles_Roderick_Kemp"
+    ],
+    "pollie_slug": "rod-kemp"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Surfing Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://sourcewatch.org/index.php/Charles_Roderick_Kemp"
+    ],
+    "pollie_slug": "rod-kemp"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Books Alive",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://sourcewatch.org/index.php/Charles_Roderick_Kemp"
+    ],
+    "pollie_slug": "rod-kemp"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Collections Council of Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://sourcewatch.org/index.php/Charles_Roderick_Kemp"
+    ],
+    "pollie_slug": "rod-kemp"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Jonathan M Shiff Productions",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://sourcewatch.org/index.php/Charles_Roderick_Kemp"
+    ],
+    "pollie_slug": "rod-kemp"
+  },
+  {
+    "role": "Ambassador to the Netherlands",
+    "organisation": "Australian Government",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brett_Mason",
+      "https://www.aph.gov.au/senator_mason"
+    ],
+    "pollie_slug": "brett-mason",
+    "start_date": "2015-09-02",
+    "end_date": "2018-08-31"
+  },
+  {
+    "role": "Permanent Representative to the Organisation for the Prohibition of Chemical Weapons",
+    "organisation": "Australian Government",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brett_Mason"
+    ],
+    "pollie_slug": "brett-mason",
+    "start_date": "2015-09-02",
+    "end_date": "2018-08-31"
+  },
+  {
+    "role": "Chair, Council of the National Library of Australia",
+    "organisation": "National Library of Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.booksandpublishing.com.au/articles/2018/06/27/110193/mason-appointed-chair-of-nla/",
+      "https://minister.infrastructure.gov.au/burke/media-release/appointments-national-library-australia-council"
+    ],
+    "pollie_slug": "brett-mason",
+    "start_date": "2018-08-09",
+    "end_date": "2024-11-30"
+  },
+  {
+    "role": "Adjunct Professor, School of Justice",
+    "organisation": "Queensland University of Technology",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brett_Mason",
+      "https://minister.infrastructure.gov.au/burke/media-release/appointments-national-library-australia-council"
+    ],
+    "pollie_slug": "brett-mason"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Griffith University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://minister.infrastructure.gov.au/burke/media-release/appointments-national-library-australia-council"
+    ],
+    "pollie_slug": "brett-mason"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Australian National University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://minister.infrastructure.gov.au/burke/media-release/appointments-national-library-australia-council"
+    ],
+    "pollie_slug": "brett-mason"
   }
 ]
