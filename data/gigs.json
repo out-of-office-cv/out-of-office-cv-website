@@ -6700,5 +6700,209 @@
       "https://minister.infrastructure.gov.au/burke/media-release/appointments-national-library-australia-council"
     ],
     "pollie_slug": "brett-mason"
+  },
+  {
+    "role": "President",
+    "organisation": "Liberal Party of Australia (Victorian Division)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Greg_Mirabella",
+      "https://www.bordermail.com.au/story/8318579/victorian-liberal-president-greg-mirabella-to-step-down-for-senate-run/"
+    ],
+    "pollie_slug": "greg-mirabella",
+    "start_date": "2022-08-01",
+    "end_date": "2023-09-23"
+  },
+  {
+    "role": "Campaign Manager",
+    "organisation": "Alliance for Gambling Reform",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kelvin_Thomson"
+    ],
+    "pollie_slug": "kelvin-thomson",
+    "start_date": "2016-12-01"
+  },
+  {
+    "role": "Advocacy Strategist",
+    "organisation": "City of Brimbank",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kelvin_Thomson"
+    ],
+    "pollie_slug": "kelvin-thomson",
+    "start_date": "2018-01-01"
+  },
+  {
+    "role": "Adviser",
+    "organisation": "Sustainable Australia Party",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kelvin_Thomson",
+      "https://tasmaniantimes.com/2019/01/kelvin-thomson-joins-our-party/"
+    ],
+    "pollie_slug": "kelvin-thomson",
+    "start_date": "2019-01-01"
+  },
+  {
+    "role": "Litter Action Officer",
+    "organisation": "Moonee Ponds Creek Chain of Ponds Collaboration",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kelvin_Thomson"
+    ],
+    "pollie_slug": "kelvin-thomson",
+    "start_date": "2025-01-01"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Members Equity Bank",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Greg_Combet"
+    ],
+    "pollie_slug": "greg-combet",
+    "start_date": "2014-11-01"
+  },
+  {
+    "role": "Chair (formerly Director and Deputy Chair)",
+    "organisation": "IFM Investors",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.ifminvestors.com/people/greg-combet/",
+      "https://en.wikipedia.org/wiki/Greg_Combet"
+    ],
+    "pollie_slug": "greg-combet",
+    "start_date": "2014-01-01",
+    "end_date": "2023-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Industry Super Australia",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.ifminvestors.com/people/greg-combet/",
+      "https://en.wikipedia.org/wiki/Greg_Combet"
+    ],
+    "pollie_slug": "greg-combet",
+    "start_date": "2018-12-01"
+  },
+  {
+    "role": "Member",
+    "organisation": "National COVID-19 Coordination Commission",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Greg_Combet"
+    ],
+    "pollie_slug": "greg-combet",
+    "start_date": "2020-03-25",
+    "end_date": "2020-12-31"
+  },
+  {
+    "role": "Senior Advisor",
+    "organisation": "Pollination Capital Partners",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.ifminvestors.com/people/greg-combet/"
+    ],
+    "pollie_slug": "greg-combet",
+    "end_date": "2023-07-10"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Net Zero Economy Agency",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.pm.gov.au/media/appointment-net-zero-economy-agency-and-advisory-board",
+      "https://en.wikipedia.org/wiki/Greg_Combet"
+    ],
+    "pollie_slug": "greg-combet",
+    "start_date": "2023-07-10",
+    "end_date": "2024-02-29"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Future Fund",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://theconversation.com/former-labor-minister-greg-combet-to-succeed-peter-costello-as-chair-of-the-future-fund-222138",
+      "https://en.wikipedia.org/wiki/Greg_Combet"
+    ],
+    "pollie_slug": "greg-combet",
+    "start_date": "2024-02-27"
+  },
+  {
+    "role": "Trustee",
+    "organisation": "AustralianSuper",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.ifminvestors.com/people/greg-combet/"
+    ],
+    "pollie_slug": "greg-combet"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "National Film and Sound Archive of Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.nfsa.gov.au/about/corporate-information/media-release/vale-paul-neville-mp-former-nfsa-board-member"
+    ],
+    "pollie_slug": "paul-neville",
+    "start_date": "2014-12-01",
+    "end_date": "2018-10-31"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Hinkler House Memorial Museum and Research Association",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paul_Neville_(politician)"
+    ],
+    "pollie_slug": "paul-neville"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Kokoda Capital Group",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Johnson_(Australian_politician)"
+    ],
+    "pollie_slug": "michael-johnson"
+  },
+  {
+    "role": "Director",
+    "organisation": "Rugby Channel Online",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Johnson_(Australian_politician)"
+    ],
+    "pollie_slug": "michael-johnson"
+  },
+  {
+    "role": "Director",
+    "organisation": "Myanmar Global Capital Partners",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Johnson_(Australian_politician)"
+    ],
+    "pollie_slug": "michael-johnson"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Royal Vitamins International",
+    "category": "Pharmaceutical & Biotechnology",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Johnson_(Australian_politician)"
+    ],
+    "pollie_slug": "michael-johnson"
+  },
+  {
+    "role": "Member, Global Council",
+    "organisation": "Asia Society",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Johnson_(Australian_politician)"
+    ],
+    "pollie_slug": "michael-johnson"
   }
 ]
