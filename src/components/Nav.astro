@@ -18,6 +18,14 @@ const currentPath = Astro.url.pathname
           </a>
         </li>
         <li>
+          <a
+            href="/analytics"
+            class:list={[{ active: currentPath === "/analytics" }]}
+          >
+            Analytics
+          </a>
+        </li>
+        <li>
           <a href="/about" class:list={[{ active: currentPath === "/about" }]}>
             About
           </a>
