@@ -6,7 +6,7 @@ import { getCollection, type CollectionEntry } from "astro:content"
 import { groupParty, type PartyGroup } from "../utils/pollie"
 import { getDecade, isDecade1980sOrLater } from "../utils/decade"
 import { parseDate } from "../utils/date"
-import { computeAnalytics, type AnalyticsRow } from "../utils/analytics"
+import { computeAnalytics, type AnalyticsRow, type ColumnCell } from "../utils/analytics"
 import type { GigCategory } from "../types"
 
 const pollies = await getCollection("pollies")
@@ -28,15 +28,13 @@ for (const entry of pollies as CollectionEntry<"pollies">[]) {
 const data = computeAnalytics(rows)
 const totalGigs = data.categoryTotals.reduce((acc, t) => acc + t.count, 0)
 const topCategory = data.categoryTotals[0]
-const partyColumns = Array.from(
-  new Set(data.byParty.map((c) => c.column)),
-).sort() as PartyGroup[]
-const decadeColumns = Array.from(
-  new Set(data.byDecade.map((c) => c.column)),
-).sort()
+const categoryOrder = data.categoryTotals.map((t) => t.category)
+// Cells are already in sorted column order (see buildColumnCells in analytics.ts).
+const partyColumns = Array.from(new Set(data.byParty.map((c) => c.column))) as PartyGroup[]
+const decadeColumns = Array.from(new Set(data.byDecade.map((c) => c.column)))
 
 function cellsToMatrix<Col extends string>(
-  cells: { category: GigCategory; column: Col; count: number; columnTotal: number; proportion: number }[],
+  cells: ColumnCell<Col>[],
   rowOrder: GigCategory[],
   colOrder: Col[],
 ) {
@@ -51,25 +49,18 @@ function cellsToMatrix<Col extends string>(
   return { lookup, rowOrder, colOrder }
 }
 
-const partyMatrix = cellsToMatrix(
-  data.byParty,
-  data.categoryTotals.map((t) => t.category),
-  partyColumns,
-)
-const decadeMatrix = cellsToMatrix(
-  data.byDecade,
-  data.categoryTotals.map((t) => t.category),
-  decadeColumns,
-)
+const partyMatrix = cellsToMatrix(data.byParty, categoryOrder, partyColumns)
+const decadeMatrix = cellsToMatrix(data.byDecade, categoryOrder, decadeColumns)
 
 function fmtPct(p: number): string {
   return `${(p * 100).toFixed(1)}%`
 }
-
-const categoryOrder = data.categoryTotals.map((t) => t.category)
 ---
 
-<BaseLayout title="Analytics">
+<BaseLayout
+  title="Analytics"
+  description="Distribution of post-parliament gigs by category, with comparison views by party group and decade."
+>
   <section class="page-intro">
     <h1>Analytics</h1>
     <p>
@@ -91,23 +82,25 @@ const categoryOrder = data.categoryTotals.map((t) => t.category)
     </figure>
     <details class="data-table">
       <summary>Data table</summary>
-      <table>
-        <caption class="visually-hidden">Gig counts by category</caption>
-        <thead>
-          <tr>
-            <th scope="col">Category</th>
-            <th scope="col">Gigs</th>
-          </tr>
-        </thead>
-        <tbody>
-          {data.categoryTotals.map((row) => (
+      <div class="table-scroll">
+        <table>
+          <caption class="visually-hidden">Gig counts by category</caption>
+          <thead>
             <tr>
-              <th scope="row">{row.category}</th>
-              <td>{row.count}</td>
+              <th scope="col">Category</th>
+              <th scope="col">Gigs</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {data.categoryTotals.map((row) => (
+              <tr>
+                <th scope="row">{row.category}</th>
+                <td>{row.count}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </details>
   </section>
 
@@ -129,59 +122,63 @@ const categoryOrder = data.categoryTotals.map((t) => t.category)
     <details class="data-table">
       <summary>Data table</summary>
       <h3>By party</h3>
-      <table>
-        <caption class="visually-hidden">Share by party group</caption>
-        <thead>
-          <tr>
-            <th scope="col">Category</th>
-            {partyMatrix.colOrder.map((col) => (
-              <th scope="col">{col}</th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {partyMatrix.rowOrder.map((cat) => (
+      <div class="table-scroll">
+        <table>
+          <caption class="visually-hidden">Share by party group</caption>
+          <thead>
             <tr>
-              <th scope="row">{cat}</th>
-              {partyMatrix.colOrder.map((col) => {
-                const cell = partyMatrix.lookup.get(`${cat}|${col}`)
-                return (
-                  <td>
-                    {cell ? `${cell.count} (${fmtPct(cell.proportion)})` : "—"}
-                  </td>
-                )
-              })}
+              <th scope="col">Category</th>
+              {partyMatrix.colOrder.map((col) => (
+                <th scope="col">{col}</th>
+              ))}
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {partyMatrix.rowOrder.map((cat) => (
+              <tr>
+                <th scope="row">{cat}</th>
+                {partyMatrix.colOrder.map((col) => {
+                  const cell = partyMatrix.lookup.get(`${cat}|${col}`)
+                  return (
+                    <td>
+                      {cell ? `${cell.count} (${fmtPct(cell.proportion)})` : "—"}
+                    </td>
+                  )
+                })}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
       <h3>By decade</h3>
-      <table>
-        <caption class="visually-hidden">Share by decade</caption>
-        <thead>
-          <tr>
-            <th scope="col">Category</th>
-            {decadeMatrix.colOrder.map((col) => (
-              <th scope="col">{col}</th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {decadeMatrix.rowOrder.map((cat) => (
+      <div class="table-scroll">
+        <table>
+          <caption class="visually-hidden">Share by decade</caption>
+          <thead>
             <tr>
-              <th scope="row">{cat}</th>
-              {decadeMatrix.colOrder.map((col) => {
-                const cell = decadeMatrix.lookup.get(`${cat}|${col}`)
-                return (
-                  <td>
-                    {cell ? `${cell.count} (${fmtPct(cell.proportion)})` : "—"}
-                  </td>
-                )
-              })}
+              <th scope="col">Category</th>
+              {decadeMatrix.colOrder.map((col) => (
+                <th scope="col">{col}</th>
+              ))}
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {decadeMatrix.rowOrder.map((cat) => (
+              <tr>
+                <th scope="row">{cat}</th>
+                {decadeMatrix.colOrder.map((col) => {
+                  const cell = decadeMatrix.lookup.get(`${cat}|${col}`)
+                  return (
+                    <td>
+                      {cell ? `${cell.count} (${fmtPct(cell.proportion)})` : "—"}
+                    </td>
+                  )
+                })}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </details>
   </section>
 </BaseLayout>
@@ -240,10 +237,15 @@ const categoryOrder = data.categoryTotals.map((t) => t.category)
     margin: var(--space-md) 0 var(--space-xs);
   }
 
+  .table-scroll {
+    overflow-x: auto;
+    margin-top: var(--space-sm);
+  }
+
   .data-table table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: var(--space-sm);
+    margin-top: 0; /* now handled by .table-scroll */
   }
 
   .data-table th,
