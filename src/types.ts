@@ -15,6 +15,7 @@ export interface Pollie {
 export interface GigCountSplit {
   verified: number;
   unverified: number;
+  rejected: number;
 }
 
 export type PollieListItem = Pick<
@@ -64,12 +65,20 @@ export const GIG_CATEGORIES = [
 
 export type GigCategory = (typeof GIG_CATEGORIES)[number];
 
+export type VerificationDecision = "verified" | "rejected";
+
+export interface Verification {
+  decision: VerificationDecision;
+  by: string;
+  note?: string;
+}
+
 export interface Gig {
   role: string;
   organisation: string;
   category: GigCategory;
   sources: string[];
-  verified_by?: string;
+  verification?: Verification;
   pollie_slug: string;
   start_date?: string;
   end_date?: string;
