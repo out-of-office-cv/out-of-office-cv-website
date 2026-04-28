@@ -10,7 +10,7 @@
   }
 
   let { data }: Props = $props();
-  let chartDiv: HTMLDivElement;
+  let chartDiv: HTMLDivElement | undefined;
 
   function buildSpec(): TopLevelSpec {
     const categoryOrder = data.map((d) => d.category);
