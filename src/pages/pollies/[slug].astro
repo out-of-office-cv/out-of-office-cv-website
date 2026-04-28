@@ -19,7 +19,9 @@ export async function getStaticPaths() {
 }
 
 const { pollie } = Astro.props as { pollie: PollieData }
-const hasUnverified = pollie.gigs.some((g) => !g.verified_by)
+const hasUnverified = pollie.gigs.some(
+  (g) => g.verification?.decision !== "verified",
+)
 
 const allPollies = await getCollection("pollies")
 const pollieOptions = allPollies
