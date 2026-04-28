@@ -2806,7 +2806,11 @@
       "https://emersoneconomics.com.au/experience"
     ],
     "pollie_slug": "craig-emerson",
-    "start_date": "2013"
+    "start_date": "2013",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adjunct Professor, College of Business",
@@ -2816,7 +2820,11 @@
       "https://www.vu.edu.au/node/10899551"
     ],
     "pollie_slug": "craig-emerson",
-    "start_date": "2014-05-20"
+    "start_date": "2014-05-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member, Board of Directors",
@@ -2825,7 +2833,12 @@
     "sources": [
       "https://www.crawfordfund.org/about/board-of-directors/board-the-hon-dr-craig-emerson/"
     ],
-    "pollie_slug": "craig-emerson"
+    "pollie_slug": "craig-emerson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Crawford Fund board page confirmed. A 2020-21 annual report noted his resignation from the board, so the role has ended. No start date is clearly documented; the board profile page was published May 2019."
+    }
   },
   {
     "role": "President, NSW Branch",
@@ -2833,11 +2846,15 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://michaelwest.com.au/craig-emerson/",
-      "https://acbc.com.au/branch/new-south-wales/",
       "https://www.chinadaily.com.cn/business/2017-03/24/content_28667732.htm"
     ],
     "pollie_slug": "craig-emerson",
-    "start_date": "2016"
+    "start_date": "2016",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Emerson is no longer listed as NSW Branch President on the ACBC website (current president is Helen Zhi Dent). The Michael West and China Daily sources confirm he held the role from 2016. ACBC NSW branch page removed as it no longer corroborates the claim."
+    }
   },
   {
     "role": "Commentator",
@@ -2849,17 +2866,27 @@
     ],
     "pollie_slug": "craig-emerson",
     "start_date": "2013",
-    "end_date": "2018-08"
+    "end_date": "2018-08-06",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "His own blog post confirms he quit Sky News on 6 August 2018 after approximately five years, implying a start around 2013. The SBS article corroborates the resignation. The start_date of 2013 is plausible but the blog only says 'five years' without a precise start date."
+    }
   },
   {
     "role": "Consultant",
     "organisation": "KPMG Australia",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://kpmg.com/au/en/contacts/e/craig-emerson.html"
+      "https://michaelwest.com.au/craig-emerson/"
     ],
     "pollie_slug": "craig-emerson",
-    "start_date": "2016-01"
+    "start_date": "2016-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources confirm Emerson joined KPMG as a consultant in January 2016. The original KPMG contact page URL (kpmg.com/au/en/contacts/e/craig-emerson.html) returned 404, but the equivalent URL at kpmg.com/au/en/home/contacts/e/craig-emerson.html also returned 404. The Michael West profile and search results confirm the January 2016 start date and the role."
+    }
   },
   {
     "role": "Chair",
@@ -2870,27 +2897,42 @@
       "https://mckellinstitute.org.au/event/outgoing-address-with-the-hon-john-watkins-am-as-chair-of-the-mckell-institute/",
       "https://consilium.org.au/consilium-speakers/dr-craig-emerson/"
     ],
-    "pollie_slug": "craig-emerson"
+    "pollie_slug": "craig-emerson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "McKell Institute announcement confirms Emerson was replaced as chairman by Daniel Walton on 11 April 2024. Start date is not publicly documented in available sources."
+    },
+    "end_date": "2024-04-11"
   },
   {
     "role": "Member, Board of Directors",
     "organisation": "Obesity Australia",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://kpmg.com/au/en/contacts/e/craig-emerson.html",
-      "https://www.obesityaustralia.org/board-members"
+      "https://en.wikipedia.org/wiki/Craig_Emerson"
     ],
-    "pollie_slug": "craig-emerson"
+    "pollie_slug": "craig-emerson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia (Craig Emerson article) which explicitly states he was a board member of Obesity Australia. The Obesity Australia website (obesityaustralia.org/board-members) returned a connection error; the KPMG profile URL returned 404. Role is confirmed by the Wikipedia source and search results."
+    }
   },
   {
     "role": "Chair, Advisory Board, Centre for Transformative Innovation",
     "organisation": "Swinburne University of Technology",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://kpmg.com/au/en/contacts/e/craig-emerson.html",
-      "http://www.swinburne.edu.au/research/transformative-innovation/about/advisory-board/"
+      "http://www.swinburne.edu.au/research/transformative-innovation/about/advisory-board/",
+      "https://en.wikipedia.org/wiki/Craig_Emerson"
     ],
-    "pollie_slug": "craig-emerson"
+    "pollie_slug": "craig-emerson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia and search results referencing his former KPMG profile. The original KPMG source URL returned 404. Wikipedia explicitly states he was 'Chair of advisory board, Centre for Transformative Innovation, Swinburne University of Technology'."
+    }
   },
   {
     "role": "Member, CEDA Council on Economic Policy",
@@ -2898,9 +2940,14 @@
     "category": "Professional Services & Management Consulting",
     "sources": [
       "https://www.ceda.com.au/newsandresources/news/economy/supply-chains-on-the-way-out-dr-craig-emerson",
-      "https://www.ceda.com.au/About/Governance/CEDA-Council-on-Economic-Policy"
+      "https://en.wikipedia.org/wiki/Craig_Emerson"
     ],
-    "pollie_slug": "craig-emerson"
+    "pollie_slug": "craig-emerson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CEDA Council on Economic Policy membership confirmed by Wikipedia and multiple secondary sources. The CEDA governance page (ceda.com.au/About/Governance/CEDA-Council-on-Economic-Policy) returned 404. The CEDA news article confirms his identity as former Trade Minister."
+    }
   },
   {
     "role": "Co-Chair, 2019 Federal Election Campaign Review",
@@ -2908,11 +2955,18 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://alp.org.au/media/2043/alp-campaign-review-2019.pdf",
-      "https://www.sbs.com.au/news/labor-reviews-campaign-as-secretary-quits/abd00b58-da70-49e4-858d-be099cb1963c"
+      "https://www.sbs.com.au/news/labor-reviews-campaign-as-secretary-quits/abd00b58-da70-49e4-858d-be099cb1963c",
+      "https://theconversation.com/labors-election-post-mortem-warns-against-becoming-a-grievance-based-organisation-126592",
+      "https://apo.org.au/node/266886"
     ],
     "pollie_slug": "craig-emerson",
     "start_date": "2019",
-    "end_date": "2019"
+    "end_date": "2019",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by multiple strong sources: the review was co-chaired by Craig Emerson and former South Australian Premier Jay Weatherill. SBS News and The Conversation both confirm this. Emerson is clearly identified as a former federal minister and Labor MP."
+    }
   },
   {
     "role": "Distinguished Fellow",
@@ -2934,7 +2988,12 @@
       "https://emersoneconomics.com.au/craig-emerson/"
     ],
     "pollie_slug": "craig-emerson",
-    "start_date": "2019-03"
+    "start_date": "2019-03",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Appointment as Director confirmed by RMIT announcement and PECC update, both dated March 2019. The title on the APEC Study Centre's own website has since changed to 'Executive Chair', but the gig records the role as 'Executive Chair' which appears to be the current/evolved title. The PECC source refers to him as 'Director' at appointment; the centre's own website now uses 'Executive Chair'. Both describe the same ongoing role."
+    }
   },
   {
     "role": "Chair",
@@ -2955,18 +3014,29 @@
       "https://www.auspolexchange.gov.au/about/governance"
     ],
     "pollie_slug": "craig-emerson",
-    "start_date": "2022"
+    "start_date": "2022",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the IPAA ACT profile and search results. Emerson was appointed Chair of the Australian Political Exchange Council in November 2022, nominated by the Prime Minister. Start date of 2022 is confirmed."
+    }
   },
   {
     "role": "Independent Reviewer, Payment Times Reporting Scheme",
     "organisation": "Australian Government (Department of the Treasury)",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://emersoneconomics.com.au/craig-emerson/"
+      "https://emersoneconomics.com.au/craig-emerson/",
+      "https://treasury.gov.au/publication/p2023-428993"
     ],
     "pollie_slug": "craig-emerson",
     "start_date": "2023",
-    "end_date": "2023"
+    "end_date": "2023",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Treasury.gov.au and multiple news sources. The review was conducted in 2023 and the report was released on 31 August 2023. The start_date of 2023 is consistent with available sources (the review was commissioned in late 2022 per Wikipedia, with the report delivered June 2023)."
+    }
   },
   {
     "role": "Member, Trade 2040 Taskforce",
@@ -2977,7 +3047,12 @@
       "https://www.dfat.gov.au/trade/trade-and-investment/trade-2040-taskforce"
     ],
     "pollie_slug": "craig-emerson",
-    "start_date": "2023-09"
+    "start_date": "2023-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by DFAT's Trade 2040 Taskforce page and multiple sources. Emerson was appointed in September 2023; the inaugural Taskforce meeting was held on 2 November 2023."
+    }
   },
   {
     "role": "Co-Chair, Australia-China High-Level Dialogue",
@@ -2985,10 +3060,17 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://emersoneconomics.com.au/craig-emerson/",
-      "https://www.foreignminister.gov.au/minister/penny-wong/media-release/australia-china-high-level-dialogue"
+      "https://www.foreignminister.gov.au/minister/penny-wong/media-release/australia-china-high-level-dialogue",
+      "https://www.foreignminister.gov.au/minister/penny-wong/media-release/eighth-australia-china-high-level-dialogue",
+      "https://www.usnews.com/news/world/articles/2023-09-07/china-australia-hold-first-high-level-dialogue-in-three-years-in-beijing"
     ],
     "pollie_slug": "craig-emerson",
-    "start_date": "2023-09"
+    "start_date": "2023-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by multiple sources. Emerson co-chaired the resumed 7th Australia-China High Level Dialogue in Beijing on 7 September 2023 and has continued in that role for subsequent dialogues. The September 2023 start date is accurate."
+    }
   },
   {
     "role": "Independent Reviewer, Food and Grocery Code of Conduct",
@@ -2999,7 +3081,12 @@
     ],
     "pollie_slug": "craig-emerson",
     "start_date": "2024-01-10",
-    "end_date": "2024-06-24"
+    "end_date": "2024-06-24",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed directly by the Prime Minister's media release at pm.gov.au. Appointment date of 10 January 2024 matches the gig data exactly. Emerson is clearly identified as former federal minister."
+    }
   },
   {
     "role": "Councillor",
@@ -3010,16 +3097,27 @@
       "https://ncc.gov.au/about/our_councilors"
     ],
     "pollie_slug": "craig-emerson",
-    "start_date": "2024-02-23"
+    "start_date": "2024-02-23",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Treasury Ministers media release. Appointed 23 February 2024, consistent with gig start_date. The NCC website returned a 500 error but the ministerial announcement is an authoritative primary source."
+    }
   },
   {
     "role": "Board Member",
     "organisation": "Bradfield Development Authority",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/about-us/our-board-and-leadership-team"
+      "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/about-us/our-board-and-leadership-team",
+      "https://www.nsw.gov.au/departments-and-agencies/bradfield-development-authority/news-and-updates/new-appointments-to-bda-board"
     ],
-    "pollie_slug": "craig-emerson"
+    "pollie_slug": "craig-emerson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the NSW Government BDA board page and a BDA news release about new appointments, both of which list 'The Hon Dr Craig Emerson' as a board member. No start date is publicly documented."
+    }
   },
   {
     "role": "Independent Reviewer, Wine and Grape Industry",
@@ -3027,11 +3125,17 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://www.wineaustralia.com/research_and_innovation/projects/review-of-regulatory-options-for-the-wine-and-grape-sector",
-      "https://emersoneconomics.com.au/craig-emerson/"
+      "https://emersoneconomics.com.au/craig-emerson/",
+      "https://minister.agriculture.gov.au/collins/media-releases/supporting-australias-wine-industry"
     ],
     "pollie_slug": "craig-emerson",
     "start_date": "2024-08-23",
-    "end_date": "2025"
+    "end_date": "2025",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wine Australia's project page and Minister Collins' announcement. Appointment date of 23 August 2024 matches the gig data. Emerson is identified as former Trade Minister throughout."
+    }
   },
   {
     "role": "Columnist",
@@ -3043,7 +3147,12 @@
       "https://esacentral.org.au/news/39008/craig-emerson"
     ],
     "pollie_slug": "craig-emerson",
-    "start_date": "2013"
+    "start_date": "2013",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by multiple sources including the ESA Central profile and the Consilium speakers page, both of which list him as a columnist for The Australian Financial Review. The Michael West profile also notes he writes 'a fortnightly column for The Australian Financial Review'. The start date of 2013 is consistent with his post-parliament career beginning."
+    }
   },
   {
     "role": "Honorary Visiting Research Fellow",
@@ -6154,7 +6263,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Saïd Business School, University of Oxford",
+    "organisation": "Sa\u00efd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
