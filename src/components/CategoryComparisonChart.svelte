@@ -17,7 +17,8 @@
   let chartDiv: HTMLDivElement | undefined;
 
   function specForMode(m: "party" | "decade"): TopLevelSpec {
-    const cells = m === "party" ? byParty : byDecade;
+    const cells = m === "party" ? [...byParty] : [...byDecade];
+    const order = [...categoryOrder];
     const columnTitle = m === "party" ? "Party" : "Decade";
     return {
       $schema: "https://vega.github.io/schema/vega-lite/v6.json",
@@ -27,8 +28,8 @@
         y: {
           field: "category",
           type: "nominal",
-          scale: { domain: categoryOrder },
-          sort: categoryOrder,
+          scale: { domain: order },
+          sort: order,
           axis: { title: null, labelLimit: 280 },
         },
         x: {
