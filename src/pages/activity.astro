@@ -1,0 +1,46 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+import ActivityList from "../components/ActivityList.svelte"
+import { getCollection } from "astro:content"
+
+const events = await getCollection("activity")
+const pollies = await getCollection("pollies")
+const nameBySlug = new Map(pollies.map((p) => [p.data.slug, p.data.name]))
+
+const rows = events.map((e) => ({
+  id: e.id,
+  sha: e.data.sha,
+  date: e.data.date,
+  pollie_slug: e.data.pollie_slug,
+  pollie_name: nameBySlug.get(e.data.pollie_slug) ?? e.data.pollie_slug,
+  role: e.data.role,
+  organisation: e.data.organisation,
+  action: e.data.action,
+  by: e.data.by,
+  note: e.data.note,
+}))
+---
+
+<BaseLayout title="Activity">
+  <section class="page-intro">
+    <h1>Verification activity</h1>
+    <p>
+      Every change to <code>data/gigs.json</code> — additions, verifications,
+      rejections, source and date edits — recorded straight from git history.
+      This page exists so every decision (including those made by claude) is
+      auditable.
+    </p>
+  </section>
+  <ActivityList events={rows} client:load />
+</BaseLayout>
+
+<style>
+  .page-intro {
+    margin-bottom: var(--space-xl);
+    max-width: var(--measure-reading);
+  }
+  .page-intro p {
+    font-family: var(--font-serif-stack);
+    color: var(--color-ink-2);
+  }
+</style>
