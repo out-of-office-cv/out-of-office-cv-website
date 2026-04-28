@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { parseCSV } from "../src/utils/csv";
 import { parseDate, formatDate, formatISODate, timeAgo } from "../src/utils/date";
-import { slugify, getPartyColour, deduplicatePollies } from "../src/utils/pollie";
+import { slugify, getPartyColour, groupParty, deduplicatePollies } from "../src/utils/pollie";
 
 describe("parseCSV", () => {
   it("parses simple CSV", () => {
@@ -103,6 +103,42 @@ describe("getPartyColour", () => {
 
   it("returns null for unknown party", () => {
     expect(getPartyColour("UNKNOWN")).toBeNull();
+  });
+});
+
+describe("groupParty", () => {
+  it("maps ALP to ALP", () => {
+    expect(groupParty("ALP")).toBe("ALP");
+  });
+
+  it("maps Liberal-family codes to Liberal", () => {
+    expect(groupParty("LIB")).toBe("Liberal");
+    expect(groupParty("LNP")).toBe("Liberal");
+    expect(groupParty("CLP")).toBe("Liberal");
+  });
+
+  it("maps National-family codes to National", () => {
+    expect(groupParty("NPA")).toBe("National");
+    expect(groupParty("NP")).toBe("National");
+    expect(groupParty("Nats")).toBe("National");
+    expect(groupParty("NCP")).toBe("National");
+  });
+
+  it("maps GRN to Greens", () => {
+    expect(groupParty("GRN")).toBe("Greens");
+  });
+
+  it("maps independents and minor parties to Other", () => {
+    expect(groupParty("IND")).toBe("Other");
+    expect(groupParty("PHON")).toBe("Other");
+    expect(groupParty("UAP")).toBe("Other");
+    expect(groupParty("PUP")).toBe("Other");
+    expect(groupParty("AD")).toBe("Other");
+  });
+
+  it("maps unknown codes to Other", () => {
+    expect(groupParty("XXX")).toBe("Other");
+    expect(groupParty("")).toBe("Other");
   });
 });
 

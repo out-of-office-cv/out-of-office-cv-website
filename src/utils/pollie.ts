@@ -37,6 +37,24 @@ export function getPartyColour(party: string): PartyColour | null {
   return partyColourMap[party] ?? null;
 }
 
+export type PartyGroup = "ALP" | "Liberal" | "National" | "Greens" | "Other";
+
+const partyGroupMap: Record<string, PartyGroup> = {
+  ALP: "ALP",
+  LIB: "Liberal",
+  LNP: "Liberal",
+  CLP: "Liberal",
+  NPA: "National",
+  NP: "National",
+  Nats: "National",
+  NCP: "National",
+  GRN: "Greens",
+};
+
+export function groupParty(party: string): PartyGroup {
+  return partyGroupMap[party] ?? "Other";
+}
+
 export function deduplicatePollies<
   T extends { slug: string; ceasedDate: string },
 >(pollies: T[]): T[] {
