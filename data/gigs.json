@@ -6,9 +6,12 @@
     "sources": [
       "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/christopher-pyne.html"
     ],
-    "verified_by": "khoi",
     "pollie_slug": "christopher-pyne",
-    "start_date": "2019-06-01"
+    "start_date": "2019-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Independent Chair",
@@ -19,7 +22,10 @@
     ],
     "pollie_slug": "christopher-pyne",
     "start_date": "2024-02-15",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chair",
@@ -28,10 +34,13 @@
     "sources": [
       "https://mivision.com.au/2020/11/hon-chris-pyne-to-chair-vision-2020-australia/"
     ],
-    "verified_by": "ben",
     "pollie_slug": "christopher-pyne",
     "start_date": "2020-11-16",
-    "end_date": "2025-11-01"
+    "end_date": "2025-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "ben"
+    }
   },
   {
     "role": "Co-Chair",
@@ -42,7 +51,10 @@
     ],
     "pollie_slug": "christopher-pyne",
     "start_date": "2020-11-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chair, Advisory Board",
@@ -53,7 +65,10 @@
     ],
     "pollie_slug": "christopher-pyne",
     "start_date": "2020-12-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chair, SA Governors Council",
@@ -64,7 +79,10 @@
     ],
     "pollie_slug": "christopher-pyne",
     "start_date": "2019-06-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Director",
@@ -85,7 +103,10 @@
     ],
     "pollie_slug": "christopher-pyne",
     "start_date": "2020-11-30",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Council Member",
@@ -96,7 +117,10 @@
     ],
     "pollie_slug": "christopher-pyne",
     "start_date": "2025-11-20",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Industry Professor",
@@ -107,7 +131,10 @@
     ],
     "pollie_slug": "christopher-pyne",
     "start_date": "2019-06-07",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Co-owner",
@@ -118,7 +145,10 @@
     ],
     "pollie_slug": "christopher-pyne",
     "start_date": "2019-07-26",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -129,7 +159,10 @@
     ],
     "pollie_slug": "christopher-pyne",
     "start_date": "2019-06-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chief Executive Officer (CEO) of Executive Search",
@@ -153,7 +186,10 @@
     ],
     "pollie_slug": "scott-morrison",
     "start_date": "2024-01-23",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Strategic Advisor",
@@ -164,7 +200,10 @@
     ],
     "pollie_slug": "scott-morrison",
     "start_date": "2024-01-26",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Advisory Board Chairman",
@@ -176,7 +215,10 @@
     ],
     "pollie_slug": "scott-morrison",
     "start_date": "2024-10-13",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Principal",
@@ -188,7 +230,10 @@
     ],
     "pollie_slug": "scott-morrison",
     "start_date": "2024-02-28",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chairman",
@@ -199,7 +244,10 @@
     ],
     "pollie_slug": "scott-morrison",
     "start_date": "unknown",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Strategic Advisor",
@@ -211,7 +259,10 @@
     ],
     "pollie_slug": "scott-morrison",
     "start_date": "2024-05-30",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -223,7 +274,10 @@
     ],
     "pollie_slug": "scott-morrison",
     "start_date": "2022-12-06",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Board of Advisors Member",
@@ -234,7 +288,10 @@
     ],
     "pollie_slug": "scott-morrison",
     "start_date": "2023-05-04",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Executive Vice Chairman",
@@ -246,7 +303,10 @@
     ],
     "pollie_slug": "scott-morrison",
     "start_date": "2022-08-09",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Strategic Advisory Board Member",
@@ -257,7 +317,10 @@
     ],
     "pollie_slug": "scott-morrison",
     "start_date": "unknown",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Senior Regional Adviser for Asia Pacific",
@@ -269,7 +332,10 @@
     ],
     "pollie_slug": "josh-frydenberg",
     "start_date": "2022-07-21",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chairman, Australia and New Zealand",
@@ -281,7 +347,10 @@
     ],
     "pollie_slug": "josh-frydenberg",
     "start_date": "2023-09-21",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chancellor",
@@ -293,7 +362,10 @@
     ],
     "pollie_slug": "julie-bishop",
     "start_date": "2020-01-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Principal",
@@ -304,7 +376,10 @@
     ],
     "pollie_slug": "julie-bishop",
     "start_date": "2019-06-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chair",
@@ -317,7 +392,10 @@
     "pollie_slug": "julie-bishop",
     "start_date": "2019-08-01",
     "end_date": "2024-06-20",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Member, International Advisory Board",
@@ -328,7 +406,10 @@
     ],
     "pollie_slug": "julie-bishop",
     "start_date": "2019-07-30",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Board Member",
@@ -339,7 +420,10 @@
     ],
     "pollie_slug": "julie-bishop",
     "start_date": "2019-08-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Board Chair",
@@ -350,7 +434,10 @@
     ],
     "pollie_slug": "julie-bishop",
     "start_date": "2020-01-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Member, Global Board of Advisors",
@@ -361,7 +448,10 @@
     ],
     "pollie_slug": "julie-bishop",
     "start_date": "unknown",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Steering Committee Member",
@@ -372,7 +462,10 @@
     ],
     "pollie_slug": "julie-bishop",
     "start_date": "2021-01-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Strategic Advisor and Ambassador",
@@ -384,7 +477,10 @@
     ],
     "pollie_slug": "julie-bishop",
     "start_date": "2022-07-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Special Envoy on Myanmar",
@@ -396,7 +492,10 @@
     ],
     "pollie_slug": "julie-bishop",
     "start_date": "2024-04-05",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Global Senior Adviser",
@@ -409,8 +508,11 @@
     ],
     "pollie_slug": "malcolm-turnbull",
     "start_date": "2019-06-01",
-    "verified_by": "khoi",
-    "end_date": "2025-05-07"
+    "end_date": "2025-05-07",
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Member, Board of Directors",
@@ -422,7 +524,10 @@
     ],
     "pollie_slug": "malcolm-turnbull",
     "start_date": "2020-06-23",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "President Designate ",
@@ -433,7 +538,10 @@
     ],
     "pollie_slug": "malcolm-turnbull",
     "start_date": "2023-10-31",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -444,7 +552,10 @@
     ],
     "pollie_slug": "malcolm-turnbull",
     "start_date": "2021-05-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Director of the Board",
@@ -456,7 +567,10 @@
     ],
     "pollie_slug": "malcolm-turnbull",
     "start_date": "2021-08-02",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Founding Chairman",
@@ -469,7 +583,10 @@
     ],
     "pollie_slug": "malcolm-turnbull",
     "start_date": "2021-09-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -481,7 +598,10 @@
     ],
     "pollie_slug": "malcolm-turnbull",
     "start_date": "2022-07-20",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chairman",
@@ -492,7 +612,10 @@
     ],
     "pollie_slug": "malcolm-turnbull",
     "start_date": "unknown",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Strategic Advisory Board Member",
@@ -504,7 +627,10 @@
     ],
     "pollie_slug": "malcolm-turnbull",
     "start_date": "2023-10-17",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Ambassador to the United States",
@@ -517,7 +643,10 @@
     "pollie_slug": "joe-hockey",
     "start_date": "2016-01-29",
     "end_date": "2020-01-30",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Founding Partner and President",
@@ -529,7 +658,10 @@
     ],
     "pollie_slug": "joe-hockey",
     "start_date": "2020-01-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Special Advisor to Renewable Energy Business",
@@ -540,7 +672,10 @@
     ],
     "pollie_slug": "joe-hockey",
     "start_date": "2020-05-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Political Contributor",
@@ -551,7 +686,10 @@
     ],
     "pollie_slug": "joe-hockey",
     "start_date": "2020-06-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Visiting Fellow",
@@ -562,7 +700,10 @@
     ],
     "pollie_slug": "joe-hockey",
     "start_date": "2020-01-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chairman",
@@ -574,7 +715,10 @@
     ],
     "pollie_slug": "joe-hockey",
     "start_date": "2021-03-11",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Board Member",
@@ -586,7 +730,10 @@
     ],
     "pollie_slug": "joe-hockey",
     "start_date": "2025-06-28",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Council Member",
@@ -598,7 +745,10 @@
     ],
     "pollie_slug": "tony-abbott",
     "start_date": "2019-10-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Trade Adviser",
@@ -612,7 +762,10 @@
     "pollie_slug": "tony-abbott",
     "start_date": "2020-09-04",
     "end_date": "2024-10-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Trustee",
@@ -624,7 +777,10 @@
     ],
     "pollie_slug": "tony-abbott",
     "start_date": "2023-02-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Director",
@@ -636,7 +792,10 @@
     ],
     "pollie_slug": "tony-abbott",
     "start_date": "2023-11-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -647,7 +806,10 @@
     ],
     "pollie_slug": "tony-abbott",
     "start_date": "2023-01-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Visiting Fellow",
@@ -658,7 +820,10 @@
     ],
     "pollie_slug": "tony-abbott",
     "start_date": "2023-01-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Distinguished Fellow",
@@ -669,7 +834,10 @@
     ],
     "pollie_slug": "tony-abbott",
     "start_date": "2020-01-25",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Board Member",
@@ -680,7 +848,10 @@
     ],
     "pollie_slug": "tony-abbott",
     "start_date": "2016-01-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Independent Non-Executive Director",
@@ -691,7 +862,10 @@
     ],
     "pollie_slug": "ken-wyatt",
     "start_date": "2022-12-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chair, International Advisory Board",
@@ -702,7 +876,10 @@
     ],
     "pollie_slug": "ken-wyatt",
     "start_date": "2022-12-12",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chair",
@@ -713,7 +890,10 @@
     ],
     "pollie_slug": "ken-wyatt",
     "start_date": "2023-01-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Board Director",
@@ -725,7 +905,10 @@
     ],
     "pollie_slug": "ken-wyatt",
     "start_date": "2023-05-29",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Committee Member",
@@ -737,7 +920,10 @@
     "pollie_slug": "ken-wyatt",
     "start_date": "2023-06-29",
     "end_date": "2025-06-30",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Campaigns Director, Australia",
@@ -793,7 +979,10 @@
     ],
     "pollie_slug": "stuart-robert",
     "start_date": "2022-01-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -805,7 +994,10 @@
     ],
     "pollie_slug": "karen-andrews",
     "start_date": "2025-04-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -818,7 +1010,10 @@
     ],
     "pollie_slug": "adam-bandt",
     "start_date": "2026-01-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Ambassador and Permanent Representative to the OECD",
@@ -829,7 +1024,10 @@
     ],
     "pollie_slug": "stephen-jones",
     "start_date": "2025-09-11",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -841,7 +1039,10 @@
     ],
     "pollie_slug": "michael-sukkar",
     "start_date": "2025-08-21",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Director",
@@ -853,7 +1054,10 @@
     ],
     "pollie_slug": "paul-fletcher",
     "start_date": "2025-12-03",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Professor of Practice, Workforce Skills & Innovation",
@@ -864,7 +1068,10 @@
     ],
     "pollie_slug": "brendan-oconnor",
     "start_date": "2025-08-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chair, First Nations Pharmacy Network",
@@ -876,7 +1083,10 @@
     ],
     "pollie_slug": "linda-burney",
     "start_date": "2025-11-05",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Vice-Chancellor",
@@ -888,7 +1098,10 @@
     ],
     "pollie_slug": "bill-shorten",
     "start_date": "2025-02-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -900,7 +1113,10 @@
     ],
     "pollie_slug": "simon-birmingham",
     "start_date": "2025-08-18",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Board Member",
@@ -923,7 +1139,10 @@
     ],
     "pollie_slug": "keith-pitt",
     "start_date": "2025-02-16",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Board of Directors",
@@ -934,7 +1153,10 @@
     ],
     "pollie_slug": "linda-reynolds",
     "start_date": "2026-01-23",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Consultant and Advocate",
@@ -955,7 +1177,10 @@
     ],
     "pollie_slug": "bridget-archer",
     "start_date": "2025-08-07",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Treasurer, Leader of the House, Minister for Macquarie Point Urban Renewal",
@@ -967,7 +1192,10 @@
     ],
     "pollie_slug": "eric-abetz",
     "start_date": "2025-08-07",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Minister for Primary Industries and Water, Minister for Veteran's Affairs",
@@ -979,7 +1207,10 @@
     ],
     "pollie_slug": "gavin-pearce",
     "start_date": "2025-08-07",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Member for Lyons",
@@ -990,7 +1221,10 @@
     ],
     "pollie_slug": "brian-mitchell",
     "start_date": "2025-07-19",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Owner/Publican",
@@ -1002,8 +1236,11 @@
       "https://www.hospitalitydirectory.com.au/industry-news/22746-ex-senator-swaps-canberra-for-cold-ones-at-a-country-pub/"
     ],
     "pollie_slug": "hollie-hughes",
-    "verified_by": "khoi",
-    "start_date": "2025-02-01"
+    "start_date": "2025-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Distinguished Visiting Fellow",
@@ -1015,7 +1252,10 @@
     ],
     "pollie_slug": "marise-payne",
     "start_date": "2024-01-31",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Vice-Chancellor's Fellow & Professor of Practice",
@@ -1026,7 +1266,10 @@
     ],
     "pollie_slug": "marise-payne",
     "start_date": "2024-02-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Advisory Council Member",
@@ -1036,7 +1279,10 @@
       "https://orfamerica.org/board"
     ],
     "pollie_slug": "marise-payne",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Senior Advisor",
@@ -1046,7 +1292,10 @@
       "https://www.bondipartners.com/teams/marise-payne/"
     ],
     "pollie_slug": "marise-payne",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -1058,8 +1307,11 @@
     ],
     "pollie_slug": "greg-hunt",
     "start_date": "2024-05-20",
-    "verified_by": "khoi",
-    "end_date": "2025-10-08"
+    "end_date": "2025-10-08",
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chair, Advisory Council",
@@ -1070,7 +1322,10 @@
     ],
     "pollie_slug": "greg-hunt",
     "start_date": "2022-10-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Honorary Enterprise Professor",
@@ -1082,7 +1337,10 @@
     ],
     "pollie_slug": "greg-hunt",
     "start_date": "2023-02-07",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Senior Advisor",
@@ -1094,7 +1352,10 @@
     ],
     "pollie_slug": "greg-hunt",
     "start_date": "2025-05-27",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Honorary Professor of Practice",
@@ -1105,7 +1366,10 @@
     ],
     "pollie_slug": "greg-hunt",
     "start_date": "2024-02-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chair, CARDIO4Cities Accelerator Steering Committee",
@@ -1116,7 +1380,10 @@
       "https://www.linkedin.com/posts/greg-hunt-morn-pen_delighted-to-support-the-novartis-foundation-activity-7440870367679795200-_e0A/"
     ],
     "pollie_slug": "greg-hunt",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -1148,7 +1415,10 @@
     ],
     "pollie_slug": "max-chandler-mather",
     "start_date": "2025-09-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Director of Government Affairs and Policy",
@@ -1159,7 +1429,10 @@
     ],
     "pollie_slug": "trent-zimmerman",
     "start_date": "2023-08-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Board Member",
@@ -1169,7 +1442,10 @@
       "https://socialpolicy.org.au/the-board/"
     ],
     "pollie_slug": "trent-zimmerman",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Barrister",
@@ -1180,7 +1456,10 @@
     ],
     "pollie_slug": "christian-porter",
     "start_date": "2022-06-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "President",
@@ -1212,7 +1491,10 @@
       "https://nqphn.com.au/news/headspace-cairns-marks-major-milestone-delivering-vital-mental-health-services-young-people/"
     ],
     "pollie_slug": "warren-entsch",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Board member",
@@ -1222,7 +1504,10 @@
       "https://www.northqueenslandregister.com.au/story/8956964/warren-entsch-on-life-after-politics-and-plans-in-retirement/"
     ],
     "pollie_slug": "warren-entsch",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Global Vice Chair and Co-Chair, Asia-Pacific Caucus",
@@ -1232,7 +1517,10 @@
       "https://www.globaltbcaucus.org/who-we-are"
     ],
     "pollie_slug": "warren-entsch",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Co-founder",
@@ -1244,7 +1532,10 @@
       "https://www.newsport.com.au/2025/february/entsch-on-global-rescue-mission"
     ],
     "pollie_slug": "warren-entsch",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Barrister",
@@ -2047,7 +2338,10 @@
     ],
     "pollie_slug": "rob-oakeshott",
     "start_date": "2021-10-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Medical Doctor (GP)",
@@ -3529,7 +3823,10 @@
     "pollie_slug": "scott-ryan",
     "start_date": "2021-12-20",
     "end_date": "2024-12-31",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Executive Director",
@@ -3540,7 +3837,10 @@
     ],
     "pollie_slug": "scott-ryan",
     "start_date": "2026-01-19",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Special Board Adviser",
@@ -3551,7 +3851,10 @@
     ],
     "pollie_slug": "greg-hunt",
     "start_date": "2022-12-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Strategic Advisor",
@@ -3562,7 +3865,10 @@
     ],
     "pollie_slug": "greg-hunt",
     "start_date": "2024-08-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Member",
@@ -3573,7 +3879,10 @@
     ],
     "pollie_slug": "tony-smith",
     "start_date": "2024-12-17",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Board Member",
@@ -4224,7 +4533,10 @@
     "pollie_slug": "brendan-nelson",
     "start_date": "2012-12-17",
     "end_date": "2019-12-31",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chair of Council",
@@ -4235,7 +4547,10 @@
     ],
     "pollie_slug": "brendan-nelson",
     "start_date": "2022-04-22",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "President, Boeing Australia, New Zealand and South Pacific",
@@ -4247,7 +4562,10 @@
     "pollie_slug": "brendan-nelson",
     "start_date": "2020-02-01",
     "end_date": "2022-12-31",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "President, Boeing Global and Senior Vice President",
@@ -4258,7 +4576,10 @@
     ],
     "pollie_slug": "brendan-nelson",
     "start_date": "2023-01-12",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chairman",
@@ -4268,7 +4589,10 @@
       "https://amcham.com.au/web/web/Information/CEO_Message/New_AmCham_Chair.aspx"
     ],
     "pollie_slug": "brendan-nelson",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Advisory Council Member",
@@ -4280,7 +4604,10 @@
     ],
     "pollie_slug": "tony-windsor",
     "start_date": "2021-10-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chairman",
@@ -4394,7 +4721,10 @@
     "pollie_slug": "tony-messner",
     "start_date": "1997-08-01",
     "end_date": "2003-07-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Director",
@@ -4406,7 +4736,10 @@
     "pollie_slug": "tony-messner",
     "start_date": "2004-01-01",
     "end_date": "2006-01-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Chairman",
@@ -4418,7 +4751,10 @@
     "pollie_slug": "tony-messner",
     "start_date": "2006-01-01",
     "end_date": "2009-01-01",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Treasurer",
@@ -4428,7 +4764,10 @@
       "https://biography.senate.gov.au/messner-anthony-john/"
     ],
     "pollie_slug": "tony-messner",
-    "verified_by": "khoi"
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Foundation Chairman",
