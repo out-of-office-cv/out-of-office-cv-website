@@ -48,7 +48,7 @@ function buildColumnCells<Col extends string>(
 
   const cells: ColumnCell<Col>[] = [];
   for (const col of columns) {
-    const total = columnTotals.get(col) ?? 0;
+    const total = columnTotals.get(col)!;
     const inner = counts.get(col)!;
     for (const category of categoryOrder) {
       const count = inner.get(category) ?? 0;
@@ -58,7 +58,7 @@ function buildColumnCells<Col extends string>(
         column: col,
         count,
         columnTotal: total,
-        proportion: total === 0 ? 0 : count / total,
+        proportion: count / total,
       });
     }
   }
