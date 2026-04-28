@@ -5,6 +5,7 @@ import { loadPollies, loadGigs } from "./loaders";
 import { countGigsByPollie } from "./utils/gigs";
 import { GIG_CATEGORIES } from "./types";
 import type { Gig } from "./types";
+import { loadActivityEvents } from "../scripts/build-activity";
 
 const dataDir = resolve(process.cwd(), "data");
 
@@ -69,6 +70,30 @@ const pollies = defineCollection({
   }),
 });
 
-export const collections = { pollies };
+const activity = defineCollection({
+  loader: async () => {
+    const events = loadActivityEvents(process.cwd());
+    return events.map((e, i) => ({ id: `${e.sha}-${i}`, ...e }));
+  },
+  schema: z.object({
+    sha: z.string(),
+    date: z.string(),
+    pollie_slug: z.string(),
+    role: z.string(),
+    organisation: z.string(),
+    action: z.enum([
+      "added",
+      "verified",
+      "rejected",
+      "sources-edited",
+      "dates-edited",
+      "removed",
+    ]),
+    by: z.string(),
+    note: z.string().optional(),
+  }),
+});
+
+export const collections = { pollies, activity };
 
 export { getPolliesByDecade } from "./utils/decade";
