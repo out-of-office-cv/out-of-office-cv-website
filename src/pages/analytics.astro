@@ -1,0 +1,262 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+import CategoryDistributionChart from "../components/CategoryDistributionChart.svelte"
+import CategoryComparisonChart from "../components/CategoryComparisonChart.svelte"
+import { getCollection, type CollectionEntry } from "astro:content"
+import { groupParty, type PartyGroup } from "../utils/pollie"
+import { getDecade, isDecade1980sOrLater } from "../utils/decade"
+import { parseDate } from "../utils/date"
+import { computeAnalytics, type AnalyticsRow } from "../utils/analytics"
+import type { GigCategory } from "../types"
+
+const pollies = await getCollection("pollies")
+
+const rows: AnalyticsRow[] = []
+for (const entry of pollies as CollectionEntry<"pollies">[]) {
+  const decade = getDecade(parseDate(entry.data.ceasedDate))
+  if (!isDecade1980sOrLater(decade)) continue
+  const partyGroup = groupParty(entry.data.party.trim())
+  for (const gig of entry.data.gigs) {
+    rows.push({
+      category: gig.category as GigCategory,
+      partyGroup,
+      decade,
+    })
+  }
+}
+
+const data = computeAnalytics(rows)
+const totalGigs = data.categoryTotals.reduce((acc, t) => acc + t.count, 0)
+const topCategory = data.categoryTotals[0]
+const partyColumns = Array.from(
+  new Set(data.byParty.map((c) => c.column)),
+).sort() as PartyGroup[]
+const decadeColumns = Array.from(
+  new Set(data.byDecade.map((c) => c.column)),
+).sort()
+
+function cellsToMatrix<Col extends string>(
+  cells: { category: GigCategory; column: Col; count: number; columnTotal: number; proportion: number }[],
+  rowOrder: GigCategory[],
+  colOrder: Col[],
+) {
+  const lookup = new Map<string, { count: number; columnTotal: number; proportion: number }>()
+  for (const c of cells) {
+    lookup.set(`${c.category}|${c.column}`, {
+      count: c.count,
+      columnTotal: c.columnTotal,
+      proportion: c.proportion,
+    })
+  }
+  return { lookup, rowOrder, colOrder }
+}
+
+const partyMatrix = cellsToMatrix(
+  data.byParty,
+  data.categoryTotals.map((t) => t.category),
+  partyColumns,
+)
+const decadeMatrix = cellsToMatrix(
+  data.byDecade,
+  data.categoryTotals.map((t) => t.category),
+  decadeColumns,
+)
+
+function fmtPct(p: number): string {
+  return `${(p * 100).toFixed(1)}%`
+}
+
+const categoryOrder = data.categoryTotals.map((t) => t.category)
+---
+
+<BaseLayout title="Analytics">
+  <section class="page-intro">
+    <h1>Analytics</h1>
+    <p>
+      Figures here are derived from the same data as the directory: verified
+      and unverified gigs (rejected gigs excluded), restricted to politicians
+      who left office from the 1980s onwards. Numbers will have errors. If you
+      spot one, <a href="/contribute">please flag it</a>.
+    </p>
+  </section>
+
+  <section class="chart-section" aria-labelledby="distribution-heading">
+    <h2 id="distribution-heading">Distribution by category</h2>
+    <figure>
+      <CategoryDistributionChart data={data.categoryTotals} client:load />
+      <figcaption>
+        {totalGigs.toLocaleString()} post-parliament gigs across {data.categoryTotals.length} categories
+        {topCategory ? `; ${topCategory.category} leads with ${topCategory.count}` : ""}.
+      </figcaption>
+    </figure>
+    <details class="data-table">
+      <summary>Data table</summary>
+      <table>
+        <caption class="visually-hidden">Gig counts by category</caption>
+        <thead>
+          <tr>
+            <th scope="col">Category</th>
+            <th scope="col">Gigs</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.categoryTotals.map((row) => (
+            <tr>
+              <th scope="row">{row.category}</th>
+              <td>{row.count}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </details>
+  </section>
+
+  <section class="chart-section" aria-labelledby="comparison-heading">
+    <h2 id="comparison-heading">Comparison: party and decade</h2>
+    <figure>
+      <CategoryComparisonChart
+        byParty={data.byParty}
+        byDecade={data.byDecade}
+        categoryOrder={categoryOrder}
+        client:load
+      />
+      <figcaption>
+        Each cell shows what share of a column's gigs fall in each category.
+        Brighter cells mean a larger share; empty cells mean zero gigs in that
+        group. Toggle between party and decade to compare.
+      </figcaption>
+    </figure>
+    <details class="data-table">
+      <summary>Data table</summary>
+      <h3>By party</h3>
+      <table>
+        <caption class="visually-hidden">Share by party group</caption>
+        <thead>
+          <tr>
+            <th scope="col">Category</th>
+            {partyMatrix.colOrder.map((col) => (
+              <th scope="col">{col}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {partyMatrix.rowOrder.map((cat) => (
+            <tr>
+              <th scope="row">{cat}</th>
+              {partyMatrix.colOrder.map((col) => {
+                const cell = partyMatrix.lookup.get(`${cat}|${col}`)
+                return (
+                  <td>
+                    {cell ? `${cell.count} (${fmtPct(cell.proportion)})` : "—"}
+                  </td>
+                )
+              })}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <h3>By decade</h3>
+      <table>
+        <caption class="visually-hidden">Share by decade</caption>
+        <thead>
+          <tr>
+            <th scope="col">Category</th>
+            {decadeMatrix.colOrder.map((col) => (
+              <th scope="col">{col}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {decadeMatrix.rowOrder.map((cat) => (
+            <tr>
+              <th scope="row">{cat}</th>
+              {decadeMatrix.colOrder.map((col) => {
+                const cell = decadeMatrix.lookup.get(`${cat}|${col}`)
+                return (
+                  <td>
+                    {cell ? `${cell.count} (${fmtPct(cell.proportion)})` : "—"}
+                  </td>
+                )
+              })}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </details>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-intro {
+    margin-bottom: var(--space-xl);
+    max-width: var(--measure-reading);
+  }
+  .page-intro p {
+    font-family: var(--font-serif-stack);
+    color: var(--color-ink-2);
+  }
+
+  .chart-section {
+    margin-bottom: var(--space-3xl);
+  }
+
+  .chart-section h2 {
+    margin-top: 0;
+  }
+
+  figure {
+    margin: 0 0 var(--space-md);
+  }
+
+  figcaption {
+    margin-top: var(--space-sm);
+    font-family: var(--font-serif-stack);
+    font-style: italic;
+    font-size: var(--text-meta);
+    color: var(--color-ink-3);
+    max-width: var(--measure-reading);
+  }
+
+  .data-table {
+    font-family: var(--font-sans-stack);
+    font-size: var(--text-meta);
+    color: var(--color-ink-2);
+  }
+
+  .data-table summary {
+    cursor: pointer;
+    color: var(--color-ink-3);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    padding: var(--space-xs) 0;
+  }
+
+  .data-table summary:hover {
+    color: var(--color-accent);
+  }
+
+  .data-table h3 {
+    margin: var(--space-md) 0 var(--space-xs);
+  }
+
+  .data-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: var(--space-sm);
+  }
+
+  .data-table th,
+  .data-table td {
+    padding: var(--space-2xs) var(--space-sm);
+    border-bottom: 1px solid var(--color-rule);
+    text-align: left;
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+
+  .data-table thead th {
+    border-bottom: 1px solid var(--color-rule-strong);
+    color: var(--color-ink);
+    font-weight: 600;
+  }
+</style>
