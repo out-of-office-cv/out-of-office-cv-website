@@ -128,8 +128,40 @@ describe("GigSchema validation", () => {
     expect(result.success).toBe(false);
   });
 
-  it("accepts gig with optional verified_by field", () => {
+  it("accepts gig with verification field (verified)", () => {
     const gigWithVerifier = {
+      role: "Board Member",
+      organisation: "Test Corp",
+      category: "Professional Services & Management Consulting",
+      sources: ["https://example.com/source"],
+      pollie_slug: "test-pollie",
+      verification: { decision: "verified", by: "ben" },
+    };
+
+    const result = GigSchema.safeParse(gigWithVerifier);
+    expect(result.success).toBe(true);
+  });
+
+  it("accepts gig with verification field (rejected) and a note", () => {
+    const gigWithRejection = {
+      role: "Board Member",
+      organisation: "Test Corp",
+      category: "Professional Services & Management Consulting",
+      sources: ["https://example.com/source"],
+      pollie_slug: "test-pollie",
+      verification: {
+        decision: "rejected",
+        by: "claude",
+        note: "Source refers to a different person with the same name",
+      },
+    };
+
+    const result = GigSchema.safeParse(gigWithRejection);
+    expect(result.success).toBe(true);
+  });
+
+  it("rejects gig with bare verified_by string (legacy shape)", () => {
+    const legacyGig = {
       role: "Board Member",
       organisation: "Test Corp",
       category: "Professional Services & Management Consulting",
@@ -138,8 +170,24 @@ describe("GigSchema validation", () => {
       verified_by: "ben",
     };
 
-    const result = GigSchema.safeParse(gigWithVerifier);
+    // Zod strips unknown keys by default — the parse succeeds, but verified_by is dropped.
+    const result = GigSchema.safeParse(legacyGig);
     expect(result.success).toBe(true);
+    expect((result.data as { verified_by?: string }).verified_by).toBeUndefined();
+  });
+
+  it("rejects gig with malformed verification (missing decision)", () => {
+    const badGig = {
+      role: "Board Member",
+      organisation: "Test Corp",
+      category: "Professional Services & Management Consulting",
+      sources: ["https://example.com/source"],
+      pollie_slug: "test-pollie",
+      verification: { by: "ben" },
+    };
+
+    const result = GigSchema.safeParse(badGig);
+    expect(result.success).toBe(false);
   });
 
   it("accepts gig with end_date", () => {
