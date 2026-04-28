@@ -6263,7 +6263,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Sa\u00efd Business School, University of Oxford",
+    "organisation": "Saïd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -7352,5 +7352,85 @@
       "https://en.wikipedia.org/wiki/Michael_Johnson_(Australian_politician)"
     ],
     "pollie_slug": "michael-johnson"
+  },
+  {
+    "role": "Chairperson",
+    "organisation": "Carers Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.carersaustralia.com.au/media-release/carers-australia-announces-new-ceo/",
+      "https://www.qamh.org.au/team/cathy-otoole/"
+    ],
+    "pollie_slug": "cathy-otoole"
+  },
+  {
+    "role": "Board Chair",
+    "organisation": "Queensland Alliance for Mental Health",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.qamh.org.au/team/cathy-otoole/",
+      "https://www.qamh.org.au/members-events/category/member-events/"
+    ],
+    "pollie_slug": "cathy-otoole",
+    "start_date": "2020-08-01"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Glasser Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.qamh.org.au/team/cathy-otoole/"
+    ],
+    "pollie_slug": "cathy-otoole"
+  },
+  {
+    "role": "Committee Member",
+    "organisation": "Townsville Regional Committee for the Aging",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.qamh.org.au/team/cathy-otoole/"
+    ],
+    "pollie_slug": "cathy-otoole"
+  },
+  {
+    "role": "Founder",
+    "organisation": "Politic",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://biography.senate.gov.au/wheelwright-thomas-clive/",
+      "https://en.wikipedia.org/wiki/Tom_Wheelwright"
+    ],
+    "pollie_slug": "tom-wheelwright"
+  },
+  {
+    "role": "Economic Adviser",
+    "organisation": "Office of Gareth Evans (Deputy Opposition Leader and Shadow Treasurer)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tom_Wheelwright"
+    ],
+    "pollie_slug": "tom-wheelwright"
+  },
+  {
+    "role": "Asia Pacific Public Affairs Director",
+    "organisation": "Lucent Technologies",
+    "category": "Telecommunications & Network Infrastructure",
+    "sources": [
+      "https://biography.senate.gov.au/wheelwright-thomas-clive/",
+      "https://en.wikipedia.org/wiki/Tom_Wheelwright"
+    ],
+    "pollie_slug": "tom-wheelwright",
+    "start_date": "2000-01-01"
+  },
+  {
+    "role": "Global Senior Vice-President",
+    "organisation": "Deutsche Post DHL",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://biography.senate.gov.au/wheelwright-thomas-clive/",
+      "https://en.wikipedia.org/wiki/Tom_Wheelwright"
+    ],
+    "pollie_slug": "tom-wheelwright",
+    "start_date": "2006-01-01"
   }
 ]
