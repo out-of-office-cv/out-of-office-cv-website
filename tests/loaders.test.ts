@@ -69,6 +69,21 @@ describe("loadGigs", () => {
     writeFileSync(join(dir, "gigs.json"), JSON.stringify([badGig]));
     expect(() => loadGigs(dir)).toThrow();
   });
+
+  it("returns rejected gigs (filter happens at the collection layer, not here)", () => {
+    const rejectedGig = {
+      role: "Board Member",
+      organisation: "Test Corp",
+      category: "Professional Services & Management Consulting",
+      sources: ["https://example.com"],
+      pollie_slug: "tony-abbott",
+      verification: { decision: "rejected", by: "claude", note: "wrong person" },
+    };
+    writeFileSync(join(dir, "gigs.json"), JSON.stringify([rejectedGig]));
+    const result = loadGigs(dir);
+    expect(result).toHaveLength(1);
+    expect(result[0].verification?.decision).toBe("rejected");
+  });
 });
 
 describe("loadPollies", () => {
