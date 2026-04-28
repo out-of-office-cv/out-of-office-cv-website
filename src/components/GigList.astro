@@ -42,12 +42,12 @@ function getHostname(url: string): string {
   ) : (
     <ol class="gig-list">
       {sortedGigs.map((gig) => (
-        <li class:list={["gig", !gig.verified_by && "gig-unverified"]}>
+        <li class:list={["gig", gig.verification?.decision !== "verified" && "gig-unverified"]}>
           <div class="gig-headline">
             <span class="gig-role">{gig.role}</span>
             <span class="gig-at">at</span>
             <span class="gig-org">{gig.organisation}</span>
-            {!gig.verified_by && (
+            {gig.verification?.decision !== "verified" && (
               <span class="unverified-tag" title="This role has not been human-verified yet">
                 · unverified
               </span>
