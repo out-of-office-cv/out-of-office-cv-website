@@ -5,6 +5,7 @@ on:
     types: [opened, synchronize]
     paths:
       - "data/gigs.json"
+      - "data/verify-state.json"
 
 jobs:
   auto-merge:
