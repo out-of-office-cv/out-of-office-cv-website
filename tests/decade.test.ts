@@ -56,7 +56,7 @@ describe("getPolliesByDecade", () => {
         ceasedDate: over.ceasedDate ?? "",
         house: "reps" as const,
         photoUrl: "",
-        gigCount: { verified: 0, unverified: 0 },
+        gigCount: { verified: 0, unverified: 0, rejected: 0 },
       },
     };
   }
