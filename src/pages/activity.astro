@@ -1,13 +1,15 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro"
 import ActivityList from "../components/ActivityList.svelte"
-import { getCollection } from "astro:content"
+import { getCollection, type CollectionEntry } from "astro:content"
 
 const events = await getCollection("activity")
 const pollies = await getCollection("pollies")
-const nameBySlug = new Map(pollies.map((p) => [p.data.slug, p.data.name]))
+const nameBySlug = new Map(
+  pollies.map((p: CollectionEntry<"pollies">) => [p.data.slug, p.data.name]),
+)
 
-const rows = events.map((e) => ({
+const rows = events.map((e: CollectionEntry<"activity">) => ({
   id: e.id,
   sha: e.data.sha,
   date: e.data.date,
