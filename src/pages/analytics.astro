@@ -76,8 +76,7 @@ function fmtPct(p: number): string {
     <figure>
       <CategoryDistributionChart data={data.categoryTotals} client:load />
       <figcaption>
-        {totalGigs.toLocaleString()} post-parliament gigs across {data.categoryTotals.length} categories
-        {topCategory ? `; ${topCategory.category} leads with ${topCategory.count}` : ""}.
+        {`${totalGigs.toLocaleString()} post-parliament gigs across ${data.categoryTotals.length} categories${topCategory ? `; ${topCategory.category} leads with ${topCategory.count}` : ""}.`}
       </figcaption>
     </figure>
     <details class="data-table">
