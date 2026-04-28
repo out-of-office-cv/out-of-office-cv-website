@@ -8,12 +8,18 @@ import type { Gig } from "./types";
 
 const dataDir = resolve(process.cwd(), "data");
 
+const verificationSchema = z.object({
+  decision: z.enum(["verified", "rejected"]),
+  by: z.string(),
+  note: z.string().optional(),
+});
+
 const gigSchema = z.object({
   role: z.string().min(1),
   organisation: z.string().min(1),
   category: z.enum(GIG_CATEGORIES),
   sources: z.array(z.url()).min(1),
-  verified_by: z.string().optional(),
+  verification: verificationSchema.optional(),
   pollie_slug: z.string().min(1),
   start_date: z.string().optional(),
   end_date: z.string().optional(),
@@ -24,8 +30,13 @@ const pollies = defineCollection({
     const allPollies = loadPollies(dataDir);
     const allGigs = loadGigs(dataDir);
     const gigCounts = countGigsByPollie(allGigs);
+
+    // Filter rejected gigs out of public surfaces; counts above still see them.
+    const visibleGigs = allGigs.filter(
+      (g) => g.verification?.decision !== "rejected",
+    );
     const gigsByPollie = new Map<string, Gig[]>();
-    for (const gig of allGigs) {
+    for (const gig of visibleGigs) {
       const existing = gigsByPollie.get(gig.pollie_slug) || [];
       existing.push(gig);
       gigsByPollie.set(gig.pollie_slug, existing);
@@ -34,7 +45,8 @@ const pollies = defineCollection({
     return allPollies.map((pollie) => ({
       id: pollie.slug,
       ...pollie,
-      gigCount: gigCounts.get(pollie.slug) ?? { verified: 0, unverified: 0 },
+      gigCount:
+        gigCounts.get(pollie.slug) ?? { verified: 0, unverified: 0, rejected: 0 },
       gigs: gigsByPollie.get(pollie.slug) || [],
     }));
   },
@@ -51,6 +63,7 @@ const pollies = defineCollection({
     gigCount: z.object({
       verified: z.number(),
       unverified: z.number(),
+      rejected: z.number(),
     }),
     gigs: z.array(gigSchema),
   }),
