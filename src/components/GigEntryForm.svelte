@@ -32,7 +32,9 @@
   const drafts = createDraftGigs()
   const pr = createPullRequest(() => auth.getStoredToken())
 
-  let unverifiedGigs = $derived(gigs.filter((g) => !g.verified_by))
+  let unverifiedGigs = $derived(
+    gigs.filter((g) => g.verification?.decision !== "verified"),
+  )
 
   let canSubmitAdd = $derived(auth.isAuthenticated && drafts.gigs.length > 0)
 
@@ -77,7 +79,7 @@
     })
   }
 
-  function addVerifiedByToGigs(
+  function applyVerificationToGigs(
     content: string,
     indicesToVerify: number[],
     verifier: string,
@@ -86,7 +88,7 @@
     const allGigs: Gig[] = JSON.parse(content)
     for (const index of indicesToVerify) {
       if (allGigs[index]) {
-        allGigs[index].verified_by = verifier
+        allGigs[index].verification = { decision: "verified", by: verifier }
         if (edits[index]) {
           Object.assign(allGigs[index], edits[index])
         }
@@ -120,7 +122,7 @@
           )
           .join("\n"),
       updateFile: (content: string) =>
-        addVerifiedByToGigs(content, indices, verifier, edits),
+        applyVerificationToGigs(content, indices, verifier, edits),
       onMerged: () => verifyListRef?.clearSelection(),
     })
   }
