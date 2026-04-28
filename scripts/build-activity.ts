@@ -28,14 +28,20 @@ export interface ActivityEvent {
   note?: string;
 }
 
-function key(g: Gig): string {
+function key3(g: Gig): string {
   return [g.pollie_slug, g.role, g.organisation].join("|");
 }
 
+function key4(g: Gig): string {
+  return [g.pollie_slug, g.role, g.organisation, g.start_date ?? "null"].join(
+    "|",
+  );
+}
+
 function commitHasClaudeVerification(after: Gig[], before: Gig[]): boolean {
-  const beforeMap = new Map(before.map((g) => [key(g), g]));
+  const beforeMap = new Map(before.map((g) => [key4(g), g]));
   for (const a of after) {
-    const b = beforeMap.get(key(a));
+    const b = beforeMap.get(key4(a));
     if (
       a.verification?.by === "claude" &&
       a.verification?.decision &&
@@ -67,82 +73,129 @@ function summariseDateChange(before: Gig, after: Gig): string {
   return parts.join("; ");
 }
 
+function emitChangeEvents(
+  b: Gig,
+  a: Gig,
+  commit: CommitMeta,
+  claudeCommit: boolean,
+  events: ActivityEvent[],
+): void {
+  const meta = {
+    sha: commit.sha,
+    date: commit.date,
+    pollie_slug: a.pollie_slug,
+    role: a.role,
+    organisation: a.organisation,
+  };
+  const beforeDecision = b.verification?.decision;
+  const afterDecision = a.verification?.decision;
+  if (beforeDecision !== afterDecision && afterDecision === "verified") {
+    events.push({
+      ...meta,
+      action: "verified",
+      by: a.verification!.by,
+      note: a.verification!.note,
+    });
+  } else if (beforeDecision !== afterDecision && afterDecision === "rejected") {
+    events.push({
+      ...meta,
+      action: "rejected",
+      by: a.verification!.by,
+      note: a.verification!.note,
+    });
+  }
+  const sourcesChanged =
+    JSON.stringify(b.sources) !== JSON.stringify(a.sources);
+  if (sourcesChanged) {
+    events.push({
+      ...meta,
+      action: "sources-edited",
+      by: claudeCommit ? "claude" : commit.author,
+      note: summariseSourceChange(b.sources, a.sources),
+    });
+  }
+  const datesChanged =
+    b.start_date !== a.start_date || b.end_date !== a.end_date;
+  if (datesChanged) {
+    events.push({
+      ...meta,
+      action: "dates-edited",
+      by: claudeCommit ? "claude" : commit.author,
+      note: summariseDateChange(b, a),
+    });
+  }
+}
+
 export function classifyDiff(
   before: Gig[],
   after: Gig[],
   commit: CommitMeta,
 ): ActivityEvent[] {
-  const beforeMap = new Map(before.map((g) => [key(g), g]));
-  const afterMap = new Map(after.map((g) => [key(g), g]));
+  // Match using the 4-part key (pollie, role, org, start_date) to keep
+  // distinct-tenure entries separate (e.g. someone holding the same role
+  // twice). When start_date changes on the same gig, fall back to a 3-part
+  // match — but only when exactly one unmatched candidate remains, so we
+  // never alias real duplicates.
+  const beforeBy4 = new Map(before.map((g) => [key4(g), g]));
+  const afterBy4 = new Map(after.map((g) => [key4(g), g]));
   const claudeCommit = commitHasClaudeVerification(after, before);
   const events: ActivityEvent[] = [];
+  const consumed = new Set<string>();
 
-  // Added or changed
-  for (const [k, a] of afterMap) {
-    const b = beforeMap.get(k);
-    const meta = {
-      sha: commit.sha,
-      date: commit.date,
-      pollie_slug: a.pollie_slug,
-      role: a.role,
-      organisation: a.organisation,
-    };
-    if (!b) {
-      events.push({ ...meta, action: "added", by: commit.author });
-      continue;
+  // Phase 1: exact 4-part matches.
+  for (const [k4, a] of afterBy4) {
+    const b = beforeBy4.get(k4);
+    if (b) {
+      consumed.add(k4);
+      emitChangeEvents(b, a, commit, claudeCommit, events);
     }
-    const beforeDecision = b.verification?.decision;
-    const afterDecision = a.verification?.decision;
-    if (beforeDecision !== afterDecision && afterDecision === "verified") {
+  }
+
+  // Phase 2: for unmatched after gigs, try a 3-part fallback to detect
+  // start_date changes on the same logical gig.
+  const remainingBefore3 = new Map<string, Gig[]>();
+  for (const [k4, b] of beforeBy4) {
+    if (consumed.has(k4)) continue;
+    const k3 = key3(b);
+    const arr = remainingBefore3.get(k3) ?? [];
+    arr.push(b);
+    remainingBefore3.set(k3, arr);
+  }
+
+  for (const [k4, a] of afterBy4) {
+    if (consumed.has(k4)) continue;
+    const k3 = key3(a);
+    const candidates = remainingBefore3.get(k3) ?? [];
+    if (candidates.length === 1) {
+      const b = candidates[0];
+      consumed.add(key4(b));
+      remainingBefore3.set(k3, []);
+      emitChangeEvents(b, a, commit, claudeCommit, events);
+    } else {
       events.push({
-        ...meta,
-        action: "verified",
-        by: a.verification!.by,
-        note: a.verification!.note,
-      });
-    } else if (beforeDecision !== afterDecision && afterDecision === "rejected") {
-      events.push({
-        ...meta,
-        action: "rejected",
-        by: a.verification!.by,
-        note: a.verification!.note,
-      });
-    }
-    const sourcesChanged =
-      JSON.stringify(b.sources) !== JSON.stringify(a.sources);
-    if (sourcesChanged) {
-      events.push({
-        ...meta,
-        action: "sources-edited",
-        by: claudeCommit ? "claude" : commit.author,
-        note: summariseSourceChange(b.sources, a.sources),
-      });
-    }
-    const datesChanged =
-      b.start_date !== a.start_date || b.end_date !== a.end_date;
-    if (datesChanged) {
-      events.push({
-        ...meta,
-        action: "dates-edited",
-        by: claudeCommit ? "claude" : commit.author,
-        note: summariseDateChange(b, a),
+        sha: commit.sha,
+        date: commit.date,
+        pollie_slug: a.pollie_slug,
+        role: a.role,
+        organisation: a.organisation,
+        action: "added",
+        by: commit.author,
       });
     }
   }
 
-  // Removed
-  for (const [k, b] of beforeMap) {
-    if (!afterMap.has(k)) {
-      events.push({
-        sha: commit.sha,
-        date: commit.date,
-        pollie_slug: b.pollie_slug,
-        role: b.role,
-        organisation: b.organisation,
-        action: "removed",
-        by: commit.author,
-      });
-    }
+  // Phase 3: anything in before not consumed is removed.
+  for (const [k4, b] of beforeBy4) {
+    if (consumed.has(k4)) continue;
+    events.push({
+      sha: commit.sha,
+      date: commit.date,
+      pollie_slug: b.pollie_slug,
+      role: b.role,
+      organisation: b.organisation,
+      action: "removed",
+      by: commit.author,
+    });
   }
 
   return events;

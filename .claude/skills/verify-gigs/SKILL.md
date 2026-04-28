@@ -124,6 +124,12 @@ Wait for all subagent tasks to return. For each one:
 
 ## Step 4: apply findings to data/gigs.json
 
+Each finding's `gig_index` refers to the position in *that subagent's input
+slice* (the per-pollie eligible-gig list you passed in Step 2), NOT the
+position in `data/gigs.json`. Before mutating, look up the corresponding gig
+in `gigs.json` by its `(pollie_slug, role, organisation, start_date)` tuple
+and mutate that entry. Never index into `gigs.json` by `gig_index` directly.
+
 Single read-modify-write pass. For each finding:
 
 - `verified` → set

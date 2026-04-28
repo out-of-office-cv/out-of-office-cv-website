@@ -97,4 +97,15 @@ describe("classifyDiff", () => {
   it("emits no event when nothing changed for a gig", () => {
     expect(classifyDiff([baseGig], [baseGig], commit)).toEqual([]);
   });
+
+  it("treats two distinct-tenure gigs (same pollie/role/org, different start_date) as separate", () => {
+    const tenure1 = { ...baseGig, start_date: "2021-01-01", end_date: "2023-03-01" };
+    const tenure2 = { ...baseGig, start_date: "2026-03-31" };
+    const events = classifyDiff([tenure1], [tenure1, tenure2], commit);
+    expect(events).toHaveLength(1);
+    expect(events[0]).toMatchObject({ action: "added" });
+    // tenure1 wasn't touched: no spurious dates-edited or removed events
+    expect(events.every((e) => e.action !== "dates-edited")).toBe(true);
+    expect(events.every((e) => e.action !== "removed")).toBe(true);
+  });
 });
