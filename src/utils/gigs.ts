@@ -3,9 +3,12 @@ import type { Gig, GigCountSplit } from "../types";
 export function countGigsByPollie(gigs: Gig[]): Map<string, GigCountSplit> {
   const counts = new Map<string, GigCountSplit>();
   for (const gig of gigs) {
-    const current = counts.get(gig.pollie_slug) ?? { verified: 0, unverified: 0 };
-    if (gig.verified_by) {
+    const current =
+      counts.get(gig.pollie_slug) ?? { verified: 0, unverified: 0, rejected: 0 };
+    if (gig.verification?.decision === "verified") {
       current.verified += 1;
+    } else if (gig.verification?.decision === "rejected") {
+      current.rejected += 1;
     } else {
       current.unverified += 1;
     }
@@ -31,8 +34,8 @@ function endDateSortKey(endDate: string | undefined): number {
 
 export function sortGigsForDisplay(gigs: Gig[]): Gig[] {
   return [...gigs].sort((a, b) => {
-    const aVerified = a.verified_by ? 1 : 0;
-    const bVerified = b.verified_by ? 1 : 0;
+    const aVerified = a.verification?.decision === "verified" ? 1 : 0;
+    const bVerified = b.verification?.decision === "verified" ? 1 : 0;
     if (aVerified !== bVerified) return bVerified - aVerified;
     return endDateSortKey(b.end_date) - endDateSortKey(a.end_date);
   });
