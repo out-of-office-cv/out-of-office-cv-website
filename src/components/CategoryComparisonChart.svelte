@@ -3,12 +3,13 @@
   import type { TopLevelSpec } from "vega-lite";
   import type { ColumnCell } from "../utils/analytics";
   import type { PartyGroup } from "../utils/pollie";
+  import type { GigCategory } from "../types";
   import { getVegaConfig } from "../utils/vegaTheme";
 
   interface Props {
     byParty: ColumnCell<PartyGroup>[];
     byDecade: ColumnCell<string>[];
-    categoryOrder: string[];
+    categoryOrder: GigCategory[];
   }
 
   let { byParty, byDecade, categoryOrder }: Props = $props();
@@ -21,7 +22,7 @@
     return {
       $schema: "https://vega.github.io/schema/vega-lite/v6.json",
       data: { values: cells },
-      mark: { type: "rect", tooltip: true, stroke: null },
+      mark: { type: "rect", tooltip: true },
       encoding: {
         y: {
           field: "category",
