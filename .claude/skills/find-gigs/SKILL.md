@@ -109,7 +109,9 @@ Format each gig as a JSON object matching this schema:
 }
 ```
 
-Do NOT include a `verified_by` field --- these are unverified candidates.
+Do NOT include a `verification` field --- these are unverified candidates.
+The `verification` object is only set by the human verification flow or by the
+verify-gigs skill.
 
 ## Step 4: present results for review
 
@@ -122,9 +124,13 @@ Present all found gigs in a clear table showing:
 - Dates (if known)
 
 Also flag any gigs that already exist in `data/gigs.json` (matching on
-pollie_slug + organisation + role) so duplicates are obvious.
+pollie_slug + organisation + role) so duplicates are obvious. **Skip
+candidates that match an existing entry where `verification.decision ===
+"rejected"`** --- those have already been reviewed and dismissed.
 
-Add all non-duplicate gigs automatically.
+Add all non-duplicate, non-rejected gigs automatically, but stop appending
+once 10 new gigs have been added in this run. This is a soft cap that
+prevents a runaway find from drowning the verification queue.
 
 ## Step 5: write to data file
 
