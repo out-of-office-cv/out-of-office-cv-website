@@ -94,7 +94,7 @@ describe("gig integration", () => {
         sources: ["https://example.com/source"],
         pollie_slug: "tony-abbott",
         start_date: "2020-06-15",
-        verified_by: "test",
+        verification: { decision: "verified", by: "test" },
       },
       {
         role: "Advisor",
@@ -104,7 +104,7 @@ describe("gig integration", () => {
         pollie_slug: "tony-abbott",
         start_date: "2021-01-01",
         end_date: "2022-12-31",
-        verified_by: "test",
+        verification: { decision: "verified", by: "test" },
       },
     ];
     writeFileSync(gigsJsonPath, JSON.stringify(testGigs, null, 2) + "\n");
