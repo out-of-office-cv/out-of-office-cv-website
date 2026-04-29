@@ -110,14 +110,24 @@ For each role found, provide:
 1. The role/title
 2. The organisation
 3. A category from this list: ${GIG_CATEGORIES.join(", ")}
-4. Source URLs that verify this information (news articles, company pages, LinkedIn, official announcements)
+4. Source URLs that verify this information. Useful sources include:
+   - News articles, press releases, and official announcements
+   - Company "about", "board", or "leadership" pages
+   - LinkedIn profiles
+   - ASIC company extracts and the ASIC company register (for directorships and company officeholders)
+   - ASX announcements and disclosures (for listed-company board appointments)
+   - Annual reports and company filings
+   - The federal Register of Lobbyists (lobbyists.ag.gov.au) and state lobbyist registers
+   - The ACNC charity register (for nonprofit and charity board roles)
+   - Government appointment announcements (ministerial press releases, gazette notices)
+   - Wikipedia is acceptable for finding leads, but prefer the primary sources it cites
 5. Start date if known (YYYY-MM-DD format)
 6. End date if known and the role has ended (YYYY-MM-DD format)
 
 Important:
 - Only include roles taken AFTER leaving parliament
 - Each role MUST have at least one verifiable source URL
-- Do not use Wikipedia as a source URL. If you find information via Wikipedia, follow its references to the primary sources (news articles, official announcements, company pages) and use those URLs instead
+- Prefer primary sources over Wikipedia: if Wikipedia cites a news article, official announcement, or company page, use that URL instead of the Wikipedia URL. Only fall back to a Wikipedia URL if no primary source is available
 - Do not include speculation or unverified claims
 - Return ALL roles found, not just the most prominent one
 - If no post-parliamentary roles can be found with sources, return an empty array`;
