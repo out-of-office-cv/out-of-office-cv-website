@@ -6263,7 +6263,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Saïd Business School, University of Oxford",
+    "organisation": "Sa\u00efd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -7432,5 +7432,114 @@
     ],
     "pollie_slug": "tom-wheelwright",
     "start_date": "2006-01-01"
+  },
+  {
+    "role": "President",
+    "organisation": "NSW Anti-Discrimination Board",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/puplick-christopher-john-guelph/",
+      "https://en.wikipedia.org/wiki/Chris_Puplick"
+    ],
+    "pollie_slug": "chris-puplick",
+    "start_date": "1994-09",
+    "end_date": "2003"
+  },
+  {
+    "role": "Privacy Commissioner",
+    "organisation": "Privacy NSW",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/puplick-christopher-john-guelph/",
+      "https://en.wikipedia.org/wiki/Chris_Puplick"
+    ],
+    "pollie_slug": "chris-puplick",
+    "start_date": "1998",
+    "end_date": "2003"
+  },
+  {
+    "role": "Chair",
+    "organisation": "National Film and Sound Archive",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://biography.senate.gov.au/puplick-christopher-john-guelph/",
+      "https://en.wikipedia.org/wiki/Chris_Puplick"
+    ],
+    "pollie_slug": "chris-puplick",
+    "start_date": "2008",
+    "end_date": "2011"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian National Council on AIDS, Hepatitis C and Related Diseases",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://biography.senate.gov.au/puplick-christopher-john-guelph/"
+    ],
+    "pollie_slug": "chris-puplick",
+    "start_date": "1996",
+    "end_date": "2008"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Packaging Environment Foundation of Australia",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://biography.senate.gov.au/puplick-christopher-john-guelph/"
+    ],
+    "pollie_slug": "chris-puplick",
+    "start_date": "1990",
+    "end_date": "1994"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Central Sydney Area Health Service",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://biography.senate.gov.au/puplick-christopher-john-guelph/"
+    ],
+    "pollie_slug": "chris-puplick",
+    "start_date": "1993",
+    "end_date": "2003"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "National Institute of Dramatic Art",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://biography.senate.gov.au/puplick-christopher-john-guelph/"
+    ],
+    "pollie_slug": "chris-puplick",
+    "start_date": "1993",
+    "end_date": "2003"
+  },
+  {
+    "role": "Foundation Professor of Governance and Head of School of Business",
+    "organisation": "Charles Darwin University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bob_Catley_(politician)",
+      "https://www.hudson.org/experts/66-bob-catley"
+    ],
+    "pollie_slug": "bob-catley"
+  },
+  {
+    "role": "Head of School of Business",
+    "organisation": "University of Newcastle",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bob_Catley_(politician)"
+    ],
+    "pollie_slug": "bob-catley"
+  },
+  {
+    "role": "Shareholder",
+    "organisation": "Sustainable Soils and Farms",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.gem.wiki/Bob_Sercombe"
+    ],
+    "pollie_slug": "bob-sercombe",
+    "start_date": "2010"
   }
 ]
