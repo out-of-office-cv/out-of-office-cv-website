@@ -2629,7 +2629,11 @@
     ],
     "pollie_slug": "simon-crean",
     "start_date": "2014",
-    "end_date": "2023-06-25"
+    "end_date": "2023-06-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
@@ -2641,7 +2645,11 @@
     ],
     "pollie_slug": "simon-crean",
     "start_date": "2014-10",
-    "end_date": "2020-02"
+    "end_date": "2020-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member, University Council",
@@ -2649,11 +2657,16 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://www.monash.edu/vale/home/articles/vale-the-honourable-simon-crean",
-      "https://www.monash.edu/records-archives/archives/officers-and-awards/tributes-to-monash-identities/simon-findlay-crean"
+      "https://www.monash.edu/records-archives/archives/officers-and-awards/tributes-to-monash-identities/simon-findlay-crean",
+      "https://en.wikipedia.org/wiki/Simon_Crean"
     ],
     "pollie_slug": "simon-crean",
     "start_date": "2014",
-    "end_date": "2023-06-25"
+    "end_date": "2023-06-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chancellor",
@@ -2661,22 +2674,32 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://www.monash.edu/vale/home/articles/vale-the-honourable-simon-crean",
-      "https://www.monash.edu/records-archives/archives/officers-and-awards/tributes-to-monash-identities/simon-findlay-crean"
+      "https://www.monash.edu/records-archives/archives/officers-and-awards/tributes-to-monash-identities/simon-findlay-crean",
+      "https://en.wikipedia.org/wiki/Simon_Crean"
     ],
     "pollie_slug": "simon-crean",
     "start_date": "2020",
-    "end_date": "2023-06-25"
+    "end_date": "2023-06-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Ashley Services Group",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.marketscreener.com/insider/SIMON-CREAN-A1QYUN/experience/"
+      "https://www.marketscreener.com/insider/SIMON-CREAN-A1QYUN/experience/",
+      "https://www.staffingindustry.com/news/global-daily-news/australia-ashley-services-faces-questions-over-union-ties"
     ],
     "pollie_slug": "simon-crean",
     "start_date": "2014-07-30",
-    "end_date": "2015-09-30"
+    "end_date": "2015-09-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -2684,7 +2707,8 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://theorg.com/org/cornerstone-group/org-chart/simon-crean",
-      "https://www.sheepcentral.com/agricultural-sector-remembers-simon-crean-with-respect/"
+      "https://www.sheepcentral.com/agricultural-sector-remembers-simon-crean-with-respect/",
+      "https://www.farmonline.com.au/story/6122436/time-for-red-meat-industry-to-unite-under-one-body-says-simon-crean/"
     ],
     "pollie_slug": "simon-crean"
   },
@@ -2694,11 +2718,16 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://theorg.com/org/cornerstone-group/org-chart/simon-crean",
-      "https://auslivestockexport.com/news/10-news/154-alec-new-chair"
+      "https://auslivestockexport.com/news/10-news/154-alec-new-chair",
+      "https://www.sheepcentral.com/agricultural-sector-remembers-simon-crean-with-respect/"
     ],
     "pollie_slug": "simon-crean",
     "start_date": "2014-10",
-    "end_date": "2020-02"
+    "end_date": "2020-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Co-Chairman, Advisory Board",
@@ -2708,7 +2737,12 @@
       "https://theorg.com/org/cornerstone-group/org-chart/simon-crean"
     ],
     "pollie_slug": "simon-crean",
-    "end_date": "2023-06-25"
+    "end_date": "2023-06-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2017"
   },
   {
     "role": "Chairman",
@@ -2719,27 +2753,41 @@
       "https://www.marketscreener.com/insider/SIMON-CREAN-A1QYUN/experience/"
     ],
     "pollie_slug": "simon-crean",
-    "end_date": "2023-06-25"
+    "end_date": "2023-06-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
     "organisation": "Australia-Korea Business Council",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://oa.anu.edu.au/obituary/crean-simon-findlay-33579"
+      "https://oa.anu.edu.au/obituary/crean-simon-findlay-33579",
+      "https://www.sbs.com.au/language/korean/en/podcast-episode/simon-crean-appointed-australia-korea-business-council-chair/gdmq2qpuq"
     ],
     "pollie_slug": "simon-crean",
-    "start_date": "2019",
-    "end_date": "2021"
+    "start_date": "2019-05",
+    "end_date": "2023-06-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Smart Manufacturing Group",
     "organisation": "Deakin University",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://theorg.com/org/cornerstone-group/org-chart/simon-crean"
+      "https://theorg.com/org/cornerstone-group/org-chart/simon-crean",
+      "https://en.wikipedia.org/wiki/Simon_Crean"
     ],
-    "pollie_slug": "simon-crean"
+    "pollie_slug": "simon-crean",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Independent Board Director",
@@ -2750,7 +2798,11 @@
       "https://www.mpnews.com.au/2023/06/30/simon-creans-death-a-loss-to-lobbying-group/"
     ],
     "pollie_slug": "simon-crean",
-    "end_date": "2023-06-25"
+    "end_date": "2023-06-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -2762,7 +2814,11 @@
     ],
     "pollie_slug": "simon-crean",
     "start_date": "2021-05",
-    "end_date": "2023-06-25"
+    "end_date": "2023-06-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -2770,11 +2826,16 @@
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://mcclelland.org.au/news/vale-the-hon-simon-crean",
-      "https://mcclelland.org.au/news/change-of-chair-at-mcclelland"
+      "https://mcclelland.org.au/news/change-of-chair-at-mcclelland",
+      "https://baysidenews.com.au/2023/07/04/death-of-gallery-chair-mourned/"
     ],
     "pollie_slug": "simon-crean",
     "start_date": "2022-04",
-    "end_date": "2023-06-25"
+    "end_date": "2023-06-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Strategic Adviser",
@@ -2794,7 +2855,11 @@
       "https://www.linfox.com/linfox-mourns-simon-crean-2/"
     ],
     "pollie_slug": "simon-crean",
-    "end_date": "2023-06-25"
+    "end_date": "2023-06-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Managing Director",
@@ -6263,7 +6328,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Sa\u00efd Business School, University of Oxford",
+    "organisation": "Saïd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
