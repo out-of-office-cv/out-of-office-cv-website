@@ -8448,5 +8448,68 @@
     "pollie_slug": "michael-ferguson",
     "start_date": "2022-04-08",
     "end_date": "2024-10-14"
+  },
+  {
+    "role": "Managing Director",
+    "organisation": "Quitonic",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.linkedin.com/in/graeme-mcdougall-943a48a5/"
+    ],
+    "pollie_slug": "graeme-mcdougall"
+  },
+  {
+    "role": "Commissioner for International Engagement",
+    "organisation": "ACT Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brendan_Smyth_(politician)",
+      "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/barr/2016/brendan-smyth-to-be-cbrs-first-commissioner-for-international-engagement",
+      "https://www.canberratimes.com.au/story/6045045/the-acts-first-commissioner-for-international-engagement-brendan-smyth-is-ready-to-fly-high/"
+    ],
+    "pollie_slug": "brendan-smyth",
+    "start_date": "2016-08-01"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Mutual Trust",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marshall_Baillieu"
+    ],
+    "pollie_slug": "marshall-baillieu",
+    "end_date": "2013"
+  },
+  {
+    "role": "Consul-General, Chicago",
+    "organisation": "Australian Government (DFAT)",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bob_Charles_(politician)"
+    ],
+    "pollie_slug": "bob-charles",
+    "start_date": "2005",
+    "end_date": "2008"
+  },
+  {
+    "role": "Franchise Owner",
+    "organisation": "Aussie Home Loans",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paul_Filing",
+      "https://www.sbs.com.au/news/article/ex-federal-lib-mp-one-nation-wa-president/wgudyx219"
+    ],
+    "pollie_slug": "paul-filing"
+  },
+  {
+    "role": "President (Western Australia)",
+    "organisation": "Pauline Hanson's One Nation",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paul_Filing",
+      "https://www.sbs.com.au/news/article/ex-federal-lib-mp-one-nation-wa-president/wgudyx219"
+    ],
+    "pollie_slug": "paul-filing",
+    "start_date": "2018"
   }
 ]
