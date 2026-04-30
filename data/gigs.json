@@ -6055,7 +6055,8 @@
     "organisation": "Emperor International Holdings",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://grokipedia.com/page/Bob_Hawke"
+      "https://grokipedia.com/page/Bob_Hawke",
+      "https://www.emperorgroup.com/en/about_us/milestones/"
     ],
     "pollie_slug": "robert-hawke",
     "start_date": "1992"
@@ -6065,71 +6066,105 @@
     "organisation": "Australian National University",
     "category": "Education, Academia & Research",
     "sources": [
-      "http://english.boaoforum.org/speakers2007/10382.jhtml"
+      "https://www.sydney.edu.au/content/dam/corporate/documents/university-archives/honorary-awards/h/the_hon_bob_hawke_ac_cgl_2016.pdf",
+      "http://bobhawkelibrary.weebly.com/bob-hawke-biography.html"
     ],
     "pollie_slug": "robert-hawke",
     "start_date": "1992",
-    "end_date": "1995"
+    "end_date": "1995",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Visiting Professor in Industrial Relations",
     "organisation": "University of Sydney",
     "category": "Education, Academia & Research",
     "sources": [
-      "http://english.boaoforum.org/speakers2007/10382.jhtml"
+      "https://www.sydney.edu.au/content/dam/corporate/documents/university-archives/honorary-awards/h/the_hon_bob_hawke_ac_cgl_2016.pdf",
+      "http://bobhawkelibrary.weebly.com/bob-hawke-biography.html"
     ],
     "pollie_slug": "robert-hawke",
     "start_date": "1992",
-    "end_date": "1997"
+    "end_date": "1997",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member, Advisory Council of the Institute for International Studies",
     "organisation": "Stanford University",
     "category": "Education, Academia & Research",
     "sources": [
-      "http://english.boaoforum.org/speakers2007/10382.jhtml"
+      "https://www.sydney.edu.au/content/dam/corporate/documents/university-archives/honorary-awards/h/the_hon_bob_hawke_ac_cgl_2016.pdf",
+      "http://bobhawkelibrary.weebly.com/bob-hawke-biography.html"
     ],
     "pollie_slug": "robert-hawke",
     "start_date": "1992",
-    "end_date": "1999"
+    "end_date": "1999",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member, Board of Advisers",
     "organisation": "Boao Forum for Asia",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "http://english.boaoforum.org/speakers2007/10382.jhtml"
+      "https://en.wikipedia.org/wiki/Boao_Forum_for_Asia",
+      "https://www.sydney.edu.au/content/dam/corporate/documents/university-archives/honorary-awards/h/the_hon_bob_hawke_ac_cgl_2016.pdf"
     ],
     "pollie_slug": "robert-hawke",
-    "start_date": "1998"
+    "start_date": "1998",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman, Committee of Experts on Membership",
     "organisation": "Education International",
     "category": "Education, Academia & Research",
     "sources": [
-      "http://english.boaoforum.org/speakers2007/10382.jhtml"
+      "https://www.ei-ie.org/en/item/22901:bob-hawke-and-the-origins-of-education-international",
+      "https://www.sydney.edu.au/content/dam/corporate/documents/university-archives/honorary-awards/h/the_hon_bob_hawke_ac_cgl_2016.pdf"
     ],
-    "pollie_slug": "robert-hawke"
+    "pollie_slug": "robert-hawke",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman, Hawke Research Institute Advisory Board",
     "organisation": "University of South Australia",
     "category": "Education, Academia & Research",
     "sources": [
-      "http://english.boaoforum.org/speakers2007/10382.jhtml"
+      "http://bobhawkelibrary.weebly.com/bob-hawke-biography.html"
     ],
-    "pollie_slug": "robert-hawke"
+    "pollie_slug": "robert-hawke",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
     "organisation": "Economic Development Board of South Australia",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://en.wikipedia.org/wiki/Bob_Hawke"
+      "https://en.wikipedia.org/wiki/Bob_Hawke",
+      "https://en.wikipedia.org/wiki/Economic_Development_Board_(South_Australia)"
     ],
     "pollie_slug": "robert-hawke",
-    "start_date": "2002"
+    "start_date": "2002",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Partner",
@@ -6689,21 +6724,33 @@
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
       "https://en.wikipedia.org/wiki/Mark_Vaile",
-      "https://www.aald.org/board-of-directors/mark-vaile-ao/"
+      "https://www.aald.org/board-of-directors/mark-vaile-ao/",
+      "https://whitehavencoal.com.au/about-us-2/meet-the-board-2/",
+      "https://www.sharecafe.com.au/2025/10/30/whitehaven-chairman-signals-planned-departure/"
     ],
     "pollie_slug": "mark-vaile",
-    "start_date": "2012-01-01"
+    "start_date": "2012-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Virgin Australia Holdings",
     "category": "Retail, Hospitality & Tourism",
     "sources": [
-      "https://en.wikipedia.org/wiki/Mark_Vaile"
+      "https://en.wikipedia.org/wiki/Mark_Vaile",
+      "https://australianaviation.com.au/2018/12/sir-angus-houston-joins-virgin-australia-board/",
+      "https://www.travelweekly-asia.com/Travel-News/Australia-s-former-deputy-premier-joins-Virgin-Blue-Holdings-Ltd"
     ],
     "pollie_slug": "mark-vaile",
-    "start_date": "2008-09-01",
-    "end_date": "2018-12-01"
+    "start_date": "2008-09-22",
+    "end_date": "2018-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -6711,28 +6758,45 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://en.wikipedia.org/wiki/Mark_Vaile",
-      "https://www.investordaily.com.au/go-to-investorweekly/30711-hostplus-appoints-new-directors"
+      "https://aha.org.au/18612-vaile-gibson-welcomed-to-hostplus-board/",
+      "https://www.industrymoves.com/moves/vaile-departs-hostplus"
     ],
     "pollie_slug": "mark-vaile",
-    "start_date": "2012-01-01"
+    "start_date": "2012-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
     "organisation": "Servcorp",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.aald.org/board-of-directors/mark-vaile-ao/"
+      "https://www.aald.org/board-of-directors/mark-vaile-ao/",
+      "https://www.servcorp.com.au/media/1435/director_appointment_mark_vaile_27_jun_2011.pdf",
+      "https://en.wikipedia.org/wiki/Mark_Vaile"
     ],
-    "pollie_slug": "mark-vaile"
+    "pollie_slug": "mark-vaile",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Stamford Land Corporation",
     "category": "Retail, Hospitality & Tourism",
     "sources": [
-      "https://www.aald.org/board-of-directors/mark-vaile-ao/"
+      "https://www.aald.org/board-of-directors/mark-vaile-ao/",
+      "https://en.wikipedia.org/wiki/Mark_Vaile",
+      "https://theorg.com/org/stamford-land-corporation-ltd/org-chart/mark-anthony-james-vaile"
     ],
-    "pollie_slug": "mark-vaile"
+    "pollie_slug": "mark-vaile",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -6741,25 +6805,40 @@
     "sources": [
       "https://www.aald.org/board-of-directors/mark-vaile-ao/"
     ],
-    "pollie_slug": "mark-vaile"
+    "pollie_slug": "mark-vaile",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Regional Australia Institute",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.aald.org/board-of-directors/mark-vaile-ao/"
+      "https://www.aald.org/board-of-directors/mark-vaile-ao/",
+      "https://regionalaustralia.org.au/Web/Web/About-Us/Board-and-Staff-Pages/MARK-VAILE-AO.aspx"
     ],
-    "pollie_slug": "mark-vaile"
+    "pollie_slug": "mark-vaile",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
     "organisation": "Palisade Investment Partners",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://en.wikipedia.org/wiki/Mark_Vaile"
+      "https://en.wikipedia.org/wiki/Mark_Vaile",
+      "https://www.palisadegroup.com/changes-palisades-board-investment-committee/"
     ],
-    "pollie_slug": "mark-vaile"
+    "pollie_slug": "mark-vaile",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2018-10-30"
   },
   {
     "role": "Chairman",
@@ -6768,7 +6847,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Mark_Vaile"
     ],
-    "pollie_slug": "mark-vaile"
+    "pollie_slug": "mark-vaile",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
