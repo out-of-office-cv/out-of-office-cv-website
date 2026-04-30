@@ -7777,5 +7777,108 @@
       "https://en.wikipedia.org/wiki/Richard_Alston_(politician)"
     ],
     "pollie_slug": "richard-alston"
+  },
+  {
+    "role": "Principal",
+    "organisation": "Impact Partners Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Christian_Zahra"
+    ],
+    "pollie_slug": "christian-zahra",
+    "start_date": "2017"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Wunan Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Christian_Zahra",
+      "https://wunan.org.au/new-ceo-for-wunan-2/"
+    ],
+    "pollie_slug": "christian-zahra",
+    "start_date": "2015-01",
+    "end_date": "2017-01"
+  },
+  {
+    "role": "Director, Strategy Group",
+    "organisation": "KPMG Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Christian_Zahra"
+    ],
+    "pollie_slug": "christian-zahra"
+  },
+  {
+    "role": "Executive Director",
+    "organisation": "National Catholic Education Commission",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Christian_Zahra"
+    ],
+    "pollie_slug": "christian-zahra",
+    "start_date": "2017",
+    "end_date": "2018"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Regional Australia Institute",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Christian_Zahra"
+    ],
+    "pollie_slug": "christian-zahra",
+    "start_date": "2021"
+  },
+  {
+    "role": "Independent Non-Executive Director",
+    "organisation": "Waardi Limited",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Christian_Zahra"
+    ],
+    "pollie_slug": "christian-zahra",
+    "start_date": "2018",
+    "end_date": "2023"
+  },
+  {
+    "role": "Director",
+    "organisation": "Victorian Energy Networks Corporation (VENCorp)",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Christian_Zahra"
+    ],
+    "pollie_slug": "christian-zahra",
+    "start_date": "2004"
+  },
+  {
+    "role": "President",
+    "organisation": "McEwen House (National Party headquarters)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.openaustralia.org.au/senate/?id=2013-11-12.30.1"
+    ],
+    "pollie_slug": "david-thomson"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Jessie Street Trust",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jeannette_McHugh",
+      "https://www.evatt.org.au/jeanette-mchugh"
+    ],
+    "pollie_slug": "jeannette-mchugh"
+  },
+  {
+    "role": "Secretary",
+    "organisation": "Evatt Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.evatt.org.au/jeanette-mchugh"
+    ],
+    "pollie_slug": "jeannette-mchugh",
+    "start_date": "1999",
+    "end_date": "2006-11"
   }
 ]
