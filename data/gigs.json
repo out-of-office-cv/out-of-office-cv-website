@@ -8777,5 +8777,101 @@
     ],
     "pollie_slug": "ted-mack",
     "start_date": "1999"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "Australian Financial Review",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Latham"
+    ],
+    "pollie_slug": "mark-latham",
+    "end_date": "2015-08"
+  },
+  {
+    "role": "Co-host of Outsiders",
+    "organisation": "Sky News Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Latham"
+    ],
+    "pollie_slug": "mark-latham",
+    "start_date": "2016",
+    "end_date": "2017-03"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "The Daily Telegraph",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Latham",
+      "https://www.crikey.com.au/2016/02/03/mark-latham-then-and-now/"
+    ],
+    "pollie_slug": "mark-latham",
+    "start_date": "2016-02",
+    "end_date": "2018"
+  },
+  {
+    "role": "Columnist (Latham's Law)",
+    "organisation": "The Spectator Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Latham"
+    ],
+    "pollie_slug": "mark-latham"
+  },
+  {
+    "role": "Member of the Legislative Council",
+    "organisation": "Parliament of New South Wales",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=2251",
+      "https://en.wikipedia.org/wiki/Mark_Latham"
+    ],
+    "pollie_slug": "mark-latham",
+    "start_date": "2019-03-23",
+    "end_date": "present"
+  },
+  {
+    "role": "NSW State Leader",
+    "organisation": "Pauline Hanson's One Nation",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Latham"
+    ],
+    "pollie_slug": "mark-latham",
+    "start_date": "2018-11-07",
+    "end_date": "2023-08-14"
+  },
+  {
+    "role": "Consul-General to Los Angeles",
+    "organisation": "Government of Australia",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_McLeay_Jr.",
+      "https://en.wikipedia.org/wiki/1981_Boothby_by-election"
+    ],
+    "pollie_slug": "john-mcleay",
+    "start_date": "1981",
+    "end_date": "1983"
+  },
+  {
+    "role": "General store operator",
+    "organisation": "General store, Battery Point",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robert_Bell_(Australian_politician)"
+    ],
+    "pollie_slug": "robert-bell",
+    "start_date": "1996"
+  },
+  {
+    "role": "Coordinator, World Election Commission",
+    "organisation": "World Government of World Citizens",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Doug_Everingham"
+    ],
+    "pollie_slug": "douglas-everingham"
   }
 ]
