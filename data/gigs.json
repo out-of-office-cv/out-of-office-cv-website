@@ -7936,5 +7936,122 @@
     "pollie_slug": "jeannette-mchugh",
     "start_date": "1999",
     "end_date": "2006-11"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Stockman's Hall of Fame and Outback Heritage Centre",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kevin_Newman_(politician)",
+      "https://adb.anu.edu.au/biography/newman-kevin-eugene-33896"
+    ],
+    "pollie_slug": "kevin-newman",
+    "start_date": "1985",
+    "end_date": "1999"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Launceston Public Hospitals District",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kevin_Newman_(politician)",
+      "https://adb.anu.edu.au/biography/newman-kevin-eugene-33896"
+    ],
+    "pollie_slug": "kevin-newman",
+    "start_date": "1986",
+    "end_date": "1989"
+  },
+  {
+    "role": "Founding Chairman of the Governing Council",
+    "organisation": "Old Parliament House",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kevin_Newman_(politician)",
+      "https://adb.anu.edu.au/biography/newman-kevin-eugene-33896"
+    ],
+    "pollie_slug": "kevin-newman",
+    "start_date": "1997",
+    "end_date": "1999"
+  },
+  {
+    "role": "PhD Candidate in Australian History",
+    "organisation": "Australian National University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ken_Fry",
+      "https://nla.gov.au/nla.obj-297231593/findingaid"
+    ],
+    "pollie_slug": "kenneth-fry"
+  },
+  {
+    "role": "Member of the House of Assembly for Denison",
+    "organisation": "Parliament of Tasmania",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Hodgman",
+      "https://www.parliament.tas.gov.au/resources/about-parliament/historyindex/members/hodgmanwe729"
+    ],
+    "pollie_slug": "michael-hodgman",
+    "start_date": "1992",
+    "end_date": "1998"
+  },
+  {
+    "role": "Member of the House of Assembly for Denison",
+    "organisation": "Parliament of Tasmania",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Hodgman",
+      "https://www.parliament.tas.gov.au/resources/about-parliament/historyindex/members/hodgmanwe729"
+    ],
+    "pollie_slug": "michael-hodgman",
+    "start_date": "2001",
+    "end_date": "2010"
+  },
+  {
+    "role": "Deputy President",
+    "organisation": "National Native Title Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fred_Chaney",
+      "https://biography.senate.gov.au/chaney-frederick-michael/"
+    ],
+    "pollie_slug": "frederick-chaney",
+    "start_date": "1994",
+    "end_date": "2007"
+  },
+  {
+    "role": "Chancellor",
+    "organisation": "Murdoch University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fred_Chaney",
+      "https://biography.senate.gov.au/chaney-frederick-michael/"
+    ],
+    "pollie_slug": "frederick-chaney",
+    "start_date": "1995",
+    "end_date": "2002"
+  },
+  {
+    "role": "Co-Chair",
+    "organisation": "Reconciliation Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fred_Chaney",
+      "https://biography.senate.gov.au/chaney-frederick-michael/"
+    ],
+    "pollie_slug": "frederick-chaney",
+    "start_date": "2000",
+    "end_date": "2005"
+  },
+  {
+    "role": "Delegate",
+    "organisation": "1998 Australian Constitutional Convention",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alasdair_Webster"
+    ],
+    "pollie_slug": "alasdair-webster",
+    "start_date": "1998",
+    "end_date": "1998"
   }
 ]
