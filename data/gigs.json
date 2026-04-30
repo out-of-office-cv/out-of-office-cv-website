@@ -4606,22 +4606,32 @@
     "organisation": "Bespoke Approach",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://michaelwest.com.au/alexander-downer/"
+      "https://michaelwest.com.au/alexander-downer/",
+      "https://en.wikipedia.org/wiki/Alexander_Downer"
     ],
     "pollie_slug": "alexander-downer",
     "start_date": "2008-07-01",
-    "end_date": "2014-06-01"
+    "end_date": "2014-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Australian High Commissioner to the United Kingdom",
     "organisation": "Australian Government",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://www.canberratimes.com.au/story/6143781/alexander-downer-appointed-to-high-commissioner-to-united-kingdom/"
+      "https://www.canberratimes.com.au/story/6143781/alexander-downer-appointed-to-high-commissioner-to-united-kingdom/",
+      "https://www.foreignminister.gov.au/minister/julie-bishop/media-release/high-commissioner-united-kingdom-0"
     ],
     "pollie_slug": "alexander-downer",
-    "start_date": "2014-06-01",
-    "end_date": "2018-04-27"
+    "start_date": "2014-05-29",
+    "end_date": "2018-04-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Chair",
@@ -4631,8 +4641,12 @@
       "https://www.kcl.ac.uk/people/alexander-downer"
     ],
     "pollie_slug": "alexander-downer",
-    "start_date": "2018-01-01",
-    "end_date": "2023-12-31"
+    "start_date": "2018-06-01",
+    "end_date": "2023-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman of Trustees",
@@ -4642,7 +4656,11 @@
       "https://policyexchange.org.uk/news/policy-exchange-is-delighted-to-announce-that-our-next-chairman-of-trustees-will-be-alexander-downer-high-commissioner-of-australia/"
     ],
     "pollie_slug": "alexander-downer",
-    "start_date": "2018-01-01"
+    "start_date": "2018-05-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -4652,7 +4670,11 @@
       "https://www.proactiveinvestors.com/companies/news/961480/ironbark-zinc-welcomes-alexander-downer-and-paul-cahill-as-directors-961480.html"
     ],
     "pollie_slug": "alexander-downer",
-    "start_date": "2021-10-01"
+    "start_date": "2021-09-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Chairman",
@@ -4662,7 +4684,11 @@
       "https://www.goldhydrogen.com.au/updates/political-heavyweight-to-lead-the-hunt-for-hydrogen/"
     ],
     "pollie_slug": "alexander-downer",
-    "start_date": "2022-06-01"
+    "start_date": "2022-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Trustee",
@@ -4672,7 +4698,11 @@
       "https://www.crisisgroup.org/who-we-are/crisis-group-updates/crisis-group-welcomes-new-members-board-trustees"
     ],
     "pollie_slug": "alexander-downer",
-    "start_date": "2018-07-01"
+    "start_date": "2018-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Director",
@@ -4683,17 +4713,25 @@
     ],
     "pollie_slug": "alexander-downer",
     "start_date": "2011-06-01",
-    "end_date": "2014-06-01"
+    "end_date": "2014-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Visiting Professor of Politics",
     "organisation": "University of Adelaide",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.adelaide.edu.au/records/ua/media/449/Alexander_Downer.pdf"
+      "https://www.adelaide.edu.au/adelaidean/issues/28301/news28381.html"
     ],
     "pollie_slug": "alexander-downer",
-    "start_date": "2008-07-01"
+    "start_date": "2008-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -6889,7 +6927,11 @@
     ],
     "pollie_slug": "trish-crossin",
     "start_date": "2015-10-20",
-    "end_date": "2021-10-31"
+    "end_date": "2021-10-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -6898,7 +6940,11 @@
     "sources": [
       "https://www.ilsc.gov.au/news/vale-trish-crossin-am"
     ],
-    "pollie_slug": "trish-crossin"
+    "pollie_slug": "trish-crossin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -6907,7 +6953,11 @@
     "sources": [
       "https://www.ilsc.gov.au/news/vale-trish-crossin-am"
     ],
-    "pollie_slug": "trish-crossin"
+    "pollie_slug": "trish-crossin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Chair",
@@ -6918,28 +6968,42 @@
     ],
     "pollie_slug": "trish-crossin",
     "start_date": "2024-09-01",
-    "end_date": "2026-04-13"
+    "end_date": "2026-04-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Westjustice Community Legal Centre",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.andra.com.au/andra-pays-tribute-to-board-member-trish-crossin-am/"
+      "https://www.andra.com.au/andra-pays-tribute-to-board-member-trish-crossin-am/",
+      "https://www.thegordon.edu.au/blog/september-2024/new-board-chair-announced"
     ],
     "pollie_slug": "trish-crossin",
-    "end_date": "2026-04-13"
+    "end_date": "2026-04-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Gender Equity Victoria",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.genvic.org.au/media-releases/gen-vic-appoints-board-of-directors-and-special-advisors-to-drive-agenda-for-gender-equal-recovery-for-victoria/"
+      "https://www.genvic.org.au/media-releases/gen-vic-appoints-board-of-directors-and-special-advisors-to-drive-agenda-for-gender-equal-recovery-for-victoria/",
+      "https://www.thegordon.edu.au/blog/september-2024/new-board-chair-announced",
+      "https://www.andra.com.au/andra-pays-tribute-to-board-member-trish-crossin-am/"
     ],
     "pollie_slug": "trish-crossin",
-    "start_date": "2020-05-01",
-    "end_date": "2026-04-13"
+    "end_date": "2026-04-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Independent Director",
@@ -6949,7 +7013,11 @@
       "https://www.andra.com.au/andra-pays-tribute-to-board-member-trish-crossin-am/"
     ],
     "pollie_slug": "trish-crossin",
-    "end_date": "2026-04-13"
+    "end_date": "2026-04-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -6966,10 +7034,15 @@
     "organisation": "Asthma Foundation NT",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.andra.com.au/andra-pays-tribute-to-board-member-trish-crossin-am/"
+      "https://www.andra.com.au/andra-pays-tribute-to-board-member-trish-crossin-am/",
+      "https://www.thegordon.edu.au/blog/september-2024/new-board-chair-announced"
     ],
     "pollie_slug": "trish-crossin",
-    "end_date": "2026-04-13"
+    "end_date": "2026-04-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
