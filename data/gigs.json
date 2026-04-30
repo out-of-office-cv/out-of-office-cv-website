@@ -3518,7 +3518,11 @@
       "https://tas.liberal.org.au/our-team/guy-barnett"
     ],
     "pollie_slug": "guy-barnett",
-    "start_date": "2014-03-15"
+    "start_date": "2014-03-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Parliamentary Secretary to the Premier",
@@ -3529,8 +3533,12 @@
       "https://www.premier.tas.gov.au/your-government/guy-barnett"
     ],
     "pollie_slug": "guy-barnett",
-    "start_date": "2014-03-31",
-    "end_date": "2016-07-18"
+    "start_date": "2014-04-01",
+    "end_date": "2016-07-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Minister for Resources",
@@ -3542,7 +3550,11 @@
     ],
     "pollie_slug": "guy-barnett",
     "start_date": "2016-07-18",
-    "end_date": "2022-04-08"
+    "end_date": "2022-04-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Minister for Building and Construction",
@@ -3553,7 +3565,11 @@
     ],
     "pollie_slug": "guy-barnett",
     "start_date": "2016-07-18",
-    "end_date": "2021-05-19"
+    "end_date": "2021-05-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Minister for Energy",
@@ -3563,8 +3579,12 @@
       "https://www.premier.tas.gov.au/your-government/guy-barnett"
     ],
     "pollie_slug": "guy-barnett",
-    "start_date": "2017-01-01",
-    "end_date": "2022-04-08"
+    "start_date": "2017-09-28",
+    "end_date": "2022-04-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Minister for Primary Industries and Water",
@@ -3575,7 +3595,11 @@
     ],
     "pollie_slug": "guy-barnett",
     "start_date": "2018-01-01",
-    "end_date": "2022-04-08"
+    "end_date": "2022-04-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Minister for State Development, Construction and Housing",
@@ -3587,8 +3611,12 @@
       "https://www.examiner.com.au/story/8796634/new-ministers-join-rockliffs-cabinet-in-reshuffle/"
     ],
     "pollie_slug": "guy-barnett",
-    "start_date": "2022-04-08",
-    "end_date": "2023-07-26"
+    "start_date": "2022-04-12",
+    "end_date": "2023-07-26",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Minister for Energy and Renewables",
@@ -3598,8 +3626,12 @@
       "https://tasmaniantimes.com/2022/04/new-rockliff-cabinet-announced/"
     ],
     "pollie_slug": "guy-barnett",
-    "start_date": "2022-04-08",
-    "end_date": "2023-10-02"
+    "start_date": "2022-04-12",
+    "end_date": "2023-10-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Minister for Health",
@@ -3611,7 +3643,11 @@
     ],
     "pollie_slug": "guy-barnett",
     "start_date": "2023-07-26",
-    "end_date": "2024-10-01"
+    "end_date": "2024-10-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Attorney-General of Tasmania",
@@ -3622,7 +3658,11 @@
       "https://www.examiner.com.au/story/8374132/departing-tasmanian-attorney-general-lashes-premier/"
     ],
     "pollie_slug": "guy-barnett",
-    "start_date": "2023-10-02"
+    "start_date": "2023-10-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Premier of Tasmania",
@@ -3631,10 +3671,15 @@
     "sources": [
       "https://pulsetasmania.com.au/news/guy-barnett-elected-new-tasmanian-deputy-liberal-leader-to-become-deputy-premier/",
       "https://tasmaniantimes.com/2024/10/ferguson-resigns-from-cabinet-barnett-becomes-deputy-premier/",
-      "https://www.premier.tas.gov.au/latest-news/2024/october/new-tasmanian-government-ministry-announced"
+      "https://www.premier.tas.gov.au/latest-news/2024/october/new-tasmanian-government-ministry-announced",
+      "https://en.wikipedia.org/wiki/Guy_Barnett_(Australian_politician)"
     ],
     "pollie_slug": "guy-barnett",
-    "start_date": "2024-10-01"
+    "start_date": "2024-10-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Treasurer of Tasmania",
@@ -3642,11 +3687,16 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://www.premier.tas.gov.au/latest-news/2024/october/new-tasmanian-government-ministry-announced",
-      "https://tasmaniantimes.com/2024/10/ferguson-resigns-from-cabinet-barnett-becomes-deputy-premier/"
+      "https://tasmaniantimes.com/2024/10/ferguson-resigns-from-cabinet-barnett-becomes-deputy-premier/",
+      "https://www.parliament.tas.gov.au/visit-and-learn/resources/about-parliament/historyindex/members/treasurers"
     ],
     "pollie_slug": "guy-barnett",
-    "start_date": "2024-10-01",
-    "end_date": "2025-08-01"
+    "start_date": "2024-10-15",
+    "end_date": "2025-08-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy President",
