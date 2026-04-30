@@ -1943,11 +1943,16 @@
     "category": "Professional Services & Management Consulting",
     "sources": [
       "https://franchisebusiness.com.au/bruce-billson-leaves-fca/",
-      "https://ceoinstitute.com/bruce-billson"
+      "https://ceoinstitute.com/bruce-billson",
+      "https://en.wikipedia.org/wiki/Bruce_Billson"
     ],
     "pollie_slug": "bruce-billson",
     "start_date": "2016-03-22",
-    "end_date": "2018-12-31"
+    "end_date": "2018-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founding Independent Non-Executive Director",
@@ -1955,10 +1960,15 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://www.judo.bank/about-judo-bank/governance-leadership/",
-      "https://ceoinstitute.com/bruce-billson"
+      "https://ceoinstitute.com/bruce-billson",
+      "https://en.wikipedia.org/wiki/Judo_Bank"
     ],
     "pollie_slug": "bruce-billson",
-    "start_date": "2016-01-01"
+    "start_date": "2017-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founder and Principal",
@@ -1968,7 +1978,11 @@
       "https://executive.franchisebusiness.com.au/bruce-billson-joins-bdc-partners-chair-director/"
     ],
     "pollie_slug": "bruce-billson",
-    "start_date": "2016-01-01"
+    "start_date": "2016-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Special Counsel",
@@ -1977,7 +1991,13 @@
     "sources": [
       "https://ceoinstitute.com/bruce-billson"
     ],
-    "pollie_slug": "bruce-billson"
+    "pollie_slug": "bruce-billson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2016-01-01",
+    "end_date": "2021-03-11"
   },
   {
     "role": "Director, Small Business and Enterprise",
@@ -1986,7 +2006,13 @@
     "sources": [
       "https://ceoinstitute.com/bruce-billson"
     ],
-    "pollie_slug": "bruce-billson"
+    "pollie_slug": "bruce-billson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2016-01-01",
+    "end_date": "2021-03-11"
   },
   {
     "role": "Inaugural Chair, SME Research Centre Advisory Board",
@@ -1996,28 +2022,45 @@
       "https://businessnewsroom.deakin.edu.au/news/2016/09/ipa-deakin-university-sme-research-centre-launch/",
       "https://ceoinstitute.com/bruce-billson"
     ],
-    "pollie_slug": "bruce-billson"
+    "pollie_slug": "bruce-billson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2016-09-01",
+    "end_date": "2021-03-11"
   },
   {
     "role": "Chair and Director",
     "organisation": "BDC Partners",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://franchiseexecutives.com.au/bruce-billson-joins-bdc-partners-chair-director/"
+      "https://franchiseexecutives.com.au/bruce-billson-joins-bdc-partners-chair-director/",
+      "https://executive.franchisebusiness.com.au/bruce-billson-joins-bdc-partners-chair-director/"
     ],
     "pollie_slug": "bruce-billson",
-    "start_date": "2020-08-01"
+    "start_date": "2020-08-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "end_date": "2021-03-11"
   },
   {
     "role": "Australian Small Business and Family Enterprise Ombudsman",
     "organisation": "Australian Government",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.smartcompany.com.au/business-advice/bruce-billson-replace-kate-carnell-small-business-ombudsman/"
+      "https://www.smartcompany.com.au/business-advice/bruce-billson-replace-kate-carnell-small-business-ombudsman/",
+      "https://www.minister.industry.gov.au/ministers/michaeliacash/media-releases/appointment-small-business-ombudsman"
     ],
     "pollie_slug": "bruce-billson",
     "start_date": "2021-03-11",
-    "end_date": "2026-03-01"
+    "end_date": "2026-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -5769,31 +5812,46 @@
     "organisation": "Australian Government",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Arthur_Sinodinos"
+      "https://en.wikipedia.org/wiki/Arthur_Sinodinos",
+      "https://www.dfat.gov.au/about-us/our-people/homs/ambassador-to-the-united-states-of-america"
     ],
     "pollie_slug": "arthur-sinodinos",
-    "start_date": "2020-02-01",
-    "end_date": "2023-03-01"
+    "start_date": "2020-02-07",
+    "end_date": "2023-03-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Partner & Chair, Australia Practice",
     "organisation": "The Asia Group",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.spaceconnectonline.com.au/industry/6950-former-australian-ambassador-arthur-sinodinos-appointed-as-board-chairman-with-hypersonix-launch-systems"
+      "https://www.spaceconnectonline.com.au/industry/6950-former-australian-ambassador-arthur-sinodinos-appointed-as-board-chairman-with-hypersonix-launch-systems",
+      "https://www.ussc.edu.au/arthur-sinodinos"
     ],
     "pollie_slug": "arthur-sinodinos",
-    "start_date": "2023-05-01"
+    "start_date": "2023-05-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman of the Board",
     "organisation": "Hypersonix Launch Systems",
     "category": "Defence & Military and Security",
     "sources": [
-      "https://www.hypersonix.com/resources/news/hypersonix-accelerates-company-growth-with-strategic-appointment-for-chair-of-the-board"
+      "https://www.hypersonix.com/resources/news/hypersonix-accelerates-company-growth-with-strategic-appointment-for-chair-of-the-board",
+      "https://www.businesswire.com/news/home/20240403838382/en/Hypersonix-Accelerates-Company-Growth-with-Strategic-Appointment-for-Chair-of-the-Board"
     ],
     "pollie_slug": "arthur-sinodinos",
-    "start_date": "2024-03-18"
+    "start_date": "2024-03-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Board of Directors",
@@ -5803,7 +5861,11 @@
       "https://www.ussc.edu.au/arthur-sinodinos"
     ],
     "pollie_slug": "arthur-sinodinos",
-    "start_date": "2025-07-01"
+    "start_date": "2025-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -5812,34 +5874,55 @@
     "sources": [
       "https://cancercarefoundation.org.au/our-board-and-executive-2/arthur-sinodinos/"
     ],
-    "pollie_slug": "arthur-sinodinos"
+    "pollie_slug": "arthur-sinodinos",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
     "organisation": "The Principals Funds Management",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.spaceconnectonline.com.au/industry/6950-former-australian-ambassador-arthur-sinodinos-appointed-as-board-chairman-with-hypersonix-launch-systems"
+      "https://www.spaceconnectonline.com.au/industry/6950-former-australian-ambassador-arthur-sinodinos-appointed-as-board-chairman-with-hypersonix-launch-systems",
+      "https://www.principalsfunds.com/our-team"
     ],
-    "pollie_slug": "arthur-sinodinos"
+    "pollie_slug": "arthur-sinodinos",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Special Adviser",
     "organisation": "Cove Capital LLC",
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://www.spaceconnectonline.com.au/industry/6950-former-australian-ambassador-arthur-sinodinos-appointed-as-board-chairman-with-hypersonix-launch-systems"
+      "https://www.spaceconnectonline.com.au/industry/6950-former-australian-ambassador-arthur-sinodinos-appointed-as-board-chairman-with-hypersonix-launch-systems",
+      "https://www.globenewswire.com/news-release/2025/04/17/3063293/0/en/Former-Australian-Ambassador-to-the-United-States-The-Hon-Arthur-Sinodinos-AO-Joins-Cove-Capital-as-Special-Advisor-to-Bolster-Strategic-Growth-in-its-global-Critical-Minerals-Oper.html"
     ],
-    "pollie_slug": "arthur-sinodinos"
+    "pollie_slug": "arthur-sinodinos",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2025-04-17"
   },
   {
     "role": "Co-Chair",
     "organisation": "AUKUS Forum",
     "category": "Defence & Military and Security",
     "sources": [
-      "https://www.hypersonix.com/resources/news/hypersonix-accelerates-company-growth-with-strategic-appointment-for-chair-of-the-board"
+      "https://www.hypersonix.com/resources/news/hypersonix-accelerates-company-growth-with-strategic-appointment-for-chair-of-the-board",
+      "https://aukusforum.com/aukus-forum-team"
     ],
-    "pollie_slug": "arthur-sinodinos"
+    "pollie_slug": "arthur-sinodinos",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2023-08-01"
   },
   {
     "role": "Permanent Representative to the United Nations",
