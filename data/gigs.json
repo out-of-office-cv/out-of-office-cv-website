@@ -6328,7 +6328,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Saïd Business School, University of Oxford",
+    "organisation": "Sa\u00efd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -7606,5 +7606,113 @@
     ],
     "pollie_slug": "bob-sercombe",
     "start_date": "2010"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Fishing Trade Association",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://afta.net.au/afta-chairs-report-september-2025/",
+      "https://www.crikey.com.au/2023/12/04/offshore-wind-farm-australian-fishing-trade-association/"
+    ],
+    "pollie_slug": "bob-baldwin",
+    "start_date": "2020"
+  },
+  {
+    "role": "Principal",
+    "organisation": "Outcomes & Strategies Group",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.facebook.com/bobbaldwinmp/",
+      "https://www.linkedin.com/in/the-hon-bob-baldwin-17b6082a/"
+    ],
+    "pollie_slug": "bob-baldwin",
+    "start_date": "2016"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Economic Development Queensland",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.edq.qld.gov.au/about/executive-team/julian-simmonds/",
+      "https://www.insidestategovernment.com.au/simmonds-to-lead-economic-development-queensland/"
+    ],
+    "pollie_slug": "julian-simmonds",
+    "start_date": "2025-04"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "South Bank Corporation",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.edq.qld.gov.au/about/executive-team/julian-simmonds/",
+      "https://au.linkedin.com/in/juliansimmondsmp"
+    ],
+    "pollie_slug": "julian-simmonds",
+    "start_date": "2024-01",
+    "end_date": "2025"
+  },
+  {
+    "role": "Founder and Spokesperson",
+    "organisation": "Australians for Prosperity",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Julian_Simmonds"
+    ],
+    "pollie_slug": "julian-simmonds",
+    "start_date": "2024-05"
+  },
+  {
+    "role": "Australian High Commissioner to the United Kingdom",
+    "organisation": "Department of Foreign Affairs and Trade",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Richard_Alston_(politician)"
+    ],
+    "pollie_slug": "richard-alston",
+    "start_date": "2005-02",
+    "end_date": "2008-02"
+  },
+  {
+    "role": "Federal President",
+    "organisation": "Liberal Party of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://theconversation.com/former-howard-minister-wins-liberal-presidency-28571",
+      "https://en.wikipedia.org/wiki/Richard_Alston_(politician)"
+    ],
+    "pollie_slug": "richard-alston",
+    "start_date": "2014",
+    "end_date": "2017"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "National Gallery of Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.mitchfifield.com/2019/04/national-gallery-of-australia-council-appointments/"
+    ],
+    "pollie_slug": "richard-alston",
+    "start_date": "2019-04",
+    "end_date": "2022"
+  },
+  {
+    "role": "Adjunct Professor of Information Technology",
+    "organisation": "Bond University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Richard_Alston_(politician)"
+    ],
+    "pollie_slug": "richard-alston",
+    "start_date": "2004"
+  },
+  {
+    "role": "Director",
+    "organisation": "CPA Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Richard_Alston_(politician)"
+    ],
+    "pollie_slug": "richard-alston"
   }
 ]
