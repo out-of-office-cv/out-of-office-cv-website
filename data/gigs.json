@@ -8594,5 +8594,105 @@
     ],
     "pollie_slug": "paul-filing",
     "start_date": "2018"
+  },
+  {
+    "role": "Consul-General and Senior Trade and Investment Commissioner, San Francisco",
+    "organisation": "Austrade",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.austrade.gov.au/en/about-austrade/our-team/our-trade-commissioners/chris-ketter",
+      "https://en.wikipedia.org/wiki/Chris_Ketter"
+    ],
+    "pollie_slug": "chris-ketter",
+    "start_date": "2023-07"
+  },
+  {
+    "role": "Alternate Director",
+    "organisation": "REST Industry Superannuation",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.austrade.gov.au/en/about-austrade/our-team/our-trade-commissioners/chris-ketter"
+    ],
+    "pollie_slug": "chris-ketter"
+  },
+  {
+    "role": "Partner",
+    "organisation": "Government Relations Australia Advisory",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.australianpolioregister.org.au/john-tierney/"
+    ],
+    "pollie_slug": "john-tierney",
+    "start_date": "2005",
+    "end_date": "2011"
+  },
+  {
+    "role": "Special Counsel",
+    "organisation": "1st State Government and Corporate Relations",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.australianpolioregister.org.au/john-tierney/"
+    ],
+    "pollie_slug": "john-tierney",
+    "start_date": "2011"
+  },
+  {
+    "role": "National Patron and President",
+    "organisation": "Australian Polio Register",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.australianpolioregister.org.au/john-tierney/"
+    ],
+    "pollie_slug": "john-tierney"
+  },
+  {
+    "role": "Patron",
+    "organisation": "St Philips Christian College",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.australianpolioregister.org.au/john-tierney/"
+    ],
+    "pollie_slug": "john-tierney"
+  },
+  {
+    "role": "Honorary Fellow, Politics and International Relations",
+    "organisation": "Macquarie University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.mq.edu.au/about_us/faculties_and_departments/faculty_of_arts/mhpir/staff/staff-politics_and_international_relations/dr_stephen_mutch/",
+      "https://en.wikipedia.org/wiki/Stephen_Mutch",
+      "https://www.linkedin.com/in/stephen-mutch-aa340939/"
+    ],
+    "pollie_slug": "stephen-mutch",
+    "start_date": "1998"
+  },
+  {
+    "role": "Editorial Board Member",
+    "organisation": "International Journal of Cultic Studies",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stephen_Mutch"
+    ],
+    "pollie_slug": "stephen-mutch"
+  },
+  {
+    "role": "Executive Assistant",
+    "organisation": "Logan City Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brenda_Gibbs",
+      "https://au.linkedin.com/in/brenda-gibbs-2b883174"
+    ],
+    "pollie_slug": "brenda-gibbs"
+  },
+  {
+    "role": "Director",
+    "organisation": "Real Republic",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ted_Mack_(politician)"
+    ],
+    "pollie_slug": "ted-mack",
+    "start_date": "1999"
   }
 ]
