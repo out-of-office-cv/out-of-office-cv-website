@@ -1628,17 +1628,26 @@
     ],
     "pollie_slug": "andrew-robb",
     "start_date": "2016-07-01",
-    "end_date": "2018-12-31"
+    "end_date": "2018-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
     "organisation": "Ten Network Holdings",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://www.mediaweek.com.au/andrew-lancaster-andrew-robb-join-ten-boar/"
+      "https://www.mediaweek.com.au/andrew-lancaster-andrew-robb-join-ten-boar/",
+      "https://announcements.asx.com.au/asxpdf/20160725/pdf/438sbykq37c4s6.pdf"
     ],
     "pollie_slug": "andrew-robb",
-    "start_date": "2016-07-25"
+    "start_date": "2016-07-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
@@ -1648,26 +1657,40 @@
       "https://asialinkbusiness.com.au/news-media/andrew-robb-ao-appointed-chairman-of-asialink-business"
     ],
     "pollie_slug": "andrew-robb",
-    "start_date": "2017-01-01"
+    "start_date": "2017-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
     "organisation": "S. Kidman & Co",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
-      "https://www.tamboran.com/team/honorable-andrew-robb-ao/"
+      "https://www.tamboran.com/team/honorable-andrew-robb-ao/",
+      "https://www.beefcentral.com/trade/kidman-steers-early-course-towards-branded-beef-program-development/"
     ],
-    "pollie_slug": "andrew-robb"
+    "pollie_slug": "andrew-robb",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
     "organisation": "Mind Medicine Australia",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://mindmedicineaustralia.org.au/board/"
+      "https://mindmedicineaustralia.org.au/board/",
+      "https://www.andrewrobb.com.au/news-2/2019/11/26/andrew-robb-tunes-in-to-curative-power-of-psychedelics"
     ],
     "pollie_slug": "andrew-robb",
-    "start_date": "2019-11-01"
+    "start_date": "2019-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
@@ -1676,7 +1699,11 @@
     "sources": [
       "https://therobbgroup.com.au/our-team/"
     ],
-    "pollie_slug": "andrew-robb"
+    "pollie_slug": "andrew-robb",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
@@ -1685,17 +1712,26 @@
     "sources": [
       "https://www.andrewrobb.com.au/biography-1"
     ],
-    "pollie_slug": "andrew-robb"
+    "pollie_slug": "andrew-robb",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
     "organisation": "Tamboran Resources",
     "category": "Energy (Renewables & Traditional)",
     "sources": [
-      "https://www.tamboran.com/team/honorable-andrew-robb-ao/"
+      "https://www.tamboran.com/team/honorable-andrew-robb-ao/",
+      "https://www.proactiveinvestors.com.au/companies/news/1009204/tamboran-resources-strengthens-board-with-appointments-of-former-federal-minister-and-oil-gas-executive-1009204.html"
     ],
     "pollie_slug": "andrew-robb",
-    "start_date": "2023-04-16"
+    "start_date": "2023-04-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Independent Chairman",
@@ -1705,16 +1741,25 @@
       "https://www.integritysystems.com.au/about/news--events/news/2021/new-data-exchange-to-revolutionise-australian-agrifood-sector/"
     ],
     "pollie_slug": "andrew-robb",
-    "start_date": "2021-01-01"
+    "start_date": "2021-09-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
     "organisation": "CNSDose",
     "category": "Pharmaceutical & Biotechnology",
     "sources": [
-      "https://www.andrewrobb.com.au/biography-1"
+      "https://www.andrewrobb.com.au/biography-1",
+      "https://www.smartcompany.com.au/startupsmart/advice/startupsmart-funding/melbourne-startup-cnsdose-secures-1-million-and-brings-former-trade-minister-andrew-robb-onboard/"
     ],
-    "pollie_slug": "andrew-robb"
+    "pollie_slug": "andrew-robb",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -1724,7 +1769,11 @@
       "https://newenergyopportunities.com/former-australian-trade-minister-andrew-robb-ao-joins-united-h2-limited-board/"
     ],
     "pollie_slug": "andrew-robb",
-    "start_date": "2024-11-28"
+    "start_date": "2024-11-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Strategic Advisor",
@@ -1733,25 +1782,39 @@
     "sources": [
       "https://www.allcapsecurities.com.au/teams/the-hon-andrew-robb-ao"
     ],
-    "pollie_slug": "andrew-robb"
+    "pollie_slug": "andrew-robb",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
     "organisation": "Menzies Research Centre",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://www.andrewrobb.com.au/biography-1"
+      "https://www.andrewrobb.com.au/biography-1",
+      "https://en.wikipedia.org/wiki/Menzies_Research_Centre"
     ],
-    "pollie_slug": "andrew-robb"
+    "pollie_slug": "andrew-robb",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Strategic Advisor",
     "organisation": "Beef Innovations Australia",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
-      "https://www.andrewrobb.com.au/biography-1"
+      "https://www.andrewrobb.com.au/biography-1",
+      "https://en.wikipedia.org/wiki/Andrew_Robb"
     ],
-    "pollie_slug": "andrew-robb"
+    "pollie_slug": "andrew-robb",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Special Envoy for Human Rights",
@@ -6328,7 +6391,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Sa\u00efd Business School, University of Oxford",
+    "organisation": "Saïd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
