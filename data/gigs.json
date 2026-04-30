@@ -3291,19 +3291,27 @@
       "https://www.pmc.gov.au/sites/default/files/2023-12/cv-natasha-stott-despoja-ao.pdf"
     ],
     "pollie_slug": "natasha-stott-despoja",
-    "start_date": "2008"
+    "start_date": "2008",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
     "organisation": "Burnet Institute",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://burnet.edu.au/news/1328_un_appointment_for_natasha_stott_despoja",
-      "https://www.pmc.gov.au/sites/default/files/2023-12/cv-natasha-stott-despoja-ao.pdf"
+      "https://www.pmc.gov.au/sites/default/files/2023-12/cv-natasha-stott-despoja-ao.pdf",
+      "https://en.wikipedia.org/wiki/Natasha_Stott_Despoja"
     ],
     "pollie_slug": "natasha-stott-despoja",
     "start_date": "2008",
-    "end_date": "2013-12"
+    "end_date": "2013-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -3314,7 +3322,11 @@
     ],
     "pollie_slug": "natasha-stott-despoja",
     "start_date": "2008-08",
-    "end_date": "2013"
+    "end_date": "2013",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -3325,7 +3337,11 @@
     ],
     "pollie_slug": "natasha-stott-despoja",
     "start_date": "2009-09",
-    "end_date": "2013"
+    "end_date": "2013",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -3337,7 +3353,11 @@
     ],
     "pollie_slug": "natasha-stott-despoja",
     "start_date": "2010",
-    "end_date": "2013"
+    "end_date": "2013",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chair",
@@ -3349,7 +3369,11 @@
       "https://www.womenaustralia.info/leaders/biogs/WLE0705b.htm"
     ],
     "pollie_slug": "natasha-stott-despoja",
-    "end_date": "2013"
+    "end_date": "2013",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founding Chair",
@@ -3361,7 +3385,11 @@
     ],
     "pollie_slug": "natasha-stott-despoja",
     "start_date": "2013-07",
-    "end_date": "2021-07"
+    "end_date": "2021-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador for Women and Girls",
@@ -3373,7 +3401,11 @@
     ],
     "pollie_slug": "natasha-stott-despoja",
     "start_date": "2013-12",
-    "end_date": "2016"
+    "end_date": "2016",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Gender Advisory Council Member",
@@ -3385,7 +3417,11 @@
     ],
     "pollie_slug": "natasha-stott-despoja",
     "start_date": "2015",
-    "end_date": "2017"
+    "end_date": "2017",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Council Member",
@@ -3397,7 +3433,11 @@
     ],
     "pollie_slug": "natasha-stott-despoja",
     "start_date": "2015",
-    "end_date": "2017"
+    "end_date": "2017",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -3408,7 +3448,11 @@
       "https://theorg.com/org/the-australian-ballet/org-chart/natasha-stott-despoja"
     ],
     "pollie_slug": "natasha-stott-despoja",
-    "start_date": "2020"
+    "start_date": "2020",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Independent Expert Member",
@@ -3419,7 +3463,11 @@
       "https://www.pmc.gov.au/office-women/international-forums/committee-elimination-discrimination-against-women/cedaw"
     ],
     "pollie_slug": "natasha-stott-despoja",
-    "start_date": "2021-01-01"
+    "start_date": "2021-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Professor in the Practice of Politics",
@@ -3430,7 +3478,11 @@
       "https://www.anu.edu.au/about/governance/committees/ms-natasha-stott-despoja-ao"
     ],
     "pollie_slug": "natasha-stott-despoja",
-    "start_date": "2022-09-05"
+    "start_date": "2022-09-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Royal Commissioner into Domestic, Family and Sexual Violence",
@@ -3440,7 +3492,11 @@
       "https://www.royalcommissiondfsv.sa.gov.au/news/natasha-stott-despoja-ao-to-lead-royal-commission-into-domestic,-family-and-sexual-violence"
     ],
     "pollie_slug": "natasha-stott-despoja",
-    "start_date": "2024-07-01"
+    "start_date": "2024-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Managing Director",
