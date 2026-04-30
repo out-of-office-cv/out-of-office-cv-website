@@ -8267,5 +8267,113 @@
     "pollie_slug": "denis-killen",
     "start_date": "1998-02-02",
     "end_date": "1998-02-13"
+  },
+  {
+    "role": "Senior Managing Director",
+    "organisation": "ANZ Banking Group",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.anz.com.au/newsroom/media/2018/02/the-hon--warwick-smith-am-to-retire-from-anz-role/",
+      "https://www.aald.org/advisory-board/warwick-smith/"
+    ],
+    "pollie_slug": "warwick-smith",
+    "end_date": "2018-02-28"
+  },
+  {
+    "role": "Executive Director",
+    "organisation": "Macquarie Bank",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Warwick_Smith_(politician)",
+      "https://www.aald.org/advisory-board/warwick-smith/"
+    ],
+    "pollie_slug": "warwick-smith"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Australian Sports Commission",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Warwick_Smith_(politician)",
+      "https://www.aald.org/advisory-board/warwick-smith/"
+    ],
+    "pollie_slug": "warwick-smith",
+    "start_date": "2010-07-01",
+    "end_date": "2012-04-30"
+  },
+  {
+    "role": "Chair of the Council",
+    "organisation": "National Museum of Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.nma.gov.au/about/media/media-releases-listing-by-year/2021/new-council-chair",
+      "https://www.aald.org/advisory-board/warwick-smith/"
+    ],
+    "pollie_slug": "warwick-smith",
+    "start_date": "2021-01-01"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Australia-China Council",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Warwick_Smith_(politician)",
+      "https://www.aald.org/advisory-board/warwick-smith/"
+    ],
+    "pollie_slug": "warwick-smith",
+    "end_date": "2019-12-31"
+  },
+  {
+    "role": "Inaugural Chair",
+    "organisation": "National Foundation for Australia-China Relations",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Warwick_Smith_(politician)",
+      "https://www.aald.org/advisory-board/warwick-smith/"
+    ],
+    "pollie_slug": "warwick-smith",
+    "start_date": "2020-01-01"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "E*TRADE Limited",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.aald.org/advisory-board/warwick-smith/"
+    ],
+    "pollie_slug": "warwick-smith"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Clifford Craig Medical Research Trust",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Ferguson_(Australian_politician)"
+    ],
+    "pollie_slug": "michael-ferguson",
+    "start_date": "2007-12-01",
+    "end_date": "2010-03-20"
+  },
+  {
+    "role": "Member for Bass",
+    "organisation": "Parliament of Tasmania",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/michael-ferguson",
+      "https://en.wikipedia.org/wiki/Michael_Ferguson_(Australian_politician)"
+    ],
+    "pollie_slug": "michael-ferguson",
+    "start_date": "2010-03-20"
+  },
+  {
+    "role": "Deputy Premier of Tasmania",
+    "organisation": "Government of Tasmania",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Ferguson_(Australian_politician)"
+    ],
+    "pollie_slug": "michael-ferguson",
+    "start_date": "2022-04-08",
+    "end_date": "2024-10-14"
   }
 ]
