@@ -8103,5 +8103,118 @@
     "pollie_slug": "alasdair-webster",
     "start_date": "1998",
     "end_date": "1998"
+  },
+  {
+    "role": "Committee Member",
+    "organisation": "Melbourne Cricket Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://mcc.org.au/whats-on/latest-news/2022/october/vale-hon-anthony-tony-street",
+      "https://en.wikipedia.org/wiki/Tony_Street"
+    ],
+    "pollie_slug": "anthony-street",
+    "start_date": "1984"
+  },
+  {
+    "role": "Chair",
+    "organisation": "COAG Independent Energy Review Panel",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Warwick_Parer",
+      "https://www.openaustralia.org.au/debates/?id=2014-03-19.173.2"
+    ],
+    "pollie_slug": "warwick-parer",
+    "start_date": "2001",
+    "end_date": "2002"
+  },
+  {
+    "role": "Chair, Energy and Transport Advisory Sector",
+    "organisation": "CSIRO",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.openaustralia.org.au/debates/?id=2014-03-19.173.2"
+    ],
+    "pollie_slug": "warwick-parer",
+    "start_date": "2002",
+    "end_date": "2004"
+  },
+  {
+    "role": "President",
+    "organisation": "Queensland Liberal Party",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Warwick_Parer",
+      "https://www.openaustralia.org.au/debates/?id=2014-03-19.173.2"
+    ],
+    "pollie_slug": "warwick-parer",
+    "start_date": "2006",
+    "end_date": "2008-02"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Royal Brisbane and Women's Hospital Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Warwick_Parer",
+      "https://www.openaustralia.org.au/debates/?id=2014-03-19.173.2"
+    ],
+    "pollie_slug": "warwick-parer",
+    "start_date": "2010",
+    "end_date": "2014-03-14"
+  },
+  {
+    "role": "Chairman of the Board",
+    "organisation": "Stanwell Corporation",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://southburnett.com.au/news2/2014/03/15/stanwell-chairman-77-dies/",
+      "https://en.wikipedia.org/wiki/Warwick_Parer"
+    ],
+    "pollie_slug": "warwick-parer",
+    "start_date": "2012-05",
+    "end_date": "2014-03-14"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Tasmanian Pacing Club",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Devereux_(politician)",
+      "https://biography.senate.gov.au/devereux-john-robert/"
+    ],
+    "pollie_slug": "john-devereux",
+    "start_date": "1996"
+  },
+  {
+    "role": "Managing Director",
+    "organisation": "Tasmanian Agricultural Renewal Research Company",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://biography.senate.gov.au/devereux-john-robert/"
+    ],
+    "pollie_slug": "john-devereux"
+  },
+  {
+    "role": "Barrister",
+    "organisation": "Brisbane Bar",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/James_Killen",
+      "https://oa.anu.edu.au/obituary/killen-sir-denis-james-jim-562"
+    ],
+    "pollie_slug": "denis-killen",
+    "start_date": "1983-08"
+  },
+  {
+    "role": "Delegate (ACM Queensland)",
+    "organisation": "Australian Constitutional Convention 1998",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/James_Killen",
+      "https://norepublic.com.au/the-magnificent-jim-killen-1925-2007/"
+    ],
+    "pollie_slug": "denis-killen",
+    "start_date": "1998-02-02",
+    "end_date": "1998-02-13"
   }
 ]
