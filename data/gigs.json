@@ -2058,62 +2058,96 @@
     "organisation": "Queensland Resources Council",
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://www.miningweekly.com/article/former-minister-ian-macfarlane-to-head-up-qrc-2016-09-26"
+      "https://www.miningweekly.com/article/former-minister-ian-macfarlane-to-head-up-qrc-2016-09-26",
+      "https://en.wikipedia.org/wiki/Ian_Macfarlane_(politician)",
+      "https://southburnett.com.au/news2/2023/12/05/macfarlane-retires-from-qrc/"
     ],
     "pollie_slug": "ian-macfarlane",
     "start_date": "2016-11-01",
-    "end_date": "2023-12-31"
+    "end_date": "2023-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Independent Non-Executive Director",
     "organisation": "Woodside Energy Group",
     "category": "Energy (Renewables & Traditional)",
     "sources": [
-      "https://www.sbs.com.au/news/article/woodside-signs-up-ex-minister-macfarlane/gxo665g1v"
+      "https://www.sbs.com.au/news/article/woodside-signs-up-ex-minister-macfarlane/gxo665g1v",
+      "https://www.tipranks.com/news/company-announcements/woodside-energy-discloses-final-director-interest-as-ian-macfarlane-departs-board"
     ],
     "pollie_slug": "ian-macfarlane",
-    "start_date": "2016-11-13"
+    "start_date": "2016-11-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "end_date": "2026-04-23"
   },
   {
     "role": "Chair",
     "organisation": "Innovative Manufacturing CRC",
     "category": "Science, Engineering & Technical Professions",
     "sources": [
-      "https://www.innovationaus.com/imcrc-signs-off-with-4-2-billion-legacy/"
+      "https://www.innovationaus.com/imcrc-signs-off-with-4-2-billion-legacy/",
+      "https://www.aumanufacturing.com.au/innovative-manufacturing-crc-closes-its-doors-after-seven-years"
     ],
     "pollie_slug": "ian-macfarlane",
     "start_date": "2016-05-01",
-    "end_date": "2023-02-28"
+    "end_date": "2023-02-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
     "organisation": "CSIRO",
     "category": "Science, Engineering & Technical Professions",
     "sources": [
-      "https://csirostaff.org.au/news/2021/11/26/new-csiro-chair-announced-as-ministerial-merry-go-round-spins-on/"
+      "https://csirostaff.org.au/news/2021/11/26/new-csiro-chair-announced-as-ministerial-merry-go-round-spins-on/",
+      "https://www.minister.industry.gov.au/ministers/price/media-releases/top-businesswoman-lead-australias-national-science-agency"
     ],
     "pollie_slug": "ian-macfarlane",
-    "start_date": "2021-12-01"
+    "start_date": "2021-10-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "METS Ignited Australia",
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://blog.metsignited.org/ian-macfarlane-joins-mets-ignited-board"
+      "https://blog.metsignited.org/ian-macfarlane-joins-mets-ignited-board",
+      "https://www.globalminingreview.com/finance-business/13072020/mets-ignited-announce-addition-to-board/"
     ],
     "pollie_slug": "ian-macfarlane",
-    "start_date": "2019-12-01"
+    "start_date": "2020-07-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Toowoomba & Surat Basin Enterprise",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.qrc.org.au/qrc-chief-announces-plans-to-retire-from-role-by-end-of-2023/"
+      "https://www.qrc.org.au/qrc-chief-announces-plans-to-retire-from-role-by-end-of-2023/",
+      "https://highlifemagazine.net/tsbe-directors/",
+      "https://www.tsbe.com.au/news/tsbe-annual-general-meeting-celebrating-achievements-and-welcoming-new-leadership"
     ],
     "pollie_slug": "ian-macfarlane",
-    "start_date": "2018-10-01"
+    "start_date": "2018-10-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "end_date": "2024-10-17"
   },
   {
     "role": "Senior Fellow",
@@ -4728,29 +4762,43 @@
       "https://wellcome.org/news/julia-gillard-appointed-next-chair-wellcome"
     ],
     "pollie_slug": "julia-gillard",
-    "start_date": "2021-04-01"
+    "start_date": "2021-04-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Global Partnership for Education",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.globalpartnership.org/content/biography-julia-gillard-gpe-board-chair"
+      "https://www.globalpartnership.org/content/biography-julia-gillard-gpe-board-chair",
+      "https://www.globalpartnership.org/news/message-outgoing-gpe-board-chair-julia-gillard"
     ],
     "pollie_slug": "julia-gillard",
     "start_date": "2014-02-01",
-    "end_date": "2021-09-15"
+    "end_date": "2021-09-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Beyond Blue",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://www.beyondblue.org.au/about/media/media-releases/beyond-blue-announces-new-chair"
+      "https://www.beyondblue.org.au/about/media/media-releases/beyond-blue-announces-new-chair",
+      "https://www.juliagillard.com.au/julia-gillard/statements/statement-beyond-blue-chair-resignation"
     ],
     "pollie_slug": "julia-gillard",
     "start_date": "2017-07-01",
-    "end_date": "2023-12-01"
+    "end_date": "2023-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Inaugural Chair",
@@ -4760,28 +4808,42 @@
       "https://www.kcl.ac.uk/people/julia-gillard"
     ],
     "pollie_slug": "julia-gillard",
-    "start_date": "2018-04-01"
+    "start_date": "2018-04-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Nonresident Distinguished Fellow",
     "organisation": "Brookings Institution",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.brookings.edu/people/julia-gillard/"
+      "https://www.brookings.edu/people/julia-gillard/",
+      "https://www.brookings.edu/news-releases/julia-gillard-former-prime-minister-of-australia-joins-brookings/"
     ],
     "pollie_slug": "julia-gillard",
-    "start_date": "2013-10-01"
+    "start_date": "2013-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Royal Commissioner",
     "organisation": "SA Royal Commission into Early Childhood Education and Care",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.premier.sa.gov.au/media-releases/news-archive/julia-gillard-leads-royal-commission-into-early-childhood-education-and-care"
+      "https://www.premier.sa.gov.au/media-releases/news-archive/julia-gillard-leads-royal-commission-into-early-childhood-education-and-care",
+      "https://www.royalcommissionecec.sa.gov.au/news/latest-news/interim-report-webinar-scheduled2"
     ],
     "pollie_slug": "julia-gillard",
     "start_date": "2022-10-01",
-    "end_date": "2023-08-27"
+    "end_date": "2023-08-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Partner",
@@ -5717,22 +5779,32 @@
     "organisation": "Monash University",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://en.wikipedia.org/wiki/Kay_Patterson_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Kay_Patterson_(Australian_politician)",
+      "https://humanrights.gov.au/about-us/our-people/previous-office-holders/former-age-discrimination-commissioner-hon-dr-kay-patterson-ao"
     ],
     "pollie_slug": "kay-patterson",
     "start_date": "2008-01-01",
-    "end_date": "2015-12-31"
+    "end_date": "2015-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Brockhoff Foundation",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://en.wikipedia.org/wiki/Kay_Patterson_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Kay_Patterson_(Australian_politician)",
+      "https://uploads.prod01.sydney.platformos.com/instances/470/assets/_assets/pdfs/JCKB10204%20Jack%20Brockhoff%20Foundation%20Annual%20Report%2020_21%20V5.pdf?updated=1644983254"
     ],
     "pollie_slug": "kay-patterson",
     "start_date": "2008-01-01",
-    "end_date": "2023-12-31"
+    "end_date": "2023-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -5743,18 +5815,28 @@
     ],
     "pollie_slug": "kay-patterson",
     "start_date": "2006-01-01",
-    "end_date": "2015-12-31"
+    "end_date": "2015-12-31",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Wikipedia and other sources confirm Patterson joined the Interplast Australia and New Zealand board in 2006, while she was still a serving Senator (she did not leave parliament until 2008-06-30). This is a pre-parliament/concurrent role, not a post-parliament gig, so it should not be tagged as post-parliamentary."
+    }
   },
   {
     "role": "Commissioner",
     "organisation": "National Mental Health Commission",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://en.wikipedia.org/wiki/Kay_Patterson_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Kay_Patterson_(Australian_politician)",
+      "https://humanrights.gov.au/about-us/our-people/previous-office-holders/former-age-discrimination-commissioner-hon-dr-kay-patterson-ao"
     ],
     "pollie_slug": "kay-patterson",
     "start_date": "2014-01-01",
-    "end_date": "2016-12-31"
+    "end_date": "2016-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Age Discrimination Commissioner",
@@ -5765,16 +5847,26 @@
     ],
     "pollie_slug": "kay-patterson",
     "start_date": "2016-07-28",
-    "end_date": "2023-07-28"
+    "end_date": "2023-07-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
     "organisation": "Elder Abuse Action Australia",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://eaaa.org.au/publication/eaaa-announces-its-inaugural-patron/"
+      "https://eaaa.org.au/publication/eaaa-announces-its-inaugural-patron/",
+      "https://eaaa.org.au/wp-content/uploads/2025/06/Patron-announcement.pdf"
     ],
-    "pollie_slug": "kay-patterson"
+    "pollie_slug": "kay-patterson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2025-06-01"
   },
   {
     "role": "General Manager, Australia",
