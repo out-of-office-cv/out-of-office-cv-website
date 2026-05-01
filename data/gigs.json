@@ -6895,7 +6895,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Saïd Business School, University of Oxford",
+    "organisation": "Sa\u00efd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -9541,5 +9541,109 @@
     "pollie_slug": "peter-fisher",
     "start_date": "1998",
     "end_date": "2009"
+  },
+  {
+    "role": "Ambassador and Permanent Representative to the United Nations",
+    "organisation": "Department of Foreign Affairs and Trade",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.re-group.com/leadership/the-hon-robert-hill/",
+      "https://alumni.uq.edu.au/story/5144/honourable-robert-hill-ac"
+    ],
+    "pollie_slug": "robert-hill",
+    "start_date": "2006",
+    "end_date": "2009"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Re.Group",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.re-group.com/leadership/the-hon-robert-hill/"
+    ],
+    "pollie_slug": "robert-hill",
+    "start_date": "2013"
+  },
+  {
+    "role": "Chancellor",
+    "organisation": "University of Adelaide",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.re-group.com/leadership/the-hon-robert-hill/",
+      "https://asbc.org.au/amo-team/robert-hill-2/"
+    ],
+    "pollie_slug": "robert-hill",
+    "start_date": "2010",
+    "end_date": "2014"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Low Carbon Australia (formerly Australian Carbon Trust)",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.re-group.com/leadership/the-hon-robert-hill/",
+      "https://asbc.org.au/amo-team/robert-hill-2/"
+    ],
+    "pollie_slug": "robert-hill",
+    "start_date": "2009",
+    "end_date": "2012"
+  },
+  {
+    "role": "Adjunct Professor in Sustainability",
+    "organisation": "United States Studies Centre, University of Sydney",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.re-group.com/leadership/the-hon-robert-hill/",
+      "https://alumni.uq.edu.au/story/5144/honourable-robert-hill-ac"
+    ],
+    "pollie_slug": "robert-hill"
+  },
+  {
+    "role": "Chairman of Counsellors",
+    "organisation": "Dragoman Global",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://dragomanglobal.com/robert-hill"
+    ],
+    "pollie_slug": "robert-hill"
+  },
+  {
+    "role": "National Employment Relations Director",
+    "organisation": "Australian Retailers Association",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Phil_Barresi"
+    ],
+    "pollie_slug": "phillip-barresi",
+    "start_date": "2008"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "National Housing Finance and Investment Corporation",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Phil_Barresi"
+    ],
+    "pollie_slug": "phillip-barresi",
+    "start_date": "2019"
+  },
+  {
+    "role": "Councillor",
+    "organisation": "Sutherland Shire Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Forshaw"
+    ],
+    "pollie_slug": "michael-forshaw",
+    "start_date": "2016-09"
+  },
+  {
+    "role": "Independent Chairman",
+    "organisation": "Chifley Financial Services",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://relationshipscience.com/person/michael-forshaw-180296446"
+    ],
+    "pollie_slug": "michael-forshaw"
   }
 ]
