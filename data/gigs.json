@@ -4491,11 +4491,17 @@
     "organisation": "Tourism and Transport Forum",
     "category": "Retail, Hospitality & Tourism",
     "sources": [
-      "https://ttf.org.au/conference/greenrevolution2023/speakers/hon-bruce-baird-am/"
+      "https://ttf.org.au/conference/greenrevolution2023/speakers/hon-bruce-baird-am/",
+      "https://en.wikipedia.org/wiki/Bruce_Baird",
+      "https://www.travelweekly.com.au/article/baird-back-in-chairmans-role-at-ttf-as-mcevoy-departs/"
     ],
     "pollie_slug": "bruce-baird",
     "start_date": "2008-01-01",
-    "end_date": "2014-01-01"
+    "end_date": "2014-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -4503,10 +4509,16 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.nationalapology.org.au/the-board/bruce-baird-am/",
-      "https://asylumseekerscentre.org.au/about/our-team/board-and-patrons/"
+      "https://asylumseekerscentre.org.au/about/our-team/board-and-patrons/",
+      "https://en.wikipedia.org/wiki/Bruce_Baird"
     ],
     "pollie_slug": "bruce-baird",
-    "start_date": "2008-01-01"
+    "start_date": "2008-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "end_date": "2014-01-01"
   },
   {
     "role": "Chair",
@@ -4516,36 +4528,57 @@
       "https://www.nhvr.gov.au/news/2018/09/24/ministerial-statement-new-leadership-to-drive-heavy-vehicle-regulator"
     ],
     "pollie_slug": "bruce-baird",
-    "end_date": "2018-10-01"
+    "end_date": "2018-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2012-01-01"
   },
   {
     "role": "Chairman",
     "organisation": "Business Events Sydney",
     "category": "Retail, Hospitality & Tourism",
     "sources": [
-      "https://www.spicenews.com.au/industry-news/business-tourism-news/besydney-appoints-bruce-baird-new-chair/"
+      "https://www.spicenews.com.au/industry-news/business-tourism-news/besydney-appoints-bruce-baird-new-chair/",
+      "https://www.businesseventssydney.com.au/about-us/board/the-honourable-bruce-baird-am/profilePopup"
     ],
     "pollie_slug": "bruce-baird",
-    "start_date": "2017-09-01"
+    "start_date": "2017-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Trustee",
     "organisation": "Sydney Opera House",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://ttf.org.au/conference/leadership2021/speakers/kenconway-2/"
+      "https://ttf.org.au/conference/leadership2021/speakers/kenconway-2/",
+      "https://en.wikipedia.org/wiki/Sydney_Opera_House_Trust"
     ],
-    "pollie_slug": "bruce-baird"
+    "pollie_slug": "bruce-baird",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
     "organisation": "Asylum Seekers Centre",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://asylumseekerscentre.org.au/about/our-team/board-and-patrons/"
+      "https://asylumseekerscentre.org.au/about/our-team/board-and-patrons/",
+      "https://asylumseekerscentre.org.au/bruce-baird-am-becomes-patron-of-asylum-seekers-centre/",
+      "https://en.wikipedia.org/wiki/Bruce_Baird"
     ],
     "pollie_slug": "bruce-baird",
-    "start_date": "2014-01-01"
+    "start_date": "2014-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Employer Director & Deputy Co-Chair",
@@ -6893,7 +6926,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Sa\u00efd Business School, University of Oxford",
+    "organisation": "Saïd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -9906,11 +9939,16 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://en.wikipedia.org/wiki/John_Olsen",
-      "https://www.ussc.edu.au/people/john-olsen"
+      "https://www.afc.com.au/club/board/johnolsen",
+      "https://americanaustralian.org.au/about-us/board-of-directors?id=16372"
     ],
     "pollie_slug": "john-olsen",
     "start_date": "2002-01-01",
-    "end_date": "2006-01-01"
+    "end_date": "2006-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Consul-General to New York",
@@ -9918,32 +9956,50 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://en.wikipedia.org/wiki/John_Olsen",
-      "https://www.ussc.edu.au/people/john-olsen"
+      "https://www.afc.com.au/club/board/johnolsen",
+      "https://americanaustralian.org.au/about-us/board-of-directors?id=16372"
     ],
     "pollie_slug": "john-olsen",
     "start_date": "2006-01-01",
-    "end_date": "2009-04-30"
+    "end_date": "2009-04-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "South Australian Football Commission",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://en.wikipedia.org/wiki/John_Olsen"
+      "https://en.wikipedia.org/wiki/John_Olsen",
+      "https://sanfl.com.au/league/news/sa-football-commission-names-incoming-chair/",
+      "https://sanfl.com.au/league/news/john-olsen-honoured-with-leagues-highest-accolade/"
     ],
     "pollie_slug": "john-olsen",
-    "start_date": "2010-01-01"
+    "start_date": "2010-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "end_date": "2020-09-01"
   },
   {
     "role": "President",
     "organisation": "South Australian National Football League",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://en.wikipedia.org/wiki/John_Olsen"
+      "https://en.wikipedia.org/wiki/John_Olsen",
+      "https://sanfl.com.au/league/news/john-olsen-honoured-with-leagues-highest-accolade/",
+      "https://www.afc.com.au/club/board/johnolsen"
     ],
     "pollie_slug": "john-olsen",
     "start_date": "2014-01-01",
-    "end_date": "2020-09-01"
+    "end_date": "2020-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Special Adviser",
@@ -9954,7 +10010,11 @@
       "https://en.wikipedia.org/wiki/John_Olsen"
     ],
     "pollie_slug": "john-olsen",
-    "start_date": "2014-04-29"
+    "start_date": "2014-04-29",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "State President",
@@ -9966,7 +10026,11 @@
     ],
     "pollie_slug": "john-olsen",
     "start_date": "2017-06-01",
-    "end_date": "2020-09-01"
+    "end_date": "2020-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Federal President",
@@ -9974,38 +10038,62 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://en.wikipedia.org/wiki/John_Olsen",
-      "https://www.liberal.org.au/party-people"
+      "https://www.liberal.org.au/party-people",
+      "https://www.liberal.org.au/2026/04/02/statement-from-the-federal-director"
     ],
     "pollie_slug": "john-olsen",
-    "start_date": "2020-08-01"
+    "start_date": "2020-08-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Adelaide Football Club",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://en.wikipedia.org/wiki/John_Olsen"
+      "https://en.wikipedia.org/wiki/John_Olsen",
+      "https://www.afc.com.au/club/board/johnolsen",
+      "https://www.afc.com.au/news/825506/crows-appoint-new-chairman"
     ],
     "pollie_slug": "john-olsen",
-    "start_date": "2020-10-13"
+    "start_date": "2020-10-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Australian American Association",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://en.wikipedia.org/wiki/John_Olsen"
+      "https://en.wikipedia.org/wiki/John_Olsen",
+      "https://americanaustralian.org.au/about-us/board-of-directors?id=16372",
+      "https://www.afc.com.au/club/board/johnolsen"
     ],
-    "pollie_slug": "john-olsen"
+    "pollie_slug": "john-olsen",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "United States Studies Centre",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.ussc.edu.au/people/john-olsen",
-      "https://en.wikipedia.org/wiki/John_Olsen"
+      "https://en.wikipedia.org/wiki/John_Olsen",
+      "https://www.afc.com.au/club/board/johnolsen",
+      "https://www.ussc.edu.au/media-release-kim-beazley-and-leila-smith-join-united-states-studies-centre-board"
     ],
-    "pollie_slug": "john-olsen"
+    "pollie_slug": "john-olsen",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "USSC URL returns 404; replaced with working Adelaide FC board bio confirming the directorship. Olsen was an outgoing USSC board member as of July 2023."
+    },
+    "end_date": "2023-07-01"
   }
 ]
