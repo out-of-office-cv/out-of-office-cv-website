@@ -4085,11 +4085,17 @@
     "organisation": "University of Melbourne",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.mup.com.au/authors/david-kemp"
+      "https://www.mup.com.au/authors/david-kemp",
+      "https://www.menziesrc.org/rmi-directors"
     ],
     "pollie_slug": "david-kemp",
     "start_date": "2005-01-01",
-    "end_date": "2010-12-31"
+    "end_date": "2010-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Department of Education biographies page and Melbourne University Publishing as Professor and Vice-Chancellor's Fellow at University of Melbourne 2005-2010. Multiple authoritative sources match this specific former Liberal MP for Goldstein."
+    }
   },
   {
     "role": "President",
@@ -4101,59 +4107,97 @@
     ],
     "pollie_slug": "david-kemp",
     "start_date": "2007-01-01",
-    "end_date": "2011-12-31"
+    "end_date": "2011-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Centre for Independent Studies (Consilium) and Melbourne University Publishing biography. Served as President of the Liberal Party of Australia (Victorian Division) 2007-2011."
+    }
   },
   {
     "role": "Foundation Board Member",
     "organisation": "Grattan Institute",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.education.gov.au/biographies-reviewers"
+      "https://www.education.gov.au/biographies-reviewers",
+      "https://grattan.edu.au/news/a-history-of-the-institute/",
+      "https://grattan.edu.au/wp-content/uploads/2019/02/Grattan-Institute-Annual-Report-2018.pdf"
     ],
     "pollie_slug": "david-kemp",
     "start_date": "2008-01-01",
-    "end_date": "2018-11-27"
+    "end_date": "2018-11-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as foundation board member by Grattan Institute history page, which describes Kemp's role in opening discussions with the Howard government during the Institute's establishment. Listed as board member in Grattan Institute Annual Reports 2017 and 2018. Grattan Institute was founded in 2008."
+    }
   },
   {
     "role": "Chairman of Council",
     "organisation": "Scotch College Melbourne",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.scotch.vic.edu.au/greatscot/2016SepGs/chairman.htm"
+      "https://www.scotch.vic.edu.au/greatscot/2016SepGs/chairman.htm",
+      "https://en.wikipedia.org/wiki/David_Kemp_(politician)",
+      "https://www.scotch.vic.edu.au/scotch-news/new-chairman-of-council-appointed.aspx"
     ],
     "pollie_slug": "david-kemp",
-    "start_date": "2012-01-01"
+    "start_date": "2012-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia and Scotch College's own publications. Became Chairman of Council in 2012 and served approximately 8 years before retiring."
+    }
   },
   {
     "role": "Chair",
     "organisation": "Museum of Australian Democracy",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "http://static.moadoph.gov.au/ophgovau/media/docs/corporate/1718annualreport/MoAD_AR1718_Acc_01e.html"
+      "https://www.moadoph.gov.au/sites/default/files/2023-01/MoAD-Old-Parliament-House-Annual-Report-2016-17.pdf",
+      "https://www.moadoph.gov.au/sites/default/files/2023-01/MoAD-Old-Parliament-House-Annual-Report-2019-20.pdf"
     ],
     "pollie_slug": "david-kemp",
     "start_date": "2016-01-01",
-    "end_date": "2019-12-31"
+    "end_date": "2019-12-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as inaugural Chair of the Board of Old Parliament House (which oversees the Museum of Australian Democracy) from 2016. Departed December 2019, with Bernard Wright AO acting as Chair from 9 December 2019. Confirmed in MoAD/Old Parliament House Annual Reports."
+    }
   },
   {
     "role": "Chair",
     "organisation": "Australian Heritage Council",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://joshfrydenberg.com.au/latest-news/reappointments-to-australian-heritage-council/"
+      "https://joshfrydenberg.com.au/latest-news/reappointments-to-australian-heritage-council/",
+      "https://www.architectureanddesign.com.au/editorial/people/ted-baillieu-australian-heritage-council"
     ],
     "pollie_slug": "david-kemp",
     "start_date": "2016-01-01",
-    "end_date": "2021-12-31"
+    "end_date": "2021-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Chair of the Australian Heritage Council. Reappointed for second term in 2018 (announced by Josh Frydenberg). Second term expired and Ted Baillieu succeeded him."
+    }
   },
   {
     "role": "Deputy Chair",
     "organisation": "Robert Menzies Institute",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.robertmenziesinstitute.org.au/news/menzies-research-centre-and-the-university-of-melbourne-jointly-establish-the-robert-menzies-institute/"
+      "https://www.robertmenziesinstitute.org.au/news/menzies-research-centre-and-the-university-of-melbourne-jointly-establish-the-robert-menzies-institute/",
+      "https://www.robertmenziesinstitute.org.au/afternoon-light-podcast/david-kemp-and-nick-cater",
+      "https://www.menziesrc.org/rmi-directors"
     ],
-    "pollie_slug": "david-kemp"
+    "pollie_slug": "david-kemp",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Deputy Chair of the Robert Menzies Institute by the Institute's own publications, which describe an exhibition co-curated by 'the Institute's Deputy Chair Dr David Kemp'. Also confirmed as a director on the RMI directors page."
+    }
   },
   {
     "role": "Patron",
@@ -8454,7 +8498,12 @@
       "https://en.wikipedia.org/wiki/Christian_Zahra"
     ],
     "pollie_slug": "christian-zahra",
-    "start_date": "2017"
+    "start_date": "2017",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms 'Since 2017, Zahra has been Principal at Impact Partners Australia, a specialist policy and strategy consulting firm.' Multiple corroborating sources including Impact Partners Australia website and his LinkedIn profile."
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -8462,11 +8511,16 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://en.wikipedia.org/wiki/Christian_Zahra",
-      "https://wunan.org.au/new-ceo-for-wunan-2/"
+      "https://wunan.org.au/category/blog-foundation/"
     ],
     "pollie_slug": "christian-zahra",
     "start_date": "2015-01",
-    "end_date": "2017-01"
+    "end_date": "2017-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms 'From January 2015 to January 2017 he was Chief Executive Officer of Wunan Foundation'. The wunan.org.au/new-ceo-for-wunan-2/ source returns 404 and has been removed; the announcement still exists on the wunan.org.au blog (category/blog-foundation/) confirming Wunan Chairman Ian Trust announced the appointment."
+    }
   },
   {
     "role": "Director, Strategy Group",
@@ -8475,18 +8529,29 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Christian_Zahra"
     ],
-    "pollie_slug": "christian-zahra"
+    "pollie_slug": "christian-zahra",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms 'a Director in the Strategy Group at KPMG Australia'. The Wunan announcement (2015) describes him as 'until recently a Director of KPMG's Strategy Group', confirming the role preceded his 2015 Wunan appointment, well after he left parliament in October 2004."
+    }
   },
   {
     "role": "Executive Director",
     "organisation": "National Catholic Education Commission",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://en.wikipedia.org/wiki/Christian_Zahra"
+      "https://en.wikipedia.org/wiki/Christian_Zahra",
+      "https://therecord.com.au/news/national/new-director-named-for-national-catholic-education-commission/"
     ],
     "pollie_slug": "christian-zahra",
     "start_date": "2017",
-    "end_date": "2018"
+    "end_date": "2018",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms 'Between 2017 and 2018, he was executive director of the National Catholic Education Commission'. Corroborated by The Record (May 2017 announcement by Archbishop Costelloe) and Education Matters Magazine (resignation 18 January 2018)."
+    }
   },
   {
     "role": "Chair",
@@ -8496,7 +8561,12 @@
       "https://en.wikipedia.org/wiki/Christian_Zahra"
     ],
     "pollie_slug": "christian-zahra",
-    "start_date": "2021"
+    "start_date": "2021",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and the Regional Australia Institute confirm Zahra has been Chair of RAI since 2021, having been a Founding Director since 2011."
+    }
   },
   {
     "role": "Independent Non-Executive Director",
@@ -8507,7 +8577,12 @@
     ],
     "pollie_slug": "christian-zahra",
     "start_date": "2018",
-    "end_date": "2023"
+    "end_date": "2023",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms 'In 2018 he rejoined the Board of Waardi Limited, a traditional owner economic development organisation based in Broome, Western Australia, as an Independent Non-Executive Director', serving until 2023."
+    }
   },
   {
     "role": "Director",
@@ -8517,7 +8592,12 @@
       "https://en.wikipedia.org/wiki/Christian_Zahra"
     ],
     "pollie_slug": "christian-zahra",
-    "start_date": "2004"
+    "start_date": "2004",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms 'Since 2004, Zahra has served as a Director of the Victorian Energy Networks Corporation'. The role commenced after he left parliament in October 2004, also confirmed by the RAI bio describing him as 'a Non-Executive Director of VENCorp (precursor to the Australian Energy Market Operator)'."
+    }
   },
   {
     "role": "President",
