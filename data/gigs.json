@@ -8993,5 +8993,116 @@
       "https://en.wikipedia.org/wiki/Doug_Everingham"
     ],
     "pollie_slug": "douglas-everingham"
+  },
+  {
+    "role": "Executive Director",
+    "organisation": "Australian Institute for Public Policy",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Hyde_(Australian_federal_politician)"
+    ],
+    "pollie_slug": "john-hyde",
+    "start_date": "1983-01-01"
+  },
+  {
+    "role": "Executive Director",
+    "organisation": "Institute of Public Affairs",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Hyde_(Australian_federal_politician)",
+      "https://ipa.org.au/author/johnhyde"
+    ],
+    "pollie_slug": "john-hyde",
+    "start_date": "1991-01-01",
+    "end_date": "1995-12-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "Mannkal Economic Education Foundation",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.mannwest.com/john-hyde-awarded-the-medal-of-the-order-of-australia/"
+    ],
+    "pollie_slug": "john-hyde",
+    "start_date": "1997-01-01",
+    "end_date": "2018-12-31"
+  },
+  {
+    "role": "Emeritus Fellow",
+    "organisation": "Institute of Public Affairs",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://ipa.org.au/author/johnhyde"
+    ],
+    "pollie_slug": "john-hyde"
+  },
+  {
+    "role": "Executive Board Member",
+    "organisation": "European Bank for Reconstruction and Development",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://biography.senate.gov.au/short-james-robert/",
+      "https://en.wikipedia.org/wiki/Jim_Short_(politician)"
+    ],
+    "pollie_slug": "jim-short",
+    "start_date": "1997-05-01",
+    "end_date": "2000-05-01"
+  },
+  {
+    "role": "Special Envoy for Cyprus",
+    "organisation": "Australian Department of Foreign Affairs and Trade",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://biography.senate.gov.au/short-james-robert/",
+      "https://en.wikipedia.org/wiki/Jim_Short_(politician)"
+    ],
+    "pollie_slug": "jim-short",
+    "start_date": "2000-12-01",
+    "end_date": "2007-12-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "ACIL Tasman",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://biography.senate.gov.au/short-james-robert/",
+      "https://www.maynereport.com/articles/2009/11/23-1615-6931.html"
+    ],
+    "pollie_slug": "jim-short",
+    "start_date": "2002-01-01",
+    "end_date": "2003-12-31"
+  },
+  {
+    "role": "Executive Director",
+    "organisation": "Australia-China Business Council (Victorian Branch)",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://biography.senate.gov.au/short-james-robert/",
+      "https://www.maynereport.com/articles/2009/11/23-1615-6931.html"
+    ],
+    "pollie_slug": "jim-short",
+    "start_date": "2000-01-01",
+    "end_date": "2009-11-01"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Iatia Ltd",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://biography.senate.gov.au/short-james-robert/"
+    ],
+    "pollie_slug": "jim-short"
+  },
+  {
+    "role": "Non-executive Director",
+    "organisation": "Hillgrove Resources",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Quirke_(politician)",
+      "https://biography.senate.gov.au/quirke-john-andrew/"
+    ],
+    "pollie_slug": "john-quirke",
+    "start_date": "2005-01-01",
+    "end_date": "2013-12-31"
   }
 ]
