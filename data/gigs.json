@@ -5886,68 +5886,105 @@
     "organisation": "Responsible Wagering Australia",
     "category": "Gambling, Gaming and Racing",
     "sources": [
-      "https://michaelwest.com.au/stephen-conroy/"
+      "https://michaelwest.com.au/stephen-conroy/",
+      "https://chellwoodadvisory.com.au/the-hon-stephen-conroy/"
     ],
     "pollie_slug": "stephen-conroy",
     "start_date": "2016-12-01",
-    "end_date": "2019-01-01"
+    "end_date": "2019-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founder",
     "organisation": "Chellwood Advisory",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://chellwoodadvisory.com.au/the-hon-stephen-conroy/"
+      "https://chellwoodadvisory.com.au/the-hon-stephen-conroy/",
+      "https://chellwoodadvisory.com.au/about-chelwood/"
     ],
     "pollie_slug": "stephen-conroy",
-    "start_date": "2016-01-01"
+    "start_date": "2016-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair of Advisory Board",
     "organisation": "TG Public Affairs",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://michaelwest.com.au/stephen-conroy/"
+      "https://michaelwest.com.au/stephen-conroy/",
+      "https://www.tgpublic.com.au/people-list/hon-stephen-conroy"
     ],
     "pollie_slug": "stephen-conroy",
-    "start_date": "2019-01-01"
+    "start_date": "2019-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
     "organisation": "Sargon",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://itwire.com/it-people-news/people-moves/86869-former-senator-stephen-conroy-joins-board-of-sargon.html"
+      "https://itwire.com/it-people-news/people-moves/86869-former-senator-stephen-conroy-joins-board-of-sargon.html",
+      "https://www.cio.com/article/201453/stephen-conroy-joins-board-of-blockchain-startup.html"
     ],
-    "pollie_slug": "stephen-conroy"
+    "pollie_slug": "stephen-conroy",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2019-04-30"
   },
   {
     "role": "Executive Chair",
     "organisation": "Australian Professional Leagues",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://aleagues.com.au/news/apl-board-announces-stephen-conroy-as-executive-chair/"
+      "https://aleagues.com.au/news/apl-board-announces-stephen-conroy-as-executive-chair/",
+      "https://ministryofsport.com/stephen-conroy-named-executive-chair-of-apl-to-lead-final-phase-of-transformation/"
     ],
     "pollie_slug": "stephen-conroy",
-    "start_date": "2023-09-01"
+    "start_date": "2025-02-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Council Member",
     "organisation": "Australian Strategic Policy Institute",
     "category": "Defence & Military and Security",
     "sources": [
-      "https://chellwoodadvisory.com.au/the-hon-stephen-conroy/"
+      "https://chellwoodadvisory.com.au/the-hon-stephen-conroy/",
+      "https://www.aspi.org.au/bio/stephen-conroy/"
     ],
-    "pollie_slug": "stephen-conroy"
+    "pollie_slug": "stephen-conroy",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Political Commentator",
     "organisation": "Sky News Australia",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://chellwoodadvisory.com.au/the-hon-stephen-conroy/"
+      "https://chellwoodadvisory.com.au/the-hon-stephen-conroy/",
+      "https://mumbrella.com.au/sky-news-appoints-stephen-conroy-political-reporter-433528"
     ],
-    "pollie_slug": "stephen-conroy"
+    "pollie_slug": "stephen-conroy",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2017-03-01"
   },
   {
     "role": "Ambassador to the United States",
@@ -7892,22 +7929,33 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://en.wikipedia.org/wiki/Brett_Mason",
-      "https://www.aph.gov.au/senator_mason"
+      "https://www.aph.gov.au/senator_mason",
+      "https://www.canberratimes.com.au/story/6068769/former-liberal-senator-brett-mason-named-as-australias-ambassador-to-the-netherlands/"
     ],
     "pollie_slug": "brett-mason",
     "start_date": "2015-09-02",
-    "end_date": "2018-08-31"
+    "end_date": "2018-08-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Permanent Representative to the Organisation for the Prohibition of Chemical Weapons",
     "organisation": "Australian Government",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Brett_Mason"
+      "https://en.wikipedia.org/wiki/Brett_Mason",
+      "https://www.opcw.org/sites/default/files/documents/EC/87/en/Australia__Statement_EC-87.pdf",
+      "https://www.booksandpublishing.com.au/articles/2018/06/27/110193/mason-appointed-chair-of-nla/"
     ],
     "pollie_slug": "brett-mason",
     "start_date": "2015-09-02",
-    "end_date": "2018-08-31"
+    "end_date": "2018-08-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Council of the National Library of Australia",
@@ -7919,7 +7967,11 @@
     ],
     "pollie_slug": "brett-mason",
     "start_date": "2018-08-09",
-    "end_date": "2024-11-30"
+    "end_date": "2024-11-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adjunct Professor, School of Justice",
@@ -7927,18 +7979,29 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Brett_Mason",
-      "https://minister.infrastructure.gov.au/burke/media-release/appointments-national-library-australia-council"
+      "https://minister.infrastructure.gov.au/burke/media-release/appointments-national-library-australia-council",
+      "https://www.griffith.edu.au/about-griffith/corporate-governance/university-council/council-profiles/the-hon-dr-brett-mason"
     ],
-    "pollie_slug": "brett-mason"
+    "pollie_slug": "brett-mason",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Council Member",
     "organisation": "Griffith University",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://minister.infrastructure.gov.au/burke/media-release/appointments-national-library-australia-council"
+      "https://minister.infrastructure.gov.au/burke/media-release/appointments-national-library-australia-council",
+      "https://www.griffith.edu.au/about-griffith/corporate-governance/university-council/council-profiles/the-hon-dr-brett-mason",
+      "https://ucc.edu.au/griffith-university"
     ],
-    "pollie_slug": "brett-mason"
+    "pollie_slug": "brett-mason",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Council Member",
@@ -7947,7 +8010,11 @@
     "sources": [
       "https://minister.infrastructure.gov.au/burke/media-release/appointments-national-library-australia-council"
     ],
-    "pollie_slug": "brett-mason"
+    "pollie_slug": "brett-mason",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -8902,7 +8969,11 @@
       "https://www.aald.org/advisory-board/warwick-smith/"
     ],
     "pollie_slug": "warwick-smith",
-    "end_date": "2018-02-28"
+    "end_date": "2018-02-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Director",
@@ -8912,7 +8983,11 @@
       "https://en.wikipedia.org/wiki/Warwick_Smith_(politician)",
       "https://www.aald.org/advisory-board/warwick-smith/"
     ],
-    "pollie_slug": "warwick-smith"
+    "pollie_slug": "warwick-smith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
@@ -8924,7 +8999,11 @@
     ],
     "pollie_slug": "warwick-smith",
     "start_date": "2010-07-01",
-    "end_date": "2012-04-30"
+    "end_date": "2012-04-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair of the Council",
@@ -8935,7 +9014,12 @@
       "https://www.aald.org/advisory-board/warwick-smith/"
     ],
     "pollie_slug": "warwick-smith",
-    "start_date": "2021-01-01"
+    "start_date": "2021-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "end_date": "2022-07-31"
   },
   {
     "role": "Chairman",
@@ -8946,7 +9030,11 @@
       "https://www.aald.org/advisory-board/warwick-smith/"
     ],
     "pollie_slug": "warwick-smith",
-    "end_date": "2019-12-31"
+    "end_date": "2019-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Inaugural Chair",
@@ -8957,7 +9045,12 @@
       "https://www.aald.org/advisory-board/warwick-smith/"
     ],
     "pollie_slug": "warwick-smith",
-    "start_date": "2020-01-01"
+    "start_date": "2020-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "end_date": "2020-08-31"
   },
   {
     "role": "Chairman",
@@ -8966,7 +9059,11 @@
     "sources": [
       "https://www.aald.org/advisory-board/warwick-smith/"
     ],
-    "pollie_slug": "warwick-smith"
+    "pollie_slug": "warwick-smith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
