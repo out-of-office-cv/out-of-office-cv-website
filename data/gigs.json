@@ -1900,50 +1900,78 @@
     "organisation": "Australian Government (DFAT)",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://www.foreignminister.gov.au/minister/julie-bishop/media-release/ambassador-women-and-girls"
+      "https://www.foreignminister.gov.au/minister/julie-bishop/media-release/ambassador-women-and-girls",
+      "https://en.wikipedia.org/wiki/Sharman_Stone",
+      "https://iwda.org.au/we-welcome-the-appointment-of-dr-sharman-stone-as-australias-ambassador-for-women-and-girls/"
     ],
     "pollie_slug": "sharman-stone",
     "start_date": "2017-01-01",
-    "end_date": "2020-12-31"
+    "end_date": "2020-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Australian Institute of Family Studies",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.miragenews.com/director-of-australian-institute-of-family-1232126/"
+      "https://www.miragenews.com/director-of-australian-institute-of-family-1232126/",
+      "https://ministers.dss.gov.au/media-releases/14636",
+      "https://aifs.gov.au/main/about-us/executive-team"
     ],
     "pollie_slug": "sharman-stone",
     "start_date": "2022-05-01",
-    "end_date": "2024-05-10"
+    "end_date": "2024-05-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Professor of Practice",
     "organisation": "Monash University (Gender, Peace and Security Centre)",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.monash.edu/arts/gender-peace-security/our-people/key-researchers/sharman-stone"
+      "https://www.monash.edu/arts/gender-peace-security/our-people/key-researchers/sharman-stone",
+      "https://www.miragenews.com/director-of-australian-institute-of-family-1232126/"
     ],
-    "pollie_slug": "sharman-stone"
+    "pollie_slug": "sharman-stone",
+    "start_date": "2020-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
     "organisation": "Monash Centre for Gender, Peace and Security",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.monash.edu/news/articles/dr-sharman-stone-new-patron-of-monash-university-gender,-peace-and-security-centre"
+      "https://www.monash.edu/news/articles/dr-sharman-stone-new-patron-of-monash-university-gender,-peace-and-security-centre",
+      "https://www.monash.edu/arts/gender-peace-security/our-people/key-researchers/sharman-stone"
     ],
     "pollie_slug": "sharman-stone",
-    "start_date": "2017-01-01"
+    "start_date": "2017-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
     "organisation": "NOFASD Australia",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.nofasd.org.au/blog/nofasd-fasd-hub-australia-honour-dr-sharman-stones-enduring-impact-on-fasd-awareness/"
+      "https://www.nofasd.org.au/blog/nofasd-fasd-hub-australia-honour-dr-sharman-stones-enduring-impact-on-fasd-awareness/",
+      "https://www.nofasd.org.au/our-organisation/ambassadors/australian-ambassadors/"
     ],
-    "pollie_slug": "sharman-stone"
+    "pollie_slug": "sharman-stone",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
@@ -1953,7 +1981,11 @@
       "https://wfe.org.au/wfea-welcomes-new-ambassador-sharman-stone/"
     ],
     "pollie_slug": "sharman-stone",
-    "start_date": "2021-07-18"
+    "start_date": "2021-07-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Chairman",
@@ -9863,7 +9895,11 @@
     ],
     "pollie_slug": "robert-hill",
     "start_date": "2006",
-    "end_date": "2009"
+    "end_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
@@ -9873,7 +9909,11 @@
       "https://www.re-group.com/leadership/the-hon-robert-hill/"
     ],
     "pollie_slug": "robert-hill",
-    "start_date": "2013"
+    "start_date": "2013",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chancellor",
@@ -9885,7 +9925,11 @@
     ],
     "pollie_slug": "robert-hill",
     "start_date": "2010",
-    "end_date": "2014"
+    "end_date": "2014",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
@@ -9897,7 +9941,11 @@
     ],
     "pollie_slug": "robert-hill",
     "start_date": "2009",
-    "end_date": "2012"
+    "end_date": "2012",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adjunct Professor in Sustainability",
@@ -9907,7 +9955,11 @@
       "https://www.re-group.com/leadership/the-hon-robert-hill/",
       "https://alumni.uq.edu.au/story/5144/honourable-robert-hill-ac"
     ],
-    "pollie_slug": "robert-hill"
+    "pollie_slug": "robert-hill",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman of Counsellors",
@@ -9916,7 +9968,11 @@
     "sources": [
       "https://dragomanglobal.com/robert-hill"
     ],
-    "pollie_slug": "robert-hill"
+    "pollie_slug": "robert-hill",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "National Employment Relations Director",
@@ -10404,10 +10460,15 @@
     "category": "Retail, Hospitality & Tourism",
     "sources": [
       "https://nsc.anu.edu.au/people/kate-lundy",
-      "https://michaelwest.com.au/kate-lundy/"
+      "https://michaelwest.com.au/kate-lundy/",
+      "https://www.canberratimes.com.au/story/6074145/outgoing-act-senator-kate-lundy-to-become-nrma-board-member/"
     ],
     "pollie_slug": "kate-lundy",
-    "start_date": "2015-03-25"
+    "start_date": "2015-03-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -10415,10 +10476,15 @@
     "category": "Defence & Military and Security",
     "sources": [
       "https://nsc.anu.edu.au/people/kate-lundy",
-      "https://michaelwest.com.au/kate-lundy/"
+      "https://michaelwest.com.au/kate-lundy/",
+      "https://eos-aus.com/about-us/board-of-directors/"
     ],
     "pollie_slug": "kate-lundy",
-    "start_date": "2018-03-23"
+    "start_date": "2018-03-23",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -10430,7 +10496,11 @@
     ],
     "pollie_slug": "kate-lundy",
     "start_date": "2016-03-11",
-    "end_date": "2025"
+    "end_date": "2025",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -10438,10 +10508,15 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://nsc.anu.edu.au/people/kate-lundy",
-      "https://michaelwest.com.au/kate-lundy/"
+      "https://michaelwest.com.au/kate-lundy/",
+      "https://www.nysf.edu.au/new-chair-for-the-nysf-board/"
     ],
     "pollie_slug": "kate-lundy",
-    "start_date": "2020-02-01"
+    "start_date": "2020-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -10449,10 +10524,15 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://nsc.anu.edu.au/people/kate-lundy",
-      "https://michaelwest.com.au/kate-lundy/"
+      "https://michaelwest.com.au/kate-lundy/",
+      "https://cit.edu.au/news/new-cit-board-chair-and-deputy-board-chair-announced"
     ],
     "pollie_slug": "kate-lundy",
-    "start_date": "2020-04-01"
+    "start_date": "2022-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -10460,20 +10540,30 @@
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://nsc.anu.edu.au/people/kate-lundy",
-      "https://michaelwest.com.au/kate-lundy/"
+      "https://michaelwest.com.au/kate-lundy/",
+      "https://www.premier.vic.gov.au/high-profile-appointees-take-seats-grand-prix-board"
     ],
     "pollie_slug": "kate-lundy",
-    "start_date": "2016-06-01"
+    "start_date": "2016-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Board Member",
     "organisation": "Region Media",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://michaelwest.com.au/kate-lundy/"
+      "https://michaelwest.com.au/kate-lundy/",
+      "https://region.com.au/region-media-announces-inaugural-advisory-board-appointments/396146/"
     ],
     "pollie_slug": "kate-lundy",
-    "start_date": "2020-08-01"
+    "start_date": "2020-08-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
