@@ -6893,7 +6893,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Saïd Business School, University of Oxford",
+    "organisation": "Sa\u00efd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -9899,5 +9899,113 @@
       "https://www.crikey.com.au/2008/08/05/crichton-browne-buswells-departure-a-tragedy-sniff/"
     ],
     "pollie_slug": "noel-crichton-browne"
+  },
+  {
+    "role": "Consul-General to Los Angeles",
+    "organisation": "Australian Government (DFAT)",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Olsen",
+      "https://www.ussc.edu.au/people/john-olsen"
+    ],
+    "pollie_slug": "john-olsen",
+    "start_date": "2002-01-01",
+    "end_date": "2006-01-01"
+  },
+  {
+    "role": "Consul-General to New York",
+    "organisation": "Australian Government (DFAT)",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Olsen",
+      "https://www.ussc.edu.au/people/john-olsen"
+    ],
+    "pollie_slug": "john-olsen",
+    "start_date": "2006-01-01",
+    "end_date": "2009-04-30"
+  },
+  {
+    "role": "Chair",
+    "organisation": "South Australian Football Commission",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Olsen"
+    ],
+    "pollie_slug": "john-olsen",
+    "start_date": "2010-01-01"
+  },
+  {
+    "role": "President",
+    "organisation": "South Australian National Football League",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Olsen"
+    ],
+    "pollie_slug": "john-olsen",
+    "start_date": "2014-01-01",
+    "end_date": "2020-09-01"
+  },
+  {
+    "role": "Special Adviser",
+    "organisation": "Bespoke Approach",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.indailysa.com.au/news/archive/2014/04/29/john-olsens-bespoke-approach",
+      "https://en.wikipedia.org/wiki/John_Olsen"
+    ],
+    "pollie_slug": "john-olsen",
+    "start_date": "2014-04-29"
+  },
+  {
+    "role": "State President",
+    "organisation": "Liberal Party of Australia (SA Division)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Olsen",
+      "https://www.indaily.com.au/news/politics/2017/05/24/john-olsens-political-comeback"
+    ],
+    "pollie_slug": "john-olsen",
+    "start_date": "2017-06-01",
+    "end_date": "2020-09-01"
+  },
+  {
+    "role": "Federal President",
+    "organisation": "Liberal Party of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Olsen",
+      "https://www.liberal.org.au/party-people"
+    ],
+    "pollie_slug": "john-olsen",
+    "start_date": "2020-08-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Adelaide Football Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Olsen"
+    ],
+    "pollie_slug": "john-olsen",
+    "start_date": "2020-10-13"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian American Association",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Olsen"
+    ],
+    "pollie_slug": "john-olsen"
+  },
+  {
+    "role": "Director",
+    "organisation": "United States Studies Centre",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.ussc.edu.au/people/john-olsen",
+      "https://en.wikipedia.org/wiki/John_Olsen"
+    ],
+    "pollie_slug": "john-olsen"
   }
 ]
