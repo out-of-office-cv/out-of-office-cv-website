@@ -6510,7 +6510,11 @@
       "https://aulich.co/"
     ],
     "pollie_slug": "terrence-aulich",
-    "start_date": "1993"
+    "start_date": "1993",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Director",
@@ -6521,7 +6525,11 @@
     ],
     "pollie_slug": "terrence-aulich",
     "start_date": "2004",
-    "end_date": "2008"
+    "end_date": "2008",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Director",
@@ -6531,7 +6539,11 @@
       "https://biography.senate.gov.au/aulich-terrence-gordon/"
     ],
     "pollie_slug": "terrence-aulich",
-    "start_date": "2009"
+    "start_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -6543,34 +6555,53 @@
     ],
     "pollie_slug": "terrence-aulich",
     "start_date": "2009",
-    "end_date": "2012-02"
+    "end_date": "2012-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Clubs NSW Code Authority",
     "category": "Gambling, Gaming and Racing",
     "sources": [
-      "https://en.wikipedia.org/wiki/Terry_Aulich"
+      "https://en.wikipedia.org/wiki/Terry_Aulich",
+      "https://www.utas.edu.au/about/news-and-stories/articles/2017/terry-aulich"
     ],
-    "pollie_slug": "terrence-aulich"
+    "pollie_slug": "terrence-aulich",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Privacy Committee",
     "organisation": "Association of Marketing and Social Research Organisations",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://en.wikipedia.org/wiki/Terry_Aulich"
+      "https://en.wikipedia.org/wiki/Terry_Aulich",
+      "https://www.newfocus.com.au/research-industry-puts-privacy-first-media-release/"
     ],
-    "pollie_slug": "terrence-aulich"
+    "pollie_slug": "terrence-aulich",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Privacy Experts Group",
     "organisation": "International Biometrics Institute",
     "category": "Technology (Software, IT & Digital Services)",
     "sources": [
-      "https://en.wikipedia.org/wiki/Terry_Aulich"
+      "https://en.wikipedia.org/wiki/Terry_Aulich",
+      "https://www.biometricsinstitute.org/supplier_directory/aulich/"
     ],
-    "pollie_slug": "terrence-aulich"
+    "pollie_slug": "terrence-aulich",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Industry Reference Panel",
@@ -8173,7 +8204,12 @@
     ],
     "pollie_slug": "chris-puplick",
     "start_date": "1994-09",
-    "end_date": "2003"
+    "end_date": "2003",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms President of NSW Anti-Discrimination Board from September 1994, resigned May 2003."
+    }
   },
   {
     "role": "Privacy Commissioner",
@@ -8185,7 +8221,12 @@
     ],
     "pollie_slug": "chris-puplick",
     "start_date": "1998",
-    "end_date": "2003"
+    "end_date": "2003",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms appointment as NSW Privacy Commissioner from 1998, resigned May 2003. Some sources cite 1999 as the substantive provisions of the Privacy and Personal Information Protection Act 1998 took effect in February 1999, but the Senate bio's 1998 date is retained as authoritative."
+    }
   },
   {
     "role": "Chair",
@@ -8197,7 +8238,12 @@
     ],
     "pollie_slug": "chris-puplick",
     "start_date": "2008",
-    "end_date": "2011"
+    "end_date": "2011",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography and NFSA records confirm inaugural Chair of the National Film and Sound Archive Board, 2008-2011."
+    }
   },
   {
     "role": "Chair",
@@ -8208,7 +8254,12 @@
     ],
     "pollie_slug": "chris-puplick",
     "start_date": "1996",
-    "end_date": "2008"
+    "end_date": "2008",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms Chair of the Australian National Council on AIDS and Related Diseases (renamed to include Hepatitis C in 1999), 1996-2008."
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -8219,7 +8270,12 @@
     ],
     "pollie_slug": "chris-puplick",
     "start_date": "1990",
-    "end_date": "1994"
+    "end_date": "1994",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms CEO of the Packaging Environment Foundation of Australia, 1990-1994."
+    }
   },
   {
     "role": "Chair",
@@ -8230,7 +8286,12 @@
     ],
     "pollie_slug": "chris-puplick",
     "start_date": "1993",
-    "end_date": "2003"
+    "end_date": "2003",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms Chair of Central Sydney Area Health Service, 1993-2003."
+    }
   },
   {
     "role": "Board Member",
@@ -8241,7 +8302,12 @@
     ],
     "pollie_slug": "chris-puplick",
     "start_date": "1993",
-    "end_date": "2003"
+    "end_date": "2003",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms Board membership of NIDA, 1993-2003."
+    }
   },
   {
     "role": "Foundation Professor of Governance and Head of School of Business",
