@@ -6926,7 +6926,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Saïd Business School, University of Oxford",
+    "organisation": "Sa\u00efd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -10095,5 +10095,118 @@
       "note": "USSC URL returns 404; replaced with working Adelaide FC board bio confirming the directorship. Olsen was an outgoing USSC board member as of July 2023."
     },
     "end_date": "2023-07-01"
+  },
+  {
+    "role": "Ambassador to Spain",
+    "organisation": "Australian Government",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Harry_Jenkins_Sr.",
+      "https://adb.anu.edu.au/biography/jenkins-henry-alfred-harry-28209"
+    ],
+    "pollie_slug": "henry-jenkins",
+    "start_date": "1986-01-01",
+    "end_date": "1988-12-31"
+  },
+  {
+    "role": "Founder",
+    "organisation": "Australia Walkabout Wildlife Park",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barry_Cohen_(politician)",
+      "https://www.walkaboutpark.com.au/walkabout-park-homepage/calga-springs-sanctuary"
+    ],
+    "pollie_slug": "barry-cohen",
+    "start_date": "1990-01-01",
+    "end_date": "2005-09-30"
+  },
+  {
+    "role": "Deputy Chair, Governing Council",
+    "organisation": "Old Parliament House",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.celebrityspeakers.com.au/speakers/barry-cohen-am/"
+    ],
+    "pollie_slug": "barry-cohen",
+    "start_date": "1998-01-01",
+    "end_date": "2007-12-31"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "The Australian",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.celebrityspeakers.com.au/speakers/barry-cohen-am/"
+    ],
+    "pollie_slug": "barry-cohen",
+    "start_date": "1991-01-01",
+    "end_date": "1997-12-31"
+  },
+  {
+    "role": "Councillor",
+    "organisation": "City of Caloundra",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Elaine_Darling"
+    ],
+    "pollie_slug": "elaine-darling",
+    "start_date": "2000-01-01",
+    "end_date": "2004-12-31"
+  },
+  {
+    "role": "Member for Ferny Grove",
+    "organisation": "Queensland Parliament",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Furner",
+      "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=1247049725"
+    ],
+    "pollie_slug": "mark-furner",
+    "start_date": "2015-01-31"
+  },
+  {
+    "role": "Minister for Local Government",
+    "organisation": "Queensland Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Furner"
+    ],
+    "pollie_slug": "mark-furner",
+    "start_date": "2017-02-10",
+    "end_date": "2017-12-12"
+  },
+  {
+    "role": "Minister for Aboriginal and Torres Strait Islander Partnerships",
+    "organisation": "Queensland Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Furner"
+    ],
+    "pollie_slug": "mark-furner",
+    "start_date": "2017-02-10",
+    "end_date": "2017-12-12"
+  },
+  {
+    "role": "Minister for Agricultural Industry Development and Fisheries",
+    "organisation": "Queensland Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Furner"
+    ],
+    "pollie_slug": "mark-furner",
+    "start_date": "2017-12-12",
+    "end_date": "2024-10-28"
+  },
+  {
+    "role": "Minister for Rural Communities",
+    "organisation": "Queensland Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Furner",
+      "https://www.markfurnermp.com.au/mark-furner/"
+    ],
+    "pollie_slug": "mark-furner",
+    "start_date": "2017-12-12",
+    "end_date": "2024-10-28"
   }
 ]
