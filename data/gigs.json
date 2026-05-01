@@ -2275,20 +2275,30 @@
     "organisation": "APPEA (Australian Petroleum Production & Exploration Association)",
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://energyproducers.au/all_news/martin-ferguson-appointed-chair-of-appea-advisory-board/"
+      "https://energyproducers.au/all_news/martin-ferguson-appointed-chair-of-appea-advisory-board/",
+      "https://www.appea.com.au/media_release/martin-ferguson-appointed-chair-appea-advisory-board/"
     ],
     "pollie_slug": "martin-ferguson",
-    "start_date": "2013-10-01"
+    "start_date": "2013-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Group Executive, Natural Resources",
     "organisation": "Seven Group Holdings",
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://insight.thomsonreuters.com.au/legal/posts/martin-ferguson-steps-out-of-labors-shadow"
+      "https://insight.thomsonreuters.com.au/legal/posts/martin-ferguson-steps-out-of-labors-shadow",
+      "https://www.crikey.com.au/2014/06/17/martin-fergusons-revolving-door-puts-energy-industry-in-a-spin/"
     ],
     "pollie_slug": "martin-ferguson",
-    "start_date": "2013-10-01"
+    "start_date": "2013-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -2299,7 +2309,11 @@
     ],
     "pollie_slug": "martin-ferguson",
     "start_date": "2014-01-01",
-    "end_date": "2016-01-01"
+    "end_date": "2016-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -2309,17 +2323,26 @@
       "https://aha.org.au/media-release-martin-ferguson-am-appointed-chair-of-tourism-accommodation-australia/"
     ],
     "pollie_slug": "martin-ferguson",
-    "start_date": "2015-06-15"
+    "start_date": "2015-06-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
     "organisation": "CO2CRC",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://co2crc.com.au/about-us/who-we-are/"
+      "https://co2crc.com.au/about-us/who-we-are/",
+      "https://co2crc.delegateconnect.co/speakers/martin-ferguson?locale=en"
     ],
     "pollie_slug": "martin-ferguson",
-    "start_date": "2014-09-01"
+    "start_date": "2014-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -2328,17 +2351,29 @@
     "sources": [
       "https://www.akbc.com.au/executive-committee/hon-martin-ferguson-am"
     ],
-    "pollie_slug": "martin-ferguson"
+    "pollie_slug": "martin-ferguson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2024-02-01"
   },
   {
     "role": "Part-time Expert Panel Member",
     "organisation": "Fair Work Commission",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://insight.thomsonreuters.com.au/legal/posts/martin-ferguson-steps-out-of-labors-shadow"
+      "https://insight.thomsonreuters.com.au/legal/posts/martin-ferguson-steps-out-of-labors-shadow",
+      "https://www.directory.gov.au/people/martin-ferguson",
+      "https://www.areea.com.au/news-media/media-center/new-appointments-fair-work-commission-expert-panel/"
     ],
     "pollie_slug": "martin-ferguson",
-    "start_date": "2020-03-01"
+    "start_date": "2020-03-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "end_date": "2025-03-11"
   },
   {
     "role": "Chairman",
@@ -2348,7 +2383,11 @@
       "https://wbmonline.com.au/martin-ferguson-new-chairman-of-clare-valley-wine-grape-association/"
     ],
     "pollie_slug": "martin-ferguson",
-    "start_date": "2019-01-01"
+    "start_date": "2019-09-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
@@ -2521,20 +2560,33 @@
     "organisation": "Prime Minister of Australia",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://www.aspistrategist.org.au/memoriam-russell-trood/"
+      "https://www.aspistrategist.org.au/memoriam-russell-trood/",
+      "https://blogs.griffith.edu.au/asiainsights/professor-emeritus-russell-trood-in-memoriam/",
+      "https://www.aber.ac.uk/en/development/alumni/obituaries/obituary-profiles/russell-trood/"
     ],
     "pollie_slug": "russell-trood",
-    "start_date": "2011-07-01"
+    "start_date": "2011-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "National President",
     "organisation": "United Nations Association of Australia",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://www.aspistrategist.org.au/memoriam-russell-trood/"
+      "https://www.aspistrategist.org.au/memoriam-russell-trood/",
+      "https://en.wikipedia.org/wiki/Russell_Trood",
+      "https://www.dfat.gov.au/international-relations/international-organisations/un/unsc-2013-2014/national-statements/Pages/statement-for-the-united-nations-association-of-australia-annual-conference"
     ],
     "pollie_slug": "russell-trood",
-    "start_date": "2012-01-01"
+    "start_date": "2012-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "end_date": "2016-12-31"
   },
   {
     "role": "Director",
@@ -2545,52 +2597,86 @@
     ],
     "pollie_slug": "russell-trood",
     "start_date": "2015-01-01",
-    "end_date": "2016-12-01"
+    "end_date": "2016-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
     "organisation": "National Library of Australia",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://www.aspistrategist.org.au/memoriam-russell-trood/"
+      "https://www.aspistrategist.org.au/memoriam-russell-trood/",
+      "https://blogs.griffith.edu.au/asiainsights/professor-emeritus-russell-trood-in-memoriam/",
+      "https://www.aber.ac.uk/en/development/alumni/obituaries/obituary-profiles/russell-trood/"
     ],
-    "pollie_slug": "russell-trood"
+    "pollie_slug": "russell-trood",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
     "organisation": "Australia-Indonesia Institute",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://www.aspistrategist.org.au/memoriam-russell-trood/"
+      "https://www.aspistrategist.org.au/memoriam-russell-trood/",
+      "https://blogs.griffith.edu.au/asiainsights/professor-emeritus-russell-trood-in-memoriam/",
+      "https://www.openaustralia.org.au/senate/?id=2017-02-07.111.2"
     ],
-    "pollie_slug": "russell-trood"
+    "pollie_slug": "russell-trood",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
     "organisation": "Australian-American Fulbright Commission",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.aspistrategist.org.au/memoriam-russell-trood/"
+      "https://www.aspistrategist.org.au/memoriam-russell-trood/",
+      "https://blogs.griffith.edu.au/asiainsights/professor-emeritus-russell-trood-in-memoriam/",
+      "https://www.fulbright.org.au/wp-content/uploads/2016/07/2016_Fulbright_Scholar_Booklet.pdf"
     ],
-    "pollie_slug": "russell-trood"
+    "pollie_slug": "russell-trood",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Visiting Fellow",
     "organisation": "Lowy Institute for International Policy",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.aspistrategist.org.au/memoriam-russell-trood/"
+      "https://www.aspistrategist.org.au/memoriam-russell-trood/",
+      "https://www.lowyinstitute.org/people/contributor/bio/russell-trood",
+      "https://blogs.griffith.edu.au/asiainsights/professor-emeritus-russell-trood-in-memoriam/"
     ],
-    "pollie_slug": "russell-trood"
+    "pollie_slug": "russell-trood",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adjunct Professor",
     "organisation": "US Studies Centre, University of Sydney",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.aspistrategist.org.au/memoriam-russell-trood/"
+      "https://www.aspistrategist.org.au/memoriam-russell-trood/",
+      "https://blogs.griffith.edu.au/asiainsights/professor-emeritus-russell-trood-in-memoriam/",
+      "https://www.aber.ac.uk/en/development/alumni/obituaries/obituary-profiles/russell-trood/"
     ],
-    "pollie_slug": "russell-trood"
+    "pollie_slug": "russell-trood",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
@@ -6734,7 +6820,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Sa\u00efd Business School, University of Oxford",
+    "organisation": "Saïd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
