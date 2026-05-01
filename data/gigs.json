@@ -1812,7 +1812,9 @@
     "organisation": "Australian Government",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://foreignminister.gov.au/releases/Pages/2016/jb_mr_160208a.aspx"
+      "https://foreignminister.gov.au/releases/Pages/2016/jb_mr_160208a.aspx",
+      "https://en.wikipedia.org/wiki/Philip_Ruddock",
+      "https://www.crikey.com.au/2017/04/27/ruddock-racks-bills-special-envoy/"
     ],
     "pollie_slug": "philip-ruddock",
     "start_date": "2016-02-08"
@@ -1822,32 +1824,48 @@
     "organisation": "Australian Government",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.ag.gov.au/rights-and-protections/publications/expert-panel-report-religious-freedom-review"
+      "https://www.ag.gov.au/rights-and-protections/publications/expert-panel-report-religious-freedom-review",
+      "https://en.wikipedia.org/wiki/Philip_Ruddock"
     ],
     "pollie_slug": "philip-ruddock",
     "start_date": "2017-11-22",
-    "end_date": "2018-05-31"
+    "end_date": "2018-05-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Mayor",
     "organisation": "Hornsby Shire Council",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.sbs.com.au/news/article/2017/09/10/philip-ruddock-74-returns-politics-council-mayor-liberals-take-hit-nsw"
+      "https://www.sbs.com.au/news/article/2017/09/10/philip-ruddock-74-returns-politics-council-mayor-liberals-take-hit-nsw",
+      "https://en.wikipedia.org/wiki/Philip_Ruddock",
+      "https://www.hornsby.nsw.gov.au/council/about-council/councillors/councillors-pop-up-philip-ruddock"
     ],
     "pollie_slug": "philip-ruddock",
     "start_date": "2017-09-16",
-    "end_date": "2024-09-30"
+    "end_date": "2024-09-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "State President",
     "organisation": "Liberal Party of Australia (NSW Division)",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://www.newcastleherald.com.au/story/5252010/ruddock-elected-nsw-liberal-president/"
+      "https://www.newcastleherald.com.au/story/5252010/ruddock-elected-nsw-liberal-president/",
+      "https://nswliberal.org.au/news/2018-liberal-state-executive-elections"
     ],
     "pollie_slug": "philip-ruddock",
-    "start_date": "2018-02-01"
+    "start_date": "2018-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Advisory Board",
@@ -1857,16 +1875,25 @@
       "https://www.uts.edu.au/news/2017/04/hon-philip-ruddock-chair-australia-china-relations-institute-advisory-board"
     ],
     "pollie_slug": "philip-ruddock",
-    "start_date": "2017-04-01"
+    "start_date": "2017-04-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Vice Chair",
     "organisation": "Global Panel Foundation Australasia",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.sourcewatch.org/index.php/Global_Panel_Foundation"
+      "https://www.sourcewatch.org/index.php/Global_Panel_Foundation",
+      "https://en.wikipedia.org/wiki/Philip_Ruddock"
     ],
-    "pollie_slug": "philip-ruddock"
+    "pollie_slug": "philip-ruddock",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador for Women and Girls",
@@ -7018,7 +7045,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Sa\u00efd Business School, University of Oxford",
+    "organisation": "Saïd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -9391,21 +9418,31 @@
     "organisation": "Australian Financial Review",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Mark_Latham"
+      "https://en.wikipedia.org/wiki/Mark_Latham",
+      "https://www.sbs.com.au/news/article/mark-latham-resigns-as-columnist-for-financial-review/vbwx6xi1n"
     ],
     "pollie_slug": "mark-latham",
-    "end_date": "2015-08"
+    "end_date": "2015-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Co-host of Outsiders",
     "organisation": "Sky News Australia",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Mark_Latham"
+      "https://en.wikipedia.org/wiki/Mark_Latham",
+      "https://en.wikipedia.org/wiki/Outsiders_(Australian_TV_program)"
     ],
     "pollie_slug": "mark-latham",
     "start_date": "2016",
-    "end_date": "2017-03"
+    "end_date": "2017-03",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Columnist",
@@ -9417,16 +9454,25 @@
     ],
     "pollie_slug": "mark-latham",
     "start_date": "2016-02",
-    "end_date": "2018"
+    "end_date": "2018",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Columnist (Latham's Law)",
     "organisation": "The Spectator Australia",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Mark_Latham"
+      "https://en.wikipedia.org/wiki/Mark_Latham",
+      "https://www.spectator.com.au/2021/04/lathams-law-73/"
     ],
-    "pollie_slug": "mark-latham"
+    "pollie_slug": "mark-latham",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member of the Legislative Council",
@@ -9438,18 +9484,27 @@
     ],
     "pollie_slug": "mark-latham",
     "start_date": "2019-03-23",
-    "end_date": "present"
+    "end_date": "present",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "NSW State Leader",
     "organisation": "Pauline Hanson's One Nation",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Mark_Latham"
+      "https://en.wikipedia.org/wiki/Mark_Latham",
+      "https://en.wikipedia.org/wiki/Pauline_Hanson's_One_Nation_%E2%80%93_New_South_Wales"
     ],
     "pollie_slug": "mark-latham",
     "start_date": "2018-11-07",
-    "end_date": "2023-08-14"
+    "end_date": "2023-08-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Consul-General to Los Angeles",
@@ -9947,10 +10002,16 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://www.realestatesource.com.au/dexus-appoints-former-attorney-general-australia-nicola-roxon-board-2/",
-      "https://www.tipranks.com/news/company-announcements/dexus-agm-highlights-board-changes-and-strategic-focus"
+      "https://www.tipranks.com/news/company-announcements/dexus-agm-highlights-board-changes-and-strategic-focus",
+      "https://www.dexus.com/who-we-are/our-business/board/nicola-roxon",
+      "https://www.industrymoves.com/moves/nicola-roxon-joins-the-board-of-dexus-funds-management"
     ],
     "pollie_slug": "nicola-roxon",
-    "start_date": "2017-09-01"
+    "start_date": "2017-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -9960,27 +10021,43 @@
       "https://www.marketscreener.com/quote/stock/LIFESTYLE-COMMUNITIES-LIM-10355209/news/Lifestyle-Communities-Announces-Retirement-of-the-Hon-Nicola-Roxon-as-Non-Executive-Director-Effec-45498886/"
     ],
     "pollie_slug": "nicola-roxon",
-    "end_date": "2023-12-31"
+    "end_date": "2023-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "HESTA",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://communitycarereview.com.au/2018/10/31/nicola-roxon-to-take-up-top-role-with-hesta/"
+      "https://communitycarereview.com.au/2018/10/31/nicola-roxon-to-take-up-top-role-with-hesta/",
+      "https://www.hesta.com.au/stories/nicola-roxon-announced-as-new-hesta-independent-chair",
+      "https://www.investmentmagazine.com.au/2018/10/nicola-roxon-to-chair-hesta/"
     ],
     "pollie_slug": "nicola-roxon",
-    "start_date": "2019-01"
+    "start_date": "2019-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "VicHealth",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://communitiesincontrol.com.au/speakers/the-honourable-nicola-roxon"
+      "https://communitiesincontrol.com.au/speakers/the-honourable-nicola-roxon",
+      "https://www.vichealth.vic.gov.au/media-and-resources/media-releases/nicola-roxon-appointed-as-new-vichealth-chair",
+      "https://www.vichealth.vic.gov.au/about-us/who-we-are/vichealth-board"
     ],
     "pollie_slug": "nicola-roxon",
-    "start_date": "2020-11"
+    "start_date": "2020-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -9991,7 +10068,11 @@
       "https://www.health.gov.au/ministers/the-hon-mark-butler-mp/media/new-chair-for-aihw-as-wellbeing-report-shows-pandemic-effects-linger"
     ],
     "pollie_slug": "nicola-roxon",
-    "start_date": "2023-09"
+    "start_date": "2023-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -10001,7 +10082,11 @@
       "https://www.mcri.edu.au/mcri/leadership",
       "https://www.nicolaroxon.com/"
     ],
-    "pollie_slug": "nicola-roxon"
+    "pollie_slug": "nicola-roxon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Lobbyist",
