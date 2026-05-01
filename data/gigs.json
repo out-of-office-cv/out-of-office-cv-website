@@ -9357,5 +9357,109 @@
     ],
     "pollie_slug": "john-morris",
     "start_date": "1990-07-01"
+  },
+  {
+    "role": "Inaugural Chairman",
+    "organisation": "Foundation for Rural and Regional Renewal",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ian_Sinclair"
+    ],
+    "pollie_slug": "ian-sinclair",
+    "start_date": "2000-03-01",
+    "end_date": "2019-06-30"
+  },
+  {
+    "role": "President",
+    "organisation": "AUSTCARE",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ian_Sinclair"
+    ],
+    "pollie_slug": "ian-sinclair"
+  },
+  {
+    "role": "Honorary President",
+    "organisation": "Scout Association of Australia (NSW Branch)",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ian_Sinclair"
+    ],
+    "pollie_slug": "ian-sinclair",
+    "end_date": "2019"
+  },
+  {
+    "role": "South Australian Chairman",
+    "organisation": "Australian Republican Movement",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Baden_Teague",
+      "https://biography.senate.gov.au/teague-baden-chapman/"
+    ],
+    "pollie_slug": "baden-teague"
+  },
+  {
+    "role": "Member, Council of Governors",
+    "organisation": "St Peter's College, Adelaide",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/teague-baden-chapman/"
+    ],
+    "pollie_slug": "baden-teague",
+    "start_date": "1997",
+    "end_date": "2010"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Australian Trucking Association",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stuart_St._Clair",
+      "https://primemovermag.com.au/stuart-st-clair-ata/"
+    ],
+    "pollie_slug": "stuart-st-clair",
+    "start_date": "2006-03",
+    "end_date": "2015"
+  },
+  {
+    "role": "Chief Adviser",
+    "organisation": "Office of Deputy Prime Minister John Anderson",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stuart_St._Clair",
+      "https://primemovermag.com.au/stuart-st-clair-ata/"
+    ],
+    "pollie_slug": "stuart-st-clair"
+  },
+  {
+    "role": "Chief of Staff",
+    "organisation": "Office of Andrew Stoner MP, NSW Nationals Leader",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stuart_St._Clair",
+      "https://primemovermag.com.au/stuart-st-clair-ata/"
+    ],
+    "pollie_slug": "stuart-st-clair",
+    "end_date": "2006-02"
+  },
+  {
+    "role": "Chief Commissioner",
+    "organisation": "Horsham Rural City Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Fisher_(politician)"
+    ],
+    "pollie_slug": "peter-fisher"
+  },
+  {
+    "role": "Trustee",
+    "organisation": "Horsham Regional Art Gallery",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Fisher_(politician)"
+    ],
+    "pollie_slug": "peter-fisher",
+    "start_date": "1998",
+    "end_date": "2009"
   }
 ]
