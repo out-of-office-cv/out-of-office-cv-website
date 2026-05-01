@@ -9190,5 +9190,106 @@
     "pollie_slug": "john-quirke",
     "start_date": "2005-01-01",
     "end_date": "2013-12-31"
+  },
+  {
+    "role": "Retired",
+    "organisation": "Retired",
+    "category": "Retired",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ruth_Coleman"
+    ],
+    "pollie_slug": "ruth-coleman",
+    "start_date": "1987-06-05"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Tourism Task Force (Australian Tourism Task Force)",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Brown_(Australian_politician)",
+      "https://ovations.com.au/speakers/john-brown-ao.html"
+    ],
+    "pollie_slug": "john-brown"
+  },
+  {
+    "role": "Patron and Chairman",
+    "organisation": "Sport and Tourism Youth Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Brown_(Australian_politician)",
+      "https://ovations.com.au/speakers/john-brown-ao.html"
+    ],
+    "pollie_slug": "john-brown"
+  },
+  {
+    "role": "Founding Director",
+    "organisation": "Sydney Organising Committee for the Olympic Games (SOCOG)",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Brown_(Australian_politician)"
+    ],
+    "pollie_slug": "john-brown"
+  },
+  {
+    "role": "Director",
+    "organisation": "Canterbury Bankstown Leagues Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Brown_(Australian_politician)"
+    ],
+    "pollie_slug": "john-brown"
+  },
+  {
+    "role": "Lawyer (private practice)",
+    "organisation": "Private legal practice",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/James_Porter_(Australian_politician)"
+    ],
+    "pollie_slug": "james-porter",
+    "start_date": "1990-02-19"
+  },
+  {
+    "role": "Barrister (King's Counsel)",
+    "organisation": "Murray Chambers, Perth",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.murraychamberswa.com.au/barristers/the-hon.-r-i-viner-ao-kc"
+    ],
+    "pollie_slug": "ian-viner",
+    "start_date": "1983-03-05"
+  },
+  {
+    "role": "Deputy Chairman",
+    "organisation": "Council for Aboriginal Reconciliation",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ian_Viner"
+    ],
+    "pollie_slug": "ian-viner",
+    "start_date": "1995-01-01"
+  },
+  {
+    "role": "Member",
+    "organisation": "National Native Title Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ian_Viner",
+      "https://www.murraychamberswa.com.au/barristers/the-hon.-r-i-viner-ao-kc"
+    ],
+    "pollie_slug": "ian-viner",
+    "start_date": "1995-01-01",
+    "end_date": "1996-12-31"
+  },
+  {
+    "role": "President (NSW), then Honorary President",
+    "organisation": "Federated Liquor and Allied Industries Employees' Union / Liquor, Hospitality and Miscellaneous Workers' Union",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Morris_(Australian_politician)",
+      "https://biography.senate.gov.au/morris-john-joseph/"
+    ],
+    "pollie_slug": "john-morris",
+    "start_date": "1990-07-01"
   }
 ]
