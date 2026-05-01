@@ -19,12 +19,6 @@ This static site is hosted at `https://www.outofoffice.cv` using GitHub Pages.
   - `--since YYYY` --- fetch pollies who left since year (default 1980)
   - `--dry-run` --- preview without writing file
   - `--output <path>` --- custom output path (default `data/pollies.csv`)
-- `pnpm find-gigs` --- search for post-parliament gigs using OpenAI
-  - `--list-candidates` or `-l` --- list candidate pollies without running API
-    search
-  - `--limit N` --- limit number of candidates shown (default 10)
-  - `--pollie <slug>` --- search for a specific pollie by slug
-  - `--dry-run` --- use mock data, don't write to file
 
 ## Structure
 

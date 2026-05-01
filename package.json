@@ -11,15 +11,13 @@
     "preview": "astro preview",
     "check": "astro check",
     "test": "vitest run",
-    "fetch-pollies": "tsx scripts/fetch-pollies.ts",
-    "find-gigs": "tsx scripts/find-gigs.ts"
+    "fetch-pollies": "tsx scripts/fetch-pollies.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@octokit/rest": "^22.0.1",
-    "openai": "^6.13.0",
     "vega": "^6.2.0",
     "vega-embed": "^7.1.0",
     "vega-lite": "^6.4.3",
