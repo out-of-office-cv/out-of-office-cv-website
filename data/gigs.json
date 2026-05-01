@@ -6179,7 +6179,11 @@
     "sources": [
       "https://iceds.anu.edu.au/people/academics/adjunct-professor-robert-mcmullan"
     ],
-    "pollie_slug": "robert-mcmullan"
+    "pollie_slug": "robert-mcmullan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Visiting Fellow",
@@ -6188,7 +6192,11 @@
     "sources": [
       "https://www.crawfordfund.org/about/board-of-directors/board-bob-mcmullan/"
     ],
-    "pollie_slug": "robert-mcmullan"
+    "pollie_slug": "robert-mcmullan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -6197,16 +6205,27 @@
     "sources": [
       "https://www.crawfordfund.org/about/board-of-directors/board-bob-mcmullan/"
     ],
-    "pollie_slug": "robert-mcmullan"
+    "pollie_slug": "robert-mcmullan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Advisory Committee",
     "organisation": "Australian Water Partnership",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://waterpartnership.org.au/about/team/bob-mcmullan/"
+      "https://waterpartnership.org.au/about/team/bob-mcmullan/",
+      "https://ewater.org.au/farewell-bob-mcmullan-director-ewl-board/"
     ],
-    "pollie_slug": "robert-mcmullan"
+    "pollie_slug": "robert-mcmullan",
+    "start_date": "2018-11-01",
+    "end_date": "2024-11-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Alternate Executive Director",
@@ -6215,14 +6234,20 @@
     "sources": [
       "https://www.crawfordfund.org/about/board-of-directors/board-bob-mcmullan/"
     ],
-    "pollie_slug": "robert-mcmullan"
+    "pollie_slug": "robert-mcmullan",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Multiple authoritative sources (Devex, EBRD, Crawford Fund) confirm McMullan served as 'Executive Director' (not 'Alternate Executive Director') at the EBRD, representing the constituency of Australia, Korea, New Zealand and Egypt for approximately 4.5 years from late 2010. The role title in the record is incorrect; he held the full Director position, not an alternate role."
+    }
   },
   {
     "role": "Member, High-level Advisory Group on Climate Change Financing",
     "organisation": "United Nations",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://www.crawfordfund.org/about/board-of-directors/board-bob-mcmullan/"
+      "https://www.crawfordfund.org/about/board-of-directors/board-bob-mcmullan/",
+      "https://press.un.org/en/2010/note6282.doc.htm"
     ],
     "pollie_slug": "robert-mcmullan",
     "start_date": "2010-02-01"
@@ -6234,7 +6259,12 @@
     "sources": [
       "https://johnmenadue.com/authors/bob-mcmullan/"
     ],
-    "pollie_slug": "robert-mcmullan"
+    "pollie_slug": "robert-mcmullan",
+    "start_date": "2019-12-23",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founder and Principal",
@@ -6826,7 +6856,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Sa\u00efd Business School, University of Oxford",
+    "organisation": "Saïd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -7782,19 +7812,34 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://sourcewatch.org/index.php/Charles_Roderick_Kemp",
-      "https://en.wikipedia.org/wiki/Institute_of_Public_Affairs"
+      "https://en.wikipedia.org/wiki/Institute_of_Public_Affairs",
+      "https://en.wikipedia.org/wiki/Rod_Kemp"
     ],
     "pollie_slug": "rod-kemp",
-    "start_date": "2008-08-01"
+    "start_date": "2008-08-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia (Institute of Public Affairs article) confirms Rod Kemp was appointed Chairman of the IPA in 2008 after leaving parliament. He took over from Alan Stockdale on 1 August 2008. He served until approximately 2019 when Janet Albrechtsen succeeded him."
+    }
   },
   {
     "role": "Board Member",
     "organisation": "Sport Australia Hall of Fame",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://sourcewatch.org/index.php/Charles_Roderick_Kemp"
+      "https://sourcewatch.org/index.php/Charles_Roderick_Kemp",
+      "https://sahof.org.au/wp-content/uploads/2023/03/SAHOF-Annual-Report-2022-1.pdf",
+      "https://www.wikidata.org/wiki/Q15271575"
     ],
-    "pollie_slug": "rod-kemp"
+    "pollie_slug": "rod-kemp",
+    "start_date": "2012-01-01",
+    "end_date": "2022-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Sport Australia Hall of Fame 2022 Annual Report explicitly thanks 'Hon Rod Kemp AM' for 10 years of service as a Board Member upon his retirement, indicating tenure approximately 2012-2022."
+    }
   },
   {
     "role": "Board Member",
