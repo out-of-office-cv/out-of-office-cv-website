@@ -2355,64 +2355,105 @@
     "organisation": "ABN AMRO Australia",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://bcec.edu.au/about/people/john-hewson/"
+      "https://bcec.edu.au/about/people/john-hewson/",
+      "https://en.wikipedia.org/wiki/John_Hewson",
+      "https://www.transparencytaskforce.org/ambasador/john-hewson/"
     ],
     "pollie_slug": "john-hewson",
-    "end_date": "2004-12-01"
+    "end_date": "2004-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
     "organisation": "Asset Owners Disclosure Project",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://esdnews.com.au/five-minutes-with-dr-john-hewson-bioenergy-australia-chair/"
+      "https://esdnews.com.au/five-minutes-with-dr-john-hewson-bioenergy-australia-chair/",
+      "https://crawford.anu.edu.au/people/john-hewson-am",
+      "https://www.transparencytaskforce.org/ambasador/john-hewson/"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Commission for the Human Future",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://iceds.anu.edu.au/people/academics/dr-john-hewson"
+      "https://iceds.anu.edu.au/people/academics/dr-john-hewson",
+      "https://reporter.anu.edu.au/people/professor-john-hewson",
+      "https://www.humanfuture.net/our-work/"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
     "organisation": "Smart Energy Council",
     "category": "Energy (Renewables & Traditional)",
     "sources": [
-      "https://www.bioenergyaustralia.org.au/john-hewson/"
+      "https://www.bioenergyaustralia.org.au/john-hewson/",
+      "https://www.smartenergy.org.au/our-patrons",
+      "https://crawford.anu.edu.au/people/john-hewson-am"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Bioenergy Australia",
     "category": "Energy (Renewables & Traditional)",
     "sources": [
-      "https://esdnews.com.au/five-minutes-with-dr-john-hewson-bioenergy-australia-chair/"
+      "https://esdnews.com.au/five-minutes-with-dr-john-hewson-bioenergy-australia-chair/",
+      "https://reneweconomy.com.au/john-hewson-appointed-as-chair-of-bioenergy-australia-51575/",
+      "https://www.bioenergyaustralia.org.au/john-hewson/"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Business Council for Sustainable Development Australia",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://www.bioenergyaustralia.org.au/john-hewson/"
+      "https://www.bioenergyaustralia.org.au/john-hewson/",
+      "https://www.wbcsd.org/global-network/business-council-for-sustainable-development-australia-bcsd-australia/",
+      "https://crawford.anu.edu.au/people/john-hewson-am"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Professorial Fellow, Crawford School",
     "organisation": "Australian National University",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://bcec.edu.au/about/people/john-hewson/"
+      "https://bcec.edu.au/about/people/john-hewson/",
+      "https://crawford.anu.edu.au/people/john-hewson-am"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "BCEC Professorial Fellow",
@@ -2421,7 +2462,11 @@
     "sources": [
       "https://bcec.edu.au/about/people/john-hewson/"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Consultant",
@@ -5466,8 +5511,12 @@
       "https://en.wikipedia.org/wiki/Lindsay_Tanner"
     ],
     "pollie_slug": "lindsay-tanner",
-    "start_date": "2010-01-01",
-    "end_date": "2021-12-31"
+    "start_date": "2010-08-01",
+    "end_date": "2021-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Vice Chancellor's Fellow and Adjunct Professor",
@@ -5477,18 +5526,27 @@
       "https://en.wikipedia.org/wiki/Lindsay_Tanner"
     ],
     "pollie_slug": "lindsay-tanner",
-    "start_date": "2010-08-01"
+    "start_date": "2010-08-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
     "organisation": "Essendon Football Club",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://en.wikipedia.org/wiki/Lindsay_Tanner"
+      "https://en.wikipedia.org/wiki/Lindsay_Tanner",
+      "https://www.essendonfc.com.au/news/742911/brasher-to-succeed-tanner-as-president"
     ],
     "pollie_slug": "lindsay-tanner",
     "start_date": "2015-12-14",
-    "end_date": "2020-12-31"
+    "end_date": "2020-10-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -5498,26 +5556,40 @@
       "https://www.suncorpgroup.com.au/about/leadership/lindsay-tanner"
     ],
     "pollie_slug": "lindsay-tanner",
-    "start_date": "2018-01-01"
+    "start_date": "2018-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
     "organisation": "Virgin Australia International Holdings",
     "category": "Retail, Hospitality & Tourism",
     "sources": [
-      "https://uk.marketscreener.com/insider/LINDSAY-TANNER-A1DPXY/"
+      "https://uk.marketscreener.com/insider/LINDSAY-TANNER-A1DPXY/",
+      "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner"
     ],
-    "pollie_slug": "lindsay-tanner"
+    "pollie_slug": "lindsay-tanner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
     "organisation": "IFM Investors",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner"
+      "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner",
+      "https://www.ifminvestors.com/news-and-insights/media-centre/ifm-investors-appoints-new-chair-independent-director/"
     ],
     "pollie_slug": "lindsay-tanner",
-    "start_date": "2023-07-01"
+    "start_date": "2023-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -5526,7 +5598,12 @@
     "sources": [
       "https://www.aflvic.com.au/news/afl-victoria-announces-lindsay-tanner-as-new-chair-053184"
     ],
-    "pollie_slug": "lindsay-tanner"
+    "pollie_slug": "lindsay-tanner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2022-09-29"
   },
   {
     "role": "Director",
@@ -5535,7 +5612,11 @@
     "sources": [
       "https://www.futureskillsorganisation.com.au/lindsay-tanner-2/"
     ],
-    "pollie_slug": "lindsay-tanner"
+    "pollie_slug": "lindsay-tanner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Vice Chancellor's Professorial Fellow",
@@ -6653,7 +6734,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Saïd Business School, University of Oxford",
+    "organisation": "Sa\u00efd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -7731,10 +7812,16 @@
     "organisation": "Members Equity Bank",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://en.wikipedia.org/wiki/Greg_Combet"
+      "https://en.wikipedia.org/wiki/Greg_Combet",
+      "https://www.mebank.com.au/news/greg-combet-retires-from-me-bank-board/"
     ],
     "pollie_slug": "greg-combet",
-    "start_date": "2014-11-01"
+    "start_date": "2014-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "end_date": "2019-11-30"
   },
   {
     "role": "Chair (formerly Director and Deputy Chair)",
@@ -7742,11 +7829,17 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://www.ifminvestors.com/people/greg-combet/",
-      "https://en.wikipedia.org/wiki/Greg_Combet"
+      "https://en.wikipedia.org/wiki/Greg_Combet",
+      "https://www.ifminvestors.com/news-and-insights/media-centre/the-hon.-greg-combet-am-appointed-chair-of-the-ifm-investors-board",
+      "https://www.ifminvestors.com/en-au/news-and-insights/media-centre/statement-from-ifm-investors-chair-greg-combet-am/"
     ],
     "pollie_slug": "greg-combet",
     "start_date": "2014-01-01",
-    "end_date": "2023-12-31"
+    "end_date": "2023-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -7754,21 +7847,33 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://www.ifminvestors.com/people/greg-combet/",
-      "https://en.wikipedia.org/wiki/Greg_Combet"
+      "https://en.wikipedia.org/wiki/Greg_Combet",
+      "https://www.miragenews.com/statement-on-industry-super-australia-chair-1026304/"
     ],
     "pollie_slug": "greg-combet",
-    "start_date": "2018-12-01"
+    "start_date": "2018-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "end_date": "2023-06-30"
   },
   {
     "role": "Member",
     "organisation": "National COVID-19 Coordination Commission",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://en.wikipedia.org/wiki/Greg_Combet"
+      "https://en.wikipedia.org/wiki/Greg_Combet",
+      "https://en.wikipedia.org/wiki/National_COVID-19_Commission_Advisory_Board",
+      "https://www.themandarin.com.au/135700-combet-exits-covid-19-commission/"
     ],
     "pollie_slug": "greg-combet",
     "start_date": "2020-03-25",
-    "end_date": "2020-12-31"
+    "end_date": "2020-07-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Senior Advisor",
@@ -7786,11 +7891,16 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.pm.gov.au/media/appointment-net-zero-economy-agency-and-advisory-board",
-      "https://en.wikipedia.org/wiki/Greg_Combet"
+      "https://en.wikipedia.org/wiki/Greg_Combet",
+      "https://www.netzero.gov.au/net-zero-economy-agency-chair-appointed-head-future-fund"
     ],
     "pollie_slug": "greg-combet",
     "start_date": "2023-07-10",
-    "end_date": "2024-02-29"
+    "end_date": "2024-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -7798,10 +7908,15 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://theconversation.com/former-labor-minister-greg-combet-to-succeed-peter-costello-as-chair-of-the-future-fund-222138",
-      "https://en.wikipedia.org/wiki/Greg_Combet"
+      "https://en.wikipedia.org/wiki/Greg_Combet",
+      "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/appointments-future-fund-board"
     ],
     "pollie_slug": "greg-combet",
-    "start_date": "2024-02-27"
+    "start_date": "2024-02-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Trustee",
@@ -7810,7 +7925,12 @@
     "sources": [
       "https://www.ifminvestors.com/people/greg-combet/"
     ],
-    "pollie_slug": "greg-combet"
+    "pollie_slug": "greg-combet",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Combet was a director/deputy chair of AustralianSuper from 2002-2007, BEFORE entering parliament in 2007. This is a pre-parliament role mistakenly tagged as post-parliamentary. References to his being a 'trustee of AustralianSuper' in later announcements (e.g. 2024 Future Fund appointment release) refer to this same pre-parliament 2002-2007 period."
+    }
   },
   {
     "role": "Board Member",
