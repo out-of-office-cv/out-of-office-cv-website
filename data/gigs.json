@@ -1050,7 +1050,8 @@
     "category": "Technology (Software, IT & Digital Services)",
     "sources": [
       "https://www.paulfletcher.com.au/media-releases/paul-fletcher-join-tech-council-australia",
-      "https://www.innovationaus.com/robyn-denholm-departs-tech-council-prompting-board-refresh/"
+      "https://www.innovationaus.com/robyn-denholm-departs-tech-council-prompting-board-refresh/",
+      "https://techcouncil.com.au/board/"
     ],
     "pollie_slug": "paul-fletcher",
     "start_date": "2025-12-03",
@@ -1386,17 +1387,7 @@
     }
   },
   {
-    "role": "Chief Executive Officer",
-    "organisation": "Foodbank Australia",
-    "category": "Nonprofit, NGO and Charity",
-    "sources": [
-      "https://www.foodbank.org.au/foodbank-australia-announces-new-ceo-kylea-tink/"
-    ],
-    "pollie_slug": "kylea-tink",
-    "start_date": "2025-10-27"
-  },
-  {
-    "role": "Board Director",
+    "role": "Director",
     "organisation": "Beyond Zero Emissions",
     "category": "Environment, Climate & Sustainability",
     "sources": [
@@ -2260,17 +2251,6 @@
     "start_date": "2025-05-01"
   },
   {
-    "role": "Head of Asia Pacific Engagement and SA Chairman",
-    "organisation": "ANZ",
-    "category": "Financial Services and Banking",
-    "sources": [
-      "https://www.mpamag.com/au/mortgage-industry/industry-moves/outgoing-senator-takes-on-role-at-anz/516894"
-    ],
-    "pollie_slug": "simon-birmingham",
-    "start_date": "2025-02-01",
-    "end_date": "2025-08-01"
-  },
-  {
     "role": "Chairman, Advisory Board",
     "organisation": "APPEA (Australian Petroleum Production & Exploration Association)",
     "category": "Natural Resources (Mining, Oil & Gas)",
@@ -2711,51 +2691,12 @@
     "organisation": "ANZ",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.anz.com.au/newsroom/media/2024/december/simon-birmingham-appointed-head-of-asia-pacific-engagement-and-c/"
+      "https://www.anz.com.au/newsroom/media/2024/december/simon-birmingham-appointed-head-of-asia-pacific-engagement-and-c/",
+      "https://www.mpamag.com/au/mortgage-industry/industry-moves/outgoing-senator-takes-on-role-at-anz/516894"
     ],
     "pollie_slug": "simon-birmingham",
     "start_date": "2025-02-01",
     "end_date": "2025-08-18"
-  },
-  {
-    "role": "Chief Executive Officer",
-    "organisation": "Australian Banking Association",
-    "category": "Financial Services and Banking",
-    "sources": [
-      "https://www.ausbanking.org.au/simon-birmingham-appointed-as-aba-ceo/"
-    ],
-    "pollie_slug": "simon-birmingham",
-    "start_date": "2025-08-18"
-  },
-  {
-    "role": "Board Member",
-    "organisation": "Tech Council of Australia",
-    "category": "Technology (Software, IT & Digital Services)",
-    "sources": [
-      "https://www.paulfletcher.com.au/media-releases/paul-fletcher-join-tech-council-australia",
-      "https://techcouncil.com.au/board/"
-    ],
-    "pollie_slug": "paul-fletcher",
-    "start_date": "2025-12-03"
-  },
-  {
-    "role": "Principal",
-    "organisation": "Paul Fletcher and Associates",
-    "category": "Professional Services & Management Consulting",
-    "sources": [
-      "https://www.paulfletcher.com.au/"
-    ],
-    "pollie_slug": "paul-fletcher"
-  },
-  {
-    "role": "Non-Executive Director",
-    "organisation": "Australian Resources Recovery Council",
-    "category": "Environment, Climate & Sustainability",
-    "sources": [
-      "https://www.insidewaste.com.au/112761-karen-andrews/",
-      "https://wastemanagementreview.com.au/former-minister-joins-resources-recovery-sector"
-    ],
-    "pollie_slug": "karen-andrews"
   },
   {
     "role": "Commonwealth Government Representative, Advisory Board",
@@ -2827,7 +2768,7 @@
     "start_date": "2025-02-16"
   },
   {
-    "role": "CEO",
+    "role": "Chief Executive Officer",
     "organisation": "Foodbank Australia",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
@@ -2836,16 +2777,6 @@
     ],
     "pollie_slug": "kylea-tink",
     "start_date": "2025-10-27"
-  },
-  {
-    "role": "Director",
-    "organisation": "Beyond Zero Emissions",
-    "category": "Environment, Climate & Sustainability",
-    "sources": [
-      "https://www.bze.org.au/news-events/item/beyond-zero-emissions-strengthens-board-with-appointment-of-kylea-tink-and-rod-henderson"
-    ],
-    "pollie_slug": "kylea-tink",
-    "start_date": "2025-10-23"
   },
   {
     "role": "Director",
@@ -9703,5 +9634,106 @@
       "https://relationshipscience.com/person/michael-forshaw-180296446"
     ],
     "pollie_slug": "michael-forshaw"
+  },
+  {
+    "role": "Councillor",
+    "organisation": "City of Palmerston",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://palmerston.nt.gov.au/deputy-mayor-damian-hale",
+      "https://en.wikipedia.org/wiki/Damian_Hale"
+    ],
+    "pollie_slug": "damian-hale",
+    "start_date": "2017"
+  },
+  {
+    "role": "Member",
+    "organisation": "Administrative Appeals Tribunal",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://au.linkedin.com/in/david-cox-4533974"
+    ],
+    "pollie_slug": "david-cox"
+  },
+  {
+    "role": "Head of Government Relations",
+    "organisation": "Challenger Limited",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://au.linkedin.com/in/david-cox-4533974"
+    ],
+    "pollie_slug": "david-cox"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Commercial Wine Producers",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://au.linkedin.com/in/david-cox-4533974",
+      "https://www.zoominfo.com/p/David-Cox/2713960955"
+    ],
+    "pollie_slug": "david-cox"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Dexus",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.realestatesource.com.au/dexus-appoints-former-attorney-general-australia-nicola-roxon-board-2/",
+      "https://www.tipranks.com/news/company-announcements/dexus-agm-highlights-board-changes-and-strategic-focus"
+    ],
+    "pollie_slug": "nicola-roxon",
+    "start_date": "2017-09-01"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Lifestyle Communities Limited",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.marketscreener.com/quote/stock/LIFESTYLE-COMMUNITIES-LIM-10355209/news/Lifestyle-Communities-Announces-Retirement-of-the-Hon-Nicola-Roxon-as-Non-Executive-Director-Effec-45498886/"
+    ],
+    "pollie_slug": "nicola-roxon",
+    "end_date": "2023-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "HESTA",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://communitycarereview.com.au/2018/10/31/nicola-roxon-to-take-up-top-role-with-hesta/"
+    ],
+    "pollie_slug": "nicola-roxon",
+    "start_date": "2019-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "VicHealth",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://communitiesincontrol.com.au/speakers/the-honourable-nicola-roxon"
+    ],
+    "pollie_slug": "nicola-roxon",
+    "start_date": "2020-11"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Institute of Health and Welfare",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.aihw.gov.au/news-media/news/2023/september-2023/nicola-roxon-appointed-aihw-chair",
+      "https://www.health.gov.au/ministers/the-hon-mark-butler-mp/media/new-chair-for-aihw-as-wellbeing-report-shows-pandemic-effects-linger"
+    ],
+    "pollie_slug": "nicola-roxon",
+    "start_date": "2023-09"
+  },
+  {
+    "role": "Director",
+    "organisation": "Murdoch Children's Research Institute",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.mcri.edu.au/mcri/leadership",
+      "https://www.nicolaroxon.com/"
+    ],
+    "pollie_slug": "nicola-roxon"
   }
 ]
