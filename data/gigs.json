@@ -10598,5 +10598,107 @@
     ],
     "pollie_slug": "anthony-staley",
     "start_date": "2000"
+  },
+  {
+    "role": "Director",
+    "organisation": "Royal Flying Doctor Service (Queensland Section)",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.queenslandcountrylife.com.au/story/6783673/queens-birthday-honours-for-political-and-mayoral-service/",
+      "https://www.flyingdoctor.org.au/qld/about/rfds-ambassador-program/"
+    ],
+    "pollie_slug": "bruce-scott",
+    "start_date": "2016-06-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Stockman's Hall of Fame and Outback Heritage Centre",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.queenslandcountrylife.com.au/story/6783673/queens-birthday-honours-for-political-and-mayoral-service/"
+    ],
+    "pollie_slug": "bruce-scott"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Southern Queensland Landscapes",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://theorg.com/org/sq-landscapes/org-chart/the-hon-bruce-scott-oam",
+      "https://www.queenslandcountrylife.com.au/story/6783673/queens-birthday-honours-for-political-and-mayoral-service/"
+    ],
+    "pollie_slug": "bruce-scott",
+    "start_date": "2018-01-01"
+  },
+  {
+    "role": "Co-Chair",
+    "organisation": "Telstra Regional Advisory Board",
+    "category": "Telecommunications & Network Infrastructure",
+    "sources": [
+      "https://www.queenslandcountrylife.com.au/story/6783673/queens-birthday-honours-for-political-and-mayoral-service/"
+    ],
+    "pollie_slug": "bruce-scott"
+  },
+  {
+    "role": "Professorial Fellow",
+    "organisation": "Monash University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/button-john-norman/",
+      "https://en.wikipedia.org/wiki/John_Button_(Australian_politician)"
+    ],
+    "pollie_slug": "john-button",
+    "end_date": "2008-04-08"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Melbourne Writers Festival",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://biography.senate.gov.au/button-john-norman/"
+    ],
+    "pollie_slug": "john-button",
+    "start_date": "2002-01-01",
+    "end_date": "2008-04-08"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Commission for the Future",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/button-john-norman/"
+    ],
+    "pollie_slug": "john-button"
+  },
+  {
+    "role": "Special Trade Representative",
+    "organisation": "Australian Government",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://biography.senate.gov.au/button-john-norman/"
+    ],
+    "pollie_slug": "john-button"
+  },
+  {
+    "role": "Director",
+    "organisation": "Talent2 International",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_Gibson_(politician)",
+      "https://biography.senate.gov.au/gibson-brian-francis/"
+    ],
+    "pollie_slug": "brian-gibson",
+    "end_date": "2017-08-15"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian National Maritime Museum",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_Gibson_(politician)",
+      "https://biography.senate.gov.au/gibson-brian-francis/"
+    ],
+    "pollie_slug": "brian-gibson",
+    "end_date": "2017-08-15"
   }
 ]
