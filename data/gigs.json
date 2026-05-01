@@ -9780,5 +9780,27 @@
       "https://www.nicolaroxon.com/"
     ],
     "pollie_slug": "nicola-roxon"
+  },
+  {
+    "role": "Lobbyist",
+    "organisation": "Brian Burke and Julian Grill",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://biography.senate.gov.au/crichton-browne-noel-ashley/",
+      "https://en.wikipedia.org/wiki/Brian_Burke_(Australian_politician)"
+    ],
+    "pollie_slug": "noel-crichton-browne",
+    "start_date": "1996-07-01",
+    "end_date": "2006-11-09"
+  },
+  {
+    "role": "Political Columnist",
+    "organisation": "Crikey",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://biography.senate.gov.au/crichton-browne-noel-ashley/",
+      "https://www.crikey.com.au/2008/08/05/crichton-browne-buswells-departure-a-tragedy-sniff/"
+    ],
+    "pollie_slug": "noel-crichton-browne"
   }
 ]
