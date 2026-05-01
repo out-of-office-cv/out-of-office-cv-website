@@ -6826,7 +6826,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Sa\u00efd Business School, University of Oxford",
+    "organisation": "Saïd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -9634,5 +9634,106 @@
       "https://relationshipscience.com/person/michael-forshaw-180296446"
     ],
     "pollie_slug": "michael-forshaw"
+  },
+  {
+    "role": "Councillor",
+    "organisation": "City of Palmerston",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://palmerston.nt.gov.au/deputy-mayor-damian-hale",
+      "https://en.wikipedia.org/wiki/Damian_Hale"
+    ],
+    "pollie_slug": "damian-hale",
+    "start_date": "2017"
+  },
+  {
+    "role": "Member",
+    "organisation": "Administrative Appeals Tribunal",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://au.linkedin.com/in/david-cox-4533974"
+    ],
+    "pollie_slug": "david-cox"
+  },
+  {
+    "role": "Head of Government Relations",
+    "organisation": "Challenger Limited",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://au.linkedin.com/in/david-cox-4533974"
+    ],
+    "pollie_slug": "david-cox"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Commercial Wine Producers",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://au.linkedin.com/in/david-cox-4533974",
+      "https://www.zoominfo.com/p/David-Cox/2713960955"
+    ],
+    "pollie_slug": "david-cox"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Dexus",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.realestatesource.com.au/dexus-appoints-former-attorney-general-australia-nicola-roxon-board-2/",
+      "https://www.tipranks.com/news/company-announcements/dexus-agm-highlights-board-changes-and-strategic-focus"
+    ],
+    "pollie_slug": "nicola-roxon",
+    "start_date": "2017-09-01"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Lifestyle Communities Limited",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.marketscreener.com/quote/stock/LIFESTYLE-COMMUNITIES-LIM-10355209/news/Lifestyle-Communities-Announces-Retirement-of-the-Hon-Nicola-Roxon-as-Non-Executive-Director-Effec-45498886/"
+    ],
+    "pollie_slug": "nicola-roxon",
+    "end_date": "2023-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "HESTA",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://communitycarereview.com.au/2018/10/31/nicola-roxon-to-take-up-top-role-with-hesta/"
+    ],
+    "pollie_slug": "nicola-roxon",
+    "start_date": "2019-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "VicHealth",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://communitiesincontrol.com.au/speakers/the-honourable-nicola-roxon"
+    ],
+    "pollie_slug": "nicola-roxon",
+    "start_date": "2020-11"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Institute of Health and Welfare",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.aihw.gov.au/news-media/news/2023/september-2023/nicola-roxon-appointed-aihw-chair",
+      "https://www.health.gov.au/ministers/the-hon-mark-butler-mp/media/new-chair-for-aihw-as-wellbeing-report-shows-pandemic-effects-linger"
+    ],
+    "pollie_slug": "nicola-roxon",
+    "start_date": "2023-09"
+  },
+  {
+    "role": "Director",
+    "organisation": "Murdoch Children's Research Institute",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.mcri.edu.au/mcri/leadership",
+      "https://www.nicolaroxon.com/"
+    ],
+    "pollie_slug": "nicola-roxon"
   }
 ]
