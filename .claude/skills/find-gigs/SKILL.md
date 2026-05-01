@@ -109,6 +109,22 @@ Format each gig as a JSON object matching this schema:
 }
 ```
 
+### Role-naming rules
+
+To keep the dataset consistent and reduce accidental duplicates across runs:
+
+- **Expand acronyms** to their canonical full form. Write `Chief Executive
+  Officer` not `CEO`, `Chief Financial Officer` not `CFO`, `Chief Operating
+  Officer` not `COO`, `Non-Executive Director` not `NED`, `Australian
+  Broadcasting Corporation` not `ABC` (in the organisation field), and so on.
+  If the source uses an acronym, expand it before storing.
+- **Use Australian English** spellings (`organisation`, not `organization`).
+- **Strip leading articles** ("The", "A") from organisation names unless
+  they're part of a registered legal name.
+- **Drop redundant qualifiers** that don't change the role's identity: prefer
+  `Director` over `Board Director` (a director is by definition on the board);
+  prefer `Chair` over `Chairperson` / `Chairman` / `Chairwoman`.
+
 Do NOT include a `verification` field --- these are unverified candidates.
 The `verification` object is only set by the human verification flow or by the
 verify-gigs skill.
@@ -123,10 +139,43 @@ Present all found gigs in a clear table showing:
 - Source URL(s)
 - Dates (if known)
 
-Also flag any gigs that already exist in `data/gigs.json` (matching on
-pollie_slug + organisation + role) so duplicates are obvious. **Skip
-candidates that match an existing entry where `verification.decision ===
-"rejected"`** --- those have already been reviewed and dismissed.
+### Duplicate detection (tiered)
+
+For each candidate gig, compare against every existing gig in `data/gigs.json`
+with the same `pollie_slug`. Apply the strongest signal that matches:
+
+**Tier 1 --- hard skip (do not add).** These are almost certainly the same
+gig as an existing entry:
+
+- Same organisation AND any source URL appears in both gigs (exact URL
+  match).
+- Same organisation AND the role matches after normalisation. Normalisation:
+  lowercase, expand common acronyms (`ceo` ↔ `chief executive officer`,
+  `cfo` ↔ `chief financial officer`, `coo` ↔ `chief operating officer`,
+  `ned` ↔ `non-executive director`), strip leading qualifiers (`board`,
+  `senior`, `acting`, `interim`, `deputy`), and treat
+  `chair` / `chairperson` / `chairman` / `chairwoman` as equivalent.
+- Same organisation AND same `start_date` (or both missing a `start_date`
+  but the start year inferred from sources is the same).
+
+**Tier 2 --- flag for human review (still add, but list under "Possible
+duplicates" in the run summary).** A weaker signal that the human reviewer
+should sanity-check:
+
+- Same organisation AND any source domain (e.g. `foodbank.org.au`) appears in
+  both gigs, even if the URL paths differ.
+- Same organisation AND the role is unrelated/different on its face (e.g.
+  pollie was Director then later Chair) --- usually a legitimate second gig,
+  but worth confirming it isn't a re-announcement of the same role.
+
+**Tier 3 --- skip silently.** An existing entry has
+`verification.decision === "rejected"` --- already reviewed and dismissed; do
+not re-add even if the role/organisation match.
+
+Print a clear "Duplicate report" section in your run output before writing
+the data file, listing every Tier 1 skip and every Tier 2 flag with the
+reason and the existing-gig key (`role @ organisation`). This goes into the
+cron log, where the human reviewer can find it when triaging the PR.
 
 Add all non-duplicate, non-rejected gigs automatically, but stop appending
 once 10 new gigs have been added in this run. This is a soft cap that
