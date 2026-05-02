@@ -3901,17 +3901,25 @@
     "organisation": "Fair Work Commission",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.canberratimes.com.au/story/8724923/terri-butler-appointed-deputy-president-of-fair-work-commission/"
+      "https://www.canberratimes.com.au/story/8724923/terri-butler-appointed-deputy-president-of-fair-work-commission/",
+      "https://ministers.dewr.gov.au/watt/new-fair-work-commission-appointments",
+      "https://en.wikipedia.org/wiki/Terri_Butler"
     ],
     "pollie_slug": "terri-butler",
-    "start_date": "2024-09-09"
+    "start_date": "2024-09-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
     "organisation": "Smart Energy Council",
     "category": "Energy (Renewables & Traditional)",
     "sources": [
-      "https://www.miragenews.com/terri-butler-joins-smart-energy-council-board-908448/"
+      "https://www.miragenews.com/terri-butler-joins-smart-energy-council-board-908448/",
+      "https://mtai.edu.au/about/about-mtai/terri-butler/",
+      "https://au.linkedin.com/in/terrimbutler"
     ],
     "pollie_slug": "terri-butler",
     "start_date": "2022-12-05"
@@ -3924,16 +3932,25 @@
       "https://news.griffith.edu.au/2022/12/08/terri-butler-brought-in-to-bat-for-griffiths-climate-ready-initiative/"
     ],
     "pollie_slug": "terri-butler",
-    "start_date": "2022-12-08"
+    "start_date": "2022-12-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Sustainable Aviation Fuels Alliance of Australia and New Zealand (SAFAANZ)",
     "category": "Energy (Renewables & Traditional)",
     "sources": [
-      "https://mtai.edu.au/about/about-mtai/terri-butler/"
+      "https://mtai.edu.au/about/about-mtai/terri-butler/",
+      "https://www.bioenergystrong.org.au/news/media-release-transitioning-australias-liquid-fuel-sector/"
     ],
-    "pollie_slug": "terri-butler"
+    "pollie_slug": "terri-butler",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -3942,7 +3959,11 @@
     "sources": [
       "https://mtai.edu.au/about/about-mtai/terri-butler/"
     ],
-    "pollie_slug": "terri-butler"
+    "pollie_slug": "terri-butler",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -5044,37 +5065,58 @@
       "https://www.cbussuper.com.au/about-us/news/media-release/wayne-swan-to-chair-cbus-super"
     ],
     "pollie_slug": "wayne-swan",
-    "start_date": "2022-01-01"
+    "start_date": "2022-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Chairman",
     "organisation": "Diatreme Resources",
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://www.listcorp.com/asx/drx/diatreme-resources-limited/news/mr-wayne-swan-appointed-non-executive-director-and-amp-chairman-2624283.html"
+      "https://www.listcorp.com/asx/drx/diatreme-resources-limited/news/mr-wayne-swan-appointed-non-executive-director-and-amp-chairman-2624283.html",
+      "https://arr.news/2021/11/16/mine-prospects-increase-with-big-signing-of-swan/"
     ],
     "pollie_slug": "wayne-swan",
-    "start_date": "2021-11-02"
+    "start_date": "2021-11-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Stanwell Corporation",
     "category": "Energy (Renewables & Traditional)",
     "sources": [
-      "https://reneweconomy.com.au/wayne-swan-joins-revolving-door-from-canberra-to-fossil-fuel-industry-47595/"
+      "https://reneweconomy.com.au/wayne-swan-joins-revolving-door-from-canberra-to-fossil-fuel-industry-47595/",
+      "https://southburnett.com.au/news2/2019/12/13/ex-mp-appointed-to-stanwell/"
     ],
     "pollie_slug": "wayne-swan",
-    "start_date": "2019-01-01"
+    "start_date": "2019-12-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Appointment announced 13 December 2019 by QLD Government. Original start_date of 2019-01-01 predates his ceased date and is incorrect; corrected to announcement date."
+    }
   },
   {
     "role": "National President",
     "organisation": "Australian Labor Party",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://www.alp.org.au/about/organisation/wayne-swan/"
+      "https://www.alp.org.au/about/organisation/wayne-swan/",
+      "https://en.wikipedia.org/wiki/Wayne_Swan"
     ],
     "pollie_slug": "wayne-swan",
-    "start_date": "2018-06-18"
+    "start_date": "2018-06-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Elected ALP National President 18 June 2018 (while still in parliament); role continues post-ceased-date and he was re-elected unopposed in April 2023."
+    }
   },
   {
     "role": "Senior Fellow",
@@ -5085,16 +5127,27 @@
     ],
     "pollie_slug": "wayne-swan",
     "start_date": "2015-01-01",
-    "end_date": "2016-12-31"
+    "end_date": "2016-12-31",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Yale Jackson School Senior Fellowship was 2015-2016, entirely while Swan was still serving as the Member for Lilley (he ceased 2019-04-11). This is a pre-parliament role mistakenly tagged as post-parliament."
+    }
   },
   {
     "role": "Commissioner",
     "organisation": "Independent Commission for Reform of International Corporate Taxation",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.icrict.com/commission/wayne-swan/"
+      "https://www.icrict.com/commission/wayne-swan/",
+      "https://www.icrict.com/icrict-in-thenews/2018/4/18/wayne-swan-joins-economic-big-wigs-fighting-global-tax-cuts"
     ],
-    "pollie_slug": "wayne-swan"
+    "pollie_slug": "wayne-swan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Joined ICRICT as Commissioner on 18 April 2018 (while still in parliament); role continues post-ceased-date and he is currently listed as a commissioner on icrict.com/about-us."
+    }
   },
   {
     "role": "Principal Consultant",
@@ -5673,10 +5726,15 @@
     "organisation": "Insurance Commission of Western Australia",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.icwa.wa.gov.au/about-us/board"
+      "https://www.icwa.wa.gov.au/about-us/board",
+      "https://www.mediastatements.wa.gov.au/Pages/McGowan/2022/10/New-board-appointments-for-WA%E2%80%99s-Insurance-Commission.aspx"
     ],
     "pollie_slug": "ben-morton",
-    "start_date": "2022-10-01"
+    "start_date": "2022-10-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -5686,7 +5744,11 @@
       "https://www.southernports.com.au/board"
     ],
     "pollie_slug": "ben-morton",
-    "start_date": "2023-01-01"
+    "start_date": "2023-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -5696,14 +5758,19 @@
       "https://perkins.org.au/former-federal-minister-joins-perkins-board/"
     ],
     "pollie_slug": "ben-morton",
-    "start_date": "2024-02-08"
+    "start_date": "2024-02-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Celebrate WA",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://www.celebratewa.com.au/our-people/the-hon-ben-morton/"
+      "https://www.celebratewa.com.au/our-people/the-hon-ben-morton/",
+      "https://perkins.org.au/person/hon-ben-morton/"
     ],
     "pollie_slug": "ben-morton",
     "start_date": "2024-01-01"
@@ -5716,7 +5783,11 @@
       "https://www.nrl.com/news/2025/06/28/perth-bears-inaugural-board-announced/"
     ],
     "pollie_slug": "ben-morton",
-    "start_date": "2025-06-28"
+    "start_date": "2025-06-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Special Adviser",
