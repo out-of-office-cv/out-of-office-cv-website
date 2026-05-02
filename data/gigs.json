@@ -10771,5 +10771,105 @@
     ],
     "pollie_slug": "brian-gibson",
     "end_date": "2017-08-15"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "Commonwealth Grants Commission",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.canberratimes.com.au/story/6028806/former-eden-monaro-mp-peter-hendy-named-to-commonwealth-grants-commission/",
+      "https://www.phcaustralia.com.au/people/hon-dr-peter-hendy/"
+    ],
+    "pollie_slug": "peter-hendy",
+    "start_date": "2017-08"
+  },
+  {
+    "role": "Member",
+    "organisation": "Council for Australian-Arab Relations",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.foreignminister.gov.au/minister/julie-bishop/media-release/council-australian-arab-relations-appointments",
+      "https://www.phcaustralia.com.au/people/hon-dr-peter-hendy/"
+    ],
+    "pollie_slug": "peter-hendy",
+    "start_date": "2017",
+    "end_date": "2020"
+  },
+  {
+    "role": "Advisory Board Co-Chair",
+    "organisation": "Cornerstone Group",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.linkedin.com/pulse/1st-state-changes-name-cornerstone-group-strengthens-reach-tannous",
+      "https://www.phcaustralia.com.au/people/hon-dr-peter-hendy/"
+    ],
+    "pollie_slug": "peter-hendy",
+    "start_date": "2017-09-01",
+    "end_date": "2020"
+  },
+  {
+    "role": "Director",
+    "organisation": "Economic Society of Australia (NSW)",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.phcaustralia.com.au/people/hon-dr-peter-hendy/"
+    ],
+    "pollie_slug": "peter-hendy",
+    "start_date": "2017",
+    "end_date": "2021"
+  },
+  {
+    "role": "Director",
+    "organisation": "Self-managed Independent Superannuation Funds Association of Australia",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.phcaustralia.com.au/people/hon-dr-peter-hendy/"
+    ],
+    "pollie_slug": "peter-hendy",
+    "start_date": "2017",
+    "end_date": "2019"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Independent Higher Education Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://ihea.edu.au/news/ihea-announces-new-ceo-dr-peter-hendy/",
+      "https://www.themandarin.com.au/186629-former-pmo-chief-economist-and-parliamentarian-to-lead-independent-higher-education-body/"
+    ],
+    "pollie_slug": "peter-hendy",
+    "start_date": "2022-04"
+  },
+  {
+    "role": "Director",
+    "organisation": "Infants Home Child and Family Services",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.phcaustralia.com.au/people/hon-dr-peter-hendy/"
+    ],
+    "pollie_slug": "peter-hendy"
+  },
+  {
+    "role": "Chair",
+    "organisation": "AgriFutures Australia",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://agrifutures.com.au/news/minister-appoints-ms-cathy-mcgowan-ao-as-the-new-chair-for-agrifutures-australia/",
+      "https://minister.agriculture.gov.au/watt/media-releases/cathy-mcgowan-announced-as-new-agrifutures-chairperson"
+    ],
+    "pollie_slug": "cathy-mcgowan",
+    "start_date": "2023-01-11",
+    "end_date": "2026-01-11"
+  },
+  {
+    "role": "Director, Strategic Client and Relationships",
+    "organisation": "Cygnet West",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://cygnetwest.com/experts/ian-goodenough/",
+      "https://www.linkedin.com/in/iangoodenoughmp/"
+    ],
+    "pollie_slug": "ian-goodenough",
+    "start_date": "2025"
   }
 ]
