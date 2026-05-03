@@ -4788,10 +4788,15 @@
     "organisation": "Core Law & Advisory",
     "category": "Legal & Judicial",
     "sources": [
-      "https://www.businessnews.com.au/Person/Celia-Hammond"
+      "https://www.businessnews.com.au/Person/Celia-Hammond",
+      "https://www.linkedin.com/in/celia-hammond-65bb54240/"
     ],
     "pollie_slug": "celia-hammond",
-    "start_date": "2022-07-01"
+    "start_date": "2022-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chair",
@@ -4802,7 +4807,11 @@
       "https://www.businessnews.com.au/Person/Celia-Hammond"
     ],
     "pollie_slug": "celia-hammond",
-    "start_date": "2023-05-01"
+    "start_date": "2023-05-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Trustee",
@@ -4813,17 +4822,26 @@
       "https://www.businessnews.com.au/Person/Celia-Hammond"
     ],
     "pollie_slug": "celia-hammond",
-    "start_date": "2023-01-01"
+    "start_date": "2023-07-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Commissioner",
     "organisation": "Catholic Education Western Australia",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.businessnews.com.au/Person/Celia-Hammond"
+      "https://www.businessnews.com.au/Person/Celia-Hammond",
+      "https://perthcatholic.org.au/News__Events-News-2023-March-Week_2-Two_new_commissioners_announced_for_Catholic_Education_Western_Australia.htm"
     ],
     "pollie_slug": "celia-hammond",
-    "start_date": "2023-03-01"
+    "start_date": "2023-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -6096,8 +6114,12 @@
       "https://en.wikipedia.org/wiki/George_Brandis"
     ],
     "pollie_slug": "george-brandis",
-    "start_date": "2018-05-01",
-    "end_date": "2022-05-01"
+    "start_date": "2018-05-03",
+    "end_date": "2022-04-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Professor in the Practice of National Security, Policy and Law",
@@ -6107,34 +6129,54 @@
       "https://nsc.anu.edu.au/people/professor-hon-george-brandis-kc"
     ],
     "pollie_slug": "george-brandis",
-    "start_date": "2022-06-01"
+    "start_date": "2022-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Board Member",
     "organisation": "Council on Geostrategy",
     "category": "Defence & Military and Security",
     "sources": [
-      "https://www.geostrategy.org.uk/advisory-board/"
+      "https://www.geostrategy.org.uk/advisory-board/",
+      "https://en.wikipedia.org/wiki/George_Brandis"
     ],
-    "pollie_slug": "george-brandis"
+    "pollie_slug": "george-brandis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Constitution Education Fund Australia",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "http://www.cefa.org.au/professor-george-brandis-kc"
+      "http://www.cefa.org.au/professor-george-brandis-kc",
+      "http://www.cefa.org.au/governance"
     ],
-    "pollie_slug": "george-brandis"
+    "pollie_slug": "george-brandis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Columnist",
     "organisation": "The Sydney Morning Herald / The Age",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "http://www.cefa.org.au/professor-george-brandis-kc"
+      "http://www.cefa.org.au/professor-george-brandis-kc",
+      "http://www.cefa.org.au/governance",
+      "https://en.wikipedia.org/wiki/George_Brandis"
     ],
-    "pollie_slug": "george-brandis"
+    "pollie_slug": "george-brandis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Director",
@@ -10781,7 +10823,11 @@
       "https://www.phcaustralia.com.au/people/hon-dr-peter-hendy/"
     ],
     "pollie_slug": "peter-hendy",
-    "start_date": "2017-08"
+    "start_date": "2017-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -10789,11 +10835,16 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://www.foreignminister.gov.au/minister/julie-bishop/media-release/council-australian-arab-relations-appointments",
-      "https://www.phcaustralia.com.au/people/hon-dr-peter-hendy/"
+      "https://www.phcaustralia.com.au/people/hon-dr-peter-hendy/",
+      "https://www.canberratimes.com.au/story/6028806/former-eden-monaro-mp-peter-hendy-named-to-commonwealth-grants-commission/"
     ],
     "pollie_slug": "peter-hendy",
-    "start_date": "2017",
-    "end_date": "2020"
+    "start_date": "2018-04",
+    "end_date": "2020",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Board Co-Chair",
@@ -10805,7 +10856,11 @@
     ],
     "pollie_slug": "peter-hendy",
     "start_date": "2017-09-01",
-    "end_date": "2020"
+    "end_date": "2020",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -10823,11 +10878,16 @@
     "organisation": "Self-managed Independent Superannuation Funds Association of Australia",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.phcaustralia.com.au/people/hon-dr-peter-hendy/"
+      "https://www.phcaustralia.com.au/people/hon-dr-peter-hendy/",
+      "https://www.smsfadviser.com/news/16036-association-marks-big-changes-with-personnel-moves-new-services"
     ],
     "pollie_slug": "peter-hendy",
     "start_date": "2017",
-    "end_date": "2019"
+    "end_date": "2019",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -10838,7 +10898,11 @@
       "https://www.themandarin.com.au/186629-former-pmo-chief-economist-and-parliamentarian-to-lead-independent-higher-education-body/"
     ],
     "pollie_slug": "peter-hendy",
-    "start_date": "2022-04"
+    "start_date": "2022-04",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -10847,7 +10911,11 @@
     "sources": [
       "https://www.phcaustralia.com.au/people/hon-dr-peter-hendy/"
     ],
-    "pollie_slug": "peter-hendy"
+    "pollie_slug": "peter-hendy",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
