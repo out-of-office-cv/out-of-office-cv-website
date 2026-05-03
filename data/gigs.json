@@ -10939,5 +10939,86 @@
     ],
     "pollie_slug": "ian-goodenough",
     "start_date": "2025"
+  },
+  {
+    "role": "Chair",
+    "organisation": "DrinkWise Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Trish_Worth",
+      "https://www.linkedin.com/in/trish-worth-44548143/"
+    ],
+    "pollie_slug": "trish-worth"
+  },
+  {
+    "role": "Director",
+    "organisation": "Herefords Australia",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.herefordsaustralia.com.au/2022/04/strengthening-commercial-relevance-key-focus-for-new-herefords-board/"
+    ],
+    "pollie_slug": "trish-worth",
+    "end_date": "2022-04-29"
+  },
+  {
+    "role": "Convenor",
+    "organisation": "Classification Review Board",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.classification.gov.au/about-us/classification-review-board/board-appointments",
+      "https://en.wikipedia.org/wiki/Sue_Knowles"
+    ],
+    "pollie_slug": "susan-knowles",
+    "start_date": "2019-01-03",
+    "end_date": "2022-06-30"
+  },
+  {
+    "role": "Member",
+    "organisation": "Ad Standards Community Panel",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sue_Knowles",
+      "https://adstandards.com.au/people/sue-knowles/"
+    ],
+    "pollie_slug": "susan-knowles"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Old Parliament House",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.tonyburke.com.au/media-releases/2024/appointment-to-the-board-of-old-parliament-house-june",
+      "https://www.miragenews.com/appointment-to-board-of-old-parliament-house-14-1256049/"
+    ],
+    "pollie_slug": "susan-knowles",
+    "start_date": "2024-06-14"
+  },
+  {
+    "role": "Non-Executive Chair",
+    "organisation": "Perihelion Health",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.miragenews.com/appointment-to-board-of-old-parliament-house-14-1256049/"
+    ],
+    "pollie_slug": "susan-knowles"
+  },
+  {
+    "role": "Deputy Mayor",
+    "organisation": "Gladstone Regional Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.gladstone.qld.gov.au/news/article/659/councillor-chris-trevor-on-leave-of-absence-from-civic-duties",
+      "https://www.gladstone.qld.gov.au/news/article/860/gladstone-region-mayor-matt-burnett-and-councillors-sworn-into-office"
+    ],
+    "pollie_slug": "chris-trevor"
+  },
+  {
+    "role": "Special Adviser",
+    "organisation": "Chris Trevor & Associates",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.christrevor.com.au/who-we-are"
+    ],
+    "pollie_slug": "chris-trevor"
   }
 ]
