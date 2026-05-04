@@ -37,8 +37,10 @@ Print the selection (pollie slug + count) before dispatching.
 
 ## Step 2: dispatch one subagent per pollie in parallel
 
-Use the `Task` tool with `subagent_type: general-purpose`. Send all dispatches
-in a single message so they run concurrently.
+Use the `Task` tool with `subagent_type: general-purpose` and `model: "sonnet"`
+(per-pollie verification has a strict schema and well-defined decision rules,
+so it doesn't need Opus). Send all dispatches in a single message so they run
+concurrently.
 
 Each subagent prompt must include:
 

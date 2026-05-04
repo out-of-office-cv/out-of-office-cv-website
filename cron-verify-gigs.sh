@@ -21,7 +21,6 @@ git pull --rebase origin main >> "$LOG_FILE" 2>&1
 
 env -u CLAUDECODE /home/ben/.local/bin/claude \
   --dangerously-skip-permissions \
-  --effort max \
   -p "/verify-gigs" \
   >> "$LOG_FILE" 2>&1 || true
 
