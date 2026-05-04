@@ -3979,9 +3979,15 @@
     "organisation": "NICM Health Research Institute, Western Sydney University",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.westernsydney.edu.au/nicmhri/about-us/people/adjuncts/kerryn-phelps"
+      "https://www.westernsydney.edu.au/nicmhri/about-us/people/adjuncts/kerryn-phelps",
+      "https://www.westernsydney.edu.au/nicm/about_us/people/nicm_advisory_board/kerryn_phelps"
     ],
-    "pollie_slug": "kerryn-phelps"
+    "pollie_slug": "kerryn-phelps",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The official NICM Health Research Institute page at Western Sydney University confirms she holds both the Adjunct Professor and Advisory Board Member roles."
+    }
   },
   {
     "role": "Advisory Council Member",
@@ -3991,16 +3997,27 @@
       "https://www.canberratimes.com.au/story/7483791/kerryn-phelps-joins-climate-200-campaign/"
     ],
     "pollie_slug": "kerryn-phelps",
-    "start_date": "2021-10-01"
+    "start_date": "2021-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Canberra Times article dated 25 October 2021 confirms Kerryn Phelps joined Climate 200's advisory council alongside Tony Windsor and Rob Oakeshott."
+    }
   },
   {
     "role": "Executive Member",
     "organisation": "OzSAGE",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://independentaustralia.net/profile-on/kerryn-phelps,1253"
+      "https://independentaustralia.net/profile-on/kerryn-phelps,1253",
+      "https://www.thebourkestreetclinic.com.au/news-articles/practitioners/prof-kerryn-phelps-am/"
     ],
-    "pollie_slug": "kerryn-phelps"
+    "pollie_slug": "kerryn-phelps",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources confirm Kerryn Phelps as an Executive Member of OzSAGE, including her Bourke Street Clinic professional bio and references in her parliamentary Long COVID submission."
+    }
   },
   {
     "role": "Chair-elect",
@@ -4009,7 +4026,12 @@
     "sources": [
       "https://www.unisq.edu.au/news/2022/11/hemp-crc-bid"
     ],
-    "pollie_slug": "kerryn-phelps"
+    "pollie_slug": "kerryn-phelps",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The UniSQ news article from November 2022 explicitly names Kerryn Phelps AM as Chair Elect for the Hemp CRC bid, post-dating her departure from parliament in May 2019."
+    }
   },
   {
     "role": "Board Member",
@@ -4019,7 +4041,12 @@
       "https://en.wikipedia.org/wiki/Kerryn_Phelps"
     ],
     "pollie_slug": "kerryn-phelps",
-    "start_date": "2014-01-01"
+    "start_date": "2014-01-01",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Wikipedia confirms the Hockey Australia board appointment was in 2014, four years before Phelps entered parliament in November 2018. No evidence exists that this role continued after she left parliament in May 2019 - the role is a pre-parliament appointment mistakenly tagged as post-parliament."
+    }
   },
   {
     "role": "Chief Executive",
@@ -6053,21 +6080,35 @@
     "organisation": "Sydney Organising Committee for the Olympic Games (SOCOG)",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://theconversation.com/kingmaker-labor-warrior-and-no-stranger-to-scandal-graham-richardson-dies-at-76-269357"
+      "https://theconversation.com/kingmaker-labor-warrior-and-no-stranger-to-scandal-graham-richardson-dies-at-76-269357",
+      "https://en.wikipedia.org/wiki/Graham_Richardson",
+      "https://www.wsws.org/en/articles/1999/11/oly-n05.html"
     ],
     "pollie_slug": "graham-richardson",
     "start_date": "1996-01-01",
-    "end_date": "2000-12-31"
+    "end_date": "2000-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple strong sources confirm Richardson was a SOCOG board member and Mayor of the Olympic Village for the Sydney 2000 Games. Wikipedia, the Senate biographical dictionary, and contemporaneous WSWS reporting all confirm both roles."
+    }
   },
   {
     "role": "Political Commentator and Host",
     "organisation": "Sky News Australia",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Graham_Richardson"
+      "https://en.wikipedia.org/wiki/Graham_Richardson",
+      "https://en.wikipedia.org/wiki/Richo_(TV_program)"
     ],
     "pollie_slug": "graham-richardson",
-    "end_date": "2021-12-31"
+    "end_date": "2021-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and multiple news sources confirm Richardson hosted the weekly program Richo on Sky News Australia from 2011, later co-hosting Richo + Jones with Alan Jones from 2013/2014. The program concluded in 2021."
+    },
+    "start_date": "2011-01-01"
   },
   {
     "role": "Columnist",
@@ -6076,7 +6117,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Graham_Richardson"
     ],
-    "pollie_slug": "graham-richardson"
+    "pollie_slug": "graham-richardson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources confirm Richardson wrote weekly political columns for The Australian newspaper throughout his post-parliamentary career."
+    }
   },
   {
     "role": "Political Commentator",
@@ -6085,16 +6131,28 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Graham_Richardson"
     ],
-    "pollie_slug": "graham-richardson"
+    "pollie_slug": "graham-richardson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources confirm Richardson served as a political commentator for the Seven Network."
+    }
   },
   {
     "role": "Lobbyist and Consultant",
     "organisation": "Independent (various clients)",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://biography.senate.gov.au/richardson-graham-frederick/"
+      "https://biography.senate.gov.au/richardson-graham-frederick/",
+      "https://en.wikipedia.org/wiki/Graham_Richardson",
+      "https://theconversation.com/kingmaker-labor-warrior-and-no-stranger-to-scandal-graham-richardson-dies-at-76-269357"
     ],
-    "pollie_slug": "graham-richardson"
+    "pollie_slug": "graham-richardson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple strong sources confirm Richardson had a post-parliamentary career as a lobbyist and corporate adviser, including work for Kerry Packer's media empire for approximately eight years after leaving politics in 1994."
+    }
   },
   {
     "role": "Director",
@@ -6760,33 +6818,49 @@
     "organisation": "Corrs Chambers Westgarth",
     "category": "Legal & Judicial",
     "sources": [
-      "https://en.wikipedia.org/wiki/Ian_Macphee"
+      "https://en.wikipedia.org/wiki/Ian_Macphee",
+      "https://www.trinity.unimelb.edu.au/whats-happening/events/malcom-fraser-symposium/ian-mcphee"
     ],
     "pollie_slug": "ian-macphee",
     "start_date": "1990",
-    "end_date": "1996"
+    "end_date": "1996",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director of Industrial Relations",
     "organisation": "Telstra",
     "category": "Telecommunications & Network Infrastructure",
     "sources": [
-      "https://en.wikipedia.org/wiki/Ian_Macphee"
+      "https://en.wikipedia.org/wiki/Ian_Macphee",
+      "https://www.trinity.unimelb.edu.au/whats-happening/events/malcom-fraser-symposium/ian-mcphee"
     ],
     "pollie_slug": "ian-macphee",
     "start_date": "1990",
-    "end_date": "1996"
+    "end_date": "1996",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Australian Broadcasting Corporation",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Ian_Macphee"
+      "https://en.wikipedia.org/wiki/Ian_Macphee",
+      "https://en.wikipedia.org/wiki/ABC_Board"
     ],
     "pollie_slug": "ian-macphee",
-    "start_date": "1994",
-    "end_date": "1999"
+    "start_date": "1994-12-09",
+    "end_date": "1999",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ABC Board Wikipedia article records Ian Macphee's appointment date as 9 December 1994; multiple sources confirm a five-year term ending ~1999."
+    }
   },
   {
     "role": "Board Member",
@@ -6795,7 +6869,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Ian_Macphee"
     ],
-    "pollie_slug": "ian-macphee"
+    "pollie_slug": "ian-macphee",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Independent Reviewer, Tender Evaluation Process",
@@ -6806,7 +6884,12 @@
     ],
     "pollie_slug": "ian-macphee",
     "start_date": "1992",
-    "end_date": "1992-12-31"
+    "end_date": "1992-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Macphee conducted an independent review of the CAA's tender evaluation process for the Australian Advanced Air Traffic System, which reported in December 1992."
+    }
   },
   {
     "role": "Chairman",
@@ -9734,7 +9817,12 @@
     ],
     "pollie_slug": "jim-short",
     "start_date": "1997-05-01",
-    "end_date": "2000-05-01"
+    "end_date": "2000-05-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Senate biographical dictionary explicitly states Short resigned on 12 May 1997 to take up a 'three-year appointment as the Australian member of the Executive Board' at the EBRD in London. Wikipedia corroborates dates of 1997-2000."
+    }
   },
   {
     "role": "Special Envoy for Cyprus",
@@ -9742,11 +9830,17 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://biography.senate.gov.au/short-james-robert/",
-      "https://en.wikipedia.org/wiki/Jim_Short_(politician)"
+      "https://en.wikipedia.org/wiki/Jim_Short_(politician)",
+      "https://www.dfat.gov.au/news/media/Pages/special-envoy-for-cyprus-meets-president-clerides"
     ],
     "pollie_slug": "jim-short",
     "start_date": "2000-12-01",
-    "end_date": "2007-12-01"
+    "end_date": "2007-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by DFAT media releases and the Senate biographical dictionary. Appointed by Foreign Affairs Minister Alexander Downer in December 2000, served seven years to 2007."
+    }
   },
   {
     "role": "Chair",
@@ -9758,7 +9852,12 @@
     ],
     "pollie_slug": "jim-short",
     "start_date": "2002-01-01",
-    "end_date": "2003-12-31"
+    "end_date": "2003-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Senate biographical dictionary states Short served as principal consultant at ACIL Tasman from 2000 and chaired the firm from 2002-03. The Maynereport article also refers to him as 'former Chairman of ACIL Tasman'."
+    }
   },
   {
     "role": "Executive Director",
