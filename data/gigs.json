@@ -11119,5 +11119,236 @@
       "https://www.christrevor.com.au/who-we-are"
     ],
     "pollie_slug": "chris-trevor"
+  },
+  {
+    "role": "Adviser",
+    "organisation": "Australian Democrats",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jean_Jenkins_(politician)",
+      "https://biography.senate.gov.au/jenkins-jean-alice/"
+    ],
+    "pollie_slug": "jean-jenkins",
+    "start_date": "1990-07-01",
+    "end_date": "1991-12-31"
+  },
+  {
+    "role": "Breakfast Presenter",
+    "organisation": "6PR",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Eoin_Cameron",
+      "https://theworstofperth.com/2009/05/06/radio-ratings-rigged/",
+      "https://www.sbs.com.au/news/article/perth-radio-king-eoin-cameron-dies-aged-65/fladfcmaf"
+    ],
+    "pollie_slug": "eoin-cameron"
+  },
+  {
+    "role": "Radio Presenter",
+    "organisation": "6NR",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Eoin_Cameron",
+      "https://theworstofperth.com/2009/05/06/radio-ratings-rigged/"
+    ],
+    "pollie_slug": "eoin-cameron"
+  },
+  {
+    "role": "Breakfast Presenter",
+    "organisation": "Australian Broadcasting Corporation",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Eoin_Cameron",
+      "https://www.sbs.com.au/news/article/perth-radio-king-eoin-cameron-dies-aged-65/fladfcmaf",
+      "https://radioinfo.com.au/news/720-abc-perth-presenter-retire/"
+    ],
+    "pollie_slug": "eoin-cameron"
+  },
+  {
+    "role": "Author",
+    "organisation": "Fremantle Press",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://fremantlepress.com.au/contributor/eoin-cameron/",
+      "https://fremantlepress.com.au/books/rolling-into-the-world/",
+      "https://en.wikipedia.org/wiki/Eoin_Cameron"
+    ],
+    "pollie_slug": "eoin-cameron"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Kimberley Foundation Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://au.linkedin.com/in/hon-laurie-brereton-1b7b2668",
+      "https://www.businessnews.com.au/Person/Laurie-Brereton",
+      "https://rockartaustralia.org.au/inaugural-kimberley-foundation-minderoo-chair-of-archaeological-science-announced/"
+    ],
+    "pollie_slug": "laurie-brereton"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Rock Art Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Laurie-Brereton",
+      "https://rockartaustralia.org.au/inaugural-kimberley-foundation-minderoo-chair-of-archaeological-science-announced/"
+    ],
+    "pollie_slug": "laurie-brereton"
+  },
+  {
+    "role": "Non-Executive Emeritus Director",
+    "organisation": "Rock Art Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Laurie-Brereton"
+    ],
+    "pollie_slug": "laurie-brereton",
+    "start_date": "2023-05-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Wine Insights",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Laurie-Brereton"
+    ],
+    "pollie_slug": "laurie-brereton"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Beelgara Estate",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Laurie-Brereton"
+    ],
+    "pollie_slug": "laurie-brereton"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Cumulus Wines",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Laurie-Brereton"
+    ],
+    "pollie_slug": "laurie-brereton"
+  },
+  {
+    "role": "Director",
+    "organisation": "Airbus Group Australia Pacific",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Laurie-Brereton",
+      "https://australianaviation.com.au/2014/07/airbus-group-australia-pacific-consolidates-brands-in-canberra/"
+    ],
+    "pollie_slug": "laurie-brereton"
+  },
+  {
+    "role": "Director",
+    "organisation": "John Curtin House",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Laurie-Brereton"
+    ],
+    "pollie_slug": "laurie-brereton"
+  },
+  {
+    "role": "Member of the House of Assembly",
+    "organisation": "Parliament of Tasmania",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michelle_O'Byrne",
+      "https://www.parliament.tas.gov.au/resources/about-parliament/historyindex/members/obyrnem742"
+    ],
+    "pollie_slug": "michelle-o-byrne",
+    "start_date": "2006-03-18",
+    "end_date": "2025-07-19"
+  },
+  {
+    "role": "Parliamentary Secretary to the Premier",
+    "organisation": "Parliament of Tasmania",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://webarchive.libraries.tas.gov.au/20180220044340/http://taslabor.com/people/michelle-obyrne/",
+      "https://en.wikipedia.org/wiki/Michelle_O'Byrne"
+    ],
+    "pollie_slug": "michelle-o-byrne"
+  },
+  {
+    "role": "Minister for Community Development",
+    "organisation": "Parliament of Tasmania",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://webarchive.libraries.tas.gov.au/20180220044340/http://taslabor.com/people/michelle-obyrne/",
+      "https://en.wikipedia.org/wiki/Michelle_O'Byrne"
+    ],
+    "pollie_slug": "michelle-o-byrne"
+  },
+  {
+    "role": "Minister for Environment, Parks, Heritage and the Arts",
+    "organisation": "Parliament of Tasmania",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://webarchive.libraries.tas.gov.au/20180220044340/http://taslabor.com/people/michelle-obyrne/",
+      "https://en.wikipedia.org/wiki/Michelle_O'Byrne"
+    ],
+    "pollie_slug": "michelle-o-byrne"
+  },
+  {
+    "role": "Minister for Tourism",
+    "organisation": "Parliament of Tasmania",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://webarchive.libraries.tas.gov.au/20180220044340/http://taslabor.com/people/michelle-obyrne/",
+      "https://en.wikipedia.org/wiki/Michelle_O'Byrne"
+    ],
+    "pollie_slug": "michelle-o-byrne"
+  },
+  {
+    "role": "Minister for Health, Children and Sport & Recreation",
+    "organisation": "Parliament of Tasmania",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michelle_O'Byrne",
+      "https://webarchive.libraries.tas.gov.au/20180220044340/http://taslabor.com/people/michelle-obyrne/"
+    ],
+    "pollie_slug": "michelle-o-byrne"
+  },
+  {
+    "role": "Deputy Leader of the Opposition",
+    "organisation": "Australian Labor Party (Tasmania)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michelle_O'Byrne",
+      "https://www.parliament.tas.gov.au/resources/about-parliament/historyindex/members/obyrnem742"
+    ],
+    "pollie_slug": "michelle-o-byrne",
+    "start_date": "2014-03-31",
+    "end_date": "2021-05-15"
+  },
+  {
+    "role": "Speaker of the House of Assembly",
+    "organisation": "Parliament of Tasmania",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michelle_O'Byrne",
+      "https://noosaonlinenews.com.au/tasmanian-speaker-and-long-time-labor-mp-michelle-obyrne-set-to-retire-from-parliament/",
+      "https://www.parliament.tas.gov.au/resources/about-parliament/historyindex/members/obyrnem742"
+    ],
+    "pollie_slug": "michelle-o-byrne",
+    "start_date": "2024-05-14",
+    "end_date": "2025-07-19"
+  },
+  {
+    "role": "Ambassador for Gender Equality",
+    "organisation": "Department of Foreign Affairs and Trade",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.theindiansun.com.au/2025/08/18/michelle-obyrne-named-australias-new-ambassador-for-gender-equality/",
+      "https://www.theepochtimes.com/world/michelle-obyrne-named-australias-new-ambassador-for-gender-equality-5902535",
+      "https://en.wikipedia.org/wiki/Michelle_O'Byrne"
+    ],
+    "pollie_slug": "michelle-o-byrne",
+    "start_date": "2025-08-18"
   }
 ]
