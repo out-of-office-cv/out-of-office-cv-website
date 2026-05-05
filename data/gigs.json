@@ -7273,7 +7273,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Saïd Business School, University of Oxford",
+    "organisation": "Sa\u00efd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -11350,5 +11350,89 @@
     ],
     "pollie_slug": "michelle-o-byrne",
     "start_date": "2025-08-18"
+  },
+  {
+    "role": "Director of Community Engagement",
+    "organisation": "University of Adelaide",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Martyn_Evans",
+      "https://sementis.com.au/team/martyn-evans/"
+    ],
+    "pollie_slug": "martyn-evans",
+    "start_date": "2007-07-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Sementis",
+    "category": "Pharmaceutical & Biotechnology",
+    "sources": [
+      "https://sementis.com.au/team/martyn-evans/",
+      "https://www.indailysa.com.au/news/archive/2021/08/24/sementis-raises-5m-for-covid-vaccine-as-hickinbotham-takes-majority-stake",
+      "https://biotechdispatch.com.au/news/new-leadership-for-vaccine-platform-technology-company-sementis"
+    ],
+    "pollie_slug": "martyn-evans"
+  },
+  {
+    "role": "Chair",
+    "organisation": "South Australian Ministerial Advisory Committee on End of Life Matters",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://sementis.com.au/team/martyn-evans/"
+    ],
+    "pollie_slug": "martyn-evans"
+  },
+  {
+    "role": "Policy and Government Affairs Adviser",
+    "organisation": "Medicines Australia",
+    "category": "Pharmaceutical & Biotechnology",
+    "sources": [
+      "https://sementis.com.au/team/martyn-evans/"
+    ],
+    "pollie_slug": "martyn-evans"
+  },
+  {
+    "role": "Chief of Staff",
+    "organisation": "Office of the Minister for Small Business, Innovation and Trade (Phil Dalidakis), Victorian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.thesenior.com.au/story/6483841/former-vic-senator-mehmet-tillem-dead/",
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;db=CHAMBER;id=chamber/hansards/9a4abe02-6be0-4a2a-aa97-605357a73424/0084;query=Id:%22chamber/hansards/9a4abe02-6be0-4a2a-aa97-605357a73424/0051%22",
+      "https://en.wikipedia.org/wiki/Mehmet_Tillem"
+    ],
+    "pollie_slug": "mehmet-tillem",
+    "start_date": "2014-11-01"
+  },
+  {
+    "role": "Chief of Staff",
+    "organisation": "Office of the Minister for Tourism and Major Events (John Eren), Victorian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.thesenior.com.au/story/6483841/former-vic-senator-mehmet-tillem-dead/",
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;db=CHAMBER;id=chamber/hansards/9a4abe02-6be0-4a2a-aa97-605357a73424/0084;query=Id:%22chamber/hansards/9a4abe02-6be0-4a2a-aa97-605357a73424/0051%22"
+    ],
+    "pollie_slug": "mehmet-tillem"
+  },
+  {
+    "role": "Volunteer (overseas development aid)",
+    "organisation": "Opportunity International Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Harry_Edwards_(politician)",
+      "https://www.wikidata.org/wiki/Q16019373"
+    ],
+    "pollie_slug": "harry-edwards"
+  },
+  {
+    "role": "Member of the House of Assembly",
+    "organisation": "Parliament of Tasmania",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bruce_Goodluck",
+      "https://www.parliament.tas.gov.au/resources/about-parliament/historyindex/members/goodluckb704"
+    ],
+    "pollie_slug": "bruce-goodluck",
+    "start_date": "1996-02-24",
+    "end_date": "1998-07-22"
   }
 ]
