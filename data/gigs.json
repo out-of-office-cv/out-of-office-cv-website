@@ -11579,5 +11579,147 @@
       "https://biography.senate.gov.au/keeffe-james-bernard/"
     ],
     "pollie_slug": "james-keeffe"
+  },
+  {
+    "role": "High Commissioner",
+    "organisation": "Australian High Commission, South Africa",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Connolly_(politician)"
+    ],
+    "pollie_slug": "david-connolly",
+    "start_date": "1998-01-01",
+    "end_date": "2002-12-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Reward Investment Alliance",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Connolly_(politician)"
+    ],
+    "pollie_slug": "david-connolly"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Rice Warner Actuaries",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Connolly_(politician)",
+      "https://www.ricewarner.com/vale-rice-warner/"
+    ],
+    "pollie_slug": "david-connolly"
+  },
+  {
+    "role": "Part-Time Member",
+    "organisation": "Migration and Refugee Review Tribunals",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Connolly_(politician)"
+    ],
+    "pollie_slug": "david-connolly",
+    "start_date": "2002-01-01",
+    "end_date": "2010-12-31"
+  },
+  {
+    "role": "Part-Time Member",
+    "organisation": "Administrative Appeals Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Connolly_(politician)"
+    ],
+    "pollie_slug": "david-connolly",
+    "start_date": "2006-01-01",
+    "end_date": "2011-12-31"
+  },
+  {
+    "role": "Founder and Director",
+    "organisation": "Australian Business College",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jack_Evans_(Australian_politician)",
+      "https://biography.senate.gov.au/evans-john-gordon/"
+    ],
+    "pollie_slug": "jack-evans",
+    "end_date": "1993-01-31"
+  },
+  {
+    "role": "Campaign Manager",
+    "organisation": "Shirley de la Hunty Independent Campaign",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jack_Evans_(Australian_politician)"
+    ],
+    "pollie_slug": "jack-evans",
+    "start_date": "1989-01-01",
+    "end_date": "1989-02-11"
+  },
+  {
+    "role": "Part-time Staffer",
+    "organisation": "Australian Democrats (Office of Senator Andrew Murray)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://biography.senate.gov.au/evans-john-gordon/",
+      "https://en.wikipedia.org/wiki/Jack_Evans_(Australian_politician)"
+    ],
+    "pollie_slug": "jack-evans",
+    "start_date": "1996-01-01",
+    "end_date": "2008-12-31"
+  },
+  {
+    "role": "National Campaign Director",
+    "organisation": "Australian Democrats",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://biography.senate.gov.au/evans-john-gordon/",
+      "https://www.crikey.com.au/2009/10/05/democrats-legend-gave-birth-to-honest-bastardry/"
+    ],
+    "pollie_slug": "jack-evans",
+    "start_date": "2001-01-01",
+    "end_date": "2001-11-10"
+  },
+  {
+    "role": "Member",
+    "organisation": "National Population Control Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/mulvihill-james-anthony/"
+    ],
+    "pollie_slug": "james-mulvihill"
+  },
+  {
+    "role": "Member",
+    "organisation": "NSW Railway Superannuation Board",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://biography.senate.gov.au/mulvihill-james-anthony/"
+    ],
+    "pollie_slug": "james-mulvihill"
+  },
+  {
+    "role": "Author",
+    "organisation": "Independent (Can Responsible Government Survive in Australia?)",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.aph.gov.au/About_Parliament/Senate/Powers_practice_n_procedures/hamer",
+      "https://biography.senate.gov.au/hamer-david-john/",
+      "https://catalogue.nla.gov.au/Record/3121985"
+    ],
+    "pollie_slug": "david-hamer",
+    "start_date": "1994-01-01",
+    "end_date": "1994-12-31"
+  },
+  {
+    "role": "Author",
+    "organisation": "Independent (Bombers Versus Battleships)",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.amazon.com/Bombers-Versus-Battleships-Struggle-Aircraft/dp/0851777716",
+      "https://biography.senate.gov.au/hamer-david-john/",
+      "https://seapower.navy.gov.au/people-and-culture/biographies/captain-david-john-hamer"
+    ],
+    "pollie_slug": "david-hamer",
+    "start_date": "1998-01-01",
+    "end_date": "1998-12-31"
   }
 ]
