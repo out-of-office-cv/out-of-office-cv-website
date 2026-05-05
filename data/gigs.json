@@ -7273,7 +7273,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Sa\u00efd Business School, University of Oxford",
+    "organisation": "Saïd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -11434,5 +11434,62 @@
     "pollie_slug": "bruce-goodluck",
     "start_date": "1996-02-24",
     "end_date": "1998-07-22"
+  },
+  {
+    "role": "Manager, Repository Services",
+    "organisation": "University of Wollongong Library",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://theconversation.com/profiles/michael-organ-10791",
+      "https://uow.libguides.com/prf.php?account_id=113561",
+      "https://en.wikipedia.org/wiki/Michael_Organ",
+      "https://www.michaelorgan.org.au/"
+    ],
+    "pollie_slug": "michael-organ",
+    "start_date": "2005-01-01",
+    "end_date": "2020-11-01"
+  },
+  {
+    "role": "Greens Candidate",
+    "organisation": "Australian Greens (Riverina, NSW)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://regionriverina.com.au/michael-organ-hopes-to-overcome-the-odds-a-second-time-and-win-the-riverina/1098/",
+      "https://greens.org.au/nsw/person/michael-organ-0"
+    ],
+    "pollie_slug": "michael-organ",
+    "start_date": "2022-01-01",
+    "end_date": "2022-05-21"
+  },
+  {
+    "role": "State Council Member",
+    "organisation": "Australian Labor Party Queensland",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://biography.senate.gov.au/keeffe-james-bernard/",
+      "https://adb.anu.edu.au/biography/keeffe-james-bernard-jim-12718"
+    ],
+    "pollie_slug": "james-keeffe",
+    "start_date": "1983-02-04",
+    "end_date": "1985-12-31"
+  },
+  {
+    "role": "Political Columnist",
+    "organisation": "Townsville local weekly newspaper",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://biography.senate.gov.au/keeffe-james-bernard/"
+    ],
+    "pollie_slug": "james-keeffe",
+    "start_date": "1983-02-04"
+  },
+  {
+    "role": "Historian",
+    "organisation": "Outward Bound Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/keeffe-james-bernard/"
+    ],
+    "pollie_slug": "james-keeffe"
   }
 ]
