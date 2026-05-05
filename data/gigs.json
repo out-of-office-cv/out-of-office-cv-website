@@ -11801,5 +11801,92 @@
     "pollie_slug": "david-hamer",
     "start_date": "1998-01-01",
     "end_date": "1998-12-31"
+  },
+  {
+    "role": "Office Manager",
+    "organisation": "Fitzroy Legal Service",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://biography.senate.gov.au/melzer-jean-isabel/"
+    ],
+    "pollie_slug": "jean-melzer",
+    "start_date": "1984-01-01",
+    "end_date": "1986-12-31"
+  },
+  {
+    "role": "Administrator",
+    "organisation": "Dignity, Education and Language Communications Centre",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/melzer-jean-isabel/"
+    ],
+    "pollie_slug": "jean-melzer",
+    "start_date": "1987-01-01",
+    "end_date": "1994-12-31"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "La Trobe University Council",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/melzer-jean-isabel/"
+    ],
+    "pollie_slug": "jean-melzer",
+    "start_date": "1983-01-01",
+    "end_date": "1987-12-31"
+  },
+  {
+    "role": "President",
+    "organisation": "Bass Coast Adult Learning Centre",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/melzer-jean-isabel/"
+    ],
+    "pollie_slug": "jean-melzer",
+    "start_date": "1997-01-01",
+    "end_date": "2003-12-31"
+  },
+  {
+    "role": "President",
+    "organisation": "Cape Paterson Progress Association",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/melzer-jean-isabel/"
+    ],
+    "pollie_slug": "jean-melzer"
+  },
+  {
+    "role": "President",
+    "organisation": "University of the Third Age Network Victoria",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/melzer-jean-isabel/",
+      "https://en.wikipedia.org/wiki/Jean_Melzer",
+      "https://www.womenaustralia.info/entries/melzer-jean-isabel/"
+    ],
+    "pollie_slug": "jean-melzer",
+    "start_date": "2001-01-01",
+    "end_date": "2006-12-31"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Life Works at Home",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/hearn-jean-margaret/"
+    ],
+    "pollie_slug": "jean-hearn"
+  },
+  {
+    "role": "Founder",
+    "organisation": "Tamar Community Peace Trust",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jean_Hearn",
+      "https://www.womenaustralia.info/entries/hearn-jean-margaret/",
+      "https://www.rosemaryarmitage.com/single-post/2016/05/31/jean-hearn-tribute"
+    ],
+    "pollie_slug": "jean-hearn",
+    "start_date": "2015-01-01"
   }
 ]
