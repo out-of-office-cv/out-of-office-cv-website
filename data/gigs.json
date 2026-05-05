@@ -2213,10 +2213,16 @@
     "organisation": "Belfer Center for Science and International Affairs, Harvard Kennedy School",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.belfercenter.org/publication/former-australian-prime-minister-named-senior-fellow-harvards-belfer-center"
+      "https://www.belfercenter.org/publication/former-australian-prime-minister-named-senior-fellow-harvards-belfer-center",
+      "https://www.belfercenter.org/person/kevin-rudd"
     ],
     "pollie_slug": "kevin-rudd",
-    "start_date": "2014-02-01"
+    "start_date": "2014-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Belfer Center's own announcement page confirms Kevin Rudd as Senior Fellow starting February 2014, leading research on US-China relations."
+    }
   },
   {
     "role": "Inaugural President",
@@ -2234,32 +2240,47 @@
     "organisation": "Asia Society",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://asiasociety.org/asia-society-announces-appointment-honorable-kevin-rudd-president-and-chief-executive-officer"
+      "https://en.wikipedia.org/wiki/Asia_Society"
     ],
     "pollie_slug": "kevin-rudd",
     "start_date": "2021-01-01",
-    "end_date": "2023-03-01"
+    "end_date": "2023-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia's Asia Society article explicitly lists Kevin Rudd as President from 2021 to 2023."
+    }
   },
   {
     "role": "Ambassador to the United States",
     "organisation": "Australian Government",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://www.foreignminister.gov.au/minister/penny-wong/media-release/australias-ambassador-united-states-america"
+      "https://en.wikipedia.org/wiki/Kevin_Rudd"
     ],
     "pollie_slug": "kevin-rudd",
     "start_date": "2023-03-20",
-    "end_date": "2026-03-31"
+    "end_date": "2026-03-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Kevin Rudd served as Australia's 23rd Ambassador to the United States from 20 March 2023 to 31 March 2026."
+    }
   },
   {
     "role": "President and CEO",
     "organisation": "Asia Society",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://asiasociety.org/asia-society-announces-appointment-hon-kevin-rudd-president-and-ceo"
+      "https://kevinrudd.com"
     ],
     "pollie_slug": "kevin-rudd",
-    "start_date": "2026-03-31"
+    "start_date": "2026-03-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Kevin Rudd's official website (kevinrudd.com) explicitly states he is returning to Asia Society as President and CEO starting 31 March 2026, directly after his ambassadorial term concluded."
+    }
   },
   {
     "role": "Patron",
@@ -7591,43 +7612,70 @@
     "organisation": "Mary MacKillop Foundation",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://en.wikipedia.org/wiki/Leo_McLeay"
+      "https://en.wikipedia.org/wiki/Leo_McLeay",
+      "https://www.sea.museum/en/person/hon-leo-mcleay"
     ],
     "pollie_slug": "leo-mcleay",
-    "start_date": "2005-01-01"
+    "start_date": "2005-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms McLeay became a Director of the Mary MacKillop Foundation in 2005, after leaving parliament in 2004."
+    }
   },
   {
     "role": "Director",
     "organisation": "Enhance Group",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.miragenews.com/new-appointment-made-to-national-maritime-1221169/"
+      "https://www.miragenews.com/new-appointment-made-to-national-maritime-1221169/",
+      "https://minister.infrastructure.gov.au/burke/media-release/appointment-australian-national-maritime-museum-council-0",
+      "https://www.sea.museum/en/person/hon-leo-mcleay"
     ],
     "pollie_slug": "leo-mcleay",
     "start_date": "2006-01-01",
-    "end_date": "2010-12-31"
+    "end_date": "2010-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple authoritative sources confirm McLeay served as NSW Director of advisory services firm Enhance Group from 2006 to 2010."
+    }
   },
   {
     "role": "Chair",
     "organisation": "Metropolitan Cemeteries Trust",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.miragenews.com/new-appointment-made-to-national-maritime-1221169/"
+      "https://www.miragenews.com/new-appointment-made-to-national-maritime-1221169/",
+      "https://minister.infrastructure.gov.au/burke/media-release/appointment-australian-national-maritime-museum-council-0",
+      "https://www.sea.museum/en/person/hon-leo-mcleay"
     ],
     "pollie_slug": "leo-mcleay",
     "start_date": "2010-01-01",
-    "end_date": "2017-12-31"
+    "end_date": "2017-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Despite the warning about a WA body of the same name, this is confirmed to be the Catholic Metropolitan Cemeteries Trust in Sydney, NSW. Multiple authoritative sources explicitly describe McLeay as Chair of the Sydney body. Identity is unambiguous: same former Speaker and Watson MP."
+    }
   },
   {
     "role": "Director and Deputy Chair",
     "organisation": "Sydney Harbour Federation Trust",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.miragenews.com/new-appointment-made-to-national-maritime-1221169/"
+      "https://www.miragenews.com/new-appointment-made-to-national-maritime-1221169/",
+      "https://minister.infrastructure.gov.au/burke/media-release/appointment-australian-national-maritime-museum-council-0",
+      "https://www.sea.museum/en/person/hon-leo-mcleay"
     ],
     "pollie_slug": "leo-mcleay",
     "start_date": "2011-01-01",
-    "end_date": "2017-12-31"
+    "end_date": "2017-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the government minister's media release and ANMM official profile. Minister Tony Burke explicitly cited McLeay's previous service as Director and Deputy Chair of the Sydney Harbour Federation Trust (2011-2017)."
+    }
   },
   {
     "role": "Council Member",
@@ -7635,10 +7683,16 @@
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://www.miragenews.com/new-appointment-made-to-national-maritime-1221169/",
-      "https://minister.infrastructure.gov.au/burke/media-release/appointment-australian-national-maritime-museum-council-0"
+      "https://minister.infrastructure.gov.au/burke/media-release/appointment-australian-national-maritime-museum-council-0",
+      "https://www.sea.museum/en/person/hon-leo-mcleay"
     ],
     "pollie_slug": "leo-mcleay",
-    "start_date": "2024-04-24"
+    "start_date": "2024-04-24",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the official government media release from Minister Tony Burke announcing the appointment on 24 April 2024 for a three-year term, and by the ANMM's own website."
+    }
   },
   {
     "role": "Patron",
@@ -10604,10 +10658,15 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://en.wikipedia.org/wiki/Mark_Furner",
-      "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=1247049725"
+      "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=1247049725",
+      "https://www.markfurnermp.com.au/mark-furner/"
     ],
     "pollie_slug": "mark-furner",
-    "start_date": "2015-01-31"
+    "start_date": "2015-01-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Minister for Local Government",
@@ -10618,7 +10677,11 @@
     ],
     "pollie_slug": "mark-furner",
     "start_date": "2017-02-10",
-    "end_date": "2017-12-12"
+    "end_date": "2017-12-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Minister for Aboriginal and Torres Strait Islander Partnerships",
@@ -10629,7 +10692,11 @@
     ],
     "pollie_slug": "mark-furner",
     "start_date": "2017-02-10",
-    "end_date": "2017-12-12"
+    "end_date": "2017-12-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Minister for Agricultural Industry Development and Fisheries",
@@ -10640,7 +10707,11 @@
     ],
     "pollie_slug": "mark-furner",
     "start_date": "2017-12-12",
-    "end_date": "2024-10-28"
+    "end_date": "2024-10-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Minister for Rural Communities",
@@ -10652,7 +10723,11 @@
     ],
     "pollie_slug": "mark-furner",
     "start_date": "2017-12-12",
-    "end_date": "2024-10-28"
+    "end_date": "2024-10-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -11589,7 +11664,12 @@
     ],
     "pollie_slug": "david-connolly",
     "start_date": "1998-01-01",
-    "end_date": "2002-12-31"
+    "end_date": "2002-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia explicitly states Connolly served as 'Australia's High Commissioner to South Africa between 1998 and 2002 with accreditation to Botswana, Lesotho and Swaziland', matching both the role, organisation, and dates provided."
+    }
   },
   {
     "role": "Director",
