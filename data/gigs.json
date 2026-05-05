@@ -11182,9 +11182,15 @@
     "sources": [
       "https://au.linkedin.com/in/hon-laurie-brereton-1b7b2668",
       "https://www.businessnews.com.au/Person/Laurie-Brereton",
-      "https://rockartaustralia.org.au/inaugural-kimberley-foundation-minderoo-chair-of-archaeological-science-announced/"
+      "https://rockartaustralia.org.au/inaugural-kimberley-foundation-minderoo-chair-of-archaeological-science-announced/",
+      "https://science.unimelb.edu.au/about/news/inaugural-kimberley-foundation-minderoo-chair-of-archaeological-science-announced"
     ],
-    "pollie_slug": "laurie-brereton"
+    "pollie_slug": "laurie-brereton",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Brereton is quoted as 'KFA Chairman' in multiple sources including the University of Melbourne news release and rockartaustralia.org.au. His LinkedIn profile lists the Kimberley Foundation Australia as his primary affiliation. The organisation later rebranded as Rock Art Australia in 2020."
+    }
   },
   {
     "role": "Chair",
@@ -11194,7 +11200,12 @@
       "https://www.businessnews.com.au/Person/Laurie-Brereton",
       "https://rockartaustralia.org.au/inaugural-kimberley-foundation-minderoo-chair-of-archaeological-science-announced/"
     ],
-    "pollie_slug": "laurie-brereton"
+    "pollie_slug": "laurie-brereton",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Brereton is directly quoted as 'RAA Chairman' on rockartaustralia.org.au in the announcement of the Rock Art Australia Minderoo Chair in Archaeological Science. Rock Art Australia is the renamed Kimberley Foundation Australia (rebranded 2020). businessnews.com.au also lists him as having become Chair on 31 May 2023, likely reflecting a formal title update at the time of the rebranding transition."
+    }
   },
   {
     "role": "Non-Executive Emeritus Director",
@@ -11204,7 +11215,12 @@
       "https://www.businessnews.com.au/Person/Laurie-Brereton"
     ],
     "pollie_slug": "laurie-brereton",
-    "start_date": "2023-05-31"
+    "start_date": "2023-05-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "businessnews.com.au records his appointment as Non-Executive Emeritus Director at Rock Art Australia on 31 May 2023, consistent with a transition from the Chair role."
+    }
   },
   {
     "role": "Chair",
@@ -11213,7 +11229,12 @@
     "sources": [
       "https://www.businessnews.com.au/Person/Laurie-Brereton"
     ],
-    "pollie_slug": "laurie-brereton"
+    "pollie_slug": "laurie-brereton",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "businessnews.com.au explicitly names him as Chair of Wine Insights. Multiple search results corroborate this, noting Wine Insights merged with Cumulus Wines in 2015."
+    }
   },
   {
     "role": "Chair",
@@ -11222,7 +11243,12 @@
     "sources": [
       "https://www.businessnews.com.au/Person/Laurie-Brereton"
     ],
-    "pollie_slug": "laurie-brereton"
+    "pollie_slug": "laurie-brereton",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "businessnews.com.au and multiple search results confirm Brereton as Chair of Beelgara Estate. He is described as 'Chair of Beelgara Estate (Australia), Wine Insights & Cumulus Wines' across several sources."
+    }
   },
   {
     "role": "Chair",
@@ -11231,7 +11257,12 @@
     "sources": [
       "https://www.businessnews.com.au/Person/Laurie-Brereton"
     ],
-    "pollie_slug": "laurie-brereton"
+    "pollie_slug": "laurie-brereton",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "businessnews.com.au and multiple search results confirm Brereton as Chair of Cumulus Wines, which merged with Wine Insights in 2015."
+    }
   },
   {
     "role": "Director",
@@ -11241,7 +11272,12 @@
       "https://www.businessnews.com.au/Person/Laurie-Brereton",
       "https://australianaviation.com.au/2014/07/airbus-group-australia-pacific-consolidates-brands-in-canberra/"
     ],
-    "pollie_slug": "laurie-brereton"
+    "pollie_slug": "laurie-brereton",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "australianaviation.com.au places Brereton at the official opening of Airbus Group Australia Pacific's Canberra headquarters in July 2014, identified as a board member alongside Defence Minister Senator David Johnston. businessnews.com.au lists him as Director. Both sources corroborate the role post-2004."
+    }
   },
   {
     "role": "Director",
@@ -11258,61 +11294,96 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://en.wikipedia.org/wiki/Michelle_O'Byrne",
-      "https://www.parliament.tas.gov.au/resources/about-parliament/historyindex/members/obyrnem742"
+      "https://www.parliament.tas.gov.au/resources/about-parliament/historyindex/members/obyrnem742",
+      "https://www.foreignminister.gov.au/minister/penny-wong/media-release/ambassador-gender-equality-0"
     ],
     "pollie_slug": "michelle-o-byrne",
     "start_date": "2006-03-18",
-    "end_date": "2025-07-19"
+    "end_date": "2025-07-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Parliamentary Secretary to the Premier",
     "organisation": "Parliament of Tasmania",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://webarchive.libraries.tas.gov.au/20180220044340/http://taslabor.com/people/michelle-obyrne/",
       "https://en.wikipedia.org/wiki/Michelle_O'Byrne"
     ],
-    "pollie_slug": "michelle-o-byrne"
+    "pollie_slug": "michelle-o-byrne",
+    "start_date": "2006-03-18",
+    "end_date": "2006-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Role confirmed as her first state government position after election in March 2006, held until her first ministerial appointment in October 2006. The web archive source was inaccessible but the role is corroborated by web search results drawing from that archived page and Wikipedia."
+    }
   },
   {
     "role": "Minister for Community Development",
     "organisation": "Parliament of Tasmania",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://webarchive.libraries.tas.gov.au/20180220044340/http://taslabor.com/people/michelle-obyrne/",
       "https://en.wikipedia.org/wiki/Michelle_O'Byrne"
     ],
-    "pollie_slug": "michelle-o-byrne"
+    "pollie_slug": "michelle-o-byrne",
+    "start_date": "2006-10-01",
+    "end_date": "2008-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Role confirmed as October 2006 to February 2008 per multiple corroborating sources."
+    }
   },
   {
     "role": "Minister for Environment, Parks, Heritage and the Arts",
     "organisation": "Parliament of Tasmania",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://webarchive.libraries.tas.gov.au/20180220044340/http://taslabor.com/people/michelle-obyrne/",
       "https://en.wikipedia.org/wiki/Michelle_O'Byrne"
     ],
-    "pollie_slug": "michelle-o-byrne"
+    "pollie_slug": "michelle-o-byrne",
+    "start_date": "2008-02-01",
+    "end_date": "2010-03-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Role confirmed from February 2008 until the 2010 state election."
+    }
   },
   {
     "role": "Minister for Tourism",
     "organisation": "Parliament of Tasmania",
     "category": "Retail, Hospitality & Tourism",
     "sources": [
-      "https://webarchive.libraries.tas.gov.au/20180220044340/http://taslabor.com/people/michelle-obyrne/",
       "https://en.wikipedia.org/wiki/Michelle_O'Byrne"
     ],
-    "pollie_slug": "michelle-o-byrne"
+    "pollie_slug": "michelle-o-byrne",
+    "start_date": "2008-09-01",
+    "end_date": "2010-03-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Role confirmed from September 2008 in the Bartlett Government until the 2010 state election."
+    }
   },
   {
     "role": "Minister for Health, Children and Sport & Recreation",
     "organisation": "Parliament of Tasmania",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://en.wikipedia.org/wiki/Michelle_O'Byrne",
-      "https://webarchive.libraries.tas.gov.au/20180220044340/http://taslabor.com/people/michelle-obyrne/"
+      "https://en.wikipedia.org/wiki/Michelle_O'Byrne"
     ],
-    "pollie_slug": "michelle-o-byrne"
+    "pollie_slug": "michelle-o-byrne",
+    "start_date": "2010-03-20",
+    "end_date": "2014-03-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Role confirmed from after the 2010 election until Labor's defeat in the 2014 state election."
+    }
   },
   {
     "role": "Deputy Leader of the Opposition",
@@ -11323,8 +11394,13 @@
       "https://www.parliament.tas.gov.au/resources/about-parliament/historyindex/members/obyrnem742"
     ],
     "pollie_slug": "michelle-o-byrne",
-    "start_date": "2014-03-31",
-    "end_date": "2021-05-15"
+    "start_date": "2014-04-03",
+    "end_date": "2021-06-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Dates corrected per the Tasmanian Parliament's official history index, which records 3 April 2014 to 17 June 2021. The gig had slightly different dates (31 March and 15 May 2021)."
+    }
   },
   {
     "role": "Speaker of the House of Assembly",
@@ -11336,8 +11412,13 @@
       "https://www.parliament.tas.gov.au/resources/about-parliament/historyindex/members/obyrnem742"
     ],
     "pollie_slug": "michelle-o-byrne",
-    "start_date": "2024-05-14",
-    "end_date": "2025-07-19"
+    "start_date": "2024-05-15",
+    "end_date": "2025-07-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Start date corrected to 15 May 2024 per the Tasmanian Parliament's official history index. The gig had 14 May 2024."
+    }
   },
   {
     "role": "Ambassador for Gender Equality",
@@ -11346,10 +11427,17 @@
     "sources": [
       "https://www.theindiansun.com.au/2025/08/18/michelle-obyrne-named-australias-new-ambassador-for-gender-equality/",
       "https://www.theepochtimes.com/world/michelle-obyrne-named-australias-new-ambassador-for-gender-equality-5902535",
-      "https://en.wikipedia.org/wiki/Michelle_O'Byrne"
+      "https://en.wikipedia.org/wiki/Michelle_O'Byrne",
+      "https://www.foreignminister.gov.au/minister/penny-wong/media-release/ambassador-gender-equality-0",
+      "https://www.dfat.gov.au/about-us/our-people/homs/ambassador-for-gender-equality"
     ],
     "pollie_slug": "michelle-o-byrne",
-    "start_date": "2025-08-18"
+    "start_date": "2025-08-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Appointment announced 18 August 2025 by Foreign Minister Penny Wong and Minister for Women Katy Gallagher. Confirmed by multiple sources including the official DFAT listing."
+    }
   },
   {
     "role": "Director of Community Engagement",
