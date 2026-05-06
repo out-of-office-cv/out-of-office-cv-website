@@ -5481,7 +5481,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Wheeler Centre profile confirms the role. Multiple other sources (Perth USAsia Centre bio, wheeler centre) corroborate Chair of Asia Desk at Lavan 2014–2017, consistent with end_date."
+      "note": "Wheeler Centre profile confirms the role. Multiple other sources (Perth USAsia Centre bio, wheeler centre) corroborate Chair of Asia Desk at Lavan 2014\u20132017, consistent with end_date."
     }
   },
   {
@@ -7387,7 +7387,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Saïd Business School, University of Oxford",
+    "organisation": "Sa\u00efd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -12136,5 +12136,70 @@
       "https://en.wikipedia.org/wiki/Bill_Morrison_(politician)"
     ],
     "pollie_slug": "william-morrison"
+  },
+  {
+    "role": "Working Group Leader",
+    "organisation": "Defence and Industry Advisory Council",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://biography.senate.gov.au/macgibbon-david-john/"
+    ],
+    "pollie_slug": "david-macgibbon",
+    "start_date": "2000-01-01",
+    "end_date": "2000-06-30"
+  },
+  {
+    "role": "Community Consultation Team Member",
+    "organisation": "Australian Department of Defence (Defence Review 2000 White Paper)",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/macgibbon-david-john/"
+    ],
+    "pollie_slug": "david-macgibbon",
+    "start_date": "2000-06-01"
+  },
+  {
+    "role": "Observer",
+    "organisation": "Commonwealth Observer Group (Zimbabwe Parliamentary Elections)",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://biography.senate.gov.au/macgibbon-david-john/",
+      "https://en.wikipedia.org/wiki/David_MacGibbon_(politician)"
+    ],
+    "pollie_slug": "david-macgibbon",
+    "start_date": "2000-06-01",
+    "end_date": "2000-07-31"
+  },
+  {
+    "role": "Observer",
+    "organisation": "Commonwealth Observer Group (Lesotho Local Government Elections)",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://biography.senate.gov.au/macgibbon-david-john/"
+    ],
+    "pollie_slug": "david-macgibbon",
+    "start_date": "2002-01-01",
+    "end_date": "2002-12-31"
+  },
+  {
+    "role": "Member",
+    "organisation": "Administrative Appeals Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.openaustralia.org.au/debates/?id=2020-10-26.81.1",
+      "https://issuu.com/poulterpauline/docs/christian_porter_industry_science_and_technology.d/s/12440261"
+    ],
+    "pollie_slug": "karen-mcnamara",
+    "start_date": "2017-01-01"
+  },
+  {
+    "role": "Non-Executive Director and Company Secretary",
+    "organisation": "Educate Early Learning Centres",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://educateelc.au/our-team/",
+      "https://www.linkedin.com/in/karen-mcnamara-28770413/"
+    ],
+    "pollie_slug": "karen-mcnamara"
   }
 ]
