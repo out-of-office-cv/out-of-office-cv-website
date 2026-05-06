@@ -11925,5 +11925,107 @@
     ],
     "pollie_slug": "jean-hearn",
     "start_date": "2015-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Adelaide Football Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.afc.com.au/news/1699960/crows-thank-kate-ellis",
+      "https://www.afc.com.au/news/1069905/crows-board-appointments"
+    ],
+    "pollie_slug": "kate-ellis",
+    "start_date": "2017-01-01",
+    "end_date": "2024-11-01"
+  },
+  {
+    "role": "Community Director",
+    "organisation": "DrinkWise Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://drinkwise.org.au/about-us/drinkwise-board-of-directors/"
+    ],
+    "pollie_slug": "kate-ellis",
+    "start_date": "2019-08-07"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Early Years Taskforce (Raising Literacy Australia)",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://raisingliteracy.org.au/the-early-years-taskforce-announced/",
+      "https://thesector.com.au/2023/09/13/sa-government-commits-to-early-literacy-and-development-with-4m-in-funding/"
+    ],
+    "pollie_slug": "kate-ellis",
+    "start_date": "2021-06-01"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Raising Literacy Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.linkedin.com/in/kate-ellis-92aa9a242/",
+      "https://www.afc.com.au/news/1699960/crows-thank-kate-ellis",
+      "https://grokipedia.com/page/Kate_Ellis_(politician)"
+    ],
+    "pollie_slug": "kate-ellis",
+    "start_date": "2022-12-01"
+  },
+  {
+    "role": "Lecturer in Human Ecology",
+    "organisation": "Australian National University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/sanders-norman-karl/",
+      "https://independentaustralia.net/profile-on/norm-sanders,669",
+      "https://grokipedia.com/page/Norm_Sanders"
+    ],
+    "pollie_slug": "norman-sanders"
+  },
+  {
+    "role": "Chief Flying Instructor",
+    "organisation": "Byron Bay Gliding Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://byrongliding.com/main/about/",
+      "https://biography.senate.gov.au/sanders-norman-karl/",
+      "https://independentaustralia.net/profile-on/norm-sanders,669"
+    ],
+    "pollie_slug": "norman-sanders",
+    "end_date": "2010-01-01"
+  },
+  {
+    "role": "Ambassador to Indonesia",
+    "organisation": "Department of Foreign Affairs and Trade",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bill_Morrison_(politician)",
+      "https://en.wikipedia.org/wiki/List_of_ambassadors_of_Australia_to_Indonesia",
+      "https://www.eoas.info/biogs/P005870b.htm",
+      "https://www.theleader.com.au/story/1304262/former-st-george-mp-bill-morrison-dies-at-84/"
+    ],
+    "pollie_slug": "william-morrison",
+    "start_date": "1985-04-28",
+    "end_date": "1989-01-01"
+  },
+  {
+    "role": "Councillor",
+    "organisation": "Rockdale Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bill_Morrison_(politician)",
+      "http://www.annefield.net.au/2021/07/02/women-and-local-government-elections-september-4-2021/"
+    ],
+    "pollie_slug": "william-morrison",
+    "start_date": "1991-01-01"
+  },
+  {
+    "role": "Volunteer",
+    "organisation": "Rural Australians for Refugees",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bill_Morrison_(politician)"
+    ],
+    "pollie_slug": "william-morrison"
   }
 ]
