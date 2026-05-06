@@ -7251,10 +7251,17 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://alumni.uq.edu.au/story/24543/honourable-dr-mary-crawford-am",
-      "https://theconversation.com/profiles/mary-crawford-13172"
+      "https://theconversation.com/profiles/mary-crawford-13172",
+      "https://www.womenaustralia.info/entries/crawford-mary-catherine/",
+      "https://en.wikipedia.org/wiki/Mary_Crawford_(politician)"
     ],
     "pollie_slug": "mary-crawford",
-    "start_date": "1997-01-01"
+    "start_date": "1997-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Conversation self-authored profile explicitly identifies her as former MP for Forde 1987-1996 and states she was employed at QUT as Lecturer in Government/Business Relations from 1997. Identity cross-confirmed by UQ alumni page (alumni.uq.edu.au) describing her as the third Queensland woman elected to the Australian House of Representatives. Start date of 1997 is explicitly stated in The Conversation profile text."
+    }
   },
   {
     "role": "Adjunct Fellow, Faculty of Business",
@@ -7288,9 +7295,15 @@
     "organisation": "Graduate Women Queensland",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://theconversation.com/profiles/mary-crawford-13172"
+      "https://theconversation.com/profiles/mary-crawford-13172",
+      "https://www.womenaustralia.info/entries/crawford-mary-catherine/"
     ],
-    "pollie_slug": "mary-crawford"
+    "pollie_slug": "mary-crawford",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The UQ alumni page (alumni.uq.edu.au, a strong .edu.au source) explicitly references her volunteer work as 'Queensland President of Graduate Women Qld', corroborating The Conversation profile. Identity as former Forde MP confirmed across both sources."
+    }
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
@@ -11811,7 +11824,11 @@
     ],
     "pollie_slug": "jean-melzer",
     "start_date": "1984-01-01",
-    "end_date": "1986-12-31"
+    "end_date": "1986-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Administrator",
@@ -11822,7 +11839,11 @@
     ],
     "pollie_slug": "jean-melzer",
     "start_date": "1987-01-01",
-    "end_date": "1994-12-31"
+    "end_date": "1994-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Council Member",
@@ -11833,7 +11854,11 @@
     ],
     "pollie_slug": "jean-melzer",
     "start_date": "1983-01-01",
-    "end_date": "1987-12-31"
+    "end_date": "1987-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -11844,7 +11869,11 @@
     ],
     "pollie_slug": "jean-melzer",
     "start_date": "1997-01-01",
-    "end_date": "2003-12-31"
+    "end_date": "2003-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -11853,7 +11882,11 @@
     "sources": [
       "https://biography.senate.gov.au/melzer-jean-isabel/"
     ],
-    "pollie_slug": "jean-melzer"
+    "pollie_slug": "jean-melzer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -11866,7 +11899,11 @@
     ],
     "pollie_slug": "jean-melzer",
     "start_date": "2001-01-01",
-    "end_date": "2006-12-31"
+    "end_date": "2006-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
