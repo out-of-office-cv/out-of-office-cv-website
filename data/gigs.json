@@ -1554,11 +1554,17 @@
     "organisation": "Sky News Australia",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://tvtonight.com.au/2023/01/sky-news-2023-line-up.html"
+      "https://tvtonight.com.au/2023/01/sky-news-2023-line-up.html",
+      "https://en.wikipedia.org/wiki/Amanda_Stoker"
     ],
     "pollie_slug": "amanda-stoker",
     "start_date": "2023-01-29",
-    "end_date": "2023-10-01"
+    "end_date": "2023-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms she hosted Sunday with Stoker on Sky News from January 2023, stepping down in October 2023. The tvtonight.com.au source returns 403 but Wikipedia corroborates role, organisation, and dates."
+    }
   },
   {
     "role": "Director",
@@ -1568,27 +1574,44 @@
       "https://www.businessnews.com.au/Person/Amanda-Stoker"
     ],
     "pollie_slug": "amanda-stoker",
-    "start_date": "2022-07-01"
+    "start_date": "2022-07-01",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "The sole source (businessnews.com.au) explicitly describes Stoker as 'a member of the Samuel Griffith Society', not a Director. Wikipedia's Samuel Griffith Society article lists her only as a conference speaker. No authoritative source supports a formal directorship."
+    }
   },
   {
     "role": "Member for Oodgeroo",
     "organisation": "Queensland Parliament",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=789128387"
+      "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=789128387",
+      "https://en.wikipedia.org/wiki/Amanda_Stoker"
     ],
     "pollie_slug": "amanda-stoker",
-    "start_date": "2024-10-26"
+    "start_date": "2024-10-26",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Stoker was elected to the Queensland Legislative Assembly for Oodgeroo on 26 October 2024 as an LNP member. The Queensland Parliament member page confirms 'Hon Amanda Stoker'."
+    }
   },
   {
     "role": "Assistant Minister for Finance, Trade, Employment and Training",
     "organisation": "Queensland Government",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=789128387"
+      "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=789128387",
+      "https://en.wikipedia.org/wiki/Amanda_Stoker"
     ],
     "pollie_slug": "amanda-stoker",
-    "start_date": "2024-11-14"
+    "start_date": "2024-11-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms the exact role title 'Assistant Minister for Finance, Trade, Employment and Training of Queensland' under Premier Crisafulli, held since 14 November 2024."
+    }
   },
   {
     "role": "Principal",
@@ -9424,7 +9447,12 @@
     ],
     "pollie_slug": "warwick-parer",
     "start_date": "2001",
-    "end_date": "2002"
+    "end_date": "2002",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia explicitly names Warwick Parer as chair of the Coalition of Australian Governments Independent Energy Review Panel. The condolence debate does not mention this specific role but is otherwise a strong corroborating source. Dates 2001-2002 plausible given he left parliament Feb 2000."
+    }
   },
   {
     "role": "Chair, Energy and Transport Advisory Sector",
@@ -9435,7 +9463,12 @@
     ],
     "pollie_slug": "warwick-parer",
     "start_date": "2002",
-    "end_date": "2004"
+    "end_date": "2004",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The OpenAustralia condolence debate (Hansard) explicitly states he was Chairman of the Energy and Transport Advisory Sector at CSIRO from 2002-2004, matching the recorded dates."
+    }
   },
   {
     "role": "President",
@@ -9447,7 +9480,12 @@
     ],
     "pollie_slug": "warwick-parer",
     "start_date": "2006",
-    "end_date": "2008-02"
+    "end_date": "2008-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia gives start date as 2006; the condolence debate transcript most frequently cites 2005 as the start year. Wikipedia specifically states 'from 2006 until February 2008', which is more precise."
+    }
   },
   {
     "role": "Chair",
@@ -9459,7 +9497,12 @@
     ],
     "pollie_slug": "warwick-parer",
     "start_date": "2010",
-    "end_date": "2014-03-14"
+    "end_date": "2014-03-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and the Stanwell/southburnett.com.au article both confirm he became chair of the Royal Brisbane and Women's Hospital Foundation in 2010. End date of 2014-03-14 corresponds to his death date."
+    }
   },
   {
     "role": "Chairman of the Board",
@@ -9471,7 +9514,12 @@
     ],
     "pollie_slug": "warwick-parer",
     "start_date": "2012-05",
-    "end_date": "2014-03-14"
+    "end_date": "2014-03-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The southburnett.com.au article and Wikipedia both confirm Warwick Parer was appointed Chairman of the Board of Stanwell Corporation in May 2012 and held the role until his death on 14 March 2014."
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -11017,7 +11065,12 @@
       "https://www.flyingdoctor.org.au/qld/about/rfds-ambassador-program/"
     ],
     "pollie_slug": "bruce-scott",
-    "start_date": "2016-06-01"
+    "start_date": "2016-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The RFDS Queensland page explicitly states 'The Hon. Bruce Scott joined the Board as a Casual Director in 2016 after an extensive parliamentary career' and identifies him as the Federal Member for Maranoa 1990-2016."
+    }
   },
   {
     "role": "Director",
@@ -11026,7 +11079,12 @@
     "sources": [
       "https://www.queenslandcountrylife.com.au/story/6783673/queens-birthday-honours-for-political-and-mayoral-service/"
     ],
-    "pollie_slug": "bruce-scott"
+    "pollie_slug": "bruce-scott",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Queensland Country Life article clearly identifies Bruce Scott (Federal MP for Maranoa 1990-2016) as Director of the Australian Stockman's Hall of Fame."
+    }
   },
   {
     "role": "Chair",
@@ -11037,7 +11095,12 @@
       "https://www.queenslandcountrylife.com.au/story/6783673/queens-birthday-honours-for-political-and-mayoral-service/"
     ],
     "pollie_slug": "bruce-scott",
-    "start_date": "2018-01-01"
+    "start_date": "2018-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Queensland Country Life article identifies Bruce Scott as inaugural chairman of SQ Landscapes NRM group. The Org.com page confirms appointment as Chairman in 2018."
+    }
   },
   {
     "role": "Co-Chair",
@@ -11046,7 +11109,12 @@
     "sources": [
       "https://www.queenslandcountrylife.com.au/story/6783673/queens-birthday-honours-for-political-and-mayoral-service/"
     ],
-    "pollie_slug": "bruce-scott"
+    "pollie_slug": "bruce-scott",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Queensland Country Life article clearly identifies Bruce Scott (Federal MP for Maranoa 1990-2016) as Co-chair of the Telstra Regional Advisory Board."
+    }
   },
   {
     "role": "Professorial Fellow",
