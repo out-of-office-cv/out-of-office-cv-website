@@ -5504,7 +5504,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Wheeler Centre profile confirms the role. Multiple other sources (Perth USAsia Centre bio, wheeler centre) corroborate Chair of Asia Desk at Lavan 2014\u20132017, consistent with end_date."
+      "note": "Wheeler Centre profile confirms the role. Multiple other sources (Perth USAsia Centre bio, wheeler centre) corroborate Chair of Asia Desk at Lavan 2014–2017, consistent with end_date."
     }
   },
   {
@@ -7410,7 +7410,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Sa\u00efd Business School, University of Oxford",
+    "organisation": "Saïd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -12269,5 +12269,205 @@
       "https://www.linkedin.com/in/karen-mcnamara-28770413/"
     ],
     "pollie_slug": "karen-mcnamara"
+  },
+  {
+    "pollie_slug": "phillip-lynch",
+    "role": "Director",
+    "organisation": "Bonds Coats Patons Limited",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://adb.anu.edu.au/biography/lynch-sir-phillip-reginald-14391",
+      "https://www.gabr.net.au/biogs/ABE0227b.htm"
+    ],
+    "start_date": "1982-10-23"
+  },
+  {
+    "pollie_slug": "phillip-lynch",
+    "role": "Director",
+    "organisation": "NEC Australia Pty Ltd",
+    "category": "Telecommunications & Network Infrastructure",
+    "sources": [
+      "https://adb.anu.edu.au/biography/lynch-sir-phillip-reginald-14391"
+    ],
+    "start_date": "1982-10-23"
+  },
+  {
+    "pollie_slug": "phillip-lynch",
+    "role": "Board Member",
+    "organisation": "Reserve Bank of Australia",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://adb.anu.edu.au/biography/lynch-sir-phillip-reginald-14391",
+      "https://www.rba.gov.au/publications/annual-reports/rba/1983/rba-board.html",
+      "https://www.rba.gov.au/publications/annual-reports/rba/1984/rba-board.html"
+    ],
+    "start_date": "1983-01-19",
+    "end_date": "1984-06-19"
+  },
+  {
+    "pollie_slug": "phillip-lynch",
+    "role": "Management Consultant",
+    "organisation": "Independent Consultancy (Melbourne)",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://adb.anu.edu.au/biography/lynch-sir-phillip-reginald-14391"
+    ],
+    "start_date": "1982-10-23",
+    "end_date": "1984-06-19"
+  },
+  {
+    "pollie_slug": "mary-easson",
+    "role": "Founder and Chief Executive Officer",
+    "organisation": "Probity International",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mary_Easson",
+      "https://probityinternational.wordpress.com/our-ceo/",
+      "https://www.linkedin.com/in/mary-easson-53ba1961/"
+    ],
+    "start_date": "1996-01-01"
+  },
+  {
+    "pollie_slug": "mary-easson",
+    "role": "Director",
+    "organisation": "National Roads and Motorists Association",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mary_Easson",
+      "https://www.maynereport.com/articles/2007/10/12-1236-1117.html"
+    ],
+    "start_date": "1997-10-01",
+    "end_date": "2001-12-31"
+  },
+  {
+    "pollie_slug": "mary-easson",
+    "role": "Deputy President",
+    "organisation": "National Roads and Motorists Association",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mary_Easson"
+    ],
+    "start_date": "2000-11-01",
+    "end_date": "2001-12-31"
+  },
+  {
+    "pollie_slug": "mary-easson",
+    "role": "Director",
+    "organisation": "NRMA Insurance Limited",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mary_Easson",
+      "https://www.iag.com.au/content/dam/corporate-iag/iag-aus/au/en/documents/report/iag-annual-report-0902.pdf"
+    ],
+    "start_date": "1997-01-01",
+    "end_date": "2003-12-31"
+  },
+  {
+    "pollie_slug": "mary-easson",
+    "role": "Director",
+    "organisation": "Insurance Australia Group",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mary_Easson",
+      "https://www.iag.com.au/content/dam/corporate-iag/iag-aus/au/en/documents/report/iag-annual-report-0902.pdf",
+      "https://www.maynereport.com/articles/2007/10/12-1236-1117.html"
+    ],
+    "start_date": "2000-06-01",
+    "end_date": "2003-12-31"
+  },
+  {
+    "pollie_slug": "mary-easson",
+    "role": "Chair",
+    "organisation": "Life Education NSW",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mary_Easson"
+    ]
+  },
+  {
+    "pollie_slug": "mary-easson",
+    "role": "Steering Committee Member",
+    "organisation": "Trinity College Leadership Program for Parliamentarians, University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.trinity.unimelb.edu.au/whats-happening/news/trinity-partners-in-leadership"
+    ]
+  },
+  {
+    "pollie_slug": "mary-easson",
+    "role": "Director",
+    "organisation": "Australia Israel Labor Dialogue",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://aild.org.au/about/",
+      "https://en.wikipedia.org/wiki/Mary_Easson",
+      "https://www.australianjewishnews.com/aild-rejects-elbit-claims/"
+    ]
+  },
+  {
+    "pollie_slug": "nicholas-reid",
+    "role": "Board Member",
+    "organisation": "St Luke's Anglicare",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.bendigoadvertiser.com.au/story/6770524/a-legend-lost-former-bendigo-politician-bruce-reid-mourned/"
+    ]
+  },
+  {
+    "pollie_slug": "nicholas-reid",
+    "role": "Board Member",
+    "organisation": "Bendigo Business Expo",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.bendigoadvertiser.com.au/story/6770524/a-legend-lost-former-bendigo-politician-bruce-reid-mourned/"
+    ]
+  },
+  {
+    "pollie_slug": "nicholas-reid",
+    "role": "Board Member",
+    "organisation": "Discovery Science and Technology Centre",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.bendigoadvertiser.com.au/story/6770524/a-legend-lost-former-bendigo-politician-bruce-reid-mourned/"
+    ]
+  },
+  {
+    "pollie_slug": "nicholas-reid",
+    "role": "Board Member",
+    "organisation": "Bendigo Manufacturing Group",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.bendigoadvertiser.com.au/story/6770524/a-legend-lost-former-bendigo-politician-bruce-reid-mourned/"
+    ]
+  },
+  {
+    "pollie_slug": "emma-husar",
+    "role": "Keynote Speaker",
+    "organisation": "Brave By Design",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.emmahusar.com/bio",
+      "https://www.saxton.com.au/speakers/emma-husar"
+    ]
+  },
+  {
+    "pollie_slug": "emma-husar",
+    "role": "Founder and Chair",
+    "organisation": "SaFAR Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.facebook.com/emmahusarmp/",
+      "https://grokipedia.com/page/Emma_Husar"
+    ]
+  },
+  {
+    "pollie_slug": "emma-husar",
+    "role": "Founder and Co-Chair",
+    "organisation": "Domestic Violence Advocacy Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://au.linkedin.com/in/ejhusar",
+      "https://www.domesticviolenceadvocacyaustralia.org/"
+    ]
   }
 ]
