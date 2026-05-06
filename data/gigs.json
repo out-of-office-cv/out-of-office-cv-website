@@ -7414,39 +7414,65 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
-      "https://biography.senate.gov.au/kernot-cheryl/"
+      "https://biography.senate.gov.au/kernot-cheryl/",
+      "https://www.unsw.edu.au/newsroom/news/2008/09/cheryl-kernot-joins-the-csi",
+      "https://www.womenaustralia.info/leaders/biogs/WLE0314b.htm"
     ],
     "pollie_slug": "cheryl-kernot",
-    "start_date": "2002-01-01",
-    "end_date": "2008-01-01"
+    "start_date": "2003-01-01",
+    "end_date": "2008-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Role and organisation confirmed by multiple strong sources including the official UNSW press release (September 2008) and the Australian Senate biography. Both describe her spending 'five years in the UK' as Programme Director at the Skoll Centre prior to joining UNSW in September 2008 --- placing the start date at approximately 2003."
+    }
   },
   {
     "role": "Director of Learning",
     "organisation": "School for Social Entrepreneurs",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://en.wikipedia.org/wiki/Cheryl_Kernot"
+      "https://en.wikipedia.org/wiki/Cheryl_Kernot",
+      "https://www.unsw.edu.au/newsroom/news/2008/09/cheryl-kernot-joins-the-csi"
     ],
-    "pollie_slug": "cheryl-kernot"
+    "pollie_slug": "cheryl-kernot",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Role confirmed by the UNSW press release (September 2008), which explicitly states Kernot worked as 'Director of Learning at the School for Social Entrepreneurs in London' during her five-year UK period."
+    }
   },
   {
     "role": "Associate Professor & Director of Teaching and Learning, Centre for Social Impact",
     "organisation": "University of New South Wales",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://en.wikipedia.org/wiki/Cheryl_Kernot"
+      "https://en.wikipedia.org/wiki/Cheryl_Kernot",
+      "https://www.unsw.edu.au/newsroom/news/2008/09/cheryl-kernot-joins-the-csi"
     ],
     "pollie_slug": "cheryl-kernot",
-    "start_date": "2008-09-01"
+    "start_date": "2008-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the official UNSW newsroom announcement dated 5 September 2008."
+    }
   },
   {
     "role": "Director of Social Business, Centre for Social Impact",
     "organisation": "University of New South Wales",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://en.wikipedia.org/wiki/Cheryl_Kernot"
+      "https://en.wikipedia.org/wiki/Cheryl_Kernot",
+      "https://theconversation.com/profiles/cheryl-kernot-7037",
+      "https://www.unsw.edu.au/newsroom/news/2008/09/cheryl-kernot-joins-the-csi"
     ],
-    "pollie_slug": "cheryl-kernot"
+    "pollie_slug": "cheryl-kernot",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Role confirmed by The Conversation author profile and other sources, which list 'Director of Social Business, Centre for Social Impact' at UNSW as her position."
+    }
   },
   {
     "role": "President and Chief Executive Officer",
@@ -8066,10 +8092,16 @@
     "organisation": "Office of Warren Truss MP",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Grace,_Elizabeth"
+      "https://en.wikipedia.org/wiki/Grace,_Elizabeth",
+      "https://en.wikipedia.org/wiki/Warren_Truss"
     ],
     "pollie_slug": "elizabeth-grace",
-    "start_date": "1999-01-01"
+    "start_date": "1999-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Grace moved to Maryborough in January 1999 to work as a special liaison officer for National Party MP Warren Truss. The Wikipedia URL https://en.wikipedia.org/wiki/Grace,_Elizabeth resolves correctly and refers unambiguously to the correct person."
+    }
   },
   {
     "role": "President",
@@ -8078,7 +8110,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Grace,_Elizabeth"
     ],
-    "pollie_slug": "elizabeth-grace"
+    "pollie_slug": "elizabeth-grace",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia explicitly states Grace served as president of the Rotary Club of Nundah after returning to Brisbane from Maryborough."
+    }
   },
   {
     "role": "President",
@@ -8087,7 +8124,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Grace,_Elizabeth"
     ],
-    "pollie_slug": "elizabeth-grace"
+    "pollie_slug": "elizabeth-grace",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia explicitly states Grace served as president of the Brisbane North Committee on the Ageing."
+    }
   },
   {
     "role": "Vice-President",
@@ -8096,7 +8138,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Grace,_Elizabeth"
     ],
-    "pollie_slug": "elizabeth-grace"
+    "pollie_slug": "elizabeth-grace",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia explicitly states Grace served as vice-president of the Northgate/Spring Hill and Districts Ambulance Committee."
+    }
   },
   {
     "role": "Director",
@@ -12214,7 +12261,12 @@
     ],
     "pollie_slug": "david-macgibbon",
     "start_date": "2000-01-01",
-    "end_date": "2000-06-30"
+    "end_date": "2000-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Biographical Dictionary of the Australian Senate: MacGibbon led a working group of the Defence and Industry Advisory Council early in 2000, focusing on improving Defence Department procurement processes."
+    }
   },
   {
     "role": "Community Consultation Team Member",
@@ -12224,7 +12276,12 @@
       "https://biography.senate.gov.au/macgibbon-david-john/"
     ],
     "pollie_slug": "david-macgibbon",
-    "start_date": "2000-06-01"
+    "start_date": "2000-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Biographical Dictionary of the Australian Senate: MacGibbon was appointed in June 2000 to a four-person community consultation team for the 'Defence Review 2000' White Paper."
+    }
   },
   {
     "role": "Observer",
@@ -12236,7 +12293,12 @@
     ],
     "pollie_slug": "david-macgibbon",
     "start_date": "2000-06-01",
-    "end_date": "2000-07-31"
+    "end_date": "2000-07-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by both Wikipedia and the Biographical Dictionary of the Australian Senate. The Zimbabwe parliamentary elections were held on 24--25 June 2000."
+    }
   },
   {
     "role": "Observer",
@@ -12322,10 +12384,13 @@
     "category": "Professional Services & Management Consulting",
     "sources": [
       "https://en.wikipedia.org/wiki/Mary_Easson",
-      "https://probityinternational.wordpress.com/our-ceo/",
-      "https://www.linkedin.com/in/mary-easson-53ba1961/"
+      "https://probityinternational.wordpress.com/our-ceo/"
     ],
-    "start_date": "1996-01-01"
+    "start_date": "1996-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "mary-easson",
@@ -12337,7 +12402,11 @@
       "https://www.maynereport.com/articles/2007/10/12-1236-1117.html"
     ],
     "start_date": "1997-10-01",
-    "end_date": "2001-12-31"
+    "end_date": "2001-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "mary-easson",
@@ -12348,7 +12417,11 @@
       "https://en.wikipedia.org/wiki/Mary_Easson"
     ],
     "start_date": "2000-11-01",
-    "end_date": "2001-12-31"
+    "end_date": "2001-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "mary-easson",
@@ -12359,8 +12432,13 @@
       "https://en.wikipedia.org/wiki/Mary_Easson",
       "https://www.iag.com.au/content/dam/corporate-iag/iag-aus/au/en/documents/report/iag-annual-report-0902.pdf"
     ],
-    "start_date": "1997-01-01",
-    "end_date": "2003-12-31"
+    "start_date": "1997-10-01",
+    "end_date": "2003-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The IAG 2003 preliminary final report and IAG 2002 annual report confirm she was appointed Director of NRMA Insurance Limited in 1997 and remained until late 2003. The start year 1997 is confirmed; 1997-01-01 is plausible as a proxy for the October 1997 board election."
+    }
   },
   {
     "pollie_slug": "mary-easson",
@@ -12373,7 +12451,12 @@
       "https://www.maynereport.com/articles/2007/10/12-1236-1117.html"
     ],
     "start_date": "2000-06-01",
-    "end_date": "2003-12-31"
+    "end_date": "2003-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "IAG preliminary final report confirms appointment as Director of IAG in June 2000 following demutualisation. Start date corrected to June 2000."
+    }
   },
   {
     "pollie_slug": "mary-easson",
@@ -12382,7 +12465,12 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://en.wikipedia.org/wiki/Mary_Easson"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and web searches confirm she served as chairperson of Life Education NSW during the 2000s. No specific dates found in sources; dates remain null."
+    }
   },
   {
     "pollie_slug": "mary-easson",
@@ -12391,7 +12479,12 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://www.trinity.unimelb.edu.au/whats-happening/news/trinity-partners-in-leadership"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Trinity College University of Melbourne news page explicitly lists Mary Easson as a steering committee member identified as a former ALP MP."
+    }
   },
   {
     "pollie_slug": "mary-easson",
@@ -12400,8 +12493,7 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://aild.org.au/about/",
-      "https://en.wikipedia.org/wiki/Mary_Easson",
-      "https://www.australianjewishnews.com/aild-rejects-elbit-claims/"
+      "https://en.wikipedia.org/wiki/Mary_Easson"
     ]
   },
   {
