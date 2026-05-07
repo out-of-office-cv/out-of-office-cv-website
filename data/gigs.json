@@ -930,10 +930,16 @@
     "organisation": "CitizenGO",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://transparency.ag.gov.au/Registrants/Details/3c1bd887-5106-ee11-a99e-0050569fd942"
+      "https://www.facebook.com/citizengooceania/videos/australias-citizengo-campaign-director-george-christensen-asks-key-attendees-as-/304261168644554/",
+      "https://en.wikipedia.org/wiki/George_Christensen"
     ],
     "pollie_slug": "george-christensen",
-    "start_date": "2022-05-01"
+    "start_date": "2022-05-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "transparency.ag.gov.au URL returns 404; replaced with CitizenGO Oceania video and Wikipedia."
+    }
   },
   {
     "role": "Editor",
@@ -944,7 +950,11 @@
       "https://nationfirst.substack.com/p/eureka-free-press-is-finally-live"
     ],
     "pollie_slug": "george-christensen",
-    "start_date": "2022-10-28"
+    "start_date": "2022-10-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Host",
@@ -955,18 +965,29 @@
       "https://goodsauce.news/author/george-christensen/"
     ],
     "pollie_slug": "george-christensen",
-    "start_date": "2020-09-01"
+    "start_date": "2020-09-01",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Pre-parliament role mistakenly tagged as post-parliament. The Conservative One podcast launched in August 2020, before Christensen left parliament on 11 April 2022. The recorded start_date 2020-09-01 predates his departure."
+    }
   },
   {
     "role": "Councillor (Division 6)",
     "organisation": "Mackay Regional Council",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.mackayandwhitsundaylife.com/article/new-council-a-blend-of-experience-and-new-blood"
+      "https://www.mackayandwhitsundaylife.com/article/new-council-a-blend-of-experience-and-new-blood",
+      "https://www.localelections.com.au/post/george-christensen-announces-resignation-as-mackay-councillor-for-family-reasons",
+      "https://www.mackayandwhitsundaylife.com/article/christensens-exit-sparks-scrutiny-of-bullying-culture-in-council"
     ],
     "pollie_slug": "george-christensen",
     "start_date": "2024-04-01",
-    "end_date": "2025-05-30"
+    "end_date": "2025-05-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "CEO and Founder",
@@ -4360,10 +4381,15 @@
     "organisation": "Brickworks Limited",
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://reneweconomy.com.au/joel-fitzgibbon-appointed-to-board-of-coal-mine-investor-as-profits-flood-in/"
+      "https://reneweconomy.com.au/joel-fitzgibbon-appointed-to-board-of-coal-mine-investor-as-profits-flood-in/",
+      "https://investors.brickworks.com.au/team/the-hon-joel-a-fitzgibbon/"
     ],
     "pollie_slug": "joel-fitzgibbon",
-    "start_date": "2022-11-21"
+    "start_date": "2022-11-21",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Special Counsel",
@@ -4373,18 +4399,28 @@
       "https://www.defenceconnect.com.au/joint-capabilities/10064-joel-fitzgibbon-joins-cmax-advisory"
     ],
     "pollie_slug": "joel-fitzgibbon",
-    "start_date": "2022-05-25"
+    "start_date": "2022-05-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Australian Forest Products Association",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
-      "https://woodcentral.com.au/ex-agriculture-minister-fitzgibbon-is-new-forest-products-chair/"
+      "https://woodcentral.com.au/ex-agriculture-minister-fitzgibbon-is-new-forest-products-chair/",
+      "https://ausfpa.com.au/former-labor-minister-joel-fitzgibbon-to-partner-with-australias-forest-industries-joining-afpa-board/",
+      "https://woodcentral.com.au/former-rudd-minister-joel-fitzgibbon-resigns-as-afpa-chair/"
     ],
     "pollie_slug": "joel-fitzgibbon",
-    "start_date": "2023-01-01",
-    "end_date": "2024-10-01"
+    "start_date": "2023-08-18",
+    "end_date": "2024-02-06",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chair",
@@ -4394,7 +4430,11 @@
       "https://www.crawfordfund.org/news/welcome-to-new-chair-and-deputy-chair/"
     ],
     "pollie_slug": "joel-fitzgibbon",
-    "start_date": "2025-08-20"
+    "start_date": "2025-08-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -10179,17 +10219,21 @@
     "category": "Retail, Hospitality & Tourism",
     "sources": [
       "https://en.wikipedia.org/wiki/John_Brown_(Australian_politician)",
-      "https://ovations.com.au/speakers/john-brown-ao.html"
+      "https://johnmenadue.com/michael-sainsbury-scott-john-morrison-where-the-bloody-hell-did-he-come-from-michael-west/",
+      "https://ttf.org.au/about-ttf/"
     ],
-    "pollie_slug": "john-brown"
+    "pollie_slug": "john-brown",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron and Chairman",
     "organisation": "Sport and Tourism Youth Foundation",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://en.wikipedia.org/wiki/John_Brown_(Australian_politician)",
-      "https://ovations.com.au/speakers/john-brown-ao.html"
+      "https://en.wikipedia.org/wiki/John_Brown_(Australian_politician)"
     ],
     "pollie_slug": "john-brown"
   },
@@ -10200,7 +10244,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/John_Brown_(Australian_politician)"
     ],
-    "pollie_slug": "john-brown"
+    "pollie_slug": "john-brown",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -10209,7 +10257,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/John_Brown_(Australian_politician)"
     ],
-    "pollie_slug": "john-brown"
+    "pollie_slug": "john-brown",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Lawyer (private practice)",
@@ -11453,7 +11505,11 @@
       "https://theworstofperth.com/2009/05/06/radio-ratings-rigged/",
       "https://www.sbs.com.au/news/article/perth-radio-king-eoin-cameron-dies-aged-65/fladfcmaf"
     ],
-    "pollie_slug": "eoin-cameron"
+    "pollie_slug": "eoin-cameron",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Radio Presenter",
@@ -11463,7 +11519,11 @@
       "https://en.wikipedia.org/wiki/Eoin_Cameron",
       "https://theworstofperth.com/2009/05/06/radio-ratings-rigged/"
     ],
-    "pollie_slug": "eoin-cameron"
+    "pollie_slug": "eoin-cameron",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Breakfast Presenter",
@@ -11474,7 +11534,11 @@
       "https://www.sbs.com.au/news/article/perth-radio-king-eoin-cameron-dies-aged-65/fladfcmaf",
       "https://radioinfo.com.au/news/720-abc-perth-presenter-retire/"
     ],
-    "pollie_slug": "eoin-cameron"
+    "pollie_slug": "eoin-cameron",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Author",
@@ -11485,7 +11549,11 @@
       "https://fremantlepress.com.au/books/rolling-into-the-world/",
       "https://en.wikipedia.org/wiki/Eoin_Cameron"
     ],
-    "pollie_slug": "eoin-cameron"
+    "pollie_slug": "eoin-cameron",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -11958,7 +12026,11 @@
       "https://biography.senate.gov.au/evans-john-gordon/"
     ],
     "pollie_slug": "jack-evans",
-    "end_date": "1993-01-31"
+    "end_date": "1993-01-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Campaign Manager",
@@ -11969,7 +12041,11 @@
     ],
     "pollie_slug": "jack-evans",
     "start_date": "1989-01-01",
-    "end_date": "1989-02-11"
+    "end_date": "1989-02-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Part-time Staffer",
@@ -11981,7 +12057,11 @@
     ],
     "pollie_slug": "jack-evans",
     "start_date": "1996-01-01",
-    "end_date": "2008-12-31"
+    "end_date": "2008-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "National Campaign Director",
@@ -11993,7 +12073,11 @@
     ],
     "pollie_slug": "jack-evans",
     "start_date": "2001-01-01",
-    "end_date": "2001-11-10"
+    "end_date": "2001-11-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
