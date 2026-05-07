@@ -12764,5 +12764,74 @@
       "https://www.linkedin.com/in/kerry-rea-a172bb69/"
     ],
     "pollie_slug": "kerry-rea"
+  },
+  {
+    "pollie_slug": "lou-lieberman",
+    "role": "Director",
+    "organisation": "Hume Building Society",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lou_Lieberman",
+      "https://www.linkedin.com/posts/humebank_vale-lou-lieberman-1938-2024-we-are-deeply-activity-7198896431225610241-MT62"
+    ],
+    "start_date": "1999-01-01"
+  },
+  {
+    "pollie_slug": "lou-lieberman",
+    "role": "Chair",
+    "organisation": "Albury Wodonga Health",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.helenhaines.org/media/remembering-lou-lieberman-am/",
+      "https://www.bordermail.com.au/story/4763558/change-at-the-top-for-awh-board/",
+      "https://www.bordermail.com.au/story/8635905/remembering-lou-lieberman-former-border-politician-dies-aged-85/"
+    ],
+    "start_date": "2014-01-01",
+    "end_date": "2017-06-01"
+  },
+  {
+    "pollie_slug": "lou-lieberman",
+    "role": "Chair, Mercy Million Building Appeal Gift-Giving Committee",
+    "organisation": "Mercy Health Service Albury",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lou_Lieberman",
+      "https://www.bordermail.com.au/story/8635905/remembering-lou-lieberman-former-border-politician-dies-aged-85/"
+    ]
+  },
+  {
+    "pollie_slug": "lou-lieberman",
+    "role": "Council Member",
+    "organisation": "La Trobe University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lou_Lieberman"
+    ]
+  },
+  {
+    "pollie_slug": "len-harris",
+    "role": "Founder and Campaigner",
+    "organisation": "Silent Majority",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.thesilentmajority.au/",
+      "https://www.thesilentmajority.au/aboutourteam/",
+      "https://www.facebook.com/senlenharris/posts/driving-the-silent-majority-is-former-senator-len-harris-who-has-spent-the-past-/198705279150544/",
+      "https://cairnsnews.org/2021/07/10/join-len-harris-campaign-to-reverse-the-theft-and-destruction-of-queensland-paper-property-titles/",
+      "https://www.gofundme.com/f/lenharris"
+    ],
+    "start_date": "2019-01-01"
+  },
+  {
+    "pollie_slug": "david-charles",
+    "role": "Consul-General",
+    "organisation": "Australian Consulate-General San Francisco",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Charles_(Australian_politician)",
+      "https://www.salesian.vic.edu.au/profile/david-charles/"
+    ],
+    "start_date": "1990-02-19",
+    "end_date": "1993-12-31"
   }
 ]
