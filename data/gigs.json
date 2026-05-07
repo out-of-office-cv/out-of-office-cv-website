@@ -12910,5 +12910,117 @@
     ],
     "start_date": "1990-02-19",
     "end_date": "1993-12-31"
+  },
+  {
+    "role": "Federal President",
+    "organisation": "Royal Flying Doctor Service of Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mick_Cotter"
+    ],
+    "pollie_slug": "john-cotter"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "RSL & Services Clubs Association",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Garrie_Gibson",
+      "https://www.facebook.com/RSLSCA/posts/recently-our-ceo-garrie-gibson-attended-campsie-rsls-clubgrants-presentation-nig/1724168187708698/",
+      "https://rslservicesclubs.com.au/dean-thomas-along-with-the-board-of-the-rsl-services-clubs-association-announce-ms-margot-smith-as-the-new-ceo/"
+    ],
+    "pollie_slug": "garrie-gibson",
+    "end_date": "2021-11-12"
+  },
+  {
+    "role": "Director",
+    "organisation": "ACTA Shipping Group",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22media/pressrel/HNC022016024895%22;src1=sm1"
+    ],
+    "pollie_slug": "peter-nixon",
+    "start_date": "1983-07-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Southern Cross Broadcasting",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Nixon",
+      "https://www.afl.com.au/news/1313883/afl-statement-vale-peter-nixon-ao",
+      "https://snowyrivermail.com.au/12451/peter-james-nixon-22-3-1928-to-1-5-2025/"
+    ],
+    "pollie_slug": "peter-nixon",
+    "start_date": "1984",
+    "end_date": "2000"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "Victorian Football League Commission",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Nixon",
+      "https://www.afl.com.au/news/1313883/afl-statement-vale-peter-nixon-ao",
+      "https://www.richmondfc.com.au/news/1772932/vale-peter-nixon-ao"
+    ],
+    "pollie_slug": "peter-nixon",
+    "start_date": "1985",
+    "end_date": "1991"
+  },
+  {
+    "role": "Director",
+    "organisation": "Gippsland and Northern",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://snowyrivermail.com.au/12451/peter-james-nixon-22-3-1928-to-1-5-2025/"
+    ],
+    "pollie_slug": "peter-nixon",
+    "start_date": "1983"
+  },
+  {
+    "role": "Director",
+    "organisation": "Linfox",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://snowyrivermail.com.au/12451/peter-james-nixon-22-3-1928-to-1-5-2025/",
+      "https://www.bridgetmckenzie.com.au/speeches/the-hon-peter-james-nixon-ao-condolence-motion/"
+    ],
+    "pollie_slug": "peter-nixon"
+  },
+  {
+    "role": "Chief Commissioner",
+    "organisation": "East Gippsland Shire Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Nixon",
+      "https://snowyrivermail.com.au/12451/peter-james-nixon-22-3-1928-to-1-5-2025/"
+    ],
+    "pollie_slug": "peter-nixon",
+    "start_date": "1995",
+    "end_date": "1997"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Commonwealth-State Inquiry into the Tasmanian Economy",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Nixon",
+      "https://www.abs.gov.au/ausstats/abs@.nsf/7d12b0f6763c78caca257061001cc588/01f72b4ae9cf9ef9ca256c3200241653!OpenDocument"
+    ],
+    "pollie_slug": "peter-nixon",
+    "start_date": "1996",
+    "end_date": "1996"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Richmond Football Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.richmondfc.com.au/news/1772932/vale-peter-nixon-ao"
+    ],
+    "pollie_slug": "peter-nixon",
+    "start_date": "1995",
+    "end_date": "2004"
   }
 ]
