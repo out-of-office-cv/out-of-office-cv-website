@@ -12645,5 +12645,36 @@
       "https://au.linkedin.com/in/ejhusar",
       "https://www.domesticviolenceadvocacyaustralia.org/"
     ]
+  },
+  {
+    "role": "Member",
+    "organisation": "Migration Review Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ricky_Johnston"
+    ],
+    "pollie_slug": "ricky-johnston",
+    "start_date": "1999"
+  },
+  {
+    "role": "Member",
+    "organisation": "Refugee Review Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ricky_Johnston"
+    ],
+    "pollie_slug": "ricky-johnston",
+    "start_date": "2004",
+    "end_date": "2010"
+  },
+  {
+    "role": "Staff Member",
+    "organisation": "Griffith University (Office of the Vice-Chancellor and President)",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.linkedin.com/in/kerryrea2021/",
+      "https://www.linkedin.com/in/kerry-rea-a172bb69/"
+    ],
+    "pollie_slug": "kerry-rea"
   }
 ]
