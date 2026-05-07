@@ -7207,18 +7207,25 @@
       "https://womensagenda.com.au/latest/julia-banks-appointed-special-advisor-in-gender-and-politics-at-gender-equity-victoria/"
     ],
     "pollie_slug": "julia-banks",
-    "start_date": "2020-05-27"
+    "start_date": "2020-05-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisor",
     "organisation": "Climate 200",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Julia_Banks",
-      "https://neoskosmos.com/en/2021/09/09/news/former-liberal-mp-julia-banks-joins-climate-200/"
+      "https://en.wikipedia.org/wiki/Julia_Banks"
     ],
     "pollie_slug": "julia-banks",
-    "start_date": "2021-10-01"
+    "start_date": "2021-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founder",
@@ -7227,7 +7234,11 @@
     "sources": [
       "https://www.juliabanks.net/about/"
     ],
-    "pollie_slug": "julia-banks"
+    "pollie_slug": "julia-banks",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -9877,30 +9888,48 @@
     "organisation": "Government Relations Australia Advisory",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.australianpolioregister.org.au/john-tierney/"
+      "https://www.australianpolioregister.org.au/john-tierney/",
+      "https://www.polioaustralia.org.au/our-activities/polio-awareness-month-october/were-still-here-campaign-heroes/john-tierney-were-still-here-campaign-hero/",
+      "https://www.stillhere.org.au/john-tierney/"
     ],
     "pollie_slug": "john-tierney",
     "start_date": "2005",
-    "end_date": "2011"
+    "end_date": "2011",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Special Counsel",
     "organisation": "1st State Government and Corporate Relations",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.australianpolioregister.org.au/john-tierney/"
+      "https://www.australianpolioregister.org.au/john-tierney/",
+      "https://www.polioaustralia.org.au/our-activities/polio-awareness-month-october/were-still-here-campaign-heroes/john-tierney-were-still-here-campaign-hero/",
+      "https://www.stillhere.org.au/john-tierney/"
     ],
     "pollie_slug": "john-tierney",
-    "start_date": "2011"
+    "start_date": "2011",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "National Patron and President",
     "organisation": "Australian Polio Register",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.australianpolioregister.org.au/john-tierney/"
+      "https://www.australianpolioregister.org.au/john-tierney/",
+      "https://www.polioaustralia.org.au/our-activities/polio-awareness-month-october/were-still-here-campaign-heroes/john-tierney-were-still-here-campaign-hero/",
+      "https://www.stillhere.org.au/john-tierney/"
     ],
-    "pollie_slug": "john-tierney"
+    "pollie_slug": "john-tierney",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -9909,7 +9938,11 @@
     "sources": [
       "https://www.australianpolioregister.org.au/john-tierney/"
     ],
-    "pollie_slug": "john-tierney"
+    "pollie_slug": "john-tierney",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Fellow, Politics and International Relations",
@@ -10084,7 +10117,11 @@
       "https://en.wikipedia.org/wiki/John_Hyde_(Australian_federal_politician)"
     ],
     "pollie_slug": "john-hyde",
-    "start_date": "1983-01-01"
+    "start_date": "1983-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Director",
@@ -10096,7 +10133,11 @@
     ],
     "pollie_slug": "john-hyde",
     "start_date": "1991-01-01",
-    "end_date": "1995-12-31"
+    "end_date": "1995-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -10107,7 +10148,11 @@
     ],
     "pollie_slug": "john-hyde",
     "start_date": "1997-01-01",
-    "end_date": "2018-12-31"
+    "end_date": "2018-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Emeritus Fellow",
@@ -10116,7 +10161,11 @@
     "sources": [
       "https://ipa.org.au/author/johnhyde"
     ],
-    "pollie_slug": "john-hyde"
+    "pollie_slug": "john-hyde",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Board Member",
@@ -11224,7 +11273,11 @@
       "https://en.wikipedia.org/wiki/John_Button_(Australian_politician)"
     ],
     "pollie_slug": "john-button",
-    "end_date": "2008-04-08"
+    "end_date": "2008-04-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -11235,7 +11288,11 @@
     ],
     "pollie_slug": "john-button",
     "start_date": "2002-01-01",
-    "end_date": "2008-04-08"
+    "end_date": "2008-04-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -11244,7 +11301,11 @@
     "sources": [
       "https://biography.senate.gov.au/button-john-norman/"
     ],
-    "pollie_slug": "john-button"
+    "pollie_slug": "john-button",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Special Trade Representative",
@@ -11253,7 +11314,11 @@
     "sources": [
       "https://biography.senate.gov.au/button-john-norman/"
     ],
-    "pollie_slug": "john-button"
+    "pollie_slug": "john-button",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -12244,7 +12309,11 @@
     ],
     "pollie_slug": "kate-ellis",
     "start_date": "2017-01-01",
-    "end_date": "2024-11-01"
+    "end_date": "2024-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Community Director",
@@ -12254,18 +12323,26 @@
       "https://drinkwise.org.au/about-us/drinkwise-board-of-directors/"
     ],
     "pollie_slug": "kate-ellis",
-    "start_date": "2019-08-07"
+    "start_date": "2019-08-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Early Years Taskforce (Raising Literacy Australia)",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://raisingliteracy.org.au/the-early-years-taskforce-announced/",
-      "https://thesector.com.au/2023/09/13/sa-government-commits-to-early-literacy-and-development-with-4m-in-funding/"
+      "https://thesector.com.au/2023/09/13/sa-government-commits-to-early-literacy-and-development-with-4m-in-funding/",
+      "https://www.nationaltribune.com.au/multimillion-dollar-early-years-investment-to-change-lives/"
     ],
     "pollie_slug": "kate-ellis",
-    "start_date": "2021-06-01"
+    "start_date": "2021-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -12273,11 +12350,14 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.linkedin.com/in/kate-ellis-92aa9a242/",
-      "https://www.afc.com.au/news/1699960/crows-thank-kate-ellis",
-      "https://grokipedia.com/page/Kate_Ellis_(politician)"
+      "https://www.afc.com.au/news/1699960/crows-thank-kate-ellis"
     ],
     "pollie_slug": "kate-ellis",
-    "start_date": "2022-12-01"
+    "start_date": "2022-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Lecturer in Human Ecology",
