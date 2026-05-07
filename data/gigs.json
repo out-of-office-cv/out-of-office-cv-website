@@ -13095,5 +13095,308 @@
       "by": "claude",
       "note": "Richmond FC news article explicitly confirms Nixon served as Board Consultant from 1995 to 2004."
     }
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Macquarie Bank",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bob_Carr"
+    ],
+    "pollie_slug": "bob-carr",
+    "start_date": "2005-10",
+    "end_date": "2012"
+  },
+  {
+    "role": "Adjunct Professor, Faculty of Arts and Social Sciences",
+    "organisation": "University of New South Wales",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.unsw.edu.au/newsroom/news/2013/10/former-foreign-minister-bob-carr-joins-unsw"
+    ],
+    "pollie_slug": "bob-carr",
+    "start_date": "2013-11"
+  },
+  {
+    "role": "Professorial Fellow",
+    "organisation": "Sydney Southeast Asia Centre, University of Sydney",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bob_Carr"
+    ],
+    "pollie_slug": "bob-carr",
+    "start_date": "2013-11"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australia-China Relations Institute, University of Technology Sydney",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.uts.edu.au/research/centres/australia-china-relations-institute/about/contributor/bob-carr",
+      "https://www.csaa.org.au/2014/05/uts-australia-china-relations-institute/"
+    ],
+    "pollie_slug": "bob-carr",
+    "start_date": "2014",
+    "end_date": "2019"
+  },
+  {
+    "role": "Industry Professor (Business and Climate Change)",
+    "organisation": "University of Technology Sydney",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://reneweconomy.com.au/bob-carr-appointed-to-new-business-and-climate-change-role-at-uts-80118/",
+      "https://www.uts.edu.au/news/business-law/bob-carr-appointed-new-role-uts"
+    ],
+    "pollie_slug": "bob-carr",
+    "start_date": "2019-06"
+  },
+  {
+    "role": "Director",
+    "organisation": "Dymocks Booksellers",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bob_Carr"
+    ],
+    "pollie_slug": "bob-carr",
+    "start_date": "2007-07"
+  },
+  {
+    "role": "Director",
+    "organisation": "United States Studies Centre",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bob_Carr"
+    ],
+    "pollie_slug": "bob-carr",
+    "start_date": "2009"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Voiceless, the Animal Protection Institute",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bob_Carr"
+    ],
+    "pollie_slug": "bob-carr",
+    "start_date": "2009"
+  },
+  {
+    "role": "Director",
+    "organisation": "Melbourne University Press",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.salaamfoundation.com.au/about/our-people/bob-carr",
+      "https://www.thenewdaily.com.au/entertainment/books/2019/01/31/melbourne-university-press-exodus"
+    ],
+    "pollie_slug": "bob-carr",
+    "end_date": "2019"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Crescent Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.ifa.com.au/former-nsw-premier-joins-crescent-foundation/",
+      "https://crescentfoundation.com.au/about/our-people/bob-carr"
+    ],
+    "pollie_slug": "bob-carr"
+  },
+  {
+    "role": "Advisory Board Member",
+    "organisation": "Lysicrates Foundation",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://lysicratesfoundation.org.au/board/",
+      "https://www.salaamfoundation.com.au/about/our-people/bob-carr"
+    ],
+    "pollie_slug": "bob-carr"
+  },
+  {
+    "role": "Advisory Board Member",
+    "organisation": "Affinity Intercultural Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://affinity.org.au/about/our-advisory-board/"
+    ],
+    "pollie_slug": "bob-carr"
+  },
+  {
+    "role": "Committee Member, Matraville Education Partnership Advisory Committee",
+    "organisation": "University of New South Wales",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.salaamfoundation.com.au/about/our-people/bob-carr",
+      "https://www.unsw.edu.au/arts-design-architecture/our-schools/education/engage-with-us/matraville-education-partnership"
+    ],
+    "pollie_slug": "bob-carr"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Sustainable Population Australia",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://population.org.au/about/people/the-hon-bob-carr/"
+    ],
+    "pollie_slug": "bob-carr"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Heritage Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.dcceew.gov.au/about/news/new-appointments-australian-heritage-council",
+      "https://www.miragenews.com/new-appointments-to-australian-heritage-council-1273452/"
+    ],
+    "pollie_slug": "bob-carr",
+    "start_date": "2024-07-11"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Museums of History New South Wales",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/new-leadership-at-nsw-cultural-institutions",
+      "https://www.miragenews.com/new-leadership-at-nsw-cultural-institutions-1374500/"
+    ],
+    "pollie_slug": "bob-carr",
+    "start_date": "2024-12-10"
+  },
+  {
+    "role": "Director",
+    "organisation": "Sydney Water",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.nsw.gov.au/ministerial-releases/appointments-to-sydney-water-board",
+      "https://www.governmentnews.com.au/bob-carr-joins-sydney-water/"
+    ],
+    "pollie_slug": "bob-carr",
+    "start_date": "2025-11-17"
+  },
+  {
+    "role": "Honorary Professor",
+    "organisation": "Beijing Foreign Studies University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.uts.edu.au/research/centres/australia-china-relations-institute/about/contributor/bob-carr"
+    ],
+    "pollie_slug": "bob-carr"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Wickerman Group",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://au.linkedin.com/in/craig-thomson-619b70140",
+      "https://www.michaelsmithnews.com/2016/09/craig-thomson-migration-agent-will-pay-for-fake-employers-in-confidence-nqa.html",
+      "https://morningmail.org/craig-thomson-remember-hes-businessman-now/",
+      "https://morningmail.org/craig-thomson-makes-news-again-oh-dear/"
+    ],
+    "pollie_slug": "craig-thomson",
+    "start_date": "2014",
+    "end_date": "2021"
+  },
+  {
+    "role": "High Commissioner to New Zealand",
+    "organisation": "Australian High Commission, New Zealand",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Les_Johnson",
+      "https://adb.anu.edu.au/biography/johnson-leslie-royston-les-28223",
+      "https://labouraustralia.anu.edu.au/biography/johnson-leslie-royston-les-28223",
+      "https://oa.anu.edu.au/obituary/johnson-leslie-royston-les-28223"
+    ],
+    "pollie_slug": "leslie-johnson",
+    "start_date": "1984",
+    "end_date": "1987"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australia New Zealand Foundation",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://adb.anu.edu.au/biography/johnson-leslie-royston-les-28223",
+      "https://labouraustralia.anu.edu.au/biography/johnson-leslie-royston-les-28223",
+      "https://en.wikipedia.org/wiki/Les_Johnson"
+    ],
+    "pollie_slug": "leslie-johnson"
+  },
+  {
+    "role": "National Vice-President",
+    "organisation": "Association of Former Members of the Parliament of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://adb.anu.edu.au/biography/johnson-leslie-royston-les-28223",
+      "https://labouraustralia.anu.edu.au/biography/johnson-leslie-royston-les-28223"
+    ],
+    "pollie_slug": "leslie-johnson",
+    "start_date": "1988",
+    "end_date": "1991"
+  },
+  {
+    "role": "National President",
+    "organisation": "Association of Former Members of the Parliament of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://adb.anu.edu.au/biography/johnson-leslie-royston-les-28223",
+      "https://labouraustralia.anu.edu.au/biography/johnson-leslie-royston-les-28223"
+    ],
+    "pollie_slug": "leslie-johnson",
+    "start_date": "1991",
+    "end_date": "1993"
+  },
+  {
+    "role": "High Commissioner to Zimbabwe",
+    "organisation": "Australian High Commission to Zimbabwe",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kerry_Sibraa",
+      "https://biography.senate.gov.au/sibraa-kerry-walter/",
+      "https://www.whmspa.com.au/kerry-sibraa"
+    ],
+    "pollie_slug": "kerry-sibraa",
+    "start_date": "1994-03",
+    "end_date": "1998-02"
+  },
+  {
+    "role": "Special Counsel",
+    "organisation": "Wells Haslem Strategic Public Affairs",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.whmspa.com.au/kerry-sibraa",
+      "https://en.wikipedia.org/wiki/Kerry_Sibraa"
+    ],
+    "pollie_slug": "kerry-sibraa",
+    "start_date": "2001"
+  },
+  {
+    "role": "Honorary Consul-General",
+    "organisation": "Consulate-General of Mozambique in Australia",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://biography.senate.gov.au/sibraa-kerry-walter/",
+      "https://www.whmspa.com.au/kerry-sibraa",
+      "https://www.aph.gov.au/parliamentary_business/committees/house_of_representatives_committees?url=jfadt/africa+09/report/chapter+2-government+links.pdf"
+    ],
+    "pollie_slug": "kerry-sibraa",
+    "start_date": "2003",
+    "end_date": "2010"
+  },
+  {
+    "role": "Director",
+    "organisation": "Zimbabwe Platinum Mines",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.whmspa.com.au/kerry-sibraa"
+    ],
+    "pollie_slug": "kerry-sibraa"
+  },
+  {
+    "role": "Director",
+    "organisation": "World IT",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://www.whmspa.com.au/kerry-sibraa"
+    ],
+    "pollie_slug": "kerry-sibraa"
   }
 ]
