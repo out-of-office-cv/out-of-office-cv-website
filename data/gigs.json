@@ -2372,21 +2372,33 @@
     "category": "Professional Services & Management Consulting",
     "sources": [
       "https://michaelwest.com.au/mark-arbib/",
-      "https://newmatilda.com/2012/10/25/who-team-packer/"
+      "https://en.wikipedia.org/wiki/Mark_Arbib"
     ],
     "pollie_slug": "mark-arbib",
-    "start_date": "2012-03-01"
+    "start_date": "2012-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources confirm Arbib became Director of Strategy and Business Development at Consolidated Press Holdings after leaving parliament in March 2012. Wikipedia states June 2012, michaelwest.com.au says July 2012; correcting start_date accordingly. The newmatilda.com source refers to Crown Ltd rather than CPH and has been removed."
+    }
   },
   {
     "role": "President",
     "organisation": "Athletics Australia",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://www.athletics.com.au/news/australian-athletics-congratulates-mark-arbib-on-appointment-as-aoc-ceo/"
+      "https://www.athletics.com.au/news/australian-athletics-congratulates-mark-arbib-on-appointment-as-aoc-ceo/",
+      "https://ministryofsport.com/mark-arbib-announced-as-latest-aoc-ceo/",
+      "https://en.wikipedia.org/wiki/Mark_Arbib"
     ],
     "pollie_slug": "mark-arbib",
     "start_date": "2015-01-01",
-    "end_date": "2021-01-01"
+    "end_date": "2021-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the official Athletics Australia news page and corroborated by Wikipedia and Ministry of Sport. Arbib served as President of Athletics Australia from 2015 to 2021."
+    }
   },
   {
     "role": "Board Member",
@@ -2394,19 +2406,33 @@
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://ministryofsport.com/mark-arbib-announced-as-latest-aoc-ceo/",
-      "https://michaelwest.com.au/mark-arbib/"
+      "https://michaelwest.com.au/mark-arbib/",
+      "https://en.wikipedia.org/wiki/Mark_Arbib"
     ],
-    "pollie_slug": "mark-arbib"
+    "pollie_slug": "mark-arbib",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia, which states Arbib represented Consolidated Press Holdings on the South Sydney Rabbitohs board, and by the Ministry of Sport article and michaelwest.com.au."
+    }
   },
   {
     "role": "Chief Executive Officer",
     "organisation": "Australian Olympic Committee",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://www.olympics.com.au/news/aoc-appoints-mark-arbib-as-chief-executive-officer/"
+      "https://www.olympics.com.au/news/aoc-appoints-mark-arbib-as-chief-executive-officer/",
+      "https://www.ausport.gov.au/media-centre/news/australian-sports-commission-welcomes-new-aoc-ceo",
+      "https://ministryofsport.com/mark-arbib-announced-as-latest-aoc-ceo/",
+      "https://en.wikipedia.org/wiki/Mark_Arbib"
     ],
     "pollie_slug": "mark-arbib",
-    "start_date": "2025-05-01"
+    "start_date": "2025-05-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the official AOC announcement page (olympics.com.au), Australian Sports Commission, Paralympics Australia, and Athletics Australia. Arbib was announced on 2 April 2025 and commenced 5 May 2025."
+    }
   },
   {
     "role": "Chairman, Advisory Board",
@@ -8559,7 +8585,12 @@
     "sources": [
       "https://sourcewatch.org/index.php/Charles_Roderick_Kemp"
     ],
-    "pollie_slug": "rod-kemp"
+    "pollie_slug": "rod-kemp",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Books Alive was a federally funded government reading-promotion campaign run through the Australia Council for the Arts, not an independent organisation with an external board. Rod Kemp personally launched the Books Alive 2005 and 2006 campaigns as Minister for the Arts and Sport --- his connection to it is entirely ministerial and in-office. After leaving parliament in mid-2008, the 2009 Books Alive campaign was launched by his successor Peter Garrett. There is no post-parliamentary 'Board Member' role to hold; the ZoomInfo listing conflates his ministerial involvement with a board position."
+    }
   },
   {
     "role": "Board Member",
@@ -8568,7 +8599,12 @@
     "sources": [
       "https://sourcewatch.org/index.php/Charles_Roderick_Kemp"
     ],
-    "pollie_slug": "rod-kemp"
+    "pollie_slug": "rod-kemp",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "The Collections Council of Australia was established and funded by the Cultural Ministers Council and was formally launched on 26 September 2005 by Senator Rod Kemp in his capacity as Chair of the Cultural Ministers Council and Minister for the Arts and Sport. His connection to it is unambiguously ministerial and in-office. The CCA was wound up in 2010 after the Cultural Ministers Council ceased funding it in late 2009. No source indicates he held a board membership post-parliament."
+    }
   },
   {
     "role": "Board Member",
@@ -8692,17 +8728,27 @@
       "https://en.wikipedia.org/wiki/Kelvin_Thomson"
     ],
     "pollie_slug": "kelvin-thomson",
-    "start_date": "2016-12-01"
+    "start_date": "2016-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia explicitly states Thomson joined the Alliance for Gambling Reform as 'campaign manager' in December 2016, matching the role and organisation."
+    }
   },
   {
     "role": "Advocacy Strategist",
     "organisation": "City of Brimbank",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://en.wikipedia.org/wiki/Kelvin_Thomson"
+      "https://pgap.fireside.fm/guests/kelvin"
     ],
     "pollie_slug": "kelvin-thomson",
-    "start_date": "2018-01-01"
+    "start_date": "2018-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Post-Growth Australia Podcast guest bio explicitly states he worked for the City of Brimbank as their Advocacy Strategist in 2018, confirming role, organisation, and year. Wikipedia does not mention this role but does not contradict it."
+    }
   },
   {
     "role": "Adviser",
@@ -8710,10 +8756,15 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://en.wikipedia.org/wiki/Kelvin_Thomson",
-      "https://tasmaniantimes.com/2019/01/kelvin-thomson-joins-our-party/"
+      "https://www.miragenews.com/kelvin-thomson-joins-sustainable-australia-party/"
     ],
     "pollie_slug": "kelvin-thomson",
-    "start_date": "2019-01-01"
+    "start_date": "2019-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources confirm Thomson joined the Sustainable Australia Party as an adviser in January 2019. The Tasmanian Times source returns HTTP 403 and has been replaced with the Mirage News article."
+    }
   },
   {
     "role": "Litter Action Officer",
@@ -8723,7 +8774,12 @@
       "https://en.wikipedia.org/wiki/Kelvin_Thomson"
     ],
     "pollie_slug": "kelvin-thomson",
-    "start_date": "2025-01-01"
+    "start_date": "2025-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia explicitly mentions Thomson took a part-time role as Litter Action Officer with the Moonee Ponds Creek Chain of Ponds Collaboration in 2025, matching role, organisation, and start date."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -12774,7 +12830,12 @@
       "https://en.wikipedia.org/wiki/Lou_Lieberman",
       "https://www.linkedin.com/posts/humebank_vale-lou-lieberman-1938-2024-we-are-deeply-activity-7198896431225610241-MT62"
     ],
-    "start_date": "1999-01-01"
+    "start_date": "2001-10-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Hume Bank LinkedIn post confirms Lieberman served on the board 1998--2011. The role straddled his parliamentary tenure and continued post-parliament for roughly a decade. Correcting start_date to his parliamentary cessation date so the recorded period reflects only the post-parliamentary portion."
+    }
   },
   {
     "pollie_slug": "lou-lieberman",
@@ -12787,7 +12848,12 @@
       "https://www.bordermail.com.au/story/8635905/remembering-lou-lieberman-former-border-politician-dies-aged-85/"
     ],
     "start_date": "2014-01-01",
-    "end_date": "2017-06-01"
+    "end_date": "2017-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple strong sources (Border Mail, Helen Haines tribute) confirm Lieberman was appointed chair of Albury Wodonga Health in 2014 by Victorian Health Minister David Davis and stepped down in June 2017 when Nicki Melville was appointed."
+    }
   },
   {
     "pollie_slug": "lou-lieberman",
@@ -12797,7 +12863,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Lou_Lieberman",
       "https://www.bordermail.com.au/story/8635905/remembering-lou-lieberman-former-border-politician-dies-aged-85/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Victorian Hansard condolences (Parliament of Victoria, June 2024), the Border Mail obituary, and Wikipedia. Wendy Lovell's Hansard remarks specifically reference the Mercy Million Building Appeal gift-giving committee."
+    }
   },
   {
     "pollie_slug": "lou-lieberman",
@@ -12805,8 +12876,14 @@
     "organisation": "La Trobe University",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://en.wikipedia.org/wiki/Lou_Lieberman"
-    ]
+      "https://en.wikipedia.org/wiki/Lou_Lieberman",
+      "https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-details/HANSARD-974425065-26919"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia and by the Victorian Legislative Council Hansard condolences (June 2024), where Jaclyn Symes lists La Trobe University among the boards Lieberman served on post-parliament."
+    }
   },
   {
     "pollie_slug": "len-harris",
