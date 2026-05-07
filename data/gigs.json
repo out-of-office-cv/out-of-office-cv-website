@@ -4706,7 +4706,12 @@
     ],
     "pollie_slug": "nick-bolkus",
     "start_date": "2008-01-01",
-    "end_date": "2015-01-01"
+    "end_date": "2015-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "InDaily names Nick Bolkus as a co-founder of Bespoke Approach in 2008 alongside Alexander Downer and Ian Smith. Michael West also lists him as Founding Director."
+    }
   },
   {
     "role": "Principal",
@@ -4725,7 +4730,12 @@
     "sources": [
       "https://michaelwest.com.au/nick-bolkus/"
     ],
-    "pollie_slug": "nick-bolkus"
+    "pollie_slug": "nick-bolkus",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Michael West media profile lists Nick Bolkus as Chairman of Directors of Nuturf Australia P/L."
+    }
   },
   {
     "role": "Director",
@@ -4735,7 +4745,12 @@
       "https://amfa.edu.au/our-board/",
       "https://michaelwest.com.au/nick-bolkus/"
     ],
-    "pollie_slug": "nick-bolkus"
+    "pollie_slug": "nick-bolkus",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Michael West media lists Bolkus as a Director of the Australian Maritime & Fisheries Academy Board. 'Australian Fisheries Academy' is the organisation's pre-2011 trading name."
+    }
   },
   {
     "role": "Chairman",
@@ -11953,22 +11968,30 @@
     "organisation": "University of Adelaide",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://en.wikipedia.org/wiki/Martyn_Evans",
-      "https://sementis.com.au/team/martyn-evans/"
+      "https://en.wikipedia.org/wiki/Martyn_Evans"
     ],
     "pollie_slug": "martyn-evans",
-    "start_date": "2007-07-01"
+    "start_date": "2007-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms 'Evans took up the position of director of community engagement at The University of Adelaide in July 2007', matching role, organisation, and start date. The Sementis team page is now a 404 and has been removed."
+    }
   },
   {
     "role": "Chair",
     "organisation": "Sementis",
     "category": "Pharmaceutical & Biotechnology",
     "sources": [
-      "https://sementis.com.au/team/martyn-evans/",
       "https://www.indailysa.com.au/news/archive/2021/08/24/sementis-raises-5m-for-covid-vaccine-as-hickinbotham-takes-majority-stake",
       "https://biotechdispatch.com.au/news/new-leadership-for-vaccine-platform-technology-company-sementis"
     ],
-    "pollie_slug": "martyn-evans"
+    "pollie_slug": "martyn-evans",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "InDaily and BiotechDispatch independently name him as Sementis Chair. The Sementis team page is now a 404 and has been removed."
+    }
   },
   {
     "role": "Chair",
@@ -12731,7 +12754,12 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.bendigoadvertiser.com.au/story/6770524/a-legend-lost-former-bendigo-politician-bruce-reid-mourned/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Bendigo Advertiser obituary names Bruce Reid (Nicholas Bruce Reid, former Liberal MP for Bendigo) as a board member of St Luke's Anglicare."
+    }
   },
   {
     "pollie_slug": "nicholas-reid",
@@ -12740,7 +12768,12 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.bendigoadvertiser.com.au/story/6770524/a-legend-lost-former-bendigo-politician-bruce-reid-mourned/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Bendigo Advertiser obituary names Bruce Reid as a board member of Bendigo Business Expo."
+    }
   },
   {
     "pollie_slug": "nicholas-reid",
@@ -12749,7 +12782,12 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://www.bendigoadvertiser.com.au/story/6770524/a-legend-lost-former-bendigo-politician-bruce-reid-mourned/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Bendigo Advertiser obituary names Bruce Reid as a board member of the Discovery Science and Technology Centre."
+    }
   },
   {
     "pollie_slug": "nicholas-reid",
@@ -12758,7 +12796,12 @@
     "category": "Science, Engineering & Technical Professions",
     "sources": [
       "https://www.bendigoadvertiser.com.au/story/6770524/a-legend-lost-former-bendigo-politician-bruce-reid-mourned/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Bendigo Advertiser obituary names Bruce Reid as a board member of the Bendigo Manufacturing Group."
+    }
   },
   {
     "pollie_slug": "emma-husar",
@@ -12953,7 +12996,12 @@
     ],
     "pollie_slug": "peter-nixon",
     "start_date": "1984",
-    "end_date": "2000"
+    "end_date": "2000",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple independent sources confirm Peter Nixon as Chair of Southern Cross Broadcasting from 1984. Wikipedia, AFL statement, Snowy River Mail obituary, and Bridget McKenzie condolence speech all reference this role."
+    }
   },
   {
     "role": "Commissioner",
@@ -12966,7 +13014,12 @@
     ],
     "pollie_slug": "peter-nixon",
     "start_date": "1985",
-    "end_date": "1991"
+    "end_date": "1990",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "AFL Commission Wikipedia article confirms Peter Nixon as a founding commissioner from 1985 to 1990. End date corrected from 1991 to 1990."
+    }
   },
   {
     "role": "Director",
@@ -12986,7 +13039,12 @@
       "https://snowyrivermail.com.au/12451/peter-james-nixon-22-3-1928-to-1-5-2025/",
       "https://www.bridgetmckenzie.com.au/speeches/the-hon-peter-james-nixon-ao-condolence-motion/"
     ],
-    "pollie_slug": "peter-nixon"
+    "pollie_slug": "peter-nixon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Two independent sources (Snowy River Mail obituary and Bridget McKenzie condolence speech) confirm the Linfox board role."
+    }
   },
   {
     "role": "Chief Commissioner",
@@ -12998,7 +13056,12 @@
     ],
     "pollie_slug": "peter-nixon",
     "start_date": "1995",
-    "end_date": "1997"
+    "end_date": "1997",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and Snowy River Mail obituary both confirm Peter Nixon served as Chief Commissioner of East Gippsland Shire Council from 1995 to 1997."
+    }
   },
   {
     "role": "Chair",
@@ -13010,7 +13073,12 @@
     ],
     "pollie_slug": "peter-nixon",
     "start_date": "1996",
-    "end_date": "1996"
+    "end_date": "1997",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ABS source confirms Nixon was appointed to chair the inquiry in October 1996, with the final report released on 30 July 1997. End date corrected from 1996 to 1997."
+    }
   },
   {
     "role": "Consultant",
@@ -13021,6 +13089,11 @@
     ],
     "pollie_slug": "peter-nixon",
     "start_date": "1995",
-    "end_date": "2004"
+    "end_date": "2004",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Richmond FC news article explicitly confirms Nixon served as Board Consultant from 1995 to 2004."
+    }
   }
 ]
