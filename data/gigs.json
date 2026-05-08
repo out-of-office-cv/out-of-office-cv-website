@@ -13914,5 +13914,185 @@
     ],
     "pollie_slug": "sid-sidebottom",
     "start_date": "2022"
+  },
+  {
+    "role": "Chair, Board of Trustees",
+    "organisation": "Toowoomba Grammar School",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.newlands.com.au/our-team/barry-osullivan/",
+      "https://newsletters.twgs.qld.edu.au/newsletters/the-blue-and-gold-friday-2-august-2024",
+      "https://newsletters.twgs.qld.edu.au/newsletters/the-blue-and-gold-friday-13-june-2025"
+    ],
+    "pollie_slug": "barry-osullivan",
+    "start_date": "2023-07-01"
+  },
+  {
+    "role": "Board member",
+    "organisation": "Toowoomba Hospital Foundation",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.newlands.com.au/our-team/barry-osullivan/"
+    ],
+    "pollie_slug": "barry-osullivan"
+  },
+  {
+    "role": "Author",
+    "organisation": "New Holland Publishers",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://au.newhollandpublishers.com/classic-country-wisdom-9781742574653.html",
+      "https://catalogue.nla.gov.au/catalog/106855",
+      "https://www.slq.qld.gov.au/blog/lady-flo"
+    ],
+    "pollie_slug": "florence-bjelke-petersen",
+    "start_date": "1993-01-01",
+    "end_date": "1996-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Redland Shire Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Len_Keogh",
+      "https://www.openaustralia.org.au/debate/?id=2008-02-21.122.1"
+    ],
+    "pollie_slug": "leonard-keogh",
+    "start_date": "1991-01-01",
+    "end_date": "1994-01-01"
+  },
+  {
+    "role": "Member",
+    "organisation": "Veterans' Review Board",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Len_Keogh"
+    ],
+    "pollie_slug": "leonard-keogh",
+    "start_date": "1994-12-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "South West Queensland Electricity Board",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://www.openaustralia.org.au/debate/?id=2008-02-21.122.1"
+    ],
+    "pollie_slug": "leonard-keogh"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Pinarc Disability Support",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.thecourier.com.au/story/5190967/mildren-making-the-most-of-his-standing/",
+      "https://www.thecourier.com.au/story/5783193/to-be-normal-is-being-human-former-pinarc-boss-urges-people-to-keep-acting-with-heart/",
+      "https://www.catherineking.com.au/media/vale-john-mildren-oam/",
+      "https://www.thecourier.com.au/story/8607856/john-mildren-oam-remembering-his-political-legacy-in-ballarat/"
+    ],
+    "pollie_slug": "john-mildren"
+  },
+  {
+    "role": "Director",
+    "organisation": "Alzheimer's Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.thecourier.com.au/story/5190967/mildren-making-the-most-of-his-standing/",
+      "https://www.catherineking.com.au/media/vale-john-mildren-oam/",
+      "https://www.julianaaddison.com.au/parliament/john-mildren-member-statement/"
+    ],
+    "pollie_slug": "john-mildren"
+  },
+  {
+    "role": "President",
+    "organisation": "Cornish Association of Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.thecourier.com.au/story/5190967/mildren-making-the-most-of-his-standing/",
+      "https://www.julianaaddison.com.au/parliament/john-mildren-member-statement/"
+    ],
+    "pollie_slug": "john-mildren"
+  },
+  {
+    "role": "Principal Consultant / Director",
+    "organisation": "Capitol Research",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Karin_Sowada",
+      "https://biography.senate.gov.au/sowada-karin-nicole/"
+    ],
+    "pollie_slug": "karin-sowada",
+    "start_date": "1993-07-01",
+    "end_date": "1996-12-31"
+  },
+  {
+    "role": "Assistant Curator",
+    "organisation": "Nicholson Museum, University of Sydney",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Karin_Sowada",
+      "https://biography.senate.gov.au/sowada-karin-nicole/",
+      "https://researchers.mq.edu.au/en/persons/karin-sowada/"
+    ],
+    "pollie_slug": "karin-sowada",
+    "start_date": "1996-01-01",
+    "end_date": "2005-12-31"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Anglican Deaconess Ministries Limited",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Karin_Sowada",
+      "https://sydneyanglicans.net/news/adm-announces-new-ceo",
+      "https://biography.senate.gov.au/sowada-karin-nicole/"
+    ],
+    "pollie_slug": "karin-sowada",
+    "start_date": "2008-01-01",
+    "end_date": "2015-02-28"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Mission Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://researchers.mq.edu.au/en/persons/karin-sowada/",
+      "https://biography.senate.gov.au/sowada-karin-nicole/"
+    ],
+    "pollie_slug": "karin-sowada",
+    "start_date": "2008-01-01",
+    "end_date": "2017-12-31"
+  },
+  {
+    "role": "Member and Chair",
+    "organisation": "Social Issues Committee, Anglican Diocese of Sydney",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "http://socialissues.org.au/about"
+    ],
+    "pollie_slug": "karin-sowada",
+    "start_date": "1993-01-01"
+  },
+  {
+    "role": "Senior Lecturer and Director, Australian Centre for Egyptology",
+    "organisation": "Macquarie University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://researchers.mq.edu.au/en/persons/karin-sowada/",
+      "https://www.researchgate.net/profile/Karin-Sowada",
+      "https://mq.academia.edu/KarinSowada"
+    ],
+    "pollie_slug": "karin-sowada"
+  },
+  {
+    "role": "Australian Research Council Future Fellow",
+    "organisation": "Australian Research Council",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://researchers.mq.edu.au/en/persons/karin-sowada/",
+      "https://en.wikipedia.org/wiki/Karin_Sowada"
+    ],
+    "pollie_slug": "karin-sowada",
+    "start_date": "2017-07-19"
   }
 ]
