@@ -13491,5 +13491,44 @@
       "https://www.whmspa.com.au/kerry-sibraa"
     ],
     "pollie_slug": "kerry-sibraa"
+  },
+  {
+    "role": "President",
+    "organisation": "Churches of Christ in Queensland",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Evan_Adermann"
+    ],
+    "pollie_slug": "albert-adermann"
+  },
+  {
+    "role": "Principal",
+    "organisation": "Your Expert System",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://biography.senate.gov.au/vigor-david-bernard/"
+    ],
+    "pollie_slug": "david-vigor",
+    "start_date": "1987-01-01"
+  },
+  {
+    "role": "Vice-President",
+    "organisation": "Electoral Reform Society of South Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://biography.senate.gov.au/vigor-david-bernard/"
+    ],
+    "pollie_slug": "david-vigor",
+    "start_date": "1993-01-01",
+    "end_date": "1995-12-31"
+  },
+  {
+    "role": "Secretary",
+    "organisation": "Association of Former Members of the Parliament of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;db=CHAMBER;id=chamber/hansards/1998-05-12/0030;query=Id:%22chamber/hansards/1998-05-12/0000%22"
+    ],
+    "pollie_slug": "david-vigor"
   }
 ]
