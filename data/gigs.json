@@ -14180,5 +14180,89 @@
       "by": "claude",
       "note": "Confirmed by the Macquarie University researcher profile and multiple published papers citing ARC Future Fellowship grant FT170100288 held by Karin Sowada. The 'FT17' grant number confirms a 2017 funding round."
     }
+  },
+  {
+    "role": "Judge",
+    "organisation": "Compensation Court of New South Wales",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Frank_Walker_(Australian_politician)",
+      "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=1986",
+      "https://www.openaustralia.org.au/senate/?id=2012-06-18.164.2"
+    ],
+    "pollie_slug": "frank-walker",
+    "start_date": "1997-01-01",
+    "end_date": "2003-01-01"
+  },
+  {
+    "role": "Judge",
+    "organisation": "District Court of New South Wales",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Frank_Walker_(Australian_politician)",
+      "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=1986",
+      "https://www.openaustralia.org.au/senate/?id=2012-06-18.164.2"
+    ],
+    "pollie_slug": "frank-walker",
+    "start_date": "2003-01-01",
+    "end_date": "2006-01-01"
+  },
+  {
+    "role": "Judge",
+    "organisation": "Dust Diseases Tribunal of New South Wales",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Frank_Walker_(Australian_politician)",
+      "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=1986",
+      "https://www.openaustralia.org.au/senate/?id=2012-06-18.164.2"
+    ],
+    "pollie_slug": "frank-walker",
+    "start_date": "2003-01-01",
+    "end_date": "2006-01-01"
+  },
+  {
+    "role": "President",
+    "organisation": "Schizophrenia Fellowship of New South Wales",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Frank_Walker_(Australian_politician)",
+      "https://www.openaustralia.org.au/senate/?id=2012-06-18.164.2",
+      "https://alp.org.au/wayne-swan-archive/speeches/speech-motion-of-condolence-the-honourable-francis-john-frank-walker-qc/"
+    ],
+    "pollie_slug": "frank-walker",
+    "start_date": "1998-01-01",
+    "end_date": "2011-01-01"
+  },
+  {
+    "role": "Deputy President",
+    "organisation": "New South Wales Mental Health Review Tribunal",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.openaustralia.org.au/senate/?id=2012-06-18.164.2",
+      "https://alp.org.au/wayne-swan-archive/speeches/speech-motion-of-condolence-the-honourable-francis-john-frank-walker-qc/"
+    ],
+    "pollie_slug": "frank-walker"
+  },
+  {
+    "role": "Vice-President",
+    "organisation": "Mental Illness Fellowship of Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.openaustralia.org.au/senate/?id=2012-06-18.164.2",
+      "https://alp.org.au/wayne-swan-archive/speeches/speech-motion-of-condolence-the-honourable-francis-john-frank-walker-qc/"
+    ],
+    "pollie_slug": "frank-walker",
+    "start_date": "2003-01-01"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Asian low-cost housing project",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=1986"
+    ],
+    "pollie_slug": "frank-walker",
+    "start_date": "1996-01-01",
+    "end_date": "1997-01-01"
   }
 ]
