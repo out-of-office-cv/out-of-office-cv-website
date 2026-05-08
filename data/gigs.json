@@ -13101,11 +13101,17 @@
     "organisation": "Macquarie Bank",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://en.wikipedia.org/wiki/Bob_Carr"
+      "https://en.wikipedia.org/wiki/Bob_Carr",
+      "https://clubtroppo.com.au/2005/10/17/bob-carr-marcus-aurelius-and-ppps/"
     ],
     "pollie_slug": "bob-carr",
     "start_date": "2005-10",
-    "end_date": "2012"
+    "end_date": "2012",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple credible news sources confirm Bob Carr became a part-time consultant at Macquarie Bank in October 2005, shortly after leaving the NSW Premiership. The role attracted significant media coverage including ABC Stateline and Daily Telegraph reports about the appointment and associated conflict-of-interest concerns. Wikipedia cites the end as 2012 when he entered the Senate. The Wikipedia source alone is acceptable here given the extensive independent news corroboration."
+    }
   },
   {
     "role": "Adjunct Professor, Faculty of Arts and Social Sciences",
@@ -13115,17 +13121,28 @@
       "https://www.unsw.edu.au/newsroom/news/2013/10/former-foreign-minister-bob-carr-joins-unsw"
     ],
     "pollie_slug": "bob-carr",
-    "start_date": "2013-11"
+    "start_date": "2013-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UNSW's own newsroom article confirms Bob Carr was appointed Adjunct Professor in the Faculty of Arts and Social Sciences with a joint appointment in the School of Humanities and Languages and the School of Social Sciences, commencing November 2013."
+    }
   },
   {
     "role": "Professorial Fellow",
     "organisation": "Sydney Southeast Asia Centre, University of Sydney",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://en.wikipedia.org/wiki/Bob_Carr"
+      "https://en.wikipedia.org/wiki/Bob_Carr",
+      "https://www.sydney.edu.au/content/dam/corporate/documents/sydney-southeast-asia-centre/yearbooks/sseac_yearbook_2013-2014.pdf"
     ],
     "pollie_slug": "bob-carr",
-    "start_date": "2013-11"
+    "start_date": "2013-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "University of Sydney news records and the SSEAC 2014 Yearbook confirm Bob Carr took up a Professorial Fellowship with the Sydney Southeast Asia Centre in November 2013, immediately after retiring from the Senate. His first public event in this role was a November 2013 lecture co-hosted by SSEAC."
+    }
   },
   {
     "role": "Director",
@@ -13136,8 +13153,13 @@
       "https://www.csaa.org.au/2014/05/uts-australia-china-relations-institute/"
     ],
     "pollie_slug": "bob-carr",
-    "start_date": "2014",
-    "end_date": "2019"
+    "start_date": "2014-05",
+    "end_date": "2019",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UTS's own contributor page and the CSAA announcement from May 2014 both confirm Bob Carr was Director of the Australia-China Relations Institute from 2014 to 2019. The CSAA article from May 2014 indicates he commenced that month, consistent with the start_date of '2014'."
+    }
   },
   {
     "role": "Industry Professor (Business and Climate Change)",
@@ -13148,7 +13170,12 @@
       "https://www.uts.edu.au/news/business-law/bob-carr-appointed-new-role-uts"
     ],
     "pollie_slug": "bob-carr",
-    "start_date": "2019-06"
+    "start_date": "2019-06",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "RenewEconomy article from June 11, 2019 confirms Bob Carr was appointed Industry Professor (Business and Climate Change) at UTS, jointly based in the Institute for Sustainable Futures and the UTS Business School, for a three-year appointment following his five-year term at ACRI."
+    }
   },
   {
     "role": "Director",
@@ -13158,7 +13185,13 @@
       "https://en.wikipedia.org/wiki/Bob_Carr"
     ],
     "pollie_slug": "bob-carr",
-    "start_date": "2007-07"
+    "start_date": "2007-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources including Wikipedia and speaker bureau profiles consistently confirm Bob Carr joined the Dymocks board in July 2007, stepping down in 2012 when he entered the Senate. Start date of 2007-07 is confirmed."
+    },
+    "end_date": "2012"
   },
   {
     "role": "Director",
@@ -13168,7 +13201,12 @@
       "https://en.wikipedia.org/wiki/Bob_Carr"
     ],
     "pollie_slug": "bob-carr",
-    "start_date": "2009"
+    "start_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Bob Carr joined the board of the United States Studies Centre in 2009. The current USSC board page no longer lists him, consistent with the role having ended. No end date is known from sources consulted."
+    }
   },
   {
     "role": "Council Member",
@@ -13178,7 +13216,12 @@
       "https://en.wikipedia.org/wiki/Bob_Carr"
     ],
     "pollie_slug": "bob-carr",
-    "start_date": "2009"
+    "start_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and a Farm Online news article confirm Bob Carr was appointed to the council of Voiceless, the animal protection institute, in 2009. The Farm Online article also corroborates his ongoing membership during his time as Foreign Minister."
+    }
   },
   {
     "role": "Director",
@@ -13186,7 +13229,7 @@
     "category": "Media, Communications & Public Relations",
     "sources": [
       "https://www.salaamfoundation.com.au/about/our-people/bob-carr",
-      "https://www.thenewdaily.com.au/entertainment/books/2019/01/31/melbourne-university-press-exodus"
+      "https://www.mup.com.au/events/run-for-your-life-meet-bob-car"
     ],
     "pollie_slug": "bob-carr",
     "end_date": "2019"
@@ -13197,9 +13240,14 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.ifa.com.au/former-nsw-premier-joins-crescent-foundation/",
-      "https://crescentfoundation.com.au/about/our-people/bob-carr"
+      "https://www.salaamfoundation.com.au/about/our-people/bob-carr"
     ],
-    "pollie_slug": "bob-carr"
+    "pollie_slug": "bob-carr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple search results confirm Bob Carr is Chair of the Crescent Foundation, a non-profit supporting refugee education and multiculturalism. The IFA article (ifa.com.au) returned HTTP 403 but its content is corroborated by InvestorDaily, Salaam Foundation, and Crescent Foundation's own communications referencing Carr as presiding Chair. The Crescent Foundation's own people page (crescentfoundation.com.au/about/our-people/bob-carr) returned 404."
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -13209,7 +13257,12 @@
       "https://lysicratesfoundation.org.au/board/",
       "https://www.salaamfoundation.com.au/about/our-people/bob-carr"
     ],
-    "pollie_slug": "bob-carr"
+    "pollie_slug": "bob-carr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Lysicrates Foundation's own board page (lysicratesfoundation.org.au/board/) confirms Bob Carr is listed as a Member of the Advisory Board, with a direct quote from him about his role. The Salaam Foundation bio also corroborates this."
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -13218,7 +13271,12 @@
     "sources": [
       "https://affinity.org.au/about/our-advisory-board/"
     ],
-    "pollie_slug": "bob-carr"
+    "pollie_slug": "bob-carr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Search results citing Affinity Intercultural Foundation's own advisory board page confirm Bob Carr is listed as a member of the advisory board. He is identified as 'Former Australian Foreign Minister and former Premier of NSW'. He has also participated in Affinity events as a speaker."
+    }
   },
   {
     "role": "Committee Member, Matraville Education Partnership Advisory Committee",
@@ -13228,7 +13286,12 @@
       "https://www.salaamfoundation.com.au/about/our-people/bob-carr",
       "https://www.unsw.edu.au/arts-design-architecture/our-schools/education/engage-with-us/matraville-education-partnership"
     ],
-    "pollie_slug": "bob-carr"
+    "pollie_slug": "bob-carr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UNSW's own Matraville Education Partnership page lists 'The Honourable Dr Bob Carr' as an Advisory Committee member. The 2021 Annual Report also confirms his membership. He has a personal connection as an alumnus of Matraville Sports High School."
+    }
   },
   {
     "role": "Patron",
@@ -13237,7 +13300,13 @@
     "sources": [
       "https://population.org.au/about/people/the-hon-bob-carr/"
     ],
-    "pollie_slug": "bob-carr"
+    "pollie_slug": "bob-carr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Sustainable Population Australia's own website confirms Bob Carr is a Patron. The site notes he accepted the position during his time as Foreign Minister (2012-13), meaning the role began slightly before his Senate cessation date of October 2013, but it continued as a post-parliamentary role and is in scope. No start_date is recorded."
+    },
+    "start_date": "2012"
   },
   {
     "role": "Chair",
@@ -13245,10 +13314,17 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.dcceew.gov.au/about/news/new-appointments-australian-heritage-council",
-      "https://www.miragenews.com/new-appointments-to-australian-heritage-council-1273452/"
+      "https://www.miragenews.com/new-appointments-to-australian-heritage-council-1273452/",
+      "https://minister.dcceew.gov.au/plibersek/media-releases/new-appointments-australian-heritage-council",
+      "https://tanyaplibersek.com/media/media-releases/new-appointments-to-the-australian-heritage-council/"
     ],
     "pollie_slug": "bob-carr",
-    "start_date": "2024-07-11"
+    "start_date": "2024-07-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple strong sources confirm the appointment: the DCCEEW official news page, Minister Plibersek's own media release (tanyaplibersek.com), and Mirage News all confirm Bob Carr was appointed Chair of the Australian Heritage Council on 11 July 2024."
+    }
   },
   {
     "role": "Chair",
@@ -13259,7 +13335,12 @@
       "https://www.miragenews.com/new-leadership-at-nsw-cultural-institutions-1374500/"
     ],
     "pollie_slug": "bob-carr",
-    "start_date": "2024-12-10"
+    "start_date": "2024-12-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "NSW Government ministerial media release and Mirage News confirm Bob Carr was appointed Chair of Museums of History NSW, announced on 10 December 2024. Multiple other sources including LinkedIn posts from MHNSW and Destination NSW corroborate the appointment."
+    }
   },
   {
     "role": "Director",
@@ -13267,10 +13348,17 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.nsw.gov.au/ministerial-releases/appointments-to-sydney-water-board",
-      "https://www.governmentnews.com.au/bob-carr-joins-sydney-water/"
+      "https://www.governmentnews.com.au/bob-carr-joins-sydney-water/",
+      "https://insidewater.com.au/new-sydney-water-board-appointments/",
+      "https://www.miragenews.com/appointments-to-sydney-water-board-1562436/"
     ],
     "pollie_slug": "bob-carr",
-    "start_date": "2025-11-17"
+    "start_date": "2025-11-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "NSW Government ministerial release (nsw.gov.au) and multiple news sources (Government News, Inside Water, Utility Magazine, Weekly Times) confirm Bob Carr was appointed as a Director to the Sydney Water board on 17 November 2025 for a three-year term."
+    }
   },
   {
     "role": "Honorary Professor",
@@ -13279,7 +13367,12 @@
     "sources": [
       "https://www.uts.edu.au/research/centres/australia-china-relations-institute/about/contributor/bob-carr"
     ],
-    "pollie_slug": "bob-carr"
+    "pollie_slug": "bob-carr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The UTS contributor page for Bob Carr (the primary source listed) confirms an Honorary Professorship at Beijing Foreign Studies University. Multiple other institutional biographies (Victoria University of Wellington China Research Centre, Affinity Intercultural Foundation) consistently include this in his official biography. No dates are available from any source."
+    }
   },
   {
     "role": "Consultant",
