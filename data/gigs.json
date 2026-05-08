@@ -5617,7 +5617,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Wheeler Centre profile confirms the role. Multiple other sources (Perth USAsia Centre bio, wheeler centre) corroborate Chair of Asia Desk at Lavan 2014\u20132017, consistent with end_date."
+      "note": "Wheeler Centre profile confirms the role. Multiple other sources (Perth USAsia Centre bio, wheeler centre) corroborate Chair of Asia Desk at Lavan 2014–2017, consistent with end_date."
     }
   },
   {
@@ -7534,7 +7534,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Sa\u00efd Business School, University of Oxford",
+    "organisation": "Saïd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -13613,7 +13613,11 @@
       "https://en.wikipedia.org/wiki/Billy_Snedden",
       "https://adb.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
     ],
-    "pollie_slug": "billy-snedden"
+    "pollie_slug": "billy-snedden",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -13623,7 +13627,11 @@
       "https://oa.anu.edu.au/obituary/snedden-sir-billy-mackie-15519",
       "https://peopleaustralia.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
     ],
-    "pollie_slug": "billy-snedden"
+    "pollie_slug": "billy-snedden",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -13633,7 +13641,11 @@
       "https://oa.anu.edu.au/obituary/snedden-sir-billy-mackie-15519",
       "https://peopleaustralia.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
     ],
-    "pollie_slug": "billy-snedden"
+    "pollie_slug": "billy-snedden",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -13643,7 +13655,11 @@
       "https://oa.anu.edu.au/obituary/snedden-sir-billy-mackie-15519",
       "https://peopleaustralia.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
     ],
-    "pollie_slug": "billy-snedden"
+    "pollie_slug": "billy-snedden",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -13653,7 +13669,11 @@
       "https://oa.anu.edu.au/obituary/snedden-sir-billy-mackie-15519",
       "https://peopleaustralia.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
     ],
-    "pollie_slug": "billy-snedden"
+    "pollie_slug": "billy-snedden",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -13663,7 +13683,11 @@
       "https://oa.anu.edu.au/obituary/snedden-sir-billy-mackie-15519",
       "https://peopleaustralia.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
     ],
-    "pollie_slug": "billy-snedden"
+    "pollie_slug": "billy-snedden",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -13673,7 +13697,11 @@
       "https://oa.anu.edu.au/obituary/snedden-sir-billy-mackie-15519",
       "https://peopleaustralia.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
     ],
-    "pollie_slug": "billy-snedden"
+    "pollie_slug": "billy-snedden",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Senior Vice-President",
@@ -13683,7 +13711,11 @@
       "https://adb.anu.edu.au/biography/snedden-sir-billy-mackie-15519",
       "https://peopleaustralia.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
     ],
-    "pollie_slug": "billy-snedden"
+    "pollie_slug": "billy-snedden",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Finance Committee Member",
@@ -13693,7 +13725,11 @@
       "https://adb.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
     ],
     "pollie_slug": "billy-snedden",
-    "start_date": "1986-01-01"
+    "start_date": "1986-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -13701,11 +13737,16 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://en.wikipedia.org/wiki/David_Brownhill",
-      "https://harpers.co.uk/news/fullstory.php/aid/433/WARNING_AGAINST_AUSSIE_COMPLACENCY.html"
+      "https://harpers.co.uk/news/fullstory.php/aid/433/WARNING_AGAINST_AUSSIE_COMPLACENCY.html",
+      "https://biography.senate.gov.au/brownhill-david-gordon-cadell/"
     ],
     "pollie_slug": "david-brownhill",
     "start_date": "2000",
-    "end_date": "2006"
+    "end_date": "2006",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -13713,10 +13754,15 @@
     "category": "Professional Services & Management Consulting",
     "sources": [
       "https://www.maynereport.com/articles/2007/10/12-1236-1117.html",
-      "https://www.northerndailyleader.com.au/story/8227987/david-brownhill-order-of-australia-medal-is-more-for-the-people-and-communities-that-supported-him/"
+      "https://www.northerndailyleader.com.au/story/8227987/david-brownhill-order-of-australia-medal-is-more-for-the-people-and-communities-that-supported-him/",
+      "https://biography.senate.gov.au/brownhill-david-gordon-cadell/"
     ],
     "pollie_slug": "david-brownhill",
-    "start_date": "2003"
+    "start_date": "2003",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -13725,7 +13771,11 @@
     "sources": [
       "https://www.northerndailyleader.com.au/story/8227987/david-brownhill-order-of-australia-medal-is-more-for-the-people-and-communities-that-supported-him/"
     ],
-    "pollie_slug": "david-brownhill"
+    "pollie_slug": "david-brownhill",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -13734,7 +13784,11 @@
     "sources": [
       "https://www.northerndailyleader.com.au/story/8227987/david-brownhill-order-of-australia-medal-is-more-for-the-people-and-communities-that-supported-him/"
     ],
-    "pollie_slug": "david-brownhill"
+    "pollie_slug": "david-brownhill",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Electorate and Parliamentary Staff",
@@ -13756,7 +13810,11 @@
     ],
     "pollie_slug": "janet-powell",
     "start_date": "1994-01-01",
-    "end_date": "1997-12-31"
+    "end_date": "1997-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -13768,7 +13826,11 @@
     ],
     "pollie_slug": "janet-powell",
     "start_date": "1993-07-01",
-    "end_date": "1999-12-31"
+    "end_date": "1999-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -13781,7 +13843,11 @@
     ],
     "pollie_slug": "janet-powell",
     "start_date": "1993-07-01",
-    "end_date": "2002-12-31"
+    "end_date": "2002-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -13794,7 +13860,11 @@
     ],
     "pollie_slug": "janet-powell",
     "start_date": "1994-01-01",
-    "end_date": "2000-12-31"
+    "end_date": "2000-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -13803,7 +13873,11 @@
     "sources": [
       "https://www.vic.gov.au/janet-powell-am"
     ],
-    "pollie_slug": "janet-powell"
+    "pollie_slug": "janet-powell",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patrons Council Member",
@@ -13813,7 +13887,11 @@
       "https://en.wikipedia.org/wiki/Janet_Powell",
       "https://www.canberratimes.com.au/story/6151098/former-democrats-leader-janet-powell-dies/"
     ],
-    "pollie_slug": "janet-powell"
+    "pollie_slug": "janet-powell",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
