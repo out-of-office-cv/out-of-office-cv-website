@@ -5529,20 +5529,32 @@
     "organisation": "FNZ Australia",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.moneymarketing.co.uk/news/fnz-australia-appoints-former-minister-nick-sherry-as-chair/"
+      "https://www.moneymarketing.co.uk/news/fnz-australia-appoints-former-minister-nick-sherry-as-chair/",
+      "https://en.wikipedia.org/wiki/Nick_Sherry"
     ],
     "pollie_slug": "nick-sherry",
-    "start_date": "2012-11-18"
+    "start_date": "2012-11-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The moneymarketing.co.uk source clearly confirms Nick Sherry was appointed Chairman of FNZ Australia. Wikipedia also confirms this role."
+    }
   },
   {
     "role": "Non-Executive Director",
     "organisation": "Citi Australia",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://ioandc.com/life-after-politics-for-sherry-also-good-news-for-fnz-citi/"
+      "https://ioandc.com/life-after-politics-for-sherry-also-good-news-for-fnz-citi/",
+      "https://en.wikipedia.org/wiki/Nick_Sherry"
     ],
     "pollie_slug": "nick-sherry",
-    "start_date": "2012-11-18"
+    "start_date": "2012-11-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The ioandc.com source confirms Nick Sherry became a non-executive director at Citi with responsibility for Pensions. Wikipedia explicitly confirms 'non-executive director of Citi Australia (appointed November 2012)'."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -5552,16 +5564,28 @@
       "https://en.wikipedia.org/wiki/Nick_Sherry"
     ],
     "pollie_slug": "nick-sherry",
-    "end_date": "2017-08-01"
+    "end_date": "2017-08-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple credible sources confirm Nick Sherry served as an independent non-executive director of Spotless Group Holdings (ASX: SPO) and retired from the board around the time of Downer Group's takeover in 2017."
+    }
   },
   {
     "role": "Chairman",
     "organisation": "Household Capital",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://householdcapital.com.au/third-pillar-forum/retirement-insights/nick-sherry/"
+      "https://householdcapital.com.au/third-pillar-forum/retirement-insights/nick-sherry/",
+      "https://en.wikipedia.org/wiki/Nick_Sherry",
+      "https://householdcapital.com.au/corporate/leadership/"
     ],
-    "pollie_slug": "nick-sherry"
+    "pollie_slug": "nick-sherry",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources confirm Nick Sherry is Chairman of Household Capital. Wikipedia, news articles, and the Household Capital corporate site all confirm this role."
+    }
   },
   {
     "role": "Winthrop Professor of International Law",
@@ -12589,10 +12613,14 @@
     "organisation": "Bonds Coats Patons Limited",
     "category": "Retail, Hospitality & Tourism",
     "sources": [
-      "https://adb.anu.edu.au/biography/lynch-sir-phillip-reginald-14391",
-      "https://www.gabr.net.au/biogs/ABE0227b.htm"
+      "https://adb.anu.edu.au/biography/lynch-sir-phillip-reginald-14391"
     ],
-    "start_date": "1982-10-23"
+    "start_date": "1982-10-23",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Australian Dictionary of Biography (ANU) explicitly names Lynch as a director of Bonds Coats Patons Ltd after leaving parliament in October 1982. The gabr.net.au source returns 404 and has been removed."
+    }
   },
   {
     "pollie_slug": "phillip-lynch",
@@ -12602,7 +12630,12 @@
     "sources": [
       "https://adb.anu.edu.au/biography/lynch-sir-phillip-reginald-14391"
     ],
-    "start_date": "1982-10-23"
+    "start_date": "1982-10-23",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Australian Dictionary of Biography (ANU) explicitly names Lynch as a director of NEC Australia Pty Ltd after leaving parliament in October 1982."
+    }
   },
   {
     "pollie_slug": "phillip-lynch",
@@ -12615,7 +12648,12 @@
       "https://www.rba.gov.au/publications/annual-reports/rba/1984/rba-board.html"
     ],
     "start_date": "1983-01-19",
-    "end_date": "1984-06-19"
+    "end_date": "1984-06-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The RBA 1983 annual report confirms Lynch was appointed to the board on 19 January 1983. The RBA 1984 annual report records he died on 19 June 1984, confirming the end date."
+    }
   },
   {
     "pollie_slug": "phillip-lynch",
@@ -12626,7 +12664,12 @@
       "https://adb.anu.edu.au/biography/lynch-sir-phillip-reginald-14391"
     ],
     "start_date": "1982-10-23",
-    "end_date": "1984-06-19"
+    "end_date": "1984-06-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Australian Dictionary of Biography (ANU) confirms Lynch 'set up a business consultancy in Melbourne' after resigning from parliament in October 1982. The end date of 1984-06-19 aligns with his death."
+    }
   },
   {
     "pollie_slug": "mary-easson",
@@ -13400,7 +13443,12 @@
     ],
     "pollie_slug": "leslie-johnson",
     "start_date": "1984",
-    "end_date": "1987"
+    "end_date": "1987",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Wikipedia list of Australian High Commissioners to New Zealand (1 May 1984 to July 1987), the ADB biography, and Labour Australia biography."
+    }
   },
   {
     "role": "Chair",
@@ -13411,7 +13459,12 @@
       "https://labouraustralia.anu.edu.au/biography/johnson-leslie-royston-les-28223",
       "https://en.wikipedia.org/wiki/Les_Johnson"
     ],
-    "pollie_slug": "leslie-johnson"
+    "pollie_slug": "leslie-johnson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by ADB and Labour Australia biographies, both of which state Johnson chaired the Australia New Zealand Foundation during his post-parliamentary years."
+    }
   },
   {
     "role": "National Vice-President",
@@ -13423,7 +13476,12 @@
     ],
     "pollie_slug": "leslie-johnson",
     "start_date": "1988",
-    "end_date": "1991"
+    "end_date": "1991",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by ADB and Labour Australia biographies, both of which state Johnson was elected first national vice-president of the Association of Former Members of the Parliament of Australia in 1988."
+    }
   },
   {
     "role": "National President",
@@ -13435,7 +13493,12 @@
     ],
     "pollie_slug": "leslie-johnson",
     "start_date": "1991",
-    "end_date": "1993"
+    "end_date": "1993",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by ADB and Labour Australia biographies, both of which explicitly state Johnson served as national president from 1991 to 1993."
+    }
   },
   {
     "role": "High Commissioner to Zimbabwe",
@@ -13444,22 +13507,30 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Kerry_Sibraa",
       "https://biography.senate.gov.au/sibraa-kerry-walter/",
-      "https://www.whmspa.com.au/kerry-sibraa"
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22media/pressrel/HSR30%22"
     ],
     "pollie_slug": "kerry-sibraa",
     "start_date": "1994-03",
-    "end_date": "1998-02"
+    "end_date": "1998-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Special Counsel",
     "organisation": "Wells Haslem Strategic Public Affairs",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://www.whmspa.com.au/kerry-sibraa",
       "https://en.wikipedia.org/wiki/Kerry_Sibraa"
     ],
     "pollie_slug": "kerry-sibraa",
-    "start_date": "2001"
+    "start_date": "2001",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Senate biographical dictionary refers to 'Jackson Wells' (the firm's earlier name); Wells Haslem is the same firm rebranded. Wikipedia confirms the Wells Haslem name. Start date 2001 confirmed by both sources."
+    }
   },
   {
     "role": "Honorary Consul-General",
@@ -13467,12 +13538,15 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://biography.senate.gov.au/sibraa-kerry-walter/",
-      "https://www.whmspa.com.au/kerry-sibraa",
       "https://www.aph.gov.au/parliamentary_business/committees/house_of_representatives_committees?url=jfadt/africa+09/report/chapter+2-government+links.pdf"
     ],
     "pollie_slug": "kerry-sibraa",
     "start_date": "2003",
-    "end_date": "2010"
+    "end_date": "2010",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
