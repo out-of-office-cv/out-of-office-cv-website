@@ -5617,7 +5617,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Wheeler Centre profile confirms the role. Multiple other sources (Perth USAsia Centre bio, wheeler centre) corroborate Chair of Asia Desk at Lavan 2014–2017, consistent with end_date."
+      "note": "Wheeler Centre profile confirms the role. Multiple other sources (Perth USAsia Centre bio, wheeler centre) corroborate Chair of Asia Desk at Lavan 2014\u20132017, consistent with end_date."
     }
   },
   {
@@ -7534,7 +7534,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Saïd Business School, University of Oxford",
+    "organisation": "Sa\u00efd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -13604,5 +13604,237 @@
       "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;db=CHAMBER;id=chamber/hansards/1998-05-12/0030;query=Id:%22chamber/hansards/1998-05-12/0000%22"
     ],
     "pollie_slug": "david-vigor"
+  },
+  {
+    "role": "Director",
+    "organisation": "Victorian Football League",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Billy_Snedden",
+      "https://adb.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
+    ],
+    "pollie_slug": "billy-snedden"
+  },
+  {
+    "role": "Director",
+    "organisation": "Charles Davis Limited",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/snedden-sir-billy-mackie-15519",
+      "https://peopleaustralia.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
+    ],
+    "pollie_slug": "billy-snedden"
+  },
+  {
+    "role": "Director",
+    "organisation": "Harris Scarfe Limited",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/snedden-sir-billy-mackie-15519",
+      "https://peopleaustralia.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
+    ],
+    "pollie_slug": "billy-snedden"
+  },
+  {
+    "role": "Director",
+    "organisation": "Mercedes-Benz (Australia) Pty Ltd",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/snedden-sir-billy-mackie-15519",
+      "https://peopleaustralia.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
+    ],
+    "pollie_slug": "billy-snedden"
+  },
+  {
+    "role": "Director",
+    "organisation": "Greetings Group Limited",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/snedden-sir-billy-mackie-15519",
+      "https://peopleaustralia.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
+    ],
+    "pollie_slug": "billy-snedden"
+  },
+  {
+    "role": "Director",
+    "organisation": "Standard Chartered Australia Limited",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/snedden-sir-billy-mackie-15519",
+      "https://peopleaustralia.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
+    ],
+    "pollie_slug": "billy-snedden"
+  },
+  {
+    "role": "Director",
+    "organisation": "Group Property Services Limited",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/snedden-sir-billy-mackie-15519",
+      "https://peopleaustralia.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
+    ],
+    "pollie_slug": "billy-snedden"
+  },
+  {
+    "role": "Senior Vice-President",
+    "organisation": "Melbourne Scots Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://adb.anu.edu.au/biography/snedden-sir-billy-mackie-15519",
+      "https://peopleaustralia.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
+    ],
+    "pollie_slug": "billy-snedden"
+  },
+  {
+    "role": "Finance Committee Member",
+    "organisation": "Liberal Party of Australia (Victorian Division)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://adb.anu.edu.au/biography/snedden-sir-billy-mackie-15519"
+    ],
+    "pollie_slug": "billy-snedden",
+    "start_date": "1986-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Wine and Brandy Corporation",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Brownhill",
+      "https://harpers.co.uk/news/fullstory.php/aid/433/WARNING_AGAINST_AUSSIE_COMPLACENCY.html"
+    ],
+    "pollie_slug": "david-brownhill",
+    "start_date": "2000",
+    "end_date": "2006"
+  },
+  {
+    "role": "Director",
+    "organisation": "NRMA",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.maynereport.com/articles/2007/10/12-1236-1117.html",
+      "https://www.northerndailyleader.com.au/story/8227987/david-brownhill-order-of-australia-medal-is-more-for-the-people-and-communities-that-supported-him/"
+    ],
+    "pollie_slug": "david-brownhill",
+    "start_date": "2003"
+  },
+  {
+    "role": "Chair",
+    "organisation": "RSPCA Australia New South Wales Branch",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.northerndailyleader.com.au/story/8227987/david-brownhill-order-of-australia-medal-is-more-for-the-people-and-communities-that-supported-him/"
+    ],
+    "pollie_slug": "david-brownhill"
+  },
+  {
+    "role": "Director",
+    "organisation": "Royal Agricultural Society of New South Wales Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.northerndailyleader.com.au/story/8227987/david-brownhill-order-of-australia-medal-is-more-for-the-people-and-communities-that-supported-him/"
+    ],
+    "pollie_slug": "david-brownhill"
+  },
+  {
+    "role": "Electorate and Parliamentary Staff",
+    "organisation": "Office of Senator Gavin Marshall",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://timesnewsgroup.com.au/surfcoasttimes/news/darren-cheeseman-makes-return-geelong-politics/"
+    ],
+    "pollie_slug": "darren-cheeseman",
+    "start_date": "2013-09-08"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "National Multicultural Advisory Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/powell-janet-frances/",
+      "https://www.vic.gov.au/janet-powell-am"
+    ],
+    "pollie_slug": "janet-powell",
+    "start_date": "1994-01-01",
+    "end_date": "1997-12-31"
+  },
+  {
+    "role": "President",
+    "organisation": "Friends of the Australian Broadcasting Corporation (Victorian Branch)",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/powell-janet-frances/",
+      "https://www.vic.gov.au/janet-powell-am"
+    ],
+    "pollie_slug": "janet-powell",
+    "start_date": "1993-07-01",
+    "end_date": "1999-12-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "YWCA Victoria",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/powell-janet-frances/",
+      "https://www.vic.gov.au/janet-powell-am",
+      "https://www.canberratimes.com.au/story/6151098/former-democrats-leader-janet-powell-dies/"
+    ],
+    "pollie_slug": "janet-powell",
+    "start_date": "1993-07-01",
+    "end_date": "2002-12-31"
+  },
+  {
+    "role": "President",
+    "organisation": "YWCA Victoria",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/powell-janet-frances/",
+      "https://www.vic.gov.au/janet-powell-am",
+      "https://www.canberratimes.com.au/story/6151098/former-democrats-leader-janet-powell-dies/"
+    ],
+    "pollie_slug": "janet-powell",
+    "start_date": "1994-01-01",
+    "end_date": "2000-12-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "Anti-Gun Lobby",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.vic.gov.au/janet-powell-am"
+    ],
+    "pollie_slug": "janet-powell"
+  },
+  {
+    "role": "Patrons Council Member",
+    "organisation": "Epilepsy Foundation of Victoria",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Janet_Powell",
+      "https://www.canberratimes.com.au/story/6151098/former-democrats-leader-janet-powell-dies/"
+    ],
+    "pollie_slug": "janet-powell"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Cradle Coast Authority",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://cradlecoast.com/news/cca-news/cca-bids-farewell-to-chair-the-hon-sid-sidebottom/",
+      "https://cradlecoast.com/news/cca-news/ian-vanderbeek-appointed-chair-of-cradle-coast-authority-board/"
+    ],
+    "pollie_slug": "sid-sidebottom",
+    "start_date": "2017",
+    "end_date": "2025-12"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Youth, Family & Community Connections",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://yfcc.com.au/our-team/"
+    ],
+    "pollie_slug": "sid-sidebottom",
+    "start_date": "2022"
   }
 ]
