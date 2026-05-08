@@ -4531,17 +4531,24 @@
     "organisation": "Mental Health Victoria",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://au.linkedin.com/in/zoe-daniel"
+      "https://au.linkedin.com/in/zoe-daniel",
+      "https://www.mhvic.org.au/about-us/mhv-board"
     ],
     "pollie_slug": "zoe-daniel",
-    "start_date": "2025-08-01"
+    "start_date": "2025-08-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Mental Health Victoria's own board page confirms Zoe Daniel as Chair. A November 2025 announcement from MHV named her as the inaugural Independent Board Chair."
+    }
   },
   {
     "role": "Board Member",
     "organisation": "Women for Election",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://au.linkedin.com/in/zoe-daniel"
+      "https://au.linkedin.com/in/zoe-daniel",
+      "https://wfe.org.au/our-team/"
     ],
     "pollie_slug": "zoe-daniel",
     "start_date": "2025-08-01"
@@ -4632,7 +4639,8 @@
     "organisation": "Eating Disorders Victoria",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://au.linkedin.com/in/zoe-daniel"
+      "https://au.linkedin.com/in/zoe-daniel",
+      "https://eatingdisorders.org.au/about-us/our-people/"
     ],
     "pollie_slug": "zoe-daniel"
   },
@@ -9057,7 +9065,12 @@
       "https://biography.senate.gov.au/wheelwright-thomas-clive/",
       "https://en.wikipedia.org/wiki/Tom_Wheelwright"
     ],
-    "pollie_slug": "tom-wheelwright"
+    "pollie_slug": "tom-wheelwright",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Both the Senate biographical dictionary and Wikipedia confirm Wheelwright founded the 'Politic' consultancy after leaving parliament in 1996."
+    }
   },
   {
     "role": "Economic Adviser",
@@ -9066,7 +9079,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Tom_Wheelwright"
     ],
-    "pollie_slug": "tom-wheelwright"
+    "pollie_slug": "tom-wheelwright",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia explicitly lists this as a post-parliamentary role. Gareth Evans served as Deputy Opposition Leader and Shadow Treasurer from 1996 to 1998, after the ALP lost government in the March 1996 federal election — squarely after Wheelwright left the Senate in June 1996."
+    }
   },
   {
     "role": "Asia Pacific Public Affairs Director",
@@ -9077,7 +9095,12 @@
       "https://en.wikipedia.org/wiki/Tom_Wheelwright"
     ],
     "pollie_slug": "tom-wheelwright",
-    "start_date": "2000-01-01"
+    "start_date": "2000-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Both the Senate biographical dictionary and Wikipedia confirm this role. The Senate biography states he moved to Hong Kong in 2000 to set up a public affairs function across Asia Pacific and India for Lucent Technologies."
+    }
   },
   {
     "role": "Global Senior Vice-President",
@@ -9088,7 +9111,12 @@
       "https://en.wikipedia.org/wiki/Tom_Wheelwright"
     ],
     "pollie_slug": "tom-wheelwright",
-    "start_date": "2006-01-01"
+    "start_date": "2006-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Both sources confirm a senior vice-president role at Deutsche Post DHL based in Singapore from 2006."
+    }
   },
   {
     "role": "President",
@@ -11601,7 +11629,12 @@
     ],
     "pollie_slug": "susan-knowles",
     "start_date": "2019-01-03",
-    "end_date": "2022-06-30"
+    "end_date": "2022-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms appointment as Convenor of the Australian Classification Review Board in January 2019 to a two-year term, subsequently extended to 30 June 2022."
+    }
   },
   {
     "role": "Member",
@@ -11611,7 +11644,12 @@
       "https://en.wikipedia.org/wiki/Sue_Knowles",
       "https://adstandards.com.au/people/sue-knowles/"
     ],
-    "pollie_slug": "susan-knowles"
+    "pollie_slug": "susan-knowles",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia states she has served on the Ad Standards Community Panel since December 2017."
+    }
   },
   {
     "role": "Board Member",
@@ -11622,16 +11660,29 @@
       "https://www.miragenews.com/appointment-to-board-of-old-parliament-house-14-1256049/"
     ],
     "pollie_slug": "susan-knowles",
-    "start_date": "2024-06-14"
+    "start_date": "2024-06-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Tony Burke MP's official media release and Mirage News both confirm Sue Knowles was appointed as a part-time board member of Old Parliament House on 14 June 2024 for a three-year term."
+    }
   },
   {
     "role": "Non-Executive Chair",
     "organisation": "Perihelion Health",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://www.miragenews.com/appointment-to-board-of-old-parliament-house-14-1256049/"
+      "https://www.miragenews.com/appointment-to-board-of-old-parliament-house-14-1256049/",
+      "https://www.tonyburke.com.au/media-releases/2024/appointment-to-the-board-of-old-parliament-house-june"
     ],
-    "pollie_slug": "susan-knowles"
+    "pollie_slug": "susan-knowles",
+    "start_date": "2008-01-01",
+    "end_date": "2011-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Tony Burke MP's official June 2024 media release bio lists 'Non-Executive Chairman of Perihelion Health (2008-2011)' as one of Knowles's post-parliamentary roles. Date range 2008-2011 added."
+    }
   },
   {
     "role": "Deputy Mayor",
@@ -14023,7 +14074,12 @@
     ],
     "pollie_slug": "karin-sowada",
     "start_date": "1993-07-01",
-    "end_date": "1996-12-31"
+    "end_date": "1996-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple strong sources confirm: Senate biography lists her as 'principal consultant for Capitol Research (1993–1996)', Wikipedia notes she 'acted as a lobbyist for Capitol Research, a small corporate communications company run by her and her husband', and the Macquarie University profile lists 'Principal, Capitol Research · 1993 → 1996'."
+    }
   },
   {
     "role": "Assistant Curator",
@@ -14036,7 +14092,12 @@
     ],
     "pollie_slug": "karin-sowada",
     "start_date": "1996-01-01",
-    "end_date": "2005-12-31"
+    "end_date": "2005-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by multiple strong sources. Macquarie University researcher profile lists 'Assistant Curator, The Nicholson Museum · Aug 1996 – Dec 2005'. Wikipedia and the Senate biography both confirm the 1996–2005 period."
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -14049,7 +14110,12 @@
     ],
     "pollie_slug": "karin-sowada",
     "start_date": "2008-01-01",
-    "end_date": "2015-02-28"
+    "end_date": "2015-02-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by multiple strong sources. Macquarie University profile lists 'Chief Executive Officer, Anglican Deaconess Ministries Ltd · Sept 2008 – Feb 2015'. The Sydney Anglicans article on the new CEO appointment confirms Dr Karin Sowada departed in February 2015."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -14061,7 +14127,12 @@
     ],
     "pollie_slug": "karin-sowada",
     "start_date": "2008-01-01",
-    "end_date": "2017-12-31"
+    "end_date": "2017-11-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Macquarie University researcher profile, which lists 'Non-Executive Director, Mission Australia · Jul 2008 – Nov 2017'. End date corrected from 2017-12-31 to 2017-11-30 to match the Macquarie profile."
+    }
   },
   {
     "role": "Member and Chair",
@@ -14071,7 +14142,12 @@
       "http://socialissues.org.au/about"
     ],
     "pollie_slug": "karin-sowada",
-    "start_date": "1993-01-01"
+    "start_date": "1993-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Social Issues Committee website, which states she has served on the SIC since 1993 and has been Chair since December 2014."
+    }
   },
   {
     "role": "Senior Lecturer and Director, Australian Centre for Egyptology",
@@ -14082,7 +14158,12 @@
       "https://www.researchgate.net/profile/Karin-Sowada",
       "https://mq.academia.edu/KarinSowada"
     ],
-    "pollie_slug": "karin-sowada"
+    "pollie_slug": "karin-sowada",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Macquarie University researcher profile, which lists her current position as Senior Lecturer in the School of Humanities and Director of the Australian Centre for Egyptology."
+    }
   },
   {
     "role": "Australian Research Council Future Fellow",
@@ -14093,6 +14174,11 @@
       "https://en.wikipedia.org/wiki/Karin_Sowada"
     ],
     "pollie_slug": "karin-sowada",
-    "start_date": "2017-07-19"
+    "start_date": "2017-07-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Macquarie University researcher profile and multiple published papers citing ARC Future Fellowship grant FT170100288 held by Karin Sowada. The 'FT17' grant number confirms a 2017 funding round."
+    }
   }
 ]
