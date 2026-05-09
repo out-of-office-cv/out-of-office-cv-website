@@ -14336,5 +14336,340 @@
     "pollie_slug": "frank-walker",
     "start_date": "1996-01-01",
     "end_date": "1997-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Fisheries Management Authority",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.afma.gov.au/employee/ms-helen-kroger",
+      "https://www.afma.gov.au/who-we-are/afma-commission",
+      "https://setfia.org.au/1489-2/",
+      "https://www.afma.gov.au/news/afma-chair-returns"
+    ],
+    "pollie_slug": "helen-kroger",
+    "start_date": "2017-07-01"
+  },
+  {
+    "role": "Principal",
+    "organisation": "Civic Creative",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.linkedin.com/in/helen-kroger-96708662/"
+    ],
+    "pollie_slug": "helen-kroger"
+  },
+  {
+    "role": "Chair",
+    "organisation": "International Democrat Union",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.idu.org/statement-by-idu-chairman-rt-hon-stephen-harper-on-the-80th-birthday-of-former-idu-chairman-hon-john-howard/",
+      "https://en.wikipedia.org/wiki/John_Howard"
+    ],
+    "pollie_slug": "john-howard",
+    "start_date": "2007-11-24",
+    "end_date": "2014-11-01"
+  },
+  {
+    "role": "Honorary Advisory Board Member",
+    "organisation": "International Democrat Union",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://idu.org/about/honorary-advisory-board/",
+      "https://www.idu.org/statement-by-idu-chairman-rt-hon-stephen-harper-on-the-80th-birthday-of-former-idu-chairman-hon-john-howard/"
+    ],
+    "pollie_slug": "john-howard",
+    "start_date": "2014-11-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Bradman Foundation",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Howard",
+      "https://bradman.com.au/about-the-bradman-foundation"
+    ],
+    "pollie_slug": "john-howard",
+    "start_date": "2008-01-01"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Cricket New South Wales",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.cricket.com.au/news/3257988/john-howard-joins-cricket-nsw"
+    ],
+    "pollie_slug": "john-howard",
+    "start_date": "2014-09-02"
+  },
+  {
+    "role": "Keynote Speaker",
+    "organisation": "Washington Speakers Bureau",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.wsb.com/speakers/john-howard/",
+      "https://en.wikipedia.org/wiki/John_Howard"
+    ],
+    "pollie_slug": "john-howard",
+    "start_date": "2008-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Ramsay Centre for Western Civilisation",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.ramsaycentre.org/about-us/",
+      "https://www.ramsaycentre.org/news-and-media/announcements/john-howard-and-geoffrey-blainey-to-open-ramsay-centre-building/"
+    ],
+    "pollie_slug": "john-howard",
+    "start_date": "2017-03-01"
+  },
+  {
+    "role": "Co-Patron",
+    "organisation": "Sport Australia Hall of Fame",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://sahof.org.au/about/patron/",
+      "https://sahof.org.au/united-in-sport-former-prime-ministers-hawke-howard-join-the-sport-australia-hall-of-fame/"
+    ],
+    "pollie_slug": "john-howard",
+    "start_date": "2014-02-01"
+  },
+  {
+    "role": "Council of Advisors Member",
+    "organisation": "United States Studies Centre",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.ussc.edu.au/people/john-howard"
+    ],
+    "pollie_slug": "john-howard"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Global Freedom Network (Walk Free)",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.walkfree.org/news/2024/milestone-in-australias-fight-against-modern-slavery-with-new-anti-slavery-commissioner-appointed/",
+      "https://markdreyfus.com/media/media-releases/appointment-of-australia-s-first-anti-slavery-commissioner-mark-dreyfus-kc-mp/",
+      "https://www.sbs.com.au/news/article/former-federal-senator-appointed-as-australias-first-anti-slavery-commissioner/2cwd0ev5j"
+    ],
+    "pollie_slug": "chris-evans"
+  },
+  {
+    "role": "Strategic Engagement Lead",
+    "organisation": "Walk Free",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://markdreyfus.com/media/media-releases/appointment-of-australia-s-first-anti-slavery-commissioner-mark-dreyfus-kc-mp/",
+      "https://www.walkfree.org/news/2024/milestone-in-australias-fight-against-modern-slavery-with-new-anti-slavery-commissioner-appointed/",
+      "https://procurementandsupply.com/chris-evans-named-australias-first-anti-slavery-commissioner/"
+    ],
+    "pollie_slug": "chris-evans",
+    "start_date": "2016",
+    "end_date": "2020"
+  },
+  {
+    "role": "Australian Anti-Slavery Commissioner",
+    "organisation": "Office of the Australian Anti-Slavery Commissioner",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.sbs.com.au/news/article/former-federal-senator-appointed-as-australias-first-anti-slavery-commissioner/2cwd0ev5j",
+      "https://cathnews.com/2024/11/12/former-labor-senator-named-new-anti-slavery-commissioner/",
+      "https://www.canberratimes.com.au/story/8816130/chris-evans-appointed-as-australias-anti-slavery-commissioner/",
+      "https://markdreyfus.com/media/media-releases/appointment-of-australia-s-first-anti-slavery-commissioner-mark-dreyfus-kc-mp/"
+    ],
+    "pollie_slug": "chris-evans",
+    "start_date": "2024-12-02"
+  },
+  {
+    "role": "General Manager, External Affairs",
+    "organisation": "Mineral Resources Ltd",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://michaelwest.com.au/gary-gray/",
+      "https://en.wikipedia.org/wiki/Gary_Gray_(politician)",
+      "https://www.bloomberg.com/profile/person/15868662"
+    ],
+    "pollie_slug": "gary-gray",
+    "start_date": "2016-08-01",
+    "end_date": "2020-03-01"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "ASC Pty Ltd",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.financeminister.gov.au/media-release/2016/12/07/asc-board-appointments",
+      "https://michaelwest.com.au/gary-gray/",
+      "https://en.wikipedia.org/wiki/Gary_Gray_(politician)"
+    ],
+    "pollie_slug": "gary-gray",
+    "start_date": "2017-01-01",
+    "end_date": "2020-03-11"
+  },
+  {
+    "role": "Trustee",
+    "organisation": "Channel 7 Telethon Trust",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gary_Gray_(politician)",
+      "https://www.businessnews.com.au/Person/Gary-Gray"
+    ],
+    "pollie_slug": "gary-gray",
+    "end_date": "2020-06-01"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Perth Observatory",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gary_Gray_(politician)",
+      "https://www.businessnews.com.au/Person/Gary-Gray"
+    ],
+    "pollie_slug": "gary-gray",
+    "end_date": "2020-06-01"
+  },
+  {
+    "role": "Member",
+    "organisation": "Independent Parliamentary Expenses Authority",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.miragenews.com/australia-appoints-new-ambassador-to-ireland/",
+      "https://amplitudeenergy.com.au/about/board/gary-gray",
+      "https://www.directory.gov.au/people/gary-gray"
+    ],
+    "pollie_slug": "gary-gray",
+    "start_date": "2016-07-01"
+  },
+  {
+    "role": "Ambassador to Ireland",
+    "organisation": "Australian Government Department of Foreign Affairs and Trade",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.miragenews.com/australia-appoints-new-ambassador-to-ireland/",
+      "https://ireland.embassy.gov.au/dubl/Previous_Ambassadors.html",
+      "https://en.wikipedia.org/wiki/Gary_Gray_(politician)"
+    ],
+    "pollie_slug": "gary-gray",
+    "start_date": "2020-08-01",
+    "end_date": "2024-09-01"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Amplitude Energy",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://amplitudeenergy.com.au/about/board/gary-gray",
+      "https://www.businessnews.com.au/Person/Gary-Gray"
+    ],
+    "pollie_slug": "gary-gray",
+    "start_date": "2024-10-01"
+  },
+  {
+    "role": "Independent Director",
+    "organisation": "Civmec Limited",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.civmec.com/company/board-of-directors/",
+      "https://www.businessnews.com.au/Person/Gary-Gray",
+      "https://www.minichart.com.sg/2025/11/28/civmec-limited-2025-agm-minutes-director-re-election-share-issuance-authority-and-strategic-business-updates/"
+    ],
+    "pollie_slug": "gary-gray",
+    "start_date": "2024-10-30"
+  },
+  {
+    "role": "Member of the Legislative Council (North Metropolitan Region)",
+    "organisation": "Parliament of Western Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alannah_MacTiernan",
+      "https://www.parliament.wa.gov.au/parliament/memblist.nsf/9cb35b4c2789d7e448256d50000f82f6/66019048c62fdf77482565d200219078"
+    ],
+    "pollie_slug": "alannah-mactiernan",
+    "start_date": "2017-05-22",
+    "end_date": "2023-02-10"
+  },
+  {
+    "role": "Minister for Regional Development",
+    "organisation": "Government of Western Australia",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alannah_MacTiernan",
+      "https://www.mediastatements.wa.gov.au/Pages/McGowan/2022/11/Premier-pays-tribute-to-Minister-Alannah-MacTiernan.aspx"
+    ],
+    "pollie_slug": "alannah-mactiernan",
+    "start_date": "2017-03-17",
+    "end_date": "2022-12-14"
+  },
+  {
+    "role": "Minister for Agriculture and Food",
+    "organisation": "Government of Western Australia",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alannah_MacTiernan",
+      "https://www.mediastatements.wa.gov.au/Pages/McGowan/2022/11/Premier-pays-tribute-to-Minister-Alannah-MacTiernan.aspx"
+    ],
+    "pollie_slug": "alannah-mactiernan",
+    "start_date": "2017-03-17",
+    "end_date": "2022-12-14"
+  },
+  {
+    "role": "Minister for Hydrogen Industry",
+    "organisation": "Government of Western Australia",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alannah_MacTiernan",
+      "https://www.mediastatements.wa.gov.au/Pages/Ministers/Alannah-MacTiernan.aspx"
+    ],
+    "pollie_slug": "alannah-mactiernan",
+    "start_date": "2021-03-19",
+    "end_date": "2022-12-14"
+  },
+  {
+    "role": "Minister for Ports",
+    "organisation": "Government of Western Australia",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alannah_MacTiernan",
+      "https://www.mediastatements.wa.gov.au/Pages/Ministers/Alannah-MacTiernan.aspx"
+    ],
+    "pollie_slug": "alannah-mactiernan",
+    "start_date": "2018-12-13",
+    "end_date": "2021-03-19"
+  },
+  {
+    "role": "Chair, 2024 Regional Telecommunications Independent Review Committee",
+    "organisation": "Australian Government Department of Infrastructure, Transport, Regional Development, Communications and the Arts",
+    "category": "Telecommunications & Network Infrastructure",
+    "sources": [
+      "https://region.com.au/former-wa-minister-alannah-mactiernan-to-lead-review-of-regional-telecommunication-needs/739805/",
+      "https://minister.infrastructure.gov.au/rowland/media-release/2024-regional-telecommunications-review-kicks",
+      "https://www.rtirc.gov.au/committee-members-profiles"
+    ],
+    "pollie_slug": "alannah-mactiernan",
+    "start_date": "2024-01-30",
+    "end_date": "2024-12-31"
+  },
+  {
+    "role": "Head of Strategic Relations",
+    "organisation": "Victory Metals",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://victorymetalsaustralia.com/board-of-directors/",
+      "https://www.businessnews.com.au/Person/Alannah-MacTiernan"
+    ],
+    "pollie_slug": "alannah-mactiernan",
+    "start_date": "2025-03-01"
+  },
+  {
+    "role": "Advisor, Green Steel Projects",
+    "organisation": "Liberty Primary Metals Australia",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.rtirc.gov.au/committee-members-profiles",
+      "https://www.businessnews.com.au/Person/Alannah-MacTiernan"
+    ],
+    "pollie_slug": "alannah-mactiernan"
   }
 ]
