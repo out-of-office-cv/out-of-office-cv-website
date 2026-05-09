@@ -14365,11 +14365,17 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://www.idu.org/statement-by-idu-chairman-rt-hon-stephen-harper-on-the-80th-birthday-of-former-idu-chairman-hon-john-howard/",
-      "https://en.wikipedia.org/wiki/John_Howard"
+      "https://en.wikipedia.org/wiki/John_Howard",
+      "https://idu.org/about/leadership/"
     ],
     "pollie_slug": "john-howard",
     "start_date": "2007-11-24",
-    "end_date": "2014-11-01"
+    "end_date": "2014-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Howard became IDU Chair in 2002 while still PM, continuing post-parliament until 2014. The IDU statement confirms longest-serving Chairman (2002–2014)."
+    }
   },
   {
     "role": "Honorary Advisory Board Member",
@@ -14380,7 +14386,12 @@
       "https://www.idu.org/statement-by-idu-chairman-rt-hon-stephen-harper-on-the-80th-birthday-of-former-idu-chairman-hon-john-howard/"
     ],
     "pollie_slug": "john-howard",
-    "start_date": "2014-11-01"
+    "start_date": "2014-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "IDU honorary-advisory-board page lists John Howard (Prime Minister of Australia 1996–2007). Stephen Harper's IDU statement confirms he remains a member of the Honorary Advisory Board."
+    }
   },
   {
     "role": "Director",
@@ -14391,7 +14402,12 @@
       "https://bradman.com.au/about-the-bradman-foundation"
     ],
     "pollie_slug": "john-howard",
-    "start_date": "2008-01-01"
+    "start_date": "2008-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Howard was appointed a director of the Bradman Foundation in 2008. He later transitioned to Patron from around 2015."
+    }
   },
   {
     "role": "Patron",
@@ -14401,7 +14417,12 @@
       "https://www.cricket.com.au/news/3257988/john-howard-joins-cricket-nsw"
     ],
     "pollie_slug": "john-howard",
-    "start_date": "2014-09-02"
+    "start_date": "2014-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Cricket Australia article confirms Howard was named Patron of Cricket NSW at the 2014 AGM (Monday 1 September 2014). The recorded start_date of 2014-09-02 is one day late."
+    }
   },
   {
     "role": "Keynote Speaker",
@@ -14412,7 +14433,12 @@
       "https://en.wikipedia.org/wiki/John_Howard"
     ],
     "pollie_slug": "john-howard",
-    "start_date": "2008-01-01"
+    "start_date": "2008-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and Washington Speakers Bureau site confirm Howard signed in January 2008 after leaving office; WSB profile identifies him as the 25th Prime Minister of Australia."
+    }
   },
   {
     "role": "Chair",
@@ -14420,10 +14446,17 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://www.ramsaycentre.org/about-us/",
-      "https://www.ramsaycentre.org/news-and-media/announcements/john-howard-and-geoffrey-blainey-to-open-ramsay-centre-building/"
+      "https://www.ramsaycentre.org/news-and-media/announcements/john-howard-and-geoffrey-blainey-to-open-ramsay-centre-building/",
+      "https://www.ramsaycentre.org/news-and-media/centre-appoints-new-chairman-mr-allan-myers-ac-kc/"
     ],
     "pollie_slug": "john-howard",
-    "start_date": "2017-03-01"
+    "start_date": "2017-03-01",
+    "end_date": "2024-09-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Howard was inaugural Chair of the Ramsay Centre from March 2017 and retired in September 2024 when Allan Myers was appointed his successor."
+    }
   },
   {
     "role": "Co-Patron",
@@ -14434,7 +14467,12 @@
       "https://sahof.org.au/united-in-sport-former-prime-ministers-hawke-howard-join-the-sport-australia-hall-of-fame/"
     ],
     "pollie_slug": "john-howard",
-    "start_date": "2014-02-01"
+    "start_date": "2014-02-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The SAHOF page confirms Howard and Bob Hawke were appointed Co-Patrons on 5 February 2014."
+    }
   },
   {
     "role": "Council of Advisors Member",
@@ -14443,7 +14481,12 @@
     "sources": [
       "https://www.ussc.edu.au/people/john-howard"
     ],
-    "pollie_slug": "john-howard"
+    "pollie_slug": "john-howard",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "USSC people page lists Howard as a Council of Advisors member; profile identifies him as former PM (1996–2007), no same-name confusion."
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -14760,7 +14803,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)"
     ],
-    "pollie_slug": "ronald-edwards"
+    "pollie_slug": "ronald-edwards",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia article on Ron Edwards (Australian politician) explicitly states he 'hosted a talkback radio show on 6PR' after losing his seat in 1993. Identity is unambiguous — the Wikipedia article is solely about the former MP for Stirling."
+    }
   },
   {
     "role": "Co-founder and Director",
@@ -14770,7 +14818,13 @@
       "https://pff.com.au/our-story/meet-our-board/dr-ron-edwards/",
       "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)"
     ],
-    "pollie_slug": "ronald-edwards"
+    "pollie_slug": "ronald-edwards",
+    "start_date": "1994",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Polly Farmer Foundation board page confirms Edwards co-founded the foundation alongside Fred Chaney and identifies him as the former Labor member for Stirling and Deputy Speaker. Wikipedia and Business News corroborate."
+    }
   },
   {
     "role": "Director",
@@ -14780,7 +14834,13 @@
       "https://www.businessnews.com.au/Person/Ron-Edwards",
       "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)"
     ],
-    "pollie_slug": "ronald-edwards"
+    "pollie_slug": "ronald-edwards",
+    "start_date": "1994",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Business News profile confirms 'Board Member, Anglican Schools Commission (1994–present)', explicitly identifying him as a former federal MP and Deputy Speaker. Wikipedia corroborates."
+    }
   },
   {
     "role": "Director",
@@ -14788,9 +14848,17 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://www.businessnews.com.au/Person/Ron-Edwards",
-      "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)",
+      "https://labouraustralia.anu.edu.au/biography/edwards-ronald-frederick-ron-28221"
     ],
-    "pollie_slug": "ronald-edwards"
+    "pollie_slug": "ronald-edwards",
+    "start_date": "2005",
+    "end_date": "2015",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Business News lists Perth Mint Non-Executive Director 2005–present; ADB/Labour Australia biography specifies director of the Perth Mint (2005–15). Identity unambiguous."
+    }
   },
   {
     "role": "Director",
@@ -14798,19 +14866,34 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://www.businessnews.com.au/Person/Ron-Edwards",
-      "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)",
+      "https://labouraustralia.anu.edu.au/biography/edwards-ronald-frederick-ron-28221"
     ],
-    "pollie_slug": "ronald-edwards"
+    "pollie_slug": "ronald-edwards",
+    "start_date": "2013",
+    "end_date": "2017",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Business News lists Potato Marketing Corporation Non-Executive Chair 2013–2017; ADB/Labour Australia biography specifies director of the Potato Marketing Corporation (2013–17)."
+    }
   },
   {
     "role": "Member",
     "organisation": "National Landcare Advisory Committee",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://www.linkedin.com/in/ron-edwards-59641713/",
-      "https://adb.anu.edu.au/biography/edwards-ronald-frederick-ron-28221"
+      "https://adb.anu.edu.au/biography/edwards-ronald-frederick-ron-28221",
+      "https://labouraustralia.anu.edu.au/biography/edwards-ronald-frederick-ron-28221"
     ],
-    "pollie_slug": "ronald-edwards"
+    "pollie_slug": "ronald-edwards",
+    "start_date": "2014",
+    "end_date": "2017",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ADB/Labour Australia biography (the politician, not the folklorist) confirms he was a member of the National Landcare advisory committee (2014–17). The LinkedIn source returns 404 and is removed."
+    }
   },
   {
     "role": "Chair",
@@ -14818,27 +14901,50 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://www.businessnews.com.au/Person/Ron-Edwards",
-      "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)",
+      "https://labouraustralia.anu.edu.au/biography/edwards-ronald-frederick-ron-28221"
     ],
-    "pollie_slug": "ronald-edwards"
+    "pollie_slug": "ronald-edwards",
+    "start_date": "2018",
+    "end_date": "2020",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Business News lists WA Fishing Industry Council Non-Executive Chair 2018–2020. Wikipedia and ADB/Labour Australia biography corroborate."
+    }
   },
   {
     "role": "Chair",
     "organisation": "State Emergency Management Committee",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://psnews.com.au/new-chair-to-oversee-western-australias-peak-emergency-management-body/121662/"
+      "https://psnews.com.au/new-chair-to-oversee-western-australias-peak-emergency-management-body/121662/",
+      "https://labouraustralia.anu.edu.au/biography/edwards-ronald-frederick-ron-28221"
     ],
-    "pollie_slug": "ronald-edwards"
+    "pollie_slug": "ronald-edwards",
+    "start_date": "2017",
+    "end_date": "2023",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "PS News article confirms Dr Ron Edwards served as Chair of the WA State Emergency Management Committee from 2017, stepping down when Emma Cole was appointed in November 2023. ADB/Labour Australia biography corroborates."
+    }
   },
   {
     "role": "Member",
     "organisation": "Not-for-Profit Sector Reform Council",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.businessnews.com.au/Person/Ron-Edwards"
+      "https://www.businessnews.com.au/Person/Ron-Edwards",
+      "https://pff.com.au/our-story/meet-our-board/dr-ron-edwards/",
+      "https://labouraustralia.anu.edu.au/biography/edwards-ronald-frederick-ron-28221"
     ],
-    "pollie_slug": "ronald-edwards"
+    "pollie_slug": "ronald-edwards",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Polly Farmer Foundation bio, Business News and ADB/Labour Australia biography all list the Not-for-Profit Sector Reform Council among his appointments. Identity unambiguous."
+    }
   },
   {
     "role": "Member, Pacific Area Working Group",
@@ -14846,9 +14952,16 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://www.businessnews.com.au/Person/Ron-Edwards",
-      "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)",
+      "https://pff.com.au/our-story/meet-our-board/dr-ron-edwards/",
+      "https://labouraustralia.anu.edu.au/biography/edwards-ronald-frederick-ron-28221"
     ],
-    "pollie_slug": "ronald-edwards"
+    "pollie_slug": "ronald-edwards",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Business News, Polly Farmer Foundation bio, Wikipedia and ADB/Labour Australia biography all confirm membership of the Pacific Area working group for the Marine Stewardship Council."
+    }
   },
   {
     "role": "Secretary",
