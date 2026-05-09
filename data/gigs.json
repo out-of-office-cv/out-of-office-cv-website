@@ -14493,20 +14493,30 @@
     ],
     "pollie_slug": "gary-gray",
     "start_date": "2016-08-01",
-    "end_date": "2020-03-01"
+    "end_date": "2020-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia, Michael West, and ambassadorial announcement. Gray joined Mineral Resources Ltd as GM External Affairs in August 2016 and resigned upon his ambassadorial appointment in 2020."
+    }
   },
   {
     "role": "Non-Executive Director",
     "organisation": "ASC Pty Ltd",
     "category": "Defence & Military and Security",
     "sources": [
-      "https://www.financeminister.gov.au/media-release/2016/12/07/asc-board-appointments",
       "https://michaelwest.com.au/gary-gray/",
-      "https://en.wikipedia.org/wiki/Gary_Gray_(politician)"
+      "https://en.wikipedia.org/wiki/Gary_Gray_(politician)",
+      "https://ministers.finance.gov.au/media-release/2016/12/07/asc-board-appointments"
     ],
     "pollie_slug": "gary-gray",
     "start_date": "2017-01-01",
-    "end_date": "2020-03-11"
+    "end_date": "2020-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia and Michael West. Gray was a non-executive director of ASC from 2017 and resigned upon his ambassadorial appointment. The financeminister.gov.au URL redirects to ministers.finance.gov.au."
+    }
   },
   {
     "role": "Trustee",
@@ -14517,7 +14527,12 @@
       "https://www.businessnews.com.au/Person/Gary-Gray"
     ],
     "pollie_slug": "gary-gray",
-    "end_date": "2020-06-01"
+    "end_date": "2020-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia. Gray was one of 13 trustees of the Channel 7 Telethon Trust and resigned in 2020 upon his ambassadorial appointment."
+    }
   },
   {
     "role": "Board Member",
@@ -14528,7 +14543,12 @@
       "https://www.businessnews.com.au/Person/Gary-Gray"
     ],
     "pollie_slug": "gary-gray",
-    "end_date": "2020-06-01"
+    "end_date": "2020-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia ('management committee member at the Perth Astronomical Observatory') and the Mirage News ambassadorial announcement."
+    }
   },
   {
     "role": "Member",
@@ -14540,7 +14560,12 @@
       "https://www.directory.gov.au/people/gary-gray"
     ],
     "pollie_slug": "gary-gray",
-    "start_date": "2016-07-01"
+    "start_date": "2017-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "IPEA was established 1 July 2017 under the Independent Parliamentary Expenses Authority Act 2017. Gray was an inaugural member from 1 July 2017. The previous start_date of 2016-07-01 was incorrect."
+    }
   },
   {
     "role": "Ambassador to Ireland",
@@ -14553,7 +14578,12 @@
     ],
     "pollie_slug": "gary-gray",
     "start_date": "2020-08-01",
-    "end_date": "2024-09-01"
+    "end_date": "2024-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Australian Embassy in Ireland's previous-ambassadors list, the Mirage News announcement, and Wikipedia."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -14564,7 +14594,12 @@
       "https://www.businessnews.com.au/Person/Gary-Gray"
     ],
     "pollie_slug": "gary-gray",
-    "start_date": "2024-10-01"
+    "start_date": "2024-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Amplitude Energy's own board page, which identifies Gray as former Federal Member for Brand and Minister for Resources, with start date 1 October 2024."
+    }
   },
   {
     "role": "Independent Director",
@@ -14576,7 +14611,12 @@
       "https://www.minichart.com.sg/2025/11/28/civmec-limited-2025-agm-minutes-director-re-election-share-issuance-authority-and-strategic-business-updates/"
     ],
     "pollie_slug": "gary-gray",
-    "start_date": "2024-10-30"
+    "start_date": "2024-10-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Civmec's SGX announcements and the 2025 AGM minutes. Gray was appointed Independent Director on 30 October 2024 and is identified as the former Federal MP for Brand."
+    }
   },
   {
     "role": "Member of the Legislative Council (North Metropolitan Region)",
@@ -14588,7 +14628,12 @@
     ],
     "pollie_slug": "alannah-mactiernan",
     "start_date": "2017-05-22",
-    "end_date": "2023-02-10"
+    "end_date": "2023-02-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "WA Parliament records confirm she was elected to the Fortieth Parliament for the North Metropolitan Region on 11 March 2017, sworn in 22 May 2017, then elected to the Forty-First Parliament for the South West Region from 22 May 2021, and resigned 10 February 2023."
+    }
   },
   {
     "role": "Minister for Regional Development",
@@ -14600,7 +14645,12 @@
     ],
     "pollie_slug": "alannah-mactiernan",
     "start_date": "2017-03-17",
-    "end_date": "2022-12-14"
+    "end_date": "2022-12-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and WA Government sources confirm MacTiernan was Minister for Regional Development from 17 March 2017 to 14 December 2022."
+    }
   },
   {
     "role": "Minister for Agriculture and Food",
@@ -14612,7 +14662,12 @@
     ],
     "pollie_slug": "alannah-mactiernan",
     "start_date": "2017-03-17",
-    "end_date": "2022-12-14"
+    "end_date": "2022-12-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and WA Government sources confirm MacTiernan was Minister for Agriculture and Food from 17 March 2017 to 14 December 2022."
+    }
   },
   {
     "role": "Minister for Hydrogen Industry",
@@ -14624,7 +14679,12 @@
     ],
     "pollie_slug": "alannah-mactiernan",
     "start_date": "2021-03-19",
-    "end_date": "2022-12-14"
+    "end_date": "2022-12-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms MacTiernan was appointed Minister for Hydrogen Industry on 19 March 2021 and resigned from cabinet on 14 December 2022."
+    }
   },
   {
     "role": "Minister for Ports",
@@ -14636,7 +14696,12 @@
     ],
     "pollie_slug": "alannah-mactiernan",
     "start_date": "2018-12-13",
-    "end_date": "2021-03-19"
+    "end_date": "2021-03-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms MacTiernan held the Minister for Ports portfolio from 13 December 2018 to 19 March 2021."
+    }
   },
   {
     "role": "Chair, 2024 Regional Telecommunications Independent Review Committee",
@@ -14645,11 +14710,17 @@
     "sources": [
       "https://region.com.au/former-wa-minister-alannah-mactiernan-to-lead-review-of-regional-telecommunication-needs/739805/",
       "https://minister.infrastructure.gov.au/rowland/media-release/2024-regional-telecommunications-review-kicks",
-      "https://www.rtirc.gov.au/committee-members-profiles"
+      "https://www.rtirc.gov.au/committee-members-profiles",
+      "https://www.infrastructure.gov.au/department/media/news/2024-regional-telecommunications-review-kicks"
     ],
     "pollie_slug": "alannah-mactiernan",
-    "start_date": "2024-01-30",
-    "end_date": "2024-12-31"
+    "start_date": "2024-01-12",
+    "end_date": "2024-12-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Government sources confirm MacTiernan was Chair of the 2024 Regional Telecommunications Independent Review Committee, appointed 12 January 2024; the committee's final report was delivered 13 December 2024."
+    }
   },
   {
     "role": "Head of Strategic Relations",
@@ -14660,7 +14731,12 @@
       "https://www.businessnews.com.au/Person/Alannah-MacTiernan"
     ],
     "pollie_slug": "alannah-mactiernan",
-    "start_date": "2025-03-01"
+    "start_date": "2025-03-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Victory Metals' own website confirms MacTiernan as Head of Strategic Relations. Business News gives start date as 12 March 2025."
+    }
   },
   {
     "role": "Advisor, Green Steel Projects",
@@ -14670,6 +14746,11 @@
       "https://www.rtirc.gov.au/committee-members-profiles",
       "https://www.businessnews.com.au/Person/Alannah-MacTiernan"
     ],
-    "pollie_slug": "alannah-mactiernan"
+    "pollie_slug": "alannah-mactiernan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Australian Government RTIRC committee members profile page (a .gov.au source) explicitly states MacTiernan was working for Liberty Primary Metals / GFG Alliance on Green Steel Projects."
+    }
   }
 ]
