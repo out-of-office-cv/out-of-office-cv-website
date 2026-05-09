@@ -14752,5 +14752,122 @@
       "by": "claude",
       "note": "The Australian Government RTIRC committee members profile page (a .gov.au source) explicitly states MacTiernan was working for Liberty Primary Metals / GFG Alliance on Green Steel Projects."
     }
+  },
+  {
+    "role": "Talkback Radio Host",
+    "organisation": "6PR",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)"
+    ],
+    "pollie_slug": "ronald-edwards"
+  },
+  {
+    "role": "Co-founder and Director",
+    "organisation": "Graham Polly Farmer Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://pff.com.au/our-story/meet-our-board/dr-ron-edwards/",
+      "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)"
+    ],
+    "pollie_slug": "ronald-edwards"
+  },
+  {
+    "role": "Director",
+    "organisation": "Anglican Schools Commission",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Ron-Edwards",
+      "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)"
+    ],
+    "pollie_slug": "ronald-edwards"
+  },
+  {
+    "role": "Director",
+    "organisation": "Perth Mint",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Ron-Edwards",
+      "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)"
+    ],
+    "pollie_slug": "ronald-edwards"
+  },
+  {
+    "role": "Director",
+    "organisation": "Potato Marketing Corporation of Western Australia",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Ron-Edwards",
+      "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)"
+    ],
+    "pollie_slug": "ronald-edwards"
+  },
+  {
+    "role": "Member",
+    "organisation": "National Landcare Advisory Committee",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.linkedin.com/in/ron-edwards-59641713/",
+      "https://adb.anu.edu.au/biography/edwards-ronald-frederick-ron-28221"
+    ],
+    "pollie_slug": "ronald-edwards"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Western Australian Fishing Industry Council",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Ron-Edwards",
+      "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)"
+    ],
+    "pollie_slug": "ronald-edwards"
+  },
+  {
+    "role": "Chair",
+    "organisation": "State Emergency Management Committee",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://psnews.com.au/new-chair-to-oversee-western-australias-peak-emergency-management-body/121662/"
+    ],
+    "pollie_slug": "ronald-edwards"
+  },
+  {
+    "role": "Member",
+    "organisation": "Not-for-Profit Sector Reform Council",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Ron-Edwards"
+    ],
+    "pollie_slug": "ronald-edwards"
+  },
+  {
+    "role": "Member, Pacific Area Working Group",
+    "organisation": "Marine Stewardship Council",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Ron-Edwards",
+      "https://en.wikipedia.org/wiki/Ron_Edwards_(Australian_politician)"
+    ],
+    "pollie_slug": "ronald-edwards"
+  },
+  {
+    "role": "Secretary",
+    "organisation": "Union Cooperative Society",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/georges-george/",
+      "https://en.wikipedia.org/wiki/George_Georges"
+    ],
+    "pollie_slug": "george-georges"
+  },
+  {
+    "role": "Founder and Organiser",
+    "organisation": "Palm Sunday Rally for Peace and Nuclear Disarmament",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.greenleft.org.au/content/george-georges-fighter-socialist-principles",
+      "http://radicaltimes.info/HTML/popup205b.html"
+    ],
+    "pollie_slug": "george-georges"
   }
 ]
