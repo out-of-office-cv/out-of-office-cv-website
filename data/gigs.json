@@ -5925,20 +5925,31 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://research-repository.uwa.edu.au/en/persons/carmen-lawrence/",
-      "https://en.wikipedia.org/wiki/Carmen_Lawrence"
+      "https://en.wikipedia.org/wiki/Carmen_Lawrence",
+      "https://www.wheelercentre.com/people/carmen-lawrence"
     ],
     "pollie_slug": "carmen-lawrence",
-    "start_date": "2008-01-01"
+    "start_date": "2008-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
     "organisation": "Conservation Council of Western Australia",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://en.wikipedia.org/wiki/Carmen_Lawrence"
+      "https://en.wikipedia.org/wiki/Carmen_Lawrence",
+      "https://www.ccwa.org.au/james_eggleston_announced_as_new_president_for_wa_s_peak_conservation_body"
     ],
     "pollie_slug": "carmen-lawrence",
-    "start_date": "2016-01-01"
+    "start_date": "2016-01-01",
+    "end_date": "2022-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -5948,7 +5959,11 @@
       "https://www.cotawa.org.au/media-release-dr-carmen-lawrence-ao-appointed-new-chair-of-cota-wa/"
     ],
     "pollie_slug": "carmen-lawrence",
-    "start_date": "2024-08-06"
+    "start_date": "2024-08-06",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President & Chair of the Board",
@@ -7398,7 +7413,11 @@
     ],
     "pollie_slug": "christopher-miles",
     "start_date": "1999-01-01",
-    "end_date": "2009-01-01"
+    "end_date": "2009-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director of Corporate Development",
@@ -7407,7 +7426,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Chris_Miles_(politician)"
     ],
-    "pollie_slug": "christopher-miles"
+    "pollie_slug": "christopher-miles",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Managing Director",
@@ -7416,7 +7439,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Chris_Miles_(politician)"
     ],
-    "pollie_slug": "christopher-miles"
+    "pollie_slug": "christopher-miles",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Director",
@@ -8039,9 +8066,14 @@
     "organisation": "Statewide Super",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.statewide.com.au/public/about-us/board-of-directors/"
+      "https://www.statewide.com.au/public/about-us/board-of-directors/",
+      "https://www.timwhetstone.com.au/new_forestrysa_board_appointment"
     ],
-    "pollie_slug": "anne-mcewen"
+    "pollie_slug": "anne-mcewen",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Presiding Member",
@@ -8057,9 +8089,16 @@
     "organisation": "Forestry SA",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
-      "https://www.statewide.com.au/public/about-us/board-of-directors/"
+      "https://www.forestrysa.com.au/app/uploads/2018/11/Annual-Report-2017-18.pdf",
+      "https://www.timwhetstone.com.au/new_forestrysa_board_appointment"
     ],
-    "pollie_slug": "anne-mcewen"
+    "pollie_slug": "anne-mcewen",
+    "start_date": "2017-08-01",
+    "end_date": "2018-07-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -11062,33 +11101,46 @@
     "category": "Environment, Climate & Sustainability",
     "sources": [
       "https://en.wikipedia.org/wiki/Barry_Cohen_(politician)",
-      "https://www.walkaboutpark.com.au/walkabout-park-homepage/calga-springs-sanctuary"
+      "https://www.walkaboutpark.com.au/walkabout-park-homepage/calga-springs-sanctuary",
+      "https://walkaboutpark.com.au/our-origins-at-calga/"
     ],
     "pollie_slug": "barry-cohen",
     "start_date": "1990-01-01",
-    "end_date": "2005-09-30"
+    "end_date": "2005-09-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chair, Governing Council",
     "organisation": "Old Parliament House",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://www.celebrityspeakers.com.au/speakers/barry-cohen-am/"
+      "https://www.openaustralia.org.au/debates/?id=2018-02-06.130.2"
     ],
     "pollie_slug": "barry-cohen",
-    "start_date": "1998-01-01",
-    "end_date": "2007-12-31"
+    "start_date": "1990-01-01",
+    "end_date": "2001-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Columnist",
     "organisation": "The Australian",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://www.celebrityspeakers.com.au/speakers/barry-cohen-am/"
+      "https://en.wikipedia.org/wiki/Barry_Cohen_(politician)"
     ],
     "pollie_slug": "barry-cohen",
     "start_date": "1991-01-01",
-    "end_date": "1997-12-31"
+    "end_date": "1997-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Councillor",
@@ -14192,7 +14244,11 @@
     ],
     "pollie_slug": "frank-walker",
     "start_date": "1997-01-01",
-    "end_date": "2003-01-01"
+    "end_date": "2003-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Judge",
@@ -14205,7 +14261,11 @@
     ],
     "pollie_slug": "frank-walker",
     "start_date": "2003-01-01",
-    "end_date": "2006-01-01"
+    "end_date": "2006-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Judge",
@@ -14218,7 +14278,11 @@
     ],
     "pollie_slug": "frank-walker",
     "start_date": "2003-01-01",
-    "end_date": "2006-01-01"
+    "end_date": "2006-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -14231,7 +14295,11 @@
     ],
     "pollie_slug": "frank-walker",
     "start_date": "1998-01-01",
-    "end_date": "2011-01-01"
+    "end_date": "2011-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy President",
@@ -14252,7 +14320,11 @@
       "https://alp.org.au/wayne-swan-archive/speeches/speech-motion-of-condolence-the-honourable-francis-john-frank-walker-qc/"
     ],
     "pollie_slug": "frank-walker",
-    "start_date": "2003-01-01"
+    "start_date": "2003-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Consultant",
