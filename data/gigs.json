@@ -15800,12 +15800,16 @@
     "organisation": "Bangarra Dance Theatre",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://en.wikipedia.org/wiki/Aden_Ridgeway",
-      "https://www.zoominfo.com/p/Aden-Ridgeway/8612818238"
+      "https://en.wikipedia.org/wiki/Aden_Ridgeway"
     ],
     "pollie_slug": "aden-ridgeway",
     "start_date": "1998-01-01",
-    "end_date": "2010-01-01"
+    "end_date": "2010-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and multiple sources confirm Ridgeway chaired Bangarra Dance Theatre 1998–2010. While the role began pre-parliament (1998), it continued well past his senate departure in June 2005. The post-parliamentary portion of this chairmanship is valid."
+    }
   },
   {
     "role": "Chair",
@@ -15817,7 +15821,12 @@
     ],
     "pollie_slug": "aden-ridgeway",
     "start_date": "2005-01-01",
-    "end_date": "2008-01-01"
+    "end_date": "2008-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia explicitly states Ridgeway received the NAIDOC Person of the Year award in 2005 and served as chair of the National NAIDOC Committee until 2008. Portrait Gallery also confirms the NAIDOC chair role. Start date of 2005-01-01 is plausible given his parliamentary exit in June 2005."
+    }
   },
   {
     "role": "Host",
@@ -15829,7 +15838,11 @@
     ],
     "pollie_slug": "aden-ridgeway",
     "start_date": "2006-07-01",
-    "end_date": "2008-01-01"
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Both the Message Stick Wikipedia article and the Aden Ridgeway Wikipedia article confirm he became host/presenter of the ABC's Message Stick program from July 2006. The start date of 2006-07-01 is accurate."
+    }
   },
   {
     "role": "Chair",
@@ -15837,11 +15850,15 @@
     "category": "Retail, Hospitality & Tourism",
     "sources": [
       "https://en.wikipedia.org/wiki/Aden_Ridgeway",
-      "https://www.zoominfo.com/p/Aden-Ridgeway/8612818238",
-      "https://www.cabi.org/leisuretourism/news/17269"
+      "https://www.zoominfo.com/p/Aden-Ridgeway/8612818238"
     ],
     "pollie_slug": "aden-ridgeway",
-    "start_date": "2006-01-01"
+    "start_date": "2006-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and multiple sources confirm Ridgeway was 'inaugural chairman of Indigenous Tourism Australia'. ZoomInfo corroborates. The CABI source redirects but the role is well-attested. Start date of 2006 is plausible."
+    }
   },
   {
     "role": "Partner",
@@ -15849,11 +15866,15 @@
     "category": "Media, Communications & Public Relations",
     "sources": [
       "https://www.coxinallridgeway.com.au/about-us/",
-      "https://en.wikipedia.org/wiki/Aden_Ridgeway",
-      "https://www.dentsu.com/au/en/our-news/news-releases/dentsu-enshrines-first-nations-ownership-into-cox-inall-ridgeway"
+      "https://en.wikipedia.org/wiki/Aden_Ridgeway"
     ],
     "pollie_slug": "aden-ridgeway",
-    "start_date": "2007-01-01"
+    "start_date": "2007-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Cox Inall Ridgeway's own website confirms the agency was co-founded in 2007 as a partnership between Aden Ridgeway and Tim Powell. Wikipedia corroborates the 2007 founding date. The dentsu.com URL returned 404 but the other two sources are authoritative."
+    }
   },
   {
     "role": "Spokesperson",
@@ -15861,10 +15882,16 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://en.wikipedia.org/wiki/Aden_Ridgeway",
-      "https://www.macleayargus.com.au/story/3045016/recognise-be-part-of-this-big-moment/"
+      "https://www.macleayargus.com.au/story/3045016/recognise-be-part-of-this-big-moment/",
+      "https://nacchocommunique.com/2020/03/04/naccho-aboriginal-health-and-the-voice-the-indigenous-voice-co-design-process-will-move-into-high-gear-with-the-announcement-of-the-membership-of-the-national-and-local-and-regional-co-design-group/"
     ],
     "pollie_slug": "aden-ridgeway",
-    "start_date": "2013-02-01"
+    "start_date": "2013-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Ridgeway was announced as a spokesperson for Recognise in February 2013, and the Macleay Argus article confirms his participation. Start date of 2013-02-01 is accurate per Wikipedia."
+    }
   },
   {
     "role": "Independent Assessor",
@@ -15876,37 +15903,56 @@
     ],
     "pollie_slug": "aden-ridgeway",
     "start_date": "2017-07-01",
-    "end_date": "2024-03-29"
+    "end_date": "2024-03-29",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Web search results citing the NSW Stolen Generations Reparations Scheme Interim Report (Aboriginal Affairs NSW) confirm Aden Ridgeway served as one of three Independent Assessors alongside Terri Janke and Anita Heiss. The scheme formally commenced 1 July 2017, aligning with the start date. The specific end date of 2024-03-29 could not be independently verified but the scheme closed for applications in June 2023; the end date is plausible for wind-down work."
+    }
   },
   {
     "role": "Member",
     "organisation": "Local and Regional Co-Design Group for the Indigenous Voice to Government",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://en.wikipedia.org/wiki/Aden_Ridgeway"
+      "https://en.wikipedia.org/wiki/Aden_Ridgeway",
+      "https://www.niaa.gov.au/news-and-media/indigenous-voice-local-and-regional-co-design-group-announced"
     ],
     "pollie_slug": "aden-ridgeway",
-    "start_date": "2020-03-04"
+    "start_date": "2020-03-04",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The NIAA (National Indigenous Australians Agency) official news release confirms Ridgeway was appointed to the Local and Regional Co-Design Group for the Indigenous Voice to Government, announced on 4 March 2020. Wikipedia corroborates the same date."
+    }
   },
   {
     "role": "Director",
     "organisation": "Healing Foundation",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://healingfoundation.org.au/about-us/our-board/",
-      "https://www.zoominfo.com/p/Aden-Ridgeway/8612818238"
+      "https://healingfoundation.org.au/about-us/our-board/"
     ],
-    "pollie_slug": "aden-ridgeway"
+    "pollie_slug": "aden-ridgeway",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Healing Foundation's official website lists Aden Ridgeway among its board members (confirmed via web search returning the healingfoundation.org.au/about-us/our-board/ page and a dedicated bio URL). The direct bio page returned 404, but the board listing and multiple secondary sources citing the Healing Foundation website confirm the role."
+    }
   },
   {
     "role": "Director",
     "organisation": "Muurrbay Aboriginal Language and Culture Co-operative",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://muurrbay.org.au/about-us/board-of-directors/",
-      "https://www.zoominfo.com/p/Aden-Ridgeway/36417375"
+      "https://muurrbay.org.au/about-us/board-of-directors/"
     ],
-    "pollie_slug": "aden-ridgeway"
+    "pollie_slug": "aden-ridgeway",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Muurrbay Aboriginal Language and Culture Co-operative's own board of directors page confirms Aden Ridgeway serves as a Director, describing his background in detail including his Gumbaynggirr heritage and career history."
+    }
   },
   {
     "role": "Chair",
@@ -15923,9 +15969,16 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://www.uts.edu.au/about/university/uts-council/council-members",
-      "https://www.zoominfo.com/p/Aden-Ridgeway/8612818238"
+      "https://www.uts.edu.au/globalassets/sites/default/files/2020-01/uts-calendar-2020_1.pdf"
     ],
-    "pollie_slug": "aden-ridgeway"
+    "pollie_slug": "aden-ridgeway",
+    "start_date": "2018-11-01",
+    "end_date": "2022-10-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UTS 2020 Calendar (official UTS publication) confirms Ridgeway held an HonLittD from UTS and served on the UTS Council from 1 November 2018 to 31 October 2022. ZoomInfo corroborates council membership."
+    }
   },
   {
     "role": "Ambassador",
@@ -15934,7 +15987,12 @@
     "sources": [
       "https://www.aief.com.au/about/our-people/ambassadors/dr-aden-ridgeway/"
     ],
-    "pollie_slug": "aden-ridgeway"
+    "pollie_slug": "aden-ridgeway",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Australian Indigenous Education Foundation's own ambassador page confirms Aden Ridgeway serves as an Ambassador and volunteer mentor in their Mentor Program. The page is authoritative and directly identifies him."
+    }
   },
   {
     "role": "Commissioner",
@@ -15942,10 +16000,16 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.nsw.gov.au/media-releases/commissioners-appointed-to-lead-consultation-aboriginal-people-on-agreement-making",
-      "https://nit.com.au/27-09-2024/13954/nsw-treaty-commissioners-announced-to-lead-consultations-on-agreement-making"
+      "https://nit.com.au/27-09-2024/13954/nsw-treaty-commissioners-announced-to-lead-consultations-on-agreement-making",
+      "https://www.treatynsw.info/who-are-the-commissioners"
     ],
     "pollie_slug": "aden-ridgeway",
-    "start_date": "2024-09-26"
+    "start_date": "2024-09-26",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The NSW Government media release (nsw.gov.au) confirms Aden Ridgeway was appointed as a Commissioner to the NSW Treaty Commission on 26 September 2024 for a fixed two-year term. The nit.com.au article corroborates the appointment and date."
+    }
   },
   {
     "role": "Chair",
