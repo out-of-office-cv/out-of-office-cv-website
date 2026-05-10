@@ -16104,5 +16104,47 @@
       "https://en.wikipedia.org/wiki/Margaret_Reynolds"
     ],
     "pollie_slug": "margaret-reynolds"
+  },
+  {
+    "role": "President",
+    "organisation": "Canine Association of Western Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mel_Bungey"
+    ],
+    "pollie_slug": "melville-bungey"
+  },
+  {
+    "role": "Office Holder (NSW Division)",
+    "organisation": "Australian Democrats",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://biography.senate.gov.au/wood-william-robert/",
+      "https://en.wikipedia.org/wiki/Robert_Wood_(Australian_politician)"
+    ],
+    "pollie_slug": "william-wood",
+    "start_date": "1990",
+    "end_date": "1992"
+  },
+  {
+    "role": "State Executive Member (Victorian Division)",
+    "organisation": "Australian Democrats",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://biography.senate.gov.au/wood-william-robert/",
+      "https://en.wikipedia.org/wiki/Robert_Wood_(Australian_politician)"
+    ],
+    "pollie_slug": "william-wood",
+    "start_date": "1992",
+    "end_date": "1995"
+  },
+  {
+    "role": "Community Development Practitioner and Social Planner",
+    "organisation": "Various community organisations",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/wood-william-robert/"
+    ],
+    "pollie_slug": "william-wood"
   }
 ]
