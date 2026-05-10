@@ -15529,7 +15529,11 @@
       "https://janellesaffin.com.au/about/"
     ],
     "pollie_slug": "janelle-saffin",
-    "start_date": "2019-03-23"
+    "start_date": "2019-03-23",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Parliamentary Secretary for Disaster Recovery",
@@ -15541,7 +15545,11 @@
     ],
     "pollie_slug": "janelle-saffin",
     "start_date": "2023-08-23",
-    "end_date": "2025-03-17"
+    "end_date": "2025-03-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Minister for Recovery",
@@ -15552,7 +15560,11 @@
       "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=2085"
     ],
     "pollie_slug": "janelle-saffin",
-    "start_date": "2025-03-17"
+    "start_date": "2025-03-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Minister for Small Business",
@@ -15563,7 +15575,11 @@
       "https://www.nswlabor.org.au/janelle_saffin"
     ],
     "pollie_slug": "janelle-saffin",
-    "start_date": "2025-03-17"
+    "start_date": "2025-03-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Minister for the North Coast",
@@ -15574,7 +15590,11 @@
       "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=2085"
     ],
     "pollie_slug": "janelle-saffin",
-    "start_date": "2025-03-17"
+    "start_date": "2025-03-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adjunct Professor, School of Law and Justice",
@@ -15582,9 +15602,14 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://www.scu.edu.au/about/contacts/directory/118265/",
-      "https://janellesaffin.com.au/about/"
+      "https://janellesaffin.com.au/about/",
+      "https://www.scu.edu.au/school-of-law-and-justice/faculty/adjunct-staff/"
     ],
-    "pollie_slug": "janelle-saffin"
+    "pollie_slug": "janelle-saffin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Fellow",
@@ -15594,7 +15619,11 @@
       "https://janellesaffin.com.au/about/",
       "https://en.wikipedia.org/wiki/Janelle_Saffin"
     ],
-    "pollie_slug": "janelle-saffin"
+    "pollie_slug": "janelle-saffin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Independent Director and Vice President",
@@ -15610,11 +15639,15 @@
     "organisation": "CHEGA! National Centre",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://janellesaffin.com.au/about/",
-      "https://timor-leste.gov.tl/?p=44229&lang=en&n=1"
+      "https://janellesaffin.com.au/about/"
     ],
     "pollie_slug": "janelle-saffin",
-    "start_date": "2023-09-27"
+    "start_date": "2023-09-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The International Advisory Council of the CHEGA! National Centre was appointed by order of Prime Minister Xanana Gusmão on 27 September 2023 for a three-year term (2023–2026). The originally listed source timor-leste.gov.tl/?p=44229 covers a 2025 meeting and does not name Saffin; removed in favour of remaining sources."
+    }
   },
   {
     "role": "Special Adviser",
@@ -15654,7 +15687,12 @@
       "https://janellesaffin.com.au/about/",
       "https://www.project-syndicate.org/columnist/janelle-saffin"
     ],
-    "pollie_slug": "janelle-saffin"
+    "pollie_slug": "janelle-saffin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Project Syndicate columnist bio describing her as 'Chair of the Australian Labor Party's International Party Development Committee'."
+    }
   },
   {
     "role": "Member",
