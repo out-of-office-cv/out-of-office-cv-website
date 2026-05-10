@@ -15411,12 +15411,15 @@
     "sources": [
       "https://www.lowyinstitute.org/linda-kirk",
       "https://www.lowyinstitute.org/people/contributor/bio/linda-kirk",
-      "https://rli.sas.ac.uk/about-us/staff/linda-kirk",
       "https://en.wikipedia.org/wiki/Linda_Kirk"
     ],
     "pollie_slug": "linda-kirk",
     "start_date": "2009-01-01",
-    "end_date": "2014-12-31"
+    "end_date": "2014-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Senior Member",
@@ -15425,12 +15428,15 @@
     "sources": [
       "https://www.lowyinstitute.org/linda-kirk",
       "https://www.lowyinstitute.org/people/contributor/bio/linda-kirk",
-      "https://rli.sas.ac.uk/about-us/staff/linda-kirk",
       "https://en.wikipedia.org/wiki/Linda_Kirk"
     ],
     "pollie_slug": "linda-kirk",
     "start_date": "2009-01-01",
-    "end_date": "2014-12-31"
+    "end_date": "2014-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Australasian Chapter",
@@ -15438,12 +15444,16 @@
     "category": "Legal & Judicial",
     "sources": [
       "https://www.lowyinstitute.org/linda-kirk",
-      "https://rli.sas.ac.uk/about-us/staff/linda-kirk",
       "https://ces.cass.anu.edu.au/people/ms-linda-kirk"
     ],
     "pollie_slug": "linda-kirk",
     "start_date": "2011-10-01",
-    "end_date": "2016-07-31"
+    "end_date": "2016-07-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Lowy Institute bio confirms Chair of the Australasian Chapter from October 2011 to July 2016, matching dates exactly."
+    }
   },
   {
     "role": "Visiting Fellow",
@@ -15451,11 +15461,15 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://research.london.ac.uk/institute-rli/fellow/2045/professor-linda-kirk/",
-      "https://rli.sas.ac.uk/about-us/staff/linda-kirk",
       "https://www.lowyinstitute.org/linda-kirk"
     ],
     "pollie_slug": "linda-kirk",
-    "start_date": "2011-01-01"
+    "start_date": "2011-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Refugee Law Initiative (University of London) page at research.london.ac.uk confirms Linda Kirk as Visiting Fellow and lists her email as l.kirk@unsw.edu.au, establishing identity. The rli.sas.ac.uk source returned 403."
+    }
   },
   {
     "role": "Senior Lecturer",
@@ -15463,12 +15477,16 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://www.lowyinstitute.org/linda-kirk",
-      "https://ces.cass.anu.edu.au/people/ms-linda-kirk",
-      "https://law.anu.edu.au/news-and-events/news/anu-senior-lecturer-and-former-senator-research-refugee-status-determination-uk"
+      "https://ces.cass.anu.edu.au/people/ms-linda-kirk"
     ],
     "pollie_slug": "linda-kirk",
     "start_date": "2014-01-01",
-    "end_date": "2018-12-31"
+    "end_date": "2018-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Lowy Institute bio confirms Senior Lecturer at ANU College of Law. The ANU news URL returns 404 and has been removed."
+    }
   },
   {
     "role": "Sub-Dean and Deputy Director, Migration Law Program",
@@ -15480,7 +15498,12 @@
     ],
     "pollie_slug": "linda-kirk",
     "start_date": "2015-01-01",
-    "end_date": "2016-12-31"
+    "end_date": "2016-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by both the Lowy Institute bio (Sub-Dean and Deputy Director, Migration Law Program, 2015-16) and the ANU CES staff page listing her as Sub-Dean of the Migration Law Program."
+    }
   },
   {
     "role": "Senior Member",
@@ -15488,13 +15511,17 @@
     "category": "Legal & Judicial",
     "sources": [
       "https://en.wikipedia.org/wiki/Linda_Kirk",
-      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22media/pressrel/4996941%22",
       "https://www.lowyinstitute.org/linda-kirk",
       "https://www.lawyersweekly.com.au/biglaw/34112-administrative-appeals-tribunal-bolstered"
     ],
     "pollie_slug": "linda-kirk",
     "start_date": "2017-01-30",
-    "end_date": "2024-10-31"
+    "end_date": "2024-10-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms appointment as part-time Senior Member of the AAT on 15 December 2016 for seven years. The parlinfo.aph.gov.au source returned 403 and has been removed."
+    }
   },
   {
     "role": "Associate Professor",
@@ -15502,11 +15529,15 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://research.unsw.edu.au/people/associate-professor-linda-kirk",
-      "https://www.lowyinstitute.org/linda-kirk",
-      "https://www.researchgate.net/profile/Linda-Kirk-2"
+      "https://www.lowyinstitute.org/linda-kirk"
     ],
     "pollie_slug": "linda-kirk",
-    "start_date": "2018-07-01"
+    "start_date": "2018-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Refugee Law Initiative staff page lists her contact email as l.kirk@unsw.edu.au, confirming her UNSW affiliation. Lowy Institute bio corroborates the UNSW role."
+    }
   },
   {
     "role": "Ombudsman",
@@ -16022,7 +16053,12 @@
     ],
     "pollie_slug": "margaret-reynolds",
     "start_date": "1999-01-01",
-    "end_date": "2005-12-31"
+    "end_date": "2005-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the NLA finding aid (chair role since 1998), Wikipedia, and the Senate biography."
+    }
   },
   {
     "role": "President",
@@ -16035,7 +16071,12 @@
     ],
     "pollie_slug": "margaret-reynolds",
     "start_date": "2000-01-01",
-    "end_date": "2005-12-31"
+    "end_date": "2005-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the NLA finding aid (president since 1999), Wikipedia (2000-2005), and the Senate biography."
+    }
   },
   {
     "role": "Adjunct Professor",
@@ -16048,7 +16089,12 @@
     ],
     "pollie_slug": "margaret-reynolds",
     "start_date": "1999-01-01",
-    "end_date": "2004-12-31"
+    "end_date": "2004-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by womenaustralia.info, johnmenadue.com bio (taught at UQ 1999-2004), Wikipedia, and the Senate biography."
+    }
   },
   {
     "role": "Adjunct Professor",
@@ -16066,12 +16112,16 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://en.wikipedia.org/wiki/Margaret_Reynolds",
-      "https://biography.senate.gov.au/reynolds-margaret/",
-      "https://nds.org.au/images/files/Annual-report-2010.pdf"
+      "https://biography.senate.gov.au/reynolds-margaret/"
     ],
     "pollie_slug": "margaret-reynolds",
     "start_date": "2004-01-01",
-    "end_date": "2012-12-31"
+    "end_date": "2012-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia and the Senate biography. The NDS annual report PDF was inaccessible and has been removed."
+    }
   },
   {
     "role": "Chair",
@@ -16080,7 +16130,12 @@
     "sources": [
       "https://www.jlgc.org/04-03-2014/868/"
     ],
-    "pollie_slug": "margaret-reynolds"
+    "pollie_slug": "margaret-reynolds",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The JLGC source explicitly confirms Reynolds serving as Chairperson of ACELG."
+    }
   },
   {
     "role": "Founding President",
@@ -16092,7 +16147,12 @@
     ],
     "pollie_slug": "margaret-reynolds",
     "start_date": "2016-12-01",
-    "end_date": "2022-07-15"
+    "end_date": "2022-07-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Both ABC Friends sources confirm. Resignation article notes six-year tenure ending 15 July 2022, consistent with start of December 2016."
+    }
   },
   {
     "role": "President",
@@ -16103,7 +16163,12 @@
       "https://www.wilpf.org.au/wilpf-women-working-for-peace-margaret-reynolds/",
       "https://en.wikipedia.org/wiki/Margaret_Reynolds"
     ],
-    "pollie_slug": "margaret-reynolds"
+    "pollie_slug": "margaret-reynolds",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "WILPF Australia About page lists Margaret Reynolds as President for the 2024-27 term, corroborated by johnmenadue.com author bio and Wikipedia."
+    }
   },
   {
     "role": "President",
