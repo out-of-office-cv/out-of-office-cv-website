@@ -16402,7 +16402,12 @@
     "sources": [
       "https://www.mahonylaw.com.au/our-people/alan-cadman.html"
     ],
-    "pollie_slug": "alan-cadman"
+    "pollie_slug": "alan-cadman",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Mahony Law's official people page explicitly names Alan Cadman as 'Chairman, Client Development', confirms he represented Mitchell electorate for 34 years, and notes his post-parliament roles including chairing Life Education NSW — unambiguously the same person."
+    }
   },
   {
     "role": "Chair",
@@ -16410,21 +16415,29 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.lifeeducation.org.au/news/mps-champion-the-cause",
-      "https://www.parramattachamber.com.au/the-hon-alan-cadman-oam",
       "https://www.westernadvocate.com.au/story/904676/harold-minds-his-medicine/"
     ],
-    "pollie_slug": "alan-cadman"
+    "pollie_slug": "alan-cadman",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources confirm Alan Cadman OAM as Chairman of Life Education NSW. The Life Education news page (SSL error but confirmed via search) and the Mahony Law bio both state 'Chairman of Life Education (NSW)'. The Western Advocate article describes him as CEO at a 30th anniversary event, which may reflect an earlier or dual role. The parramattachamber.com.au source returns 404 and should be removed."
+    }
   },
   {
     "role": "Director",
     "organisation": "Parramatta Chamber of Commerce",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.parramattachamber.com.au/the-hon-alan-cadman-oam",
       "https://parramattatimes.com.au/news/parramatta-chamber-of-commerce-welcomes-new-board/"
     ],
     "pollie_slug": "alan-cadman",
-    "end_date": "2022-05-01"
+    "end_date": "2022-05-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Parramatta Times article confirms Alan Cadman OAM was farewelled from the Parramatta Chamber of Commerce board, consistent with the end_date of 2022-05-01. Search results also confirm board membership. The parramattachamber.com.au source returns 404 and should be removed."
+    }
   },
   {
     "role": "Patron",
@@ -16435,16 +16448,26 @@
       "https://dcleng.com.au/about/wsabe-2021-patrons-choice-award-winners/",
       "https://lightsonpenrithmag.accessnews.com.au/featured/item/774-partners-gather-for-launch-of-wsabe-2014"
     ],
-    "pollie_slug": "alan-cadman"
+    "pollie_slug": "alan-cadman",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The 2020 WSABE media release and the 2014 Lights on Penrith article both confirm Alan Cadman OAM as WSABE Patron. The 2014 article describes him as 'Awards Chairman', but later sources consistently list him as Patron. The Parramatta Times farewell article also confirms he would 'continue as a WSABE patron'."
+    }
   },
   {
     "role": "Chair of the Governance Committee",
     "organisation": "Mansfield Generations",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://www.parramattachamber.com.au/the-hon-alan-cadman-oam"
+      "https://www.mahonylaw.com.au/our-people/alan-cadman.html"
     ],
-    "pollie_slug": "alan-cadman"
+    "pollie_slug": "alan-cadman",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Although the parramattachamber.com.au source returns 404, the search engine cache of that page clearly states Alan Cadman OAM is 'Chair of the Governance Committee' at Mansfield Generations P/L. This is corroborated indirectly by the Mahony Law bio noting he 'serves on multiple business and charitable boards'."
+    }
   },
   {
     "role": "High Commissioner to the United Kingdom",
@@ -16452,11 +16475,16 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://en.wikipedia.org/wiki/Neal_Blewett",
-      "https://www.harmreductionaustralia.org.au/neal-blewett/"
+      "https://www.harmreductionaustralia.org.au/neal-blewett/",
+      "https://alchetron.com/Neal-Blewett"
     ],
     "pollie_slug": "neal-blewett",
     "start_date": "1994-04-01",
-    "end_date": "1998-03-20"
+    "end_date": "1998-03-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Board Member",
@@ -16464,11 +16492,18 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://en.wikipedia.org/wiki/Neal_Blewett",
-      "https://www.harmreductionaustralia.org.au/neal-blewett/"
+      "https://www.harmreductionaustralia.org.au/neal-blewett/",
+      "https://alchetron.com/Neal-Blewett",
+      "https://iris.who.int/handle/10665/172956"
     ],
     "pollie_slug": "neal-blewett",
     "start_date": "1994-04-01",
-    "end_date": "1998-03-20"
+    "end_date": "1998-03-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as WHO Executive Board member concurrently with his High Commissioner role 1994-1998. A WHO IRIS document (iris.who.int/handle/10665/172956) shows him proposing a draft resolution at the 97th Executive Board session in 1996. Sources use both 'Executive Council' and 'Executive Board' to refer to the same WHO governance body."
+    }
   },
   {
     "role": "President",
@@ -16480,17 +16515,28 @@
     ],
     "pollie_slug": "neal-blewett",
     "start_date": "1998-01-01",
-    "end_date": "2005-01-01"
+    "end_date": "2005-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "AIIA's own website (Vale Clive Hildebrand article) confirms Blewett stepped down as AIIA national president in 2005 after seven years, placing the start at 1998. Dates 1998-2005 are consistent with all sources."
+    }
   },
   {
     "role": "Visiting Professor, Faculty of Medicine",
     "organisation": "University of Sydney",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://en.wikipedia.org/wiki/Neal_Blewett"
+      "https://en.wikipedia.org/wiki/Neal_Blewett",
+      "https://alchetron.com/Neal-Blewett"
     ],
     "pollie_slug": "neal-blewett",
-    "start_date": "1998-01-01"
+    "start_date": "1998-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources (Wikipedia, Alchetron) confirm he became a visiting professor of the Faculty of Medicine at the University of Sydney upon returning to Australia in 1998. No end date is documented."
+    }
   },
   {
     "role": "President",
@@ -16498,11 +16544,17 @@
     "category": "Health, Medical & Aged Care",
     "sources": [
       "https://en.wikipedia.org/wiki/Neal_Blewett",
-      "https://www.harmreductionaustralia.org.au/neal-blewett/"
+      "https://www.harmreductionaustralia.org.au/neal-blewett/",
+      "https://alchetron.com/Neal-Blewett"
     ],
     "pollie_slug": "neal-blewett",
     "start_date": "2002-01-01",
-    "end_date": "2006-01-01"
+    "end_date": "2006-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Start date 2002 confirmed across Wikipedia, Alchetron, and harmreductionaustralia.org.au. End date 2006 is sourced from harmreductionaustralia.org.au; no independent strong source explicitly confirms 2006 but no contradicting evidence found."
+    }
   },
   {
     "role": "Chair, Review of Food Labelling Law and Policy",
@@ -16513,7 +16565,13 @@
       "https://www.foodlegal.com.au/inhouse/document/668"
     ],
     "pollie_slug": "neal-blewett",
-    "end_date": "2011-01-28"
+    "end_date": "2011-01-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Review was commissioned by the Australia and New Zealand Food Regulation Ministerial Council in October 2009, with the final report 'Labelling Logic' presented on 28 January 2011. Organisation name matches. Adding start_date of 2009-10-01 based on the commission date."
+    },
+    "start_date": "2009-10-01"
   },
   {
     "role": "Emeritus Professor",
@@ -16522,17 +16580,25 @@
     "sources": [
       "https://www.flinders.edu.au/people/neal.blewett"
     ],
-    "pollie_slug": "neal-blewett"
+    "pollie_slug": "neal-blewett",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Flinders University's own people page (flinders.edu.au/people/neal.blewett) lists him as Emeritus Professor in the College of Business, Government and Law. No dates are given on the page; consistent with his pre-parliamentary academic career at Flinders before entering politics in 1977."
+    }
   },
   {
     "role": "Communications Manager",
     "organisation": "Real Estate Institute of Western Australia",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Brian_Greig",
-      "https://www.linkedin.com/in/brian-greig/"
+      "https://en.wikipedia.org/wiki/Brian_Greig"
     ],
-    "pollie_slug": "brian-greig"
+    "pollie_slug": "brian-greig",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Media Operations Officer",
@@ -16541,7 +16607,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Brian_Greig"
     ],
-    "pollie_slug": "brian-greig"
+    "pollie_slug": "brian-greig",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Media Operations Officer",
@@ -16550,7 +16620,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Brian_Greig"
     ],
-    "pollie_slug": "brian-greig"
+    "pollie_slug": "brian-greig",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Western Australia Representative",
@@ -16561,7 +16635,11 @@
     ],
     "pollie_slug": "brian-greig",
     "start_date": "2013-01-01",
-    "end_date": "2016-12-31"
+    "end_date": "2016-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Western Australia Spokesperson",
@@ -16572,7 +16650,11 @@
       "https://www.outinperth.com/opinion-quigley-gender-reform-bill-takes-wa-backwards/",
       "https://www.outinperth.com/just-equal-reviews-mcgowan-government-on-lgbti-policy/"
     ],
-    "pollie_slug": "brian-greig"
+    "pollie_slug": "brian-greig",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -16582,6 +16664,10 @@
       "https://en.wikipedia.org/wiki/Brian_Greig",
       "https://www.outinperth.com/busselton-mayor-shocked-at-candidates-abhorrent-statements/"
     ],
-    "pollie_slug": "brian-greig"
+    "pollie_slug": "brian-greig",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
