@@ -4381,7 +4381,6 @@
     "organisation": "Drug Law Reform Foundation",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://adlrf.org.au/1706-2/",
       "https://psnews.com.au/queanbeyan-service-planned-to-honour-former-parliamentarian-jim-snow/168118/"
     ],
     "pollie_slug": "james-snow"
@@ -4903,7 +4902,12 @@
     "sources": [
       "https://qei.org.au/qei-foundation/our-people/our-board/jane-prentice/"
     ],
-    "pollie_slug": "jane-prentice"
+    "pollie_slug": "jane-prentice",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "QEI Foundation's own board page confirms Jane Prentice as Director and explicitly identifies her as the former MP for the Division of Ryan (2010–2019)."
+    }
   },
   {
     "role": "Chairperson",
@@ -4913,7 +4917,12 @@
       "https://www.tennis.com.au/qld/about/meet-the-team/board-of-directors"
     ],
     "pollie_slug": "jane-prentice",
-    "start_date": "2020-10-01"
+    "start_date": "2020-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Official Tennis Queensland board page lists Jane Prentice as Chairperson. QEI Foundation bio independently corroborates."
+    }
   },
   {
     "role": "President",
@@ -4922,7 +4931,12 @@
     "sources": [
       "https://www.govhouse.qld.gov.au/the-governor-of-queensland/speeches/reception-in-support-of-scouts-queensland"
     ],
-    "pollie_slug": "jane-prentice"
+    "pollie_slug": "jane-prentice",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Queensland Government House speech transcript refers to 'Scouts Queensland President, the Honourable Jane Prentice'. QEI Foundation bio corroborates."
+    }
   },
   {
     "role": "Vice Chancellor's Fellow",
@@ -16680,7 +16694,12 @@
       "https://www.anu.edu.au/alumni/our-alumni/prominent-alumni/the-hon-nicholas-hugh-minchin"
     ],
     "start_date": "2014-02-14",
-    "end_date": "2017-05-31"
+    "end_date": "2017-05-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia, ANU alumni page, and CAMD.org.au bio confirm Nick Minchin was appointed Australian Consul-General in New York on 14 February 2014, replacing Steve Bracks. Wikipedia and SBS FIRB article confirm the role ended around May 2017."
+    }
   },
   {
     "pollie_slug": "nick-minchin",
@@ -16691,7 +16710,12 @@
       "https://www.sbs.com.au/news/article/ex-minister-minchin-lands-board-role/8mcpfwbjh",
       "https://en.wikipedia.org/wiki/Nick_Minchin"
     ],
-    "start_date": "2018-12-17"
+    "start_date": "2018-12-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "SBS News confirms Minchin was appointed to the Foreign Investment Review Board with a start date of 17 December 2018 and a five-year term."
+    }
   },
   {
     "pollie_slug": "nick-minchin",
@@ -16703,7 +16727,12 @@
       "https://www.canberratimes.com.au/story/8138175/barrie-cassidy-appointed-to-chair-old-parliament-house/"
     ],
     "start_date": "2020-05-29",
-    "end_date": "2023-05-31"
+    "end_date": "2023-05-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CAMD.org.au confirms Nick Minchin was appointed Chair of MoADOPH for a three-year term effective 29 May 2020. Canberra Times confirms Barrie Cassidy replaced him, consistent with end date 2023-05-31."
+    }
   },
   {
     "pollie_slug": "nick-minchin",
@@ -16733,7 +16762,12 @@
       "https://www.qic.com/About-QIC/Who-we-are/Board-Members",
       "https://www.miragenews.com/new-appointments-for-queensland-investment-1536763/"
     ],
-    "start_date": "2025-09-19"
+    "start_date": "2025-09-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "QIC board members page confirms Nick Minchin AO is a Non-Executive Director appointed in 2025. Mirage News article confirms announcement dated 19 September 2025."
+    }
   },
   {
     "pollie_slug": "yvette-dath",
@@ -16741,11 +16775,14 @@
     "organisation": "Queensland Legislative Assembly",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Yvette_D%27Ath",
-      "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=1854744040"
+      "https://en.wikipedia.org/wiki/Yvette_D%27Ath"
     ],
     "start_date": "2014-02-22",
-    "end_date": "2024-10-26"
+    "end_date": "2024-10-26",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "yvette-dath",
@@ -16754,10 +16791,14 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://en.wikipedia.org/wiki/Yvette_D%27Ath",
-      "https://statements.qld.gov.au/statements/99276"
+      "https://www.oic.qld.gov.au/decisions/turner-and-hon-yvette-dath,-attorney-general-and-minister-for-justice-and-minister-for-the-prevention-of-domestic-and-family-violence-2024-qicmr-1-11-january-2024"
     ],
     "start_date": "2015-02-16",
-    "end_date": "2020-11-11"
+    "end_date": "2020-11-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "yvette-dath",
@@ -16765,11 +16806,14 @@
     "organisation": "Queensland Government",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://en.wikipedia.org/wiki/Yvette_D%27Ath",
-      "https://statements.qld.gov.au/statements/76521"
+      "https://en.wikipedia.org/wiki/Yvette_D%27Ath"
     ],
     "start_date": "2015-02-16",
-    "end_date": "2017-12-11"
+    "end_date": "2017-12-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "yvette-dath",
@@ -16780,7 +16824,11 @@
       "https://en.wikipedia.org/wiki/Yvette_D%27Ath"
     ],
     "start_date": "2017-12-11",
-    "end_date": "2024-02-12"
+    "end_date": "2024-02-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "yvette-dath",
@@ -16792,7 +16840,11 @@
       "https://www.ceda.com.au/newsandresources/videosandphotos/health-ageing/queensland-health-outlook-the-hon-yvette-d-ath"
     ],
     "start_date": "2020-11-12",
-    "end_date": "2023-05-17"
+    "end_date": "2023-05-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "yvette-dath",
@@ -16804,7 +16856,11 @@
       "https://www.oic.qld.gov.au/decisions/turner-and-hon-yvette-dath,-attorney-general-and-minister-for-justice-and-minister-for-the-prevention-of-domestic-and-family-violence-2024-qicmr-1-11-january-2024"
     ],
     "start_date": "2023-05-18",
-    "end_date": "2024-10-28"
+    "end_date": "2024-10-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "yvette-dath",
@@ -16814,7 +16870,11 @@
     "sources": [
       "https://nationallegalaid.org.au/news/new-nla-ed-2026"
     ],
-    "start_date": "2026-02-25"
+    "start_date": "2026-02-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "sharryn-jackson",
