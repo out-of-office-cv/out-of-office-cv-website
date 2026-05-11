@@ -16669,5 +16669,189 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "pollie_slug": "nick-minchin",
+    "role": "Consul-General",
+    "organisation": "Australian Consulate-General New York",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nick_Minchin",
+      "https://www.anu.edu.au/alumni/our-alumni/prominent-alumni/the-hon-nicholas-hugh-minchin"
+    ],
+    "start_date": "2014-02-14",
+    "end_date": "2017-05-31"
+  },
+  {
+    "pollie_slug": "nick-minchin",
+    "role": "Non-Executive Member",
+    "organisation": "Foreign Investment Review Board",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.sbs.com.au/news/article/ex-minister-minchin-lands-board-role/8mcpfwbjh",
+      "https://en.wikipedia.org/wiki/Nick_Minchin"
+    ],
+    "start_date": "2018-12-17"
+  },
+  {
+    "pollie_slug": "nick-minchin",
+    "role": "Chair",
+    "organisation": "Museum of Australian Democracy at Old Parliament House",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://camd.org.au/hon-nick-minchin-ao-new-chair-for-moadoph/",
+      "https://www.canberratimes.com.au/story/8138175/barrie-cassidy-appointed-to-chair-old-parliament-house/"
+    ],
+    "start_date": "2020-05-29",
+    "end_date": "2023-05-31"
+  },
+  {
+    "pollie_slug": "nick-minchin",
+    "role": "Chair",
+    "organisation": "Responsible Wagering Australia",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://responsiblewagering.com.au/appointment-of-rwa-chief-executive-officer/",
+      "https://responsiblewagering.com.au/responsible-wagering-australia-appointment-of-ceo-mr-kai-cantwell/"
+    ]
+  },
+  {
+    "pollie_slug": "nick-minchin",
+    "role": "Special Advisor",
+    "organisation": "Bespoke Approach",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://michaelwest.com.au/nick-minchin/"
+    ]
+  },
+  {
+    "pollie_slug": "nick-minchin",
+    "role": "Non-Executive Director",
+    "organisation": "Queensland Investment Corporation",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.qic.com/About-QIC/Who-we-are/Board-Members",
+      "https://www.miragenews.com/new-appointments-for-queensland-investment-1536763/"
+    ],
+    "start_date": "2025-09-19"
+  },
+  {
+    "pollie_slug": "yvette-dath",
+    "role": "Member for Redcliffe",
+    "organisation": "Queensland Legislative Assembly",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yvette_D%27Ath",
+      "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=1854744040"
+    ],
+    "start_date": "2014-02-22",
+    "end_date": "2024-10-26"
+  },
+  {
+    "pollie_slug": "yvette-dath",
+    "role": "Attorney-General and Minister for Justice",
+    "organisation": "Queensland Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yvette_D%27Ath",
+      "https://statements.qld.gov.au/statements/99276"
+    ],
+    "start_date": "2015-02-16",
+    "end_date": "2020-11-11"
+  },
+  {
+    "pollie_slug": "yvette-dath",
+    "role": "Minister for Training and Skills",
+    "organisation": "Queensland Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yvette_D%27Ath",
+      "https://statements.qld.gov.au/statements/76521"
+    ],
+    "start_date": "2015-02-16",
+    "end_date": "2017-12-11"
+  },
+  {
+    "pollie_slug": "yvette-dath",
+    "role": "Leader of the House",
+    "organisation": "Queensland Legislative Assembly",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yvette_D%27Ath"
+    ],
+    "start_date": "2017-12-11",
+    "end_date": "2024-02-12"
+  },
+  {
+    "pollie_slug": "yvette-dath",
+    "role": "Minister for Health and Ambulance Services",
+    "organisation": "Queensland Government",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yvette_D%27Ath",
+      "https://www.ceda.com.au/newsandresources/videosandphotos/health-ageing/queensland-health-outlook-the-hon-yvette-d-ath"
+    ],
+    "start_date": "2020-11-12",
+    "end_date": "2023-05-17"
+  },
+  {
+    "pollie_slug": "yvette-dath",
+    "role": "Attorney-General and Minister for Justice and Minister for the Prevention of Domestic and Family Violence",
+    "organisation": "Queensland Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yvette_D%27Ath",
+      "https://www.oic.qld.gov.au/decisions/turner-and-hon-yvette-dath,-attorney-general-and-minister-for-justice-and-minister-for-the-prevention-of-domestic-and-family-violence-2024-qicmr-1-11-january-2024"
+    ],
+    "start_date": "2023-05-18",
+    "end_date": "2024-10-28"
+  },
+  {
+    "pollie_slug": "yvette-dath",
+    "role": "Executive Director",
+    "organisation": "National Legal Aid",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://nationallegalaid.org.au/news/new-nla-ed-2026"
+    ],
+    "start_date": "2026-02-25"
+  },
+  {
+    "pollie_slug": "sharryn-jackson",
+    "role": "Accreditation Coordinator",
+    "organisation": "Community Legal Western Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Sharryn-Jackson"
+    ]
+  },
+  {
+    "pollie_slug": "sharryn-jackson",
+    "role": "Executive Director",
+    "organisation": "Community Legal Western Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Sharryn-Jackson"
+    ]
+  },
+  {
+    "pollie_slug": "sharryn-jackson",
+    "role": "Chair",
+    "organisation": "WorkCover WA",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.workcover.wa.gov.au/news/new-workcover-wa-chairperson-appointed-and-board-updates/",
+      "https://www.businessnews.com.au/Person/Sharryn-Jackson"
+    ],
+    "start_date": "2020-01-04"
+  },
+  {
+    "pollie_slug": "annette-hurley",
+    "role": "Board Member",
+    "organisation": "Northern Park Lands Trust",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.linkedin.com/in/annette-hurley-7934a532/"
+    ]
   }
 ]
