@@ -16344,5 +16344,244 @@
       "https://au.linkedin.com/in/hon-de-anne-kelly-b34b738a"
     ],
     "pollie_slug": "de-anne-kelly"
+  },
+  {
+    "role": "Vice-Patron",
+    "organisation": "Northern Territory Rugby Union",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://neoskosmos.com/en/2024/11/21/news/community/nick-dondas-remembered-as-pioneer-and-true-territory-icon-at-state-memorial-service/"
+    ],
+    "pollie_slug": "nick-dondas",
+    "start_date": "2001-01-01"
+  },
+  {
+    "role": "Volunteer",
+    "organisation": "Darwin GleNTi Festival",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://greekherald.com.au/news/former-nt-politician-nick-dondas-am-remembered-at-state-memorial-service/",
+      "https://neoskosmos.com/en/2024/11/21/news/community/nick-dondas-remembered-as-pioneer-and-true-territory-icon-at-state-memorial-service/"
+    ],
+    "pollie_slug": "nick-dondas"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Murrumbidgee General Practice Network Board",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Noel_Hicks",
+      "https://www.areanews.com.au/story/7594242/noel-hicks-inducted-into-order-of-australia/"
+    ],
+    "pollie_slug": "noel-hicks"
+  },
+  {
+    "role": "Advisory Board Chair",
+    "organisation": "Palliative Care Outcomes Collaboration",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Noel_Hicks",
+      "https://www.areanews.com.au/story/7594242/noel-hicks-inducted-into-order-of-australia/"
+    ],
+    "pollie_slug": "noel-hicks"
+  },
+  {
+    "role": "President",
+    "organisation": "Rotary Club of Griffith",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Noel_Hicks",
+      "https://www.areanews.com.au/story/7594242/noel-hicks-inducted-into-order-of-australia/"
+    ],
+    "pollie_slug": "noel-hicks"
+  },
+  {
+    "role": "Chair, Client Development",
+    "organisation": "Mahony Law",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.mahonylaw.com.au/our-people/alan-cadman.html"
+    ],
+    "pollie_slug": "alan-cadman"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Life Education NSW",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.lifeeducation.org.au/news/mps-champion-the-cause",
+      "https://www.parramattachamber.com.au/the-hon-alan-cadman-oam",
+      "https://www.westernadvocate.com.au/story/904676/harold-minds-his-medicine/"
+    ],
+    "pollie_slug": "alan-cadman"
+  },
+  {
+    "role": "Director",
+    "organisation": "Parramatta Chamber of Commerce",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.parramattachamber.com.au/the-hon-alan-cadman-oam",
+      "https://parramattatimes.com.au/news/parramatta-chamber-of-commerce-welcomes-new-board/"
+    ],
+    "pollie_slug": "alan-cadman",
+    "end_date": "2022-05-01"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Western Sydney Awards for Business Excellence",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://wsabe.com.au/2020-western-sydney-awards-for-business-excellence-media-release-2/",
+      "https://dcleng.com.au/about/wsabe-2021-patrons-choice-award-winners/",
+      "https://lightsonpenrithmag.accessnews.com.au/featured/item/774-partners-gather-for-launch-of-wsabe-2014"
+    ],
+    "pollie_slug": "alan-cadman"
+  },
+  {
+    "role": "Chair of the Governance Committee",
+    "organisation": "Mansfield Generations",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.parramattachamber.com.au/the-hon-alan-cadman-oam"
+    ],
+    "pollie_slug": "alan-cadman"
+  },
+  {
+    "role": "High Commissioner to the United Kingdom",
+    "organisation": "Australian High Commission, London",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Neal_Blewett",
+      "https://www.harmreductionaustralia.org.au/neal-blewett/"
+    ],
+    "pollie_slug": "neal-blewett",
+    "start_date": "1994-04-01",
+    "end_date": "1998-03-20"
+  },
+  {
+    "role": "Executive Board Member",
+    "organisation": "World Health Organization",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Neal_Blewett",
+      "https://www.harmreductionaustralia.org.au/neal-blewett/"
+    ],
+    "pollie_slug": "neal-blewett",
+    "start_date": "1994-04-01",
+    "end_date": "1998-03-20"
+  },
+  {
+    "role": "President",
+    "organisation": "Australian Institute of International Affairs",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Neal_Blewett",
+      "https://www.internationalaffairs.org.au/australianoutlook/vale-clive-hildebrand-am-faiia/"
+    ],
+    "pollie_slug": "neal-blewett",
+    "start_date": "1998-01-01",
+    "end_date": "2005-01-01"
+  },
+  {
+    "role": "Visiting Professor, Faculty of Medicine",
+    "organisation": "University of Sydney",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Neal_Blewett"
+    ],
+    "pollie_slug": "neal-blewett",
+    "start_date": "1998-01-01"
+  },
+  {
+    "role": "President",
+    "organisation": "Alcohol and Other Drugs Council of Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Neal_Blewett",
+      "https://www.harmreductionaustralia.org.au/neal-blewett/"
+    ],
+    "pollie_slug": "neal-blewett",
+    "start_date": "2002-01-01",
+    "end_date": "2006-01-01"
+  },
+  {
+    "role": "Chair, Review of Food Labelling Law and Policy",
+    "organisation": "Australia and New Zealand Food Regulation Ministerial Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.ausfoodnews.com.au/2011/01/28/new-recommendations-for-food-labelling-law-and-policy.html",
+      "https://www.foodlegal.com.au/inhouse/document/668"
+    ],
+    "pollie_slug": "neal-blewett",
+    "end_date": "2011-01-28"
+  },
+  {
+    "role": "Emeritus Professor",
+    "organisation": "Flinders University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.flinders.edu.au/people/neal.blewett"
+    ],
+    "pollie_slug": "neal-blewett"
+  },
+  {
+    "role": "Communications Manager",
+    "organisation": "Real Estate Institute of Western Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_Greig",
+      "https://www.linkedin.com/in/brian-greig/"
+    ],
+    "pollie_slug": "brian-greig"
+  },
+  {
+    "role": "Media Operations Officer",
+    "organisation": "Anglicare WA",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_Greig"
+    ],
+    "pollie_slug": "brian-greig"
+  },
+  {
+    "role": "Media Operations Officer",
+    "organisation": "Department of Fire and Emergency Services",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_Greig"
+    ],
+    "pollie_slug": "brian-greig"
+  },
+  {
+    "role": "Western Australia Representative",
+    "organisation": "Australian Marriage Equality",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_Greig"
+    ],
+    "pollie_slug": "brian-greig",
+    "start_date": "2013-01-01",
+    "end_date": "2016-12-31"
+  },
+  {
+    "role": "Western Australia Spokesperson",
+    "organisation": "Just.Equal Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.equal.org.au/brian_greig_oam",
+      "https://www.outinperth.com/opinion-quigley-gender-reform-bill-takes-wa-backwards/",
+      "https://www.outinperth.com/just-equal-reviews-mcgowan-government-on-lgbti-policy/"
+    ],
+    "pollie_slug": "brian-greig"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Busselton Pride Alliance",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_Greig",
+      "https://www.outinperth.com/busselton-mayor-shocked-at-candidates-abhorrent-statements/"
+    ],
+    "pollie_slug": "brian-greig"
   }
 ]
