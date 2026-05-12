@@ -17242,5 +17242,212 @@
       "by": "claude",
       "note": "region.com.au obituary explicitly lists 'Biodiversity and Conservation Trust of NSW – Director' among his post-parliamentary roles."
     }
+  },
+  {
+    "role": "Adviser on Climate Change and Energy Policy",
+    "organisation": "Office of the Federal Minister for Environment and Heritage (Senator Robert Hill)",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Susan_Jeanes",
+      "https://hiltcrc.com.au/about/people/susan-jeanes/",
+      "https://www.jeanesholland.com.au/"
+    ],
+    "pollie_slug": "susan-jeanes",
+    "end_date": "2002-12-31"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Renewable Energy Generators of Australia",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Susan_Jeanes",
+      "https://hiltcrc.com.au/about/people/susan-jeanes/",
+      "https://reneweconomy.com.au/new-appointments-board-australian-renewable-energy-agency-37847/"
+    ],
+    "pollie_slug": "susan-jeanes"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Australian Geothermal Energy Association",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Susan_Jeanes",
+      "https://hiltcrc.com.au/about/people/susan-jeanes/",
+      "https://www.thinkgeoenergy.com/cangea-australian-geothermal-support-should-be-model-for-canada/"
+    ],
+    "pollie_slug": "susan-jeanes",
+    "start_date": "2007-11-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Climate Institute",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Susan_Jeanes"
+    ],
+    "pollie_slug": "susan-jeanes",
+    "start_date": "2008-01-01",
+    "end_date": "2017-12-31"
+  },
+  {
+    "role": "Principal",
+    "organisation": "Jeanes Holland and Associates",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.jeanesholland.com.au/",
+      "http://jeanesholland.com.au/profiles.html"
+    ],
+    "pollie_slug": "susan-jeanes"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Renewable Energy Agency",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://reneweconomy.com.au/new-appointments-board-australian-renewable-energy-agency-37847/",
+      "https://arena.gov.au/news/new-members-appointed-to-arena-board/"
+    ],
+    "pollie_slug": "susan-jeanes",
+    "start_date": "2018-04-18"
+  },
+  {
+    "role": "Member",
+    "organisation": "South Australian Premier's Climate Change Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.environment.sa.gov.au/topics/climate-change/premiers-climate-change-council/premiers-climate-change-council-members",
+      "https://hiltcrc.com.au/about/people/susan-jeanes/"
+    ],
+    "pollie_slug": "susan-jeanes"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Heavy Industry Low-carbon Transition Cooperative Research Centre",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://hiltcrc.com.au/about/people/susan-jeanes/",
+      "https://www.csiro.au/en/news/all/news/2021/june/national-crc-signals-cleaner-future-for-heavy-industry"
+    ],
+    "pollie_slug": "susan-jeanes",
+    "start_date": "2021-06-30"
+  },
+  {
+    "role": "Director",
+    "organisation": "South Australian Environment Protection Authority",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.epa.sa.gov.au/blog/2024/12/13/epa_board_strengthens_climate_change_capabilities",
+      "https://hiltcrc.com.au/about/people/susan-jeanes/"
+    ],
+    "pollie_slug": "susan-jeanes",
+    "start_date": "2023-12-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Additive Manufacturing Cooperative Research Centre",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.amcrc.com.au/australia-makes-again-271-million-crc-to-revitalise-australian-manufacturing/",
+      "https://www.manmonthly.com.au/australias-additive-manufacturing-crc-officially-launched/"
+    ],
+    "pollie_slug": "susan-jeanes",
+    "start_date": "2025-10-22"
+  },
+  {
+    "role": "Barrister",
+    "organisation": "Independent Legal Practice",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Graham_Harris",
+      "https://kilmourinvestments.com/board-directors/"
+    ],
+    "pollie_slug": "graham-harris",
+    "start_date": "1983",
+    "end_date": "1994"
+  },
+  {
+    "role": "Director Naval Intelligence (Reserves)",
+    "organisation": "Royal Australian Naval Reserve",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Graham_Harris"
+    ],
+    "pollie_slug": "graham-harris",
+    "start_date": "1989",
+    "end_date": "1993"
+  },
+  {
+    "role": "State President",
+    "organisation": "Navy League of Australia (Victorian Division)",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://navyleague.org.au/a-change-at-the-helm-of-the-navy-league/",
+      "https://en.wikipedia.org/wiki/Graham_Harris"
+    ],
+    "pollie_slug": "graham-harris",
+    "start_date": "1992",
+    "end_date": "1994"
+  },
+  {
+    "role": "National President",
+    "organisation": "Navy League of Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://navyleague.org.au/a-change-at-the-helm-of-the-navy-league/",
+      "https://en.wikipedia.org/wiki/Graham_Harris"
+    ],
+    "pollie_slug": "graham-harris",
+    "start_date": "1994",
+    "end_date": "2017"
+  },
+  {
+    "role": "Director",
+    "organisation": "Associated Kiln Driers Pty Ltd",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://kilmourinvestments.com/board-directors/",
+      "https://en.wikipedia.org/wiki/Graham_Harris",
+      "https://kilmourinvestments.com/news/associated-kiln-driers-akd-softwoods/"
+    ],
+    "pollie_slug": "graham-harris",
+    "start_date": "1991"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Associated Kiln Driers Pty Ltd",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://kilmourinvestments.com/board-directors/",
+      "https://en.wikipedia.org/wiki/Graham_Harris",
+      "https://kilmourinvestments.com/news/associated-kiln-driers-akd-softwoods/"
+    ],
+    "pollie_slug": "graham-harris",
+    "start_date": "2015",
+    "end_date": "2023"
+  },
+  {
+    "role": "Talkback Radio Host",
+    "organisation": "3AK",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Don_Chipp",
+      "https://en.wikipedia.org/wiki/3AK"
+    ],
+    "pollie_slug": "don-chipp",
+    "start_date": "1988",
+    "end_date": "1990"
+  },
+  {
+    "role": "Elected Delegate",
+    "organisation": "1998 Australian Constitutional Convention",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/1998_Australian_Constitutional_Convention",
+      "https://norepublic.com.au/don-chipp-ao-1925-2006/",
+      "https://biography.senate.gov.au/chipp-donald-leslie/"
+    ],
+    "pollie_slug": "don-chipp",
+    "start_date": "1998",
+    "end_date": "1998"
   }
 ]
