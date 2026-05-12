@@ -16922,19 +16922,28 @@
       "https://en.wikipedia.org/wiki/Neil_O%27Keefe"
     ],
     "start_date": "2001-10-08",
-    "pollie_slug": "neil-okeefe"
+    "pollie_slug": "neil-okeefe",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms O'Keefe founded O'Keefe Solutions, described as a lobbying company representing large-scale property developers, after leaving parliament in 2001. Start date aligns with his departure from parliament."
+    }
   },
   {
     "role": "Chair",
     "organisation": "Royal Melbourne Showgrounds Redevelopment Joint Venture",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://en.wikipedia.org/wiki/Neil_O%27Keefe",
-      "https://www.skyscrapercity.com/threads/rsg-upgrade-finalised.157610/?u=143"
+      "https://en.wikipedia.org/wiki/Neil_O%27Keefe"
     ],
     "start_date": "2003-05-08",
     "end_date": "2004-05-31",
-    "pollie_slug": "neil-okeefe"
+    "pollie_slug": "neil-okeefe",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms O'Keefe accepted appointment as chairman of the joint venture between the Victorian government and Royal Agricultural Society to redevelop the Royal Melbourne Showgrounds in 2003. The skyscrapercity source redirects behind a paywall and cannot be verified independently."
+    }
   },
   {
     "role": "Director",
@@ -16943,7 +16952,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Neil_O%27Keefe"
     ],
-    "pollie_slug": "neil-okeefe"
+    "pollie_slug": "neil-okeefe",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms O'Keefe served as independent director of Water for Rivers, a Commonwealth-state water management agency administering the Snowy and Murray Rivers. The Victorian Ombudsman's 2011 criticism of his conflict of interest further corroborates this role."
+    }
   },
   {
     "role": "Chair",
@@ -16952,7 +16966,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Neil_O%27Keefe"
     ],
-    "pollie_slug": "neil-okeefe"
+    "pollie_slug": "neil-okeefe",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms O'Keefe served as chair of the Centre for Public Infrastructure at the University of Melbourne."
+    }
   },
   {
     "role": "Director",
@@ -16961,7 +16980,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Neil_O%27Keefe"
     ],
-    "pollie_slug": "neil-okeefe"
+    "pollie_slug": "neil-okeefe",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms O'Keefe served as a director of Melbourne University Private before the organisation folded."
+    }
   },
   {
     "role": "Director",
@@ -16970,7 +16994,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Neil_O%27Keefe"
     ],
-    "pollie_slug": "neil-okeefe"
+    "pollie_slug": "neil-okeefe",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms O'Keefe served as a director of the Western Bulldogs Football Club."
+    }
   },
   {
     "role": "Chair",
@@ -16979,7 +17008,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Neil_O%27Keefe"
     ],
-    "pollie_slug": "neil-okeefe"
+    "pollie_slug": "neil-okeefe",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms O'Keefe was ministerially appointed as chair of the Victorian Motorcycle Advisory Council, serving seven years in that role."
+    }
   },
   {
     "role": "Executive Producer",
@@ -16988,7 +17022,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Neil_O%27Keefe"
     ],
-    "pollie_slug": "neil-okeefe"
+    "pollie_slug": "neil-okeefe",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms O'Keefe served as executive producer of Australian film 'The Independent'."
+    }
   },
   {
     "role": "Director",
@@ -16997,18 +17036,27 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Neil_O%27Keefe"
     ],
-    "pollie_slug": "neil-okeefe"
+    "pollie_slug": "neil-okeefe",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Sustainable Soils & Farms as O'Keefe's company, referenced in the Victorian Ombudsman's 2011 conflict-of-interest finding regarding his concurrent directorship of Water for Rivers."
+    }
   },
   {
     "role": "Non-Executive Director",
     "organisation": "Environmental Clean Technologies Limited",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://ectltd.com.au/appointment-of-non-executive-director-3/",
-      "https://ca.wallmine.com/asx/ect/officer/2134520/neil-o-keefe"
+      "https://ectltd.com.au/appointment-of-non-executive-director-3/"
     ],
     "start_date": "2020-12-09",
-    "pollie_slug": "neil-okeefe"
+    "pollie_slug": "neil-okeefe",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The official ECT company announcement (ectltd.com.au) explicitly identifies Hon Neil O'Keefe as a former Federal Member of Parliament (1984-2001) appointed as Non-Executive Director of Environmental Clean Technologies Limited (ASX: ESI) on 9 December 2020. The wallmine.com source redirects to Yahoo Finance and is effectively dead."
+    }
   },
   {
     "role": "Director",
@@ -17059,31 +17107,41 @@
     "organisation": "Spatial Information Business Association",
     "category": "Technology (Software, IT & Digital Services)",
     "sources": [
-      "https://www.spatialsource.com.au/vale-the-hon-gary-nairn-ao-surveyor/",
-      "https://geospatialcouncil.org.au/farewell-to-one-of-our-finest-the-hon-gary-nairn-ao/"
+      "https://www.spatialsource.com.au/vale-the-hon-gary-nairn-ao-surveyor/"
     ],
-    "pollie_slug": "gary-nairn"
+    "pollie_slug": "gary-nairn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Association of Consulting Surveyors Australia",
     "category": "Science, Engineering & Technical Professions",
     "sources": [
-      "https://www.spatialsource.com.au/vale-the-hon-gary-nairn-ao-surveyor/",
-      "https://geospatialcouncil.org.au/farewell-to-one-of-our-finest-the-hon-gary-nairn-ao/"
+      "https://www.spatialsource.com.au/vale-the-hon-gary-nairn-ao-surveyor/"
     ],
-    "pollie_slug": "gary-nairn"
+    "pollie_slug": "gary-nairn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Cooperative Research Centre for Spatial Information",
     "category": "Science, Engineering & Technical Professions",
     "sources": [
-      "https://www.spatialsource.com.au/vale-the-hon-gary-nairn-ao-surveyor/",
-      "https://geospatialcouncil.org.au/farewell-to-one-of-our-finest-the-hon-gary-nairn-ao/"
+      "https://www.spatialsource.com.au/vale-the-hon-gary-nairn-ao-surveyor/"
     ],
     "end_date": "2018-01-01",
-    "pollie_slug": "gary-nairn"
+    "pollie_slug": "gary-nairn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CRCSI operated 2003–2018; end_date of 2018 is consistent with the organisation winding up."
+    }
   },
   {
     "role": "Chair",
@@ -17093,14 +17151,18 @@
       "https://planningcommission.nt.gov.au/projects/alice-springs-cbd-review",
       "https://environment.nt.gov.au/news/2024/ntepa-authority-board"
     ],
-    "pollie_slug": "gary-nairn"
+    "pollie_slug": "gary-nairn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Official NT Government planning commission page names 'the Chairman of the Planning Commission, Gary Nairn' in connection with December 2014 workshops; environment.nt.gov.au notes he held this role from at least 2013."
+    }
   },
   {
     "role": "Chair",
     "organisation": "Centre for Spatial Data Infrastructures and Land Administration International Advisory Committee",
     "category": "Science, Engineering & Technical Professions",
     "sources": [
-      "https://geospatialcouncil.org.au/farewell-to-one-of-our-finest-the-hon-gary-nairn-ao/",
       "https://eng.unimelb.edu.au/csdila/news/news-highlights/the-gary-nairn-medal-for-leadership"
     ],
     "pollie_slug": "gary-nairn"
@@ -17112,7 +17174,11 @@
     "sources": [
       "https://region.com.au/farewell-to-gary-nairn-ao-former-parliamentarian-and-committed-community-servant/775171/"
     ],
-    "pollie_slug": "gary-nairn"
+    "pollie_slug": "gary-nairn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -17123,7 +17189,12 @@
     ],
     "start_date": "2011-01-01",
     "end_date": "2024-06-01",
-    "pollie_slug": "gary-nairn"
+    "pollie_slug": "gary-nairn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Mulloon Institute about page confirms 'Inaugural Board Director (2011–2024)'. Nairn passed away June 2024, consistent with the end date."
+    }
   },
   {
     "role": "Chair",
@@ -17134,8 +17205,13 @@
       "https://region.com.au/farewell-to-gary-nairn-ao-former-parliamentarian-and-committed-community-servant/775171/"
     ],
     "start_date": "2018-01-01",
-    "end_date": "2024-01-01",
-    "pollie_slug": "gary-nairn"
+    "end_date": "2023-01-01",
+    "pollie_slug": "gary-nairn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Mulloon Institute about page confirms Chairman 2018–2023. Correcting end_date from 2024-01-01 to 2023-01-01 to match the authoritative source."
+    }
   },
   {
     "role": "National Chair",
@@ -17146,7 +17222,12 @@
       "https://region.com.au/farewell-to-gary-nairn-ao-former-parliamentarian-and-committed-community-servant/775171/"
     ],
     "start_date": "2018-03-16",
-    "pollie_slug": "gary-nairn"
+    "pollie_slug": "gary-nairn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Official Duke of Edinburgh Australia page confirms appointment as National Chairman on 16 March 2018, with start_date matching exactly."
+    }
   },
   {
     "role": "Director",
@@ -17155,6 +17236,11 @@
     "sources": [
       "https://region.com.au/farewell-to-gary-nairn-ao-former-parliamentarian-and-committed-community-servant/775171/"
     ],
-    "pollie_slug": "gary-nairn"
+    "pollie_slug": "gary-nairn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "region.com.au obituary explicitly lists 'Biodiversity and Conservation Trust of NSW – Director' among his post-parliamentary roles."
+    }
   }
 ]
