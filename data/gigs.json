@@ -9685,7 +9685,12 @@
     ],
     "pollie_slug": "kevin-newman",
     "start_date": "1985",
-    "end_date": "1999"
+    "end_date": "1999",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ADB and Wikipedia both confirm Newman was Director of Australian Stockman's Hall of Fame and Outback Heritage Centre from 1985-1999. Dates align with his post-parliamentary period."
+    }
   },
   {
     "role": "Chairman",
@@ -9697,7 +9702,12 @@
     ],
     "pollie_slug": "kevin-newman",
     "start_date": "1986",
-    "end_date": "1989"
+    "end_date": "1989",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ADB and Wikipedia both confirm Newman was Chairman of Launceston Public Hospitals District Board from 1986-1989. Dates and role match authoritative sources."
+    }
   },
   {
     "role": "Founding Chairman of the Governing Council",
@@ -9709,7 +9719,12 @@
     ],
     "pollie_slug": "kevin-newman",
     "start_date": "1997",
-    "end_date": "1999"
+    "end_date": "1999",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ADB and Wikipedia both confirm Newman was founding chairman of the governing council of Old Parliament House from 1997-1999. Role and dates match authoritative sources."
+    }
   },
   {
     "role": "PhD Candidate in Australian History",
@@ -17673,7 +17688,12 @@
       "http://azark.com.au/directors/",
       "https://www.businessnews.com.au/Person/George-Gear"
     ],
-    "pollie_slug": "george-gear"
+    "pollie_slug": "george-gear",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Azark Project Pty Ltd directors are Glenn Baker and Peter Remta per parliamentary submissions and search results. George Gear may lead the broader Azark Projects company, but he is not listed as a director of Azark. The cited directors page (404) cannot be verified."
+    }
   },
   {
     "role": "Chair",
@@ -17684,7 +17704,12 @@
       "https://www.bloomberg.com/profile/person/7332024",
       "https://www.businessnews.com.au/Person/George-Gear"
     ],
-    "pollie_slug": "george-gear"
+    "pollie_slug": "george-gear",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple authoritative sources confirm George Gear as Non-Executive Chair of Novus Capital Limited. Bloomberg profile inaccessible but Novus Capital official board page and Business News corroborate the role and identity."
+    }
   },
   {
     "role": "Mayor",
@@ -17696,7 +17721,12 @@
     ],
     "pollie_slug": "george-gear",
     "start_date": "2019-10-19",
-    "end_date": "2023-10-21"
+    "end_date": "2023-10-21",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and City of Melville election results confirm George Gear was elected mayor on 19 October 2019 with 42% of votes and lost the mayoral election on 21 October 2023 to Katy Mair. Dates align precisely with stated start_date and end_date."
+    }
   },
   {
     "role": "Board Member",
@@ -17753,8 +17783,13 @@
       "https://en.wikipedia.org/wiki/Stan_Collard"
     ],
     "pollie_slug": "stanley-collard",
-    "start_date": "1987-06-05",
-    "end_date": "1988-01-01"
+    "start_date": "1985-01-01",
+    "end_date": "1988-04-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms CSR Hinkler Bicentennial Air Race as president of organising committee since 1985, organised nine-day air race concluding at World Expo 88 opening on 30 April 1988. Start date aligned with parliament departure date; end date aligns with race completion."
+    }
   },
   {
     "role": "Chair",
@@ -17765,7 +17800,12 @@
       "https://en.wikipedia.org/wiki/Stan_Collard"
     ],
     "pollie_slug": "stanley-collard",
-    "start_date": "1988-01-01"
+    "start_date": "1988-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms chairman of Central Queensland Life Education Committee from 1988."
+    }
   },
   {
     "role": "State President",
@@ -17775,7 +17815,12 @@
       "https://biography.senate.gov.au/collard-stanley-james/",
       "https://en.wikipedia.org/wiki/Stan_Collard"
     ],
-    "pollie_slug": "stanley-collard"
+    "pollie_slug": "stanley-collard",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms state president of Life Education Queensland (served three years in this capacity)."
+    }
   },
   {
     "role": "Board Member",
@@ -17787,7 +17832,12 @@
     ],
     "pollie_slug": "stanley-collard",
     "start_date": "1996-01-01",
-    "end_date": "2006-01-01"
+    "end_date": "2006-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms board member of Life Education Australia national board for ten years beginning 1996."
+    }
   },
   {
     "role": "State President",
@@ -17797,7 +17847,12 @@
       "https://biography.senate.gov.au/collard-stanley-james/",
       "https://en.wikipedia.org/wiki/Stan_Collard"
     ],
-    "pollie_slug": "stanley-collard"
+    "pollie_slug": "stanley-collard",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms state president of Lifeline Queensland starting 1997 for three years."
+    }
   },
   {
     "role": "Deputy Chair",
@@ -17809,7 +17864,12 @@
     ],
     "pollie_slug": "stanley-collard",
     "start_date": "1996-01-01",
-    "end_date": "1999-01-01"
+    "end_date": "1999-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms deputy chairman of Library Board of Queensland from 1996 to 1999."
+    }
   },
   {
     "role": "Secretary, Brisbane Presbytery",
@@ -17819,7 +17879,12 @@
       "https://biography.senate.gov.au/collard-stanley-james/",
       "https://en.wikipedia.org/wiki/Stan_Collard"
     ],
-    "pollie_slug": "stanley-collard"
+    "pollie_slug": "stanley-collard",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography and Wikipedia confirm secretary of Brisbane Presbytery, Uniting Church in Australia. Collard was a lay preacher with Methodist Church background."
+    }
   },
   {
     "role": "Chair",
@@ -17827,12 +17892,16 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://www.wool.com/about-awi/media-releases/awi-announces-appointment-of-new-ceo?category=0&month=0&page=296&year=0",
-      "https://www.imdb.com/name/nm8541164/",
       "https://www.maynereport.com/articles/2008/07/15-1722-9824.html"
     ],
     "pollie_slug": "ian-mclachlan",
-    "start_date": "2001-01-01",
-    "end_date": "2008-12-31"
+    "start_date": "2005-01-01",
+    "end_date": "2008-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Ian McLachlan served as SACA president until 2014. Web search confirms he was appointed to AWI Board in 2004 and served as Chairman from 2005-2008, not 2001-2008 as claimed."
+    }
   },
   {
     "role": "President",
@@ -17844,7 +17913,12 @@
       "https://www.saca.com.au/about/honour-board/office-bearers"
     ],
     "pollie_slug": "ian-mclachlan",
-    "end_date": "2013-09-30"
+    "end_date": "2013-09-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and InDaily confirm McLachlan served as SACA president, stepping down at the AGM in September 2013 after a 14-year run. End date adjusted to September 2013 (AGM date)."
+    }
   },
   {
     "role": "Director",
@@ -17855,7 +17929,12 @@
       "https://www.espncricinfo.com/story/new-director-to-join-cricket-australia-board-137971"
     ],
     "pollie_slug": "ian-mclachlan",
-    "start_date": "2004-02-01"
+    "start_date": "2004-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Web search confirms Ian McLachlan was appointed to the Cricket Australia Board by SACA in January 2004, replacing Trevor Robertson. No end date found in available sources."
+    }
   },
   {
     "role": "Chair",
@@ -17867,7 +17946,12 @@
     ],
     "pollie_slug": "ian-mclachlan",
     "start_date": "2009-12-23",
-    "end_date": "2014-04-29"
+    "end_date": "2014-04-29",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Adelaide Oval website confirms McLachlan was inaugural Chairman of Adelaide Oval Stadium Management Authority Ltd from its registration on 23 December 2009 until the stadium's official opening in 2014. He then remained as a Director. Start date confirmed, end date as Chair confirmed as 29 April 2014."
+    }
   },
   {
     "role": "Director",
@@ -17877,6 +17961,11 @@
       "https://www.adelaideoval.com.au/news/john-olsen-appointed-new-chairman-of-adelaide-oval-sma/"
     ],
     "pollie_slug": "ian-mclachlan",
-    "start_date": "2014-04-29"
+    "start_date": "2014-04-29",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Adelaide Oval website confirms McLachlan transitioned from Chair to Director on 29 April 2014 when John Olsen was appointed new Chairman. No end date for directorship found."
+    }
   }
 ]
