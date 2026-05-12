@@ -17068,7 +17068,12 @@
       "https://fxnewsgroup.com/forex-news/regulatory/asic-disqualifies-former-queensland-senator-claire-mary-moore-from-managing-corporations-for-four-years/"
     ],
     "start_date": "2023-07-18",
-    "pollie_slug": "claire-moore"
+    "pollie_slug": "claire-moore",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ASIC media release and multiple news sources confirm appointment as director of Warwick Gold Holdings Pty Ltd on 18 July 2023. Role and dates match exactly."
+    }
   },
   {
     "role": "Director",
@@ -17080,7 +17085,12 @@
       "https://fxnewsgroup.com/forex-news/regulatory/asic-disqualifies-former-queensland-senator-claire-mary-moore-from-managing-corporations-for-four-years/"
     ],
     "start_date": "2023-07-18",
-    "pollie_slug": "claire-moore"
+    "pollie_slug": "claire-moore",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ASIC media release and multiple news sources confirm appointment as director of Impact Gold Ltd on 18 July 2023. Role and dates match exactly."
+    }
   },
   {
     "role": "Patron",
@@ -17089,7 +17099,12 @@
     "sources": [
       "https://www.childrenbychoice.org.au/about/our-team/"
     ],
-    "pollie_slug": "claire-moore"
+    "pollie_slug": "claire-moore",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "No mention of Claire Moore as patron on Children by Choice website. Only Dr Claire Mohr (different surname) appears as a leader. Source appears to reference wrong person or organisation."
+    }
   },
   {
     "role": "Mentor",
@@ -17253,7 +17268,11 @@
       "https://www.jeanesholland.com.au/"
     ],
     "pollie_slug": "susan-jeanes",
-    "end_date": "2002-12-31"
+    "end_date": "2002-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -17264,7 +17283,11 @@
       "https://hiltcrc.com.au/about/people/susan-jeanes/",
       "https://reneweconomy.com.au/new-appointments-board-australian-renewable-energy-agency-37847/"
     ],
-    "pollie_slug": "susan-jeanes"
+    "pollie_slug": "susan-jeanes",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -17276,7 +17299,11 @@
       "https://www.thinkgeoenergy.com/cangea-australian-geothermal-support-should-be-model-for-canada/"
     ],
     "pollie_slug": "susan-jeanes",
-    "start_date": "2007-11-01"
+    "start_date": "2007-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -17297,7 +17324,11 @@
       "https://www.jeanesholland.com.au/",
       "http://jeanesholland.com.au/profiles.html"
     ],
-    "pollie_slug": "susan-jeanes"
+    "pollie_slug": "susan-jeanes",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -17318,7 +17349,11 @@
       "https://www.environment.sa.gov.au/topics/climate-change/premiers-climate-change-council/premiers-climate-change-council-members",
       "https://hiltcrc.com.au/about/people/susan-jeanes/"
     ],
-    "pollie_slug": "susan-jeanes"
+    "pollie_slug": "susan-jeanes",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -17329,7 +17364,12 @@
       "https://www.csiro.au/en/news/all/news/2021/june/national-crc-signals-cleaner-future-for-heavy-industry"
     ],
     "pollie_slug": "susan-jeanes",
-    "start_date": "2021-06-30"
+    "start_date": "2021-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CSIRO source indicates she was Chair-elect in June 2021, confirming the start_date is plausible."
+    }
   },
   {
     "role": "Director",
@@ -17351,7 +17391,12 @@
       "https://www.manmonthly.com.au/australias-additive-manufacturing-crc-officially-launched/"
     ],
     "pollie_slug": "susan-jeanes",
-    "start_date": "2025-10-22"
+    "start_date": "2025-10-22",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "AMCRC source confirms her as Chair. Start date of 2025-10-22 appears to be when the CRC was officially launched/announced, aligning with available evidence."
+    }
   },
   {
     "role": "Barrister",
@@ -17363,7 +17408,11 @@
     ],
     "pollie_slug": "graham-harris",
     "start_date": "1983",
-    "end_date": "1994"
+    "end_date": "1994",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director Naval Intelligence (Reserves)",
@@ -17374,7 +17423,11 @@
     ],
     "pollie_slug": "graham-harris",
     "start_date": "1989",
-    "end_date": "1993"
+    "end_date": "1993",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "State President",
@@ -17386,7 +17439,11 @@
     ],
     "pollie_slug": "graham-harris",
     "start_date": "1992",
-    "end_date": "1994"
+    "end_date": "1994",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "National President",
@@ -17398,7 +17455,11 @@
     ],
     "pollie_slug": "graham-harris",
     "start_date": "1994",
-    "end_date": "2017"
+    "end_date": "2017-10-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -17410,7 +17471,11 @@
       "https://kilmourinvestments.com/news/associated-kiln-driers-akd-softwoods/"
     ],
     "pollie_slug": "graham-harris",
-    "start_date": "1991"
+    "start_date": "1991",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -17423,7 +17488,11 @@
     ],
     "pollie_slug": "graham-harris",
     "start_date": "2015",
-    "end_date": "2023"
+    "end_date": "2023-06",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Talkback Radio Host",
