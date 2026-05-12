@@ -37,10 +37,12 @@ Print the selection (pollie slug + count) before dispatching.
 
 ## Step 2: dispatch one subagent per pollie in parallel
 
-Use the `Task` tool with `subagent_type: general-purpose` and `model: "sonnet"`
-(per-pollie verification has a strict schema and well-defined decision rules,
-so it doesn't need Opus). Send all dispatches in a single message so they run
-concurrently.
+Use the `Task` tool with `subagent_type: general-purpose` and `model: "haiku"`.
+Per-pollie verification has a strict schema, well-defined decision rules, and
+a clear source-authority hierarchy, so Haiku is sufficient --- and the
+conservative `"unverified"` default absorbs any borderline cases where a
+smarter model might have pushed through to `"verified"`. Send all dispatches
+in a single message so they run concurrently.
 
 Each subagent prompt must include:
 
