@@ -17664,5 +17664,219 @@
     ],
     "pollie_slug": "stephen-parry",
     "start_date": "2026-02-11"
+  },
+  {
+    "role": "Director",
+    "organisation": "Azark",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "http://azark.com.au/directors/",
+      "https://www.businessnews.com.au/Person/George-Gear"
+    ],
+    "pollie_slug": "george-gear"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Novus Capital Limited",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.novuscapital.com.au/about/board",
+      "https://www.bloomberg.com/profile/person/7332024",
+      "https://www.businessnews.com.au/Person/George-Gear"
+    ],
+    "pollie_slug": "george-gear"
+  },
+  {
+    "role": "Mayor",
+    "organisation": "City of Melville",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/George_Gear",
+      "https://www.melvillecity.com.au/our-city/our-council/mayor-and-elected-members/mayor-katy-mair"
+    ],
+    "pollie_slug": "george-gear",
+    "start_date": "2019-10-19",
+    "end_date": "2023-10-21"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Perth South West Metropolitan Alliance",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.businessnews.com.au/Person/George-Gear",
+      "https://www.perthsouthwest.com.au/perth-south-west-metropolitan-alliance-board/"
+    ],
+    "pollie_slug": "george-gear",
+    "start_date": "2019-10-19",
+    "end_date": "2023-10-21"
+  },
+  {
+    "role": "Solicitor",
+    "organisation": "Everingham Lawyers",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://everinghamwallace.com.au/our-people",
+      "https://www.alicespringsshow.com.au/history/hon-paul-everingham-ao"
+    ],
+    "pollie_slug": "paul-everingham",
+    "start_date": "1987-06-05"
+  },
+  {
+    "role": "President",
+    "organisation": "Liberal Party of Australia (Queensland Division)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paul_Everingham",
+      "https://www.factsnippet.com/site/facts-about-paul-everingham.html"
+    ],
+    "pollie_slug": "paul-everingham",
+    "start_date": "1990-01-01",
+    "end_date": "1994-12-31"
+  },
+  {
+    "role": "Honorary Consul",
+    "organisation": "High Commission of Malaysia",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://everinghamwallace.com.au/our-people",
+      "https://www.kln.gov.my/web/aus_canberra/news-from-mission/-/blogs/announcement-resignation-of-the-honorary-consul-of-malaysia-in-brisbane-the-honorable-mr-paul-everingham"
+    ],
+    "pollie_slug": "paul-everingham",
+    "end_date": "2014-01-10"
+  },
+  {
+    "role": "President, Organising Committee",
+    "organisation": "CSR Hinkler Bicentennial Air Race",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://biography.senate.gov.au/collard-stanley-james/",
+      "https://en.wikipedia.org/wiki/Stan_Collard"
+    ],
+    "pollie_slug": "stanley-collard",
+    "start_date": "1987-06-05",
+    "end_date": "1988-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Central Queensland Life Education Committee",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/collard-stanley-james/",
+      "https://en.wikipedia.org/wiki/Stan_Collard"
+    ],
+    "pollie_slug": "stanley-collard",
+    "start_date": "1988-01-01"
+  },
+  {
+    "role": "State President",
+    "organisation": "Life Education Queensland",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/collard-stanley-james/",
+      "https://en.wikipedia.org/wiki/Stan_Collard"
+    ],
+    "pollie_slug": "stanley-collard"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Life Education Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/collard-stanley-james/",
+      "https://en.wikipedia.org/wiki/Stan_Collard"
+    ],
+    "pollie_slug": "stanley-collard",
+    "start_date": "1996-01-01",
+    "end_date": "2006-01-01"
+  },
+  {
+    "role": "State President",
+    "organisation": "Lifeline Queensland",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/collard-stanley-james/",
+      "https://en.wikipedia.org/wiki/Stan_Collard"
+    ],
+    "pollie_slug": "stanley-collard"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Library Board of Queensland",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/collard-stanley-james/",
+      "https://en.wikipedia.org/wiki/Stan_Collard"
+    ],
+    "pollie_slug": "stanley-collard",
+    "start_date": "1996-01-01",
+    "end_date": "1999-01-01"
+  },
+  {
+    "role": "Secretary, Brisbane Presbytery",
+    "organisation": "Uniting Church in Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/collard-stanley-james/",
+      "https://en.wikipedia.org/wiki/Stan_Collard"
+    ],
+    "pollie_slug": "stanley-collard"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Wool Innovation",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.wool.com/about-awi/media-releases/awi-announces-appointment-of-new-ceo?category=0&month=0&page=296&year=0",
+      "https://www.imdb.com/name/nm8541164/",
+      "https://www.maynereport.com/articles/2008/07/15-1722-9824.html"
+    ],
+    "pollie_slug": "ian-mclachlan",
+    "start_date": "2001-01-01",
+    "end_date": "2008-12-31"
+  },
+  {
+    "role": "President",
+    "organisation": "South Australian Cricket Association",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ian_McLachlan",
+      "https://www.espncricinfo.com/story/saca-board-of-management-position-announcement-103062",
+      "https://www.saca.com.au/about/honour-board/office-bearers"
+    ],
+    "pollie_slug": "ian-mclachlan",
+    "end_date": "2013-09-30"
+  },
+  {
+    "role": "Director",
+    "organisation": "Cricket Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.espn.com/cricket/story/_/id/23132680/new-director-join-cricket-australia-board",
+      "https://www.espncricinfo.com/story/new-director-to-join-cricket-australia-board-137971"
+    ],
+    "pollie_slug": "ian-mclachlan",
+    "start_date": "2004-02-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Adelaide Oval Stadium Management Authority",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.adelaideoval.com.au/news/john-olsen-appointed-new-chairman-of-adelaide-oval-sma/",
+      "https://www.austadiums.com/news/442/saca-sanfl-commit-to-adelaide-oval-redevelopment"
+    ],
+    "pollie_slug": "ian-mclachlan",
+    "start_date": "2009-12-23",
+    "end_date": "2014-04-29"
+  },
+  {
+    "role": "Director",
+    "organisation": "Adelaide Oval Stadium Management Authority",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.adelaideoval.com.au/news/john-olsen-appointed-new-chairman-of-adelaide-oval-sma/"
+    ],
+    "pollie_slug": "ian-mclachlan",
+    "start_date": "2014-04-29"
   }
 ]
