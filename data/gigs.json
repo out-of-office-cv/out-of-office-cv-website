@@ -1415,7 +1415,12 @@
       "https://www.bze.org.au/news-events/item/beyond-zero-emissions-strengthens-board-with-appointment-of-kylea-tink-and-rod-henderson"
     ],
     "pollie_slug": "kylea-tink",
-    "start_date": "2025-10-23"
+    "start_date": "2025-10-23",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "BZE official announcement confirms appointment as Director on 2025-10-23, after parliamentary tenure ended 2025-03-28."
+    }
   },
   {
     "role": "Contributor",
@@ -2960,7 +2965,12 @@
       "https://womensagenda.com.au/latest/kylea-tink-appointed-new-ceo-of-foodbank-australia/"
     ],
     "pollie_slug": "kylea-tink",
-    "start_date": "2025-10-27"
+    "start_date": "2025-10-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Foodbank Australia official announcement and Women's Agenda confirm CEO appointment effective 2025-10-27."
+    }
   },
   {
     "role": "Director",
@@ -2970,7 +2980,12 @@
       "https://www.communityindependentsproject.org/about-us"
     ],
     "pollie_slug": "kylea-tink",
-    "start_date": "2025-03-01"
+    "start_date": "2025-03-01",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Community Independents Project website lists Kylea Tink as Ambassador, not Director. Listed Directors are Alana Johnson and Tine Barter. Start_date of 2025-03-01 also predates her parliamentary cessation date of 2025-03-28."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -14257,8 +14272,13 @@
       "https://www.openaustralia.org.au/debate/?id=2008-02-21.122.1"
     ],
     "pollie_slug": "leonard-keogh",
-    "start_date": "1991-01-01",
-    "end_date": "1994-01-01"
+    "start_date": "1991-03-01",
+    "end_date": "1994-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and OpenAustralia confirm Keogh as Chairman of Redland Shire Council from March 1991 to March 1994."
+    }
   },
   {
     "role": "Member",
@@ -14268,7 +14288,12 @@
       "https://en.wikipedia.org/wiki/Len_Keogh"
     ],
     "pollie_slug": "leonard-keogh",
-    "start_date": "1994-12-01"
+    "start_date": "1994-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Keogh was appointed to the Veterans' Review Board in December 1994 by Con Sciacca."
+    }
   },
   {
     "role": "Chair",
@@ -18320,7 +18345,12 @@
       "https://au.linkedin.com/in/david-leyonhjelm-6755939",
       "https://www.zoominfo.com/p/David-Leyonhjelm/1865105578"
     ],
-    "pollie_slug": "david-leyonhjelm"
+    "pollie_slug": "david-leyonhjelm",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Baron Strategic Services page confirms Leyonhjelm as principal of the company he established in 1989."
+    }
   },
   {
     "role": "Contributor",
@@ -18329,8 +18359,7 @@
     "sources": [
       "https://www.spectator.com.au/author/david-leyonhjelm/"
     ],
-    "pollie_slug": "david-leyonhjelm",
-    "start_date": "2019-03-01"
+    "pollie_slug": "david-leyonhjelm"
   },
   {
     "role": "Contributor",
@@ -18351,7 +18380,12 @@
       "https://www.goodreads.com/en/book/show/55961610"
     ],
     "pollie_slug": "david-leyonhjelm",
-    "start_date": "2020-01-01"
+    "start_date": "2020-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Connor Court Publishing published his book \"Gun Control\" on 2020-07-09, confirming post-parliament authorship."
+    }
   },
   {
     "role": "Chair",
@@ -18362,7 +18396,12 @@
       "https://biography.omicsonline.org/australia/auscann/dr-mal-washer-614213"
     ],
     "pollie_slug": "mal-washer",
-    "end_date": "2014-03"
+    "end_date": "2014-03",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and biography.omicsonline.org confirm Mal Washer was Chair of the Alcohol and Other Drugs Council of Australia, resigning in March 2014."
+    }
   },
   {
     "role": "Non-Executive Chair",
@@ -18375,7 +18414,13 @@
       "https://www.proactiveinvestors.com/companies/news/216239/auscann-group-chairman-buys-58238-worth-of-shares-on-market-216239.html"
     ],
     "pollie_slug": "mal-washer",
-    "start_date": "2014-09"
+    "start_date": "2014-09",
+    "end_date": "2019-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources confirm Mal Washer as Non-Executive Chair of AusCann Group Holdings from September 2014. AusCann 2020 annual report and search results indicate he stepped off the board around December 2019."
+    }
   },
   {
     "role": "Advisory Board Chair",
@@ -18386,7 +18431,12 @@
     ],
     "pollie_slug": "mal-washer",
     "start_date": "2017",
-    "end_date": "2023-07"
+    "end_date": "2023-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "DonateLife official announcement confirms Mal Washer as Advisory Board Chair of the Organ and Tissue Authority for six years until Dr Helen Szoke AO commenced on 2023-07-01."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -18394,13 +18444,17 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.mitchfifield.com/2016/05/media-release-australia-post-board-appointments/",
-      "https://www.minister.communications.gov.au/minister/mitch-fifield/news/australia-post-board-appointments",
       "https://www.businessnews.com.au/Person/Michael-Ronaldson",
       "https://www.crikey.com.au/2020/10/23/australia-post-ceo-board/"
     ],
     "pollie_slug": "michael-ronaldson",
     "start_date": "2016-05",
-    "end_date": "2022"
+    "end_date": "2022",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Non-Executive Director from May 2016 to 2022 via Mitch Fifield's media release and Australia Post 2022 annual report."
+    }
   },
   {
     "role": "Deputy Chair",
@@ -18412,7 +18466,12 @@
     ],
     "pollie_slug": "michael-ronaldson",
     "start_date": "2017-06",
-    "end_date": "2020-06"
+    "end_date": "2020-06",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Deputy Chair from June 2017 through 2020 via Australia Post remuneration reports."
+    }
   },
   {
     "role": "Chair",
@@ -18423,7 +18482,12 @@
       "https://pmc.ncbi.nlm.nih.gov/articles/PMC8943544/",
       "https://en.wikipedia.org/wiki/Michael_Ronaldson"
     ],
-    "pollie_slug": "michael-ronaldson"
+    "pollie_slug": "michael-ronaldson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Chair of InnoWell's Board of Directors. PMC article explicitly identifies Michael Ronaldson as Chair."
+    }
   },
   {
     "role": "Board Member",
@@ -18434,7 +18498,12 @@
       "https://en.wikipedia.org/wiki/Michael_Ronaldson"
     ],
     "pollie_slug": "michael-ronaldson",
-    "start_date": "2018"
+    "start_date": "2018",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Oliver Foundation board member from 2018 via The Courier article and Wikipedia."
+    }
   },
   {
     "role": "Director",
@@ -18446,7 +18515,7 @@
     ],
     "pollie_slug": "michael-ronaldson",
     "start_date": "2020",
-    "end_date": "2021"
+    "end_date": "2023-08"
   },
   {
     "role": "Accountant",
