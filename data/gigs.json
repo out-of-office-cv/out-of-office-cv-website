@@ -18310,5 +18310,165 @@
     "start_date": "1998-02-02",
     "end_date": "1998-02-13",
     "pollie_slug": "reginald-withers"
+  },
+  {
+    "role": "Principal",
+    "organisation": "Baron Strategic Services",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.baronss.com.au/people.html",
+      "https://au.linkedin.com/in/david-leyonhjelm-6755939",
+      "https://www.zoominfo.com/p/David-Leyonhjelm/1865105578"
+    ],
+    "pollie_slug": "david-leyonhjelm"
+  },
+  {
+    "role": "Contributor",
+    "organisation": "Spectator Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.spectator.com.au/author/david-leyonhjelm/"
+    ],
+    "pollie_slug": "david-leyonhjelm",
+    "start_date": "2019-03-01"
+  },
+  {
+    "role": "Contributor",
+    "organisation": "Australian Financial Review",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://davidleyonhjelm.com.au/david-articles/",
+      "https://conference.suicidepreventionaust.org/response-to-david-leyonhjelms-opinion-piece-in-the-australian-financial-review/"
+    ],
+    "pollie_slug": "david-leyonhjelm"
+  },
+  {
+    "role": "Author",
+    "organisation": "Connor Court Publishing",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.connorcourtpublishing.com.au/David-Leyonhjelm_bymfg_176-0-1.html",
+      "https://www.goodreads.com/en/book/show/55961610"
+    ],
+    "pollie_slug": "david-leyonhjelm",
+    "start_date": "2020-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Alcohol and Other Drug Council of Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mal_Washer",
+      "https://biography.omicsonline.org/australia/auscann/dr-mal-washer-614213"
+    ],
+    "pollie_slug": "mal-washer",
+    "end_date": "2014-03"
+  },
+  {
+    "role": "Non-Executive Chair",
+    "organisation": "AusCann Group Holdings",
+    "category": "Pharmaceutical & Biotechnology",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Mal-Washer",
+      "https://stockhead.com.au/health/the-pot-seat-auscanns-mal-washer-says-today-theyre-pharma-not-a-farmer/",
+      "https://en.wikipedia.org/wiki/AusCann",
+      "https://www.proactiveinvestors.com/companies/news/216239/auscann-group-chairman-buys-58238-worth-of-shares-on-market-216239.html"
+    ],
+    "pollie_slug": "mal-washer",
+    "start_date": "2014-09"
+  },
+  {
+    "role": "Advisory Board Chair",
+    "organisation": "Organ and Tissue Authority",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.donatelife.gov.au/news-events/news/2023/ota-welcomes-dr-helen-szoke-ao-new-advisory-board-chair-recognises-contributions-outgoing-chair-dr-mal-washer"
+    ],
+    "pollie_slug": "mal-washer",
+    "start_date": "2017",
+    "end_date": "2023-07"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Australia Post",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.mitchfifield.com/2016/05/media-release-australia-post-board-appointments/",
+      "https://www.minister.communications.gov.au/minister/mitch-fifield/news/australia-post-board-appointments",
+      "https://www.businessnews.com.au/Person/Michael-Ronaldson",
+      "https://www.crikey.com.au/2020/10/23/australia-post-ceo-board/"
+    ],
+    "pollie_slug": "michael-ronaldson",
+    "start_date": "2016-05",
+    "end_date": "2022"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Australia Post",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://auspost.com.au/content/dam/auspost_corp/media/documents/publications/2017-australia-post-remuneration-report.pdf",
+      "https://auspost.com.au/content/dam/auspost_corp/media/documents/2020-australia-post-remuneration-report.pdf"
+    ],
+    "pollie_slug": "michael-ronaldson",
+    "start_date": "2017-06",
+    "end_date": "2020-06"
+  },
+  {
+    "role": "Chair",
+    "organisation": "InnoWell",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.croakey.org/responding-to-concerns-about-university-of-sydney-digital-mental-health-platform/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8943544/",
+      "https://en.wikipedia.org/wiki/Michael_Ronaldson"
+    ],
+    "pollie_slug": "michael-ronaldson"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Oliver Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.thecourier.com.au/story/4742845/big-move-to-help-ballarat-hospice-care-appeal-grow/",
+      "https://en.wikipedia.org/wiki/Michael_Ronaldson"
+    ],
+    "pollie_slug": "michael-ronaldson",
+    "start_date": "2018"
+  },
+  {
+    "role": "Director",
+    "organisation": "State Sports Centres Trust",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://sport.vic.gov.au/news/articles/new-chair-appointed-for-state-sports-centres-trust",
+      "https://en.wikipedia.org/wiki/Michael_Ronaldson"
+    ],
+    "pollie_slug": "michael-ronaldson",
+    "start_date": "2020",
+    "end_date": "2021"
+  },
+  {
+    "role": "Accountant",
+    "organisation": "Varvaris & Co",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://au.linkedin.com/in/nickolas-varvaris-435621168",
+      "https://firmania.biz/kogarah/varvaris-co-919656"
+    ],
+    "pollie_slug": "nickolas-varvaris"
+  },
+  {
+    "role": "Parish President",
+    "organisation": "Greek Orthodox Parish and Community of Kogarah",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://orthodoxtimes.com/heartfelt-welcome-for-the-ecumenical-patriarch-at-the-church-of-the-resurrection-of-christ-in-kogarah/",
+      "https://greekherald.com.au/news/politics/coalition-pledge-to-upgrade-kogarah-greek-orthodox-parish-hall-if-elected/",
+      "https://greekherald.com.au/community/young-dancers-shine-at-kogarah-greek-orthodox-parishs-first-cultural-fundraiser/",
+      "https://greekherald.com.au/community/kogarah-greek-orthodox-parish-responds-to-backlash-over-changed-epitaphio-route/",
+      "https://www.facebook.com/thegreekherald/posts/parish-president-nick-varvaris-told-the-greek-herald-the-kogarah-epitaphio-route/1600239202107854/"
+    ],
+    "pollie_slug": "nickolas-varvaris"
   }
 ]
