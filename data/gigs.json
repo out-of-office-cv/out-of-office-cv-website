@@ -18539,5 +18539,36 @@
       "https://www.facebook.com/thegreekherald/posts/parish-president-nick-varvaris-told-the-greek-herald-the-kogarah-epitaphio-route/1600239202107854/"
     ],
     "pollie_slug": "nickolas-varvaris"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Cornerstone Government Relations",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://cgrp.com.au/team/graham-perrett-2/"
+    ],
+    "pollie_slug": "graham-perrett"
+  },
+  {
+    "role": "Political Contributor",
+    "organisation": "Sky News Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://tvtonight.com.au/2016/05/bronwyn-bishop-joins-sky-news.html",
+      "https://www.newcastleherald.com.au/story/3934920/bronwyn-bishops-new-tv-gig/",
+      "https://en.wikipedia.org/wiki/Bronwyn_Bishop"
+    ],
+    "pollie_slug": "bronwyn-bishop",
+    "start_date": "2016-06-02"
+  },
+  {
+    "role": "Governor Patron",
+    "organisation": "Opera Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://opera.org.au/support-us/our-patrons/",
+      "https://en.wikipedia.org/wiki/Bronwyn_Bishop"
+    ],
+    "pollie_slug": "bronwyn-bishop"
   }
 ]
