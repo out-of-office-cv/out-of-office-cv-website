@@ -18000,9 +18000,15 @@
     "category": "Legal & Judicial",
     "sources": [
       "https://en.wikipedia.org/wiki/Maurice_Neil",
-      "https://11gbc.chambers.net.au/barristers/senior-counsel/maurice-neil-rfd-qc/"
+      "https://11gbc.chambers.net.au/barristers/senior-counsel/maurice-neil-rfd-qc/",
+      "https://nswbar.asn.au/"
     ],
-    "pollie_slug": "maurice-neil"
+    "pollie_slug": "maurice-neil",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms he was 'practising at the New South Wales Bar from 1971', continuing post-parliament. Chambers website confirms current affiliation."
+    }
   },
   {
     "role": "King's Counsel",
@@ -18013,7 +18019,12 @@
       "https://11gbc.chambers.net.au/barristers/senior-counsel/maurice-neil-rfd-qc/"
     ],
     "start_date": "1985",
-    "pollie_slug": "maurice-neil"
+    "pollie_slug": "maurice-neil",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Both Wikipedia and chambers website confirm he became Queen's Counsel in 1985."
+    }
   },
   {
     "role": "Member",
@@ -18022,7 +18033,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Maurice_Neil"
     ],
-    "pollie_slug": "maurice-neil"
+    "pollie_slug": "maurice-neil",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia explicitly lists membership in NSW Council for Civil Liberties as a post-parliamentary role."
+    }
   },
   {
     "role": "Member",
@@ -18031,7 +18047,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Maurice_Neil"
     ],
-    "pollie_slug": "maurice-neil"
+    "pollie_slug": "maurice-neil",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia explicitly lists membership in NSW Council for the Ageing as a post-parliamentary role."
+    }
   },
   {
     "role": "Member",
@@ -18040,7 +18061,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Maurice_Neil"
     ],
-    "pollie_slug": "maurice-neil"
+    "pollie_slug": "maurice-neil",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms membership of 'the Australian branch of the International Commission of Jurists'."
+    }
   },
   {
     "role": "Barrister",
@@ -18049,7 +18075,12 @@
     "sources": [
       "https://11gbc.chambers.net.au/barristers/senior-counsel/maurice-neil-rfd-qc/"
     ],
-    "pollie_slug": "maurice-neil"
+    "pollie_slug": "maurice-neil",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Chambers website confirms he is currently a member of 11 Garfield Barwick Chambers in Sydney."
+    }
   },
   {
     "role": "Ambassador",
@@ -18063,7 +18094,12 @@
     ],
     "start_date": "1987",
     "end_date": "1991",
-    "pollie_slug": "donald-grimes"
+    "pollie_slug": "donald-grimes",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Australian Ambassador to the Netherlands 1987-1991. Senate biography, Wikipedia, and ambassadors list all confirm role and dates."
+    }
   },
   {
     "role": "Senior Member",
@@ -18075,7 +18111,12 @@
     ],
     "start_date": "1991",
     "end_date": "1996",
-    "pollie_slug": "donald-grimes"
+    "pollie_slug": "donald-grimes",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Senior Member of Administrative Appeals Tribunal 1991-1996. Both Senate biography and obituary cite this role."
+    }
   },
   {
     "role": "Chair",
@@ -18087,7 +18128,12 @@
     ],
     "start_date": "1992",
     "end_date": "1996",
-    "pollie_slug": "donald-grimes"
+    "pollie_slug": "donald-grimes",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Chair of Australian National Council on AIDS 1992-1996. Appointed May 1992, served through 1996."
+    }
   },
   {
     "role": "Chair",
@@ -18098,8 +18144,13 @@
       "https://oa.anu.edu.au/obituary/grimes-donald-james-don-32283"
     ],
     "start_date": "1995",
-    "end_date": "2003",
-    "pollie_slug": "donald-grimes"
+    "end_date": "2004",
+    "pollie_slug": "donald-grimes",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Chair of South Eastern Sydney and Illawarra Area Health Service. Senate biography and Wikipedia confirm role from September 1995 to February 2004."
+    }
   },
   {
     "role": "Director of Oncology",
@@ -18108,7 +18159,14 @@
     "sources": [
       "https://oa.anu.edu.au/obituary/grimes-donald-james-don-32283"
     ],
-    "pollie_slug": "donald-grimes"
+    "pollie_slug": "donald-grimes",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Director of Oncology at Gleneagles International Hospital. Obituary specifically states 1992-1993 (Kuala Lumpur Malaysia location)."
+    },
+    "start_date": "1992",
+    "end_date": "1993"
   },
   {
     "role": "Chair",
@@ -18120,7 +18178,12 @@
     ],
     "start_date": "1997",
     "end_date": "2003",
-    "pollie_slug": "donald-grimes"
+    "pollie_slug": "donald-grimes",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Chair of AusHealth International 1997-2003. Senate biography and obituary both cite this role."
+    }
   },
   {
     "role": "Principal Health Advisor",
@@ -18129,9 +18192,14 @@
     "sources": [
       "https://oa.anu.edu.au/obituary/grimes-donald-james-don-32283"
     ],
-    "start_date": "2003",
-    "end_date": "2006",
-    "pollie_slug": "donald-grimes"
+    "start_date": "2004",
+    "end_date": "2005",
+    "pollie_slug": "donald-grimes",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Principal Health Advisor to Bahrain Ministry of Health. Obituary indicates chief health advisor to Bahraini health minister 2004-2005."
+    }
   },
   {
     "role": "Member (part-time)",
@@ -18141,7 +18209,8 @@
       "https://en.wikipedia.org/wiki/Karen_Synon"
     ],
     "start_date": "2001",
-    "pollie_slug": "karen-synon"
+    "pollie_slug": "karen-synon",
+    "end_date": "2015-07-01"
   },
   {
     "role": "Member (part-time)",
@@ -18151,7 +18220,8 @@
       "https://en.wikipedia.org/wiki/Karen_Synon"
     ],
     "start_date": "2004",
-    "pollie_slug": "karen-synon"
+    "pollie_slug": "karen-synon",
+    "end_date": "2015-07-01"
   },
   {
     "role": "Member",
@@ -18163,7 +18233,12 @@
     ],
     "start_date": "2015",
     "end_date": "2021-02-21",
-    "pollie_slug": "karen-synon"
+    "pollie_slug": "karen-synon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia and Mirage News. Five-year term from 2015 aligns with appointment ending in 2021 when she was promoted to Deputy President."
+    }
   },
   {
     "role": "Deputy President and Division Head, Social Services and Child Support Division",
@@ -18176,7 +18251,12 @@
     ],
     "start_date": "2021-02-22",
     "end_date": "2024-10-11",
-    "pollie_slug": "karen-synon"
+    "pollie_slug": "karen-synon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Mirage News, Crikey, and government sources. Appointed Deputy President and Division Head 22 February 2021. AAT abolished and replaced by Administrative Review Tribunal on 14 October 2024."
+    }
   },
   {
     "role": "Director",
@@ -18187,7 +18267,12 @@
       "https://en.wikipedia.org/wiki/Karen_Synon"
     ],
     "start_date": "2019-04-05",
-    "pollie_slug": "karen-synon"
+    "pollie_slug": "karen-synon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by government press release and Wikipedia. Appointed as Independent Director to AHURI board on 5 April 2019."
+    }
   },
   {
     "role": "Solicitor",
