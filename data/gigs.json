@@ -18633,5 +18633,563 @@
       "https://en.wikipedia.org/wiki/Bronwyn_Bishop"
     ],
     "pollie_slug": "bronwyn-bishop"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Crawford Fund",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.crawfordfund.org/news/vale-tim-fisher/",
+      "https://www.croptrust.org/press-release/crop-trust-remembers-tim-fischer-former-executive-board-chair/"
+    ],
+    "pollie_slug": "tim-fischer",
+    "start_date": "2001-01-01",
+    "end_date": "2006-12-31"
+  },
+  {
+    "role": "Founding Patron",
+    "organisation": "Australia for United Nations High Commissioner for Refugees",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tim_Fischer",
+      "https://en.wikipedia.org/wiki/Australia_for_UNHCR"
+    ],
+    "pollie_slug": "tim-fischer",
+    "start_date": "2001-01-01",
+    "end_date": "2006-12-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "Fred Hollows Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.hollows.org/au/latest/vale-tim-fischer"
+    ],
+    "pollie_slug": "tim-fischer",
+    "start_date": "1999-01-01",
+    "end_date": "2003-12-31"
+  },
+  {
+    "role": "Special Envoy for the Adelaide-Darwin Railway",
+    "organisation": "Government of South Australia",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tim_Fischer",
+      "https://www.railexpress.com.au/tributes-pour-in-for-tireless-rail-advocate-tim-fischer/"
+    ],
+    "pollie_slug": "tim-fischer",
+    "start_date": "2004-01-01",
+    "end_date": "2004-12-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "FreightLink",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.aarail.com.au/corporate-structure",
+      "https://en.wikipedia.org/wiki/Tim_Fischer"
+    ],
+    "pollie_slug": "tim-fischer",
+    "start_date": "2004-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Tourism Australia",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.tourism.australia.com/en/news-and-events/news/vale-tim-fischer.html",
+      "https://en.wikipedia.org/wiki/Tim_Fischer"
+    ],
+    "pollie_slug": "tim-fischer",
+    "start_date": "2004-01-01",
+    "end_date": "2007-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Winemakers Federation of Australia",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.uow.edu.au/alumni/honorary-alumni/honorary-doctorates/timothy-fischer-ac/",
+      "https://corowarotary.jimdo.com/projects-events/current-projects/federation-dinner/"
+    ],
+    "pollie_slug": "tim-fischer"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australia Thailand Institute",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.uow.edu.au/alumni/honorary-alumni/honorary-doctorates/timothy-fischer-ac/",
+      "https://theconversation.com/tim-fischer-had-his-blind-spots-but-he-was-an-unsung-champion-of-an-asian-facing-australia-122310"
+    ],
+    "pollie_slug": "tim-fischer"
+  },
+  {
+    "role": "National Chair",
+    "organisation": "Royal Flying Doctor Service",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.uow.edu.au/alumni/honorary-alumni/honorary-doctorates/timothy-fischer-ac/",
+      "https://en.wikipedia.org/wiki/Tim_Fischer"
+    ],
+    "pollie_slug": "tim-fischer",
+    "start_date": "2007-01-01",
+    "end_date": "2008-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Victorian Rail Freight Network Review",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://railfreightalliance.com/wp-content/uploads/2014/06/Switchpoint-Fischer-Report.pdf",
+      "https://en.wikipedia.org/wiki/Tim_Fischer"
+    ],
+    "pollie_slug": "tim-fischer",
+    "start_date": "2007-01-01",
+    "end_date": "2007-12-31"
+  },
+  {
+    "role": "Co-Chair, Rural Industries and Rural Communities Working Group",
+    "organisation": "Australia 2020 Summit",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tim_Fischer",
+      "https://thereaderwiki.com/en/Australia_2020_Summit_participants"
+    ],
+    "pollie_slug": "tim-fischer",
+    "start_date": "2008-04-01",
+    "end_date": "2008-04-30"
+  },
+  {
+    "role": "Host",
+    "organisation": "Great Train Show podcast",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://player.fm/series/great-train-show-with-tim-fischer/the-great-train-show-episode-17",
+      "https://en.wikipedia.org/wiki/Tim_Fischer"
+    ],
+    "pollie_slug": "tim-fischer",
+    "start_date": "2008-01-26",
+    "end_date": "2009-12-31"
+  },
+  {
+    "role": "Ambassador to the Holy See",
+    "organisation": "Australian Department of Foreign Affairs and Trade",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://cathnews.com/cathnews/61-archive/10775-fischer-to-be-australias-resident-vatican-ambassador",
+      "https://en.wikipedia.org/wiki/Tim_Fischer"
+    ],
+    "pollie_slug": "tim-fischer",
+    "start_date": "2009-01-01",
+    "end_date": "2012-01-20"
+  },
+  {
+    "role": "Special Envoy to Bhutan, Eritrea and South Sudan",
+    "organisation": "Australian Department of Foreign Affairs and Trade",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.uow.edu.au/alumni/honorary-alumni/honorary-doctorates/timothy-fischer-ac/",
+      "https://www.ducerefoundation.org/ducere-glf-member/honorable-tim-fischer-ac"
+    ],
+    "pollie_slug": "tim-fischer",
+    "start_date": "2012-01-01"
+  },
+  {
+    "role": "Vice Chair, Executive Board",
+    "organisation": "Crop Trust",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.croptrust.org/press-release/crop-trust-remembers-tim-fischer-former-executive-board-chair/",
+      "https://www.graincentral.com/news/tim-fischer-to-step-down-from-international-crop-trust/"
+    ],
+    "pollie_slug": "tim-fischer",
+    "start_date": "2013-01-01",
+    "end_date": "2017-12-31"
+  },
+  {
+    "role": "Chair, Executive Board",
+    "organisation": "Crop Trust",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.croptrust.org/press-release/crop-trust-remembers-tim-fischer-former-executive-board-chair/",
+      "https://www.graincentral.com/news/tim-fischer-to-step-down-from-international-crop-trust/"
+    ],
+    "pollie_slug": "tim-fischer",
+    "start_date": "2017-01-01",
+    "end_date": "2019-04-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Saluting Monash Council",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.monash4fieldmarshal.org.au/Vale_Tim_Fischer.php",
+      "https://www.australianjewishnews.com/fresh-push-for-monash-promotion/"
+    ],
+    "pollie_slug": "tim-fischer",
+    "start_date": "2016-11-06",
+    "end_date": "2019-08-22"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Crawford Fund",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.crawfordfund.org/about/crawford-fund-patrons/",
+      "https://www.crawfordfund.org/news/vale-tim-fisher/"
+    ],
+    "pollie_slug": "tim-fischer",
+    "start_date": "2016-01-01",
+    "end_date": "2019-08-22"
+  },
+  {
+    "role": "Global Leaders Faculty Member",
+    "organisation": "Ducere Global Business School",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://ducere.education/faculty/hon-tim-fischer-ac/",
+      "https://www.ducerefoundation.org/ducere-glf-member/honorable-tim-fischer-ac"
+    ],
+    "pollie_slug": "tim-fischer"
+  },
+  {
+    "role": "Life Governor",
+    "organisation": "Autism Spectrum Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.autismspectrum.org.au/about-aspect/who-we-are/our-patron-life-governors-and-life-members",
+      "https://a4.org.au/node/2093"
+    ],
+    "pollie_slug": "tim-fischer"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Frontier Services",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://frontierservices.org/a-truly-wonderful-celebration/",
+      "https://corowarotary.jimdo.com/projects-events/current-projects/federation-dinner/"
+    ],
+    "pollie_slug": "tim-fischer"
+  },
+  {
+    "role": "Patron",
+    "organisation": "TrackSAFE Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://tracksafefoundation.com.au/",
+      "https://www.uow.edu.au/alumni/honorary-alumni/honorary-doctorates/timothy-fischer-ac/"
+    ],
+    "pollie_slug": "tim-fischer"
+  },
+  {
+    "role": "Patron",
+    "organisation": "National Railway Museum, Port Adelaide",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.facebook.com/NRMPortAdelaide/posts/tim-fischer-nrm-patron-after-a-long-association-with-the-national-railway-museum/10153063849539602/"
+    ],
+    "pollie_slug": "tim-fischer"
+  },
+  {
+    "role": "Proprietor",
+    "organisation": "Victorian Equestrian Centre",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ken_Aldred",
+      "https://pakenham.starcommunity.com.au/gazette/2008-07-18/fire-refuge-row-heats-up/",
+      "https://pakenhamgazette.com.au/gazette/2018-06-26/new-horsey-home-no-long-faces/"
+    ],
+    "pollie_slug": "kenneth-aldred",
+    "start_date": "1996-12-01",
+    "end_date": "2016-04-17"
+  },
+  {
+    "role": "President",
+    "organisation": "Society of Australian Industry and Employment",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ken_Aldred",
+      "https://www.wikiwand.com/en/articles/Ken_Aldred"
+    ],
+    "pollie_slug": "kenneth-aldred",
+    "start_date": "2001-01-01",
+    "end_date": "2008-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Society of Australian Industry and Employment",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ken_Aldred",
+      "https://www.wikiwand.com/en/articles/Ken_Aldred"
+    ],
+    "pollie_slug": "kenneth-aldred",
+    "start_date": "2001-01-01",
+    "end_date": "2008-12-31"
+  },
+  {
+    "role": "Lobbyist",
+    "organisation": "Halden Burns",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ruth_Webber"
+    ],
+    "pollie_slug": "ruth-webber",
+    "start_date": "2008-07-01",
+    "end_date": "2010-06-30"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Ruth Webber Consulting",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://rocketreach.co/ruth-webber-email_193290957"
+    ],
+    "pollie_slug": "ruth-webber",
+    "start_date": "2008-01-01",
+    "end_date": "2014-12-31"
+  },
+  {
+    "role": "Deputy President",
+    "organisation": "Mental Illness Fellowship of Western Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ruth_Webber"
+    ],
+    "pollie_slug": "ruth-webber"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Women's Health Works",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ruth_Webber"
+    ],
+    "pollie_slug": "ruth-webber"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Carers Western Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ruth_Webber"
+    ],
+    "pollie_slug": "ruth-webber"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Down Syndrome Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ruth_Webber",
+      "https://www.afdo.org.au/step-in-the-right-direction-on-federal-funding/"
+    ],
+    "pollie_slug": "ruth-webber",
+    "start_date": "2015-01-01",
+    "end_date": "2016-06-30"
+  },
+  {
+    "role": "Director",
+    "organisation": "Bluestone Consulting Pty Ltd",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://rocketreach.co/ruth-webber-email_193290957",
+      "https://www.zoominfo.com/p/Ruth-Webber/1532695828"
+    ],
+    "pollie_slug": "ruth-webber",
+    "start_date": "2016-01-01"
+  },
+  {
+    "role": "Advisor",
+    "organisation": "Office of Senator Glenn Sterle",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.linkedin.com/in/ruth-webber-007ab019b/"
+    ],
+    "pollie_slug": "ruth-webber"
+  },
+  {
+    "role": "Advisor",
+    "organisation": "Office of Senator Sue Lines, President of the Senate",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.linkedin.com/in/ruth-webber-007ab019b/"
+    ],
+    "pollie_slug": "ruth-webber"
+  },
+  {
+    "role": "Chair of Council",
+    "organisation": "Wesley College Perth",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Peter-Shack"
+    ],
+    "pollie_slug": "peter-shack",
+    "end_date": "2012-12-31"
+  },
+  {
+    "role": "Contributor",
+    "organisation": "Spectator Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.spectator.com.au/author/peter-shack/"
+    ],
+    "pollie_slug": "peter-shack"
+  },
+  {
+    "role": "Ambassador to Italy and San Marino",
+    "organisation": "Australian Department of Foreign Affairs and Trade",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Amanda_Vanstone",
+      "https://www.womenaustralia.info/entries/vanstone-amanda-eloise/"
+    ],
+    "pollie_slug": "amanda-vanstone",
+    "start_date": "2007-06-01",
+    "end_date": "2010-05-01"
+  },
+  {
+    "role": "Presenter",
+    "organisation": "Australian Broadcasting Corporation Radio National Counterpoint",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Counterpoint_(Radio_National)",
+      "https://radioinfo.com.au/hotoffthenet/vanstone-permanent-counterpoint-voice/",
+      "https://muckrack.com/amanda-vanstone"
+    ],
+    "pollie_slug": "amanda-vanstone",
+    "start_date": "2013-01-01",
+    "end_date": "2024-01-15"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "National Commission of Audit",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/National_Commission_of_Audit",
+      "https://ministers.treasury.gov.au/ministers/joe-hockey-2015/media-releases/coalition-commences-national-commission-audit"
+    ],
+    "pollie_slug": "amanda-vanstone",
+    "start_date": "2013-10-22",
+    "end_date": "2014-03-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "Port Adelaide Football Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.portadelaidefc.com.au/news/134130/vanstone-joins-board"
+    ],
+    "pollie_slug": "amanda-vanstone",
+    "start_date": "2012-10-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Lockheed Martin Australia",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://lockheedmartinau.mediaroom.com/20181205-The-Hon-Amanda-Vanstone-Joins-Lockheed-Martin-Australia-Board"
+    ],
+    "pollie_slug": "amanda-vanstone",
+    "start_date": "2018-12-03"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Woomera Prohibited Area Advisory Board",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://michaelwest.com.au/the-hon-amanda-vanstone-ao/",
+      "https://www.directory.gov.au/people/amanda-vanstone"
+    ],
+    "pollie_slug": "amanda-vanstone",
+    "start_date": "2017-11-14",
+    "end_date": "2025-06-30"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Vision 2020 Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.visionaustralia.org/news/2019-08-23/amanda-vanstone-announced-new-chair-vision-2020-australia",
+      "https://vision2020australia.org.au/media/2020-11-11/amanda-vanstone-ends-term-as-chair-at-vision-2020-australia-agm/"
+    ],
+    "pollie_slug": "amanda-vanstone",
+    "start_date": "2014-06-01",
+    "end_date": "2020-11-11"
+  },
+  {
+    "role": "Federation Board Chair",
+    "organisation": "Royal Flying Doctor Service of Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.flyingdoctor.org.au/news/hon-amanda-vanstone-awarded-ao/",
+      "https://www.flyingdoctor.org.au/news/new-board-chair-deputy-chair-rfds/"
+    ],
+    "pollie_slug": "amanda-vanstone",
+    "start_date": "2013-01-01",
+    "end_date": "2019-12-11"
+  },
+  {
+    "role": "Director",
+    "organisation": "Adelaide Festival of Arts",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.broadwayworld.com/adelaide/article/The-Hon-Amanda-Vanstone-Joins-Adelaide-Festival-Board-20160801",
+      "https://2025.adelaidefestival.com.au/about/staff-and-board/"
+    ],
+    "pollie_slug": "amanda-vanstone",
+    "start_date": "2016-08-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Anne and Gordon Samstag Museum of Art",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://docslib.org/doc/3949134/the-hon-amanda-vanstone",
+      "https://samstag.adelaide.edu.au/team/"
+    ],
+    "pollie_slug": "amanda-vanstone",
+    "start_date": "2015-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "DrinkWise Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://drinkwise.org.au/about-us/drinkwise-board-of-directors/",
+      "https://michaelwest.com.au/the-hon-amanda-vanstone-ao/"
+    ],
+    "pollie_slug": "amanda-vanstone"
+  },
+  {
+    "role": "Advisory Board Member",
+    "organisation": "Institute for International Trade, University of Adelaide",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://adelaide.edu.au/research/institute-for-international-trade/our-people/"
+    ],
+    "pollie_slug": "amanda-vanstone"
+  },
+  {
+    "role": "Member",
+    "organisation": "Referendum Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.referendumcouncil.org.au/council/amanda-vanstone.html"
+    ],
+    "pollie_slug": "amanda-vanstone",
+    "start_date": "2015-12-07",
+    "end_date": "2017-07-01"
+  },
+  {
+    "role": "Opinion Columnist",
+    "organisation": "The Age",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://muckrack.com/amanda-vanstone/articles"
+    ],
+    "pollie_slug": "amanda-vanstone"
   }
 ]
