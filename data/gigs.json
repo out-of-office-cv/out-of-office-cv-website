@@ -7561,7 +7561,11 @@
     ],
     "pollie_slug": "michael-duffy",
     "start_date": "2001-01-01",
-    "end_date": "2007-12-01"
+    "end_date": "2007-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
@@ -7572,7 +7576,11 @@
       "https://www.thoroughbrednews.com.au/news/story/michael-duffy-appointed-chairman-of-rvl-32609?section=Australia"
     ],
     "pollie_slug": "michael-duffy",
-    "start_date": "2007-12-01"
+    "start_date": "2007-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
@@ -7582,7 +7590,11 @@
       "https://www.austrainers.com.au/michael-duffy-elected-australian-racing-board-chairman-national-02-may-2012/"
     ],
     "pollie_slug": "michael-duffy",
-    "start_date": "2012-05-02"
+    "start_date": "2012-05-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Global Board Director",
@@ -7617,27 +7629,45 @@
     "organisation": "Southern Cross University",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://theconversation.com/profiles/mary-crawford-13172"
+      "https://theconversation.com/profiles/mary-crawford-13172",
+      "https://en.wikipedia.org/wiki/Mary_Crawford_(politician)",
+      "https://www.qut.edu.au/about/our-people/academic-profiles/m.crawford"
     ],
-    "pollie_slug": "mary-crawford"
+    "pollie_slug": "mary-crawford",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Visitor, School of Management",
     "organisation": "Queensland University of Technology",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://theconversation.com/profiles/mary-crawford-13172"
+      "https://theconversation.com/profiles/mary-crawford-13172",
+      "https://en.wikipedia.org/wiki/Mary_Crawford_(politician)",
+      "https://www.qut.edu.au/about/our-people/academic-profiles/m.crawford"
     ],
-    "pollie_slug": "mary-crawford"
+    "pollie_slug": "mary-crawford",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
     "organisation": "National Foundation for Australian Women",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://theconversation.com/profiles/mary-crawford-13172"
+      "https://theconversation.com/profiles/mary-crawford-13172",
+      "https://www.womenaustralia.info/entries/crawford-mary-catherine/",
+      "https://nfaw.org/board-of-directors/"
     ],
-    "pollie_slug": "mary-crawford"
+    "pollie_slug": "mary-crawford",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Queensland President",
@@ -9152,9 +9182,14 @@
     "organisation": "Asia Society",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Michael_Johnson_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Michael_Johnson_(Australian_politician)",
+      "https://asiasociety.org/about/global-council"
     ],
-    "pollie_slug": "michael-johnson"
+    "pollie_slug": "michael-johnson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairperson",
@@ -10087,7 +10122,11 @@
     ],
     "pollie_slug": "michael-ferguson",
     "start_date": "2007-12-01",
-    "end_date": "2010-03-20"
+    "end_date": "2010-03-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member for Bass",
@@ -10098,7 +10137,11 @@
       "https://en.wikipedia.org/wiki/Michael_Ferguson_(Australian_politician)"
     ],
     "pollie_slug": "michael-ferguson",
-    "start_date": "2010-03-20"
+    "start_date": "2010-03-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Premier of Tasmania",
@@ -10109,7 +10152,11 @@
     ],
     "pollie_slug": "michael-ferguson",
     "start_date": "2022-04-08",
-    "end_date": "2024-10-14"
+    "end_date": "2024-10-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Managing Director",
@@ -12459,7 +12506,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/David_Connolly_(politician)"
     ],
-    "pollie_slug": "david-connolly"
+    "pollie_slug": "david-connolly",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -12469,7 +12520,11 @@
       "https://en.wikipedia.org/wiki/David_Connolly_(politician)",
       "https://www.ricewarner.com/vale-rice-warner/"
     ],
-    "pollie_slug": "david-connolly"
+    "pollie_slug": "david-connolly",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Part-Time Member",
@@ -12480,7 +12535,11 @@
     ],
     "pollie_slug": "david-connolly",
     "start_date": "2002-01-01",
-    "end_date": "2010-12-31"
+    "end_date": "2010-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Part-Time Member",
@@ -12491,7 +12550,11 @@
     ],
     "pollie_slug": "david-connolly",
     "start_date": "2006-01-01",
-    "end_date": "2011-12-31"
+    "end_date": "2011-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founder and Director",
