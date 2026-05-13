@@ -18639,12 +18639,15 @@
     "organisation": "Crawford Fund",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
-      "https://www.crawfordfund.org/news/vale-tim-fisher/",
-      "https://www.croptrust.org/press-release/crop-trust-remembers-tim-fischer-former-executive-board-chair/"
+      "https://www.crawfordfund.org/news/vale-tim-fisher/"
     ],
     "pollie_slug": "tim-fischer",
     "start_date": "2001-01-01",
-    "end_date": "2006-12-31"
+    "end_date": "2006-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founding Patron",
@@ -18656,7 +18659,11 @@
     ],
     "pollie_slug": "tim-fischer",
     "start_date": "2001-01-01",
-    "end_date": "2006-12-31"
+    "end_date": "2006-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -18674,12 +18681,15 @@
     "organisation": "Government of South Australia",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://en.wikipedia.org/wiki/Tim_Fischer",
-      "https://www.railexpress.com.au/tributes-pour-in-for-tireless-rail-advocate-tim-fischer/"
+      "https://en.wikipedia.org/wiki/Tim_Fischer"
     ],
     "pollie_slug": "tim-fischer",
     "start_date": "2004-01-01",
-    "end_date": "2004-12-31"
+    "end_date": "2004-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -18702,7 +18712,11 @@
     ],
     "pollie_slug": "tim-fischer",
     "start_date": "2004-01-01",
-    "end_date": "2007-12-31"
+    "end_date": "2007-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -18729,12 +18743,15 @@
     "organisation": "Royal Flying Doctor Service",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://www.uow.edu.au/alumni/honorary-alumni/honorary-doctorates/timothy-fischer-ac/",
       "https://en.wikipedia.org/wiki/Tim_Fischer"
     ],
     "pollie_slug": "tim-fischer",
     "start_date": "2007-01-01",
-    "end_date": "2008-12-31"
+    "end_date": "2008-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -18777,23 +18794,29 @@
     "organisation": "Australian Department of Foreign Affairs and Trade",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://cathnews.com/cathnews/61-archive/10775-fischer-to-be-australias-resident-vatican-ambassador",
       "https://en.wikipedia.org/wiki/Tim_Fischer"
     ],
     "pollie_slug": "tim-fischer",
     "start_date": "2009-01-01",
-    "end_date": "2012-01-20"
+    "end_date": "2012-01-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Special Envoy to Bhutan, Eritrea and South Sudan",
     "organisation": "Australian Department of Foreign Affairs and Trade",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://www.uow.edu.au/alumni/honorary-alumni/honorary-doctorates/timothy-fischer-ac/",
       "https://www.ducerefoundation.org/ducere-glf-member/honorable-tim-fischer-ac"
     ],
     "pollie_slug": "tim-fischer",
-    "start_date": "2012-01-01"
+    "start_date": "2012-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Vice Chair, Executive Board",
@@ -18805,7 +18828,11 @@
     ],
     "pollie_slug": "tim-fischer",
     "start_date": "2013-01-01",
-    "end_date": "2017-12-31"
+    "end_date": "2019-04-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Executive Board",
@@ -18817,7 +18844,11 @@
     ],
     "pollie_slug": "tim-fischer",
     "start_date": "2017-01-01",
-    "end_date": "2019-04-01"
+    "end_date": "2019-04-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -18836,12 +18867,15 @@
     "organisation": "Crawford Fund",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
-      "https://www.crawfordfund.org/about/crawford-fund-patrons/",
-      "https://www.crawfordfund.org/news/vale-tim-fisher/"
+      "https://www.crawfordfund.org/about/crawford-fund-patrons/"
     ],
     "pollie_slug": "tim-fischer",
     "start_date": "2016-01-01",
-    "end_date": "2019-08-22"
+    "end_date": "2019-08-22",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Global Leaders Faculty Member",
@@ -18851,7 +18885,11 @@
       "https://ducere.education/faculty/hon-tim-fischer-ac/",
       "https://www.ducerefoundation.org/ducere-glf-member/honorable-tim-fischer-ac"
     ],
-    "pollie_slug": "tim-fischer"
+    "pollie_slug": "tim-fischer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Life Governor",
@@ -18861,7 +18899,12 @@
       "https://www.autismspectrum.org.au/about-aspect/who-we-are/our-patron-life-governors-and-life-members",
       "https://a4.org.au/node/2093"
     ],
-    "pollie_slug": "tim-fischer"
+    "pollie_slug": "tim-fischer",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Tim Fischer is not listed as a Life Governor on Autism Spectrum Australia's official roster; source search confirms absence from official list"
+    }
   },
   {
     "role": "Patron",
@@ -18890,7 +18933,11 @@
     "sources": [
       "https://www.facebook.com/NRMPortAdelaide/posts/tim-fischer-nrm-patron-after-a-long-association-with-the-national-railway-museum/10153063849539602/"
     ],
-    "pollie_slug": "tim-fischer"
+    "pollie_slug": "tim-fischer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Proprietor",
