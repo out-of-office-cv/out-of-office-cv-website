@@ -19561,5 +19561,382 @@
       "https://www.monash.edu/alumni/alumni-events/graduation/speaker-profiles/october-2018/ms-anna-burke"
     ],
     "pollie_slug": "anna-burke"
+  },
+  {
+    "role": "Partner",
+    "organisation": "Carroll & O'Dea Lawyers",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.lawyersweekly.com.au/appointments/16599-former-a-g-welcomed-as-judge"
+    ],
+    "pollie_slug": "robert-mcclelland",
+    "start_date": "2013-08-05",
+    "end_date": "2015-06-16"
+  },
+  {
+    "role": "Judge",
+    "organisation": "Family Court of Australia",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://nswbar.asn.au/the-bar-association/publications/inbrief/view/e371c68ea0afb7756df68340801b16f2",
+      "https://www.lawyersweekly.com.au/appointments/16599-former-a-g-welcomed-as-judge",
+      "https://en.wikipedia.org/wiki/Robert_McClelland_(Australian_politician)"
+    ],
+    "pollie_slug": "robert-mcclelland",
+    "start_date": "2015-06-16"
+  },
+  {
+    "role": "Deputy Chief Justice",
+    "organisation": "Federal Circuit and Family Court of Australia",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robert_McClelland_(Australian_politician)",
+      "https://www.fcfcoa.gov.au/judges/judges/dcj",
+      "https://www.lexology.com/library/detail.aspx?g=eabc22e8-3ee4-4c41-a16a-0552a849a802"
+    ],
+    "pollie_slug": "robert-mcclelland",
+    "start_date": "2018-12-10"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Family Law Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.markdreyfus.com/media/media-releases/appointments-to-the-family-law-council-mark-dreyfus-kc-mp/",
+      "https://www.miragenews.com/appointments-to-family-law-council-1415007/",
+      "https://www.marinerescuensw.com.au/bios/"
+    ],
+    "pollie_slug": "robert-mcclelland",
+    "start_date": "2021-12-01",
+    "end_date": "2024-12-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "Marine Rescue New South Wales",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.marinerescuensw.com.au/bios/"
+    ],
+    "pollie_slug": "robert-mcclelland"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Advisory Council on the Medicinal Use of Cannabis",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.sbs.com.au/news/article/former-liberal-to-head-up-cannabis-council/wkqnqkk03",
+      "https://www.indaily.com.au/news/local/2017/01/09/medical-marijuana-adviser-southcott-stands-by-cannabis-criticism",
+      "https://cannabislaw.report/australia-australian-medical-cannabis-signpost-documents-the-murky-world-of-cannabis-legislation-down-under/"
+    ],
+    "pollie_slug": "andrew-southcott",
+    "start_date": "2016-12-23"
+  },
+  {
+    "role": "General Practitioner",
+    "organisation": "Better Medical",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://au.linkedin.com/in/andrew-southcott-27a3ba68",
+      "https://flagstaffhillmedicalcentre.com.au/the-practice/doctors/dr-andrew-southcott",
+      "https://www.ausdoc.com.au/news/road-less-travelled-dr-southcotts-journey-federal-mp-gp/"
+    ],
+    "pollie_slug": "andrew-southcott",
+    "start_date": "2018"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Hawker Britton",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.hawkerbritton.com/wp-content/uploads/2017/03/Jan%20McLucas%20(March%2012)(1).pdf"
+    ],
+    "pollie_slug": "jan-mclucas",
+    "start_date": "2017"
+  },
+  {
+    "role": "Co-Chair, Consumer Reference Group",
+    "organisation": "FNQ Connect",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.tandfonline.com/doi/full/10.1080/09638288.2023.2205172"
+    ],
+    "pollie_slug": "jan-mclucas"
+  },
+  {
+    "role": "Advisory Board Member",
+    "organisation": "Sea Shepherd Conservation Society",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://tasmaniantimes.com/2008/01/ian-campbell-joins-sea-shepherd-board/",
+      "https://www.businessnews.com.au/Person/Ian-Campbell-0"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2008"
+  },
+  {
+    "role": "Director",
+    "organisation": "Austal",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.maynereport.com/articles/2009/11/23-1615-6931.html",
+      "https://www.marketscreener.com/insider/IAN-CAMPBELL-A0I51K/"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2007",
+    "end_date": "2012"
+  },
+  {
+    "role": "Director",
+    "organisation": "Solco",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://www.maynereport.com/articles/2009/11/23-1615-6931.html",
+      "https://www.marketscreener.com/insider/IAN-CAMPBELL-A0I51K/"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2007",
+    "end_date": "2015"
+  },
+  {
+    "role": "Director",
+    "organisation": "ASG Group",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://www.maynereport.com/articles/2009/11/23-1615-6931.html",
+      "https://theorg.com/org/asg-group/org-chart/ian-campbell",
+      "https://www.businessnews.com.au/article/350m-offer-for-ASG-Group"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2007"
+  },
+  {
+    "role": "Director",
+    "organisation": "Proto Resources & Investments",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.marketscreener.com/insider/IAN-CAMPBELL-A0I51K/"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2008",
+    "end_date": "2013"
+  },
+  {
+    "role": "Director",
+    "organisation": "GO Energy Group",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://www.marketscreener.com/insider/IAN-CAMPBELL-A0I51K/"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2007",
+    "end_date": "2015"
+  },
+  {
+    "role": "Director",
+    "organisation": "NRI Australia",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://www.marketscreener.com/insider/IAN-CAMPBELL-A0I51K/"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2007",
+    "end_date": "2014"
+  },
+  {
+    "role": "Chair",
+    "organisation": "North West Infrastructure",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://people.equilar.com/bio/person/ian-campbell-nwioa-ops-pty-ltd/36257863",
+      "https://www.waterwest.com.au/2014/08/12/media-release-hon-ian-campbell-joins-water-wests-advisory-panel/",
+      "https://www.marketscreener.com/insider/IAN-CAMPBELL-A0I51K/"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2009-10"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Volt Group",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://www.marketscreener.com/insider/IAN-CAMPBELL-A0I51K/"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2009",
+    "end_date": "2013"
+  },
+  {
+    "role": "Director",
+    "organisation": "Brookfield Financial",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.waterwest.com.au/2014/08/12/media-release-hon-ian-campbell-joins-water-wests-advisory-panel/",
+      "https://www.marketscreener.com/insider/IAN-CAMPBELL-A0I51K/"
+    ],
+    "pollie_slug": "ian-campbell"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Princess Margaret Hospital Foundation",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.marketscreener.com/insider/IAN-CAMPBELL-A0I51K/",
+      "https://people.equilar.com/bio/person/ian-campbell-nwioa-ops-pty-ltd/36257863"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2009"
+  },
+  {
+    "role": "Advisory Panel Member",
+    "organisation": "Water West",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.waterwest.com.au/2014/08/12/media-release-hon-ian-campbell-joins-water-wests-advisory-panel/"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2014-08"
+  },
+  {
+    "role": "Group Executive",
+    "organisation": "Brookfield Asset Management",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://apac.bgis.com/news-and-insights/news/bgis-appoints-the-hon-ian-g-campbell/",
+      "https://pchf.org.au/who-we-are/",
+      "https://wahtn.org/blog/2022/03/11/wahtn-welcomes-new-chairman-of-the-board/"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2011"
+  },
+  {
+    "role": "Chair",
+    "organisation": "ASG Group",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://theorg.com/org/asg-group/org-chart/ian-campbell",
+      "https://www.businessnews.com.au/article/350m-offer-for-ASG-Group"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2015",
+    "end_date": "2016"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "ASG Group",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://theorg.com/org/asg-group/org-chart/ian-campbell",
+      "https://www.businessnews.com.au/article/350m-offer-for-ASG-Group"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2016"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Australian National Maritime Museum",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.sea.museum/about/about-the-museum/our-people/museum-council"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2014-12-12",
+    "end_date": "2024-02-16"
+  },
+  {
+    "role": "Director, Global Advisory Board",
+    "organisation": "BGIS",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://apac.bgis.com/news-and-insights/news/bgis-appoints-the-hon-ian-g-campbell/"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2019-11-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Perth Children's Hospital Foundation",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://pchf.org.au/who-we-are/",
+      "https://www.health.gov.au/ministers/the-hon-greg-hunt-mp/media/new-hope-and-help-for-wa-children-with-life-limiting-illness"
+    ],
+    "pollie_slug": "ian-campbell"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Western Australian Health Translation Network",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://wahtn.org/blog/2022/03/11/wahtn-welcomes-new-chairman-of-the-board/",
+      "https://www.wa.gov.au/government/media-statements/McGowan%20Labor%20Government/New-Chair-of-Western-Australian-Health-Translation-Network-20220311"
+    ],
+    "pollie_slug": "ian-campbell",
+    "start_date": "2022-03"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Harry Butler Institute, Murdoch University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.sea.museum/about/about-the-museum/our-people/museum-council",
+      "https://wahtn.org/blog/2022/03/11/wahtn-welcomes-new-chairman-of-the-board/"
+    ],
+    "pollie_slug": "ian-campbell"
+  },
+  {
+    "role": "Ambassador",
+    "organisation": "Captain Paul Watson Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.zoominfo.com/p/Ian-Campbell/2446161393",
+      "https://au.linkedin.com/in/ian-campbell-39b91a30/"
+    ],
+    "pollie_slug": "ian-campbell"
+  },
+  {
+    "role": "Founder",
+    "organisation": "Quantm",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alan_Griffiths",
+      "https://michaelwest.com.au/alan-griffiths/"
+    ],
+    "pollie_slug": "alan-griffiths",
+    "start_date": "1996",
+    "end_date": "2006"
+  },
+  {
+    "role": "Director",
+    "organisation": "Guildford Coal",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alan_Griffiths",
+      "https://michaelwest.com.au/alan-griffiths/",
+      "https://announcements.asx.com.au/asxpdf/20130315/pdf/42dpqvm3nk62gj.pdf"
+    ],
+    "pollie_slug": "alan-griffiths",
+    "start_date": "2010-12",
+    "end_date": "2014"
+  },
+  {
+    "role": "Executive Chair and Co-founder",
+    "organisation": "Shopitize",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alan_Griffiths",
+      "https://michaelwest.com.au/alan-griffiths/"
+    ],
+    "pollie_slug": "alan-griffiths",
+    "start_date": "2010"
+  },
+  {
+    "role": "Member, President's Council",
+    "organisation": "International Crisis Group",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alan_Griffiths",
+      "https://www.sourcewatch.org/index.php/International_Crisis_Group"
+    ],
+    "pollie_slug": "alan-griffiths"
   }
 ]
