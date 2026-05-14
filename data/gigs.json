@@ -20609,5 +20609,292 @@
     ],
     "pollie_slug": "john-cherry",
     "start_date": "2013"
+  },
+  {
+    "role": "National President",
+    "organisation": "Australian Labor Party",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barry_Jones_(Australian_politician)",
+      "https://www.eoas.info/biogs/P007106b.htm"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "1998-09-01",
+    "end_date": "2000-12-31"
+  },
+  {
+    "role": "National President",
+    "organisation": "Australian Labor Party",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barry_Jones_(Australian_politician)",
+      "https://www.eoas.info/biogs/P007106b.htm"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "2005-01-01",
+    "end_date": "2006-12-31"
+  },
+  {
+    "role": "Adjunct Professor",
+    "organisation": "Monash University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barry_Jones_(Australian_politician)",
+      "https://www.eoas.info/biogs/P007106b.htm",
+      "https://www.penington.org.au/the-people/patrons/professor-the-hon-barry-jones-ac/"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "1999-01-01"
+  },
+  {
+    "role": "Visiting Fellow Commoner",
+    "organisation": "Trinity College, University of Cambridge",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barry_Jones_(Australian_politician)",
+      "https://www.eoas.info/biogs/P007106b.htm"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "1999-01-01"
+  },
+  {
+    "role": "Vice-President",
+    "organisation": "Australian International Council on Monuments and Sites",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.eoas.info/biogs/P007106b.htm"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "1998-01-01",
+    "end_date": "2004-12-31"
+  },
+  {
+    "role": "Member of Committee",
+    "organisation": "Cooperative Research Centre for Coastal Zone, Estuary and Waterway Management",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.eoas.info/biogs/P007106b.htm",
+      "https://www.eoas.info/biogs/A001992b.htm"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "1999-01-01",
+    "end_date": "2002-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Port Arthur Historic Site Management Authority",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barry_Jones_(Australian_politician)",
+      "https://www.eoas.info/biogs/P007106b.htm",
+      "https://en-academic.com/dic.nsf/enwiki/949857"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "2000-01-01",
+    "end_date": "2012-12-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "Macfarlane Burnet Institute for Medical Research and Public Health",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.eoas.info/biogs/P007106b.htm",
+      "https://www.burnet.edu.au/media/ea2bx3dh/annual_financial_report_2012_-_directors__report.pdf"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "2000-01-01",
+    "end_date": "2012-05-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Victorian Schools Innovation Commission",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barry_Jones_(Australian_politician)",
+      "https://www.eoas.info/biogs/P007106b.htm"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "2001-01-01",
+    "end_date": "2005-12-31"
+  },
+  {
+    "role": "Fellow",
+    "organisation": "Royal Society of Victoria",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.eoas.info/biogs/P007106b.htm"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "2001-01-01"
+  },
+  {
+    "role": "Member",
+    "organisation": "Australian Stem Cell Centre",
+    "category": "Pharmaceutical & Biotechnology",
+    "sources": [
+      "https://www.eoas.info/biogs/P007106b.htm"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "2002-01-01",
+    "end_date": "2008-12-31"
+  },
+  {
+    "role": "Member",
+    "organisation": "Centre for Eye Research Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.eoas.info/biogs/P007106b.htm",
+      "https://www.eoas.info/biogs/A002173b.htm"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "2002-01-01",
+    "end_date": "2012-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Vision 2020 Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barry_Jones_(Australian_politician)",
+      "https://www.eoas.info/biogs/P007106b.htm",
+      "https://www.visionaustralia.org/community/news/2019-08-23/amanda-vanstone-announced-new-chair-vision-2020-australia",
+      "https://mivision.com.au/2021/12/assoc-prof-rallah-baker-delivers-barry-jones-vision-oration/"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "2002-01-01",
+    "end_date": "2014-12-31"
+  },
+  {
+    "role": "Chair, Knowledge Nation Taskforce",
+    "organisation": "Chifley Research Centre",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barry_Jones_(Australian_politician)",
+      "https://en.wikipedia.org/wiki/Knowledge_Nation"
+    ],
+    "pollie_slug": "barry-jones"
+  },
+  {
+    "role": "Vice-Chancellor's Fellow",
+    "organisation": "University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barry_Jones_(Australian_politician)",
+      "https://www.eoas.info/biogs/P007106b.htm"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "2005-01-01",
+    "end_date": "2007-12-31"
+  },
+  {
+    "role": "Professorial Fellow",
+    "organisation": "University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barry_Jones_(Australian_politician)",
+      "https://www.eoas.info/biogs/P007106b.htm",
+      "https://findanexpert.unimelb.edu.au/profile/135889-barry-jones"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "2007-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Victorian Opera",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barry_Jones_(Australian_politician)",
+      "https://www.eoas.info/biogs/P007106b.htm",
+      "https://www.victorianopera.com.au/wp-content/uploads/2023/02/Victorian-Opera-2008-Annual-Report.pdf"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "2008-10-31",
+    "end_date": "2015-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Book Industry Strategy Group",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barry_Jones_(Australian_politician)",
+      "https://en.wikipedia.org/wiki/Book_Industry_Strategy_Group",
+      "https://www.eoas.info/biogs/P007106b.htm"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "2010-04-09",
+    "end_date": "2011-09-30"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Penington Institute",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.penington.org.au/the-people/patrons/professor-the-hon-barry-jones-ac/"
+    ],
+    "pollie_slug": "barry-jones"
+  },
+  {
+    "role": "Advisory Council Member",
+    "organisation": "CARE Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.care.org.au/who-we-are/staff-board/",
+      "https://sourcewatch.org/index.php?title=Barry_Jones_%28ALP%29"
+    ],
+    "pollie_slug": "barry-jones"
+  },
+  {
+    "role": "Brains Trust Panellist",
+    "organisation": "Einstein Factor (Australian Broadcasting Corporation)",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Einstein_Factor",
+      "https://en.wikipedia.org/wiki/Barry_Jones_(Australian_politician)"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "2004-01-01",
+    "end_date": "2009-11-22"
+  },
+  {
+    "role": "Advisory Council Member",
+    "organisation": "Climate 200",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.climate200.com.au/about-us",
+      "https://en.wikipedia.org/wiki/Climate_200"
+    ],
+    "pollie_slug": "barry-jones",
+    "start_date": "2022-01-01"
+  },
+  {
+    "role": "Founding Chair, Advisory Board",
+    "organisation": "In2science",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barry_Jones_(Australian_politician)",
+      "https://in2science.org.au/about/advisory-board/"
+    ],
+    "pollie_slug": "barry-jones"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Macquarie Health Corporation",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://biography.senate.gov.au/woods-robert-leslie/",
+      "https://www.bmartin.cc/dissent/documents/health/wenkart.html"
+    ],
+    "pollie_slug": "bob-woods",
+    "start_date": "1997"
+  },
+  {
+    "role": "Director",
+    "organisation": "Healthwoods Group",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://biography.senate.gov.au/woods-robert-leslie/"
+    ],
+    "pollie_slug": "bob-woods",
+    "start_date": "2001"
   }
 ]
