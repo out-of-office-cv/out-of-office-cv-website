@@ -19366,7 +19366,11 @@
       "https://christine-milne.com/my-work"
     ],
     "pollie_slug": "christine-milne",
-    "start_date": "2015-07-01"
+    "start_date": "2015-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
@@ -19377,7 +19381,11 @@
       "https://greens.org.au/tas/person/christine-milne",
       "https://christine-milne.com/my-work"
     ],
-    "pollie_slug": "christine-milne"
+    "pollie_slug": "christine-milne",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
@@ -19388,7 +19396,11 @@
       "https://greens.org.au/tas/person/christine-milne",
       "https://solarheadofstate.org/christine-milne"
     ],
-    "pollie_slug": "christine-milne"
+    "pollie_slug": "christine-milne",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -19399,7 +19411,11 @@
       "https://greens.org.au/tas/person/christine-milne",
       "https://solarheadofstate.org/christine-milne"
     ],
-    "pollie_slug": "christine-milne"
+    "pollie_slug": "christine-milne",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -19409,7 +19425,11 @@
       "https://christine-milne.com/my-work",
       "https://greens.org.au/tas/person/christine-milne"
     ],
-    "pollie_slug": "christine-milne"
+    "pollie_slug": "christine-milne",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -19420,7 +19440,11 @@
       "https://christine-milne.com/my-work",
       "https://solarheadofstate.org/christine-milne"
     ],
-    "pollie_slug": "christine-milne"
+    "pollie_slug": "christine-milne",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -19430,7 +19454,11 @@
       "https://solarheadofstate.org/christine-milne",
       "https://christine-milne.com/my-work"
     ],
-    "pollie_slug": "christine-milne"
+    "pollie_slug": "christine-milne",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -19440,7 +19468,11 @@
       "https://christine-milne.com/my-work",
       "https://greens.org.au/tas/person/christine-milne"
     ],
-    "pollie_slug": "christine-milne"
+    "pollie_slug": "christine-milne",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Associate",
@@ -19451,7 +19483,11 @@
       "https://greens.org.au/tas/person/christine-milne",
       "https://www.sydney.edu.au/arts/sdn/resources/podcasts.shtml"
     ],
-    "pollie_slug": "christine-milne"
+    "pollie_slug": "christine-milne",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -19460,7 +19496,11 @@
     "sources": [
       "https://www.facebook.com/Bob.Brown.Foundation/videos/our-foundations-patron-christine-milne-talking-about-the-threat-of-the-proposed-/2761255914068617/"
     ],
-    "pollie_slug": "christine-milne"
+    "pollie_slug": "christine-milne",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -19473,7 +19513,11 @@
     ],
     "pollie_slug": "anna-burke",
     "start_date": "2017-01-16",
-    "end_date": "2024-01-15"
+    "end_date": "2024-01-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -19481,10 +19525,15 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://en.wikipedia.org/wiki/Anna_Burke",
-      "https://www.linkedin.com/in/anna-burke-ao-b54800169/"
+      "https://www.linkedin.com/in/anna-burke-ao-b54800169/",
+      "https://markdreyfus.com/media/media-releases/appointments-to-the-administrative-review-tribunal-and-administrative-appeals-tribunal-mark-deyfus-kc-mp/"
     ],
     "pollie_slug": "anna-burke",
-    "start_date": "2024-10-14"
+    "start_date": "2024-10-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -19496,7 +19545,11 @@
     ],
     "pollie_slug": "anna-burke",
     "start_date": "2016-01-01",
-    "end_date": "2018-12-31"
+    "end_date": "2018-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -19508,7 +19561,11 @@
     ],
     "pollie_slug": "anna-burke",
     "start_date": "2016-01-01",
-    "end_date": "2022-07-01"
+    "end_date": "2022-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -19518,7 +19575,11 @@
       "https://ibas.org.au/who-we-are/board-of-directors/anna-burke"
     ],
     "pollie_slug": "anna-burke",
-    "start_date": "2022-07-01"
+    "start_date": "2022-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -19529,7 +19590,11 @@
     ],
     "pollie_slug": "anna-burke",
     "start_date": "2017-01-01",
-    "end_date": "2020-12-31"
+    "end_date": "2020-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -19551,7 +19616,11 @@
       "https://www.monash.edu/alumni/alumni-events/graduation/speaker-profiles/october-2018/ms-anna-burke"
     ],
     "pollie_slug": "anna-burke",
-    "start_date": "2019-01-01"
+    "start_date": "2019-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -19560,7 +19629,12 @@
     "sources": [
       "https://www.monash.edu/alumni/alumni-events/graduation/speaker-profiles/october-2018/ms-anna-burke"
     ],
-    "pollie_slug": "anna-burke"
+    "pollie_slug": "anna-burke",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Anna Burke does not appear as a director on Alkira Foundation's current board page or their publicly listed board members. The only source provided (Monash University speaker profile from 2018) does not actually mention Alkira Foundation. No authoritative source confirms this role."
+    }
   },
   {
     "role": "Partner",
