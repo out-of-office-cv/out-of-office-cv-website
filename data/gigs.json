@@ -19741,11 +19741,14 @@
     "organisation": "Sea Shepherd Conservation Society",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://tasmaniantimes.com/2008/01/ian-campbell-joins-sea-shepherd-board/",
       "https://www.businessnews.com.au/Person/Ian-Campbell-0"
     ],
     "pollie_slug": "ian-campbell",
-    "start_date": "2008"
+    "start_date": "2008",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -19757,7 +19760,11 @@
     ],
     "pollie_slug": "ian-campbell",
     "start_date": "2007",
-    "end_date": "2012"
+    "end_date": "2012",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -19769,7 +19776,11 @@
     ],
     "pollie_slug": "ian-campbell",
     "start_date": "2007",
-    "end_date": "2015"
+    "end_date": "2015",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -19781,7 +19792,11 @@
       "https://www.businessnews.com.au/article/350m-offer-for-ASG-Group"
     ],
     "pollie_slug": "ian-campbell",
-    "start_date": "2007"
+    "start_date": "2007",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -19792,7 +19807,11 @@
     ],
     "pollie_slug": "ian-campbell",
     "start_date": "2008",
-    "end_date": "2013"
+    "end_date": "2013",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -19803,7 +19822,11 @@
     ],
     "pollie_slug": "ian-campbell",
     "start_date": "2007",
-    "end_date": "2015"
+    "end_date": "2015",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -19814,7 +19837,11 @@
     ],
     "pollie_slug": "ian-campbell",
     "start_date": "2007",
-    "end_date": "2014"
+    "end_date": "2014",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -19826,7 +19853,11 @@
       "https://www.marketscreener.com/insider/IAN-CAMPBELL-A0I51K/"
     ],
     "pollie_slug": "ian-campbell",
-    "start_date": "2009-10"
+    "start_date": "2009-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -19847,7 +19878,12 @@
       "https://www.waterwest.com.au/2014/08/12/media-release-hon-ian-campbell-joins-water-wests-advisory-panel/",
       "https://www.marketscreener.com/insider/IAN-CAMPBELL-A0I51K/"
     ],
-    "pollie_slug": "ian-campbell"
+    "pollie_slug": "ian-campbell",
+    "start_date": "2007",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -19858,7 +19894,11 @@
       "https://people.equilar.com/bio/person/ian-campbell-nwioa-ops-pty-ltd/36257863"
     ],
     "pollie_slug": "ian-campbell",
-    "start_date": "2009"
+    "start_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Panel Member",
@@ -19868,7 +19908,11 @@
       "https://www.waterwest.com.au/2014/08/12/media-release-hon-ian-campbell-joins-water-wests-advisory-panel/"
     ],
     "pollie_slug": "ian-campbell",
-    "start_date": "2014-08"
+    "start_date": "2014-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Group Executive",
@@ -19880,7 +19924,11 @@
       "https://wahtn.org/blog/2022/03/11/wahtn-welcomes-new-chairman-of-the-board/"
     ],
     "pollie_slug": "ian-campbell",
-    "start_date": "2011"
+    "start_date": "2011",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -19892,7 +19940,11 @@
     ],
     "pollie_slug": "ian-campbell",
     "start_date": "2015",
-    "end_date": "2016"
+    "end_date": "2016",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chair",
@@ -19903,7 +19955,11 @@
       "https://www.businessnews.com.au/article/350m-offer-for-ASG-Group"
     ],
     "pollie_slug": "ian-campbell",
-    "start_date": "2016"
+    "start_date": "2016",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Council Member",
@@ -19914,7 +19970,12 @@
     ],
     "pollie_slug": "ian-campbell",
     "start_date": "2014-12-12",
-    "end_date": "2024-02-16"
+    "end_date": "2024-02-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Museum council page does not currently list Ian Campbell. Verified via search results confirming end date of 16 February 2024."
+    }
   },
   {
     "role": "Director, Global Advisory Board",
@@ -19924,17 +19985,25 @@
       "https://apac.bgis.com/news-and-insights/news/bgis-appoints-the-hon-ian-g-campbell/"
     ],
     "pollie_slug": "ian-campbell",
-    "start_date": "2019-11-01"
+    "start_date": "2019-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Perth Children's Hospital Foundation",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://pchf.org.au/who-we-are/",
-      "https://www.health.gov.au/ministers/the-hon-greg-hunt-mp/media/new-hope-and-help-for-wa-children-with-life-limiting-illness"
+      "https://pchf.org.au/who-we-are/"
     ],
-    "pollie_slug": "ian-campbell"
+    "pollie_slug": "ian-campbell",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Greg Hunt media release mentions PCHF but does not cite Ian Campbell as chair; removed as non-authoritative for this claim. Perth Children's Hospital Foundation official page confirms role."
+    }
   },
   {
     "role": "Chair",
@@ -19945,17 +20014,25 @@
       "https://www.wa.gov.au/government/media-statements/McGowan%20Labor%20Government/New-Chair-of-Western-Australian-Health-Translation-Network-20220311"
     ],
     "pollie_slug": "ian-campbell",
-    "start_date": "2022-03"
+    "start_date": "2022-03-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Harry Butler Institute, Murdoch University",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.sea.museum/about/about-the-museum/our-people/museum-council",
       "https://wahtn.org/blog/2022/03/11/wahtn-welcomes-new-chairman-of-the-board/"
     ],
-    "pollie_slug": "ian-campbell"
+    "pollie_slug": "ian-campbell",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Harry Butler Institute chair role confirmed via WAHTN announcement and Equilar bio, but Maritime Museum council page does not list him and is removed as unreliable for this claim."
+    }
   },
   {
     "role": "Ambassador",
