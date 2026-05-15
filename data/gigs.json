@@ -21734,5 +21734,114 @@
     "sources": [
       "https://kellyodwyer.com.au/"
     ]
+  },
+  {
+    "pollie_slug": "rodney-culleton",
+    "role": "Leader and Founder",
+    "organisation": "Great Australian Party",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Great_Australian_Party",
+      "https://en.wikipedia.org/wiki/Rod_Culleton",
+      "https://www.greataustralianparty.com.au/about"
+    ],
+    "start_date": "2019-04-07"
+  },
+  {
+    "pollie_slug": "penny-wright",
+    "role": "Guardian for Children and Young People",
+    "organisation": "Office of the Guardian for Children and Young People (South Australia)",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Penny_Wright",
+      "https://gcyp.sa.gov.au/about-us/our-history/",
+      "https://www.indailysa.com.au/news/archive/2022/07/08/new-sa-child-protection-watchdog-appointed",
+      "https://gcyp.sa.gov.au/2021/09/21/confirmation-of-penny-wrights-roles-penny-is-still-the-guardian-and-training-centre-visitor/"
+    ],
+    "start_date": "2017-07-10",
+    "end_date": "2022-07-31"
+  },
+  {
+    "pollie_slug": "penny-wright",
+    "role": "Training Centre Visitor",
+    "organisation": "Office of the Guardian for Children and Young People (South Australia)",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "http://www.gcyp.sa.gov.au/a-training-centre-visitor-for-young-people-in-detention/",
+      "https://gcyp.sa.gov.au/2021/09/21/confirmation-of-penny-wrights-roles-penny-is-still-the-guardian-and-training-centre-visitor/"
+    ],
+    "start_date": "2017-07-10",
+    "end_date": "2022-07-31"
+  },
+  {
+    "pollie_slug": "belinda-neal",
+    "role": "Consultant, Director and Lawyer",
+    "organisation": "Discourse Consulting Pty Ltd",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://rocketreach.co/belinda-neal-email_7877709",
+      "https://www.zoominfo.com/p/Belinda-Neal/51197495"
+    ],
+    "start_date": "2010-01-01"
+  },
+  {
+    "pollie_slug": "belinda-neal",
+    "role": "International Marketing Director",
+    "organisation": "Future School",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://rocketreach.co/belinda-neal-email_7877709",
+      "https://www.zoominfo.com/p/Belinda-Neal/51197495"
+    ],
+    "start_date": "2012-01-01",
+    "end_date": "2013-12-31"
+  },
+  {
+    "pollie_slug": "belinda-neal",
+    "role": "Chair",
+    "organisation": "You Connect",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://you-connect.com.au/aboutus",
+      "https://rocketreach.co/belinda-neal-email_7877709"
+    ],
+    "start_date": "2020-01-01"
+  },
+  {
+    "pollie_slug": "belinda-neal",
+    "role": "Member of Independent Review Panel",
+    "organisation": "National Disability Insurance Agency",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://rocketreach.co/belinda-neal-email_7877709",
+      "https://www.zoominfo.com/p/Belinda-Neal/51197495",
+      "https://au.linkedin.com/in/belinda-neal-140b8a31"
+    ],
+    "start_date": "2022-01-01",
+    "end_date": "2023-12-31"
+  },
+  {
+    "pollie_slug": "belinda-neal",
+    "role": "Non-Executive Director",
+    "organisation": "Amnesty International Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.amnesty.org.au/wp-content/uploads/2025/02/Statement-Belinda-Neal-2025final2.pdf",
+      "https://au.headtopics.com/former-labor-mp-axed-from-amnesty-board-over-major-donation-62591426",
+      "https://www.acnc.gov.au/charity/person/bc1d2ad0-1416-ee11-9cbe-00224810001d"
+    ],
+    "start_date": "2023-01-01",
+    "end_date": "2024-11-14"
+  },
+  {
+    "pollie_slug": "belinda-neal",
+    "role": "Councillor",
+    "organisation": "Central Coast Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.centralcoast.nsw.gov.au/councillor-belinda-neal",
+      "https://en.wikipedia.org/wiki/Belinda_Neal"
+    ],
+    "start_date": "2024-09-14"
   }
 ]
