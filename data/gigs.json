@@ -18985,7 +18985,11 @@
     ],
     "pollie_slug": "ruth-webber",
     "start_date": "2008-07-01",
-    "end_date": "2010-06-30"
+    "end_date": "2010-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Consultant",
@@ -19005,7 +19009,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Ruth_Webber"
     ],
-    "pollie_slug": "ruth-webber"
+    "pollie_slug": "ruth-webber",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -19014,7 +19022,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Ruth_Webber"
     ],
-    "pollie_slug": "ruth-webber"
+    "pollie_slug": "ruth-webber",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -19023,7 +19035,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Ruth_Webber"
     ],
-    "pollie_slug": "ruth-webber"
+    "pollie_slug": "ruth-webber",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -19035,7 +19051,12 @@
     ],
     "pollie_slug": "ruth-webber",
     "start_date": "2015-01-01",
-    "end_date": "2016-06-30"
+    "end_date": "2016-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "RocketReach incorrectly listed organisation as 'Down Syndrome Victoria'; Wikipedia and AFDO confirm Down Syndrome Australia. Removed unreliable source."
+    }
   },
   {
     "role": "Director",
@@ -19046,7 +19067,11 @@
       "https://www.zoominfo.com/p/Ruth-Webber/1532695828"
     ],
     "pollie_slug": "ruth-webber",
-    "start_date": "2016-01-01"
+    "start_date": "2016-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisor",
@@ -19055,7 +19080,11 @@
     "sources": [
       "https://www.linkedin.com/in/ruth-webber-007ab019b/"
     ],
-    "pollie_slug": "ruth-webber"
+    "pollie_slug": "ruth-webber",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisor",
@@ -19064,7 +19093,11 @@
     "sources": [
       "https://www.linkedin.com/in/ruth-webber-007ab019b/"
     ],
-    "pollie_slug": "ruth-webber"
+    "pollie_slug": "ruth-webber",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair of Council",
@@ -21655,7 +21688,11 @@
       "https://www.hmccapital.com.au/investor-centre/?page=board-of-directors",
       "https://barrenjoey.com/our-people-kelly-odwyer/"
     ],
-    "start_date": "2020-11-18"
+    "start_date": "2020-11-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "kelly-odwyer",
@@ -21667,7 +21704,11 @@
       "https://www.hmccapital.com.au/investment-strategies/real-estate/healthco-healthcare-wellness-reit/",
       "https://www.themarketsdaily.com/2025/09/04/kelly-odwyer-buys-21658-shares-of-healthco-healthcare-and-wellness-reit-asxhcw-stock.html"
     ],
-    "start_date": "2021-07-28"
+    "start_date": "2021-07-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "kelly-odwyer",
@@ -21679,7 +21720,11 @@
       "https://www.businessnews.com.au/Person/Kelly-ODwyer",
       "https://au.linkedin.com/in/kelly-o-dwyer-b5872a38"
     ],
-    "start_date": "2021-07-06"
+    "start_date": "2021-07-06",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "kelly-odwyer",
@@ -21691,7 +21736,12 @@
       "https://www.businessnews.com.au/Person/Kelly-ODwyer",
       "https://www.ifa.com.au/news/29677-equity-trustees-faces-adviser-revolt-over-o-dwyer-appointment"
     ],
-    "start_date": "2022-04-13"
+    "start_date": "2021-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "EQT Holdings press release dates appointment to March 2021, not April 2022."
+    }
   },
   {
     "pollie_slug": "kelly-odwyer",
@@ -21700,10 +21750,16 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.miragenews.com/national-reconstruction-fund-board-announced-1062410/",
-      "https://www.katherinetimes.com.au/story/8302030/reconstruction-fund-board-to-bring-wide-experience/"
+      "https://www.katherinetimes.com.au/story/8302030/reconstruction-fund-board-to-bring-wide-experience/",
+      "https://www.minister.industry.gov.au/ministers/husic/media-releases/national-reconstruction-fund-board-announced"
     ],
     "start_date": "2023-09-18",
-    "end_date": "2027-09-17"
+    "end_date": "2027-09-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Board appointed when corporation commenced 18 September 2023; term ends 17 September 2027."
+    }
   },
   {
     "pollie_slug": "kelly-odwyer",
@@ -21714,7 +21770,11 @@
       "https://www.listcorp.com/asx/dgt/digico-infrastructure-reit/news/initial-director-s-interest-notice-kelly-o-dwyer-3133991.html",
       "https://au.linkedin.com/in/kelly-o-dwyer-b5872a38"
     ],
-    "start_date": "2024-11-20"
+    "start_date": "2024-11-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "kelly-odwyer",
@@ -21724,7 +21784,11 @@
     "sources": [
       "https://www.vsk.org.au/a-very-special-project/capital-campaign-committee/",
       "https://kellyodwyer.com.au/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "kelly-odwyer",
@@ -21732,8 +21796,13 @@
     "organisation": "Caulfield Grammar School",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://kellyodwyer.com.au/"
-    ]
+      "https://kellyodwyer.com.au/",
+      "https://www.caulfieldgs.vic.edu.au/leadership/school-council/kelly-odwyer/"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "rodney-culleton",
