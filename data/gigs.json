@@ -21912,5 +21912,101 @@
       "https://en.wikipedia.org/wiki/Belinda_Neal"
     ],
     "start_date": "2024-09-14"
+  },
+  {
+    "role": "Retired",
+    "organisation": "Retired",
+    "category": "Retired",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Geoffrey_Giles"
+    ],
+    "pollie_slug": "geoffrey-giles"
+  },
+  {
+    "role": "Consul-General",
+    "organisation": "Australian Consulate-General New York",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Hurford",
+      "https://americanaustralian.org/vale-chris-hurford-ao-1931-2020/",
+      "https://johnmenadue.com/post/2021/03/memories-of-chris-hurford/"
+    ],
+    "pollie_slug": "chris-hurford",
+    "start_date": "1988-01-01",
+    "end_date": "1992-12-31"
+  },
+  {
+    "role": "Head of External Relations",
+    "organisation": "University of South Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Hurford"
+    ],
+    "pollie_slug": "chris-hurford",
+    "start_date": "1991-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Library Board of Queensland",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.slq.qld.gov.au/blog/manfred-douglas-cross-chairman-library-board-queensland-and-lover-libraries-history-and",
+      "https://en.wikipedia.org/wiki/Manfred_Cross"
+    ],
+    "pollie_slug": "manfred-cross",
+    "start_date": "1989-01-01",
+    "end_date": "1996-12-31"
+  },
+  {
+    "role": "President",
+    "organisation": "Scout Association of Australia, Queensland Branch",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.queenslandspeaks.com.au/manfred-cross",
+      "https://scoutsqld.com.au/wp-content/uploads/2021/07/ScoutsQLD_Annual_Report_2009-10.pdf"
+    ],
+    "pollie_slug": "manfred-cross",
+    "start_date": "1991-01-01"
+  },
+  {
+    "role": "Lecturer in Philosophy",
+    "organisation": "Sydney Community College",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.sydneycommunitycollege.edu.au/tutor/15060",
+      "https://independent.academia.edu/AndrewTheophanous",
+      "https://www.zoominfo.com/p/Andrew-Theophanous/-1531459573"
+    ],
+    "pollie_slug": "andrew-theophanous"
+  },
+  {
+    "role": "Consultant on Multiculturalism",
+    "organisation": "Sydney Community College",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.zoominfo.com/p/Andrew-Theophanous/-1531459573",
+      "https://www.sydneycommunitycollege.edu.au/tutor/15060"
+    ],
+    "pollie_slug": "andrew-theophanous"
+  },
+  {
+    "role": "Adviser",
+    "organisation": "Office of the Assistant Minister for Cities and Digital Transformation",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://tasmaniantimes.com/2018/06/loaves-and-fishes/"
+    ],
+    "pollie_slug": "brett-whiteley",
+    "start_date": "2017-04-01"
+  },
+  {
+    "role": "Principal Adviser",
+    "organisation": "Office of the Premier of Tasmania",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://au.linkedin.com/in/brettwhiteley",
+      "https://www.facebook.com/groups/296902363829088/posts/2325091104343527/"
+    ],
+    "pollie_slug": "brett-whiteley"
   }
 ]
