@@ -21377,5 +21377,307 @@
     "pollie_slug": "john-kerin",
     "start_date": "1995-01-01",
     "end_date": "2001-12-31"
+  },
+  {
+    "pollie_slug": "john-reeves",
+    "role": "Barrister",
+    "organisation": "Northern Territory Bar",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Reeves_(judge)",
+      "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
+    ],
+    "start_date": "1985-01-01"
+  },
+  {
+    "pollie_slug": "john-reeves",
+    "role": "President",
+    "organisation": "Australian Labor Party Northern Territory Branch",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Reeves_(judge)"
+    ],
+    "start_date": "1985-01-01",
+    "end_date": "1987-01-01"
+  },
+  {
+    "pollie_slug": "john-reeves",
+    "role": "Member",
+    "organisation": "Australian Heritage Commission",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
+    ],
+    "start_date": "1985-01-01",
+    "end_date": "1987-01-01"
+  },
+  {
+    "pollie_slug": "john-reeves",
+    "role": "Queen's Counsel",
+    "organisation": "Northern Territory Bar",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Reeves_(judge)",
+      "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
+    ],
+    "start_date": "1997-10-01"
+  },
+  {
+    "pollie_slug": "john-reeves",
+    "role": "Reviewer and Author",
+    "organisation": "Review of the Aboriginal Land Rights (Northern Territory) Act 1976",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Reeves_(judge)",
+      "https://cipr.cass.anu.edu.au/research/publications/land-rights-risk-evaluations-reeves-report"
+    ],
+    "start_date": "1997-10-01",
+    "end_date": "1998-08-01"
+  },
+  {
+    "pollie_slug": "john-reeves",
+    "role": "Deputy Chair",
+    "organisation": "Northern Territory Legal Practitioner's Complaints Committee",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
+    ],
+    "start_date": "1998-01-01",
+    "end_date": "2007-01-01"
+  },
+  {
+    "pollie_slug": "john-reeves",
+    "role": "President",
+    "organisation": "Northern Territory Bar Association",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Reeves_(judge)",
+      "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
+    ],
+    "start_date": "2000-01-01",
+    "end_date": "2005-01-01"
+  },
+  {
+    "pollie_slug": "john-reeves",
+    "role": "Chair",
+    "organisation": "Australian Red Cross Northern Territory Division",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Reeves_(judge)",
+      "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
+    ]
+  },
+  {
+    "pollie_slug": "john-reeves",
+    "role": "Vice-President",
+    "organisation": "Australian Bar Association",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Reeves_(judge)",
+      "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
+    ],
+    "start_date": "2003-01-01",
+    "end_date": "2004-01-01"
+  },
+  {
+    "pollie_slug": "john-reeves",
+    "role": "National Board Member",
+    "organisation": "Australian Red Cross",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
+    ],
+    "start_date": "2003-01-01",
+    "end_date": "2007-01-01"
+  },
+  {
+    "pollie_slug": "john-reeves",
+    "role": "Taskforce Member",
+    "organisation": "Northern Territory National Emergency Response Taskforce",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Reeves_(judge)"
+    ],
+    "start_date": "2007-01-01",
+    "end_date": "2007-12-31"
+  },
+  {
+    "pollie_slug": "john-reeves",
+    "role": "Judge",
+    "organisation": "Federal Court of Australia",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Reeves_(judge)",
+      "https://www.crikey.com.au/2007/09/24/introducing-the-first-northern-territory-based-federal-court-judge/",
+      "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
+    ],
+    "start_date": "2007-11-19",
+    "end_date": "2022-01-01"
+  },
+  {
+    "pollie_slug": "john-reeves",
+    "role": "Additional Judge",
+    "organisation": "Supreme Court of the Northern Territory",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Reeves_(judge)",
+      "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
+    ],
+    "start_date": "2009-05-01"
+  },
+  {
+    "pollie_slug": "richard-evans",
+    "role": "Executive Director",
+    "organisation": "Franchise Council of Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Richard_Evans_(Australian_politician)",
+      "https://www.accc.gov.au/media-release/federal-court-declares-that-imagine-essential-services-limited-richard-evans-misled-small-businesses"
+    ],
+    "start_date": "2002-01-01",
+    "end_date": "2007-10-01"
+  },
+  {
+    "pollie_slug": "richard-evans",
+    "role": "Executive Director",
+    "organisation": "Australian Retailers Association",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Richard_Evans_(Australian_politician)",
+      "https://www.accc.gov.au/media-release/federal-court-declares-that-imagine-essential-services-limited-richard-evans-misled-small-businesses"
+    ],
+    "start_date": "2007-01-01",
+    "end_date": "2009-07-01"
+  },
+  {
+    "pollie_slug": "richard-evans",
+    "role": "Executive Director",
+    "organisation": "Council of Textile and Fashion Industries Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Richard_Evans_(Australian_politician)"
+    ],
+    "end_date": "2014-01-01"
+  },
+  {
+    "pollie_slug": "richard-evans",
+    "role": "Executive Director",
+    "organisation": "Clubs Victoria",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Richard_Evans_(Australian_politician)"
+    ],
+    "end_date": "2014-01-01"
+  },
+  {
+    "pollie_slug": "richard-evans",
+    "role": "Founder and Consultant",
+    "organisation": "Profit Ability",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Richard_Evans_(Australian_politician)"
+    ]
+  },
+  {
+    "pollie_slug": "steven-martin",
+    "role": "Councillor",
+    "organisation": "Devonport City Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.devonport.tas.gov.au/council/your-council/elected-council/",
+      "https://insidelocalgovernment.com.au/devonport-councillors-officially-sworn-in/",
+      "https://en.wikipedia.org/wiki/Steve_Martin_(Tasmanian_politician)"
+    ],
+    "start_date": "2022-11-10"
+  },
+  {
+    "pollie_slug": "kelly-odwyer",
+    "role": "Non-Executive Director",
+    "organisation": "HMC Capital",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Kelly-ODwyer",
+      "https://www.hmccapital.com.au/investor-centre/?page=board-of-directors",
+      "https://barrenjoey.com/our-people-kelly-odwyer/"
+    ],
+    "start_date": "2020-11-18"
+  },
+  {
+    "pollie_slug": "kelly-odwyer",
+    "role": "Non-Executive Director",
+    "organisation": "HealthCo Healthcare and Wellness REIT",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://au.linkedin.com/in/kelly-o-dwyer-b5872a38",
+      "https://www.hmccapital.com.au/investment-strategies/real-estate/healthco-healthcare-wellness-reit/",
+      "https://www.themarketsdaily.com/2025/09/04/kelly-odwyer-buys-21658-shares-of-healthco-healthcare-and-wellness-reit-asxhcw-stock.html"
+    ],
+    "start_date": "2021-07-28"
+  },
+  {
+    "pollie_slug": "kelly-odwyer",
+    "role": "Non-Executive Director",
+    "organisation": "Barrenjoey Capital Partners",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://barrenjoey.com/our-people-kelly-odwyer/",
+      "https://www.businessnews.com.au/Person/Kelly-ODwyer",
+      "https://au.linkedin.com/in/kelly-o-dwyer-b5872a38"
+    ],
+    "start_date": "2021-07-06"
+  },
+  {
+    "pollie_slug": "kelly-odwyer",
+    "role": "Non-Executive Director",
+    "organisation": "EQT Holdings",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.eqt.com.au/about-us/media-centre/news-items/press-releases/2021/kelly-odwyer-joins-equity-trustees-board",
+      "https://www.businessnews.com.au/Person/Kelly-ODwyer",
+      "https://www.ifa.com.au/news/29677-equity-trustees-faces-adviser-revolt-over-o-dwyer-appointment"
+    ],
+    "start_date": "2022-04-13"
+  },
+  {
+    "pollie_slug": "kelly-odwyer",
+    "role": "Board Member",
+    "organisation": "National Reconstruction Fund Corporation",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.miragenews.com/national-reconstruction-fund-board-announced-1062410/",
+      "https://www.katherinetimes.com.au/story/8302030/reconstruction-fund-board-to-bring-wide-experience/"
+    ],
+    "start_date": "2023-09-18",
+    "end_date": "2027-09-17"
+  },
+  {
+    "pollie_slug": "kelly-odwyer",
+    "role": "Non-Executive Director",
+    "organisation": "DigiCo Infrastructure REIT",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://www.listcorp.com/asx/dgt/digico-infrastructure-reit/news/initial-director-s-interest-notice-kelly-o-dwyer-3133991.html",
+      "https://au.linkedin.com/in/kelly-o-dwyer-b5872a38"
+    ],
+    "start_date": "2024-11-20"
+  },
+  {
+    "pollie_slug": "kelly-odwyer",
+    "role": "Capital Campaign Committee Member",
+    "organisation": "Very Special Kids",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.vsk.org.au/a-very-special-project/capital-campaign-committee/",
+      "https://kellyodwyer.com.au/"
+    ]
+  },
+  {
+    "pollie_slug": "kelly-odwyer",
+    "role": "School Council Member",
+    "organisation": "Caulfield Grammar School",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://kellyodwyer.com.au/"
+    ]
   }
 ]
