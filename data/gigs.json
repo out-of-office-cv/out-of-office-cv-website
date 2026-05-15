@@ -21387,7 +21387,12 @@
       "https://en.wikipedia.org/wiki/John_Reeves_(judge)",
       "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
     ],
-    "start_date": "1985-01-01"
+    "start_date": "1985-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Barrister at Northern Territory Bar confirmed. Admitted to bar in Darwin in 1985, practiced as barrister for nearly 23 years."
+    }
   },
   {
     "pollie_slug": "john-reeves",
@@ -21398,7 +21403,12 @@
       "https://en.wikipedia.org/wiki/John_Reeves_(judge)"
     ],
     "start_date": "1985-01-01",
-    "end_date": "1987-01-01"
+    "end_date": "1987-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "President of NT branch of Australian Labor Party in 1985, lost influence by 1987. Wikipedia confirms 1985 presidency win and 1987 unsuccessful Legislative Assembly bid."
+    }
   },
   {
     "pollie_slug": "john-reeves",
@@ -21409,7 +21419,12 @@
       "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
     ],
     "start_date": "1985-01-01",
-    "end_date": "1987-01-01"
+    "end_date": "1987-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Australian Heritage Commission member 1985-1987 confirmed by Supreme Court NT bio."
+    }
   },
   {
     "pollie_slug": "john-reeves",
@@ -21420,7 +21435,12 @@
       "https://en.wikipedia.org/wiki/John_Reeves_(judge)",
       "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
     ],
-    "start_date": "1997-10-01"
+    "start_date": "1997-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Appointed Queen's Counsel in October 1997. Both sources confirm this date."
+    }
   },
   {
     "pollie_slug": "john-reeves",
@@ -21432,7 +21452,12 @@
       "https://cipr.cass.anu.edu.au/research/publications/land-rights-risk-evaluations-reeves-report"
     ],
     "start_date": "1997-10-01",
-    "end_date": "1998-08-01"
+    "end_date": "1998-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Headed the Reeves Report (Review of Aboriginal Land Rights Act 1976) 1997-1998. Wikipedia confirms '1997-1998: Headed inquiry into Aboriginal Land Rights Act 1976'."
+    }
   },
   {
     "pollie_slug": "john-reeves",
@@ -21443,7 +21468,12 @@
       "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
     ],
     "start_date": "1998-01-01",
-    "end_date": "2007-01-01"
+    "end_date": "2007-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Deputy Chair of Northern Territory Legal Practitioner's Complaints Committee 1998-2007 confirmed by Supreme Court NT bio as 'Deputy Chairman'."
+    }
   },
   {
     "pollie_slug": "john-reeves",
@@ -21455,7 +21485,12 @@
       "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
     ],
     "start_date": "2000-01-01",
-    "end_date": "2005-01-01"
+    "end_date": "2005-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "President of Northern Territory Bar Association 2000-2005 confirmed by both sources."
+    }
   },
   {
     "pollie_slug": "john-reeves",
@@ -21477,7 +21512,12 @@
       "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
     ],
     "start_date": "2003-01-01",
-    "end_date": "2004-01-01"
+    "end_date": "2004-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Vice-President of Australian Bar Association 2003-2004 confirmed by both sources."
+    }
   },
   {
     "pollie_slug": "john-reeves",
@@ -21488,7 +21528,12 @@
       "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
     ],
     "start_date": "2003-01-01",
-    "end_date": "2007-01-01"
+    "end_date": "2007-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "National Board Member Australian Red Cross 2003-2007 confirmed. Wikipedia lists as part of 'Chairman of the Australian Red Cross Northern Territory Division and National Board member (2003-2007)'."
+    }
   },
   {
     "pollie_slug": "john-reeves",
@@ -21512,7 +21557,12 @@
       "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
     ],
     "start_date": "2007-11-19",
-    "end_date": "2022-01-01"
+    "end_date": "2022-01-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Federal Court of Australia Judge November 2007 - January 2022 confirmed. Wikipedia confirms 'November 2007-January 2022: Judge of Federal Court of Australia'. Crikey article confirms September 2007 announcement."
+    }
   },
   {
     "pollie_slug": "john-reeves",
@@ -21523,7 +21573,12 @@
       "https://en.wikipedia.org/wiki/John_Reeves_(judge)",
       "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
     ],
-    "start_date": "2009-05-01"
+    "start_date": "2009-05-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Additional Judge Supreme Court of the Northern Territory May 2009 onwards confirmed by both sources. Wikipedia shows 'May 2009-2022: Additional Judge of Supreme Court of Northern Territory'."
+    }
   },
   {
     "pollie_slug": "richard-evans",
