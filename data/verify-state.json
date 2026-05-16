@@ -1202,5 +1202,44 @@
   "belinda-neal|Chair|You Connect|2020-01-01": "2026-05-17T00:00:00Z",
   "belinda-neal|Member of Independent Review Panel|National Disability Insurance Agency|2022-01-01": "2026-05-17T00:00:00Z",
   "belinda-neal|Non-Executive Director|Amnesty International Australia|2023-01-01": "2026-05-17T00:00:00Z",
-  "belinda-neal|Councillor|Central Coast Council|2024-09-14": "2026-05-17T00:00:00Z"
+  "belinda-neal|Councillor|Central Coast Council|2024-09-14": "2026-05-17T00:00:00Z",
+  "gai-brodtmann|Chair|Australian Strategic Policy Institute|2023-06-01": {
+    "last_examined_at": "2026-05-17T00:00:00.000Z"
+  },
+  "gai-brodtmann|Council Member|Australian Strategic Policy Institute|2020-06-01": {
+    "last_examined_at": "2026-05-17T00:00:00.000Z"
+  },
+  "gai-brodtmann|Director|Defence Housing Australia|2021-02-12": {
+    "last_examined_at": "2026-05-17T00:00:00.000Z"
+  },
+  "gai-brodtmann|Board Member|Museum of Australian Democracy at Old Parliament House|2020-05-01": {
+    "last_examined_at": "2026-05-17T00:00:00.000Z"
+  },
+  "gai-brodtmann|Chair|Endometriosis Australia|2020-07-01": {
+    "last_examined_at": "2026-05-17T00:00:00.000Z"
+  },
+  "gai-brodtmann|Co-founder and Chair|Fearless Women|null": {
+    "last_examined_at": "2026-05-17T00:00:00.000Z"
+  },
+  "gai-brodtmann|Advisory Board Member|Sapien Cyber|2020-03-01": {
+    "last_examined_at": "2026-05-17T00:00:00.000Z"
+  },
+  "gai-brodtmann|Distinguished Advisor|Australian National University National Security College|2023-03-01": {
+    "last_examined_at": "2026-05-17T00:00:00.000Z"
+  },
+  "gai-brodtmann|Futures Council Member|Australian National University National Security College|2020-09-01": {
+    "last_examined_at": "2026-05-17T00:00:00.000Z"
+  },
+  "gai-brodtmann|Co-host, Women in National Security Podcast|Australian National University National Security College|2022-01-01": {
+    "last_examined_at": "2026-05-17T00:00:00.000Z"
+  },
+  "gai-brodtmann|Advisory Board Member|Oceania Cyber Security Centre|null": {
+    "last_examined_at": "2026-05-17T00:00:00.000Z"
+  },
+  "gai-brodtmann|Ambassador|Ovarian Cancer Australia|null": {
+    "last_examined_at": "2026-05-17T00:00:00.000Z"
+  },
+  "gai-brodtmann|Policy Taskforce Member|Canberra Business Chamber|null": {
+    "last_examined_at": "2026-05-17T00:00:00.000Z"
+  }
 }
