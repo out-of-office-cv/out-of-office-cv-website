@@ -22082,7 +22082,11 @@
       "https://www.aph.gov.au/parliamentary_business/committees/house_of_representatives_committees?url=laca/constitutionalreform/bios/lavarch.pdf"
     ],
     "start_date": "1996-01-01",
-    "end_date": "2001-01-01"
+    "end_date": "2001-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-lavarch",
@@ -22094,7 +22098,11 @@
       "https://wayforward.org.au/michael-lavarch/",
       "https://theshout.com.au/abac-launches-new-toughest-ever-alcohol-marketing-code/"
     ],
-    "start_date": "1998-01-01"
+    "start_date": "1998-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-lavarch",
@@ -22107,7 +22115,11 @@
       "https://www.tio.com.au/news/tio-board-chair-professor-hon-michael-lavarch-ao-reappointed-three-year-term"
     ],
     "start_date": "2001-01-01",
-    "end_date": "2004-01-01"
+    "end_date": "2004-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-lavarch",
@@ -22118,7 +22130,11 @@
       "https://www.michaellavarch.com/"
     ],
     "start_date": "2004-01-01",
-    "end_date": "2009-01-01"
+    "end_date": "2009-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-lavarch",
@@ -22142,7 +22158,11 @@
       "https://www.michaellavarch.com/"
     ],
     "start_date": "2004-03-01",
-    "end_date": "2012-01-01"
+    "end_date": "2012-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-lavarch",
@@ -22166,7 +22186,12 @@
       "https://en.wikipedia.org/wiki/Financial_Ombudsman_Service_(Australia)"
     ],
     "start_date": "2009-01-01",
-    "end_date": "2018-01-01"
+    "end_date": "2018-01-01",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Wikipedia states Michael Lavarch was Chair of the Financial Ombudsman Service between 2015 and its dissolution on 31 October 2018, not 2009-2018. The organisation was established 1 July 2008 via merger of FICS, BFSO, and IOS; his chairmanship began in 2015, not 2009."
+    }
   },
   {
     "pollie_slug": "michael-lavarch",
@@ -22177,7 +22202,11 @@
       "https://en.wikipedia.org/wiki/Michael_Lavarch",
       "https://www.qut.edu.au/about/our-people/academic-profiles/m.lavarch"
     ],
-    "start_date": "2012-01-01"
+    "start_date": "2012-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-lavarch",
@@ -22190,7 +22219,11 @@
       "https://www.michaellavarch.com/"
     ],
     "start_date": "2012-04-16",
-    "end_date": "2018-01-01"
+    "end_date": "2018-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-lavarch",
@@ -22200,7 +22233,11 @@
     "sources": [
       "https://mediablog.catholic.org.au/catholic-professional-standards-limited-announces-the-appointment-of-board-directors/"
     ],
-    "start_date": "2017-08-28"
+    "start_date": "2017-08-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-lavarch",
@@ -22211,7 +22248,11 @@
       "https://www.tio.com.au/news/hon-michael-lavarch-ao-named-new-chair-telecommunications-industry-ombudsman-board"
     ],
     "start_date": "2017-02-01",
-    "end_date": "2019-07-14"
+    "end_date": "2019-07-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-lavarch",
@@ -22222,7 +22263,11 @@
       "https://wayforward.org.au/michael-lavarch/",
       "https://wayforward.org.au/about-us/board-of-directors/"
     ],
-    "start_date": "2019-09-01"
+    "start_date": "2019-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-lavarch",
@@ -22233,7 +22278,11 @@
       "https://www.tio.com.au/news/hon-michael-lavarch-ao-named-new-chair-telecommunications-industry-ombudsman-board",
       "https://www.tio.com.au/news/tio-board-chair-professor-hon-michael-lavarch-ao-reappointed-three-year-term"
     ],
-    "start_date": "2019-07-14"
+    "start_date": "2019-07-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-lavarch",
@@ -22245,7 +22294,11 @@
       "https://statements.qld.gov.au/statements/90413"
     ],
     "start_date": "2019-01-01",
-    "end_date": "2020-02-01"
+    "end_date": "2020-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-lavarch",
@@ -22257,7 +22310,11 @@
       "https://mediablog.catholic.org.au/catholic-professional-standards-limited-announces-the-appointment-of-board-directors/"
     ],
     "start_date": "2020-12-01",
-    "end_date": "2024-04-17"
+    "end_date": "2024-04-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-lavarch",
@@ -22276,9 +22333,15 @@
     "organisation": "Community Broadcasting Foundation",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://mediaarts.org.au/former-attorney-general-joins-community-broadcasting-foundation/"
+      "https://mediaarts.org.au/former-attorney-general-joins-community-broadcasting-foundation/",
+      "https://cbf.org.au/prof-michael-lavarch-appointed-as-president-of-community-broadcasting-foundation/",
+      "https://radioinfo.com.au/news/former-attorney-general-professor-michael-lavarch-appointed-as-president-of-cbf/"
     ],
-    "start_date": "2025-09-01"
+    "start_date": "2025-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "condor-laucke",
