@@ -20481,7 +20481,11 @@
       "https://www.oecd-events.org/gacif2024/speaker/99a91e85-6fe7-ee11-85fc-000d3a484728/david-bradbury"
     ],
     "pollie_slug": "david-bradbury",
-    "start_date": "2014-04-01"
+    "start_date": "2014-04-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Director, Centre for Tax Policy and Administration",
@@ -20493,7 +20497,11 @@
     ],
     "pollie_slug": "david-bradbury",
     "start_date": "2023-01-10",
-    "end_date": "2024-08-01"
+    "end_date": "2024-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Partner, Consulting",
@@ -20504,7 +20512,11 @@
       "https://www.accountingtimes.com.au/profession/oecd-executive-among-3-new-high-calibre-kpmg-hires"
     ],
     "pollie_slug": "david-bradbury",
-    "start_date": "2024-08-01"
+    "start_date": "2024-08-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Professor of Taxation",
@@ -20514,7 +20526,11 @@
       "https://crawford.anu.edu.au/people/david-bradbury",
       "https://fsaa.com.au/tax-day-2025-item/60530/hon-david-bradbury/?type_fr=1691"
     ],
-    "pollie_slug": "david-bradbury"
+    "pollie_slug": "david-bradbury",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Tax and Transfer Policy Institute Advisory Committee",
@@ -20524,7 +20540,11 @@
       "https://fsaa.com.au/tax-day-2025-item/60530/hon-david-bradbury/?type_fr=1691",
       "https://crawford.anu.edu.au/people/david-bradbury"
     ],
-    "pollie_slug": "david-bradbury"
+    "pollie_slug": "david-bradbury",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member, Policy Advisory Committee",
@@ -20533,7 +20553,11 @@
     "sources": [
       "https://fsaa.com.au/tax-day-2025-item/60530/hon-david-bradbury/?type_fr=1691"
     ],
-    "pollie_slug": "david-bradbury"
+    "pollie_slug": "david-bradbury",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -20545,7 +20569,11 @@
     ],
     "pollie_slug": "david-bradbury",
     "start_date": "2026-03-27",
-    "end_date": "2029-03-31"
+    "end_date": "2029-03-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Secretary",
@@ -21039,11 +21067,16 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.wa.gov.au/government/media-statements/Barnett%20Liberal%20National%20Government/Regional-Development-Trust-chair-to-step-down-20140217",
-      "https://www.childabuseroyalcommission.gov.au/commissioner-andrew-murray"
+      "https://www.childabuseroyalcommission.gov.au/commissioner-andrew-murray",
+      "https://www.parliament.wa.gov.au/publications/tabledpapers.nsf/displaypaper/3815338aa7762afc3fc67ce148257a85001669f9/$file/5338.pdf"
     ],
     "pollie_slug": "andrew-murray",
     "start_date": "2010-07-01",
-    "end_date": "2014-02-17"
+    "end_date": "2014-02-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Commissioner",
@@ -21051,11 +21084,16 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.childabuseroyalcommission.gov.au/commissioner-andrew-murray",
-      "https://en.wikipedia.org/wiki/Andrew_Murray_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Andrew_Murray_(Australian_politician)",
+      "https://www.rhodeshouse.ox.ac.uk/unlikeminded/in-focus-andrew-murray-on-the-australian-royal-commission-into-institutional-responses-on-child-sexual-abuse/"
     ],
     "pollie_slug": "andrew-murray",
     "start_date": "2013-01-11",
-    "end_date": "2017-12-15"
+    "end_date": "2017-12-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -21091,16 +21129,28 @@
     "sources": [
       "https://www.pbo.gov.au/about-the-pbo/our-people/expert-panel"
     ],
-    "pollie_slug": "andrew-murray"
+    "pollie_slug": "andrew-murray",
+    "start_date": "2017-12-21",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
     "organisation": "Care Leavers Australasia Network",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://clan.org.au/wp-content/uploads/2020/07/2011-2012.pdf"
+      "https://clan.org.au/wp-content/uploads/2020/07/2011-2012.pdf",
+      "https://www.morethanourchildhoods.org/stories/andrew-murray/",
+      "https://clan.org.au/about/"
     ],
-    "pollie_slug": "andrew-murray"
+    "pollie_slug": "andrew-murray",
+    "end_date": "2013-01-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
