@@ -20167,7 +20167,11 @@
     ],
     "start_date": "2000-01-01",
     "end_date": "2005-01-01",
-    "pollie_slug": "robert-tickner"
+    "pollie_slug": "robert-tickner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -20180,7 +20184,11 @@
     ],
     "start_date": "2005-02-01",
     "end_date": "2015-07-01",
-    "pollie_slug": "robert-tickner"
+    "pollie_slug": "robert-tickner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Acting Under Secretary General, Partnerships",
@@ -20202,7 +20210,11 @@
       "https://www.chsalliance.org/get-support/article/chs-alliance-appoints-tanya-wood-as-executive-director/"
     ],
     "start_date": "2019-11-20",
-    "pollie_slug": "robert-tickner"
+    "pollie_slug": "robert-tickner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Co-Chair",
@@ -20214,7 +20226,11 @@
     ],
     "start_date": "2018-01-01",
     "end_date": "2025-01-01",
-    "pollie_slug": "robert-tickner"
+    "pollie_slug": "robert-tickner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founding Chair",
@@ -20226,7 +20242,11 @@
       "https://www.roberttickner.com/about"
     ],
     "start_date": "2020-09-01",
-    "pollie_slug": "robert-tickner"
+    "pollie_slug": "robert-tickner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
@@ -20236,7 +20256,11 @@
       "https://icanw.org.au/australia-must-take-lead-on-nuclear-treaty-robert-tickner/",
       "https://www.roberttickner.com/about"
     ],
-    "pollie_slug": "robert-tickner"
+    "pollie_slug": "robert-tickner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Professor of Economics",
@@ -21901,7 +21925,12 @@
       "https://rocketreach.co/belinda-neal-email_7877709",
       "https://www.zoominfo.com/p/Belinda-Neal/51197495"
     ],
-    "start_date": "2010-01-01"
+    "start_date": "2010-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "RocketReach professional profile confirms role as 'Consultant, Director and Lawyer' at Discourse Consulting starting 2010, with involvement ongoing."
+    }
   },
   {
     "pollie_slug": "belinda-neal",
@@ -21913,7 +21942,12 @@
       "https://www.zoominfo.com/p/Belinda-Neal/51197495"
     ],
     "start_date": "2012-01-01",
-    "end_date": "2013-12-31"
+    "end_date": "2013-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "RocketReach and ZoomInfo both confirm role as International Marketing Director at Future School for 2012-2013 period."
+    }
   },
   {
     "pollie_slug": "belinda-neal",
@@ -21924,7 +21958,12 @@
       "https://you-connect.com.au/aboutus",
       "https://rocketreach.co/belinda-neal-email_7877709"
     ],
-    "start_date": "2020-01-01"
+    "start_date": "2020-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Official You Connect website lists Belinda Neal as Board Chair, confirming ongoing involvement from 2020."
+    }
   },
   {
     "pollie_slug": "belinda-neal",
@@ -21950,7 +21989,12 @@
       "https://www.acnc.gov.au/charity/person/bc1d2ad0-1416-ee11-9cbe-00224810001d"
     ],
     "start_date": "2023-01-01",
-    "end_date": "2024-11-14"
+    "end_date": "2024-11-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources including Amnesty International Australia official communications and news reports confirm Non-Executive Director role starting 2023, removed November 14, 2024."
+    }
   },
   {
     "pollie_slug": "belinda-neal",
@@ -21961,7 +22005,12 @@
       "https://www.centralcoast.nsw.gov.au/councillor-belinda-neal",
       "https://en.wikipedia.org/wiki/Belinda_Neal"
     ],
-    "start_date": "2024-09-14"
+    "start_date": "2024-09-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Official Central Coast Council website confirms Belinda Neal as Councillor for Gosford West Ward, elected in September 2024."
+    }
   },
   {
     "role": "Retired",
@@ -22482,9 +22531,15 @@
     "sources": [
       "https://www.crawfordfund.org/news/thank-you-to-bruce-lloyd-am/",
       "https://www.dairynewsaustralia.com.au/news/from-victoria-to-the-world/",
-      "https://www.countrynews.com.au/news/from-victoria-to-the-world/"
+      "https://www.countrynews.com.au/news/from-victoria-to-the-world/",
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22handbook/allmps/2E4%22"
     ],
-    "start_date": "1996-01-29"
+    "start_date": "1996-01-29",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Crawford Fund article confirms Lloyd served on Victorian Committee from 1996 onwards (stepped down April 2025). Role and organisation match. Start date plausible (immediately post-parliament)."
+    }
   },
   {
     "pollie_slug": "bruce-lloyd",
@@ -22495,7 +22550,12 @@
       "https://www.crawfordfund.org/news/thank-you-to-bruce-lloyd-am/",
       "https://www.dairynewsaustralia.com.au/news/from-victoria-to-the-world/",
       "https://www.countrynews.com.au/news/from-victoria-to-the-world/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Crawford Fund article confirms Lloyd was 'the first chair of the Australian Landcare Council'. Authoritative source establishes both role and organisation. Post-parliament timeline confirmed."
+    }
   },
   {
     "pollie_slug": "bruce-lloyd",
@@ -22504,7 +22564,12 @@
     "category": "Environment, Climate & Sustainability",
     "sources": [
       "https://www.crawfordfund.org/news/thank-you-to-bruce-lloyd-am/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Crawford Fund article explicitly lists Natural Heritage Trust Advisory Committee membership. Australian Natural Heritage Trust confirmed as government environmental program. Role and organisation verified post-1996."
+    }
   },
   {
     "pollie_slug": "bruce-lloyd",
@@ -22513,7 +22578,12 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://www.crawfordfund.org/news/thank-you-to-bruce-lloyd-am/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Crawford Fund article lists National Gene Technology Community Consultative Committee membership. Confirmed as real advisory body under Australian gene technology regulatory scheme. Post-parliament service verified."
+    }
   },
   {
     "pollie_slug": "bruce-lloyd",
@@ -22522,7 +22592,12 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://www.crawfordfund.org/news/thank-you-to-bruce-lloyd-am/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Crawford Fund article lists Plant Breeder's Rights Advisory Committee membership. Confirmed as real advisory body established under Plant Breeder's Rights Act 1994. Post-parliament service verified."
+    }
   },
   {
     "pollie_slug": "bruce-lloyd",
