@@ -23331,5 +23331,273 @@
       "https://en.wikipedia.org/wiki/Michael_Beahan",
       "https://biography.senate.gov.au/beahan-michael-eamon/"
     ]
+  },
+  {
+    "pollie_slug": "fiona-scott",
+    "role": "Managing Partner",
+    "organisation": "Castlereagh Advisory",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://rocketreach.co/fiona-scott-email_813212773",
+      "https://castlereaghadvisory.com.au/",
+      "https://au.linkedin.com/in/fionascott2750"
+    ],
+    "start_date": "2016-01-01"
+  },
+  {
+    "pollie_slug": "fiona-scott",
+    "role": "Political Commentator",
+    "organisation": "Sky News Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fiona_Scott",
+      "https://www.facebook.com/SkyNewsAustralia/videos/sky-news-contributor-fiona-scott-we-have-to-work-with-islamic-people-in-australi/10154607604961728/"
+    ],
+    "start_date": "2017-01-01"
+  },
+  {
+    "pollie_slug": "fiona-scott",
+    "role": "Director",
+    "organisation": "National Film and Sound Archive of Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.nfsa.gov.au/annual-report-2016-17/governance-and-legislation",
+      "https://www.nfsa.gov.au/sites/default/files/10-2018/nfsa_annual_report_2017-18.pdf"
+    ],
+    "start_date": "2017-01-01",
+    "end_date": "2021-12-31"
+  },
+  {
+    "pollie_slug": "fiona-scott",
+    "role": "Executive Director Federal Government",
+    "organisation": "PremierNational",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://premiernational.com.au/pn-brief/graham-richardson-special-counsel",
+      "https://au.linkedin.com/in/fionascott2750"
+    ],
+    "start_date": "2017-01-01",
+    "end_date": "2024-12-31"
+  },
+  {
+    "pollie_slug": "fiona-scott",
+    "role": "Director",
+    "organisation": "Powering Skills Organisation",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://poweringskills.com.au/about-us/who-we-are/",
+      "https://rocketreach.co/fiona-scott-email_813212773"
+    ]
+  },
+  {
+    "pollie_slug": "fiona-scott",
+    "role": "Director of Policy",
+    "organisation": "National Electrical and Communications Association NSW",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.neca.asn.au/branch/advocacy-policy",
+      "https://rocketreach.co/fiona-scott-email_813212773"
+    ]
+  },
+  {
+    "pollie_slug": "fiona-scott",
+    "role": "Federal Vice President",
+    "organisation": "Liberal Party of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fiona_Scott",
+      "https://www.facebook.com/radionational/posts/federal-liberal-vice-president-fiona-scott-says-the-party-electing-its-first-fem/1234119761717227/",
+      "https://www.theepochtimes.com/world/liberal-partys-1st-female-leader-a-step-towards-rebirth-vice-president-says-5857392"
+    ],
+    "start_date": "2024-06-01"
+  },
+  {
+    "pollie_slug": "fiona-scott",
+    "role": "Founder and Chief Executive Officer",
+    "organisation": "Castlereagh Honey",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://rocketreach.co/fiona-scott-email_813212773",
+      "https://castlereaghhoney.au/pages/about-us"
+    ],
+    "start_date": "2019-01-01"
+  },
+  {
+    "pollie_slug": "christabel-chamarette",
+    "role": "Clinical Director",
+    "organisation": "SafeCare",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/chamarette-christabel-marguerite-alain/",
+      "https://en.wikipedia.org/wiki/Christabel_Chamarette",
+      "https://nri.today/christabel-chamarette/",
+      "http://www.helpingfamiliesheal.com.au/about"
+    ],
+    "start_date": "1997",
+    "end_date": "2009"
+  },
+  {
+    "pollie_slug": "christabel-chamarette",
+    "role": "Member",
+    "organisation": "Parole Board of Western Australia",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/chamarette-christabel-marguerite-alain/",
+      "https://en.wikipedia.org/wiki/Christabel_Chamarette",
+      "https://nri.today/christabel-chamarette/"
+    ],
+    "start_date": "2002",
+    "end_date": "2005"
+  },
+  {
+    "pollie_slug": "christabel-chamarette",
+    "role": "Chair, Clergy Misconduct Panel",
+    "organisation": "Anglican Diocese of Perth",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/chamarette-christabel-marguerite-alain/",
+      "https://nri.today/christabel-chamarette/"
+    ],
+    "start_date": "1997",
+    "end_date": "2002"
+  },
+  {
+    "pollie_slug": "christabel-chamarette",
+    "role": "Member, Professional Standards Committee",
+    "organisation": "Anglican Church of Australia (Western Australia)",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/chamarette-christabel-marguerite-alain/",
+      "https://nri.today/christabel-chamarette/"
+    ],
+    "start_date": "2003"
+  },
+  {
+    "pollie_slug": "christabel-chamarette",
+    "role": "Clinical Supervisor",
+    "organisation": "YMCA Western Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/chamarette-christabel-marguerite-alain/",
+      "https://nri.today/christabel-chamarette/"
+    ],
+    "start_date": "2003",
+    "end_date": "2005"
+  },
+  {
+    "pollie_slug": "christabel-chamarette",
+    "role": "Consultant",
+    "organisation": "WA Department of Justice",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/chamarette-christabel-marguerite-alain/",
+      "https://nri.today/christabel-chamarette/"
+    ],
+    "start_date": "2004",
+    "end_date": "2004"
+  },
+  {
+    "pollie_slug": "christabel-chamarette",
+    "role": "Expert Witness",
+    "organisation": "Family Court of Western Australia",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://biography.senate.gov.au/chamarette-christabel-marguerite-alain/",
+      "https://nri.today/christabel-chamarette/"
+    ]
+  },
+  {
+    "pollie_slug": "christabel-chamarette",
+    "role": "Supervisor and Consultant",
+    "organisation": "Acacia Prison",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/chamarette-christabel-marguerite-alain/",
+      "https://nri.today/christabel-chamarette/"
+    ]
+  },
+  {
+    "pollie_slug": "christabel-chamarette",
+    "role": "Consultant Psychologist",
+    "organisation": "Marninwarntikura Women's Resource Centre",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "http://www.helpingfamiliesheal.com.au/about",
+      "https://nri.today/christabel-chamarette/"
+    ],
+    "start_date": "2013",
+    "end_date": "2015"
+  },
+  {
+    "pollie_slug": "christabel-chamarette",
+    "role": "Consultant Psychologist",
+    "organisation": "Yura Yungi Aboriginal Medical Service",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "http://www.helpingfamiliesheal.com.au/about",
+      "https://nri.today/christabel-chamarette/"
+    ],
+    "start_date": "2013",
+    "end_date": "2015"
+  },
+  {
+    "pollie_slug": "patricia-giles",
+    "role": "Chair, Global Commission on Women's Health",
+    "organisation": "World Health Organisation",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://biography.senate.gov.au/giles-patricia-jessie/",
+      "https://en.wikipedia.org/wiki/Patricia_Giles"
+    ],
+    "start_date": "1993",
+    "end_date": "1996"
+  },
+  {
+    "pollie_slug": "patricia-giles",
+    "role": "Convenor",
+    "organisation": "Women's Health Care House",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://biography.senate.gov.au/giles-patricia-jessie/"
+    ],
+    "start_date": "1993",
+    "end_date": "1999"
+  },
+  {
+    "pollie_slug": "patricia-giles",
+    "role": "Board Member",
+    "organisation": "Centre for Research for Women",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/giles-patricia-jessie/"
+    ],
+    "start_date": "1993",
+    "end_date": "2006"
+  },
+  {
+    "pollie_slug": "patricia-giles",
+    "role": "President",
+    "organisation": "International Alliance of Women",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/giles-patricia-jessie/",
+      "https://en.wikipedia.org/wiki/Patricia_Giles",
+      "https://iawmelbourne.wordpress.com/2012/08/07/patricia-jessie-giles/"
+    ],
+    "start_date": "1996",
+    "end_date": "2004"
+  },
+  {
+    "pollie_slug": "douglas-mcclelland",
+    "role": "High Commissioner",
+    "organisation": "Australian High Commission, United Kingdom",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Doug_McClelland",
+      "https://biography.senate.gov.au/mcclelland-douglas/",
+      "https://www.factsnippet.com/site/facts-about-doug-mcclelland.html"
+    ],
+    "start_date": "1987",
+    "end_date": "1991"
   }
 ]
