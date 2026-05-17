@@ -23990,7 +23990,11 @@
     ],
     "pollie_slug": "john-brumby",
     "start_date": "1990",
-    "end_date": "1993-02"
+    "end_date": "1993-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member of the Legislative Assembly (Broadmeadows) and Leader of the Opposition",
@@ -24002,7 +24006,11 @@
     ],
     "pollie_slug": "john-brumby",
     "start_date": "1993-07-14",
-    "end_date": "1999-10-20"
+    "end_date": "1999-03-22",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Minister for Finance, Assistant Treasurer and Minister for State and Regional Development",
@@ -24014,7 +24022,11 @@
     ],
     "pollie_slug": "john-brumby",
     "start_date": "1999-10-20",
-    "end_date": "2000-05-22"
+    "end_date": "2000-05-22",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Treasurer of Victoria",
@@ -24026,7 +24038,11 @@
     ],
     "pollie_slug": "john-brumby",
     "start_date": "2000-05-22",
-    "end_date": "2007-08-03"
+    "end_date": "2007-08-03",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Premier of Victoria",
@@ -24038,7 +24054,11 @@
     ],
     "pollie_slug": "john-brumby",
     "start_date": "2007-07-30",
-    "end_date": "2010-12-02"
+    "end_date": "2010-12-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Vice-Chancellor's Professorial Fellow",
@@ -24049,7 +24069,11 @@
       "https://www.myscience.org/news/wire/john_brumby_appointed_joint_vice_chancellor_amp_rsquo_s_fellow_at_melbourne_and_monash_universities-2011-melbourne"
     ],
     "pollie_slug": "john-brumby",
-    "start_date": "2011-06-02"
+    "start_date": "2011-06-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -24061,7 +24085,11 @@
     ],
     "pollie_slug": "john-brumby",
     "start_date": "2011-04-04",
-    "end_date": "2019"
+    "end_date": "2019",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Panel Member, GST Distribution Review",
@@ -24072,7 +24100,12 @@
       "https://australianpolitics.com/2012/12/07/john-brumby-appointed-to-chair-coag-reform-council.html/"
     ],
     "pollie_slug": "john-brumby",
-    "start_date": "2011"
+    "start_date": "2011",
+    "end_date": "2012-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Independent Director",
@@ -24084,7 +24117,11 @@
     ],
     "pollie_slug": "john-brumby",
     "start_date": "2011-06-06",
-    "end_date": "2019-03-01"
+    "end_date": "2019-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -24095,7 +24132,11 @@
       "https://theorg.com/org/citywide-service-solutions-pty-ltd/org-chart/john-m-brumby"
     ],
     "pollie_slug": "john-brumby",
-    "start_date": "2011"
+    "start_date": "2011",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -24114,7 +24155,11 @@
     "sources": [
       "https://theconversation.com/profiles/john-brumby-126263"
     ],
-    "pollie_slug": "john-brumby"
+    "pollie_slug": "john-brumby",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Board Chair",
@@ -24124,7 +24169,11 @@
       "https://www.monash.edu/news/articles/john-brumby-appointed-joint-v-cs-professorial-fellow",
       "https://theconversation.com/profiles/john-brumby-126263"
     ],
-    "pollie_slug": "john-brumby"
+    "pollie_slug": "john-brumby",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Leadership Advisory Board Member",
@@ -24134,7 +24183,11 @@
       "https://armi.org.au/about/who-we-are/armi-ambassador-program/",
       "https://www.monash.edu/news/articles/john-brumby-appointed-joint-v-cs-professorial-fellow"
     ],
-    "pollie_slug": "john-brumby"
+    "pollie_slug": "john-brumby",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -24146,7 +24199,11 @@
     ],
     "pollie_slug": "john-brumby",
     "start_date": "2013-01",
-    "end_date": "2016-01"
+    "end_date": "2016-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -24158,7 +24215,11 @@
     ],
     "pollie_slug": "john-brumby",
     "start_date": "2011",
-    "end_date": "2021-06-01"
+    "end_date": "2021-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -24170,7 +24231,11 @@
     ],
     "pollie_slug": "john-brumby",
     "start_date": "2016",
-    "end_date": "2021-06-01"
+    "end_date": "2021-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -24181,7 +24246,11 @@
       "https://exhibitcitynews.com/john-brumby-to-chair-melbourne-convention-and-exhibition-trust/"
     ],
     "pollie_slug": "john-brumby",
-    "start_date": "2017-08-11"
+    "start_date": "2017-08-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founding Chair",
@@ -24191,7 +24260,11 @@
       "https://www.onjcri.org.au/the-john-brumby-impact-fund/",
       "https://www.onjcri.org.au/news/staff/onjcri-chair-receives-honorary-doctorate/"
     ],
-    "pollie_slug": "john-brumby"
+    "pollie_slug": "john-brumby",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -24202,7 +24275,11 @@
       "https://www.monash.edu/news/articles/ceo-appointed-to-new-medicines-discovery-venture,-biocurate-pty-ltd"
     ],
     "pollie_slug": "john-brumby",
-    "start_date": "2016"
+    "start_date": "2016",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "National President",
@@ -24213,8 +24290,12 @@
       "https://www.bloomberg.com/news/videos/2018-10-16/australia-china-business-to-business-relationship-strong-acbc-s-brumby-says-video"
     ],
     "pollie_slug": "john-brumby",
-    "start_date": "2014",
-    "end_date": "2019-11"
+    "start_date": "2015",
+    "end_date": "2020-03",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Professorial Fellow, Faculty of Business and Economics",
@@ -24224,7 +24305,11 @@
       "https://findanexpert.unimelb.edu.au/profile/435404-john-brumby",
       "https://www.theepochtimes.com/world/former-victorian-premier-to-lead-private-healthcare-australia-5818847"
     ],
-    "pollie_slug": "john-brumby"
+    "pollie_slug": "john-brumby",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -24245,7 +24330,11 @@
       "https://www.bendigoadvertiser.com.au/story/5979213/john-brumby-to-lead-la-trobe-into-new-era/"
     ],
     "pollie_slug": "john-brumby",
-    "start_date": "2019-03-29"
+    "start_date": "2019-03-29",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -24257,7 +24346,11 @@
       "https://biomelbourne.org/john-brumby-to-lead-2b-research-fund-in-victoria/"
     ],
     "pollie_slug": "john-brumby",
-    "start_date": "2021"
+    "start_date": "2021",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -24267,7 +24360,11 @@
       "https://in2science.org.au/",
       "https://theconversation.com/profiles/john-brumby-126263"
     ],
-    "pollie_slug": "john-brumby"
+    "pollie_slug": "john-brumby",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Independent Chair",
