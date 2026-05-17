@@ -23957,5 +23957,327 @@
     ],
     "start_date": "2020-01-01",
     "end_date": "2020-12-31"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Bank of America",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://adb.anu.edu.au/biography/mcmahon-sir-william-billy-15043",
+      "https://www.aussiedigest.com/society/william-mcmahon.php",
+      "https://grokipedia.com/page/bill_mcmahon"
+    ],
+    "pollie_slug": "billy-mcmahon"
+  },
+  {
+    "role": "Pharmacy Owner",
+    "organisation": "Bribie Island pharmacies (Bongaree)",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Hodges_(Australian_politician)"
+    ],
+    "pollie_slug": "john-hodges",
+    "start_date": "1987-07-11",
+    "end_date": "2018-01-01"
+  },
+  {
+    "role": "Chief of Staff",
+    "organisation": "Office of Federal Minister for Resources and Tourism Alan Griffiths",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Brumby",
+      "https://www.monash.edu/news/articles/john-brumby-appointed-joint-v-cs-professorial-fellow"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "1990",
+    "end_date": "1993-02"
+  },
+  {
+    "role": "Member of the Legislative Assembly (Broadmeadows) and Leader of the Opposition",
+    "organisation": "Victorian Parliament",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Brumby",
+      "https://www.parliament.vic.gov.au/members/john-brumby/"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "1993-07-14",
+    "end_date": "1999-10-20"
+  },
+  {
+    "role": "Minister for Finance, Assistant Treasurer and Minister for State and Regional Development",
+    "organisation": "Government of Victoria",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Brumby",
+      "https://www.parliament.vic.gov.au/members/john-brumby/"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "1999-10-20",
+    "end_date": "2000-05-22"
+  },
+  {
+    "role": "Treasurer of Victoria",
+    "organisation": "Government of Victoria",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Brumby",
+      "https://www.parliament.vic.gov.au/members/john-brumby/"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "2000-05-22",
+    "end_date": "2007-08-03"
+  },
+  {
+    "role": "Premier of Victoria",
+    "organisation": "Government of Victoria",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Brumby",
+      "https://www.parliament.vic.gov.au/members/john-brumby/"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "2007-07-30",
+    "end_date": "2010-12-02"
+  },
+  {
+    "role": "Vice-Chancellor's Professorial Fellow",
+    "organisation": "University of Melbourne and Monash University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.monash.edu/news/articles/john-brumby-appointed-joint-v-cs-professorial-fellow",
+      "https://www.myscience.org/news/wire/john_brumby_appointed_joint_vice_chancellor_amp_rsquo_s_fellow_at_melbourne_and_monash_universities-2011-melbourne"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "2011-06-02"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Motor Trades Association of Australia Superannuation Fund",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.investmentmagazine.com.au/2019/12/mtaa-super-and-tasplan-merge-to-create-a-23-billion-fund/",
+      "https://www.goldfieldsworldheritage.com.au/patron/the-hon-john-brumby-ao/"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "2011-04-04",
+    "end_date": "2019"
+  },
+  {
+    "role": "Panel Member, GST Distribution Review",
+    "organisation": "Australian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Brumby",
+      "https://australianpolitics.com/2012/12/07/john-brumby-appointed-to-chair-coag-reform-council.html/"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "2011"
+  },
+  {
+    "role": "Independent Director",
+    "organisation": "Huawei Technologies (Australia) Pty Limited",
+    "category": "Telecommunications & Network Infrastructure",
+    "sources": [
+      "https://www.huawei.com/au/news/au/2011/hw-u_151021",
+      "https://www.computerworld.com/article/3477556/john-brumby-quits-huawei-australia-board.html"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "2011-06-06",
+    "end_date": "2019-03-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Citywide Service Solutions Pty Ltd",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://theconversation.com/profiles/john-brumby-126263",
+      "https://theorg.com/org/citywide-service-solutions-pty-ltd/org-chart/john-m-brumby"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "2011"
+  },
+  {
+    "role": "Director",
+    "organisation": "United States Studies Centre Ltd",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://theconversation.com/profiles/john-brumby-126263",
+      "https://en.wikipedia.org/wiki/John_Brumby"
+    ],
+    "pollie_slug": "john-brumby"
+  },
+  {
+    "role": "Advisory Council Member",
+    "organisation": "Global Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://theconversation.com/profiles/john-brumby-126263"
+    ],
+    "pollie_slug": "john-brumby"
+  },
+  {
+    "role": "Advisory Board Chair",
+    "organisation": "National Centre for Workplace Leadership, University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.monash.edu/news/articles/john-brumby-appointed-joint-v-cs-professorial-fellow",
+      "https://theconversation.com/profiles/john-brumby-126263"
+    ],
+    "pollie_slug": "john-brumby"
+  },
+  {
+    "role": "Leadership Advisory Board Member",
+    "organisation": "Australian Regenerative Medicine Institute, Monash University",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://armi.org.au/about/who-we-are/armi-ambassador-program/",
+      "https://www.monash.edu/news/articles/john-brumby-appointed-joint-v-cs-professorial-fellow"
+    ],
+    "pollie_slug": "john-brumby"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Council of Australian Governments Reform Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://australianpolitics.com/2012/12/07/john-brumby-appointed-to-chair-coag-reform-council.html/",
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22media/pressrel/2105282%22;src1=sm1"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "2013-01",
+    "end_date": "2016-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Fred Hollows Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.thirdsector.com.au/amp/fred-hollows-foundation-welcomes-new-board-chair/",
+      "https://www.hollows.org/who-we-are/our-leaders/"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "2011",
+    "end_date": "2021-06-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Fred Hollows Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.thirdsector.com.au/amp/fred-hollows-foundation-welcomes-new-board-chair/",
+      "https://www.hollows.org/who-we-are/our-leaders/"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "2016",
+    "end_date": "2021-06-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Melbourne Convention and Exhibition Trust",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.premier.vic.gov.au/site-4/brumby-chair-melbourne-convention-and-exhibition-trust",
+      "https://exhibitcitynews.com/john-brumby-to-chair-melbourne-convention-and-exhibition-trust/"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "2017-08-11"
+  },
+  {
+    "role": "Founding Chair",
+    "organisation": "Olivia Newton-John Cancer Research Institute",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.onjcri.org.au/the-john-brumby-impact-fund/",
+      "https://www.onjcri.org.au/news/staff/onjcri-chair-receives-honorary-doctorate/"
+    ],
+    "pollie_slug": "john-brumby"
+  },
+  {
+    "role": "Chair",
+    "organisation": "BioCurate Pty Ltd",
+    "category": "Pharmaceutical & Biotechnology",
+    "sources": [
+      "https://www.biocurate.com/about/our-board/1330-2/",
+      "https://www.monash.edu/news/articles/ceo-appointed-to-new-medicines-discovery-venture,-biocurate-pty-ltd"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "2016"
+  },
+  {
+    "role": "National President",
+    "organisation": "Australia China Business Council",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://acbc.com.au/media-release/media-release-hon-john-brumby-ao-steps-down-as-acbc-national-president/",
+      "https://www.bloomberg.com/news/videos/2018-10-16/australia-china-business-to-business-relationship-strong-acbc-s-brumby-says-video"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "2014",
+    "end_date": "2019-11"
+  },
+  {
+    "role": "Honorary Professorial Fellow, Faculty of Business and Economics",
+    "organisation": "University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://findanexpert.unimelb.edu.au/profile/435404-john-brumby",
+      "https://www.theepochtimes.com/world/former-victorian-premier-to-lead-private-healthcare-australia-5818847"
+    ],
+    "pollie_slug": "john-brumby"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Victorian International Education Advisory Council",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.bendigoadvertiser.com.au/story/7131412/brumby-to-chair-council-seeking-to-boost-international-education/",
+      "https://studymelbourne.vic.gov.au/about-study-melbourne/international-education-advisory-council"
+    ],
+    "pollie_slug": "john-brumby"
+  },
+  {
+    "role": "Chancellor",
+    "organisation": "La Trobe University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://ucc.edu.au/la-trobe-university",
+      "https://www.bendigoadvertiser.com.au/story/5979213/john-brumby-to-lead-la-trobe-into-new-era/"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "2019-03-29"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Breakthrough Victoria",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://breakthroughvictoria.com/our-team/",
+      "https://www.miragenews.com/experts-to-power-our-economy-and-jobs-of-future-530008/",
+      "https://biomelbourne.org/john-brumby-to-lead-2b-research-fund-in-victoria/"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "2021"
+  },
+  {
+    "role": "Chair",
+    "organisation": "In2Science",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://in2science.org.au/",
+      "https://theconversation.com/profiles/john-brumby-126263"
+    ],
+    "pollie_slug": "john-brumby"
+  },
+  {
+    "role": "Independent Chair",
+    "organisation": "Private Healthcare Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://privatehealthcareaustralia.org.au/former-victorian-premier-john-brumby-appointed-independent-chair-of-private-healthcare-australia/",
+      "https://www.theepochtimes.com/world/former-victorian-premier-to-lead-private-healthcare-australia-5818847"
+    ],
+    "pollie_slug": "john-brumby",
+    "start_date": "2025-05"
   }
 ]
