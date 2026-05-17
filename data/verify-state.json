@@ -995,26 +995,46 @@
   "michael-ferguson|Deputy Premier of Tasmania|Government of Tasmania|2022-04-08": "2026-05-14T00:00:00.000Z",
   "tim-fischer|Chair|Crawford Fund|2001-01-01": "2026-05-13T20:03:40.217Z",
   "tim-fischer|Founding Patron|Australia for United Nations High Commissioner for Refugees|2001-01-01": "2026-05-13T20:03:40.217Z",
-  "tim-fischer|Director|Fred Hollows Foundation|1999-01-01": "2026-05-13T20:03:40.217Z",
+  "tim-fischer|Director|Fred Hollows Foundation|1999-01-01": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
   "tim-fischer|Special Envoy for the Adelaide-Darwin Railway|Government of South Australia|2004-01-01": "2026-05-13T20:03:40.217Z",
-  "tim-fischer|Director|FreightLink|2004-01-01": "2026-05-13T20:03:40.217Z",
+  "tim-fischer|Director|FreightLink|2004-01-01": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
   "tim-fischer|Chair|Tourism Australia|2004-01-01": "2026-05-13T20:03:40.217Z",
-  "tim-fischer|Chair|Winemakers Federation of Australia|null": "2026-05-13T20:03:40.217Z",
-  "tim-fischer|Chair|Australia Thailand Institute|null": "2026-05-13T20:03:40.217Z",
+  "tim-fischer|Chair|Winemakers Federation of Australia|null": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
+  "tim-fischer|Chair|Australia Thailand Institute|null": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
   "tim-fischer|National Chair|Royal Flying Doctor Service|2007-01-01": "2026-05-13T20:03:40.217Z",
-  "tim-fischer|Chair|Victorian Rail Freight Network Review|2007-01-01": "2026-05-13T20:03:40.217Z",
-  "tim-fischer|Co-Chair, Rural Industries and Rural Communities Working Group|Australia 2020 Summit|2008-04-01": "2026-05-13T20:03:40.217Z",
-  "tim-fischer|Host|Great Train Show podcast|2008-01-26": "2026-05-13T20:03:40.217Z",
+  "tim-fischer|Chair|Victorian Rail Freight Network Review|2007-01-01": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
+  "tim-fischer|Co-Chair, Rural Industries and Rural Communities Working Group|Australia 2020 Summit|2008-04-01": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
+  "tim-fischer|Host|Great Train Show podcast|2008-01-26": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
   "tim-fischer|Ambassador to the Holy See|Australian Department of Foreign Affairs and Trade|2009-01-01": "2026-05-13T20:03:40.217Z",
   "tim-fischer|Special Envoy to Bhutan, Eritrea and South Sudan|Australian Department of Foreign Affairs and Trade|2012-01-01": "2026-05-13T20:03:40.217Z",
   "tim-fischer|Vice Chair, Executive Board|Crop Trust|2013-01-01": "2026-05-13T20:03:40.217Z",
   "tim-fischer|Chair, Executive Board|Crop Trust|2017-01-01": "2026-05-13T20:03:40.217Z",
-  "tim-fischer|Chair|Saluting Monash Council|2016-11-06": "2026-05-13T20:03:40.217Z",
+  "tim-fischer|Chair|Saluting Monash Council|2016-11-06": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
   "tim-fischer|Patron|Crawford Fund|2016-01-01": "2026-05-13T20:03:40.217Z",
   "tim-fischer|Global Leaders Faculty Member|Ducere Global Business School|null": "2026-05-13T20:03:40.217Z",
   "tim-fischer|Life Governor|Autism Spectrum Australia|null": "2026-05-13T20:03:40.217Z",
-  "tim-fischer|Patron|Frontier Services|null": "2026-05-13T20:03:40.217Z",
-  "tim-fischer|Patron|TrackSAFE Foundation|null": "2026-05-13T20:03:40.217Z",
+  "tim-fischer|Patron|Frontier Services|null": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
+  "tim-fischer|Patron|TrackSAFE Foundation|null": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
   "tim-fischer|Patron|National Railway Museum, Port Adelaide|null": "2026-05-13T20:03:40.217Z",
   "amanda-vanstone|Ambassador to Italy and San Marino|Australian Department of Foreign Affairs and Trade|2007-06-01": "2026-05-14T02:05:12.947Z",
   "amanda-vanstone|Presenter|Australian Broadcasting Corporation Radio National Counterpoint|2013-01-01": "2026-05-14T02:05:12.947Z",
@@ -1256,5 +1276,35 @@
   "michael-wooldridge|Chair|Oral Health Cooperative Research Centre|null": "2026-05-17T02:05:45.833Z",
   "michael-wooldridge|Chair|Australian Institute of Tropical Health Medicine|null": "2026-05-17T02:05:45.833Z",
   "michael-wooldridge|Board Member|Waubra Foundation|null": "2026-05-17T02:05:45.833Z",
-  "michael-wooldridge|Associate Professor|University of Melbourne|null": "2026-05-17T02:05:45.833Z"
+  "michael-wooldridge|Associate Professor|University of Melbourne|null": "2026-05-17T02:05:45.833Z",
+  "christabel-chamarette|Clinical Director|SafeCare|1997": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
+  "christabel-chamarette|Member|Parole Board of Western Australia|2002": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
+  "christabel-chamarette|Chair, Clergy Misconduct Panel|Anglican Diocese of Perth|1997": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
+  "christabel-chamarette|Member, Professional Standards Committee|Anglican Church of Australia (Western Australia)|2003": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
+  "christabel-chamarette|Clinical Supervisor|YMCA Western Australia|2003": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
+  "christabel-chamarette|Consultant|WA Department of Justice|2004": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
+  "christabel-chamarette|Expert Witness|Family Court of Western Australia|null": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
+  "christabel-chamarette|Supervisor and Consultant|Acacia Prison|null": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
+  "christabel-chamarette|Consultant Psychologist|Marninwarntikura Women's Resource Centre|2013": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  },
+  "christabel-chamarette|Consultant Psychologist|Yura Yungi Aboriginal Medical Service|2013": {
+    "last_examined_at": "2026-05-17T08:03:31.386Z"
+  }
 }

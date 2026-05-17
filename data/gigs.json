@@ -18670,11 +18670,17 @@
     "organisation": "Fred Hollows Foundation",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.hollows.org/au/latest/vale-tim-fischer"
+      "https://www.hollows.org/au/latest/vale-tim-fischer",
+      "https://www.ducerefoundation.org/ducere-glf-member/honorable-tim-fischer-ac"
     ],
     "pollie_slug": "tim-fischer",
     "start_date": "1999-01-01",
-    "end_date": "2003-12-31"
+    "end_date": "2003-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "WebSearch confirms Tim Fischer was a board member of Fred Hollows Foundation from 1999-2003."
+    }
   },
   {
     "role": "Special Envoy for the Adelaide-Darwin Railway",
@@ -18697,7 +18703,8 @@
     "category": "Science, Engineering & Technical Professions",
     "sources": [
       "https://www.aarail.com.au/corporate-structure",
-      "https://en.wikipedia.org/wiki/Tim_Fischer"
+      "https://en.wikipedia.org/wiki/Tim_Fischer",
+      "https://www.railexpress.com.au/tributes-pour-in-for-tireless-rail-advocate-tim-fischer/"
     ],
     "pollie_slug": "tim-fischer",
     "start_date": "2004-01-01"
@@ -18724,9 +18731,15 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://www.uow.edu.au/alumni/honorary-alumni/honorary-doctorates/timothy-fischer-ac/",
-      "https://corowarotary.jimdo.com/projects-events/current-projects/federation-dinner/"
+      "https://corowarotary.jimdo.com/projects-events/current-projects/federation-dinner/",
+      "https://www.zoominfo.com/c/winemakers-federation-of-australia/1242239052"
     ],
-    "pollie_slug": "tim-fischer"
+    "pollie_slug": "tim-fischer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UOW honorary doctorate citation confirms Fischer held the Chair of Winemakers Federation of Australia."
+    }
   },
   {
     "role": "Chair",
@@ -18736,7 +18749,12 @@
       "https://www.uow.edu.au/alumni/honorary-alumni/honorary-doctorates/timothy-fischer-ac/",
       "https://theconversation.com/tim-fischer-had-his-blind-spots-but-he-was-an-unsung-champion-of-an-asian-facing-australia-122310"
     ],
-    "pollie_slug": "tim-fischer"
+    "pollie_slug": "tim-fischer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UOW honorary doctorate citation confirms Fischer was Chair of Australia Thailand Institute."
+    }
   },
   {
     "role": "National Chair",
@@ -18758,12 +18776,16 @@
     "organisation": "Victorian Rail Freight Network Review",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://railfreightalliance.com/wp-content/uploads/2014/06/Switchpoint-Fischer-Report.pdf",
       "https://en.wikipedia.org/wiki/Tim_Fischer"
     ],
     "pollie_slug": "tim-fischer",
     "start_date": "2007-01-01",
-    "end_date": "2007-12-31"
+    "end_date": "2007-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Fischer's involvement in Victorian Rail Freight Network Review in 2007."
+    }
   },
   {
     "role": "Co-Chair, Rural Industries and Rural Communities Working Group",
@@ -18774,8 +18796,13 @@
       "https://thereaderwiki.com/en/Australia_2020_Summit_participants"
     ],
     "pollie_slug": "tim-fischer",
-    "start_date": "2008-04-01",
-    "end_date": "2008-04-30"
+    "start_date": "2008-04-18",
+    "end_date": "2008-04-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "WebSearch confirms Tim Fischer served as community co-chair for the Rural Industries and Rural Communities stream of the Australia 2020 Summit, 18-19 April 2008."
+    }
   },
   {
     "role": "Host",
@@ -18787,7 +18814,12 @@
     ],
     "pollie_slug": "tim-fischer",
     "start_date": "2008-01-26",
-    "end_date": "2009-12-31"
+    "end_date": "2009-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "WebSearch confirms Tim Fischer hosted The Great Train Show podcast series on ABC Local Radio between 2008-2009."
+    }
   },
   {
     "role": "Ambassador to the Holy See",
@@ -18856,11 +18888,18 @@
     "category": "Defence & Military and Security",
     "sources": [
       "https://www.monash4fieldmarshal.org.au/Vale_Tim_Fischer.php",
-      "https://www.australianjewishnews.com/fresh-push-for-monash-promotion/"
+      "https://www.australianjewishnews.com/fresh-push-for-monash-promotion/",
+      "https://www.monash4fieldmarshal.org.au/Status20191015.php",
+      "https://www.australianjewishnews.com/tim-fischer-remembered/"
     ],
     "pollie_slug": "tim-fischer",
     "start_date": "2016-11-06",
-    "end_date": "2019-08-22"
+    "end_date": "2019-08-22",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "WebSearch confirms Tim Fischer was chairman of the Saluting Monash Council from 2016 until his death on 22 August 2019."
+    }
   },
   {
     "role": "Patron",
@@ -18924,7 +18963,12 @@
       "https://tracksafefoundation.com.au/",
       "https://www.uow.edu.au/alumni/honorary-alumni/honorary-doctorates/timothy-fischer-ac/"
     ],
-    "pollie_slug": "tim-fischer"
+    "pollie_slug": "tim-fischer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UOW honorary doctorate citation confirms Tim Fischer was patron of TrackSAFE Foundation."
+    }
   },
   {
     "role": "Patron",
@@ -23434,7 +23478,12 @@
       "http://www.helpingfamiliesheal.com.au/about"
     ],
     "start_date": "1997",
-    "end_date": "2009"
+    "end_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography and nri.today confirm Clinical Director role at SafeCare Perth 1997-2009, aligning with her psychology career focus on abuse and offender rehabilitation."
+    }
   },
   {
     "pollie_slug": "christabel-chamarette",
@@ -23447,7 +23496,12 @@
       "https://nri.today/christabel-chamarette/"
     ],
     "start_date": "2002",
-    "end_date": "2005"
+    "end_date": "2005",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms appointment to Parole Board of WA in 2002, promoted to Principal member in 2003, resigned in 2005 in protest."
+    }
   },
   {
     "pollie_slug": "christabel-chamarette",
@@ -23459,7 +23513,12 @@
       "https://nri.today/christabel-chamarette/"
     ],
     "start_date": "1997",
-    "end_date": "2002"
+    "end_date": "2002",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography explicitly confirms she was Chair of a panel advising the Anglican Archbishop of Perth on clergy sexual misconduct complaints, 1997-2002."
+    }
   },
   {
     "pollie_slug": "christabel-chamarette",
@@ -23470,7 +23529,12 @@
       "https://biography.senate.gov.au/chamarette-christabel-marguerite-alain/",
       "https://nri.today/christabel-chamarette/"
     ],
-    "start_date": "2003"
+    "start_date": "2003",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms membership of the Anglican Church's Professional Standards Committee Western Australia from 2003 onwards."
+    }
   },
   {
     "pollie_slug": "christabel-chamarette",
@@ -23482,7 +23546,12 @@
       "https://nri.today/christabel-chamarette/"
     ],
     "start_date": "2003",
-    "end_date": "2005"
+    "end_date": "2005",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms Clinical Supervisor role at YMCA during 2003-2005 period."
+    }
   },
   {
     "pollie_slug": "christabel-chamarette",
@@ -23494,7 +23563,12 @@
       "https://nri.today/christabel-chamarette/"
     ],
     "start_date": "2004",
-    "end_date": "2004"
+    "end_date": "2004",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms consulting role with WA Department of Justice in 2004."
+    }
   },
   {
     "pollie_slug": "christabel-chamarette",
