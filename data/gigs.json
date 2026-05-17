@@ -23075,7 +23075,11 @@
       "https://en.wikipedia.org/wiki/Michael_Wooldridge_(politician)"
     ],
     "start_date": "2001-10-08",
-    "end_date": "2002-01-01"
+    "end_date": "2002-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-wooldridge",
@@ -23086,7 +23090,11 @@
       "https://researchaustralia.org/80-2/become-a-member/membership/honorary-life-members/the-hon-dr-michael-wooldridge/",
       "https://australianpolitics.com/2002/02/20/ex-ministers-jobs-after-government.html/"
     ],
-    "start_date": "2002-01-01"
+    "start_date": "2002-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-wooldridge",
@@ -23104,8 +23112,13 @@
     "category": "Health, Medical & Aged Care",
     "sources": [
       "https://en.wikipedia.org/wiki/Michael_Wooldridge_(politician)",
-      "https://www.crikey.com.au/2007/08/01/michael-wooldridge-still-promoting-the-privatisation-of-public-health/"
-    ]
+      "https://www.crikey.com.au/2007/08/01/michael-wooldridge-still-promoting-the-privatisation-of-public-health/",
+      "https://www.cogstate.com/leadership-teams/"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-wooldridge",
@@ -23124,7 +23137,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Michael_Wooldridge_(politician)"
     ],
-    "end_date": "2009-01-01"
+    "end_date": "2009-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-wooldridge",
@@ -23135,7 +23152,12 @@
       "https://en.wikipedia.org/wiki/Michael_Wooldridge_(politician)",
       "https://ozdb.com/Abn/57000004320"
     ],
-    "start_date": "2006-01-01"
+    "start_date": "2006-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Title confirmed as 'Lead Independent Director' in Wikipedia (not generic 'Director'). Start date 2006 confirmed via Wikipedia."
+    }
   },
   {
     "pollie_slug": "michael-wooldridge",
@@ -23147,7 +23169,12 @@
       "https://www.moneymanagement.com.au/news/funds-management/former-prime-trust-directors-breached-duties",
       "https://en.wikipedia.org/wiki/Michael_Wooldridge_(politician)"
     ],
-    "end_date": "2010-01-01"
+    "end_date": "2010-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wooldridge was disqualified as director in December 2014 following legal action, but the gig end_date of 2010 aligns with the company's collapse in 2010."
+    }
   },
   {
     "pollie_slug": "michael-wooldridge",
@@ -23159,7 +23186,12 @@
       "https://wordweavingpoetryjournal.com/broadcasting/news/2022-05-02/aspen-medical-greg-hunt-four-corners/101022086"
     ],
     "start_date": "2007-08-01",
-    "end_date": "2019-01-01"
+    "end_date": "2019-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Start date of 2007-08-01 confirmed via Crikey article from August 2007."
+    }
   },
   {
     "pollie_slug": "michael-wooldridge",
@@ -23168,7 +23200,11 @@
     "category": "Health, Medical & Aged Care",
     "sources": [
       "https://en.wikipedia.org/wiki/Michael_Wooldridge_(politician)"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-wooldridge",
@@ -23178,7 +23214,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Michael_Wooldridge_(politician)",
       "https://www.thestrategiccounsel.com.au/about-us.html"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-wooldridge",
@@ -23187,7 +23227,11 @@
     "category": "Health, Medical & Aged Care",
     "sources": [
       "https://en.wikipedia.org/wiki/Michael_Wooldridge_(politician)"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-wooldridge",
@@ -23196,7 +23240,12 @@
     "category": "Health, Medical & Aged Care",
     "sources": [
       "https://www.thestrategiccounsel.com.au/about-us.html"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Chair position confirmed via Wikipedia. The Strategic Counsel website (which lists this role) returned connection refused during fetch."
+    }
   },
   {
     "pollie_slug": "michael-wooldridge",
@@ -23205,7 +23254,11 @@
     "category": "Environment, Climate & Sustainability",
     "sources": [
       "https://en.wikipedia.org/wiki/Michael_Wooldridge_(politician)"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-wooldridge",
@@ -23214,7 +23267,11 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Michael_Wooldridge_(politician)"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-beahan",
