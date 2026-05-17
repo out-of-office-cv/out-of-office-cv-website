@@ -24376,5 +24376,46 @@
     ],
     "pollie_slug": "john-brumby",
     "start_date": "2025-05"
+  },
+  {
+    "pollie_slug": "edward-robertson",
+    "role": "National President",
+    "organisation": "YMCA Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/robertson-edward-albert/",
+      "https://en.wikipedia.org/wiki/Ted_Robertson"
+    ],
+    "start_date": "1989",
+    "end_date": "1991-01-05"
+  },
+  {
+    "pollie_slug": "murray-sainsbury",
+    "role": "Consultant",
+    "organisation": "Hindmarsh Group",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Murray_Sainsbury"
+    ]
+  },
+  {
+    "pollie_slug": "murray-sainsbury",
+    "role": "Chief Executive Officer",
+    "organisation": "Hindmarsh Group",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Murray_Sainsbury"
+    ],
+    "start_date": "1991"
+  },
+  {
+    "pollie_slug": "murray-sainsbury",
+    "role": "President",
+    "organisation": "Association of Former Members of the Parliament of Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Murray_Sainsbury",
+      "https://afmpa.asn.au/"
+    ]
   }
 ]
