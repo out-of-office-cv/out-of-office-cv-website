@@ -16244,11 +16244,19 @@
   {
     "role": "Chair",
     "organisation": "Paradigm Resources",
-    "category": "Professional Services & Management Consulting",
+    "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://www.zoominfo.com/p/Aden-Ridgeway/8612818238"
+      "https://www.zoominfo.com/p/Aden-Ridgeway/8612818238",
+      "https://www.chiefscientist.nsw.gov.au/__data/assets/pdf_file/0010/1180/Submission-001.Paradigm-Resources.pdf",
+      "https://alc.org.au/wp-content/uploads/2020/04/NSWALC-Annual-Report-2014-2015.pdf",
+      "https://publishednotices.asic.gov.au/browsesearch-notices/notice-details/Paradigm-Resources-Pty-Ltd-602694155/56adb856-ada1-4d6f-aed8-85e1bf973cd1"
     ],
-    "pollie_slug": "aden-ridgeway"
+    "pollie_slug": "aden-ridgeway",
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    },
+    "end_date": "2021-05-21"
   },
   {
     "role": "Council Member",
