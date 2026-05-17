@@ -23726,9 +23726,14 @@
     "category": "Technology (Software, IT & Digital Services)",
     "sources": [
       "https://www.ifa.com.au/news/16238-fofa-politician-joins-map-my-plan-board",
-      "https://www.investordaily.com.au/appointments/39437-bernie-ripoll-joins-map-my-plan-board"
+      "https://www.investordaily.com.au/appointments/39437-bernie-ripoll-joins-map-my-plan-board",
+      "https://www.fintechbusiness.com/wealth/383-bernie-ripoll-joins-map-my-plan-board"
     ],
-    "start_date": "2016-06-01"
+    "start_date": "2016-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "bernie-ripoll",
@@ -23747,7 +23752,11 @@
     "category": "Media, Communications & Public Relations",
     "sources": [
       "https://sasgroup.net.au/team/hon-bernie-ripoll/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "bernie-ripoll",
@@ -23759,7 +23768,11 @@
       "https://www.ifa.com.au/bernie-ripoll-joins-pimco-allianz-board",
       "https://www.moneymanagement.com.au/news/people-products/allianz-retire-forms-board"
     ],
-    "start_date": "2018-06-27"
+    "start_date": "2018-06-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "bernie-ripoll",
@@ -23770,7 +23783,11 @@
       "https://www.smsfassociation.com/media-release/bernie-ripoll-joins-smsf-association-board",
       "https://www.adviservoice.com.au/2019/04/bernie-ripoll-joins-smsf-association-board/"
     ],
-    "start_date": "2019-04-23"
+    "start_date": "2019-04-23",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "bernie-ripoll",
@@ -23780,7 +23797,11 @@
     "sources": [
       "https://sasgroup.net.au/team/hon-bernie-ripoll/",
       "https://theorg.com/org/conexus-financial/org-chart/hon-bernie-ripoll"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "bernie-ripoll",
@@ -23791,7 +23812,11 @@
       "https://sasgroup.net.au/team/hon-bernie-ripoll/",
       "https://rocketreach.co/bernie-ripoll-email_112499814",
       "https://theorg.com/org/conexus-financial/org-chart/hon-bernie-ripoll"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "bernie-ripoll",
@@ -23800,7 +23825,11 @@
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
       "https://www.listcorp.com/asx/auh/austchina-holdings-limited/news/appointment-of-hon-bernard-ripoll-as-a-director-2516883.html"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "bernie-ripoll",
@@ -23810,7 +23839,11 @@
     "sources": [
       "https://www.professionalplanner.com.au/2023/03/ian-knox-to-replace-bernie-ripoll-as-otivo-chair/"
     ],
-    "end_date": "2023-03-06"
+    "end_date": "2023-03-06",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "bernie-ripoll",
@@ -23821,7 +23854,11 @@
       "https://www.professionalplanner.com.au/2023/03/ian-knox-to-replace-bernie-ripoll-as-otivo-chair/",
       "https://theorg.com/org/conexus-financial/org-chart/hon-bernie-ripoll"
     ],
-    "start_date": "2023-03-06"
+    "start_date": "2023-03-06",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "bernie-ripoll",
