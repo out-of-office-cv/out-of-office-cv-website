@@ -6079,10 +6079,15 @@
     "organisation": "Gerard Rennick People First",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Gerard_Rennick_People_First"
+      "https://www.aec.gov.au/Parties_and_Representatives/Party_Registration/Registration_Decisions/2024/Registration-approved-Notice-Gerard-Rennick-People-First.pdf",
+      "https://www.theaustralian.com.au/nation/politics/rennick-quits-lnp-launches-people-first-party/news-story/03a85425da52914c4cab5deced37ab13?amp&nk=49eae04ff7344c5adaff87d1d8372c9d-1724567644"
     ],
     "pollie_slug": "gerard-rennick",
-    "start_date": "2024-08-25"
+    "start_date": "2024-08-25",
+    "verification": {
+      "decision": "verified",
+      "by": "khoi"
+    }
   },
   {
     "role": "Commissioner",
