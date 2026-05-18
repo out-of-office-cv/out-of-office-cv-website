@@ -24472,5 +24472,42 @@
       "https://en.wikipedia.org/wiki/Murray_Sainsbury",
       "https://afmpa.asn.au/"
     ]
+  },
+  {
+    "role": "Chair",
+    "organisation": "International Commission on Shipping",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Morris_(politician)",
+      "https://www.linkedin.com/pulse/reflecting-honorable-peter-morris-personal-paul-r-macgillivary",
+      "https://www.bairdmaritime.com/shipping/obituary-peter-morris-former-minister-of-transport-of-australia",
+      "https://www.thedcn.com.au/news/peter-morris-oam-remembered",
+      "https://www.newcastleherald.com.au/story/9233436/former-shortland-mp-and-hawke-government-minister-peter-morris-has-died-aged-93/"
+    ],
+    "pollie_slug": "peter-morris"
+  },
+  {
+    "role": "President",
+    "organisation": "Newcastle Maritime Museum",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Morris_(politician)",
+      "https://www.newcastleherald.com.au/story/9233436/former-shortland-mp-and-hawke-government-minister-peter-morris-has-died-aged-93/",
+      "https://www.thedcn.com.au/news/peter-morris-oam-remembered"
+    ],
+    "pollie_slug": "peter-morris"
+  },
+  {
+    "role": "Consul-General",
+    "organisation": "Australian Consulate-General Los Angeles",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Allan_Rocher",
+      "https://biography.senate.gov.au/rocher-allan-charles/",
+      "https://www.openaustralia.org.au/senate/?id=2016-05-02.100.2"
+    ],
+    "pollie_slug": "allan-rocher",
+    "start_date": "1999-01-01",
+    "end_date": "2002-12-31"
   }
 ]
