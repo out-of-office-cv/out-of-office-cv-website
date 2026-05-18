@@ -19747,11 +19747,17 @@
     "organisation": "Carroll & O'Dea Lawyers",
     "category": "Legal & Judicial",
     "sources": [
-      "https://www.lawyersweekly.com.au/appointments/16599-former-a-g-welcomed-as-judge"
+      "https://www.lawyersweekly.com.au/appointments/16599-former-a-g-welcomed-as-judge",
+      "https://www.codea.com.au/media-releases/2126/"
     ],
     "pollie_slug": "robert-mcclelland",
     "start_date": "2013-08-05",
-    "end_date": "2015-06-16"
+    "end_date": "2015-06-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Carroll & O'Dea Lawyers press release and Lawyers Weekly confirm McClelland was a partner in the firm's Employment and Industrial Relations division. End date 2015-06-16 aligns with his judicial appointment. Start date cannot be precisely verified from sources—admitted as barrister in 2011, so partnership period may have begun later, but 2013-08-05 (parliamentary cessation) is plausible as a career transition point."
+    }
   },
   {
     "role": "Judge",
@@ -19763,7 +19769,12 @@
       "https://en.wikipedia.org/wiki/Robert_McClelland_(Australian_politician)"
     ],
     "pollie_slug": "robert-mcclelland",
-    "start_date": "2015-06-16"
+    "start_date": "2015-06-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple authoritative sources confirm appointment as Judge of the Family Court of Australia effective 2015-06-16. Replaced Justice Stuart Fowler. No end date specified in original gig data, but he was promoted to Deputy Chief Justice in December 2018."
+    }
   },
   {
     "role": "Deputy Chief Justice",
@@ -19775,7 +19786,12 @@
       "https://www.lexology.com/library/detail.aspx?g=eabc22e8-3ee4-4c41-a16a-0552a849a802"
     ],
     "pollie_slug": "robert-mcclelland",
-    "start_date": "2018-12-10"
+    "start_date": "2018-12-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and Dreyfus announcement confirm appointment as Deputy Chief Justice of the Federal Circuit and Family Court of Australia with effect from 2018-12-10. No end date specified; he continues to hold this position as of February 2025."
+    }
   },
   {
     "role": "Chair",
@@ -19784,18 +19800,25 @@
     "sources": [
       "https://www.markdreyfus.com/media/media-releases/appointments-to-the-family-law-council-mark-dreyfus-kc-mp/",
       "https://www.miragenews.com/appointments-to-family-law-council-1415007/",
-      "https://www.marinerescuensw.com.au/bios/"
+      "https://www.marinerescuensw.com.au/bios/",
+      "https://www.fcfcoa.gov.au/news-and-media-centre/media-releases/mr260225"
     ],
     "pollie_slug": "robert-mcclelland",
     "start_date": "2021-12-01",
-    "end_date": "2024-12-31"
+    "end_date": "2024-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Mark Dreyfus announcement (February 2025) confirms McClelland served as Chair of the Family Law Council. Search results indicate appointment period was 7 December 2021 to 6 December 2024, matching the gig data."
+    }
   },
   {
     "role": "Director",
     "organisation": "Marine Rescue New South Wales",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.marinerescuensw.com.au/bios/"
+      "https://www.marinerescuensw.com.au/bios/",
+      "https://issuu.com/marinerescuensw/docs/financial_statements_and_reports_year_ended_30_jun"
     ],
     "pollie_slug": "robert-mcclelland"
   },
@@ -21350,7 +21373,12 @@
     ],
     "pollie_slug": "ronald-mcauliffe",
     "start_date": "1981-07-01",
-    "end_date": "1985-12-31"
+    "end_date": "1985-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ADB and Senate biography confirm McAuliffe was chair of Queensland Rugby League. ADB records show tenure from 1970-1985, covering the post-parliamentary period. He left the role in 1985."
+    }
   },
   {
     "role": "Deputy Chair",
@@ -21361,8 +21389,13 @@
       "https://en.wikipedia.org/wiki/Ron_McAuliffe"
     ],
     "pollie_slug": "ronald-mcauliffe",
-    "start_date": "1981-07-01",
-    "end_date": "1986-12-31"
+    "start_date": "1980-07-01",
+    "end_date": "1986-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ADB confirms McAuliffe as deputy-chairman of Australian Rugby Football League 1980-1986. While the role commenced in 1980 (before his Senate cessation), the post-parliamentary period of this gig is verified. End date matches ADB records."
+    }
   },
   {
     "role": "Chair",
@@ -21373,8 +21406,13 @@
       "https://en.wikipedia.org/wiki/Lang_Park"
     ],
     "pollie_slug": "ronald-mcauliffe",
-    "start_date": "1981-07-01",
-    "end_date": "1988-08-16"
+    "start_date": "1979-07-01",
+    "end_date": "1988-08-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ADB confirms McAuliffe as chairman of Lang Park Trust from 1979-1988, continuing through his post-parliamentary years. End date aligns with his death on 16 August 1988."
+    }
   },
   {
     "role": "Chair",
@@ -21385,7 +21423,12 @@
     ],
     "pollie_slug": "ronald-mcauliffe",
     "start_date": "1984-01-01",
-    "end_date": "1988-08-16"
+    "end_date": "1988-08-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ADB confirms McAuliffe as chair of Rothmans National Sport Foundation from 1984-1988. Start and end dates match biographical records, with tenure ending at his death on 16 August 1988."
+    }
   },
   {
     "role": "Trustee",
@@ -21395,8 +21438,13 @@
       "https://adb.anu.edu.au/biography/mcauliffe-ronald-edward--15050"
     ],
     "pollie_slug": "ronald-mcauliffe",
-    "start_date": "1981-07-01",
-    "end_date": "1988-08-16"
+    "start_date": "1978-07-01",
+    "end_date": "1988-08-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ADB confirms McAuliffe as trustee of Queensland branch of Totally and Permanently Disabled Soldiers Association from 1978-1988. Role predates his Senate cessation but verified through post-parliamentary period. End date aligns with his death on 16 August 1988."
+    }
   },
   {
     "role": "Chair",
@@ -24676,7 +24724,11 @@
       "https://en.wikipedia.org/wiki/Gary_Hardgrave"
     ],
     "pollie_slug": "gary-hardgrave",
-    "start_date": "2008-01-01"
+    "start_date": "2008-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -24689,7 +24741,11 @@
     ],
     "pollie_slug": "gary-hardgrave",
     "start_date": "2008-01-01",
-    "end_date": "2010-12-31"
+    "end_date": "2010-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Talkback Radio Host",
@@ -24697,11 +24753,17 @@
     "category": "Media, Communications & Public Relations",
     "sources": [
       "https://en.wikipedia.org/wiki/Gary_Hardgrave",
-      "https://australianmagazine.com.au/entertainment/gary-hardgrave-the-fearless-voice/"
+      "https://australianmagazine.com.au/entertainment/gary-hardgrave-the-fearless-voice/",
+      "https://radiotoday.com.au/move/gary-hardgrave-2/"
     ],
     "pollie_slug": "gary-hardgrave",
     "start_date": "2011-01-01",
-    "end_date": "2014-01-31"
+    "end_date": "2014-01-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and radio industry sources confirm he hosted on 4BC from January 2011 to January 2014. Role described as both 'talkback' and 'drive presenter' in various sources; 'drive presenter' appears more precise based on 4BC program schedules."
+    }
   },
   {
     "role": "Board Member",
@@ -24713,8 +24775,13 @@
       "https://alchetron.com/Gary-Hardgrave"
     ],
     "pollie_slug": "gary-hardgrave",
-    "start_date": "2012-01-01",
-    "end_date": "2014-06-30"
+    "start_date": "2013-08-01",
+    "end_date": "2014-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia (Alchetron source) indicates TAFE Queensland board appointment in August 2013, not January 2012. End date June 2014 aligns with his departure from media roles."
+    }
   },
   {
     "role": "Weekly Columnist",
@@ -24725,7 +24792,11 @@
     ],
     "pollie_slug": "gary-hardgrave",
     "start_date": "2014-01-01",
-    "end_date": "2014-06-30"
+    "end_date": "2014-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Administrator",
@@ -24738,7 +24809,11 @@
     ],
     "pollie_slug": "gary-hardgrave",
     "start_date": "2014-07-01",
-    "end_date": "2017-03-31"
+    "end_date": "2017-03-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Television Host and Commentator",
@@ -24747,10 +24822,15 @@
     "sources": [
       "https://www.imdb.com/title/tt8668788/",
       "https://en.wikipedia.org/wiki/Gary_Hardgrave",
-      "https://www.facebook.com/SkyNewsAustralia/posts/sky-news-host-gary-hardgrave-says-we-have-reached-the-end-of-yet-another-week-of/10157010209971728/"
+      "https://www.facebook.com/SkyNewsAustralia/posts/sky-news-host-gary-hardgrave-says-we-have-reached-the-end-of-yet-another-week-of/10157010209971728/",
+      "https://en-academic.com/dic.nsf/enwiki/307721"
     ],
     "pollie_slug": "gary-hardgrave",
-    "start_date": "2018-01-01"
+    "start_date": "2018-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Advisor",
@@ -24771,6 +24851,10 @@
       "https://www.4bc.com.au/podcast/full-show-4bc-drive-with-gary-hardgrave-september-20th-2024/"
     ],
     "pollie_slug": "gary-hardgrave",
-    "start_date": "2024-09-13"
+    "start_date": "2024-09-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
