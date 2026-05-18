@@ -24580,5 +24580,197 @@
     "pollie_slug": "allan-rocher",
     "start_date": "1999-01-01",
     "end_date": "2002-12-31"
+  },
+  {
+    "role": "Principal",
+    "organisation": "Meerbusch Consulting",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://rocketreach.co/matthew-williams-email_375019427",
+      "https://www.linkedin.com/in/matt-williamssa/"
+    ],
+    "pollie_slug": "matt-williams",
+    "start_date": "2016"
+  },
+  {
+    "role": "Associate Partner",
+    "organisation": "SEC Newgate Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://committeeforadelaide.org.au/new-member-sec-newgate/",
+      "https://rocketreach.co/matthew-williams-email_375019427"
+    ],
+    "pollie_slug": "matt-williams",
+    "start_date": "2019",
+    "end_date": "2022"
+  },
+  {
+    "role": "State Manager South Australia and Northern Territory and National Defence Manager",
+    "organisation": "Consult Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://rocketreach.co/matthew-williams-email_375019427",
+      "https://www.linkedin.com/in/matt-williamssa/"
+    ],
+    "pollie_slug": "matt-williams",
+    "start_date": "2023"
+  },
+  {
+    "role": "Government Relations Adviser",
+    "organisation": "Australian Pipelines and Gas Association",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://www.linkedin.com/in/matt-williamssa/"
+    ],
+    "pollie_slug": "matt-williams"
+  },
+  {
+    "role": "Partner",
+    "organisation": "Nehmer Davenport Dean",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gordon_Dean_(Australian_politician)",
+      "https://www.qlsproctor.com.au/2023/08/queensland-mourns-legal-stalwart/"
+    ],
+    "pollie_slug": "arthur-dean",
+    "start_date": "1983-03-05"
+  },
+  {
+    "role": "Magistrate",
+    "organisation": "Magistrates Court of Queensland",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gordon_Dean_(Australian_politician)",
+      "https://www.qlsproctor.com.au/2023/08/queensland-mourns-legal-stalwart/"
+    ],
+    "pollie_slug": "arthur-dean",
+    "start_date": "1997-06-23",
+    "end_date": "2007-06-12"
+  },
+  {
+    "role": "Presenter and Director",
+    "organisation": "4MBS Classic FM",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gordon_Dean_(Australian_politician)",
+      "https://www.qlsproctor.com.au/2023/08/queensland-mourns-legal-stalwart/"
+    ],
+    "pollie_slug": "arthur-dean"
+  },
+  {
+    "role": "President",
+    "organisation": "Brisbane Chorale",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.qlsproctor.com.au/2023/08/queensland-mourns-legal-stalwart/"
+    ],
+    "pollie_slug": "arthur-dean"
+  },
+  {
+    "role": "Founder and Principal Consultant",
+    "organisation": "Gary Hardgrave Group",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.garyhardgrave.com.au/",
+      "https://www.garyhardgrave.com.au/services",
+      "https://en.wikipedia.org/wiki/Gary_Hardgrave"
+    ],
+    "pollie_slug": "gary-hardgrave",
+    "start_date": "2008-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Brisbane Airport Corporation",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.garyhardgrave.com.au/services",
+      "https://en.wikipedia.org/wiki/Gary_Hardgrave",
+      "https://alchetron.com/Gary-Hardgrave"
+    ],
+    "pollie_slug": "gary-hardgrave",
+    "start_date": "2008-01-01",
+    "end_date": "2010-12-31"
+  },
+  {
+    "role": "Talkback Radio Host",
+    "organisation": "4BC",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gary_Hardgrave",
+      "https://australianmagazine.com.au/entertainment/gary-hardgrave-the-fearless-voice/"
+    ],
+    "pollie_slug": "gary-hardgrave",
+    "start_date": "2011-01-01",
+    "end_date": "2014-01-31"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "TAFE Queensland",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.garyhardgrave.com.au/services",
+      "https://en.wikipedia.org/wiki/Gary_Hardgrave",
+      "https://alchetron.com/Gary-Hardgrave"
+    ],
+    "pollie_slug": "gary-hardgrave",
+    "start_date": "2012-01-01",
+    "end_date": "2014-06-30"
+  },
+  {
+    "role": "Weekly Columnist",
+    "organisation": "Sunday Mail (Queensland)",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gary_Hardgrave"
+    ],
+    "pollie_slug": "gary-hardgrave",
+    "start_date": "2014-01-01",
+    "end_date": "2014-06-30"
+  },
+  {
+    "role": "Administrator",
+    "organisation": "Norfolk Island (Australian External Territory)",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gary_Hardgrave",
+      "https://minister.infrastructure.gov.au/jb/releases/2014/June/jb055_2014.aspx",
+      "https://www.gg.gov.au/about-governor-general/governor-generals-program/swearing-administrator-and-deputy-administrator-norfolk-island-united-states-studies-centre-dinner"
+    ],
+    "pollie_slug": "gary-hardgrave",
+    "start_date": "2014-07-01",
+    "end_date": "2017-03-31"
+  },
+  {
+    "role": "Television Host and Commentator",
+    "organisation": "Sky News Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.imdb.com/title/tt8668788/",
+      "https://en.wikipedia.org/wiki/Gary_Hardgrave",
+      "https://www.facebook.com/SkyNewsAustralia/posts/sky-news-host-gary-hardgrave-says-we-have-reached-the-end-of-yet-another-week-of/10157010209971728/"
+    ],
+    "pollie_slug": "gary-hardgrave",
+    "start_date": "2018-01-01"
+  },
+  {
+    "role": "Honorary Advisor",
+    "organisation": "Australia-China Chamber of Chief Executive Officers",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.ac-cc.org.au/pages/advisors.php"
+    ],
+    "pollie_slug": "gary-hardgrave"
+  },
+  {
+    "role": "Drive Host",
+    "organisation": "4BC",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.4bc.com.au/show/brisbane-live/",
+      "https://radioinfo.com.au/news/peter-fegan-to-look-after-4bc-breakfast-gary-hardgrave-will-host-drive-for-the-rest-of-2024/",
+      "https://www.4bc.com.au/podcast/full-show-4bc-drive-with-gary-hardgrave-september-20th-2024/"
+    ],
+    "pollie_slug": "gary-hardgrave",
+    "start_date": "2024-09-13"
   }
 ]
