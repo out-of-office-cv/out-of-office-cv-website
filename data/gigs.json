@@ -24976,5 +24976,167 @@
     "pollie_slug": "silvia-smith",
     "start_date": "1997-05-31",
     "end_date": "2003-05-03"
+  },
+  {
+    "role": "Councillor",
+    "organisation": "Northern Midlands Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://northernmidlands.tas.gov.au/council/your-council/mayor-and-councillors",
+      "https://www.examiner.com.au/story/5869753/understanding-the-struggle-of-adult-literacy/",
+      "https://www.maynereport.com/articles/2024/09/15-1438-3959.html"
+    ],
+    "pollie_slug": "dick-adams",
+    "start_date": "2014-10-01"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "State Library of Tasmania",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.examiner.com.au/story/5869753/understanding-the-struggle-of-adult-literacy/"
+    ],
+    "pollie_slug": "dick-adams"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Adult Literacy Council",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.examiner.com.au/story/5869753/understanding-the-struggle-of-adult-literacy/"
+    ],
+    "pollie_slug": "dick-adams"
+  },
+  {
+    "role": "Judge",
+    "organisation": "Federal Court of Australia",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bob_Ellicott",
+      "https://bn.nswbar.asn.au/article/the-hon-rj-bob-ellicott-ac-kc-1927-2022-attorney-general-of-australia-solicitor-general-of-australia-judge-of-the-federal-court"
+    ],
+    "pollie_slug": "robert-ellicott",
+    "start_date": "1981-03-02",
+    "end_date": "1983-02-24"
+  },
+  {
+    "role": "Barrister",
+    "organisation": "New South Wales Bar",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bob_Ellicott",
+      "https://sahof.org.au/hall-of-fame-member/bob-ellicott/"
+    ],
+    "pollie_slug": "robert-ellicott",
+    "start_date": "1983-01-01"
+  },
+  {
+    "role": "Arbitrator",
+    "organisation": "Court of Arbitration for Sport",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://sahof.org.au/hall-of-fame-member/bob-ellicott/",
+      "https://sahof.org.au/vale-the-hon-rj-bob-ellicott-ac/"
+    ],
+    "pollie_slug": "robert-ellicott",
+    "start_date": "1995-01-01"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Gymnastics Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://sahof.org.au/hall-of-fame-member/bob-ellicott/",
+      "https://australiansportreflections.com/2022/11/03/vale-bob-ellicott-ac-kc-fraser-government-minister-responsible-for-establishing-the-australian-institute-of-sport/"
+    ],
+    "pollie_slug": "robert-ellicott",
+    "start_date": "1986-01-01",
+    "end_date": "2015-01-01"
+  },
+  {
+    "role": "Member of Arbitration Panel",
+    "organisation": "International Association of Athletics Federations",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://sahof.org.au/hall-of-fame-member/bob-ellicott/",
+      "https://sahof.org.au/vale-the-hon-rj-bob-ellicott-ac/"
+    ],
+    "pollie_slug": "robert-ellicott"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Life Education Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.julianleeser.com.au/news/condolence-motion-the-hon-robert-ellicott-ac-kc/"
+    ],
+    "pollie_slug": "robert-ellicott"
+  },
+  {
+    "role": "Chair of Tribunal",
+    "organisation": "Fiji Chief Justice Misconduct Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bob_Ellicott"
+    ],
+    "pollie_slug": "robert-ellicott",
+    "start_date": "2007-11-20"
+  },
+  {
+    "role": "Independent Reviewer, Indigenous Education",
+    "organisation": "Northern Territory Department of Education",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/collins-robert-lindsay/",
+      "https://researchers.mq.edu.au/en/publications/learning-lessons-an-independent-review-of-indigenous-education-in/"
+    ],
+    "pollie_slug": "bob-collins",
+    "start_date": "1998-01-01",
+    "end_date": "1999-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Kakadu Tourism Pty Ltd",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://biography.senate.gov.au/collins-robert-lindsay/"
+    ],
+    "pollie_slug": "bob-collins"
+  },
+  {
+    "role": "Chair, Kakadu Region Social Impact Study Implementation Team",
+    "organisation": "Parks Australia",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/collins-robert-lindsay/",
+      "https://www.dcceew.gov.au/sites/default/files/documents/krsis-report.pdf"
+    ],
+    "pollie_slug": "bob-collins",
+    "start_date": "1998-01-01",
+    "end_date": "2000-12-31"
+  },
+  {
+    "role": "Panel Member, Review of Aboriginal and Torres Strait Islander Commission",
+    "organisation": "Commonwealth of Australia",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/collins-robert-lindsay/",
+      "https://aiatsis.gov.au/sites/default/files/research_pub/palmerk-dp12-atsic-origins-issues-future-research_0_2.pdf"
+    ],
+    "pollie_slug": "bob-collins",
+    "start_date": "2002-11-12",
+    "end_date": "2003-11-30"
+  },
+  {
+    "role": "Service Delivery Coordinator, Anangu Pitjantjatjara Yankunytjatjara Lands",
+    "organisation": "Government of South Australia",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bob_Collins_(politician)",
+      "https://biography.senate.gov.au/collins-robert-lindsay/"
+    ],
+    "pollie_slug": "bob-collins",
+    "start_date": "2004-03-01",
+    "end_date": "2004-08-01"
   }
 ]
