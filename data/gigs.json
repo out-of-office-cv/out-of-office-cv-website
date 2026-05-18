@@ -21770,7 +21770,11 @@
       "https://www.accc.gov.au/media-release/federal-court-declares-that-imagine-essential-services-limited-richard-evans-misled-small-businesses"
     ],
     "start_date": "2002-01-01",
-    "end_date": "2007-10-01"
+    "end_date": "2007-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "richard-evans",
@@ -21778,11 +21782,14 @@
     "organisation": "Australian Retailers Association",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://en.wikipedia.org/wiki/Richard_Evans_(Australian_politician)",
-      "https://www.accc.gov.au/media-release/federal-court-declares-that-imagine-essential-services-limited-richard-evans-misled-small-businesses"
+      "https://en.wikipedia.org/wiki/Richard_Evans_(Australian_politician)"
     ],
     "start_date": "2007-01-01",
-    "end_date": "2009-07-01"
+    "end_date": "2009-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "richard-evans",
@@ -21790,9 +21797,15 @@
     "organisation": "Council of Textile and Fashion Industries Australia",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://en.wikipedia.org/wiki/Richard_Evans_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Richard_Evans_(Australian_politician)",
+      "https://www.fibre2fashion.com/news/apparel-news/newsdetails.aspx?news_id=146585"
     ],
-    "end_date": "2014-01-01"
+    "end_date": "2014-01-01",
+    "start_date": "2013-07-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "richard-evans",
@@ -22511,7 +22524,11 @@
       "https://www.therural.com.au/story/4146183/top-rural-role-for-kay-hull/",
       "https://www.queenslandcountrylife.com.au/story/4132559/former-nats-mp-kay-hull-new-rirdc-chair/?cs=4704"
     ],
-    "start_date": "2016-09-01"
+    "start_date": "2016-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "kay-hull",
@@ -22523,7 +22540,12 @@
       "https://agrifutures.com.au/news/agrifutures-board-chair-kay-hull-ao-receives-officer-of-the-order-of-australia-award/",
       "https://conlog.eventsair.com/nff2021/kay-hull"
     ],
-    "end_date": "2022-12-31"
+    "end_date": "2022-12-31",
+    "start_date": "2016-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "kay-hull",
@@ -22532,10 +22554,13 @@
     "category": "Health, Medical & Aged Care",
     "sources": [
       "https://www.farmonline.com.au/story/3380734/anacad-arms-bush-against-ice/",
-      "https://www.markcoulton.com.au/ice-the-first-priority-for-governments-reshaped-drugs-and-alcohol-council/",
       "https://darrenchester.com.au/ice-the-first-priority-for-federal-government-s-reshaped-drugs-and-alcohol-council/"
     ],
-    "start_date": "2014-12-01"
+    "start_date": "2014-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "kay-hull",
@@ -22543,7 +22568,6 @@
     "organisation": "NSW Skills Board",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.training.nsw.gov.au/skills_board/members/kay_hull.html",
       "https://members.nsw.liberal.org.au/news/state-news/new-nsw-skills-board-lead-smart-and-skilled"
     ]
   },
@@ -22553,10 +22577,13 @@
     "organisation": "National Party of Australia",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://nationals.org.au/message-from-the-nationals-federal-president-mrs-kay-hull-ao/",
       "https://www.dailyadvertiser.com.au/story/7304326/nationals-president-dismisses-speculation-mccormacks-leadership-under-threat/",
       "https://www.nswnationals.org.au/federal-nats-chair-honoured-for-service-to-the-community/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "tony-lawler",
@@ -22790,7 +22817,11 @@
       "https://www.anglocelt.ie/2018/08/15/cavan-born-former-senator-jim-mckiernan-passes-away-in-australia/"
     ],
     "start_date": "2005-01-01",
-    "end_date": "2011-12-31"
+    "end_date": "2011-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "jim-mckiernan",
@@ -22803,7 +22834,11 @@
       "https://www.anglocelt.ie/2018/08/15/cavan-born-former-senator-jim-mckiernan-passes-away-in-australia/"
     ],
     "start_date": "2005-01-01",
-    "end_date": "2010-12-31"
+    "end_date": "2010-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "jim-mckiernan",
@@ -22816,7 +22851,11 @@
       "https://www.anglocelt.ie/2018/08/15/cavan-born-former-senator-jim-mckiernan-passes-away-in-australia/"
     ],
     "start_date": "2007-01-01",
-    "end_date": "2009-12-31"
+    "end_date": "2009-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "jim-mckiernan",
@@ -22829,7 +22868,11 @@
       "https://www.anglocelt.ie/2018/08/15/cavan-born-former-senator-jim-mckiernan-passes-away-in-australia/"
     ],
     "start_date": "2009-01-01",
-    "end_date": "2015-12-31"
+    "end_date": "2015-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "jim-mckiernan",
@@ -22839,7 +22882,11 @@
     "sources": [
       "https://www.openaustralia.org.au/senate/?id=2018-09-18.98.2",
       "https://www.anglocelt.ie/2018/08/15/cavan-born-former-senator-jim-mckiernan-passes-away-in-australia/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -23382,7 +23429,11 @@
       "https://rocketreach.co/michael-beahan-email_31798953"
     ],
     "start_date": "2001-01-01",
-    "end_date": "2006-12-31"
+    "end_date": "2006-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-beahan",
@@ -23394,7 +23445,11 @@
       "https://www.zoominfo.com/p/Michael-Beahan/1060269790"
     ],
     "start_date": "2006-01-01",
-    "end_date": "2016-12-31"
+    "end_date": "2016-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-beahan",
@@ -23406,7 +23461,12 @@
       "https://www.zoominfo.com/p/Michael-Beahan/1060269790",
       "https://en.wikipedia.org/wiki/Michael_Beahan",
       "https://rocketreach.co/michael-beahan-email_31798953"
-    ]
+    ],
+    "start_date": "2012-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-beahan",
@@ -23416,7 +23476,13 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Michael_Beahan",
       "https://www.zoominfo.com/p/Michael-Beahan/1060269790"
-    ]
+    ],
+    "start_date": "2014-01-01",
+    "end_date": "2017-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "michael-beahan",
@@ -23427,7 +23493,12 @@
       "http://www.anhca.asn.au/about-us/public-fund-trustees",
       "https://en.wikipedia.org/wiki/Michael_Beahan",
       "https://biography.senate.gov.au/beahan-michael-eamon/"
-    ]
+    ],
+    "start_date": "2013-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "fiona-scott",
