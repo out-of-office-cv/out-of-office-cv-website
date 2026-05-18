@@ -24856,5 +24856,64 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Chair",
+    "organisation": "Illawarra Rose Society",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.illawarramercury.com.au/story/8665351/illawarra-rose-society-celebrates-50-years-of-growth/",
+      "https://en.wikipedia.org/wiki/Colin_Hollis"
+    ],
+    "pollie_slug": "colin-hollis",
+    "start_date": "2004-01-01",
+    "end_date": "2012-12-31"
+  },
+  {
+    "role": "President",
+    "organisation": "Rose Society of New South Wales",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.illawarramercury.com.au/story/1915931/sweet-smell-of-success/",
+      "http://nsw.rose.org.au/rose-society-of-nsw-inc.html",
+      "https://en.wikipedia.org/wiki/Colin_Hollis"
+    ],
+    "pollie_slug": "colin-hollis",
+    "start_date": "2013-01-01"
+  },
+  {
+    "role": "President",
+    "organisation": "National Rose Society of Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://thebugleonline.com/2019/10/31/national-rose-honour-for-colin-hollis/",
+      "https://rose.org.au/honour-roll",
+      "https://rose.org.au/our-team",
+      "https://en.wikipedia.org/wiki/Colin_Hollis"
+    ],
+    "pollie_slug": "colin-hollis",
+    "start_date": "2019-01-01"
+  },
+  {
+    "role": "Coordinator",
+    "organisation": "Volunteers of Peace",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://thebuglenews.com.au/NewsStory/sneak-peek-of-new-rose/618852d3158952002c4cf287",
+      "https://en.wikipedia.org/wiki/Colin_Hollis"
+    ],
+    "pollie_slug": "colin-hollis"
+  },
+  {
+    "role": "Member of the Legislative Council",
+    "organisation": "Parliament of Tasmania",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Silvia_Smith",
+      "https://www.parliament.tas.gov.au/resources/about-parliament/historyindex/members/smiths708"
+    ],
+    "pollie_slug": "silvia-smith",
+    "start_date": "1997-05-31",
+    "end_date": "2003-05-03"
   }
 ]
