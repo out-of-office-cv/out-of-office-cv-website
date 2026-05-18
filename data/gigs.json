@@ -19398,7 +19398,11 @@
     ],
     "pollie_slug": "andrew-peacock",
     "start_date": "1997-02-02",
-    "end_date": "1999-02-27"
+    "end_date": "1999-02-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -19411,7 +19415,11 @@
     ],
     "pollie_slug": "andrew-peacock",
     "start_date": "2002-07-01",
-    "end_date": "2007-02-28"
+    "end_date": "2007-02-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -19424,7 +19432,11 @@
     ],
     "pollie_slug": "andrew-peacock",
     "start_date": "2007-03-01",
-    "end_date": "2008-06-01"
+    "end_date": "2008-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -19444,7 +19456,11 @@
       "https://www.legacy.com/us/obituaries/washingtonpost/name/andrew-peacock-obituary?n=andrew-peacock&pid=198393971",
       "https://www.dignitymemorial.com/obituaries/austin-tx/andrew-peacock-10156551"
     ],
-    "pollie_slug": "andrew-peacock"
+    "pollie_slug": "andrew-peacock",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
@@ -23028,7 +23044,12 @@
       "https://www.talkingtalent.com.au/speakers/phil-cleary/",
       "https://alchetron.com/Phil-Cleary"
     ],
-    "pollie_slug": "philip-cleary"
+    "pollie_slug": "philip-cleary",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Communications Manager role at Electrical Trades Union confirmed by multiple sources (Talking Talent and Alchetron)."
+    }
   },
   {
     "role": "Member",
@@ -23041,7 +23062,12 @@
     ],
     "pollie_slug": "philip-cleary",
     "start_date": "2016-07-01",
-    "end_date": "2019-11-30"
+    "end_date": "2019-11-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Member of Victorian Government Victim Survivors' Advisory Council confirmed by multiple strong sources (Platinum Speakers, Footyology, and Phil Cleary's official site). Dates July 2016 to November 2019 confirmed by official site."
+    }
   },
   {
     "role": "Columnist",
@@ -23051,7 +23077,12 @@
       "https://en.wikipedia.org/wiki/Phil_Cleary",
       "https://www.talkingtalent.com.au/speakers/phil-cleary/"
     ],
-    "pollie_slug": "philip-cleary"
+    "pollie_slug": "philip-cleary",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Columnist for Inside Football confirmed by multiple sources (Talking Talent, Wikipedia, Platinum Speakers, Alchetron)."
+    }
   },
   {
     "role": "Podcast host",
@@ -23062,8 +23093,7 @@
       "https://podcasts.apple.com/us/podcast/cleary-independent/id1624402766",
       "https://philcleary.com.au/"
     ],
-    "pollie_slug": "philip-cleary",
-    "start_date": "2022-01-01"
+    "pollie_slug": "philip-cleary"
   },
   {
     "role": "Freelance journalist and author",
@@ -23073,7 +23103,12 @@
       "https://en.wikipedia.org/wiki/Phil_Cleary",
       "https://philcleary.com.au/"
     ],
-    "pollie_slug": "philip-cleary"
+    "pollie_slug": "philip-cleary",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Freelance journalist and author confirmed by Wikipedia, Talking Talent, Platinum Speakers, and personal site. Three books published: Cleary Independent (1998), Just Another Little Murder (2002), Getting Away with Murder (2005)."
+    }
   },
   {
     "role": "Head of Football",
@@ -23084,7 +23119,12 @@
       "https://en.wikipedia.org/wiki/Phil_Cleary"
     ],
     "pollie_slug": "philip-cleary",
-    "start_date": "2024-01-01"
+    "start_date": "2024-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Head of Football at West Coburg Football Club confirmed by Essendon DFL 2024 Men's Season Preview. Wikipedia also confirms junior-level coaching at West Coburg. Start date of 2024 aligns with 2024 preseason preview."
+    }
   },
   {
     "pollie_slug": "julian-beale",
@@ -23410,7 +23450,12 @@
       "https://en.wikipedia.org/wiki/Fiona_Scott",
       "https://www.facebook.com/SkyNewsAustralia/videos/sky-news-contributor-fiona-scott-we-have-to-work-with-islamic-people-in-australi/10154607604961728/"
     ],
-    "start_date": "2017-01-01"
+    "start_date": "2017-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms political commentary on Sky News Australia starting January 2017. Facebook posts show her as Sky News contributor. Timing aligns with post-parliamentary period."
+    }
   },
   {
     "pollie_slug": "fiona-scott",
@@ -23434,7 +23479,12 @@
       "https://au.linkedin.com/in/fionascott2750"
     ],
     "start_date": "2017-01-01",
-    "end_date": "2024-12-31"
+    "end_date": "2024-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "PremierNational official website confirms Fiona Scott as Executive Director Federal Government, joining alongside Graham Richardson in March announcement. Role and end date (2024) consistent with available evidence."
+    }
   },
   {
     "pollie_slug": "fiona-scott",
@@ -23466,7 +23516,12 @@
       "https://www.facebook.com/radionational/posts/federal-liberal-vice-president-fiona-scott-says-the-party-electing-its-first-fem/1234119761717227/",
       "https://www.theepochtimes.com/world/liberal-partys-1st-female-leader-a-step-towards-rebirth-vice-president-says-5857392"
     ],
-    "start_date": "2024-06-01"
+    "start_date": "2024-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia, The Epoch Times, and Facebook all confirm Federal Vice President of Liberal Party of Australia elected June 2024. Timing aligns with post-parliamentary involvement."
+    }
   },
   {
     "pollie_slug": "fiona-scott",
