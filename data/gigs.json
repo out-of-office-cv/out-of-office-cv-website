@@ -9204,7 +9204,11 @@
       "https://www.carersaustralia.com.au/media-release/carers-australia-announces-new-ceo/",
       "https://www.qamh.org.au/team/cathy-otoole/"
     ],
-    "pollie_slug": "cathy-otoole"
+    "pollie_slug": "cathy-otoole",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Chair",
@@ -9215,7 +9219,11 @@
       "https://www.qamh.org.au/members-events/category/member-events/"
     ],
     "pollie_slug": "cathy-otoole",
-    "start_date": "2020-08-01"
+    "start_date": "2020-08-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -20179,11 +20187,16 @@
     "category": "Technology (Software, IT & Digital Services)",
     "sources": [
       "https://en.wikipedia.org/wiki/Alan_Griffiths",
-      "https://michaelwest.com.au/alan-griffiths/"
+      "https://michaelwest.com.au/alan-griffiths/",
+      "https://www.architectureanddesign.com.au/editorial/product-news/trimble-acquires-quantm"
     ],
     "pollie_slug": "alan-griffiths",
     "start_date": "1996",
-    "end_date": "2006"
+    "end_date": "2006",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -20195,8 +20208,12 @@
       "https://announcements.asx.com.au/asxpdf/20130315/pdf/42dpqvm3nk62gj.pdf"
     ],
     "pollie_slug": "alan-griffiths",
-    "start_date": "2010-12",
-    "end_date": "2014"
+    "start_date": "2010-09",
+    "end_date": "2014",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Chair and Co-founder",
@@ -20207,7 +20224,11 @@
       "https://michaelwest.com.au/alan-griffiths/"
     ],
     "pollie_slug": "alan-griffiths",
-    "start_date": "2010"
+    "start_date": "2010",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member, President's Council",
@@ -20217,7 +20238,11 @@
       "https://en.wikipedia.org/wiki/Alan_Griffiths",
       "https://www.sourcewatch.org/index.php/International_Crisis_Group"
     ],
-    "pollie_slug": "alan-griffiths"
+    "pollie_slug": "alan-griffiths",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Moderator",
@@ -22806,7 +22831,11 @@
       "https://en.wikipedia.org/wiki/Rosemary_Crowley",
       "https://biography.senate.gov.au/crowley-rosemary-anne/"
     ],
-    "start_date": "2003"
+    "start_date": "2003",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "rosemary-crowley",
@@ -22818,7 +22847,11 @@
       "https://biography.senate.gov.au/crowley-rosemary-anne/"
     ],
     "start_date": "2004",
-    "end_date": "2005"
+    "end_date": "2005",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "rosemary-crowley",
@@ -22830,7 +22863,11 @@
       "https://biography.senate.gov.au/crowley-rosemary-anne/"
     ],
     "start_date": "2006",
-    "end_date": "2007"
+    "end_date": "2007",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "rosemary-crowley",
@@ -22841,7 +22878,11 @@
       "https://en.wikipedia.org/wiki/Rosemary_Crowley",
       "https://biography.senate.gov.au/crowley-rosemary-anne/"
     ],
-    "start_date": "2005"
+    "start_date": "2005",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "rosemary-crowley",
@@ -22852,7 +22893,11 @@
       "https://en.wikipedia.org/wiki/Rosemary_Crowley",
       "https://biography.senate.gov.au/crowley-rosemary-anne/"
     ],
-    "start_date": "2007"
+    "start_date": "2007",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "jim-mckiernan",
@@ -24681,7 +24726,11 @@
       "https://www.qlsproctor.com.au/2023/08/queensland-mourns-legal-stalwart/"
     ],
     "pollie_slug": "arthur-dean",
-    "start_date": "1983-03-05"
+    "start_date": "1983-03-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Magistrate",
@@ -24693,7 +24742,11 @@
     ],
     "pollie_slug": "arthur-dean",
     "start_date": "1997-06-23",
-    "end_date": "2007-06-12"
+    "end_date": "2007-06-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Presenter and Director",
@@ -24703,7 +24756,11 @@
       "https://en.wikipedia.org/wiki/Gordon_Dean_(Australian_politician)",
       "https://www.qlsproctor.com.au/2023/08/queensland-mourns-legal-stalwart/"
     ],
-    "pollie_slug": "arthur-dean"
+    "pollie_slug": "arthur-dean",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -24712,7 +24769,11 @@
     "sources": [
       "https://www.qlsproctor.com.au/2023/08/queensland-mourns-legal-stalwart/"
     ],
-    "pollie_slug": "arthur-dean"
+    "pollie_slug": "arthur-dean",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founder and Principal Consultant",
