@@ -21352,7 +21352,11 @@
     ],
     "pollie_slug": "graham-maguire",
     "start_date": "1993-01-01",
-    "end_date": "1995-12-31"
+    "end_date": "1995-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -21363,7 +21367,11 @@
     ],
     "pollie_slug": "graham-maguire",
     "start_date": "1995-01-01",
-    "end_date": "1998-12-31"
+    "end_date": "1998-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -21374,7 +21382,11 @@
     ],
     "pollie_slug": "graham-maguire",
     "start_date": "1993-01-01",
-    "end_date": "1998-12-31"
+    "end_date": "1998-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -21385,7 +21397,11 @@
     ],
     "pollie_slug": "graham-maguire",
     "start_date": "1994-01-01",
-    "end_date": "1997-12-31"
+    "end_date": "1997-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -24928,7 +24944,12 @@
     ],
     "pollie_slug": "colin-hollis",
     "start_date": "2004-01-01",
-    "end_date": "2012-12-31"
+    "end_date": "2012-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Illawarra Mercury confirms chair of Illawarra Rose Society 2004-2012."
+    }
   },
   {
     "role": "President",
@@ -24937,10 +24958,16 @@
     "sources": [
       "https://www.illawarramercury.com.au/story/1915931/sweet-smell-of-success/",
       "http://nsw.rose.org.au/rose-society-of-nsw-inc.html",
-      "https://en.wikipedia.org/wiki/Colin_Hollis"
+      "https://en.wikipedia.org/wiki/Colin_Hollis",
+      "https://thebuglenews.com.au/NewsStory/the-illawarra-rose-society-turns-50/66690c76c41aa30029705426"
     ],
     "pollie_slug": "colin-hollis",
-    "start_date": "2013-01-01"
+    "start_date": "2013-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Illawarra Mercury (Nov 2013) confirms election as NSW Rose Society president after 10 years as Illawarra president."
+    }
   },
   {
     "role": "President",
@@ -24950,10 +24977,16 @@
       "https://thebugleonline.com/2019/10/31/national-rose-honour-for-colin-hollis/",
       "https://rose.org.au/honour-roll",
       "https://rose.org.au/our-team",
-      "https://en.wikipedia.org/wiki/Colin_Hollis"
+      "https://en.wikipedia.org/wiki/Colin_Hollis",
+      "https://thebuglenews.com.au/NewsStory/colin-recognised-with-top-garden-clubs-award/68f85df997a262002ebdee10"
     ],
     "pollie_slug": "colin-hollis",
-    "start_date": "2019-01-01"
+    "start_date": "2019-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "rose.org.au honour roll lists Hollis as National President 2020-2021; The Bugle (2019) reports his election. Australian Rose Award recipient 2019."
+    }
   },
   {
     "role": "Coordinator",
@@ -24963,7 +24996,12 @@
       "https://thebuglenews.com.au/NewsStory/sneak-peek-of-new-rose/618852d3158952002c4cf287",
       "https://en.wikipedia.org/wiki/Colin_Hollis"
     ],
-    "pollie_slug": "colin-hollis"
+    "pollie_slug": "colin-hollis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Hollis serves as coordinator of Volunteers of Peace, maintaining rose beds in Peace Park Kiama."
+    }
   },
   {
     "role": "Member of the Legislative Council",
@@ -25017,7 +25055,12 @@
     ],
     "pollie_slug": "robert-ellicott",
     "start_date": "1981-03-02",
-    "end_date": "1983-02-24"
+    "end_date": "1983-02-24",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Federal Court appointment confirmed with exact dates. Multiple strong sources (NSW Bar, Wikipedia) confirm March 2, 1981 appointment and February 24, 1983 resignation."
+    }
   },
   {
     "role": "Barrister",
@@ -25028,7 +25071,12 @@
       "https://sahof.org.au/hall-of-fame-member/bob-ellicott/"
     ],
     "pollie_slug": "robert-ellicott",
-    "start_date": "1983-01-01"
+    "start_date": "1983-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Return to barrister practice post-Federal Court confirmed by Wikipedia and NSW Bar article."
+    }
   },
   {
     "role": "Arbitrator",
@@ -25039,7 +25087,12 @@
       "https://sahof.org.au/vale-the-hon-rj-bob-ellicott-ac/"
     ],
     "pollie_slug": "robert-ellicott",
-    "start_date": "1995-01-01"
+    "start_date": "1995-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CAS arbitrator role confirmed by Wikipedia and SAHOF; involved from 1995 onwards including Olympic and Commonwealth Games ad hoc divisions."
+    }
   },
   {
     "role": "Patron",
@@ -25051,7 +25104,12 @@
     ],
     "pollie_slug": "robert-ellicott",
     "start_date": "1986-01-01",
-    "end_date": "2015-01-01"
+    "end_date": "2015-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Patron of Gymnastics Australia since 1986, confirmed by SAHOF and Australian Sports Reflections."
+    }
   },
   {
     "role": "Member of Arbitration Panel",
@@ -25080,7 +25138,12 @@
       "https://en.wikipedia.org/wiki/Bob_Ellicott"
     ],
     "pollie_slug": "robert-ellicott",
-    "start_date": "2007-11-20"
+    "start_date": "2007-11-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Fiji Chief Justice Misconduct Tribunal chair appointment 20 November 2007 confirmed; appointed by President Iloilo to investigate suspended Chief Justice Daniel Fatiaki."
+    }
   },
   {
     "role": "Independent Reviewer, Indigenous Education",
@@ -25092,7 +25155,12 @@
     ],
     "pollie_slug": "bob-collins",
     "start_date": "1998-01-01",
-    "end_date": "1999-12-31"
+    "end_date": "1999-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography and Macquarie University publication confirm independent review of Indigenous education in NT, published as \"Learning Lessons\" (1999)."
+    }
   },
   {
     "role": "Chair",
@@ -25112,8 +25180,13 @@
       "https://www.dcceew.gov.au/sites/default/files/documents/krsis-report.pdf"
     ],
     "pollie_slug": "bob-collins",
-    "start_date": "1998-01-01",
-    "end_date": "2000-12-31"
+    "start_date": "1998-11-01",
+    "end_date": "2000-11-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography and KRSIS report confirm Collins chaired the Implementation Team; Team operated November 1998 to November 2000."
+    }
   },
   {
     "role": "Panel Member, Review of Aboriginal and Torres Strait Islander Commission",
@@ -25125,7 +25198,12 @@
     ],
     "pollie_slug": "bob-collins",
     "start_date": "2002-11-12",
-    "end_date": "2003-11-30"
+    "end_date": "2003-11-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ATSIC review panel announced 12 November 2002 with Hannaford, Collins, and Huggins; report released November 2003."
+    }
   },
   {
     "role": "Service Delivery Coordinator, Anangu Pitjantjatjara Yankunytjatjara Lands",
@@ -25137,6 +25215,11 @@
     ],
     "pollie_slug": "bob-collins",
     "start_date": "2004-03-01",
-    "end_date": "2004-08-01"
+    "end_date": "2004-08-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography, SA parliamentary records, and Wikipedia confirm appointment by Premier Mike Rann in March 2004; resigned August 2004."
+    }
   }
 ]
