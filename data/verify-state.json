@@ -486,7 +486,7 @@
   "mary-easson|Chair|Life Education NSW|null": "2026-05-06T20:06:50.524Z",
   "mary-easson|Steering Committee Member|Trinity College Leadership Program for Parliamentarians, University of Melbourne|null": "2026-05-06T20:06:50.524Z",
   "mary-easson|Director|Australia Israel Labor Dialogue|null": "2026-05-06T20:06:50.524Z",
-  "cheryl-kernot|Programme Director, Skoll Centre for Social Entrepreneurs|Sa\u00efd Business School, University of Oxford|2002-01-01": "2026-05-06T20:06:50.524Z",
+  "cheryl-kernot|Programme Director, Skoll Centre for Social Entrepreneurs|Saïd Business School, University of Oxford|2002-01-01": "2026-05-06T20:06:50.524Z",
   "cheryl-kernot|Director of Learning|School for Social Entrepreneurs|null": "2026-05-06T20:06:50.524Z",
   "cheryl-kernot|Associate Professor & Director of Teaching and Learning, Centre for Social Impact|University of New South Wales|2008-09-01": "2026-05-06T20:06:50.524Z",
   "cheryl-kernot|Director of Social Business, Centre for Social Impact|University of New South Wales|null": "2026-05-06T20:06:50.524Z",
@@ -1495,5 +1495,38 @@
   "bernard-kilgariff|Foundation Chair|Northern Territory Young Men's Christian Association (Southern Region)|null": "2026-05-19T08:05:54Z",
   "condor-laucke|Lieutenant-Governor|Government of South Australia|1982-07-01": "2026-05-19T08:05:54Z",
   "condor-laucke|President|Toc H Australia|1983-01-01": "2026-05-19T08:05:54Z",
-  "condor-laucke|Inaugural Patron|Association of Former Members of the Parliament of Australia|1991-01-01": "2026-05-19T08:05:54Z"
+  "condor-laucke|Inaugural Patron|Association of Former Members of the Parliament of Australia|1991-01-01": "2026-05-19T08:05:54Z",
+  "raymond-groom|Senior Adviser to the Premier|Government of Tasmania|1984-12-01": {
+    "last_examined_at": "2026-05-20T00:00:00.000Z"
+  },
+  "raymond-groom|Member of the House of Assembly|Parliament of Tasmania|1986-02-08": {
+    "last_examined_at": "2026-05-20T00:00:00.000Z"
+  },
+  "raymond-groom|Deputy Premier of Tasmania|Government of Tasmania|1988-11-01": {
+    "last_examined_at": "2026-05-20T00:00:00.000Z"
+  },
+  "raymond-groom|Leader of the Tasmanian Parliamentary Liberal Party|Tasmanian Liberal Party|1991-12-01": {
+    "last_examined_at": "2026-05-20T00:00:00.000Z"
+  },
+  "raymond-groom|Premier of Tasmania|Government of Tasmania|1992-02-17": {
+    "last_examined_at": "2026-05-20T00:00:00.000Z"
+  },
+  "raymond-groom|Barrister, Solicitor, Arbitrator and Mediator|Private Legal Practice|2001-08-09": {
+    "last_examined_at": "2026-05-20T00:00:00.000Z"
+  },
+  "raymond-groom|Director and Deputy Chair|Southern Cross Care Tasmania|2002-02-01": {
+    "last_examined_at": "2026-05-20T00:00:00.000Z"
+  },
+  "raymond-groom|Chair|Southern Cross Care Tasmania|2006-01-01": {
+    "last_examined_at": "2026-05-20T00:00:00.000Z"
+  },
+  "raymond-groom|Chair|Southern Cross Care Australia|null": {
+    "last_examined_at": "2026-05-20T00:00:00.000Z"
+  },
+  "raymond-groom|Deputy President|Administrative Appeals Tribunal|2004-07-01": {
+    "last_examined_at": "2026-05-20T00:00:00.000Z"
+  },
+  "raymond-groom|Stolen Generations Assessor|Government of Tasmania|2006-12-01": {
+    "last_examined_at": "2026-05-20T00:00:00.000Z"
+  }
 }

@@ -25877,11 +25877,16 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://en.wikipedia.org/wiki/Ray_Groom",
-      "https://tasmaniantimes.com/2005/11/bob-cheek-sugar-rays-king-hit/"
+      "https://tasmaniantimes.com/2005/11/bob-cheek-sugar-rays-king-hit/",
+      "https://www.utas.edu.au/library/companion_to_tasmanian_history/G/Ray%20Groom.htm"
     ],
     "pollie_slug": "raymond-groom",
     "start_date": "1984-12-01",
-    "end_date": "1986-02-08"
+    "end_date": "1986-02-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member of the House of Assembly",
@@ -25893,7 +25898,11 @@
     ],
     "pollie_slug": "raymond-groom",
     "start_date": "1986-02-08",
-    "end_date": "2001-08-09"
+    "end_date": "2001-08-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Premier of Tasmania",
@@ -25904,7 +25913,11 @@
     ],
     "pollie_slug": "raymond-groom",
     "start_date": "1988-11-01",
-    "end_date": "1989-06-01"
+    "end_date": "1989-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Leader of the Tasmanian Parliamentary Liberal Party",
@@ -25916,7 +25929,11 @@
     ],
     "pollie_slug": "raymond-groom",
     "start_date": "1991-12-01",
-    "end_date": "1996-03-18"
+    "end_date": "1996-03-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Premier of Tasmania",
@@ -25928,7 +25945,11 @@
     ],
     "pollie_slug": "raymond-groom",
     "start_date": "1992-02-17",
-    "end_date": "1996-03-18"
+    "end_date": "1996-03-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Barrister, Solicitor, Arbitrator and Mediator",
@@ -25938,7 +25959,11 @@
       "https://en.wikipedia.org/wiki/Ray_Groom"
     ],
     "pollie_slug": "raymond-groom",
-    "start_date": "2001-08-09"
+    "start_date": "2001-08-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director and Deputy Chair",
@@ -25982,7 +26007,11 @@
       "https://en.wikipedia.org/wiki/Ray_Groom"
     ],
     "pollie_slug": "raymond-groom",
-    "start_date": "2004-01-01"
+    "start_date": "2004-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Stolen Generations Assessor",
@@ -25994,7 +26023,11 @@
     ],
     "pollie_slug": "raymond-groom",
     "start_date": "2006-12-01",
-    "end_date": "2008-03-01"
+    "end_date": "2008-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Senate Member",
