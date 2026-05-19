@@ -25221,5 +25221,284 @@
       "by": "claude",
       "note": "Senate biography, SA parliamentary records, and Wikipedia confirm appointment by Premier Mike Rann in March 2004; resigned August 2004."
     }
+  },
+  {
+    "role": "Deputy Administrator",
+    "organisation": "Northern Territory Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/kilgariff-bernard-francis/",
+      "https://en.wikipedia.org/wiki/Bernie_Kilgariff"
+    ],
+    "pollie_slug": "bernard-kilgariff",
+    "start_date": "1990-01-01",
+    "end_date": "1997-01-01"
+  },
+  {
+    "role": "Pastoral Station Owner",
+    "organisation": "Erldunda Station",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://biography.senate.gov.au/kilgariff-bernard-francis/",
+      "https://territorystories.nt.gov.au/10070/314087/0"
+    ],
+    "pollie_slug": "bernard-kilgariff",
+    "start_date": "1987-01-01",
+    "end_date": "2001-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Royal Flying Doctor Service Alice Springs Base",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://biography.senate.gov.au/kilgariff-bernard-francis/",
+      "https://en.wikipedia.org/wiki/Bernie_Kilgariff"
+    ],
+    "pollie_slug": "bernard-kilgariff"
+  },
+  {
+    "role": "Foundation President",
+    "organisation": "Alice Springs Art Foundation",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://biography.senate.gov.au/kilgariff-bernard-francis/",
+      "https://en.wikipedia.org/wiki/Bernie_Kilgariff"
+    ],
+    "pollie_slug": "bernard-kilgariff"
+  },
+  {
+    "role": "Foundation Chair",
+    "organisation": "Alice Springs Community College",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/kilgariff-bernard-francis/",
+      "https://en.wikipedia.org/wiki/Bernie_Kilgariff"
+    ],
+    "pollie_slug": "bernard-kilgariff"
+  },
+  {
+    "role": "Foundation Chair",
+    "organisation": "Northern Territory Young Men's Christian Association (Southern Region)",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/kilgariff-bernard-francis/",
+      "https://en.wikipedia.org/wiki/Bernie_Kilgariff"
+    ],
+    "pollie_slug": "bernard-kilgariff"
+  },
+  {
+    "role": "Author",
+    "organisation": "Hudson Publishing",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paul_McLean_(politician)",
+      "https://biography.senate.gov.au/mclean-paul-alexander/",
+      "https://www.goodreads.com/book/show/5893650-bankers-and-bastards",
+      "https://catalogue.nla.gov.au/catalog/1830363"
+    ],
+    "pollie_slug": "paul-mclean",
+    "start_date": "1992-01-01",
+    "end_date": "1992-12-31"
+  },
+  {
+    "role": "Governor-General",
+    "organisation": "Commonwealth of Australia",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bill_Hayden",
+      "https://handbook.aph.gov.au/GovernorsGeneral/70",
+      "https://www.gg.gov.au/about-governor-general/media/vale-honourable-bill-hayden-ac"
+    ],
+    "pollie_slug": "william-hayden",
+    "start_date": "1989-02-16",
+    "end_date": "1996-02-16"
+  },
+  {
+    "role": "National Patron",
+    "organisation": "Scout Association of Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bill_Hayden",
+      "https://en.wikipedia.org/wiki/Scouts_Australia"
+    ],
+    "pollie_slug": "william-hayden",
+    "start_date": "1989-02-16",
+    "end_date": "1996-02-16"
+  },
+  {
+    "role": "Editorial Advisory Board Chair",
+    "organisation": "Quadrant",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bill_Hayden",
+      "https://powerbase.info/index.php/Quadrant_(magazine)"
+    ],
+    "pollie_slug": "william-hayden"
+  },
+  {
+    "role": "Author",
+    "organisation": "Angus & Robertson",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.amazon.com/Hayden-Autobiography-Bill/dp/020718769X",
+      "https://www.goodreads.com/book/show/5939424-hayden",
+      "https://www.australianbookreview.com.au/abr-online/archive/1996/489-may-1996-no-180/8828-gerard-henderson-reviews-hayden-an-autobiography-by-bill-hayden"
+    ],
+    "pollie_slug": "william-hayden",
+    "start_date": "1996-01-01",
+    "end_date": "1996-12-31"
+  },
+  {
+    "role": "Columnist (Cassandra column)",
+    "organisation": "Australian Financial Review",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://biography.senate.gov.au/walsh-peter-alexander/",
+      "https://en.wikipedia.org/wiki/Peter_Walsh_(Australian_politician)",
+      "https://www.openaustralia.org.au/senate/?id=2015-05-12.128.2"
+    ],
+    "pollie_slug": "peter-walsh",
+    "start_date": "1993-07-01",
+    "end_date": "1998-05-31"
+  },
+  {
+    "role": "Author",
+    "organisation": "Random House Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.amazon.com/Confessions-failed-finance-minister-Peter/dp/0091829992",
+      "https://books.google.com/books/about/Confessions_of_a_Failed_Finance_Minister.html?id=lcBUAAAACAAJ",
+      "https://en.wikipedia.org/wiki/Peter_Walsh_(Australian_politician)"
+    ],
+    "pollie_slug": "peter-walsh",
+    "start_date": "1995-01-01",
+    "end_date": "1995-12-31"
+  },
+  {
+    "role": "President",
+    "organisation": "Lavoisier Group",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lavoisier_Group",
+      "https://www.desmog.com/lavoisier-group/",
+      "https://biography.senate.gov.au/walsh-peter-alexander/"
+    ],
+    "pollie_slug": "peter-walsh",
+    "start_date": "2000-03-01"
+  },
+  {
+    "role": "Secretary-General",
+    "organisation": "Australian Red Cross",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jim_Carlton",
+      "https://www.openaustralia.org.au/senate/?id=2016-02-02.90.2",
+      "https://www.sbs.com.au/news/article/jim-carlton-farewelled-at-memorial-service/tmx4uba54"
+    ],
+    "pollie_slug": "jim-carlton",
+    "start_date": "1994-01-14",
+    "end_date": "2001-01-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "PNG Sustainable Development Program",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.bhp.com/news/media-centre/releases/2002/05/bhp-billiton-announces-director-nominees-for-png-sustainable-development-trust",
+      "https://en.wikipedia.org/wiki/Jim_Carlton"
+    ],
+    "pollie_slug": "jim-carlton",
+    "start_date": "2002-05-01"
+  },
+  {
+    "role": "Foundation Director",
+    "organisation": "Australia and New Zealand School of Government",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.openaustralia.org.au/senate/?id=2016-02-02.90.2",
+      "https://en.wikipedia.org/wiki/Jim_Carlton"
+    ],
+    "pollie_slug": "jim-carlton",
+    "start_date": "2002-01-01"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Australian Strategic Policy Institute",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.aspistrategist.org.au/vale-jim-carlton/",
+      "https://www.openaustralia.org.au/senate/?id=2016-02-02.90.2"
+    ],
+    "pollie_slug": "jim-carlton",
+    "start_date": "2001-07-01",
+    "end_date": "2008-12-31"
+  },
+  {
+    "role": "Advisory Council Chair",
+    "organisation": "National Archives of Australia",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.openaustralia.org.au/senate/?id=2016-02-02.90.2"
+    ],
+    "pollie_slug": "jim-carlton"
+  },
+  {
+    "role": "Senior Adviser",
+    "organisation": "Boston Consulting Group",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.openaustralia.org.au/senate/?id=2016-02-02.90.2",
+      "https://www.accountabilityrt.org/jim-carlton-integrity-lecture-25-march/"
+    ],
+    "pollie_slug": "jim-carlton"
+  },
+  {
+    "role": "Professorial Fellow",
+    "organisation": "Centre for Public Policy, University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.openaustralia.org.au/senate/?id=2016-02-02.90.2",
+      "https://www.centreforpublicimpact.org/insights/terry-moran-speech-oration-honour-jim-carlton-ao-next-long-wave-reform-will-ideas-come"
+    ],
+    "pollie_slug": "jim-carlton"
+  },
+  {
+    "role": "Adjunct Professor",
+    "organisation": "National Institute for Governance, University of Canberra",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.openaustralia.org.au/senate/?id=2016-02-02.90.2"
+    ],
+    "pollie_slug": "jim-carlton"
+  },
+  {
+    "role": "Director",
+    "organisation": "Cranlana Programme",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.accountabilityrt.org/jim-carlton-integrity-lecture-25-march/",
+      "https://www.openaustralia.org.au/senate/?id=2016-02-02.90.2"
+    ],
+    "pollie_slug": "jim-carlton"
+  },
+  {
+    "role": "Founding Director",
+    "organisation": "Accountability Round Table",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.accountabilityrt.org/jim-carlton-integrity-lecture-25-march/",
+      "https://www.accountabilityrt.org/the-first-task-is-to-find-the-right-answer-public-science-and-the-decline-of-capability/"
+    ],
+    "pollie_slug": "jim-carlton"
+  },
+  {
+    "role": "Member",
+    "organisation": "Foreign Minister's Aid Advisory Council",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.portrait.gov.au/people/jim-carlton-1935",
+      "https://www.openaustralia.org.au/senate/?id=2016-02-02.90.2"
+    ],
+    "pollie_slug": "jim-carlton"
   }
 ]
