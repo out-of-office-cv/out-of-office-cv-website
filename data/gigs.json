@@ -26485,11 +26485,17 @@
     "sources": [
       "https://en-academic.com/dic.nsf/enwiki/672523",
       "https://www.westernhealth.org.au/AboutUs/News/Pages/Western-Health-welcomes-new-Board-Chair.aspx",
-      "https://www.westernhealth.org.au/Foundation/LatestNews/Pages/Williamstown-Hospital-Breaks-New-Ground.aspx"
+      "https://www.westernhealth.org.au/Foundation/LatestNews/Pages/Williamstown-Hospital-Breaks-New-Ground.aspx",
+      "https://en.wikipedia.org/wiki/Ralph_Willis",
+      "https://www.openaustralia.org.au/mp/ralph_willis/gellibrand"
     ],
     "pollie_slug": "ralph-willis",
     "start_date": "2004-07-01",
-    "end_date": "2014-07-01"
+    "end_date": "2014-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -26497,27 +26503,42 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://en-academic.com/dic.nsf/enwiki/672523",
-      "https://fbe.unimelb.edu.au/centenary/our-stories/profiles/ralph-willis"
+      "https://fbe.unimelb.edu.au/centenary/our-stories/profiles/ralph-willis",
+      "https://en.wikipedia.org/wiki/Ralph_Willis"
     ],
-    "pollie_slug": "ralph-willis"
+    "pollie_slug": "ralph-willis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Australian Super Developments",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://en-academic.com/dic.nsf/enwiki/672523"
+      "https://en-academic.com/dic.nsf/enwiki/672523",
+      "https://en.wikipedia.org/wiki/Ralph_Willis"
     ],
-    "pollie_slug": "ralph-willis"
+    "pollie_slug": "ralph-willis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
     "organisation": "Australian Council of Superannuation Investors",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://en-academic.com/dic.nsf/enwiki/672523"
+      "https://en-academic.com/dic.nsf/enwiki/672523",
+      "https://en.wikipedia.org/wiki/Ralph_Willis"
     ],
-    "pollie_slug": "ralph-willis"
+    "pollie_slug": "ralph-willis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -26525,9 +26546,14 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://en-academic.com/dic.nsf/enwiki/672523",
-      "https://webapps.ilo.org/public/english/standards/relm/gb/docs/gb286/pdf/esp-5.pdf"
+      "https://en.wikipedia.org/wiki/Ralph_Willis"
     ],
-    "pollie_slug": "ralph-willis"
+    "pollie_slug": "ralph-willis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Removed inaccessible PDF source; verified through Wikipedia and UN Secretary-General's Youth Employment Network documentation"
+    }
   },
   {
     "role": "Chair",
@@ -26535,9 +26561,14 @@
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://en-academic.com/dic.nsf/enwiki/672523",
-      "https://en.wikipedia.org/wiki/Melbourne_City_Opera"
+      "https://en.wikipedia.org/wiki/Melbourne_City_Opera",
+      "https://en.wikipedia.org/wiki/Ralph_Willis"
     ],
-    "pollie_slug": "ralph-willis"
+    "pollie_slug": "ralph-willis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair and Treasurer",
@@ -26545,9 +26576,14 @@
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://en-academic.com/dic.nsf/enwiki/672523",
-      "https://www.miettafoundation.com.au/the-mietta-foundation"
+      "https://www.miettafoundation.com.au/the-mietta-foundation",
+      "https://en.wikipedia.org/wiki/Ralph_Willis"
     ],
-    "pollie_slug": "ralph-willis"
+    "pollie_slug": "ralph-willis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -26575,18 +26611,28 @@
     "category": "Health, Medical & Aged Care",
     "sources": [
       "https://www.linkedin.com/in/ralph-willis-01a166104/",
-      "https://www.westernhealth.org.au/Foundation/LatestNews/Pages/Williamstown-Hospital-Breaks-New-Ground.aspx"
+      "https://www.westernhealth.org.au/Foundation/LatestNews/Pages/Williamstown-Hospital-Breaks-New-Ground.aspx",
+      "https://en.wikipedia.org/wiki/Ralph_Willis"
     ],
-    "pollie_slug": "ralph-willis"
+    "pollie_slug": "ralph-willis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
     "organisation": "Victoria University Foundation",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.linkedin.com/in/ralph-willis-01a166104/"
+      "https://www.linkedin.com/in/ralph-willis-01a166104/",
+      "https://en.wikipedia.org/wiki/Ralph_Willis"
     ],
-    "pollie_slug": "ralph-willis"
+    "pollie_slug": "ralph-willis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Author",
