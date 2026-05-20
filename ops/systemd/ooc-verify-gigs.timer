@@ -1,0 +1,12 @@
+[Unit]
+Description=Trigger OOC verify-gigs at 00, 06, 12, 18 local
+Requires=ooc-verify-gigs.service
+
+[Timer]
+OnCalendar=00/6:00
+RandomizedDelaySec=30min
+Persistent=true
+Unit=ooc-verify-gigs.service
+
+[Install]
+WantedBy=timers.target

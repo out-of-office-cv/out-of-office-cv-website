@@ -20,6 +20,24 @@ This static site is hosted at `https://www.outofoffice.cv` using GitHub Pages.
   - `--dry-run` --- preview without writing file
   - `--output <path>` --- custom output path (default `data/pollies.csv`)
 
+## Scheduled jobs
+
+Two scripts run on weddle via systemd user timers (canonical unit files
+in `ops/systemd/`):
+
+- `cron-verify-gigs.sh` --- 00, 06, 12, 18 local; rechecks each known gig
+- `cron-find-gigs.sh` --- 03, 09, 15, 21 local; searches for new gigs
+
+Both have 30 min `RandomizedDelaySec` jitter and `Persistent=true`. Install:
+
+```sh
+cp ops/systemd/*.{service,timer} ~/.config/systemd/user/
+systemctl --user daemon-reload
+systemctl --user enable --now ooc-verify-gigs.timer ooc-find-gigs.timer
+```
+
+Logs via `journalctl --user -u <name>.service -n 50`.
+
 ## Structure
 
 The two main types in this site's data model are `Pollie` (a politician) and

@@ -1,0 +1,12 @@
+[Unit]
+Description=Trigger OOC find-gigs at 03, 09, 15, 21 local
+Requires=ooc-find-gigs.service
+
+[Timer]
+OnCalendar=03/6:00
+RandomizedDelaySec=30min
+Persistent=true
+Unit=ooc-find-gigs.service
+
+[Install]
+WantedBy=timers.target
