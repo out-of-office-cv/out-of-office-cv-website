@@ -26539,5 +26539,74 @@
       "https://www.linkedin.com/in/ralph-willis-01a166104/"
     ],
     "pollie_slug": "ralph-willis"
+  },
+  {
+    "role": "Author",
+    "organisation": "Allen and Unwin",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.abebooks.com/first-edition/Cameron-Diaries-Clyde-Allen-Unwin/31296973917/bd",
+      "https://catalogue.nla.gov.au/catalog/287501",
+      "https://peopleaustralia.anu.edu.au/biography/cameron-clyde-robert-32947"
+    ],
+    "pollie_slug": "clyde-cameron",
+    "start_date": "1990-01-01",
+    "end_date": "1990-12-31"
+  },
+  {
+    "role": "Oral Historian",
+    "organisation": "National Library of Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.library.gov.au/research/guides-and-resources/guides-selected-collections/cameron-collection",
+      "https://labouraustralia.anu.edu.au/biography/cameron-clyde-robert-32947",
+      "https://catalogue.nla.gov.au/catalog/1089543"
+    ],
+    "pollie_slug": "clyde-cameron",
+    "start_date": "1981-01-01"
+  },
+  {
+    "role": "Contributor and Advocate",
+    "organisation": "Georgist Education Association",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://billmitchell.org/blog/?p=30215",
+      "https://en.wikipedia.org/wiki/Clyde_Cameron",
+      "https://www.prosper.org.au/geoists-in-history/clyde-cameron/"
+    ],
+    "pollie_slug": "clyde-cameron",
+    "start_date": "1980-01-01"
+  },
+  {
+    "role": "Financial Supporter",
+    "organisation": "Land Values Research Group",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.prosper.org.au/geoists-in-history/clyde-cameron/",
+      "https://hgarchives.org/historical-collections-2/australian-single-tax-and-henry-george-organizations-1925-1992/"
+    ],
+    "pollie_slug": "clyde-cameron"
+  },
+  {
+    "role": "Adviser (Queensland Projects)",
+    "organisation": "Office of the Minister for Resources, David Beddall",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_Courtice"
+    ],
+    "pollie_slug": "brian-courtice",
+    "start_date": "1994-01-01",
+    "end_date": "1994-12-31"
+  },
+  {
+    "role": "Opinion Columnist",
+    "organisation": "NewsMail (Bundaberg)",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://muckrack.com/brian-courtice",
+      "https://www.news-mail.com.au/topic/brian-courtice/"
+    ],
+    "pollie_slug": "brian-courtice",
+    "start_date": "2019-01-01"
   }
 ]
