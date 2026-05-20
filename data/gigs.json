@@ -27190,5 +27190,135 @@
       "https://en.wikipedia.org/wiki/Kim_Wilkie"
     ],
     "start_date": "2010"
+  },
+  {
+    "role": "Head of Strategy",
+    "organisation": "Arvio Technology",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://au.linkedin.com/in/vansenate",
+      "https://www.parliament.vic.gov.au/496293/contentassets/36ecef80741b497c803ad70f3b5a6271/116.1.-arvio-technology.pdf"
+    ],
+    "pollie_slug": "david-van"
+  },
+  {
+    "role": "Executive Director",
+    "organisation": "Australian Cotton Foundation",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gary_Punch",
+      "https://en-academic.com/dic.nsf/enwiki/8893707"
+    ],
+    "pollie_slug": "gary-punch",
+    "start_date": "1996-01-29"
+  },
+  {
+    "role": "Honorary Chair",
+    "organisation": "Sydney Olympic Football Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gary_Punch"
+    ],
+    "pollie_slug": "gary-punch",
+    "start_date": "1996-01-01",
+    "end_date": "1997-12-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "NRMA Motoring and Services",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gary_Punch",
+      "https://www.maynereport.com/articles/2007/10/12-1236-1117.html"
+    ],
+    "pollie_slug": "gary-punch",
+    "start_date": "2005-04-01"
+  },
+  {
+    "role": "Special Counsel",
+    "organisation": "Thomsons Lawyers",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.lawyersweekly.com.au/appointments/15153-ex-labor-mp-joins-sydney-firm"
+    ],
+    "pollie_slug": "gary-punch"
+  },
+  {
+    "role": "Special Counsel",
+    "organisation": "Herbert Geer",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.lawyersweekly.com.au/appointments/15153-ex-labor-mp-joins-sydney-firm",
+      "https://www.linkedin.com/in/gary-punch-2b330a63/"
+    ],
+    "pollie_slug": "gary-punch",
+    "end_date": "2014-02-28"
+  },
+  {
+    "role": "Special Counsel",
+    "organisation": "Landerer & Company",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.lawyersweekly.com.au/appointments/15153-ex-labor-mp-joins-sydney-firm",
+      "https://www.lawyersweekly.com.au/the-bar/15432-from-one-lander-to-another"
+    ],
+    "pollie_slug": "gary-punch",
+    "start_date": "2014-02-28",
+    "end_date": "2014-05-08"
+  },
+  {
+    "role": "Executive Lawyer",
+    "organisation": "Bartier Perry",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.lawyersweekly.com.au/the-bar/15432-from-one-lander-to-another"
+    ],
+    "pollie_slug": "gary-punch",
+    "start_date": "2014-05-08"
+  },
+  {
+    "role": "Planning Consultant and Lobbyist",
+    "organisation": "Economia PDS",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.newcastleherald.com.au/story/859429/labor-lobbyist-emerges-as-60m-developer/"
+    ],
+    "pollie_slug": "gary-punch"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Digislide Holdings Limited",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://www.investogain.com.au/company/digislide-holdings-limited/",
+      "https://en.wikipedia.org/wiki/Grant_Chapman"
+    ],
+    "pollie_slug": "hedley-chapman",
+    "start_date": "2010-03-25",
+    "end_date": "2012-03-08"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "My ATM Holdings Limited",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.delisted.com.au/company/my-atm-holdings-limited/",
+      "https://en.wikipedia.org/wiki/Grant_Chapman"
+    ],
+    "pollie_slug": "hedley-chapman",
+    "start_date": "2010-01-15",
+    "end_date": "2012-07-23"
+  },
+  {
+    "role": "President",
+    "organisation": "Liberal Party of Australia (South Australian Division)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Grant_Chapman",
+      "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=FF4"
+    ],
+    "pollie_slug": "hedley-chapman",
+    "start_date": "2010-09-01",
+    "end_date": "2013-10-31"
   }
 ]
