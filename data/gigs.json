@@ -26072,11 +26072,16 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://childcarecanada.org/documents/child-care-news/09/02/former-childcare-minister-larry-anthony-lobbied-abc-learning-au",
-      "https://au.linkedin.com/in/hon-larry-anthony"
+      "https://au.linkedin.com/in/hon-larry-anthony",
+      "https://www.aph.gov.au/binaries/senate/committee/eet_ctte/child_care/report/c02.pdf"
     ],
     "pollie_slug": "larry-anthony",
     "start_date": "2005",
-    "end_date": "2008"
+    "end_date": "2008",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -26085,11 +26090,16 @@
     "sources": [
       "https://northcoastvoices.blogspot.com/2016/01/lawrence-james-larry-anthony-memory-jog.html",
       "https://sandpipereditorial.com.au/the-greed-behind-indue/",
-      "https://sasgroup.net.au/team/hon-larry-anthony-ao/"
+      "https://sasgroup.net.au/team/hon-larry-anthony-ao/",
+      "https://michaelwest.com.au/larry-anthony/"
     ],
     "pollie_slug": "larry-anthony",
     "start_date": "2005-02-17",
-    "end_date": "2013"
+    "end_date": "2013",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chair",
@@ -26097,11 +26107,16 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://northcoastvoices.blogspot.com/2016/01/lawrence-james-larry-anthony-memory-jog.html",
-      "https://sandpipereditorial.com.au/the-greed-behind-indue/"
+      "https://sandpipereditorial.com.au/the-greed-behind-indue/",
+      "https://michaelwest.com.au/larry-anthony/"
     ],
     "pollie_slug": "larry-anthony",
     "start_date": "2008-07-18",
-    "end_date": "2013"
+    "end_date": "2013",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -26113,7 +26128,11 @@
     ],
     "pollie_slug": "larry-anthony",
     "start_date": "2006",
-    "end_date": "2009"
+    "end_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -26126,7 +26145,11 @@
     ],
     "pollie_slug": "larry-anthony",
     "start_date": "2006",
-    "end_date": "2009"
+    "end_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -26138,7 +26161,11 @@
     ],
     "pollie_slug": "larry-anthony",
     "start_date": "2008",
-    "end_date": "2010"
+    "end_date": "2010",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -26150,7 +26177,11 @@
     ],
     "pollie_slug": "larry-anthony",
     "start_date": "2005",
-    "end_date": "2012"
+    "end_date": "2012",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair of Friends of the Award",
@@ -26160,7 +26191,11 @@
       "https://dukeofed.com.au/the-hon-larry-anthony-was-appointed-an-officer-of-the-order-australia/"
     ],
     "pollie_slug": "larry-anthony",
-    "start_date": "2012"
+    "start_date": "2012",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founding Director",
@@ -26172,7 +26207,11 @@
       "https://michaelwest.com.au/larry-anthony/"
     ],
     "pollie_slug": "larry-anthony",
-    "start_date": "2009"
+    "start_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -26202,7 +26241,11 @@
     ],
     "pollie_slug": "larry-anthony",
     "start_date": "2006",
-    "end_date": "2012"
+    "end_date": "2012",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Federal President",
@@ -26211,11 +26254,16 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Larry_Anthony",
       "https://www.theland.com.au/story/3376590/anthony-to-take-nationals-reins/",
-      "https://www.echo.net.au/2015/09/greens-slam-coal-consultant-larry-anthonys-job-as-nats-president/"
+      "https://www.echo.net.au/2015/09/greens-slam-coal-consultant-larry-anthonys-job-as-nats-president/",
+      "https://michaelwest.com.au/larry-anthony/"
     ],
     "pollie_slug": "larry-anthony",
     "start_date": "2015-09-13",
-    "end_date": "2021"
+    "end_date": "2021",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
