@@ -26236,7 +26236,11 @@
     ],
     "pollie_slug": "gary-johns",
     "start_date": "1997",
-    "end_date": "2006"
+    "end_date": "2006",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Associate Commissioner",
@@ -26248,7 +26252,11 @@
     ],
     "pollie_slug": "gary-johns",
     "start_date": "2002",
-    "end_date": "2004"
+    "end_date": "2004",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Senior Consultant",
@@ -26260,7 +26268,11 @@
     ],
     "pollie_slug": "gary-johns",
     "start_date": "2006",
-    "end_date": "2009"
+    "end_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Associate Professor of Public Policy",
@@ -26271,7 +26283,11 @@
       "https://probonoaustralia.com.au/news/2017/12/who-is-gary-johns/"
     ],
     "pollie_slug": "gary-johns",
-    "start_date": "2009"
+    "start_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Visiting Fellow",
@@ -26282,7 +26298,11 @@
       "https://www.acnc.gov.au/media/news/federal-government-announces-new-acnc-commissioner"
     ],
     "pollie_slug": "gary-johns",
-    "start_date": "2012"
+    "start_date": "2012",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adjunct Professor",
@@ -26292,7 +26312,11 @@
       "https://en.wikipedia.org/wiki/Gary_Johns",
       "https://www.acnc.gov.au/media/news/federal-government-announces-new-acnc-commissioner"
     ],
-    "pollie_slug": "gary-johns"
+    "pollie_slug": "gary-johns",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -26300,9 +26324,14 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://en.wikipedia.org/wiki/Gary_Johns",
-      "https://reneweconomy.com.au/climate-science-denial-promoters-behind-queenslands-energy-scare-election-headlines-49474/"
+      "https://reneweconomy.com.au/climate-science-denial-promoters-behind-queenslands-energy-scare-election-headlines-49474/",
+      "https://littlesis.org/org/356751-Australian_Institute_for_Progress"
     ],
-    "pollie_slug": "gary-johns"
+    "pollie_slug": "gary-johns",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Commissioner",
@@ -26315,7 +26344,11 @@
     ],
     "pollie_slug": "gary-johns",
     "start_date": "2017-12",
-    "end_date": "2022-06"
+    "end_date": "2022-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -26327,7 +26360,11 @@
     ],
     "pollie_slug": "gary-johns",
     "start_date": "2001",
-    "end_date": "2011"
+    "end_date": "2011",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Columnist",
@@ -26346,7 +26383,11 @@
     "sources": [
       "https://www.spectator.com.au/author/gary-johns/"
     ],
-    "pollie_slug": "gary-johns"
+    "pollie_slug": "gary-johns",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Contributor",
@@ -26367,7 +26408,11 @@
       "https://www.crikey.com.au/2023/09/21/gary-johns-voice-to-parliament-no-campaign/"
     ],
     "pollie_slug": "gary-johns",
-    "start_date": "2023"
+    "start_date": "2023",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -26379,7 +26424,11 @@
       "https://getthewordout.com.au/press-release/press-release-groundbreaking-initiative-close-the-gap-research-sparks-a-new-vision-for-indigenous-communities/"
     ],
     "pollie_slug": "gary-johns",
-    "start_date": "2023-10"
+    "start_date": "2023-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
