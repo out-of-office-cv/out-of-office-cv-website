@@ -27362,5 +27362,141 @@
     "pollie_slug": "hedley-chapman",
     "start_date": "2010-09-01",
     "end_date": "2013-10-31"
+  },
+  {
+    "pollie_slug": "gary-humphries",
+    "role": "Lobbyist",
+    "organisation": "1st State Government and Corporate Relations",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gary_Humphries",
+      "https://www.wikiwand.com/en/articles/Gary_Humphries"
+    ]
+  },
+  {
+    "pollie_slug": "gary-humphries",
+    "role": "Chair",
+    "organisation": "Anzac Centenary Public Fund Board",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.sbs.com.au/news/new-board-for-anzac-centenary",
+      "https://x.com/garyhumphries/status/443187146468249600",
+      "https://en.wikipedia.org/wiki/Gary_Humphries"
+    ],
+    "start_date": "2014-03-01"
+  },
+  {
+    "pollie_slug": "gary-humphries",
+    "role": "Deputy President",
+    "organisation": "Administrative Appeals Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://citynews.com.au/2014/gary-humphries-appointed-deputy-president-administrative-appeals-tribunal/",
+      "https://www.canberratimes.com.au/national/act/former-act-senator-gary-humphries-now-sits-in-judgment-20150610-ghkxif.html",
+      "https://en.wikipedia.org/wiki/Gary_Humphries"
+    ],
+    "start_date": "2015-01-01",
+    "end_date": "2020-12-31"
+  },
+  {
+    "pollie_slug": "gary-humphries",
+    "role": "Chair",
+    "organisation": "RSPCA Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.rspca.org.au/media-centre/news/2015/independent-chair-and-directors-appointed-rspca-australia-board",
+      "https://www.rspca.org.au/latest-news/media-centre/rspca-farewells-and-thanks-gary-humphries-welcomes-new-chair-dr-richard/",
+      "https://www.rspca.org.au/latest-news/media-centre/rspca-chair-gary-humphries-recognised-australia-day-honours/"
+    ],
+    "start_date": "2015-10-12",
+    "end_date": "2019-05-18"
+  },
+  {
+    "pollie_slug": "gary-humphries",
+    "role": "Chair",
+    "organisation": "ARC Research Hub for Integrated Energy Storage Solutions",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://www.energystoragehub.org.au/gary-humphries",
+      "https://www.energystoragehub.org.au/about-5"
+    ]
+  },
+  {
+    "pollie_slug": "gary-humphries",
+    "role": "PhD Candidate",
+    "organisation": "Australian National University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://history.cass.anu.edu.au/people/gary-humphries-ao",
+      "https://history.cass.anu.edu.au/news/australian-honours-awards-anu-history-phd-candidate-made-officer-order-australia"
+    ]
+  },
+  {
+    "pollie_slug": "john-alexander",
+    "role": "Public Speaker",
+    "organisation": "Celebrity Speakers Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.celebrityspeakers.com.au/speakers/john-alexander-ao/"
+    ]
+  },
+  {
+    "pollie_slug": "john-williams",
+    "role": "Deputy Chair",
+    "organisation": "National Agricultural Labour Advisory Committee",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.northerndailyleader.com.au/story/8497461/former-nsw-senator-wacka-williams-recognised-with-an-oam/",
+      "https://ausveg.com.au/media-releases/national-agricultural-labour-advisory-committee-must-act-quickly-to-ensure-growers-have-workers/"
+    ],
+    "start_date": "2019-12-01"
+  },
+  {
+    "pollie_slug": "john-williams",
+    "role": "Chair",
+    "organisation": "Fisheries Research and Development Corporation",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.frdc.com.au/farewell-john-williams",
+      "https://www.northerndailyleader.com.au/story/8497461/former-nsw-senator-wacka-williams-recognised-with-an-oam/"
+    ],
+    "start_date": "2020-03-10",
+    "end_date": "2024-02-01"
+  },
+  {
+    "pollie_slug": "john-williams",
+    "role": "Member, Chief Executive Officer Advisory Panel",
+    "organisation": "Commonwealth Bank of Australia",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.northerndailyleader.com.au/story/8497461/former-nsw-senator-wacka-williams-recognised-with-an-oam/"
+    ],
+    "start_date": "2020-01-01"
+  },
+  {
+    "pollie_slug": "john-williams",
+    "role": "Chair",
+    "organisation": "Greyhound Racing NSW",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://www.nsw.gov.au/media-releases/new-board-for-greyhound-racing-nsw",
+      "https://www.nsw.gov.au/media-releases/greyhound-racing-nsw-welcomes-new-leadership",
+      "https://www.newcastleherald.com.au/story/7496106/board-headlines-a-class-act-for-another-year-of-huge-success/"
+    ],
+    "start_date": "2021-12-02",
+    "end_date": "2023-09-23"
+  },
+  {
+    "pollie_slug": "leo-price",
+    "role": "Consul-General",
+    "organisation": "Australian Consulate-General, Chicago",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Roger_Price_(Australian_politician)",
+      "https://www.foreignminister.gov.au/minister/julie-bishop/media-release/consul-general-chicago",
+      "https://www.zoominfo.com/p/Roger-Price/1739862131"
+    ],
+    "start_date": "2011-11-01",
+    "end_date": "2015-12-31"
   }
 ]
