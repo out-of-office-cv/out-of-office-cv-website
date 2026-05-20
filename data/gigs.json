@@ -26713,7 +26713,11 @@
       "https://en.wikipedia.org/wiki/Melissa_Parke"
     ],
     "start_date": "2017-09",
-    "end_date": "2023-09"
+    "end_date": "2023-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "melissa-parke",
@@ -26726,7 +26730,11 @@
       "https://www.apln.network/members/australia/melissa-parke/bio"
     ],
     "start_date": "2017-12",
-    "end_date": "2021"
+    "end_date": "2021",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "melissa-parke",
@@ -26737,7 +26745,11 @@
       "https://www.strategiaworldwide.com/strategia-worldwide-appoints-tom-albanese-and-the-hon-melissa-parke-to-senior-advisory-panel",
       "https://www.consultancy.uk/news/22636/strategia-worldwide-appoints-two-new-senior-advisors"
     ],
-    "start_date": "2019-10"
+    "start_date": "2019-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "melissa-parke",
@@ -26748,7 +26760,11 @@
       "https://www.icanw.org/ican_appoints_new_executive_director_melissa_parke",
       "https://en.wikipedia.org/wiki/Melissa_Parke"
     ],
-    "start_date": "2019"
+    "start_date": "2019",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "melissa-parke",
@@ -26761,7 +26777,11 @@
       "https://theorg.com/org/western-australian-museum/org-chart/melissa-parke"
     ],
     "start_date": "2020",
-    "end_date": "2023-09"
+    "end_date": "2023-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "melissa-parke",
@@ -26775,7 +26795,11 @@
       "https://www.miragenews.com/new-wa-museum-board-chair-culture-and-arts-1254266/"
     ],
     "start_date": "2021-08",
-    "end_date": "2023-09"
+    "end_date": "2023-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "melissa-parke",
@@ -26786,7 +26810,12 @@
       "https://www.businessnews.com.au/Person/Melissa-Parke",
       "https://www.wa.gov.au/organisation/forest-products-commission/organisational-structure"
     ],
-    "start_date": "2022-11"
+    "start_date": "2022-11",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Melissa Parke does not appear on the Forest Products Commission Board of Commissioners as of September 2025. Official WA government org structure page lists six commissioners (updated 30 Sept 2025) with no Melissa Parke listed. Business News source is insufficient without corroboration."
+    }
   },
   {
     "pollie_slug": "melissa-parke",
@@ -26796,7 +26825,12 @@
     "sources": [
       "https://www.businessnews.com.au/Person/Melissa-Parke"
     ],
-    "start_date": "2022-12"
+    "start_date": "2022-12",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Melissa Parke is not listed on the East Metropolitan Health Service Board as of April 2026. Official EMHS website lists ten board members with no Melissa Parke. Business News source is insufficient without corroboration from official EMHS records."
+    }
   },
   {
     "pollie_slug": "melissa-parke",
@@ -26814,7 +26848,11 @@
     "category": "Legal & Judicial",
     "sources": [
       "https://acij.org.au/about-us/advisory-council/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "melissa-parke",
@@ -26826,7 +26864,11 @@
       "https://www.apln.network/news/member_activities/melissa-parke-appointed-new-executive-director-for-ican",
       "https://icanw.org.au/the-new-international-ican-executive-director/"
     ],
-    "start_date": "2023-09-01"
+    "start_date": "2023-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "ron-boswell",
