@@ -28306,5 +28306,144 @@
       "by": "claude",
       "note": "Sources refer to 'Victorian State Opera' (founded 1962, merged with Australian Opera in 1996), not 'Victorian Opera' (founded 2005, after Guilfoyle's death in 2020). The current Victorian Opera organisation did not exist during Guilfoyle's lifetime. Guilfoyle's board service was with the Victorian State Opera, c.1981 until its 1996 absorption into Australian Opera."
     }
+  },
+  {
+    "role": "Chair",
+    "organisation": "National Gallery of Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lionel_Bowen"
+    ],
+    "pollie_slug": "lionel-bowen",
+    "start_date": "1990",
+    "end_date": "1995"
+  },
+  {
+    "role": "Political Consultant and Lobbyist",
+    "organisation": "Self-employed",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://adb.anu.edu.au/biography/young-michael-jerome-mick-32202",
+      "https://en.wikipedia.org/wiki/Mick_Young"
+    ],
+    "pollie_slug": "michael-young",
+    "start_date": "1988-02-08"
+  },
+  {
+    "role": "Chair",
+    "organisation": "National Multicultural Advisory Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://adb.anu.edu.au/biography/young-michael-jerome-mick-32202",
+      "https://pmtranscripts.pmc.gov.au/release/transcript-9645",
+      "https://en.wikipedia.org/wiki/Mick_Young"
+    ],
+    "pollie_slug": "michael-young",
+    "start_date": "1994-01-01",
+    "end_date": "1996-04-08"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Broadcasting Corporation",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Neville_Bonner",
+      "https://biography.senate.gov.au/bonner-neville-thomas/",
+      "https://www.portrait.gov.au/people/neville-bonner-1922"
+    ],
+    "pollie_slug": "neville-bonner",
+    "start_date": "1983-06-01",
+    "end_date": "1991-06-01"
+  },
+  {
+    "role": "Senior Official Visitor",
+    "organisation": "Queensland Corrective Services",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://nostalgiacentral.com/pop-culture/people/neville-bonner/",
+      "https://biography.senate.gov.au/bonner-neville-thomas/"
+    ],
+    "pollie_slug": "neville-bonner",
+    "start_date": "1990-01-01",
+    "end_date": "1997-12-31"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Griffith University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Neville_Bonner",
+      "https://www.chrisgriffith.com/1990s/1995/nbonner.html"
+    ],
+    "pollie_slug": "neville-bonner",
+    "start_date": "1992-01-01",
+    "end_date": "1996-12-31"
+  },
+  {
+    "role": "Chair of Aboriginal and Torres Strait Islander Education Committee",
+    "organisation": "Griffith University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.chrisgriffith.com/1990s/1995/nbonner.html"
+    ],
+    "pollie_slug": "neville-bonner",
+    "start_date": "1992-01-01",
+    "end_date": "1996-12-31"
+  },
+  {
+    "role": "Patron",
+    "organisation": "World Vision Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.portrait.gov.au/people/neville-bonner-1922",
+      "https://www.ebsco.com/research-starters/politics-and-government/neville-bonner"
+    ],
+    "pollie_slug": "neville-bonner"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Amnesty International Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.portrait.gov.au/people/neville-bonner-1922",
+      "https://www.ebsco.com/research-starters/politics-and-government/neville-bonner"
+    ],
+    "pollie_slug": "neville-bonner"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Review of the Aboriginal Lands Trust (Western Australia)",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://catalogue.nla.gov.au/Record/1370795",
+      "https://biography.senate.gov.au/bonner-neville-thomas/"
+    ],
+    "pollie_slug": "neville-bonner",
+    "start_date": "1995-01-01",
+    "end_date": "1996-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Indigenous Advisory Council (Queensland)",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/bonner-neville-thomas/",
+      "https://nostalgiacentral.com/pop-culture/people/neville-bonner/"
+    ],
+    "pollie_slug": "neville-bonner",
+    "start_date": "1997-01-01",
+    "end_date": "1997-12-31"
+  },
+  {
+    "role": "Elected Delegate",
+    "organisation": "1998 Australian Constitutional Convention",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/1998_Australian_Constitutional_Convention",
+      "https://www.aph.gov.au/-/media/02_Parliamentary_Business/23_Hansard/con0202.pdf"
+    ],
+    "pollie_slug": "neville-bonner",
+    "start_date": "1998-02-02",
+    "end_date": "1998-02-13"
   }
 ]
