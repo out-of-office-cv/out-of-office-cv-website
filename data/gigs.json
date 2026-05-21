@@ -25647,7 +25647,11 @@
     ],
     "pollie_slug": "john-fahey",
     "start_date": "2001-10-08",
-    "end_date": "2007-10-17"
+    "end_date": "2007-10-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -25658,7 +25662,11 @@
       "https://www.nswrl.com.au/news/2020/09/12/vale-john-fahey/"
     ],
     "pollie_slug": "john-fahey",
-    "start_date": "2002-03-20"
+    "start_date": "2002-03-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron and Director",
@@ -25669,7 +25677,11 @@
       "https://www.nrl.com/news/2020/09/12/vale-john-fahey/"
     ],
     "pollie_slug": "john-fahey",
-    "start_date": "2002-01-01"
+    "start_date": "2002-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -25679,7 +25691,11 @@
       "https://www.nrl.com/news/2020/09/12/vale-john-fahey/",
       "https://www.nswrl.com.au/news/2020/09/12/vale-john-fahey/"
     ],
-    "pollie_slug": "john-fahey"
+    "pollie_slug": "john-fahey",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -25689,7 +25705,11 @@
       "https://australianpolitics.com/2020/09/12/john-fahey-dies.html/",
       "https://oa.anu.edu.au/obituary/fahey-john-joseph-33266"
     ],
-    "pollie_slug": "john-fahey"
+    "pollie_slug": "john-fahey",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -25699,7 +25719,11 @@
       "https://www.nswrl.com.au/news/2020/09/12/vale-john-fahey/",
       "https://australianpolitics.com/2020/09/12/john-fahey-dies.html/"
     ],
-    "pollie_slug": "john-fahey"
+    "pollie_slug": "john-fahey",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -25711,7 +25735,11 @@
     ],
     "pollie_slug": "john-fahey",
     "start_date": "2008-01-01",
-    "end_date": "2013-11-30"
+    "end_date": "2013-11-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -25722,7 +25750,11 @@
       "https://catholicoutlook.org/john-fahey-faith-cancer-luck-irish/",
       "https://oa.anu.edu.au/obituary/fahey-john-joseph-33266"
     ],
-    "pollie_slug": "john-fahey"
+    "pollie_slug": "john-fahey",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chancellor",
@@ -25734,7 +25766,11 @@
     ],
     "pollie_slug": "john-fahey",
     "start_date": "2014-09-04",
-    "end_date": "2020-09-12"
+    "end_date": "2020-09-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -25770,7 +25806,12 @@
     ],
     "pollie_slug": "michael-mackellar",
     "start_date": "1994-01-01",
-    "end_date": "1997-01-01"
+    "end_date": "1997-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Both Wikipedia and parliamentary Hansard confirm CEO of Plastics and Chemicals Industries Association until 1997. Dates and role match."
+    }
   },
   {
     "role": "Chief Operating Officer",
@@ -25781,7 +25822,12 @@
       "https://www.openaustralia.org.au/senate/?id=2015-05-12.133.1"
     ],
     "pollie_slug": "michael-mackellar",
-    "start_date": "1997-01-01"
+    "start_date": "1997-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Both Wikipedia and parliamentary Hansard confirm Chief Operations Officer of Baker Medical Research Institute from 1997 onwards. End date unknown, plausible."
+    }
   },
   {
     "role": "Chair",
@@ -25792,7 +25838,12 @@
       "https://www.openaustralia.org.au/senate/?id=2015-05-12.133.1"
     ],
     "pollie_slug": "michael-mackellar",
-    "start_date": "1998-01-01"
+    "start_date": "1998-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia explicitly states Chairman of the Australia New Zealand Food Authority in 1998. Parliamentary Hansard confirms. Role and date match."
+    }
   },
   {
     "role": "President",
@@ -25802,7 +25853,12 @@
       "https://en.wikipedia.org/wiki/Michael_MacKellar",
       "https://www.openaustralia.org.au/senate/?id=2015-05-12.133.1"
     ],
-    "pollie_slug": "michael-mackellar"
+    "pollie_slug": "michael-mackellar",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Both Wikipedia and parliamentary Hansard confirm President of National Ageing Research Institute (Melbourne-based). No dates specified in sources; no end date provided."
+    }
   },
   {
     "role": "Director",
@@ -25811,7 +25867,12 @@
     "sources": [
       "https://www.openaustralia.org.au/senate/?id=2015-05-12.133.1"
     ],
-    "pollie_slug": "michael-mackellar"
+    "pollie_slug": "michael-mackellar",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Parliamentary Hansard confirms role as director at Centre for Eye Research Australia. Part of his broader commitment to health research post-parliament."
+    }
   },
   {
     "role": "Council Member",
@@ -25820,7 +25881,12 @@
     "sources": [
       "https://www.openaustralia.org.au/senate/?id=2015-05-12.133.1"
     ],
-    "pollie_slug": "michael-mackellar"
+    "pollie_slug": "michael-mackellar",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Parliamentary Hansard confirms council member at Royal Blind Society. Consistent with his health and disability advocacy focus."
+    }
   },
   {
     "role": "Chair",
@@ -25829,7 +25895,12 @@
     "sources": [
       "https://www.openaustralia.org.au/senate/?id=2015-05-12.133.1"
     ],
-    "pollie_slug": "michael-mackellar"
+    "pollie_slug": "michael-mackellar",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Parliamentary Hansard confirms Chair of Vasey RSL Care. Web search confirmed he later resigned due to ill health in February 2015 and died in May 2015."
+    }
   },
   {
     "role": "Board Member",
@@ -25838,7 +25909,12 @@
     "sources": [
       "https://www.openaustralia.org.au/senate/?id=2015-05-12.133.1"
     ],
-    "pollie_slug": "michael-mackellar"
+    "pollie_slug": "michael-mackellar",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Parliamentary Hansard confirms Board Member of Sydney 2000 Paralympic Games Organising Committee. Consistent with stated strong interest in disability sport."
+    }
   },
   {
     "role": "Board Member",
@@ -25847,7 +25923,12 @@
     "sources": [
       "https://www.openaustralia.org.au/senate/?id=2015-05-12.133.1"
     ],
-    "pollie_slug": "michael-mackellar"
+    "pollie_slug": "michael-mackellar",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Parliamentary Hansard confirms involvement with Australian Institute of International Affairs. Consistent with his background as a former Minister for Immigration and Ethnic Affairs."
+    }
   },
   {
     "role": "Chair",
