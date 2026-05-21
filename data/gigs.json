@@ -27753,5 +27753,474 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Special Counsel",
+    "organisation": "The Civic Partnership",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.civicpartners.com.au/experts/alan-griffin",
+      "https://www.mediaweek.com.au/communications-consultancies-form-the-civic-partnership/",
+      "https://en.wikipedia.org/wiki/Alan_Griffin_(politician)"
+    ],
+    "pollie_slug": "alan-griffin",
+    "start_date": "2022-04-07"
+  },
+  {
+    "role": "Strategic Counsel",
+    "organisation": "CPR Communications and Public Relations",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.mediaweek.com.au/the-civic-partnership-acquires-cpr-from-the-enero-group/",
+      "https://campaignbrief.com/cpr-comes-full-circle-with-acquisition-by-the-civic-partnership/"
+    ],
+    "pollie_slug": "alan-griffin",
+    "start_date": "2023-11-01"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Victorian Institute of Technology",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://vit.edu.au/about/about-us/vit-council"
+    ],
+    "pollie_slug": "alan-griffin"
+  },
+  {
+    "role": "Advisor",
+    "organisation": "E-CommSys",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://www.e-commsys.com.au/index.php/about-us/our-board"
+    ],
+    "pollie_slug": "alan-griffin"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Crown Limited",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Helen_Coonan",
+      "https://michaelwest.com.au/helen-coonan/",
+      "https://johnmenadue.com/helen-coonan-saw-no-evil-and-heard-no-evil-over-nine-long-years/"
+    ],
+    "pollie_slug": "helen-coonan",
+    "start_date": "2011-12-01",
+    "end_date": "2020-02-01"
+  },
+  {
+    "role": "Executive Chair",
+    "organisation": "Crown Resorts",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Helen_Coonan",
+      "https://michaelwest.com.au/helen-coonan/",
+      "https://thenewdaily.com.au/finance/2021/08/26/crown-ziggy-switkowski-chair-helen-coonan/",
+      "https://cdcgaming.com/brief/australia-ziggy-switkowski-to-replace-helen-coonan-as-crown-resorts-chair/"
+    ],
+    "pollie_slug": "helen-coonan",
+    "start_date": "2020-02-01",
+    "end_date": "2021-08-26"
+  },
+  {
+    "role": "Advisory Council Member",
+    "organisation": "JPMorgan Chase",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Helen_Coonan",
+      "https://michaelwest.com.au/helen-coonan/"
+    ],
+    "pollie_slug": "helen-coonan",
+    "start_date": "2012-01-01"
+  },
+  {
+    "role": "Principal",
+    "organisation": "Coonan Consulting",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://au.linkedin.com/in/helen-coonan-a4aa9223",
+      "https://michaelwest.com.au/helen-coonan/"
+    ],
+    "pollie_slug": "helen-coonan",
+    "start_date": "2013-01-01"
+  },
+  {
+    "role": "Co-Chair",
+    "organisation": "GRACosway",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://michaelwest.com.au/helen-coonan/",
+      "https://rocketreach.co/helen-coonan-email_14047826"
+    ],
+    "pollie_slug": "helen-coonan",
+    "start_date": "2013-01-01"
+  },
+  {
+    "role": "Trustee",
+    "organisation": "Sydney Opera House Trust",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Helen_Coonan",
+      "https://michaelwest.com.au/helen-coonan/"
+    ],
+    "pollie_slug": "helen-coonan"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Sydney Harbour Foreshore Authority",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.governmentnews.com.au/coonan-takes-helm-of-sydney-harbour-foreshore-authority/"
+    ],
+    "pollie_slug": "helen-coonan",
+    "start_date": "2015-07-01",
+    "end_date": "2016-07-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Place Management NSW",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.dpie.nsw.gov.au/news-and-events/articles/2021/placemaking-nsw-advisory-committee"
+    ],
+    "pollie_slug": "helen-coonan",
+    "start_date": "2016-07-01"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Snowy Hydro",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://michaelwest.com.au/helen-coonan/",
+      "https://www.crunchbase.com/person/helen-coonan"
+    ],
+    "pollie_slug": "helen-coonan",
+    "start_date": "2014-01-01",
+    "end_date": "2020-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Supervised Investments Australia",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://michaelwest.com.au/helen-coonan/",
+      "https://www.industrymoves.com/moves/supervised-investments-appoints-helen-coonan-as-chair"
+    ],
+    "pollie_slug": "helen-coonan",
+    "start_date": "2016-01-01",
+    "end_date": "2021-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Financial Complaints Authority",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.investordaily.com.au/appointments/42649-former-politician-named-afca-inaugural-chair",
+      "https://michaelwest.com.au/helen-coonan/",
+      "http://kmo.ministers.treasury.gov.au/media-release/022-2018/"
+    ],
+    "pollie_slug": "helen-coonan",
+    "start_date": "2018-11-01",
+    "end_date": "2021-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Children's Television Foundation",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://actf.com.au/news/view/10325/helen-coonan-joins-the-board-of-the-actf"
+    ],
+    "pollie_slug": "helen-coonan",
+    "start_date": "2016-11-22"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Minerals Council of Australia",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://minerals.org.au/resources/new-chair-appointed-to-lead-mca-in-an-exciting-era-for-australian-mining/",
+      "https://reneweconomy.com.au/coal-industry-tightens-embrace-with-coalition-as-ex-minister-becomes-mca-chair-87672/"
+    ],
+    "pollie_slug": "helen-coonan",
+    "start_date": "2019-07-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "HGL Limited",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://announcements.asx.com.au/asxpdf/20200124/pdf/44dh6xdvrs6z68.pdf",
+      "https://michaelwest.com.au/helen-coonan/"
+    ],
+    "pollie_slug": "helen-coonan",
+    "start_date": "2019-07-29",
+    "end_date": "2020-01-01"
+  },
+  {
+    "role": "Chair, APAC Advisory Board",
+    "organisation": "Allegis Partners",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://theorg.com/org/allegis-partners/org-chart/helen-coonan"
+    ],
+    "pollie_slug": "helen-coonan",
+    "start_date": "2016-01-01"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Obesity Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Helen_Coonan",
+      "https://actf.com.au/news/view/10325/helen-coonan-joins-the-board-of-the-actf"
+    ],
+    "pollie_slug": "helen-coonan"
+  },
+  {
+    "role": "Contributor",
+    "organisation": "Sky News Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://michaelwest.com.au/helen-coonan/",
+      "https://en.wikipedia.org/wiki/Helen_Coonan"
+    ],
+    "pollie_slug": "helen-coonan",
+    "start_date": "2012-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Verdant Minerals",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://au.linkedin.com/in/helen-coonan-a4aa9223",
+      "https://www.zoominfo.com/p/Helen-Coonan/2375667314"
+    ],
+    "pollie_slug": "helen-coonan"
+  },
+  {
+    "role": "Advisory Council Member",
+    "organisation": "European Australian Business Council",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "http://www.eabc.com.au/helen-coonan/",
+      "https://www.businessnews.com.au/Person/Helen-Coonan"
+    ],
+    "pollie_slug": "helen-coonan"
+  },
+  {
+    "role": "Advisory Council Member",
+    "organisation": "Australia-Israel Chamber of Commerce",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Helen-Coonan",
+      "https://www.israel21c.org/female-aussie-business-leaders-tour-israel/"
+    ],
+    "pollie_slug": "helen-coonan"
+  },
+  {
+    "role": "Board of Advice Member",
+    "organisation": "Aon Risk Services Australia",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://michaelwest.com.au/helen-coonan/",
+      "https://theorg.com/org/allegis-partners/org-chart/helen-coonan"
+    ],
+    "pollie_slug": "helen-coonan"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Samsung Electronics Australia",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://michaelwest.com.au/helen-coonan/"
+    ],
+    "pollie_slug": "helen-coonan"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Quantium",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://michaelwest.com.au/helen-coonan/"
+    ],
+    "pollie_slug": "helen-coonan"
+  },
+  {
+    "role": "Special Counsel",
+    "organisation": "Minter Ellison",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Andrew_Thomson_(Australian_politician)",
+      "https://www.landers.com.au/our-people/hon-andrew-thomson",
+      "https://www.lawyersweekly.com.au/appointments/16579-former-federal-minister-joins-firm"
+    ],
+    "pollie_slug": "andrew-thomson",
+    "end_date": "2015-05-28"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Lander & Rogers",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.landers.com.au/our-people/hon-andrew-thomson",
+      "https://www.lawyersweekly.com.au/appointments/16579-former-federal-minister-joins-firm"
+    ],
+    "pollie_slug": "andrew-thomson",
+    "start_date": "2015-05-28"
+  },
+  {
+    "role": "Registered Foreign Lawyer",
+    "organisation": "Thomson Law",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Andrew_Thomson_(Australian_politician)",
+      "https://www.linkedin.com/in/andrew-thomson-3389685a/"
+    ],
+    "pollie_slug": "andrew-thomson",
+    "start_date": "2011-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Japan Hickory Golf Association",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.asianturfgrass.com/post/a-conversation-with-andrew-thomson/"
+    ],
+    "pollie_slug": "andrew-thomson"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Mental Health Research Institute",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://biography.senate.gov.au/guilfoyle-margaret-georgina-constance/",
+      "https://en.wikipedia.org/wiki/Margaret_Guilfoyle",
+      "https://www.womenaustralia.info/biogs/AWE0075b.htm"
+    ],
+    "pollie_slug": "margaret-guilfoyle",
+    "start_date": "1988",
+    "end_date": "2001"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Children's Television Foundation",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://biography.senate.gov.au/guilfoyle-margaret-georgina-constance/",
+      "https://en.wikipedia.org/wiki/Margaret_Guilfoyle",
+      "https://www.womenaustralia.info/biogs/AWE0075b.htm"
+    ],
+    "pollie_slug": "margaret-guilfoyle",
+    "start_date": "1989",
+    "end_date": "2003"
+  },
+  {
+    "role": "Director",
+    "organisation": "Jack Brockhoff Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.womenaustralia.info/biogs/AWE0075b.htm",
+      "https://www.womenaustralia.info/entries/guilfoyle-margaret-georgina/"
+    ],
+    "pollie_slug": "margaret-guilfoyle",
+    "start_date": "1990"
+  },
+  {
+    "role": "Trustee",
+    "organisation": "Mark Fitzpatrick Trust",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.womenaustralia.info/biogs/AWE0075b.htm",
+      "https://www.womenaustralia.info/entries/guilfoyle-margaret-georgina/"
+    ],
+    "pollie_slug": "margaret-guilfoyle",
+    "start_date": "1990"
+  },
+  {
+    "role": "Member",
+    "organisation": "National Inquiry Into the Human Rights of People with Mental Illness",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/guilfoyle-margaret-georgina-constance/",
+      "https://en.wikipedia.org/wiki/Margaret_Guilfoyle"
+    ],
+    "pollie_slug": "margaret-guilfoyle",
+    "start_date": "1990",
+    "end_date": "1993"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Australian Institute of Family Studies",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.womenaustralia.info/biogs/AWE0075b.htm",
+      "https://www.womenaustralia.info/entries/guilfoyle-margaret-georgina/",
+      "https://www.vic.gov.au/dame-margaret-guilfoyle-ac-dbe"
+    ],
+    "pollie_slug": "margaret-guilfoyle",
+    "start_date": "1993",
+    "end_date": "2000"
+  },
+  {
+    "role": "President, Board of Management",
+    "organisation": "Royal Melbourne Hospital",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://biography.senate.gov.au/guilfoyle-margaret-georgina-constance/",
+      "https://en.wikipedia.org/wiki/Margaret_Guilfoyle",
+      "https://www.womenaustralia.info/biogs/AWE0075b.htm"
+    ],
+    "pollie_slug": "margaret-guilfoyle",
+    "start_date": "1993",
+    "end_date": "1995"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Judicial Remuneration Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://biography.senate.gov.au/guilfoyle-margaret-georgina-constance/",
+      "https://en.wikipedia.org/wiki/Margaret_Guilfoyle",
+      "https://www.womenaustralia.info/biogs/AWE0075b.htm"
+    ],
+    "pollie_slug": "margaret-guilfoyle",
+    "start_date": "1995",
+    "end_date": "2001"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Infertility Treatment Authority",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://biography.senate.gov.au/guilfoyle-margaret-georgina-constance/",
+      "https://en.wikipedia.org/wiki/Margaret_Guilfoyle",
+      "https://www.womenaustralia.info/biogs/AWE0075b.htm"
+    ],
+    "pollie_slug": "margaret-guilfoyle",
+    "start_date": "1996",
+    "end_date": "2002"
+  },
+  {
+    "role": "Member",
+    "organisation": "National Health and Medical Research Council",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.womenaustralia.info/biogs/AWE0075b.htm",
+      "https://peopleaustralia.anu.edu.au/biography/guilfoyle-dame-margaret-georgina-31283"
+    ],
+    "pollie_slug": "margaret-guilfoyle",
+    "start_date": "1998",
+    "end_date": "2000"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Victorian Opera",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/guilfoyle-dame-margaret-georgina-31283",
+      "https://peopleaustralia.anu.edu.au/biography/guilfoyle-dame-margaret-georgina-31283",
+      "https://en.wikipedia.org/wiki/Margaret_Guilfoyle"
+    ],
+    "pollie_slug": "margaret-guilfoyle"
   }
 ]
