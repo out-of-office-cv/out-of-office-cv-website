@@ -27825,7 +27825,11 @@
     ],
     "pollie_slug": "helen-coonan",
     "start_date": "2011-12-01",
-    "end_date": "2020-02-01"
+    "end_date": "2020-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Chair",
@@ -27835,11 +27839,17 @@
       "https://en.wikipedia.org/wiki/Helen_Coonan",
       "https://michaelwest.com.au/helen-coonan/",
       "https://thenewdaily.com.au/finance/2021/08/26/crown-ziggy-switkowski-chair-helen-coonan/",
-      "https://cdcgaming.com/brief/australia-ziggy-switkowski-to-replace-helen-coonan-as-crown-resorts-chair/"
+      "https://cdcgaming.com/brief/australia-ziggy-switkowski-to-replace-helen-coonan-as-crown-resorts-chair/",
+      "https://www.businessnewsaustralia.com/articles/helen-coonan-to-step-down-as-crown-chair-by-the-end-of-august.html"
     ],
     "pollie_slug": "helen-coonan",
-    "start_date": "2020-02-01",
-    "end_date": "2021-08-26"
+    "start_date": "2020-01-01",
+    "end_date": "2021-08-26",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Sources consistently cite January or February 2020 as appointment to Executive Chair role. Used January 2020 as conservative estimate."
+    }
   },
   {
     "role": "Advisory Council Member",
@@ -27850,7 +27860,11 @@
       "https://michaelwest.com.au/helen-coonan/"
     ],
     "pollie_slug": "helen-coonan",
-    "start_date": "2012-01-01"
+    "start_date": "2012-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Principal",
@@ -27861,7 +27875,11 @@
       "https://michaelwest.com.au/helen-coonan/"
     ],
     "pollie_slug": "helen-coonan",
-    "start_date": "2013-01-01"
+    "start_date": "2013-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Co-Chair",
@@ -27872,7 +27890,11 @@
       "https://rocketreach.co/helen-coonan-email_14047826"
     ],
     "pollie_slug": "helen-coonan",
-    "start_date": "2013-01-01"
+    "start_date": "2013-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Trustee",
@@ -27882,7 +27904,11 @@
       "https://en.wikipedia.org/wiki/Helen_Coonan",
       "https://michaelwest.com.au/helen-coonan/"
     ],
-    "pollie_slug": "helen-coonan"
+    "pollie_slug": "helen-coonan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -27893,7 +27919,11 @@
     ],
     "pollie_slug": "helen-coonan",
     "start_date": "2015-07-01",
-    "end_date": "2016-07-01"
+    "end_date": "2016-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -27915,7 +27945,11 @@
     ],
     "pollie_slug": "helen-coonan",
     "start_date": "2014-01-01",
-    "end_date": "2020-01-01"
+    "end_date": "2020-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -27927,7 +27961,11 @@
     ],
     "pollie_slug": "helen-coonan",
     "start_date": "2016-01-01",
-    "end_date": "2021-01-01"
+    "end_date": "2021-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -27936,11 +27974,16 @@
     "sources": [
       "https://www.investordaily.com.au/appointments/42649-former-politician-named-afca-inaugural-chair",
       "https://michaelwest.com.au/helen-coonan/",
-      "http://kmo.ministers.treasury.gov.au/media-release/022-2018/"
+      "http://kmo.ministers.treasury.gov.au/media-release/022-2018/",
+      "https://www.afca.org.au/news/media-releases/helen-coonan-afca-is-bringing-a-fairness-revolution-to-the-banks"
     ],
     "pollie_slug": "helen-coonan",
     "start_date": "2018-11-01",
-    "end_date": "2021-01-01"
+    "end_date": "2021-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -27950,7 +27993,11 @@
       "https://actf.com.au/news/view/10325/helen-coonan-joins-the-board-of-the-actf"
     ],
     "pollie_slug": "helen-coonan",
-    "start_date": "2016-11-22"
+    "start_date": "2016-11-22",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -27961,7 +28008,11 @@
       "https://reneweconomy.com.au/coal-industry-tightens-embrace-with-coalition-as-ex-minister-becomes-mca-chair-87672/"
     ],
     "pollie_slug": "helen-coonan",
-    "start_date": "2019-07-01"
+    "start_date": "2019-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -27973,7 +28024,11 @@
     ],
     "pollie_slug": "helen-coonan",
     "start_date": "2019-07-29",
-    "end_date": "2020-01-01"
+    "end_date": "2020-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, APAC Advisory Board",
@@ -27983,7 +28038,11 @@
       "https://theorg.com/org/allegis-partners/org-chart/helen-coonan"
     ],
     "pollie_slug": "helen-coonan",
-    "start_date": "2016-01-01"
+    "start_date": "2016-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -27993,7 +28052,11 @@
       "https://en.wikipedia.org/wiki/Helen_Coonan",
       "https://actf.com.au/news/view/10325/helen-coonan-joins-the-board-of-the-actf"
     ],
-    "pollie_slug": "helen-coonan"
+    "pollie_slug": "helen-coonan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Contributor",
@@ -28004,7 +28067,11 @@
       "https://en.wikipedia.org/wiki/Helen_Coonan"
     ],
     "pollie_slug": "helen-coonan",
-    "start_date": "2012-01-01"
+    "start_date": "2012-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -28024,7 +28091,11 @@
       "http://www.eabc.com.au/helen-coonan/",
       "https://www.businessnews.com.au/Person/Helen-Coonan"
     ],
-    "pollie_slug": "helen-coonan"
+    "pollie_slug": "helen-coonan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Council Member",
@@ -28034,7 +28105,11 @@
       "https://www.businessnews.com.au/Person/Helen-Coonan",
       "https://www.israel21c.org/female-aussie-business-leaders-tour-israel/"
     ],
-    "pollie_slug": "helen-coonan"
+    "pollie_slug": "helen-coonan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board of Advice Member",
@@ -28044,7 +28119,11 @@
       "https://michaelwest.com.au/helen-coonan/",
       "https://theorg.com/org/allegis-partners/org-chart/helen-coonan"
     ],
-    "pollie_slug": "helen-coonan"
+    "pollie_slug": "helen-coonan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Consultant",
@@ -28053,7 +28132,11 @@
     "sources": [
       "https://michaelwest.com.au/helen-coonan/"
     ],
-    "pollie_slug": "helen-coonan"
+    "pollie_slug": "helen-coonan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Consultant",
@@ -28062,7 +28145,11 @@
     "sources": [
       "https://michaelwest.com.au/helen-coonan/"
     ],
-    "pollie_slug": "helen-coonan"
+    "pollie_slug": "helen-coonan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Special Counsel",
