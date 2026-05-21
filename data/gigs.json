@@ -27579,5 +27579,109 @@
     ],
     "start_date": "2011-11-01",
     "end_date": "2015-12-31"
+  },
+  {
+    "role": "Member of the Legislative Council",
+    "organisation": "Parliament of Western Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dee_Margetts",
+      "https://www.parliament.wa.gov.au/parliament/Memblist.nsf/AllDocs/B052A8E34242AC0B48256A4D002D106F",
+      "https://greens.org.au/wa/person/dee-margetts-0"
+    ],
+    "pollie_slug": "dee-margetts",
+    "start_date": "2001-05-22",
+    "end_date": "2005-05-21"
+  },
+  {
+    "role": "Master of Philosophy Researcher",
+    "organisation": "Murdoch University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dee_Margetts",
+      "https://biography.senate.gov.au/margetts-diane-elizabeth/",
+      "https://greens.org.au/wa/person/dee-margetts"
+    ],
+    "pollie_slug": "dee-margetts",
+    "start_date": "1999-07-01",
+    "end_date": "2001-01-01"
+  },
+  {
+    "role": "PhD Researcher",
+    "organisation": "University of Western Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dee_Margetts",
+      "https://biography.senate.gov.au/margetts-diane-elizabeth/",
+      "https://greens.org.au/wa/person/dee-margetts-0"
+    ],
+    "pollie_slug": "dee-margetts",
+    "start_date": "2006-01-01",
+    "end_date": "2012-01-01"
+  },
+  {
+    "role": "President",
+    "organisation": "Clan Cameron Australia - Queensland Branch",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://clan-cameron.au/clan-cameron-australia-history/"
+    ],
+    "pollie_slug": "donald-cameron"
+  },
+  {
+    "role": "Head",
+    "organisation": "Parramatta Park Trust",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.labourhistory.org.au/hummer/the-hummer-vol-10-no-1-2015/tom-uren/",
+      "https://www.newspapers.com/newspage/120549165/?locale=en-AU"
+    ],
+    "pollie_slug": "tom-uren",
+    "start_date": "1990-02-19"
+  },
+  {
+    "role": "Author",
+    "organisation": "Random House Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://catalogue.nla.gov.au/Record/104463",
+      "https://www.nfsa.gov.au/collection/item/australian-biography-tom-uren",
+      "https://www.goodreads.com/book/show/7764293-straight-left"
+    ],
+    "pollie_slug": "tom-uren",
+    "start_date": "1994-01-01",
+    "end_date": "1994-12-31"
+  },
+  {
+    "role": "Life Member",
+    "organisation": "New South Wales Branch of the Australian Labor Party",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://peopleaustralia.anu.edu.au/biography/uren-thomas-tom-19332"
+    ],
+    "pollie_slug": "tom-uren",
+    "start_date": "1993-01-01"
+  },
+  {
+    "role": "Honorary Doctor of Science in Architecture",
+    "organisation": "University of Sydney",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.sydney.edu.au/content/dam/corporate/documents/university-archives/honorary-awards/u/mr-tom-uren-ao.pdf"
+    ],
+    "pollie_slug": "tom-uren",
+    "start_date": "2002-11-08",
+    "end_date": "2002-11-08"
+  },
+  {
+    "role": "Honorary Doctor",
+    "organisation": "Charles Sturt University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://news.csu.edu.au/latest-news/charles-sturt-university/tom-uren,-ac-a-truly-distinguished-australian"
+    ],
+    "pollie_slug": "tom-uren",
+    "start_date": "1997-01-01",
+    "end_date": "1997-12-31"
   }
 ]
