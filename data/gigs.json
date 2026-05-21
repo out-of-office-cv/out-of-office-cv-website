@@ -27333,7 +27333,11 @@
       "https://en-academic.com/dic.nsf/enwiki/8893707"
     ],
     "pollie_slug": "gary-punch",
-    "start_date": "1996-01-29"
+    "start_date": "1996-01-29",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Chair",
@@ -27344,7 +27348,11 @@
     ],
     "pollie_slug": "gary-punch",
     "start_date": "1996-01-01",
-    "end_date": "1997-12-31"
+    "end_date": "1997-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -27355,7 +27363,11 @@
       "https://www.maynereport.com/articles/2007/10/12-1236-1117.html"
     ],
     "pollie_slug": "gary-punch",
-    "start_date": "2005-04-01"
+    "start_date": "2005-04-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Special Counsel",
@@ -27375,7 +27387,11 @@
       "https://www.linkedin.com/in/gary-punch-2b330a63/"
     ],
     "pollie_slug": "gary-punch",
-    "end_date": "2014-02-28"
+    "end_date": "2014-02-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Special Counsel",
@@ -27387,7 +27403,11 @@
     ],
     "pollie_slug": "gary-punch",
     "start_date": "2014-02-28",
-    "end_date": "2014-05-08"
+    "end_date": "2014-05-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Lawyer",
@@ -27397,7 +27417,11 @@
       "https://www.lawyersweekly.com.au/the-bar/15432-from-one-lander-to-another"
     ],
     "pollie_slug": "gary-punch",
-    "start_date": "2014-05-08"
+    "start_date": "2014-05-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Planning Consultant and Lobbyist",
@@ -27452,7 +27476,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Gary_Humphries",
       "https://www.wikiwand.com/en/articles/Gary_Humphries"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "gary-humphries",
@@ -27464,7 +27492,11 @@
       "https://x.com/garyhumphries/status/443187146468249600",
       "https://en.wikipedia.org/wiki/Gary_Humphries"
     ],
-    "start_date": "2014-03-01"
+    "start_date": "2014-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "gary-humphries",
@@ -27474,10 +27506,15 @@
     "sources": [
       "https://citynews.com.au/2014/gary-humphries-appointed-deputy-president-administrative-appeals-tribunal/",
       "https://www.canberratimes.com.au/national/act/former-act-senator-gary-humphries-now-sits-in-judgment-20150610-ghkxif.html",
-      "https://en.wikipedia.org/wiki/Gary_Humphries"
+      "https://en.wikipedia.org/wiki/Gary_Humphries",
+      "https://www.canberratimes.com.au/story/6968432/gary-humphries-to-resign-from-aat/"
     ],
     "start_date": "2015-01-01",
-    "end_date": "2020-12-31"
+    "end_date": "2021",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "gary-humphries",
@@ -27490,7 +27527,11 @@
       "https://www.rspca.org.au/latest-news/media-centre/rspca-chair-gary-humphries-recognised-australia-day-honours/"
     ],
     "start_date": "2015-10-12",
-    "end_date": "2019-05-18"
+    "end_date": "2019-05-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "gary-humphries",
@@ -27500,7 +27541,11 @@
     "sources": [
       "https://www.energystoragehub.org.au/gary-humphries",
       "https://www.energystoragehub.org.au/about-5"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "gary-humphries",
@@ -27510,7 +27555,11 @@
     "sources": [
       "https://history.cass.anu.edu.au/people/gary-humphries-ao",
       "https://history.cass.anu.edu.au/news/australian-honours-awards-anu-history-phd-candidate-made-officer-order-australia"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "john-alexander",
@@ -27634,10 +27683,15 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.labourhistory.org.au/hummer/the-hummer-vol-10-no-1-2015/tom-uren/",
-      "https://www.newspapers.com/newspage/120549165/?locale=en-AU"
+      "https://www.newspapers.com/newspage/120549165/?locale=en-AU",
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p?query=Id:%22handbook/allmps/EE4%22"
     ],
     "pollie_slug": "tom-uren",
-    "start_date": "1990-02-19"
+    "start_date": "1990-02-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Author",
@@ -27650,7 +27704,11 @@
     ],
     "pollie_slug": "tom-uren",
     "start_date": "1994-01-01",
-    "end_date": "1994-12-31"
+    "end_date": "1994-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Life Member",
@@ -27660,7 +27718,11 @@
       "https://peopleaustralia.anu.edu.au/biography/uren-thomas-tom-19332"
     ],
     "pollie_slug": "tom-uren",
-    "start_date": "1993-01-01"
+    "start_date": "1993-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Doctor of Science in Architecture",
@@ -27671,7 +27733,11 @@
     ],
     "pollie_slug": "tom-uren",
     "start_date": "2002-11-08",
-    "end_date": "2002-11-08"
+    "end_date": "2002-11-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Doctor",
@@ -27682,6 +27748,10 @@
     ],
     "pollie_slug": "tom-uren",
     "start_date": "1997-01-01",
-    "end_date": "1997-12-31"
+    "end_date": "1997-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
