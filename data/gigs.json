@@ -2855,7 +2855,11 @@
       "https://kngeducation.com.au/about-us/",
       "https://au.linkedin.com/in/alan-tudge-0970214a"
     ],
-    "pollie_slug": "alan-tudge"
+    "pollie_slug": "alan-tudge",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Vice Chancellor's Professorial Fellow",
@@ -27764,18 +27768,25 @@
       "https://en.wikipedia.org/wiki/Alan_Griffin_(politician)"
     ],
     "pollie_slug": "alan-griffin",
-    "start_date": "2022-04-07"
+    "start_date": "2022-04-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Strategic Counsel",
     "organisation": "CPR Communications and Public Relations",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://www.mediaweek.com.au/the-civic-partnership-acquires-cpr-from-the-enero-group/",
-      "https://campaignbrief.com/cpr-comes-full-circle-with-acquisition-by-the-civic-partnership/"
+      "https://www.mediaweek.com.au/the-civic-partnership-acquires-cpr-from-the-enero-group/"
     ],
     "pollie_slug": "alan-griffin",
-    "start_date": "2023-11-01"
+    "start_date": "2023-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Council Member",
@@ -27784,7 +27795,11 @@
     "sources": [
       "https://vit.edu.au/about/about-us/vit-council"
     ],
-    "pollie_slug": "alan-griffin"
+    "pollie_slug": "alan-griffin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisor",
@@ -27793,7 +27808,11 @@
     "sources": [
       "https://www.e-commsys.com.au/index.php/about-us/our-board"
     ],
-    "pollie_slug": "alan-griffin"
+    "pollie_slug": "alan-griffin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -28055,7 +28074,11 @@
       "https://www.lawyersweekly.com.au/appointments/16579-former-federal-minister-joins-firm"
     ],
     "pollie_slug": "andrew-thomson",
-    "end_date": "2015-05-28"
+    "end_date": "2015-05-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Consultant",
@@ -28066,7 +28089,11 @@
       "https://www.lawyersweekly.com.au/appointments/16579-former-federal-minister-joins-firm"
     ],
     "pollie_slug": "andrew-thomson",
-    "start_date": "2015-05-28"
+    "start_date": "2015-05-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Registered Foreign Lawyer",
@@ -28077,7 +28104,11 @@
       "https://www.linkedin.com/in/andrew-thomson-3389685a/"
     ],
     "pollie_slug": "andrew-thomson",
-    "start_date": "2011-01-01"
+    "start_date": "2011-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -28086,7 +28117,11 @@
     "sources": [
       "https://www.asianturfgrass.com/post/a-conversation-with-andrew-thomson/"
     ],
-    "pollie_slug": "andrew-thomson"
+    "pollie_slug": "andrew-thomson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chair",
@@ -28095,11 +28130,16 @@
     "sources": [
       "https://biography.senate.gov.au/guilfoyle-margaret-georgina-constance/",
       "https://en.wikipedia.org/wiki/Margaret_Guilfoyle",
-      "https://www.womenaustralia.info/biogs/AWE0075b.htm"
+      "https://www.womenaustralia.info/biogs/AWE0075b.htm",
+      "https://www.vic.gov.au/dame-margaret-guilfoyle-ac-dbe"
     ],
     "pollie_slug": "margaret-guilfoyle",
     "start_date": "1988",
-    "end_date": "2001"
+    "end_date": "2001",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -28108,11 +28148,16 @@
     "sources": [
       "https://biography.senate.gov.au/guilfoyle-margaret-georgina-constance/",
       "https://en.wikipedia.org/wiki/Margaret_Guilfoyle",
-      "https://www.womenaustralia.info/biogs/AWE0075b.htm"
+      "https://www.womenaustralia.info/biogs/AWE0075b.htm",
+      "https://www.vic.gov.au/dame-margaret-guilfoyle-ac-dbe"
     ],
     "pollie_slug": "margaret-guilfoyle",
     "start_date": "1989",
-    "end_date": "2003"
+    "end_date": "2003",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -28120,10 +28165,16 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.womenaustralia.info/biogs/AWE0075b.htm",
-      "https://www.womenaustralia.info/entries/guilfoyle-margaret-georgina/"
+      "https://www.womenaustralia.info/entries/guilfoyle-margaret-georgina/",
+      "https://www.jackbrockhoff.org.au/",
+      "https://www.vic.gov.au/dame-margaret-guilfoyle-ac-dbe"
     ],
     "pollie_slug": "margaret-guilfoyle",
-    "start_date": "1990"
+    "start_date": "1990",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Trustee",
@@ -28142,11 +28193,16 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://biography.senate.gov.au/guilfoyle-margaret-georgina-constance/",
-      "https://en.wikipedia.org/wiki/Margaret_Guilfoyle"
+      "https://en.wikipedia.org/wiki/Margaret_Guilfoyle",
+      "https://humanrights.gov.au/our-work/publications/report-national-inquiry-human-rights-people-mental-illness"
     ],
     "pollie_slug": "margaret-guilfoyle",
     "start_date": "1990",
-    "end_date": "1993"
+    "end_date": "1993",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -28159,7 +28215,11 @@
     ],
     "pollie_slug": "margaret-guilfoyle",
     "start_date": "1993",
-    "end_date": "2000"
+    "end_date": "2000",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President, Board of Management",
@@ -28168,11 +28228,16 @@
     "sources": [
       "https://biography.senate.gov.au/guilfoyle-margaret-georgina-constance/",
       "https://en.wikipedia.org/wiki/Margaret_Guilfoyle",
-      "https://www.womenaustralia.info/biogs/AWE0075b.htm"
+      "https://www.womenaustralia.info/biogs/AWE0075b.htm",
+      "https://www.vic.gov.au/dame-margaret-guilfoyle-ac-dbe"
     ],
     "pollie_slug": "margaret-guilfoyle",
     "start_date": "1993",
-    "end_date": "1995"
+    "end_date": "1995",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -28181,11 +28246,16 @@
     "sources": [
       "https://biography.senate.gov.au/guilfoyle-margaret-georgina-constance/",
       "https://en.wikipedia.org/wiki/Margaret_Guilfoyle",
-      "https://www.womenaustralia.info/biogs/AWE0075b.htm"
+      "https://www.womenaustralia.info/biogs/AWE0075b.htm",
+      "https://www.vic.gov.au/dame-margaret-guilfoyle-ac-dbe"
     ],
     "pollie_slug": "margaret-guilfoyle",
     "start_date": "1995",
-    "end_date": "2001"
+    "end_date": "2001",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chair",
@@ -28194,11 +28264,16 @@
     "sources": [
       "https://biography.senate.gov.au/guilfoyle-margaret-georgina-constance/",
       "https://en.wikipedia.org/wiki/Margaret_Guilfoyle",
-      "https://www.womenaustralia.info/biogs/AWE0075b.htm"
+      "https://www.womenaustralia.info/biogs/AWE0075b.htm",
+      "https://www.vic.gov.au/dame-margaret-guilfoyle-ac-dbe"
     ],
     "pollie_slug": "margaret-guilfoyle",
     "start_date": "1996",
-    "end_date": "2002"
+    "end_date": "2002",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -28210,7 +28285,11 @@
     ],
     "pollie_slug": "margaret-guilfoyle",
     "start_date": "1998",
-    "end_date": "2000"
+    "end_date": "2000",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -28221,6 +28300,11 @@
       "https://peopleaustralia.anu.edu.au/biography/guilfoyle-dame-margaret-georgina-31283",
       "https://en.wikipedia.org/wiki/Margaret_Guilfoyle"
     ],
-    "pollie_slug": "margaret-guilfoyle"
+    "pollie_slug": "margaret-guilfoyle",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Sources refer to 'Victorian State Opera' (founded 1962, merged with Australian Opera in 1996), not 'Victorian Opera' (founded 2005, after Guilfoyle's death in 2020). The current Victorian Opera organisation did not exist during Guilfoyle's lifetime. Guilfoyle's board service was with the Victorian State Opera, c.1981 until its 1996 absorption into Australian Opera."
+    }
   }
 ]
