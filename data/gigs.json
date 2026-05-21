@@ -28532,5 +28532,26 @@
     "pollie_slug": "neville-bonner",
     "start_date": "1998-02-02",
     "end_date": "1998-02-13"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "NSW Conciliation and Arbitration Commission",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Les_McMahon"
+    ],
+    "pollie_slug": "les-mcmahon",
+    "start_date": "1983",
+    "end_date": "1993"
+  },
+  {
+    "role": "Artist and Author",
+    "organisation": "Reknu",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.reknu.com.au/",
+      "https://www.linkedin.com/in/ann-sudmalis/"
+    ],
+    "pollie_slug": "ann-sudmalis"
   }
 ]
