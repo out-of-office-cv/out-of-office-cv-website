@@ -28631,5 +28631,139 @@
       "https://www.linkedin.com/in/ann-sudmalis/"
     ],
     "pollie_slug": "ann-sudmalis"
+  },
+  {
+    "role": "Director",
+    "organisation": "Women's Health Victoria",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.vic.gov.au/lyn-allison"
+    ],
+    "pollie_slug": "lyn-allison"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Vision Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.vic.gov.au/lyn-allison",
+      "https://en.wikipedia.org/wiki/Lyn_Allison",
+      "https://visionaustralia.org/news/2019-08-23/lyn-allisons-leadership-blind-and-low-vision-community-recognised"
+    ],
+    "pollie_slug": "lyn-allison"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Berry Street",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lyn_Allison",
+      "https://www.womenaustralia.info/leaders/biogs/WLE0321b.htm"
+    ],
+    "pollie_slug": "lyn-allison"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Alzheimer's Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lyn_Allison",
+      "https://www.vic.gov.au/lyn-allison",
+      "https://www.womenaustralia.info/leaders/biogs/WLE0321b.htm"
+    ],
+    "pollie_slug": "lyn-allison"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Orygen Youth Health Research",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.vic.gov.au/lyn-allison"
+    ],
+    "pollie_slug": "lyn-allison"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Mental Illness Fellowship of Victoria",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.vic.gov.au/lyn-allison"
+    ],
+    "pollie_slug": "lyn-allison"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Marie Stopes International Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.vic.gov.au/lyn-allison"
+    ],
+    "pollie_slug": "lyn-allison"
+  },
+  {
+    "role": "Contributor",
+    "organisation": "Accountability Round Table",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.accountabilityrt.org/author/lynallison/",
+      "https://www.linkedin.com/in/lyn-allison-a3890725/"
+    ],
+    "pollie_slug": "lyn-allison"
+  },
+  {
+    "role": "National President",
+    "organisation": "Australian Democrats",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lyn_Allison"
+    ],
+    "pollie_slug": "lyn-allison",
+    "start_date": "2019-10-05"
+  },
+  {
+    "role": "Vice-President",
+    "organisation": "Association of Former Members of the Parliament of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://biography.senate.gov.au/young-harold-william/"
+    ],
+    "pollie_slug": "harold-young",
+    "start_date": "1988",
+    "end_date": "1993"
+  },
+  {
+    "role": "President",
+    "organisation": "Association of Former Members of the Parliament of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://biography.senate.gov.au/young-harold-william/"
+    ],
+    "pollie_slug": "harold-young",
+    "start_date": "1993",
+    "end_date": "1995"
+  },
+  {
+    "role": "South Australian Representative",
+    "organisation": "Australian Bravery Decorations Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/young-harold-william/"
+    ],
+    "pollie_slug": "harold-young",
+    "start_date": "1999",
+    "end_date": "2002"
+  },
+  {
+    "role": "High Commissioner to New Zealand",
+    "organisation": "Australian Government Department of Foreign Affairs and Trade",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://biography.senate.gov.au/webster-james-joseph/",
+      "https://en.wikipedia.org/wiki/James_Webster_(Australian_politician)",
+      "https://en.wikipedia.org/wiki/List_of_high_commissioners_of_Australia_to_New_Zealand"
+    ],
+    "pollie_slug": "james-webster",
+    "start_date": "1980-02-02",
+    "end_date": "1984-04-30"
   }
 ]
