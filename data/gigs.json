@@ -29506,5 +29506,159 @@
       "by": "claude",
       "note": "Senate biography explicitly confirms Stone served as a federal government committee member inquiring into the effectiveness of the Australian Defence Forces (1996-1997)."
     }
+  },
+  {
+    "role": "Director",
+    "organisation": "Marathon Resources",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Schacht",
+      "https://biography.senate.gov.au/schacht-christopher-cleland/"
+    ],
+    "pollie_slug": "chris-schacht",
+    "start_date": "2008-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australia China Development Company",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Schacht",
+      "https://www.nsl.org.au/about/our-ambassadors/chris-schacht/"
+    ],
+    "pollie_slug": "chris-schacht"
+  },
+  {
+    "role": "President",
+    "organisation": "Australian Volleyball Federation",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Schacht",
+      "https://biography.senate.gov.au/schacht-christopher-cleland/",
+      "https://www.playthegame.org/news/news-articles/2014/fivb-accused-of-violating-statutes-to-oust-former-presidential-candidate"
+    ],
+    "pollie_slug": "chris-schacht",
+    "end_date": "2013-04-01"
+  },
+  {
+    "role": "Member, Legal Commission",
+    "organisation": "Fédération Internationale de Volleyball",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Schacht",
+      "https://www.playthegame.org/news/news-articles/2014/fivb-accused-of-violating-statutes-to-oust-former-presidential-candidate"
+    ],
+    "pollie_slug": "chris-schacht",
+    "start_date": "2006-10-01"
+  },
+  {
+    "role": "Member, Board of Administration",
+    "organisation": "Fédération Internationale de Volleyball",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Schacht",
+      "https://www.playthegame.org/news/news-articles/2014/fivb-accused-of-violating-statutes-to-oust-former-presidential-candidate"
+    ],
+    "pollie_slug": "chris-schacht",
+    "start_date": "2011-01-01",
+    "end_date": "2013-04-01"
+  },
+  {
+    "role": "President",
+    "organisation": "Oceania Zonal Volleyball Association",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.playthegame.org/news/news-articles/2014/fivb-accused-of-violating-statutes-to-oust-former-presidential-candidate"
+    ],
+    "pollie_slug": "chris-schacht",
+    "end_date": "2013-04-01"
+  },
+  {
+    "role": "Registered Lobbyist",
+    "organisation": "Intuitively Focussed",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Schacht",
+      "https://www.indailysa.com.au/news/archive/2018/05/31/marshalls-lobbyist-crackdown",
+      "https://au.linkedin.com/in/chris-schacht-254b3633"
+    ],
+    "pollie_slug": "chris-schacht",
+    "start_date": "2015-01-01"
+  },
+  {
+    "role": "Ambassador",
+    "organisation": "National Secular Lobby",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.nsl.org.au/about/our-ambassadors/chris-schacht/",
+      "https://secularism.au/speakers/chris-schacht/"
+    ],
+    "pollie_slug": "chris-schacht"
+  },
+  {
+    "role": "Partner",
+    "organisation": "Himalaya Consulting",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://eastasiaforum.org/author/williamochee/",
+      "https://au.linkedin.com/in/william-o-chee-6072276"
+    ],
+    "pollie_slug": "bill-ochee"
+  },
+  {
+    "role": "Contributor",
+    "organisation": "East Asia Forum",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://eastasiaforum.org/author/williamochee/"
+    ],
+    "pollie_slug": "bill-ochee"
+  },
+  {
+    "role": "Contributor",
+    "organisation": "Spectator Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.spectator.com.au/author/bill-ochee/"
+    ],
+    "pollie_slug": "bill-ochee"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "Brisbane Times",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.facebook.com/brisbanetimes/posts/our-columnist-bill-ochee-writes-about-his-eldest-son-who-has-down-syndrome-turni/10153827569312461/",
+      "https://muckrack.com/bill-ochee"
+    ],
+    "pollie_slug": "bill-ochee"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "Sydney Morning Herald",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://muckrack.com/bill-ochee"
+    ],
+    "pollie_slug": "bill-ochee"
+  },
+  {
+    "role": "National Councillor",
+    "organisation": "Australians for Constitutional Monarchy",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bill_O%27Chee",
+      "https://biography.senate.gov.au/ochee-william-george/"
+    ],
+    "pollie_slug": "bill-ochee"
+  },
+  {
+    "role": "National Councillor",
+    "organisation": "Scouts Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bill_O%27Chee"
+    ],
+    "pollie_slug": "bill-ochee"
   }
 ]
