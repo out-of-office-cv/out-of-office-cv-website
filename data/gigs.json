@@ -28827,5 +28827,216 @@
     "pollie_slug": "james-webster",
     "start_date": "1980-02-02",
     "end_date": "1984-04-30"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "RSL Western Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.businessnews.com.au/article/Connelly-leads-new-generation-at-RSL-WA",
+      "https://www.businessnews.com.au/Person/Vince-Connelly",
+      "https://www.rslwa.org.au/article/rslwa-board-announces-new-ceo-stephen-barton"
+    ],
+    "pollie_slug": "vince-connelly",
+    "start_date": "2022-08-01",
+    "end_date": "2024-07-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "RSL Western Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.linkedin.com/in/vince-connelly-bb39256b/"
+    ],
+    "pollie_slug": "vince-connelly",
+    "start_date": "2024-07-01"
+  },
+  {
+    "role": "Member",
+    "organisation": "Veterans Advisory Council WA",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://au.linkedin.com/in/vince-connelly-mp-bb39256b",
+      "https://military-history.fandom.com/wiki/Vince_Connelly"
+    ],
+    "pollie_slug": "vince-connelly"
+  },
+  {
+    "role": "Director",
+    "organisation": "Veterans Recovery and Restoration Centre",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://au.linkedin.com/in/vince-connelly-mp-bb39256b",
+      "https://military-history.fandom.com/wiki/Vince_Connelly"
+    ],
+    "pollie_slug": "vince-connelly"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Wine and Brandy Corporation",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.openaustralia.org.au/senate/?id=2025-02-13.188.2",
+      "https://www.smjohn.com/article/john-moore-australian-politician-former-australian-politician"
+    ],
+    "pollie_slug": "john-moore"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Herencia Resources plc",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.proactiveinvestors.com/companies/news/2774/herencia-resources-appoints-michael-bohm-as-managing-director-4061.html",
+      "https://herenciaresources.com/wp-content/uploads/2018/08/half-year-2013.pdf",
+      "https://www.marketscreener.com/quote/stock/HERENCIA-RESOURCES-PLC-35952840/news/John-Moore-Ceases-as-Director-of-Herencia-Resources-plc-38072632/"
+    ],
+    "pollie_slug": "john-moore",
+    "start_date": "2006-01-19",
+    "end_date": "2022-04-20"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Arowana International Limited",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://announcements.asx.com.au/asxpdf/20170228/pdf/43gfp408706ttd.pdf",
+      "https://arowanaco.com/wp-content/uploads/2017/06/AWN-HY-2016-12-31-Interim-Financial-Report-signed.pdf"
+    ],
+    "pollie_slug": "john-moore"
+  },
+  {
+    "role": "Non-Executive Chair",
+    "organisation": "Mineral Securities Limited",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.smjohn.com/article/john-moore-australian-politician-former-australian-politician"
+    ],
+    "pollie_slug": "john-moore"
+  },
+  {
+    "role": "Advisor (Education)",
+    "organisation": "Social Ventures Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Maxine_McKew",
+      "https://halloffame.melbournepressclub.com/article/maxine-mckew"
+    ],
+    "pollie_slug": "maxine-mckew"
+  },
+  {
+    "role": "Vice Chancellor's Fellow",
+    "organisation": "University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Maxine_McKew",
+      "https://www.platinumspeakers.com.au/speaker/maxine-mckew/"
+    ],
+    "pollie_slug": "maxine-mckew",
+    "start_date": "2012-01-01"
+  },
+  {
+    "role": "Honorary Enterprise Professor",
+    "organisation": "Melbourne Graduate School of Education, University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://aii.unimelb.edu.au/teams/ms-maxine-mckew/",
+      "https://halloffame.melbournepressclub.com/article/maxine-mckew"
+    ],
+    "pollie_slug": "maxine-mckew"
+  },
+  {
+    "role": "Distinguished Fellow",
+    "organisation": "Australia India Institute",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://aii.unimelb.edu.au/teams/ms-maxine-mckew/",
+      "https://en.wikipedia.org/wiki/Maxine_McKew"
+    ],
+    "pollie_slug": "maxine-mckew"
+  },
+  {
+    "role": "Director",
+    "organisation": "Per Capita",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://halloffame.melbournepressclub.com/article/maxine-mckew",
+      "https://www.platinumspeakers.com.au/speaker/maxine-mckew/"
+    ],
+    "pollie_slug": "maxine-mckew"
+  },
+  {
+    "role": "Director",
+    "organisation": "John Cain Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://halloffame.melbournepressclub.com/article/maxine-mckew",
+      "https://grokipedia.com/page/Maxine_McKew"
+    ],
+    "pollie_slug": "maxine-mckew",
+    "start_date": "2018-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Playgroup Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://halloffame.melbournepressclub.com/article/maxine-mckew",
+      "https://speakingout.com.au/speaker/maxine-mckew/"
+    ],
+    "pollie_slug": "maxine-mckew"
+  },
+  {
+    "role": "Director",
+    "organisation": "Lorne Sculpture Biennale",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://halloffame.melbournepressclub.com/article/maxine-mckew",
+      "https://grokipedia.com/page/Maxine_McKew"
+    ],
+    "pollie_slug": "maxine-mckew"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "State Library of Victoria",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://halloffame.melbournepressclub.com/article/maxine-mckew",
+      "https://theconversation.com/the-state-library-of-victoria-controversy-shows-what-can-happen-when-institutions-cling-to-neutrality-235004"
+    ],
+    "pollie_slug": "maxine-mckew",
+    "start_date": "2015-01-01",
+    "end_date": "2024-04-30"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "New Energy Solar Limited",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://www.listcorp.com/asx/new/new-energy-solar-limited/news/change-of-directors-interest-notice-maxine-mckew-2225081.html",
+      "https://halloffame.melbournepressclub.com/article/maxine-mckew"
+    ],
+    "pollie_slug": "maxine-mckew"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Respect Victoria",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.respectvictoria.vic.gov.au/people/maxine-mckew",
+      "https://www.premier.vic.gov.au/respect-victoria-welcomes-new-board-appointments"
+    ],
+    "pollie_slug": "maxine-mckew",
+    "start_date": "2021-10-04"
+  },
+  {
+    "role": "Member, Dean's Advisory Council, School of Medicine and Health Sciences",
+    "organisation": "Macquarie University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Maxine_McKew",
+      "https://colemangreig.com.au/our-people/maxine-mckew/"
+    ],
+    "pollie_slug": "maxine-mckew",
+    "start_date": "2010-09-01"
   }
 ]
