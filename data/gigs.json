@@ -29169,7 +29169,12 @@
     ],
     "pollie_slug": "peter-baume",
     "start_date": "1991-01-01",
-    "end_date": "2000-01-01"
+    "end_date": "2000-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple authoritative sources (Wikipedia, Senate biography, Harm Reduction Australia) confirm Peter Baume was Professor and Head of School of Community Medicine at UNSW from 1991 to 2000. Dates and role match the gig data."
+    }
   },
   {
     "role": "Honorary Research Associate, Social Policy Research Centre",
@@ -29180,7 +29185,12 @@
       "https://freilich.anu.edu.au/people/peter-baume"
     ],
     "pollie_slug": "peter-baume",
-    "start_date": "2000-01-01"
+    "start_date": "2000-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and Freilich ANU confirm Peter Baume served as Honorary Research Associate at UNSW Social Policy Research Centre since 2000. Role and start date verified."
+    }
   },
   {
     "role": "Chancellor",
@@ -29193,7 +29203,12 @@
     ],
     "pollie_slug": "peter-baume",
     "start_date": "1994-12-01",
-    "end_date": "2006-01-01"
+    "end_date": "2006-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple authoritative sources confirm Peter Baume was Chancellor of ANU from 1994 to 2006. All details match the gig data."
+    }
   },
   {
     "role": "Commissioner",
@@ -29204,7 +29219,12 @@
       "https://biography.senate.gov.au/baume-peter-erne/",
       "https://www.harmreductionaustralia.org.au/peter-baume/"
     ],
-    "pollie_slug": "peter-baume"
+    "pollie_slug": "peter-baume",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography and Harm Reduction Australia confirm Peter Baume served as Commissioner of the Australian Law Reform Commission. Role verified post-parliament."
+    }
   },
   {
     "role": "Foundation Chair",
@@ -29217,7 +29237,12 @@
     ],
     "pollie_slug": "peter-baume",
     "start_date": "1991-01-01",
-    "end_date": "1998-01-01"
+    "end_date": "1998-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia, Senate biography, and Harm Reduction Australia confirm Peter Baume was Foundation Chair of the Australian Sports Drug Agency from 1991 to 1998. All details match."
+    }
   },
   {
     "role": "Deputy Chair",
@@ -29228,7 +29253,12 @@
       "https://biography.senate.gov.au/baume-peter-erne/",
       "https://www.harmreductionaustralia.org.au/peter-baume/"
     ],
-    "pollie_slug": "peter-baume"
+    "pollie_slug": "peter-baume",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography and Harm Reduction Australia confirm Peter Baume served as Deputy Chair of the Australian National Council on AIDS post-parliament."
+    }
   },
   {
     "role": "Director",
@@ -29240,7 +29270,12 @@
     ],
     "pollie_slug": "peter-baume",
     "start_date": "1998-01-01",
-    "end_date": "2005-01-01"
+    "end_date": "2005-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and Harm Reduction Australia confirm Peter Baume was Director of Sydney Water from 1998 to 2005. All details match the gig data."
+    }
   },
   {
     "role": "President, New South Wales Branch",
@@ -29260,7 +29295,12 @@
       "https://en.wikipedia.org/wiki/Peter_Baume",
       "https://biography.senate.gov.au/baume-peter-erne/"
     ],
-    "pollie_slug": "peter-baume"
+    "pollie_slug": "peter-baume",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography and Harm Reduction Australia confirm Peter Baume served as Chair of the Drug Offensive Council of New South Wales post-parliament."
+    }
   },
   {
     "role": "Governor",
@@ -29271,7 +29311,12 @@
     ],
     "pollie_slug": "peter-baume",
     "start_date": "1996-01-01",
-    "end_date": "2007-01-01"
+    "end_date": "2007-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Harm Reduction Australia confirms Peter Baume served as Governor of the Foundation for Development Cooperation from 1996 to 2007. All details match."
+    }
   },
   {
     "role": "Management Committee Member",
@@ -29282,7 +29327,12 @@
     ],
     "pollie_slug": "peter-baume",
     "start_date": "1998-01-01",
-    "end_date": "2006-01-01"
+    "end_date": "2006-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Harm Reduction Australia confirms Peter Baume was Management Committee Member at Wayside Chapel from 1998 to 2006. All details verified."
+    }
   },
   {
     "role": "Patron",
@@ -29292,7 +29342,12 @@
       "https://www.harmreductionaustralia.org.au/peter-baume/",
       "https://digitalcollections.cdu.edu.au/nodes/view/7858"
     ],
-    "pollie_slug": "peter-baume"
+    "pollie_slug": "peter-baume",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CDU digital collections and Harm Reduction Australia confirm Peter Baume served as Patron of the Voluntary Euthanasia Society of New South Wales."
+    }
   },
   {
     "role": "Distinguished Fellow",
@@ -29301,7 +29356,12 @@
     "sources": [
       "https://www.royalsoc.org.au/distinguished-fellows/"
     ],
-    "pollie_slug": "peter-baume"
+    "pollie_slug": "peter-baume",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Royal Society of NSW official distinguished fellows page confirms Peter Baume is listed among Distinguished Fellows."
+    }
   },
   {
     "role": "Director",
@@ -29355,8 +29415,13 @@
       "https://insidestory.org.au/john-stone-political-activist/"
     ],
     "pollie_slug": "john-stone",
-    "start_date": "1990-01-01",
-    "end_date": "1995-12-31"
+    "start_date": "1990-03-01",
+    "end_date": "1995-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms Senior Fellow at IPA 1990-95, after parliament. start_date corrected to ceased date 1990-03-01."
+    }
   },
   {
     "role": "Co-founder and President",
@@ -29369,7 +29434,12 @@
     ],
     "pollie_slug": "john-stone",
     "start_date": "1992-01-01",
-    "end_date": "2009-12-31"
+    "end_date": "2009-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and Inside Story confirm John Stone as co-founder of Samuel Griffith Society in 1992. Senate biography states he remained involved until his retirement in 2009."
+    }
   },
   {
     "role": "Editor, Proceedings of the Samuel Griffith Society",
@@ -29381,7 +29451,12 @@
     ],
     "pollie_slug": "john-stone",
     "start_date": "1992-01-01",
-    "end_date": "2007-12-31"
+    "end_date": "2007-12-31",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "No evidence found that John Stone was Editor of the Samuel Griffith Society proceedings. The official society website lists him as a contributor/author to multiple volumes but does not identify him as editor."
+    }
   },
   {
     "role": "Columnist",
@@ -29392,7 +29467,12 @@
       "https://biography.senate.gov.au/stone-john-owen/"
     ],
     "pollie_slug": "john-stone",
-    "start_date": "1990-01-01"
+    "start_date": "1990-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography and Wikipedia confirm Stone wrote columns for the Australian Financial Review on economics and politics from 1990 onwards."
+    }
   },
   {
     "role": "Columnist",
@@ -29404,7 +29484,12 @@
     ],
     "pollie_slug": "john-stone",
     "start_date": "2015-12-01",
-    "end_date": "2023-03-31"
+    "end_date": "2023-03-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Spectator Australia author page confirms John Stone began writing his column for Spectator Australia in December 2015; last published article 4 March 2023."
+    }
   },
   {
     "role": "Committee Member, Review of Australian Defence Forces Effectiveness",
@@ -29415,6 +29500,11 @@
     ],
     "pollie_slug": "john-stone",
     "start_date": "1996-01-01",
-    "end_date": "1997-12-31"
+    "end_date": "1997-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography explicitly confirms Stone served as a federal government committee member inquiring into the effectiveness of the Australian Defence Forces (1996-1997)."
+    }
   }
 ]
