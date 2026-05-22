@@ -29124,5 +29124,297 @@
       "by": "claude",
       "note": "Coleman Greig confirms appointment to Dean's Advisory Council at Macquarie University School of Medicine and Health Sciences in September 2010, matching the provided start_date of 2010-09-01."
     }
+  },
+  {
+    "role": "Director",
+    "organisation": "Operation Flinders Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Meg_Lees"
+    ],
+    "pollie_slug": "meg-lees",
+    "start_date": "2005-01-01"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Multiple Sclerosis Society of South Australia and Northern Territory",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Meg_Lees",
+      "https://www.linkedin.com/in/meg-lees-6842b27/"
+    ],
+    "pollie_slug": "meg-lees",
+    "start_date": "2006-01-01",
+    "end_date": "2009-12-31"
+  },
+  {
+    "role": "Advisory Council Member",
+    "organisation": "Climate 200",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.climate200.com.au/about-us",
+      "https://rockflat.com.au/2021/11/26/climate-200-gaining-momentum/"
+    ],
+    "pollie_slug": "meg-lees",
+    "start_date": "2021-11-01"
+  },
+  {
+    "role": "Professor and Head, School of Community Medicine",
+    "organisation": "University of New South Wales",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Baume",
+      "https://biography.senate.gov.au/baume-peter-erne/",
+      "https://www.harmreductionaustralia.org.au/peter-baume/"
+    ],
+    "pollie_slug": "peter-baume",
+    "start_date": "1991-01-01",
+    "end_date": "2000-01-01"
+  },
+  {
+    "role": "Honorary Research Associate, Social Policy Research Centre",
+    "organisation": "University of New South Wales",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Baume",
+      "https://freilich.anu.edu.au/people/peter-baume"
+    ],
+    "pollie_slug": "peter-baume",
+    "start_date": "2000-01-01"
+  },
+  {
+    "role": "Chancellor",
+    "organisation": "Australian National University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Baume",
+      "https://biography.senate.gov.au/baume-peter-erne/",
+      "https://freilich.anu.edu.au/people/peter-baume"
+    ],
+    "pollie_slug": "peter-baume",
+    "start_date": "1994-12-01",
+    "end_date": "2006-01-01"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "Australian Law Reform Commission",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Baume",
+      "https://biography.senate.gov.au/baume-peter-erne/",
+      "https://www.harmreductionaustralia.org.au/peter-baume/"
+    ],
+    "pollie_slug": "peter-baume"
+  },
+  {
+    "role": "Foundation Chair",
+    "organisation": "Australian Sports Drug Agency",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Baume",
+      "https://biography.senate.gov.au/baume-peter-erne/",
+      "https://www.harmreductionaustralia.org.au/peter-baume/"
+    ],
+    "pollie_slug": "peter-baume",
+    "start_date": "1991-01-01",
+    "end_date": "1998-01-01"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Australian National Council on AIDS",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Baume",
+      "https://biography.senate.gov.au/baume-peter-erne/",
+      "https://www.harmreductionaustralia.org.au/peter-baume/"
+    ],
+    "pollie_slug": "peter-baume"
+  },
+  {
+    "role": "Director",
+    "organisation": "Sydney Water",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Baume",
+      "https://www.harmreductionaustralia.org.au/peter-baume/"
+    ],
+    "pollie_slug": "peter-baume",
+    "start_date": "1998-01-01",
+    "end_date": "2005-01-01"
+  },
+  {
+    "role": "President, New South Wales Branch",
+    "organisation": "Public Health Association of Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Baume",
+      "https://biography.senate.gov.au/baume-peter-erne/"
+    ],
+    "pollie_slug": "peter-baume"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Drug Offensive Council of New South Wales",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Baume",
+      "https://biography.senate.gov.au/baume-peter-erne/"
+    ],
+    "pollie_slug": "peter-baume"
+  },
+  {
+    "role": "Governor",
+    "organisation": "Foundation for Development Cooperation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.harmreductionaustralia.org.au/peter-baume/"
+    ],
+    "pollie_slug": "peter-baume",
+    "start_date": "1996-01-01",
+    "end_date": "2007-01-01"
+  },
+  {
+    "role": "Management Committee Member",
+    "organisation": "Wayside Chapel",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.harmreductionaustralia.org.au/peter-baume/"
+    ],
+    "pollie_slug": "peter-baume",
+    "start_date": "1998-01-01",
+    "end_date": "2006-01-01"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Voluntary Euthanasia Society of New South Wales",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.harmreductionaustralia.org.au/peter-baume/",
+      "https://digitalcollections.cdu.edu.au/nodes/view/7858"
+    ],
+    "pollie_slug": "peter-baume"
+  },
+  {
+    "role": "Distinguished Fellow",
+    "organisation": "Royal Society of New South Wales",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.royalsoc.org.au/distinguished-fellows/"
+    ],
+    "pollie_slug": "peter-baume"
+  },
+  {
+    "role": "Director",
+    "organisation": "Futures Foundation Limited",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.harmreductionaustralia.org.au/peter-baume/"
+    ],
+    "pollie_slug": "peter-baume"
+  },
+  {
+    "role": "Staff",
+    "organisation": "Minerals Council of Australia",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kirsten_Livermore"
+    ],
+    "pollie_slug": "kirsten-livermore",
+    "start_date": "2015-01-01"
+  },
+  {
+    "role": "Team Leader",
+    "organisation": "Australia Mongolia Extractives Program",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kirsten_Livermore",
+      "https://au.linkedin.com/in/kirsten-livermore-5b846987"
+    ],
+    "pollie_slug": "kirsten-livermore",
+    "start_date": "2019-09-01"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Asian Battery Metals",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://asianbatterymetals.com/corporate/",
+      "https://find-and-update.company-information.service.gov.uk/officers/cmpjANynB-huKQ5X0okbDjmeqqg/appointments",
+      "https://www.liquidity.com.au/companies/asian-battery-metals-plc/"
+    ],
+    "pollie_slug": "kirsten-livermore",
+    "start_date": "2024-06-18"
+  },
+  {
+    "role": "Senior Fellow",
+    "organisation": "Institute of Public Affairs",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://ipa.org.au/ipa-review-article/vale-john-stone",
+      "https://biography.senate.gov.au/stone-john-owen/",
+      "https://insidestory.org.au/john-stone-political-activist/"
+    ],
+    "pollie_slug": "john-stone",
+    "start_date": "1990-01-01",
+    "end_date": "1995-12-31"
+  },
+  {
+    "role": "Co-founder and President",
+    "organisation": "Samuel Griffith Society",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Samuel_Griffith_Society",
+      "https://insidestory.org.au/john-stone-political-activist/",
+      "https://ipa.org.au/ipa-review-article/vale-john-stone"
+    ],
+    "pollie_slug": "john-stone",
+    "start_date": "1992-01-01",
+    "end_date": "2009-12-31"
+  },
+  {
+    "role": "Editor, Proceedings of the Samuel Griffith Society",
+    "organisation": "Samuel Griffith Society",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.samuelgriffith.org/papers",
+      "https://insidestory.org.au/john-stone-political-activist/"
+    ],
+    "pollie_slug": "john-stone",
+    "start_date": "1992-01-01",
+    "end_date": "2007-12-31"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "Australian Financial Review",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Stone_(Australian_politician)",
+      "https://biography.senate.gov.au/stone-john-owen/"
+    ],
+    "pollie_slug": "john-stone",
+    "start_date": "1990-01-01"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "The Spectator Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.spectator.com.au/author/john-stone/",
+      "https://www.spectator.com.au/2025/07/hey-dad-its-john-stone-on-the-phone-vale-john-owen-stone-1929-2025/"
+    ],
+    "pollie_slug": "john-stone",
+    "start_date": "2015-12-01",
+    "end_date": "2023-03-31"
+  },
+  {
+    "role": "Committee Member, Review of Australian Defence Forces Effectiveness",
+    "organisation": "Australian Government",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://biography.senate.gov.au/stone-john-owen/"
+    ],
+    "pollie_slug": "john-stone",
+    "start_date": "1996-01-01",
+    "end_date": "1997-12-31"
   }
 ]
