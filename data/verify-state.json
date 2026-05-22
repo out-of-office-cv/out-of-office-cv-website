@@ -783,18 +783,30 @@
   "john-hyde|Emeritus Fellow|Institute of Public Affairs|null": "2026-05-07T08:04:32.446Z",
   "john-hyde|Executive Director|Australian Institute for Public Policy|1983-01-01": "2026-05-07T08:04:32.446Z",
   "john-hyde|Executive Director|Institute of Public Affairs|1991-01-01": "2026-05-07T08:04:32.446Z",
-  "john-kerin|Board Member|Southern Rivers Catchment Management Authority|2004-01-01": "2026-05-15T08:03:39.171Z",
+  "john-kerin|Board Member|Southern Rivers Catchment Management Authority|2004-01-01": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
   "john-kerin|Chair|Australian Meat and Livestock Corporation|1994-01-01": "2026-05-15T08:03:39.171Z",
   "john-kerin|Chair|BioLogic International Limited|1996-01-01": "2026-05-15T08:03:39.171Z",
   "john-kerin|Chair|Crawford Fund|2010-10-01": "2026-05-15T08:03:39.171Z",
-  "john-kerin|Chair|New South Wales Water Advisory Council|1996-01-01": "2026-05-15T08:03:39.171Z",
-  "john-kerin|Chair|Poultry Cooperative Research Centre|2003-07-01": "2026-05-15T08:03:39.171Z",
-  "john-kerin|Chair|Queensland Fisheries Management Authority|1999-01-01": "2026-05-15T08:03:39.171Z",
-  "john-kerin|Chair|Queensland Reef Fisheries Management Advisory Committee|1995-01-01": "2026-05-15T08:03:39.171Z",
+  "john-kerin|Chair|New South Wales Water Advisory Council|1996-01-01": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
+  "john-kerin|Chair|Poultry Cooperative Research Centre|2003-07-01": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
+  "john-kerin|Chair|Queensland Fisheries Management Authority|1999-01-01": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
+  "john-kerin|Chair|Queensland Reef Fisheries Management Advisory Committee|1995-01-01": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
   "john-kerin|Chair|Stored Grains Research Laboratory, Commonwealth Scientific and Industrial Research Organisation|2003-01-01": "2026-05-15T08:03:39.171Z",
   "john-kerin|Deputy Chancellor|University of Western Sydney|2000-01-01": "2026-05-15T08:03:39.171Z",
   "john-kerin|Director|Commonwealth Scientific and Industrial Research Organisation|2008-10-03": "2026-05-15T08:03:39.171Z",
-  "john-kerin|Director|Milliton Coal Australia Pty Ltd|2001-01-01": "2026-05-15T08:03:39.171Z",
+  "john-kerin|Director|Milliton Coal Australia Pty Ltd|2001-01-01": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
   "john-mcveigh|Chancellor|University of Southern Queensland|2024-12-01": "2026-05-12T14:04:24.595Z",
   "john-mcveigh|Director, SQNNSW Innovation Hub|University of Southern Queensland|null": "2026-05-12T14:04:24.595Z",
   "john-mcveigh|Executive Director, Institute for Resilient Regions|University of Southern Queensland|2020": "2026-05-12T14:04:24.595Z",
@@ -1992,5 +2004,41 @@
   },
   "john-cherry|Head of Advocacy|Goodstart Early Learning|2013": {
     "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
+  "maxine-mckew|Advisor (Education)|Social Ventures Australia|null": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
+  "maxine-mckew|Vice Chancellor's Fellow|University of Melbourne|2012-01-01": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
+  "maxine-mckew|Honorary Enterprise Professor|Melbourne Graduate School of Education, University of Melbourne|null": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
+  "maxine-mckew|Distinguished Fellow|Australia India Institute|null": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
+  "maxine-mckew|Director|Per Capita|null": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
+  "maxine-mckew|Director|John Cain Foundation|2018-01-01": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
+  "maxine-mckew|Director|Playgroup Australia|null": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
+  "maxine-mckew|Director|Lorne Sculpture Biennale|null": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
+  "maxine-mckew|Board Member|State Library of Victoria|2015-01-01": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
+  "maxine-mckew|Non-Executive Director|New Energy Solar Limited|null": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
+  "maxine-mckew|Board Member|Respect Victoria|2021-10-04": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
+  },
+  "maxine-mckew|Member, Dean's Advisory Council, School of Medicine and Health Sciences|Macquarie University|2010-09-01": {
+    "last_examined_at": "2026-05-22T14:21:42.410Z"
   }
 }

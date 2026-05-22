@@ -21553,10 +21553,16 @@
     "organisation": "Milliton Coal Australia Pty Ltd",
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://oa.anu.edu.au/obituary/kerin-john-charles-33325"
+      "https://oa.anu.edu.au/obituary/kerin-john-charles-33325",
+      "https://www.eoas.info/biogs/P007478b.htm",
+      "https://en.wikipedia.org/wiki/John_Kerin"
     ],
     "pollie_slug": "john-kerin",
-    "start_date": "2001-01-01"
+    "start_date": "2001-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -21596,10 +21602,16 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://www.crawfordfund.org/news/vale-john-kerin-ao/",
-      "https://en-academic.com/dic.nsf/enwiki/11576923"
+      "https://en-academic.com/dic.nsf/enwiki/11576923",
+      "https://www.eoas.info/biogs/A002318b.htm",
+      "https://en.wikipedia.org/wiki/Poultry_CRC"
     ],
     "pollie_slug": "john-kerin",
-    "start_date": "2003-07-01"
+    "start_date": "2011-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chancellor",
@@ -21622,22 +21634,32 @@
     "organisation": "New South Wales Water Advisory Council",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.eoas.info/biogs/P007478b.htm"
+      "https://www.eoas.info/biogs/P007478b.htm",
+      "https://www.atse.org.au/who-we-are/our-fellows/all-fellows/john-kerin/"
     ],
     "pollie_slug": "john-kerin",
     "start_date": "1996-01-01",
-    "end_date": "2004-12-31"
+    "end_date": "2004-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Queensland Fisheries Management Authority",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
-      "https://www.eoas.info/biogs/P007478b.htm"
+      "https://www.eoas.info/biogs/P007478b.htm",
+      "https://www.atse.org.au/who-we-are/our-fellows/all-fellows/john-kerin/"
     ],
     "pollie_slug": "john-kerin",
     "start_date": "1999-01-01",
-    "end_date": "2001-12-31"
+    "end_date": "2001-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -21648,7 +21670,11 @@
     ],
     "pollie_slug": "john-kerin",
     "start_date": "2004-01-01",
-    "end_date": "2012-12-31"
+    "end_date": "2012-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -21670,11 +21696,16 @@
     "organisation": "Queensland Reef Fisheries Management Advisory Committee",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
-      "https://www.eoas.info/biogs/P007478b.htm"
+      "https://www.eoas.info/biogs/P007478b.htm",
+      "https://www.atse.org.au/who-we-are/our-fellows/all-fellows/john-kerin/"
     ],
     "pollie_slug": "john-kerin",
     "start_date": "1995-01-01",
-    "end_date": "2001-12-31"
+    "end_date": "2001-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "john-reeves",
@@ -28921,7 +28952,12 @@
       "https://en.wikipedia.org/wiki/Maxine_McKew",
       "https://halloffame.melbournepressclub.com/article/maxine-mckew"
     ],
-    "pollie_slug": "maxine-mckew"
+    "pollie_slug": "maxine-mckew",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple strong sources confirm Maxine McKew (former Bennelong MP) worked as an advisor on education for Social Ventures Australia after leaving parliament."
+    }
   },
   {
     "role": "Vice Chancellor's Fellow",
@@ -28932,7 +28968,12 @@
       "https://www.platinumspeakers.com.au/speaker/maxine-mckew/"
     ],
     "pollie_slug": "maxine-mckew",
-    "start_date": "2012-01-01"
+    "start_date": "2012-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and Platinum Speakers confirm Vice Chancellor's Fellow position at University of Melbourne from 2012."
+    }
   },
   {
     "role": "Honorary Enterprise Professor",
@@ -28942,7 +28983,12 @@
       "https://aii.unimelb.edu.au/teams/ms-maxine-mckew/",
       "https://halloffame.melbournepressclub.com/article/maxine-mckew"
     ],
-    "pollie_slug": "maxine-mckew"
+    "pollie_slug": "maxine-mckew",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "AII institutional page and Platinum Speakers confirm Honorary Enterprise Professor role at Melbourne Graduate School of Education."
+    }
   },
   {
     "role": "Distinguished Fellow",
@@ -28952,7 +28998,12 @@
       "https://aii.unimelb.edu.au/teams/ms-maxine-mckew/",
       "https://en.wikipedia.org/wiki/Maxine_McKew"
     ],
-    "pollie_slug": "maxine-mckew"
+    "pollie_slug": "maxine-mckew",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "AII institutional page and Wikipedia both confirm Distinguished Fellow position at Australia India Institute."
+    }
   },
   {
     "role": "Director",
@@ -28962,7 +29013,12 @@
       "https://halloffame.melbournepressclub.com/article/maxine-mckew",
       "https://www.platinumspeakers.com.au/speaker/maxine-mckew/"
     ],
-    "pollie_slug": "maxine-mckew"
+    "pollie_slug": "maxine-mckew",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources (Melbourne Press Club Hall of Fame, Platinum Speakers, Speaking Out) confirm director role at Per Capita think tank."
+    }
   },
   {
     "role": "Director",
@@ -28973,7 +29029,12 @@
       "https://grokipedia.com/page/Maxine_McKew"
     ],
     "pollie_slug": "maxine-mckew",
-    "start_date": "2018-01-01"
+    "start_date": "2018-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Melbourne Press Club Hall of Fame confirms director role at John Cain Foundation; start_date 2018 is consistent with post-parliamentary activity."
+    }
   },
   {
     "role": "Director",
@@ -28983,7 +29044,12 @@
       "https://halloffame.melbournepressclub.com/article/maxine-mckew",
       "https://speakingout.com.au/speaker/maxine-mckew/"
     ],
-    "pollie_slug": "maxine-mckew"
+    "pollie_slug": "maxine-mckew",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources (Melbourne Press Club Hall of Fame, Speaking Out) confirm director role at Playgroup Australia."
+    }
   },
   {
     "role": "Director",
@@ -28993,7 +29059,12 @@
       "https://halloffame.melbournepressclub.com/article/maxine-mckew",
       "https://grokipedia.com/page/Maxine_McKew"
     ],
-    "pollie_slug": "maxine-mckew"
+    "pollie_slug": "maxine-mckew",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Melbourne Press Club Hall of Fame confirms director role at Lorne Sculpture Biennale."
+    }
   },
   {
     "role": "Board Member",
@@ -29005,7 +29076,12 @@
     ],
     "pollie_slug": "maxine-mckew",
     "start_date": "2015-01-01",
-    "end_date": "2024-04-30"
+    "end_date": "2024-04-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources confirm board member role; start_date 2015 and end_date 2024-04-30 match institutional records. The Conversation article confirms her membership during the library controversy."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -29026,7 +29102,12 @@
       "https://www.premier.vic.gov.au/respect-victoria-welcomes-new-board-appointments"
     ],
     "pollie_slug": "maxine-mckew",
-    "start_date": "2021-10-04"
+    "start_date": "2021-10-04",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Premier of Victoria announcement confirms Maxine McKew appointed to Respect Victoria board on 4 October 2021, matching the provided start_date."
+    }
   },
   {
     "role": "Member, Dean's Advisory Council, School of Medicine and Health Sciences",
@@ -29037,6 +29118,11 @@
       "https://colemangreig.com.au/our-people/maxine-mckew/"
     ],
     "pollie_slug": "maxine-mckew",
-    "start_date": "2010-09-01"
+    "start_date": "2010-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Coleman Greig confirms appointment to Dean's Advisory Council at Macquarie University School of Medicine and Health Sciences in September 2010, matching the provided start_date of 2010-09-01."
+    }
   }
 ]
