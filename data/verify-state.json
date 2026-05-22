@@ -664,18 +664,26 @@
   "jane-prentice|Director|Queensland Eye Institute Foundation|null": "2026-05-11T20:04:38.169Z",
   "jane-prentice|President|Scouts Queensland|null": "2026-05-11T20:04:38.169Z",
   "janelle-saffin|Adjunct Professor, School of Law and Justice|Southern Cross University|null": "2026-05-10T08:05:04.759Z",
-  "janelle-saffin|Advisor, Asia and the Pacific|APMA Global Master of Human Rights|null": "2026-05-10T08:05:04.759Z",
+  "janelle-saffin|Advisor, Asia and the Pacific|APMA Global Master of Human Rights|null": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
   "janelle-saffin|Advisory Board Member|CHEGA! National Centre|2023-09-27": "2026-05-10T08:05:04.759Z",
   "janelle-saffin|Chair|ALP International Party Development Committee|null": "2026-05-10T08:05:04.759Z",
   "janelle-saffin|Fellow|Southern Cross University|null": "2026-05-10T08:05:04.759Z",
-  "janelle-saffin|Independent Director and Vice President|United Nations Association of Australia|null": "2026-05-10T08:05:04.759Z",
+  "janelle-saffin|Independent Director and Vice President|United Nations Association of Australia|null": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
   "janelle-saffin|Member, NSW Legislative Assembly|NSW Legislative Assembly|2019-03-23": "2026-05-10T08:05:04.759Z",
   "janelle-saffin|Minister for Recovery|NSW Government|2025-03-17": "2026-05-10T08:05:04.759Z",
   "janelle-saffin|Minister for Small Business|NSW Government|2025-03-17": "2026-05-10T08:05:04.759Z",
   "janelle-saffin|Minister for the North Coast|NSW Government|2025-03-17": "2026-05-10T08:05:04.759Z",
-  "janelle-saffin|Myanmar Adviser|Australian Labor Party|null": "2026-05-10T08:05:04.759Z",
+  "janelle-saffin|Myanmar Adviser|Australian Labor Party|null": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
   "janelle-saffin|Parliamentary Secretary for Disaster Recovery|NSW Government|2023-08-23": "2026-05-10T08:05:04.759Z",
-  "janelle-saffin|Special Adviser|Office of the President of Timor-Leste|null": "2026-05-10T08:05:04.759Z",
+  "janelle-saffin|Special Adviser|Office of the President of Timor-Leste|null": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
   "janet-powell|Deputy Chair|National Multicultural Advisory Council|1994-01-01": "2026-05-09T00:00:00.000Z",
   "janet-powell|Director|Anti-Gun Lobby|null": "2026-05-09T00:00:00.000Z",
   "janet-powell|Director|YWCA Victoria|1993-07-01": "2026-05-09T00:00:00.000Z",
@@ -1945,5 +1953,44 @@
   },
   "clyde-cameron|Financial Supporter|Land Values Research Group|null": {
     "last_examined_at": "2026-05-22T02:31:13.773Z"
+  },
+  "lyn-allison|Director|Women's Health Victoria|null": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
+  "lyn-allison|Board Member|Vision Australia|null": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
+  "lyn-allison|Board Member|Berry Street|null": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
+  "lyn-allison|Board Member|Alzheimer's Australia|null": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
+  "lyn-allison|Board Member|Orygen Youth Health Research|null": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
+  "lyn-allison|Board Member|Mental Illness Fellowship of Victoria|null": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
+  "lyn-allison|Patron|Marie Stopes International Australia|null": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
+  "lyn-allison|Contributor|Accountability Round Table|null": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
+  "lyn-allison|National President|Australian Democrats|2019-10-05": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
+  "john-cherry|Chief Executive Officer|Queensland Farmers' Federation|2005": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
+  "john-cherry|Executive Director|Council of Mayors South East Queensland|2008": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
+  "john-cherry|Company Secretary|SEQ Regional Recreational Facilities Pty Ltd|2010": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
+  },
+  "john-cherry|Head of Advocacy|Goodstart Early Learning|2013": {
+    "last_examined_at": "2026-05-22T08:38:34.291Z"
   }
 }

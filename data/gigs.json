@@ -15932,9 +15932,15 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://janellesaffin.com.au/about/",
-      "https://gchumanrights.org/education/regional-programmes/apma/about-apma.html"
+      "https://gchumanrights.org/education/regional-programmes/apma/about-apma.html",
+      "https://en.wikipedia.org/wiki/Janelle_Saffin"
     ],
-    "pollie_slug": "janelle-saffin"
+    "pollie_slug": "janelle-saffin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Advisor for Asia and the Pacific with APMA Global Master of Human Rights from her official biography at janellesaffin.com.au."
+    }
   },
   {
     "role": "Myanmar Adviser",
@@ -15942,9 +15948,16 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://janellesaffin.com.au/about/",
-      "https://www.buzzfeednews.com/article/kevinrudd/dont-give-up-on-aung-san-suu-kyi"
+      "https://www.buzzfeednews.com/article/kevinrudd/dont-give-up-on-aung-san-suu-kyi",
+      "https://en.wikipedia.org/wiki/Janelle_Saffin",
+      "https://theconversation.com/profiles/janelle-saffin-120501"
     ],
-    "pollie_slug": "janelle-saffin"
+    "pollie_slug": "janelle-saffin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Myanmar Adviser to the Australian Labor Party; she accompanied Kevin Rudd and Bill Shorten on ministerial visits to Myanmar and served as Special Policy Adviser on Myanmar matters."
+    }
   },
   {
     "role": "Chair",
@@ -20781,7 +20794,11 @@
     ],
     "pollie_slug": "john-cherry",
     "start_date": "2005",
-    "end_date": "2008"
+    "end_date": "2008",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Director",
@@ -20794,7 +20811,11 @@
     ],
     "pollie_slug": "john-cherry",
     "start_date": "2008",
-    "end_date": "2012"
+    "end_date": "2012",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Company Secretary",
@@ -20818,7 +20839,11 @@
       "https://thesector.com.au/2024/03/19/heard-about-10-per-day-childcare-sound-too-good-to-be-true-you-may-be-right/"
     ],
     "pollie_slug": "john-cherry",
-    "start_date": "2013"
+    "start_date": "2013",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "National President",
@@ -28637,9 +28662,14 @@
     "organisation": "Women's Health Victoria",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://www.vic.gov.au/lyn-allison"
+      "https://www.vic.gov.au/lyn-allison",
+      "https://www.whv.org.au/about-whv/our-leadership-team/"
     ],
-    "pollie_slug": "lyn-allison"
+    "pollie_slug": "lyn-allison",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -28650,7 +28680,11 @@
       "https://en.wikipedia.org/wiki/Lyn_Allison",
       "https://visionaustralia.org/news/2019-08-23/lyn-allisons-leadership-blind-and-low-vision-community-recognised"
     ],
-    "pollie_slug": "lyn-allison"
+    "pollie_slug": "lyn-allison",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -28660,7 +28694,11 @@
       "https://en.wikipedia.org/wiki/Lyn_Allison",
       "https://www.womenaustralia.info/leaders/biogs/WLE0321b.htm"
     ],
-    "pollie_slug": "lyn-allison"
+    "pollie_slug": "lyn-allison",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -28671,7 +28709,11 @@
       "https://www.vic.gov.au/lyn-allison",
       "https://www.womenaustralia.info/leaders/biogs/WLE0321b.htm"
     ],
-    "pollie_slug": "lyn-allison"
+    "pollie_slug": "lyn-allison",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -28680,7 +28722,11 @@
     "sources": [
       "https://www.vic.gov.au/lyn-allison"
     ],
-    "pollie_slug": "lyn-allison"
+    "pollie_slug": "lyn-allison",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -28689,7 +28735,11 @@
     "sources": [
       "https://www.vic.gov.au/lyn-allison"
     ],
-    "pollie_slug": "lyn-allison"
+    "pollie_slug": "lyn-allison",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -28698,17 +28748,25 @@
     "sources": [
       "https://www.vic.gov.au/lyn-allison"
     ],
-    "pollie_slug": "lyn-allison"
+    "pollie_slug": "lyn-allison",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Contributor",
     "organisation": "Accountability Round Table",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.accountabilityrt.org/author/lynallison/",
-      "https://www.linkedin.com/in/lyn-allison-a3890725/"
+      "https://www.accountabilityrt.org/author/lynallison/"
     ],
-    "pollie_slug": "lyn-allison"
+    "pollie_slug": "lyn-allison",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Removed LinkedIn source (404); verified contributor via accountabilityrt.org author page with recent articles as of 2026"
+    }
   },
   {
     "role": "National President",
@@ -28718,7 +28776,11 @@
       "https://en.wikipedia.org/wiki/Lyn_Allison"
     ],
     "pollie_slug": "lyn-allison",
-    "start_date": "2019-10-05"
+    "start_date": "2019-10-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Vice-President",
