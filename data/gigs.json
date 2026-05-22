@@ -26120,9 +26120,14 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Carolyn_Jakobsen",
-      "http://senate.murdoch.edu.au/2002/july/eeocmn.html"
+      "http://senate.murdoch.edu.au/2002/july/eeocmn.html",
+      "https://www.murdoch.edu.au/explore/leadership-governance/senate"
     ],
-    "pollie_slug": "carolyn-jakobsen"
+    "pollie_slug": "carolyn-jakobsen",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -26131,7 +26136,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Carolyn_Jakobsen"
     ],
-    "pollie_slug": "carolyn-jakobsen"
+    "pollie_slug": "carolyn-jakobsen",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -26140,7 +26149,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Carolyn_Jakobsen"
     ],
-    "pollie_slug": "carolyn-jakobsen"
+    "pollie_slug": "carolyn-jakobsen",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -26149,7 +26162,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Carolyn_Jakobsen"
     ],
-    "pollie_slug": "carolyn-jakobsen"
+    "pollie_slug": "carolyn-jakobsen",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -26730,7 +26747,12 @@
     ],
     "pollie_slug": "clyde-cameron",
     "start_date": "1990-01-01",
-    "end_date": "1990-12-31"
+    "end_date": "1990-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Allen & Unwin published 'The Cameron Diaries' in 1990, confirmed by multiple authoritative sources including National Library of Australia catalogue and publisher information."
+    }
   },
   {
     "role": "Oral Historian",
@@ -26742,7 +26764,12 @@
       "https://catalogue.nla.gov.au/catalog/1089543"
     ],
     "pollie_slug": "clyde-cameron",
-    "start_date": "1981-01-01"
+    "start_date": "1981-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "National Library of Australia records confirm Cameron conducted extensive oral history interviews beginning in 1981, with the Library providing financial and technical support."
+    }
   },
   {
     "role": "Contributor and Advocate",
@@ -26754,7 +26781,12 @@
       "https://www.prosper.org.au/geoists-in-history/clyde-cameron/"
     ],
     "pollie_slug": "clyde-cameron",
-    "start_date": "1980-01-01"
+    "start_date": "1980-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and Bill Mitchell's blog confirm Cameron's involvement as a contributor to the Georgist Education Association after his parliamentary career ended in 1980."
+    }
   },
   {
     "role": "Financial Supporter",
@@ -26764,7 +26796,12 @@
       "https://www.prosper.org.au/geoists-in-history/clyde-cameron/",
       "https://hgarchives.org/historical-collections-2/australian-single-tax-and-henry-george-organizations-1925-1992/"
     ],
-    "pollie_slug": "clyde-cameron"
+    "pollie_slug": "clyde-cameron",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Henry George Archives confirm the Land Values Research Group received financial support from Clyde Cameron AO. No specific dates provided but consistent with post-1980 involvement."
+    }
   },
   {
     "role": "Adviser (Queensland Projects)",
@@ -28436,11 +28473,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Neville_Bonner",
       "https://biography.senate.gov.au/bonner-neville-thomas/",
-      "https://www.portrait.gov.au/people/neville-bonner-1922"
+      "https://www.portrait.gov.au/people/neville-bonner-1922",
+      "https://ia.anu.edu.au/biography/bonner-neville-28098"
     ],
     "pollie_slug": "neville-bonner",
     "start_date": "1983-06-01",
-    "end_date": "1991-06-01"
+    "end_date": "1991-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple authoritative sources confirm Bonner served on the ABC board from June 1983 to 1991, including reappointment in June 1986 for a five-year term. Title is 'Board Member' rather than 'Director' but sources use both interchangeably for this role."
+    }
   },
   {
     "role": "Senior Official Visitor",
@@ -28452,7 +28495,12 @@
     ],
     "pollie_slug": "neville-bonner",
     "start_date": "1990-01-01",
-    "end_date": "1997-12-31"
+    "end_date": "1997-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Official Visitor role for Queensland prisons confirmed by multiple reliable sources including Senate biography. Dates 1990-1997 match cited sources."
+    }
   },
   {
     "role": "Council Member",
@@ -28464,7 +28512,12 @@
     ],
     "pollie_slug": "neville-bonner",
     "start_date": "1992-01-01",
-    "end_date": "1996-12-31"
+    "end_date": "1996-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Griffith University Council membership 1992-1996 confirmed by multiple sources. Chris Griffith website confirms the specific dates and role."
+    }
   },
   {
     "role": "Chair of Aboriginal and Torres Strait Islander Education Committee",
@@ -28485,7 +28538,12 @@
       "https://www.portrait.gov.au/people/neville-bonner-1922",
       "https://www.ebsco.com/research-starters/politics-and-government/neville-bonner"
     ],
-    "pollie_slug": "neville-bonner"
+    "pollie_slug": "neville-bonner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Patron of World Vision Australia confirmed by National Portrait Gallery and EBSCO sources."
+    }
   },
   {
     "role": "Patron",
@@ -28495,7 +28553,12 @@
       "https://www.portrait.gov.au/people/neville-bonner-1922",
       "https://www.ebsco.com/research-starters/politics-and-government/neville-bonner"
     ],
-    "pollie_slug": "neville-bonner"
+    "pollie_slug": "neville-bonner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Patron of Amnesty International Australia confirmed by National Portrait Gallery and EBSCO sources."
+    }
   },
   {
     "role": "Chair",
@@ -28507,7 +28570,12 @@
     ],
     "pollie_slug": "neville-bonner",
     "start_date": "1995-01-01",
-    "end_date": "1996-12-31"
+    "end_date": "1996-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Chair of Review of the Aboriginal Lands Trust (Western Australia) confirmed by National Library of Australia catalogue and Senate biography. Published in 1996."
+    }
   },
   {
     "role": "Chair",
@@ -28519,7 +28587,12 @@
     ],
     "pollie_slug": "neville-bonner",
     "start_date": "1997-01-01",
-    "end_date": "1997-12-31"
+    "end_date": "1997-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Chair of Indigenous Advisory Council (Queensland) confirmed by Senate biography and Nostalgia Central. 1997 dates match."
+    }
   },
   {
     "role": "Elected Delegate",
@@ -28531,7 +28604,12 @@
     ],
     "pollie_slug": "neville-bonner",
     "start_date": "1998-02-02",
-    "end_date": "1998-02-13"
+    "end_date": "1998-02-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Elected delegate to 1998 Australian Constitutional Convention confirmed by Wikipedia entry listing him as a Queensland delegate. Convention dates confirmed as 2-13 February 1998."
+    }
   },
   {
     "role": "Commissioner",
