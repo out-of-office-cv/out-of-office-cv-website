@@ -51,7 +51,7 @@ export function getVegaConfig(): Config {
       heatmap: { scheme: "greens" },
     },
     style: {
-      "guide-label": { fill: ink2 },
+      "guide-label": { fill: ink2, lineBreak: "\n" },
       "guide-title": { fill: ink },
       cell: { stroke: rule },
     },
