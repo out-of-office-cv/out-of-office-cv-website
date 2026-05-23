@@ -29726,5 +29726,154 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Director",
+    "organisation": "One Stop Medical Pty Ltd",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://au.linkedin.com/in/james-bidgood-6606a974",
+      "https://www.zoominfo.com/p/Bidgood-James/8272495875"
+    ],
+    "pollie_slug": "james-bidgood"
+  },
+  {
+    "role": "Executive Chair",
+    "organisation": "Enterprise Corporation",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://au.linkedin.com/in/sean-edwards-63720a44",
+      "https://rocketreach.co/sean-edwards-email_82009366"
+    ],
+    "pollie_slug": "sean-edwards"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Cooperative Research Centre for Contamination Assessment and Remediation of the Environment",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://crccare.com/board-of-directors/",
+      "https://crccare.com/australian-scientist-to-head-bid-to-clean-up-the-worlds-soils/"
+    ],
+    "pollie_slug": "sean-edwards"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Kirrihill Wines",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://au.linkedin.com/in/sean-edwards-63720a44",
+      "https://kirrihill.com.au/"
+    ],
+    "pollie_slug": "sean-edwards"
+  },
+  {
+    "role": "Director",
+    "organisation": "Pristine Foods",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.facebook.com/Sean.Edwards.Clare"
+    ],
+    "pollie_slug": "sean-edwards",
+    "start_date": "2025-05-26"
+  },
+  {
+    "role": "Editor",
+    "organisation": "Quadrant Magazine",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Coleman_(Australian_politician)",
+      "https://quadrant.org.au/opinion/qed/2015/06/great-man-letters/"
+    ],
+    "pollie_slug": "peter-coleman",
+    "start_date": "1987-06-05",
+    "end_date": "1990-01-01"
+  },
+  {
+    "role": "Contributing Editor",
+    "organisation": "Quadrant Magazine",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://quadrant.org.au/wp-content/uploads/2015/02/Quadrant-March-2015-Text-pdf.pdf",
+      "https://ipa.org.au/ipa-today/a-liberal-man-of-letters-peter-coleman-1928-2019"
+    ],
+    "pollie_slug": "peter-coleman",
+    "start_date": "1990-01-01",
+    "end_date": "2019-03-31"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "Spectator Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.spectator.com.au/author/peter-coleman/",
+      "https://www.spectator.com.au/2019/04/a-liberal-man-of-letters-peter-coleman-1928-2019/"
+    ],
+    "pollie_slug": "peter-coleman",
+    "start_date": "2009-01-01",
+    "end_date": "2019-03-31"
+  },
+  {
+    "role": "Ministerial Member",
+    "organisation": "Pilbara Development Commission",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Alan-Eggleston"
+    ],
+    "pollie_slug": "alan-eggleston"
+  },
+  {
+    "role": "Senior Member",
+    "organisation": "Administrative Appeals Tribunal",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.examiner.com.au/story/4361843/nikolic-set-to-earn-300k-in-new-role/",
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22media/pressrel/4996941%22",
+      "https://markdreyfus.com/media/media-releases/reappointments-to-the-administrative-appeals-tribunal-mark-dreyfus-kc-mp/",
+      "https://www.linkedin.com/in/andrew-nikolic-18a11351/"
+    ],
+    "pollie_slug": "andrew-nikolic",
+    "start_date": "2017-01-16",
+    "end_date": "2024-10-13"
+  },
+  {
+    "role": "Senior Member",
+    "organisation": "Administrative Review Tribunal",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://ministers.ag.gov.au/media-centre/reappointments-administrative-appeals-tribunal-21-06-2024",
+      "https://www.directory.gov.au/people/andrew-nikolic",
+      "https://www.zoominfo.com/p/Andrew-Nikolic/12746590282"
+    ],
+    "pollie_slug": "andrew-nikolic",
+    "start_date": "2024-10-14",
+    "end_date": "2028-06-30"
+  },
+  {
+    "role": "General Manager",
+    "organisation": "DefenceNT",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.linkedin.com/in/andrew-nikolic-18a11351/"
+    ],
+    "pollie_slug": "andrew-nikolic"
+  },
+  {
+    "role": "Non-Resident Senior Advisor",
+    "organisation": "Perry World House, University of Pennsylvania",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.linkedin.com/in/andrew-nikolic-18a11351/"
+    ],
+    "pollie_slug": "andrew-nikolic"
+  },
+  {
+    "role": "Independent Non-Executive Director",
+    "organisation": "Simonds Homes",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.linkedin.com/in/andrew-nikolic-18a11351/"
+    ],
+    "pollie_slug": "andrew-nikolic"
   }
 ]
