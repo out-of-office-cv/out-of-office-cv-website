@@ -5,6 +5,11 @@
   import type { PartyGroup } from "../utils/pollie";
   import type { GigCategory } from "../types";
   import { getVegaConfig } from "../utils/vegaTheme";
+  import {
+    isNarrowViewport,
+    watchNarrowViewport,
+    wrapCategoryLabelExpr,
+  } from "../utils/chartLayout";
 
   interface Props {
     byParty: ColumnCell<PartyGroup>[];
@@ -14,6 +19,7 @@
 
   let { byParty, byDecade, categoryOrder }: Props = $props();
   let mode = $state<"party" | "decade">("party");
+  let narrow = $state(isNarrowViewport());
   let chartDiv: HTMLDivElement | undefined;
 
   function specForMode(m: "party" | "decade"): TopLevelSpec {
@@ -30,12 +36,20 @@
           type: "nominal",
           scale: { domain: order },
           sort: order,
-          axis: { title: null, labelLimit: 280 },
+          axis: {
+            title: null,
+            labelLimit: narrow ? 240 : 280,
+            ...(narrow && { labelExpr: wrapCategoryLabelExpr }),
+          },
         },
         x: {
           field: "column",
           type: "nominal",
-          axis: { title: columnTitle, labelAngle: 0 },
+          axis: {
+            title: columnTitle,
+            labelAngle: narrow ? -40 : 0,
+            ...(narrow && { labelAlign: "right", labelBaseline: "middle" }),
+          },
         },
         color: {
           field: "proportion",
@@ -52,10 +66,12 @@
         ],
       },
       width: "container",
-      height: { step: 22 },
+      height: { step: narrow ? 32 : 22 },
       config: getVegaConfig(),
     };
   }
+
+  $effect(() => watchNarrowViewport((n) => (narrow = n)));
 
   $effect(() => {
     if (!chartDiv) return;
@@ -104,12 +120,16 @@
   </button>
 </div>
 
-<div
-  id="comparison-chart"
-  class="chart"
-  bind:this={chartDiv}
-  aria-hidden="true"
-></div>
+<div class="chart-scroll">
+  <div class="chart-min">
+    <div
+      id="comparison-chart"
+      class="chart"
+      bind:this={chartDiv}
+      aria-hidden="true"
+    ></div>
+  </div>
+</div>
 
 <style>
   .toggle {
@@ -145,6 +165,13 @@
   .toggle-btn.active {
     background: var(--color-accent-soft);
     color: var(--color-accent);
+  }
+  .chart-scroll {
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+  }
+  .chart-min {
+    min-width: 22rem;
   }
   .chart {
     width: 100%;

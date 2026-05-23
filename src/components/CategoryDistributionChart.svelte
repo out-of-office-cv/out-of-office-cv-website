@@ -4,6 +4,11 @@
   import type { CategoryTotal } from "../utils/analytics";
   import { categoryColourArray } from "../utils/categoryColours";
   import { getVegaConfig } from "../utils/vegaTheme";
+  import {
+    isNarrowViewport,
+    watchNarrowViewport,
+    wrapCategoryLabelExpr,
+  } from "../utils/chartLayout";
 
   interface Props {
     data: CategoryTotal[];
@@ -11,6 +16,7 @@
 
   let { data }: Props = $props();
   let chartDiv: HTMLDivElement | undefined;
+  let narrow = $state(isNarrowViewport());
 
   function buildSpec(): TopLevelSpec {
     const categoryOrder = data.map((d) => d.category);
@@ -24,7 +30,11 @@
           field: "category",
           type: "nominal",
           sort: null,
-          axis: { title: null, labelLimit: 280 },
+          axis: {
+            title: null,
+            labelLimit: narrow ? 240 : 280,
+            ...(narrow && { labelExpr: wrapCategoryLabelExpr }),
+          },
         },
         x: {
           field: "count",
@@ -43,10 +53,12 @@
         ],
       },
       width: "container",
-      height: { step: 22 },
+      height: { step: narrow ? 32 : 22 },
       config: getVegaConfig(),
     };
   }
+
+  $effect(() => watchNarrowViewport((n) => (narrow = n)));
 
   $effect(() => {
     if (!chartDiv) return;
@@ -72,9 +84,20 @@
   });
 </script>
 
-<div class="chart" bind:this={chartDiv} aria-hidden="true"></div>
+<div class="chart-scroll">
+  <div class="chart-min">
+    <div class="chart" bind:this={chartDiv} aria-hidden="true"></div>
+  </div>
+</div>
 
 <style>
+  .chart-scroll {
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+  }
+  .chart-min {
+    min-width: 22rem;
+  }
   .chart {
     width: 100%;
     min-height: 18rem;
