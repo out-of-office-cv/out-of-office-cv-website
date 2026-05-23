@@ -29943,5 +29943,88 @@
       "https://www.linkedin.com/in/andrew-nikolic-18a11351/"
     ],
     "pollie_slug": "andrew-nikolic"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Australian National University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dick_Klugman"
+    ],
+    "pollie_slug": "richard-klugman",
+    "start_date": "1990-02-19"
+  },
+  {
+    "role": "Ambassador to the Netherlands",
+    "organisation": "Australian Department of Foreign Affairs and Trade",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Tate",
+      "https://biography.senate.gov.au/tate-michael-carter/",
+      "https://www.gathering.org.au/fr-michael-tate.html"
+    ],
+    "pollie_slug": "michael-tate",
+    "start_date": "1993-07-05",
+    "end_date": "1996-12-31"
+  },
+  {
+    "role": "Ambassador to the Holy See",
+    "organisation": "Australian Department of Foreign Affairs and Trade",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Tate",
+      "https://biography.senate.gov.au/tate-michael-carter/",
+      "https://hobart.catholic.org.au/2021/09/21/pope-john-paul-ii-shares-a-plan-with-fr-michael-tate/"
+    ],
+    "pollie_slug": "michael-tate",
+    "start_date": "1993-07-05",
+    "end_date": "1996-12-31"
+  },
+  {
+    "role": "Parish Priest",
+    "organisation": "Roman Catholic Archdiocese of Hobart",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Tate",
+      "https://catholicleader.com.au/people/bringing-experience-and-maturity-to-priesthood_36880/",
+      "https://hobart.catholic.org.au/parish/southern-deanery/south-hobart/"
+    ],
+    "pollie_slug": "michael-tate",
+    "start_date": "2000-05-19"
+  },
+  {
+    "role": "Vicar General",
+    "organisation": "Roman Catholic Archdiocese of Hobart",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Tate",
+      "https://www.gathering.org.au/fr-michael-tate.html",
+      "https://m.facebook.com/ArchdioceseofHobart/photos/a.242275719182393/1625296984213586/"
+    ],
+    "pollie_slug": "michael-tate"
+  },
+  {
+    "role": "Honorary Research Professor",
+    "organisation": "University of Tasmania Faculty of Law",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Tate",
+      "https://biography.senate.gov.au/tate-michael-carter/",
+      "https://www.gathering.org.au/fr-michael-tate.html"
+    ],
+    "pollie_slug": "michael-tate"
+  },
+  {
+    "role": "Parliamentary Standards Commissioner",
+    "organisation": "Parliament of Tasmania",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Tate",
+      "https://www.integrity.tas.gov.au/about",
+      "https://biography.senate.gov.au/tate-michael-carter/"
+    ],
+    "pollie_slug": "michael-tate",
+    "start_date": "2010-11-18",
+    "end_date": "2021-09-30"
   }
 ]
