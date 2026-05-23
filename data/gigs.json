@@ -24794,7 +24794,6 @@
     "organisation": "Meerbusch Consulting",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://rocketreach.co/matthew-williams-email_375019427",
       "https://www.linkedin.com/in/matt-williamssa/"
     ],
     "pollie_slug": "matt-williams",
@@ -24805,23 +24804,30 @@
     "organisation": "SEC Newgate Australia",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://committeeforadelaide.org.au/new-member-sec-newgate/",
-      "https://rocketreach.co/matthew-williams-email_375019427"
+      "https://committeeforadelaide.org.au/new-member-sec-newgate/"
     ],
     "pollie_slug": "matt-williams",
     "start_date": "2019",
-    "end_date": "2022"
+    "end_date": "2022",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "State Manager South Australia and Northern Territory and National Defence Manager",
     "organisation": "Consult Australia",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://rocketreach.co/matthew-williams-email_375019427",
-      "https://www.linkedin.com/in/matt-williamssa/"
+      "https://www.linkedin.com/in/matt-williamssa/",
+      "https://www.consultaustralia.com.au/state-content/sa"
     ],
     "pollie_slug": "matt-williams",
-    "start_date": "2023"
+    "start_date": "2023",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Government Relations Adviser",
@@ -24830,7 +24836,11 @@
     "sources": [
       "https://www.linkedin.com/in/matt-williamssa/"
     ],
-    "pollie_slug": "matt-williams"
+    "pollie_slug": "matt-williams",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Partner",
@@ -25693,7 +25703,11 @@
       "http://www.ngo-monitor.org/press-releases/hon_michael_danby_mp_joins_ngo_monitor_s_international_advisory_board/",
       "https://ngo-monitor.org/ngo-monitors-international-advisory-board-statement-on-iccs-jurisdiction-claim/"
     ],
-    "pollie_slug": "michael-danby"
+    "pollie_slug": "michael-danby",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "International Patron",
@@ -25703,7 +25717,11 @@
       "https://henryjacksonsociety.org/international-patrons/",
       "https://citizensparty.org.au/media-releases/heres-good-use-magnitsky-act-sanction-andrew-hasties-cronies-henry-jackson-society"
     ],
-    "pollie_slug": "michael-danby"
+    "pollie_slug": "michael-danby",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member, Advisory Council",
@@ -25713,7 +25731,11 @@
       "https://www.hrnk.org/team/michael-danby/",
       "https://www.hrnk.org/about/advisory-council.php"
     ],
-    "pollie_slug": "michael-danby"
+    "pollie_slug": "michael-danby",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Commentator",
@@ -25724,7 +25746,12 @@
       "https://www.facebook.com/SkyNewsAustralia/posts/former-labor-mp-michael-danby-says-having-more-mps-in-parliament-will-be-a-bridg/1389371516553776/",
       "https://www.facebook.com/SkyNewsAustralia/videos/albanese-government-afraid-of-what-a-royal-commission-will-uncover/2064451014329613/"
     ],
-    "pollie_slug": "michael-danby"
+    "pollie_slug": "michael-danby",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Sky News articles cite Michael Danby as a former Labor MP providing commentary on news topics; they do not indicate a formal commentator role at Sky News. The Facebook posts are news reports quoting him, not evidence of employment or affiliation."
+    }
   },
   {
     "role": "Director",
@@ -29965,7 +29992,11 @@
     ],
     "pollie_slug": "michael-tate",
     "start_date": "1993-07-05",
-    "end_date": "1996-12-31"
+    "end_date": "1996-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador to the Holy See",
@@ -29978,7 +30009,11 @@
     ],
     "pollie_slug": "michael-tate",
     "start_date": "1993-07-05",
-    "end_date": "1996-12-31"
+    "end_date": "1996-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Parish Priest",
@@ -29990,7 +30025,11 @@
       "https://hobart.catholic.org.au/parish/southern-deanery/south-hobart/"
     ],
     "pollie_slug": "michael-tate",
-    "start_date": "2000-05-19"
+    "start_date": "2000-05-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Vicar General",
@@ -30001,7 +30040,11 @@
       "https://www.gathering.org.au/fr-michael-tate.html",
       "https://m.facebook.com/ArchdioceseofHobart/photos/a.242275719182393/1625296984213586/"
     ],
-    "pollie_slug": "michael-tate"
+    "pollie_slug": "michael-tate",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Research Professor",
@@ -30012,7 +30055,11 @@
       "https://biography.senate.gov.au/tate-michael-carter/",
       "https://www.gathering.org.au/fr-michael-tate.html"
     ],
-    "pollie_slug": "michael-tate"
+    "pollie_slug": "michael-tate",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Parliamentary Standards Commissioner",
@@ -30025,6 +30072,10 @@
     ],
     "pollie_slug": "michael-tate",
     "start_date": "2010-11-18",
-    "end_date": "2021-09-30"
+    "end_date": "2021-09-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
