@@ -289,27 +289,19 @@
   "christabel-chamarette|Clinical Supervisor|YMCA Western Australia|2003": {
     "last_examined_at": "2026-05-17T08:03:31.386Z"
   },
-  "christabel-chamarette|Consultant Psychologist|Marninwarntikura Women's Resource Centre|2013": {
-    "last_examined_at": "2026-05-17T08:03:31.386Z"
-  },
-  "christabel-chamarette|Consultant Psychologist|Yura Yungi Aboriginal Medical Service|2013": {
-    "last_examined_at": "2026-05-17T08:03:31.386Z"
-  },
+  "christabel-chamarette|Consultant Psychologist|Marninwarntikura Women's Resource Centre|2013": "2026-05-23T00:00:00.000Z",
+  "christabel-chamarette|Consultant Psychologist|Yura Yungi Aboriginal Medical Service|2013": "2026-05-23T00:00:00.000Z",
   "christabel-chamarette|Consultant|WA Department of Justice|2004": {
     "last_examined_at": "2026-05-17T08:03:31.386Z"
   },
-  "christabel-chamarette|Expert Witness|Family Court of Western Australia|null": {
-    "last_examined_at": "2026-05-17T08:03:31.386Z"
-  },
+  "christabel-chamarette|Expert Witness|Family Court of Western Australia|null": "2026-05-23T00:00:00.000Z",
   "christabel-chamarette|Member, Professional Standards Committee|Anglican Church of Australia (Western Australia)|2003": {
     "last_examined_at": "2026-05-17T08:03:31.386Z"
   },
   "christabel-chamarette|Member|Parole Board of Western Australia|2002": {
     "last_examined_at": "2026-05-17T08:03:31.386Z"
   },
-  "christabel-chamarette|Supervisor and Consultant|Acacia Prison|null": {
-    "last_examined_at": "2026-05-17T08:03:31.386Z"
-  },
+  "christabel-chamarette|Supervisor and Consultant|Acacia Prison|null": "2026-05-23T00:00:00.000Z",
   "christian-zahra|Chair|Regional Australia Institute|2021": "2026-05-01T00:00:00.000Z",
   "christian-zahra|Chief Executive Officer|Wunan Foundation|2015-01": "2026-05-01T00:00:00.000Z",
   "christian-zahra|Director, Strategy Group|KPMG Australia|null": "2026-05-01T00:00:00.000Z",
@@ -2157,5 +2149,18 @@
   },
   "john-herron|Ambassador|World Youth Day Sydney 2008|2008-01-01": {
     "last_examined_at": "2026-05-23T02:12:06.664Z"
-  }
+  },
+  "andrew-nikolic|Senior Member|Administrative Appeals Tribunal|2017-01-16": "2026-05-23T00:00:00.000Z",
+  "andrew-nikolic|Senior Member|Administrative Review Tribunal|2024-10-14": "2026-05-23T00:00:00.000Z",
+  "andrew-nikolic|General Manager|DefenceNT|null": "2026-05-23T00:00:00.000Z",
+  "andrew-nikolic|Non-Resident Senior Advisor|Perry World House, University of Pennsylvania|null": "2026-05-23T00:00:00.000Z",
+  "andrew-nikolic|Independent Non-Executive Director|Simonds Homes|null": "2026-05-23T00:00:00.000Z",
+  "john-moore|Chair|Australian Wine and Brandy Corporation|null": "2026-05-23T00:00:00.000Z",
+  "john-moore|Chair|Herencia Resources plc|2006-01-19": "2026-05-23T00:00:00.000Z",
+  "john-moore|Non-Executive Director|Arowana International Limited|null": "2026-05-23T00:00:00.000Z",
+  "john-moore|Non-Executive Chair|Mineral Securities Limited|null": "2026-05-23T00:00:00.000Z",
+  "john-williams|Deputy Chair|National Agricultural Labour Advisory Committee|2019-12-01": "2026-05-23T00:00:00.000Z",
+  "john-williams|Chair|Fisheries Research and Development Corporation|2020-03-10": "2026-05-23T00:00:00.000Z",
+  "john-williams|Member, Chief Executive Officer Advisory Panel|Commonwealth Bank of Australia|2020-01-01": "2026-05-23T00:00:00.000Z",
+  "john-williams|Chair|Greyhound Racing NSW|2021-12-02": "2026-05-23T00:00:00.000Z"
 }

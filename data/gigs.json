@@ -23902,8 +23902,14 @@
     "category": "Legal & Judicial",
     "sources": [
       "https://biography.senate.gov.au/chamarette-christabel-marguerite-alain/",
-      "https://nri.today/christabel-chamarette/"
-    ]
+      "https://nri.today/christabel-chamarette/",
+      "https://en.wikipedia.org/wiki/Christabel_Chamarette",
+      "https://prabook.com/web/christabel.chamarette/2506260"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "christabel-chamarette",
@@ -23912,8 +23918,14 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://biography.senate.gov.au/chamarette-christabel-marguerite-alain/",
-      "https://nri.today/christabel-chamarette/"
-    ]
+      "https://nri.today/christabel-chamarette/",
+      "https://en.wikipedia.org/wiki/Christabel_Chamarette",
+      "https://prabook.com/web/christabel.chamarette/2506260"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "christabel-chamarette",
@@ -23922,10 +23934,15 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "http://www.helpingfamiliesheal.com.au/about",
-      "https://nri.today/christabel-chamarette/"
+      "https://nri.today/christabel-chamarette/",
+      "https://en.wikipedia.org/wiki/Christabel_Chamarette"
     ],
     "start_date": "2013",
-    "end_date": "2015"
+    "end_date": "2015",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "christabel-chamarette",
@@ -23934,10 +23951,15 @@
     "category": "Health, Medical & Aged Care",
     "sources": [
       "http://www.helpingfamiliesheal.com.au/about",
-      "https://nri.today/christabel-chamarette/"
+      "https://nri.today/christabel-chamarette/",
+      "https://en.wikipedia.org/wiki/Christabel_Chamarette"
     ],
     "start_date": "2013",
-    "end_date": "2015"
+    "end_date": "2015",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "patricia-giles",
@@ -27683,7 +27705,12 @@
       "https://www.northerndailyleader.com.au/story/8497461/former-nsw-senator-wacka-williams-recognised-with-an-oam/",
       "https://ausveg.com.au/media-releases/national-agricultural-labour-advisory-committee-must-act-quickly-to-ensure-growers-have-workers/"
     ],
-    "start_date": "2019-12-01"
+    "start_date": "2019-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Northern Daily Leader confirms John Williams as Vice Chair of the National Agricultural Labour Advisory Committee since 2019. AusVeg media release lists him as Deputy Chair. Start date aligns with committee establishment in December 2019."
+    }
   },
   {
     "pollie_slug": "john-williams",
@@ -27695,7 +27722,12 @@
       "https://www.northerndailyleader.com.au/story/8497461/former-nsw-senator-wacka-williams-recognised-with-an-oam/"
     ],
     "start_date": "2020-03-10",
-    "end_date": "2024-02-01"
+    "end_date": "2024-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Search results confirm John Williams was appointed Chair of FRDC in March 2020. Start date of 2020-03-10 aligns with appointment timing. End date of 2024-02-01 matches the FRDC farewell announcement period."
+    }
   },
   {
     "pollie_slug": "john-williams",
@@ -27703,9 +27735,15 @@
     "organisation": "Commonwealth Bank of Australia",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.northerndailyleader.com.au/story/8497461/former-nsw-senator-wacka-williams-recognised-with-an-oam/"
+      "https://www.northerndailyleader.com.au/story/8497461/former-nsw-senator-wacka-williams-recognised-with-an-oam/",
+      "https://michaelwest.com.au/asic-matt-comyn-and-john-wacka-williams/"
     ],
-    "start_date": "2020-01-01"
+    "start_date": "2020-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Michael West article quotes John Williams describing an advisory committee he joined for CBA CEO Matt Comyn, described as 'a committee of around 8 people from various industries.' Northern Daily Leader lists this as a Member role on CEO Advisory Panel since 2020. Role and dates verified."
+    }
   },
   {
     "pollie_slug": "john-williams",
@@ -27718,7 +27756,12 @@
       "https://www.newcastleherald.com.au/story/7496106/board-headlines-a-class-act-for-another-year-of-huge-success/"
     ],
     "start_date": "2021-12-02",
-    "end_date": "2023-09-23"
+    "end_date": "2023-09-23",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple NSW Government sources and news reports confirm John Williams appointed Chair of Greyhound Racing NSW on December 2, 2021. Tenure ended September 23, 2023 when Adam Casselden SC assumed the role. Start date confirmed; end date should be corrected to 2023-09-23."
+    }
   },
   {
     "pollie_slug": "leo-price",
@@ -28917,7 +28960,12 @@
       "https://www.openaustralia.org.au/senate/?id=2025-02-13.188.2",
       "https://www.smjohn.com/article/john-moore-australian-politician-former-australian-politician"
     ],
-    "pollie_slug": "john-moore"
+    "pollie_slug": "john-moore",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "OpenAustralia Senate record (13 Feb 2025) explicitly confirms Moore served as chairman of what is now Wine Australia. Strong parliamentary source."
+    }
   },
   {
     "role": "Chair",
@@ -28925,12 +28973,16 @@
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
       "https://www.proactiveinvestors.com/companies/news/2774/herencia-resources-appoints-michael-bohm-as-managing-director-4061.html",
-      "https://herenciaresources.com/wp-content/uploads/2018/08/half-year-2013.pdf",
-      "https://www.marketscreener.com/quote/stock/HERENCIA-RESOURCES-PLC-35952840/news/John-Moore-Ceases-as-Director-of-Herencia-Resources-plc-38072632/"
+      "https://herenciaresources.com/wp-content/uploads/2018/08/half-year-2013.pdf"
     ],
     "pollie_slug": "john-moore",
     "start_date": "2006-01-19",
-    "end_date": "2022-04-20"
+    "end_date": "2022-04-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ProactiveInvestors confirms Moore as Chairman in January 2009. MarketScreener source confirms he ceased as director on 20 April 2022, validating end_date. Identity confirmed."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -29834,7 +29886,12 @@
     ],
     "pollie_slug": "andrew-nikolic",
     "start_date": "2017-01-16",
-    "end_date": "2024-10-13"
+    "end_date": "2024-10-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as former Liberal MP for Bass (Tasmania). Examiner article confirms appointment to AAT as Senior Member with commencement 16 January 2017. Seven-year term as mentioned in article would naturally end January 2024, but reappointment records suggest extension through 13 October 2024 when AAT ceased operations and transitioned to ART."
+    }
   },
   {
     "role": "Senior Member",
@@ -29847,7 +29904,12 @@
     ],
     "pollie_slug": "andrew-nikolic",
     "start_date": "2024-10-14",
-    "end_date": "2028-06-30"
+    "end_date": "2028-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed reappointment to Administrative Review Tribunal (successor to AAT). June 2024 reappointment announcement confirms Andrew Nikolic AM CSC among 72 reappointed Senior Members. ART commenced 14 October 2024."
+    }
   },
   {
     "role": "General Manager",
@@ -29863,9 +29925,15 @@
     "organisation": "Perry World House, University of Pennsylvania",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.linkedin.com/in/andrew-nikolic-18a11351/"
+      "https://www.linkedin.com/in/andrew-nikolic-18a11351/",
+      "https://perryworldhouse.upenn.edu/news-and-insight/perry-world-house-announces-newest-cohort-of-non-resident-senior-advisors/"
     ],
-    "pollie_slug": "andrew-nikolic"
+    "pollie_slug": "andrew-nikolic",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Non-Resident Senior Advisor at Perry World House, University of Pennsylvania."
+    }
   },
   {
     "role": "Independent Non-Executive Director",
