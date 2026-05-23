@@ -21336,7 +21336,11 @@
     ],
     "pollie_slug": "john-herron",
     "start_date": "2003-01-01",
-    "end_date": "2006-03-01"
+    "end_date": "2006-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -21365,12 +21369,15 @@
     "organisation": "World Youth Day Sydney 2008",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.gettyimages.com/detail/news-photo/dr-john-herron-former-ambassador-to-the-holy-see-and-news-photo/81103332",
-      "https://www.archindy.org/criterion/local/blogs/wyd2008/files/WYD%202008%20Fact%20Sheet.pdf"
+      "https://www.gettyimages.com/detail/news-photo/dr-john-herron-former-ambassador-to-the-holy-see-and-news-photo/81103332"
     ],
     "pollie_slug": "john-herron",
     "start_date": "2008-01-01",
-    "end_date": "2008-12-31"
+    "end_date": "2008-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -29516,7 +29523,11 @@
       "https://biography.senate.gov.au/schacht-christopher-cleland/"
     ],
     "pollie_slug": "chris-schacht",
-    "start_date": "2008-01-01"
+    "start_date": "2008-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -29526,7 +29537,11 @@
       "https://en.wikipedia.org/wiki/Chris_Schacht",
       "https://www.nsl.org.au/about/our-ambassadors/chris-schacht/"
     ],
-    "pollie_slug": "chris-schacht"
+    "pollie_slug": "chris-schacht",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -29538,7 +29553,11 @@
       "https://www.playthegame.org/news/news-articles/2014/fivb-accused-of-violating-statutes-to-oust-former-presidential-candidate"
     ],
     "pollie_slug": "chris-schacht",
-    "end_date": "2013-04-01"
+    "end_date": "2013-04-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member, Legal Commission",
@@ -29549,7 +29568,11 @@
       "https://www.playthegame.org/news/news-articles/2014/fivb-accused-of-violating-statutes-to-oust-former-presidential-candidate"
     ],
     "pollie_slug": "chris-schacht",
-    "start_date": "2006-10-01"
+    "start_date": "2006-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member, Board of Administration",
@@ -29561,7 +29584,11 @@
     ],
     "pollie_slug": "chris-schacht",
     "start_date": "2011-01-01",
-    "end_date": "2013-04-01"
+    "end_date": "2013-04-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -29571,7 +29598,11 @@
       "https://www.playthegame.org/news/news-articles/2014/fivb-accused-of-violating-statutes-to-oust-former-presidential-candidate"
     ],
     "pollie_slug": "chris-schacht",
-    "end_date": "2013-04-01"
+    "end_date": "2013-04-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Registered Lobbyist",
@@ -29583,7 +29614,11 @@
       "https://au.linkedin.com/in/chris-schacht-254b3633"
     ],
     "pollie_slug": "chris-schacht",
-    "start_date": "2015-01-01"
+    "start_date": "2015-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
@@ -29593,17 +29628,24 @@
       "https://www.nsl.org.au/about/our-ambassadors/chris-schacht/",
       "https://secularism.au/speakers/chris-schacht/"
     ],
-    "pollie_slug": "chris-schacht"
+    "pollie_slug": "chris-schacht",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Partner",
     "organisation": "Himalaya Consulting",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://eastasiaforum.org/author/williamochee/",
-      "https://au.linkedin.com/in/william-o-chee-6072276"
+      "https://eastasiaforum.org/author/williamochee/"
     ],
-    "pollie_slug": "bill-ochee"
+    "pollie_slug": "bill-ochee",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Contributor",
@@ -29612,7 +29654,11 @@
     "sources": [
       "https://eastasiaforum.org/author/williamochee/"
     ],
-    "pollie_slug": "bill-ochee"
+    "pollie_slug": "bill-ochee",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Contributor",
@@ -29621,7 +29667,11 @@
     "sources": [
       "https://www.spectator.com.au/author/bill-ochee/"
     ],
-    "pollie_slug": "bill-ochee"
+    "pollie_slug": "bill-ochee",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Columnist",
@@ -29631,7 +29681,11 @@
       "https://www.facebook.com/brisbanetimes/posts/our-columnist-bill-ochee-writes-about-his-eldest-son-who-has-down-syndrome-turni/10153827569312461/",
       "https://muckrack.com/bill-ochee"
     ],
-    "pollie_slug": "bill-ochee"
+    "pollie_slug": "bill-ochee",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Columnist",
@@ -29640,7 +29694,11 @@
     "sources": [
       "https://muckrack.com/bill-ochee"
     ],
-    "pollie_slug": "bill-ochee"
+    "pollie_slug": "bill-ochee",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "National Councillor",
@@ -29650,7 +29708,11 @@
       "https://en.wikipedia.org/wiki/Bill_O%27Chee",
       "https://biography.senate.gov.au/ochee-william-george/"
     ],
-    "pollie_slug": "bill-ochee"
+    "pollie_slug": "bill-ochee",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "National Councillor",
@@ -29659,6 +29721,10 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Bill_O%27Chee"
     ],
-    "pollie_slug": "bill-ochee"
+    "pollie_slug": "bill-ochee",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
