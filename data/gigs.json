@@ -30891,5 +30891,421 @@
       "by": "claude",
       "note": "Wikipedia confirms Kevin Cairns became President of the Queensland Economic Society."
     }
+  },
+  {
+    "role": "Head of Government Advocacy",
+    "organisation": "Walk Free (Minderoo Foundation)",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.themandarin.com.au/137085-ex-senator-lisa-singh-joins-twiggy-forrests-anti-modern-slavery-organisation/",
+      "https://www.minderoo.org/walk-free/news/former-australian-senator-lisa-singh-joins-fight-to-eradicate-modern-slavery/"
+    ],
+    "start_date": "2020-08-11",
+    "pollie_slug": "lisa-singh"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Australia India Council",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.insightgroup.com.au/clients/hon-lisa-singh/",
+      "https://www.internationalaffairs.org.au/aiia-team/the-honourable-lisa-singh/"
+    ],
+    "start_date": "2020-01-01",
+    "end_date": "2023-12-31",
+    "pollie_slug": "lisa-singh"
+  },
+  {
+    "role": "Director and Chief Executive Officer",
+    "organisation": "Australia India Institute",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://aii.unimelb.edu.au/teams/the-hon-lisa-singh/",
+      "https://www.sbs.com.au/language/english/former-senator-lisa-singh-becomes-first-female-director-of-australia-india-institute",
+      "https://www.unimelb.edu.au/newsroom/news/2021/august/lisa-singh-to-lead-the-australia-india-institute-at-the-university-of-melbourne"
+    ],
+    "start_date": "2021-09-08",
+    "pollie_slug": "lisa-singh"
+  },
+  {
+    "role": "Advisory Committee Member",
+    "organisation": "Australian Human Rights Institute, University of New South Wales",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.internationalaffairs.org.au/aiia-team/the-honourable-lisa-singh/",
+      "https://www.insightgroup.com.au/clients/hon-lisa-singh/"
+    ],
+    "start_date": "2021-01-01",
+    "end_date": "2024-12-31",
+    "pollie_slug": "lisa-singh"
+  },
+  {
+    "role": "Advisory Board Member",
+    "organisation": "Asialink, University of Melbourne",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.internationalaffairs.org.au/aiia-team/the-honourable-lisa-singh/",
+      "https://aii.unimelb.edu.au/teams/the-hon-lisa-singh/"
+    ],
+    "pollie_slug": "lisa-singh"
+  },
+  {
+    "role": "Director",
+    "organisation": "Beyond Blue",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.beyondblue.org.au/about/media/media-releases/new-directors-join-beyond-blue",
+      "https://www.theindiansun.com.au/2023/11/01/australia-india-institute-ceo-lisa-singh-joins-beyond-blue-board/",
+      "https://www.beyondblue.org.au/about/board-of-directors"
+    ],
+    "start_date": "2023-09-01",
+    "pollie_slug": "lisa-singh"
+  },
+  {
+    "role": "Founding Barrister",
+    "organisation": "Michael Kirby Chambers",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Duncan_Kerr",
+      "http://www.michaelkirbychambers.com/opening-of-chambers/"
+    ],
+    "start_date": "2010",
+    "end_date": "2012",
+    "pollie_slug": "duncan-kerr"
+  },
+  {
+    "role": "Judge",
+    "organisation": "Federal Court of Australia",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Duncan_Kerr",
+      "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=RH4",
+      "https://www.lawyersweekly.com.au/newlaw/9946-former-blakes-partner-appointed-to-federal-court"
+    ],
+    "start_date": "2012-05-10",
+    "end_date": "2022-02-25",
+    "pollie_slug": "duncan-kerr"
+  },
+  {
+    "role": "President",
+    "organisation": "Administrative Appeals Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Duncan_Kerr",
+      "https://www8.austlii.edu.au/cgi-bin/viewdoc/au/journals/FedJSchol/2012/22.html"
+    ],
+    "start_date": "2012",
+    "end_date": "2017",
+    "pollie_slug": "duncan-kerr"
+  },
+  {
+    "role": "Adjunct Professor of Law",
+    "organisation": "Queensland University of Technology",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=RH4",
+      "https://coatconference.com.au/speaker/the-hon-justice-duncan-kerr-chev-lh"
+    ],
+    "start_date": "2007",
+    "pollie_slug": "duncan-kerr"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Council of Australasian Tribunals",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Duncan_Kerr",
+      "https://coatconference.com.au/speaker/the-hon-justice-duncan-kerr-chev-lh"
+    ],
+    "start_date": "2014",
+    "end_date": "2017",
+    "pollie_slug": "duncan-kerr"
+  },
+  {
+    "role": "Arbitrator",
+    "organisation": "International Centre for Settlement of Investment Disputes",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.italaw.com/arbitrator/duncan-kerr",
+      "https://www.italaw.com/cases/2770"
+    ],
+    "start_date": "2015",
+    "end_date": "2015",
+    "pollie_slug": "duncan-kerr"
+  },
+  {
+    "role": "President",
+    "organisation": "Greening Australia Ltd",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://coatconference.com.au/speaker/the-hon-justice-duncan-kerr-chev-lh"
+    ],
+    "pollie_slug": "duncan-kerr"
+  },
+  {
+    "role": "Chair, National Appeals and Reviews Panel",
+    "organisation": "Australian Catholic Safeguarding Ltd",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.acsltd.org.au/chairperson-the-honourable-duncan-kerr-national-appeals-and-reviews-panel/"
+    ],
+    "pollie_slug": "duncan-kerr"
+  },
+  {
+    "role": "Reviewer, Office of the Inspector-General of the Australian Defence Force",
+    "organisation": "Australian Government Department of Defence",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.igadf.gov.au/igadf-twenty-year-review",
+      "https://michaelwest.com.au/secret-report-not-so-secret-anymore-inspector-generals-adf-report-emerges/"
+    ],
+    "start_date": "2023-08",
+    "end_date": "2024-03",
+    "pollie_slug": "duncan-kerr"
+  },
+  {
+    "role": "First Vice Chairman",
+    "organisation": "Abbeyfield Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.abbeyfield.org.au/board-of-directors"
+    ],
+    "pollie_slug": "david-hawker"
+  },
+  {
+    "role": "Chair of Committee of Governors",
+    "organisation": "Heart Morass Wetlands",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://adb.anu.edu.au/biography/hawker-david-peter-28208"
+    ],
+    "pollie_slug": "david-hawker"
+  },
+  {
+    "role": "Chair",
+    "organisation": "VicRoads Motorcycle Expert Advisory Panel",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://adb.anu.edu.au/biography/hawker-david-peter-28208"
+    ],
+    "pollie_slug": "david-hawker"
+  },
+  {
+    "role": "Committee Member",
+    "organisation": "Warrnambool Base Hospital Fundraising Committee",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://adb.anu.edu.au/biography/hawker-david-peter-28208"
+    ],
+    "pollie_slug": "david-hawker"
+  },
+  {
+    "role": "Member",
+    "organisation": "Administrative Appeals Tribunal",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.linkedin.com/in/senatormarkbishop/",
+      "https://www.zoominfo.com/p/Mark-Bishop/630737697",
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22media/pressrel/5363085%22",
+      "https://www.miragenews.com/appointments-to-administrative-appeals-tribunal-757384/"
+    ],
+    "pollie_slug": "mark-bishop"
+  },
+  {
+    "role": "Senior Member",
+    "organisation": "Administrative Appeals Tribunal",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.linkedin.com/in/senatormarkbishop/",
+      "https://www.zoominfo.com/p/Mark-Bishop/630737697",
+      "https://www.miragenews.com/appointments-to-administrative-appeals-tribunal-757384/",
+      "https://www.nationaltribune.com.au/appointments-to-administrative-appeals-tribunal-4-april/"
+    ],
+    "start_date": "2022-04-04",
+    "pollie_slug": "mark-bishop"
+  },
+  {
+    "role": "General Manager",
+    "organisation": "Handle Property Group",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.zoominfo.com/p/Mark-Bishop/630737697"
+    ],
+    "pollie_slug": "mark-bishop"
+  },
+  {
+    "role": "Business Development Executive",
+    "organisation": "Telstra Corporation",
+    "category": "Telecommunications & Network Infrastructure",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Pearce_(politician)",
+      "https://www.industrymoves.com/moves/chris-pearce-joins-the-board-of-vfmc"
+    ],
+    "start_date": "2010",
+    "pollie_slug": "chris-pearce"
+  },
+  {
+    "role": "Executive Director, Government and Not for Profit",
+    "organisation": "Telstra Corporation",
+    "category": "Telecommunications & Network Infrastructure",
+    "sources": [
+      "https://www.anglicarevic.org.au/news/anglicare-victoria-appoints-new-chairman/",
+      "https://www.industrymoves.com/moves/chris-pearce-joins-the-board-of-vfmc"
+    ],
+    "start_date": "2010",
+    "end_date": "2016",
+    "pollie_slug": "chris-pearce"
+  },
+  {
+    "role": "Director",
+    "organisation": "Anglicare Victoria",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.anglicarevic.org.au/news/anglicare-victoria-appoints-new-chairman/"
+    ],
+    "start_date": "2009",
+    "end_date": "2022",
+    "pollie_slug": "chris-pearce"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Anglicare Victoria",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.anglicarevic.org.au/news/anglicare-victoria-appoints-new-chairman/",
+      "https://en.wikipedia.org/wiki/Chris_Pearce_(politician)"
+    ],
+    "start_date": "2016",
+    "pollie_slug": "chris-pearce"
+  },
+  {
+    "role": "Director",
+    "organisation": "Victorian Funds Management Corporation",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.industrymoves.com/moves/chris-pearce-joins-the-board-of-vfmc",
+      "https://www.anglicarevic.org.au/news/anglicare-victoria-appoints-new-chairman/"
+    ],
+    "end_date": "2016",
+    "pollie_slug": "chris-pearce"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Global Voices",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.anglicarevic.org.au/news/anglicare-victoria-appoints-new-chairman/",
+      "https://rocketreach.co/chris-pearce-email_16865835"
+    ],
+    "start_date": "2015",
+    "end_date": "2016",
+    "pollie_slug": "chris-pearce"
+  },
+  {
+    "role": "Managing Partner",
+    "organisation": "NGS Global",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://huntscanlon.com/recruiter/chris-pearce/",
+      "https://www.ngs-global.com/index.php/recent-news/28-news/2017-press-releases-2/633-ngs-global-s-new-partner-strengthens-financial-services-practive"
+    ],
+    "start_date": "2018",
+    "end_date": "2020",
+    "pollie_slug": "chris-pearce"
+  },
+  {
+    "role": "Adjunct Professor",
+    "organisation": "Deakin University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.deakin.edu.au/about-deakin/news-and-media-releases/articles/deakin-mba-appoints-outstanding-business-leaders-to-adjunct-professor-roles",
+      "https://en.wikipedia.org/wiki/Chris_Pearce_(politician)"
+    ],
+    "start_date": "2019",
+    "pollie_slug": "chris-pearce"
+  },
+  {
+    "role": "Managing Partner",
+    "organisation": "DB Results",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://dbresults.com.au/news/db-results-continues-to-grow-with-the-appointment-of-chris-pearce-as-managing-partner/",
+      "https://dbresultsthailand.com/people/chris-pearce/"
+    ],
+    "start_date": "2021",
+    "end_date": "2023",
+    "pollie_slug": "chris-pearce"
+  },
+  {
+    "role": "Chief Operating Officer",
+    "organisation": "DB Results",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://au.linkedin.com/in/chris-pearce-212a7115",
+      "https://dbresultsthailand.com/people/chris-pearce/"
+    ],
+    "start_date": "2020",
+    "end_date": "2023",
+    "pollie_slug": "chris-pearce"
+  },
+  {
+    "role": "Deputy Chair and Non-Executive Director",
+    "organisation": "St Vincent's Institute of Medical Research",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.svi.edu.au/about/our-people/svi-board/",
+      "https://huntscanlon.com/recruiter/chris-pearce/"
+    ],
+    "pollie_slug": "chris-pearce"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Creative Partnerships Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.creativepartnershipsaustralia.org.au/about-us/staff-and-board/",
+      "https://huntscanlon.com/recruiter/chris-pearce/"
+    ],
+    "pollie_slug": "chris-pearce"
+  },
+  {
+    "role": "Director",
+    "organisation": "McKinnon Institute",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.svi.edu.au/about/our-people/svi-board/",
+      "https://rocketreach.co/chris-pearce-email_16865835"
+    ],
+    "pollie_slug": "chris-pearce"
+  },
+  {
+    "role": "External Representative, Learning, Engagement and Innovation Board Committee",
+    "organisation": "Melbourne Symphony Orchestra",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://huntscanlon.com/recruiter/chris-pearce/",
+      "https://www.svi.edu.au/about/our-people/svi-board/"
+    ],
+    "pollie_slug": "chris-pearce"
+  },
+  {
+    "role": "Director",
+    "organisation": "Renewtek Pty Ltd",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://www.svi.edu.au/about/our-people/svi-board/"
+    ],
+    "pollie_slug": "chris-pearce"
+  },
+  {
+    "role": "Managing Director",
+    "organisation": "Pearce Advisory",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://rocketreach.co/chris-pearce-email_16865835",
+      "https://www.monash.edu/alumni/alumni-events/graduation/speaker-profiles/may-2024/adjunct-professor-the-honourable-chris-pearce"
+    ],
+    "start_date": "2023",
+    "pollie_slug": "chris-pearce"
   }
 ]
