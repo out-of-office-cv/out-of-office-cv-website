@@ -30514,5 +30514,103 @@
       "https://www.openaustralia.org.au/senate/?id=2020-02-05.120.2"
     ],
     "start_date": "2018-01-01"
+  },
+  {
+    "role": "Senior Legal Counsel",
+    "organisation": "AdventBalance",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.zoominfo.com/p/Laura-Smyth/-1625126364",
+      "https://www.linkedin.com/in/laura-smyth-aa91b620/"
+    ],
+    "pollie_slug": "laura-smyth"
+  },
+  {
+    "role": "Senior Executive Lawyer and Melbourne, Adelaide and Perth Commercial Team Leader",
+    "organisation": "Australian Government Solicitor",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.ags.gov.au/publications/news/commercial-senior-executive-lawyer-promotions",
+      "https://www.zoominfo.com/p/Laura-Smyth/-1625126364",
+      "https://www.linkedin.com/in/laura-smyth-aa91b620/"
+    ],
+    "pollie_slug": "laura-smyth",
+    "start_date": "2024-03-28"
+  },
+  {
+    "role": "Workplace Relations Advisor",
+    "organisation": "Printing Industries Association of Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.sbs.com.au/news/the-feed/bipolar-disorder-breakdown-in-the-australian-senate",
+      "https://www.linkedin.com/in/mary-jo-fisher-3b1b99127/"
+    ],
+    "pollie_slug": "mary-fisher"
+  },
+  {
+    "role": "Ambassador",
+    "organisation": "Beyond Blue",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.sbs.com.au/news/the-feed/bipolar-disorder-breakdown-in-the-australian-senate"
+    ],
+    "pollie_slug": "mary-fisher"
+  },
+  {
+    "role": "Managing Director",
+    "organisation": "Zammit Sales, Marketing and Management Pty Ltd",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=1979",
+      "http://www.ghpackaging.com.au/files/sales_teams_paul.htm"
+    ],
+    "pollie_slug": "paul-zammit",
+    "start_date": "1998-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "APIC Holdings Ltd",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=1979"
+    ],
+    "pollie_slug": "paul-zammit"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Asia Pacific Fund",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=1979"
+    ],
+    "pollie_slug": "paul-zammit"
+  },
+  {
+    "role": "Director",
+    "organisation": "Sydney Metropolitan Water Catchment Authority",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "http://www.ghpackaging.com.au/files/sales_teams_paul.htm"
+    ],
+    "pollie_slug": "paul-zammit"
+  },
+  {
+    "role": "Sales and Marketing Director",
+    "organisation": "GH Packaging",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "http://www.ghpackaging.com.au/files/sales_teams_paul.htm"
+    ],
+    "pollie_slug": "paul-zammit"
+  },
+  {
+    "role": "Managing Director",
+    "organisation": "Zammit Promotional Products",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://au.linkedin.com/in/paul-zammit-57738317",
+      "https://www.zoominfo.com/p/Paul-Zammit/2229781264"
+    ],
+    "pollie_slug": "paul-zammit"
   }
 ]
