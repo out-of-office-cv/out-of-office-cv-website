@@ -23968,10 +23968,15 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://biography.senate.gov.au/giles-patricia-jessie/",
-      "https://en.wikipedia.org/wiki/Patricia_Giles"
+      "https://en.wikipedia.org/wiki/Patricia_Giles",
+      "https://www.womenaustralia.info/entries/giles-patricia-jessie-pat/"
     ],
-    "start_date": "1993",
-    "end_date": "1996"
+    "start_date": "1995",
+    "end_date": "1996",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "patricia-giles",
@@ -23979,10 +23984,15 @@
     "organisation": "Women's Health Care House",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://biography.senate.gov.au/giles-patricia-jessie/"
+      "https://biography.senate.gov.au/giles-patricia-jessie/",
+      "https://www.womenaustralia.info/entries/giles-patricia-jessie-pat/"
     ],
     "start_date": "1993",
-    "end_date": "1999"
+    "end_date": "1999",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "patricia-giles",
@@ -23990,10 +24000,15 @@
     "organisation": "Centre for Research for Women",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://biography.senate.gov.au/giles-patricia-jessie/"
+      "https://biography.senate.gov.au/giles-patricia-jessie/",
+      "https://www.womenaustralia.info/entries/giles-patricia-jessie-pat/"
     ],
     "start_date": "1993",
-    "end_date": "2006"
+    "end_date": "2006",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "patricia-giles",
@@ -24003,10 +24018,15 @@
     "sources": [
       "https://biography.senate.gov.au/giles-patricia-jessie/",
       "https://en.wikipedia.org/wiki/Patricia_Giles",
-      "https://iawmelbourne.wordpress.com/2012/08/07/patricia-jessie-giles/"
+      "https://iawmelbourne.wordpress.com/2012/08/07/patricia-jessie-giles/",
+      "https://www.womenaustralia.info/entries/giles-patricia-jessie-pat/"
     ],
     "start_date": "1996",
-    "end_date": "2004"
+    "end_date": "2004",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "douglas-mcclelland",
@@ -24255,7 +24275,11 @@
       "https://milkeninstitute.org/people/3088",
       "https://milkeninstitute.org/experts/steven-ciobo"
     ],
-    "start_date": "2019-07-25"
+    "start_date": "2019-07-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "steven-ciobo",
@@ -24268,7 +24292,11 @@
       "https://en.wikipedia.org/wiki/Steven_Ciobo",
       "https://theorg.com/org/stonepeak-infrastructure-partners/org-chart/steven-ciobo"
     ],
-    "start_date": "2020-01-01"
+    "start_date": "2020-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "steven-ciobo",
@@ -24278,8 +24306,13 @@
     "sources": [
       "https://www.globsec.org/who-we-are/our-people/steven-ciobo",
       "https://www.stevenciobo.com/",
-      "https://www.linkedin.com/in/the-hon-steven-ciobo-3553489/"
-    ]
+      "https://www.linkedin.com/in/the-hon-steven-ciobo-3553489/",
+      "https://www.globsec.org/who-we-are/international-advisory-council"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "steven-ciobo",
@@ -29831,10 +29864,14 @@
     "organisation": "Cooperative Research Centre for Contamination Assessment and Remediation of the Environment",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://crccare.com/board-of-directors/",
       "https://crccare.com/australian-scientist-to-head-bid-to-clean-up-the-worlds-soils/"
     ],
-    "pollie_slug": "sean-edwards"
+    "pollie_slug": "sean-edwards",
+    "start_date": "2022-05-29",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -29844,7 +29881,11 @@
       "https://au.linkedin.com/in/sean-edwards-63720a44",
       "https://kirrihill.com.au/"
     ],
-    "pollie_slug": "sean-edwards"
+    "pollie_slug": "sean-edwards",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -30190,11 +30231,16 @@
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://www.awm.gov.au/media/press-releases/jocelynnewman",
-      "https://biography.senate.gov.au/newman-jocelyn-margaret/"
+      "https://biography.senate.gov.au/newman-jocelyn-margaret/",
+      "https://oa.anu.edu.au/lifesummary/newman-jocelyn-27687"
     ],
     "pollie_slug": "jocelyn-newman",
     "start_date": "2002",
-    "end_date": "2009"
+    "end_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -30204,7 +30250,11 @@
       "https://biography.senate.gov.au/newman-jocelyn-margaret/",
       "https://oa.anu.edu.au/obituary/newman-jocelyn-27687"
     ],
-    "pollie_slug": "jocelyn-newman"
+    "pollie_slug": "jocelyn-newman",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -30214,7 +30264,11 @@
       "https://biography.senate.gov.au/newman-jocelyn-margaret/",
       "https://oa.anu.edu.au/obituary/newman-jocelyn-27687"
     ],
-    "pollie_slug": "jocelyn-newman"
+    "pollie_slug": "jocelyn-newman",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -30226,7 +30280,11 @@
     ],
     "pollie_slug": "jocelyn-newman",
     "start_date": "2004",
-    "end_date": "2007"
+    "end_date": "2007",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Council Member",
@@ -30236,7 +30294,11 @@
       "https://biography.senate.gov.au/newman-jocelyn-margaret/",
       "https://oa.anu.edu.au/obituary/newman-jocelyn-27687"
     ],
-    "pollie_slug": "jocelyn-newman"
+    "pollie_slug": "jocelyn-newman",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -30245,7 +30307,11 @@
     "sources": [
       "https://biography.senate.gov.au/newman-jocelyn-margaret/"
     ],
-    "pollie_slug": "jocelyn-newman"
+    "pollie_slug": "jocelyn-newman",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -30254,6 +30320,10 @@
     "sources": [
       "https://biography.senate.gov.au/newman-jocelyn-margaret/"
     ],
-    "pollie_slug": "jocelyn-newman"
+    "pollie_slug": "jocelyn-newman",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
