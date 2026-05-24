@@ -160,16 +160,24 @@
   "bernard-kilgariff|Foundation Chair|Northern Territory Young Men's Christian Association (Southern Region)|null": "2026-05-19T08:05:54Z",
   "bernard-kilgariff|Foundation President|Alice Springs Art Foundation|null": "2026-05-19T08:05:54Z",
   "bernard-kilgariff|Pastoral Station Owner|Erldunda Station|1987-01-01": "2026-05-19T08:05:54Z",
-  "bernie-ripoll|Chair|Map My Plan|null": "2026-05-17T14:03:48.808Z",
+  "bernie-ripoll|Chair|Map My Plan|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
   "bernie-ripoll|Chair|Otivo|null": "2026-05-17T14:03:48.808Z",
-  "bernie-ripoll|Director|BBL Group|null": "2026-05-17T14:03:48.808Z",
-  "bernie-ripoll|Director|Inala Primary Care|null": "2026-05-17T14:03:48.808Z",
+  "bernie-ripoll|Director|BBL Group|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "bernie-ripoll|Director|Inala Primary Care|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
   "bernie-ripoll|Director|Map My Plan|2016-06-01": "2026-05-17T14:03:48.808Z",
   "bernie-ripoll|Director|SMSF Association|2019-04-23": "2026-05-17T14:03:48.808Z",
   "bernie-ripoll|Executive Chair|Utilitas Group|null": "2026-05-17T14:03:48.808Z",
   "bernie-ripoll|Non-Executive Director|Allianz Retire+|2018-06-27": "2026-05-17T14:03:48.808Z",
   "bernie-ripoll|Non-Executive Director|AustChina Holdings Limited|null": "2026-05-17T14:03:48.808Z",
-  "bernie-ripoll|Non-Executive Director|Crohn's and Colitis Australia|null": "2026-05-17T14:03:48.808Z",
+  "bernie-ripoll|Non-Executive Director|Crohn's and Colitis Australia|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
   "bernie-ripoll|Non-Executive Director|Financial and Energy Exchange Global|null": "2026-05-17T14:03:48.808Z",
   "bernie-ripoll|Non-Executive Director|Otivo|2023-03-06": "2026-05-17T14:03:48.808Z",
   "bernie-ripoll|Strategic Advisor|SAS Group|null": "2026-05-17T14:03:48.808Z",
@@ -440,13 +448,23 @@
   "fiona-nash|Interim Commissioner|Australian Tertiary Education Commission|2026-01-19": "2026-05-10T02:10:32.931Z",
   "fiona-nash|Regional Education Commissioner|Australian Government|2021-12-01": "2026-05-10T02:10:32.931Z",
   "fiona-nash|Strategic Adviser, Regional Development|Charles Sturt University|2018-01-01": "2026-05-10T02:10:32.931Z",
-  "fiona-scott|Director of Policy|National Electrical and Communications Association NSW|null": "2026-05-18T00:00:00.000Z",
-  "fiona-scott|Director|National Film and Sound Archive of Australia|2017-01-01": "2026-05-18T00:00:00.000Z",
-  "fiona-scott|Director|Powering Skills Organisation|null": "2026-05-18T00:00:00.000Z",
+  "fiona-scott|Director of Policy|National Electrical and Communications Association NSW|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "fiona-scott|Director|National Film and Sound Archive of Australia|2017-01-01": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "fiona-scott|Director|Powering Skills Organisation|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
   "fiona-scott|Executive Director Federal Government|PremierNational|2017-01-01": "2026-05-18T00:00:00.000Z",
   "fiona-scott|Federal Vice President|Liberal Party of Australia|2024-06-01": "2026-05-18T00:00:00.000Z",
-  "fiona-scott|Founder and Chief Executive Officer|Castlereagh Honey|2019-01-01": "2026-05-18T00:00:00.000Z",
-  "fiona-scott|Managing Partner|Castlereagh Advisory|2016-01-01": "2026-05-18T00:00:00.000Z",
+  "fiona-scott|Founder and Chief Executive Officer|Castlereagh Honey|2019-01-01": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "fiona-scott|Managing Partner|Castlereagh Advisory|2016-01-01": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
   "fiona-scott|Political Commentator|Sky News Australia|2017-01-01": "2026-05-18T00:00:00.000Z",
   "frank-walker|Consultant|Asian low-cost housing project|1996-01-01": "2026-05-09T00:00:00.000Z",
   "frank-walker|Deputy President|New South Wales Mental Health Review Tribunal|null": "2026-05-09T00:00:00.000Z",
@@ -2255,5 +2273,35 @@
   },
   "vince-connelly|Director|Veterans Recovery and Restoration Centre|null": {
     "last_examined_at": "2026-05-24T08:16:17.023Z"
+  },
+  "paul-zammit|Managing Director|Zammit Sales, Marketing and Management Pty Ltd|1998-01-01": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "paul-zammit|Chair|APIC Holdings Ltd|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "paul-zammit|Chair|Asia Pacific Fund|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "paul-zammit|Director|Sydney Metropolitan Water Catchment Authority|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "paul-zammit|Sales and Marketing Director|GH Packaging|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "paul-zammit|Managing Director|Zammit Promotional Products|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "william-hayden|Governor-General|Commonwealth of Australia|1989-02-16": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "william-hayden|National Patron|Scout Association of Australia|1989-02-16": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "william-hayden|Editorial Advisory Board Chair|Quadrant|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "william-hayden|Author|Angus & Robertson|1996-01-01": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
   }
 }
