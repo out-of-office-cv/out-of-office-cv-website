@@ -30678,5 +30678,115 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Executive Director",
+    "organisation": "New South Wales Writers' Centre",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Irina_Dunn",
+      "https://biography.senate.gov.au/dunn-patricia-irene/",
+      "https://irinadunn.com.au/"
+    ],
+    "pollie_slug": "irina-dunn",
+    "start_date": "1992-12-01",
+    "end_date": "2008-01-01"
+  },
+  {
+    "role": "Co-founder",
+    "organisation": "Women Into Politics",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://biography.senate.gov.au/dunn-patricia-irene/",
+      "https://en.wikipedia.org/wiki/Irina_Dunn"
+    ],
+    "pollie_slug": "irina-dunn"
+  },
+  {
+    "role": "Senior Lecturer",
+    "organisation": "University of New England",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://irinadunn.com.au/"
+    ],
+    "pollie_slug": "irina-dunn"
+  },
+  {
+    "role": "Manager",
+    "organisation": "Australian Writers' Guild Authorship Collecting Society",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://irinadunn.com.au/",
+      "https://irinadunn.com.au/australian-writers-network"
+    ],
+    "pollie_slug": "irina-dunn"
+  },
+  {
+    "role": "Managing Editor",
+    "organisation": "Booktopia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://irinadunn.com.au/",
+      "https://irinadunn.com.au/australian-writers-network"
+    ],
+    "pollie_slug": "irina-dunn"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Writers' Network",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://irinadunn.com.au/",
+      "https://irinadunn.com.au/australian-writers-network"
+    ],
+    "pollie_slug": "irina-dunn"
+  },
+  {
+    "role": "Arts Critic",
+    "organisation": "City Hub",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://cityhub.com.au/author/irina/",
+      "https://cityhub.com.au/don-giovanni-review/",
+      "https://cityhub.com.au/review-stc-presents-blithe-spirit-at-sydney-opera-house/"
+    ],
+    "pollie_slug": "irina-dunn",
+    "start_date": "2017-07-20"
+  },
+  {
+    "role": "Economic Consultant",
+    "organisation": "Queensland Tourist and Travel Corporation",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kevin_Cairns_(politician)"
+    ],
+    "pollie_slug": "kevin-cairns"
+  },
+  {
+    "role": "Economic Consultant",
+    "organisation": "Mount Isa Mines",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kevin_Cairns_(politician)"
+    ],
+    "pollie_slug": "kevin-cairns"
+  },
+  {
+    "role": "Member",
+    "organisation": "Independent Air Fares Committee",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kevin_Cairns_(politician)"
+    ],
+    "pollie_slug": "kevin-cairns"
+  },
+  {
+    "role": "President",
+    "organisation": "Queensland Economic Society",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kevin_Cairns_(politician)"
+    ],
+    "pollie_slug": "kevin-cairns"
   }
 ]
