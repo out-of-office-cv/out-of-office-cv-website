@@ -21276,7 +21276,12 @@
     "sources": [
       "https://www.childabuseroyalcommission.gov.au/commissioner-andrew-murray"
     ],
-    "pollie_slug": "andrew-murray"
+    "pollie_slug": "andrew-murray",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Royal Commission biographical page lists this advisory panel membership among his post-Senate roles."
+    }
   },
   {
     "role": "Member",
@@ -21285,7 +21290,12 @@
     "sources": [
       "https://www.childabuseroyalcommission.gov.au/commissioner-andrew-murray"
     ],
-    "pollie_slug": "andrew-murray"
+    "pollie_slug": "andrew-murray",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Royal Commission biographical page confirms WA Transport Policy Advisory Group role after his Senate career ended in 2008."
+    }
   },
   {
     "role": "Member",
@@ -21294,7 +21304,12 @@
     "sources": [
       "https://www.childabuseroyalcommission.gov.au/commissioner-andrew-murray"
     ],
-    "pollie_slug": "andrew-murray"
+    "pollie_slug": "andrew-murray",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Royal Commission biographical page confirms WA Ministerial Roundtable on Affordable Housing membership."
+    }
   },
   {
     "role": "Expert Panel Member",
@@ -25204,10 +25219,16 @@
     "sources": [
       "https://northernmidlands.tas.gov.au/council/your-council/mayor-and-councillors",
       "https://www.examiner.com.au/story/5869753/understanding-the-struggle-of-adult-literacy/",
-      "https://www.maynereport.com/articles/2024/09/15-1438-3959.html"
+      "https://www.maynereport.com/articles/2024/09/15-1438-3959.html",
+      "https://www.parliament.tas.gov.au/resources/about-parliament/historyindex/members/adamsg623"
     ],
     "pollie_slug": "dick-adams",
-    "start_date": "2014-10-01"
+    "start_date": "2014-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Northern Midlands Council site and Mayne Report (2024) confirm election in 2014 and ongoing service."
+    }
   },
   {
     "role": "Board Member",
@@ -25216,7 +25237,12 @@
     "sources": [
       "https://www.examiner.com.au/story/5869753/understanding-the-struggle-of-adult-literacy/"
     ],
-    "pollie_slug": "dick-adams"
+    "pollie_slug": "dick-adams",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Examiner article confirms Dick Adams as a State Library of Tasmania board member."
+    }
   },
   {
     "role": "Patron",
@@ -25225,7 +25251,12 @@
     "sources": [
       "https://www.examiner.com.au/story/5869753/understanding-the-struggle-of-adult-literacy/"
     ],
-    "pollie_slug": "dick-adams"
+    "pollie_slug": "dick-adams",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Examiner article confirms Dick Adams serves as patron of the Adult Literacy Council."
+    }
   },
   {
     "role": "Judge",
@@ -27903,7 +27934,12 @@
     ],
     "pollie_slug": "dee-margetts",
     "start_date": "2001-05-22",
-    "end_date": "2005-05-21"
+    "end_date": "2005-05-21",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Official Parliament of Western Australia records confirm Legislative Council term 22 May 2001 to 26 February 2005."
+    }
   },
   {
     "role": "Master of Philosophy Researcher",
@@ -27912,11 +27948,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Dee_Margetts",
       "https://biography.senate.gov.au/margetts-diane-elizabeth/",
-      "https://greens.org.au/wa/person/dee-margetts"
+      "https://greens.org.au/wa/person/dee-margetts",
+      "https://www.womenaustralia.info/entries/margetts-diane-dee-elizabeth/"
     ],
     "pollie_slug": "dee-margetts",
     "start_date": "1999-07-01",
-    "end_date": "2001-01-01"
+    "end_date": "2001-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources confirm MPhil at Murdoch University from July 1999, completed by 2001."
+    }
   },
   {
     "role": "PhD Researcher",
@@ -27925,11 +27967,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Dee_Margetts",
       "https://biography.senate.gov.au/margetts-diane-elizabeth/",
-      "https://greens.org.au/wa/person/dee-margetts-0"
+      "https://greens.org.au/wa/person/dee-margetts-0",
+      "https://www.womenaustralia.info/entries/margetts-diane-dee-elizabeth/"
     ],
     "pollie_slug": "dee-margetts",
     "start_date": "2006-01-01",
-    "end_date": "2012-01-01"
+    "end_date": "2013-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UWA PhD on National Competition Policy commenced 2006; Greens WA bio indicates PhD awarded 2013."
+    }
   },
   {
     "role": "President",
@@ -30690,7 +30738,12 @@
     ],
     "pollie_slug": "irina-dunn",
     "start_date": "1992-12-01",
-    "end_date": "2008-01-01"
+    "end_date": "2008-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia, Senate biography, and irinadunn.com.au confirm she was executive director of NSW Writers' Centre from December 1992 to 2008."
+    }
   },
   {
     "role": "Co-founder",
@@ -30700,7 +30753,12 @@
       "https://biography.senate.gov.au/dunn-patricia-irene/",
       "https://en.wikipedia.org/wiki/Irina_Dunn"
     ],
-    "pollie_slug": "irina-dunn"
+    "pollie_slug": "irina-dunn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography and Wikipedia confirm she helped establish Women Into Politics."
+    }
   },
   {
     "role": "Senior Lecturer",
@@ -30709,7 +30767,12 @@
     "sources": [
       "https://irinadunn.com.au/"
     ],
-    "pollie_slug": "irina-dunn"
+    "pollie_slug": "irina-dunn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "irinadunn.com.au lists senior lecturer role at University of New England."
+    }
   },
   {
     "role": "Manager",
@@ -30719,7 +30782,12 @@
       "https://irinadunn.com.au/",
       "https://irinadunn.com.au/australian-writers-network"
     ],
-    "pollie_slug": "irina-dunn"
+    "pollie_slug": "irina-dunn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources confirm she managed the Australian Writers' Guild Authorship Collecting Society."
+    }
   },
   {
     "role": "Managing Editor",
@@ -30729,7 +30797,12 @@
       "https://irinadunn.com.au/",
       "https://irinadunn.com.au/australian-writers-network"
     ],
-    "pollie_slug": "irina-dunn"
+    "pollie_slug": "irina-dunn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "irinadunn.com.au confirms she served as Managing Editor at Booktopia."
+    }
   },
   {
     "role": "Director",
@@ -30739,7 +30812,12 @@
       "https://irinadunn.com.au/",
       "https://irinadunn.com.au/australian-writers-network"
     ],
-    "pollie_slug": "irina-dunn"
+    "pollie_slug": "irina-dunn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "irinadunn.com.au states she is Director of the Australian Writers' Network."
+    }
   },
   {
     "role": "Arts Critic",
@@ -30751,7 +30829,12 @@
       "https://cityhub.com.au/review-stc-presents-blithe-spirit-at-sydney-opera-house/"
     ],
     "pollie_slug": "irina-dunn",
-    "start_date": "2017-07-20"
+    "start_date": "2017-07-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "City Hub archive confirms Irina Dunn has authored reviews including Don Giovanni and Blithe Spirit."
+    }
   },
   {
     "role": "Economic Consultant",
@@ -30760,7 +30843,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Kevin_Cairns_(politician)"
     ],
-    "pollie_slug": "kevin-cairns"
+    "pollie_slug": "kevin-cairns",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Kevin Cairns worked as an economic consultant for the Queensland Tourist and Travel Corporation after leaving parliament in 1980."
+    }
   },
   {
     "role": "Economic Consultant",
@@ -30769,7 +30857,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Kevin_Cairns_(politician)"
     ],
-    "pollie_slug": "kevin-cairns"
+    "pollie_slug": "kevin-cairns",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Kevin Cairns worked as an economic consultant for Mount Isa Mines after 1980."
+    }
   },
   {
     "role": "Member",
@@ -30778,7 +30871,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Kevin_Cairns_(politician)"
     ],
-    "pollie_slug": "kevin-cairns"
+    "pollie_slug": "kevin-cairns",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Kevin Cairns was a member of the Independent Air Fares Committee."
+    }
   },
   {
     "role": "President",
@@ -30787,6 +30885,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Kevin_Cairns_(politician)"
     ],
-    "pollie_slug": "kevin-cairns"
+    "pollie_slug": "kevin-cairns",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Kevin Cairns became President of the Queensland Economic Society."
+    }
   }
 ]

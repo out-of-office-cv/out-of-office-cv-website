@@ -65,9 +65,15 @@
   "andrew-murray|Chair|Western Australian Regional Development Trust|2010-07-01": "2026-05-16T02:04:22.835Z",
   "andrew-murray|Commissioner|Royal Commission into Institutional Responses to Child Sexual Abuse|2013-01-11": "2026-05-16T02:04:22.835Z",
   "andrew-murray|Expert Panel Member|Parliamentary Budget Office|null": "2026-05-16T02:04:22.835Z",
-  "andrew-murray|Member|Commonwealth Northern Australia Expert Advisory Panel|null": "2026-05-16T02:04:22.835Z",
-  "andrew-murray|Member|Western Australian Ministerial Roundtable on Affordable Housing|null": "2026-05-16T02:04:22.835Z",
-  "andrew-murray|Member|Western Australian Transport Policy Advisory Group|null": "2026-05-16T02:04:22.835Z",
+  "andrew-murray|Member|Commonwealth Northern Australia Expert Advisory Panel|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "andrew-murray|Member|Western Australian Ministerial Roundtable on Affordable Housing|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "andrew-murray|Member|Western Australian Transport Policy Advisory Group|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
   "andrew-murray|Patron|Care Leavers Australasia Network|null": "2026-05-16T02:04:22.835Z",
   "andrew-peacock|Ambassador to the United States|Australian Department of Foreign Affairs and Trade|1997-02-02": "2026-05-18T00:00:00.000Z",
   "andrew-peacock|Board Member|Lyndon B. Johnson School of Public Affairs, University of Texas at Austin|null": "2026-05-18T00:00:00.000Z",
@@ -2302,6 +2308,57 @@
     "last_examined_at": "2026-05-25T00:00:00.000Z"
   },
   "william-hayden|Author|Angus & Robertson|1996-01-01": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "irina-dunn|Executive Director|New South Wales Writers' Centre|1992-12-01": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "irina-dunn|Co-founder|Women Into Politics|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "irina-dunn|Senior Lecturer|University of New England|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "irina-dunn|Manager|Australian Writers' Guild Authorship Collecting Society|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "irina-dunn|Managing Editor|Booktopia|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "irina-dunn|Director|Australian Writers' Network|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "irina-dunn|Arts Critic|City Hub|2017-07-20": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "kevin-cairns|Economic Consultant|Queensland Tourist and Travel Corporation|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "kevin-cairns|Economic Consultant|Mount Isa Mines|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "kevin-cairns|Member|Independent Air Fares Committee|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "kevin-cairns|President|Queensland Economic Society|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "dee-margetts|Member of the Legislative Council|Parliament of Western Australia|2001-05-22": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "dee-margetts|Master of Philosophy Researcher|Murdoch University|1999-07-01": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "dee-margetts|PhD Researcher|University of Western Australia|2006-01-01": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "dick-adams|Councillor|Northern Midlands Council|2014-10-01": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "dick-adams|Board Member|State Library of Tasmania|null": {
+    "last_examined_at": "2026-05-25T00:00:00.000Z"
+  },
+  "dick-adams|Patron|Adult Literacy Council|null": {
     "last_examined_at": "2026-05-25T00:00:00.000Z"
   }
 }
