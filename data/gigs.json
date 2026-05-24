@@ -23709,7 +23709,6 @@
     "category": "Media, Communications & Public Relations",
     "sources": [
       "https://rocketreach.co/fiona-scott-email_813212773",
-      "https://castlereaghadvisory.com.au/",
       "https://au.linkedin.com/in/fionascott2750"
     ],
     "start_date": "2016-01-01"
@@ -23737,10 +23736,16 @@
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://www.nfsa.gov.au/annual-report-2016-17/governance-and-legislation",
-      "https://www.nfsa.gov.au/sites/default/files/10-2018/nfsa_annual_report_2017-18.pdf"
+      "https://www.nfsa.gov.au/sites/default/files/10-2018/nfsa_annual_report_2017-18.pdf",
+      "https://www.nfsa.gov.au/about/corporate-information/publications/annual-reports/annual-report-2017-18/about-us",
+      "https://www.nfsa.gov.au/about/corporate-information/publications/annual-reports"
     ],
     "start_date": "2017-01-01",
-    "end_date": "2021-12-31"
+    "end_date": "2021-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "fiona-scott",
@@ -23767,7 +23772,11 @@
     "sources": [
       "https://poweringskills.com.au/about-us/who-we-are/",
       "https://rocketreach.co/fiona-scott-email_813212773"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "fiona-scott",
@@ -24112,8 +24121,15 @@
     "category": "Technology (Software, IT & Digital Services)",
     "sources": [
       "https://sasgroup.net.au/team/hon-bernie-ripoll/",
-      "https://www.saxton.com.au/speakers/bernie-ripoll"
-    ]
+      "https://www.saxton.com.au/speakers/bernie-ripoll",
+      "https://www.fintechbusiness.com/wealth/383-bernie-ripoll-joins-map-my-plan-board",
+      "https://www.investordaily.com.au/appointments/39437-bernie-ripoll-joins-map-my-plan-board",
+      "https://www.ifa.com.au/news/16238-fofa-politician-joins-map-my-plan-board"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "bernie-ripoll",
@@ -24237,7 +24253,11 @@
     "category": "Professional Services & Management Consulting",
     "sources": [
       "https://theorg.com/org/conexus-financial/org-chart/hon-bernie-ripoll"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "bernie-ripoll",
@@ -24247,7 +24267,11 @@
     "sources": [
       "http://inalaprimarycare.org.au/about-us/261-2/",
       "https://sasgroup.net.au/team/hon-bernie-ripoll/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "bernie-ripoll",
@@ -25497,7 +25521,11 @@
     ],
     "pollie_slug": "william-hayden",
     "start_date": "1989-02-16",
-    "end_date": "1996-02-16"
+    "end_date": "1996-02-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "National Patron",
@@ -25509,7 +25537,11 @@
     ],
     "pollie_slug": "william-hayden",
     "start_date": "1989-02-16",
-    "end_date": "1996-02-16"
+    "end_date": "1996-02-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Editorial Advisory Board Chair",
@@ -25519,7 +25551,11 @@
       "https://en.wikipedia.org/wiki/Bill_Hayden",
       "https://powerbase.info/index.php/Quadrant_(magazine)"
     ],
-    "pollie_slug": "william-hayden"
+    "pollie_slug": "william-hayden",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Author",
@@ -25532,7 +25568,11 @@
     ],
     "pollie_slug": "william-hayden",
     "start_date": "1996-01-01",
-    "end_date": "1996-12-31"
+    "end_date": "1996-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Columnist (Cassandra column)",
@@ -30562,28 +30602,44 @@
     "category": "Professional Services & Management Consulting",
     "sources": [
       "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=1979",
-      "http://www.ghpackaging.com.au/files/sales_teams_paul.htm"
+      "http://www.ghpackaging.com.au/files/sales_teams_paul.htm",
+      "https://en.wikipedia.org/wiki/Paul_Zammit",
+      "https://www.zammitpromotionalproducts.com.au/about-us/"
     ],
     "pollie_slug": "paul-zammit",
-    "start_date": "1998-01-01"
+    "start_date": "1998-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "APIC Holdings Ltd",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=1979"
+      "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=1979",
+      "https://en.wikipedia.org/wiki/Paul_Zammit"
     ],
-    "pollie_slug": "paul-zammit"
+    "pollie_slug": "paul-zammit",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Asia Pacific Fund",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=1979"
+      "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=1979",
+      "https://en.wikipedia.org/wiki/Paul_Zammit"
     ],
-    "pollie_slug": "paul-zammit"
+    "pollie_slug": "paul-zammit",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -30599,9 +30655,14 @@
     "organisation": "GH Packaging",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "http://www.ghpackaging.com.au/files/sales_teams_paul.htm"
+      "http://www.ghpackaging.com.au/files/sales_teams_paul.htm",
+      "https://en.wikipedia.org/wiki/Paul_Zammit"
     ],
-    "pollie_slug": "paul-zammit"
+    "pollie_slug": "paul-zammit",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Managing Director",
@@ -30609,8 +30670,13 @@
     "category": "Retail, Hospitality & Tourism",
     "sources": [
       "https://au.linkedin.com/in/paul-zammit-57738317",
-      "https://www.zoominfo.com/p/Paul-Zammit/2229781264"
+      "https://www.zammitpromotionalproducts.com.au/about-us/",
+      "https://en.wikipedia.org/wiki/Paul_Zammit"
     ],
-    "pollie_slug": "paul-zammit"
+    "pollie_slug": "paul-zammit",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
