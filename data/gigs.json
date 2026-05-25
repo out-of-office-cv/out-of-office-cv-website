@@ -31142,7 +31142,11 @@
       "https://www.industrymoves.com/moves/chris-pearce-joins-the-board-of-vfmc"
     ],
     "start_date": "2010",
-    "pollie_slug": "chris-pearce"
+    "pollie_slug": "chris-pearce",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Director, Government and Not for Profit",
@@ -31154,7 +31158,11 @@
     ],
     "start_date": "2010",
     "end_date": "2016",
-    "pollie_slug": "chris-pearce"
+    "pollie_slug": "chris-pearce",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -31176,7 +31184,11 @@
       "https://en.wikipedia.org/wiki/Chris_Pearce_(politician)"
     ],
     "start_date": "2016",
-    "pollie_slug": "chris-pearce"
+    "pollie_slug": "chris-pearce",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -31186,8 +31198,12 @@
       "https://www.industrymoves.com/moves/chris-pearce-joins-the-board-of-vfmc",
       "https://www.anglicarevic.org.au/news/anglicare-victoria-appoints-new-chairman/"
     ],
-    "end_date": "2016",
-    "pollie_slug": "chris-pearce"
+    "end_date": "2016-01",
+    "pollie_slug": "chris-pearce",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -31209,9 +31225,12 @@
       "https://huntscanlon.com/recruiter/chris-pearce/",
       "https://www.ngs-global.com/index.php/recent-news/28-news/2017-press-releases-2/633-ngs-global-s-new-partner-strengthens-financial-services-practive"
     ],
-    "start_date": "2018",
-    "end_date": "2020",
-    "pollie_slug": "chris-pearce"
+    "start_date": "2018-05",
+    "pollie_slug": "chris-pearce",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adjunct Professor",
@@ -31222,7 +31241,11 @@
       "https://en.wikipedia.org/wiki/Chris_Pearce_(politician)"
     ],
     "start_date": "2019",
-    "pollie_slug": "chris-pearce"
+    "pollie_slug": "chris-pearce",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Managing Partner",
@@ -31256,7 +31279,11 @@
       "https://www.svi.edu.au/about/our-people/svi-board/",
       "https://huntscanlon.com/recruiter/chris-pearce/"
     ],
-    "pollie_slug": "chris-pearce"
+    "pollie_slug": "chris-pearce",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -31266,7 +31293,11 @@
       "https://www.creativepartnershipsaustralia.org.au/about-us/staff-and-board/",
       "https://huntscanlon.com/recruiter/chris-pearce/"
     ],
-    "pollie_slug": "chris-pearce"
+    "pollie_slug": "chris-pearce",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -31276,7 +31307,12 @@
       "https://www.svi.edu.au/about/our-people/svi-board/",
       "https://rocketreach.co/chris-pearce-email_16865835"
     ],
-    "pollie_slug": "chris-pearce"
+    "pollie_slug": "chris-pearce",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Role title is incorrect. Sources consistently describe him as Non-Executive Director (not Director) of McKinnon Institute. The position title does not match the gig record."
+    }
   },
   {
     "role": "External Representative, Learning, Engagement and Innovation Board Committee",
@@ -31286,7 +31322,11 @@
       "https://huntscanlon.com/recruiter/chris-pearce/",
       "https://www.svi.edu.au/about/our-people/svi-board/"
     ],
-    "pollie_slug": "chris-pearce"
+    "pollie_slug": "chris-pearce",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -31306,6 +31346,10 @@
       "https://www.monash.edu/alumni/alumni-events/graduation/speaker-profiles/may-2024/adjunct-professor-the-honourable-chris-pearce"
     ],
     "start_date": "2023",
-    "pollie_slug": "chris-pearce"
+    "pollie_slug": "chris-pearce",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
