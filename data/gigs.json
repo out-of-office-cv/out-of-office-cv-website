@@ -31520,5 +31520,345 @@
       "https://en.wikipedia.org/wiki/Craig_Kelly"
     ],
     "start_date": "2024-12-02"
+  },
+  {
+    "role": "Solicitor",
+    "organisation": "Genders Wilson and Partners",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.openaustralia.org.au/senate/?id=2013-05-14.80.2",
+      "https://nla.gov.au/nla.obj-248898227/findingaid"
+    ],
+    "pollie_slug": "ian-wilson",
+    "start_date": "1993-02-08"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Adelaide Arcade",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.openaustralia.org.au/senate/?id=2013-05-14.80.2"
+    ],
+    "pollie_slug": "ian-wilson"
+  },
+  {
+    "role": "Chair",
+    "organisation": "May Gibbs Children's Literature Trust",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://childrensliteraturetrust.org/pages/our-history",
+      "https://childrensliteraturetrust.org/pages/ian-wilson-memorial-fellowship",
+      "https://www.openaustralia.org.au/senate/?id=2013-05-14.80.2"
+    ],
+    "pollie_slug": "ian-wilson",
+    "start_date": "1999-01-01",
+    "end_date": "2013-04-02"
+  },
+  {
+    "role": "Vice President",
+    "organisation": "South Australian Good Neighbour Council",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.openaustralia.org.au/senate/?id=2013-05-14.80.2"
+    ],
+    "pollie_slug": "ian-wilson"
+  },
+  {
+    "role": "Vice President",
+    "organisation": "British and Foreign Bible Society",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.openaustralia.org.au/senate/?id=2013-05-14.80.2"
+    ],
+    "pollie_slug": "ian-wilson"
+  },
+  {
+    "role": "Chair",
+    "organisation": "St Matthew's Home for the Aged",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.openaustralia.org.au/senate/?id=2013-05-14.80.2"
+    ],
+    "pollie_slug": "ian-wilson"
+  },
+  {
+    "role": "President",
+    "organisation": "Australian Birthright Movement",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.openaustralia.org.au/senate/?id=2013-05-14.80.2"
+    ],
+    "pollie_slug": "ian-wilson"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Fisheries Research and Development Corporation",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.frdc.com.au/fish-vol-23-4/new-directors-drive-new-direction-frdc",
+      "https://www.frdc.com.au/fish-vol-26-1/production-perceptions-improving",
+      "https://en.wikipedia.org/wiki/Harry_Woods_(Australian_politician)"
+    ],
+    "pollie_slug": "harry-woods",
+    "end_date": "2016-12-31"
+  },
+  {
+    "role": "Policy Reviewer",
+    "organisation": "Government of New South Wales",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Harry_Woods_(Australian_politician)"
+    ],
+    "pollie_slug": "harry-woods"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Industrea Limited",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.delisted.com.au/company/industrea-limited",
+      "https://www.australianmining.com.au/ge-acquires-industrea/",
+      "https://www.australianmining.com.au/ge-finalises-700-million-industrea-deal-in-a-move-to-expand-global-mining-network/",
+      "https://en.wikipedia.org/wiki/David_Beddall"
+    ],
+    "pollie_slug": "david-beddall",
+    "start_date": "1999-03-01",
+    "end_date": "2012-12-03"
+  },
+  {
+    "role": "Adviser",
+    "organisation": "Linfox Group",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "1999-01-01",
+    "end_date": "2001-12-31"
+  },
+  {
+    "role": "Founder",
+    "organisation": "Thenford Consulting",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
+      "https://futureflyingforum.com/speakers/the-hon-john-sharp-am"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "1999-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "John McEwen House",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "1999-01-01"
+  },
+  {
+    "role": "Honorary Federal Treasurer",
+    "organisation": "National Party of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
+      "https://www.goulburnpost.com.au/story/5458206/john-sharps-reward-for-a-life-of-public-service/"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "2000-01-01",
+    "end_date": "2017-12-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "Airbus Group Australia Pacific",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
+      "https://www.marketscreener.com/insider/JOHN-SHARP-A0EM17/"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "2001-01-01",
+    "end_date": "2015-06-30"
+  },
+  {
+    "role": "Director",
+    "organisation": "Eurocopter International Pacific",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "2001-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Aerospace",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)"
+    ],
+    "pollie_slug": "john-sharp"
+  },
+  {
+    "role": "Director",
+    "organisation": "Winifred West Schools Foundation",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
+      "https://www.southernhighlandnews.com.au/story/5458017/john-sharps-reward-for-a-life-of-public-service/"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "2002-01-01",
+    "end_date": "2009-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Aviation Safety Foundation of Australasia",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
+      "https://futureflyingforum.com/speakers/the-hon-john-sharp-am"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "2003-01-01",
+    "end_date": "2010-12-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "France-Australia Chamber of Commerce and Industry",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "2004-01-01",
+    "end_date": "2009-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Power and Data Corporation",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
+      "https://www.businessnews.com.au/Person/John-Sharp-0"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "2004-01-01",
+    "end_date": "2015-12-31"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Regional Express Holdings",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
+      "https://centreforaviation.com/analysis/video/regional-express-deputy-chairman-hon-john-sharp-live-in-studio-to-talk-new-routes-and-australias-domestic-market-1424",
+      "https://simpleflying.com/regional-express-rex-sydney-airport-slots/"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "2005-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Skytraders",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
+      "https://www.marketscreener.com/insider/JOHN-SHARP-A0EM17/"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "2005-01-01",
+    "end_date": "2013-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Parsons Brinckerhoff Advisory Board",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
+      "https://futureflyingforum.com/speakers/the-hon-john-sharp-am"
+    ],
+    "pollie_slug": "john-sharp",
+    "end_date": "2010-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Pel-Air Aviation",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
+      "https://australianaviation.com.au/2022/01/pel-air-begins-operations-for-nsw-air-ambulance/"
+    ],
+    "pollie_slug": "john-sharp"
+  },
+  {
+    "role": "Member",
+    "organisation": "Climate Change Authority",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
+      "https://reneweconomy.com.au/hunt-stacks-climate-change-authority-with-coalition-advisors-and-ex-mps-30963/amp/",
+      "https://www.climatechangeauthority.gov.au/news/climate-change-authority-thanks-departing-members-welcomes-new-members"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "2015-10-08",
+    "end_date": "2021-04-30"
+  },
+  {
+    "role": "Panel Member",
+    "organisation": "Northern Australia Transport Study",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "2016-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Luerssen Australia",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
+      "https://www.defenceconnect.com.au/maritime-antisub/780-opv-tenderer-building-up-its-australian-board",
+      "https://asiapacificdefencereporter.com/appointments-to-the-luerssen-australia-board/"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "2017-06-04"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Maritime Shipbuilding Export Group",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
+      "https://www.defenceconnect.com.au/maritime-antisub/780-opv-tenderer-building-up-its-australian-board"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "2018-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Foundation for Rural and Regional Renewal",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
+      "https://frrr.org.au/about-frrr/2019-2020-annual-review/"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "2019-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Bundanon Trust",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
+      "https://www.bundanon.com.au/wp-content/uploads/2024/02/Bundanon-Annual-Report-2022-2023-lo-res-1.pdf",
+      "https://minister.infrastructure.gov.au/burke/media-release/directors-appointed-bundanon-trust-board-0"
+    ],
+    "pollie_slug": "john-sharp",
+    "start_date": "2022-01-01"
   }
 ]
