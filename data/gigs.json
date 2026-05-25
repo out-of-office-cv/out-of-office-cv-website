@@ -31351,5 +31351,116 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "pollie_slug": "peter-sim",
+    "role": "President, Western Australian Branch",
+    "organisation": "Australian Institute of International Affairs",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Sim",
+      "https://biography.senate.gov.au/sim-john-peter/",
+      "https://www.openaustralia.org.au/senate/?id=2015-08-11.77.2"
+    ],
+    "start_date": "1982-01-01",
+    "end_date": "2003-12-31"
+  },
+  {
+    "pollie_slug": "peter-sim",
+    "role": "Member of Senate",
+    "organisation": "Murdoch University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Sim",
+      "https://biography.senate.gov.au/sim-john-peter/",
+      "https://www.openaustralia.org.au/senate/?id=2015-08-11.77.2"
+    ],
+    "start_date": "1982-01-01",
+    "end_date": "1991-12-31"
+  },
+  {
+    "pollie_slug": "peter-sim",
+    "role": "Board Member",
+    "organisation": "Asia Research Centre, Murdoch University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Sim",
+      "https://biography.senate.gov.au/sim-john-peter/",
+      "https://www.openaustralia.org.au/senate/?id=2015-08-11.77.2"
+    ],
+    "start_date": "1991-01-01",
+    "end_date": "1997-12-31"
+  },
+  {
+    "pollie_slug": "tim-storer",
+    "role": "Director",
+    "organisation": "Storer Asia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://aeroleads.com/in/tim-storer-aa86853",
+      "https://x.com/storertim",
+      "https://www.linkedin.com/in/tim-storer-aa86853/"
+    ],
+    "start_date": "2019-07-01"
+  },
+  {
+    "pollie_slug": "duncan-spender",
+    "role": "Chief Executive Officer",
+    "organisation": "Multicultural Council of Tasmania",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Duncan_Spender",
+      "https://mcot.org.au/abc-radio-interview/",
+      "https://www.zoominfo.com/p/Duncan-Spender/616103328"
+    ],
+    "start_date": "2019-11"
+  },
+  {
+    "pollie_slug": "duncan-spender",
+    "role": "Chief Executive Officer",
+    "organisation": "Oysters Tasmania",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.linkedin.com/in/duncanspender/",
+      "https://www.zoominfo.com/p/Duncan-Spender/616103328",
+      "https://www.canberratimes.com.au/story/8031076/the-battle-to-bring-oysters-to-xmas-tables/"
+    ]
+  },
+  {
+    "pollie_slug": "craig-kelly",
+    "role": "National Director",
+    "organisation": "United Australia Party",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Craig_Kelly",
+      "https://www.theepochtimes.com/world/united-australia-partys-national-director-craig-kelly-to-join-pauline-hansons-one-nation-party-5596532",
+      "https://region.com.au/former-liberal-craig-kelly-continues-his-lurch-to-the-right-to-join-one-nation/748603/"
+    ],
+    "start_date": "2022-05-21",
+    "end_date": "2024-02-27"
+  },
+  {
+    "pollie_slug": "craig-kelly",
+    "role": "Federal Campaign Director",
+    "organisation": "Pauline Hansons One Nation",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.rebelnews.com/craig_kelly_joins_one_nation_as_federal_campaign_director",
+      "https://region.com.au/former-liberal-craig-kelly-continues-his-lurch-to-the-right-to-join-one-nation/748603/",
+      "https://en.wikipedia.org/wiki/Craig_Kelly"
+    ],
+    "start_date": "2024-02-27",
+    "end_date": "2024-08-31"
+  },
+  {
+    "pollie_slug": "craig-kelly",
+    "role": "Senate Candidate (lead, New South Wales)",
+    "organisation": "Libertarian Party",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.thenewdaily.com.au/news/politics/australian-politics/2024/12/02/craig-kelly-libertarian",
+      "https://en.wikipedia.org/wiki/Craig_Kelly"
+    ],
+    "start_date": "2024-12-02"
   }
 ]
