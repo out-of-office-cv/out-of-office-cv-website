@@ -31634,7 +31634,11 @@
     ],
     "pollie_slug": "john-sharp",
     "start_date": "1999-01-01",
-    "end_date": "2001-12-31"
+    "end_date": "2001-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founder",
@@ -31655,7 +31659,11 @@
       "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)"
     ],
     "pollie_slug": "john-sharp",
-    "start_date": "1999-01-01"
+    "start_date": "1999-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Federal Treasurer",
@@ -31667,7 +31675,11 @@
     ],
     "pollie_slug": "john-sharp",
     "start_date": "2000-01-01",
-    "end_date": "2017-12-31"
+    "end_date": "2017-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -31679,7 +31691,11 @@
     ],
     "pollie_slug": "john-sharp",
     "start_date": "2001-01-01",
-    "end_date": "2015-06-30"
+    "end_date": "2015-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -31710,7 +31726,11 @@
     ],
     "pollie_slug": "john-sharp",
     "start_date": "2002-01-01",
-    "end_date": "2009-12-31"
+    "end_date": "2009-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -31722,7 +31742,11 @@
     ],
     "pollie_slug": "john-sharp",
     "start_date": "2003-01-01",
-    "end_date": "2010-12-31"
+    "end_date": "2010-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -31733,7 +31757,11 @@
     ],
     "pollie_slug": "john-sharp",
     "start_date": "2004-01-01",
-    "end_date": "2009-12-31"
+    "end_date": "2009-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -31745,7 +31773,11 @@
     ],
     "pollie_slug": "john-sharp",
     "start_date": "2004-01-01",
-    "end_date": "2015-12-31"
+    "end_date": "2015-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chair",
@@ -31757,7 +31789,11 @@
       "https://simpleflying.com/regional-express-rex-sydney-airport-slots/"
     ],
     "pollie_slug": "john-sharp",
-    "start_date": "2005-01-01"
+    "start_date": "2005-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -31769,7 +31805,11 @@
     ],
     "pollie_slug": "john-sharp",
     "start_date": "2005-01-01",
-    "end_date": "2013-12-31"
+    "end_date": "2013-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -31780,7 +31820,11 @@
       "https://futureflyingforum.com/speakers/the-hon-john-sharp-am"
     ],
     "pollie_slug": "john-sharp",
-    "end_date": "2010-12-31"
+    "end_date": "2010-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -31803,7 +31847,11 @@
     ],
     "pollie_slug": "john-sharp",
     "start_date": "2015-10-08",
-    "end_date": "2021-04-30"
+    "end_date": "2021-04-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Panel Member",
@@ -31825,7 +31873,11 @@
       "https://asiapacificdefencereporter.com/appointments-to-the-luerssen-australia-board/"
     ],
     "pollie_slug": "john-sharp",
-    "start_date": "2017-06-04"
+    "start_date": "2017-06-04",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -31836,18 +31888,25 @@
       "https://www.defenceconnect.com.au/maritime-antisub/780-opv-tenderer-building-up-its-australian-board"
     ],
     "pollie_slug": "john-sharp",
-    "start_date": "2018-01-01"
+    "start_date": "2018-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Foundation for Rural and Regional Renewal",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
-      "https://frrr.org.au/about-frrr/2019-2020-annual-review/"
+      "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)"
     ],
     "pollie_slug": "john-sharp",
-    "start_date": "2019-01-01"
+    "start_date": "2019-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -31855,10 +31914,13 @@
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
-      "https://www.bundanon.com.au/wp-content/uploads/2024/02/Bundanon-Annual-Report-2022-2023-lo-res-1.pdf",
       "https://minister.infrastructure.gov.au/burke/media-release/directors-appointed-bundanon-trust-board-0"
     ],
     "pollie_slug": "john-sharp",
-    "start_date": "2022-01-01"
+    "start_date": "2022-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
