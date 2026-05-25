@@ -30901,7 +30901,12 @@
       "https://www.minderoo.org/walk-free/news/former-australian-senator-lisa-singh-joins-fight-to-eradicate-modern-slavery/"
     ],
     "start_date": "2020-08-11",
-    "pollie_slug": "lisa-singh"
+    "pollie_slug": "lisa-singh",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Mandarin article confirms Walk Free Head of Government Advocacy from 2020-08-11."
+    }
   },
   {
     "role": "Deputy Chair",
@@ -30913,7 +30918,11 @@
     ],
     "start_date": "2020-01-01",
     "end_date": "2023-12-31",
-    "pollie_slug": "lisa-singh"
+    "pollie_slug": "lisa-singh",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director and Chief Executive Officer",
@@ -30925,7 +30934,11 @@
       "https://www.unimelb.edu.au/newsroom/news/2021/august/lisa-singh-to-lead-the-australia-india-institute-at-the-university-of-melbourne"
     ],
     "start_date": "2021-09-08",
-    "pollie_slug": "lisa-singh"
+    "pollie_slug": "lisa-singh",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Committee Member",
@@ -30959,19 +30972,26 @@
       "https://www.beyondblue.org.au/about/board-of-directors"
     ],
     "start_date": "2023-09-01",
-    "pollie_slug": "lisa-singh"
+    "pollie_slug": "lisa-singh",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founding Barrister",
     "organisation": "Michael Kirby Chambers",
     "category": "Legal & Judicial",
     "sources": [
-      "https://en.wikipedia.org/wiki/Duncan_Kerr",
-      "http://www.michaelkirbychambers.com/opening-of-chambers/"
+      "https://en.wikipedia.org/wiki/Duncan_Kerr"
     ],
     "start_date": "2010",
     "end_date": "2012",
-    "pollie_slug": "duncan-kerr"
+    "pollie_slug": "duncan-kerr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Judge",
@@ -30984,7 +31004,11 @@
     ],
     "start_date": "2012-05-10",
     "end_date": "2022-02-25",
-    "pollie_slug": "duncan-kerr"
+    "pollie_slug": "duncan-kerr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -30996,7 +31020,11 @@
     ],
     "start_date": "2012",
     "end_date": "2017",
-    "pollie_slug": "duncan-kerr"
+    "pollie_slug": "duncan-kerr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adjunct Professor of Law",
@@ -31006,7 +31034,6 @@
       "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=RH4",
       "https://coatconference.com.au/speaker/the-hon-justice-duncan-kerr-chev-lh"
     ],
-    "start_date": "2007",
     "pollie_slug": "duncan-kerr"
   },
   {
@@ -31019,7 +31046,11 @@
     ],
     "start_date": "2014",
     "end_date": "2017",
-    "pollie_slug": "duncan-kerr"
+    "pollie_slug": "duncan-kerr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Arbitrator",
@@ -31029,9 +31060,14 @@
       "https://www.italaw.com/arbitrator/duncan-kerr",
       "https://www.italaw.com/cases/2770"
     ],
-    "start_date": "2015",
+    "start_date": "2014",
     "end_date": "2015",
-    "pollie_slug": "duncan-kerr"
+    "pollie_slug": "duncan-kerr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Case documents dated October 2014 through May 2015."
+    }
   },
   {
     "role": "President",
@@ -31040,7 +31076,11 @@
     "sources": [
       "https://coatconference.com.au/speaker/the-hon-justice-duncan-kerr-chev-lh"
     ],
-    "pollie_slug": "duncan-kerr"
+    "pollie_slug": "duncan-kerr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, National Appeals and Reviews Panel",
@@ -31049,7 +31089,11 @@
     "sources": [
       "https://www.acsltd.org.au/chairperson-the-honourable-duncan-kerr-national-appeals-and-reviews-panel/"
     ],
-    "pollie_slug": "duncan-kerr"
+    "pollie_slug": "duncan-kerr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Reviewer, Office of the Inspector-General of the Australian Defence Force",
@@ -31061,7 +31105,11 @@
     ],
     "start_date": "2023-08",
     "end_date": "2024-03",
-    "pollie_slug": "duncan-kerr"
+    "pollie_slug": "duncan-kerr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "First Vice Chairman",
@@ -31070,7 +31118,12 @@
     "sources": [
       "https://www.abbeyfield.org.au/board-of-directors"
     ],
-    "pollie_slug": "david-hawker"
+    "pollie_slug": "david-hawker",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Current Abbeyfield Australia board page confirms David Hawker AO as First Vice Chairman."
+    }
   },
   {
     "role": "Chair of Committee of Governors",
@@ -31079,7 +31132,12 @@
     "sources": [
       "https://adb.anu.edu.au/biography/hawker-david-peter-28208"
     ],
-    "pollie_slug": "david-hawker"
+    "pollie_slug": "david-hawker",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed in Australian Dictionary of Biography as chair of committee of governors for Heart Morass wetlands."
+    }
   },
   {
     "role": "Chair",
