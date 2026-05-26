@@ -32536,5 +32536,214 @@
       "by": "claude",
       "note": "Confirmed as Honorary Consul for Brazil in Tasmania, appointed 12 December 2018."
     }
+  },
+  {
+    "role": "Senior Fellow",
+    "organisation": "Australian Strategic Policy Institute",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Feeney",
+      "https://www.aspi.org.au/bio/david-feeney/",
+      "https://defence.nioa.com.au/latest-news/nioa-appoints-hon-david-feeney"
+    ],
+    "pollie_slug": "david-feeney",
+    "start_date": "2018-08-01"
+  },
+  {
+    "role": "Strategic Adviser",
+    "organisation": "NIOA",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://defence.nioa.com.au/latest-news/nioa-appoints-hon-david-feeney",
+      "https://en.wikipedia.org/wiki/David_Feeney"
+    ],
+    "pollie_slug": "david-feeney",
+    "start_date": "2019-11-01",
+    "end_date": "2025-07-01"
+  },
+  {
+    "role": "Member",
+    "organisation": "Defence Council Victoria",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://defence.vic.gov.au/advocacy/victorian-defence-industry-advocate-vdia",
+      "https://vdsn.org/news/13596765"
+    ],
+    "pollie_slug": "david-feeney",
+    "start_date": "2019-01-01",
+    "end_date": "2023-12-31"
+  },
+  {
+    "role": "Victorian Defence Industry Advocate",
+    "organisation": "Victorian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://vdsn.org/news/13596765",
+      "https://defence.vic.gov.au/advocacy/victorian-defence-industry-advocate-vdia"
+    ],
+    "pollie_slug": "david-feeney",
+    "start_date": "2026-02-11"
+  },
+  {
+    "role": "Adviser",
+    "organisation": "Dragoman Global",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://dragomanglobal.com/david-feeney"
+    ],
+    "pollie_slug": "david-feeney"
+  },
+  {
+    "role": "Guest Lecturer",
+    "organisation": "Australian War College",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Feeney",
+      "https://defence.nioa.com.au/latest-news/nioa-appoints-hon-david-feeney"
+    ],
+    "pollie_slug": "david-feeney",
+    "start_date": "2018-01-01"
+  },
+  {
+    "role": "Founding Managing Director",
+    "organisation": "Broken Hill Alliance",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Dennis-Jensen",
+      "https://www.proactiveinvestors.com.au/companies/news/972463/castillo-copper-pivots-to-focus-on-proving-up-mineral-resources-and-further-developing-arya-prospect-as-it-announces-board-changes-972463.html"
+    ],
+    "pollie_slug": "dennis-jensen",
+    "start_date": "2021-08-01"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Castillo Copper Limited",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://hotcopper.com.au/threads/news-ccz-castillo-copper-appoints-dennis-jensen-as-ceo.6554246/",
+      "https://www.proactiveinvestors.com.au/companies/news/972463/castillo-copper-pivots-to-focus-on-proving-up-mineral-resources-and-further-developing-arya-prospect-as-it-announces-board-changes-972463.html"
+    ],
+    "pollie_slug": "dennis-jensen",
+    "start_date": "2022-02-01",
+    "end_date": "2022-04-01"
+  },
+  {
+    "role": "Managing Director",
+    "organisation": "Castillo Copper Limited",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.proactiveinvestors.co.uk/companies/news/978522/castillo-copper-announces-management-changes-978522.html",
+      "https://www.proactiveinvestors.co.uk/companies/news/1029201/castillo-copper-announces-resignation-of-managing-director-1029201.html",
+      "https://www.marketscreener.com/quote/commodity/LME-COPPER-CASH-16161/news/Castillo-Copper-Managing-Director-Dennis-Jensen-steps-down-45029229/"
+    ],
+    "pollie_slug": "dennis-jensen",
+    "start_date": "2022-04-01",
+    "end_date": "2023-10-10"
+  },
+  {
+    "role": "Mining Consultant",
+    "organisation": "Various mining groups",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Dennis-Jensen"
+    ],
+    "pollie_slug": "dennis-jensen"
+  },
+  {
+    "role": "National Support Groups Executive",
+    "organisation": "Prostate Cancer Foundation of Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.linkedin.com/in/jim-lloyd-4a195589/",
+      "https://onlinecommunity.pcfa.org.au/t5/Online-Community-Staff/bg-p/OnlineCommunityStaff",
+      "https://www.pcfa.org.au/awareness/pcfa-tv/closing-the-gap-on-specialist-care/"
+    ],
+    "pollie_slug": "jim-lloyd"
+  },
+  {
+    "role": "Ambassador",
+    "organisation": "Prostate Cancer Foundation of Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.pcfa.org.au/awareness/pcfa-tv/closing-the-gap-on-specialist-care/"
+    ],
+    "pollie_slug": "jim-lloyd"
+  },
+  {
+    "role": "Deputy Chair, National Committee for the Elimination of Prostate Cancer",
+    "organisation": "Prostate Cancer Foundation of Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://coastcommunitynews.com.au/central-coast/news/2026/05/jim-lloyd-to-help-lead-prostate-cancer-committee/"
+    ],
+    "pollie_slug": "jim-lloyd"
+  },
+  {
+    "role": "Managing Partner",
+    "organisation": "PricewaterhouseCoopers Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Jamie-Briggs",
+      "https://www.consultancy.com.au/news/7931/scyne-advisory-unveils-its-executive-team-for-now"
+    ],
+    "pollie_slug": "jamie-briggs",
+    "start_date": "2018-01-01",
+    "end_date": "2023-11-01"
+  },
+  {
+    "role": "Head of Corporate Affairs",
+    "organisation": "Scyne Advisory",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Jamie-Briggs",
+      "https://www.consultancy.com.au/news/7931/scyne-advisory-unveils-its-executive-team-for-now",
+      "https://www.consultancy.com.au/news/11039/scyne-advisory-to-cut-around-100-roles-as-senior-leaders-depart"
+    ],
+    "pollie_slug": "jamie-briggs",
+    "start_date": "2023-11-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "South Australian Cricket Association",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.adelaideoval.com.au/news/new-chair-and-deputy-confirmed-steven-trigg-to-join-aosma-board/",
+      "https://www.saca.com.au/about/honour-board/office-bearers"
+    ],
+    "pollie_slug": "jamie-briggs",
+    "start_date": "2021-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Adelaide Oval Stadium Management Authority",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.adelaideoval.com.au/news/new-chair-and-deputy-confirmed-steven-trigg-to-join-aosma-board/",
+      "https://www.adelaideoval.com.au/news/adelaide-oval-announces-board-succession/",
+      "https://www.coliseum-online.com/briggs-appointed-chair-of-adelaide-oval/",
+      "https://www.indailysa.com.au/news/business/2026/03/30/corporate-ladder-your-weekly-guide-to-executive-appointments-in-south-australia-127"
+    ],
+    "pollie_slug": "jamie-briggs",
+    "start_date": "2026-03-25"
+  },
+  {
+    "role": "Chief Adviser, Politics and Campaigns",
+    "organisation": "Liberal Party of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.capitalbrief.com/article/dutton-hires-former-minister-jamie-briggs-as-chief-advisor-e00b8ece-3014-4db0-8da0-5ec2872e63c6/"
+    ],
+    "pollie_slug": "jamie-briggs",
+    "start_date": "2024-09-01"
+  },
+  {
+    "role": "Partner",
+    "organisation": "Tenet Advisory and Investments",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.linkedin.com/in/jamie-briggs-mba-gaicd/",
+      "https://www.adelaideoval.com.au/our-board/"
+    ],
+    "pollie_slug": "jamie-briggs"
   }
 ]
