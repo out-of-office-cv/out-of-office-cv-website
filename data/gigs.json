@@ -4393,7 +4393,12 @@
       "https://psnews.com.au/queanbeyan-service-planned-to-honour-former-parliamentarian-jim-snow/168118/",
       "https://www.canberratimes.com.au/story/9072905/remembering-the-intriguing-life-and-career-of-former-mp-jim-snow/"
     ],
-    "pollie_slug": "james-snow"
+    "pollie_slug": "james-snow",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and both source articles (PS News and Canberra Times) corroborate Snow as patron of Winnunga Nimmityjah Aboriginal Medical Service after leaving parliament."
+    }
   },
   {
     "role": "Foundation Member",
@@ -4402,7 +4407,12 @@
     "sources": [
       "https://psnews.com.au/queanbeyan-service-planned-to-honour-former-parliamentarian-jim-snow/168118/"
     ],
-    "pollie_slug": "james-snow"
+    "pollie_slug": "james-snow",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia explicitly states Snow was 'a foundation member of the Drug Law Reform Foundation.' Consistent with his pharmacist background and parliamentary advocacy."
+    }
   },
   {
     "role": "Co-convenor",
@@ -4411,7 +4421,12 @@
     "sources": [
       "https://catalogue.nla.gov.au/catalog/6777082"
     ],
-    "pollie_slug": "james-snow"
+    "pollie_slug": "james-snow",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Snow serves as co-convenor of Beyond Federation. NLA catalogue entry confirms his role as editor of 'Beyond Federation' (2014)."
+    }
   },
   {
     "role": "Councillor",
@@ -20755,11 +20770,17 @@
     "sources": [
       "https://population.org.au/john-coulter/",
       "https://biography.senate.gov.au/coulter-john-richard/",
-      "https://www.miragenews.com/spa-honors-environmentalist-dr-john-coulter-1311434/"
+      "https://www.miragenews.com/spa-honors-environmentalist-dr-john-coulter-1311434/",
+      "https://population.org.au/about/people/john-coulter/"
     ],
     "pollie_slug": "john-coulter",
     "start_date": "2003",
-    "end_date": "2009"
+    "end_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via biography.senate.gov.au and population.org.au. Dr Coulter served as President of SPA from 2003 to 2009."
+    }
   },
   {
     "role": "Patron",
@@ -20767,10 +20788,16 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.miragenews.com/spa-announces-new-president-and-patron-1224500/",
-      "https://www.miragenews.com/spa-honors-environmentalist-dr-john-coulter-1311434/"
+      "https://www.miragenews.com/spa-honors-environmentalist-dr-john-coulter-1311434/",
+      "https://population.org.au/about/people/john-coulter/"
     ],
     "pollie_slug": "john-coulter",
-    "start_date": "2024"
+    "start_date": "2024",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "MirageNews article confirms appointment as Patron of SPA. He remained Patron until his death in 2024."
+    }
   },
   {
     "role": "Councillor",
@@ -20781,7 +20808,12 @@
       "https://www.populationmedia.org/people/john-coulter-md"
     ],
     "pollie_slug": "john-coulter",
-    "start_date": "2003"
+    "start_date": "2003",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via biography.senate.gov.au and Population Media Center. Dr Coulter served as Councillor of the Australian Conservation Foundation from 2003."
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -22922,10 +22954,16 @@
     "sources": [
       "https://en.wikipedia.org/wiki/John_Woodley",
       "https://en.wikipedia.org/wiki/Australian_Progressive_Alliance",
-      "https://biography.senate.gov.au/woodley-john/"
+      "https://biography.senate.gov.au/woodley-john/",
+      "https://www.aec.gov.au/parties_and_representatives/party_registration/Deregistered_parties/apa.htm"
     ],
     "start_date": "2003-04-03",
-    "end_date": "2005-06-01"
+    "end_date": "2005-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms he served as president; AEC records confirm party registration (24 June 2003) and deregistration (22 August 2005)."
+    }
   },
   {
     "pollie_slug": "john-woodley",
@@ -22934,7 +22972,12 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://biography.senate.gov.au/woodley-john/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms Woodley chaired Peacebuilders International, which trains clergy and church leaders from the Asia Pacific region."
+    }
   },
   {
     "pollie_slug": "john-woodley",
@@ -22942,9 +22985,16 @@
     "organisation": "Global Cabin Air Quality Executive",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://en.wikipedia.org/wiki/John_Woodley"
+      "https://en.wikipedia.org/wiki/John_Woodley",
+      "https://www.gcaqe.org/",
+      "https://www.gcaqe.org/structure"
     ],
-    "start_date": "2006-01-01"
+    "start_date": "2006-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and GCAQE confirm Woodley as founding Patron of GCAQE, established in 2006."
+    }
   },
   {
     "pollie_slug": "rosemary-crowley",
@@ -24566,7 +24616,8 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://theconversation.com/profiles/john-brumby-126263",
-      "https://en.wikipedia.org/wiki/John_Brumby"
+      "https://en.wikipedia.org/wiki/John_Brumby",
+      "https://www.ussc.edu.au/about/people/board-of-directors"
     ],
     "pollie_slug": "john-brumby"
   },
@@ -24739,9 +24790,16 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://www.bendigoadvertiser.com.au/story/7131412/brumby-to-chair-council-seeking-to-boost-international-education/",
-      "https://studymelbourne.vic.gov.au/about-study-melbourne/international-education-advisory-council"
+      "https://studymelbourne.vic.gov.au/about-study-melbourne/international-education-advisory-council",
+      "https://www.premier.vic.gov.au/brumby-named-chair-international-education-body",
+      "https://global.vic.gov.au/news-events-and-resources/news/victorias-international-education-sector-receives-a-boost"
     ],
-    "pollie_slug": "john-brumby"
+    "pollie_slug": "john-brumby",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple strong sources confirm John Brumby as Chair of Victorian International Education Advisory Council."
+    }
   },
   {
     "role": "Chancellor",
@@ -24797,7 +24855,12 @@
       "https://www.theepochtimes.com/world/former-victorian-premier-to-lead-private-healthcare-australia-5818847"
     ],
     "pollie_slug": "john-brumby",
-    "start_date": "2025-05"
+    "start_date": "2025-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Private Healthcare Australia media release and The Epoch Times confirm appointment announced March 2025, role beginning May 2025."
+    }
   },
   {
     "pollie_slug": "edward-robertson",
@@ -27715,7 +27778,11 @@
     ],
     "pollie_slug": "hedley-chapman",
     "start_date": "2010-03-25",
-    "end_date": "2012-03-08"
+    "end_date": "2012-03-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -27727,7 +27794,11 @@
     ],
     "pollie_slug": "hedley-chapman",
     "start_date": "2010-01-15",
-    "end_date": "2012-07-23"
+    "end_date": "2012-07-23",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -27739,7 +27810,11 @@
     ],
     "pollie_slug": "hedley-chapman",
     "start_date": "2010-09-01",
-    "end_date": "2013-10-31"
+    "end_date": "2013-10-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "gary-humphries",
@@ -32396,10 +32471,17 @@
     "sources": [
       "https://tasbar.com.au/barrister/the-honourable-peter-slipper/",
       "https://brisbanechambers.com/associates/",
-      "https://adb.anu.edu.au/biography/slipper-peter-neil-28215"
+      "https://adb.anu.edu.au/biography/slipper-peter-neil-28215",
+      "https://tasbar.com.au/barristers/",
+      "https://members.lst.org.au/members/search/people/1730/"
     ],
     "pollie_slug": "peter-slipper",
-    "start_date": "2017-01-01"
+    "start_date": "2017-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Barrister-at-Law at Salamanca Chambers (Hobart) since 2017. Multiple authoritative sources (Tasmanian Bar Association, ADB, Brisbane Chambers) confirm role and organisation."
+    }
   },
   {
     "role": "Accredited Mediator",
@@ -32407,9 +32489,16 @@
     "category": "Legal & Judicial",
     "sources": [
       "https://tasbar.com.au/barrister/the-honourable-peter-slipper/",
-      "https://www.linkedin.com/in/the-honourable-peter-slipper-532449234/"
+      "https://www.linkedin.com/in/the-honourable-peter-slipper-532449234/",
+      "https://lst.org.au/home/legal-services-and-access-to-justice/find-an-arbitrator-or-mediator/",
+      "https://members.lst.org.au/members/search/people/1730/"
     ],
-    "pollie_slug": "peter-slipper"
+    "pollie_slug": "peter-slipper",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as nationally accredited mediator (NMAS) registered with Law Society of Tasmania."
+    }
   },
   {
     "role": "Bishop in Australia",
@@ -32418,10 +32507,16 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Peter_Slipper",
       "https://adb.anu.edu.au/biography/slipper-peter-neil-28215",
-      "https://olwcatholic.wordpress.com/what-is-the-catholic-apostolic-church-of-australia/"
+      "https://olwcatholic.wordpress.com/what-is-the-catholic-apostolic-church-of-australia/",
+      "https://protocol.dfat.gov.au/public/consulates/30/state"
     ],
     "pollie_slug": "peter-slipper",
-    "start_date": "2017-01-01"
+    "start_date": "2017-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Bishop in Australia for the Catholic Apostolic Church of Australia since 2017."
+    }
   },
   {
     "role": "Honorary Consul",
@@ -32430,9 +32525,16 @@
     "sources": [
       "https://pattersonslist.com.au/index.php?option=com_mtree&task=viewlink&link_id=322&Itemid=842",
       "https://brisbanechambers.com/associates/",
-      "https://adb.anu.edu.au/biography/slipper-peter-neil-28215"
+      "https://adb.anu.edu.au/biography/slipper-peter-neil-28215",
+      "https://www.gladstoneobserver.com.au/news/former-federal-speaker-peter-slipper-appointed-bra/3618283/",
+      "https://protocol.dfat.gov.au/public/consulates/30/state"
     ],
     "pollie_slug": "peter-slipper",
-    "start_date": "2018-12-12"
+    "start_date": "2018-12-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Honorary Consul for Brazil in Tasmania, appointed 12 December 2018."
+    }
   }
 ]
