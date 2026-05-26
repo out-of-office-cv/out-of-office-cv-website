@@ -32352,5 +32352,87 @@
       "by": "claude",
       "note": "Tim Hammond was appointed Senior Counsel (SC) in 2022 by the Chief Justice of Western Australia. He continues to practice at Central Law Chambers as SC."
     }
+  },
+  {
+    "role": "Administrator of Christmas Island and Cocos (Keeling) Islands",
+    "organisation": "Australian Government — Indian Ocean Territories Administration",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Natasha_Griggs",
+      "https://www.sbs.com.au/news/article/former-mp-gets-christmas-island-role/elosx2cuw",
+      "https://minister.infrastructure.gov.au/mcbain/media-release/indian-ocean-territories-administrator-appointment"
+    ],
+    "pollie_slug": "natasha-griggs",
+    "start_date": "2017-10-05",
+    "end_date": "2022-10-04"
+  },
+  {
+    "role": "President",
+    "organisation": "Chamber of Commerce Northern Territory",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://chambernt.com.au/Web/Web/News/Chamber-News/Media-Release-Chamber-of-Commerce-NT-announces-new-CEO-Glen-Hingley.aspx",
+      "https://chambernt.com.au/Web/Web/News/Chamber-News/Chamber-NT-Represented-Northern-Territory-at-the-ACCI-General-Council.aspx",
+      "https://au.linkedin.com/in/natasha-griggs-gaicd-4b540320"
+    ],
+    "pollie_slug": "natasha-griggs"
+  },
+  {
+    "role": "President",
+    "organisation": "Country Liberal Party",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Natasha_Griggs",
+      "https://au.linkedin.com/in/natasha-griggs-4b540320"
+    ],
+    "pollie_slug": "natasha-griggs",
+    "start_date": "2025-02-16",
+    "end_date": "2025-10-11"
+  },
+  {
+    "role": "Barrister-at-Law",
+    "organisation": "Salamanca Chambers",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://tasbar.com.au/barrister/the-honourable-peter-slipper/",
+      "https://brisbanechambers.com/associates/",
+      "https://adb.anu.edu.au/biography/slipper-peter-neil-28215"
+    ],
+    "pollie_slug": "peter-slipper",
+    "start_date": "2017-01-01"
+  },
+  {
+    "role": "Accredited Mediator",
+    "organisation": "Law Society of Tasmania",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://tasbar.com.au/barrister/the-honourable-peter-slipper/",
+      "https://www.linkedin.com/in/the-honourable-peter-slipper-532449234/"
+    ],
+    "pollie_slug": "peter-slipper"
+  },
+  {
+    "role": "Bishop in Australia",
+    "organisation": "Catholic Apostolic Church of Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Slipper",
+      "https://adb.anu.edu.au/biography/slipper-peter-neil-28215",
+      "https://olwcatholic.wordpress.com/what-is-the-catholic-apostolic-church-of-australia/"
+    ],
+    "pollie_slug": "peter-slipper",
+    "start_date": "2017-01-01"
+  },
+  {
+    "role": "Honorary Consul",
+    "organisation": "Consulate of Brazil in Tasmania",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://pattersonslist.com.au/index.php?option=com_mtree&task=viewlink&link_id=322&Itemid=842",
+      "https://brisbanechambers.com/associates/",
+      "https://adb.anu.edu.au/biography/slipper-peter-neil-28215"
+    ],
+    "pollie_slug": "peter-slipper",
+    "start_date": "2018-12-12"
   }
 ]
