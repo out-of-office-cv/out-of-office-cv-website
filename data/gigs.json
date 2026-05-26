@@ -19041,13 +19041,15 @@
     "organisation": "Victorian Equestrian Centre",
     "category": "Retail, Hospitality & Tourism",
     "sources": [
-      "https://en.wikipedia.org/wiki/Ken_Aldred",
-      "https://pakenham.starcommunity.com.au/gazette/2008-07-18/fire-refuge-row-heats-up/",
-      "https://pakenhamgazette.com.au/gazette/2018-06-26/new-horsey-home-no-long-faces/"
+      "https://en.wikipedia.org/wiki/Ken_Aldred"
     ],
     "pollie_slug": "kenneth-aldred",
     "start_date": "1996-12-01",
-    "end_date": "2016-04-17"
+    "end_date": "2016-04-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -19055,11 +19057,16 @@
     "category": "Professional Services & Management Consulting",
     "sources": [
       "https://en.wikipedia.org/wiki/Ken_Aldred",
-      "https://www.wikiwand.com/en/articles/Ken_Aldred"
+      "https://www.wikiwand.com/en/articles/Ken_Aldred",
+      "https://catalogue.nla.gov.au/catalog/3295473"
     ],
     "pollie_slug": "kenneth-aldred",
     "start_date": "2001-01-01",
-    "end_date": "2008-12-31"
+    "end_date": "2008-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -19071,7 +19078,11 @@
     ],
     "pollie_slug": "kenneth-aldred",
     "start_date": "2001-01-01",
-    "end_date": "2008-12-31"
+    "end_date": "2008-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Lobbyist",
@@ -23451,7 +23462,12 @@
       "https://cdn.prod.website-files.com/5da4a6db96a90c56ae7991c7/5dc04ed05533475e9f9521d7_ADA%20FY17%20App%204E%20and%20Annual%20Report.pdf"
     ],
     "start_date": "2003-09-01",
-    "end_date": "2012-11-01"
+    "end_date": "2012-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and Adacel FY2017 annual report confirm Julian Beale was Chairman of Adacel Technologies from September 2003 to November 2012."
+    }
   },
   {
     "pollie_slug": "julian-beale",
@@ -23464,7 +23480,12 @@
       "https://cdn.prod.website-files.com/5da4a6db96a90c56ae7991c7/5dc04ed05533475e9f9521d7_ADA%20FY17%20App%204E%20and%20Annual%20Report.pdf"
     ],
     "start_date": "2003-06-01",
-    "end_date": "2017-11-01"
+    "end_date": "2017-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Adacel FY2017 annual report confirms Julian Beale was Non-Executive Director from June 2003; retired at 2017 AGM."
+    }
   },
   {
     "pollie_slug": "julian-beale",
@@ -24139,9 +24160,14 @@
     "sources": [
       "https://www.examiner.com.au/story/7104405/labors-keay-not-keen-to-re-contest-braddon/",
       "https://pmc.ncbi.nlm.nih.gov/articles/PMC8924774/",
-      "https://www.utas.edu.au/wicking/research/distinct-projects/island-project"
+      "https://www.utas.edu.au/wicking/research/distinct-projects/island-project",
+      "https://www.researchprotocols.org/2022/3/e34688"
     ],
-    "start_date": "2019-05-18"
+    "start_date": "2019-05-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "justine-keay",
@@ -24149,9 +24175,12 @@
     "organisation": "Family Based Care Tasmania",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://www.linkedin.com/in/justinekeay/",
-      "https://www.zoominfo.com/p/Justine-Keay/4182500261"
-    ]
+      "https://findhelptas.org.au/program/family-based-care-tasmania/"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "justine-keay",
@@ -24159,9 +24188,13 @@
     "organisation": "Devonfield Enterprises",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.zoominfo.com/p/Justine-Keay/4182500261",
-      "https://www.linkedin.com/in/justinekeay/"
-    ]
+      "https://www.charityguide.com.au/charity/48154912044/devonfield-enterprises-inc",
+      "https://www.ndiscommission.gov.au/provider-registration/devonfield-enterprises-inc"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "bernie-ripoll",
@@ -29459,11 +29492,16 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://en.wikipedia.org/wiki/Meg_Lees",
-      "https://www.linkedin.com/in/meg-lees-6842b27/"
+      "https://www.linkedin.com/in/meg-lees-6842b27/",
+      "https://www.acnc.gov.au/charity/charities/6a719ea3-39af-e811-a961-000d3ad24182/profile"
     ],
     "pollie_slug": "meg-lees",
     "start_date": "2006-01-01",
-    "end_date": "2009-12-31"
+    "end_date": "2009-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Council Member",
@@ -29474,7 +29512,11 @@
       "https://rockflat.com.au/2021/11/26/climate-200-gaining-momentum/"
     ],
     "pollie_slug": "meg-lees",
-    "start_date": "2021-11-01"
+    "start_date": "2021-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Professor and Head, School of Community Medicine",
@@ -29698,7 +29740,11 @@
       "https://en.wikipedia.org/wiki/Kirsten_Livermore"
     ],
     "pollie_slug": "kirsten-livermore",
-    "start_date": "2015-01-01"
+    "start_date": "2015-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Team Leader",
@@ -29706,10 +29752,16 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://en.wikipedia.org/wiki/Kirsten_Livermore",
-      "https://au.linkedin.com/in/kirsten-livermore-5b846987"
+      "https://au.linkedin.com/in/kirsten-livermore-5b846987",
+      "https://adamsmithinternational.com/projects/australia-mongolia-extractives-program/",
+      "https://mongolia.embassy.gov.au/ulnb/Extractives.html"
     ],
     "pollie_slug": "kirsten-livermore",
-    "start_date": "2019-09-01"
+    "start_date": "2019-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -29721,7 +29773,11 @@
       "https://www.liquidity.com.au/companies/asian-battery-metals-plc/"
     ],
     "pollie_slug": "kirsten-livermore",
-    "start_date": "2024-06-18"
+    "start_date": "2024-06-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Senior Fellow",
@@ -31257,7 +31313,11 @@
       "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22media/pressrel/5363085%22",
       "https://www.miragenews.com/appointments-to-administrative-appeals-tribunal-757384/"
     ],
-    "pollie_slug": "mark-bishop"
+    "pollie_slug": "mark-bishop",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Senior Member",
@@ -31270,7 +31330,11 @@
       "https://www.nationaltribune.com.au/appointments-to-administrative-appeals-tribunal-4-april/"
     ],
     "start_date": "2022-04-04",
-    "pollie_slug": "mark-bishop"
+    "pollie_slug": "mark-bishop",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "General Manager",
