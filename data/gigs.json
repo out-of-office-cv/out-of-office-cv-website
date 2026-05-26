@@ -32611,7 +32611,12 @@
     ],
     "pollie_slug": "john-spender",
     "start_date": "1990-03-24",
-    "end_date": "1996-01-01"
+    "end_date": "1996-01-01",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Subagent flagged this as a likely duplicate of gig 5 (Barrister 2000-). Reasoning: Spender's barrister practice was continuous; the 1990-1996 end-date does not match his diplomatic timeline (ambassador 1996-2000 maintaining bar status)."
+    }
   },
   {
     "role": "Ambassador",
@@ -32624,7 +32629,11 @@
     ],
     "pollie_slug": "john-spender",
     "start_date": "1996-01-01",
-    "end_date": "2000-01-01"
+    "end_date": "2000-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Resident Ambassador",
@@ -32636,7 +32645,11 @@
     ],
     "pollie_slug": "john-spender",
     "start_date": "1996-01-01",
-    "end_date": "1998-01-01"
+    "end_date": "1998-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Special Envoy",
@@ -32648,7 +32661,11 @@
     ],
     "pollie_slug": "john-spender",
     "start_date": "1996-01-01",
-    "end_date": "2000-01-01"
+    "end_date": "2000-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Visiting Fellow",
@@ -32657,7 +32674,11 @@
     "sources": [
       "https://www.julianleeser.com.au/news/condolence-motion-the-hon-john-spender-kc/"
     ],
-    "pollie_slug": "john-spender"
+    "pollie_slug": "john-spender",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Barrister",
@@ -32668,7 +32689,11 @@
       "https://en.wikipedia.org/wiki/John_Spender"
     ],
     "pollie_slug": "john-spender",
-    "start_date": "2000-01-01"
+    "start_date": "2000-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member of the Legislative Assembly (Niddrie)",
@@ -32680,7 +32705,11 @@
     ],
     "pollie_slug": "rob-hulls",
     "start_date": "1996-03-30",
-    "end_date": "2012-01-27"
+    "end_date": "2012-01-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Attorney-General of Victoria",
@@ -32692,7 +32721,11 @@
     ],
     "pollie_slug": "rob-hulls",
     "start_date": "1999-10-18",
-    "end_date": "2010-12-02"
+    "end_date": "2010-12-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Premier of Victoria",
@@ -32704,7 +32737,11 @@
     ],
     "pollie_slug": "rob-hulls",
     "start_date": "2007-07-30",
-    "end_date": "2010-12-02"
+    "end_date": "2010-12-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director, Centre for Innovative Justice",
@@ -32713,10 +32750,15 @@
     "sources": [
       "https://cij.org.au/about/people/rob-hulls/",
       "https://en.wikipedia.org/wiki/Rob_Hulls",
-      "https://www.rmit.edu.au/profiles/h/rob-hulls"
+      "https://www.rmit.edu.au/profiles/h/rob-hulls",
+      "https://cij.org.au/about/what-we-do/"
     ],
     "pollie_slug": "rob-hulls",
-    "start_date": "2012-10-01"
+    "start_date": "2012-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adjunct Professor",
@@ -32727,7 +32769,11 @@
       "https://www.rmit.edu.au/profiles/h/rob-hulls"
     ],
     "pollie_slug": "rob-hulls",
-    "start_date": "2012-10-01"
+    "start_date": "2012-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Trustee",
@@ -32735,11 +32781,16 @@
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://www.kardiniapark.vic.gov.au/news/former-deputy-premier-of-victoria-rob-hulls-joins-kardinia-park-stadium-trust/",
-      "https://en.wikipedia.org/wiki/Rob_Hulls"
+      "https://en.wikipedia.org/wiki/Rob_Hulls",
+      "https://www.kardiniapark.vic.gov.au/wp-content/uploads/2025/11/74662-KPT-Annual-Report-2025-v5HRD.pdf"
     ],
     "pollie_slug": "rob-hulls",
     "start_date": "2019-06-01",
-    "end_date": "2025-06-30"
+    "end_date": "2025-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founder and Executive Chairman",
@@ -32752,7 +32803,11 @@
       "https://rocketreach.co/john-black-email_38949681"
     ],
     "pollie_slug": "john-black",
-    "start_date": "1994-01-01"
+    "start_date": "1994-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founder and Executive Chairman",
@@ -32762,7 +32817,11 @@
       "https://www.educationgeographics.net.au/john-black/",
       "https://www.educationgeographics.net.au/enigma-team/john-black/"
     ],
-    "pollie_slug": "john-black"
+    "pollie_slug": "john-black",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founder and Executive Chairman",
@@ -32771,7 +32830,11 @@
     "sources": [
       "https://www.healthgeographics.net.au/our-people/"
     ],
-    "pollie_slug": "john-black"
+    "pollie_slug": "john-black",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founding Board Member",
@@ -32784,7 +32847,11 @@
     ],
     "pollie_slug": "john-black",
     "start_date": "2006-03-13",
-    "end_date": "2009-12-31"
+    "end_date": "2009-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -32804,7 +32871,11 @@
       "https://en.wikipedia.org/wiki/John_Black_(Australian_politician)",
       "https://www.educationgeographics.net.au/john-black/"
     ],
-    "pollie_slug": "john-black"
+    "pollie_slug": "john-black",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Election Analyst",
@@ -32815,7 +32886,11 @@
       "https://www.educationgeographics.net.au/john-black/",
       "https://www.educationgeographics.net.au/political-pitfalls-ahead/"
     ],
-    "pollie_slug": "john-black"
+    "pollie_slug": "john-black",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Guest Commentator",
@@ -32825,7 +32900,11 @@
       "https://www.elaborate.net.au/john-black-3/",
       "https://www.educationgeographics.net.au/john-black/"
     ],
-    "pollie_slug": "john-black"
+    "pollie_slug": "john-black",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
