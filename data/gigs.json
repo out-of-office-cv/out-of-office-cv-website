@@ -32600,5 +32600,250 @@
       "by": "claude",
       "note": "Confirmed as Honorary Consul for Brazil in Tasmania, appointed 12 December 2018."
     }
+  },
+  {
+    "role": "Barrister",
+    "organisation": "New South Wales Bar",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://bn.nswbar.asn.au/article/john-michael-spender-kc-1935-2022-ambassador-parliamentarian-barrister-queens-counsel",
+      "https://en.wikipedia.org/wiki/John_Spender"
+    ],
+    "pollie_slug": "john-spender",
+    "start_date": "1990-03-24",
+    "end_date": "1996-01-01"
+  },
+  {
+    "role": "Ambassador",
+    "organisation": "Australian Embassy, France",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Spender",
+      "https://bn.nswbar.asn.au/article/john-michael-spender-kc-1935-2022-ambassador-parliamentarian-barrister-queens-counsel",
+      "https://en.wikipedia.org/wiki/List_of_ambassadors_of_Australia_to_France"
+    ],
+    "pollie_slug": "john-spender",
+    "start_date": "1996-01-01",
+    "end_date": "2000-01-01"
+  },
+  {
+    "role": "Non-Resident Ambassador",
+    "organisation": "Australian Embassy, Portugal",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Spender",
+      "https://bn.nswbar.asn.au/article/john-michael-spender-kc-1935-2022-ambassador-parliamentarian-barrister-queens-counsel"
+    ],
+    "pollie_slug": "john-spender",
+    "start_date": "1996-01-01",
+    "end_date": "1998-01-01"
+  },
+  {
+    "role": "Special Envoy",
+    "organisation": "Australian High Commission, Cyprus",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Spender",
+      "https://bn.nswbar.asn.au/article/john-michael-spender-kc-1935-2022-ambassador-parliamentarian-barrister-queens-counsel"
+    ],
+    "pollie_slug": "john-spender",
+    "start_date": "1996-01-01",
+    "end_date": "2000-01-01"
+  },
+  {
+    "role": "Visiting Fellow",
+    "organisation": "Australian Catholic University Law School",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.julianleeser.com.au/news/condolence-motion-the-hon-john-spender-kc/"
+    ],
+    "pollie_slug": "john-spender"
+  },
+  {
+    "role": "Barrister",
+    "organisation": "New South Wales Bar",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://bn.nswbar.asn.au/article/john-michael-spender-kc-1935-2022-ambassador-parliamentarian-barrister-queens-counsel",
+      "https://en.wikipedia.org/wiki/John_Spender"
+    ],
+    "pollie_slug": "john-spender",
+    "start_date": "2000-01-01"
+  },
+  {
+    "role": "Member of the Legislative Assembly (Niddrie)",
+    "organisation": "Parliament of Victoria",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rob_Hulls",
+      "https://www.parliament.vic.gov.au/members/rob-justin-hulls/"
+    ],
+    "pollie_slug": "rob-hulls",
+    "start_date": "1996-03-30",
+    "end_date": "2012-01-27"
+  },
+  {
+    "role": "Attorney-General of Victoria",
+    "organisation": "Government of Victoria",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rob_Hulls",
+      "https://www.parliament.vic.gov.au/members/rob-justin-hulls/"
+    ],
+    "pollie_slug": "rob-hulls",
+    "start_date": "1999-10-18",
+    "end_date": "2010-12-02"
+  },
+  {
+    "role": "Deputy Premier of Victoria",
+    "organisation": "Government of Victoria",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rob_Hulls",
+      "https://www.parliament.vic.gov.au/members/rob-justin-hulls/"
+    ],
+    "pollie_slug": "rob-hulls",
+    "start_date": "2007-07-30",
+    "end_date": "2010-12-02"
+  },
+  {
+    "role": "Director, Centre for Innovative Justice",
+    "organisation": "RMIT University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://cij.org.au/about/people/rob-hulls/",
+      "https://en.wikipedia.org/wiki/Rob_Hulls",
+      "https://www.rmit.edu.au/profiles/h/rob-hulls"
+    ],
+    "pollie_slug": "rob-hulls",
+    "start_date": "2012-10-01"
+  },
+  {
+    "role": "Adjunct Professor",
+    "organisation": "RMIT University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rob_Hulls",
+      "https://www.rmit.edu.au/profiles/h/rob-hulls"
+    ],
+    "pollie_slug": "rob-hulls",
+    "start_date": "2012-10-01"
+  },
+  {
+    "role": "Trustee",
+    "organisation": "Kardinia Park Stadium Trust",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.kardiniapark.vic.gov.au/news/former-deputy-premier-of-victoria-rob-hulls-joins-kardinia-park-stadium-trust/",
+      "https://en.wikipedia.org/wiki/Rob_Hulls"
+    ],
+    "pollie_slug": "rob-hulls",
+    "start_date": "2019-06-01",
+    "end_date": "2025-06-30"
+  },
+  {
+    "role": "Founder and Executive Chairman",
+    "organisation": "Australian Development Strategies",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Black_(Australian_politician)",
+      "https://biography.senate.gov.au/black-john-rees/",
+      "https://www.elaborate.net.au/john-black-3/",
+      "https://rocketreach.co/john-black-email_38949681"
+    ],
+    "pollie_slug": "john-black",
+    "start_date": "1994-01-01"
+  },
+  {
+    "role": "Founder and Executive Chairman",
+    "organisation": "Education Geographics",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.educationgeographics.net.au/john-black/",
+      "https://www.educationgeographics.net.au/enigma-team/john-black/"
+    ],
+    "pollie_slug": "john-black"
+  },
+  {
+    "role": "Founder and Executive Chairman",
+    "organisation": "Health Geographics",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.healthgeographics.net.au/our-people/"
+    ],
+    "pollie_slug": "john-black"
+  },
+  {
+    "role": "Founding Board Member",
+    "organisation": "Australian Sports Anti-Doping Authority",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Black_(Australian_politician)",
+      "https://www.educationgeographics.net.au/john-black/",
+      "https://biography.senate.gov.au/black-john-rees/"
+    ],
+    "pollie_slug": "john-black",
+    "start_date": "2006-03-13",
+    "end_date": "2009-12-31"
+  },
+  {
+    "role": "Member",
+    "organisation": "Anti-Doping Rule Violation Panel",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/black-john-rees/"
+    ],
+    "pollie_slug": "john-black",
+    "start_date": "2010-01-01"
+  },
+  {
+    "role": "Part-time Senior Member",
+    "organisation": "Australian Administrative Appeals Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Black_(Australian_politician)",
+      "https://www.educationgeographics.net.au/john-black/"
+    ],
+    "pollie_slug": "john-black"
+  },
+  {
+    "role": "Election Analyst",
+    "organisation": "Australian Financial Review",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.elaborate.net.au/john-black-3/",
+      "https://www.educationgeographics.net.au/john-black/",
+      "https://www.educationgeographics.net.au/political-pitfalls-ahead/"
+    ],
+    "pollie_slug": "john-black"
+  },
+  {
+    "role": "Guest Commentator",
+    "organisation": "Australian Broadcasting Corporation",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.elaborate.net.au/john-black-3/",
+      "https://www.educationgeographics.net.au/john-black/"
+    ],
+    "pollie_slug": "john-black"
+  },
+  {
+    "role": "Member",
+    "organisation": "Immigration Detention Advisory Group",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gerry_Hand"
+    ],
+    "pollie_slug": "gerry-hand",
+    "start_date": "2001-02-01"
+  },
+  {
+    "role": "Representative",
+    "organisation": "United Nations High Commissioner for Refugees",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gerry_Hand"
+    ],
+    "pollie_slug": "gerry-hand"
   }
 ]
