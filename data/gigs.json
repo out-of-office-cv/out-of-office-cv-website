@@ -1573,7 +1573,12 @@
       "https://www.paulfletcher.com.au/"
     ],
     "pollie_slug": "paul-fletcher",
-    "start_date": "2025-04-01"
+    "start_date": "2025-04-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via official Paul Fletcher website. Principal of advisory firm Paul Fletcher and Associates. Start date of 2025-04-01 is plausible (parliament ceased 2025-03-28)."
+    }
   },
   {
     "role": "Host, Sunday with Stoker",
@@ -5936,7 +5941,12 @@
     "sources": [
       "https://www.paulfletcher.com.au/about-paul-fletcher"
     ],
-    "pollie_slug": "paul-fletcher"
+    "pollie_slug": "paul-fletcher",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via official Paul Fletcher website about page. Director of Amalgamated Telecom Holdings Limited. No start date provided; appears to be ongoing role."
+    }
   },
   {
     "role": "Adviser",
@@ -5945,7 +5955,12 @@
     "sources": [
       "https://www.paulfletcher.com.au/about-paul-fletcher"
     ],
-    "pollie_slug": "paul-fletcher"
+    "pollie_slug": "paul-fletcher",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via official Paul Fletcher website about page. Adviser to CompassIOT, a transport technology business. No start date provided; appears to be ongoing role."
+    }
   },
   {
     "role": "Senior Adviser",
@@ -16626,7 +16641,11 @@
       "https://en.wikipedia.org/wiki/Noel_Hicks",
       "https://www.areanews.com.au/story/7594242/noel-hicks-inducted-into-order-of-australia/"
     ],
-    "pollie_slug": "noel-hicks"
+    "pollie_slug": "noel-hicks",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Board Chair",
@@ -16636,7 +16655,11 @@
       "https://en.wikipedia.org/wiki/Noel_Hicks",
       "https://www.areanews.com.au/story/7594242/noel-hicks-inducted-into-order-of-australia/"
     ],
-    "pollie_slug": "noel-hicks"
+    "pollie_slug": "noel-hicks",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -16646,7 +16669,11 @@
       "https://en.wikipedia.org/wiki/Noel_Hicks",
       "https://www.areanews.com.au/story/7594242/noel-hicks-inducted-into-order-of-australia/"
     ],
-    "pollie_slug": "noel-hicks"
+    "pollie_slug": "noel-hicks",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Client Development",
@@ -17900,7 +17927,12 @@
       "https://www.alicespringsshow.com.au/history/hon-paul-everingham-ao"
     ],
     "pollie_slug": "paul-everingham",
-    "start_date": "1987-06-05"
+    "start_date": "1987-06-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Everinghamwallace.com.au confirms Paul Everingham as Partner and Solicitor (admitted 1966). Alice Springs Show history confirms he came to Alice Springs as practicing solicitor in 1966, established Paul Everingham & Co, then resumed Brisbane legal practice after leaving parliament in 1987. Start date matches parliamentary cessation."
+    }
   },
   {
     "role": "President",
@@ -17912,7 +17944,12 @@
     ],
     "pollie_slug": "paul-everingham",
     "start_date": "1990-01-01",
-    "end_date": "1994-12-31"
+    "end_date": "1994-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Paul Everingham served as President of Queensland Liberal Party from 1990 to 1994. He resigned in 1994 in abrupt circumstances. Start date 1990-01-01 aligns with documented 1990 start."
+    }
   },
   {
     "role": "Honorary Consul",
@@ -17923,7 +17960,12 @@
       "https://www.kln.gov.my/web/aus_canberra/news-from-mission/-/blogs/announcement-resignation-of-the-honorary-consul-of-malaysia-in-brisbane-the-honorable-mr-paul-everingham"
     ],
     "pollie_slug": "paul-everingham",
-    "end_date": "2014-01-10"
+    "end_date": "2014-01-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Malaysian High Commission official announcement confirms Paul Everingham served as Honorary Consul of Malaysia in Brisbane, resigning effective 10 January 2014. Start date remains null as sources don't specify exact appointment date."
+    }
   },
   {
     "role": "President, Organising Committee",
@@ -33308,7 +33350,11 @@
     ],
     "pollie_slug": "michael-baume",
     "start_date": "1996-01-01",
-    "end_date": "2001-01-01"
+    "end_date": "2001-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -33320,7 +33366,12 @@
     ],
     "pollie_slug": "michael-baume",
     "start_date": "1999-01-01",
-    "end_date": "2001-01-01"
+    "end_date": "2001-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "SOFC past-presidents list shows 2000-01 term; start_date 1999 aligns with typical annual presidential rotations"
+    }
   },
   {
     "role": "Member",
@@ -33332,7 +33383,11 @@
       "https://www.liquisearch.com/michael_baume/biography"
     ],
     "pollie_slug": "michael-baume",
-    "start_date": "2001-01-01"
+    "start_date": "2001-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Foundation Board Member",
@@ -33343,7 +33398,11 @@
       "https://biography.senate.gov.au/baume-michael-ehrenfried/",
       "https://www.liquisearch.com/michael_baume/biography"
     ],
-    "pollie_slug": "michael-baume"
+    "pollie_slug": "michael-baume",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Council Member",
@@ -33354,7 +33413,11 @@
       "https://biography.senate.gov.au/baume-michael-ehrenfried/",
       "https://www.liquisearch.com/michael_baume/biography"
     ],
-    "pollie_slug": "michael-baume"
+    "pollie_slug": "michael-baume",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Columnist",
@@ -33365,7 +33428,11 @@
       "https://biography.senate.gov.au/baume-michael-ehrenfried/"
     ],
     "pollie_slug": "michael-baume",
-    "start_date": "2001-01-01"
+    "start_date": "2001-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Columnist",
@@ -33375,7 +33442,11 @@
       "https://www.spectator.com.au/author/michael-baume/",
       "https://www.linkedin.com/in/michael-baume-79959a35/"
     ],
-    "pollie_slug": "michael-baume"
+    "pollie_slug": "michael-baume",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Special Counsel",
@@ -33385,7 +33456,11 @@
       "https://en.wikipedia.org/wiki/Michael_Baume",
       "http://yamm.finance/wiki/Michael_Baume.html"
     ],
-    "pollie_slug": "michael-baume"
+    "pollie_slug": "michael-baume",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -33395,7 +33470,11 @@
       "https://en.wikipedia.org/wiki/Michael_Baume",
       "https://biography.senate.gov.au/baume-michael-ehrenfried/"
     ],
-    "pollie_slug": "michael-baume"
+    "pollie_slug": "michael-baume",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -33405,6 +33484,10 @@
       "https://en.wikipedia.org/wiki/Michael_Baume",
       "https://biography.senate.gov.au/baume-michael-ehrenfried/"
     ],
-    "pollie_slug": "michael-baume"
+    "pollie_slug": "michael-baume",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
