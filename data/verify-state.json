@@ -322,24 +322,16 @@
   "chris-pearce|Chair|Anglicare Victoria|2016": {
     "last_examined_at": "2026-05-25T02:26:39.259Z"
   },
-  "chris-pearce|Chair|Global Voices|2015": {
-    "last_examined_at": "2026-05-25T02:26:39.259Z"
-  },
-  "chris-pearce|Chief Operating Officer|DB Results|2020": {
-    "last_examined_at": "2026-05-25T02:26:39.259Z"
-  },
+  "chris-pearce|Chair|Global Voices|2015": "2026-05-27T00:00:00.000Z",
+  "chris-pearce|Chief Operating Officer|DB Results|2020": "2026-05-27T00:00:00.000Z",
   "chris-pearce|Deputy Chair and Non-Executive Director|St Vincent's Institute of Medical Research|null": {
     "last_examined_at": "2026-05-25T02:26:39.259Z"
   },
-  "chris-pearce|Director|Anglicare Victoria|2009": {
-    "last_examined_at": "2026-05-25T02:26:39.259Z"
-  },
+  "chris-pearce|Director|Anglicare Victoria|2009": "2026-05-27T00:00:00.000Z",
   "chris-pearce|Director|McKinnon Institute|null": {
     "last_examined_at": "2026-05-25T02:26:39.259Z"
   },
-  "chris-pearce|Director|Renewtek Pty Ltd|null": {
-    "last_examined_at": "2026-05-25T02:26:39.259Z"
-  },
+  "chris-pearce|Director|Renewtek Pty Ltd|null": "2026-05-27T00:00:00.000Z",
   "chris-pearce|Director|Victorian Funds Management Corporation|null": {
     "last_examined_at": "2026-05-25T02:26:39.259Z"
   },
@@ -352,9 +344,7 @@
   "chris-pearce|Managing Director|Pearce Advisory|2023": {
     "last_examined_at": "2026-05-25T02:26:59.087Z"
   },
-  "chris-pearce|Managing Partner|DB Results|2021": {
-    "last_examined_at": "2026-05-25T02:26:39.259Z"
-  },
+  "chris-pearce|Managing Partner|DB Results|2021": "2026-05-27T00:00:00.000Z",
   "chris-pearce|Managing Partner|NGS Global|2018": {
     "last_examined_at": "2026-05-25T02:26:39.259Z"
   },
@@ -609,9 +599,7 @@
   "fiona-nash|Interim Commissioner|Australian Tertiary Education Commission|2026-01-19": "2026-05-10T02:10:32.931Z",
   "fiona-nash|Regional Education Commissioner|Australian Government|2021-12-01": "2026-05-10T02:10:32.931Z",
   "fiona-nash|Strategic Adviser, Regional Development|Charles Sturt University|2018-01-01": "2026-05-10T02:10:32.931Z",
-  "fiona-scott|Director of Policy|National Electrical and Communications Association NSW|null": {
-    "last_examined_at": "2026-05-25T00:00:00.000Z"
-  },
+  "fiona-scott|Director of Policy|National Electrical and Communications Association NSW|null": "2026-05-27T00:00:00.000Z",
   "fiona-scott|Director|National Film and Sound Archive of Australia|2017-01-01": {
     "last_examined_at": "2026-05-25T00:00:00.000Z"
   },
@@ -620,12 +608,8 @@
   },
   "fiona-scott|Executive Director Federal Government|PremierNational|2017-01-01": "2026-05-18T00:00:00.000Z",
   "fiona-scott|Federal Vice President|Liberal Party of Australia|2024-06-01": "2026-05-18T00:00:00.000Z",
-  "fiona-scott|Founder and Chief Executive Officer|Castlereagh Honey|2019-01-01": {
-    "last_examined_at": "2026-05-25T00:00:00.000Z"
-  },
-  "fiona-scott|Managing Partner|Castlereagh Advisory|2016-01-01": {
-    "last_examined_at": "2026-05-25T00:00:00.000Z"
-  },
+  "fiona-scott|Founder and Chief Executive Officer|Castlereagh Honey|2019-01-01": "2026-05-27T00:00:00.000Z",
+  "fiona-scott|Managing Partner|Castlereagh Advisory|2016-01-01": "2026-05-27T00:00:00.000Z",
   "fiona-scott|Political Commentator|Sky News Australia|2017-01-01": "2026-05-18T00:00:00.000Z",
   "frank-walker|Consultant|Asian low-cost housing project|1996-01-01": "2026-05-09T00:00:00.000Z",
   "frank-walker|Deputy President|New South Wales Mental Health Review Tribunal|null": "2026-05-09T00:00:00.000Z",
@@ -1401,15 +1385,11 @@
   "larry-anthony|Chair|National Credit Union Association|2006": {
     "last_examined_at": "2026-05-20T08:03:04.103Z"
   },
-  "larry-anthony|Chair|UniDap Solutions|null": {
-    "last_examined_at": "2026-05-20T08:03:04.103Z"
-  },
+  "larry-anthony|Chair|UniDap Solutions|null": "2026-05-27T00:00:00.000Z",
   "larry-anthony|Deputy Chair|Indue|2008-07-18": {
     "last_examined_at": "2026-05-20T08:03:04.103Z"
   },
-  "larry-anthony|Director|CertainEdge|null": {
-    "last_examined_at": "2026-05-20T08:03:04.103Z"
-  },
+  "larry-anthony|Director|CertainEdge|null": "2026-05-27T00:00:00.000Z",
   "larry-anthony|Director|Customer Owned Banking Association|2008": {
     "last_examined_at": "2026-05-20T08:03:04.103Z"
   },
@@ -1419,9 +1399,7 @@
   "larry-anthony|Director|Macquarie Media Group|2006": {
     "last_examined_at": "2026-05-20T08:03:04.103Z"
   },
-  "larry-anthony|Director|Sunwater|null": {
-    "last_examined_at": "2026-05-20T08:03:04.103Z"
-  },
+  "larry-anthony|Director|Sunwater|null": "2026-05-27T00:00:00.000Z",
   "larry-anthony|Federal President|National Party of Australia|2015-09-13": {
     "last_examined_at": "2026-05-20T08:03:04.103Z"
   },
@@ -2630,5 +2608,14 @@
   "michael-keenan|Director|Adelaide Oval|null": "2026-05-27T02:15:38.271Z",
   "murray-sainsbury|Consultant|Hindmarsh Group|null": "2026-05-27T02:15:38.271Z",
   "murray-sainsbury|Chief Executive Officer|Hindmarsh Group|1991": "2026-05-27T02:15:38.271Z",
-  "murray-sainsbury|President|Association of Former Members of the Parliament of Australia|null": "2026-05-27T02:15:38.271Z"
+  "murray-sainsbury|President|Association of Former Members of the Parliament of Australia|null": "2026-05-27T02:15:38.271Z",
+  "fiona-martin|Director|FSHD Global Research Foundation|null": "2026-05-27T00:00:00.000Z",
+  "fiona-martin|Scientific Advisory Board Member|FSHD Global Research Foundation|null": "2026-05-27T00:00:00.000Z",
+  "fiona-martin|Ambassador|Australians for Mental Health|2024-04-17": "2026-05-27T00:00:00.000Z",
+  "fiona-martin|Patron|Multicultural Disability Advocacy Association of New South Wales|null": "2026-05-27T00:00:00.000Z",
+  "fiona-martin|Special Advisor|Little Blue Dinosaur Foundation|null": "2026-05-27T00:00:00.000Z",
+  "fiona-martin|Member|National Respectful Relationships and Consent Education Expert Working Group, Department of Education|2023-01-01": "2026-05-27T00:00:00.000Z",
+  "natasha-griggs|Administrator of Christmas Island and Cocos (Keeling) Islands|Australian Government — Indian Ocean Territories Administration|2017-10-05": "2026-05-27T00:00:00.000Z",
+  "natasha-griggs|President|Chamber of Commerce Northern Territory|null": "2026-05-27T00:00:00.000Z",
+  "natasha-griggs|President|Country Liberal Party|2025-02-16": "2026-05-27T00:00:00.000Z"
 }
