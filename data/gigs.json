@@ -33489,5 +33489,207 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Chair",
+    "organisation": "Eastern Star Gas",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Anderson_(Australian_politician)",
+      "https://michaelwest.com.au/john-anderson/",
+      "https://johnandersonao.blogspot.com/2015/01/after-politics-john-anderson-ao.html",
+      "https://www.greenleft.org.au/content/which-former-mps-now-work-gas-or-coal-companies"
+    ],
+    "pollie_slug": "john-anderson",
+    "start_date": "2007-10-01",
+    "end_date": "2011-12-31"
+  },
+  {
+    "role": "Advisor",
+    "organisation": "Miro Advisors",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://johnandersonao.blogspot.com/2015/01/after-politics-john-anderson-ao.html",
+      "https://www.businessnews.com.au/Company/Miro-Advisors"
+    ],
+    "pollie_slug": "john-anderson"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Crawford Fund",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.crawfordfund.org/about/board-of-directors/board-john-anderson/",
+      "https://www.crawfordfund.org/news/news-announcing-new-crawford-fund-chair-february-2017/"
+    ],
+    "pollie_slug": "john-anderson",
+    "start_date": "2010-01-01",
+    "end_date": "2017-02-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Crawford Fund",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.crawfordfund.org/about/board-of-directors/board-john-anderson/",
+      "https://www.crawfordfund.org/news/news-announcing-new-crawford-fund-chair-february-2017/",
+      "https://www.crawfordfund.org/news/welcome-to-new-chair-and-deputy-chair/"
+    ],
+    "pollie_slug": "john-anderson",
+    "start_date": "2017-02-01",
+    "end_date": "2025-08-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Aboriginal and Torres Strait Islander Act of Recognition Review Panel",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://apo.org.au/node/251996",
+      "https://www.referendumcouncil.org.au/resource/final-report-of-the-aboriginal-and-torres-strait-islander-act-of-recognition-review-panel.html"
+    ],
+    "pollie_slug": "john-anderson",
+    "start_date": "2014-03-27",
+    "end_date": "2014-09-19"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Inland Rail Implementation Group",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.nvi.com.au/story/1938395/john-anderson-to-chair-inland-rail-group/",
+      "https://www.beefcentral.com/news/inland-rail-plan-no-white-elephant-john-anderson/"
+    ],
+    "pollie_slug": "john-anderson",
+    "start_date": "2013-11-28",
+    "end_date": "2015-08-24"
+  },
+  {
+    "role": "Podcast Host",
+    "organisation": "John Anderson Media",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://johnanderson.net.au/podcasts/",
+      "https://podcasts.apple.com/au/podcast/john-anderson-conversations/id1370741457"
+    ],
+    "pollie_slug": "john-anderson",
+    "start_date": "2018-03-01"
+  },
+  {
+    "role": "Honorary Fellow",
+    "organisation": "Australian Academy of Technology and Engineering",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://atse.org.au/who-we-are/our-fellows/all-fellows/john-anderson/"
+    ],
+    "pollie_slug": "john-anderson",
+    "start_date": "2019-01-01"
+  },
+  {
+    "role": "Advisory Board Member",
+    "organisation": "Alliance for Responsible Citizenship",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alliance_for_Responsible_Citizenship",
+      "https://www.desmog.com/alliance-for-responsible-citizenship-arc/"
+    ],
+    "pollie_slug": "john-anderson",
+    "start_date": "2023-06-01"
+  },
+  {
+    "role": "Executive Director",
+    "organisation": "Ausmusic",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-details/HANSARD-2145855009-28049",
+      "https://lotswife.com.au/peter-steedman-obituary/",
+      "https://www.gevans.org/opeds/oped259.html",
+      "https://gregdodge.wordpress.com/tag/ausmusic/"
+    ],
+    "pollie_slug": "alan-steedman",
+    "start_date": "1988-01-01",
+    "end_date": "1996-12-31"
+  },
+  {
+    "role": "Policy Adviser (Timber Industry)",
+    "organisation": "Victorian Labor Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-details/HANSARD-2145855009-28049"
+    ],
+    "pollie_slug": "alan-steedman"
+  },
+  {
+    "role": "Retired",
+    "organisation": "Retired",
+    "category": "Retired",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/wallis-laurie-george-35070",
+      "https://en.wikipedia.org/wiki/Laurie_Wallis"
+    ],
+    "pollie_slug": "laurie-wallis",
+    "start_date": "1983-02-04",
+    "end_date": "1984-01-10"
+  },
+  {
+    "role": "Secretary",
+    "organisation": "Association of Former Members of the Parliament of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/bryant-gordon-munro-18365",
+      "https://en.wikipedia.org/wiki/Gordon_Bryant"
+    ],
+    "pollie_slug": "gordon-bryant",
+    "start_date": "1980-01-01"
+  },
+  {
+    "role": "Visiting Fellow",
+    "organisation": "School of Economics, La Trobe University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://adb.anu.edu.au/biography/bryant-gordon-munro-18365",
+      "https://nla.gov.au/nla.obj-234748811/findingaid"
+    ],
+    "pollie_slug": "gordon-bryant",
+    "start_date": "1980-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Northern Metropolitan Regional Board of TAFE",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://nla.gov.au/nla.obj-234748811/findingaid"
+    ],
+    "pollie_slug": "gordon-bryant",
+    "start_date": "1980-01-01",
+    "end_date": "1989-12-31"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Territory Nationals",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://parliament.nt.gov.au/business/hansard/transcripts/listing/nest_content?target_id=346211&parent_id=358649"
+    ],
+    "pollie_slug": "stephen-calder",
+    "start_date": "1986-01-01"
+  },
+  {
+    "role": "Member",
+    "organisation": "Australian American Association of the Northern Territory",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.wikidata.org/wiki/Q7407281",
+      "https://parliament.nt.gov.au/business/hansard/transcripts/listing/nest_content?target_id=346211&parent_id=358649"
+    ],
+    "pollie_slug": "stephen-calder"
+  },
+  {
+    "role": "Pastoralist",
+    "organisation": "Narwietooma Station",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://parliament.nt.gov.au/business/hansard/transcripts/listing/nest_content?target_id=346211&parent_id=358649"
+    ],
+    "pollie_slug": "stephen-calder"
   }
 ]
