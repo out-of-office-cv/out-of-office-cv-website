@@ -23,8 +23,12 @@ const { name, division, state, party, house, leftOfficeDate, leftOfficeAgo, phot
         <img
           src={photoUrl}
           alt={`Portrait of ${name}`}
+          width="144"
+          height="180"
           class="portrait"
           loading="eager"
+          fetchpriority="high"
+          decoding="sync"
         />
       </div>
     )}

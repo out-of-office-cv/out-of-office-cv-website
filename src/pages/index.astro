@@ -1,15 +1,29 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro"
-import PollieList from "../components/PollieList.svelte"
+import DirectoryFilters from "../components/DirectoryFilters.svelte"
+import PollieDirectory from "../components/PollieDirectory.astro"
 import { getCollection } from "astro:content"
 import { getPolliesByDecade } from "../content.config"
 
 const allPollies = await getCollection("pollies")
 const polliesByDecade = getPolliesByDecade(allPollies)
+
+const decades = polliesByDecade.map((g) => g.decade)
+const stateSet = new Set<string>()
+const partySet = new Set<string>()
+for (const group of polliesByDecade) {
+  for (const p of group.pollies) {
+    if (p.state) stateSet.add(p.state)
+    if (p.party) partySet.add(p.party.trim())
+  }
+}
+const states = Array.from(stateSet).sort()
+const parties = Array.from(partySet).sort()
 ---
 
 <BaseLayout>
-  <section class="lede">
+  <h1 class="visually-hidden">Out of Office CV — directory</h1>
+  <section class="lede" aria-label="About this project">
     <p class="lede-para">
       Australia has a strong democracy, and we need to make a conscious effort
       to keep it that way. While we have systems that track our representatives
@@ -25,7 +39,11 @@ const polliesByDecade = getPolliesByDecade(allPollies)
     </p>
   </section>
 
-  <PollieList polliesByDecade={polliesByDecade} client:load />
+  <DirectoryFilters {decades} {states} {parties} client:load />
+  <PollieDirectory polliesByDecade={polliesByDecade} />
+  <p class="empty-state" hidden>
+    <em>No entries match those filters.</em>
+  </p>
 </BaseLayout>
 
 <style>
@@ -42,5 +60,13 @@ const polliesByDecade = getPolliesByDecade(allPollies)
 
   .lede-para:first-child::first-letter {
     font-weight: 600;
+  }
+
+  .empty-state {
+    font-family: var(--font-serif-stack);
+    font-size: 1.05rem;
+    color: var(--color-ink-2);
+    padding: var(--space-xl) 0;
+    max-width: var(--measure-reading);
   }
 </style>

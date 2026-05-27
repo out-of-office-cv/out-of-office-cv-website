@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro"
-import ActivityList from "../components/ActivityList.svelte"
+import ActivityFilters from "../components/ActivityFilters.svelte"
+import ActivityListServer from "../components/ActivityListServer.astro"
 import { getCollection, type CollectionEntry } from "astro:content"
 
 const events = await getCollection("activity")
@@ -21,6 +22,9 @@ const rows = events.map((e: CollectionEntry<"activity">) => ({
   by: e.data.by,
   note: e.data.note,
 }))
+
+const actions = Array.from(new Set(rows.map((r: { action: string }) => r.action))).sort() as string[]
+const bys = Array.from(new Set(rows.map((r: { by: string }) => r.by))).sort() as string[]
 ---
 
 <BaseLayout title="Activity">
@@ -33,7 +37,8 @@ const rows = events.map((e: CollectionEntry<"activity">) => ({
       auditable.
     </p>
   </section>
-  <ActivityList events={rows} client:load />
+  <ActivityFilters {actions} {bys} total={rows.length} client:load />
+  <ActivityListServer events={rows} />
 </BaseLayout>
 
 <style>

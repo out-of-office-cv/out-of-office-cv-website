@@ -13,7 +13,11 @@ const currentPath = Astro.url.pathname
     <nav aria-label="Primary">
       <ul class="nav-links">
         <li>
-          <a href="/" class:list={[{ active: currentPath === "/" }]}>
+          <a
+            href="/"
+            class:list={[{ active: currentPath === "/" }]}
+            aria-current={currentPath === "/" ? "page" : undefined}
+          >
             Directory
           </a>
         </li>
@@ -21,12 +25,17 @@ const currentPath = Astro.url.pathname
           <a
             href="/analytics"
             class:list={[{ active: currentPath === "/analytics" }]}
+            aria-current={currentPath === "/analytics" ? "page" : undefined}
           >
             Analytics
           </a>
         </li>
         <li>
-          <a href="/about" class:list={[{ active: currentPath === "/about" }]}>
+          <a
+            href="/about"
+            class:list={[{ active: currentPath === "/about" }]}
+            aria-current={currentPath === "/about" ? "page" : undefined}
+          >
             About
           </a>
         </li>
@@ -34,6 +43,7 @@ const currentPath = Astro.url.pathname
           <a
             href="/contribute"
             class:list={[{ active: currentPath === "/contribute" }]}
+            aria-current={currentPath === "/contribute" ? "page" : undefined}
           >
             Contribute
           </a>

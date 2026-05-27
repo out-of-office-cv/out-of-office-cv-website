@@ -27,13 +27,12 @@
   let startDate = $state("")
   let endDate = $state("")
 
-  let startDateValidation = $derived(startDate ? validateGigDate(startDate) : null)
-  let endDateValidation = $derived(endDate ? validateGigDate(endDate) : null)
-
   let pollieSearch = $state("")
   let pollieComboboxOpen = $state(false)
   let pollieHighlightedIndex = $state(-1)
   let formErrors = $state<Record<string, string>>({})
+
+  const DATE_PATTERN = String.raw`\d{4}(-\d{2}(-\d{2})?)?`
 
   let filteredPollies = $derived.by(() => {
     const query = pollieSearch.toLowerCase().trim()
@@ -214,14 +213,14 @@
     <div class="form-grid-two">
       <div class="form-group">
         <label for="role" class="field-label">Role <span class="required" aria-hidden="true">·</span></label>
-        <input id="role" bind:value={role} type="text" placeholder="e.g. Non-Executive Director" />
+        <input id="role" bind:value={role} type="text" required placeholder="e.g. Non-Executive Director" />
         {#if formErrors.role}
           <p class="error-text">{formErrors.role}</p>
         {/if}
       </div>
       <div class="form-group">
         <label for="organisation" class="field-label">Organisation <span class="required" aria-hidden="true">·</span></label>
-        <input id="organisation" bind:value={organisation} type="text" placeholder="e.g. Acme Corp" />
+        <input id="organisation" bind:value={organisation} type="text" required placeholder="e.g. Acme Corp" />
         {#if formErrors.organisation}
           <p class="error-text">{formErrors.organisation}</p>
         {/if}
@@ -230,7 +229,7 @@
 
     <div class="form-group">
       <label for="category" class="field-label">Category <span class="required" aria-hidden="true">·</span></label>
-      <select id="category" bind:value={category}>
+      <select id="category" bind:value={category} required>
         <option value="">Select a category…</option>
         {#each GIG_CATEGORIES as cat}
           <option value={cat}>{cat}</option>
@@ -248,13 +247,12 @@
           id="start-date"
           bind:value={startDate}
           type="text"
+          inputmode="numeric"
+          pattern={DATE_PATTERN}
           placeholder={DATE_HINT}
-          class:date-invalid={startDateValidation && !startDateValidation.valid}
-          class:date-valid={startDateValidation?.valid}
+          aria-describedby="start-date-hint"
         />
-        {#if startDateValidation && !startDateValidation.valid}
-          <p class="error-text">Not a valid date — use {DATE_HINT}</p>
-        {/if}
+        <p id="start-date-hint" class="date-hint">Not a valid date — use {DATE_HINT}</p>
         {#if formErrors.startDate}
           <p class="error-text">{formErrors.startDate}</p>
         {/if}
@@ -265,13 +263,12 @@
           id="end-date"
           bind:value={endDate}
           type="text"
+          inputmode="numeric"
+          pattern={DATE_PATTERN}
           placeholder={DATE_HINT}
-          class:date-invalid={endDateValidation && !endDateValidation.valid}
-          class:date-valid={endDateValidation?.valid}
+          aria-describedby="end-date-hint"
         />
-        {#if endDateValidation && !endDateValidation.valid}
-          <p class="error-text">Not a valid date — use {DATE_HINT}</p>
-        {/if}
+        <p id="end-date-hint" class="date-hint">Not a valid date — use {DATE_HINT}</p>
         {#if formErrors.endDate}
           <p class="error-text">{formErrors.endDate}</p>
         {/if}
@@ -283,7 +280,7 @@
       <div class="sources-list">
         {#each sources as _, index}
           <div class="source-row">
-            <input bind:value={sources[index]} type="url" placeholder="https://…" />
+            <input bind:value={sources[index]} type="url" placeholder="https://…" required />
             {#if sources.length > 1}
               <button
                 type="button"
@@ -331,6 +328,7 @@
   form {
     display: grid;
     gap: var(--space-md);
+    container-type: inline-size;
   }
 
   .form-grid-two {
@@ -339,7 +337,7 @@
     gap: var(--space-md);
   }
 
-  @media (width <= 40rem) {
+  @container (width <= 40rem) {
     .form-grid-two {
       grid-template-columns: 1fr;
     }
@@ -421,12 +419,26 @@
     justify-self: start;
   }
 
-  .date-invalid {
-    border-color: var(--color-error) !important;
+  .form-group input:user-invalid,
+  .form-group select:user-invalid {
+    border-color: var(--color-error);
   }
 
-  .date-valid {
-    border-color: var(--color-success) !important;
+  .form-group input:user-valid:not(:placeholder-shown),
+  .form-group select:user-valid {
+    border-color: var(--color-success);
+  }
+
+  .date-hint {
+    display: none;
+    font-family: var(--font-sans-stack);
+    color: var(--color-error);
+    font-size: var(--text-meta);
+    margin: 0;
+  }
+
+  .form-group:has(input:user-invalid) .date-hint {
+    display: block;
   }
 
   .error-text {

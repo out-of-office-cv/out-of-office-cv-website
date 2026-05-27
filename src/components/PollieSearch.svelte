@@ -11,15 +11,26 @@
     state: string
   }
 
-  interface Props {
-    pollies: PollieOption[]
-  }
-
-  let { pollies }: Props = $props()
-
   let inputValue = $state("")
   let open = $state(false)
   let highlightedIndex = $state(-1)
+  let pollies = $state<PollieOption[]>([])
+  let loaded = $state(false)
+  let loading = $state(false)
+
+  async function loadPollies() {
+    if (loaded || loading) return
+    loading = true
+    try {
+      const res = await fetch("/pollies-index.json")
+      if (res.ok) {
+        pollies = await res.json()
+        loaded = true
+      }
+    } finally {
+      loading = false
+    }
+  }
 
   let filtered = $derived.by(() => {
     const query = inputValue.toLowerCase().trim()
@@ -79,7 +90,7 @@
       bind:value={inputValue}
       oninput={handleInput}
       onkeydown={handleKeydown}
-      onfocusin={() => { if (inputValue.trim()) open = true }}
+      onfocusin={() => { loadPollies(); if (inputValue.trim()) open = true }}
       onfocusout={() => { setTimeout(() => open = false, 150) }}
       placeholder="Jump to another politician…"
       class="search-input"
@@ -91,30 +102,34 @@
     />
     {#if open && inputValue.trim()}
       <ul id="pollie-search-listbox" class="combobox-content" role="listbox">
-        {#each filtered as pollie, i (pollie.slug)}
-          <li
-            id={`pollie-search-option-${i}`}
-            role="option"
-            class="combobox-item"
-            class:highlighted={i === highlightedIndex}
-            aria-selected={i === highlightedIndex}
-            onmousedown={() => { window.location.href = `/pollies/${pollie.slug}` }}
-            onmouseenter={() => { highlightedIndex = i }}
-          >
-            <span class="combobox-name">{pollie.name}</span>
-            <span class="combobox-meta">
-              <span class={markerClass(pollie.party)}>{pollie.party}</span>
-              <span class={houseClass(pollie.house)}>
-                {pollie.house === "senate" ? "Senator" : "MP"}
-              </span>
-              <span class="combobox-location">
-                {pollie.division || pollie.state}{pollie.division ? `, ${pollie.state}` : ""}
-              </span>
-            </span>
-          </li>
+        {#if !loaded && loading}
+          <li class="combobox-empty">Loading…</li>
         {:else}
-          <li class="combobox-empty">No politicians found</li>
-        {/each}
+          {#each filtered as pollie, i (pollie.slug)}
+            <li
+              id={`pollie-search-option-${i}`}
+              role="option"
+              class="combobox-item"
+              class:highlighted={i === highlightedIndex}
+              aria-selected={i === highlightedIndex}
+              onmousedown={() => { window.location.href = `/pollies/${pollie.slug}` }}
+              onmouseenter={() => { highlightedIndex = i }}
+            >
+              <span class="combobox-name">{pollie.name}</span>
+              <span class="combobox-meta">
+                <span class={markerClass(pollie.party)}>{pollie.party}</span>
+                <span class={houseClass(pollie.house)}>
+                  {pollie.house === "senate" ? "Senator" : "MP"}
+                </span>
+                <span class="combobox-location">
+                  {pollie.division || pollie.state}{pollie.division ? `, ${pollie.state}` : ""}
+                </span>
+              </span>
+            </li>
+          {:else}
+            <li class="combobox-empty">No politicians found</li>
+          {/each}
+        {/if}
       </ul>
     {/if}
   </div>

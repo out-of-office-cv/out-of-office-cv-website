@@ -19,12 +19,8 @@
     index: number
   }
 
-  interface Props {
-    pollies: PollieOption[]
-    gigs: GigWithIndex[]
-  }
-
-  let { pollies, gigs }: Props = $props()
+  let pollies = $state<PollieOption[]>([])
+  let gigs = $state<GigWithIndex[]>([])
 
   let mode = $state<"add" | "verify">("add")
 
@@ -130,6 +126,15 @@
   $effect(() => {
     drafts.loadDrafts()
     auth.initAuth()
+    Promise.all([
+      fetch("/pollies-index.json").then((r) => r.json()),
+      fetch("/gigs-index.json").then((r) => r.json()),
+    ])
+      .then(([p, g]) => {
+        pollies = p
+        gigs = g
+      })
+      .catch(() => {})
   })
 </script>
 
@@ -140,11 +145,10 @@
     <div class="notice notice-warn" role="alert">{drafts.storageError}</div>
   {/if}
 
-  <div class="mode-tabs" role="tablist">
+  <div class="mode-tabs" role="group" aria-label="Contribution mode">
     <button
       type="button"
-      role="tab"
-      aria-selected={mode === "add"}
+      aria-pressed={mode === "add"}
       class="tab"
       class:active={mode === "add"}
       onclick={() => (mode = "add")}
@@ -156,8 +160,7 @@
     </button>
     <button
       type="button"
-      role="tab"
-      aria-selected={mode === "verify"}
+      aria-pressed={mode === "verify"}
       class="tab"
       class:active={mode === "verify"}
       onclick={() => (mode = "verify")}
