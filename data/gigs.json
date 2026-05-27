@@ -33256,5 +33256,155 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Administrator",
+    "organisation": "Christmas Island",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/William_Yates_(politician)",
+      "https://en.wikipedia.org/wiki/List_of_administrative_heads_of_Christmas_Island"
+    ],
+    "pollie_slug": "william-yates",
+    "start_date": "1982-05-26",
+    "end_date": "1983-08-09"
+  },
+  {
+    "role": "Doctoral Candidate",
+    "organisation": "University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/William_Yates_(politician)"
+    ],
+    "pollie_slug": "william-yates",
+    "end_date": "2003-01-01"
+  },
+  {
+    "role": "Staff Member",
+    "organisation": "Mercy Ships",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Bradford_(Australian_politician)"
+    ],
+    "pollie_slug": "john-bradford"
+  },
+  {
+    "role": "Mission Development Director",
+    "organisation": "Bible Society Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Bradford_(Australian_politician)"
+    ],
+    "pollie_slug": "john-bradford"
+  },
+  {
+    "role": "Consul-General",
+    "organisation": "Australian Consulate-General New York",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Baume",
+      "https://biography.senate.gov.au/baume-michael-ehrenfried/",
+      "https://pmtranscripts.pmc.gov.au/release/transcript-11328"
+    ],
+    "pollie_slug": "michael-baume",
+    "start_date": "1996-01-01",
+    "end_date": "2001-01-01"
+  },
+  {
+    "role": "President",
+    "organisation": "Society of Foreign Consuls",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://sofcny.com/past-presidents",
+      "https://en.wikipedia.org/wiki/Michael_Baume"
+    ],
+    "pollie_slug": "michael-baume",
+    "start_date": "1999-01-01",
+    "end_date": "2001-01-01"
+  },
+  {
+    "role": "Member",
+    "organisation": "Superannuation Complaints Tribunal",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Baume",
+      "https://biography.senate.gov.au/baume-michael-ehrenfried/",
+      "https://www.liquisearch.com/michael_baume/biography"
+    ],
+    "pollie_slug": "michael-baume",
+    "start_date": "2001-01-01"
+  },
+  {
+    "role": "Foundation Board Member",
+    "organisation": "United States Studies Centre, University of Sydney",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Baume",
+      "https://biography.senate.gov.au/baume-michael-ehrenfried/",
+      "https://www.liquisearch.com/michael_baume/biography"
+    ],
+    "pollie_slug": "michael-baume"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Sydney Symphony Orchestra",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Baume",
+      "https://biography.senate.gov.au/baume-michael-ehrenfried/",
+      "https://www.liquisearch.com/michael_baume/biography"
+    ],
+    "pollie_slug": "michael-baume"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "Australian Financial Review",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Baume",
+      "https://biography.senate.gov.au/baume-michael-ehrenfried/"
+    ],
+    "pollie_slug": "michael-baume",
+    "start_date": "2001-01-01"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "Spectator Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.spectator.com.au/author/michael-baume/",
+      "https://www.linkedin.com/in/michael-baume-79959a35/"
+    ],
+    "pollie_slug": "michael-baume"
+  },
+  {
+    "role": "Special Counsel",
+    "organisation": "Wells Haslem Strategic Public Affairs",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Baume",
+      "http://yamm.finance/wiki/Michael_Baume.html"
+    ],
+    "pollie_slug": "michael-baume"
+  },
+  {
+    "role": "Director",
+    "organisation": "Tancred Brothers",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Baume",
+      "https://biography.senate.gov.au/baume-michael-ehrenfried/"
+    ],
+    "pollie_slug": "michael-baume"
+  },
+  {
+    "role": "Director",
+    "organisation": "Rothbury Estate",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Baume",
+      "https://biography.senate.gov.au/baume-michael-ehrenfried/"
+    ],
+    "pollie_slug": "michael-baume"
   }
 ]
