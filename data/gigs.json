@@ -5874,7 +5874,11 @@
       "https://en.wikipedia.org/wiki/Peter_Lindsay"
     ],
     "pollie_slug": "peter-lindsay",
-    "start_date": "2011-01-01"
+    "start_date": "2011-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Strategic Advisor",
@@ -5884,7 +5888,12 @@
       "https://au.linkedin.com/in/hon-peter-lindsay-oam-a1881243"
     ],
     "pollie_slug": "peter-lindsay",
-    "start_date": "2011-01-01"
+    "start_date": "2011-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Role listed as 'Non Executive Director' rather than 'Strategic Advisor' in LinkedIn profile, but both terms used in search results; Wikipedia confirms 2011 appointment"
+    }
   },
   {
     "role": "Chairman",
@@ -5894,7 +5903,13 @@
       "https://www.mining-journal.com/australia/news/1167862/guildford-coal-chairman"
     ],
     "pollie_slug": "peter-lindsay",
-    "start_date": "2014-01-01"
+    "start_date": "2012-04-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Start date corrected from 2014-01-01 to 2012-04-17; end_date added as 2013-09-01. ASX announcements and financial reports confirm Peter Lindsay appointed Chairman on 17 April 2012 and resigned 1 September 2013."
+    },
+    "end_date": "2013-09-01"
   },
   {
     "role": "Senior Manager Community & Place Partner",
@@ -30253,7 +30268,12 @@
     ],
     "pollie_slug": "peter-coleman",
     "start_date": "1987-06-05",
-    "end_date": "1990-01-01"
+    "end_date": "1990-01-01",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Peter Coleman was editor of Quadrant from May 1967 to January 1990. The 1987-06-05 start date marks him as stepping into the Editor role on the day he left parliament, but he already held that position continuously from 1967. This is a pre-parliament role mistakenly tagged as a new post-parliament gig; the continuation as Contributing Editor from 1990 is captured separately."
+    }
   },
   {
     "role": "Contributing Editor",
@@ -30265,7 +30285,11 @@
     ],
     "pollie_slug": "peter-coleman",
     "start_date": "1990-01-01",
-    "end_date": "2019-03-31"
+    "end_date": "2019-03-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Columnist",
@@ -30277,7 +30301,11 @@
     ],
     "pollie_slug": "peter-coleman",
     "start_date": "2009-01-01",
-    "end_date": "2019-03-31"
+    "end_date": "2019-03-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ministerial Member",
@@ -33498,11 +33526,16 @@
       "https://en.wikipedia.org/wiki/John_Anderson_(Australian_politician)",
       "https://michaelwest.com.au/john-anderson/",
       "https://johnandersonao.blogspot.com/2015/01/after-politics-john-anderson-ao.html",
-      "https://www.greenleft.org.au/content/which-former-mps-now-work-gas-or-coal-companies"
+      "https://www.greenleft.org.au/content/which-former-mps-now-work-gas-or-coal-companies",
+      "https://www.crawfordfund.org/about/board-of-directors/board-john-anderson/"
     ],
     "pollie_slug": "john-anderson",
     "start_date": "2007-10-01",
-    "end_date": "2011-12-31"
+    "end_date": "2011-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisor",
@@ -33524,7 +33557,11 @@
     ],
     "pollie_slug": "john-anderson",
     "start_date": "2010-01-01",
-    "end_date": "2017-02-01"
+    "end_date": "2017-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -33537,7 +33574,11 @@
     ],
     "pollie_slug": "john-anderson",
     "start_date": "2017-02-01",
-    "end_date": "2025-08-01"
+    "end_date": "2025-08-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -33549,7 +33590,11 @@
     ],
     "pollie_slug": "john-anderson",
     "start_date": "2014-03-27",
-    "end_date": "2014-09-19"
+    "end_date": "2014-09-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -33561,7 +33606,11 @@
     ],
     "pollie_slug": "john-anderson",
     "start_date": "2013-11-28",
-    "end_date": "2015-08-24"
+    "end_date": "2015-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Podcast Host",
@@ -33572,17 +33621,26 @@
       "https://podcasts.apple.com/au/podcast/john-anderson-conversations/id1370741457"
     ],
     "pollie_slug": "john-anderson",
-    "start_date": "2018-03-01"
+    "start_date": "2018-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Fellow",
     "organisation": "Australian Academy of Technology and Engineering",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://atse.org.au/who-we-are/our-fellows/all-fellows/john-anderson/"
+      "https://atse.org.au/who-we-are/our-fellows/all-fellows/john-anderson/",
+      "https://www.crawfordfund.org/about/board-of-directors/board-john-anderson/"
     ],
     "pollie_slug": "john-anderson",
-    "start_date": "2019-01-01"
+    "start_date": "2019-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -33593,7 +33651,11 @@
       "https://www.desmog.com/alliance-for-responsible-citizenship-arc/"
     ],
     "pollie_slug": "john-anderson",
-    "start_date": "2023-06-01"
+    "start_date": "2023-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Director",
@@ -33636,10 +33698,15 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://oa.anu.edu.au/obituary/bryant-gordon-munro-18365",
-      "https://en.wikipedia.org/wiki/Gordon_Bryant"
+      "https://en.wikipedia.org/wiki/Gordon_Bryant",
+      "https://explore.moadoph.gov.au/people/gordon-munro-bryant"
     ],
     "pollie_slug": "gordon-bryant",
-    "start_date": "1980-01-01"
+    "start_date": "1980-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Visiting Fellow",
@@ -33650,7 +33717,11 @@
       "https://nla.gov.au/nla.obj-234748811/findingaid"
     ],
     "pollie_slug": "gordon-bryant",
-    "start_date": "1980-01-01"
+    "start_date": "1980-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -33661,7 +33732,11 @@
     ],
     "pollie_slug": "gordon-bryant",
     "start_date": "1980-01-01",
-    "end_date": "1989-12-31"
+    "end_date": "1989-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
