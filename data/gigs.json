@@ -34116,10 +34116,16 @@
     "sources": [
       "https://biography.senate.gov.au/cooney-bernard-cornelius/",
       "https://tintean.org.au/2021/01/10/barney-cooney-lawyer-and-senator-by-bernie-brophy/",
-      "https://www.openaustralia.org.au/senate/?id=2019-02-12.100.1"
+      "https://www.openaustralia.org.au/senate/?id=2019-02-12.100.1",
+      "https://en.wikipedia.org/wiki/Barney_Cooney"
     ],
     "pollie_slug": "barney-cooney",
-    "start_date": "2002-07-01"
+    "start_date": "2002-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Senate biography and Tinteán article. Cooney practised at the Victorian Bar in industrial law with pro bono cases after leaving Senate in 2002."
+    }
   },
   {
     "role": "Patron",
@@ -34130,7 +34136,12 @@
       "https://www.openaustralia.org.au/senate/?id=2019-02-12.100.1"
     ],
     "pollie_slug": "barney-cooney",
-    "start_date": "2003-01-01"
+    "start_date": "2003-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Senate biography and OpenAustralia as patron of CARE Group from 2003."
+    }
   },
   {
     "role": "Chair, advisory group",
@@ -34142,7 +34153,12 @@
     ],
     "pollie_slug": "barney-cooney",
     "start_date": "2005-01-01",
-    "end_date": "2006-12-31"
+    "end_date": "2006-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Senate biography and OpenAustralia. Cooney was appointed chair of the advisory group to the Elder Abuse Prevention Project (Victorian Government) in 2005."
+    }
   },
   {
     "role": "Patron",
@@ -34160,7 +34176,12 @@
     "sources": [
       "https://www.openaustralia.org.au/debates/?id=2019-02-13.177.1&m=419"
     ],
-    "pollie_slug": "barney-cooney"
+    "pollie_slug": "barney-cooney",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by OpenAustralia Hansard record."
+    }
   },
   {
     "role": "Group Executive for Asia and Australia",
@@ -34171,7 +34192,11 @@
       "https://shegives.com.au/story/ros-kelly-on-listening-to-womens-stories-and-the-importance-of-giving-them-a-safe-home/"
     ],
     "pollie_slug": "roslyn-kelly",
-    "start_date": "1995-01-30"
+    "start_date": "1995-01-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -34184,7 +34209,11 @@
     ],
     "pollie_slug": "roslyn-kelly",
     "start_date": "1998-01-01",
-    "end_date": "2012-12-31"
+    "end_date": "2012-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member, International Council",
@@ -34193,7 +34222,11 @@
     "sources": [
       "https://www.ovations.com.au/speakers/ros-kelly"
     ],
-    "pollie_slug": "roslyn-kelly"
+    "pollie_slug": "roslyn-kelly",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Steering Committee Member, Environment, Health and Safety",
@@ -34202,7 +34235,11 @@
     "sources": [
       "https://www.ovations.com.au/speakers/ros-kelly"
     ],
-    "pollie_slug": "roslyn-kelly"
+    "pollie_slug": "roslyn-kelly",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -34214,7 +34251,11 @@
     ],
     "pollie_slug": "roslyn-kelly",
     "start_date": "2005-01-01",
-    "end_date": "2010-12-31"
+    "end_date": "2010-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Trustee",
@@ -34224,7 +34265,11 @@
       "https://www.ovations.com.au/speakers/ros-kelly",
       "https://www.womenaustralia.info/biogs/AWE0772b.htm"
     ],
-    "pollie_slug": "roslyn-kelly"
+    "pollie_slug": "roslyn-kelly",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Committee Member",
@@ -34233,7 +34278,11 @@
     "sources": [
       "https://www.ovations.com.au/speakers/ros-kelly"
     ],
-    "pollie_slug": "roslyn-kelly"
+    "pollie_slug": "roslyn-kelly",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Committee Member",
@@ -34252,7 +34301,11 @@
       "https://www.ovations.com.au/speakers/ros-kelly",
       "https://www.womenaustralia.info/biogs/AWE0772b.htm"
     ],
-    "pollie_slug": "roslyn-kelly"
+    "pollie_slug": "roslyn-kelly",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Commissioner",
@@ -34264,7 +34317,11 @@
     ],
     "pollie_slug": "roslyn-kelly",
     "start_date": "2012-01-01",
-    "end_date": "2020-12-31"
+    "end_date": "2020-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -34274,7 +34331,11 @@
       "https://shegives.com.au/story/ros-kelly-on-listening-to-womens-stories-and-the-importance-of-giving-them-a-safe-home/",
       "https://ausi.anu.edu.au/events/inspiring-women-reflect-hon-ros-kelly-ao-conversation-hon-anna-bligh-ac-sally-capp"
     ],
-    "pollie_slug": "roslyn-kelly"
+    "pollie_slug": "roslyn-kelly",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Senior Advisor",
@@ -34284,7 +34345,11 @@
       "https://ausi.anu.edu.au/events/inspiring-women-reflect-hon-ros-kelly-ao-conversation-hon-anna-bligh-ac-sally-capp",
       "https://shegives.com.au/story/ros-kelly-on-listening-to-womens-stories-and-the-importance-of-giving-them-a-safe-home/"
     ],
-    "pollie_slug": "roslyn-kelly"
+    "pollie_slug": "roslyn-kelly",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -34295,7 +34360,11 @@
       "https://shegives.com.au/story/ros-kelly-on-listening-to-womens-stories-and-the-importance-of-giving-them-a-safe-home/"
     ],
     "pollie_slug": "roslyn-kelly",
-    "start_date": "2023-01-01"
+    "start_date": "2023-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisor",
