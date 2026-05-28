@@ -34029,5 +34029,25 @@
       "https://www.openaustralia.org.au/senate/?id=2016-10-10.111.2"
     ],
     "pollie_slug": "john-siddons"
+  },
+  {
+    "role": "Adviser in public and government relations",
+    "organisation": "Self-employed / Consultancy",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://oa.anu.edu.au/obituary/child-gloria-joan-16271",
+      "https://adb.anu.edu.au/biography/child-gloria-joan-16271"
+    ],
+    "pollie_slug": "joan-child"
+  },
+  {
+    "role": "Member, Patrons' Council",
+    "organisation": "Epilepsy Foundation of Victoria",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Joan_Child",
+      "https://oa.anu.edu.au/obituary/child-gloria-joan-16271"
+    ],
+    "pollie_slug": "joan-child"
   }
 ]
