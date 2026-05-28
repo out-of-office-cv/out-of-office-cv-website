@@ -17871,7 +17871,12 @@
     ],
     "pollie_slug": "stephen-parry",
     "start_date": "2019-02-25",
-    "end_date": "2024-10-14"
+    "end_date": "2024-10-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by multiple authoritative sources. The Examiner and Lawyers Weekly both report Stephen Parry's appointment as part-time member of the Administrative Appeals Tribunal, announced by Attorney-General Christian Porter on 2019-02-25 for a seven-year term. End date of 2024-10-14 aligns with the institutional transition when the AAT ceased operations and was replaced by the Administrative Review Tribunal."
+    }
   },
   {
     "role": "Co-founder and Owner",
@@ -17882,7 +17887,12 @@
       "https://www.examiner.com.au/story/6912123/from-senate-president-to-driving-excavators-and-distilling-gin/"
     ],
     "pollie_slug": "stephen-parry",
-    "start_date": "2018-01-01"
+    "start_date": "2018-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by The Examiner article which extensively covers Parry's co-founding of Section 44 Distillery with Andrew Patten and Raj Singh. The distillery is located in Cambridge, Tasmania and produces gin and whisky. The 2018-01-01 start date is consistent with sources indicating Parry established the distillery after losing his Senate seat in November 2017."
+    }
   },
   {
     "role": "Chair",
@@ -17894,7 +17904,12 @@
       "https://megwebb.com.au/article-parrys-heritage-job-faces-fresh-scrutiny/"
     ],
     "pollie_slug": "stephen-parry",
-    "start_date": "2026-02-11"
+    "start_date": "2026-02-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by official government announcement from Premier.tas.gov.au dated 2026-02-11, supported by corroborating news articles. Minister Madeleine Ogilvie confirmed Parry's appointment as Chair of the Tasmanian Heritage Council, noting his background in public service and governance. The position is part-time with an annual remuneration of A$35,000."
+    }
   },
   {
     "role": "Director",
@@ -33820,7 +33835,12 @@
       "https://parliament.nt.gov.au/business/hansard/transcripts/listing/nest_content?target_id=346211&parent_id=358649"
     ],
     "pollie_slug": "stephen-calder",
-    "start_date": "1986-01-01"
+    "start_date": "1986-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Parliamentary record (NT Hansard) and Wikidata confirm Calder was patron of Territory Nationals, founded 1986. Role and date (1986) are post-parliament (ceased 1980-09-19) and plausible."
+    }
   },
   {
     "role": "Member",
@@ -33830,7 +33850,12 @@
       "https://www.wikidata.org/wiki/Q7407281",
       "https://parliament.nt.gov.au/business/hansard/transcripts/listing/nest_content?target_id=346211&parent_id=358649"
     ],
-    "pollie_slug": "stephen-calder"
+    "pollie_slug": "stephen-calder",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikidata entry states Calder's 2000 Member of the Order of Australia honour was for 'service to the promotion of international relations through the Australian American Association of the Northern Territory.' Parliamentary record confirms active member. No specific start/end dates in sources but membership role is confirmed."
+    }
   },
   {
     "role": "Pastoralist",
@@ -34382,7 +34407,12 @@
     "sources": [
       "https://www.gregpiper1.com/index.cfm?module=blog&pagemode=dosearch&topic=tribute-to-kelly-joy-hoare&page_id=2496894"
     ],
-    "pollie_slug": "kelly-hoare"
+    "pollie_slug": "kelly-hoare",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Greg Piper's tribute confirms Kelly Hoare worked for him as 'a relief electorate officer and in a community engagement role for many years up until her retirement'. The role, organisation, and timeline are consistent with post-parliamentary career."
+    }
   },
   {
     "role": "President",
@@ -34391,7 +34421,12 @@
     "sources": [
       "https://www.gregpiper1.com/index.cfm?module=blog&pagemode=dosearch&topic=tribute-to-kelly-joy-hoare&page_id=2496894"
     ],
-    "pollie_slug": "kelly-hoare"
+    "pollie_slug": "kelly-hoare",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Greg Piper's tribute explicitly states she was 'president of the Toronto Tidy Towns Committee'. Confirmed post-parliamentary community leadership role."
+    }
   },
   {
     "role": "President",
@@ -34400,7 +34435,12 @@
     "sources": [
       "https://www.gregpiper1.com/index.cfm?module=blog&pagemode=dosearch&topic=tribute-to-kelly-joy-hoare&page_id=2496894"
     ],
-    "pollie_slug": "kelly-hoare"
+    "pollie_slug": "kelly-hoare",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Greg Piper's tribute explicitly states she was 'president of the Toronto Chamber of Commerce'. Confirmed post-parliamentary community leadership role in Lake Macquarie region."
+    }
   },
   {
     "role": "Admin Officer",
@@ -34428,7 +34468,12 @@
       "https://independentaustralia.net/profile-on/chris-haviland,941",
       "https://www.linkedin.com/in/chris-haviland-2a30b432/"
     ],
-    "pollie_slug": "christopher-haviland"
+    "pollie_slug": "christopher-haviland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Mathematics tutoring confirmed by Independent Australia ('self employed as a mathematics tutor'). Post-parliament timeline plausible (ceased 1996). Paired with LinkedIn source supporting identity."
+    }
   },
   {
     "role": "Leader",
@@ -34442,7 +34487,11 @@
     ],
     "pollie_slug": "graeme-campbell",
     "start_date": "1996-06-01",
-    "end_date": "2001-06-01"
+    "end_date": "2001-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Senate Candidate",
@@ -34454,8 +34503,13 @@
       "https://australiafirstparty.net/obituary-graeme-campbell-decent-man-a-patriotic-activist-gone-at-86/"
     ],
     "pollie_slug": "graeme-campbell",
-    "start_date": "2001-01-01",
-    "end_date": "2001-11-10"
+    "start_date": "2001-06-01",
+    "end_date": "2001-11-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Campbell left Australia First Party in June 2001 to stand as One Nation Senate candidate; corrected start_date from 2001-01-01 to 2001-06-01 based on Wikipedia and libmail.org.au sources."
+    }
   },
   {
     "role": "Branch Member",
@@ -34466,7 +34520,11 @@
       "https://www.libmail.org.au/post/vale-graeme-campbell-1939-2025"
     ],
     "pollie_slug": "graeme-campbell",
-    "start_date": "2021-01-01"
+    "start_date": "2021-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -34475,7 +34533,11 @@
     "sources": [
       "https://communitiesincontrol.com.au/speakers/fran-bailey"
     ],
-    "pollie_slug": "fran-bailey"
+    "pollie_slug": "fran-bailey",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -34484,7 +34546,11 @@
     "sources": [
       "https://communitiesincontrol.com.au/speakers/fran-bailey"
     ],
-    "pollie_slug": "fran-bailey"
+    "pollie_slug": "fran-bailey",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisor",
@@ -34493,7 +34559,11 @@
     "sources": [
       "https://communitiesincontrol.com.au/speakers/fran-bailey"
     ],
-    "pollie_slug": "fran-bailey"
+    "pollie_slug": "fran-bailey",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Keynote Speaker",
@@ -34502,6 +34572,10 @@
     "sources": [
       "https://www.icmi.com.au/fran-bailey/"
     ],
-    "pollie_slug": "fran-bailey"
+    "pollie_slug": "fran-bailey",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
