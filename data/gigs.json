@@ -34108,5 +34108,295 @@
       "https://oa.anu.edu.au/obituary/child-gloria-joan-16271"
     ],
     "pollie_slug": "joan-child"
+  },
+  {
+    "role": "Barrister (industrial law and pro bono practice)",
+    "organisation": "Victorian Bar",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://biography.senate.gov.au/cooney-bernard-cornelius/",
+      "https://tintean.org.au/2021/01/10/barney-cooney-lawyer-and-senator-by-bernie-brophy/",
+      "https://www.openaustralia.org.au/senate/?id=2019-02-12.100.1"
+    ],
+    "pollie_slug": "barney-cooney",
+    "start_date": "2002-07-01"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Conciliation Assistants Representing Employees Group",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/cooney-bernard-cornelius/",
+      "https://www.openaustralia.org.au/senate/?id=2019-02-12.100.1"
+    ],
+    "pollie_slug": "barney-cooney",
+    "start_date": "2003-01-01"
+  },
+  {
+    "role": "Chair, advisory group",
+    "organisation": "Elder Abuse Prevention Project (Victorian Government)",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/cooney-bernard-cornelius/",
+      "https://www.openaustralia.org.au/senate/?id=2019-02-12.100.1"
+    ],
+    "pollie_slug": "barney-cooney",
+    "start_date": "2005-01-01",
+    "end_date": "2006-12-31"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Australians for Peace in Ireland",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://tintean.org.au/2021/01/10/barney-cooney-lawyer-and-senator-by-bernie-brophy/"
+    ],
+    "pollie_slug": "barney-cooney"
+  },
+  {
+    "role": "Committee of management member",
+    "organisation": "Trades Hall Council Literary Institute",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.openaustralia.org.au/debates/?id=2019-02-13.177.1&m=419"
+    ],
+    "pollie_slug": "barney-cooney"
+  },
+  {
+    "role": "Group Executive for Asia and Australia",
+    "organisation": "Dames & Moore",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.ovations.com.au/speakers/ros-kelly",
+      "https://shegives.com.au/story/ros-kelly-on-listening-to-womens-stories-and-the-importance-of-giving-them-a-safe-home/"
+    ],
+    "pollie_slug": "roslyn-kelly",
+    "start_date": "1995-01-30"
+  },
+  {
+    "role": "Director",
+    "organisation": "Thiess Pty Ltd",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://shegives.com.au/story/ros-kelly-on-listening-to-womens-stories-and-the-importance-of-giving-them-a-safe-home/",
+      "https://ausi.anu.edu.au/events/inspiring-women-reflect-hon-ros-kelly-ao-conversation-hon-anna-bligh-ac-sally-capp",
+      "https://www.ovations.com.au/speakers/ros-kelly"
+    ],
+    "pollie_slug": "roslyn-kelly",
+    "start_date": "1998-01-01",
+    "end_date": "2012-12-31"
+  },
+  {
+    "role": "Member, International Council",
+    "organisation": "Normandy Minerals",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.ovations.com.au/speakers/ros-kelly"
+    ],
+    "pollie_slug": "roslyn-kelly"
+  },
+  {
+    "role": "Steering Committee Member, Environment, Health and Safety",
+    "organisation": "North Ltd",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.ovations.com.au/speakers/ros-kelly"
+    ],
+    "pollie_slug": "roslyn-kelly"
+  },
+  {
+    "role": "Chair",
+    "organisation": "National Breast Cancer Foundation",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://shegives.com.au/story/ros-kelly-on-listening-to-womens-stories-and-the-importance-of-giving-them-a-safe-home/",
+      "https://ausi.anu.edu.au/events/inspiring-women-reflect-hon-ros-kelly-ao-conversation-hon-anna-bligh-ac-sally-capp"
+    ],
+    "pollie_slug": "roslyn-kelly",
+    "start_date": "2005-01-01",
+    "end_date": "2010-12-31"
+  },
+  {
+    "role": "Trustee",
+    "organisation": "World Wide Fund for Nature",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.ovations.com.au/speakers/ros-kelly",
+      "https://www.womenaustralia.info/biogs/AWE0772b.htm"
+    ],
+    "pollie_slug": "roslyn-kelly"
+  },
+  {
+    "role": "Committee Member",
+    "organisation": "Clean Up Australia Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.ovations.com.au/speakers/ros-kelly"
+    ],
+    "pollie_slug": "roslyn-kelly"
+  },
+  {
+    "role": "Committee Member",
+    "organisation": "NSW Parks Services Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.ovations.com.au/speakers/ros-kelly"
+    ],
+    "pollie_slug": "roslyn-kelly"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Westpac Emergency Helicopter Service",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.ovations.com.au/speakers/ros-kelly",
+      "https://www.womenaustralia.info/biogs/AWE0772b.htm"
+    ],
+    "pollie_slug": "roslyn-kelly"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "Commonwealth War Graves Commission",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://shegives.com.au/story/ros-kelly-on-listening-to-womens-stories-and-the-importance-of-giving-them-a-safe-home/",
+      "https://ausi.anu.edu.au/events/inspiring-women-reflect-hon-ros-kelly-ao-conversation-hon-anna-bligh-ac-sally-capp"
+    ],
+    "pollie_slug": "roslyn-kelly",
+    "start_date": "2012-01-01",
+    "end_date": "2020-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Commonwealth War Graves Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://shegives.com.au/story/ros-kelly-on-listening-to-womens-stories-and-the-importance-of-giving-them-a-safe-home/",
+      "https://ausi.anu.edu.au/events/inspiring-women-reflect-hon-ros-kelly-ao-conversation-hon-anna-bligh-ac-sally-capp"
+    ],
+    "pollie_slug": "roslyn-kelly"
+  },
+  {
+    "role": "Senior Advisor",
+    "organisation": "Australian Studies Institute, Australian National University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://ausi.anu.edu.au/events/inspiring-women-reflect-hon-ros-kelly-ao-conversation-hon-anna-bligh-ac-sally-capp",
+      "https://shegives.com.au/story/ros-kelly-on-listening-to-womens-stories-and-the-importance-of-giving-them-a-safe-home/"
+    ],
+    "pollie_slug": "roslyn-kelly"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Women's Housing Company",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.womenshousingcompany.org.au/patron/",
+      "https://shegives.com.au/story/ros-kelly-on-listening-to-womens-stories-and-the-importance-of-giving-them-a-safe-home/"
+    ],
+    "pollie_slug": "roslyn-kelly",
+    "start_date": "2023-01-01"
+  },
+  {
+    "role": "Advisor",
+    "organisation": "Women On Boards UK",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://ausi.anu.edu.au/events/inspiring-women-reflect-hon-ros-kelly-ao-conversation-hon-anna-bligh-ac-sally-capp"
+    ],
+    "pollie_slug": "roslyn-kelly"
+  },
+  {
+    "role": "Relief Electorate Officer and Community Engagement Officer",
+    "organisation": "Office of Greg Piper MP (Lake Macquarie)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.gregpiper1.com/index.cfm?module=blog&pagemode=dosearch&topic=tribute-to-kelly-joy-hoare&page_id=2496894"
+    ],
+    "pollie_slug": "kelly-hoare"
+  },
+  {
+    "role": "President",
+    "organisation": "Toronto Tidy Towns Committee",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.gregpiper1.com/index.cfm?module=blog&pagemode=dosearch&topic=tribute-to-kelly-joy-hoare&page_id=2496894"
+    ],
+    "pollie_slug": "kelly-hoare"
+  },
+  {
+    "role": "President",
+    "organisation": "Toronto Chamber of Commerce",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.gregpiper1.com/index.cfm?module=blog&pagemode=dosearch&topic=tribute-to-kelly-joy-hoare&page_id=2496894"
+    ],
+    "pollie_slug": "kelly-hoare"
+  },
+  {
+    "role": "Admin Officer",
+    "organisation": "SEARCH Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.linkedin.com/in/chris-haviland-2a30b432/"
+    ],
+    "pollie_slug": "christopher-haviland"
+  },
+  {
+    "role": "Branch Councillor",
+    "organisation": "Australian Republic Movement",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.linkedin.com/in/chris-haviland-2a30b432/"
+    ],
+    "pollie_slug": "christopher-haviland"
+  },
+  {
+    "role": "Self-employed Mathematics Tutor",
+    "organisation": "Self-employed",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://independentaustralia.net/profile-on/chris-haviland,941",
+      "https://www.linkedin.com/in/chris-haviland-2a30b432/"
+    ],
+    "pollie_slug": "christopher-haviland"
+  },
+  {
+    "role": "Leader",
+    "organisation": "Australia First Party",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Graeme_Campbell_(politician)",
+      "https://en.wikipedia.org/wiki/Australia_First_Party",
+      "https://www.libmail.org.au/post/vale-graeme-campbell-1939-2025",
+      "https://australiafirstparty.net/obituary-graeme-campbell-decent-man-a-patriotic-activist-gone-at-86/"
+    ],
+    "pollie_slug": "graeme-campbell",
+    "start_date": "1996-06-01",
+    "end_date": "2001-06-01"
+  },
+  {
+    "role": "Senate Candidate",
+    "organisation": "One Nation",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Graeme_Campbell_(politician)",
+      "https://www.libmail.org.au/post/vale-graeme-campbell-1939-2025",
+      "https://australiafirstparty.net/obituary-graeme-campbell-decent-man-a-patriotic-activist-gone-at-86/"
+    ],
+    "pollie_slug": "graeme-campbell",
+    "start_date": "2001-01-01",
+    "end_date": "2001-11-10"
+  },
+  {
+    "role": "Branch Member",
+    "organisation": "Liberal Party of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Graeme_Campbell_(politician)",
+      "https://www.libmail.org.au/post/vale-graeme-campbell-1939-2025"
+    ],
+    "pollie_slug": "graeme-campbell",
+    "start_date": "2021-01-01"
   }
 ]
