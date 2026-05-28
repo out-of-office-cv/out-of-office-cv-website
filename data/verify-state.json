@@ -1974,10 +1974,10 @@
     "last_examined_at": "2026-05-20T00:00:00.000Z"
   },
   "raymond-groom|Chair|Southern Cross Care Australia|null": {
-    "last_examined_at": "2026-05-20T00:00:00.000Z"
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
   },
   "raymond-groom|Chair|Southern Cross Care Tasmania|2006-01-01": {
-    "last_examined_at": "2026-05-20T00:00:00.000Z"
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
   },
   "raymond-groom|Deputy Premier of Tasmania|Government of Tasmania|1988-11-01": {
     "last_examined_at": "2026-05-20T00:00:00.000Z"
@@ -1986,7 +1986,7 @@
     "last_examined_at": "2026-05-20T00:00:00.000Z"
   },
   "raymond-groom|Director and Deputy Chair|Southern Cross Care Tasmania|2002-02-01": {
-    "last_examined_at": "2026-05-20T00:00:00.000Z"
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
   },
   "raymond-groom|Leader of the Tasmanian Parliamentary Liberal Party|Tasmanian Liberal Party|1991-12-01": {
     "last_examined_at": "2026-05-20T00:00:00.000Z"
@@ -2066,10 +2066,16 @@
   "robert-tickner|Founding Chair|Justice Reform Initiative|2020-09-01": "2026-05-17T00:00:00Z",
   "rod-kemp|Board Member|Books Alive|null": "2026-05-07T14:08:36.532Z",
   "rod-kemp|Board Member|Collections Council of Australia|null": "2026-05-07T14:08:36.532Z",
-  "rod-kemp|Board Member|Jonathan M Shiff Productions|null": "2026-05-07T14:08:36.532Z",
-  "rod-kemp|Board Member|National Institute of Circus Arts|null": "2026-05-07T14:08:36.532Z",
+  "rod-kemp|Board Member|Jonathan M Shiff Productions|null": {
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
+  },
+  "rod-kemp|Board Member|National Institute of Circus Arts|null": {
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
+  },
   "rod-kemp|Board Member|Sport Australia Hall of Fame|null": "2026-05-01T00:00:00.000Z",
-  "rod-kemp|Board Member|Surfing Australia|null": "2026-05-07T14:08:36.532Z",
+  "rod-kemp|Board Member|Surfing Australia|null": {
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
+  },
   "rod-kemp|Chairman|Institute of Public Affairs|2008-08-01": "2026-05-01T00:00:00.000Z",
   "ronald-edwards|Chair|State Emergency Management Committee|null": "2026-05-09T14:09:44.510Z",
   "ronald-edwards|Chair|Western Australian Fishing Industry Council|null": "2026-05-09T14:09:44.510Z",
@@ -2672,5 +2678,41 @@
   "charles-blunt|Chair|Capital Trade and Policy|null": "2026-05-28T02:11:45.655Z",
   "peter-sim|President, Western Australian Branch|Australian Institute of International Affairs|1982-01-01": "2026-05-28T02:11:45.655Z",
   "peter-sim|Member of Senate|Murdoch University|1982-01-01": "2026-05-28T02:11:45.655Z",
-  "peter-sim|Board Member|Asia Research Centre, Murdoch University|1991-01-01": "2026-05-28T02:11:45.655Z"
+  "peter-sim|Board Member|Asia Research Centre, Murdoch University|1991-01-01": "2026-05-28T02:11:45.655Z",
+  "peter-walsh|Columnist (Cassandra column)|Australian Financial Review|1993-07-01": {
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
+  },
+  "peter-walsh|Author|Random House Australia|1995-01-01": {
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
+  },
+  "peter-walsh|President|Lavoisier Group|2000-03-01": {
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
+  },
+  "reginald-withers|Solicitor|Private legal practice|1987-07-11": {
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
+  },
+  "reginald-withers|Lord Mayor|City of Perth|1991": {
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
+  },
+  "reginald-withers|Delegate|1998 Australian Constitutional Convention|1998-02-02": {
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
+  },
+  "sam-dastyari|Segment Contributor ('Gutter Politics')|KIIS 106.5 (Kyle & Jackie O Show)|2018-03-01": {
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
+  },
+  "sam-dastyari|Host (Pilot)|Disgrace! (Network Ten)|2018-08-20": {
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
+  },
+  "sam-dastyari|Celebrity Contestant|I'm a Celebrity...Get Me Out of Here! (Network Ten)|2019-01-01": {
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
+  },
+  "sharryn-jackson|Accreditation Coordinator|Community Legal Western Australia|null": {
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
+  },
+  "sharryn-jackson|Executive Director|Community Legal Western Australia|null": {
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
+  },
+  "sharryn-jackson|Chair|WorkCover WA|2020-01-04": {
+    "last_examined_at": "2026-05-28T00:00:00.000Z"
+  }
 }
