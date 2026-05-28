@@ -34577,5 +34577,70 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Federal Director",
+    "organisation": "National Country Party",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://biography.senate.gov.au/neal-laurence-william/"
+    ],
+    "pollie_slug": "laurence-neal",
+    "start_date": "1981-11-01",
+    "end_date": "1982-05-01"
+  },
+  {
+    "role": "President",
+    "organisation": "National Party of Australia --- Victoria",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://biography.senate.gov.au/neal-laurence-william/"
+    ],
+    "pollie_slug": "laurence-neal",
+    "start_date": "1986-01-01",
+    "end_date": "1988-12-31"
+  },
+  {
+    "role": "Councillor",
+    "organisation": "Shire of Nathalia",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/neal-laurence-william/"
+    ],
+    "pollie_slug": "laurence-neal",
+    "start_date": "1989-01-01",
+    "end_date": "1992-12-31"
+  },
+  {
+    "role": "Anglican Deacon",
+    "organisation": "Anglican Diocese of Wangaratta",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/neal-laurence-william/"
+    ],
+    "pollie_slug": "laurence-neal",
+    "start_date": "1987-11-01"
+  },
+  {
+    "role": "President",
+    "organisation": "Wangaratta Rotary",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/neal-laurence-william/"
+    ],
+    "pollie_slug": "laurence-neal",
+    "start_date": "1997-01-01",
+    "end_date": "1998-12-31"
+  },
+  {
+    "role": "Commonwealth Parliamentary Research Fellow",
+    "organisation": "Parliament of Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/neal-laurence-william/"
+    ],
+    "pollie_slug": "laurence-neal",
+    "start_date": "1993-01-01",
+    "end_date": "1993-12-31"
   }
 ]
