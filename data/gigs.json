@@ -34467,5 +34467,41 @@
     ],
     "pollie_slug": "graeme-campbell",
     "start_date": "2021-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Animal Aid Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://communitiesincontrol.com.au/speakers/fran-bailey"
+    ],
+    "pollie_slug": "fran-bailey"
+  },
+  {
+    "role": "Director",
+    "organisation": "International Women's Federation of Commerce and Industry",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://communitiesincontrol.com.au/speakers/fran-bailey"
+    ],
+    "pollie_slug": "fran-bailey"
+  },
+  {
+    "role": "Advisor",
+    "organisation": "SME Sector",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://communitiesincontrol.com.au/speakers/fran-bailey"
+    ],
+    "pollie_slug": "fran-bailey"
+  },
+  {
+    "role": "Keynote Speaker",
+    "organisation": "ICMI Speakers",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.icmi.com.au/fran-bailey/"
+    ],
+    "pollie_slug": "fran-bailey"
   }
 ]
