@@ -7088,7 +7088,11 @@
       "https://lymph.org.au/meet-the-laq-committee/"
     ],
     "pollie_slug": "teresa-gambaro",
-    "start_date": "2016-01-01"
+    "start_date": "2016-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -7098,7 +7102,11 @@
       "https://lymph.org.au/meet-the-laq-committee/"
     ],
     "pollie_slug": "teresa-gambaro",
-    "start_date": "2018-01-01"
+    "start_date": "2018-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adjunct Professor",
@@ -7107,7 +7115,11 @@
     "sources": [
       "https://www.qut.edu.au/news?id=146310"
     ],
-    "pollie_slug": "teresa-gambaro"
+    "pollie_slug": "teresa-gambaro",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founder",
@@ -10888,11 +10900,16 @@
     "category": "Retail, Hospitality & Tourism",
     "sources": [
       "https://en.wikipedia.org/wiki/Stuart_St._Clair",
-      "https://primemovermag.com.au/stuart-st-clair-ata/"
+      "https://primemovermag.com.au/stuart-st-clair-ata/",
+      "https://www.trucksales.com.au/editorial/details/q-a-stuart-st-clair-ata-49458/"
     ],
     "pollie_slug": "stuart-st-clair",
     "start_date": "2006-03",
-    "end_date": "2015"
+    "end_date": "2015",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Adviser",
@@ -10900,7 +10917,8 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://en.wikipedia.org/wiki/Stuart_St._Clair",
-      "https://primemovermag.com.au/stuart-st-clair-ata/"
+      "https://primemovermag.com.au/stuart-st-clair-ata/",
+      "https://www.trucksales.com.au/editorial/details/q-a-stuart-st-clair-ata-49458/"
     ],
     "pollie_slug": "stuart-st-clair"
   },
@@ -10913,7 +10931,11 @@
       "https://primemovermag.com.au/stuart-st-clair-ata/"
     ],
     "pollie_slug": "stuart-st-clair",
-    "end_date": "2006-02"
+    "end_date": "2006-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Commissioner",
@@ -17643,7 +17665,12 @@
       "https://arena.gov.au/news/new-members-appointed-to-arena-board/"
     ],
     "pollie_slug": "susan-jeanes",
-    "start_date": "2018-04-18"
+    "start_date": "2016-04-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ARENA board appointment April 2016; 2018 announcement noted her as continuing member. Start date corrected."
+    }
   },
   {
     "role": "Member",
@@ -17684,7 +17711,11 @@
       "https://hiltcrc.com.au/about/people/susan-jeanes/"
     ],
     "pollie_slug": "susan-jeanes",
-    "start_date": "2023-12-01"
+    "start_date": "2023-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -30654,7 +30685,11 @@
       "https://www.centralwesterndaily.com.au/story/761106/banking-on-new-loans/"
     ],
     "pollie_slug": "sue-west",
-    "start_date": "2004-01-01"
+    "start_date": "2004-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "International Secretary",
@@ -30665,14 +30700,19 @@
     ],
     "pollie_slug": "sue-west",
     "start_date": "2002-07-01",
-    "end_date": "2014-12-31"
+    "end_date": "2014-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Reviewer",
     "organisation": "New South Wales Branch, Australian Labor Party",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Sue_West"
+      "https://en.wikipedia.org/wiki/Sue_West",
+      "https://www.centralwesterndaily.com.au/story/761106/banking-on-new-loans/"
     ],
     "pollie_slug": "sue-west",
     "start_date": "2019-01-01",
@@ -34587,7 +34627,11 @@
     ],
     "pollie_slug": "laurence-neal",
     "start_date": "1981-11-01",
-    "end_date": "1982-05-01"
+    "end_date": "1982-05-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -34598,7 +34642,11 @@
     ],
     "pollie_slug": "laurence-neal",
     "start_date": "1986-01-01",
-    "end_date": "1988-12-31"
+    "end_date": "1988-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Councillor",
@@ -34609,7 +34657,11 @@
     ],
     "pollie_slug": "laurence-neal",
     "start_date": "1989-01-01",
-    "end_date": "1992-12-31"
+    "end_date": "1992-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Anglican Deacon",
@@ -34619,7 +34671,12 @@
       "https://biography.senate.gov.au/neal-laurence-william/"
     ],
     "pollie_slug": "laurence-neal",
-    "start_date": "1987-11-01"
+    "start_date": "1987-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms ordained as Anglican minister in 1987, serving as deacon in dioceses of Wangaratta and Riverina"
+    }
   },
   {
     "role": "President",
@@ -34641,6 +34698,10 @@
     ],
     "pollie_slug": "laurence-neal",
     "start_date": "1993-01-01",
-    "end_date": "1993-12-31"
+    "end_date": "1993-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]

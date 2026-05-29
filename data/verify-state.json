@@ -2571,15 +2571,9 @@
   "susan-jeanes|Chief Executive Officer|Renewable Energy Generators of Australia|null": {
     "last_examined_at": "2026-05-12T08:02:47.782Z"
   },
-  "susan-jeanes|Director|Australian Renewable Energy Agency|2018-04-18": {
-    "last_examined_at": "2026-05-12T08:02:47.782Z"
-  },
-  "susan-jeanes|Director|Climate Institute|2008-01-01": {
-    "last_examined_at": "2026-05-12T08:02:47.782Z"
-  },
-  "susan-jeanes|Director|South Australian Environment Protection Authority|2023-12-01": {
-    "last_examined_at": "2026-05-12T08:02:47.782Z"
-  },
+  "susan-jeanes|Director|Australian Renewable Energy Agency|2018-04-18": "2026-05-29T00:00:00.000Z",
+  "susan-jeanes|Director|Climate Institute|2008-01-01": "2026-05-29T00:00:00.000Z",
+  "susan-jeanes|Director|South Australian Environment Protection Authority|2023-12-01": "2026-05-29T00:00:00.000Z",
   "susan-jeanes|Member|South Australian Premier's Climate Change Council|null": {
     "last_examined_at": "2026-05-12T08:02:47.782Z"
   },
@@ -2752,5 +2746,20 @@
   "zoe-daniel|Board Member|Eating Disorders Victoria|null": "2026-05-08T20:07:32.113Z",
   "zoe-daniel|Board Member|Women for Election|2025-08-01": "2026-05-08T20:07:32.113Z",
   "zoe-daniel|Consultant and Advocate|Alliance for Gambling Reform|null": "2026-05-08T20:07:32.113Z",
-  "zoe-daniel|Independent Chair|Mental Health Victoria|2025-08-01": "2026-05-08T20:07:32.113Z"
+  "zoe-daniel|Independent Chair|Mental Health Victoria|2025-08-01": "2026-05-08T20:07:32.113Z",
+  "laurence-neal|Federal Director|National Country Party|1981-11-01": "2026-05-29T00:00:00.000Z",
+  "laurence-neal|President|National Party of Australia --- Victoria|1986-01-01": "2026-05-29T00:00:00.000Z",
+  "laurence-neal|Councillor|Shire of Nathalia|1989-01-01": "2026-05-29T00:00:00.000Z",
+  "laurence-neal|Anglican Deacon|Anglican Diocese of Wangaratta|1987-11-01": "2026-05-29T00:00:00.000Z",
+  "laurence-neal|President|Wangaratta Rotary|1997-01-01": "2026-05-29T00:00:00.000Z",
+  "laurence-neal|Commonwealth Parliamentary Research Fellow|Parliament of Australia|1993-01-01": "2026-05-29T00:00:00.000Z",
+  "stuart-st-clair|Chief Executive Officer|Australian Trucking Association|2006-03": "2026-05-29T00:00:00.000Z",
+  "stuart-st-clair|Chief Adviser|Office of Deputy Prime Minister John Anderson|null": "2026-05-29T00:00:00.000Z",
+  "stuart-st-clair|Chief of Staff|Office of Andrew Stoner MP, NSW Nationals Leader|null": "2026-05-29T00:00:00.000Z",
+  "sue-west|Chair|Anglicare Western NSW|2004-01-01": "2026-05-29T00:00:00.000Z",
+  "sue-west|International Secretary|Australian Labor Party|2002-07-01": "2026-05-29T00:00:00.000Z",
+  "sue-west|Reviewer|New South Wales Branch, Australian Labor Party|2019-01-01": "2026-05-29T00:00:00.000Z",
+  "teresa-gambaro|Founder and Principal|Gambaro Consulting|2016-01-01": "2026-05-29T00:00:00.000Z",
+  "teresa-gambaro|President|Lymphoedema Association of Queensland|2018-01-01": "2026-05-29T00:00:00.000Z",
+  "teresa-gambaro|Adjunct Professor|QUT Business School|null": "2026-05-29T00:00:00.000Z"
 }
