@@ -35064,5 +35064,94 @@
       "https://www.marketscreener.com/quote/stock/LOGAN-COMMUNITY-FINANCIAL-120967723/news/Logan-Community-Financial-Services-Audited-Annual-Financial-Statements-30-June-2021-36554474/"
     ],
     "pollie_slug": "brett-raguse"
+  },
+  {
+    "role": "Motivational Speaker",
+    "organisation": "Pat Farmer (self-employed)",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.celebrityspeakers.com.au/speakers/pat-farmer/",
+      "https://www.patfarmer.com/about",
+      "https://www.ovations.com.au/speakers/pat-farmer"
+    ],
+    "pollie_slug": "patrick-farmer"
+  },
+  {
+    "role": "Event Ambassador",
+    "organisation": "UNICEF Australia Dusk to Dawn",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.facebook.com/UNICEFAustralia/videos/introducing-pat-farmer-as-our-dusk-to-dawn-event-ambassador/3838770919737695/",
+      "https://www.instagram.com/patfarmerathlete/p/C9OaZPgOwGn/"
+    ],
+    "pollie_slug": "patrick-farmer",
+    "start_date": "2024-11-23",
+    "end_date": "2024-11-23"
+  },
+  {
+    "role": "Ambassador",
+    "organisation": "McGrath Wollongong Running Festival",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.wollongongrunningfestival.com/ultra-marathon-runner-pat-farmer-announced-as-ambassador-for-the-2024-mcgrath-wollongong-running-festival/"
+    ],
+    "pollie_slug": "patrick-farmer",
+    "start_date": "2024-06-02",
+    "end_date": "2024-06-02"
+  },
+  {
+    "role": "Barrister",
+    "organisation": "Queen's Square Chambers",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.qsc.com.au/barristers/peter-king/",
+      "https://en.wikipedia.org/wiki/Peter_King_(Australian_politician)",
+      "https://au.linkedin.com/in/peter-king-21708043"
+    ],
+    "pollie_slug": "peter-king",
+    "start_date": "2004-10-09"
+  },
+  {
+    "role": "President of the Council",
+    "organisation": "Sydney College of Divinity",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_King_(Australian_politician)",
+      "https://www.sagotc.edu.au/news/2014-sydney-college-divinity-graduation-ceremony",
+      "https://stcyrils.edu.au/index.php/2016/02/18/st-cyrils-joins-the-scd-sydney-college-of-divinity/",
+      "https://www.zoominfo.com/p/Peter-King/9153389699"
+    ],
+    "pollie_slug": "peter-king",
+    "start_date": "2010-01-01"
+  },
+  {
+    "role": "Member of Senate",
+    "organisation": "University of Sydney",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.qsc.com.au/barristers/peter-king/",
+      "https://nswbar.asn.au/the-bar-association/publications/inbrief/view/af77f7e6a3215c1d0530174028a3f5e0"
+    ],
+    "pollie_slug": "peter-king"
+  },
+  {
+    "role": "International Commercial Arbitrator",
+    "organisation": "Xiamen Arbitration Commission",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.qsc.com.au/barristers/peter-king/"
+    ],
+    "pollie_slug": "peter-king",
+    "start_date": "2020-01-01"
+  },
+  {
+    "role": "Co-founder",
+    "organisation": "CivilDefenceNow",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_King_(Australian_politician)"
+    ],
+    "pollie_slug": "peter-king",
+    "start_date": "2017-08-01"
   }
 ]
