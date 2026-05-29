@@ -35236,5 +35236,214 @@
       "by": "claude",
       "note": "Wikipedia confirms Peter King co-founded CivilDefenceNow in 2017."
     }
+  },
+  {
+    "role": "Advocacy Advisor",
+    "organisation": "Volunteering Queensland",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.linkedin.com/in/andrewbartlett/",
+      "https://www.facebook.com/andrewbartlett1/"
+    ],
+    "pollie_slug": "andrew-bartlett",
+    "start_date": "2021"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "4ZZZ Community Radio",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Andrew_Bartlett",
+      "https://www.facebook.com/andrewbartlett1/",
+      "https://4zzz.org.au/program/bartzzz-in-the-belfry"
+    ],
+    "pollie_slug": "andrew-bartlett"
+  },
+  {
+    "role": "Announcer",
+    "organisation": "4ZZZ Community Radio",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Andrew_Bartlett",
+      "https://4zzz.org.au/program/bartzzz-in-the-belfry"
+    ],
+    "pollie_slug": "andrew-bartlett"
+  },
+  {
+    "role": "Chair",
+    "organisation": "National Wildlife Corridors Plan Advisory Group",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://ger.org.au/people/bob-debus-am/",
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22media/pressrel/859162%22"
+    ],
+    "pollie_slug": "bob-debus",
+    "start_date": "2011",
+    "end_date": "2012"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Great Eastern Ranges",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://ger.org.au/people/bob-debus-am/",
+      "https://www.wildernessaustralia.org.au/bob_board"
+    ],
+    "pollie_slug": "bob-debus"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Wilderness Australia",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.wildernessaustralia.org.au/bob_board",
+      "https://www.wildernessaustralia.org.au/our_people"
+    ],
+    "pollie_slug": "bob-debus"
+  },
+  {
+    "role": "Chair of Advisory Board",
+    "organisation": "Bushfire Research Centre of Excellence, Australian National University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://inspace.anu.edu.au/media-centre/events-and-visits/bushfire-research-centre-excellence-provides-briefing-senator-david",
+      "https://www.wildernessaustralia.org.au/bob_board"
+    ],
+    "pollie_slug": "bob-debus"
+  },
+  {
+    "role": "Director",
+    "organisation": "WaterNSW",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.waternsw.com.au/community-news/media-releases/2024/the-hon-bob-debus-am-appointed-to-waternsw-board"
+    ],
+    "pollie_slug": "bob-debus",
+    "start_date": "2024-05"
+  },
+  {
+    "role": "President",
+    "organisation": "Library Council of New South Wales",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/new-leadership-at-nsw-cultural-institutions",
+      "https://www.sl.nsw.gov.au/about/foundation/foundation-board-members/hon-bob-debus-am"
+    ],
+    "pollie_slug": "bob-debus",
+    "start_date": "2024-12"
+  },
+  {
+    "role": "Advocate",
+    "organisation": "Harm Reduction Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.harmreductionaustralia.org.au/bob-debus/"
+    ],
+    "pollie_slug": "bob-debus"
+  },
+  {
+    "role": "Director",
+    "organisation": "Doric Group",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Ellison_(politician)",
+      "https://www.businessnews.com.au/Person/Chris-Ellison-0"
+    ],
+    "pollie_slug": "chris-ellison",
+    "start_date": "2011",
+    "end_date": "2015"
+  },
+  {
+    "role": "Advisor",
+    "organisation": "Doric Jaxon Consolidated",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Chris-Ellison-0",
+      "https://en.wikipedia.org/wiki/Chris_Ellison_(politician)"
+    ],
+    "pollie_slug": "chris-ellison",
+    "start_date": "2009"
+  },
+  {
+    "role": "Chair",
+    "organisation": "North West Tourism",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Ellison_(politician)",
+      "https://www.businessnews.com.au/Person/Chris-Ellison-0"
+    ],
+    "pollie_slug": "chris-ellison",
+    "start_date": "2011",
+    "end_date": "2015"
+  },
+  {
+    "role": "Director",
+    "organisation": "Commonwealth Superannuation Corporation",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Ellison_(politician)",
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22publications/tabledpapers/e50754b6-e393-4b5e-bf03-f47ba24af500%22;src1=sm1"
+    ],
+    "pollie_slug": "chris-ellison",
+    "start_date": "2014"
+  },
+  {
+    "role": "Chair of Academic Board West",
+    "organisation": "Study Group Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.notredame.edu.au/about-us/governance/our-leadership/executive-management/chancellor",
+      "https://www.businessnews.com.au/Person/Chris-Ellison-0"
+    ],
+    "pollie_slug": "chris-ellison",
+    "start_date": "2010",
+    "end_date": "2017"
+  },
+  {
+    "role": "Governor",
+    "organisation": "University of Notre Dame Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Ellison_(politician)",
+      "https://www.businessnews.com.au/Person/Chris-Ellison-0"
+    ],
+    "pollie_slug": "chris-ellison",
+    "start_date": "2009"
+  },
+  {
+    "role": "Chancellor",
+    "organisation": "University of Notre Dame Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://therecord.com.au/news/local/the-university-of-notre-dame-welcomes-new-chancellor/",
+      "https://cathnews.com/2025/11/12/notre-dame-australia-appoints-new-chancellor/",
+      "https://www.businessnews.com.au/article/Paul-McClintock-to-succeed-Chris-Ellison-as-University-of-Notre-Dame-chancellor",
+      "https://en.wikipedia.org/wiki/Chris_Ellison_(politician)"
+    ],
+    "pollie_slug": "chris-ellison",
+    "start_date": "2018",
+    "end_date": "2025"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Trinity College Perth",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Chris-Ellison-0",
+      "https://en.wikipedia.org/wiki/Chris_Ellison_(politician)"
+    ],
+    "pollie_slug": "chris-ellison",
+    "start_date": "2010"
+  },
+  {
+    "role": "Trustee",
+    "organisation": "Special Air Service Resources Fund",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.sasresourcesfund.org.au/about-the-fund/the-board",
+      "https://www.crikey.com.au/2020/11/24/kerry-stokes-sas-resources-fund/"
+    ],
+    "pollie_slug": "chris-ellison",
+    "start_date": "2020"
   }
 ]
