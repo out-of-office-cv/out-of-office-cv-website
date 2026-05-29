@@ -34703,5 +34703,17 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Member",
+    "organisation": "Foreign Investment Review Board",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.farmonline.com.au/story/3582399/secker-appointed-to-firb/",
+      "https://ministers.treasury.gov.au/ministers/josh-frydenberg-2018/media-releases/foreign-investment-review-board-appointment"
+    ],
+    "pollie_slug": "patrick-secker",
+    "start_date": "2013-12-17",
+    "end_date": "2018-12-17"
   }
 ]
