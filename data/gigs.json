@@ -34722,11 +34722,16 @@
     "category": "Media, Communications & Public Relations",
     "sources": [
       "https://biography.senate.gov.au/ryan-susan-maree/",
-      "https://www.womenaustralia.info/biogs/AWE0025b.htm"
+      "https://www.womenaustralia.info/biogs/AWE0025b.htm",
+      "https://www.tandfonline.com/doi/full/10.1080/09612025.2025.2515792"
     ],
     "pollie_slug": "susan-ryan",
     "start_date": "1988",
-    "end_date": "1988"
+    "end_date": "1988",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Director",
@@ -34738,7 +34743,11 @@
     ],
     "pollie_slug": "susan-ryan",
     "start_date": "1989",
-    "end_date": "1989"
+    "end_date": "1989",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -34752,7 +34761,11 @@
     ],
     "pollie_slug": "susan-ryan",
     "start_date": "1993",
-    "end_date": "1997"
+    "end_date": "1997",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Pro-Chancellor and Council Member",
@@ -34766,7 +34779,11 @@
     ],
     "pollie_slug": "susan-ryan",
     "start_date": "1998",
-    "end_date": "2011"
+    "end_date": "2011",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -34779,7 +34796,11 @@
     ],
     "pollie_slug": "susan-ryan",
     "start_date": "2000",
-    "end_date": "2007"
+    "end_date": "2007",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chair",
@@ -34792,7 +34813,11 @@
     ],
     "pollie_slug": "susan-ryan",
     "start_date": "2000",
-    "end_date": "2003"
+    "end_date": "2003",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -34804,7 +34829,11 @@
     ],
     "pollie_slug": "susan-ryan",
     "start_date": "2001",
-    "end_date": "2007"
+    "end_date": "2007",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -34814,7 +34843,11 @@
       "https://www.womenaustralia.info/biogs/AWE0025b.htm"
     ],
     "pollie_slug": "susan-ryan",
-    "start_date": "2002"
+    "start_date": "2002",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -34826,7 +34859,11 @@
     ],
     "pollie_slug": "susan-ryan",
     "start_date": "2003",
-    "end_date": "2007"
+    "end_date": "2007",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -34838,7 +34875,11 @@
     ],
     "pollie_slug": "susan-ryan",
     "start_date": "2005",
-    "end_date": "2009"
+    "end_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Women's Ambassador",
@@ -34860,7 +34901,11 @@
     ],
     "pollie_slug": "susan-ryan",
     "start_date": "2008",
-    "end_date": "2011"
+    "end_date": "2011",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -34870,7 +34915,11 @@
       "https://www.womenaustralia.info/biogs/AWE0025b.htm"
     ],
     "pollie_slug": "susan-ryan",
-    "start_date": "2010"
+    "start_date": "2010",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Independent Chair",
@@ -34894,7 +34943,11 @@
     ],
     "pollie_slug": "susan-ryan",
     "start_date": "2011-07-30",
-    "end_date": "2016-07-28"
+    "end_date": "2016-07-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Disability Discrimination Commissioner",
@@ -34906,8 +34959,12 @@
       "https://biography.senate.gov.au/ryan-susan-maree/"
     ],
     "pollie_slug": "susan-ryan",
-    "start_date": "2014",
-    "end_date": "2016-07-28"
+    "start_date": "2014-07-12",
+    "end_date": "2016-07-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Distinguished Fellow",
@@ -34919,7 +34976,11 @@
     ],
     "pollie_slug": "susan-ryan",
     "start_date": "2019",
-    "end_date": "2020"
+    "end_date": "2020",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
