@@ -4172,7 +4172,12 @@
       "https://www.aald.org/aald-team-members/"
     ],
     "pollie_slug": "tony-smith",
-    "start_date": "2022-08-01"
+    "start_date": "2022-08-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Identity confirmed as Hon Tony Smith, former Speaker and member for Casey; organisation and dates verified. Official AALD page lists title as 'Executive Co-Chair' while other sources use 'Chief Executive'."
+    }
   },
   {
     "role": "Professor in the Practice of Politics",
@@ -4184,7 +4189,12 @@
     ],
     "pollie_slug": "tony-smith",
     "start_date": "2022-09-05",
-    "end_date": "2025-12-31"
+    "end_date": "2025-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Role, organisation and dates verified from official ANU and Sir Roland Wilson Foundation sources; three-year appointment Sep 2022 to Dec 2025."
+    }
   },
   {
     "role": "Patron",
@@ -4194,7 +4204,12 @@
       "https://www.rarecancers.org.au/news/former-speaker-of-the-house-appointed-as-official-patron-of-rare-cancers-australia/"
     ],
     "pollie_slug": "tony-smith",
-    "start_date": "2025-03-24"
+    "start_date": "2025-03-24",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Patron appointment at Rare Cancers Australia verified from official announcement dated 24 March 2025."
+    }
   },
   {
     "role": "Chair",
@@ -34999,11 +35014,17 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://mycitylogan.com.au/brett-raguse-throws-hat-into-mayoral-race-ring/",
-      "https://au.linkedin.com/in/brett-raguse-9b314449"
+      "https://au.linkedin.com/in/brett-raguse-9b314449",
+      "https://www.bendigobank.com.au/siteassets/branchassets/communitycompanies/logancommunityfinancialserviceslimited/investorshareholder/financialstatements/2021-annual-report.pdf"
     ],
     "pollie_slug": "brett-raguse",
     "start_date": "2010",
-    "end_date": "2013"
+    "end_date": "2013",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Manager, Community Engagement and Marketing at Logan City Council post-parliament."
+    }
   },
   {
     "role": "Director",
@@ -35011,20 +35032,32 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://livinginlogan.com.au/logan-city-news/brett-raguse-enters-mayoral-race/",
-      "https://mycitylogan.com.au/brett-raguse-throws-hat-into-mayoral-race-ring/"
+      "https://mycitylogan.com.au/brett-raguse-throws-hat-into-mayoral-race-ring/",
+      "https://www.bendigobank.com.au/siteassets/branchassets/communitycompanies/logancommunityfinancialserviceslimited/investorshareholder/financialstatements/2021-annual-report.pdf"
     ],
     "pollie_slug": "brett-raguse",
-    "start_date": "2013"
+    "start_date": "2013",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as Director of Logan Community Financial Services (Community Bank Logan) from 2013; 2021 annual report lists him as non-executive director."
+    }
   },
   {
     "role": "Company Secretary",
     "organisation": "Logan Community Financial Services (Community Bank Logan)",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.marketscreener.com/quote/stock/LOGAN-COMMUNITY-FINANCIAL-120967723/news/Logan-Community-Financial-Services-Audited-Annual-Financial-Statements-30-June-2021-36554474/"
+      "https://www.marketscreener.com/quote/stock/LOGAN-COMMUNITY-FINANCIAL-120967723/news/Logan-Community-Financial-Services-Audited-Annual-Financial-Statements-30-June-2021-36554474/",
+      "https://www.bendigobank.com.au/siteassets/branchassets/communitycompanies/logancommunityfinancialserviceslimited/investorshareholder/financialstatements/2021-annual-report.pdf"
     ],
     "pollie_slug": "brett-raguse",
-    "start_date": "2017-01-01"
+    "start_date": "2017-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "2021 annual report states he was appointed company secretary on 1 January 2017."
+    }
   },
   {
     "role": "Group Director and Auctioneer",
@@ -35033,9 +35066,15 @@
     "sources": [
       "https://www.micasarealty.com.au/profile-brett-raguse-2.aspx",
       "https://livinginlogan.com.au/logan-city-news/brett-raguse-enters-mayoral-race/",
-      "https://www.ratemyagent.com.au/real-estate-agent/brett-raguse-cb629/sales/overview"
+      "https://www.ratemyagent.com.au/real-estate-agent/brett-raguse-cb629/sales/overview",
+      "https://www.bendigobank.com.au/siteassets/branchassets/communitycompanies/logancommunityfinancialserviceslimited/investorshareholder/financialstatements/2021-annual-report.pdf"
     ],
-    "pollie_slug": "brett-raguse"
+    "pollie_slug": "brett-raguse",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "MiCasa Realty website and RateMyAgent profile confirm Group Director & Auctioneer role."
+    }
   },
   {
     "role": "Director",
@@ -35043,16 +35082,23 @@
     "category": "Science, Engineering & Technical Professions",
     "sources": [
       "https://www.zoominfo.com/p/Brett-Raguse/10689586500",
-      "https://au.linkedin.com/in/brett-raguse-5843a653"
+      "https://au.linkedin.com/in/brett-raguse-5843a653",
+      "https://www.bendigobank.com.au/siteassets/branchassets/communitycompanies/logancommunityfinancialserviceslimited/investorshareholder/financialstatements/2021-annual-report.pdf"
     ],
-    "pollie_slug": "brett-raguse"
+    "pollie_slug": "brett-raguse",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources confirm Brett Raguse holds this directorship."
+    }
   },
   {
     "role": "Member, Commercial and Industrial Committee Board",
     "organisation": "Real Estate Institute of Queensland",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.marketscreener.com/quote/stock/LOGAN-COMMUNITY-FINANCIAL-120967723/news/Logan-Community-Financial-Services-Audited-Annual-Financial-Statements-30-June-2021-36554474/"
+      "https://www.marketscreener.com/quote/stock/LOGAN-COMMUNITY-FINANCIAL-120967723/news/Logan-Community-Financial-Services-Audited-Annual-Financial-Statements-30-June-2021-36554474/",
+      "https://www.bendigobank.com.au/siteassets/branchassets/communitycompanies/logancommunityfinancialserviceslimited/investorshareholder/financialstatements/2021-annual-report.pdf"
     ],
     "pollie_slug": "brett-raguse"
   },
@@ -35061,9 +35107,15 @@
     "organisation": "Griffith University (Logan Campus)",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.marketscreener.com/quote/stock/LOGAN-COMMUNITY-FINANCIAL-120967723/news/Logan-Community-Financial-Services-Audited-Annual-Financial-Statements-30-June-2021-36554474/"
+      "https://www.marketscreener.com/quote/stock/LOGAN-COMMUNITY-FINANCIAL-120967723/news/Logan-Community-Financial-Services-Audited-Annual-Financial-Statements-30-June-2021-36554474/",
+      "https://www.bendigobank.com.au/siteassets/branchassets/communitycompanies/logancommunityfinancialserviceslimited/investorshareholder/financialstatements/2021-annual-report.pdf"
     ],
-    "pollie_slug": "brett-raguse"
+    "pollie_slug": "brett-raguse",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "2021 annual report lists him as Member of Griffith University (Logan Campus) Development Advisory Board."
+    }
   },
   {
     "role": "Motivational Speaker",
@@ -35074,7 +35126,11 @@
       "https://www.patfarmer.com/about",
       "https://www.ovations.com.au/speakers/pat-farmer"
     ],
-    "pollie_slug": "patrick-farmer"
+    "pollie_slug": "patrick-farmer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Event Ambassador",
@@ -35086,7 +35142,11 @@
     ],
     "pollie_slug": "patrick-farmer",
     "start_date": "2024-11-23",
-    "end_date": "2024-11-23"
+    "end_date": "2024-11-23",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
@@ -35097,7 +35157,11 @@
     ],
     "pollie_slug": "patrick-farmer",
     "start_date": "2024-06-02",
-    "end_date": "2024-06-02"
+    "end_date": "2024-06-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Barrister",
@@ -35109,7 +35173,11 @@
       "https://au.linkedin.com/in/peter-king-21708043"
     ],
     "pollie_slug": "peter-king",
-    "start_date": "2004-10-09"
+    "start_date": "2004-10-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President of the Council",
@@ -35122,7 +35190,12 @@
       "https://www.zoominfo.com/p/Peter-King/9153389699"
     ],
     "pollie_slug": "peter-king",
-    "start_date": "2010-01-01"
+    "start_date": "2010-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms elected president of Sydney College of Divinity in 2010; 'President of the Council' is the official title."
+    }
   },
   {
     "role": "Member of Senate",
@@ -35142,7 +35215,12 @@
       "https://www.qsc.com.au/barristers/peter-king/"
     ],
     "pollie_slug": "peter-king",
-    "start_date": "2020-01-01"
+    "start_date": "2020-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Queen's Square Chambers profile confirms appointment as international commercial arbitrator at Xiamen Arbitration Commission in 2020."
+    }
   },
   {
     "role": "Co-founder",
@@ -35152,6 +35230,11 @@
       "https://en.wikipedia.org/wiki/Peter_King_(Australian_politician)"
     ],
     "pollie_slug": "peter-king",
-    "start_date": "2017-08-01"
+    "start_date": "2017-08-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Peter King co-founded CivilDefenceNow in 2017."
+    }
   }
 ]
