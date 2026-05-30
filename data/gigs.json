@@ -4724,7 +4724,12 @@
       "https://au.linkedin.com/in/zoe-daniel",
       "https://eatingdisorders.org.au/about-us/our-people/"
     ],
-    "pollie_slug": "zoe-daniel"
+    "pollie_slug": "zoe-daniel",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "The official Eating Disorders Victoria 'Our People' page lists Emma Reid as Board Chair and other named board members, none of whom is Zoe Daniel. While she advocated for eating-disorder funding while in parliament (2023-2025), there is no evidence of a post-parliament board position."
+    }
   },
   {
     "role": "Strategic Adviser, Regional Development",
@@ -6474,7 +6479,11 @@
     ],
     "pollie_slug": "wyatt-roy",
     "start_date": "2017-01-01",
-    "end_date": "2024-12-31"
+    "end_date": "2024-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Director",
@@ -6485,7 +6494,11 @@
     ],
     "pollie_slug": "wyatt-roy",
     "start_date": "2021-01-01",
-    "end_date": "2023-06-30"
+    "end_date": "2023-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Head of Innovation",
@@ -6495,7 +6508,11 @@
       "https://www.innovationaus.com/gig-guide-wyatt-roy-heads-to-saudi-arabia/"
     ],
     "pollie_slug": "wyatt-roy",
-    "start_date": "2024-01-01"
+    "start_date": "2024-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member and Mayor of Olympic Village",
@@ -10930,7 +10947,12 @@
       "https://en.wikipedia.org/wiki/Baden_Teague",
       "https://biography.senate.gov.au/teague-baden-chapman/"
     ],
-    "pollie_slug": "baden-teague"
+    "pollie_slug": "baden-teague",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and the Senate biography confirm a post-parliamentary leadership role with the Australian Republican Movement; he was elected SA delegate to the 1998 Constitutional Convention representing the organisation."
+    }
   },
   {
     "role": "Member, Council of Governors",
@@ -10941,7 +10963,12 @@
     ],
     "pollie_slug": "baden-teague",
     "start_date": "1997",
-    "end_date": "2010"
+    "end_date": "2010",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography states he was a member of the Council of Governors of St Peter's College (1997-2010)."
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -11761,7 +11788,11 @@
     ],
     "pollie_slug": "anthony-staley",
     "start_date": "1993",
-    "end_date": "1999"
+    "end_date": "1999",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair of the Council",
@@ -11771,7 +11802,11 @@
       "https://www.canberratimes.com.au/story/8181107/former-liberal-president-tony-staley-dies-aged-83/"
     ],
     "pollie_slug": "anthony-staley",
-    "start_date": "2000"
+    "start_date": "2000",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -14466,7 +14501,11 @@
       "https://newsletters.twgs.qld.edu.au/newsletters/the-blue-and-gold-friday-13-june-2025"
     ],
     "pollie_slug": "barry-osullivan",
-    "start_date": "2023-07-01"
+    "start_date": "2023-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board member",
@@ -14475,7 +14514,12 @@
     "sources": [
       "https://www.newlands.com.au/our-team/barry-osullivan/"
     ],
-    "pollie_slug": "barry-osullivan"
+    "pollie_slug": "barry-osullivan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2023-06-15"
   },
   {
     "role": "Author",
@@ -20100,7 +20144,12 @@
       "https://cannabislaw.report/australia-australian-medical-cannabis-signpost-documents-the-murky-world-of-cannabis-legislation-down-under/"
     ],
     "pollie_slug": "andrew-southcott",
-    "start_date": "2016-12-23"
+    "start_date": "2016-12-23",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Southcott was announced (Dec 2016) to chair the council, but the inaugural meeting on 7 April 2017 was chaired by Professor James Angus AO. Records from 2017 onward identify Angus, not Southcott, as chair."
+    }
   },
   {
     "role": "General Practitioner",
@@ -20112,7 +20161,11 @@
       "https://www.ausdoc.com.au/news/road-less-travelled-dr-southcotts-journey-federal-mp-gp/"
     ],
     "pollie_slug": "andrew-southcott",
-    "start_date": "2018"
+    "start_date": "2018",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Consultant",
@@ -22591,9 +22644,15 @@
     "sources": [
       "https://www.sydneycommunitycollege.edu.au/tutor/15060",
       "https://independent.academia.edu/AndrewTheophanous",
-      "https://www.zoominfo.com/p/Andrew-Theophanous/-1531459573"
+      "https://www.zoominfo.com/p/Andrew-Theophanous/-1531459573",
+      "https://www.linkedin.com/in/dr-andrew-theophanous-72807b67/",
+      "https://rocketreach.co/andrew-theophanous-email_103091530"
     ],
-    "pollie_slug": "andrew-theophanous"
+    "pollie_slug": "andrew-theophanous",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Consultant on Multiculturalism",
@@ -22603,7 +22662,11 @@
       "https://www.zoominfo.com/p/Andrew-Theophanous/-1531459573",
       "https://www.sydneycommunitycollege.edu.au/tutor/15060"
     ],
-    "pollie_slug": "andrew-theophanous"
+    "pollie_slug": "andrew-theophanous",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adviser",
@@ -33886,7 +33949,11 @@
     ],
     "pollie_slug": "alan-steedman",
     "start_date": "1988-01-01",
-    "end_date": "1996-12-31"
+    "end_date": "1996-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Policy Adviser (Timber Industry)",
