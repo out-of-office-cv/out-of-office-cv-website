@@ -35755,5 +35755,65 @@
     ],
     "pollie_slug": "colin-mason",
     "start_date": "1987"
+  },
+  {
+    "role": "Associate",
+    "organisation": "Crossbench Connect",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://au.linkedin.com/in/peter-georgiou-94aa874a"
+    ],
+    "pollie_slug": "peter-georgiou"
+  },
+  {
+    "role": "Columnist and Contributor",
+    "organisation": "The Guardian Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://muckrack.com/scott-ludlam",
+      "https://www.griffithreview.com/contributors/scott-ludlam/",
+      "https://keywiki.org/Scott_Ludlam"
+    ],
+    "pollie_slug": "scott-ludlam"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Progressive International",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://progressive.international/council/",
+      "https://keywiki.org/Scott_Ludlam"
+    ],
+    "pollie_slug": "scott-ludlam"
+  },
+  {
+    "role": "Author",
+    "organisation": "Black Inc.",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.goodreads.com/book/show/57427603-full-circle",
+      "https://www.booktopia.com.au/full-circle-scott-ludlam/book/9781760640835.html",
+      "https://overland.org.au/2021/05/extract-from-full-circle-a-search-for-the-world-that-comes-next/"
+    ],
+    "pollie_slug": "scott-ludlam",
+    "start_date": "2021-05-04"
+  },
+  {
+    "role": "Contributor",
+    "organisation": "Arena",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://arena.org.au/arena-author/scott-ludlam/"
+    ],
+    "pollie_slug": "scott-ludlam"
+  },
+  {
+    "role": "Contributor",
+    "organisation": "Griffith Review",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.griffithreview.com/contributors/scott-ludlam/"
+    ],
+    "pollie_slug": "scott-ludlam"
   }
 ]
