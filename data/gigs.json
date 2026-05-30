@@ -35525,5 +35525,177 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Director of Development",
+    "organisation": "University of Queensland",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Macklin",
+      "https://biography.senate.gov.au/macklin-michael-john/"
+    ],
+    "pollie_slug": "michael-macklin",
+    "start_date": "1991-01-01",
+    "end_date": "1994-12-31"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Hall Chadwick Education Advisory",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Macklin",
+      "https://biography.senate.gov.au/macklin-michael-john/"
+    ],
+    "pollie_slug": "michael-macklin",
+    "start_date": "1994-01-01"
+  },
+  {
+    "role": "Member",
+    "organisation": "Queensland Land and Resources Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Macklin"
+    ],
+    "pollie_slug": "michael-macklin"
+  },
+  {
+    "role": "Member",
+    "organisation": "National Native Title Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Macklin"
+    ],
+    "pollie_slug": "michael-macklin"
+  },
+  {
+    "role": "Executive Dean, Faculty of Arts, Humanities and Social Sciences",
+    "organisation": "University of New England",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Macklin",
+      "https://biography.senate.gov.au/macklin-michael-john/"
+    ],
+    "pollie_slug": "michael-macklin",
+    "start_date": "2002-06-01",
+    "end_date": "2006-12-31"
+  },
+  {
+    "role": "Investment Banking Group (public-private partnerships)",
+    "organisation": "Macquarie Bank",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ross_Cameron"
+    ],
+    "pollie_slug": "ross-cameron",
+    "start_date": "2004",
+    "end_date": "2008"
+  },
+  {
+    "role": "Founder and Director",
+    "organisation": "MyATM",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ross_Cameron",
+      "https://alchetron.com/Ross-Cameron"
+    ],
+    "pollie_slug": "ross-cameron",
+    "start_date": "2010"
+  },
+  {
+    "role": "Director",
+    "organisation": "Aussie ATM",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ross_Cameron",
+      "https://alchetron.com/Ross-Cameron"
+    ],
+    "pollie_slug": "ross-cameron",
+    "start_date": "2010"
+  },
+  {
+    "role": "Director",
+    "organisation": "My ATM New Zealand",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ross_Cameron"
+    ],
+    "pollie_slug": "ross-cameron",
+    "start_date": "2010"
+  },
+  {
+    "role": "Presenter and Commentator",
+    "organisation": "Sky News Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ross_Cameron",
+      "https://www.sbs.com.au/news/sky-news-host-ross-cameron-fired-after-racist-comments"
+    ],
+    "pollie_slug": "ross-cameron",
+    "start_date": "2013",
+    "end_date": "2018"
+  },
+  {
+    "role": "Speaker and Advisory Board Member",
+    "organisation": "CPAC Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.cpac.network/speakers-2020/ross_cameron"
+    ],
+    "pollie_slug": "ross-cameron"
+  },
+  {
+    "role": "President",
+    "organisation": "Libertarian Party New South Wales",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ross_Cameron",
+      "https://x.com/LibertariansNSW/status/1964977808993628226"
+    ],
+    "pollie_slug": "ross-cameron",
+    "start_date": "2023"
+  },
+  {
+    "role": "Managing Director",
+    "organisation": "All Points North Advisory",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.crikey.com.au/2017/01/09/ewen-jones-has-started-his-own-advisory-firm/",
+      "https://www.zoominfo.com/p/Ewen-Jones/9150432429"
+    ],
+    "pollie_slug": "ewen-jones",
+    "start_date": "2017"
+  },
+  {
+    "role": "Business Development Manager",
+    "organisation": "Pickerings Auto Group",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.zoominfo.com/p/Ewen-Jones/9150432429"
+    ],
+    "pollie_slug": "ewen-jones"
+  },
+  {
+    "role": "Sales Team Lead",
+    "organisation": "Golf World Townsville",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://au.linkedin.com/in/ewen-jones-98b0254a",
+      "https://www.zoominfo.com/p/Ewen-Jones/9150432429"
+    ],
+    "pollie_slug": "ewen-jones"
+  },
+  {
+    "role": "Author",
+    "organisation": "Self-employed (independent author)",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://biography.senate.gov.au/mason-colin-victor-james/",
+      "https://en.wikipedia.org/wiki/Colin_Mason",
+      "https://www.mediaweek.com.au/farewell-colin-mason-the-abcs-first-man-in-asia/",
+      "https://www.pittwateronlinenews.com/Colin-Victor-James-Mason-1926-2020-Profile.php",
+      "https://www.routledge.com/The-2030-Spike-Countdown-to-Global-Catastrophe/Mason/p/book/9781138384095"
+    ],
+    "pollie_slug": "colin-mason",
+    "start_date": "1987"
   }
 ]
