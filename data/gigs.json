@@ -30434,7 +30434,12 @@
     "sources": [
       "https://www.businessnews.com.au/Person/Alan-Eggleston"
     ],
-    "pollie_slug": "alan-eggleston"
+    "pollie_slug": "alan-eggleston",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Alan Eggleston was a member of the Pilbara Development Commission 1994-1996, BEFORE his Senate service (1996-2014) - a pre-parliamentary role as a Port Hedland medical practitioner. The BusinessNews claim of a post-2014 \"Ministerial Member\" position cannot be verified: the official PDC board page does not list him, Wikipedia has no mention, and his valedictory speech references only Murdoch University. Rejected as a pre-parliament role mistakenly tagged post-parliament."
+    }
   },
   {
     "role": "Senior Member",
@@ -35242,11 +35247,15 @@
     "organisation": "Volunteering Queensland",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.linkedin.com/in/andrewbartlett/",
-      "https://www.facebook.com/andrewbartlett1/"
+      "https://www.linkedin.com/in/andrewbartlett/"
     ],
     "pollie_slug": "andrew-bartlett",
-    "start_date": "2021"
+    "start_date": "2021",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via Volunteering Queensland as Policy & Advocacy Advisor since 2021; post-dates Senate departure."
+    }
   },
   {
     "role": "Board Member",
@@ -35257,7 +35266,12 @@
       "https://www.facebook.com/andrewbartlett1/",
       "https://4zzz.org.au/program/bartzzz-in-the-belfry"
     ],
-    "pollie_slug": "andrew-bartlett"
+    "pollie_slug": "andrew-bartlett",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via Wikipedia and 4ZZZ; served as Chair of 4ZZZ Board 2014-2017, later Secretary."
+    }
   },
   {
     "role": "Announcer",
@@ -35267,7 +35281,12 @@
       "https://en.wikipedia.org/wiki/Andrew_Bartlett",
       "https://4zzz.org.au/program/bartzzz-in-the-belfry"
     ],
-    "pollie_slug": "andrew-bartlett"
+    "pollie_slug": "andrew-bartlett",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via 4ZZZ; hosts 'Bartzzz in the Belfry', reappeared July 2008 onward."
+    }
   },
   {
     "role": "Chair",
@@ -35279,7 +35298,11 @@
     ],
     "pollie_slug": "bob-debus",
     "start_date": "2011",
-    "end_date": "2012"
+    "end_date": "2012",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -35289,7 +35312,11 @@
       "https://ger.org.au/people/bob-debus-am/",
       "https://www.wildernessaustralia.org.au/bob_board"
     ],
-    "pollie_slug": "bob-debus"
+    "pollie_slug": "bob-debus",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -35299,7 +35326,11 @@
       "https://www.wildernessaustralia.org.au/bob_board",
       "https://www.wildernessaustralia.org.au/our_people"
     ],
-    "pollie_slug": "bob-debus"
+    "pollie_slug": "bob-debus",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair of Advisory Board",
@@ -35309,7 +35340,11 @@
       "https://inspace.anu.edu.au/media-centre/events-and-visits/bushfire-research-centre-excellence-provides-briefing-senator-david",
       "https://www.wildernessaustralia.org.au/bob_board"
     ],
-    "pollie_slug": "bob-debus"
+    "pollie_slug": "bob-debus",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -35319,7 +35354,11 @@
       "https://www.waternsw.com.au/community-news/media-releases/2024/the-hon-bob-debus-am-appointed-to-waternsw-board"
     ],
     "pollie_slug": "bob-debus",
-    "start_date": "2024-05"
+    "start_date": "2024-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -35330,7 +35369,11 @@
       "https://www.sl.nsw.gov.au/about/foundation/foundation-board-members/hon-bob-debus-am"
     ],
     "pollie_slug": "bob-debus",
-    "start_date": "2024-12"
+    "start_date": "2024-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advocate",
@@ -35347,11 +35390,16 @@
     "category": "Science, Engineering & Technical Professions",
     "sources": [
       "https://en.wikipedia.org/wiki/Chris_Ellison_(politician)",
-      "https://www.businessnews.com.au/Person/Chris-Ellison-0"
+      "https://www.businessnews.com.au/Person/Chris-Ellison-0",
+      "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=9X5"
     ],
     "pollie_slug": "chris-ellison",
     "start_date": "2011",
-    "end_date": "2015"
+    "end_date": "2015",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisor",
@@ -35359,10 +35407,15 @@
     "category": "Science, Engineering & Technical Professions",
     "sources": [
       "https://www.businessnews.com.au/Person/Chris-Ellison-0",
-      "https://en.wikipedia.org/wiki/Chris_Ellison_(politician)"
+      "https://en.wikipedia.org/wiki/Chris_Ellison_(politician)",
+      "https://www.businessnews.com.au/article/DJC-links-Doric-and-Jaxon"
     ],
     "pollie_slug": "chris-ellison",
-    "start_date": "2009"
+    "start_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -35374,7 +35427,11 @@
     ],
     "pollie_slug": "chris-ellison",
     "start_date": "2011",
-    "end_date": "2015"
+    "end_date": "2015",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -35382,10 +35439,15 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://en.wikipedia.org/wiki/Chris_Ellison_(politician)",
-      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22publications/tabledpapers/e50754b6-e393-4b5e-bf03-f47ba24af500%22;src1=sm1"
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22publications/tabledpapers/e50754b6-e393-4b5e-bf03-f47ba24af500%22;src1=sm1",
+      "https://www.transparency.gov.au/publications/finance/commonwealth-superannuation-corporation-csc/commonwealth-superannuation-corporation-annual-report-2020-21/3.-our-board-of-directors/our-board-members-in-2020%E2%80%9321"
     ],
     "pollie_slug": "chris-ellison",
-    "start_date": "2014"
+    "start_date": "2014",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair of Academic Board West",
@@ -35397,7 +35459,12 @@
     ],
     "pollie_slug": "chris-ellison",
     "start_date": "2010",
-    "end_date": "2017"
+    "end_date": "2017",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Role title confirmed in web search as 'Chair of Academic Board West for Study Group Australia', dates 2010-2017 confirmed."
+    }
   },
   {
     "role": "Governor",
@@ -35408,7 +35475,11 @@
       "https://www.businessnews.com.au/Person/Chris-Ellison-0"
     ],
     "pollie_slug": "chris-ellison",
-    "start_date": "2009"
+    "start_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chancellor",
@@ -35422,7 +35493,12 @@
     ],
     "pollie_slug": "chris-ellison",
     "start_date": "2018",
-    "end_date": "2025"
+    "end_date": "2025",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Term end date is technically 31 December 2025 (Paul McClintock took office 1 January 2026), so 2025 is correct."
+    }
   },
   {
     "role": "Deputy Chair",
@@ -35444,6 +35520,10 @@
       "https://www.crikey.com.au/2020/11/24/kerry-stokes-sas-resources-fund/"
     ],
     "pollie_slug": "chris-ellison",
-    "start_date": "2020"
+    "start_date": "2020",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
