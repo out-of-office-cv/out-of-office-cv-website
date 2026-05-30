@@ -35956,5 +35956,74 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Councillor",
+    "organisation": "Maroondah City Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mike_Symon",
+      "https://www.miragenews.com/new-mayor-cr-mike-symon-to-lead-council-for-671222/",
+      "https://www.tallyroom.com.au/archive/viccouncil2024/maroondah2024"
+    ],
+    "pollie_slug": "mike-symon",
+    "start_date": "2016-10-22"
+  },
+  {
+    "role": "Deputy Mayor",
+    "organisation": "Maroondah City Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mike_Symon"
+    ],
+    "pollie_slug": "mike-symon",
+    "start_date": "2017-01-01",
+    "end_date": "2018-12-31"
+  },
+  {
+    "role": "Mayor",
+    "organisation": "Maroondah City Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mike_Symon",
+      "https://www.miragenews.com/new-mayor-cr-mike-symon-to-lead-council-for-671222/",
+      "https://www.councilnews.com.au/2021/12/17860261-a-christmas-message-from-our-mayor-councillor-mike-symon"
+    ],
+    "pollie_slug": "mike-symon",
+    "start_date": "2019-01-01",
+    "end_date": "2022-11-09"
+  },
+  {
+    "role": "Administrator",
+    "organisation": "Australian Labor Party Tasmanian Branch",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.alp.org.au/national-secretary-media/2200729-national-executive-oversight-of-the-tasmanian-branch-of-the-alp/",
+      "https://en.wikipedia.org/wiki/Doug_Cameron_(politician)"
+    ],
+    "pollie_slug": "douglas-cameron",
+    "start_date": "2022-07-29"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "People's Commission into the Housing Crisis",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.miragenews.com/national-dialogue-sparks-on-housing-crisis-1240939/",
+      "https://www.sydney.edu.au/news-opinion/news/2024/05/23/everybody-s-home--national-conversation-about-the-housing-crisis.html",
+      "https://everybodyshome.com.au/peoples-commission/commissioners/"
+    ],
+    "pollie_slug": "douglas-cameron",
+    "start_date": "2024-05-23"
+  },
+  {
+    "role": "National Patron",
+    "organisation": "Labor Against War",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://x.com/LabAgainstWar/status/1890692988466069925",
+      "https://www.facebook.com/LabAgainstWar/posts/labor-against-war-national-patron-doug-cameron-will-deliver-the-annual-laurie-ca/713747105021589/"
+    ],
+    "pollie_slug": "douglas-cameron"
   }
 ]
