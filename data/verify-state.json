@@ -18,6 +18,9 @@
   "alan-cadman|Chair|Life Education NSW|null": "2026-05-11T08:04:31.657Z",
   "alan-cadman|Director|Parramatta Chamber of Commerce|null": "2026-05-11T08:04:31.657Z",
   "alan-cadman|Patron|Western Sydney Awards for Business Excellence|null": "2026-05-11T08:04:31.657Z",
+  "alan-eggleston|Ministerial Member|Pilbara Development Commission|null": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
   "alan-griffin|Advisor|E-CommSys|null": "2026-05-22T00:00:00.000Z",
   "alan-griffin|Council Member|Victorian Institute of Technology|null": "2026-05-22T00:00:00.000Z",
   "alan-griffin|Special Counsel|The Civic Partnership|2022-04-07": "2026-05-22T00:00:00.000Z",
@@ -65,6 +68,15 @@
   "amanda-vanstone|Member|Referendum Council|2015-12-07": "2026-05-14T02:05:12.947Z",
   "amanda-vanstone|Opinion Columnist|The Age|null": "2026-05-14T02:05:12.947Z",
   "amanda-vanstone|Presenter|Australian Broadcasting Corporation Radio National Counterpoint|2013-01-01": "2026-05-14T02:05:12.947Z",
+  "andrew-bartlett|Advocacy Advisor|Volunteering Queensland|2021": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "andrew-bartlett|Announcer|4ZZZ Community Radio|null": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "andrew-bartlett|Board Member|4ZZZ Community Radio|null": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
   "andrew-murray|Chair|Western Australian Regional Development Trust|2010-07-01": "2026-05-16T02:04:22.835Z",
   "andrew-murray|Commissioner|Royal Commission into Institutional Responses to Child Sexual Abuse|2013-01-11": "2026-05-16T02:04:22.835Z",
   "andrew-murray|Expert Panel Member|Parliamentary Budget Office|null": "2026-05-16T02:04:22.835Z",
@@ -257,12 +269,54 @@
   "bob-collins|Independent Reviewer, Indigenous Education|Northern Territory Department of Education|1998-01-01": "2026-05-19T00:00:00.000Z",
   "bob-collins|Panel Member, Review of Aboriginal and Torres Strait Islander Commission|Commonwealth of Australia|2002-11-12": "2026-05-19T00:00:00.000Z",
   "bob-collins|Service Delivery Coordinator, Anangu Pitjantjatjara Yankunytjatjara Lands|Government of South Australia|2004-03-01": "2026-05-19T00:00:00.000Z",
+  "bob-debus|Advocate|Harm Reduction Australia|null": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "bob-debus|Chair of Advisory Board|Bushfire Research Centre of Excellence, Australian National University|null": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "bob-debus|Chair|Great Eastern Ranges|null": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "bob-debus|Chair|National Wildlife Corridors Plan Advisory Group|2011": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "bob-debus|Chair|Wilderness Australia|null": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "bob-debus|Director|WaterNSW|2024-05": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "bob-debus|President|Library Council of New South Wales|2024-12": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
   "brett-mason|Adjunct Professor, School of Justice|Queensland University of Technology|null": "2026-05-01T12:07:07.849Z",
   "brett-mason|Ambassador to the Netherlands|Australian Government|2015-09-02": "2026-05-01T12:07:07.849Z",
   "brett-mason|Chair, Council of the National Library of Australia|National Library of Australia|2018-08-09": "2026-05-01T12:07:07.849Z",
   "brett-mason|Council Member|Australian National University|null": "2026-05-01T12:07:07.849Z",
   "brett-mason|Council Member|Griffith University|null": "2026-05-01T12:07:07.849Z",
   "brett-mason|Permanent Representative to the Organisation for the Prohibition of Chemical Weapons|Australian Government|2015-09-02": "2026-05-01T12:07:07.849Z",
+  "brett-raguse|Company Secretary|Logan Community Financial Services (Community Bank Logan)|2017-01-01": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "brett-raguse|Director|Endeavour Refrigeration and Appliance Service|null": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "brett-raguse|Director|Logan Community Financial Services (Community Bank Logan)|2013": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "brett-raguse|Group Director and Auctioneer|MiCasa Realty|null": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "brett-raguse|Manager, Community Engagement and Marketing|Logan City Council|2010": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "brett-raguse|Member, Commercial and Industrial Committee Board|Real Estate Institute of Queensland|null": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "brett-raguse|Member, Development Advisory Board|Griffith University (Logan Campus)|null": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
   "brian-greig|Chair|Busselton Pride Alliance|null": "2026-05-11T08:04:31.657Z",
   "brian-greig|Communications Manager|Real Estate Institute of Western Australia|null": "2026-05-11T08:04:31.657Z",
   "brian-greig|Media Operations Officer|Anglicare WA|null": "2026-05-11T08:04:31.657Z",
@@ -325,6 +379,33 @@
   "cheryl-kernot|Director of Learning|School for Social Entrepreneurs|null": "2026-05-06T20:06:50.524Z",
   "cheryl-kernot|Director of Social Business, Centre for Social Impact|University of New South Wales|null": "2026-05-06T20:06:50.524Z",
   "cheryl-kernot|Programme Director, Skoll Centre for Social Entrepreneurs|Saïd Business School, University of Oxford|2002-01-01": "2026-05-06T20:06:50.524Z",
+  "chris-ellison|Advisor|Doric Jaxon Consolidated|2009": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "chris-ellison|Chair of Academic Board West|Study Group Australia|2010": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "chris-ellison|Chair|North West Tourism|2011": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "chris-ellison|Chancellor|University of Notre Dame Australia|2018": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "chris-ellison|Deputy Chair|Trinity College Perth|2010": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "chris-ellison|Director|Commonwealth Superannuation Corporation|2014": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "chris-ellison|Director|Doric Group|2011": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "chris-ellison|Governor|University of Notre Dame Australia|2009": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "chris-ellison|Trustee|Special Air Service Resources Fund|2020": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
   "chris-evans|Australian Anti-Slavery Commissioner|Office of the Australian Anti-Slavery Commissioner|2024-12-02": "2026-05-09T20:07:03.026Z",
   "chris-evans|Chief Executive Officer|Global Freedom Network (Walk Free)|null": "2026-05-09T20:07:03.026Z",
   "chris-evans|Strategic Engagement Lead|Walk Free|2016": "2026-05-09T20:07:03.026Z",
@@ -633,6 +714,9 @@
   "eoin-cameron|Breakfast Presenter|6PR|null": "2026-05-07T02:06:18.773Z",
   "eoin-cameron|Breakfast Presenter|Australian Broadcasting Corporation|null": "2026-05-07T02:06:18.773Z",
   "eoin-cameron|Radio Presenter|6NR|null": "2026-05-07T02:06:18.773Z",
+  "ewen-jones|Business Development Manager|Pickerings Auto Group|null": "2026-05-30T08:28:24.718Z",
+  "ewen-jones|Managing Director|All Points North Advisory|2017": "2026-05-30T08:28:24.718Z",
+  "ewen-jones|Sales Team Lead|Golf World Townsville|null": "2026-05-30T08:28:24.718Z",
   "fiona-martin|Ambassador|Australians for Mental Health|2024-04-17": "2026-05-27T00:00:00.000Z",
   "fiona-martin|Director|FSHD Global Research Foundation|null": "2026-05-27T00:00:00.000Z",
   "fiona-martin|Member|National Respectful Relationships and Consent Education Expert Working Group, Department of Education|2023-01-01": "2026-05-27T00:00:00.000Z",
@@ -1583,6 +1667,12 @@
   "larry-anthony|Senior Vice President|National Party of Australia|2006": {
     "last_examined_at": "2026-05-20T08:03:04.103Z"
   },
+  "laurence-neal|Anglican Deacon|Anglican Diocese of Wangaratta|1987-11-01": "2026-05-29T00:00:00.000Z",
+  "laurence-neal|Commonwealth Parliamentary Research Fellow|Parliament of Australia|1993-01-01": "2026-05-29T00:00:00.000Z",
+  "laurence-neal|Councillor|Shire of Nathalia|1989-01-01": "2026-05-29T00:00:00.000Z",
+  "laurence-neal|Federal Director|National Country Party|1981-11-01": "2026-05-29T00:00:00.000Z",
+  "laurence-neal|President|National Party of Australia --- Victoria|1986-01-01": "2026-05-29T00:00:00.000Z",
+  "laurence-neal|President|Wangaratta Rotary|1997-01-01": "2026-05-29T00:00:00.000Z",
   "laurie-brereton|Chair|Beelgara Estate|null": "2026-05-06T00:00:00Z",
   "laurie-brereton|Chair|Cumulus Wines|null": "2026-05-06T00:00:00Z",
   "laurie-brereton|Chair|Kimberley Foundation Australia|null": "2026-05-06T00:00:00Z",
@@ -1919,6 +2009,11 @@
   "michael-mackellar|President|National Ageing Research Institute|null": {
     "last_examined_at": "2026-05-21T02:18:31.670Z"
   },
+  "michael-macklin|Chief Executive Officer|Hall Chadwick Education Advisory|1994-01-01": "2026-05-30T08:28:24.718Z",
+  "michael-macklin|Director of Development|University of Queensland|1991-01-01": "2026-05-30T08:28:24.718Z",
+  "michael-macklin|Executive Dean, Faculty of Arts, Humanities and Social Sciences|University of New England|2002-06-01": "2026-05-30T08:28:24.718Z",
+  "michael-macklin|Member|National Native Title Tribunal|null": "2026-05-30T08:28:24.718Z",
+  "michael-macklin|Member|Queensland Land and Resources Tribunal|null": "2026-05-30T08:28:24.718Z",
   "michael-ronaldson|Board Member|Oliver Foundation|2018": "2026-05-13T00:00:00.000Z",
   "michael-ronaldson|Chair|InnoWell|null": "2026-05-13T00:00:00.000Z",
   "michael-ronaldson|Deputy Chair|Australia Post|2017-06": "2026-05-13T00:00:00.000Z",
@@ -2062,6 +2157,15 @@
   "patricia-giles|Chair, Global Commission on Women's Health|World Health Organisation|1993": "2026-05-24T02:17:47.846Z",
   "patricia-giles|Convenor|Women's Health Care House|1993": "2026-05-24T02:17:47.846Z",
   "patricia-giles|President|International Alliance of Women|1996": "2026-05-24T02:17:47.846Z",
+  "patrick-farmer|Ambassador|McGrath Wollongong Running Festival|2024-06-02": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "patrick-farmer|Event Ambassador|UNICEF Australia Dusk to Dawn|2024-11-23": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "patrick-farmer|Motivational Speaker|Pat Farmer (self-employed)|null": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
   "paul-everingham|Honorary Consul|High Commission of Malaysia|null": "2026-05-28T00:00:00.000Z",
   "paul-everingham|President|Liberal Party of Australia (Queensland Division)|1990-01-01": "2026-05-28T00:00:00.000Z",
   "paul-everingham|Solicitor|Everingham Lawyers|1987-06-05": "2026-05-28T00:00:00.000Z",
@@ -2143,6 +2247,21 @@
   "peter-hendy|Director|Infants Home Child and Family Services|null": "2026-05-03T10:06:21.329Z",
   "peter-hendy|Director|Self-managed Independent Superannuation Funds Association of Australia|2017": "2026-05-03T10:06:21.329Z",
   "peter-hendy|Member|Council for Australian-Arab Relations|2017": "2026-05-03T10:06:21.329Z",
+  "peter-king|Barrister|Queen's Square Chambers|2004-10-09": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "peter-king|Co-founder|CivilDefenceNow|2017-08-01": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "peter-king|International Commercial Arbitrator|Xiamen Arbitration Commission|2020-01-01": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "peter-king|Member of Senate|University of Sydney|null": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "peter-king|President of the Council|Sydney College of Divinity|2010-01-01": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
   "peter-lindsay|Chairman|Guildford Coal|2014-01-01": "2026-05-28T00:00:00.000Z",
   "peter-lindsay|Foundation Chairman|Global Voices|2011-01-01": "2026-05-28T00:00:00.000Z",
   "peter-lindsay|Strategic Advisor|Origin Net|2011-01-01": "2026-05-28T00:00:00.000Z",
@@ -2375,6 +2494,13 @@
   "roslyn-kelly|Senior Advisor|Australian Studies Institute, Australian National University|null": "2026-05-29T00:00:00.000Z",
   "roslyn-kelly|Steering Committee Member, Environment, Health and Safety|North Ltd|null": "2026-05-29T00:00:00.000Z",
   "roslyn-kelly|Trustee|World Wide Fund for Nature|null": "2026-05-29T00:00:00.000Z",
+  "ross-cameron|Director|Aussie ATM|2010": "2026-05-30T08:28:24.718Z",
+  "ross-cameron|Director|My ATM New Zealand|2010": "2026-05-30T08:28:24.718Z",
+  "ross-cameron|Founder and Director|MyATM|2010": "2026-05-30T08:28:24.718Z",
+  "ross-cameron|Investment Banking Group (public-private partnerships)|Macquarie Bank|2004": "2026-05-30T08:28:24.718Z",
+  "ross-cameron|Presenter and Commentator|Sky News Australia|2013": "2026-05-30T08:28:24.718Z",
+  "ross-cameron|President|Libertarian Party New South Wales|2023": "2026-05-30T08:28:24.718Z",
+  "ross-cameron|Speaker and Advisory Board Member|CPAC Australia|null": "2026-05-30T08:28:24.718Z",
   "russell-trood|Adjunct Professor|US Studies Centre, University of Sydney|null": "2026-05-01T02:04:50.738Z",
   "russell-trood|Board Member|Australia-Indonesia Institute|null": "2026-05-01T02:04:50.738Z",
   "russell-trood|Board Member|Australian-American Fulbright Commission|null": "2026-05-01T02:04:50.738Z",
@@ -2556,6 +2682,12 @@
   "stuart-henry|Secretariat|World Plumbing Council|2011-01-01": {
     "last_examined_at": "2026-05-24T08:16:17.023Z"
   },
+  "stuart-st-clair|Chief Adviser|Office of Deputy Prime Minister John Anderson|null": "2026-05-29T00:00:00.000Z",
+  "stuart-st-clair|Chief Executive Officer|Australian Trucking Association|2006-03": "2026-05-29T00:00:00.000Z",
+  "stuart-st-clair|Chief of Staff|Office of Andrew Stoner MP, NSW Nationals Leader|null": "2026-05-29T00:00:00.000Z",
+  "sue-west|Chair|Anglicare Western NSW|2004-01-01": "2026-05-29T00:00:00.000Z",
+  "sue-west|International Secretary|Australian Labor Party|2002-07-01": "2026-05-29T00:00:00.000Z",
+  "sue-west|Reviewer|New South Wales Branch, Australian Labor Party|2019-01-01": "2026-05-29T00:00:00.000Z",
   "susan-jeanes|Adviser on Climate Change and Energy Policy|Office of the Federal Minister for Environment and Heritage (Senator Robert Hill)|null": {
     "last_examined_at": "2026-05-12T08:02:47.782Z"
   },
@@ -2584,6 +2716,60 @@
   "susan-knowles|Convenor|Classification Review Board|2019-01-03": "2026-05-08T20:07:32.113Z",
   "susan-knowles|Member|Ad Standards Community Panel|null": "2026-05-08T20:07:32.113Z",
   "susan-knowles|Non-Executive Chair|Perihelion Health|null": "2026-05-08T20:07:32.113Z",
+  "susan-ryan|Age Discrimination Commissioner|Australian Human Rights Commission|2011-07-30": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "susan-ryan|Chair|Australian Human Rights Act Campaign|2005": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "susan-ryan|Chair|Australian Human Rights Group|2008": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "susan-ryan|Chair|University of New South Wales Arts and Social Sciences Advisory Council|2010": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "susan-ryan|Chair|University of New South Wales Risk Committee|2002": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "susan-ryan|Chief Executive Officer|Association of Superannuation Funds of Australia|1993": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "susan-ryan|Deputy Chair|Australian Republican Movement|2000": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "susan-ryan|Disability Discrimination Commissioner|Australian Human Rights Commission|2014-07-12": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "susan-ryan|Distinguished Fellow|Whitlam Institute, Western Sydney University|2019": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "susan-ryan|Executive Director|Plastics Industry Association|1989": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "susan-ryan|Independent Chair|IAG and NRMA Superannuation Plan|null": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "susan-ryan|Member|ASX Corporate Governance Council|2003": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "susan-ryan|Member|Australian Council of Superannuation Investors|2001": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "susan-ryan|President|Australian Institute of Superannuation Trustees|2000": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "susan-ryan|Pro-Chancellor and Council Member|University of New South Wales|1998": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "susan-ryan|Publishing Editor|Penguin Books Australia|1988": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "susan-ryan|Women's Ambassador|ActionAid Australia|null": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "teresa-gambaro|Adjunct Professor|QUT Business School|null": "2026-05-29T00:00:00.000Z",
+  "teresa-gambaro|Founder and Principal|Gambaro Consulting|2016-01-01": "2026-05-29T00:00:00.000Z",
+  "teresa-gambaro|President|Lymphoedema Association of Queensland|2018-01-01": "2026-05-29T00:00:00.000Z",
   "terrence-aulich|Chair, Industry Reference Panel|Alliance for Building Excellence (UNSW)|2012": "2026-05-01T04:04:56.517Z",
   "terrence-aulich|Chair, Privacy Committee|Association of Marketing and Social Research Organisations|null": "2026-05-01T04:04:56.517Z",
   "terrence-aulich|Chair, Privacy Experts Group|International Biometrics Institute|null": "2026-05-01T04:04:56.517Z",
@@ -2678,6 +2864,18 @@
   "tony-lawler|Member|NSW Ministerial Advisory Committee for Rural Health|2013-03-01": {
     "last_examined_at": "2026-05-24T08:16:17.023Z"
   },
+  "tony-smith|Chief Executive|Australian American Leadership Dialogue (AALD)|2022-08-01": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "tony-smith|Patron|Rare Cancers Australia|2025-03-24": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "tony-smith|Professor in the Practice of Politics|Australian National University|2022-09-05": {
+    "last_examined_at": "2026-05-30T00:00:00.000Z"
+  },
+  "trevor-evans|Director|Healthy Land & Water|null": "2026-05-30T08:28:24.718Z",
+  "trevor-evans|Interim CEO|Container Exchange (COEX)|2026-01-01": "2026-05-30T08:28:24.718Z",
+  "trevor-evans|Special Advisor, Policy Division|National Retail Association|2024-07-16": "2026-05-30T08:28:24.718Z",
   "trish-crossin|Board Chair|The Gordon Institute of TAFE|2024-09-01": "2026-05-01T00:00:00Z",
   "trish-crossin|Director|Asthma Foundation NT|null": "2026-05-01T00:00:00Z",
   "trish-crossin|Director|Australian Indigenous Agribusiness Company (Primary Partners)|null": "2026-05-01T00:00:00Z",
@@ -2746,185 +2944,5 @@
   "zoe-daniel|Board Member|Eating Disorders Victoria|null": "2026-05-08T20:07:32.113Z",
   "zoe-daniel|Board Member|Women for Election|2025-08-01": "2026-05-08T20:07:32.113Z",
   "zoe-daniel|Consultant and Advocate|Alliance for Gambling Reform|null": "2026-05-08T20:07:32.113Z",
-  "zoe-daniel|Independent Chair|Mental Health Victoria|2025-08-01": "2026-05-08T20:07:32.113Z",
-  "laurence-neal|Federal Director|National Country Party|1981-11-01": "2026-05-29T00:00:00.000Z",
-  "laurence-neal|President|National Party of Australia --- Victoria|1986-01-01": "2026-05-29T00:00:00.000Z",
-  "laurence-neal|Councillor|Shire of Nathalia|1989-01-01": "2026-05-29T00:00:00.000Z",
-  "laurence-neal|Anglican Deacon|Anglican Diocese of Wangaratta|1987-11-01": "2026-05-29T00:00:00.000Z",
-  "laurence-neal|President|Wangaratta Rotary|1997-01-01": "2026-05-29T00:00:00.000Z",
-  "laurence-neal|Commonwealth Parliamentary Research Fellow|Parliament of Australia|1993-01-01": "2026-05-29T00:00:00.000Z",
-  "stuart-st-clair|Chief Executive Officer|Australian Trucking Association|2006-03": "2026-05-29T00:00:00.000Z",
-  "stuart-st-clair|Chief Adviser|Office of Deputy Prime Minister John Anderson|null": "2026-05-29T00:00:00.000Z",
-  "stuart-st-clair|Chief of Staff|Office of Andrew Stoner MP, NSW Nationals Leader|null": "2026-05-29T00:00:00.000Z",
-  "sue-west|Chair|Anglicare Western NSW|2004-01-01": "2026-05-29T00:00:00.000Z",
-  "sue-west|International Secretary|Australian Labor Party|2002-07-01": "2026-05-29T00:00:00.000Z",
-  "sue-west|Reviewer|New South Wales Branch, Australian Labor Party|2019-01-01": "2026-05-29T00:00:00.000Z",
-  "teresa-gambaro|Founder and Principal|Gambaro Consulting|2016-01-01": "2026-05-29T00:00:00.000Z",
-  "teresa-gambaro|President|Lymphoedema Association of Queensland|2018-01-01": "2026-05-29T00:00:00.000Z",
-  "teresa-gambaro|Adjunct Professor|QUT Business School|null": "2026-05-29T00:00:00.000Z",
-  "susan-ryan|Publishing Editor|Penguin Books Australia|1988": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "susan-ryan|Executive Director|Plastics Industry Association|1989": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "susan-ryan|Chief Executive Officer|Association of Superannuation Funds of Australia|1993": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "susan-ryan|Pro-Chancellor and Council Member|University of New South Wales|1998": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "susan-ryan|President|Australian Institute of Superannuation Trustees|2000": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "susan-ryan|Deputy Chair|Australian Republican Movement|2000": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "susan-ryan|Member|Australian Council of Superannuation Investors|2001": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "susan-ryan|Chair|University of New South Wales Risk Committee|2002": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "susan-ryan|Member|ASX Corporate Governance Council|2003": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "susan-ryan|Chair|Australian Human Rights Act Campaign|2005": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "susan-ryan|Women's Ambassador|ActionAid Australia|null": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "susan-ryan|Chair|Australian Human Rights Group|2008": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "susan-ryan|Chair|University of New South Wales Arts and Social Sciences Advisory Council|2010": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "susan-ryan|Independent Chair|IAG and NRMA Superannuation Plan|null": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "susan-ryan|Age Discrimination Commissioner|Australian Human Rights Commission|2011-07-30": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "susan-ryan|Disability Discrimination Commissioner|Australian Human Rights Commission|2014-07-12": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "susan-ryan|Distinguished Fellow|Whitlam Institute, Western Sydney University|2019": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "brett-raguse|Manager, Community Engagement and Marketing|Logan City Council|2010": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "brett-raguse|Director|Logan Community Financial Services (Community Bank Logan)|2013": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "brett-raguse|Company Secretary|Logan Community Financial Services (Community Bank Logan)|2017-01-01": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "brett-raguse|Group Director and Auctioneer|MiCasa Realty|null": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "brett-raguse|Director|Endeavour Refrigeration and Appliance Service|null": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "brett-raguse|Member, Commercial and Industrial Committee Board|Real Estate Institute of Queensland|null": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "brett-raguse|Member, Development Advisory Board|Griffith University (Logan Campus)|null": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "peter-king|Barrister|Queen's Square Chambers|2004-10-09": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "peter-king|President of the Council|Sydney College of Divinity|2010-01-01": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "peter-king|Member of Senate|University of Sydney|null": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "peter-king|International Commercial Arbitrator|Xiamen Arbitration Commission|2020-01-01": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "peter-king|Co-founder|CivilDefenceNow|2017-08-01": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "patrick-farmer|Motivational Speaker|Pat Farmer (self-employed)|null": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "patrick-farmer|Event Ambassador|UNICEF Australia Dusk to Dawn|2024-11-23": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "patrick-farmer|Ambassador|McGrath Wollongong Running Festival|2024-06-02": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "tony-smith|Chief Executive|Australian American Leadership Dialogue (AALD)|2022-08-01": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "tony-smith|Professor in the Practice of Politics|Australian National University|2022-09-05": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "tony-smith|Patron|Rare Cancers Australia|2025-03-24": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "chris-ellison|Director|Doric Group|2011": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "chris-ellison|Advisor|Doric Jaxon Consolidated|2009": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "chris-ellison|Chair|North West Tourism|2011": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "chris-ellison|Director|Commonwealth Superannuation Corporation|2014": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "chris-ellison|Chair of Academic Board West|Study Group Australia|2010": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "chris-ellison|Governor|University of Notre Dame Australia|2009": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "chris-ellison|Chancellor|University of Notre Dame Australia|2018": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "chris-ellison|Deputy Chair|Trinity College Perth|2010": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "chris-ellison|Trustee|Special Air Service Resources Fund|2020": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "bob-debus|Chair|National Wildlife Corridors Plan Advisory Group|2011": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "bob-debus|Chair|Great Eastern Ranges|null": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "bob-debus|Chair|Wilderness Australia|null": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "bob-debus|Chair of Advisory Board|Bushfire Research Centre of Excellence, Australian National University|null": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "bob-debus|Director|WaterNSW|2024-05": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "bob-debus|President|Library Council of New South Wales|2024-12": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "bob-debus|Advocate|Harm Reduction Australia|null": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "andrew-bartlett|Advocacy Advisor|Volunteering Queensland|2021": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "andrew-bartlett|Board Member|4ZZZ Community Radio|null": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "andrew-bartlett|Announcer|4ZZZ Community Radio|null": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  },
-  "alan-eggleston|Ministerial Member|Pilbara Development Commission|null": {
-    "last_examined_at": "2026-05-30T00:00:00.000Z"
-  }
+  "zoe-daniel|Independent Chair|Mental Health Victoria|2025-08-01": "2026-05-08T20:07:32.113Z"
 }

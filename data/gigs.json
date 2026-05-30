@@ -2913,7 +2913,11 @@
       "https://www.nationalretail.org.au/trevor-evans-appointed-as-special-advisor-to-national-retail-association/"
     ],
     "pollie_slug": "trevor-evans",
-    "start_date": "2024-07-16"
+    "start_date": "2024-07-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -2922,17 +2926,27 @@
     "sources": [
       "https://hlw.org.au/portfolio/trevor-evans"
     ],
-    "pollie_slug": "trevor-evans"
+    "pollie_slug": "trevor-evans",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Interim CEO",
     "organisation": "Container Exchange (COEX)",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://wastemanagementreview.com.au/trevor-evans-appointed-interim-ceo-of-container-exchange"
+      "https://wastemanagementreview.com.au/trevor-evans-appointed-interim-ceo-of-container-exchange",
+      "https://containerexchange.com.au/coex-welcomes-interim-ceo-trevor-evans/",
+      "https://www.australianmanufacturing.com.au/container-exchange-appoints-trevor-evans-as-interim-ceo/"
     ],
     "pollie_slug": "trevor-evans",
-    "start_date": "2026-01-01"
+    "start_date": "2026-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -35536,7 +35550,11 @@
     ],
     "pollie_slug": "michael-macklin",
     "start_date": "1991-01-01",
-    "end_date": "1994-12-31"
+    "end_date": "1994-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -35547,7 +35565,11 @@
       "https://biography.senate.gov.au/macklin-michael-john/"
     ],
     "pollie_slug": "michael-macklin",
-    "start_date": "1994-01-01"
+    "start_date": "1994-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -35577,7 +35599,12 @@
     ],
     "pollie_slug": "michael-macklin",
     "start_date": "2002-06-01",
-    "end_date": "2006-12-31"
+    "end_date": "2006-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography gives end date 2006 (Executive Dean of Arts, University of New England, 2002-2006)."
+    }
   },
   {
     "role": "Investment Banking Group (public-private partnerships)",
@@ -35588,7 +35615,11 @@
     ],
     "pollie_slug": "ross-cameron",
     "start_date": "2004",
-    "end_date": "2008"
+    "end_date": "2008",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founder and Director",
@@ -35599,7 +35630,11 @@
       "https://alchetron.com/Ross-Cameron"
     ],
     "pollie_slug": "ross-cameron",
-    "start_date": "2010"
+    "start_date": "2010",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -35610,7 +35645,11 @@
       "https://alchetron.com/Ross-Cameron"
     ],
     "pollie_slug": "ross-cameron",
-    "start_date": "2010"
+    "start_date": "2010",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -35620,7 +35659,11 @@
       "https://en.wikipedia.org/wiki/Ross_Cameron"
     ],
     "pollie_slug": "ross-cameron",
-    "start_date": "2010"
+    "start_date": "2010",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Presenter and Commentator",
@@ -35632,7 +35675,11 @@
     ],
     "pollie_slug": "ross-cameron",
     "start_date": "2013",
-    "end_date": "2018"
+    "end_date": "2018",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Speaker and Advisory Board Member",
@@ -35649,10 +35696,15 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://en.wikipedia.org/wiki/Ross_Cameron",
-      "https://x.com/LibertariansNSW/status/1964977808993628226"
+      "https://x.com/LibertariansNSW/status/1964977808993628226",
+      "https://www.lpnsw.org.au/people"
     ],
     "pollie_slug": "ross-cameron",
-    "start_date": "2023"
+    "start_date": "2023",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Managing Director",
@@ -35660,10 +35712,16 @@
     "category": "Professional Services & Management Consulting",
     "sources": [
       "https://www.crikey.com.au/2017/01/09/ewen-jones-has-started-his-own-advisory-firm/",
-      "https://www.zoominfo.com/p/Ewen-Jones/9150432429"
+      "https://www.zoominfo.com/p/Ewen-Jones/9150432429",
+      "https://en.wikipedia.org/wiki/Ewen_Jones",
+      "https://www.openaustralia.org.au/mp/ewen_jones/herbert"
     ],
     "pollie_slug": "ewen-jones",
-    "start_date": "2017"
+    "start_date": "2017",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Business Development Manager",
