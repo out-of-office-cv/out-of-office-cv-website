@@ -9262,36 +9262,56 @@
     "organisation": "Kokoda Capital Group",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://en.wikipedia.org/wiki/Michael_Johnson_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Michael_Johnson_(Australian_politician)",
+      "https://www.creativeinnovationglobal.com.au/ci2012/speakers/michael-johnson/"
     ],
-    "pollie_slug": "michael-johnson"
+    "pollie_slug": "michael-johnson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Rugby Channel Online",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Michael_Johnson_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Michael_Johnson_(Australian_politician)",
+      "https://www.creativeinnovationglobal.com.au/ci2012/speakers/michael-johnson/"
     ],
-    "pollie_slug": "michael-johnson"
+    "pollie_slug": "michael-johnson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Myanmar Global Capital Partners",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://en.wikipedia.org/wiki/Michael_Johnson_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Michael_Johnson_(Australian_politician)",
+      "https://www.creativeinnovationglobal.com.au/ci2012/speakers/michael-johnson/"
     ],
-    "pollie_slug": "michael-johnson"
+    "pollie_slug": "michael-johnson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
     "organisation": "Royal Vitamins International",
     "category": "Pharmaceutical & Biotechnology",
     "sources": [
-      "https://en.wikipedia.org/wiki/Michael_Johnson_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Michael_Johnson_(Australian_politician)",
+      "https://www.creativeinnovationglobal.com.au/ci2012/speakers/michael-johnson/"
     ],
-    "pollie_slug": "michael-johnson"
+    "pollie_slug": "michael-johnson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member, Global Council",
@@ -13002,7 +13022,12 @@
     ],
     "pollie_slug": "william-morrison",
     "start_date": "1985-04-28",
-    "end_date": "1989-01-01"
+    "end_date": "1989-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Start date 28 April 1985 confirmed by Wikipedia List of ambassadors of Australia to Indonesia. End date 1989 confirmed across Wikipedia, EOAS. Identity verified as William Lawrence Morrison AO."
+    }
   },
   {
     "role": "Councillor",
@@ -13013,7 +13038,12 @@
       "http://www.annefield.net.au/2021/07/02/women-and-local-government-elections-september-4-2021/"
     ],
     "pollie_slug": "william-morrison",
-    "start_date": "1991-01-01"
+    "start_date": "1991-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms he was a councillor of Rockdale Council in the early 1990s; annefield source confirms election in 1991."
+    }
   },
   {
     "role": "Volunteer",
@@ -16595,7 +16625,12 @@
     ],
     "pollie_slug": "william-wood",
     "start_date": "1990",
-    "end_date": "1992"
+    "end_date": "1992",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms Wood was an office holder in the NSW division of the Australian Democrats in the early 1990s, prior to relocating to Victoria in 1992."
+    }
   },
   {
     "role": "State Executive Member (Victorian Division)",
@@ -16607,7 +16642,12 @@
     ],
     "pollie_slug": "william-wood",
     "start_date": "1992",
-    "end_date": "1995"
+    "end_date": "1995",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms Wood was a member of the state executive of the Victorian division of the Australian Democrats from 1992, re-elected in 1994, unsuccessful in 1995."
+    }
   },
   {
     "role": "Community Development Practitioner and Social Planner",
@@ -30991,8 +31031,13 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://theconversation.com/profiles/tsebin-tchen-128004",
-      "https://en.wikipedia.org/wiki/Tsebin_Tchen"
-    ]
+      "https://en.wikipedia.org/wiki/Tsebin_Tchen",
+      "https://www.openaustralia.org.au/senate/?id=2020-02-05.120.2"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "tsebin-tchen",
@@ -31003,7 +31048,12 @@
       "https://www.premier.vic.gov.au/new-appointments-embrace-diversity-victorian-multicultural-commission",
       "https://en.wikipedia.org/wiki/Tsebin_Tchen"
     ],
-    "start_date": "2015-10-27"
+    "start_date": "2015-10-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "end_date": "2019-08-30"
   },
   {
     "pollie_slug": "tsebin-tchen",
@@ -31014,7 +31064,11 @@
       "https://en.wikipedia.org/wiki/Tsebin_Tchen",
       "https://www.openaustralia.org.au/senate/?id=2020-02-05.120.2"
     ],
-    "start_date": "2018-01-01"
+    "start_date": "2018-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Senior Legal Counsel",
@@ -35774,7 +35828,11 @@
       "https://www.griffithreview.com/contributors/scott-ludlam/",
       "https://keywiki.org/Scott_Ludlam"
     ],
-    "pollie_slug": "scott-ludlam"
+    "pollie_slug": "scott-ludlam",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Council Member",
@@ -35784,7 +35842,11 @@
       "https://progressive.international/council/",
       "https://keywiki.org/Scott_Ludlam"
     ],
-    "pollie_slug": "scott-ludlam"
+    "pollie_slug": "scott-ludlam",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Author",
@@ -35796,7 +35858,11 @@
       "https://overland.org.au/2021/05/extract-from-full-circle-a-search-for-the-world-that-comes-next/"
     ],
     "pollie_slug": "scott-ludlam",
-    "start_date": "2021-05-04"
+    "start_date": "2021-05-04",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Contributor",
@@ -35805,7 +35871,11 @@
     "sources": [
       "https://arena.org.au/arena-author/scott-ludlam/"
     ],
-    "pollie_slug": "scott-ludlam"
+    "pollie_slug": "scott-ludlam",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Contributor",
@@ -35814,6 +35884,10 @@
     "sources": [
       "https://www.griffithreview.com/contributors/scott-ludlam/"
     ],
-    "pollie_slug": "scott-ludlam"
+    "pollie_slug": "scott-ludlam",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]

@@ -1944,10 +1944,18 @@
   "michael-ferguson|Chief Executive Officer|Clifford Craig Medical Research Trust|2007-12-01": "2026-05-14T00:00:00.000Z",
   "michael-ferguson|Deputy Premier of Tasmania|Government of Tasmania|2022-04-08": "2026-05-14T00:00:00.000Z",
   "michael-ferguson|Member for Bass|Parliament of Tasmania|2010-03-20": "2026-05-14T00:00:00.000Z",
-  "michael-johnson|Chief Executive Officer|Kokoda Capital Group|null": "2026-05-23T14:24:46.028Z",
-  "michael-johnson|Chief Executive Officer|Royal Vitamins International|null": "2026-05-23T14:24:46.028Z",
-  "michael-johnson|Director|Myanmar Global Capital Partners|null": "2026-05-23T14:24:46.028Z",
-  "michael-johnson|Director|Rugby Channel Online|null": "2026-05-23T14:24:46.028Z",
+  "michael-johnson|Chief Executive Officer|Kokoda Capital Group|null": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "michael-johnson|Chief Executive Officer|Royal Vitamins International|null": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "michael-johnson|Director|Myanmar Global Capital Partners|null": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "michael-johnson|Director|Rugby Channel Online|null": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
   "michael-johnson|Member, Global Council|Asia Society|null": "2026-05-14T00:00:00.000Z",
   "michael-keenan|Chief Executive Officer|Sana Living|2019-08-01": "2026-05-27T02:15:38.271Z",
   "michael-keenan|Director|Adelaide Oval|null": "2026-05-27T02:15:38.271Z",
@@ -2944,5 +2952,47 @@
   "zoe-daniel|Board Member|Eating Disorders Victoria|null": "2026-05-08T20:07:32.113Z",
   "zoe-daniel|Board Member|Women for Election|2025-08-01": "2026-05-08T20:07:32.113Z",
   "zoe-daniel|Consultant and Advocate|Alliance for Gambling Reform|null": "2026-05-08T20:07:32.113Z",
-  "zoe-daniel|Independent Chair|Mental Health Victoria|2025-08-01": "2026-05-08T20:07:32.113Z"
+  "zoe-daniel|Independent Chair|Mental Health Victoria|2025-08-01": "2026-05-08T20:07:32.113Z",
+  "scott-ludlam|Columnist and Contributor|The Guardian Australia|null": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "scott-ludlam|Council Member|Progressive International|null": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "scott-ludlam|Author|Black Inc.|2021-05-04": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "scott-ludlam|Contributor|Arena|null": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "scott-ludlam|Contributor|Griffith Review|null": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "tsebin-tchen|Adjunct Fellow|Asia-Pacific Centre for Social Investment and Philanthropy, Swinburne University of Technology|null": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "tsebin-tchen|Commissioner|Victorian Multicultural Commission|2015-10-27": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "tsebin-tchen|Member|Australian Multicultural Council|2018-01-01": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "william-morrison|Ambassador to Indonesia|Department of Foreign Affairs and Trade|1985-04-28": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "william-morrison|Councillor|Rockdale Council|1991-01-01": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "william-morrison|Volunteer|Rural Australians for Refugees|null": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "william-wood|Office Holder (NSW Division)|Australian Democrats|1990": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "william-wood|State Executive Member (Victorian Division)|Australian Democrats|1992": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "william-wood|Community Development Practitioner and Social Planner|Various community organisations|null": {
+    "last_examined_at": "2026-05-31T00:00:00.000Z"
+  }
 }
