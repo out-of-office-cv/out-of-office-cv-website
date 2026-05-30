@@ -90,8 +90,12 @@
     "last_examined_at": "2026-05-25T00:00:00.000Z"
   },
   "andrew-murray|Patron|Care Leavers Australasia Network|null": "2026-05-16T02:04:22.835Z",
-  "andrew-nikolic|General Manager|DefenceNT|null": "2026-05-23T00:00:00.000Z",
-  "andrew-nikolic|Independent Non-Executive Director|Simonds Homes|null": "2026-05-23T00:00:00.000Z",
+  "andrew-nikolic|General Manager|DefenceNT|null": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "andrew-nikolic|Independent Non-Executive Director|Simonds Homes|null": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
   "andrew-nikolic|Non-Resident Senior Advisor|Perry World House, University of Pennsylvania|null": "2026-05-23T00:00:00.000Z",
   "andrew-nikolic|Senior Member|Administrative Appeals Tribunal|2017-01-16": "2026-05-23T00:00:00.000Z",
   "andrew-nikolic|Senior Member|Administrative Review Tribunal|2024-10-14": "2026-05-23T00:00:00.000Z",
@@ -2949,9 +2953,15 @@
   "yvette-dath|Member for Redcliffe|Queensland Legislative Assembly|2014-02-22": "2026-05-11T20:04:38.169Z",
   "yvette-dath|Minister for Health and Ambulance Services|Queensland Government|2020-11-12": "2026-05-11T20:04:38.169Z",
   "yvette-dath|Minister for Training and Skills|Queensland Government|2015-02-16": "2026-05-11T20:04:38.169Z",
-  "zoe-daniel|Board Member|Eating Disorders Victoria|null": "2026-05-08T20:07:32.113Z",
-  "zoe-daniel|Board Member|Women for Election|2025-08-01": "2026-05-08T20:07:32.113Z",
-  "zoe-daniel|Consultant and Advocate|Alliance for Gambling Reform|null": "2026-05-08T20:07:32.113Z",
+  "zoe-daniel|Board Member|Eating Disorders Victoria|null": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "zoe-daniel|Board Member|Women for Election|2025-08-01": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "zoe-daniel|Consultant and Advocate|Alliance for Gambling Reform|null": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
   "zoe-daniel|Independent Chair|Mental Health Victoria|2025-08-01": "2026-05-08T20:07:32.113Z",
   "scott-ludlam|Columnist and Contributor|The Guardian Australia|null": {
     "last_examined_at": "2026-05-31T00:00:00.000Z"
@@ -2994,5 +3004,50 @@
   },
   "william-wood|Community Development Practitioner and Social Planner|Various community organisations|null": {
     "last_examined_at": "2026-05-31T00:00:00.000Z"
+  },
+  "wyatt-roy|General Manager, Australia|Afiniti|2017-01-01": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "wyatt-roy|Executive Director|Tech Council of Australia|2021-01-01": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "wyatt-roy|Head of Innovation|NEOM|2024-01-01": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "baden-teague|South Australian Chairman|Australian Republican Movement|null": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "baden-teague|Member, Council of Governors|St Peter's College, Adelaide|1997": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "anthony-staley|Federal President|Liberal Party of Australia|1993": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "anthony-staley|Chair of the Council|National Museum of Australia|2000": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "barry-osullivan|Chair, Board of Trustees|Toowoomba Grammar School|2023-07-01": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "barry-osullivan|Board member|Toowoomba Hospital Foundation|null": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "andrew-southcott|Chair|Australian Advisory Council on the Medicinal Use of Cannabis|2016-12-23": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "andrew-southcott|General Practitioner|Better Medical|2018": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "andrew-theophanous|Lecturer in Philosophy|Sydney Community College|null": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "andrew-theophanous|Consultant on Multiculturalism|Sydney Community College|null": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "alan-steedman|Executive Director|Ausmusic|1988-01-01": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
+  },
+  "alan-steedman|Policy Adviser (Timber Industry)|Victorian Labor Government|null": {
+    "last_examined_at": "2026-05-30T20:27:13.366Z"
   }
 }
