@@ -36272,7 +36272,12 @@
     ],
     "pollie_slug": "richard-charlesworth",
     "start_date": "1993-04-01",
-    "end_date": "2000-09-30"
+    "end_date": "2000-09-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Head Coach of Australian Women's Hockey Team (Hockeyroos) 1993–2000 confirmed across Wikipedia, official CV, and multiple sports sources. Led team to Olympic gold (1996, 2000), multiple World Cups, and Champions Trophies."
+    }
   },
   {
     "role": "Board Member",
@@ -36284,7 +36289,12 @@
     ],
     "pollie_slug": "richard-charlesworth",
     "start_date": "1994-01-01",
-    "end_date": "1997-12-31"
+    "end_date": "1997-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Board Member of Australian Sports Commission 1994–1997 confirmed on official CV and Wikipedia. Dates and role align with post-parliament period."
+    }
   },
   {
     "role": "Board Member",
@@ -36296,7 +36306,12 @@
     ],
     "pollie_slug": "richard-charlesworth",
     "start_date": "2001-01-01",
-    "end_date": "2005-12-31"
+    "end_date": "2005-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Board Member of Western Australian Institute of Sport 2001–2005 confirmed across multiple sources. Note: he previously served 1984–1992 (pre-parliament)."
+    }
   },
   {
     "role": "High Performance Manager",
@@ -36308,7 +36323,12 @@
     ],
     "pollie_slug": "richard-charlesworth",
     "start_date": "2005-10-01",
-    "end_date": "2007-10-31"
+    "end_date": "2007-10-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "High Performance Manager for New Zealand Cricket confirmed. NZ Herald article confirms October 2005 start date; end date of October 2007 aligns with 2-year term referenced in sources."
+    }
   },
   {
     "role": "Technical Adviser",
@@ -36320,7 +36340,12 @@
     ],
     "pollie_slug": "richard-charlesworth",
     "start_date": "2007-10-01",
-    "end_date": "2008-12-31"
+    "end_date": "2008-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Technical Adviser to Hockey India October 2007–December 2008 confirmed across multiple sources including Platinum Speakers and Wikipedia."
+    }
   },
   {
     "role": "Head Coach",
@@ -36332,7 +36357,12 @@
     ],
     "pollie_slug": "richard-charlesworth",
     "start_date": "2009-01-01",
-    "end_date": "2014-12-31"
+    "end_date": "2014-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Head Coach of Australian Men's Hockey Team (Kookaburras) 2009–2014 verified. Multiple sources confirm appointment in 2009 and resignation after 2014 World Cup."
+    }
   },
   {
     "role": "High Performance Consultant",
@@ -36342,7 +36372,12 @@
       "https://en.wikipedia.org/wiki/Ric_Charlesworth",
       "https://www.platinumspeakers.com.au/speaker/ric-charlesworth/"
     ],
-    "pollie_slug": "richard-charlesworth"
+    "pollie_slug": "richard-charlesworth",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "High Performance Consultant with Fremantle Football Club confirmed across multiple biographical sources including Wikipedia and Platinum Speakers. No end date specified in sources; appears ongoing or recent."
+    }
   },
   {
     "role": "Mentor Coach",
@@ -36352,7 +36387,12 @@
       "https://www.riccharlesworth.com/pages/curriculum-vitae",
       "https://en.wikipedia.org/wiki/Ric_Charlesworth"
     ],
-    "pollie_slug": "richard-charlesworth"
+    "pollie_slug": "richard-charlesworth",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Mentor Coach to Australian Institute of Sport confirmed on official CV as mentoring 5 AIS coaches. Aligns with his consulting and advisory roles post-2014."
+    }
   },
   {
     "role": "Director",
@@ -36372,7 +36412,12 @@
       "https://www.hockey.org.au/news/ric-charlesworth-headlines-new-hockeyroos-selection-panel"
     ],
     "pollie_slug": "richard-charlesworth",
-    "end_date": "2021-08-17"
+    "end_date": "2021-08-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Board Appointed Selector for Hockey Australia Hockeyroos confirmed by Hockey Australia news article. End date of 17 August 2021 verified; role was temporary Olympic preparation appointment from April 2021."
+    }
   },
   {
     "role": "Assistant Coach",
@@ -36384,7 +36429,12 @@
     ],
     "pollie_slug": "richard-charlesworth",
     "start_date": "2022-01-01",
-    "end_date": "2024-08-31"
+    "end_date": "2024-08-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Assistant Coach to Chinese Women's National Hockey Team 2022–2024 verified across multiple sources. Started during pandemic (2020), confirmed in two independent news sources (China Daily HK and news.cn). Ongoing work with head coach Alyson Annan."
+    }
   },
   {
     "role": "Motivational Speaker",
@@ -36394,7 +36444,12 @@
       "https://www.riccharlesworth.com/pages/motivational-speaking",
       "https://www.platinumspeakers.com.au/speaker/ric-charlesworth/"
     ],
-    "pollie_slug": "richard-charlesworth"
+    "pollie_slug": "richard-charlesworth",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Motivational Speaker confirmed across multiple sources. Ric Charlesworth offers professional speaking services through his website and Platinum Speakers platform on topics including leadership, teamwork, and organizational change."
+    }
   },
   {
     "role": "Chief Executive Officer",
