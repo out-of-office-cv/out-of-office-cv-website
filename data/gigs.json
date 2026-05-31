@@ -36108,7 +36108,12 @@
       "https://en.wikipedia.org/wiki/Eric_Hutchinson_(politician)"
     ],
     "pollie_slug": "eric-hutchinson",
-    "start_date": "2016-07-02"
+    "start_date": "2016-07-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms he became advisor to the President of the Senate (Stephen Parry) after his 2016 defeat; start date aligns with parliament cessation."
+    }
   },
   {
     "role": "Administrator",
@@ -36122,7 +36127,12 @@
     ],
     "pollie_slug": "eric-hutchinson",
     "start_date": "2017-04-01",
-    "end_date": "2023-05-31"
+    "end_date": "2023-05-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed Administrator of the Territory of Norfolk Island, 1 April 2017 to 31 May 2023 (George Plant took office 1 June 2023)."
+    }
   },
   {
     "role": "Chair",
@@ -36134,7 +36144,12 @@
     ],
     "pollie_slug": "eric-hutchinson",
     "start_date": "2017-04-01",
-    "end_date": "2023-05-31"
+    "end_date": "2023-05-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Mirage News confirms he chaired the Kingston and Arthur's Vale Historic Area Advisory Committee concurrently with his Administrator tenure."
+    }
   },
   {
     "role": "Founder and Partner",
@@ -36142,11 +36157,14 @@
     "category": "Legal & Judicial",
     "sources": [
       "https://en.wikipedia.org/wiki/Peter_Rae",
-      "https://raepartners.com.au/about-us",
-      "https://members.lst.org.au/members/search/organisations/295/"
+      "https://raepartners.com.au/about-us"
     ],
     "pollie_slug": "peter-rae",
-    "start_date": "1986-01-01"
+    "start_date": "1986-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -36159,7 +36177,11 @@
     ],
     "pollie_slug": "peter-rae",
     "start_date": "1993-01-01",
-    "end_date": "2004-12-31"
+    "end_date": "2004-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -36171,7 +36193,11 @@
       "https://www.rosemaryarmitage.com/single-post/2016/08/23/peter-rae-ao-tribute"
     ],
     "pollie_slug": "peter-rae",
-    "start_date": "1999-01-01"
+    "start_date": "1999-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Foundation Chair",
@@ -36182,7 +36208,11 @@
       "https://biography.senate.gov.au/rae-peter-elliot/"
     ],
     "pollie_slug": "peter-rae",
-    "start_date": "2001-01-01"
+    "start_date": "2001-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -36193,7 +36223,11 @@
       "https://biography.senate.gov.au/rae-peter-elliot/"
     ],
     "pollie_slug": "peter-rae",
-    "start_date": "2002-01-01"
+    "start_date": "2002-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Chair",
@@ -36205,7 +36239,11 @@
       "https://www.rosemaryarmitage.com/single-post/2016/08/23/peter-rae-ao-tribute"
     ],
     "pollie_slug": "peter-rae",
-    "start_date": "2004-01-01"
+    "start_date": "2004-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Vice Chair",
@@ -36217,7 +36255,11 @@
     ],
     "pollie_slug": "peter-rae",
     "start_date": "2008-01-01",
-    "end_date": "2013-12-31"
+    "end_date": "2013-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -36241,7 +36283,11 @@
     ],
     "pollie_slug": "peter-rae",
     "start_date": "2015-10-26",
-    "end_date": "2023-12-31"
+    "end_date": "2023-11-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -36251,7 +36297,11 @@
       "https://www.examiner.com.au/story/5761840/woolmers-chair-joins-calls-for-convict-site-report/",
       "https://biography.senate.gov.au/rae-peter-elliot/"
     ],
-    "pollie_slug": "peter-rae"
+    "pollie_slug": "peter-rae",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adviser",
@@ -36260,7 +36310,11 @@
     "sources": [
       "https://www.rosemaryarmitage.com/single-post/2016/08/23/peter-rae-ao-tribute"
     ],
-    "pollie_slug": "peter-rae"
+    "pollie_slug": "peter-rae",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Head Coach",
@@ -36502,7 +36556,11 @@
     ],
     "pollie_slug": "ross-mclean",
     "start_date": "1995",
-    "end_date": "1999"
+    "end_date": "1999",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -36513,7 +36571,11 @@
     ],
     "pollie_slug": "ross-mclean",
     "start_date": "1995",
-    "end_date": "1997"
+    "end_date": "1997",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -36525,7 +36587,12 @@
     ],
     "pollie_slug": "ross-mclean",
     "start_date": "1996",
-    "end_date": "2000"
+    "end_date": "2000",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia states 1996-1999, but the DSS government media release (2 May 2000) indicates McLean stepped down after about three years, supporting an end year of 2000."
+    }
   },
   {
     "role": "Chair",
@@ -36536,7 +36603,11 @@
     ],
     "pollie_slug": "ross-mclean",
     "start_date": "1998",
-    "end_date": "2001"
+    "end_date": "2001",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -36547,7 +36618,11 @@
     ],
     "pollie_slug": "ross-mclean",
     "start_date": "1999",
-    "end_date": "2004"
+    "end_date": "2004",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -36559,6 +36634,10 @@
     ],
     "pollie_slug": "ross-mclean",
     "start_date": "2004",
-    "end_date": "2012"
+    "end_date": "2012",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
