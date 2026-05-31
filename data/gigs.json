@@ -9575,7 +9575,11 @@
       "https://en.wikipedia.org/wiki/Bob_Catley_(politician)",
       "https://www.hudson.org/experts/66-bob-catley"
     ],
-    "pollie_slug": "bob-catley"
+    "pollie_slug": "bob-catley",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Head of School of Business",
@@ -9584,7 +9588,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Bob_Catley_(politician)"
     ],
-    "pollie_slug": "bob-catley"
+    "pollie_slug": "bob-catley",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Shareholder",
@@ -9605,7 +9613,11 @@
       "https://www.crikey.com.au/2023/12/04/offshore-wind-farm-australian-fishing-trade-association/"
     ],
     "pollie_slug": "bob-baldwin",
-    "start_date": "2020"
+    "start_date": "2020",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Principal",
@@ -9616,7 +9628,11 @@
       "https://www.linkedin.com/in/the-hon-bob-baldwin-17b6082a/"
     ],
     "pollie_slug": "bob-baldwin",
-    "start_date": "2016"
+    "start_date": "2016",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -11933,7 +11949,10 @@
       "https://biography.senate.gov.au/gibson-brian-francis/"
     ],
     "pollie_slug": "brian-gibson",
-    "end_date": "2017-08-15"
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -11944,7 +11963,10 @@
       "https://biography.senate.gov.au/gibson-brian-francis/"
     ],
     "pollie_slug": "brian-gibson",
-    "end_date": "2017-08-15"
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Commissioner",
@@ -18936,7 +18958,11 @@
       "https://en.wikipedia.org/wiki/Bronwyn_Bishop"
     ],
     "pollie_slug": "bronwyn-bishop",
-    "start_date": "2016-06-02"
+    "start_date": "2016-06-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Governor Patron",
@@ -18946,7 +18972,11 @@
       "https://opera.org.au/support-us/our-patrons/",
       "https://en.wikipedia.org/wiki/Bronwyn_Bishop"
     ],
-    "pollie_slug": "bronwyn-bishop"
+    "pollie_slug": "bronwyn-bishop",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -21536,7 +21566,11 @@
       "https://www.bmartin.cc/dissent/documents/health/wenkart.html"
     ],
     "pollie_slug": "bob-woods",
-    "start_date": "1997"
+    "start_date": "1997",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -21546,7 +21580,11 @@
       "https://biography.senate.gov.au/woods-robert-leslie/"
     ],
     "pollie_slug": "bob-woods",
-    "start_date": "2001"
+    "start_date": "2001",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -22676,7 +22714,11 @@
       "https://tasmaniantimes.com/2018/06/loaves-and-fishes/"
     ],
     "pollie_slug": "brett-whiteley",
-    "start_date": "2017-04-01"
+    "start_date": "2017-04-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Principal Adviser",
@@ -27483,7 +27525,11 @@
     ],
     "pollie_slug": "brian-courtice",
     "start_date": "1994-01-01",
-    "end_date": "1994-12-31"
+    "end_date": "1994-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Opinion Columnist",
@@ -35967,7 +36013,11 @@
       "https://www.tallyroom.com.au/archive/viccouncil2024/maroondah2024"
     ],
     "pollie_slug": "mike-symon",
-    "start_date": "2016-10-22"
+    "start_date": "2016-10-22",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Mayor",
@@ -35978,7 +36028,11 @@
     ],
     "pollie_slug": "mike-symon",
     "start_date": "2017-01-01",
-    "end_date": "2018-12-31"
+    "end_date": "2018-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Mayor",
@@ -35990,8 +36044,7 @@
       "https://www.councilnews.com.au/2021/12/17860261-a-christmas-message-from-our-mayor-councillor-mike-symon"
     ],
     "pollie_slug": "mike-symon",
-    "start_date": "2019-01-01",
-    "end_date": "2022-11-09"
+    "start_date": "2019-01-01"
   },
   {
     "role": "Administrator",
@@ -36002,7 +36055,11 @@
       "https://en.wikipedia.org/wiki/Doug_Cameron_(politician)"
     ],
     "pollie_slug": "douglas-cameron",
-    "start_date": "2022-07-29"
+    "start_date": "2022-07-29",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Commissioner",
@@ -36014,7 +36071,11 @@
       "https://everybodyshome.com.au/peoples-commission/commissioners/"
     ],
     "pollie_slug": "douglas-cameron",
-    "start_date": "2024-05-23"
+    "start_date": "2024-05-23",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "National Patron",
@@ -36024,6 +36085,10 @@
       "https://x.com/LabAgainstWar/status/1890692988466069925",
       "https://www.facebook.com/LabAgainstWar/posts/labor-against-war-national-patron-doug-cameron-will-deliver-the-annual-laurie-ca/713747105021589/"
     ],
-    "pollie_slug": "douglas-cameron"
+    "pollie_slug": "douglas-cameron",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
