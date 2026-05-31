@@ -36472,5 +36472,93 @@
     ],
     "pollie_slug": "peter-staples",
     "start_date": "2025-01-01"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "Commission of Inquiry into Queensland Racing",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://www.queenslandspeaks.com.au/david-watson"
+    ],
+    "pollie_slug": "david-watson",
+    "start_date": "2004"
+  },
+  {
+    "role": "Director",
+    "organisation": "Major Brisbane Festivals",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.queenslandspeaks.com.au/david-watson"
+    ],
+    "pollie_slug": "david-watson",
+    "start_date": "2008"
+  },
+  {
+    "role": "President",
+    "organisation": "Association for the Blind of Western Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ross_McLean_(politician)"
+    ],
+    "pollie_slug": "ross-mclean",
+    "start_date": "1995",
+    "end_date": "1999"
+  },
+  {
+    "role": "President",
+    "organisation": "League of Help for the Sick and Elderly of Western Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ross_McLean_(politician)"
+    ],
+    "pollie_slug": "ross-mclean",
+    "start_date": "1995",
+    "end_date": "1997"
+  },
+  {
+    "role": "Chair",
+    "organisation": "National Childcare Accreditation Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ross_McLean_(politician)",
+      "https://formerministers.dss.gov.au/5456/new-national-childcare-accreditation-council-members/"
+    ],
+    "pollie_slug": "ross-mclean",
+    "start_date": "1996",
+    "end_date": "2000"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Fremantle Football Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ross_McLean_(politician)"
+    ],
+    "pollie_slug": "ross-mclean",
+    "start_date": "1998",
+    "end_date": "2001"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Broadcasting Corporation",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ross_McLean_(politician)"
+    ],
+    "pollie_slug": "ross-mclean",
+    "start_date": "1999",
+    "end_date": "2004"
+  },
+  {
+    "role": "Director",
+    "organisation": "Western Australian Cricket Association",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ross_McLean_(politician)",
+      "https://resources.wa-cricket.pulselive.com/wa-cricket/document/2023/06/02/4ba9e1e8-d01f-427e-b228-fb342c59b170/Western-Cricketer-2005-06.pdf"
+    ],
+    "pollie_slug": "ross-mclean",
+    "start_date": "2004",
+    "end_date": "2012"
   }
 ]
