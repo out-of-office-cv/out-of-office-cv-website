@@ -36639,5 +36639,87 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Director",
+    "organisation": "Fraser Coast Community Enterprise Limited (Community Bank Hervey Bay)",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.loddonherald.com.au/politics--council/comeback-bid-broad-seeks-new-horizons-for-skills",
+      "https://www.bendigobank.com.au/branch/qld/community-bank-hervey-bay/"
+    ],
+    "pollie_slug": "andrew-broad"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Committee of Review of New South Wales Schools",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/carrick-john-leslie/",
+      "https://researchdata.edu.au/agy-4727-committee-carrick-committee/167291"
+    ],
+    "pollie_slug": "john-carrick",
+    "start_date": "1988-09-16",
+    "end_date": "1989-09-05"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Gas Council of New South Wales",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://biography.senate.gov.au/carrick-john-leslie/",
+      "https://en.wikipedia.org/wiki/John_Carrick_(Australian_politician)"
+    ],
+    "pollie_slug": "john-carrick",
+    "start_date": "1990-01-01",
+    "end_date": "1995-12-31"
+  },
+  {
+    "role": "Executive Committee Member",
+    "organisation": "Foundation for Aged Care",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://biography.senate.gov.au/carrick-john-leslie/",
+      "https://en.wikipedia.org/wiki/John_Carrick_(Australian_politician)"
+    ],
+    "pollie_slug": "john-carrick",
+    "start_date": "1990-01-01",
+    "end_date": "2001-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Gifted Education Research, Resource and Information Centre Advisory Committee, University of New South Wales",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/carrick-john-leslie/",
+      "https://en.wikipedia.org/wiki/John_Carrick_(Australian_politician)"
+    ],
+    "pollie_slug": "john-carrick",
+    "start_date": "1991-01-01",
+    "end_date": "2007-12-31"
+  },
+  {
+    "role": "Member",
+    "organisation": "New South Wales Ministerial Advisory Council for Teacher Education",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/carrick-john-leslie/",
+      "https://en.wikipedia.org/wiki/John_Carrick_(Australian_politician)"
+    ],
+    "pollie_slug": "john-carrick",
+    "start_date": "1992-01-01",
+    "end_date": "1995-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Macquarie University Institute of Early Childhood Foundation",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/carrick-john-leslie/",
+      "https://en.wikipedia.org/wiki/John_Carrick_(Australian_politician)"
+    ],
+    "pollie_slug": "john-carrick",
+    "start_date": "2000-01-01",
+    "end_date": "2008-12-31"
   }
 ]
