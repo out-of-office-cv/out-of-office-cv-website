@@ -36809,5 +36809,288 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Centre for Defence Industry Capability",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.minister.defence.gov.au/media-releases/2016-10-22/board-announced-centre-defence-industry-capability",
+      "https://www.defenceconnect.com.au/joint-capabilities/93-board-announced-for-centre-for-defence-industry-capability",
+      "https://www.sbs.com.au/news/article/former-minister-gets-defence-export-job/1n6o9z9oc"
+    ],
+    "pollie_slug": "david-johnston",
+    "start_date": "2016-10-22"
+  },
+  {
+    "role": "Defence Export Advocate",
+    "organisation": "Australian Defence Export Office",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.minister.defence.gov.au/minister/christopher-pyne/media-releases/appointment-first-australian-defence-export-advocate",
+      "https://www.defenceconnect.com.au/key-enablers/2129-inaugural-defence-export-advocate-revealed",
+      "https://www.contactairlandandsea.com/2018/04/10/sacked-mindef-made-aussie-arms-dealer/"
+    ],
+    "pollie_slug": "david-johnston",
+    "start_date": "2018-04-09"
+  },
+  {
+    "role": "Chair",
+    "organisation": "UWA Defence and Security Institute",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://defenceuwa.com.au/about/people/david-johnston/",
+      "https://www.businessnews.com.au/Person/David-Johnston"
+    ],
+    "pollie_slug": "david-johnston"
+  },
+  {
+    "role": "Adjunct Professor",
+    "organisation": "University of Western Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://research-repository.uwa.edu.au/en/persons/david-johnston/",
+      "https://www.cleansubsea.com.au/about-us/david-johnston/"
+    ],
+    "pollie_slug": "david-johnston"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "TG Public Affairs",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.tgpublic.com.au/people-list/david-johnston"
+    ],
+    "pollie_slug": "david-johnston"
+  },
+  {
+    "role": "Non-Executive Chair",
+    "organisation": "CleanSubSea",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.businessnews.com.au/Person/David-Johnston",
+      "https://www.cleansubsea.com.au/about-us/david-johnston/"
+    ],
+    "pollie_slug": "david-johnston",
+    "start_date": "2022-09-19"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Revesby Workers' Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.facebook.com/RevesbyWorkersClub/posts/appointment-of-club-patron-daryl-melham-amrevesby-workers-club-is-proud-to-annou/1249325667228529/",
+      "https://rwc.org.au/presidents-final-report/"
+    ],
+    "pollie_slug": "daryl-melham",
+    "start_date": "2024-10"
+  },
+  {
+    "role": "Staff Member",
+    "organisation": "Community Legal Centres NSW",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.linkedin.com/in/kerry-nettle-60305870/"
+    ],
+    "pollie_slug": "kerry-nettle"
+  },
+  {
+    "role": "Founder and Board Member",
+    "organisation": "Nova Peris Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://novaperisfoundation.org.au/foundation-governance/",
+      "https://novaperisfoundation.org.au/about-us/"
+    ],
+    "pollie_slug": "nova-peris",
+    "start_date": "2020"
+  },
+  {
+    "role": "Principal Advisor, Sport and Recreation, Aboriginal Health and Wellbeing and Community Participation",
+    "organisation": "Department of Health and Human Services Victoria",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://novaperis.com.au/novas-story/"
+    ],
+    "pollie_slug": "nova-peris",
+    "start_date": "2017",
+    "end_date": "2017"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Aboriginal and Torres Strait Islander National Sporting Hall of Fame",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://novaperis.com.au/novas-story/"
+    ],
+    "pollie_slug": "nova-peris",
+    "start_date": "2017"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "AFL SportsReady",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://novaperis.com.au/novas-story/",
+      "https://thetorch.org.au/news/nova-peris-board-member/"
+    ],
+    "pollie_slug": "nova-peris",
+    "start_date": "2017"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Australian Indigenous Doctors' Association",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://novaperis.com.au/novas-story/",
+      "https://www.zoominfo.com/p/Nova-Peris/139349662"
+    ],
+    "pollie_slug": "nova-peris",
+    "start_date": "2017"
+  },
+  {
+    "role": "Project Manager",
+    "organisation": "Vicsport",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.vicsport.com.au/blog/2868/nova-peris-joins-vicsport",
+      "https://novaperis.com.au/novas-story/"
+    ],
+    "pollie_slug": "nova-peris",
+    "start_date": "2018",
+    "end_date": "2018"
+  },
+  {
+    "role": "National Ambassador",
+    "organisation": "Reconciliation Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nova_Peris",
+      "https://novaperis.com.au/novas-story/"
+    ],
+    "pollie_slug": "nova-peris",
+    "start_date": "2018"
+  },
+  {
+    "role": "Principal Advisor, Aboriginal and Community Engagement",
+    "organisation": "Melbourne Water",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://novaperis.com.au/novas-story/",
+      "https://www.melbournewater.com.au/about/what-we-do/news/national-reconciliation-week-together"
+    ],
+    "pollie_slug": "nova-peris",
+    "start_date": "2019"
+  },
+  {
+    "role": "Ambassador",
+    "organisation": "Australian Indigenous Education Foundation",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nova_Peris"
+    ],
+    "pollie_slug": "nova-peris",
+    "start_date": "2020"
+  },
+  {
+    "role": "Director",
+    "organisation": "The Torch",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://thetorch.org.au/news/nova-peris-board-member/"
+    ],
+    "pollie_slug": "nova-peris",
+    "start_date": "2021-02"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Long Walk Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://archive.sen.com.au/news/2022/05/20/long-comments-on-peris-resignation-over-essendon-ceos-utter-disrespect/index.html",
+      "https://www.zerohanger.com/bombers-ceo-blamed-for-long-walk-foundation-board-members-resignation-120598/"
+    ],
+    "pollie_slug": "nova-peris",
+    "end_date": "2022-05"
+  },
+  {
+    "role": "Co-Chair",
+    "organisation": "Australian Republic Movement",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://republic.org.au/media/co-chairs",
+      "https://womensagenda.com.au/latest/appointments/nova-peris-oam-appointed-co-chair-of-the-australian-republic-movement/"
+    ],
+    "pollie_slug": "nova-peris",
+    "start_date": "2023-03",
+    "end_date": "2024-05"
+  },
+  {
+    "role": "Board Member and National Patron",
+    "organisation": "Beyond Blue",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://novaperis.com.au/novas-story/",
+      "https://www.wla.edu.au/award-winners/nova-peris-oam-oly/"
+    ],
+    "pollie_slug": "nova-peris"
+  },
+  {
+    "role": "International Ambassador",
+    "organisation": "Hepatitis Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.wla.edu.au/award-winners/nova-peris-oam-oly/"
+    ],
+    "pollie_slug": "nova-peris"
+  },
+  {
+    "role": "Ambassador",
+    "organisation": "Empowered Therapy and Training",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://empoweredtherapyandtraining.com/our-ambassadors/nova-maree-peris-oam/"
+    ],
+    "pollie_slug": "nova-peris"
+  },
+  {
+    "role": "Managing Director",
+    "organisation": "First Peoples Energy",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://au.linkedin.com/in/novaperis"
+    ],
+    "pollie_slug": "nova-peris"
+  },
+  {
+    "role": "Director",
+    "organisation": "Hockey Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.hockey.org.au/board-profiles/nova-peris",
+      "https://www.hockey.org.au/news/hockey-australia-elects-new-vice-president-and-four-directors"
+    ],
+    "pollie_slug": "nova-peris",
+    "start_date": "2025-06"
+  },
+  {
+    "role": "Ambassador",
+    "organisation": "Shalom Gamarada",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.jwire.com.au/shalom-gamarada-peris/"
+    ],
+    "pollie_slug": "nova-peris",
+    "start_date": "2026-03"
+  },
+  {
+    "role": "Ambassador",
+    "organisation": "Maccabi Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.australianjewishnews.com/peris-proud-to-be-aus-maccabiah-games-ambassador/"
+    ],
+    "pollie_slug": "nova-peris",
+    "start_date": "2025"
   }
 ]
