@@ -5585,11 +5585,17 @@
     "organisation": "Sky News Australia",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://www.imdb.com/title/tt11681674/characters/nm5278976"
+      "https://www.imdb.com/title/tt11681674/characters/nm5278976",
+      "https://www.imdb.com/title/tt13932420/",
+      "https://en.wikipedia.org/wiki/Cory_Bernardi"
     ],
     "pollie_slug": "cory-bernardi",
     "start_date": "2021",
-    "end_date": "2024"
+    "end_date": "2023-12-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "SA Leader & Member of the Legislative Council",
@@ -5599,7 +5605,11 @@
       "https://www.starobserver.com.au/news/controversial-one-nation-leader-cory-bernardi-wins-sa-upper-house-seat/241277"
     ],
     "pollie_slug": "cory-bernardi",
-    "start_date": "2026-03"
+    "start_date": "2026-02-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador to Belgium, Luxembourg, the European Union and NATO",
@@ -7377,18 +7387,25 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://en.wikipedia.org/wiki/Clive_Palmer",
-      "https://en.wikipedia.org/wiki/United_Australia_Party_(2013)"
+      "https://en.wikipedia.org/wiki/United_Australia_Party_(2013)",
+      "https://www.unitedaustraliaparty.org.au/"
     ],
     "pollie_slug": "clive-palmer",
     "start_date": "2018-12",
-    "end_date": "2022-09"
+    "end_date": "2022-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
     "organisation": "Trumpet of Patriots",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Clive_Palmer"
+      "https://en.wikipedia.org/wiki/Clive_Palmer",
+      "https://npc.org.au/events/clive-palmer-chairman-and-party-spokesperson-for-trumpet-of-patriots-will-address-the-national-press-club-of-australia",
+      "https://en.wikipedia.org/wiki/Trumpet_of_Patriots"
     ],
     "pollie_slug": "clive-palmer",
     "start_date": "2025-02",
@@ -10424,7 +10441,11 @@
       "https://en.wikipedia.org/wiki/Chris_Ketter"
     ],
     "pollie_slug": "chris-ketter",
-    "start_date": "2023-07"
+    "start_date": "2023-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Alternate Director",
@@ -12204,7 +12225,11 @@
       "https://www.gladstone.qld.gov.au/news/article/659/councillor-chris-trevor-on-leave-of-absence-from-civic-duties",
       "https://www.gladstone.qld.gov.au/news/article/860/gladstone-region-mayor-matt-burnett-and-councillors-sworn-into-office"
     ],
-    "pollie_slug": "chris-trevor"
+    "pollie_slug": "chris-trevor",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Special Adviser",
@@ -12213,7 +12238,11 @@
     "sources": [
       "https://www.christrevor.com.au/who-we-are"
     ],
-    "pollie_slug": "chris-trevor"
+    "pollie_slug": "chris-trevor",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adviser",
@@ -22664,8 +22693,12 @@
       "https://johnmenadue.com/post/2021/03/memories-of-chris-hurford/"
     ],
     "pollie_slug": "chris-hurford",
-    "start_date": "1988-01-01",
-    "end_date": "1992-12-31"
+    "start_date": "1988-03-01",
+    "end_date": "1992-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Head of External Relations",
@@ -22675,7 +22708,11 @@
       "https://en.wikipedia.org/wiki/Chris_Hurford"
     ],
     "pollie_slug": "chris-hurford",
-    "start_date": "1991-01-01"
+    "start_date": "1991-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -36820,7 +36857,11 @@
       "https://www.sbs.com.au/news/article/former-minister-gets-defence-export-job/1n6o9z9oc"
     ],
     "pollie_slug": "david-johnston",
-    "start_date": "2016-10-22"
+    "start_date": "2016-10-22",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Defence Export Advocate",
@@ -36832,7 +36873,11 @@
       "https://www.contactairlandandsea.com/2018/04/10/sacked-mindef-made-aussie-arms-dealer/"
     ],
     "pollie_slug": "david-johnston",
-    "start_date": "2018-04-09"
+    "start_date": "2018-04-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -36842,7 +36887,12 @@
       "https://defenceuwa.com.au/about/people/david-johnston/",
       "https://www.businessnews.com.au/Person/David-Johnston"
     ],
-    "pollie_slug": "david-johnston"
+    "pollie_slug": "david-johnston",
+    "start_date": "2022-12-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adjunct Professor",
@@ -36852,7 +36902,11 @@
       "https://research-repository.uwa.edu.au/en/persons/david-johnston/",
       "https://www.cleansubsea.com.au/about-us/david-johnston/"
     ],
-    "pollie_slug": "david-johnston"
+    "pollie_slug": "david-johnston",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -36861,7 +36915,11 @@
     "sources": [
       "https://www.tgpublic.com.au/people-list/david-johnston"
     ],
-    "pollie_slug": "david-johnston"
+    "pollie_slug": "david-johnston",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Chair",
@@ -36872,7 +36930,11 @@
       "https://www.cleansubsea.com.au/about-us/david-johnston/"
     ],
     "pollie_slug": "david-johnston",
-    "start_date": "2022-09-19"
+    "start_date": "2022-09-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -37184,10 +37246,15 @@
     "category": "Professional Services & Management Consulting",
     "sources": [
       "https://michaelwest.com.au/santo-santoro/",
-      "https://miltondick.com.au/news/speeches-transcripts/sciacca-hon-concetto-antonio-con-ao/"
+      "https://miltondick.com.au/news/speeches-transcripts/sciacca-hon-concetto-antonio-con-ao/",
+      "https://www.sasgroup.net.au/en/team/28-en/about-us"
     ],
     "pollie_slug": "concetto-sciacca",
-    "start_date": "2009-07-01"
+    "start_date": "2009-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chair",
@@ -37206,9 +37273,14 @@
     "category": "Health, Medical & Aged Care",
     "sources": [
       "https://en.wikipedia.org/wiki/Con_Sciacca",
-      "https://www.openaustralia.org.au/senate/?id=2017-06-22.148.2"
+      "https://www.openaustralia.org.au/senate/?id=2017-06-22.148.2",
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;db=CHAMBER;id=chamber/hansards/d8168954-ba68-4fca-9854-908971f0f4c9/0138"
     ],
-    "pollie_slug": "concetto-sciacca"
+    "pollie_slug": "concetto-sciacca",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "State Secretary",
