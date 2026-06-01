@@ -341,13 +341,17 @@
   "bruce-billson|Founding Independent Non-Executive Director|Judo Bank|2016-01-01": "2026-05-01T00:00:00Z",
   "bruce-billson|Inaugural Chair, SME Research Centre Advisory Board|IPA/Deakin University|null": "2026-05-01T00:00:00Z",
   "bruce-billson|Special Counsel|Royce Communications|null": "2026-05-01T00:00:00Z",
-  "bruce-lloyd|Advisory Committee Member|National Agricultural Environmental Management Systems Advisory Committee|null": "2026-05-17T00:00:00Z",
+  "bruce-lloyd|Advisory Committee Member|National Agricultural Environmental Management Systems Advisory Committee|null": {
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
+  },
   "bruce-lloyd|Advisory Committee Member|Natural Heritage Trust Advisory Committee|null": "2026-05-17T00:00:00Z",
   "bruce-lloyd|Advisory Committee Member|Plant Breeder's Rights Advisory Committee|null": "2026-05-17T00:00:00Z",
   "bruce-lloyd|Chair|Australian Landcare Council|null": "2026-05-17T00:00:00Z",
   "bruce-lloyd|Committee Member|Crawford Fund Victorian Committee|1996-01-29": "2026-05-17T00:00:00Z",
   "bruce-lloyd|Community Consultative Committee Member|National Gene Technology Community Consultative Committee|null": "2026-05-17T00:00:00Z",
-  "bruce-lloyd|Task Force Member|National Greenhouse and Agriculture Task Force|null": "2026-05-17T00:00:00Z",
+  "bruce-lloyd|Task Force Member|National Greenhouse and Agriculture Task Force|null": {
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
+  },
   "bruce-scott|Chair|Southern Queensland Landscapes|2018-01-01": "2026-05-07T00:00:00Z",
   "bruce-scott|Co-Chair|Telstra Regional Advisory Board|null": "2026-05-07T00:00:00Z",
   "bruce-scott|Director|Australian Stockman's Hall of Fame and Outback Heritage Centre|null": "2026-05-07T00:00:00Z",
@@ -368,9 +372,13 @@
     "last_examined_at": "2026-05-22T02:31:13.773Z"
   },
   "cathy-otoole|Board Chair|Queensland Alliance for Mental Health|2020-08-01": "2026-05-18T20:04:13.931Z",
-  "cathy-otoole|Board Member|Glasser Australia|null": "2026-05-18T20:04:13.931Z",
+  "cathy-otoole|Board Member|Glasser Australia|null": {
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
+  },
   "cathy-otoole|Chairperson|Carers Australia|null": "2026-05-18T20:04:13.931Z",
-  "cathy-otoole|Committee Member|Townsville Regional Committee for the Aging|null": "2026-05-18T20:04:13.931Z",
+  "cathy-otoole|Committee Member|Townsville Regional Committee for the Aging|null": {
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
+  },
   "celia-hammond|Board Member|Women for Election|null": "2026-05-03T10:06:21.329Z",
   "celia-hammond|Commissioner|Catholic Education Western Australia|2023-03-01": "2026-05-03T10:06:21.329Z",
   "celia-hammond|Deputy Chair|The Bethanie Group|2023-05-01": "2026-05-03T10:06:21.329Z",
@@ -2683,13 +2691,13 @@
   "steven-ciobo|International Advisory Board Member|GLOBSEC|null": "2026-05-24T02:17:47.846Z",
   "steven-ciobo|Managing Director, Head of Global Affairs|Stonepeak Infrastructure Partners|2020-01-01": "2026-05-24T02:17:47.846Z",
   "stuart-henry|Director|WorldSkills Australia|2017-04-18": {
-    "last_examined_at": "2026-05-24T08:16:17.023Z"
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
   },
   "stuart-henry|Executive Director|Plumbing Products Industry Group|null": {
-    "last_examined_at": "2026-05-24T08:16:17.023Z"
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
   },
   "stuart-henry|Principal|Aqua Global Consultants|null": {
-    "last_examined_at": "2026-05-24T08:16:17.023Z"
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
   },
   "stuart-henry|Secretariat|World Plumbing Council|2011-01-01": {
     "last_examined_at": "2026-05-24T08:16:17.023Z"
@@ -2907,13 +2915,13 @@
     "last_examined_at": "2026-05-24T08:16:17.023Z"
   },
   "vince-connelly|Director|RSL Western Australia|2024-07-01": {
-    "last_examined_at": "2026-05-24T08:16:17.023Z"
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
   },
   "vince-connelly|Director|Veterans Recovery and Restoration Centre|null": {
-    "last_examined_at": "2026-05-24T08:16:17.023Z"
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
   },
   "vince-connelly|Member|Veterans Advisory Council WA|null": {
-    "last_examined_at": "2026-05-24T08:16:17.023Z"
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
   },
   "warwick-parer|Chair, Energy and Transport Advisory Sector|CSIRO|2002": "2026-05-07T00:00:00Z",
   "warwick-parer|Chairman of the Board|Stanwell Corporation|2012-05": "2026-05-07T00:00:00Z",
@@ -3180,6 +3188,36 @@
     "last_examined_at": "2026-06-01T00:00:00.000Z"
   },
   "eric-hutchinson|Chair|Kingston and Arthur's Vale Historic Area Advisory Committee|2017-04-01": {
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
+  },
+  "john-carrick|Chair|Committee of Review of New South Wales Schools|1988-09-16": {
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
+  },
+  "john-carrick|Chair|Gas Council of New South Wales|1990-01-01": {
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
+  },
+  "john-carrick|Executive Committee Member|Foundation for Aged Care|1990-01-01": {
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
+  },
+  "john-carrick|Chair|Gifted Education Research, Resource and Information Centre Advisory Committee, University of New South Wales|1991-01-01": {
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
+  },
+  "john-carrick|Member|New South Wales Ministerial Advisory Council for Teacher Education|1992-01-01": {
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
+  },
+  "john-carrick|Chair|Macquarie University Institute of Early Childhood Foundation|2000-01-01": {
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
+  },
+  "bruce-childs|President|Evatt Foundation|1997-09-10": {
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
+  },
+  "bruce-childs|Co-Convener|Walk Against the War Coalition|2002-10-21": {
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
+  },
+  "cameron-thompson|Senior Media Adviser|Office of Queensland Health Minister Lawrence Springborg|2012-08-02": {
+    "last_examined_at": "2026-06-01T00:00:00.000Z"
+  },
+  "cameron-thompson|Journalist|Queensland Country Life|null": {
     "last_examined_at": "2026-06-01T00:00:00.000Z"
   }
 }

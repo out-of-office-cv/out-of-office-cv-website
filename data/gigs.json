@@ -8493,11 +8493,16 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://en.wikipedia.org/wiki/Cameron_Thompson_(politician)",
-      "https://statements.qld.gov.au/statements/69982"
+      "https://statements.qld.gov.au/statements/69982",
+      "https://www.queenslandcountrylife.com.au/story/7513871/clear-skies-finally-deliver-springborg-harvest/"
     ],
     "pollie_slug": "cameron-thompson",
     "start_date": "2012-08-02",
-    "end_date": "2015-01-31"
+    "end_date": "2015-01-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Journalist",
@@ -9378,18 +9383,30 @@
     "organisation": "Glasser Australia",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.qamh.org.au/team/cathy-otoole/"
+      "https://www.qamh.org.au/team/cathy-otoole/",
+      "https://www.qamh.org.au/cathy-otoole/",
+      "https://cmha.org.au/tag/cathy-otoole/"
     ],
-    "pollie_slug": "cathy-otoole"
+    "pollie_slug": "cathy-otoole",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Committee Member",
     "organisation": "Townsville Regional Committee for the Aging",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.qamh.org.au/team/cathy-otoole/"
+      "https://www.qamh.org.au/team/cathy-otoole/",
+      "https://www.qamh.org.au/cathy-otoole/",
+      "https://www.trcota.com/"
     ],
-    "pollie_slug": "cathy-otoole"
+    "pollie_slug": "cathy-otoole",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founder",
@@ -18392,7 +18409,11 @@
     ],
     "start_date": "1997-09-10",
     "end_date": "2006-12-31",
-    "pollie_slug": "bruce-childs"
+    "pollie_slug": "bruce-childs",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Co-Convener",
@@ -18403,8 +18424,12 @@
       "https://www.greenleft.org.au/content/move-split-sydney-anti-war-coalition"
     ],
     "start_date": "2002-10-21",
-    "end_date": "2003-07-15",
-    "pollie_slug": "bruce-childs"
+    "end_date": "2003-08-31",
+    "pollie_slug": "bruce-childs",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Barrister",
@@ -23279,8 +23304,14 @@
     "organisation": "National Greenhouse and Agriculture Task Force",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
-      "https://www.crawfordfund.org/news/thank-you-to-bruce-lloyd-am/"
-    ]
+      "https://www.crawfordfund.org/news/thank-you-to-bruce-lloyd-am/",
+      "https://en.wikipedia.org/wiki/Bruce_Lloyd",
+      "https://www.openaustralia.org.au/mp/bruce_lloyd/murray"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "bruce-lloyd",
@@ -23288,8 +23319,14 @@
     "organisation": "National Agricultural Environmental Management Systems Advisory Committee",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
-      "https://www.crawfordfund.org/news/thank-you-to-bruce-lloyd-am/"
-    ]
+      "https://www.crawfordfund.org/news/thank-you-to-bruce-lloyd-am/",
+      "https://en.wikipedia.org/wiki/Bruce_Lloyd",
+      "https://www.openaustralia.org.au/mp/bruce_lloyd/murray"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "john-woodley",
@@ -29608,10 +29645,16 @@
     "organisation": "RSL Western Australia",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.linkedin.com/in/vince-connelly-bb39256b/"
+      "https://www.linkedin.com/in/vince-connelly-bb39256b/",
+      "https://www.businessnews.com.au/article/Connelly-leads-new-generation-at-RSL-WA",
+      "https://www.rslwa.org.au/article/rslwa-board-announces-new-ceo-stephen-barton"
     ],
     "pollie_slug": "vince-connelly",
-    "start_date": "2024-07-01"
+    "start_date": "2024-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -29619,9 +29662,14 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://au.linkedin.com/in/vince-connelly-mp-bb39256b",
-      "https://military-history.fandom.com/wiki/Vince_Connelly"
+      "https://military-history.fandom.com/wiki/Vince_Connelly",
+      "https://en.wikipedia.org/wiki/Vince_Connelly"
     ],
-    "pollie_slug": "vince-connelly"
+    "pollie_slug": "vince-connelly",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -29629,7 +29677,8 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://au.linkedin.com/in/vince-connelly-mp-bb39256b",
-      "https://military-history.fandom.com/wiki/Vince_Connelly"
+      "https://military-history.fandom.com/wiki/Vince_Connelly",
+      "https://en.wikipedia.org/wiki/Vince_Connelly"
     ],
     "pollie_slug": "vince-connelly"
   },
@@ -30805,28 +30854,43 @@
     "category": "Professional Services & Management Consulting",
     "sources": [
       "https://www.worldskills.org.au/new-board-members-bring-wealth-of-experience-to-worldskills-australia/",
-      "https://au.linkedin.com/in/stuart-henry-65223232"
+      "https://au.linkedin.com/in/stuart-henry-65223232",
+      "https://www.standards.org.au/news/drinking-water-standard-gets-refreshed",
+      "https://www.6pr.com.au/west-aussie-great-stuart-henry/"
     ],
-    "pollie_slug": "stuart-henry"
+    "pollie_slug": "stuart-henry",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Director",
     "organisation": "Plumbing Products Industry Group",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.worldskills.org.au/new-board-members-bring-wealth-of-experience-to-worldskills-australia/"
+      "https://www.worldskills.org.au/new-board-members-bring-wealth-of-experience-to-worldskills-australia/",
+      "https://www.standards.org.au/news/drinking-water-standard-gets-refreshed"
     ],
-    "pollie_slug": "stuart-henry"
+    "pollie_slug": "stuart-henry",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "WorldSkills Australia",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.worldskills.org.au/new-board-members-bring-wealth-of-experience-to-worldskills-australia/"
+      "https://www.worldplumbing.org/newsletter/May17.html"
     ],
     "pollie_slug": "stuart-henry",
-    "start_date": "2017-04-18"
+    "start_date": "2017-04-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Author",
@@ -36660,7 +36724,11 @@
     ],
     "pollie_slug": "john-carrick",
     "start_date": "1988-09-16",
-    "end_date": "1989-09-05"
+    "end_date": "1989-09-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -36672,7 +36740,11 @@
     ],
     "pollie_slug": "john-carrick",
     "start_date": "1990-01-01",
-    "end_date": "1995-12-31"
+    "end_date": "1995-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Committee Member",
@@ -36684,7 +36756,11 @@
     ],
     "pollie_slug": "john-carrick",
     "start_date": "1990-01-01",
-    "end_date": "2001-12-31"
+    "end_date": "2001-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -36696,7 +36772,11 @@
     ],
     "pollie_slug": "john-carrick",
     "start_date": "1991-01-01",
-    "end_date": "2007-12-31"
+    "end_date": "2007-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -36708,7 +36788,11 @@
     ],
     "pollie_slug": "john-carrick",
     "start_date": "1992-01-01",
-    "end_date": "1995-12-31"
+    "end_date": "1995-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -36720,6 +36804,10 @@
     ],
     "pollie_slug": "john-carrick",
     "start_date": "2000-01-01",
-    "end_date": "2008-12-31"
+    "end_date": "2008-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
