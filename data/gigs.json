@@ -37304,5 +37304,58 @@
     ],
     "pollie_slug": "steven-dargavel",
     "start_date": "2018-10-01"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Australian War Memorial",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.miragenews.com/new-appointments-to-australian-war-memorial-1265733/",
+      "https://www.awm.gov.au/about/our-people/council"
+    ],
+    "start_date": "2024-07-01",
+    "end_date": "2027-06-30",
+    "pollie_slug": "warren-snowdon"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Soldier On Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://soldieron.org.au/people/the-hon-warren-snowdon/"
+    ],
+    "pollie_slug": "warren-snowdon"
+  },
+  {
+    "role": "Chair, Independent Expert Panel",
+    "organisation": "Northern Australia Infrastructure Facility Act 2016 Review",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.naif.gov.au/media-centre/naif-statutory-review-announcement/",
+      "https://infrastructuremagazine.com.au/2024/08/20/fed-gov-announces-naif-review/"
+    ],
+    "start_date": "2024-08-19",
+    "end_date": "2025-02-12",
+    "pollie_slug": "warren-snowdon"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Old Parliament House",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.miragenews.com/appointment-to-old-parliament-house-board-1408718/",
+      "https://www.tonyburke.com.au/media-releases/2025/appointment-to-old-parliament-house-board"
+    ],
+    "start_date": "2025-02-14",
+    "pollie_slug": "warren-snowdon"
+  },
+  {
+    "role": "Government Relations Advisor",
+    "organisation": "Diabetes Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.miragenews.com/appointment-to-old-parliament-house-board-1408718/"
+    ],
+    "pollie_slug": "warren-snowdon"
   }
 ]
