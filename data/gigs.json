@@ -36900,31 +36900,46 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://novaperisfoundation.org.au/foundation-governance/",
-      "https://novaperisfoundation.org.au/about-us/"
+      "https://novaperisfoundation.org.au/about-us/",
+      "https://en.wikipedia.org/wiki/Nova_Peris"
     ],
     "pollie_slug": "nova-peris",
-    "start_date": "2020"
+    "start_date": "2020",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Principal Advisor, Sport and Recreation, Aboriginal Health and Wellbeing and Community Participation",
     "organisation": "Department of Health and Human Services Victoria",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://novaperis.com.au/novas-story/"
+      "https://novaperis.com.au/novas-story/",
+      "https://au.linkedin.com/in/novaperis"
     ],
     "pollie_slug": "nova-peris",
     "start_date": "2017",
-    "end_date": "2017"
+    "end_date": "2017",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Aboriginal and Torres Strait Islander National Sporting Hall of Fame",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://novaperis.com.au/novas-story/"
+      "https://novaperis.com.au/novas-story/",
+      "https://en.wikipedia.org/wiki/Nova_Peris"
     ],
     "pollie_slug": "nova-peris",
-    "start_date": "2017"
+    "start_date": "2017",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -36935,7 +36950,11 @@
       "https://thetorch.org.au/news/nova-peris-board-member/"
     ],
     "pollie_slug": "nova-peris",
-    "start_date": "2017"
+    "start_date": "2017",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -36946,7 +36965,11 @@
       "https://www.zoominfo.com/p/Nova-Peris/139349662"
     ],
     "pollie_slug": "nova-peris",
-    "start_date": "2017"
+    "start_date": "2017",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Project Manager",
@@ -36958,7 +36981,11 @@
     ],
     "pollie_slug": "nova-peris",
     "start_date": "2018",
-    "end_date": "2018"
+    "end_date": "2018",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "National Ambassador",
@@ -36966,10 +36993,15 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://en.wikipedia.org/wiki/Nova_Peris",
-      "https://novaperis.com.au/novas-story/"
+      "https://novaperis.com.au/novas-story/",
+      "https://ia.anu.edu.au/biography/peris-nova-17821"
     ],
     "pollie_slug": "nova-peris",
-    "start_date": "2018"
+    "start_date": "2018",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Principal Advisor, Aboriginal and Community Engagement",
@@ -36980,7 +37012,11 @@
       "https://www.melbournewater.com.au/about/what-we-do/news/national-reconciliation-week-together"
     ],
     "pollie_slug": "nova-peris",
-    "start_date": "2019"
+    "start_date": "2019",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
@@ -36990,7 +37026,11 @@
       "https://en.wikipedia.org/wiki/Nova_Peris"
     ],
     "pollie_slug": "nova-peris",
-    "start_date": "2020"
+    "start_date": "2020",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -37000,7 +37040,11 @@
       "https://thetorch.org.au/news/nova-peris-board-member/"
     ],
     "pollie_slug": "nova-peris",
-    "start_date": "2021-02"
+    "start_date": "2021-02-04",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -37011,7 +37055,11 @@
       "https://www.zerohanger.com/bombers-ceo-blamed-for-long-walk-foundation-board-members-resignation-120598/"
     ],
     "pollie_slug": "nova-peris",
-    "end_date": "2022-05"
+    "end_date": "2022-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Co-Chair",
@@ -37019,11 +37067,16 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://republic.org.au/media/co-chairs",
-      "https://womensagenda.com.au/latest/appointments/nova-peris-oam-appointed-co-chair-of-the-australian-republic-movement/"
+      "https://womensagenda.com.au/latest/appointments/nova-peris-oam-appointed-co-chair-of-the-australian-republic-movement/",
+      "https://nit.com.au/21-05-2024/11544/nova-peris-resigns-from-australian-republican-movement-over-conflict-with-co-chair-craig-foster"
     ],
     "pollie_slug": "nova-peris",
-    "start_date": "2023-03",
-    "end_date": "2024-05"
+    "start_date": "2023-03-20",
+    "end_date": "2024-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member and National Patron",
@@ -37033,7 +37086,11 @@
       "https://novaperis.com.au/novas-story/",
       "https://www.wla.edu.au/award-winners/nova-peris-oam-oly/"
     ],
-    "pollie_slug": "nova-peris"
+    "pollie_slug": "nova-peris",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "International Ambassador",
@@ -37042,7 +37099,11 @@
     "sources": [
       "https://www.wla.edu.au/award-winners/nova-peris-oam-oly/"
     ],
-    "pollie_slug": "nova-peris"
+    "pollie_slug": "nova-peris",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
@@ -37051,7 +37112,11 @@
     "sources": [
       "https://empoweredtherapyandtraining.com/our-ambassadors/nova-maree-peris-oam/"
     ],
-    "pollie_slug": "nova-peris"
+    "pollie_slug": "nova-peris",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Managing Director",
@@ -37060,7 +37125,11 @@
     "sources": [
       "https://au.linkedin.com/in/novaperis"
     ],
-    "pollie_slug": "nova-peris"
+    "pollie_slug": "nova-peris",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -37068,20 +37137,31 @@
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://www.hockey.org.au/board-profiles/nova-peris",
-      "https://www.hockey.org.au/news/hockey-australia-elects-new-vice-president-and-four-directors"
+      "https://www.hockey.org.au/news/hockey-australia-elects-new-vice-president-and-four-directors",
+      "https://www.ausleisure.com.au/news/nova-peris-among-hockey-australias-newly-elected-board-members/",
+      "https://www.fih.hockey/general/news/former-hockeyroo-nova-makes-history-again"
     ],
     "pollie_slug": "nova-peris",
-    "start_date": "2025-06"
+    "start_date": "2025-06",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
     "organisation": "Shalom Gamarada",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.jwire.com.au/shalom-gamarada-peris/"
+      "https://www.jwire.com.au/shalom-gamarada-peris/",
+      "https://www.ecaj.org.au/nova-peris-i-see-you-and-i-believe-in-you/"
     ],
     "pollie_slug": "nova-peris",
-    "start_date": "2026-03"
+    "start_date": "2026-03-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
@@ -37091,6 +37171,11 @@
       "https://www.australianjewishnews.com/peris-proud-to-be-aus-maccabiah-games-ambassador/"
     ],
     "pollie_slug": "nova-peris",
-    "start_date": "2025"
+    "start_date": "2025",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Ambassador for the 2025 Maccabiah Games held in Israel; appointment announcement was May 23, 2025; start_date adjusted to reflect the announcement year rather than games year"
+    }
   }
 ]
