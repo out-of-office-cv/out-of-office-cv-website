@@ -37177,5 +37177,60 @@
       "by": "claude",
       "note": "Ambassador for the 2025 Maccabiah Games held in Israel; appointment announcement was May 23, 2025; start_date adjusted to reflect the announcement year rather than games year"
     }
+  },
+  {
+    "role": "Co-founder and Director",
+    "organisation": "SAS Group (Sciacca Anthony Santoro)",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://michaelwest.com.au/santo-santoro/",
+      "https://miltondick.com.au/news/speeches-transcripts/sciacca-hon-concetto-antonio-con-ao/"
+    ],
+    "pollie_slug": "concetto-sciacca",
+    "start_date": "2009-07-01"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Anzac Centenary Public Fund",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.sbs.com.au/news/new-board-for-anzac-centenary",
+      "https://www.openaustralia.org.au/senate/?id=2017-06-22.148.2"
+    ],
+    "pollie_slug": "concetto-sciacca",
+    "start_date": "2014-03-01"
+  },
+  {
+    "role": "Founder",
+    "organisation": "Sam Sciacca Travelling Fellowship",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Con_Sciacca",
+      "https://www.openaustralia.org.au/senate/?id=2017-06-22.148.2"
+    ],
+    "pollie_slug": "concetto-sciacca"
+  },
+  {
+    "role": "State Secretary",
+    "organisation": "Australian Manufacturing Workers' Union Victorian Branch",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.amwu.org.au/new_vic_leadership",
+      "https://www.greenleft.org.au/content/amwu-elections-left-cleans"
+    ],
+    "pollie_slug": "steven-dargavel",
+    "start_date": "2007-01-01",
+    "end_date": "2018-09-30"
+  },
+  {
+    "role": "Labour Hire Licensing Commissioner",
+    "organisation": "Labour Hire Authority",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.labourhireauthority.vic.gov.au/about-us/",
+      "https://www.zoominfo.com/p/Steven-Dargavel/2959689055"
+    ],
+    "pollie_slug": "steven-dargavel",
+    "start_date": "2018-10-01"
   }
 ]
