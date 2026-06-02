@@ -37590,5 +37590,50 @@
       "https://en.wikipedia.org/wiki/John_Faulkner"
     ],
     "pollie_slug": "john-faulkner"
+  },
+  {
+    "role": "Chair, Australian Standards for the Export of Livestock Technical Advisory Committee",
+    "organisation": "Australian Department of Agriculture",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.queenslandcountrylife.com.au/story/5430042/chris-back-resigns-as-asel-review-brought-forward/",
+      "https://www.farmonline.com.au/story/5430042/chris-back-resigns-as-asel-review-brought-forward/"
+    ],
+    "pollie_slug": "chris-back",
+    "end_date": "2018-05-25"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Livestock Exporters' Council",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://auslivestockexport.com/news/items/261-dr-chris-back-elected-as-new-alec-board-chair",
+      "https://www.farmweekly.com.au/story/9132985/livestock-export-industry-names-new-expertly-qualified-alec-chair/",
+      "https://www.sheepcentral.com/people-on-the-move-appointments-retirements-achievements-12/"
+    ],
+    "pollie_slug": "chris-back",
+    "start_date": "2025-11-01"
+  },
+  {
+    "role": "Ex-Officio Director",
+    "organisation": "LiveCorp",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://livecorp.com.au/dr-chris-back/",
+      "https://livecorp.com.au/about/"
+    ],
+    "pollie_slug": "chris-back",
+    "start_date": "2025-11-01"
+  },
+  {
+    "role": "Owner",
+    "organisation": "Lush on Bondi",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stephen_Lusher",
+      "https://www.facebook.com/LushOnBondi/",
+      "https://www.tripadvisor.com.au/Restaurant_Review-g947961-d3846559-Reviews-Lush_on_Bondi-Bondi_Greater_Sydney_New_South_Wales.html"
+    ],
+    "pollie_slug": "stephen-lusher"
   }
 ]
