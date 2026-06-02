@@ -32398,7 +32398,12 @@
     "sources": [
       "https://www.openaustralia.org.au/senate/?id=2013-05-14.80.2"
     ],
-    "pollie_slug": "ian-wilson"
+    "pollie_slug": "ian-wilson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by parliamentary condolences speech (Hansard, 14 May 2013): Chairman of Adelaide Arcade heritage company."
+    }
   },
   {
     "role": "Chair",
@@ -32439,7 +32444,12 @@
     "sources": [
       "https://www.openaustralia.org.au/senate/?id=2013-05-14.80.2"
     ],
-    "pollie_slug": "ian-wilson"
+    "pollie_slug": "ian-wilson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by parliamentary condolences speech (Hansard, 14 May 2013): Vice President of the British and Foreign Bible Society."
+    }
   },
   {
     "role": "Chair",
@@ -32448,7 +32458,12 @@
     "sources": [
       "https://www.openaustralia.org.au/senate/?id=2013-05-14.80.2"
     ],
-    "pollie_slug": "ian-wilson"
+    "pollie_slug": "ian-wilson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by parliamentary condolences speech (Hansard, 14 May 2013): Chairman of St Matthew's Home for the Aged."
+    }
   },
   {
     "role": "President",
@@ -32457,7 +32472,12 @@
     "sources": [
       "https://www.openaustralia.org.au/senate/?id=2013-05-14.80.2"
     ],
-    "pollie_slug": "ian-wilson"
+    "pollie_slug": "ian-wilson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by parliamentary condolences speech (Hansard, 14 May 2013): President of Australian Birthright Movement."
+    }
   },
   {
     "role": "Chair",
@@ -32518,7 +32538,12 @@
       "https://futureflyingforum.com/speakers/the-hon-john-sharp-am"
     ],
     "pollie_slug": "john-sharp",
-    "start_date": "1999-01-01"
+    "start_date": "1999-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and aviation industry sources confirm John Sharp (NPA, Hume 1993-1998) founded Thenford Consulting, a transport consultancy."
+    }
   },
   {
     "role": "Director",
@@ -32574,7 +32599,12 @@
       "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)"
     ],
     "pollie_slug": "john-sharp",
-    "start_date": "2001-01-01"
+    "start_date": "2001-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources confirm John Sharp served as Director of Eurocopter International Pacific; 2001 start date plausible."
+    }
   },
   {
     "role": "Director",
@@ -32583,7 +32613,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)"
     ],
-    "pollie_slug": "john-sharp"
+    "pollie_slug": "john-sharp",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and web searches confirm John Sharp was Director of Australian Aerospace, following his Eurocopter role."
+    }
   },
   {
     "role": "Director",
@@ -32703,7 +32738,12 @@
       "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)",
       "https://australianaviation.com.au/2022/01/pel-air-begins-operations-for-nsw-air-ambulance/"
     ],
-    "pollie_slug": "john-sharp"
+    "pollie_slug": "john-sharp",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple authoritative sources confirm John Sharp is Chairman of Pel-Air Aviation; Australian Aviation (2022) quotes him in this role."
+    }
   },
   {
     "role": "Member",
@@ -32730,7 +32770,12 @@
       "https://en.wikipedia.org/wiki/John_Sharp_(Australian_politician)"
     ],
     "pollie_slug": "john-sharp",
-    "start_date": "2016-01-01"
+    "start_date": "2016-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms John Sharp was appointed to the Northern Australia Transport Study in 2016."
+    }
   },
   {
     "role": "Director",
@@ -32824,7 +32869,12 @@
     "sources": [
       "https://www.womenaustralia.info/entries/ellis-annette-louise/"
     ],
-    "pollie_slug": "annette-ellis"
+    "pollie_slug": "annette-ellis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Women Australia entry and referenced in the Australia-Thailand Institute 2011-12 annual program report (DFAT), an official government source."
+    }
   },
   {
     "role": "Board Member",
@@ -33608,7 +33658,12 @@
       "https://en.wikipedia.org/wiki/Gerry_Hand"
     ],
     "pollie_slug": "gerry-hand",
-    "start_date": "2001-02-01"
+    "start_date": "2001-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Gerry Hand was a member of the Immigration Detention Advisory Group advising the immigration minister."
+    }
   },
   {
     "role": "Representative",
@@ -33617,7 +33672,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Gerry_Hand"
     ],
-    "pollie_slug": "gerry-hand"
+    "pollie_slug": "gerry-hand",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms that after retiring in 1993 Hand represented Australia before the UN High Commissioner for Refugees; exact start date unconfirmed."
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -37544,7 +37604,12 @@
     ],
     "pollie_slug": "harry-jenkins",
     "start_date": "2018-07-01",
-    "end_date": "2023-08-30"
+    "end_date": "2023-08-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple trade/business sources confirm Harry Jenkins (former Speaker) was Independent Chair of ABAC from 1 July 2018, retiring 30 August 2023."
+    }
   },
   {
     "role": "Panel Member",
@@ -37556,7 +37621,12 @@
     ],
     "pollie_slug": "harry-jenkins",
     "start_date": "2015-01-01",
-    "end_date": "2016-02-29"
+    "end_date": "2016-02-29",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Web sources confirm Harry Jenkins AO was a panel member of the Independent Parliamentary Entitlements System Review (commenced 2015, final report Feb 2016)."
+    }
   },
   {
     "role": "Administrator of the Indian Ocean Territories",
@@ -37597,10 +37667,16 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://www.queenslandcountrylife.com.au/story/5430042/chris-back-resigns-as-asel-review-brought-forward/",
-      "https://www.farmonline.com.au/story/5430042/chris-back-resigns-as-asel-review-brought-forward/"
+      "https://www.farmonline.com.au/story/5430042/chris-back-resigns-as-asel-review-brought-forward/",
+      "https://en.wikipedia.org/wiki/Chris_Back"
     ],
     "pollie_slug": "chris-back",
-    "end_date": "2018-05-25"
+    "end_date": "2018-05-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Chris Back (former WA Liberal Senator, veterinarian) resigned from the ASEL Technical Advisory Committee chair in May 2018; confirmed by multiple farm-industry sources."
+    }
   },
   {
     "role": "Chair",
@@ -37612,7 +37688,12 @@
       "https://www.sheepcentral.com/people-on-the-move-appointments-retirements-achievements-12/"
     ],
     "pollie_slug": "chris-back",
-    "start_date": "2025-11-01"
+    "start_date": "2025-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Chris Back elected Chair of the Australian Livestock Exporters' Council in November 2025; multiple industry sources document the appointment."
+    }
   },
   {
     "role": "Ex-Officio Director",
@@ -37623,7 +37704,12 @@
       "https://livecorp.com.au/about/"
     ],
     "pollie_slug": "chris-back",
-    "start_date": "2025-11-01"
+    "start_date": "2025-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Chris Back confirmed as Ex-Officio Director of LiveCorp per official LiveCorp about page, ex-officio via his ALEC Chair role."
+    }
   },
   {
     "role": "Owner",

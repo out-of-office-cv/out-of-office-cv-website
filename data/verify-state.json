@@ -134,9 +134,15 @@
   "anne-mcewen|Director|Forestry SA|null": "2026-05-09T00:00:00.000Z",
   "anne-mcewen|Member Representative Director|Statewide Super|null": "2026-05-09T00:00:00.000Z",
   "anne-mcewen|Presiding Member|SA Parks and Wilderness Council|null": "2026-05-09T00:00:00.000Z",
-  "annette-ellis|Board Member|Australia-Thailand Institute|null": "2026-05-26T00:00:00.000Z",
-  "annette-ellis|Board Member|Pegasus|null": "2026-05-26T00:00:00.000Z",
-  "annette-ellis|Council Member|University of Canberra Council|null": "2026-05-26T00:00:00.000Z",
+  "annette-ellis|Board Member|Australia-Thailand Institute|null": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
+  "annette-ellis|Board Member|Pegasus|null": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
+  "annette-ellis|Council Member|University of Canberra Council|null": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
   "annette-ellis|President|Tuggeranong Hawks Football Club|null": "2026-05-26T00:00:00.000Z",
   "arthur-dean|Magistrate|Magistrates Court of Queensland|1997-06-23": "2026-05-18T20:04:13.931Z",
   "arthur-dean|Partner|Nehmer Davenport Dean|1983-03-05": "2026-05-18T20:04:13.931Z",
@@ -1110,12 +1116,20 @@
   "ian-viner|Barrister (King's Counsel)|Murray Chambers, Perth|1983-03-05": "2026-05-10T02:10:32.931Z",
   "ian-viner|Deputy Chairman|Council for Aboriginal Reconciliation|1995-01-01": "2026-05-10T02:10:32.931Z",
   "ian-viner|Member|National Native Title Tribunal|1995-01-01": "2026-05-10T02:10:32.931Z",
-  "ian-wilson|Chair|Adelaide Arcade|null": "2026-05-26T00:00:00.000Z",
+  "ian-wilson|Chair|Adelaide Arcade|null": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
   "ian-wilson|Chair|May Gibbs Children's Literature Trust|1999-01-01": "2026-05-26T00:00:00.000Z",
-  "ian-wilson|Chair|St Matthew's Home for the Aged|null": "2026-05-26T00:00:00.000Z",
-  "ian-wilson|President|Australian Birthright Movement|null": "2026-05-26T00:00:00.000Z",
+  "ian-wilson|Chair|St Matthew's Home for the Aged|null": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
+  "ian-wilson|President|Australian Birthright Movement|null": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
   "ian-wilson|Solicitor|Genders Wilson and Partners|1993-02-08": "2026-05-26T00:00:00.000Z",
-  "ian-wilson|Vice President|British and Foreign Bible Society|null": "2026-05-26T00:00:00.000Z",
+  "ian-wilson|Vice President|British and Foreign Bible Society|null": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
   "ian-wilson|Vice President|South Australian Good Neighbour Council|null": "2026-05-26T00:00:00.000Z",
   "irina-dunn|Arts Critic|City Hub|2017-07-20": {
     "last_examined_at": "2026-05-25T00:00:00.000Z"
@@ -1460,24 +1474,34 @@
   "john-sharp|Adviser|Linfox Group|1999-01-01": "2026-05-26T00:00:00.000Z",
   "john-sharp|Chair|Aviation Safety Foundation of Australasia|2003-01-01": "2026-05-26T00:00:00.000Z",
   "john-sharp|Chair|Parsons Brinckerhoff Advisory Board|null": "2026-05-26T00:00:00.000Z",
-  "john-sharp|Chair|Pel-Air Aviation|null": "2026-05-26T00:00:00.000Z",
+  "john-sharp|Chair|Pel-Air Aviation|null": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
   "john-sharp|Chair|Power and Data Corporation|2004-01-01": "2026-05-26T00:00:00.000Z",
   "john-sharp|Deputy Chair|Regional Express Holdings|2005-01-01": "2026-05-26T00:00:00.000Z",
   "john-sharp|Director|Airbus Group Australia Pacific|2001-01-01": "2026-05-26T00:00:00.000Z",
-  "john-sharp|Director|Australian Aerospace|null": "2026-05-26T00:00:00.000Z",
+  "john-sharp|Director|Australian Aerospace|null": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
   "john-sharp|Director|Australian Maritime Shipbuilding Export Group|2018-01-01": "2026-05-26T00:00:00.000Z",
   "john-sharp|Director|Bundanon Trust|2022-01-01": "2026-05-26T00:00:00.000Z",
-  "john-sharp|Director|Eurocopter International Pacific|2001-01-01": "2026-05-26T00:00:00.000Z",
+  "john-sharp|Director|Eurocopter International Pacific|2001-01-01": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
   "john-sharp|Director|Foundation for Rural and Regional Renewal|2019-01-01": "2026-05-26T00:00:00.000Z",
   "john-sharp|Director|France-Australia Chamber of Commerce and Industry|2004-01-01": "2026-05-26T00:00:00.000Z",
   "john-sharp|Director|John McEwen House|1999-01-01": "2026-05-26T00:00:00.000Z",
   "john-sharp|Director|Luerssen Australia|2017-06-04": "2026-05-26T00:00:00.000Z",
   "john-sharp|Director|Skytraders|2005-01-01": "2026-05-26T00:00:00.000Z",
   "john-sharp|Director|Winifred West Schools Foundation|2002-01-01": "2026-05-26T00:00:00.000Z",
-  "john-sharp|Founder|Thenford Consulting|1999-01-01": "2026-05-26T00:00:00.000Z",
+  "john-sharp|Founder|Thenford Consulting|1999-01-01": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
   "john-sharp|Honorary Federal Treasurer|National Party of Australia|2000-01-01": "2026-05-26T00:00:00.000Z",
   "john-sharp|Member|Climate Change Authority|2015-10-08": "2026-05-26T00:00:00.000Z",
-  "john-sharp|Panel Member|Northern Australia Transport Study|2016-01-01": "2026-05-26T00:00:00.000Z",
+  "john-sharp|Panel Member|Northern Australia Transport Study|2016-01-01": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
   "john-spender|Ambassador|Australian Embassy, France|1996-01-01": {
     "last_examined_at": "2026-05-26T20:19:20.634Z"
   },
@@ -3387,5 +3411,26 @@
   "fergus-mcarthur|Chair|Geelong Export Network|1996-01-01": "2026-06-02T00:00:00.000Z",
   "fergus-mcarthur|Convenor|Stretton Group|2004-01-01": "2026-06-02T00:00:00.000Z",
   "george-georges|Secretary|Union Cooperative Society|null": "2026-06-02T00:00:00.000Z",
-  "george-georges|Founder and Organiser|Palm Sunday Rally for Peace and Nuclear Disarmament|null": "2026-06-02T00:00:00.000Z"
+  "george-georges|Founder and Organiser|Palm Sunday Rally for Peace and Nuclear Disarmament|null": "2026-06-02T00:00:00.000Z",
+  "chris-back|Chair, Australian Standards for the Export of Livestock Technical Advisory Committee|Australian Department of Agriculture|null": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
+  "chris-back|Chair|Australian Livestock Exporters' Council|2025-11-01": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
+  "chris-back|Ex-Officio Director|LiveCorp|2025-11-01": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
+  "gerry-hand|Member|Immigration Detention Advisory Group|2001-02-01": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
+  "gerry-hand|Representative|United Nations High Commissioner for Refugees|null": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
+  "harry-jenkins|Independent Chair|Alcohol Beverages Advertising Code|2018-07-01": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  },
+  "harry-jenkins|Panel Member|Independent Parliamentary Entitlements System Review|2015-01-01": {
+    "last_examined_at": "2026-06-03T00:00:00.000Z"
+  }
 }
