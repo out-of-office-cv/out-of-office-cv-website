@@ -569,7 +569,9 @@
   "craig-emerson|Adjunct Professor, College of Business|Victoria University|2014-05-20": "2026-04-28T01:56:56Z",
   "craig-emerson|Board Member|Bradfield Development Authority|null": "2026-04-28T01:56:56Z",
   "craig-emerson|Chair, Advisory Board, Centre for Transformative Innovation|Swinburne University of Technology|null": "2026-04-28T01:56:56Z",
-  "craig-emerson|Chair|Australian Alliance for Animals|null": "2026-04-28T01:56:56Z",
+  "craig-emerson|Chair|Australian Alliance for Animals|null": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
+  },
   "craig-emerson|Chair|Australian Political Exchange Council|2022": "2026-04-28T01:56:56Z",
   "craig-emerson|Chair|McKell Institute|null": "2026-04-28T01:56:56Z",
   "craig-emerson|Co-Chair, 2019 Federal Election Campaign Review|Australian Labor Party|2019": "2026-04-28T01:56:56Z",
@@ -578,7 +580,9 @@
   "craig-emerson|Commentator|Sky News Australia|2013": "2026-04-28T01:56:56Z",
   "craig-emerson|Consultant|KPMG Australia|2016-01": "2026-04-28T01:56:56Z",
   "craig-emerson|Councillor|National Competition Council|2024-02-23": "2026-04-28T01:56:56Z",
-  "craig-emerson|Distinguished Fellow|Australian National University|2018-11": "2026-04-28T01:56:56Z",
+  "craig-emerson|Distinguished Fellow|Australian National University|2018-11": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
+  },
   "craig-emerson|Executive Chair, Australian APEC Study Centre|RMIT University|2019-03": "2026-04-28T01:56:56Z",
   "craig-emerson|Independent Reviewer, Food and Grocery Code of Conduct|Australian Government (Prime Minister's Office)|2024-01-10": "2026-04-28T01:56:56Z",
   "craig-emerson|Independent Reviewer, Payment Times Reporting Scheme|Australian Government (Department of the Treasury)|2023": "2026-04-28T01:56:56Z",
@@ -615,10 +619,10 @@
     "last_examined_at": "2026-05-25T08:31:56.980Z"
   },
   "david-hawker|Chair|VicRoads Motorcycle Expert Advisory Panel|null": {
-    "last_examined_at": "2026-05-25T08:31:56.980Z"
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
   },
   "david-hawker|Committee Member|Warrnambool Base Hospital Fundraising Committee|null": {
-    "last_examined_at": "2026-05-25T08:31:56.980Z"
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
   },
   "david-hawker|First Vice Chairman|Abbeyfield Australia|null": {
     "last_examined_at": "2026-05-25T08:31:56.980Z"
@@ -631,7 +635,9 @@
   "david-kemp|President|Liberal Party of Australia (Victorian Division)|2007-01-01": "2026-05-01T00:00:00.000Z",
   "david-kemp|Professor and Vice-Chancellor's Fellow|University of Melbourne|2005-01-01": "2026-05-01T00:00:00.000Z",
   "david-leyonhjelm|Author|Connor Court Publishing|2020-01-01": "2026-05-13T00:00:00.000Z",
-  "david-leyonhjelm|Contributor|Australian Financial Review|null": "2026-05-13T00:00:00.000Z",
+  "david-leyonhjelm|Contributor|Australian Financial Review|null": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
+  },
   "david-leyonhjelm|Contributor|Spectator Australia|2019-03-01": "2026-05-13T00:00:00.000Z",
   "david-leyonhjelm|Principal|Baron Strategic Services|null": "2026-05-13T00:00:00.000Z",
   "david-macgibbon|Community Consultation Team Member|Australian Department of Defence (Defence Review 2000 White Paper)|2000-06-01": "2026-05-06T20:06:50.524Z",
@@ -3333,5 +3339,47 @@
   },
   "cory-bernardi|SA Leader & Member of the Legislative Council|One Nation|2026-03": {
     "last_examined_at": "2026-06-01T20:12:45.375Z"
+  },
+  "warren-snowdon|Council Member|Australian War Memorial|2024-07-01": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
+  },
+  "warren-snowdon|Board Member|Soldier On Australia|null": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
+  },
+  "warren-snowdon|Chair, Independent Expert Panel|Northern Australia Infrastructure Facility Act 2016 Review|2024-08-19": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
+  },
+  "warren-snowdon|Board Member|Old Parliament House|2025-02-14": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
+  },
+  "warren-snowdon|Government Relations Advisor|Diabetes Australia|null": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
+  },
+  "craig-laundy|Employer Director & Deputy Co-Chair|Hostplus|2021-07-01": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
+  },
+  "craig-laundy|Co-Chairman, Advisory Board|Cornerstone Group Australia|null": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
+  },
+  "david-bushby|Consul-General|Australian Consulate-General Chicago|2019-01": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
+  },
+  "david-bushby|Chief Executive Officer|Commercial and Asset Finance Brokers Association of Australia|2023-10": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
+  },
+  "david-hamer|Author|Independent (Can Responsible Government Survive in Australia?)|1994-01-01": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
+  },
+  "david-hamer|Author|Independent (Bombers Versus Battleships)|1998-01-01": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
+  },
+  "david-leyonhjelm|Contributor|Spectator Australia|null": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
+  },
+  "david-watson|Commissioner|Commission of Inquiry into Queensland Racing|2004": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
+  },
+  "david-watson|Director|Major Brisbane Festivals|2008": {
+    "last_examined_at": "2026-06-02T00:00:00.000Z"
   }
 }
