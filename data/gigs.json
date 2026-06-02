@@ -37892,5 +37892,159 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Visiting Fellow",
+    "organisation": "Woodrow Wilson School of Public and International Affairs, Princeton University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_Howe_(politician)"
+    ],
+    "pollie_slug": "brian-howe",
+    "start_date": "1997-01-01",
+    "end_date": "1998-12-31"
+  },
+  {
+    "role": "Professorial Fellow",
+    "organisation": "Centre for Public Policy, University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_Howe_(politician)",
+      "https://theconversation.com/profiles/brian-howe-11916",
+      "https://treasury.gov.au/programs-initiatives-consumers-community/advisory-panel-on-positive-ageing/professor-brian-howe-ao-notes-from-seminar",
+      "https://anzsog.edu.au/about-us/contact-directory/brian-howe/"
+    ],
+    "pollie_slug": "brian-howe"
+  },
+  {
+    "role": "Founding Director",
+    "organisation": "Australia and New Zealand School of Government",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_Howe_(politician)",
+      "https://anzsog.edu.au/about-us/contact-directory/brian-howe/"
+    ],
+    "pollie_slug": "brian-howe"
+  },
+  {
+    "role": "Director",
+    "organisation": "Brotherhood of St Laurence",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_Howe_(politician)",
+      "https://annual-report-2023.bsl.org.au/governance-and-financials"
+    ],
+    "pollie_slug": "brian-howe"
+  },
+  {
+    "role": "Patrons Council Member",
+    "organisation": "Epilepsy Foundation of Victoria",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_Howe_(politician)"
+    ],
+    "pollie_slug": "brian-howe"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Victorian Disability Housing Trust",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_Howe_(politician)"
+    ],
+    "pollie_slug": "brian-howe"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Housing Choices Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_Howe_(politician)"
+    ],
+    "pollie_slug": "brian-howe"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Council of Trade Unions Independent Inquiry into Insecure Work in Australia",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.actu.org.au/policy/independent-inquiry-into-insecure-work-in-australia/",
+      "https://australiainstitute.org.au/event/deputy-prime-minister-brian-howe-ao/",
+      "https://en.wikipedia.org/wiki/Brian_Howe_(politician)"
+    ],
+    "pollie_slug": "brian-howe",
+    "start_date": "2012-01-01",
+    "end_date": "2012-05-16"
+  },
+  {
+    "role": "Member",
+    "organisation": "Advisory Panel on the Economic Potential of Senior Australians",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://treasury.gov.au/programs-initiatives-consumers-community/epsa/the-advisory-panel",
+      "https://treasury.gov.au/programs-initiatives-consumers-community/advisory-panel-on-positive-ageing/professor-brian-howe-ao-notes-from-seminar"
+    ],
+    "pollie_slug": "brian-howe",
+    "start_date": "2011-01-01"
+  },
+  {
+    "role": "Member",
+    "organisation": "Advisory Panel on Positive Ageing",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://treasury.gov.au/programs-initiatives-consumers-community/advisory-panel-on-positive-ageing",
+      "https://treasury.gov.au/programs-initiatives-consumers-community/advisory-panel-on-positive-ageing/professor-brian-howe-ao-notes-from-seminar"
+    ],
+    "pollie_slug": "brian-howe",
+    "start_date": "2012-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "ASC Pty Ltd",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://australianpolitics.com/2013/12/17/government-appoints-mirabella-to-asc.html/",
+      "https://www.sbs.com.au/news/article/govt-gives-mirabella-submarine-company-job/duxj3np77",
+      "https://en.wikipedia.org/wiki/Sophie_Mirabella"
+    ],
+    "pollie_slug": "sophie-mirabella-formerly-panopoulos",
+    "start_date": "2013-12-17"
+  },
+  {
+    "role": "Public Policy Fellow",
+    "organisation": "University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.crikey.com.au/2014/04/08/tips-and-rumours-1100/",
+      "https://en.wikipedia.org/wiki/Sophie_Mirabella"
+    ],
+    "pollie_slug": "sophie-mirabella-formerly-panopoulos",
+    "start_date": "2014-03-01"
+  },
+  {
+    "role": "General Manager, Government and Media Relations",
+    "organisation": "Hancock Prospecting Pty Ltd",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.hancockprospecting.com.au/hppl-expands-executive-team-with-appointment-of-sophie-mirabella-as-gm-government-media-relations/",
+      "https://www.sbs.com.au/news/article/sophie-mirabella-gets-job-with-rinehart/v56jq5is2",
+      "https://thenewdaily.com.au/news/people/2016/08/12/gina-rinehart-hires-sophie-mirabella/"
+    ],
+    "pollie_slug": "sophie-mirabella-formerly-panopoulos",
+    "start_date": "2016-08-12",
+    "end_date": "2021-05-24"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "Fair Work Commission",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.fwc.gov.au/documents/transcripts/20210525_oneill_c_mirabella_c_ceremonial_sitting.htm",
+      "https://www.smartcompany.com.au/business-advice/politics/sophie-mirabella-fair-work-commission/",
+      "https://www.bordermail.com.au/story/7192600/former-mp-appointment-to-fair-work-commission-confirmed/",
+      "https://en.wikipedia.org/wiki/Sophie_Mirabella"
+    ],
+    "pollie_slug": "sophie-mirabella-formerly-panopoulos",
+    "start_date": "2021-05-24"
   }
 ]
