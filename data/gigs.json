@@ -10224,7 +10224,11 @@
       "https://oa.anu.edu.au/obituary/killen-sir-denis-james-jim-562"
     ],
     "pollie_slug": "denis-killen",
-    "start_date": "1983-08"
+    "start_date": "1983-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Delegate (ACM Queensland)",
@@ -10236,7 +10240,11 @@
     ],
     "pollie_slug": "denis-killen",
     "start_date": "1998-02-02",
-    "end_date": "1998-02-13"
+    "end_date": "1998-02-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Senior Managing Director",
@@ -13529,7 +13537,11 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.facebook.com/emmahusarmp/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "emma-husar",
@@ -13539,7 +13551,11 @@
     "sources": [
       "https://au.linkedin.com/in/ejhusar",
       "https://www.domesticviolenceadvocacyaustralia.org/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -14910,7 +14926,11 @@
       "https://www.openaustralia.org.au/senate/?id=2012-06-18.164.2",
       "https://alp.org.au/wayne-swan-archive/speeches/speech-motion-of-condolence-the-honourable-francis-john-frank-walker-qc/"
     ],
-    "pollie_slug": "frank-walker"
+    "pollie_slug": "frank-walker",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Vice-President",
@@ -14936,7 +14956,11 @@
     ],
     "pollie_slug": "frank-walker",
     "start_date": "1996-01-01",
-    "end_date": "1997-01-01"
+    "end_date": "1997-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -15584,7 +15608,12 @@
       "https://biography.senate.gov.au/georges-george/",
       "https://en.wikipedia.org/wiki/George_Georges"
     ],
-    "pollie_slug": "george-georges"
+    "pollie_slug": "george-georges",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Secretary of the Union Cooperative Society was held before and during his parliamentary service (held the role on the 1967 ALP Senate ticket), not after leaving parliament in 1987."
+    }
   },
   {
     "role": "Founder and Organiser",
@@ -15594,7 +15623,12 @@
       "https://www.greenleft.org.au/content/george-georges-fighter-socialist-principles",
       "http://radicaltimes.info/HTML/popup205b.html"
     ],
-    "pollie_slug": "george-georges"
+    "pollie_slug": "george-georges",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Palm Sunday Rally for Peace organising occurred during his parliamentary service (documented chairing a 1983 rally as a sitting Senator), not after his June 1987 departure."
+    }
   },
   {
     "role": "Director",
@@ -18057,7 +18091,11 @@
     ],
     "pollie_slug": "don-chipp",
     "start_date": "1988",
-    "end_date": "1990"
+    "end_date": "1990",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Elected Delegate",
@@ -18070,7 +18108,12 @@
     ],
     "pollie_slug": "don-chipp",
     "start_date": "1998",
-    "end_date": "1998"
+    "end_date": "1998",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Elected (not appointed) delegate representing Victoria on the Australians for Constitutional Monarchy ticket at the 1998 Constitutional Convention; post-parliamentary (after Aug 1986)."
+    }
   },
   {
     "role": "Owner",
@@ -26753,7 +26796,12 @@
     ],
     "pollie_slug": "fergus-mcarthur",
     "start_date": "1996-01-01",
-    "end_date": "2012-12-31"
+    "end_date": "2012-12-31",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Role began in 1996 while McArthur was still an MP (1984-2007); concurrent role mistakenly tagged as post-parliamentary."
+    }
   },
   {
     "role": "Convenor",
@@ -26764,7 +26812,12 @@
       "https://slackbastard.anarchobase.com/?p=1708"
     ],
     "pollie_slug": "fergus-mcarthur",
-    "start_date": "2004-01-01"
+    "start_date": "2004-01-01",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Stretton Group convenor role began in 2004 while McArthur was still an MP (1984-2007); concurrent role mistakenly tagged as post-parliamentary."
+    }
   },
   {
     "role": "Senior Adviser to the Premier",
@@ -27356,7 +27409,11 @@
       "https://en.wikipedia.org/wiki/Gary_Johns",
       "https://probonoaustralia.com.au/news/2017/12/who-is-gary-johns/"
     ],
-    "pollie_slug": "gary-johns"
+    "pollie_slug": "gary-johns",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Contributor",
@@ -27379,7 +27436,11 @@
       "https://en.wikipedia.org/wiki/Gary_Johns",
       "https://quadrant.org.au/product/the-burden-of-culture/"
     ],
-    "pollie_slug": "gary-johns"
+    "pollie_slug": "gary-johns",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Committee Member",
@@ -28253,7 +28314,12 @@
     "sources": [
       "https://www.lawyersweekly.com.au/appointments/15153-ex-labor-mp-joins-sydney-firm"
     ],
-    "pollie_slug": "gary-punch"
+    "pollie_slug": "gary-punch",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Organisation mismatch: the Lawyers Weekly source states Punch was appointed special counsel at Landerer & Company to head its planning practice, not Thomsons Lawyers."
+    }
   },
   {
     "role": "Special Counsel",
@@ -28307,7 +28373,12 @@
     "sources": [
       "https://www.newcastleherald.com.au/story/859429/labor-lobbyist-emerges-as-60m-developer/"
     ],
-    "pollie_slug": "gary-punch"
+    "pollie_slug": "gary-punch",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Newcastle Herald confirms Punch worked with Economia PDS as a planning consultant and lobbyist on complex planning matters."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -32234,7 +32305,11 @@
       "https://mcot.org.au/abc-radio-interview/",
       "https://www.zoominfo.com/p/Duncan-Spender/616103328"
     ],
-    "start_date": "2019-11"
+    "start_date": "2019-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "duncan-spender",
@@ -32245,7 +32320,11 @@
       "https://www.linkedin.com/in/duncanspender/",
       "https://www.zoominfo.com/p/Duncan-Spender/616103328",
       "https://www.canberratimes.com.au/story/8031076/the-battle-to-bring-oysters-to-xmas-tables/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "craig-kelly",
