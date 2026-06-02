@@ -37440,5 +37440,76 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Western Sydney Regional Organisation of Councils",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://wsroc.com.au/media-a-resources/wsroc-news-stories/wsroc-welcomes-new-ceo",
+      "https://www.linkedin.com/in/kerry-bartlett-07076143/",
+      "https://rocketreach.co/kerry-bartlett-email_66331655"
+    ],
+    "pollie_slug": "kerry-bartlett",
+    "start_date": "2011-09-01",
+    "end_date": "2013-10-01"
+  },
+  {
+    "role": "Independent Chair",
+    "organisation": "Alcohol Beverages Advertising Code",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://drinkstrade.com.au/news/harry-jenkins-appointed-new-independent-chair-of-abac/",
+      "https://brewsnews.com.au/new-chair-for-abac/",
+      "https://www.foodanddrinkbusiness.com.au/news/harry-jenkins-retires-as-abac-independent-chair"
+    ],
+    "pollie_slug": "harry-jenkins",
+    "start_date": "2018-07-01",
+    "end_date": "2023-08-30"
+  },
+  {
+    "role": "Panel Member",
+    "organisation": "Independent Parliamentary Entitlements System Review",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.finance.gov.au/publications/reviews/independent-parliamentary-entitlements-system-review",
+      "https://www.finance.gov.au/sites/default/files/2019-11/independent-parliamentary-entitlements-system-review-feb-2016.pdf"
+    ],
+    "pollie_slug": "harry-jenkins",
+    "start_date": "2015-01-01",
+    "end_date": "2016-02-29"
+  },
+  {
+    "role": "Administrator of the Indian Ocean Territories",
+    "organisation": "Australian Indian Ocean Territories (Christmas Island and Cocos (Keeling) Islands)",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barry_Haase",
+      "https://en.wikipedia.org/wiki/List_of_administrative_heads_of_the_Cocos_(Keeling)_Islands",
+      "https://www.worldatlas.com/articles/administrators-of-the-coco-keeling-islands-and-christmas-island.html"
+    ],
+    "pollie_slug": "barry-haase",
+    "start_date": "2014-10-05",
+    "end_date": "2017-10-04"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Whitlam Institute",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.whitlam.org/board",
+      "https://www.whitlam.org/2025-dismissal-symposium-the-hon-john-faulkners-speech",
+      "https://www.whitlam.org/events/2018/9/5/run-for-my-life-former-nsw-premier-and-foreign-minister-bob-carr-in-conversation-with-whitlam-institute-chair-the-hon-john-faulkner"
+    ],
+    "pollie_slug": "john-faulkner"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Global Panel Foundation Australasia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Faulkner"
+    ],
+    "pollie_slug": "john-faulkner"
   }
 ]
