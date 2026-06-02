@@ -3432,7 +3432,11 @@
       "https://www.anu.edu.au/about/governance/committees/the-hon-dr-craig-emerson"
     ],
     "pollie_slug": "craig-emerson",
-    "start_date": "2018-11"
+    "start_date": "2018-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Chair, Australian APEC Study Centre",
@@ -3458,7 +3462,11 @@
       "https://www.allianceforanimals.org.au/ourwork/media-release-groundbreaking-new-campaign-fair-go-for-animals",
       "https://www.allianceforanimals.org.au/people"
     ],
-    "pollie_slug": "craig-emerson"
+    "pollie_slug": "craig-emerson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -4975,19 +4983,30 @@
     "organisation": "Hostplus",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://hostplus.com.au/about-us/who-we-are/board-of-directors/craig-laundy"
+      "https://hostplus.com.au/about-us/who-we-are/board-of-directors/craig-laundy",
+      "https://www.superreview.com.au/four-new-trustees-hostplus/",
+      "https://theorg.com/org/hostplus?person=craig-laundy"
     ],
     "pollie_slug": "craig-laundy",
-    "start_date": "2021-07-01"
+    "start_date": "2021-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Co-Chairman, Advisory Board",
     "organisation": "Cornerstone Group Australia",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://theorg.com/org/cornerstone-group/org-chart/craig-laundy"
+      "https://theorg.com/org/cornerstone-group/org-chart/craig-laundy",
+      "https://en.wikipedia.org/wiki/Craig_Laundy"
     ],
-    "pollie_slug": "craig-laundy"
+    "pollie_slug": "craig-laundy",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -12900,11 +12919,16 @@
     "sources": [
       "https://www.aph.gov.au/About_Parliament/Senate/Powers_practice_n_procedures/hamer",
       "https://biography.senate.gov.au/hamer-david-john/",
-      "https://catalogue.nla.gov.au/Record/3121985"
+      "https://catalogue.nla.gov.au/Record/3121985",
+      "https://en.wikipedia.org/wiki/David_Hamer"
     ],
     "pollie_slug": "david-hamer",
     "start_date": "1994-01-01",
-    "end_date": "1994-12-31"
+    "end_date": "1994-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Author",
@@ -12913,11 +12937,16 @@
     "sources": [
       "https://www.amazon.com/Bombers-Versus-Battleships-Struggle-Aircraft/dp/0851777716",
       "https://biography.senate.gov.au/hamer-david-john/",
-      "https://seapower.navy.gov.au/people-and-culture/biographies/captain-david-john-hamer"
+      "https://seapower.navy.gov.au/people-and-culture/biographies/captain-david-john-hamer",
+      "https://en.wikipedia.org/wiki/David_Hamer"
     ],
     "pollie_slug": "david-hamer",
     "start_date": "1998-01-01",
-    "end_date": "1998-12-31"
+    "end_date": "1998-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Office Manager",
@@ -15803,7 +15832,11 @@
     ],
     "pollie_slug": "david-bushby",
     "start_date": "2019-01",
-    "end_date": "2022-03"
+    "end_date": "2022-03",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -15815,7 +15848,11 @@
       "https://www.theadviser.com.au/broker/44727-cafba-appoints-new-ceo-after-11-years"
     ],
     "pollie_slug": "david-bushby",
-    "start_date": "2023-10"
+    "start_date": "2023-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Policy and Research Officer",
@@ -18812,7 +18849,11 @@
     "sources": [
       "https://www.spectator.com.au/author/david-leyonhjelm/"
     ],
-    "pollie_slug": "david-leyonhjelm"
+    "pollie_slug": "david-leyonhjelm",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Contributor",
@@ -18822,7 +18863,11 @@
       "https://davidleyonhjelm.com.au/david-articles/",
       "https://conference.suicidepreventionaust.org/response-to-david-leyonhjelms-opinion-piece-in-the-australian-financial-review/"
     ],
-    "pollie_slug": "david-leyonhjelm"
+    "pollie_slug": "david-leyonhjelm",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Author",
@@ -31821,18 +31866,28 @@
     "organisation": "VicRoads Motorcycle Expert Advisory Panel",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://adb.anu.edu.au/biography/hawker-david-peter-28208"
+      "https://adb.anu.edu.au/biography/hawker-david-peter-28208",
+      "https://en.wikipedia.org/wiki/David_Hawker"
     ],
-    "pollie_slug": "david-hawker"
+    "pollie_slug": "david-hawker",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Committee Member",
     "organisation": "Warrnambool Base Hospital Fundraising Committee",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://adb.anu.edu.au/biography/hawker-david-peter-28208"
+      "https://adb.anu.edu.au/biography/hawker-david-peter-28208",
+      "https://en.wikipedia.org/wiki/David_Hawker"
     ],
-    "pollie_slug": "david-hawker"
+    "pollie_slug": "david-hawker",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -36636,7 +36691,11 @@
       "https://www.queenslandspeaks.com.au/david-watson"
     ],
     "pollie_slug": "david-watson",
-    "start_date": "2004"
+    "start_date": "2004",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -36646,7 +36705,11 @@
       "https://www.queenslandspeaks.com.au/david-watson"
     ],
     "pollie_slug": "david-watson",
-    "start_date": "2008"
+    "start_date": "2008",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -37315,7 +37378,11 @@
     ],
     "start_date": "2024-07-01",
     "end_date": "2027-06-30",
-    "pollie_slug": "warren-snowdon"
+    "pollie_slug": "warren-snowdon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -37324,7 +37391,11 @@
     "sources": [
       "https://soldieron.org.au/people/the-hon-warren-snowdon/"
     ],
-    "pollie_slug": "warren-snowdon"
+    "pollie_slug": "warren-snowdon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Independent Expert Panel",
@@ -37336,7 +37407,11 @@
     ],
     "start_date": "2024-08-19",
     "end_date": "2025-02-12",
-    "pollie_slug": "warren-snowdon"
+    "pollie_slug": "warren-snowdon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -37347,7 +37422,11 @@
       "https://www.tonyburke.com.au/media-releases/2025/appointment-to-old-parliament-house-board"
     ],
     "start_date": "2025-02-14",
-    "pollie_slug": "warren-snowdon"
+    "pollie_slug": "warren-snowdon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Government Relations Advisor",
@@ -37356,6 +37435,10 @@
     "sources": [
       "https://www.miragenews.com/appointment-to-old-parliament-house-board-1408718/"
     ],
-    "pollie_slug": "warren-snowdon"
+    "pollie_slug": "warren-snowdon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
