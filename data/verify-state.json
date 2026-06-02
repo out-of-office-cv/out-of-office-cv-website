@@ -684,8 +684,8 @@
   "dick-adams|Patron|Adult Literacy Council|null": {
     "last_examined_at": "2026-05-25T00:00:00.000Z"
   },
-  "dio-wang|Business Development Manager|MSP Engineering|null": "2026-05-09T20:07:03.026Z",
-  "dio-wang|Director|HORKA International (Horka Pty Ltd)|null": "2026-05-09T20:07:03.026Z",
+  "dio-wang|Business Development Manager|MSP Engineering|null": "2026-06-02T00:00:00.000Z",
+  "dio-wang|Director|HORKA International (Horka Pty Ltd)|null": "2026-06-02T00:00:00.000Z",
   "dio-wang|Policy Advisor, National Management Committee|Australian Citizens Party|null": "2026-05-09T20:07:03.026Z",
   "donald-grimes|Ambassador|Australian Embassy, Netherlands|1987": "2026-05-13T02:05:04.657Z",
   "donald-grimes|Chair|AusHealth International|1997": "2026-05-13T02:05:04.657Z",
@@ -725,8 +725,8 @@
   "elizabeth-grace|President|Rotary Club of Nundah|null": "2026-05-06T20:06:50.524Z",
   "elizabeth-grace|Special Liaison Officer|Office of Warren Truss MP|1999-01-01": "2026-05-06T20:06:50.524Z",
   "elizabeth-grace|Vice-President|Northgate/Spring Hill and Districts Ambulance Committee|null": "2026-05-06T20:06:50.524Z",
-  "emma-husar|Founder and Chair|SaFAR Australia|null": "2026-05-10T02:10:32.931Z",
-  "emma-husar|Founder and Co-Chair|Domestic Violence Advocacy Australia|null": "2026-05-10T02:10:32.931Z",
+  "emma-husar|Founder and Chair|SaFAR Australia|null": "2026-06-02T00:00:00.000Z",
+  "emma-husar|Founder and Co-Chair|Domestic Violence Advocacy Australia|null": "2026-06-02T00:00:00.000Z",
   "emma-husar|Keynote Speaker|Brave By Design|null": "2026-05-10T02:10:32.931Z",
   "eoin-cameron|Author|Fremantle Press|null": "2026-05-07T02:06:18.773Z",
   "eoin-cameron|Breakfast Presenter|6PR|null": "2026-05-07T02:06:18.773Z",
@@ -760,8 +760,8 @@
   "fran-bailey|Chair|Animal Aid Foundation|null": "2026-05-29T00:00:00.000Z",
   "fran-bailey|Director|International Women's Federation of Commerce and Industry|null": "2026-05-29T00:00:00.000Z",
   "fran-bailey|Keynote Speaker|ICMI Speakers|null": "2026-05-29T00:00:00.000Z",
-  "frank-walker|Consultant|Asian low-cost housing project|1996-01-01": "2026-05-09T00:00:00.000Z",
-  "frank-walker|Deputy President|New South Wales Mental Health Review Tribunal|null": "2026-05-09T00:00:00.000Z",
+  "frank-walker|Consultant|Asian low-cost housing project|1996-01-01": "2026-06-02T00:00:00.000Z",
+  "frank-walker|Deputy President|New South Wales Mental Health Review Tribunal|null": "2026-06-02T00:00:00.000Z",
   "frank-walker|Judge|Compensation Court of New South Wales|1997-01-01": "2026-05-09T00:00:00.000Z",
   "frank-walker|Judge|District Court of New South Wales|2003-01-01": "2026-05-09T00:00:00.000Z",
   "frank-walker|Judge|Dust Diseases Tribunal of New South Wales|2003-01-01": "2026-05-09T00:00:00.000Z",
@@ -877,10 +877,10 @@
   "gary-johns|Associate Commissioner|Productivity Commission|2002": "2026-05-20T02:05:01Z",
   "gary-johns|Associate Professor of Public Policy|Australian Catholic University|2009": "2026-05-20T02:05:01Z",
   "gary-johns|Chair|Close the Gap Research|2023-10": "2026-05-20T02:05:01Z",
-  "gary-johns|Columnist|The Australian|null": "2026-05-20T02:05:01Z",
+  "gary-johns|Columnist|The Australian|null": "2026-06-02T00:00:00.000Z",
   "gary-johns|Commissioner|Australian Charities and Not-for-profits Commission|2017-12": "2026-05-20T02:05:01Z",
   "gary-johns|Committee Member|Recognise a Better Way|2023": "2026-05-20T02:05:01Z",
-  "gary-johns|Contributor|Quadrant|null": "2026-05-20T02:05:01Z",
+  "gary-johns|Contributor|Quadrant|null": "2026-06-02T00:00:00.000Z",
   "gary-johns|Contributor|Spectator Australia|null": "2026-05-20T02:05:01Z",
   "gary-johns|Director|Australian Institute for Progress|null": "2026-05-20T02:05:01Z",
   "gary-johns|President|Bennelong Society|2001": "2026-05-20T02:05:01Z",
@@ -909,18 +909,14 @@
   "gary-punch|Honorary Chair|Sydney Olympic Football Club|1996-01-01": {
     "last_examined_at": "2026-05-21T08:20:37.515Z"
   },
-  "gary-punch|Planning Consultant and Lobbyist|Economia PDS|null": {
-    "last_examined_at": "2026-05-21T08:20:37.515Z"
-  },
+  "gary-punch|Planning Consultant and Lobbyist|Economia PDS|null": "2026-06-02T00:00:00.000Z",
   "gary-punch|Special Counsel|Herbert Geer|null": {
     "last_examined_at": "2026-05-21T08:20:37.515Z"
   },
   "gary-punch|Special Counsel|Landerer & Company|2014-02-28": {
     "last_examined_at": "2026-05-21T08:20:37.515Z"
   },
-  "gary-punch|Special Counsel|Thomsons Lawyers|null": {
-    "last_examined_at": "2026-05-21T08:20:37.515Z"
-  },
+  "gary-punch|Special Counsel|Thomsons Lawyers|null": "2026-06-02T00:00:00.000Z",
   "george-brandis|Advisory Board Member|Council on Geostrategy|null": "2026-05-03T10:06:21.329Z",
   "george-brandis|Columnist|The Sydney Morning Herald / The Age|null": "2026-05-03T10:06:21.329Z",
   "george-brandis|Director|Constitution Education Fund Australia|null": "2026-05-03T10:06:21.329Z",
@@ -3381,5 +3377,15 @@
   },
   "david-watson|Director|Major Brisbane Festivals|2008": {
     "last_examined_at": "2026-06-02T00:00:00.000Z"
-  }
+  },
+  "denis-killen|Barrister|Brisbane Bar|1983-08": "2026-06-02T00:00:00.000Z",
+  "denis-killen|Delegate (ACM Queensland)|Australian Constitutional Convention 1998|1998-02-02": "2026-06-02T00:00:00.000Z",
+  "don-chipp|Talkback Radio Host|3AK|1988": "2026-06-02T00:00:00.000Z",
+  "don-chipp|Elected Delegate|1998 Australian Constitutional Convention|1998": "2026-06-02T00:00:00.000Z",
+  "duncan-spender|Chief Executive Officer|Multicultural Council of Tasmania|2019-11": "2026-06-02T00:00:00.000Z",
+  "duncan-spender|Chief Executive Officer|Oysters Tasmania|null": "2026-06-02T00:00:00.000Z",
+  "fergus-mcarthur|Chair|Geelong Export Network|1996-01-01": "2026-06-02T00:00:00.000Z",
+  "fergus-mcarthur|Convenor|Stretton Group|2004-01-01": "2026-06-02T00:00:00.000Z",
+  "george-georges|Secretary|Union Cooperative Society|null": "2026-06-02T00:00:00.000Z",
+  "george-georges|Founder and Organiser|Palm Sunday Rally for Peace and Nuclear Disarmament|null": "2026-06-02T00:00:00.000Z"
 }
