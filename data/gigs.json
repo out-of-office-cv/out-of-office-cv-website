@@ -37721,5 +37721,103 @@
       "https://www.tripadvisor.com.au/Restaurant_Review-g947961-d3846559-Reviews-Lush_on_Bondi-Bondi_Greater_Sydney_New_South_Wales.html"
     ],
     "pollie_slug": "stephen-lusher"
+  },
+  {
+    "role": "Optometrist",
+    "organisation": "Private Practice (Port Augusta and Adelaide)",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://biography.senate.gov.au/jessop-donald-scott/",
+      "https://en.wikipedia.org/wiki/Don_Jessop"
+    ],
+    "pollie_slug": "donald-jessop"
+  },
+  {
+    "role": "Vice President",
+    "organisation": "Sturt Football Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://sturtfc.com.au/vale-don-jessop/"
+    ],
+    "pollie_slug": "donald-jessop"
+  },
+  {
+    "role": "Secondary School Teacher",
+    "organisation": "Genazzano FCJ College",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.canberratimes.com.au/story/934672/ex-pollie-takes-a-crack-at-being-a-class-act/",
+      "https://www.bendigoadvertiser.com.au/story/934672/ex-pollie-takes-a-crack-at-being-a-class-act/"
+    ],
+    "pollie_slug": "julian-mcgauran",
+    "start_date": "2012-01-01"
+  },
+  {
+    "role": "Secondary School Teacher",
+    "organisation": "Ivanhoe Girls' Grammar School",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Julian_McGauran",
+      "https://ratemyteachers.com/au/victoria/melbourne/ivanhoe-girls-grammar-school/julian-mcgauran"
+    ],
+    "pollie_slug": "julian-mcgauran",
+    "end_date": "2021-10-31"
+  },
+  {
+    "role": "Secondary School Teacher",
+    "organisation": "Marcellin College",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Julian_McGauran"
+    ],
+    "pollie_slug": "julian-mcgauran"
+  },
+  {
+    "role": "Secondary School Teacher",
+    "organisation": "Santa Maria College",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Julian_McGauran"
+    ],
+    "pollie_slug": "julian-mcgauran"
+  },
+  {
+    "role": "Secondary School Teacher",
+    "organisation": "Sacred Heart Girls' College",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Julian_McGauran"
+    ],
+    "pollie_slug": "julian-mcgauran",
+    "start_date": "2023-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Defence Housing Australia",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.dha.gov.au/annual-reports/2013-2014/27_dha_board.html"
+    ],
+    "pollie_slug": "arch-bevis",
+    "start_date": "2011-10-13"
+  },
+  {
+    "role": "Member",
+    "organisation": "Defence Force Remuneration Tribunal",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.dfrt.gov.au/sites/default/files/2021-02/RASigs-22-Jan-2013.pdf",
+      "https://pay-conditions.defence.gov.au/sites/default/files/2022-11/dfrt-2013-11.pdf"
+    ],
+    "pollie_slug": "arch-bevis"
+  },
+  {
+    "role": "Member",
+    "organisation": "ANZAC Centenary Advisory Board",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/ANZAC_Centenary_Advisory_Board"
+    ],
+    "pollie_slug": "arch-bevis"
   }
 ]
