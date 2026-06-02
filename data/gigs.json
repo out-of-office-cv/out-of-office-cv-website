@@ -11006,7 +11006,11 @@
       "https://en.wikipedia.org/wiki/Ian_Sinclair",
       "https://www.northerndailyleader.com.au/story/5300724/faces-of-tamworth-barrister-grazier-politician-and-philanthropist-ian-sinclair/"
     ],
-    "pollie_slug": "ian-sinclair"
+    "pollie_slug": "ian-sinclair",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary President",
@@ -11018,7 +11022,11 @@
       "https://www.northerndailyleader.com.au/story/5300724/faces-of-tamworth-barrister-grazier-politician-and-philanthropist-ian-sinclair/"
     ],
     "pollie_slug": "ian-sinclair",
-    "end_date": "2019"
+    "end_date": "2019",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "South Australian Chairman",
@@ -14970,10 +14978,16 @@
       "https://www.afma.gov.au/employee/ms-helen-kroger",
       "https://www.afma.gov.au/who-we-are/afma-commission",
       "https://setfia.org.au/1489-2/",
-      "https://www.afma.gov.au/news/afma-chair-returns"
+      "https://www.afma.gov.au/news/afma-chair-returns",
+      "https://www.foodmag.com.au/helen-kroger-reappointed-afma-chairperson/",
+      "https://www.nationaltribune.com.au/afma-chair-returns/"
     ],
     "pollie_slug": "helen-kroger",
-    "start_date": "2017-07-01"
+    "start_date": "2017-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Principal",
@@ -20490,7 +20504,11 @@
     ],
     "pollie_slug": "ian-campbell",
     "start_date": "2009",
-    "end_date": "2013"
+    "end_date": "2013",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -20661,7 +20679,6 @@
     "organisation": "Captain Paul Watson Foundation",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.zoominfo.com/p/Ian-Campbell/2446161393",
       "https://au.linkedin.com/in/ian-campbell-39b91a30/"
     ],
     "pollie_slug": "ian-campbell"
@@ -28924,10 +28941,17 @@
     "organisation": "Place Management NSW",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.dpie.nsw.gov.au/news-and-events/articles/2021/placemaking-nsw-advisory-committee"
+      "https://sopba.com.au/new-chair-for-placemaking-nsw-advisory-committee",
+      "https://en.wikipedia.org/wiki/Helen_Coonan"
     ],
     "pollie_slug": "helen-coonan",
-    "start_date": "2016-07-01"
+    "start_date": "2016-07-01",
+    "end_date": "2021-04-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple strong sources confirm Helen Coonan as Chair of Place Management NSW from 1 July 2016, stepping down April 2021. Original DPIE URL returns 404."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -29073,7 +29097,8 @@
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
       "https://au.linkedin.com/in/helen-coonan-a4aa9223",
-      "https://www.zoominfo.com/p/Helen-Coonan/2375667314"
+      "https://www.zoominfo.com/p/Helen-Coonan/2375667314",
+      "https://www.verdantminerals.com.au/our-team"
     ],
     "pollie_slug": "helen-coonan"
   },
@@ -32489,7 +32514,12 @@
       "https://en.wikipedia.org/wiki/Harry_Woods_(Australian_politician)"
     ],
     "pollie_slug": "harry-woods",
-    "end_date": "2016-12-31"
+    "end_date": "2016-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources confirm Harry Woods was Chair of FRDC, with Ron Boswell succeeding him in 2016; end date 2016-12-31 plausible."
+    }
   },
   {
     "role": "Policy Reviewer",
@@ -32498,7 +32528,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Harry_Woods_(Australian_politician)"
     ],
-    "pollie_slug": "harry-woods"
+    "pollie_slug": "harry-woods",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia documents that Harry Woods undertook policy review work for the NSW state government post-parliament."
+    }
   },
   {
     "role": "Chair",
@@ -37730,7 +37765,12 @@
       "https://biography.senate.gov.au/jessop-donald-scott/",
       "https://en.wikipedia.org/wiki/Don_Jessop"
     ],
-    "pollie_slug": "donald-jessop"
+    "pollie_slug": "donald-jessop",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "The optometrist role was pre-parliamentary (established 1953-1955 in Port Augusta, before Jessop entered the House of Representatives in 1966). While he did return to optometry practice after leaving the Senate in 1987, sources describe this as resuming his pre-parliament career rather than a new post-parliamentary role."
+    }
   },
   {
     "role": "Vice President",
@@ -37739,7 +37779,12 @@
     "sources": [
       "https://sturtfc.com.au/vale-don-jessop/"
     ],
-    "pollie_slug": "donald-jessop"
+    "pollie_slug": "donald-jessop",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Sturt Football Club official page, Senate biography and Wikipedia confirm Donald Jessop held the Vice President position; dates unspecified."
+    }
   },
   {
     "role": "Secondary School Teacher",
@@ -37750,7 +37795,11 @@
       "https://www.bendigoadvertiser.com.au/story/934672/ex-pollie-takes-a-crack-at-being-a-class-act/"
     ],
     "pollie_slug": "julian-mcgauran",
-    "start_date": "2012-01-01"
+    "start_date": "2012-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Secondary School Teacher",
@@ -37761,7 +37810,11 @@
       "https://ratemyteachers.com/au/victoria/melbourne/ivanhoe-girls-grammar-school/julian-mcgauran"
     ],
     "pollie_slug": "julian-mcgauran",
-    "end_date": "2021-10-31"
+    "end_date": "2021-10-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Secondary School Teacher",
@@ -37770,7 +37823,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Julian_McGauran"
     ],
-    "pollie_slug": "julian-mcgauran"
+    "pollie_slug": "julian-mcgauran",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Secondary School Teacher",
@@ -37779,7 +37836,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Julian_McGauran"
     ],
-    "pollie_slug": "julian-mcgauran"
+    "pollie_slug": "julian-mcgauran",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Secondary School Teacher",
@@ -37799,7 +37860,11 @@
       "https://www.dha.gov.au/annual-reports/2013-2014/27_dha_board.html"
     ],
     "pollie_slug": "arch-bevis",
-    "start_date": "2011-10-13"
+    "start_date": "2011-10-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -37809,7 +37874,11 @@
       "https://www.dfrt.gov.au/sites/default/files/2021-02/RASigs-22-Jan-2013.pdf",
       "https://pay-conditions.defence.gov.au/sites/default/files/2022-11/dfrt-2013-11.pdf"
     ],
-    "pollie_slug": "arch-bevis"
+    "pollie_slug": "arch-bevis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -37818,6 +37887,10 @@
     "sources": [
       "https://en.wikipedia.org/wiki/ANZAC_Centenary_Advisory_Board"
     ],
-    "pollie_slug": "arch-bevis"
+    "pollie_slug": "arch-bevis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]

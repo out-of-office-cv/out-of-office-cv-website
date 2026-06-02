@@ -1028,9 +1028,7 @@
   "helen-coonan|Chair|Minerals Council of Australia|2019-07-01": {
     "last_examined_at": "2026-05-21T20:08:13.158Z"
   },
-  "helen-coonan|Chair|Place Management NSW|2016-07-01": {
-    "last_examined_at": "2026-05-21T20:08:13.158Z"
-  },
+  "helen-coonan|Chair|Place Management NSW|2016-07-01": "2026-06-03T00:00:00.000Z",
   "helen-coonan|Chair|Supervised Investments Australia|2016-01-01": {
     "last_examined_at": "2026-05-21T20:08:13.158Z"
   },
@@ -1052,9 +1050,7 @@
   "helen-coonan|Director|Australian Children's Television Foundation|2016-11-22": {
     "last_examined_at": "2026-05-21T20:08:13.158Z"
   },
-  "helen-coonan|Director|Verdant Minerals|null": {
-    "last_examined_at": "2026-05-21T20:08:13.158Z"
-  },
+  "helen-coonan|Director|Verdant Minerals|null": "2026-06-03T00:00:00.000Z",
   "helen-coonan|Executive Chair|Crown Resorts|2020-02-01": {
     "last_examined_at": "2026-05-21T20:08:13.158Z"
   },
@@ -1075,13 +1071,13 @@
   },
   "ian-campbell|Advisory Board Member|Sea Shepherd Conservation Society|2008": "2026-05-15T00:00:00.000Z",
   "ian-campbell|Advisory Panel Member|Water West|2014-08": "2026-05-15T00:00:00.000Z",
-  "ian-campbell|Ambassador|Captain Paul Watson Foundation|null": "2026-05-15T00:00:00.000Z",
+  "ian-campbell|Ambassador|Captain Paul Watson Foundation|null": "2026-06-03T00:00:00.000Z",
   "ian-campbell|Chair|ASG Group|2015": "2026-05-15T00:00:00.000Z",
   "ian-campbell|Chair|Harry Butler Institute, Murdoch University|null": "2026-05-15T00:00:00.000Z",
   "ian-campbell|Chair|North West Infrastructure|2009-10": "2026-05-15T00:00:00.000Z",
   "ian-campbell|Chair|Perth Children's Hospital Foundation|null": "2026-05-15T00:00:00.000Z",
   "ian-campbell|Chair|Princess Margaret Hospital Foundation|2009": "2026-05-15T00:00:00.000Z",
-  "ian-campbell|Chair|Volt Group|2009": "2026-05-15T00:00:00.000Z",
+  "ian-campbell|Chair|Volt Group|2009": "2026-06-03T00:00:00.000Z",
   "ian-campbell|Chair|Western Australian Health Translation Network|2022-03-11": "2026-05-15T00:00:00.000Z",
   "ian-campbell|Council Member|Australian National Maritime Museum|2014-12-12": "2026-05-15T00:00:00.000Z",
   "ian-campbell|Deputy Chair|ASG Group|2016": "2026-05-15T00:00:00.000Z",
@@ -1110,9 +1106,9 @@
   "ian-mclachlan|Director|Adelaide Oval Stadium Management Authority|2014-04-29": "2026-05-12T20:04:26.395Z",
   "ian-mclachlan|Director|Cricket Australia|2004-02-01": "2026-05-12T20:04:26.395Z",
   "ian-mclachlan|President|South Australian Cricket Association|null": "2026-05-12T20:04:26.395Z",
-  "ian-sinclair|Honorary President|Scout Association of Australia (NSW Branch)|null": "2026-05-10T02:10:32.931Z",
+  "ian-sinclair|Honorary President|Scout Association of Australia (NSW Branch)|null": "2026-06-03T00:00:00.000Z",
   "ian-sinclair|Inaugural Chairman|Foundation for Rural and Regional Renewal|2000-03-01": "2026-05-10T02:10:32.931Z",
-  "ian-sinclair|President|AUSTCARE|null": "2026-05-10T02:10:32.931Z",
+  "ian-sinclair|President|AUSTCARE|null": "2026-06-03T00:00:00.000Z",
   "ian-viner|Barrister (King's Counsel)|Murray Chambers, Perth|1983-03-05": "2026-05-10T02:10:32.931Z",
   "ian-viner|Deputy Chairman|Council for Aboriginal Reconciliation|1995-01-01": "2026-05-10T02:10:32.931Z",
   "ian-viner|Member|National Native Title Tribunal|1995-01-01": "2026-05-10T02:10:32.931Z",
@@ -3432,5 +3428,19 @@
   },
   "harry-jenkins|Panel Member|Independent Parliamentary Entitlements System Review|2015-01-01": {
     "last_examined_at": "2026-06-03T00:00:00.000Z"
-  }
+  },
+  "julian-mcgauran|Secondary School Teacher|Genazzano FCJ College|2012-01-01": "2026-06-03T00:00:00.000Z",
+  "julian-mcgauran|Secondary School Teacher|Ivanhoe Girls' Grammar School|null": "2026-06-03T00:00:00.000Z",
+  "julian-mcgauran|Secondary School Teacher|Marcellin College|null": "2026-06-03T00:00:00.000Z",
+  "julian-mcgauran|Secondary School Teacher|Santa Maria College|null": "2026-06-03T00:00:00.000Z",
+  "julian-mcgauran|Secondary School Teacher|Sacred Heart Girls' College|2023-01-01": "2026-06-03T00:00:00.000Z",
+  "arch-bevis|Director|Defence Housing Australia|2011-10-13": "2026-06-03T00:00:00.000Z",
+  "arch-bevis|Member|Defence Force Remuneration Tribunal|null": "2026-06-03T00:00:00.000Z",
+  "arch-bevis|Member|ANZAC Centenary Advisory Board|null": "2026-06-03T00:00:00.000Z",
+  "donald-jessop|Optometrist|Private Practice (Port Augusta and Adelaide)|null": "2026-06-03T00:00:00.000Z",
+  "donald-jessop|Vice President|Sturt Football Club|null": "2026-06-03T00:00:00.000Z",
+  "harry-woods|Chair|Fisheries Research and Development Corporation|null": "2026-06-03T00:00:00.000Z",
+  "harry-woods|Policy Reviewer|Government of New South Wales|null": "2026-06-03T00:00:00.000Z",
+  "helen-kroger|Chair|Australian Fisheries Management Authority|2017-07-01": "2026-06-03T00:00:00.000Z",
+  "helen-kroger|Principal|Civic Creative|null": "2026-06-03T00:00:00.000Z"
 }
