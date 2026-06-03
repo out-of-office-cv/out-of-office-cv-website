@@ -38751,11 +38751,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Victor_Garland",
       "https://nla.gov.au/nla.obj-415752682/findingaid",
-      "https://www.openaustralia.org.au/debates/?id=2022-02-10.53.2"
+      "https://www.openaustralia.org.au/debates/?id=2022-02-10.53.2",
+      "https://www.openaustralia.org.au/senate/?id=2022-02-09.124.2"
     ],
     "pollie_slug": "ransley-garland",
     "start_date": "1981-01-22",
-    "end_date": "1983-12-01"
+    "end_date": "1983-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Parliamentary record confirms appointment as Australian High Commissioner on 22 January 1981, served until December 1983. All sources consistent."
+    }
   },
   {
     "role": "Director",
@@ -38776,16 +38782,27 @@
       "https://nla.gov.au/nla.obj-415752682/findingaid"
     ],
     "pollie_slug": "ransley-garland",
-    "start_date": "1985-01-01"
+    "start_date": "1985-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "National Library of Australia and parliamentary records confirm Vice-Chair of South Bank Board (Royal Festival Hall Complex) from 1985."
+    }
   },
   {
     "role": "Director",
     "organisation": "Throgmorton Trust plc",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://en.wikipedia.org/wiki/Victor_Garland"
+      "https://en.wikipedia.org/wiki/Victor_Garland",
+      "https://find-and-update.company-information.service.gov.uk/company/00594634/officers"
     ],
-    "pollie_slug": "ransley-garland"
+    "pollie_slug": "ransley-garland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Companies House record (00594634) confirms Victor Garland as Director of The Throgmorton Trust plc, appointed before 17 April 1992, resigned 28 March 2006."
+    }
   },
   {
     "role": "Director",
@@ -38810,7 +38827,8 @@
     "organisation": "Signet Group plc",
     "category": "Retail, Hospitality & Tourism",
     "sources": [
-      "https://en.wikipedia.org/wiki/Victor_Garland"
+      "https://en.wikipedia.org/wiki/Victor_Garland",
+      "https://find-and-update.company-information.service.gov.uk/company/00477692/officers"
     ],
     "pollie_slug": "ransley-garland"
   },
@@ -38830,7 +38848,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Victor_Garland"
     ],
-    "pollie_slug": "ransley-garland"
+    "pollie_slug": "ransley-garland",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "No Victor Garland or Ransley Garland found in Companies House records for Mitchell Cotts Limited (company 02422704). Wikipedia lists this company generically but Companies House officer records do not confirm this directorship."
+    }
   },
   {
     "role": "Director",
@@ -38838,10 +38861,16 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://en.wikipedia.org/wiki/Victor_Garland",
-      "https://find-and-update.company-information.service.gov.uk/company/00247771/officers"
+      "https://find-and-update.company-information.service.gov.uk/company/00247771/officers",
+      "https://find-and-update.company-information.service.gov.uk/company/03183919/officers"
     ],
     "pollie_slug": "ransley-garland",
-    "end_date": "2006-12-15"
+    "end_date": "2010-06-03",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Companies House record for Fidelity Asian Values PLC (03183919) confirms Victor Garland as Director, appointed 11 April 1996, resigned 3 June 2010."
+    }
   },
   {
     "role": "Director",
@@ -38851,16 +38880,27 @@
       "https://nla.gov.au/nla.obj-415752682/findingaid",
       "https://find-and-update.company-information.service.gov.uk/company/00247771/officers"
     ],
-    "pollie_slug": "ransley-garland"
+    "pollie_slug": "ransley-garland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Companies House record (00247771) confirms Victor Garland as Director of Henderson Far East Income Trust plc, appointed before 27 December 1991, resigned 15 December 2006."
+    }
   },
   {
     "role": "Director",
     "organisation": "Framlington Income and Capital Trust plc",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://nla.gov.au/nla.obj-415752682/findingaid"
+      "https://nla.gov.au/nla.obj-415752682/findingaid",
+      "https://find-and-update.company-information.service.gov.uk/company/01699296/officers"
     ],
-    "pollie_slug": "ransley-garland"
+    "pollie_slug": "ransley-garland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Companies House record (01699296) confirms Victor Garland as Director of Framlington Income & Capital Trust plc, appointed before 31 July 1992, resigned 28 July 2005."
+    }
   },
   {
     "role": "Founder and Director",
@@ -38920,7 +38960,12 @@
     "sources": [
       "https://biography.senate.gov.au/spindler-siegfried-emil/"
     ],
-    "pollie_slug": "sid-spindler"
+    "pollie_slug": "sid-spindler",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms he became Advisory Panel Member of Defence for Children International after leaving Senate in June 1996."
+    }
   },
   {
     "role": "Chair",
@@ -38929,7 +38974,12 @@
     "sources": [
       "https://biography.senate.gov.au/spindler-siegfried-emil/"
     ],
-    "pollie_slug": "sid-spindler"
+    "pollie_slug": "sid-spindler",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms he became Chair of Anti-Slavery Society after leaving Senate in June 1996."
+    }
   },
   {
     "role": "Co-founder",
@@ -38941,7 +38991,12 @@
       "https://www.openaustralia.org.au/senate/?id=2008-03-11.35.2"
     ],
     "pollie_slug": "sid-spindler",
-    "start_date": "1997-01-01"
+    "start_date": "1997-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Verified by multiple authoritative sources: Senate biography, Green Left Weekly, and OpenAustralia all confirm Spindler founded Defenders of Native Title in Victoria in 1997, after leaving the Senate."
+    }
   },
   {
     "role": "Member",
@@ -38950,7 +39005,12 @@
     "sources": [
       "https://biography.senate.gov.au/spindler-siegfried-emil/"
     ],
-    "pollie_slug": "sid-spindler"
+    "pollie_slug": "sid-spindler",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Verified by Senate biography and OpenAustralia. Senate bio confirms he was founding member of Victorian Deaths in Custody Watch Committee in 1997."
+    }
   },
   {
     "role": "Co-founder",
@@ -38962,6 +39022,11 @@
       "https://www.openaustralia.org.au/senate/?id=2008-03-11.35.2"
     ],
     "pollie_slug": "sid-spindler",
-    "start_date": "2002-01-01"
+    "start_date": "2002-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Verified by multiple strong sources: Senate biography, Wikipedia, and OpenAustralia all confirm Spindler co-founded Towards a Just Society Fund in 2002 with his family to support Indigenous students."
+    }
   }
 ]
