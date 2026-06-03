@@ -38450,7 +38450,11 @@
     ],
     "pollie_slug": "malcolm-fraser",
     "start_date": "1984-01-01",
-    "end_date": "1986-12-31"
+    "end_date": "1986-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -38462,7 +38466,11 @@
     ],
     "pollie_slug": "malcolm-fraser",
     "start_date": "1983-01-01",
-    "end_date": "2014-12-31"
+    "end_date": "2014-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Co-chair",
@@ -38473,7 +38481,11 @@
     ],
     "pollie_slug": "malcolm-fraser",
     "start_date": "1998-01-01",
-    "end_date": "2005-12-31"
+    "end_date": "2005-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Chair",
@@ -38484,7 +38496,11 @@
     ],
     "pollie_slug": "malcolm-fraser",
     "start_date": "2006-01-01",
-    "end_date": "2014-12-31"
+    "end_date": "2014-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -38497,7 +38513,11 @@
     ],
     "pollie_slug": "malcolm-fraser",
     "start_date": "1985-01-01",
-    "end_date": "1985-12-31"
+    "end_date": "1985-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Co-chair",
@@ -38510,7 +38530,11 @@
     ],
     "pollie_slug": "malcolm-fraser",
     "start_date": "1985-10-01",
-    "end_date": "1986-08-31"
+    "end_date": "1986-08-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -38523,7 +38547,11 @@
     ],
     "pollie_slug": "malcolm-fraser",
     "start_date": "1989-01-01",
-    "end_date": "1990-12-31"
+    "end_date": "1990-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founding Chair",
@@ -38536,7 +38564,12 @@
     ],
     "pollie_slug": "malcolm-fraser",
     "start_date": "1987-01-01",
-    "end_date": "2001-12-31"
+    "end_date": "2002-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and CARE Australia history confirm Fraser was founding Chair from 1987 but ended in 2002 when William Deane succeeded him, not 2001 as listed."
+    }
   },
   {
     "role": "President",
@@ -38548,8 +38581,13 @@
       "https://www.naa.gov.au/explore-collection/australias-prime-ministers/malcolm-fraser/after-office"
     ],
     "pollie_slug": "malcolm-fraser",
-    "start_date": "1990-01-01",
-    "end_date": "1995-12-31"
+    "start_date": "1991-01-01",
+    "end_date": "1995-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia states he became International President from 1991, not 1990."
+    }
   },
   {
     "role": "Vice-President",
@@ -38561,7 +38599,11 @@
     ],
     "pollie_slug": "malcolm-fraser",
     "start_date": "1995-01-01",
-    "end_date": "1999-12-31"
+    "end_date": "1999-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Consultant",
@@ -38572,7 +38614,11 @@
     ],
     "pollie_slug": "malcolm-fraser",
     "start_date": "1985-01-01",
-    "end_date": "1996-12-31"
+    "end_date": "1996-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -38584,7 +38630,11 @@
     ],
     "pollie_slug": "malcolm-fraser",
     "start_date": "1987-01-01",
-    "end_date": "1993-12-31"
+    "end_date": "1993-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -38595,7 +38645,11 @@
     ],
     "pollie_slug": "malcolm-fraser",
     "start_date": "1987-01-01",
-    "end_date": "1993-12-31"
+    "end_date": "1993-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Foundation Board Member",
@@ -38607,7 +38661,11 @@
     ],
     "pollie_slug": "malcolm-fraser",
     "start_date": "1996-01-01",
-    "end_date": "2000-12-31"
+    "end_date": "2000-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Professorial Fellow",
@@ -38619,7 +38677,11 @@
     ],
     "pollie_slug": "malcolm-fraser",
     "start_date": "2006-01-01",
-    "end_date": "2015-03-20"
+    "end_date": "2015-03-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -38631,7 +38693,11 @@
     ],
     "pollie_slug": "malcolm-fraser",
     "start_date": "1997-02-03",
-    "end_date": "1997-02-03"
+    "end_date": "1997-02-03",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -38643,7 +38709,11 @@
     ],
     "pollie_slug": "malcolm-fraser",
     "start_date": "2010-01-01",
-    "end_date": "2015-03-20"
+    "end_date": "2015-03-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founding Member",
@@ -38654,7 +38724,11 @@
       "https://asrc.org.au/people/malcolm-fraser/"
     ],
     "pollie_slug": "malcolm-fraser",
-    "start_date": "2004-01-01"
+    "start_date": "2004-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Vice-President and Fellow",
@@ -38664,7 +38738,11 @@
       "https://en.wikipedia.org/wiki/Malcolm_Fraser",
       "https://www.newworldencyclopedia.org/entry/Malcolm_Fraser"
     ],
-    "pollie_slug": "malcolm-fraser"
+    "pollie_slug": "malcolm-fraser",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Australian High Commissioner",
