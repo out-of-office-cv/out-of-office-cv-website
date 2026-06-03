@@ -38101,5 +38101,491 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "President",
+    "organisation": "Australian Privacy Charter Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Janine_Haines",
+      "https://privacy.org.au/about/history/",
+      "http://www.rogerclarke.com/DV/PrivChHist.html",
+      "https://biography.senate.gov.au/haines-janine/"
+    ],
+    "pollie_slug": "janine-haines",
+    "start_date": "1996-07",
+    "end_date": "1999"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "University of Adelaide",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/haines-janine/",
+      "https://australianpolitics.com/2004/11/29/janine-haines-condolences-house.html/",
+      "https://www.wikidata.org/wiki/Q6154549"
+    ],
+    "pollie_slug": "janine-haines",
+    "start_date": "1992-11-25"
+  },
+  {
+    "role": "Deputy Chancellor",
+    "organisation": "University of Adelaide",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://connect.adelaide.edu.au/nodes/view/25528",
+      "https://en.wikipedia.org/wiki/Janine_Haines",
+      "https://biography.senate.gov.au/haines-janine/"
+    ],
+    "pollie_slug": "janine-haines",
+    "start_date": "1997-01-01",
+    "end_date": "1999-12-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "Government Relations Australia (GRACosway)",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Dawkins",
+      "https://michaelwest.com.au/john-dawkins/",
+      "https://www.arounddeal.com/profile/john-dawkins/j4wkkstjao/"
+    ],
+    "pollie_slug": "john-dawkins",
+    "start_date": "1994-01-01"
+  },
+  {
+    "role": "Co-Chair",
+    "organisation": "GRACosway",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://michaelwest.com.au/john-dawkins/",
+      "https://en.wikipedia.org/wiki/John_Dawkins"
+    ],
+    "pollie_slug": "john-dawkins",
+    "start_date": "2014-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Sealcorp Holdings (now Asgard Wealth Solutions)",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.businessnews.com.au/Person/John-Dawkins",
+      "https://en.wikipedia.org/wiki/John_Dawkins",
+      "https://www.businessnews.com.au/article/Asgard-Wealth-Solutions-new-name-for-WAs-Sealcorp"
+    ],
+    "pollie_slug": "john-dawkins",
+    "end_date": "2004-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Elders Rural Bank",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Dawkins",
+      "https://michaelwest.com.au/john-dawkins/",
+      "https://www.businessnews.com.au/Person/John-Dawkins"
+    ],
+    "pollie_slug": "john-dawkins",
+    "start_date": "1998-01-01",
+    "end_date": "2006-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "LawCentral",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Dawkins",
+      "https://www.businessnews.com.au/Person/John-Dawkins"
+    ],
+    "pollie_slug": "john-dawkins",
+    "start_date": "2000-03-01",
+    "end_date": "2006-03-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Integrated Legal Holdings",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Dawkins",
+      "https://michaelwest.com.au/john-dawkins/",
+      "https://www.businessnews.com.au/Person/John-Dawkins"
+    ],
+    "pollie_slug": "john-dawkins",
+    "start_date": "2000-01-01",
+    "end_date": "2014-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Retail Energy Market Company",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Dawkins",
+      "https://michaelwest.com.au/john-dawkins/",
+      "https://www.businessnews.com.au/Person/John-Dawkins"
+    ],
+    "pollie_slug": "john-dawkins",
+    "start_date": "2003-01-01",
+    "end_date": "2009-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Fortuna Funds Management",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Dawkins",
+      "https://www.businessnews.com.au/Person/John-Dawkins"
+    ],
+    "pollie_slug": "john-dawkins"
+  },
+  {
+    "role": "Director",
+    "organisation": "M&C Saatchi Direct",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.businessnews.com.au/Person/John-Dawkins",
+      "https://en.wikipedia.org/wiki/John_Dawkins"
+    ],
+    "pollie_slug": "john-dawkins"
+  },
+  {
+    "role": "Director",
+    "organisation": "MGM Wireless",
+    "category": "Telecommunications & Network Infrastructure",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Dawkins",
+      "https://michaelwest.com.au/john-dawkins/",
+      "https://www.businessnews.com.au/Person/John-Dawkins"
+    ],
+    "pollie_slug": "john-dawkins"
+  },
+  {
+    "role": "Director",
+    "organisation": "Genetic Technologies",
+    "category": "Pharmaceutical & Biotechnology",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Dawkins",
+      "https://michaelwest.com.au/john-dawkins/",
+      "https://www.businessnews.com.au/Person/John-Dawkins"
+    ],
+    "pollie_slug": "john-dawkins"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Sovereign Gold",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Dawkins",
+      "https://michaelwest.com.au/john-dawkins/",
+      "https://www.businessnews.com.au/Person/John-Dawkins"
+    ],
+    "pollie_slug": "john-dawkins",
+    "start_date": "2011-01-01",
+    "end_date": "2015-12-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Precious Metal Resources",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://michaelwest.com.au/john-dawkins/",
+      "https://www.businessnews.com.au/Person/John-Dawkins"
+    ],
+    "pollie_slug": "john-dawkins",
+    "start_date": "2012-01-01",
+    "end_date": "2014-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Bauxite",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.businessnews.com.au/Person/John-Dawkins",
+      "https://en.wikipedia.org/wiki/John_Dawkins"
+    ],
+    "pollie_slug": "john-dawkins"
+  },
+  {
+    "role": "Director",
+    "organisation": "Tiaro Coal",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Dawkins",
+      "https://michaelwest.com.au/john-dawkins/",
+      "https://www.miningmonthly.com/markets/international-coal-news/1275493/dawkins-joins-tiaro-board"
+    ],
+    "pollie_slug": "john-dawkins",
+    "start_date": "2012-01-01",
+    "end_date": "2014-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Cbus Super Fund",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Dawkins",
+      "https://www.superreview.com.au/news/people-products/former-federal-minister-john-dawkins-joins-cbus-board",
+      "https://michaelwest.com.au/john-dawkins/"
+    ],
+    "pollie_slug": "john-dawkins",
+    "start_date": "2012-06-07"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Vocation",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Dawkins",
+      "https://www.sbs.com.au/news/dawkins-quits-as-vocation-chairman",
+      "https://announcements.asx.com.au/asxpdf/20140903/pdf/42rz5qxq8hzjzp.pdf"
+    ],
+    "pollie_slug": "john-dawkins",
+    "start_date": "2013-11-06",
+    "end_date": "2014-11-27"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "World Bank",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Dawkins",
+      "https://www.tvetaustralia.com.au/board_of_directors/john_dawkins"
+    ],
+    "pollie_slug": "john-dawkins"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Organisation for Economic Co-operation and Development",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Dawkins",
+      "https://www.tvetaustralia.com.au/board_of_directors/john_dawkins"
+    ],
+    "pollie_slug": "john-dawkins"
+  },
+  {
+    "role": "Distinguished International Fellow",
+    "organisation": "American Enterprise Institute for Public Policy Research",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.naa.gov.au/explore-collection/australias-prime-ministers/malcolm-fraser/after-office",
+      "https://en.wikipedia.org/wiki/Malcolm_Fraser"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "1984-01-01",
+    "end_date": "1986-12-31"
+  },
+  {
+    "role": "Member",
+    "organisation": "InterAction Council",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.interactioncouncil.org/about-us/members/memoriam/malcolm-fraser",
+      "https://en.wikipedia.org/wiki/Malcolm_Fraser"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "1983-01-01",
+    "end_date": "2014-12-31"
+  },
+  {
+    "role": "Co-chair",
+    "organisation": "InterAction Council",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.interactioncouncil.org/about-us/members/memoriam/malcolm-fraser"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "1998-01-01",
+    "end_date": "2005-12-31"
+  },
+  {
+    "role": "Honorary Chair",
+    "organisation": "InterAction Council",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.interactioncouncil.org/about-us/members/memoriam/malcolm-fraser"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "2006-01-01",
+    "end_date": "2014-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "United Nations Panel of Eminent Persons on the Role of Transnational Corporations in South Africa",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.naa.gov.au/explore-collection/australias-prime-ministers/malcolm-fraser/after-office",
+      "https://en.wikipedia.org/wiki/Malcolm_Fraser",
+      "https://www.interactioncouncil.org/about-us/members/memoriam/malcolm-fraser"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "1985-01-01",
+    "end_date": "1985-12-31"
+  },
+  {
+    "role": "Co-chair",
+    "organisation": "Commonwealth Group of Eminent Persons on South Africa",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.naa.gov.au/explore-collection/australias-prime-ministers/malcolm-fraser/after-office",
+      "https://en.wikipedia.org/wiki/Malcolm_Fraser",
+      "https://commonwealthoralhistories.org/2015/malcolm-fraser-commonwealth/"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "1985-10-01",
+    "end_date": "1986-08-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "United Nations Secretary-General's Expert Group on African Commodity Issues",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.naa.gov.au/explore-collection/australias-prime-ministers/malcolm-fraser/after-office",
+      "https://en.wikipedia.org/wiki/Malcolm_Fraser",
+      "https://www.interactioncouncil.org/about-us/members/memoriam/malcolm-fraser"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "1989-01-01",
+    "end_date": "1990-12-31"
+  },
+  {
+    "role": "Founding Chair",
+    "organisation": "CARE Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.care.org.au/who-we-are/history/",
+      "https://en.wikipedia.org/wiki/Malcolm_Fraser",
+      "https://www.interactioncouncil.org/about-us/members/memoriam/malcolm-fraser"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "1987-01-01",
+    "end_date": "2001-12-31"
+  },
+  {
+    "role": "President",
+    "organisation": "CARE International",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Malcolm_Fraser",
+      "https://www.interactioncouncil.org/about-us/members/memoriam/malcolm-fraser",
+      "https://www.naa.gov.au/explore-collection/australias-prime-ministers/malcolm-fraser/after-office"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "1990-01-01",
+    "end_date": "1995-12-31"
+  },
+  {
+    "role": "Vice-President",
+    "organisation": "CARE International",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Malcolm_Fraser",
+      "https://www.interactioncouncil.org/about-us/members/memoriam/malcolm-fraser"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "1995-01-01",
+    "end_date": "1999-12-31"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Nomura Research Institute",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.interactioncouncil.org/about-us/members/memoriam/malcolm-fraser"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "1985-01-01",
+    "end_date": "1996-12-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "Investment Company of America",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.interactioncouncil.org/about-us/members/memoriam/malcolm-fraser",
+      "https://archives.library.unimelb.edu.au/nodes/view/296937"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "1987-01-01",
+    "end_date": "1993-12-31"
+  },
+  {
+    "role": "Member",
+    "organisation": "ANZ International Board of Advice",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.interactioncouncil.org/about-us/members/memoriam/malcolm-fraser"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "1987-01-01",
+    "end_date": "1993-12-31"
+  },
+  {
+    "role": "Foundation Board Member",
+    "organisation": "International Crisis Group",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.wheelercentre.com/people/malcolm-fraser",
+      "https://en.wikipedia.org/wiki/Malcolm_Fraser"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "1996-01-01",
+    "end_date": "2000-12-31"
+  },
+  {
+    "role": "Professorial Fellow",
+    "organisation": "Asia Pacific Centre for Military Law, University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Malcolm_Fraser",
+      "https://law.unimelb.edu.au/alumni/mls-news/issue-13-june-2015/standing-alone"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "2006-01-01",
+    "end_date": "2015-03-20"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Commonwealth Observer Mission to Pakistan",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://archives.library.unimelb.edu.au/nodes/view/61205",
+      "https://www.thecommonwealth-ilibrary.org/index.php/comsec/catalog/book/710"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "1997-02-03",
+    "end_date": "1997-02-03"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Asylum Seeker Resource Centre",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://asrc.org.au/people/malcolm-fraser/",
+      "https://asrc.org.au/2015/03/24/vale-malcolm-fraser/"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "2010-01-01",
+    "end_date": "2015-03-20"
+  },
+  {
+    "role": "Founding Member",
+    "organisation": "The Justice Project",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Justice_Project_(Australia)",
+      "https://asrc.org.au/people/malcolm-fraser/"
+    ],
+    "pollie_slug": "malcolm-fraser",
+    "start_date": "2004-01-01"
+  },
+  {
+    "role": "Vice-President and Fellow",
+    "organisation": "Royal Commonwealth Society",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Malcolm_Fraser",
+      "https://www.newworldencyclopedia.org/entry/Malcolm_Fraser"
+    ],
+    "pollie_slug": "malcolm-fraser"
   }
 ]
