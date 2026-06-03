@@ -38861,5 +38861,107 @@
       "https://nla.gov.au/nla.obj-415752682/findingaid"
     ],
     "pollie_slug": "ransley-garland"
+  },
+  {
+    "role": "Founder and Director",
+    "organisation": "International Language Academy Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.ibtimes.com.au/former-queensland-labor-keith-wright-dies-vietnam-1410095",
+      "https://en.wikipedia.org/wiki/Keith_Wright_(Australian_politician)"
+    ],
+    "pollie_slug": "keith-wright"
+  },
+  {
+    "role": "Co-founder",
+    "organisation": "Debategraph",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://debategraph.us/about/",
+      "https://en.wikipedia.org/wiki/Debategraph",
+      "https://debategraph.org/peterbaldwin"
+    ],
+    "pollie_slug": "peter-baldwin",
+    "start_date": "2008-03-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Blackheath Philosophy Forum",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://blackheathphilosophy.org/entry/home/program",
+      "https://en.wikipedia.org/wiki/Peter_Baldwin_(politician)"
+    ],
+    "pollie_slug": "peter-baldwin"
+  },
+  {
+    "role": "Founder and author",
+    "organisation": "Politics and Civilization (polciv.org)",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://polciv.org/entry/Home/About",
+      "https://polciv.substack.com/about"
+    ],
+    "pollie_slug": "peter-baldwin"
+  },
+  {
+    "role": "Contributing author",
+    "organisation": "Spectator Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.spectator.com.au/author/peter-baldwin/"
+    ],
+    "pollie_slug": "peter-baldwin"
+  },
+  {
+    "role": "Advisory Panel Member",
+    "organisation": "Defence for Children International",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/spindler-siegfried-emil/"
+    ],
+    "pollie_slug": "sid-spindler"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Anti-Slavery Society",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/spindler-siegfried-emil/"
+    ],
+    "pollie_slug": "sid-spindler"
+  },
+  {
+    "role": "Co-founder",
+    "organisation": "Defenders of Native Title",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/spindler-siegfried-emil/",
+      "https://www.greenleft.org.au/content/sid-spindler-1932-2008",
+      "https://www.openaustralia.org.au/senate/?id=2008-03-11.35.2"
+    ],
+    "pollie_slug": "sid-spindler",
+    "start_date": "1997-01-01"
+  },
+  {
+    "role": "Member",
+    "organisation": "Victorian Deaths in Custody Watch Committee",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/spindler-siegfried-emil/"
+    ],
+    "pollie_slug": "sid-spindler"
+  },
+  {
+    "role": "Co-founder",
+    "organisation": "Towards a Just Society Fund",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/spindler-siegfried-emil/",
+      "https://en.wikipedia.org/wiki/Sid_Spindler",
+      "https://www.openaustralia.org.au/senate/?id=2008-03-11.35.2"
+    ],
+    "pollie_slug": "sid-spindler",
+    "start_date": "2002-01-01"
   }
 ]
