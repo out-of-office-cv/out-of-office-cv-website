@@ -12917,7 +12917,11 @@
     "sources": [
       "https://biography.senate.gov.au/mulvihill-james-anthony/"
     ],
-    "pollie_slug": "james-mulvihill"
+    "pollie_slug": "james-mulvihill",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -12926,7 +12930,11 @@
     "sources": [
       "https://biography.senate.gov.au/mulvihill-james-anthony/"
     ],
-    "pollie_slug": "james-mulvihill"
+    "pollie_slug": "james-mulvihill",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Author",
@@ -16241,7 +16249,8 @@
     "organisation": "United Nations Association of Australia",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://janellesaffin.com.au/about/"
+      "https://janellesaffin.com.au/about/",
+      "https://en.wikipedia.org/wiki/Janelle_Saffin"
     ],
     "pollie_slug": "janelle-saffin"
   },
@@ -16266,9 +16275,14 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://janellesaffin.com.au/about/",
-      "https://www.project-syndicate.org/columnist/janelle-saffin"
+      "https://www.project-syndicate.org/columnist/janelle-saffin",
+      "https://en.wikipedia.org/wiki/Janelle_Saffin"
     ],
-    "pollie_slug": "janelle-saffin"
+    "pollie_slug": "janelle-saffin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisor, Asia and the Pacific",
@@ -20368,9 +20382,14 @@
     "organisation": "FNQ Connect",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.tandfonline.com/doi/full/10.1080/09638288.2023.2205172"
+      "https://www.tandfonline.com/doi/full/10.1080/09638288.2023.2205172",
+      "https://researchonline.jcu.edu.au/72985/"
     ],
-    "pollie_slug": "jan-mclucas"
+    "pollie_slug": "jan-mclucas",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -37902,7 +37921,11 @@
     ],
     "pollie_slug": "brian-howe",
     "start_date": "1997-01-01",
-    "end_date": "1998-12-31"
+    "end_date": "1998-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Professorial Fellow",
@@ -37914,7 +37937,11 @@
       "https://treasury.gov.au/programs-initiatives-consumers-community/advisory-panel-on-positive-ageing/professor-brian-howe-ao-notes-from-seminar",
       "https://anzsog.edu.au/about-us/contact-directory/brian-howe/"
     ],
-    "pollie_slug": "brian-howe"
+    "pollie_slug": "brian-howe",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founding Director",
@@ -37974,7 +38001,11 @@
     ],
     "pollie_slug": "brian-howe",
     "start_date": "2012-01-01",
-    "end_date": "2012-05-16"
+    "end_date": "2012-05-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -37985,7 +38016,11 @@
       "https://treasury.gov.au/programs-initiatives-consumers-community/advisory-panel-on-positive-ageing/professor-brian-howe-ao-notes-from-seminar"
     ],
     "pollie_slug": "brian-howe",
-    "start_date": "2011-01-01"
+    "start_date": "2011-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -37996,7 +38031,11 @@
       "https://treasury.gov.au/programs-initiatives-consumers-community/advisory-panel-on-positive-ageing/professor-brian-howe-ao-notes-from-seminar"
     ],
     "pollie_slug": "brian-howe",
-    "start_date": "2012-01-01"
+    "start_date": "2012-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -38008,7 +38047,11 @@
       "https://en.wikipedia.org/wiki/Sophie_Mirabella"
     ],
     "pollie_slug": "sophie-mirabella-formerly-panopoulos",
-    "start_date": "2013-12-17"
+    "start_date": "2013-12-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Public Policy Fellow",
@@ -38019,7 +38062,11 @@
       "https://en.wikipedia.org/wiki/Sophie_Mirabella"
     ],
     "pollie_slug": "sophie-mirabella-formerly-panopoulos",
-    "start_date": "2014-03-01"
+    "start_date": "2014-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "General Manager, Government and Media Relations",
@@ -38032,7 +38079,11 @@
     ],
     "pollie_slug": "sophie-mirabella-formerly-panopoulos",
     "start_date": "2016-08-12",
-    "end_date": "2021-05-24"
+    "end_date": "2021-05-24",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Commissioner",
@@ -38045,6 +38096,10 @@
       "https://en.wikipedia.org/wiki/Sophie_Mirabella"
     ],
     "pollie_slug": "sophie-mirabella-formerly-panopoulos",
-    "start_date": "2021-05-24"
+    "start_date": "2021-05-24",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
