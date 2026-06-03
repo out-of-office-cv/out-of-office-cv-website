@@ -38148,10 +38148,15 @@
     "sources": [
       "https://en.wikipedia.org/wiki/John_Dawkins",
       "https://michaelwest.com.au/john-dawkins/",
-      "https://www.arounddeal.com/profile/john-dawkins/j4wkkstjao/"
+      "https://www.arounddeal.com/profile/john-dawkins/j4wkkstjao/",
+      "https://www.tvetaustralia.com.au/board_of_directors/john_dawkins"
     ],
     "pollie_slug": "john-dawkins",
-    "start_date": "1994-01-01"
+    "start_date": "1994-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Co-Chair",
@@ -38162,7 +38167,11 @@
       "https://en.wikipedia.org/wiki/John_Dawkins"
     ],
     "pollie_slug": "john-dawkins",
-    "start_date": "2014-01-01"
+    "start_date": "2014-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -38174,7 +38183,12 @@
       "https://www.businessnews.com.au/article/Asgard-Wealth-Solutions-new-name-for-WAs-Sealcorp"
     ],
     "pollie_slug": "john-dawkins",
-    "end_date": "2004-01-01"
+    "end_date": "2004-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Director of Sealcorp Holdings (later Asgard Wealth Solutions) for over 10 years until 2004"
+    }
   },
   {
     "role": "Chair",
@@ -38187,7 +38201,11 @@
     ],
     "pollie_slug": "john-dawkins",
     "start_date": "1998-01-01",
-    "end_date": "2006-01-01"
+    "end_date": "2006-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -38199,7 +38217,11 @@
     ],
     "pollie_slug": "john-dawkins",
     "start_date": "2000-03-01",
-    "end_date": "2006-03-01"
+    "end_date": "2006-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -38212,7 +38234,11 @@
     ],
     "pollie_slug": "john-dawkins",
     "start_date": "2000-01-01",
-    "end_date": "2014-01-01"
+    "end_date": "2014-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -38225,7 +38251,11 @@
     ],
     "pollie_slug": "john-dawkins",
     "start_date": "2003-01-01",
-    "end_date": "2009-01-01"
+    "end_date": "2009-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -38235,7 +38265,11 @@
       "https://en.wikipedia.org/wiki/John_Dawkins",
       "https://www.businessnews.com.au/Person/John-Dawkins"
     ],
-    "pollie_slug": "john-dawkins"
+    "pollie_slug": "john-dawkins",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -38245,7 +38279,11 @@
       "https://www.businessnews.com.au/Person/John-Dawkins",
       "https://en.wikipedia.org/wiki/John_Dawkins"
     ],
-    "pollie_slug": "john-dawkins"
+    "pollie_slug": "john-dawkins",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -38256,7 +38294,11 @@
       "https://michaelwest.com.au/john-dawkins/",
       "https://www.businessnews.com.au/Person/John-Dawkins"
     ],
-    "pollie_slug": "john-dawkins"
+    "pollie_slug": "john-dawkins",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -38267,7 +38309,11 @@
       "https://michaelwest.com.au/john-dawkins/",
       "https://www.businessnews.com.au/Person/John-Dawkins"
     ],
-    "pollie_slug": "john-dawkins"
+    "pollie_slug": "john-dawkins",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -38280,7 +38326,11 @@
     ],
     "pollie_slug": "john-dawkins",
     "start_date": "2011-01-01",
-    "end_date": "2015-12-01"
+    "end_date": "2015-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -38292,7 +38342,11 @@
     ],
     "pollie_slug": "john-dawkins",
     "start_date": "2012-01-01",
-    "end_date": "2014-01-01"
+    "end_date": "2014-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -38302,7 +38356,11 @@
       "https://www.businessnews.com.au/Person/John-Dawkins",
       "https://en.wikipedia.org/wiki/John_Dawkins"
     ],
-    "pollie_slug": "john-dawkins"
+    "pollie_slug": "john-dawkins",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -38315,7 +38373,11 @@
     ],
     "pollie_slug": "john-dawkins",
     "start_date": "2012-01-01",
-    "end_date": "2014-01-01"
+    "end_date": "2014-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -38327,7 +38389,11 @@
       "https://michaelwest.com.au/john-dawkins/"
     ],
     "pollie_slug": "john-dawkins",
-    "start_date": "2012-06-07"
+    "start_date": "2012-06-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -38340,7 +38406,11 @@
     ],
     "pollie_slug": "john-dawkins",
     "start_date": "2013-11-06",
-    "end_date": "2014-11-27"
+    "end_date": "2014-11-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Consultant",
@@ -38350,7 +38420,11 @@
       "https://en.wikipedia.org/wiki/John_Dawkins",
       "https://www.tvetaustralia.com.au/board_of_directors/john_dawkins"
     ],
-    "pollie_slug": "john-dawkins"
+    "pollie_slug": "john-dawkins",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Consultant",
@@ -38360,7 +38434,11 @@
       "https://en.wikipedia.org/wiki/John_Dawkins",
       "https://www.tvetaustralia.com.au/board_of_directors/john_dawkins"
     ],
-    "pollie_slug": "john-dawkins"
+    "pollie_slug": "john-dawkins",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Distinguished International Fellow",
