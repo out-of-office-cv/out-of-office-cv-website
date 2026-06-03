@@ -39028,5 +39028,78 @@
       "by": "claude",
       "note": "Verified by multiple strong sources: Senate biography, Wikipedia, and OpenAustralia all confirm Spindler co-founded Towards a Just Society Fund in 2002 with his family to support Indigenous students."
     }
+  },
+  {
+    "role": "Director",
+    "organisation": "St Francis Social Services",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.howcatering.org.au/our-people/laurie-ferguson"
+    ],
+    "pollie_slug": "laurie-ferguson",
+    "start_date": "2017-12-01"
+  },
+  {
+    "role": "Board of Advisors Member",
+    "organisation": "Global Panel Foundation Australasia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Laurie_Ferguson"
+    ],
+    "pollie_slug": "laurie-ferguson"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Committee of Review of the Australian Institute of Multicultural Affairs",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Moss_Cass",
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=(Dataset:weblastweek,hansardr,noticer,webthisweek,dailyp,votes,journals,orderofbusiness,hansards,notices,websds)%20ParliamentNumber:%2233%22%20Context_Phrase:%22ministerial%20statement%22;rec=7"
+    ],
+    "pollie_slug": "moses-cass",
+    "start_date": "1983",
+    "end_date": "1983"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "National Museum of Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Moss_Cass"
+    ],
+    "pollie_slug": "moses-cass",
+    "start_date": "1983"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian National Biocentre",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Moss_Cass",
+      "https://biorenaissance.net/2019/09/09/a-national-biocentre/"
+    ],
+    "pollie_slug": "moses-cass",
+    "start_date": "2002",
+    "end_date": "2003"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Sustainable Living Foundation",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Moss_Cass",
+      "https://www.jewage.org/wiki/en/Article:Moss_Cass_-_Biography"
+    ],
+    "pollie_slug": "moses-cass"
+  },
+  {
+    "role": "Honorary Fellow",
+    "organisation": "School of Social and Environmental Enquiry, University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Moss_Cass",
+      "https://www.jewage.org/wiki/en/Article:Moss_Cass_-_Biography"
+    ],
+    "pollie_slug": "moses-cass"
   }
 ]
