@@ -38665,5 +38665,123 @@
       "https://www.newworldencyclopedia.org/entry/Malcolm_Fraser"
     ],
     "pollie_slug": "malcolm-fraser"
+  },
+  {
+    "role": "Australian High Commissioner",
+    "organisation": "Australian High Commission, United Kingdom",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Victor_Garland",
+      "https://nla.gov.au/nla.obj-415752682/findingaid",
+      "https://www.openaustralia.org.au/debates/?id=2022-02-10.53.2"
+    ],
+    "pollie_slug": "ransley-garland",
+    "start_date": "1981-01-22",
+    "end_date": "1983-12-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Prudential Assurance plc",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Victor_Garland",
+      "https://nla.gov.au/nla.obj-415752682/findingaid"
+    ],
+    "pollie_slug": "ransley-garland"
+  },
+  {
+    "role": "Vice Chair",
+    "organisation": "South Bank Board (Royal Festival Hall Complex)",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Victor_Garland",
+      "https://nla.gov.au/nla.obj-415752682/findingaid"
+    ],
+    "pollie_slug": "ransley-garland",
+    "start_date": "1985-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Throgmorton Trust plc",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Victor_Garland"
+    ],
+    "pollie_slug": "ransley-garland"
+  },
+  {
+    "role": "Director",
+    "organisation": "Classic ITC Threadneedle AMC (India)",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Victor_Garland"
+    ],
+    "pollie_slug": "ransley-garland"
+  },
+  {
+    "role": "Director",
+    "organisation": "Nelson Hurst plc",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Victor_Garland"
+    ],
+    "pollie_slug": "ransley-garland"
+  },
+  {
+    "role": "Director",
+    "organisation": "Signet Group plc",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Victor_Garland"
+    ],
+    "pollie_slug": "ransley-garland"
+  },
+  {
+    "role": "Director",
+    "organisation": "Ark Funds Incorporated",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Victor_Garland"
+    ],
+    "pollie_slug": "ransley-garland"
+  },
+  {
+    "role": "Director",
+    "organisation": "Mitchell Cotts plc",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Victor_Garland"
+    ],
+    "pollie_slug": "ransley-garland"
+  },
+  {
+    "role": "Director",
+    "organisation": "Fidelity Asian Values plc",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Victor_Garland",
+      "https://find-and-update.company-information.service.gov.uk/company/00247771/officers"
+    ],
+    "pollie_slug": "ransley-garland",
+    "end_date": "2006-12-15"
+  },
+  {
+    "role": "Director",
+    "organisation": "Henderson Far East Income Trust plc",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://nla.gov.au/nla.obj-415752682/findingaid",
+      "https://find-and-update.company-information.service.gov.uk/company/00247771/officers"
+    ],
+    "pollie_slug": "ransley-garland"
+  },
+  {
+    "role": "Director",
+    "organisation": "Framlington Income and Capital Trust plc",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://nla.gov.au/nla.obj-415752682/findingaid"
+    ],
+    "pollie_slug": "ransley-garland"
   }
 ]
