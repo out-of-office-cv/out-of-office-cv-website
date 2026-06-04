@@ -6205,7 +6205,11 @@
     ],
     "pollie_slug": "judi-moylan",
     "start_date": "2013-09-01",
-    "end_date": "2018-12-31"
+    "end_date": "2018-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Government Affairs Adviser",
@@ -13332,11 +13336,14 @@
     "organisation": "Administrative Appeals Tribunal",
     "category": "Legal & Judicial",
     "sources": [
-      "https://www.openaustralia.org.au/debates/?id=2020-10-26.81.1",
-      "https://issuu.com/poulterpauline/docs/christian_porter_industry_science_and_technology.d/s/12440261"
+      "https://www.openaustralia.org.au/debates/?id=2020-10-26.81.1"
     ],
     "pollie_slug": "karen-mcnamara",
-    "start_date": "2017-01-01"
+    "start_date": "2017-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director and Company Secretary",
@@ -15987,7 +15994,11 @@
       "https://en.wikipedia.org/wiki/John_Saunderson"
     ],
     "pollie_slug": "john-saunderson",
-    "start_date": "1990"
+    "start_date": "1990",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Industrial Officer",
@@ -15997,7 +16008,11 @@
       "https://en.wikipedia.org/wiki/John_Saunderson"
     ],
     "pollie_slug": "john-saunderson",
-    "start_date": "1990"
+    "start_date": "1990",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Consul",
@@ -21965,7 +21980,11 @@
       "https://www.canberratimes.com.au/story/6160341/rehab-not-jail-can-reap-rewards/"
     ],
     "pollie_slug": "john-herron",
-    "start_date": "2006-01-01"
+    "start_date": "2006-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -21975,7 +21994,11 @@
       "https://en.wikipedia.org/wiki/John_Herron_(Australian_politician)",
       "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Tabled-Papers/docs/5208t4904/5208t4904.pdf"
     ],
-    "pollie_slug": "john-herron"
+    "pollie_slug": "john-herron",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
@@ -22449,7 +22472,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/John_Reeves_(judge)",
       "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "john-reeves",
@@ -22490,10 +22517,15 @@
     "organisation": "Northern Territory National Emergency Response Taskforce",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://en.wikipedia.org/wiki/John_Reeves_(judge)"
+      "https://en.wikipedia.org/wiki/John_Reeves_(judge)",
+      "https://supremecourt.nt.gov.au/about/judges/additional-judges/justice-john-reeves"
     ],
     "start_date": "2007-01-01",
-    "end_date": "2007-12-31"
+    "end_date": "2007-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "john-reeves",
@@ -34765,7 +34797,11 @@
       "https://en.wikipedia.org/wiki/Charles_Blunt",
       "https://www.delisted.com.au/company/palamedia-limited"
     ],
-    "pollie_slug": "charles-blunt"
+    "pollie_slug": "charles-blunt",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -34774,7 +34810,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Charles_Blunt"
     ],
-    "pollie_slug": "charles-blunt"
+    "pollie_slug": "charles-blunt",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -34787,7 +34827,11 @@
     ],
     "pollie_slug": "john-siddons",
     "start_date": "1987-07-01",
-    "end_date": "2000-01-01"
+    "end_date": "2000-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founder",
@@ -34798,7 +34842,11 @@
       "https://en.wikipedia.org/wiki/John_Siddons",
       "https://www.openaustralia.org.au/senate/?id=2016-10-10.111.2"
     ],
-    "pollie_slug": "john-siddons"
+    "pollie_slug": "john-siddons",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adviser in public and government relations",
