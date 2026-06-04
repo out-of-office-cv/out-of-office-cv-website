@@ -7721,7 +7721,12 @@
       "https://crohnsandcolitis.org.au/about-cca/our-board/"
     ],
     "pollie_slug": "jenny-ware",
-    "start_date": "2026-01-14"
+    "start_date": "2026-01-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Official Crohn's & Colitis Australia pages confirm Jenny Ware's Jan 2026 board appointment, referencing her tenure as Member for Hughes (2022-2025)."
+    }
   },
   {
     "role": "Principal / Consultant",
@@ -8334,7 +8339,12 @@
       "https://www.southcoastregister.com.au/story/7168865/jo-gash-wont-stand-at-next-shoalhaven-city-council-election/"
     ],
     "pollie_slug": "joanna-gash",
-    "start_date": "2016-09-17"
+    "start_date": "2016-09-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Gash elected Ward 2 councillor at the 2016 Shoalhaven election (17 Sept 2016), after leaving parliament in 2013; South Coast Register confirms councillor status."
+    }
   },
   {
     "role": "Chair, Board of Directors",
@@ -9953,7 +9963,12 @@
       "https://en.wikipedia.org/wiki/Jeannette_McHugh",
       "https://www.evatt.org.au/jeanette-mchugh"
     ],
-    "pollie_slug": "jeannette-mchugh"
+    "pollie_slug": "jeannette-mchugh",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and Evatt Foundation confirm McHugh as Chair of the Jessie Street Trust."
+    }
   },
   {
     "role": "Secretary",
@@ -9964,7 +9979,12 @@
     ],
     "pollie_slug": "jeannette-mchugh",
     "start_date": "1999",
-    "end_date": "2006-11"
+    "end_date": "2006-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and Evatt Foundation confirm McHugh as Secretary of the Evatt Foundation 1999-Nov 2006."
+    }
   },
   {
     "role": "Director",
@@ -10215,7 +10235,12 @@
       "https://biography.senate.gov.au/devereux-john-robert/"
     ],
     "pollie_slug": "john-devereux",
-    "start_date": "1996"
+    "start_date": "1996",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Official Senate biography states Devereux was secretary of the Tasmanian Pacing Club, not CEO. Wikipedia's CEO claim is flagged [citation needed]. Authoritative source contradicts the recorded role."
+    }
   },
   {
     "role": "Managing Director",
@@ -10224,7 +10249,12 @@
     "sources": [
       "https://biography.senate.gov.au/devereux-john-robert/"
     ],
-    "pollie_slug": "john-devereux"
+    "pollie_slug": "john-devereux",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms Devereux as managing director of the Tasmanian Agricultural Renewal Research Company after leaving the Senate in 1996."
+    }
   },
   {
     "role": "Barrister",
@@ -10836,11 +10866,18 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://biography.senate.gov.au/short-james-robert/",
-      "https://www.maynereport.com/articles/2009/11/23-1615-6931.html"
+      "https://www.maynereport.com/articles/2009/11/23-1615-6931.html",
+      "https://en.wikipedia.org/wiki/Jim_Short_(Australian_politician)",
+      "http://www.amf.net.au/entry/the-honourable-james-jim-short-joins-the-amf-board"
     ],
     "pollie_slug": "jim-short",
     "start_date": "2000-01-01",
-    "end_date": "2009-11-01"
+    "end_date": "2009-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms ~five years as Executive Director of the Australia-China Business Council (Victoria), president 2004; Mayne Report confirms tenure ended Nov 2009."
+    }
   },
   {
     "role": "Chairman",
@@ -13080,7 +13117,12 @@
     "sources": [
       "https://biography.senate.gov.au/hearn-jean-margaret/"
     ],
-    "pollie_slug": "jean-hearn"
+    "pollie_slug": "jean-hearn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms she was patroness of Life Works at Home (2013), a community organisation supporting aged/disabled people remaining at home."
+    }
   },
   {
     "role": "Founder",
@@ -13092,7 +13134,12 @@
       "https://www.rosemaryarmitage.com/single-post/2016/05/31/jean-hearn-tribute"
     ],
     "pollie_slug": "jean-hearn",
-    "start_date": "2015-01-01"
+    "start_date": "2015-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia, Women Australia and the Armitage tribute all confirm Hearn established the Tamar Community Peace Trust in 2015."
+    }
   },
   {
     "role": "Director",
@@ -15672,7 +15719,12 @@
       "https://www.linkedin.com/in/john-forrest-6a1643b6/"
     ],
     "pollie_slug": "john-forrest",
-    "start_date": "2013-08"
+    "start_date": "2013-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "jforrest.com confirms the former Nationals MP for Mallee established consulting engineering firm John Forrest and Associates; start 2013-08 aligns with his retirement."
+    }
   },
   {
     "role": "Director",
@@ -15680,11 +15732,17 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://www.thedrinksbusiness.com/2014/07/australia-kicks-off-industry-overhaul/",
-      "https://www.wineaustralia.com/getmedia/d9cca87a-e354-4763-9ed6-7eac1ef5b534/Updated-AGWA-Annual-Report-2014-15.pdf"
+      "https://www.wineaustralia.com/getmedia/d9cca87a-e354-4763-9ed6-7eac1ef5b534/Updated-AGWA-Annual-Report-2014-15.pdf",
+      "https://www.jforrest.com/"
     ],
     "pollie_slug": "john-forrest",
     "start_date": "2014-07",
-    "end_date": "2015"
+    "end_date": "2015",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "jforrest.com confirms the same John Forrest served as Non-Executive Director of the Australian Grape and Wine Authority until 2015."
+    }
   },
   {
     "role": "Principal",
@@ -34059,7 +34117,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/John_Bradford_(Australian_politician)"
     ],
-    "pollie_slug": "john-bradford"
+    "pollie_slug": "john-bradford",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Bradford went to work for Mercy Ships after his 1998 election defeat."
+    }
   },
   {
     "role": "Mission Development Director",
@@ -34068,7 +34131,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/John_Bradford_(Australian_politician)"
     ],
-    "pollie_slug": "john-bradford"
+    "pollie_slug": "john-bradford",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Bradford became 'Mission Development Director' for The Bible Society in Australia of Queensland (now part of Bible Society Australia)."
+    }
   },
   {
     "role": "Consul-General",
@@ -34740,7 +34808,12 @@
       "https://oa.anu.edu.au/obituary/child-gloria-joan-16271",
       "https://adb.anu.edu.au/biography/child-gloria-joan-16271"
     ],
-    "pollie_slug": "joan-child"
+    "pollie_slug": "joan-child",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ANU obituary, ADB biography and Wikipedia confirm Child worked as an adviser/consultant in public and government relations after leaving parliament in 1990."
+    }
   },
   {
     "role": "Member, Patrons' Council",
@@ -37732,7 +37805,12 @@
       "https://www.whitlam.org/2025-dismissal-symposium-the-hon-john-faulkners-speech",
       "https://www.whitlam.org/events/2018/9/5/run-for-my-life-former-nsw-premier-and-foreign-minister-bob-carr-in-conversation-with-whitlam-institute-chair-the-hon-john-faulkner"
     ],
-    "pollie_slug": "john-faulkner"
+    "pollie_slug": "john-faulkner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Official Whitlam Institute board and event pages confirm Faulkner as Chair."
+    }
   },
   {
     "role": "Board Member",
@@ -37741,7 +37819,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/John_Faulkner"
     ],
-    "pollie_slug": "john-faulkner"
+    "pollie_slug": "john-faulkner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Faulkner as a board member of the Global Panel Foundation - Australasia."
+    }
   },
   {
     "role": "Chair, Australian Standards for the Export of Livestock Technical Advisory Committee",
