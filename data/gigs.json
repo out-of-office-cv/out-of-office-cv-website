@@ -39336,7 +39336,11 @@
     ],
     "pollie_slug": "kim-beazley",
     "start_date": "2007-06-06",
-    "end_date": "2009-04-08"
+    "end_date": "2009-04-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Winthrop Professor, Department of Politics and International Relations",
@@ -39347,7 +39351,11 @@
       "https://research-repository.uwa.edu.au/en/persons/kim-beazley/"
     ],
     "pollie_slug": "kim-beazley",
-    "start_date": "2007-01-01"
+    "start_date": "2007-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director and Secretary",
@@ -39357,7 +39365,11 @@
       "https://michaelwest.com.au/kim-beazley/"
     ],
     "pollie_slug": "kim-beazley",
-    "start_date": "2008-04-30"
+    "start_date": "2008-04-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Defence Advisory Group",
@@ -39368,7 +39380,11 @@
     ],
     "pollie_slug": "kim-beazley",
     "start_date": "2008-07-01",
-    "end_date": "2010-01-01"
+    "end_date": "2010-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chancellor",
@@ -39380,7 +39396,11 @@
     ],
     "pollie_slug": "kim-beazley",
     "start_date": "2008-07-01",
-    "end_date": "2009-12-01"
+    "end_date": "2009-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member, Council",
@@ -39392,7 +39412,11 @@
     ],
     "pollie_slug": "kim-beazley",
     "start_date": "2009-07-01",
-    "end_date": "2009-12-01"
+    "end_date": "2009-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member, Defence SA Advisory Board",
@@ -39415,7 +39439,11 @@
     ],
     "pollie_slug": "kim-beazley",
     "start_date": "2010-02-17",
-    "end_date": "2016-01-22"
+    "end_date": "2016-01-22",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -39427,7 +39455,11 @@
     ],
     "pollie_slug": "kim-beazley",
     "start_date": "2016-02-01",
-    "end_date": "2017-10-15"
+    "end_date": "2017-10-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Distinguished Senior Fellow",
@@ -39438,7 +39470,11 @@
       "https://theorg.com/org/australian-strategic-policy-institute/org-chart/kim-beazley"
     ],
     "pollie_slug": "kim-beazley",
-    "start_date": "2016-05-01"
+    "start_date": "2016-05-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -39450,7 +39486,11 @@
     ],
     "pollie_slug": "kim-beazley",
     "start_date": "2016-06-09",
-    "end_date": "2018-04-19"
+    "end_date": "2018-05-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Distinguished Fellow and Director",
@@ -39461,7 +39501,11 @@
       "https://michaelwest.com.au/kim-beazley/"
     ],
     "pollie_slug": "kim-beazley",
-    "start_date": "2016-04-01"
+    "start_date": "2016-04-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -39508,7 +39552,11 @@
     ],
     "pollie_slug": "kim-beazley",
     "start_date": "2018-05-01",
-    "end_date": "2022-06-30"
+    "end_date": "2022-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -39518,7 +39566,11 @@
       "https://www.businessnews.com.au/Person/Kim-Beazley"
     ],
     "pollie_slug": "kim-beazley",
-    "start_date": "2020-09-10"
+    "start_date": "2020-09-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -39530,7 +39582,11 @@
       "https://perthusasia.edu.au/kim-beazley/"
     ],
     "pollie_slug": "kim-beazley",
-    "start_date": "2022-08-30"
+    "start_date": "2022-08-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adviser",
@@ -39540,7 +39596,11 @@
       "https://perthusasia.edu.au/kim-beazley/",
       "https://michaelwest.com.au/kim-beazley/"
     ],
-    "pollie_slug": "kim-beazley"
+    "pollie_slug": "kim-beazley",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adviser",
@@ -39550,7 +39610,11 @@
       "https://perthusasia.edu.au/kim-beazley/",
       "https://michaelwest.com.au/kim-beazley/"
     ],
-    "pollie_slug": "kim-beazley"
+    "pollie_slug": "kim-beazley",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Council",
@@ -39561,7 +39625,11 @@
       "https://www.governmentnews.com.au/kim-beazley-appointed-war-memorial-chair/"
     ],
     "pollie_slug": "kim-beazley",
-    "start_date": "2022-12-02"
+    "start_date": "2022-12-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Non-Voting Advisory Board Member",
@@ -39571,7 +39639,11 @@
       "https://defenceuwa.com.au/about/people/kim-beazley/",
       "https://research-repository.uwa.edu.au/en/persons/kim-beazley/"
     ],
-    "pollie_slug": "kim-beazley"
+    "pollie_slug": "kim-beazley",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -39582,7 +39654,11 @@
       "https://www.ussc.edu.au/the-honourable-kim-beazley"
     ],
     "pollie_slug": "kim-beazley",
-    "start_date": "2023-05-18"
+    "start_date": "2023-05-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Independent Non-Executive Director",
@@ -39593,7 +39669,11 @@
       "https://orthocell.com/blog/the-hon-kim-beazley-ac-joins-orthocell-board/"
     ],
     "pollie_slug": "kim-beazley",
-    "start_date": "2024-01-15"
+    "start_date": "2024-01-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Board",
@@ -39603,6 +39683,10 @@
       "https://perthusasia.edu.au/kim-beazley/",
       "https://michaelwest.com.au/kim-beazley/"
     ],
-    "pollie_slug": "kim-beazley"
+    "pollie_slug": "kim-beazley",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
