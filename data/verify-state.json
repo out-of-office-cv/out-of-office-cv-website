@@ -1244,10 +1244,14 @@
   "jim-mckiernan|Member|WA Carers Advisory Council|2007-01-01": "2026-05-18T08:04:15.777Z",
   "jim-mckiernan|Member|WA Disability Services Commission Board|2005-01-01": "2026-05-18T08:04:15.777Z",
   "jim-mckiernan|Sessional Member|State Administrative Tribunal of Western Australia|2005-01-01": "2026-05-18T08:04:15.777Z",
-  "jim-short|Chairman|Iatia Ltd|null": "2026-05-04T10:07:16.178Z",
+  "jim-short|Chairman|Iatia Ltd|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
   "jim-short|Chair|ACIL Tasman|2002-01-01": "2026-05-04T10:07:16.178Z",
   "jim-short|Executive Board Member|European Bank for Reconstruction and Development|1997-05-01": "2026-05-04T10:07:16.178Z",
-  "jim-short|Executive Director|Australia-China Business Council (Victorian Branch)|2000-01-01": "2026-05-04T10:07:16.178Z",
+  "jim-short|Executive Director|Australia-China Business Council (Victorian Branch)|2000-01-01": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
   "jim-short|Special Envoy for Cyprus|Australian Department of Foreign Affairs and Trade|2000-12-01": "2026-05-04T10:07:16.178Z",
   "jocelyn-newman|Advisory Council Member|Cancer Australia|null": "2026-05-24T02:17:47.846Z",
   "jocelyn-newman|Board Member|Australian Strategic Policy Institute|null": "2026-05-24T02:17:47.846Z",
@@ -3681,6 +3685,60 @@
     "last_examined_at": "2026-06-04T00:00:00.000Z"
   },
   "jason-falinski|Spokesperson|Australians for Prosperity|2024-01-01": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "jean-hearn|Patron|Life Works at Home|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "jean-hearn|Founder|Tamar Community Peace Trust|2015-01-01": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "jeannette-mchugh|Chair|Jessie Street Trust|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "jeannette-mchugh|Secretary|Evatt Foundation|1999": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "jenny-ware|Board Director|Crohn's & Colitis Australia|2026-01-14": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "jenny-ware|Principal / Consultant|GALS Government And Legal Solutions|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "joan-child|Adviser in public and government relations|Self-employed / Consultancy|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "joan-child|Member, Patrons' Council|Epilepsy Foundation of Victoria|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "joanna-gash|Mayor|Shoalhaven City Council|2012-09-08": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "joanna-gash|Councillor (Ward 2)|Shoalhaven City Council|2016-09-17": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "john-bradford|Staff Member|Mercy Ships|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "john-bradford|Mission Development Director|Bible Society Australia|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "john-devereux|Chief Executive Officer|Tasmanian Pacing Club|1996": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "john-devereux|Managing Director|Tasmanian Agricultural Renewal Research Company|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "john-faulkner|Chair|Whitlam Institute|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "john-faulkner|Board Member|Global Panel Foundation Australasia|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "john-forrest|Director|John Forrest and Associates|2013-08": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "john-forrest|Director|Australian Grape and Wine Authority|2014-07": {
     "last_examined_at": "2026-06-04T00:00:00.000Z"
   }
 }
