@@ -1483,11 +1483,17 @@
     "organisation": "NSW Liberal Party (NSW Division)",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://nswliberal.org.au/news/jason-falinski-elected-nsw-liberal-party-president"
+      "https://nswliberal.org.au/news/jason-falinski-elected-nsw-liberal-party-president",
+      "https://en.wikipedia.org/wiki/Jason_Falinski",
+      "https://www.canberratimes.com.au/story/8262510/former-mp-jason-falinski-wins-nsw-liberals-presidency/"
     ],
     "pollie_slug": "jason-falinski",
-    "start_date": "2023-01-01",
-    "end_date": "2024-10-01"
+    "start_date": "2023-07-07",
+    "end_date": "2024-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Spokesperson",
@@ -1495,10 +1501,15 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://www.australiansforprosperity.com/",
-      "https://reneweconomy.com.au/coals-hidden-campaign-the-shocking-spend-on-astroturfing-in-the-2025-australian-election/"
+      "https://reneweconomy.com.au/coals-hidden-campaign-the-shocking-spend-on-astroturfing-in-the-2025-australian-election/",
+      "https://en.wikipedia.org/wiki/Jason_Falinski"
     ],
     "pollie_slug": "jason-falinski",
-    "start_date": "2024-01-01"
+    "start_date": "2024-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Independent Chair",
@@ -24329,7 +24340,12 @@
       "https://rocketreach.co/fiona-scott-email_813212773",
       "https://au.linkedin.com/in/fionascott2750"
     ],
-    "start_date": "2016-01-01"
+    "start_date": "2016-01-01",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Start date (2016-01-01) predates departure from parliament (2016-07-02). No sources found confirming Fiona Scott as Managing Partner at Castlereagh Advisory. While Castlereagh Advisory exists as a Sydney public affairs firm, no evidence links Fiona Scott to this role."
+    }
   },
   {
     "pollie_slug": "fiona-scott",
@@ -32133,7 +32149,11 @@
     ],
     "start_date": "2015",
     "end_date": "2016",
-    "pollie_slug": "chris-pearce"
+    "pollie_slug": "chris-pearce",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Managing Partner",
@@ -32173,9 +32193,13 @@
       "https://dbresults.com.au/news/db-results-continues-to-grow-with-the-appointment-of-chris-pearce-as-managing-partner/",
       "https://dbresultsthailand.com/people/chris-pearce/"
     ],
-    "start_date": "2021",
+    "start_date": "2021-05",
     "end_date": "2023",
-    "pollie_slug": "chris-pearce"
+    "pollie_slug": "chris-pearce",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Operating Officer",
@@ -32185,7 +32209,11 @@
       "https://au.linkedin.com/in/chris-pearce-212a7115",
       "https://dbresultsthailand.com/people/chris-pearce/"
     ],
-    "pollie_slug": "chris-pearce"
+    "pollie_slug": "chris-pearce",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chair and Non-Executive Director",
@@ -38114,7 +38142,11 @@
     ],
     "pollie_slug": "janine-haines",
     "start_date": "1996-07",
-    "end_date": "1999"
+    "end_date": "1999",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Council Member",
@@ -38126,7 +38158,11 @@
       "https://www.wikidata.org/wiki/Q6154549"
     ],
     "pollie_slug": "janine-haines",
-    "start_date": "1992-11-25"
+    "start_date": "1992-11-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chancellor",
@@ -38139,7 +38175,11 @@
     ],
     "pollie_slug": "janine-haines",
     "start_date": "1997-01-01",
-    "end_date": "1999-12-31"
+    "end_date": "1999-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -38919,10 +38959,15 @@
     "sources": [
       "https://debategraph.us/about/",
       "https://en.wikipedia.org/wiki/Debategraph",
-      "https://debategraph.org/peterbaldwin"
+      "https://debategraph.org/peterbaldwin",
+      "https://en.wikipedia.org/wiki/Peter_Baldwin_(Australian_politician)"
     ],
     "pollie_slug": "peter-baldwin",
-    "start_date": "2008-03-01"
+    "start_date": "2008-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -38930,9 +38975,15 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://blackheathphilosophy.org/entry/home/program",
-      "https://en.wikipedia.org/wiki/Peter_Baldwin_(politician)"
+      "https://en.wikipedia.org/wiki/Peter_Baldwin_(politician)",
+      "https://blackheathphilosophy.org/entry/Home/Roadmap",
+      "https://www.blackheathphilosophy.org/details.aspx?nid=437828"
     ],
-    "pollie_slug": "peter-baldwin"
+    "pollie_slug": "peter-baldwin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founder and author",
@@ -38940,9 +38991,14 @@
     "category": "Media, Communications & Public Relations",
     "sources": [
       "https://polciv.org/entry/Home/About",
-      "https://polciv.substack.com/about"
+      "https://polciv.substack.com/about",
+      "https://polciv.org/entry/Home"
     ],
-    "pollie_slug": "peter-baldwin"
+    "pollie_slug": "peter-baldwin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Contributing author",
@@ -38951,7 +39007,11 @@
     "sources": [
       "https://www.spectator.com.au/author/peter-baldwin/"
     ],
-    "pollie_slug": "peter-baldwin"
+    "pollie_slug": "peter-baldwin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Panel Member",
@@ -39058,7 +39118,11 @@
     ],
     "pollie_slug": "moses-cass",
     "start_date": "1983",
-    "end_date": "1983"
+    "end_date": "1983",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Council Member",
@@ -39068,7 +39132,11 @@
       "https://en.wikipedia.org/wiki/Moss_Cass"
     ],
     "pollie_slug": "moses-cass",
-    "start_date": "1983"
+    "start_date": "1983",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -39080,7 +39148,11 @@
     ],
     "pollie_slug": "moses-cass",
     "start_date": "2002",
-    "end_date": "2003"
+    "end_date": "2003",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -39090,7 +39162,11 @@
       "https://en.wikipedia.org/wiki/Moss_Cass",
       "https://www.jewage.org/wiki/en/Article:Moss_Cass_-_Biography"
     ],
-    "pollie_slug": "moses-cass"
+    "pollie_slug": "moses-cass",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Fellow",
@@ -39100,6 +39176,11 @@
       "https://en.wikipedia.org/wiki/Moss_Cass",
       "https://www.jewage.org/wiki/en/Article:Moss_Cass_-_Biography"
     ],
-    "pollie_slug": "moses-cass"
+    "pollie_slug": "moses-cass",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Wikipedia confirms Moss Cass was an honorary fellow at Melbourne University School of Land and Environment, not School of Social and Environmental Enquiry. This is the incorrect school name."
+    }
   }
 ]
