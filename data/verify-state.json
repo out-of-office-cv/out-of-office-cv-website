@@ -436,7 +436,9 @@
   "chris-pearce|Chair|Anglicare Victoria|2016": {
     "last_examined_at": "2026-05-25T02:26:39.259Z"
   },
-  "chris-pearce|Chair|Global Voices|2015": "2026-05-27T00:00:00.000Z",
+  "chris-pearce|Chair|Global Voices|2015": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
   "chris-pearce|Chief Operating Officer|DB Results|2020": "2026-05-27T00:00:00.000Z",
   "chris-pearce|Deputy Chair and Non-Executive Director|St Vincent's Institute of Medical Research|null": {
     "last_examined_at": "2026-05-25T02:26:39.259Z"
@@ -458,7 +460,9 @@
   "chris-pearce|Managing Director|Pearce Advisory|2023": {
     "last_examined_at": "2026-05-25T02:26:59.087Z"
   },
-  "chris-pearce|Managing Partner|DB Results|2021": "2026-05-27T00:00:00.000Z",
+  "chris-pearce|Managing Partner|DB Results|2021": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
   "chris-pearce|Managing Partner|NGS Global|2018": {
     "last_examined_at": "2026-05-25T02:26:39.259Z"
   },
@@ -750,7 +754,9 @@
   "fiona-nash|Interim Commissioner|Australian Tertiary Education Commission|2026-01-19": "2026-05-10T02:10:32.931Z",
   "fiona-nash|Regional Education Commissioner|Australian Government|2021-12-01": "2026-05-10T02:10:32.931Z",
   "fiona-nash|Strategic Adviser, Regional Development|Charles Sturt University|2018-01-01": "2026-05-10T02:10:32.931Z",
-  "fiona-scott|Director of Policy|National Electrical and Communications Association NSW|null": "2026-05-27T00:00:00.000Z",
+  "fiona-scott|Director of Policy|National Electrical and Communications Association NSW|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
   "fiona-scott|Director|National Film and Sound Archive of Australia|2017-01-01": {
     "last_examined_at": "2026-05-25T00:00:00.000Z"
   },
@@ -759,8 +765,12 @@
   },
   "fiona-scott|Executive Director Federal Government|PremierNational|2017-01-01": "2026-05-18T00:00:00.000Z",
   "fiona-scott|Federal Vice President|Liberal Party of Australia|2024-06-01": "2026-05-18T00:00:00.000Z",
-  "fiona-scott|Founder and Chief Executive Officer|Castlereagh Honey|2019-01-01": "2026-05-27T00:00:00.000Z",
-  "fiona-scott|Managing Partner|Castlereagh Advisory|2016-01-01": "2026-05-27T00:00:00.000Z",
+  "fiona-scott|Founder and Chief Executive Officer|Castlereagh Honey|2019-01-01": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "fiona-scott|Managing Partner|Castlereagh Advisory|2016-01-01": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
   "fiona-scott|Political Commentator|Sky News Australia|2017-01-01": "2026-05-18T00:00:00.000Z",
   "fran-bailey|Advisor|SME Sector|null": "2026-05-29T00:00:00.000Z",
   "fran-bailey|Chair|Animal Aid Foundation|null": "2026-05-29T00:00:00.000Z",
@@ -3627,5 +3637,50 @@
   "sid-spindler|Chair|Anti-Slavery Society|null": "2026-06-04T00:00:00.000Z",
   "sid-spindler|Co-founder|Defenders of Native Title|1997-01-01": "2026-06-04T00:00:00.000Z",
   "sid-spindler|Member|Victorian Deaths in Custody Watch Committee|null": "2026-06-04T00:00:00.000Z",
-  "sid-spindler|Co-founder|Towards a Just Society Fund|2002-01-01": "2026-06-04T00:00:00.000Z"
+  "sid-spindler|Co-founder|Towards a Just Society Fund|2002-01-01": "2026-06-04T00:00:00.000Z",
+  "moses-cass|Chair|Committee of Review of the Australian Institute of Multicultural Affairs|1983": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "moses-cass|Council Member|National Museum of Australia|1983": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "moses-cass|Chair|Australian National Biocentre|2002": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "moses-cass|Patron|Sustainable Living Foundation|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "moses-cass|Honorary Fellow|School of Social and Environmental Enquiry, University of Melbourne|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "peter-baldwin|Co-founder|Debategraph|2008-03-01": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "peter-baldwin|Chair|Blackheath Philosophy Forum|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "peter-baldwin|Founder and author|Politics and Civilization (polciv.org)|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "peter-baldwin|Contributing author|Spectator Australia|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "chris-pearce|Chief Operating Officer|DB Results|null": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "janine-haines|President|Australian Privacy Charter Council|1996-07": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "janine-haines|Council Member|University of Adelaide|1992-11-25": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "janine-haines|Deputy Chancellor|University of Adelaide|1997-01-01": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "jason-falinski|President|NSW Liberal Party (NSW Division)|2023-01-01": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  },
+  "jason-falinski|Spokesperson|Australians for Prosperity|2024-01-01": {
+    "last_examined_at": "2026-06-04T00:00:00.000Z"
+  }
 }
