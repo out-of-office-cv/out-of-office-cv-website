@@ -390,8 +390,8 @@
   "celia-hammond|Deputy Chair|The Bethanie Group|2023-05-01": "2026-05-03T10:06:21.329Z",
   "celia-hammond|Principal|Core Law & Advisory|2022-07-01": "2026-05-03T10:06:21.329Z",
   "celia-hammond|Trustee|St John of God Health Care|2023-01-01": "2026-05-03T10:06:21.329Z",
-  "charles-blunt|Chair|Capital Trade and Policy|null": "2026-05-28T02:11:45.655Z",
-  "charles-blunt|Chair|Palamedia Limited|null": "2026-05-28T02:11:45.655Z",
+  "charles-blunt|Chair|Capital Trade and Policy|null": "2026-06-05T00:00:00.000Z",
+  "charles-blunt|Chair|Palamedia Limited|null": "2026-06-05T00:00:00.000Z",
   "charles-blunt|National Director|American Chamber of Commerce in Australia|1992-01-01": "2026-05-28T02:11:45.655Z",
   "cheryl-kernot|Associate Professor & Director of Teaching and Learning, Centre for Social Impact|University of New South Wales|2008-09-01": "2026-05-06T20:06:50.524Z",
   "cheryl-kernot|Director of Learning|School for Social Entrepreneurs|null": "2026-05-06T20:06:50.524Z",
@@ -1390,12 +1390,8 @@
   "john-herron|Ambassador|World Youth Day Sydney 2008|2008-01-01": {
     "last_examined_at": "2026-05-23T02:12:06.664Z"
   },
-  "john-herron|Chair|Australian National Council on Drugs|2006-01-01": {
-    "last_examined_at": "2026-05-23T02:12:06.664Z"
-  },
-  "john-herron|Chair|Royal Brisbane and Womens Hospital Foundation|null": {
-    "last_examined_at": "2026-05-23T02:12:06.664Z"
-  },
+  "john-herron|Chair|Australian National Council on Drugs|2006-01-01": "2026-06-05T00:00:00.000Z",
+  "john-herron|Chair|Royal Brisbane and Womens Hospital Foundation|null": "2026-06-05T00:00:00.000Z",
   "john-hewson|BCEC Professorial Fellow|Curtin University|null": "2026-05-01T00:00:00Z",
   "john-hewson|Chairman|ABN AMRO Australia|null": "2026-05-01T00:00:00Z",
   "john-hewson|Chairman|Asset Owners Disclosure Project|null": "2026-05-01T00:00:00Z",
@@ -1456,8 +1452,8 @@
   "john-mildren|President|Cornish Association of Australia|null": "2026-05-12T14:04:24.595Z",
   "john-moore|Chair|Australian Wine and Brandy Corporation|null": "2026-05-23T00:00:00.000Z",
   "john-moore|Chair|Herencia Resources plc|2006-01-19": "2026-05-23T00:00:00.000Z",
-  "john-moore|Non-Executive Chair|Mineral Securities Limited|null": "2026-05-23T00:00:00.000Z",
-  "john-moore|Non-Executive Director|Arowana International Limited|null": "2026-05-23T00:00:00.000Z",
+  "john-moore|Non-Executive Chair|Mineral Securities Limited|null": "2026-06-05T00:00:00.000Z",
+  "john-moore|Non-Executive Director|Arowana International Limited|null": "2026-06-05T00:00:00.000Z",
   "john-olsen|Chair|Adelaide Football Club|2020-10-13": "2026-05-01T14:07:07.978Z",
   "john-olsen|Chair|Australian American Association|null": "2026-05-01T14:07:07.978Z",
   "john-olsen|Chair|South Australian Football Commission|2010-01-01": "2026-05-01T14:07:07.978Z",
@@ -1470,7 +1466,7 @@
   "john-olsen|State President|Liberal Party of Australia (SA Division)|2017-06-01": "2026-05-01T14:07:07.978Z",
   "john-reeves|Additional Judge|Supreme Court of the Northern Territory|2009-05-01": "2026-05-15T14:03:13.028Z",
   "john-reeves|Barrister|Northern Territory Bar|1985-01-01": "2026-05-15T14:03:13.028Z",
-  "john-reeves|Chair|Australian Red Cross Northern Territory Division|null": "2026-05-15T14:03:13.028Z",
+  "john-reeves|Chair|Australian Red Cross Northern Territory Division|null": "2026-06-05T00:00:00.000Z",
   "john-reeves|Deputy Chair|Northern Territory Legal Practitioner's Complaints Committee|1998-01-01": "2026-05-15T14:03:13.028Z",
   "john-reeves|Judge|Federal Court of Australia|2007-11-19": "2026-05-15T14:03:13.028Z",
   "john-reeves|Member|Australian Heritage Commission|1985-01-01": "2026-05-15T14:03:13.028Z",
@@ -1479,7 +1475,7 @@
   "john-reeves|President|Northern Territory Bar Association|2000-01-01": "2026-05-15T14:03:13.028Z",
   "john-reeves|Queen's Counsel|Northern Territory Bar|1997-10-01": "2026-05-15T14:03:13.028Z",
   "john-reeves|Reviewer and Author|Review of the Aboriginal Land Rights (Northern Territory) Act 1976|1997-10-01": "2026-05-15T14:03:13.028Z",
-  "john-reeves|Taskforce Member|Northern Territory National Emergency Response Taskforce|2007-01-01": "2026-05-15T14:03:13.028Z",
+  "john-reeves|Taskforce Member|Northern Territory National Emergency Response Taskforce|2007-01-01": "2026-06-05T00:00:00.000Z",
   "john-reeves|Vice-President|Australian Bar Association|2003-01-01": "2026-05-15T14:03:13.028Z",
   "john-sharp|Adviser|Linfox Group|1999-01-01": "2026-05-26T00:00:00.000Z",
   "john-sharp|Chair|Aviation Safety Foundation of Australasia|2003-01-01": "2026-05-26T00:00:00.000Z",
@@ -2495,16 +2491,10 @@
   "robert-tickner|Founding Chair|Justice Reform Initiative|2020-09-01": "2026-05-17T00:00:00Z",
   "rod-kemp|Board Member|Books Alive|null": "2026-05-07T14:08:36.532Z",
   "rod-kemp|Board Member|Collections Council of Australia|null": "2026-05-07T14:08:36.532Z",
-  "rod-kemp|Board Member|Jonathan M Shiff Productions|null": {
-    "last_examined_at": "2026-05-28T00:00:00.000Z"
-  },
-  "rod-kemp|Board Member|National Institute of Circus Arts|null": {
-    "last_examined_at": "2026-05-28T00:00:00.000Z"
-  },
+  "rod-kemp|Board Member|Jonathan M Shiff Productions|null": "2026-06-05T00:00:00.000Z",
+  "rod-kemp|Board Member|National Institute of Circus Arts|null": "2026-06-05T00:00:00.000Z",
   "rod-kemp|Board Member|Sport Australia Hall of Fame|null": "2026-05-01T00:00:00.000Z",
-  "rod-kemp|Board Member|Surfing Australia|null": {
-    "last_examined_at": "2026-05-28T00:00:00.000Z"
-  },
+  "rod-kemp|Board Member|Surfing Australia|null": "2026-06-05T00:00:00.000Z",
   "rod-kemp|Chairman|Institute of Public Affairs|2008-08-01": "2026-05-01T00:00:00.000Z",
   "ronald-edwards|Chair|State Emergency Management Committee|null": "2026-05-09T14:09:44.510Z",
   "ronald-edwards|Chair|Western Australian Fishing Industry Council|null": "2026-05-09T14:09:44.510Z",
@@ -3740,5 +3730,13 @@
   },
   "john-forrest|Director|Australian Grape and Wine Authority|2014-07": {
     "last_examined_at": "2026-06-04T00:00:00.000Z"
-  }
+  },
+  "john-saunderson|Policy and Research Officer|Communications, Electrical and Plumbing Union|1990": "2026-06-05T00:00:00.000Z",
+  "john-saunderson|Industrial Officer|Communications, Electrical and Plumbing Union|1990": "2026-06-05T00:00:00.000Z",
+  "john-siddons|Chair|Siddons Ramset Limited|1987-07-01": "2026-06-05T00:00:00.000Z",
+  "john-siddons|Founder|Siddons Solarstream|null": "2026-06-05T00:00:00.000Z",
+  "judi-moylan|President & Chair of the Board|Diabetes Australia|2013-09-01": "2026-06-05T00:00:00.000Z",
+  "judi-moylan|Government Affairs Adviser|Diabetes Australia|2019-01-01": "2026-06-05T00:00:00.000Z",
+  "karen-mcnamara|Member|Administrative Appeals Tribunal|2017-01-01": "2026-06-05T00:00:00.000Z",
+  "karen-mcnamara|Non-Executive Director and Company Secretary|Educate Early Learning Centres|null": "2026-06-05T00:00:00.000Z"
 }
