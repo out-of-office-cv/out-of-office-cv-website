@@ -39265,5 +39265,17 @@
       "by": "claude",
       "note": "Wikipedia confirms Moss Cass was an honorary fellow at Melbourne University School of Land and Environment, not School of Social and Environmental Enquiry. This is the incorrect school name."
     }
+  },
+  {
+    "role": "Deputy Chief Executive Officer",
+    "organisation": "Western Australian Council of Social Service",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://wacoss.org.au/our-team/",
+      "https://www.wacoss.org.au/staff/rachel-siewert/",
+      "https://www.businessnews.com.au/Person/Rachel-Siewert"
+    ],
+    "pollie_slug": "rachel-siewert",
+    "start_date": "2022-07-25"
   }
 ]
