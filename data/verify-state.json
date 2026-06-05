@@ -1576,8 +1576,8 @@
   "justine-keay|Psychologist|Family Based Care Tasmania|null": "2026-05-27T00:00:00.000Z",
   "karen-synon|Deputy President and Division Head, Social Services and Child Support Division|Administrative Appeals Tribunal|2021-02-22": "2026-05-13T02:05:04.657Z",
   "karen-synon|Director|Australian Housing and Urban Research Institute|2019-04-05": "2026-05-13T02:05:04.657Z",
-  "karen-synon|Member (part-time)|Migration Review Tribunal|2004": "2026-05-13T02:05:04.657Z",
-  "karen-synon|Member (part-time)|Refugee Review Tribunal|2001": "2026-05-13T02:05:04.657Z",
+  "karen-synon|Member (part-time)|Migration Review Tribunal|2004": "2026-06-05T00:00:00.000Z",
+  "karen-synon|Member (part-time)|Refugee Review Tribunal|2001": "2026-06-05T00:00:00.000Z",
   "karen-synon|Member|Administrative Appeals Tribunal|2015": "2026-05-13T02:05:04.657Z",
   "karin-sowada|Assistant Curator|Nicholson Museum, University of Sydney|1996-01-01": "2026-05-08T20:07:32.113Z",
   "karin-sowada|Australian Research Council Future Fellow|Australian Research Council|2017-07-19": "2026-05-08T20:07:32.113Z",
@@ -1636,8 +1636,8 @@
   "kenneth-wriedt|Leader of the Opposition|Parliament of Tasmania|1982-05-27": "2026-05-12T14:04:24.595Z",
   "kenneth-wriedt|Member for Franklin|Parliament of Tasmania|1982-05-15": "2026-05-12T14:04:24.595Z",
   "kenneth-wriedt|Minister for Roads and Transport|Government of Tasmania|1989-06-29": "2026-05-12T14:04:24.595Z",
-  "kerry-sibraa|Director|World IT|null": "2026-05-08T08:06:43.658Z",
-  "kerry-sibraa|Director|Zimbabwe Platinum Mines|null": "2026-05-08T08:06:43.658Z",
+  "kerry-sibraa|Director|World IT|null": "2026-06-05T00:00:00.000Z",
+  "kerry-sibraa|Director|Zimbabwe Platinum Mines|null": "2026-06-05T00:00:00.000Z",
   "kerry-sibraa|High Commissioner to Zimbabwe|Australian High Commission to Zimbabwe|1994-03": "2026-05-08T08:06:43.658Z",
   "kerry-sibraa|Honorary Consul-General|Consulate-General of Mozambique in Australia|2003": "2026-05-08T08:06:43.658Z",
   "kerry-sibraa|Special Counsel|Wells Haslem Strategic Public Affairs|2001": "2026-05-08T08:06:43.658Z",
@@ -1754,12 +1754,8 @@
   "lindsay-tanner|Non-Executive Director|Virgin Australia International Holdings|null": "2026-05-01T00:00:00Z",
   "lindsay-tanner|Special Adviser|Lazard Australia|2010-01-01": "2026-05-01T00:00:00Z",
   "lindsay-tanner|Vice Chancellor's Fellow and Adjunct Professor|Victoria University|2010-08-01": "2026-05-01T00:00:00Z",
-  "lisa-singh|Advisory Board Member|Asialink, University of Melbourne|null": {
-    "last_examined_at": "2026-05-25T08:31:56.980Z"
-  },
-  "lisa-singh|Advisory Committee Member|Australian Human Rights Institute, University of New South Wales|2021-01-01": {
-    "last_examined_at": "2026-05-25T08:31:56.980Z"
-  },
+  "lisa-singh|Advisory Board Member|Asialink, University of Melbourne|null": "2026-06-05T00:00:00.000Z",
+  "lisa-singh|Advisory Committee Member|Australian Human Rights Institute, University of New South Wales|2021-01-01": "2026-06-05T00:00:00.000Z",
   "lisa-singh|Deputy Chair|Australia India Council|2020-01-01": {
     "last_examined_at": "2026-05-25T08:31:56.980Z"
   },
@@ -3813,5 +3809,19 @@
   },
   "kim-beazley|Chair, Board|Perth United States Asia Centre|null": {
     "last_examined_at": "2026-06-05T00:00:00.000Z"
-  }
+  },
+  "kim-carr|Vice Chancellor's Professorial Fellow|Monash University|null": "2026-06-05T00:00:00.000Z",
+  "kim-carr|Director|Made in Australia Campaign Limited|null": "2026-06-05T00:00:00.000Z",
+  "laura-smyth|Senior Legal Counsel|AdventBalance|null": "2026-06-05T00:00:00.000Z",
+  "laura-smyth|Senior Executive Lawyer and Melbourne, Adelaide and Perth Commercial Team Leader|Australian Government Solicitor|2024-03-28": "2026-06-05T00:00:00.000Z",
+  "laurie-ferguson|Director|St Francis Social Services|2017-12-01": "2026-06-05T00:00:00.000Z",
+  "laurie-ferguson|Board of Advisors Member|Global Panel Foundation Australasia|null": "2026-06-05T00:00:00.000Z",
+  "lee-rhiannon|Commissioner|Investigate PH (International Coalition for Human Rights in the Philippines)|2020-01-01": "2026-06-05T00:00:00.000Z",
+  "lee-rhiannon|Committee Member|SEARCH Foundation|2018-01-01": "2026-06-05T00:00:00.000Z",
+  "luke-hartsuyker|Interim Board Chair|Mid North Coast Local Health District|null": "2026-06-05T00:00:00.000Z",
+  "luke-hartsuyker|Chair|Regional Telecommunications Independent Review Committee|2021-06-02": "2026-06-05T00:00:00.000Z",
+  "manfred-cross|Chair|Library Board of Queensland|1989-01-01": "2026-06-05T00:00:00.000Z",
+  "manfred-cross|President|Scout Association of Australia, Queensland Branch|1991-01-01": "2026-06-05T00:00:00.000Z",
+  "marjorie-henzell|Senior Social Worker|Tamworth Hospital|null": "2026-06-05T00:00:00.000Z",
+  "marjorie-henzell|Senior Social Worker|Centrelink|null": "2026-06-05T00:00:00.000Z"
 }
