@@ -40212,5 +40212,14 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Patron and Cultural Advisor",
+    "organisation": "Marrugeku",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.marrugeku.com.au/people/patrick-dodson/"
+    ],
+    "pollie_slug": "pat-dodson"
   }
 ]
