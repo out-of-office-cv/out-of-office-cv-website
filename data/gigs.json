@@ -10073,11 +10073,15 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://en.wikipedia.org/wiki/Michael_Hodgman",
-      "https://www.parliament.tas.gov.au/resources/about-parliament/historyindex/members/hodgmanwe729"
+      "https://www.parliament.tas.gov.au/resources/about-parliament/historyindex/members/hodgmanwm566"
     ],
     "pollie_slug": "michael-hodgman",
-    "start_date": "1992",
-    "end_date": "1998"
+    "start_date": "1992-02-01",
+    "end_date": "1998-08-29",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member of the House of Assembly for Denison",
@@ -10085,11 +10089,15 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://en.wikipedia.org/wiki/Michael_Hodgman",
-      "https://www.parliament.tas.gov.au/resources/about-parliament/historyindex/members/hodgmanwe729"
+      "https://www.parliament.tas.gov.au/resources/about-parliament/historyindex/members/hodgmanwm566"
     ],
     "pollie_slug": "michael-hodgman",
-    "start_date": "2001",
-    "end_date": "2010"
+    "start_date": "2001-08-21",
+    "end_date": "2010-03-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy President",
@@ -11304,19 +11312,33 @@
     "organisation": "Sutherland Shire Council",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://en.wikipedia.org/wiki/Michael_Forshaw"
+      "https://en.wikipedia.org/wiki/Michael_Forshaw",
+      "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=656",
+      "https://www.theleader.com.au/story/6935281/surprise-election-of-steve-simpson-as-shire-mayor/"
     ],
     "pollie_slug": "michael-forshaw",
-    "start_date": "2016-09"
+    "start_date": "2016-09",
+    "end_date": "2021-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Independent Chairman",
     "organisation": "Chifley Financial Services",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://relationshipscience.com/person/michael-forshaw-180296446"
+      "https://relationshipscience.com/person/michael-forshaw-180296446",
+      "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=656"
     ],
-    "pollie_slug": "michael-forshaw"
+    "pollie_slug": "michael-forshaw",
+    "start_date": "2015",
+    "end_date": "2020",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Councillor",
@@ -12719,7 +12741,12 @@
     "sources": [
       "https://sementis.com.au/team/martyn-evans/"
     ],
-    "pollie_slug": "martyn-evans"
+    "pollie_slug": "martyn-evans",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple search results confirm Martyn Evans chaired this SA committee after leaving parliament in 2004. Original Sementis source is a 404 but kept as the only source (schema requires >=1); no strong replacement URL found."
+    }
   },
   {
     "role": "Policy and Government Affairs Adviser",
@@ -12786,19 +12813,26 @@
     ],
     "pollie_slug": "michael-organ",
     "start_date": "2005-01-01",
-    "end_date": "2020-11-01"
+    "end_date": "2020-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Greens Candidate",
     "organisation": "Australian Greens (Riverina, NSW)",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://regionriverina.com.au/michael-organ-hopes-to-overcome-the-odds-a-second-time-and-win-the-riverina/1098/",
-      "https://greens.org.au/nsw/person/michael-organ-0"
+      "https://regionriverina.com.au/michael-organ-hopes-to-overcome-the-odds-a-second-time-and-win-the-riverina/1098/"
     ],
     "pollie_slug": "michael-organ",
     "start_date": "2022-01-01",
-    "end_date": "2022-05-21"
+    "end_date": "2022-05-21",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "State Council Member",
@@ -31624,7 +31658,12 @@
       "https://www.sbs.com.au/news/the-feed/bipolar-disorder-breakdown-in-the-australian-senate",
       "https://www.linkedin.com/in/mary-jo-fisher-3b1b99127/"
     ],
-    "pollie_slug": "mary-fisher"
+    "pollie_slug": "mary-fisher",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "SBS article (2014) confirms Mary Jo Fisher as Workplace Relations Advisor at Printing Industries Association of Australia, consistent with her IR background."
+    }
   },
   {
     "role": "Ambassador",
@@ -31633,7 +31672,12 @@
     "sources": [
       "https://www.sbs.com.au/news/the-feed/bipolar-disorder-breakdown-in-the-australian-senate"
     ],
-    "pollie_slug": "mary-fisher"
+    "pollie_slug": "mary-fisher",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "SBS article (2014) confirms Mary Jo Fisher served as Beyond Blue Ambassador running workplace mental-health seminars."
+    }
   },
   {
     "role": "Managing Director",
@@ -39804,7 +39848,11 @@
     ],
     "pollie_slug": "glenister-sheil",
     "start_date": "1998-02-02",
-    "end_date": "1998-02-13"
+    "end_date": "1998-02-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -39814,7 +39862,11 @@
       "https://www.openaustralia.org.au/senate/?id=2008-10-13.29.2",
       "https://biography.senate.gov.au/sheil-glenister/"
     ],
-    "pollie_slug": "glenister-sheil"
+    "pollie_slug": "glenister-sheil",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Proprietor",
@@ -39824,7 +39876,11 @@
       "https://www.openaustralia.org.au/senate/?id=2008-10-13.29.2",
       "https://biography.senate.gov.au/sheil-glenister/"
     ],
-    "pollie_slug": "glenister-sheil"
+    "pollie_slug": "glenister-sheil",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -39833,7 +39889,11 @@
     "sources": [
       "https://www.openaustralia.org.au/senate/?id=2008-10-13.29.2"
     ],
-    "pollie_slug": "glenister-sheil"
+    "pollie_slug": "glenister-sheil",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -39846,7 +39906,11 @@
     ],
     "pollie_slug": "sandy-macdonald",
     "start_date": "2008-08",
-    "end_date": "2024-02-11"
+    "end_date": "2024-02-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -39859,7 +39923,11 @@
     ],
     "pollie_slug": "sandy-macdonald",
     "start_date": "2015-02",
-    "end_date": "2024-02-11"
+    "end_date": "2024-02-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -39871,6 +39939,10 @@
     ],
     "pollie_slug": "sandy-macdonald",
     "start_date": "2009-07-07",
-    "end_date": "2014-03-31"
+    "end_date": "2014-03-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
