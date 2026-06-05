@@ -3449,21 +3449,11 @@
   "brian-howe|Professorial Fellow|Centre for Public Policy, University of Melbourne|null": {
     "last_examined_at": "2026-06-03T02:31:27.072Z"
   },
-  "brian-howe|Founding Director|Australia and New Zealand School of Government|null": {
-    "last_examined_at": "2026-06-03T02:31:27.072Z"
-  },
-  "brian-howe|Director|Brotherhood of St Laurence|null": {
-    "last_examined_at": "2026-06-03T02:31:27.072Z"
-  },
-  "brian-howe|Patrons Council Member|Epilepsy Foundation of Victoria|null": {
-    "last_examined_at": "2026-06-03T02:31:27.072Z"
-  },
-  "brian-howe|Chair|Victorian Disability Housing Trust|null": {
-    "last_examined_at": "2026-06-03T02:31:27.072Z"
-  },
-  "brian-howe|Chair|Housing Choices Australia|null": {
-    "last_examined_at": "2026-06-03T02:31:27.072Z"
-  },
+  "brian-howe|Founding Director|Australia and New Zealand School of Government|null": "2026-06-06T00:00:00.000Z",
+  "brian-howe|Director|Brotherhood of St Laurence|null": "2026-06-06T00:00:00.000Z",
+  "brian-howe|Patrons Council Member|Epilepsy Foundation of Victoria|null": "2026-06-06T00:00:00.000Z",
+  "brian-howe|Chair|Victorian Disability Housing Trust|null": "2026-06-06T00:00:00.000Z",
+  "brian-howe|Chair|Housing Choices Australia|null": "2026-06-06T00:00:00.000Z",
   "brian-howe|Chair|Australian Council of Trade Unions Independent Inquiry into Insecure Work in Australia|2012-01-01": {
     "last_examined_at": "2026-06-03T02:31:27.072Z"
   },
@@ -3753,9 +3743,7 @@
   "kim-beazley|Member, Council|Australian War Memorial|2009-07-01": {
     "last_examined_at": "2026-06-05T00:00:00.000Z"
   },
-  "kim-beazley|Member, Defence SA Advisory Board|Defence SA|2009-03-01": {
-    "last_examined_at": "2026-06-05T00:00:00.000Z"
-  },
+  "kim-beazley|Member, Defence SA Advisory Board|Defence SA|2009-03-01": "2026-06-06T00:00:00.000Z",
   "kim-beazley|Ambassador to the United States|Australian Government|2010-02-17": {
     "last_examined_at": "2026-06-05T00:00:00.000Z"
   },
@@ -3771,15 +3759,9 @@
   "kim-beazley|Distinguished Fellow and Director|Perth United States Asia Centre|2016-04-01": {
     "last_examined_at": "2026-06-05T00:00:00.000Z"
   },
-  "kim-beazley|Director|Australian American Education Leadership Foundation|2015-12-16": {
-    "last_examined_at": "2026-06-05T00:00:00.000Z"
-  },
-  "kim-beazley|Co-Chair|Australian American Leadership Dialogue|2016-01-01": {
-    "last_examined_at": "2026-06-05T00:00:00.000Z"
-  },
-  "kim-beazley|Director|Ramsay Centre for Western Civilisation|2017-05-08": {
-    "last_examined_at": "2026-06-05T00:00:00.000Z"
-  },
+  "kim-beazley|Director|Australian American Education Leadership Foundation|2015-12-16": "2026-06-06T00:00:00.000Z",
+  "kim-beazley|Co-Chair|Australian American Leadership Dialogue|2016-01-01": "2026-06-06T00:00:00.000Z",
+  "kim-beazley|Director|Ramsay Centre for Western Civilisation|2017-05-08": "2026-06-06T00:00:00.000Z",
   "kim-beazley|Governor|Government of Western Australia|2018-05-01": {
     "last_examined_at": "2026-06-05T00:00:00.000Z"
   },
@@ -3852,5 +3834,16 @@
   "nickolas-varvaris|Accountant|Varvaris & Co|null": "2026-06-06T00:00:00.000Z",
   "nickolas-varvaris|Parish President|Greek Orthodox Parish and Community of Kogarah|null": "2026-06-06T00:00:00.000Z",
   "noel-crichton-browne|Lobbyist|Brian Burke and Julian Grill|1996-07-01": "2026-06-06T00:00:00.000Z",
-  "noel-crichton-browne|Political Columnist|Crikey|null": "2026-06-06T00:00:00.000Z"
+  "noel-crichton-browne|Political Columnist|Crikey|null": "2026-06-06T00:00:00.000Z",
+  "jim-turnour|Senior Manager and Researcher|The Cairns Institute, James Cook University|2011": "2026-06-06T00:00:00.000Z",
+  "jim-turnour|Chief Executive Officer|Jabalbina Yalanji Aboriginal Corporation|2014": "2026-06-06T00:00:00.000Z",
+  "jim-turnour|General Manager|Wuthathi Aboriginal Corporation|2021": "2026-06-06T00:00:00.000Z",
+  "jim-turnour|Principal Strategic Regional Planner|The Cairns Institute, James Cook University|2023": "2026-06-06T00:00:00.000Z",
+  "jim-turnour|Director|Cape York Natural Resource Management|2022-10": "2026-06-06T00:00:00.000Z",
+  "jim-turnour|Chair|Cape York Natural Resource Management|2024-10": "2026-06-06T00:00:00.000Z",
+  "chris-crewther|Head of Strategic Partnerships|Global Fund to End Modern Slavery|2019": "2026-06-06T00:00:00.000Z",
+  "chris-crewther|Member|Australian Government Modern Slavery Expert Advisory Group|2019": "2026-06-06T00:00:00.000Z",
+  "chris-crewther|Non-Executive Director|Zoe Support Australia|null": "2026-06-06T00:00:00.000Z",
+  "chris-crewther|Non-Executive Director|Global Voices|null": "2026-06-06T00:00:00.000Z",
+  "chris-crewther|Member of the Legislative Assembly|Parliament of Victoria|2022-11-26": "2026-06-06T00:00:00.000Z"
 }
