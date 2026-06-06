@@ -2940,7 +2940,11 @@
     ],
     "pollie_slug": "simon-birmingham",
     "start_date": "2025-02-01",
-    "end_date": "2025-08-18"
+    "end_date": "2025-08-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Commonwealth Government Representative, Advisory Board",
@@ -3146,7 +3150,11 @@
       "https://www.sheepcentral.com/agricultural-sector-remembers-simon-crean-with-respect/",
       "https://www.farmonline.com.au/story/6122436/time-for-red-meat-industry-to-unite-under-one-body-says-simon-crean/"
     ],
-    "pollie_slug": "simon-crean"
+    "pollie_slug": "simon-crean",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -4153,9 +4161,15 @@
     "organisation": "Circular Australia",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://terributler.net/updates/patronages-boards/appointment-as-chair-circular-australia/"
+      "https://terributler.net/updates/patronages-boards/appointment-as-chair-circular-australia/",
+      "https://www.energyinnovation.net.au/article/evolution-of-circular-australia-continues-with-expanded-focus-and-new-ceo"
     ],
-    "pollie_slug": "terri-butler"
+    "pollie_slug": "terri-butler",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2022-08-01"
   },
   {
     "role": "Advisory Board Member & Adjunct Professor",
@@ -7695,7 +7709,11 @@
     "sources": [
       "https://www.mattcanavan.com.au/road_safety_and_the_transport_workers_union"
     ],
-    "pollie_slug": "steve-hutchins"
+    "pollie_slug": "steve-hutchins",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President, Broadmeadows Chapter",
@@ -7704,7 +7722,11 @@
     "sources": [
       "https://www.premier.vic.gov.au/statement-passing-steve-hutchins"
     ],
-    "pollie_slug": "steve-hutchins"
+    "pollie_slug": "steve-hutchins",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Specialist Gastroenterologist",
@@ -8602,10 +8624,16 @@
     "organisation": "St Columba's College",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.andra.com.au/andra-pays-tribute-to-board-member-trish-crossin-am/"
+      "https://www.andra.com.au/andra-pays-tribute-to-board-member-trish-crossin-am/",
+      "https://www.nteu.au/News_Articles/National/Obituary_Trish_Crossin.aspx",
+      "https://www.ilsc.gov.au/news/vale-trish-crossin-am/"
     ],
     "pollie_slug": "trish-crossin",
-    "end_date": "2026-04-13"
+    "end_date": "2026-04-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -8627,10 +8655,16 @@
     "organisation": "Rainbow Disability Services Club",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.andra.com.au/andra-pays-tribute-to-board-member-trish-crossin-am/"
+      "https://www.andra.com.au/andra-pays-tribute-to-board-member-trish-crossin-am/",
+      "https://www.nteu.au/News_Articles/National/Obituary_Trish_Crossin.aspx",
+      "https://www.ilsc.gov.au/news/vale-trish-crossin-am/"
     ],
     "pollie_slug": "trish-crossin",
-    "end_date": "2026-04-13"
+    "end_date": "2026-04-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Senior Media Adviser",
@@ -10707,7 +10741,11 @@
       "https://www.linkedin.com/in/stephen-mutch-aa340939/"
     ],
     "pollie_slug": "stephen-mutch",
-    "start_date": "1998"
+    "start_date": "1998",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Editorial Board Member",
@@ -10716,7 +10754,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Stephen_Mutch"
     ],
-    "pollie_slug": "stephen-mutch"
+    "pollie_slug": "stephen-mutch",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Assistant",
@@ -14841,7 +14883,11 @@
     ],
     "pollie_slug": "sid-sidebottom",
     "start_date": "2017",
-    "end_date": "2025-12"
+    "end_date": "2025-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -14851,7 +14897,11 @@
       "https://yfcc.com.au/our-team/"
     ],
     "pollie_slug": "sid-sidebottom",
-    "start_date": "2022"
+    "start_date": "2022",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Board of Trustees",
@@ -31176,9 +31226,14 @@
     "category": "Professional Services & Management Consulting",
     "sources": [
       "https://au.linkedin.com/in/sean-edwards-63720a44",
-      "https://rocketreach.co/sean-edwards-email_82009366"
+      "https://rocketreach.co/sean-edwards-email_82009366",
+      "https://en.wikipedia.org/wiki/Sean_Edwards_(politician)"
     ],
-    "pollie_slug": "sean-edwards"
+    "pollie_slug": "sean-edwards",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -33500,10 +33555,15 @@
     "category": "Science, Engineering & Technical Professions",
     "sources": [
       "https://au.linkedin.com/in/ross-vasta",
-      "https://www.zoominfo.com/c/rjs-tech-group/1339294843"
+      "https://www.zoominfo.com/c/rjs-tech-group/1339294843",
+      "https://www.amtil.com.au/rjs-tech-group/"
     ],
     "pollie_slug": "ross-vasta",
-    "start_date": "2025-07-01"
+    "start_date": "2025-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -38066,7 +38126,11 @@
     ],
     "pollie_slug": "steven-dargavel",
     "start_date": "2007-01-01",
-    "end_date": "2018-09-30"
+    "end_date": "2018-09-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Labour Hire Licensing Commissioner",
@@ -38077,7 +38141,11 @@
       "https://www.zoominfo.com/p/Steven-Dargavel/2959689055"
     ],
     "pollie_slug": "steven-dargavel",
-    "start_date": "2018-10-01"
+    "start_date": "2018-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Council Member",
