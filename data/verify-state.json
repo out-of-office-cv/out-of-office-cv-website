@@ -91,10 +91,10 @@
   },
   "andrew-murray|Patron|Care Leavers Australasia Network|null": "2026-05-16T02:04:22.835Z",
   "andrew-nikolic|General Manager|DefenceNT|null": {
-    "last_examined_at": "2026-05-30T20:27:13.366Z"
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
   },
   "andrew-nikolic|Independent Non-Executive Director|Simonds Homes|null": {
-    "last_examined_at": "2026-05-30T20:27:13.366Z"
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
   },
   "andrew-nikolic|Non-Resident Senior Advisor|Perry World House, University of Pennsylvania|null": "2026-05-23T00:00:00.000Z",
   "andrew-nikolic|Senior Member|Administrative Appeals Tribunal|2017-01-16": "2026-05-23T00:00:00.000Z",
@@ -742,9 +742,13 @@
   "eoin-cameron|Breakfast Presenter|6PR|null": "2026-05-07T02:06:18.773Z",
   "eoin-cameron|Breakfast Presenter|Australian Broadcasting Corporation|null": "2026-05-07T02:06:18.773Z",
   "eoin-cameron|Radio Presenter|6NR|null": "2026-05-07T02:06:18.773Z",
-  "ewen-jones|Business Development Manager|Pickerings Auto Group|null": "2026-05-30T08:28:24.718Z",
+  "ewen-jones|Business Development Manager|Pickerings Auto Group|null": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
   "ewen-jones|Managing Director|All Points North Advisory|2017": "2026-05-30T08:28:24.718Z",
-  "ewen-jones|Sales Team Lead|Golf World Townsville|null": "2026-05-30T08:28:24.718Z",
+  "ewen-jones|Sales Team Lead|Golf World Townsville|null": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
   "fiona-martin|Ambassador|Australians for Mental Health|2024-04-17": "2026-05-27T00:00:00.000Z",
   "fiona-martin|Director|FSHD Global Research Foundation|null": "2026-05-27T00:00:00.000Z",
   "fiona-martin|Member|National Respectful Relationships and Consent Education Expert Working Group, Department of Education|2023-01-01": "2026-05-27T00:00:00.000Z",
@@ -2060,8 +2064,12 @@
   "michael-macklin|Chief Executive Officer|Hall Chadwick Education Advisory|1994-01-01": "2026-05-30T08:28:24.718Z",
   "michael-macklin|Director of Development|University of Queensland|1991-01-01": "2026-05-30T08:28:24.718Z",
   "michael-macklin|Executive Dean, Faculty of Arts, Humanities and Social Sciences|University of New England|2002-06-01": "2026-05-30T08:28:24.718Z",
-  "michael-macklin|Member|National Native Title Tribunal|null": "2026-05-30T08:28:24.718Z",
-  "michael-macklin|Member|Queensland Land and Resources Tribunal|null": "2026-05-30T08:28:24.718Z",
+  "michael-macklin|Member|National Native Title Tribunal|null": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
+  "michael-macklin|Member|Queensland Land and Resources Tribunal|null": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
   "michael-ronaldson|Board Member|Oliver Foundation|2018": "2026-05-13T00:00:00.000Z",
   "michael-ronaldson|Chair|InnoWell|null": "2026-05-13T00:00:00.000Z",
   "michael-ronaldson|Deputy Chair|Australia Post|2017-06": "2026-05-13T00:00:00.000Z",
@@ -2433,19 +2441,27 @@
   "robert-ellicott|Arbitrator|Court of Arbitration for Sport|1995-01-01": "2026-05-19T00:00:00.000Z",
   "robert-ellicott|Barrister|New South Wales Bar|1983-01-01": "2026-05-19T00:00:00.000Z",
   "robert-ellicott|Chair of Tribunal|Fiji Chief Justice Misconduct Tribunal|2007-11-20": "2026-05-19T00:00:00.000Z",
-  "robert-ellicott|Chair|Life Education Australia|null": "2026-05-19T00:00:00.000Z",
+  "robert-ellicott|Chair|Life Education Australia|null": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
   "robert-ellicott|Judge|Federal Court of Australia|1981-03-02": "2026-05-19T00:00:00.000Z",
-  "robert-ellicott|Member of Arbitration Panel|International Association of Athletics Federations|null": "2026-05-19T00:00:00.000Z",
+  "robert-ellicott|Member of Arbitration Panel|International Association of Athletics Federations|null": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
   "robert-ellicott|Patron|Gymnastics Australia|1986-01-01": "2026-05-19T00:00:00.000Z",
   "robert-hawke|Adjunct Professor, Research Schools of Pacific Studies and Social Sciences|Australian National University|1992": "2026-05-01T00:00:00Z",
   "robert-hawke|Chairman, Committee of Experts on Membership|Education International|null": "2026-05-01T00:00:00Z",
   "robert-hawke|Chairman, Hawke Research Institute Advisory Board|University of South Australia|null": "2026-05-01T00:00:00Z",
-  "robert-hawke|Founder|Bob Hawke and Associates|1992": "2026-05-01T00:00:00Z",
+  "robert-hawke|Founder|Bob Hawke and Associates|1992": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
   "robert-hawke|Honorary Visiting Professor in Industrial Relations|University of Sydney|1992": "2026-05-01T00:00:00Z",
   "robert-hawke|Member, Advisory Council of the Institute for International Studies|Stanford University|1992": "2026-05-01T00:00:00Z",
   "robert-hawke|Member, Board of Advisers|Boao Forum for Asia|1998": "2026-05-01T00:00:00Z",
   "robert-hawke|Member|Economic Development Board of South Australia|2002": "2026-05-01T00:00:00Z",
-  "robert-hawke|Non-Executive Director|Emperor International Holdings|1992": "2026-05-01T00:00:00Z",
+  "robert-hawke|Non-Executive Director|Emperor International Holdings|1992": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
   "robert-hill|Adjunct Professor in Sustainability|United States Studies Centre, University of Sydney|null": "2026-05-02T00:00:00.000Z",
   "robert-hill|Ambassador and Permanent Representative to the United Nations|Department of Foreign Affairs and Trade|2006": "2026-05-02T00:00:00.000Z",
   "robert-hill|Chairman of Counsellors|Dragoman Global|null": "2026-05-02T00:00:00.000Z",
@@ -2518,13 +2534,17 @@
   "rosemary-crowley|Chair|South Australian Council for the Care of Children|2006": "2026-05-18T20:04:13.931Z",
   "rosemary-crowley|Chair|South Australian Ministerial Advisory Board on Ageing|2007": "2026-05-18T20:04:13.931Z",
   "rosemary-crowley|Chair|Young Media Australia|2004": "2026-05-18T20:04:13.931Z",
-  "roslyn-kelly|Advisor|Women On Boards UK|null": "2026-05-29T00:00:00.000Z",
+  "roslyn-kelly|Advisor|Women On Boards UK|null": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
   "roslyn-kelly|Board Member|Westpac Emergency Helicopter Service|null": "2026-05-29T00:00:00.000Z",
   "roslyn-kelly|Chair|Commonwealth War Graves Foundation|null": "2026-05-29T00:00:00.000Z",
   "roslyn-kelly|Chair|National Breast Cancer Foundation|2005-01-01": "2026-05-29T00:00:00.000Z",
   "roslyn-kelly|Commissioner|Commonwealth War Graves Commission|2012-01-01": "2026-05-29T00:00:00.000Z",
   "roslyn-kelly|Committee Member|Clean Up Australia Foundation|null": "2026-05-29T00:00:00.000Z",
-  "roslyn-kelly|Committee Member|NSW Parks Services Foundation|null": "2026-05-29T00:00:00.000Z",
+  "roslyn-kelly|Committee Member|NSW Parks Services Foundation|null": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
   "roslyn-kelly|Director|Thiess Pty Ltd|1998-01-01": "2026-05-29T00:00:00.000Z",
   "roslyn-kelly|Group Executive for Asia and Australia|Dames & Moore|1995-01-30": "2026-05-29T00:00:00.000Z",
   "roslyn-kelly|Member, International Council|Normandy Minerals|null": "2026-05-29T00:00:00.000Z",
@@ -3873,5 +3893,29 @@
   "richard-di-natale|Public Health Advisor|cohealth|2020-08-26": "2026-06-06T00:00:00.000Z",
   "richard-di-natale|Inaugural Chair, Medicinal Cannabis Health Advisory Council|Medicinal Cannabis Industry Australia|2020-11-23": "2026-06-06T00:00:00.000Z",
   "ricky-johnston|Member|Migration Review Tribunal|1999": "2026-06-06T00:00:00.000Z",
-  "ricky-johnston|Member|Refugee Review Tribunal|2004": "2026-06-06T00:00:00.000Z"
+  "ricky-johnston|Member|Refugee Review Tribunal|2004": "2026-06-06T00:00:00.000Z",
+  "rob-oakeshott|Consultant|United Nations Development Program|2014-01-01": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
+  "rob-oakeshott|Medical Doctor (GP)|Port Macquarie|2022-11-01": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
+  "robert-halverson|Ambassador to Ireland and the Holy See|Australian Department of Foreign Affairs and Trade|1998-08-01": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
+  "robert-halverson|Non-Executive Director|QR Sciences|2006-01-01": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
+  "robert-simms|Area Councillor|City of Adelaide|2018-11": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
+  "robert-simms|Member of the Legislative Council|Parliament of South Australia|2021-05-04": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
+  "ross-hart|Principal|Ross A Hart Barrister and Solicitor|2019-08": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  },
+  "ross-hart|Candidate for Bass|Australian Labor Party|2021": {
+    "last_examined_at": "2026-06-07T00:00:00.000Z"
+  }
 }
