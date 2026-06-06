@@ -40499,5 +40499,30 @@
       "https://www.marrugeku.com.au/people/patrick-dodson/"
     ],
     "pollie_slug": "pat-dodson"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Political Exchange Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.auspolexchange.gov.au/about/past-chairs-and-council-members",
+      "https://www.auspolexchange.gov.au/sites/default/files/2020-10/apec_ar_07-10.pdf",
+      "https://en.wikipedia.org/wiki/Robert_Ray_(Australian_politician)"
+    ],
+    "pollie_slug": "robert-ray",
+    "start_date": "2009-08-01",
+    "end_date": "2013-12-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Victorian Managed Insurance Authority",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.crikey.com.au/2011/05/02/robert-ray-quits-vmia-after-handing-down-damning-bullying-report/",
+      "https://www.crikey.com.au/2011/01/25/vmia-bullying-scandal-staff-press-management-government-to-act/"
+    ],
+    "pollie_slug": "robert-ray",
+    "start_date": "2010-03-01",
+    "end_date": "2011-05-02"
   }
 ]
