@@ -2725,7 +2725,6 @@
     "organisation": "United Nations Development Program",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://www.oakeshott.com.au/meet_rob",
       "https://www.portnews.com.au/story/2304410/rob-oakeshott-life-on-the-edge-photos/"
     ],
     "pollie_slug": "rob-oakeshott",
@@ -7288,7 +7287,12 @@
       "https://www.emperorgroup.com/en/about_us/milestones/"
     ],
     "pollie_slug": "robert-hawke",
-    "start_date": "1992"
+    "start_date": "1992",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Emperor Group milestones page shows Hawke attended the 1994 grand opening of Emperor Group Centre as 'former Australian Prime Minister', not as a director. Group leadership is held by the Yeung family; no evidence Hawke held a non-executive directorship."
+    }
   },
   {
     "role": "Adjunct Professor, Research Schools of Pacific Studies and Social Sciences",
@@ -15925,7 +15929,12 @@
       "https://members.lst.org.au/members/search/organisations/513/"
     ],
     "pollie_slug": "ross-hart",
-    "start_date": "2019-08"
+    "start_date": "2019-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia, The Examiner and the practice website confirm Ross Hart (former Labor MP for Bass) established Ross A Hart Barrister and Solicitor in August 2019 in Launceston."
+    }
   },
   {
     "role": "Candidate for Bass",
@@ -15937,7 +15946,12 @@
     ],
     "pollie_slug": "ross-hart",
     "start_date": "2021",
-    "end_date": "2022-05"
+    "end_date": "2022-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple sources confirm Ross Hart was Labor's endorsed candidate for Bass at the 2022 federal election (21 May 2022), losing to Bridget Archer."
+    }
   },
   {
     "role": "Trustee",
@@ -18436,7 +18450,12 @@
     ],
     "pollie_slug": "robert-halverson",
     "start_date": "1998-08-01",
-    "end_date": "2003-01-01"
+    "end_date": "2003-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via Wikipedia, ADB and Obituaries Australia: Ambassador to Ireland and the Holy See 1998-2003, first non-Catholic to hold the posts."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -18448,7 +18467,12 @@
     ],
     "pollie_slug": "robert-halverson",
     "start_date": "2006-01-01",
-    "end_date": "2016-02-09"
+    "end_date": "2016-02-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ADB biography confirms appointment as non-executive director of QR Sciences in 2006; end date 2016-02-09 aligns with his death."
+    }
   },
   {
     "role": "Part-time Member",
@@ -26339,7 +26363,12 @@
       "https://sahof.org.au/hall-of-fame-member/bob-ellicott/",
       "https://sahof.org.au/vale-the-hon-rj-bob-ellicott-ac/"
     ],
-    "pollie_slug": "robert-ellicott"
+    "pollie_slug": "robert-ellicott",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "SAHOF hall of fame page confirms 'Member of the IAAF Arbitration Panel as Oceania representative'. Same person (Bob Ellicott, former Wentworth MP)."
+    }
   },
   {
     "role": "Chair",
@@ -26348,7 +26377,12 @@
     "sources": [
       "https://www.julianleeser.com.au/news/condolence-motion-the-hon-robert-ellicott-ac-kc/"
     ],
-    "pollie_slug": "robert-ellicott"
+    "pollie_slug": "robert-ellicott",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Julian Leeser condolence motion states 'he eventually became chairman of Life Education Australia'. Same person."
+    }
   },
   {
     "role": "Chair of Tribunal",
@@ -28314,11 +28348,15 @@
     "organisation": "City of Adelaide",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://en.wikipedia.org/wiki/Robert_Simms_(politician)",
-      "https://www.cityofadelaide.com.au/about-council/your-council/lord-mayor-and-councillors/robert-simms/"
+      "https://en.wikipedia.org/wiki/Robert_Simms_(politician)"
     ],
     "start_date": "2018-11",
-    "end_date": "2021-03-30"
+    "end_date": "2021-03-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Area Councillor for City of Adelaide 22 Nov 2018 – 30 Mar 2021; personal website and SA Greens corroborate. Council page no longer lists him (historical role)."
+    }
   },
   {
     "pollie_slug": "robert-simms",
@@ -28330,7 +28368,12 @@
       "https://www.robertsimms.org.au/about",
       "https://greens.org.au/sa/person/robert-simms-0"
     ],
-    "start_date": "2021-05-04"
+    "start_date": "2021-05-04",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms he assumed office in the SA Legislative Council on 4 May 2021, succeeding Mark Parnell; personal website and SA Greens corroborate."
+    }
   },
   {
     "pollie_slug": "stephen-loosley",
@@ -35359,7 +35402,12 @@
     "sources": [
       "https://www.ovations.com.au/speakers/ros-kelly"
     ],
-    "pollie_slug": "roslyn-kelly"
+    "pollie_slug": "roslyn-kelly",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Ovations speaker biography states Ros Kelly is 'on the committee for NSW Parks Services Foundation'. Confirms correct person (Ros Kelly AO, former ALP minister)."
+    }
   },
   {
     "role": "Board Member",
@@ -36547,7 +36595,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Michael_Macklin"
     ],
-    "pollie_slug": "michael-macklin"
+    "pollie_slug": "michael-macklin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Macklin was a member of the Queensland Land and Resources Tribunal in his post-parliamentary career."
+    }
   },
   {
     "role": "Member",
@@ -36556,7 +36609,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Michael_Macklin"
     ],
-    "pollie_slug": "michael-macklin"
+    "pollie_slug": "michael-macklin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms membership of a native title/claims tribunal; source names 'National Native Claims Tribunal' while gig lists 'National Native Title Tribunal' — same body (NNTT, est. 1993)."
+    }
   },
   {
     "role": "Executive Dean, Faculty of Arts, Humanities and Social Sciences",
@@ -36709,7 +36767,12 @@
       "https://au.linkedin.com/in/ewen-jones-98b0254a",
       "https://www.zoominfo.com/p/Ewen-Jones/9150432429"
     ],
-    "pollie_slug": "ewen-jones"
+    "pollie_slug": "ewen-jones",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Obituaries and biographical sources explicitly state he 'worked at Golf World Townsville as a sales team leader', confirming role and organisation for the former Herbert MP."
+    }
   },
   {
     "role": "Author",
