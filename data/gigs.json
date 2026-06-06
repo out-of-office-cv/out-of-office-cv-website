@@ -2354,7 +2354,11 @@
     "sources": [
       "https://www.acf.org.au/about/our-organisation/our-patron"
     ],
-    "pollie_slug": "peter-garrett"
+    "pollie_slug": "peter-garrett",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Independent Reviewer",
@@ -2364,7 +2368,12 @@
       "https://petergarrett.com.au/melbourne-symphony-orchestra-appoints-peter-garrett-and-kpmg-australia-to-conduct-independent-review-and-engages-globally-renowned-music-leader-richard-wigley-as-strategic-advisor/"
     ],
     "pollie_slug": "peter-garrett",
-    "start_date": "2024-08-26"
+    "start_date": "2024-08-26",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Garrett was named in Aug 2024 to lead an independent review of the MSO, but withdrew before the review commenced (citing other commitments and legal action against the MSO); no substantive role was performed. Only source (petergarrett.com.au) returns 403."
+    }
   },
   {
     "role": "Consultant, Government Relations",
@@ -6020,7 +6029,11 @@
     "sources": [
       "https://www.wakefieldpress.com.au/product/a-view-from-the-horizon/"
     ],
-    "pollie_slug": "peter-duncan"
+    "pollie_slug": "peter-duncan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Hotel Owner",
@@ -6029,7 +6042,11 @@
     "sources": [
       "https://www.indaily.com.au/news/2014/03/20/campaign-diary-duncan-ashbourne-hard-edge"
     ],
-    "pollie_slug": "peter-duncan"
+    "pollie_slug": "peter-duncan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Council Member",
@@ -9364,7 +9381,11 @@
     ],
     "pollie_slug": "paul-neville",
     "start_date": "2014-12-01",
-    "end_date": "2018-10-31"
+    "end_date": "2018-10-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -9373,7 +9394,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Paul_Neville_(politician)"
     ],
-    "pollie_slug": "paul-neville"
+    "pollie_slug": "paul-neville",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -10534,7 +10559,11 @@
       "https://en.wikipedia.org/wiki/Paul_Filing",
       "https://www.sbs.com.au/news/article/ex-federal-lib-mp-one-nation-wa-president/wgudyx219"
     ],
-    "pollie_slug": "paul-filing"
+    "pollie_slug": "paul-filing",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President (Western Australia)",
@@ -10545,7 +10574,11 @@
       "https://www.sbs.com.au/news/article/ex-federal-lib-mp-one-nation-wa-president/wgudyx219"
     ],
     "pollie_slug": "paul-filing",
-    "start_date": "2018"
+    "start_date": "2018",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Consul-General and Senior Trade and Investment Commissioner, San Francisco",
@@ -11204,7 +11237,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Peter_Fisher_(politician)"
     ],
-    "pollie_slug": "peter-fisher"
+    "pollie_slug": "peter-fisher",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Trustee",
@@ -11215,7 +11252,11 @@
     ],
     "pollie_slug": "peter-fisher",
     "start_date": "1998",
-    "end_date": "2009"
+    "end_date": "2009",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador and Permanent Representative to the United Nations",
@@ -13281,7 +13322,11 @@
       "https://independentaustralia.net/profile-on/norm-sanders,669",
       "https://grokipedia.com/page/Norm_Sanders"
     ],
-    "pollie_slug": "norman-sanders"
+    "pollie_slug": "norman-sanders",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Flying Instructor",
@@ -13293,7 +13338,11 @@
       "https://independentaustralia.net/profile-on/norm-sanders,669"
     ],
     "pollie_slug": "norman-sanders",
-    "end_date": "2010-01-01"
+    "end_date": "2010-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador to Indonesia",
@@ -22898,7 +22947,11 @@
       "https://gcyp.sa.gov.au/2021/09/21/confirmation-of-penny-wrights-roles-penny-is-still-the-guardian-and-training-centre-visitor/"
     ],
     "start_date": "2017-07-10",
-    "end_date": "2022-07-31"
+    "end_date": "2022-07-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "penny-wright",
@@ -22910,7 +22963,11 @@
       "https://gcyp.sa.gov.au/2021/09/21/confirmation-of-penny-wrights-roles-penny-is-still-the-guardian-and-training-centre-visitor/"
     ],
     "start_date": "2017-07-10",
-    "end_date": "2022-07-31"
+    "end_date": "2022-07-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "belinda-neal",
@@ -25729,7 +25786,11 @@
       "https://www.thedcn.com.au/news/peter-morris-oam-remembered",
       "https://www.newcastleherald.com.au/story/9233436/former-shortland-mp-and-hawke-government-minister-peter-morris-has-died-aged-93/"
     ],
-    "pollie_slug": "peter-morris"
+    "pollie_slug": "peter-morris",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -25740,7 +25801,11 @@
       "https://www.newcastleherald.com.au/story/9233436/former-shortland-mp-and-hawke-government-minister-peter-morris-has-died-aged-93/",
       "https://www.thedcn.com.au/news/peter-morris-oam-remembered"
     ],
-    "pollie_slug": "peter-morris"
+    "pollie_slug": "peter-morris",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Consul-General",
@@ -30523,7 +30588,11 @@
       "https://en.wikipedia.org/wiki/Peter_Baume",
       "https://biography.senate.gov.au/baume-peter-erne/"
     ],
-    "pollie_slug": "peter-baume"
+    "pollie_slug": "peter-baume",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -30608,7 +30677,11 @@
     "sources": [
       "https://www.harmreductionaustralia.org.au/peter-baume/"
     ],
-    "pollie_slug": "peter-baume"
+    "pollie_slug": "peter-baume",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Staff",
