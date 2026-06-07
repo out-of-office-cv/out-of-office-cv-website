@@ -92,7 +92,11 @@
       "https://michaelwest.com.au/christopher-pyne/"
     ],
     "pollie_slug": "christopher-pyne",
-    "start_date": "2020-03-01"
+    "start_date": "2020-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -4639,7 +4643,11 @@
       "https://play.afl/victoria/news/afl-vic-welcomes-new-board-members"
     ],
     "pollie_slug": "damian-drum",
-    "start_date": "2024-07-09"
+    "start_date": "2024-07-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Columnist and Commentator",
@@ -7759,8 +7767,7 @@
     "organisation": "Port Macquarie Gastroenterology",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://www.doctify.com/au/specialist/david-gillespie-1",
-      "https://au.linkedin.com/in/david-gillespie-71976141"
+      "https://www.doctify.com/au/specialist/david-gillespie-1"
     ],
     "pollie_slug": "david-gillespie"
   },
@@ -10128,7 +10135,11 @@
     "sources": [
       "https://www.openaustralia.org.au/senate/?id=2013-11-12.30.1"
     ],
-    "pollie_slug": "david-thomson"
+    "pollie_slug": "david-thomson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -11560,7 +11571,11 @@
       "https://en.wikipedia.org/wiki/Damian_Hale"
     ],
     "pollie_slug": "damian-hale",
-    "start_date": "2017"
+    "start_date": "2017",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -12453,7 +12468,11 @@
     ],
     "pollie_slug": "cathy-mcgowan",
     "start_date": "2023-01-11",
-    "end_date": "2026-01-11"
+    "end_date": "2026-01-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director, Strategic Client and Relationships",
@@ -14049,7 +14068,11 @@
       "https://www.salesian.vic.edu.au/profile/david-charles/"
     ],
     "start_date": "1990-02-19",
-    "end_date": "1993-12-31"
+    "end_date": "1993-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Federal President",
@@ -14478,11 +14501,17 @@
       "https://au.linkedin.com/in/craig-thomson-619b70140",
       "https://www.michaelsmithnews.com/2016/09/craig-thomson-migration-agent-will-pay-for-fake-employers-in-confidence-nqa.html",
       "https://morningmail.org/craig-thomson-remember-hes-businessman-now/",
-      "https://morningmail.org/craig-thomson-makes-news-again-oh-dear/"
+      "https://morningmail.org/craig-thomson-makes-news-again-oh-dear/",
+      "https://en.wikipedia.org/wiki/Craig_Thomson_(politician)",
+      "https://www.linkedin.com/in/craig-thomson-619b70140/"
     ],
     "pollie_slug": "craig-thomson",
     "start_date": "2014",
-    "end_date": "2021"
+    "end_date": "2021",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "High Commissioner to New Zealand",
@@ -14673,9 +14702,15 @@
     "organisation": "Association of Former Members of the Parliament of Australia",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;db=CHAMBER;id=chamber/hansards/1998-05-12/0030;query=Id:%22chamber/hansards/1998-05-12/0000%22"
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;db=CHAMBER;id=chamber/hansards/1998-05-12/0030;query=Id:%22chamber/hansards/1998-05-12/0000%22",
+      "https://biography.senate.gov.au/vigor-david-bernard/",
+      "https://en.wikipedia.org/wiki/David_Vigor"
     ],
-    "pollie_slug": "david-vigor"
+    "pollie_slug": "david-vigor",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -14870,7 +14905,11 @@
       "https://timesnewsgroup.com.au/surfcoasttimes/news/darren-cheeseman-makes-return-geelong-politics/"
     ],
     "pollie_slug": "darren-cheeseman",
-    "start_date": "2013-09-08"
+    "start_date": "2013-09-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chair",
@@ -23787,7 +23826,11 @@
       "https://biography.senate.gov.au/laucke-condor-louis/",
       "https://adb.anu.edu.au/biography/laucke-sir-condor-louis-17845"
     ],
-    "start_date": "1991-01-01"
+    "start_date": "1991-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "kay-hull",
@@ -28906,7 +28949,11 @@
       "https://au.linkedin.com/in/vansenate",
       "https://www.parliament.vic.gov.au/496293/contentassets/36ecef80741b497c803ad70f3b5a6271/116.1.-arvio-technology.pdf"
     ],
-    "pollie_slug": "david-van"
+    "pollie_slug": "david-van",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Executive Director",
@@ -33246,7 +33293,11 @@
     ],
     "pollie_slug": "david-beddall",
     "start_date": "1999-03-01",
-    "end_date": "2012-12-03"
+    "end_date": "2012-12-03",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adviser",
@@ -36292,10 +36343,16 @@
     "category": "Media, Communications & Public Relations",
     "sources": [
       "https://televisionau.com/2011/12/obituary-david-jull.html",
-      "https://101fm.com.au/about/"
+      "https://101fm.com.au/about/",
+      "https://en.wikipedia.org/wiki/David_Jull",
+      "https://en.wikipedia.org/wiki/101FM"
     ],
     "pollie_slug": "david-jull",
-    "start_date": "2007"
+    "start_date": "2007",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Manager, Community Engagement and Marketing",
@@ -37035,11 +37092,14 @@
       "https://biography.senate.gov.au/mason-colin-victor-james/",
       "https://en.wikipedia.org/wiki/Colin_Mason",
       "https://www.mediaweek.com.au/farewell-colin-mason-the-abcs-first-man-in-asia/",
-      "https://www.pittwateronlinenews.com/Colin-Victor-James-Mason-1926-2020-Profile.php",
-      "https://www.routledge.com/The-2030-Spike-Countdown-to-Global-Catastrophe/Mason/p/book/9781138384095"
+      "https://www.pittwateronlinenews.com/Colin-Victor-James-Mason-1926-2020-Profile.php"
     ],
     "pollie_slug": "colin-mason",
-    "start_date": "1987"
+    "start_date": "1987",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Associate",
@@ -37976,7 +38036,11 @@
       "https://rwc.org.au/presidents-final-report/"
     ],
     "pollie_slug": "daryl-melham",
-    "start_date": "2024-10"
+    "start_date": "2025-10-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Staff Member",
@@ -40404,7 +40468,11 @@
       "https://investorpa.com/announcement-pdf/20260409/279003.pdf"
     ],
     "pollie_slug": "david-fawcett",
-    "start_date": "2026-04-09"
+    "start_date": "2026-04-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Delegate",
