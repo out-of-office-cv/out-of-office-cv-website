@@ -40712,5 +40712,102 @@
       "by": "claude",
       "note": "Start date March 1, 2010 appears accurate; 13 months before quit date of May 2, 2011 aligns with this timeline."
     }
+  },
+  {
+    "role": "Senior Fellow",
+    "organisation": "Australian Strategic Policy Institute",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.aspi.org.au/bio/david-feeney/",
+      "https://en.wikipedia.org/wiki/David_Feeney",
+      "https://dragomanglobal.com/david-feeney"
+    ],
+    "pollie_slug": "david-feeney",
+    "start_date": "2018-08-01"
+  },
+  {
+    "role": "Strategic Adviser",
+    "organisation": "NIOA Group",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://defence.nioa.com.au/latest-news/nioa-appoints-hon-david-feeney",
+      "https://defence.nioa.com.au/latest-news/nioa-announces-changes-to-advisory-board"
+    ],
+    "pollie_slug": "david-feeney",
+    "start_date": "2019-11-01",
+    "end_date": "2025-07-04"
+  },
+  {
+    "role": "Member",
+    "organisation": "Defence Council Victoria",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://vdsn.org/news/13596765",
+      "https://en.wikipedia.org/wiki/David_Feeney"
+    ],
+    "pollie_slug": "david-feeney",
+    "start_date": "2019-01-01",
+    "end_date": "2023-12-31"
+  },
+  {
+    "role": "Counsellor and Adviser",
+    "organisation": "Dragoman Global",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://dragomanglobal.com/david-feeney",
+      "https://dragomanglobal.com/counsellors-and-advisors"
+    ],
+    "pollie_slug": "david-feeney"
+  },
+  {
+    "role": "Guest Lecturer",
+    "organisation": "Australian War College",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Feeney",
+      "https://vdsn.org/news/13596765"
+    ],
+    "pollie_slug": "david-feeney",
+    "start_date": "2018-01-01"
+  },
+  {
+    "role": "Victorian Defence Industry Advocate",
+    "organisation": "Victorian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://vdsn.org/news/13596765",
+      "https://defence.vic.gov.au/advocacy/victorian-defence-industry-advocate-vdia"
+    ],
+    "pollie_slug": "david-feeney",
+    "start_date": "2026-02-11"
+  },
+  {
+    "role": "Ambassador",
+    "organisation": "Prostate Cancer Foundation of Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.pcfa.org.au/awareness/pcfa-tv/closing-the-gap-on-specialist-care/",
+      "https://www.linkedin.com/in/jim-lloyd-4a195589/?_l=en"
+    ],
+    "pollie_slug": "jim-lloyd"
+  },
+  {
+    "role": "National Support Groups Executive",
+    "organisation": "Prostate Cancer Foundation of Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.linkedin.com/in/jim-lloyd-4a195589/?_l=en"
+    ],
+    "pollie_slug": "jim-lloyd"
+  },
+  {
+    "role": "Deputy Chair, National Committee for the Elimination of Prostate Cancer",
+    "organisation": "Prostate Cancer Foundation of Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://coastcommunitynews.com.au/central-coast/news/2026/05/jim-lloyd-to-help-lead-prostate-cancer-committee/"
+    ],
+    "pollie_slug": "jim-lloyd",
+    "start_date": "2026-05-01"
   }
 ]
