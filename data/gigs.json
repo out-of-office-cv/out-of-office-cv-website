@@ -2753,7 +2753,11 @@
       "https://www.portnews.com.au/story/7987107/port-macquaries-medical-class-of-2022-makes-history/"
     ],
     "pollie_slug": "rob-oakeshott",
-    "start_date": "2022-11-01"
+    "start_date": "2022-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -24938,8 +24942,7 @@
     "organisation": "National Electrical and Communications Association NSW",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.neca.asn.au/branch/advocacy-policy",
-      "https://rocketreach.co/fiona-scott-email_813212773"
+      "https://www.neca.asn.au/branch/advocacy-policy"
     ]
   },
   {
@@ -24965,7 +24968,6 @@
     "organisation": "Castlereagh Honey",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
-      "https://rocketreach.co/fiona-scott-email_813212773",
       "https://castlereaghhoney.au/pages/about-us"
     ],
     "start_date": "2019-01-01"
@@ -28600,8 +28602,12 @@
     "sources": [
       "https://michaelwest.com.au/stephen-loosley-am/"
     ],
-    "start_date": "1999",
-    "end_date": "2011"
+    "start_date": "1999-01-01",
+    "end_date": "2011-10-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "stephen-loosley",
@@ -28784,8 +28790,12 @@
       "https://en.wikipedia.org/wiki/Stephen_Loosley",
       "https://michaelwest.com.au/stephen-loosley-am/"
     ],
-    "start_date": "2012",
-    "end_date": "2016"
+    "start_date": "2012-11-09",
+    "end_date": "2016-09-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "stephen-loosley",
@@ -31544,7 +31554,12 @@
     "sources": [
       "https://www.linkedin.com/in/andrew-nikolic-18a11351/"
     ],
-    "pollie_slug": "andrew-nikolic"
+    "pollie_slug": "andrew-nikolic",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Current Simonds Group board (2024-2026) does not include Andrew Nikolic in any directorship capacity; board members are Rhett Simonds, Andrew Bloore, Mark Simonds, Piers O'Brien, Richard Grellman and Michael Sukkar. Sole source was a LinkedIn profile; no corroborating evidence of this directorship."
+    }
   },
   {
     "role": "Council Member",
@@ -33579,7 +33594,11 @@
     "sources": [
       "https://www.womenaustralia.info/entries/ellis-annette-louise/"
     ],
-    "pollie_slug": "annette-ellis"
+    "pollie_slug": "annette-ellis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -33602,7 +33621,11 @@
     "sources": [
       "https://www.womenaustralia.info/entries/ellis-annette-louise/"
     ],
-    "pollie_slug": "annette-ellis"
+    "pollie_slug": "annette-ellis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Code Authority",
@@ -40723,7 +40746,11 @@
       "https://dragomanglobal.com/david-feeney"
     ],
     "pollie_slug": "david-feeney",
-    "start_date": "2018-08-01"
+    "start_date": "2018-08-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Strategic Adviser",
@@ -40735,7 +40762,11 @@
     ],
     "pollie_slug": "david-feeney",
     "start_date": "2019-11-01",
-    "end_date": "2025-07-04"
+    "end_date": "2025-07-04",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -40747,7 +40778,11 @@
     ],
     "pollie_slug": "david-feeney",
     "start_date": "2019-01-01",
-    "end_date": "2023-12-31"
+    "end_date": "2023-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Counsellor and Adviser",
@@ -40757,7 +40792,11 @@
       "https://dragomanglobal.com/david-feeney",
       "https://dragomanglobal.com/counsellors-and-advisors"
     ],
-    "pollie_slug": "david-feeney"
+    "pollie_slug": "david-feeney",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Guest Lecturer",
@@ -40768,7 +40807,11 @@
       "https://vdsn.org/news/13596765"
     ],
     "pollie_slug": "david-feeney",
-    "start_date": "2018-01-01"
+    "start_date": "2018-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Victorian Defence Industry Advocate",
@@ -40779,7 +40822,11 @@
       "https://defence.vic.gov.au/advocacy/victorian-defence-industry-advocate-vdia"
     ],
     "pollie_slug": "david-feeney",
-    "start_date": "2026-02-11"
+    "start_date": "2026-02-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
@@ -40789,16 +40836,25 @@
       "https://www.pcfa.org.au/awareness/pcfa-tv/closing-the-gap-on-specialist-care/",
       "https://www.linkedin.com/in/jim-lloyd-4a195589/?_l=en"
     ],
-    "pollie_slug": "jim-lloyd"
+    "pollie_slug": "jim-lloyd",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "National Support Groups Executive",
     "organisation": "Prostate Cancer Foundation of Australia",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.linkedin.com/in/jim-lloyd-4a195589/?_l=en"
+      "https://www.linkedin.com/in/jim-lloyd-4a195589/?_l=en",
+      "https://www.pcfa.org.au/awareness/pcfa-tv/closing-the-gap-on-specialist-care/"
     ],
-    "pollie_slug": "jim-lloyd"
+    "pollie_slug": "jim-lloyd",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chair, National Committee for the Elimination of Prostate Cancer",
@@ -40808,6 +40864,10 @@
       "https://coastcommunitynews.com.au/central-coast/news/2026/05/jim-lloyd-to-help-lead-prostate-cancer-committee/"
     ],
     "pollie_slug": "jim-lloyd",
-    "start_date": "2026-05-01"
+    "start_date": "2026-05-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
