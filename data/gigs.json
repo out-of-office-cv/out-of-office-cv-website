@@ -3015,7 +3015,12 @@
     "sources": [
       "https://www.barossaeyeclinic.com.au/dr-andrew-laming/"
     ],
-    "pollie_slug": "andrew-laming"
+    "pollie_slug": "andrew-laming",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Andrew Laming (LIB, Bowman MP, ceased 2022-04-11) confirmed as a specialist ophthalmologist at Barossa Eye Clinic. The clinic's official website has a dedicated page identifying him with MBBS, DRCOG, and FRANZCO credentials. Returned to practice after leaving parliament."
+    }
   },
   {
     "role": "Ambassador to the Holy See",
@@ -7700,7 +7705,12 @@
       "https://en.wikipedia.org/wiki/Ann_Corcoran_(politician)"
     ],
     "pollie_slug": "ann-corcoran",
-    "start_date": "2007-11-01"
+    "start_date": "2007-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Ann Corcoran (ALP MP for Isaacs, 2000-2007) became interim student ombudsman at Monash University in November 2007 and was appointed permanently in early 2009. Aligns with parliamentary departure 17 October 2007."
+    }
   },
   {
     "role": "Member",
@@ -8427,7 +8437,12 @@
     ],
     "pollie_slug": "alby-schultz",
     "start_date": "2013-10-29",
-    "end_date": "2015-07-14"
+    "end_date": "2015-07-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple authoritative sources confirm Alby Schultz became the inaugural patron of the Waubra Foundation in October 2013, shortly after retiring from parliament (5 August 2013). He died 14 July 2015, consistent with the end_date. Identity clear: Federal Member for Hume."
+    }
   },
   {
     "role": "Mayor",
@@ -10263,11 +10278,17 @@
     "organisation": "1998 Australian Constitutional Convention",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://en.wikipedia.org/wiki/Alasdair_Webster"
+      "https://en.wikipedia.org/wiki/Alasdair_Webster",
+      "https://nla.gov.au/nla.obj-136448974/view"
     ],
     "pollie_slug": "alasdair-webster",
     "start_date": "1998",
-    "end_date": "1998"
+    "end_date": "1998",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Webster served as a delegate to the 1998 Australian Constitutional Convention. National Library of Australia holds a dated photograph (2-13 Feb 1998) of him at the Convention. He left parliament 13 Mar 1993."
+    }
   },
   {
     "role": "Committee Member",
@@ -12403,9 +12424,16 @@
     "category": "Health, Medical & Aged Care",
     "sources": [
       "https://en.wikipedia.org/wiki/Trish_Worth",
-      "https://www.linkedin.com/in/trish-worth-44548143/"
+      "https://www.linkedin.com/in/trish-worth-44548143/",
+      "https://drinkwise.org.au/about-us/drinkwise-board-of-directors/",
+      "https://www.croakey.org/some-questions-about-the-independence-of-drinkwise/"
     ],
-    "pollie_slug": "trish-worth"
+    "pollie_slug": "trish-worth",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Trish Worth became chairwoman of DrinkWise Australia after leaving parliament in October 2004. Role and organisation verified. Dates plausible."
+    }
   },
   {
     "role": "Director",
@@ -12415,7 +12443,12 @@
       "https://www.herefordsaustralia.com.au/2022/04/strengthening-commercial-relevance-key-focus-for-new-herefords-board/"
     ],
     "pollie_slug": "trish-worth",
-    "end_date": "2022-04-29"
+    "end_date": "2022-04-29",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Herefords Australia official website (April 29, 2022) confirms Trish Worth was a long-serving director who retired at that AGM date in line with Board constitution. Role and organisation match."
+    }
   },
   {
     "role": "Convenor",
@@ -14543,9 +14576,16 @@
     "organisation": "Churches of Christ in Queensland",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://en.wikipedia.org/wiki/Evan_Adermann"
+      "https://en.wikipedia.org/wiki/Evan_Adermann",
+      "https://www.acnc.gov.au/charity/charities/f57d14c6-38af-e811-a961-000d3ad24182/profile",
+      "https://en.wikipedia.org/wiki/Charles_Adermann"
     ],
-    "pollie_slug": "albert-adermann"
+    "pollie_slug": "albert-adermann",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Albert Evan Adermann (known as Evan) was president of Churches of Christ in Queensland. His AO award citation (1990) explicitly recognises services 'particularly through the Churches of Christ in Queensland'. Parliamentary service ended 1990."
+    }
   },
   {
     "role": "Principal",
@@ -20251,7 +20291,12 @@
     ],
     "pollie_slug": "amanda-vanstone",
     "start_date": "2015-12-07",
-    "end_date": "2017-07-01"
+    "end_date": "2017-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Amanda Vanstone, former Liberal Senator for South Australia (left 2007), confirmed as member of the Referendum Council from 7 December 2015 to the final report of 30 June 2017. Confirmed via official Referendum Council records and Parliament of Australia documentation."
+    }
   },
   {
     "role": "Opinion Columnist",
@@ -20326,7 +20371,13 @@
       "https://www.businessnews.com.au/article/Peacock-to-chair-Amadeus"
     ],
     "pollie_slug": "andrew-peacock",
-    "start_date": "2011-12-05"
+    "start_date": "2007-07-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Andrew Peacock (1939-2021), former Liberal politician and Ambassador to the US, identified in Business News as appointed chairman of Amadeus Energy Limited (Perth oil and gas company). Source article dated July 2007; delisted-company records list a successor chairman from July 2008, so dates corrected from the erroneous 2011-12-05."
+    },
+    "end_date": "2008-07-07"
   },
   {
     "role": "Board Member",
@@ -21172,7 +21223,12 @@
     ],
     "start_date": "1993-01-01",
     "end_date": "1997-01-01",
-    "pollie_slug": "andrew-thomas"
+    "pollie_slug": "andrew-thomas",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Official Senate biography confirms Andrew Murray Thomas served as member of the executive and then director of administration of the Royal Western Australian Bowling Association between 1993 and 1997. Matches the gig details."
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -25956,7 +26012,12 @@
     ],
     "pollie_slug": "allan-rocher",
     "start_date": "1999-01-01",
-    "end_date": "2002-12-31"
+    "end_date": "2002-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "All three sources confirm Allan Rocher (1936-2016) served as Australian Consul-General in Los Angeles. Wikipedia explicitly states 1999-2002 dates. Senate biography confirms Howard Government appointment after 1998 electoral defeat."
+    }
   },
   {
     "role": "Principal",
@@ -30104,7 +30165,12 @@
       "https://www.reknu.com.au/",
       "https://www.linkedin.com/in/ann-sudmalis/"
     ],
-    "pollie_slug": "ann-sudmalis"
+    "pollie_slug": "ann-sudmalis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Reknu.com.au official website confirms Ann Sudmalis as founder and artist of the Reknu art platform. LinkedIn confirms her as author of 'Sculpted by her Hand'. Post-parliamentary timing verified (left office 2019-04-11)."
+    }
   },
   {
     "role": "Director",
@@ -31604,7 +31670,12 @@
       "https://en.wikipedia.org/wiki/Andrea_West",
       "https://www.openaustralia.org.au/senate/?id=2010-05-11.43.1"
     ],
-    "pollie_slug": "andrea-west"
+    "pollie_slug": "andrea-west",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Andrea West (Liberal MP for Bowman 1996-1998) worked as a teacher at Qatar International School after leaving parliament. She ceased office 3 October 1998 and died 20 April 2010. Role and organisation match."
+    }
   },
   {
     "role": "Chair",
@@ -33709,7 +33780,12 @@
       "https://en.wikipedia.org/wiki/Sandy_Mackenzie",
       "https://www.centralwesterndaily.com.au/story/8229397/former-mp-recalls-time-knife-held-to-his-throat-at-a-blayney-abattoir/"
     ],
-    "pollie_slug": "alexander-mackenzie"
+    "pollie_slug": "alexander-mackenzie",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia article on Sandy Mackenzie (Alexander John Mackenzie, Member for Calare 1975-1983) confirms he 'served on the Victorian advisory council for Landcare Australia'. Central Western Daily corroborates ongoing Landcare involvement. Post-dates departure from parliament (1983)."
+    }
   },
   {
     "role": "Barrister",
@@ -34442,7 +34518,12 @@
       "https://www.culturaldiplomacy.org/academy/index.php?en_advisory-board",
       "http://www.culturaldiplomacy.org/academy/index.php?Senator-Alan-Ferguson="
     ],
-    "pollie_slug": "alan-ferguson"
+    "pollie_slug": "alan-ferguson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via Academy for Cultural Diplomacy official advisory board page and biographical profile. Alan Baird Ferguson (born 16 September 1943), South Australian Senator (1993-2011). Role and organisation match; post-parliament timing verified."
+    }
   },
   {
     "role": "Director",
@@ -34537,7 +34618,12 @@
     ],
     "pollie_slug": "william-yates",
     "start_date": "1982-05-26",
-    "end_date": "1983-08-09"
+    "end_date": "1983-08-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia articles confirm William Yates served as Administrator of Christmas Island from 26 May 1982 to 9 August 1983. Dates and role match across two authoritative sources."
+    }
   },
   {
     "role": "Doctoral Candidate",
@@ -34547,7 +34633,12 @@
       "https://en.wikipedia.org/wiki/William_Yates_(politician)"
     ],
     "pollie_slug": "william-yates",
-    "end_date": "2003-01-01"
+    "end_date": "2003-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms William Yates earned a Doctorate in Political Science from the University of Melbourne in 2003 at age 82. Role as 'Doctoral Candidate' is accurate; end_date of 2003-01-01 consistent with Wikipedia's year 2003."
+    }
   },
   {
     "role": "Staff Member",
@@ -37580,10 +37671,14 @@
     "organisation": "Fraser Coast Community Enterprise Limited (Community Bank Hervey Bay)",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.loddonherald.com.au/politics--council/comeback-bid-broad-seeks-new-horizons-for-skills",
-      "https://www.bendigobank.com.au/branch/qld/community-bank-hervey-bay/"
+      "https://www.loddonherald.com.au/politics--council/comeback-bid-broad-seeks-new-horizons-for-skills"
     ],
-    "pollie_slug": "andrew-broad"
+    "pollie_slug": "andrew-broad",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Andrew Broad (former Mallee MP 2013-2019) confirmed as director of Fraser Coast Community Enterprise Limited (Community Bank Hervey Bay). Loddon Herald article confirms his directorship after settling on the Fraser Coast; timeline post-2019."
+    }
   },
   {
     "role": "Chair",
@@ -40511,7 +40606,11 @@
     ],
     "pollie_slug": "robert-ray",
     "start_date": "2009-08-01",
-    "end_date": "2013-12-31"
+    "end_date": "2013-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -40523,6 +40622,11 @@
     ],
     "pollie_slug": "robert-ray",
     "start_date": "2010-03-01",
-    "end_date": "2011-05-02"
+    "end_date": "2011-05-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Start date March 1, 2010 appears accurate; 13 months before quit date of May 2, 2011 aligns with this timeline."
+    }
   }
 ]
