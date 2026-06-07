@@ -5700,11 +5700,18 @@
     "organisation": "Australian Government (DFAT)",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://www.awm.gov.au/media/press-releases/new-director-brendan-nelson-arrives-memorial"
+      "https://www.awm.gov.au/media/press-releases/new-director-brendan-nelson-arrives-memorial",
+      "https://en.wikipedia.org/wiki/Brendan_Nelson",
+      "https://en.wikipedia.org/wiki/List_of_ambassadors_of_Australia_to_Belgium"
     ],
     "pollie_slug": "brendan-nelson",
     "start_date": "2010-02-18",
-    "end_date": "2012-12-17"
+    "end_date": "2012-10-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Identity and role confirmed via Wikipedia, DFAT, AWM and European Parliament records. Start date 18 Feb 2010 (Brussels commencement) retained; end date corrected to 10 Oct 2012 per Wikipedia."
+    }
   },
   {
     "role": "Director",
@@ -6351,7 +6358,12 @@
       "https://perkins.org.au/person/hon-ben-morton/"
     ],
     "pollie_slug": "ben-morton",
-    "start_date": "2024-01-01"
+    "start_date": "2024-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Harry Perkins Institute lists Ben Morton as Director of Celebrate WA; Celebrate WA's official site lists him as a board member. Correct Ben Morton (former Liberal MP Tangney)."
+    }
   },
   {
     "role": "Chairman",
@@ -8425,7 +8437,12 @@
       "https://www.maitlandmercury.com.au/story/7690282/former-mayor-and-mp-farewelled/"
     ],
     "pollie_slug": "bob-brown",
-    "end_date": "2022-03-30"
+    "end_date": "2022-03-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Correct Bob Brown (ALP MP Charlton 1984-1998, not the Greens leader). Maitland Mercury and Cessnock Advertiser confirm he was patron of the Sir Edgeworth David Memorial Museum; end date 2022-03-30 matches his death."
+    }
   },
   {
     "role": "Patron",
@@ -8512,9 +8529,13 @@
     "organisation": "SA Parks and Wilderness Council",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://www.statewide.com.au/public/about-us/board-of-directors/"
+      "https://www.environment.sa.gov.au/about-us/boards-and-committees/parks-and-wilderness-council"
     ],
-    "pollie_slug": "anne-mcewen"
+    "pollie_slug": "anne-mcewen",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -9821,7 +9842,12 @@
       "https://www.gem.wiki/Bob_Sercombe"
     ],
     "pollie_slug": "bob-sercombe",
-    "start_date": "2010"
+    "start_date": "2010",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Sercombe (ALP MP Maribyrnong, left 2007) confirmed as shareholder in Sustainable Soils and Farms via The Age reporting (June 2010), documented on Global Energy Monitor wiki; venture chaired by former MP Neil O'Keefe."
+    }
   },
   {
     "role": "Chair",
@@ -10295,11 +10321,14 @@
     "organisation": "Melbourne Cricket Club",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://mcc.org.au/whats-on/latest-news/2022/october/vale-hon-anthony-tony-street",
       "https://en.wikipedia.org/wiki/Tony_Street"
     ],
     "pollie_slug": "anthony-street",
-    "start_date": "1984"
+    "start_date": "1984",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -10611,11 +10640,15 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://en.wikipedia.org/wiki/Brendan_Smyth_(politician)",
-      "https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/barr/2016/brendan-smyth-to-be-cbrs-first-commissioner-for-international-engagement",
       "https://www.canberratimes.com.au/story/6045045/the-acts-first-commissioner-for-international-engagement-brendan-smyth-is-ready-to-fly-high/"
     ],
     "pollie_slug": "brendan-smyth",
-    "start_date": "2016-08-01"
+    "start_date": "2016-08-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Smyth (federal MP Canberra 1995-1996) appointed ACT's inaugural Commissioner for International Engagement, effective 1 Aug 2016. Wikipedia and Canberra Times confirm; dead ACT media-release URL removed."
+    }
   },
   {
     "role": "Chairman",
@@ -10636,7 +10669,12 @@
     ],
     "pollie_slug": "bob-charles",
     "start_date": "2005",
-    "end_date": "2008"
+    "end_date": "2008",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Bob Charles (Liberal MP La Trobe 1990-2004) was Australian Consul-General in Chicago 2005-2008."
+    }
   },
   {
     "role": "Franchise Owner",
@@ -10787,9 +10825,15 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://en.wikipedia.org/wiki/Brenda_Gibbs",
-      "https://au.linkedin.com/in/brenda-gibbs-2b883174"
+      "https://au.linkedin.com/in/brenda-gibbs-2b883174",
+      "https://biography.senate.gov.au/gibbs-brenda/"
     ],
-    "pollie_slug": "brenda-gibbs"
+    "pollie_slug": "brenda-gibbs",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and Senate biography confirm Gibbs (ALP Senator Qld 1996-2002) worked for Logan City Council post-parliament; LinkedIn/ZoomInfo give the Executive Assistant title."
+    }
   },
   {
     "role": "Director",
@@ -12972,7 +13016,12 @@
     ],
     "pollie_slug": "bruce-goodluck",
     "start_date": "1996-02-24",
-    "end_date": "1998-07-22"
+    "end_date": "1998-07-22",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Parliament of Tasmania records confirm Goodluck served as Member for Franklin 24 Feb 1996 – 22 Jul 1998, after leaving federal parliament in 1993."
+    }
   },
   {
     "role": "Manager, Repository Services",
@@ -14272,8 +14321,7 @@
     "organisation": "Melbourne University Press",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://www.salaamfoundation.com.au/about/our-people/bob-carr",
-      "https://www.mup.com.au/events/run-for-your-life-meet-bob-car"
+      "https://www.salaamfoundation.com.au/about/our-people/bob-carr"
     ],
     "pollie_slug": "bob-carr",
     "end_date": "2019"
@@ -21682,7 +21730,12 @@
     ],
     "pollie_slug": "arthur-devlin",
     "start_date": "1966",
-    "end_date": "1993"
+    "end_date": "1993",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Pre-parliament role mistakenly tagged as post-parliament. Devlin became honorary secretary of the Burnie Trades and Labour Council in 1966, 19 years before entering the Senate in 1985, per his official Senate biography; he held it 19 years pre-parliament vs only ~8 years after, retiring 1993."
+    }
   },
   {
     "role": "President",
@@ -23223,7 +23276,12 @@
       "https://au.linkedin.com/in/belinda-neal-140b8a31"
     ],
     "start_date": "2022-01-01",
-    "end_date": "2023-12-31"
+    "end_date": "2023-12-31",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Belinda Neal does not appear on the official NDIS Review Independent Review Panel membership published at ndisreview.gov.au (co-chairs Bonyhady & Paul; members Cocks, Brewer, King, Herd, Deane). No authoritative source places her on the panel; original sources were data-broker sites (RocketReach, ZoomInfo) and LinkedIn."
+    }
   },
   {
     "pollie_slug": "belinda-neal",
@@ -25487,10 +25545,14 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://adb.anu.edu.au/biography/mcmahon-sir-william-billy-15043",
-      "https://www.aussiedigest.com/society/william-mcmahon.php",
-      "https://grokipedia.com/page/bill_mcmahon"
+      "https://www.aussiedigest.com/society/william-mcmahon.php"
     ],
-    "pollie_slug": "billy-mcmahon"
+    "pollie_slug": "billy-mcmahon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Australian Dictionary of Biography confirms McMahon worked as a consultant to the Bank of America after leaving parliament in Jan 1982; aussiedigest corroborates. Removed AI-generated grokipedia source."
+    }
   },
   {
     "role": "Pharmacy Owner",
@@ -26534,7 +26596,12 @@
     "sources": [
       "https://biography.senate.gov.au/collins-robert-lindsay/"
     ],
-    "pollie_slug": "bob-collins"
+    "pollie_slug": "bob-collins",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "biography.senate.gov.au confirms Collins served as chairman of Kakadu Tourism Pty Ltd, an Indigenous-owned Kakadu business, after leaving the Senate in 1998."
+    }
   },
   {
     "role": "Chair, Kakadu Region Social Impact Study Implementation Team",
@@ -26596,7 +26663,14 @@
       "https://en.wikipedia.org/wiki/Bernie_Kilgariff",
       "https://govhouse.nt.gov.au/the-administrator/about-the-deputy-of-the-administrator"
     ],
-    "pollie_slug": "bernard-kilgariff"
+    "pollie_slug": "bernard-kilgariff",
+    "start_date": "1990",
+    "end_date": "1997",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms Kilgariff was Deputy Administrator for the Northern Territory 1990–1997, after leaving the Senate in 1987."
+    }
   },
   {
     "role": "Pastoral Station Owner",
@@ -35429,7 +35503,12 @@
     "sources": [
       "https://tintean.org.au/2021/01/10/barney-cooney-lawyer-and-senator-by-bernie-brophy/"
     ],
-    "pollie_slug": "barney-cooney"
+    "pollie_slug": "barney-cooney",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Tinteán article (Bernie Brophy) confirms Cooney as Patron of Australians for Peace in Ireland; identity confirmed via Senate biography (ALP Senator Vic 1984-2002)."
+    }
   },
   {
     "role": "Committee of management member",
@@ -38374,7 +38453,12 @@
     ],
     "pollie_slug": "barry-haase",
     "start_date": "2014-10-05",
-    "end_date": "2017-10-04"
+    "end_date": "2017-10-04",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Haase served as Administrator of the Indian Ocean Territories Oct 2014 – Oct 2017, after leaving parliament Aug 2013."
+    }
   },
   {
     "role": "Chair",
