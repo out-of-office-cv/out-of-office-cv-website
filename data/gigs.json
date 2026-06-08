@@ -3909,7 +3909,12 @@
     ],
     "pollie_slug": "guy-barnett",
     "start_date": "2011-07-01",
-    "end_date": "2014-03-15"
+    "end_date": "2014-03-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Guy Barnett's official website confirms he established and managed an award-winning government and public affairs business after his Senate career (ceased 2011-06-30), before entering Tasmanian state parliament in 2014. The site describes the business in general terms rather than naming 'Guy Barnett Consulting' explicitly."
+    }
   },
   {
     "role": "Member for Lyons, Tasmanian House of Assembly",
@@ -4679,7 +4684,12 @@
       "https://www.melbourne.vic.gov.au/news/meet-councillor-gladys-liu"
     ],
     "pollie_slug": "gladys-liu",
-    "start_date": "2024-10-26"
+    "start_date": "2024-10-26",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Gladys Liu (Liberal MP for Chisholm 2019-2022) confirmed as a City of Melbourne councillor, elected 26 October 2024, via Wikipedia and CBD News."
+    }
   },
   {
     "role": "Minister for Housing and Urban Development and Planning",
@@ -7179,7 +7189,12 @@
       "https://www.crikey.com.au/2015/07/07/meet-glenn-lazarus-the-crucial-crossbencher-marching-leftwards/",
       "https://www.melbournestorm.com.au/news/2017/03/16/where-are-they-now-glenn-lazarus/"
     ],
-    "pollie_slug": "glenn-lazarus"
+    "pollie_slug": "glenn-lazarus",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Glenn Lazarus is not a Director of Invigorate PR. His wife, Tess Sanders Lazarus, is the founder and managing director. No source lists Glenn in a formal Director role; the 2015 Crikey article predates his Senate departure and does not mention the firm. The role appears misattributed."
+    }
   },
   {
     "role": "Adjunct Professor",
@@ -7562,7 +7577,12 @@
     "sources": [
       "https://www.linkedin.com/in/gavan-o-connor-56301b59/"
     ],
-    "pollie_slug": "gavan-oconnor"
+    "pollie_slug": "gavan-oconnor",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Identity confirmed via Wikipedia/parliamentary records (Gavan O'Connor, Corio 1993-2007); LinkedIn confirms Managing Director of Grandview Innovations Pty Ltd. Post-parliamentary, dates null."
+    }
   },
   {
     "role": "Founder and Principal",
@@ -9302,7 +9322,12 @@
     ],
     "pollie_slug": "greg-mirabella",
     "start_date": "2022-08-01",
-    "end_date": "2023-09-23"
+    "end_date": "2023-09-23",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and Border Mail confirm Greg Mirabella (Victorian Senator, term ended 2022-06-30) was President of the Victorian Liberal Division from August 2022 to 23 September 2023."
+    }
   },
   {
     "role": "Campaign Manager",
@@ -9441,7 +9466,12 @@
       "https://www.ifminvestors.com/people/greg-combet/"
     ],
     "pollie_slug": "greg-combet",
-    "end_date": "2023-07-10"
+    "end_date": "2023-07-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "IFM Investors' official page confirms Greg Combet (former ALP MP and minister) as a senior advisor to Pollination Capital Partners. Role, organisation and post-parliamentary timing all match."
+    }
   },
   {
     "role": "Chair",
@@ -11915,11 +11945,17 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://en.wikipedia.org/wiki/Harry_Jenkins_Sr.",
-      "https://adb.anu.edu.au/biography/jenkins-henry-alfred-harry-28209"
+      "https://adb.anu.edu.au/biography/jenkins-henry-alfred-harry-28209",
+      "https://adb.anu.edu.au/biography/jenkins-henry-alfred-harry-30887"
     ],
     "pollie_slug": "henry-jenkins",
     "start_date": "1986-01-01",
-    "end_date": "1988-12-31"
+    "end_date": "1988-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and the Australian Dictionary of Biography confirm Harry Jenkins Sr (ALP, Scullin, ceased 1985-12-20) was offered the post of Ambassador to Spain by PM Hawke on 20 December 1985 and served until 1988."
+    }
   },
   {
     "role": "Founder",
@@ -12193,8 +12229,13 @@
       "https://www.nswnationals.org.au/nationals-mourn-the-loss-of-ian-causley/"
     ],
     "pollie_slug": "ian-causley",
-    "start_date": "2007",
-    "end_date": "2017"
+    "start_date": "2009",
+    "end_date": "2017",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Ian Causley (Nationals, Page, retired 2007) confirmed as Chair of the NSW Sugar Milling Co-operative via NSW Nationals and The Land. Authoritative sources give the tenure as 2009-2017; start date corrected from 2007 to 2009."
+    }
   },
   {
     "role": "Federal President",
@@ -13042,7 +13083,12 @@
       "https://en.wikipedia.org/wiki/Harry_Edwards_(politician)",
       "https://www.wikidata.org/wiki/Q16019373"
     ],
-    "pollie_slug": "harry-edwards"
+    "pollie_slug": "harry-edwards",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikidata and his 2005 Order of Australia citation confirm Harry Edwards (Liberal MP for Berowra 1972-1993) for 'service to the community, particularly through overseas development aid projects and Opportunity International Australia'."
+    }
   },
   {
     "role": "Member of the House of Assembly",
@@ -14108,7 +14154,12 @@
       "https://rslservicesclubs.com.au/dean-thomas-along-with-the-board-of-the-rsl-services-clubs-association-announce-ms-margot-smith-as-the-new-ceo/"
     ],
     "pollie_slug": "garrie-gibson",
-    "end_date": "2021-11-12"
+    "end_date": "2021-11-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Garrie Gibson (ALP, Moreton, left 1996) confirmed as CEO of the RSL & Services Clubs Association via Wikipedia, the association's official site and social media. End date 2021-11-12 aligns with the transition to new CEO Margot Smith."
+    }
   },
   {
     "role": "Director",
@@ -15090,7 +15141,12 @@
     ],
     "pollie_slug": "florence-bjelke-petersen",
     "start_date": "1993-01-01",
-    "end_date": "1996-12-31"
+    "end_date": "1996-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Florence Bjelke-Petersen authored 'Classic Country Wisdom' and related titles for New Holland Publishers after leaving the Senate (term ended 1993-06-30). Confirmed by the publisher's site and the National Library of Australia catalogue."
+    }
   },
   {
     "role": "Chair",
@@ -18270,9 +18326,16 @@
     "organisation": "Centre for Spatial Data Infrastructures and Land Administration International Advisory Committee",
     "category": "Science, Engineering & Technical Professions",
     "sources": [
-      "https://eng.unimelb.edu.au/csdila/news/news-highlights/the-gary-nairn-medal-for-leadership"
+      "https://eng.unimelb.edu.au/csdila/news/news-highlights/the-gary-nairn-medal-for-leadership",
+      "https://en.wikipedia.org/wiki/Gary_Nairn",
+      "https://www.spatialsource.com.au/gary-nairn-to-be-remembered-with-medal/"
     ],
-    "pollie_slug": "gary-nairn"
+    "pollie_slug": "gary-nairn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Gary Nairn (1951-2024), Liberal MP for Eden-Monaro (1996-2007), confirmed as Chair of the CSDILA International Advisory Committee/Group via the University of Melbourne (.edu.au) and corroborating sources."
+    }
   },
   {
     "role": "Strategic Advisor",
@@ -18781,11 +18844,17 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.businessnews.com.au/Person/George-Gear",
-      "https://www.perthsouthwest.com.au/perth-south-west-metropolitan-alliance-board/"
+      "https://www.perthsouthwest.com.au/perth-south-west-metropolitan-alliance-board/",
+      "https://en.wikipedia.org/wiki/George_Gear"
     ],
     "pollie_slug": "george-gear",
     "start_date": "2019-10-19",
-    "end_date": "2023-10-21"
+    "end_date": "2023-10-21",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "George Gear (ALP, Canning, left 1996) served as Mayor of Melville 2019-2023; board membership of the Perth South West Metropolitan Alliance is an ex officio mayoral role. Wikipedia confirms the mayoral tenure aligning with the stated dates."
+    }
   },
   {
     "role": "Solicitor",
@@ -19629,7 +19698,12 @@
     "sources": [
       "https://cgrp.com.au/team/graham-perrett-2/"
     ],
-    "pollie_slug": "graham-perrett"
+    "pollie_slug": "graham-perrett",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Graham Perrett (ALP, Moreton 2007-2025) confirmed as a consultant at Cornerstone Government Relations via the firm's official team page, which identifies him as the former Member for Moreton."
+    }
   },
   {
     "role": "Political Contributor",
@@ -23392,7 +23466,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Geoffrey_Giles"
     ],
-    "pollie_slug": "geoffrey-giles"
+    "pollie_slug": "geoffrey-giles",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Geoffrey O'Halloran Giles (1923-1990), Liberal MP for Wakefield (1977-1983), with no documented post-parliamentary roles before his death in 1990, supporting the 'Retired' classification."
+    }
   },
   {
     "role": "Consul-General",
@@ -31839,7 +31918,12 @@
       "https://biography.senate.gov.au/mclaren-geoffrey-thomas/"
     ],
     "pollie_slug": "geoffrey-mclaren",
-    "start_date": "1983-02-04"
+    "start_date": "1983-02-04",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms McLaren (ALP Senator for SA, 1971-1983) remained an ALP figure (Murray Bridge sub-branch president from 1957) and continued as a state council delegate after leaving parliament. Start date aligns with his Senate departure."
+    }
   },
   {
     "role": "Teacher",
@@ -34701,10 +34785,17 @@
     "sources": [
       "https://rocketreach.co/geoff-lyons-email_139736375",
       "https://www.examiner.com.au/story/7121293/labor-choose-candidate-for-windermere-election/",
-      "https://www.miragenews.com/jobs-and-economic-recovery-at-top-of-labors-512229/"
+      "https://www.miragenews.com/jobs-and-economic-recovery-at-top-of-labors-512229/",
+      "https://www.wtc.tas.gov.au/council/councillors/",
+      "https://en.wikipedia.org/wiki/Geoff_Lyons"
     ],
     "pollie_slug": "geoff-lyons",
-    "start_date": "2014-10"
+    "start_date": "2014-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Geoff Lyons OAM (ALP, Bass 2010-2013) confirmed as West Tamar councillor via the council's official site and The Examiner; elected at the October 2014 election."
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -34726,9 +34817,15 @@
     "organisation": "FSHD Global Research Foundation",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://drfionamartin.com.au/about/"
+      "https://drfionamartin.com.au/about/",
+      "https://www.linkedin.com/posts/dr-fiona-martin-a695b44b_fshd-activity-7243267120677953539--TZ5"
     ],
-    "pollie_slug": "fiona-martin"
+    "pollie_slug": "fiona-martin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via drfionamartin.com.au and FSHD Global member page: Dr Fiona Martin (Liberal MP for Reid 2019-2022) is a Director of the FSHD Global Research Foundation, a post-parliamentary role."
+    }
   },
   {
     "role": "Scientific Advisory Board Member",
@@ -40507,7 +40604,12 @@
       "https://en.wikipedia.org/wiki/Geoff_Prosser"
     ],
     "pollie_slug": "geoff-prosser",
-    "start_date": "2011-08-13"
+    "start_date": "2011-08-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Geoff Prosser (former MP for Forrest 1987-2007) elected President of the WA Liberal Division, taking office 13 August 2011. Confirmed by South West Times and Wikipedia."
+    }
   },
   {
     "role": "Senior Social Worker",
