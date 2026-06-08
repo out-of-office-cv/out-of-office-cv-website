@@ -4718,7 +4718,12 @@
       "https://wfe.org.au/our-team/"
     ],
     "pollie_slug": "zoe-daniel",
-    "start_date": "2025-08-01"
+    "start_date": "2025-08-01",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Women for Election's official team page lists Zoe Daniel on the Political Advisory Board, not as a Board Member/Director. The role title is factually wrong (organisation and dates are correct)."
+    }
   },
   {
     "role": "Secretary-General",
@@ -10982,7 +10987,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Doug_Everingham"
     ],
-    "pollie_slug": "douglas-everingham"
+    "pollie_slug": "douglas-everingham",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia identifies Douglas Nixon Everingham (Labor, Capricornia) as coordinator of the World Election Commission in the World Government of World Citizens, appointed by Garry Davis; corroborated by the official World Service Authority site. Post-1984."
+    }
   },
   {
     "role": "Executive Director",
@@ -11967,7 +11977,12 @@
     ],
     "pollie_slug": "elaine-darling",
     "start_date": "2000-01-01",
-    "end_date": "2004-12-31"
+    "end_date": "2004-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Elaine Darling served as a council member of the City of Caloundra from 2000 to 2004. Identity confirmed as former Labor MP for Lilley (ceased 1993); dates plausible post-parliament."
+    }
   },
   {
     "role": "Member for Ferny Grove",
@@ -18182,10 +18197,17 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.emilyslist.org.au/be-part-of-the-change",
-      "https://iwda.org.au/assets/files/Mentoring-Handbook-English_FINAL.pdf"
+      "https://iwda.org.au/assets/files/Mentoring-Handbook-English_FINAL.pdf",
+      "https://www.emilyslist.org.au/mentoring_goes_international",
+      "https://iwda.org.au/resource/myanmar-women-parliamentarians-mentoring-program/"
     ],
     "start_date": "2019-07-01",
-    "pollie_slug": "claire-moore"
+    "pollie_slug": "claire-moore",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Claire Moore confirmed as experienced mentor in IWDA's Myanmar Women Parliamentarians Mentoring Program (Emily's List source names her as one of four mentors). Identity verified (former ALP Senator Qld, retired 30 Jun 2019); start date aligns."
+    }
   },
   {
     "role": "Chair",
@@ -19708,8 +19730,7 @@
     "category": "Science, Engineering & Technical Professions",
     "sources": [
       "https://www.aarail.com.au/corporate-structure",
-      "https://en.wikipedia.org/wiki/Tim_Fischer",
-      "https://www.railexpress.com.au/tributes-pour-in-for-tireless-rail-advocate-tim-fischer/"
+      "https://en.wikipedia.org/wiki/Tim_Fischer"
     ],
     "pollie_slug": "tim-fischer",
     "start_date": "2004-01-01"
@@ -19955,10 +19976,14 @@
     "organisation": "Frontier Services",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://frontierservices.org/a-truly-wonderful-celebration/",
-      "https://corowarotary.jimdo.com/projects-events/current-projects/federation-dinner/"
+      "https://journeyonline.com.au/agency-news/frontier-services-centenary-reaches-a-high-note/"
     ],
-    "pollie_slug": "tim-fischer"
+    "pollie_slug": "tim-fischer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via JourneyOnline article on Frontier Services' 2012 centenary celebration, which explicitly names 'Frontier Services Patron Tim Fischer AC'. Two original sources problematic (one 404, one a Rotary oration event)."
+    }
   },
   {
     "role": "Patron",
@@ -23481,7 +23506,6 @@
     "organisation": "Office of the Premier of Tasmania",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://au.linkedin.com/in/brettwhiteley",
       "https://www.facebook.com/groups/296902363829088/posts/2325091104343527/"
     ],
     "pollie_slug": "brett-whiteley"
@@ -25262,8 +25286,13 @@
       "https://biography.senate.gov.au/mcclelland-douglas/",
       "https://www.factsnippet.com/site/facts-about-doug-mcclelland.html"
     ],
-    "start_date": "1987",
-    "end_date": "1991"
+    "start_date": "1987-03-21",
+    "end_date": "1991-03",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia, official Senate biography and FactSnippet all confirm Douglas McClelland (ALP Senator NSW) served as High Commissioner to the UK from 1987-1991. He resigned the Senate 23 Jan 1987 and took the appointment 21 Mar 1987."
+    }
   },
   {
     "pollie_slug": "justine-keay",
@@ -25491,7 +25520,12 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://theorg.com/org/conexus-financial/org-chart/hon-bernie-ripoll"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Org corporate database identifies 'Hon. Bernie Ripoll' as a former Non-Executive Director at Crohn's & Colitis Australia. Wikipedia confirms identity (ALP, Oxley, ceased 2016); role plausibly post-parliament."
+    }
   },
   {
     "pollie_slug": "lee-rhiannon",
@@ -26030,7 +26064,12 @@
       "https://en.wikipedia.org/wiki/Ted_Robertson"
     ],
     "start_date": "1989",
-    "end_date": "1991-01-05"
+    "end_date": "1991-01-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Official Senate biography and Wikipedia confirm Edward Robertson became National President of YMCA Australia in 1989 after leaving the Senate, serving until his death on 5 January 1991. Identity, role, organisation and dates all match."
+    }
   },
   {
     "pollie_slug": "murray-sainsbury",
@@ -28388,7 +28427,6 @@
     "organisation": "NewsMail (Bundaberg)",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://muckrack.com/brian-courtice",
       "https://www.news-mail.com.au/topic/brian-courtice/"
     ],
     "pollie_slug": "brian-courtice",
@@ -29366,7 +29404,12 @@
     "sources": [
       "https://clan-cameron.au/clan-cameron-australia-history/"
     ],
-    "pollie_slug": "donald-cameron"
+    "pollie_slug": "donald-cameron",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Official Clan Cameron Australia history page confirms 'The 1991 Annual General Meeting elected Mr Donald M. Cameron MP as Clan Cameron Australia - Queensland Branch President'. Identity, role, organisation and post-1990 timing all verified."
+    }
   },
   {
     "role": "Head",
@@ -32586,7 +32629,12 @@
       "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=RH4",
       "https://coatconference.com.au/speaker/the-hon-justice-duncan-kerr-chev-lh"
     ],
-    "pollie_slug": "duncan-kerr"
+    "pollie_slug": "duncan-kerr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and COAT Conference speaker page confirm Duncan Kerr (Labor MP for Denison 1987-2010) was appointed Adjunct Professor of Law at QUT in 2007. Role continues to be referenced in later biographical materials."
+    }
   },
   {
     "role": "Chair",
@@ -35131,7 +35179,12 @@
     "sources": [
       "https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-details/HANSARD-2145855009-28049"
     ],
-    "pollie_slug": "alan-steedman"
+    "pollie_slug": "alan-steedman",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Victorian Parliament Hansard memorial tribute (17 Oct 2024) confirms Alan Peter ('Pete') Steedman, federal member for Casey 1983-1984, 'led the challenging policy work to support timber workers in past state Labor administrations'. Official parliamentary record; dates plausible post-1984."
+    }
   },
   {
     "role": "Retired",
@@ -36244,7 +36297,12 @@
       "https://humanrights.gov.au/about/commissioners/age-and-disability-discrimination-commissioner-hon-susan-ryan-ao",
       "https://nfaw.org/news/vale-susan-ryan-and-thank-you/"
     ],
-    "pollie_slug": "susan-ryan"
+    "pollie_slug": "susan-ryan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Susan Ryan served as Women's Ambassador for ActionAid Australia. Confirmed across multiple authoritative sources including NFAW memorial tribute and official Australian Human Rights Commission biography. Role is documented post-parliament (after 1988)."
+    }
   },
   {
     "role": "Chair",
@@ -36284,7 +36342,12 @@
       "https://www.superannuation.asn.au/vale-susan-ryan-ao/",
       "https://humanrights.gov.au/about/commissioners/age-and-disability-discrimination-commissioner-hon-susan-ryan-ao"
     ],
-    "pollie_slug": "susan-ryan"
+    "pollie_slug": "susan-ryan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Susan Ryan served as Independent Chair of the IAG and NRMA Superannuation Plan prior to her appointment as Age Discrimination Commissioner in July 2011. Confirmed in superannuation industry sources and official biographical materials. Role held in post-parliamentary period."
+    }
   },
   {
     "role": "Age Discrimination Commissioner",
@@ -36443,7 +36506,6 @@
     "organisation": "Real Estate Institute of Queensland",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.marketscreener.com/quote/stock/LOGAN-COMMUNITY-FINANCIAL-120967723/news/Logan-Community-Financial-Services-Audited-Annual-Financial-Statements-30-June-2021-36554474/",
       "https://www.bendigobank.com.au/siteassets/branchassets/communitycompanies/logancommunityfinancialserviceslimited/investorshareholder/financialstatements/2021-annual-report.pdf"
     ],
     "pollie_slug": "brett-raguse"
@@ -36723,7 +36785,12 @@
     "sources": [
       "https://www.harmreductionaustralia.org.au/bob-debus/"
     ],
-    "pollie_slug": "bob-debus"
+    "pollie_slug": "bob-debus",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Bob Debus is listed on the official Harm Reduction Australia website as an advocate. Identity verified as former Federal Member for Macquarie (2007-2010). Organisation and role match; authoritative source."
+    }
   },
   {
     "role": "Director",
@@ -36850,7 +36917,12 @@
       "https://en.wikipedia.org/wiki/Chris_Ellison_(politician)"
     ],
     "pollie_slug": "chris-ellison",
-    "start_date": "2010"
+    "start_date": "2010",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Chris Ellison (Liberal Senator WA, ceased 2009-01-30). Business News and Wikipedia confirm Deputy Chair role at Trinity College Perth; start date 2010 plausible post-parliament. Distinct from the Mineral Resources mining executive of the same name."
+    }
   },
   {
     "role": "Trustee",
