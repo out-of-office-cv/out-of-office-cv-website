@@ -41111,5 +41111,16 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Owner",
+    "organisation": "Northern Territory Veterinary Services",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.zoominfo.com/p/Sam-Mcmahon/2946683608",
+      "https://au.linkedin.com/in/dr-sam-mcmahon-ab2a704a",
+      "https://www.ntvet.com.au/katherine-vets.html"
+    ],
+    "pollie_slug": "sam-mcmahon"
   }
 ]
