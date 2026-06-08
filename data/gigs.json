@@ -4669,10 +4669,19 @@
     "organisation": "Janet Rice Facilitation and Training",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.linkedin.com/in/janet-rice-people-and-planet/"
+      "https://www.linkedin.com/in/janet-rice-people-and-planet/",
+      "https://www.groupwork.com.au/our-team/janet-rice-1",
+      "https://greenagenda.org.au/2024/06/facilitating-change/",
+      "https://greens.org.au/vic/person/janet-rice",
+      "https://en.wikipedia.org/wiki/Janet_Rice"
     ],
     "pollie_slug": "janet-rice",
-    "start_date": "2024-04-19"
+    "start_date": "2024-04-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Janet Rice confirmed as former Greens Senator for Victoria (2014-2024), resigned 19 April 2024. Post-parliament facilitation work corroborated by the Green Agenda (June 2024), the Groupwork Centre bio (appointed 2024) and her LinkedIn. Role, organisation and start date align."
+    }
   },
   {
     "role": "Councillor",
@@ -6244,7 +6253,12 @@
     ],
     "pollie_slug": "jacinta-collins",
     "start_date": "2019-02-18",
-    "end_date": "2026-02-28"
+    "end_date": "2026-02-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Strong confirmation from official Catholic education sources: Jacinta Collins (former Victorian Senator, ceased 2019-02-15) appointed Executive Director of the National Catholic Education Commission effective 2019-02-18; end date early 2026 confirmed. All details match."
+    }
   },
   {
     "role": "Winthrop Professor / Emerita Professor",
@@ -7568,7 +7582,12 @@
     ],
     "pollie_slug": "clive-palmer",
     "start_date": "2025-02",
-    "end_date": "2025-09"
+    "end_date": "2025-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and National Press Club sources confirm Clive Palmer held a leadership role with Trumpet of Patriots from February to September 2025, identified as the former MP for Fairfax (ceased 2016-05-09). Wikipedia clarifies his title was 'Campaign Chairman' rather than formal party chairman, but all sources confirm his prominent leadership and spokesperson role during the 2025 campaign."
+    }
   },
   {
     "role": "Managing Director",
@@ -8762,7 +8781,12 @@
     "sources": [
       "https://www.queenslandcountrylife.com.au/story/7513871/clear-skies-finally-deliver-springborg-harvest/"
     ],
-    "pollie_slug": "cameron-thompson"
+    "pollie_slug": "cameron-thompson",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "The source (Queensland Country Life article) mentions Cameron Thompson as 'one time Queensland Country Life journalist', but he appears in the article as a farm equipment operator, not a journalist. His journalism background was earlier (radio journalist 1983-1986, before his 1998-2007 parliamentary service). No evidence of an actual post-2007 journalist role at Queensland Country Life; the gig conflates a historical journalism background with the publication that featured him."
+    }
   },
   {
     "role": "Special Liaison Officer",
@@ -10777,7 +10801,12 @@
     "sources": [
       "https://www.austrade.gov.au/en/about-austrade/our-team/our-trade-commissioners/chris-ketter"
     ],
-    "pollie_slug": "chris-ketter"
+    "pollie_slug": "chris-ketter",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Austrade official website confirms Chris Ketter (former Queensland Senator) 'has served as an Alternate Director on the Board of the REST Industry Superannuation fund'. Role and organisation match exactly. Timing plausible post-parliament."
+    }
   },
   {
     "role": "Partner",
@@ -11206,7 +11235,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/John_Brown_(Australian_politician)"
     ],
-    "pollie_slug": "john-brown"
+    "pollie_slug": "john-brown",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms John Brown (ALP, Parramatta, ceased 1990) established the Sport and Tourism Youth Foundation after leaving parliament, awarding scholarships to young Australians in sport and tourism. Identity unambiguous."
+    }
   },
   {
     "role": "Founding Director",
@@ -11239,10 +11273,16 @@
     "organisation": "Private legal practice",
     "category": "Legal & Judicial",
     "sources": [
-      "https://en.wikipedia.org/wiki/James_Porter_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/James_Porter_(Australian_politician)",
+      "https://piperalderman.com.au/member/james-porter/"
     ],
     "pollie_slug": "james-porter",
-    "start_date": "1990-02-19"
+    "start_date": "1990-02-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Porter 'became a barrister and solicitor'; Piper Alderman profile confirms post-1990 legal practice advising corporate and private clients. Multiple sources confirm a 30+ year legal career after leaving parliament in 1990."
+    }
   },
   {
     "role": "Barrister (King's Counsel)",
@@ -12539,7 +12579,12 @@
       "https://www.linkedin.com/in/iangoodenoughmp/"
     ],
     "pollie_slug": "ian-goodenough",
-    "start_date": "2025"
+    "start_date": "2026-02-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Identity and role confirmed via Cygnet West official corporate page (Director, Strategic Client and Relationships). The authoritative source states an appointment date of 19 February 2026; start_date corrected from '2025' to '2026-02-19'."
+    }
   },
   {
     "role": "Chair",
@@ -12675,7 +12720,7 @@
     ],
     "pollie_slug": "jean-jenkins",
     "start_date": "1990-07-01",
-    "end_date": "1991-12-31"
+    "end_date": "1991-08-31"
   },
   {
     "role": "Breakfast Presenter",
@@ -21970,11 +22015,18 @@
     "organisation": "SEQ Regional Recreational Facilities Pty Ltd",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.signalhire.com/profiles/john-cherry's-email/1473404"
+      "https://www.signalhire.com/profiles/john-cherry's-email/1473404",
+      "https://rocketreach.co/john-cherry-email_66347338",
+      "https://au.linkedin.com/in/john-cherry-41425548"
     ],
     "pollie_slug": "john-cherry",
     "start_date": "2010",
-    "end_date": "2012"
+    "end_date": "2012",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "SignalHire confirms John Cherry (Australian Democrats senator for Queensland 2001-2005) served as Company Secretary at SEQ Regional Recreational Facilities Pty Ltd 2010-2012; supporting profiles list the role in his career history. Role, organisation and dates align; no namesake confusion."
+    }
   },
   {
     "role": "Head of Advocacy",
@@ -24554,7 +24606,12 @@
       "https://www.ovariancancer.net.au/page/160/ambassadors",
       "https://www.gaibrodtmann.com.au/about_gai"
     ],
-    "pollie_slug": "gai-brodtmann"
+    "pollie_slug": "gai-brodtmann",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Web search confirms Gai Brodtmann (Canberra ALP, ceased 2019-04-11) is an ambassador for Ovarian Cancer Australia, with multiple independent references and Hansard records of her advocacy. Identity unambiguous. Both original source URLs returned 403/404 at check time (likely bot-blocking) but are retained pending a confirmed replacement."
+    }
   },
   {
     "role": "Policy Taskforce Member",
@@ -25890,7 +25947,12 @@
       "https://en.wikipedia.org/wiki/John_Brumby",
       "https://www.ussc.edu.au/about/people/board-of-directors"
     ],
-    "pollie_slug": "john-brumby"
+    "pollie_slug": "john-brumby",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "John Brumby is not listed as a director of United States Studies Centre Ltd on the USSC board page. Wikipedia and The Conversation document his actual post-parliament roles (federal chief of staff 1990-1993, Victorian state parliament, Huawei directorship, university positions) but make no mention of USSC. The gig does not appear accurate."
+    }
   },
   {
     "role": "Advisory Council Member",
@@ -26478,9 +26540,15 @@
     "organisation": "Australia-China Chamber of Chief Executive Officers",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://www.ac-cc.org.au/pages/advisors.php"
+      "https://www.ac-cc.org.au/pages/advisors.php",
+      "https://www.facebook.com/accceo/"
     ],
-    "pollie_slug": "gary-hardgrave"
+    "pollie_slug": "gary-hardgrave",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Gary Hardgrave (Liberal, Moreton, ceased 2007-11-24) confirmed as Honorary Advisor to the Australia-China Chamber of Chief Executive Officers via search results. Original advisor-page URL unreachable at check time but role corroborated."
+    }
   },
   {
     "role": "Drive Host",
@@ -29338,7 +29406,12 @@
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://www.celebrityspeakers.com.au/speakers/john-alexander-ao/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Celebrity Speakers Australia official profile confirms John Alexander (former Bennelong MP 2010-2022, former professional tennis player) listed as a public speaker. Identity confirmed via parliamentary and tennis career details."
+    }
   },
   {
     "pollie_slug": "john-williams",
@@ -30609,7 +30682,12 @@
     ],
     "pollie_slug": "james-webster",
     "start_date": "1980-02-02",
-    "end_date": "1984-04-30"
+    "end_date": "1984-04-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "All three sources confirm James Webster's appointment as High Commissioner to New Zealand. Senate biography confirms January 1980 resignation to take the post; the official List of High Commissioners shows 2 February 1980 to 30 April 1984, matching the gig record."
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -31535,9 +31613,15 @@
     "category": "Health, Medical & Aged Care",
     "sources": [
       "https://au.linkedin.com/in/james-bidgood-6606a974",
-      "https://www.zoominfo.com/p/Bidgood-James/8272495875"
+      "https://www.zoominfo.com/p/Bidgood-James/8272495875",
+      "https://www.onestopmedical.com.au/"
     ],
-    "pollie_slug": "james-bidgood"
+    "pollie_slug": "james-bidgood",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "James Bidgood confirmed as former Labor MP for Dawson (2007-2010). LinkedIn and ZoomInfo identify him as sole director of One Stop Medical Pty Ltd, a medical practice in Mackay, Queensland. Role, organisation and category align; dates post-parliamentary."
+    }
   },
   {
     "role": "Executive Chair",
@@ -34540,7 +34624,12 @@
       "https://biography.senate.gov.au/black-john-rees/"
     ],
     "pollie_slug": "john-black",
-    "start_date": "2010-01-01"
+    "start_date": "2010-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms John Rees Black was 'a member of the Anti-Doping Rule Violation Panel from 2010'. Role, organisation and start date match the authoritative source."
+    }
   },
   {
     "role": "Part-time Senior Member",
@@ -35137,9 +35226,15 @@
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
       "https://johnandersonao.blogspot.com/2015/01/after-politics-john-anderson-ao.html",
-      "https://www.businessnews.com.au/Company/Miro-Advisors"
+      "https://www.businessnews.com.au/Company/Miro-Advisors",
+      "https://www.businessnews.com.au/article/Anderson-on-Miro-advisory-panel"
     ],
-    "pollie_slug": "john-anderson"
+    "pollie_slug": "john-anderson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via John Anderson's own blog (Jan 2015, 'serves as an advisor ... at Miro Advisors') and a Business News article (10 Feb 2011) naming 'former deputy prime minister John Anderson' to Miro Advisors' advisory panel. Identity confirmed (former Deputy PM, ceased 2007-10-17)."
+    }
   },
   {
     "role": "Board Member",
@@ -38529,7 +38624,12 @@
       "https://www.openaustralia.org.au/senate/?id=2017-06-22.148.2"
     ],
     "pollie_slug": "concetto-sciacca",
-    "start_date": "2014-03-01"
+    "start_date": "2014-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "SBS identifies Con Sciacca as appointed to the Anzac Centenary Public Fund board; OpenAustralia parliamentary record states 'As recently as March 2014, Con took up a place as deputy chair of the Anzac Centenary Public Fund'. Role, organisation and start date confirmed."
+    }
   },
   {
     "role": "Founder",
