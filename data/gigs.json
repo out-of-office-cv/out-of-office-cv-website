@@ -41360,5 +41360,16 @@
       "by": "claude",
       "note": "Wikipedia indicates sports management (including managing Jason Gillespie and Byron Pickett) occurred during Richardson's police career, before his 2004 entry into federal parliament. This is a pre-parliamentary role, not post-parliamentary."
     }
+  },
+  {
+    "role": "Barrister (Door Tenant, Honorary)",
+    "organisation": "Francis Burt Chambers",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.francisburt.com.au/barristers/daryl-williams-am-kc/",
+      "https://www.francisburt.com.au/honorary/daryl-williams-am-kc/"
+    ],
+    "pollie_slug": "daryl-williams",
+    "start_date": "2004"
   }
 ]
