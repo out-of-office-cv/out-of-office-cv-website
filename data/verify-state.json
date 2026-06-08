@@ -1727,7 +1727,7 @@
     "last_examined_at": "2026-06-04T00:00:00.000Z"
   },
   "john-fahey|Chair|Australian Building Codes Board|2017-11-06": {
-    "last_examined_at": "2026-05-21T02:18:31.670Z"
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
   },
   "john-fahey|Chair|Australian Rugby League Development Limited|null": {
     "last_examined_at": "2026-05-21T02:18:31.670Z"
@@ -1820,7 +1820,9 @@
   "john-kerin|Director|Milliton Coal Australia Pty Ltd|2001-01-01": {
     "last_examined_at": "2026-05-22T14:21:42.410Z"
   },
-  "john-langmore|Chair, Advisory Board|Initiative for Peacebuilding, University of Melbourne|null": "2026-05-28T02:11:45.655Z",
+  "john-langmore|Chair, Advisory Board|Initiative for Peacebuilding, University of Melbourne|null": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
   "john-langmore|Director, Division for Social Policy and Development|United Nations Department of Economic and Social Affairs|1997-01-01": "2026-05-28T02:11:45.655Z",
   "john-langmore|Director|International Campaign to Abolish Nuclear Weapons|2006-05-01": "2026-05-28T02:11:45.655Z",
   "john-langmore|National President|United Nations Association of Australia|2005-01-01": "2026-05-28T02:11:45.655Z",
@@ -1945,7 +1947,9 @@
   "john-woodley|National President|Australian Progressive Alliance|2003-04-03": "2026-05-26T08:14:50.293Z",
   "judi-moylan|Government Affairs Adviser|Diabetes Australia|2019-01-01": "2026-06-05T00:00:00.000Z",
   "judi-moylan|President & Chair of the Board|Diabetes Australia|2013-09-01": "2026-06-05T00:00:00.000Z",
-  "julia-banks|Advisory Board Member|Mentor List|null": "2026-05-07T08:04:32.446Z",
+  "julia-banks|Advisory Board Member|Mentor List|null": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
   "julia-banks|Advisor|Climate 200|2021-10-01": "2026-05-07T08:04:32.446Z",
   "julia-banks|Founder|Julia Banks Advisory|null": "2026-05-07T08:04:32.446Z",
   "julia-banks|Special Advisor in Gender and Politics|Gender Equity Victoria|2020-05-27": "2026-05-07T08:04:32.446Z",
@@ -1956,7 +1960,9 @@
   "julia-gillard|Nonresident Distinguished Fellow|Brookings Institution|2013-10-01": "2026-05-01T16:06:51Z",
   "julia-gillard|Royal Commissioner|SA Royal Commission into Early Childhood Education and Care|2022-10-01": "2026-05-01T16:06:51Z",
   "julian-beale|Chair|Adacel Technologies|2003-09-01": "2026-05-27T00:00:00.000Z",
-  "julian-beale|Director|Visy Industries|null": "2026-05-27T00:00:00.000Z",
+  "julian-beale|Director|Visy Industries|null": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
   "julian-beale|Non-Executive Director|Adacel Technologies|2003-06-01": "2026-05-27T00:00:00.000Z",
   "julian-mcgauran|Secondary School Teacher|Genazzano FCJ College|2012-01-01": "2026-06-03T00:00:00.000Z",
   "julian-mcgauran|Secondary School Teacher|Ivanhoe Girls' Grammar School|null": "2026-06-03T00:00:00.000Z",
@@ -2005,7 +2011,9 @@
   "kay-hull|Chair|Australian National Advisory Council on Alcohol and Drugs|2014-12-01": "2026-05-18T08:04:15.777Z",
   "kay-hull|Chair|Rural Industries Research and Development Corporation|2016-09-01": "2026-05-18T08:04:15.777Z",
   "kay-hull|Federal President|National Party of Australia|null": "2026-05-18T08:04:15.777Z",
-  "kay-hull|Member|NSW Skills Board|null": "2026-05-18T08:04:15.777Z",
+  "kay-hull|Member|NSW Skills Board|null": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
   "kay-patterson|Age Discrimination Commissioner|Australian Human Rights Commission|2016-07-28": "2026-05-01T16:06:51Z",
   "kay-patterson|Commissioner|National Mental Health Commission|2014-01-01": "2026-05-01T16:06:51Z",
   "kay-patterson|Director|Brockhoff Foundation|2008-01-01": "2026-05-01T16:06:51Z",
@@ -3947,5 +3955,50 @@
   "james-webster|High Commissioner to New Zealand|Australian Government Department of Foreign Affairs and Trade|1980-02-02": "2026-06-09T00:00:00.000Z",
   "janet-rice|Facilitator and Trainer|Janet Rice Facilitation and Training|2024-04-19": "2026-06-09T00:00:00.000Z",
   "jean-jenkins|Adviser|Australian Democrats|1990-07-01": "2026-06-09T00:00:00.000Z",
-  "john-alexander|Public Speaker|Celebrity Speakers Australia|null": "2026-06-09T00:00:00.000Z"
+  "john-alexander|Public Speaker|Celebrity Speakers Australia|null": "2026-06-09T00:00:00.000Z",
+  "kym-richardson|Real Estate Agent|Elders Real Estate|null": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "kym-richardson|Real Estate Agent|Professionals Hallett Cove|null": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "kym-richardson|Councillor|City of Onkaparinga|2010-11-01": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "kym-richardson|Sports Manager|Self-employed|null": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "john-cotter|Federal President|Royal Flying Doctor Service of Australia|null": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "john-hodges|Pharmacy Owner|Bribie Island pharmacies (Bongaree)|1987-07-11": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "john-hogg|Board Member|McKell Institute Queensland|2018-09-01": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "john-mcleay|Consul-General to Los Angeles|Government of Australia|1981": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "john-morris|President (NSW), then Honorary President|Federated Liquor and Allied Industries Employees' Union / Liquor, Hospitality and Miscellaneous Workers' Union|1990-07-01": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "john-quirke|Non-executive Director|Hillgrove Resources|2005-01-01": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "john-watson|Councillor|West Tamar Council|2008-01-01": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "josephine-vallentine|Co-founder|Alternatives to Violence Project Western Australia|1994-01-01": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "judith-troeth|Chair, Board of Directors|Austin Health|2012-07-01": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "kay-elson|Advocate and Consultant|Kay Elson Consultant|null": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "keith-pitt|Ambassador to the Holy See|Australian Government (DFAT)|2025-02-16": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  }
 }

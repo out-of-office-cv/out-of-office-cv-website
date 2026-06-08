@@ -3040,7 +3040,12 @@
       "https://zenit.org/2025/02/18/australian-government-appoints-keith-pitt-as-new-ambassador-to-the-holy-see"
     ],
     "pollie_slug": "keith-pitt",
-    "start_date": "2025-02-16"
+    "start_date": "2025-02-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple strong sources (Catholic Outlook, Zenit.org, Vatican press office) confirm Keith Pitt's appointment as Ambassador to the Holy See announced 16 February 2025, after his parliamentary departure on 19 January 2025. Vatican records show credential presentation on 3 June 2025."
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -4564,11 +4569,17 @@
     "organisation": "West Tamar Council",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.examiner.com.au/story/2611487/west-tamar-council-candidates/"
+      "https://www.examiner.com.au/story/2611487/west-tamar-council-candidates/",
+      "https://www.examiner.com.au/story/9043385/long-serving-tasmanian-politician-john-watson-remembered/"
     ],
     "pollie_slug": "john-watson",
     "start_date": "2008-01-01",
-    "end_date": "2013-12-31"
+    "end_date": "2013-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "John Watson (Liberal, Tasmania, ceased 2008-06-30) confirmed as West Tamar Council candidate/councillor in The Examiner; multiple sources confirm he served ~five years on the council after leaving the Senate. Identity verified as the same person, not a namesake."
+    }
   },
   {
     "role": "Director",
@@ -5120,7 +5131,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "QEI Foundation's own board page confirms Jane Prentice as Director and explicitly identifies her as the former MP for the Division of Ryan (2010\u20132019)."
+      "note": "QEI Foundation's own board page confirms Jane Prentice as Director and explicitly identifies her as the former MP for the Division of Ryan (2010–2019)."
     }
   },
   {
@@ -5928,7 +5939,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Wheeler Centre profile confirms the role. Multiple other sources (Perth USAsia Centre bio, wheeler centre) corroborate Chair of Asia Desk at Lavan 2014\u20132017, consistent with end_date."
+      "note": "Wheeler Centre profile confirms the role. Multiple other sources (Perth USAsia Centre bio, wheeler centre) corroborate Chair of Asia Desk at Lavan 2014–2017, consistent with end_date."
     }
   },
   {
@@ -7193,7 +7204,12 @@
       "https://mckellinstitute.org.au/the-mckell-institute-queensland-unveils-its-board/"
     ],
     "pollie_slug": "john-hogg",
-    "start_date": "2018-09-01"
+    "start_date": "2018-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "John Hogg confirmed as board member of McKell Institute Queensland from September 2018 by official organisation source. Identity unambiguous (full name 'John Joseph Hogg' with matching Senate credentials)."
+    }
   },
   {
     "role": "Director",
@@ -7763,7 +7779,12 @@
     "sources": [
       "https://mentorlist.com/mentors/julia-banks/"
     ],
-    "pollie_slug": "julia-banks"
+    "pollie_slug": "julia-banks",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Julia Banks confirmed as Mentor List Advisory Board Member on her official website (juliabanks.net). Identity verified: former Chisholm MP (2016-2019). Role and organisation match; appointment aligns with post-parliament timeframe."
+    }
   },
   {
     "role": "Student Ombudsman",
@@ -8049,7 +8070,7 @@
   },
   {
     "role": "Programme Director, Skoll Centre for Social Entrepreneurs",
-    "organisation": "Sa\u00efd Business School, University of Oxford",
+    "organisation": "Saïd Business School, University of Oxford",
     "category": "Education, Academia & Research",
     "sources": [
       "https://en.wikipedia.org/wiki/Cheryl_Kernot",
@@ -8549,10 +8570,16 @@
     "category": "Health, Medical & Aged Care",
     "sources": [
       "https://en.wikipedia.org/wiki/Judith_Troeth",
-      "https://www.premier.vic.gov.au/new-health-service-board-chairs-announced"
+      "https://www.premier.vic.gov.au/new-health-service-board-chairs-announced",
+      "https://www.wheelercentre.com/people/judith-troeth"
     ],
     "pollie_slug": "judith-troeth",
-    "start_date": "2012-07-01"
+    "start_date": "2012-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia and The Wheeler Centre that Judith Troeth was appointed Chair of the Board of Austin Health in July 2012, after leaving parliament in June 2011."
+    }
   },
   {
     "role": "Co-founder",
@@ -8563,7 +8590,12 @@
       "https://australianfriend.org/know-thy-friend-jo-vallentine/"
     ],
     "pollie_slug": "josephine-vallentine",
-    "start_date": "1994-01-01"
+    "start_date": "1994-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Multiple authoritative sources confirm Jo Vallentine helped co-found Alternatives to Violence Project Western Australia in 1994 with other local Quakers. Dates align with her 1992 Senate exit."
+    }
   },
   {
     "role": "Member Representative Director",
@@ -9727,7 +9759,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Wikipedia explicitly lists this as a post-parliamentary role. Gareth Evans served as Deputy Opposition Leader and Shadow Treasurer from 1996 to 1998, after the ALP lost government in the March 1996 federal election \u2014 squarely after Wheelwright left the Senate in June 1996."
+      "note": "Wikipedia explicitly lists this as a post-parliamentary role. Gareth Evans served as Deputy Opposition Leader and Shadow Treasurer from 1996 to 1998, after the ALP lost government in the March 1996 federal election — squarely after Wheelwright left the Senate in June 1996."
     }
   },
   {
@@ -11027,7 +11059,12 @@
     ],
     "pollie_slug": "john-mcleay",
     "start_date": "1981",
-    "end_date": "1983"
+    "end_date": "1983",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia (John McLeay Jr. and the 1981 Boothby by-election) plus the Australian Dictionary of Biography. McLeay resigned from parliament on 22 January 1981 and took up the Consul-General role in Los Angeles for 1981-1983."
+    }
   },
   {
     "role": "General store operator",
@@ -11201,7 +11238,12 @@
     ],
     "pollie_slug": "john-quirke",
     "start_date": "2005-01-01",
-    "end_date": "2013-12-31"
+    "end_date": "2013-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Both Wikipedia and Senate biography confirm John Quirke served as non-executive director of Hillgrove Resources from 2005 to 2013. Identity clearly established as the former ALP Senator from SA (ceased 2000)."
+    }
   },
   {
     "role": "Retired",
@@ -11340,7 +11382,12 @@
       "https://biography.senate.gov.au/morris-john-joseph/"
     ],
     "pollie_slug": "john-morris",
-    "start_date": "1990-07-01"
+    "start_date": "1990-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography and Wikipedia confirm Morris was NSW President of the Liquor Trades' Union (part of the Federated Liquor and Allied Industries Employees' Union) after leaving parliament on 30 June 1990. The union merged in 1992 to form the Liquor, Hospitality and Miscellaneous Workers' Union; he was later appointed Honorary President, matching 'President (NSW), then Honorary President'."
+    }
   },
   {
     "role": "Inaugural Chairman",
@@ -13149,7 +13196,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Parliament of Tasmania records confirm Goodluck served as Member for Franklin 24 Feb 1996 \u2013 22 Jul 1998, after leaving federal parliament in 1993."
+      "note": "Parliament of Tasmania records confirm Goodluck served as Member for Franklin 24 Feb 1996 – 22 Jul 1998, after leaving federal parliament in 1993."
     }
   },
   {
@@ -14187,7 +14234,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Mick_Cotter"
     ],
-    "pollie_slug": "john-cotter"
+    "pollie_slug": "john-cotter",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia article on Mick Cotter (John Francis Cotter) confirms he served on the RFDS national council for 26 years including a period as Federal President. The role occurred during his post-parliamentary career (left office 1980). Exact dates of Federal President tenure are not specified in the source."
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -15293,7 +15345,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Multiple strong sources confirm: Senate biography lists her as 'principal consultant for Capitol Research (1993\u20131996)', Wikipedia notes she 'acted as a lobbyist for Capitol Research, a small corporate communications company run by her and her husband', and the Macquarie University profile lists 'Principal, Capitol Research \u00b7 1993 \u2192 1996'."
+      "note": "Multiple strong sources confirm: Senate biography lists her as 'principal consultant for Capitol Research (1993–1996)', Wikipedia notes she 'acted as a lobbyist for Capitol Research, a small corporate communications company run by her and her husband', and the Macquarie University profile lists 'Principal, Capitol Research · 1993 → 1996'."
     }
   },
   {
@@ -15311,7 +15363,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Confirmed by multiple strong sources. Macquarie University researcher profile lists 'Assistant Curator, The Nicholson Museum \u00b7 Aug 1996 \u2013 Dec 2005'. Wikipedia and the Senate biography both confirm the 1996\u20132005 period."
+      "note": "Confirmed by multiple strong sources. Macquarie University researcher profile lists 'Assistant Curator, The Nicholson Museum · Aug 1996 – Dec 2005'. Wikipedia and the Senate biography both confirm the 1996–2005 period."
     }
   },
   {
@@ -15329,7 +15381,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Confirmed by multiple strong sources. Macquarie University profile lists 'Chief Executive Officer, Anglican Deaconess Ministries Ltd \u00b7 Sept 2008 \u2013 Feb 2015'. The Sydney Anglicans article on the new CEO appointment confirms Dr Karin Sowada departed in February 2015."
+      "note": "Confirmed by multiple strong sources. Macquarie University profile lists 'Chief Executive Officer, Anglican Deaconess Ministries Ltd · Sept 2008 – Feb 2015'. The Sydney Anglicans article on the new CEO appointment confirms Dr Karin Sowada departed in February 2015."
     }
   },
   {
@@ -15346,7 +15398,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Confirmed by the Macquarie University researcher profile, which lists 'Non-Executive Director, Mission Australia \u00b7 Jul 2008 \u2013 Nov 2017'. End date corrected from 2017-12-31 to 2017-11-30 to match the Macquarie profile."
+      "note": "Confirmed by the Macquarie University researcher profile, which lists 'Non-Executive Director, Mission Australia · Jul 2008 – Nov 2017'. End date corrected from 2017-12-31 to 2017-11-30 to match the Macquarie profile."
     }
   },
   {
@@ -15551,7 +15603,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Howard became IDU Chair in 2002 while still PM, continuing post-parliament until 2014. The IDU statement confirms longest-serving Chairman (2002\u20132014)."
+      "note": "Howard became IDU Chair in 2002 while still PM, continuing post-parliament until 2014. The IDU statement confirms longest-serving Chairman (2002–2014)."
     }
   },
   {
@@ -15567,7 +15619,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "IDU honorary-advisory-board page lists John Howard (Prime Minister of Australia 1996\u20132007). Stephen Harper's IDU statement confirms he remains a member of the Honorary Advisory Board."
+      "note": "IDU honorary-advisory-board page lists John Howard (Prime Minister of Australia 1996–2007). Stephen Harper's IDU statement confirms he remains a member of the Honorary Advisory Board."
     }
   },
   {
@@ -15662,7 +15714,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "USSC people page lists Howard as a Council of Advisors member; profile identifies him as former PM (1996\u20132007), no same-name confusion."
+      "note": "USSC people page lists Howard as a Council of Advisors member; profile identifies him as former PM (1996–2007), no same-name confusion."
     }
   },
   {
@@ -15996,7 +16048,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Wikipedia article on Ron Edwards (Australian politician) explicitly states he 'hosted a talkback radio show on 6PR' after losing his seat in 1993. Identity is unambiguous \u2014 the Wikipedia article is solely about the former MP for Stirling."
+      "note": "Wikipedia article on Ron Edwards (Australian politician) explicitly states he 'hosted a talkback radio show on 6PR' after losing his seat in 1993. Identity is unambiguous — the Wikipedia article is solely about the former MP for Stirling."
     }
   },
   {
@@ -16028,7 +16080,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Business News profile confirms 'Board Member, Anglican Schools Commission (1994\u2013present)', explicitly identifying him as a former federal MP and Deputy Speaker. Wikipedia corroborates."
+      "note": "Business News profile confirms 'Board Member, Anglican Schools Commission (1994–present)', explicitly identifying him as a former federal MP and Deputy Speaker. Wikipedia corroborates."
     }
   },
   {
@@ -16046,7 +16098,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Business News lists Perth Mint Non-Executive Director 2005\u2013present; ADB/Labour Australia biography specifies director of the Perth Mint (2005\u201315). Identity unambiguous."
+      "note": "Business News lists Perth Mint Non-Executive Director 2005–present; ADB/Labour Australia biography specifies director of the Perth Mint (2005–15). Identity unambiguous."
     }
   },
   {
@@ -16064,7 +16116,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Business News lists Potato Marketing Corporation Non-Executive Chair 2013\u20132017; ADB/Labour Australia biography specifies director of the Potato Marketing Corporation (2013\u201317)."
+      "note": "Business News lists Potato Marketing Corporation Non-Executive Chair 2013–2017; ADB/Labour Australia biography specifies director of the Potato Marketing Corporation (2013–17)."
     }
   },
   {
@@ -16081,7 +16133,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "ADB/Labour Australia biography (the politician, not the folklorist) confirms he was a member of the National Landcare advisory committee (2014\u201317). The LinkedIn source returns 404 and is removed."
+      "note": "ADB/Labour Australia biography (the politician, not the folklorist) confirms he was a member of the National Landcare advisory committee (2014–17). The LinkedIn source returns 404 and is removed."
     }
   },
   {
@@ -16099,7 +16151,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Business News lists WA Fishing Industry Council Non-Executive Chair 2018\u20132020. Wikipedia and ADB/Labour Australia biography corroborate."
+      "note": "Business News lists WA Fishing Industry Council Non-Executive Chair 2018–2020. Wikipedia and ADB/Labour Australia biography corroborate."
     }
   },
   {
@@ -16833,7 +16885,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "The International Advisory Council of the CHEGA! National Centre was appointed by order of Prime Minister Xanana Gusm\u00e3o on 27 September 2023 for a three-year term (2023\u20132026). The originally listed source timor-leste.gov.tl/?p=44229 covers a 2025 meeting and does not name Saffin; removed in favour of remaining sources."
+      "note": "The International Advisory Council of the CHEGA! National Centre was appointed by order of Prime Minister Xanana Gusmão on 27 September 2023 for a three-year term (2023–2026). The originally listed source timor-leste.gov.tl/?p=44229 covers a 2025 meeting and does not name Saffin; removed in favour of remaining sources."
     }
   },
   {
@@ -17045,7 +17097,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Wikipedia and multiple sources confirm Ridgeway chaired Bangarra Dance Theatre 1998\u20132010. While the role began pre-parliament (1998), it continued well past his senate departure in June 2005. The post-parliamentary portion of this chairmanship is valid."
+      "note": "Wikipedia and multiple sources confirm Ridgeway chaired Bangarra Dance Theatre 1998–2010. While the role began pre-parliament (1998), it continued well past his senate departure in June 2005. The post-parliamentary portion of this chairmanship is valid."
     }
   },
   {
@@ -17586,7 +17638,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Mahony Law's official people page explicitly names Alan Cadman as 'Chairman, Client Development', confirms he represented Mitchell electorate for 34 years, and notes his post-parliament roles including chairing Life Education NSW \u2014 unambiguously the same person."
+      "note": "Mahony Law's official people page explicitly names Alan Cadman as 'Chairman, Client Development', confirms he represented Mitchell electorate for 34 years, and notes his post-parliament roles including chairing Life Education NSW — unambiguously the same person."
     }
   },
   {
@@ -18348,7 +18400,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "CRCSI operated 2003\u20132018; end_date of 2018 is consistent with the organisation winding up."
+      "note": "CRCSI operated 2003–2018; end_date of 2018 is consistent with the organisation winding up."
     }
   },
   {
@@ -18408,7 +18460,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Mulloon Institute about page confirms 'Inaugural Board Director (2011\u20132024)'. Nairn passed away June 2024, consistent with the end date."
+      "note": "Mulloon Institute about page confirms 'Inaugural Board Director (2011–2024)'. Nairn passed away June 2024, consistent with the end date."
     }
   },
   {
@@ -18425,7 +18477,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Mulloon Institute about page confirms Chairman 2018\u20132023. Correcting end_date from 2024-01-01 to 2023-01-01 to match the authoritative source."
+      "note": "Mulloon Institute about page confirms Chairman 2018–2023. Correcting end_date from 2024-01-01 to 2023-01-01 to match the authoritative source."
     }
   },
   {
@@ -18455,7 +18507,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "region.com.au obituary explicitly lists 'Biodiversity and Conservation Trust of NSW \u2013 Director' among his post-parliamentary roles."
+      "note": "region.com.au obituary explicitly lists 'Biodiversity and Conservation Trust of NSW – Director' among his post-parliamentary roles."
     }
   },
   {
@@ -20922,7 +20974,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Carroll & O'Dea Lawyers press release and Lawyers Weekly confirm McClelland was a partner in the firm's Employment and Industrial Relations division. End date 2015-06-16 aligns with his judicial appointment. Start date cannot be precisely verified from sources\u2014admitted as barrister in 2011, so partnership period may have begun later, but 2013-08-05 (parliamentary cessation) is plausible as a career transition point."
+      "note": "Carroll & O'Dea Lawyers press release and Lawyers Weekly confirm McClelland was a partner in the firm's Employment and Industrial Relations division. End date 2015-06-16 aligns with his judicial appointment. Start date cannot be precisely verified from sources—admitted as barrister in 2011, so partnership period may have begun later, but 2013-08-05 (parliamentary cessation) is plausible as a career transition point."
     }
   },
   {
@@ -24041,8 +24093,15 @@
     "organisation": "NSW Skills Board",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://members.nsw.liberal.org.au/news/state-news/new-nsw-skills-board-lead-smart-and-skilled"
-    ]
+      "https://members.nsw.liberal.org.au/news/state-news/new-nsw-skills-board-lead-smart-and-skilled",
+      "https://www.training.nsw.gov.au/skills_board/members/kay_hull.html",
+      "https://www.industry.nsw.gov.au/about/advisory-bodies/nsw-skills-board/about-us/kay-hull"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Kay Hull's membership of the NSW Skills Board is confirmed by multiple authoritative NSW government sources. She was a founding member when the board was established under the Skills Board Act 2013. Identity as former Nationals MP for Riverina (1998-2010) clearly established."
+    }
   },
   {
     "pollie_slug": "kay-hull",
@@ -24760,7 +24819,12 @@
     "category": "Science, Engineering & Technical Professions",
     "sources": [
       "https://en.wikipedia.org/wiki/Julian_Beale"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Julian Beale was a director of Visy Industries after leaving parliament in 1996. Identity confirmed via parliamentary service dates and biographical details."
+    }
   },
   {
     "pollie_slug": "michael-wooldridge",
@@ -25778,7 +25842,12 @@
     ],
     "pollie_slug": "john-hodges",
     "start_date": "1987-07-11",
-    "end_date": "2018-01-01"
+    "end_date": "2018-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms John Hodges (Petrie MP) purchased a pharmacy in Bongaree, Bribie Island in 1987 upon leaving parliament and retired from the business in 2018. Role, organisation, and dates all match."
+    }
   },
   {
     "role": "Chief of Staff",
@@ -26900,7 +26969,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Senate biography confirms Kilgariff was Deputy Administrator for the Northern Territory 1990\u20131997, after leaving the Senate in 1987."
+      "note": "Senate biography confirms Kilgariff was Deputy Administrator for the Northern Territory 1990–1997, after leaving the Senate in 1987."
     }
   },
   {
@@ -27484,11 +27553,16 @@
     "organisation": "Australian Building Codes Board",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.abcb.gov.au/Connect/Articles/2017/11/Introducing-the-new-Chair-of-the-ABCB"
+      "https://www.abcb.gov.au/news/2017/introducing-new-chair-abcb-john-fahey"
     ],
     "pollie_slug": "john-fahey",
     "start_date": "2017-11-06",
-    "end_date": "2020-09-12"
+    "end_date": "2020-09-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "John Fahey took office as ABCB Chair on 6 November 2017. He died 12 September 2020 (matches the end_date). Original source URL is 404; confirmed via ABCB news page and multiple authoritative sources."
+    }
   },
   {
     "role": "Mortgage Broker and Finance Consultant",
@@ -28770,7 +28844,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Wikipedia confirms Area Councillor for City of Adelaide 22 Nov 2018 \u2013 30 Mar 2021; personal website and SA Greens corroborate. Council page no longer lists him (historical role)."
+      "note": "Wikipedia confirms Area Councillor for City of Adelaide 22 Nov 2018 – 30 Mar 2021; personal website and SA Greens corroborate. Council page no longer lists him (historical role)."
     }
   },
   {
@@ -31441,7 +31515,7 @@
   },
   {
     "role": "Member, Legal Commission",
-    "organisation": "F\u00e9d\u00e9ration Internationale de Volleyball",
+    "organisation": "Fédération Internationale de Volleyball",
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://en.wikipedia.org/wiki/Chris_Schacht",
@@ -31456,7 +31530,7 @@
   },
   {
     "role": "Member, Board of Administration",
-    "organisation": "F\u00e9d\u00e9ration Internationale de Volleyball",
+    "organisation": "Fédération Internationale de Volleyball",
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://en.wikipedia.org/wiki/Chris_Schacht",
@@ -34251,7 +34325,7 @@
   },
   {
     "role": "Administrator of Christmas Island and Cocos (Keeling) Islands",
-    "organisation": "Australian Government \u2014 Indian Ocean Territories Administration",
+    "organisation": "Australian Government — Indian Ocean Territories Administration",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://en.wikipedia.org/wiki/Natasha_Griggs",
@@ -35580,7 +35654,12 @@
       "https://arts.unimelb.edu.au/peacebuilding/people/professor-john-langmore-am",
       "https://findanexpert.unimelb.edu.au/profile/118963-john-langmore"
     ],
-    "pollie_slug": "john-langmore"
+    "pollie_slug": "john-langmore",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via University of Melbourne official sources. John Langmore is Chair of the Advisory Board of the Initiative for Peacebuilding at the University of Melbourne. Role commenced after his parliamentary retirement on 6 December 1996."
+    }
   },
   {
     "role": "Public Officer",
@@ -35779,7 +35858,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Confirmed by Senate biography and Tinte\u00e1n article. Cooney practised at the Victorian Bar in industrial law with pro bono cases after leaving Senate in 2002."
+      "note": "Confirmed by Senate biography and Tinteán article. Cooney practised at the Victorian Bar in industrial law with pro bono cases after leaving Senate in 2002."
     }
   },
   {
@@ -35826,7 +35905,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Tinte\u00e1n article (Bernie Brophy) confirms Cooney as Patron of Australians for Peace in Ireland; identity confirmed via Senate biography (ALP Senator Vic 1984-2002)."
+      "note": "Tinteán article (Bernie Brophy) confirms Cooney as Patron of Australians for Peace in Ireland; identity confirmed via Senate biography (ALP Senator Vic 1984-2002)."
     }
   },
   {
@@ -37187,7 +37266,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Wikipedia confirms membership of a native title/claims tribunal; source names 'National Native Claims Tribunal' while gig lists 'National Native Title Tribunal' \u2014 same body (NNTT, est. 1993)."
+      "note": "Wikipedia confirms membership of a native title/claims tribunal; source names 'National Native Claims Tribunal' while gig lists 'National Native Title Tribunal' — same body (NNTT, est. 1993)."
     }
   },
   {
@@ -37540,7 +37619,12 @@
     "sources": [
       "https://www.linkedin.com/in/kay-elson-41247861/"
     ],
-    "pollie_slug": "kay-elson"
+    "pollie_slug": "kay-elson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Kay Elson (Liberal MP for Forde, ceased 17 October 2007) confirmed as advocate/consultant via LinkedIn profile and corroborating search references. Role and organisation match; post-parliament timing is plausible."
+    }
   },
   {
     "role": "Advisor to the President of the Senate",
@@ -37772,7 +37856,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Head Coach of Australian Women's Hockey Team (Hockeyroos) 1993\u20132000 confirmed across Wikipedia, official CV, and multiple sports sources. Led team to Olympic gold (1996, 2000), multiple World Cups, and Champions Trophies."
+      "note": "Head Coach of Australian Women's Hockey Team (Hockeyroos) 1993–2000 confirmed across Wikipedia, official CV, and multiple sports sources. Led team to Olympic gold (1996, 2000), multiple World Cups, and Champions Trophies."
     }
   },
   {
@@ -37789,7 +37873,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Board Member of Australian Sports Commission 1994\u20131997 confirmed on official CV and Wikipedia. Dates and role align with post-parliament period."
+      "note": "Board Member of Australian Sports Commission 1994–1997 confirmed on official CV and Wikipedia. Dates and role align with post-parliament period."
     }
   },
   {
@@ -37806,7 +37890,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Board Member of Western Australian Institute of Sport 2001\u20132005 confirmed across multiple sources. Note: he previously served 1984\u20131992 (pre-parliament)."
+      "note": "Board Member of Western Australian Institute of Sport 2001–2005 confirmed across multiple sources. Note: he previously served 1984–1992 (pre-parliament)."
     }
   },
   {
@@ -37840,7 +37924,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Technical Adviser to Hockey India October 2007\u2013December 2008 confirmed across multiple sources including Platinum Speakers and Wikipedia."
+      "note": "Technical Adviser to Hockey India October 2007–December 2008 confirmed across multiple sources including Platinum Speakers and Wikipedia."
     }
   },
   {
@@ -37857,7 +37941,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Head Coach of Australian Men's Hockey Team (Kookaburras) 2009\u20132014 verified. Multiple sources confirm appointment in 2009 and resignation after 2014 World Cup."
+      "note": "Head Coach of Australian Men's Hockey Team (Kookaburras) 2009–2014 verified. Multiple sources confirm appointment in 2009 and resignation after 2014 World Cup."
     }
   },
   {
@@ -37929,7 +38013,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Assistant Coach to Chinese Women's National Hockey Team 2022\u20132024 verified across multiple sources. Started during pandemic (2020), confirmed in two independent news sources (China Daily HK and news.cn). Ongoing work with head coach Alyson Annan."
+      "note": "Assistant Coach to Chinese Women's National Hockey Team 2022–2024 verified across multiple sources. Started during pandemic (2020), confirmed in two independent news sources (China Daily HK and news.cn). Ongoing work with head coach Alyson Annan."
     }
   },
   {
@@ -38813,7 +38897,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Wikipedia confirms Haase served as Administrator of the Indian Ocean Territories Oct 2014 \u2013 Oct 2017, after leaving parliament Aug 2013."
+      "note": "Wikipedia confirms Haase served as Administrator of the Indian Ocean Territories Oct 2014 – Oct 2017, after leaving parliament Aug 2013."
     }
   },
   {
@@ -40896,7 +40980,7 @@
     "verification": {
       "decision": "verified",
       "by": "claude",
-      "note": "Facebook source appears outdated/refers to a different period; removed. The Conversation profile confirms 2014\u20132019 as CEO."
+      "note": "Facebook source appears outdated/refers to a different period; removed. The Conversation profile confirms 2014–2019 as CEO."
     }
   },
   {
@@ -41007,7 +41091,7 @@
     "verification": {
       "decision": "rejected",
       "by": "claude",
-      "note": "Chris Crewther does not appear on Zoe Support Australia\u2019s board as of June 2026; the org\u2019s site lists five other directors and neither the site nor the ACNC profile confirms him. Wikipedia lists the role without citation."
+      "note": "Chris Crewther does not appear on Zoe Support Australia’s board as of June 2026; the org’s site lists five other directors and neither the site nor the ACNC profile confirms him. Wikipedia lists the role without citation."
     }
   },
   {
@@ -41230,7 +41314,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Kym_Richardson"
     ],
-    "pollie_slug": "kym-richardson"
+    "pollie_slug": "kym-richardson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Real Estate Agent",
@@ -41239,7 +41327,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Kym_Richardson"
     ],
-    "pollie_slug": "kym-richardson"
+    "pollie_slug": "kym-richardson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Councillor",
@@ -41249,7 +41341,11 @@
       "https://en.wikipedia.org/wiki/Kym_Richardson"
     ],
     "pollie_slug": "kym-richardson",
-    "start_date": "2010-11-01"
+    "start_date": "2010-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Sports Manager",
@@ -41258,6 +41354,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Kym_Richardson"
     ],
-    "pollie_slug": "kym-richardson"
+    "pollie_slug": "kym-richardson",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Wikipedia indicates sports management (including managing Jason Gillespie and Byron Pickett) occurred during Richardson's police career, before his 2004 entry into federal parliament. This is a pre-parliamentary role, not post-parliamentary."
+    }
   }
 ]
