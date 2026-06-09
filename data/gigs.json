@@ -1574,8 +1574,7 @@
     "organisation": "New Chambers (Victorian Bar)",
     "category": "Legal & Judicial",
     "sources": [
-      "https://www.linkedin.com/in/keith-wolahan-b02b76108/",
-      "https://www.vicbar.com.au/Web/Web/Account/Barrister-Profile.aspx?ID=24453"
+      "https://www.linkedin.com/in/keith-wolahan-b02b76108/"
     ],
     "pollie_slug": "keith-wolahan",
     "start_date": "2025-06-01"
@@ -2310,7 +2309,12 @@
     ],
     "pollie_slug": "kevin-rudd",
     "start_date": "2015-01-01",
-    "end_date": "2021-01-01"
+    "end_date": "2023-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Kevin Rudd confirmed as inaugural president of Asia Society Policy Institute, started January 2015. End_date in gig record (2021-01-01) appears incorrect; multiple sources confirm he held this role until March 2023, when the 2021 date conflates his appointment as broader Asia Society President/CEO. End date corrected to 2023-03-01."
+    }
   },
   {
     "role": "President and CEO",
@@ -4649,7 +4653,12 @@
       "https://www.schf.org.au/blog/national-leader-kristina-keneally-joins-sydney-childrens-hospitals-foundation"
     ],
     "pollie_slug": "kristina-keneally",
-    "start_date": "2022-11-07"
+    "start_date": "2022-11-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Strong confirmation from official Sydney Children's Hospitals Foundation website. Kristina Keneally appointed CEO effective 7 November 2022, after departing the Senate on 13 April 2022. Identity confirmed via her parliamentary career."
+    }
   },
   {
     "role": "External Director",
@@ -5196,7 +5205,12 @@
       "https://www.cpahq.org/knowledge-centre/blogs/5-tips-for-new-mps/"
     ],
     "pollie_slug": "kevin-andrews",
-    "start_date": "2022-05-01"
+    "start_date": "2022-05-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Kevin Andrews, Liberal MP for Menzies (ceased 2022), was appointed as a Mentor to the Commonwealth Parliamentary Association's Parliamentary Academy in 2022 following his parliamentary retirement. Confirmed via multiple sources including the CPA website."
+    }
   },
   {
     "role": "Columnist",
@@ -6148,7 +6162,12 @@
       "https://www.nsw.gov.au/ministerial-releases/linda-burney-joins-uts-council-bringing-lifelong-commitment-to-education"
     ],
     "pollie_slug": "linda-burney",
-    "start_date": "2026-02-19"
+    "start_date": "2026-02-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Both sources are highly authoritative (UTS official news and NSW Government ministerial release). They explicitly identify Linda Burney as former MP and Minister for Indigenous Australians, eliminating namesake confusion. Role, organisation and start date all match her post-parliamentary timeline."
+    }
   },
   {
     "role": "Director",
@@ -10322,7 +10341,12 @@
       "https://en.wikipedia.org/wiki/Ken_Fry",
       "https://nla.gov.au/nla.obj-297231593/findingaid"
     ],
-    "pollie_slug": "kenneth-fry"
+    "pollie_slug": "kenneth-fry",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Kenneth Fry completed his PhD in Australian history at ANU under Professor Manning Clark after retiring from Parliament in 1984. National Library of Australia finding aid corroborates his thesis work in retirement. Identity and post-parliamentary timing confirmed."
+    }
   },
   {
     "role": "Member of the House of Assembly for Denison",
@@ -12939,7 +12963,12 @@
     "sources": [
       "https://www.businessnews.com.au/Person/Laurie-Brereton"
     ],
-    "pollie_slug": "laurie-brereton"
+    "pollie_slug": "laurie-brereton",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Laurie Brereton's role as Director of John Curtin House is confirmed by businessnews.com.au, which explicitly identifies him as director. John Curtin House is a Canberra-based ALP-owned holding company. Role and timing consistent with this specific former NSW Labor MP (ceased 2004-08-31)."
+    }
   },
   {
     "role": "Member of the House of Assembly",
@@ -14129,9 +14158,16 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://www.linkedin.com/in/kerryrea2021/",
-      "https://www.linkedin.com/in/kerry-rea-a172bb69/"
+      "https://www.linkedin.com/in/kerry-rea-a172bb69/",
+      "https://en.wikipedia.org/wiki/Kerry_Rea",
+      "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=HVR"
     ],
-    "pollie_slug": "kerry-rea"
+    "pollie_slug": "kerry-rea",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Kerry Rea (ALP, Bonner, ceased 21 August 2010) confirmed as working in the Office of the Vice-Chancellor and President at Griffith University after leaving parliament. LinkedIn profiles and search results establish her connection; parliamentary records confirm identity."
+    }
   },
   {
     "pollie_slug": "lou-lieberman",
@@ -14209,7 +14245,12 @@
       "https://cairnsnews.org/2021/07/10/join-len-harris-campaign-to-reverse-the-theft-and-destruction-of-queensland-paper-property-titles/",
       "https://www.gofundme.com/f/lenharris"
     ],
-    "start_date": "2019-01-01"
+    "start_date": "2019-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Len Harris confirmed as former One Nation federal Senator for Queensland (ceased 2005-06-30). The Silent Majority about page explicitly identifies him as 'former Senator Len Harris' driving the organisation. Multiple independent sources confirm his role as founder/campaigner; all post-date his parliamentary service."
+    }
   },
   {
     "pollie_slug": "david-charles",
@@ -15284,7 +15325,12 @@
     "sources": [
       "https://www.openaustralia.org.au/debate/?id=2008-02-21.122.1"
     ],
-    "pollie_slug": "leonard-keogh"
+    "pollie_slug": "leonard-keogh",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "OpenAustralia parliamentary condolence speech (Feb 2008) identifies Leonard Joseph Keogh, former member for Bowman (1983-1987), as Chairman of the South West Queensland Electricity Board. Confirmed post-parliamentary role."
+    }
   },
   {
     "role": "Chair",
@@ -27575,7 +27621,12 @@
       "https://en.wikipedia.org/wiki/Les_Scott"
     ],
     "pollie_slug": "leslie-scott",
-    "start_date": "1999-01-01"
+    "start_date": "1999-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Leslie James Scott (Member for Oxley 1988-1996 per Wikipedia) established Les Scott and Associates as a mortgage broking and finance consulting business in 1999, verified on the official company website which states 'Established in 1999'. Consistent with his 1996 parliamentary retirement; confirmed by brokerpages.com.au."
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -29198,7 +29249,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Kim_Wilkie"
     ],
-    "start_date": "2010"
+    "start_date": "2010",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia article on Kim Wilkie (Swan MP 1998-2007) states: 'In 2010, Wilkie was appointed chief executive of the Confederation of Meningitis Organizations,' cited from BusinessNews (22 April 2010). All details match; dates plausible."
+    }
   },
   {
     "role": "Head of Strategy",
@@ -29561,11 +29617,15 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://en.wikipedia.org/wiki/Roger_Price_(Australian_politician)",
-      "https://www.foreignminister.gov.au/minister/julie-bishop/media-release/consul-general-chicago",
-      "https://www.zoominfo.com/p/Roger-Price/1739862131"
+      "https://www.foreignminister.gov.au/minister/julie-bishop/media-release/consul-general-chicago"
     ],
     "start_date": "2011-11-01",
-    "end_date": "2015-12-31"
+    "end_date": "2015-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Leo Roger Spurway Price (commonly known as Roger Price) was member for Chifley NSW 1984-2010 and served as Consul-General in Chicago 2011-2015 (appointed 13 September 2011). The pollie record correctly uses his given name 'Leo'; sources reference his commonly-used middle name 'Roger'. Same person confirmed."
+    }
   },
   {
     "role": "Member of the Legislative Council",
@@ -30555,7 +30615,12 @@
     ],
     "pollie_slug": "les-mcmahon",
     "start_date": "1983",
-    "end_date": "1993"
+    "end_date": "1993",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Les McMahon was employed as a Commissioner of the NSW Conciliation and Arbitration Commission from approximately 1983 (a few months after retiring from parliament on 4 February 1983) until 1993. Matches role, organisation, category and timeframe."
+    }
   },
   {
     "role": "Artist and Author",
@@ -35462,7 +35527,12 @@
     ],
     "pollie_slug": "laurie-wallis",
     "start_date": "1983-02-04",
-    "end_date": "1984-01-10"
+    "end_date": "1984-01-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Laurie George Wallis (1922-1984), ALP MP for Grey, retired due to ill health at the 1983 federal election and died 10 January 1984. ANU obituary and Wikipedia confirm identity, dates, and retirement status."
+    }
   },
   {
     "role": "Secretary",
@@ -36366,7 +36436,12 @@
     ],
     "pollie_slug": "laurence-neal",
     "start_date": "1997-01-01",
-    "end_date": "1998-12-31"
+    "end_date": "1998-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Official Australian Senate biography confirms Laurence William Neal served as president of Wangaratta Rotary from 1997 until 1998. All details match; well after his Senate service ended in 1981."
+    }
   },
   {
     "role": "Commonwealth Parliamentary Research Fellow",
@@ -38839,13 +38914,16 @@
     "organisation": "Western Sydney Regional Organisation of Councils",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://wsroc.com.au/media-a-resources/wsroc-news-stories/wsroc-welcomes-new-ceo",
-      "https://www.linkedin.com/in/kerry-bartlett-07076143/",
-      "https://rocketreach.co/kerry-bartlett-email_66331655"
+      "https://wsroc.com.au/media-a-resources/wsroc-news-stories/wsroc-welcomes-new-ceo"
     ],
     "pollie_slug": "kerry-bartlett",
     "start_date": "2011-09-01",
-    "end_date": "2013-10-01"
+    "end_date": "2013-10-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Verified via WSROC official website which explicitly states Kerry Bartlett was CEO from September 2011 to October 2013. Identity confirmed as former Liberal MP for Macquarie (1996-2007). Dates and role match gig record."
+    }
   },
   {
     "role": "Independent Chair",
@@ -40151,7 +40229,12 @@
       "https://www.ibtimes.com.au/former-queensland-labor-keith-wright-dies-vietnam-1410095",
       "https://en.wikipedia.org/wiki/Keith_Wright_(Australian_politician)"
     ],
-    "pollie_slug": "keith-wright"
+    "pollie_slug": "keith-wright",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Both Wikipedia and IBTimes confirm Keith Wright (member for Capricornia, ceased 1993) established and ran the International Language Academy Australia as a TESOL teacher training business in Vietnam after his release from prison on parole in 1999. Timing is clearly post-parliament."
+    }
   },
   {
     "role": "Co-founder",
@@ -41370,6 +41453,11 @@
       "https://www.francisburt.com.au/honorary/daryl-williams-am-kc/"
     ],
     "pollie_slug": "daryl-williams",
-    "start_date": "2004"
+    "start_date": "2004",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Identity confirmed via Australian Parliament records (MPID 7V5) and Wikipedia. Daryl Robert Williams AM KC retired from parliament for Tangney on 31 August 2004. Francis Burt Chambers sources confirm his role as Door Tenant (honorary, not practising). Start date 2004 is plausible and aligns with his parliamentary retirement."
+    }
   }
 ]
