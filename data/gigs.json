@@ -4386,7 +4386,11 @@
       "https://www.zoominfo.com/p/Dio-Wang/5131117184",
       "https://au.linkedin.com/in/dio-wang"
     ],
-    "pollie_slug": "dio-wang"
+    "pollie_slug": "dio-wang",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Business Development Manager",
@@ -4395,7 +4399,11 @@
     "sources": [
       "https://www.zoominfo.com/p/Dio-Wang/5131117184"
     ],
-    "pollie_slug": "dio-wang"
+    "pollie_slug": "dio-wang",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Policy Advisor, National Management Committee",
@@ -4683,10 +4691,15 @@
     "organisation": "Sky News Australia",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://muckrack.com/nicolle-flint/articles"
+      "https://www.youtube.com/watch?v=DfCH22kUiW0",
+      "https://au.linkedin.com/in/nicolle-flint-5b770b2b4"
     ],
     "pollie_slug": "nicolle-flint",
-    "start_date": "2022-05-01"
+    "start_date": "2022-05-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Facilitator and Trainer",
@@ -4729,12 +4742,16 @@
     "organisation": "South Australian Government",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.premier.sa.gov.au/the-team/nick-champion-mp",
-      "https://premier.sa.gov.au/the-team/nick-champion-mp",
-      "https://www.parliament.sa.gov.au/Search/Member?id=6889&type=member"
+      "https://www.parliament.sa.gov.au/Search/Member?id=6889&type=member",
+      "https://en.wikipedia.org/wiki/Nick_Champion",
+      "https://www.udiasa.com.au/hon-nick-champion-mp-new-minister-for-planning-housing-and-urban-development/"
     ],
     "pollie_slug": "nick-champion",
-    "start_date": "2022-03-24"
+    "start_date": "2022-03-24",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Independent Chair",
@@ -4955,7 +4972,12 @@
     "sources": [
       "https://www.linkedin.com/in/hon-michael-keenan-52615b300/"
     ],
-    "pollie_slug": "michael-keenan"
+    "pollie_slug": "michael-keenan",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Michael Keenan is not listed on Adelaide Oval's official board page; current directors are Jamie Briggs (Chair) and seven others (confirmed June 2026). No announcement, news article, or corporate appointment tracker records Keenan joining Adelaide Oval. LinkedIn alone is insufficient, with no corroborating source and no dates."
+    }
   },
   {
     "role": "Founding Director",
@@ -4979,10 +5001,14 @@
     "organisation": "Kazaru",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "http://morningmail.org/chinas-push-political-influence-unabaited/"
+      "https://en.wikipedia.org/wiki/Nick_Bolkus"
     ],
     "pollie_slug": "nick-bolkus",
-    "start_date": "2016-01-01"
+    "start_date": "2016-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman of Directors",
@@ -8310,10 +8336,16 @@
     "category": "Technology (Software, IT & Digital Services)",
     "sources": [
       "https://www.canberratimes.com.au/story/6752504/mike-kelly-defends-new-role-with-palantir-after-quitting-parliament-due-to-health-issues/",
-      "https://michaelwest.com.au/hon-dr-mike-kelly-am/"
+      "https://michaelwest.com.au/hon-dr-mike-kelly-am/",
+      "https://www.crikey.com.au/2020/05/12/mike-kelly-joins-palantir/",
+      "https://en.wikipedia.org/wiki/Mike_Kelly_(Australian_politician)"
     ],
     "pollie_slug": "mike-kelly",
-    "start_date": "2020-05-10"
+    "start_date": "2020-05-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
@@ -11892,7 +11924,11 @@
       "https://biography.senate.gov.au/crichton-browne-noel-ashley/",
       "https://en.wikipedia.org/wiki/Brian_Burke_(Australian_politician)"
     ],
-    "pollie_slug": "noel-crichton-browne"
+    "pollie_slug": "noel-crichton-browne",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Political Columnist",
@@ -17519,7 +17555,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Mel_Bungey"
     ],
-    "pollie_slug": "melville-bungey"
+    "pollie_slug": "melville-bungey",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Office Holder (NSW Division)",
@@ -19825,7 +19865,6 @@
     "organisation": "State Sports Centres Trust",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://sport.vic.gov.au/news/articles/new-chair-appointed-for-state-sports-centres-trust",
       "https://en.wikipedia.org/wiki/Michael_Ronaldson"
     ],
     "pollie_slug": "michael-ronaldson",
@@ -34461,9 +34500,15 @@
     "organisation": "Chamber of Commerce Northern Territory",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://au.linkedin.com/in/natasha-griggs-gaicd-4b540320"
+      "https://au.linkedin.com/in/natasha-griggs-gaicd-4b540320",
+      "https://chambernt.com.au/Web/Web/News/Chamber-News/Media-Release-Chamber-of-Commerce-NT-announces-new-CEO-Glen-Hingley.aspx",
+      "https://www.zoominfo.com/p/Natasha-Griggs/5302513680"
     ],
-    "pollie_slug": "natasha-griggs"
+    "pollie_slug": "natasha-griggs",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -35055,7 +35100,11 @@
     ],
     "pollie_slug": "paul-calvert",
     "start_date": "2008",
-    "end_date": "2015"
+    "end_date": "2015",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Councillor",
@@ -36514,12 +36563,15 @@
     "organisation": "Foreign Investment Review Board",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.farmonline.com.au/story/3582399/secker-appointed-to-firb/",
-      "https://ministers.treasury.gov.au/ministers/josh-frydenberg-2018/media-releases/foreign-investment-review-board-appointment"
+      "https://www.farmonline.com.au/story/3582399/secker-appointed-to-firb/"
     ],
     "pollie_slug": "patrick-secker",
     "start_date": "2013-12-17",
-    "end_date": "2018-12-17"
+    "end_date": "2018-12-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Publishing Editor",
@@ -41258,9 +41310,14 @@
     "organisation": "Marrugeku",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://www.marrugeku.com.au/people/patrick-dodson/"
+      "https://www.marrugeku.com.au/people/patrick-dodson/",
+      "https://en.wikipedia.org/wiki/Pat_Dodson"
     ],
-    "pollie_slug": "pat-dodson"
+    "pollie_slug": "pat-dodson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -41610,11 +41667,16 @@
     "sources": [
       "https://www.businessnews.com.au/Person/Jamie-Briggs",
       "https://www.consultancy.com.au/news/7931/scyne-advisory-unveils-its-executive-team-for-now",
-      "https://au.linkedin.com/in/jamie-briggs-mba-gaicd"
+      "https://au.linkedin.com/in/jamie-briggs-mba-gaicd",
+      "https://www.pwc.com.au/about-us/firm-partners-2023.html"
     ],
     "pollie_slug": "jamie-briggs",
     "start_date": "2018-01-01",
-    "end_date": "2023-11-01"
+    "end_date": "2023-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Head of External Affairs",
@@ -41626,7 +41688,11 @@
       "https://au.linkedin.com/in/jamie-briggs-mba-gaicd"
     ],
     "pollie_slug": "jamie-briggs",
-    "start_date": "2023-11-01"
+    "start_date": "2023-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -41637,7 +41703,11 @@
       "https://www.saca.com.au/about/honour-board/office-bearers"
     ],
     "pollie_slug": "jamie-briggs",
-    "start_date": "2021-01-01"
+    "start_date": "2021-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -41649,7 +41719,11 @@
       "https://www.adelaideoval.com.au/our-board/"
     ],
     "pollie_slug": "jamie-briggs",
-    "start_date": "2026-03-25"
+    "start_date": "2026-03-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Adviser --- Politics and Campaigns",
@@ -41660,7 +41734,11 @@
       "https://en.wikipedia.org/wiki/Jamie_Briggs"
     ],
     "pollie_slug": "jamie-briggs",
-    "start_date": "2024-09-01"
+    "start_date": "2024-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Administrator",
@@ -41668,11 +41746,14 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://en.wikipedia.org/wiki/Bill_Taylor_(naval_officer)",
-      "https://en.wikipedia.org/wiki/Australian_Indian_Ocean_Territories",
-      "https://kids.kiddle.co/Bill_Taylor_(naval_officer)"
+      "https://en.wikipedia.org/wiki/Australian_Indian_Ocean_Territories"
     ],
     "pollie_slug": "bill-taylor",
     "start_date": "1999-02-04",
-    "end_date": "2003-07-30"
+    "end_date": "2003-07-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
