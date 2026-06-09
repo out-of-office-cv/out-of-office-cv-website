@@ -41602,5 +41602,77 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Managing Partner",
+    "organisation": "PwC Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Jamie-Briggs",
+      "https://www.consultancy.com.au/news/7931/scyne-advisory-unveils-its-executive-team-for-now",
+      "https://au.linkedin.com/in/jamie-briggs-mba-gaicd"
+    ],
+    "pollie_slug": "jamie-briggs",
+    "start_date": "2018-01-01",
+    "end_date": "2023-11-01"
+  },
+  {
+    "role": "Head of External Affairs",
+    "organisation": "Scyne Advisory",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Jamie-Briggs",
+      "https://www.consultancy.com.au/news/7931/scyne-advisory-unveils-its-executive-team-for-now",
+      "https://au.linkedin.com/in/jamie-briggs-mba-gaicd"
+    ],
+    "pollie_slug": "jamie-briggs",
+    "start_date": "2023-11-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "South Australian Cricket Association",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.adelaideoval.com.au/our-board/",
+      "https://www.saca.com.au/about/honour-board/office-bearers"
+    ],
+    "pollie_slug": "jamie-briggs",
+    "start_date": "2021-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Adelaide Oval Stadium Management Authority",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.adelaideoval.com.au/news/new-chair-and-deputy-confirmed-steven-trigg-to-join-aosma-board/",
+      "https://www.adelaideoval.com.au/news/adelaide-oval-announces-board-succession/",
+      "https://www.adelaideoval.com.au/our-board/"
+    ],
+    "pollie_slug": "jamie-briggs",
+    "start_date": "2026-03-25"
+  },
+  {
+    "role": "Chief Adviser --- Politics and Campaigns",
+    "organisation": "Liberal Party of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.capitalbrief.com/article/dutton-hires-former-minister-jamie-briggs-as-chief-advisor-e00b8ece-3014-4db0-8da0-5ec2872e63c6/",
+      "https://en.wikipedia.org/wiki/Jamie_Briggs"
+    ],
+    "pollie_slug": "jamie-briggs",
+    "start_date": "2024-09-01"
+  },
+  {
+    "role": "Administrator",
+    "organisation": "Australian Indian Ocean Territories",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bill_Taylor_(naval_officer)",
+      "https://en.wikipedia.org/wiki/Australian_Indian_Ocean_Territories",
+      "https://kids.kiddle.co/Bill_Taylor_(naval_officer)"
+    ],
+    "pollie_slug": "bill-taylor",
+    "start_date": "1999-02-04",
+    "end_date": "2003-07-30"
   }
 ]
