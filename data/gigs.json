@@ -41459,5 +41459,73 @@
       "by": "claude",
       "note": "Identity confirmed via Australian Parliament records (MPID 7V5) and Wikipedia. Daryl Robert Williams AM KC retired from parliament for Tangney on 31 August 2004. Francis Burt Chambers sources confirm his role as Door Tenant (honorary, not practising). Start date 2004 is plausible and aligns with his parliamentary retirement."
     }
+  },
+  {
+    "role": "Chair",
+    "organisation": "Goldfields-Esperance Development Commission",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Tony-Crook",
+      "https://www.linkedin.com/in/tony-crook-868343ab/",
+      "https://www.parliament.wa.gov.au/publications/tabledpapers.nsf/displaypaper/3912241adb27387a697d279748257d71002ad55a/$file/2241.pdf"
+    ],
+    "pollie_slug": "tony-crook",
+    "start_date": "2014",
+    "end_date": "2018"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Kalgoorlie-Boulder Racing Club",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tony_Crook_(politician)",
+      "https://www.triplem.com.au/story/crook-to-lead-kbrc-42594"
+    ],
+    "pollie_slug": "tony-crook",
+    "start_date": "2017-07-24"
+  },
+  {
+    "role": "State President",
+    "organisation": "Nationals WA",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.nationalswa.com/state-from-state-president-of-the-nationals-wa-tony-crook/",
+      "https://www.businessnews.com.au/Person/Tony-Crook"
+    ],
+    "pollie_slug": "tony-crook",
+    "start_date": "2021",
+    "end_date": "2023"
+  },
+  {
+    "role": "Mining Consultant",
+    "organisation": "Unknown mining companies",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.businessnews.com.au/Person/Tony-Crook",
+      "https://en.wikipedia.org/wiki/Tony_Crook_(politician)"
+    ],
+    "pollie_slug": "tony-crook"
+  },
+  {
+    "role": "Founder and Leader",
+    "organisation": "Australian Family Party",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://australianfamilyparty.org.au/bob-day-ao/",
+      "https://en.wikipedia.org/wiki/Australian_Family_Party",
+      "https://www.miragenews.com/former-senator-launches-new-political-party/"
+    ],
+    "pollie_slug": "bob-day",
+    "start_date": "2020-10-28"
+  },
+  {
+    "role": "Senate Candidate",
+    "organisation": "Trumpet of Patriots",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://trumpetofpatriots.org/candidates/bob-day/"
+    ],
+    "pollie_slug": "bob-day",
+    "start_date": "2025-01-01"
   }
 ]
