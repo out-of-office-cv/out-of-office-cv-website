@@ -3018,7 +3018,11 @@
       "https://www.miragenews.com/water-corp-board-gains-expertise-with-new-1596874/"
     ],
     "pollie_slug": "louise-pratt",
-    "start_date": "2026-01-02"
+    "start_date": "2026-01-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ophthalmologist",
@@ -4772,7 +4776,11 @@
       "https://www.oecd.org/newsroom/mathias-cormann-takes-office-as-oecd-secretary-general.htm"
     ],
     "pollie_slug": "mathias-cormann",
-    "start_date": "2021-06-01"
+    "start_date": "2021-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "High Commissioner to Canada",
@@ -8005,9 +8013,14 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://theorg.com/org/hillsong-church",
-      "https://www.linkedin.com/in/louise-markus/"
+      "https://www.linkedin.com/in/louise-markus/",
+      "https://hillsong.com/leadership/board/"
     ],
-    "pollie_slug": "louise-markus"
+    "pollie_slug": "louise-markus",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Lecturer in Government/Business Relations",
@@ -10788,7 +10801,11 @@
       "https://en.wikipedia.org/wiki/Marshall_Baillieu"
     ],
     "pollie_slug": "marshall-baillieu",
-    "end_date": "2013"
+    "end_date": "2013",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Consul-General, Chicago",
@@ -14021,7 +14038,12 @@
     "sources": [
       "https://aild.org.au/about/",
       "https://en.wikipedia.org/wiki/Mary_Easson"
-    ]
+    ],
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Wikipedia states Mary Easson was co-chair (not Director) of Australia-Israel Leadership Dialogue (AILD), a different organisation from the Australia Israel Labor Dialogue, with which Wikipedia says she was never involved. Role and organisation name both inaccurate."
+    }
   },
   {
     "pollie_slug": "nicholas-reid",
@@ -16801,7 +16823,11 @@
       "https://www.zoominfo.com/p/Linda-Kirk/13021874964"
     ],
     "pollie_slug": "linda-kirk",
-    "start_date": "2025-03-01"
+    "start_date": "2025-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member, NSW Legislative Assembly",
@@ -17416,7 +17442,11 @@
       "https://en.wikipedia.org/wiki/Margaret_Reynolds",
       "https://biography.senate.gov.au/reynolds-margaret/"
     ],
-    "pollie_slug": "margaret-reynolds"
+    "pollie_slug": "margaret-reynolds",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "State Manager",
@@ -28840,7 +28870,11 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.icanw.org/ican_appoints_new_executive_director_melissa_parke"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "melissa-parke",
@@ -30296,7 +30330,11 @@
       "https://www.womenaustralia.info/entries/guilfoyle-margaret-georgina/"
     ],
     "pollie_slug": "margaret-guilfoyle",
-    "start_date": "1990"
+    "start_date": "1990",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -30427,7 +30465,11 @@
     ],
     "pollie_slug": "lionel-bowen",
     "start_date": "1990",
-    "end_date": "1995"
+    "end_date": "1995",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Political Consultant and Lobbyist",
@@ -31086,7 +31128,11 @@
       "https://www.listcorp.com/asx/new/new-energy-solar-limited/news/change-of-directors-interest-notice-maxine-mckew-2225081.html",
       "https://halloffame.melbournepressclub.com/article/maxine-mckew"
     ],
-    "pollie_slug": "maxine-mckew"
+    "pollie_slug": "maxine-mckew",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -31128,7 +31174,12 @@
       "https://en.wikipedia.org/wiki/Meg_Lees"
     ],
     "pollie_slug": "meg-lees",
-    "start_date": "2005-01-01"
+    "start_date": "2005-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Meg Lees has been a board member of Operation Flinders Foundation since 2005; start date aligns with her parliamentary departure. Wikipedia describes the role as 'board member' rather than 'Director'."
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -41471,7 +41522,11 @@
     ],
     "pollie_slug": "tony-crook",
     "start_date": "2014",
-    "end_date": "2018"
+    "end_date": "2018",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -41482,7 +41537,11 @@
       "https://www.triplem.com.au/story/crook-to-lead-kbrc-42594"
     ],
     "pollie_slug": "tony-crook",
-    "start_date": "2017-07-24"
+    "start_date": "2017-07-24",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "State President",
@@ -41494,7 +41553,11 @@
     ],
     "pollie_slug": "tony-crook",
     "start_date": "2021",
-    "end_date": "2023"
+    "end_date": "2023",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Mining Consultant",
@@ -41504,7 +41567,11 @@
       "https://www.businessnews.com.au/Person/Tony-Crook",
       "https://en.wikipedia.org/wiki/Tony_Crook_(politician)"
     ],
-    "pollie_slug": "tony-crook"
+    "pollie_slug": "tony-crook",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Founder and Leader",
@@ -41516,7 +41583,11 @@
       "https://www.miragenews.com/former-senator-launches-new-political-party/"
     ],
     "pollie_slug": "bob-day",
-    "start_date": "2020-10-28"
+    "start_date": "2020-10-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Senate Candidate",
@@ -41526,6 +41597,10 @@
       "https://trumpetofpatriots.org/candidates/bob-day/"
     ],
     "pollie_slug": "bob-day",
-    "start_date": "2025-01-01"
+    "start_date": "2025-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
