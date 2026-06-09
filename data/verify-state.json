@@ -2053,7 +2053,9 @@
   "kerryn-phelps|Executive Member|OzSAGE|null": "2026-05-04T10:07:16.178Z",
   "kevin-andrews|Columnist|The Spectator Australia|null": "2026-05-12T14:04:24.595Z",
   "kevin-andrews|Director|Villa Maria Catholic Homes|2022-05-01": "2026-05-12T14:04:24.595Z",
-  "kevin-andrews|Mentor|Commonwealth Parliamentary Association Parliamentary Academy|2022-05-01": "2026-05-12T14:04:24.595Z",
+  "kevin-andrews|Mentor|Commonwealth Parliamentary Association Parliamentary Academy|2022-05-01": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
   "kevin-cairns|Economic Consultant|Mount Isa Mines|null": {
     "last_examined_at": "2026-05-25T00:00:00.000Z"
   },
@@ -2070,7 +2072,9 @@
   "kevin-newman|Director|Australian Stockman's Hall of Fame and Outback Heritage Centre|1985": "2026-05-12T20:04:26.395Z",
   "kevin-newman|Founding Chairman of the Governing Council|Old Parliament House|1997": "2026-05-12T20:04:26.395Z",
   "kevin-rudd|Ambassador to the United States|Australian Government|2023-03-20": "2026-05-06T00:00:00Z",
-  "kevin-rudd|Inaugural President|Asia Society Policy Institute|2015-01-01": "2026-05-06T00:00:00Z",
+  "kevin-rudd|Inaugural President|Asia Society Policy Institute|2015-01-01": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
   "kevin-rudd|President and CEO|Asia Society|2021-01-01": "2026-05-06T00:00:00Z",
   "kevin-rudd|President and CEO|Asia Society|2026-03-31": "2026-05-06T00:00:00Z",
   "kevin-rudd|Senior Fellow|Belfer Center for Science and International Affairs, Harvard Kennedy School|2014-02-01": "2026-05-06T00:00:00Z",
@@ -2192,14 +2196,18 @@
   "laurence-neal|Councillor|Shire of Nathalia|1989-01-01": "2026-05-29T00:00:00.000Z",
   "laurence-neal|Federal Director|National Country Party|1981-11-01": "2026-05-29T00:00:00.000Z",
   "laurence-neal|President|National Party of Australia --- Victoria|1986-01-01": "2026-05-29T00:00:00.000Z",
-  "laurence-neal|President|Wangaratta Rotary|1997-01-01": "2026-05-29T00:00:00.000Z",
+  "laurence-neal|President|Wangaratta Rotary|1997-01-01": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
   "laurie-brereton|Chair|Beelgara Estate|null": "2026-05-06T00:00:00Z",
   "laurie-brereton|Chair|Cumulus Wines|null": "2026-05-06T00:00:00Z",
   "laurie-brereton|Chair|Kimberley Foundation Australia|null": "2026-05-06T00:00:00Z",
   "laurie-brereton|Chair|Rock Art Australia|null": "2026-05-06T00:00:00Z",
   "laurie-brereton|Chair|Wine Insights|null": "2026-05-06T00:00:00Z",
   "laurie-brereton|Director|Airbus Group Australia Pacific|null": "2026-05-06T00:00:00Z",
-  "laurie-brereton|Director|John Curtin House|null": "2026-05-06T00:00:00Z",
+  "laurie-brereton|Director|John Curtin House|null": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
   "laurie-brereton|Non-Executive Emeritus Director|Rock Art Australia|2023-05-31": "2026-05-06T00:00:00Z",
   "laurie-ferguson|Board of Advisors Member|Global Panel Foundation Australasia|null": "2026-06-05T00:00:00.000Z",
   "laurie-ferguson|Director|St Francis Social Services|2017-12-01": "2026-06-05T00:00:00.000Z",
@@ -2211,7 +2219,9 @@
   "leo-mcleay|Director|Enhance Group|2006-01-01": "2026-05-06T00:00:00Z",
   "leo-mcleay|Director|Mary MacKillop Foundation|2005-01-01": "2026-05-06T00:00:00Z",
   "leonard-keogh|Chair|Redland Shire Council|1991-01-01": "2026-05-13T00:00:00.000Z",
-  "leonard-keogh|Chair|South West Queensland Electricity Board|null": "2026-05-13T00:00:00.000Z",
+  "leonard-keogh|Chair|South West Queensland Electricity Board|null": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
   "leonard-keogh|Member|Veterans' Review Board|1994-12-01": "2026-05-13T00:00:00.000Z",
   "leslie-johnson|Chair|Australia New Zealand Foundation|null": "2026-05-08T08:06:43.658Z",
   "leslie-johnson|High Commissioner to New Zealand|Australian High Commission, New Zealand|1984": "2026-05-08T08:06:43.658Z",
@@ -3999,6 +4009,51 @@
     "last_examined_at": "2026-06-09T00:00:00.000Z"
   },
   "keith-pitt|Ambassador to the Holy See|Australian Government (DFAT)|2025-02-16": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "daryl-williams|Barrister (Door Tenant, Honorary)|Francis Burt Chambers|2004": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "keith-wolahan|Barrister|New Chambers (Victorian Bar)|2025-06-01": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "keith-wright|Founder and Director|International Language Academy Australia|null": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "kenneth-fry|PhD Candidate in Australian History|Australian National University|null": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "kerry-bartlett|Chief Executive Officer|Western Sydney Regional Organisation of Councils|2011-09-01": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "kerry-nettle|Staff Member|Community Legal Centres NSW|null": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "kerry-rea|Staff Member|Griffith University (Office of the Vice-Chancellor and President)|null": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "kim-wilkie|Chief Executive|Confederation of Meningitis Organisations|2010": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "kristina-keneally|Chief Executive Officer|Sydney Children's Hospitals Foundation|2022-11-07": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "laurie-wallis|Retired|Retired|1983-02-04": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "len-harris|Founder and Campaigner|Silent Majority|2019-01-01": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "leo-price|Consul-General|Australian Consulate-General, Chicago|2011-11-01": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "les-mcmahon|Commissioner|NSW Conciliation and Arbitration Commission|1983": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "leslie-scott|Mortgage Broker and Finance Consultant|Les Scott and Associates|1999-01-01": {
+    "last_examined_at": "2026-06-09T00:00:00.000Z"
+  },
+  "linda-burney|Council Member|University of Technology Sydney|2026-02-19": {
     "last_examined_at": "2026-06-09T00:00:00.000Z"
   }
 }
