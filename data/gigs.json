@@ -41963,5 +41963,144 @@
       "by": "claude",
       "note": "Proactive Investors sources all return 403 Forbidden. Business News confirms board moves on 1 April 2022 (transition to MD) and 10 October 2023 (departure)."
     }
+  },
+  {
+    "role": "Director",
+    "organisation": "ASC Pty Ltd",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://australianpolitics.com/2013/12/17/government-appoints-mirabella-to-asc.html/",
+      "https://www.sbs.com.au/news/article/govt-gives-mirabella-submarine-company-job/duxj3np77",
+      "https://en.wikipedia.org/wiki/Sophie_Mirabella",
+      "https://michaelwest.com.au/sophie-mirabella/"
+    ],
+    "pollie_slug": "sophie-mirabella-formerly-panopoulos",
+    "start_date": "2013-12-17",
+    "end_date": "2016"
+  },
+  {
+    "role": "Public Policy Fellow",
+    "organisation": "University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.crikey.com.au/2014/04/08/tips-and-rumours-1100/",
+      "https://en.wikipedia.org/wiki/Sophie_Mirabella"
+    ],
+    "pollie_slug": "sophie-mirabella-formerly-panopoulos",
+    "start_date": "2014"
+  },
+  {
+    "role": "General Manager, Government and Media Relations",
+    "organisation": "Hancock Prospecting",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.hancockprospecting.com.au/hppl-expands-executive-team-with-appointment-of-sophie-mirabella-as-gm-government-media-relations/",
+      "https://www.sbs.com.au/news/article/sophie-mirabella-gets-job-with-rinehart/v56jq5is2",
+      "https://thenewdaily.com.au/news/people/2016/08/12/gina-rinehart-hires-sophie-mirabella/",
+      "https://en.wikipedia.org/wiki/Sophie_Mirabella"
+    ],
+    "pollie_slug": "sophie-mirabella-formerly-panopoulos",
+    "start_date": "2016-08",
+    "end_date": "2021"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "Fair Work Commission",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.fwc.gov.au/documents/transcripts/20210525_oneill_c_mirabella_c_ceremonial_sitting.htm",
+      "https://www.smartcompany.com.au/business-advice/politics/sophie-mirabella-fair-work-commission/",
+      "https://thenewdaily.com.au/finance/work/2021/03/24/sophie-mirabella-fair-work/",
+      "https://www.bordermail.com.au/story/7192600/former-mp-appointment-to-fair-work-commission-confirmed/"
+    ],
+    "pollie_slug": "sophie-mirabella-formerly-panopoulos",
+    "start_date": "2021-05-24"
+  },
+  {
+    "role": "Barrister",
+    "organisation": "Victorian Bar",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Neil_Brown_(Australian_politician)",
+      "https://www.greenslist.com.au/barrister/Neil-Brown-QC",
+      "https://www.vicbar.com.au/Web/Web/Account/Barrister-Profile.aspx?ID=22829"
+    ],
+    "pollie_slug": "neil-brown",
+    "start_date": "1991"
+  },
+  {
+    "role": "Arbitrator and Mediator",
+    "organisation": "World Intellectual Property Organization Arbitration and Mediation Center",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.wipo.int/amc/en/domains/decisions/html/2007/d2007-0292.html",
+      "https://www.wipo.int/amc/en/domains/decisions/html/2007/d2007-1941.html",
+      "https://icsid.worldbank.org/sites/default/files/arbitrators/2021-07/CV_Brown.pdf"
+    ],
+    "pollie_slug": "neil-brown",
+    "start_date": "2007"
+  },
+  {
+    "role": "Panel of Conciliators Member",
+    "organisation": "International Centre for the Settlement of Investment Disputes",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://icsid.worldbank.org/sites/default/files/arbitrators/2021-07/CV_Brown.pdf",
+      "https://icsid.worldbank.org/resources/panels-of-arbitrators-and-of-conciliators",
+      "https://www.greenslist.com.au/barrister/Neil-Brown-QC"
+    ],
+    "pollie_slug": "neil-brown"
+  },
+  {
+    "role": "Panelist",
+    "organisation": "Canadian International Internet Dispute Resolution Centre",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://ciidrc.org/panelist/hon-neil-brown/"
+    ],
+    "pollie_slug": "neil-brown"
+  },
+  {
+    "role": "Adjunct Professor of Law",
+    "organisation": "Murdoch University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://icsid.worldbank.org/sites/default/files/arbitrators/2021-07/CV_Brown.pdf",
+      "https://ciidrc.org/panelist/hon-neil-brown/"
+    ],
+    "pollie_slug": "neil-brown"
+  },
+  {
+    "role": "Fellow",
+    "organisation": "Chartered Institute of Arbitrators",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://icsid.worldbank.org/sites/default/files/arbitrators/2021-07/CV_Brown.pdf",
+      "https://www.greenslist.com.au/barrister/Neil-Brown-QC"
+    ],
+    "pollie_slug": "neil-brown",
+    "start_date": "2006"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "Spectator Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.spectator.com.au/author/neil-brown/",
+      "https://www.spectator.com.au/category/australia/columnist-australia/australia-brown-study/",
+      "https://en.wikipedia.org/wiki/Neil_Brown_(Australian_politician)"
+    ],
+    "pollie_slug": "neil-brown"
+  },
+  {
+    "role": "Author",
+    "organisation": "Poplar Press",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Neil_Brown_(Australian_politician)"
+    ],
+    "pollie_slug": "neil-brown",
+    "start_date": "1993",
+    "end_date": "1993"
   }
 ]
