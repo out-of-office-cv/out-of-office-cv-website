@@ -2781,7 +2781,12 @@
     ],
     "pollie_slug": "sue-boyce",
     "start_date": "2014-07-01",
-    "end_date": "2022-04-01"
+    "end_date": "2022-04-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Sue Boyce's June 2014 valedictory speech states she was returning as chair of family company Everhard Industries; her Senate term ended 30 June 2014. Successor Gina Boyce-Rowe took over as Chair in April 2022, matching the end date."
+    }
   },
   {
     "role": "Special Envoy for Eastern Europe",
@@ -2969,7 +2974,12 @@
     "sources": [
       "https://www.adelaide.edu.au/saigenci/advisory-board"
     ],
-    "pollie_slug": "stirling-griff"
+    "pollie_slug": "stirling-griff",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Stirling Griff is listed on the official SAiGENCI Advisory Board page (adelaide.edu.au) as Commonwealth Government representative, consistent with post-parliamentary service after his Senate term ended 30 June 2022."
+    }
   },
   {
     "role": "Special Advisor, Policy Division",
@@ -11601,7 +11611,12 @@
       "https://primemovermag.com.au/stuart-st-clair-ata/",
       "https://www.trucksales.com.au/editorial/details/q-a-stuart-st-clair-ata-49458/"
     ],
-    "pollie_slug": "stuart-st-clair"
+    "pollie_slug": "stuart-st-clair",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and TruckSales confirm St Clair became senior political advisor to Deputy PM John Anderson after his 2001 parliamentary defeat, within Anderson's DPM tenure (1999-2005). Minor title variation from 'Chief Adviser'."
+    }
   },
   {
     "role": "Chief of Staff",
@@ -22025,9 +22040,11 @@
     "organisation": "Southern Cross University",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.linkedin.com/in/professorsmartin/"
+      "https://www.linkedin.com/in/professorsmartin/",
+      "https://en.wikipedia.org/wiki/Stephen_Martin_(Australian_politician)"
     ],
-    "pollie_slug": "stephen-martin"
+    "pollie_slug": "stephen-martin",
+    "start_date": "2010-06"
   },
   {
     "role": "Council Member",
@@ -23475,7 +23492,12 @@
       "https://insidelocalgovernment.com.au/devonport-councillors-officially-sworn-in/",
       "https://en.wikipedia.org/wiki/Steve_Martin_(Tasmanian_politician)"
     ],
-    "start_date": "2022-11-10"
+    "start_date": "2022-11-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via official Devonport City Council website, Inside Local Government swearing-in coverage (10 November 2022), and Wikipedia confirming this is the former Senator (2018-2019)."
+    }
   },
   {
     "pollie_slug": "kelly-odwyer",
@@ -26013,7 +26035,12 @@
       "https://en.wikipedia.org/wiki/Steven_Ciobo"
     ],
     "start_date": "2020-01-01",
-    "end_date": "2020-12-31"
+    "end_date": "2020-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Ciobo advised Bain Capital on its 2020 acquisition of Virgin Australia. Identity verified as former MP for Moncrieff."
+    }
   },
   {
     "role": "Consultant",
@@ -26911,7 +26938,12 @@
     ],
     "pollie_slug": "silvia-smith",
     "start_date": "1997-05-31",
-    "end_date": "2003-05-03"
+    "end_date": "2003-05-03",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Both sources confirm Silvia Smith served in the Tasmanian Legislative Council 1997-2003, after ceasing as a federal MP in March 1996."
+    }
   },
   {
     "role": "Councillor",
@@ -32397,12 +32429,16 @@
     "organisation": "New South Wales Branch, Australian Labor Party",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Sue_West",
-      "https://www.centralwesterndaily.com.au/story/761106/banking-on-new-loans/"
+      "https://en.wikipedia.org/wiki/Sue_West"
     ],
     "pollie_slug": "sue-west",
     "start_date": "2019-01-01",
-    "end_date": "2020-02-29"
+    "end_date": "2020-02-29",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Sue West conducted an internal review of NSW Labor with David Campbell and Meredith Burgmann after the 2019 state election, submitted February 2020."
+    }
   },
   {
     "role": "Council Member",
@@ -35836,7 +35872,12 @@
     "sources": [
       "https://parliament.nt.gov.au/business/hansard/transcripts/listing/nest_content?target_id=346211&parent_id=358649"
     ],
-    "pollie_slug": "stephen-calder"
+    "pollie_slug": "stephen-calder",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Stephen Calder's documented pastoral work at Argadargada Station was 1954-1964, before he entered parliament in 1966. The 2008 NT Parliamentary condolence speech groups Narwietooma with his pre-parliamentary pastoral career. No evidence of pastoral work after he left parliament on 19 September 1980. Pre-parliament occupation mistakenly tagged as a post-parliament gig."
+    }
   },
   {
     "role": "Director, Division for Social Policy and Development",
@@ -39312,10 +39353,14 @@
     "category": "Retail, Hospitality & Tourism",
     "sources": [
       "https://en.wikipedia.org/wiki/Stephen_Lusher",
-      "https://www.facebook.com/LushOnBondi/",
-      "https://www.tripadvisor.com.au/Restaurant_Review-g947961-d3846559-Reviews-Lush_on_Bondi-Bondi_Greater_Sydney_New_South_Wales.html"
+      "https://www.facebook.com/LushOnBondi/"
     ],
-    "pollie_slug": "stephen-lusher"
+    "pollie_slug": "stephen-lusher",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Stephen Lusher established Lush on Bondi after leaving parliament in December 1984."
+    }
   },
   {
     "role": "Optometrist",
@@ -41987,21 +42032,27 @@
       "https://en.wikipedia.org/wiki/Sophie_Mirabella"
     ],
     "pollie_slug": "sophie-mirabella-formerly-panopoulos",
-    "start_date": "2014"
+    "start_date": "2014",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "General Manager, Government and Media Relations",
     "organisation": "Hancock Prospecting",
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://www.hancockprospecting.com.au/hppl-expands-executive-team-with-appointment-of-sophie-mirabella-as-gm-government-media-relations/",
       "https://www.sbs.com.au/news/article/sophie-mirabella-gets-job-with-rinehart/v56jq5is2",
-      "https://thenewdaily.com.au/news/people/2016/08/12/gina-rinehart-hires-sophie-mirabella/",
       "https://en.wikipedia.org/wiki/Sophie_Mirabella"
     ],
     "pollie_slug": "sophie-mirabella-formerly-panopoulos",
     "start_date": "2016-08",
-    "end_date": "2021"
+    "end_date": "2021-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Commissioner",
@@ -42026,7 +42077,11 @@
       "https://www.vicbar.com.au/Web/Web/Account/Barrister-Profile.aspx?ID=22829"
     ],
     "pollie_slug": "neil-brown",
-    "start_date": "1991"
+    "start_date": "1991",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Arbitrator and Mediator",
@@ -42038,7 +42093,11 @@
       "https://icsid.worldbank.org/sites/default/files/arbitrators/2021-07/CV_Brown.pdf"
     ],
     "pollie_slug": "neil-brown",
-    "start_date": "2007"
+    "start_date": "2007",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Panel of Conciliators Member",
@@ -42079,7 +42138,11 @@
       "https://www.greenslist.com.au/barrister/Neil-Brown-QC"
     ],
     "pollie_slug": "neil-brown",
-    "start_date": "2006"
+    "start_date": "2006",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Columnist",
@@ -42090,7 +42153,11 @@
       "https://www.spectator.com.au/category/australia/columnist-australia/australia-brown-study/",
       "https://en.wikipedia.org/wiki/Neil_Brown_(Australian_politician)"
     ],
-    "pollie_slug": "neil-brown"
+    "pollie_slug": "neil-brown",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Author",
@@ -42101,6 +42168,10 @@
     ],
     "pollie_slug": "neil-brown",
     "start_date": "1993",
-    "end_date": "1993"
+    "end_date": "1993",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
