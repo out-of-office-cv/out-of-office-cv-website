@@ -4380,7 +4380,11 @@
     ],
     "pollie_slug": "sam-dastyari",
     "start_date": "2019-01-13",
-    "end_date": "2019-01-27"
+    "end_date": "2019-01-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -6049,9 +6053,16 @@
     "organisation": "Santoro Consulting (Sanlaan Pty Ltd)",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://lobbyists.pmc.gov.au/register/view_agency.cfm?id=685"
+      "https://lobbyists.pmc.gov.au/register/view_agency.cfm?id=685",
+      "https://en.wikipedia.org/wiki/Santo_Santoro",
+      "https://santosantoro.com/about/",
+      "https://www.lobbyists.vic.gov.au/search-the-register/santoro-consulting"
     ],
-    "pollie_slug": "santo-santoro"
+    "pollie_slug": "santo-santoro",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Administrator of Norfolk Island",
@@ -11161,7 +11172,11 @@
       "https://en.wikipedia.org/wiki/Robert_Bell_(Australian_politician)"
     ],
     "pollie_slug": "robert-bell",
-    "start_date": "1996"
+    "start_date": "1996",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Coordinator, World Election Commission",
@@ -11340,7 +11355,12 @@
       "https://en.wikipedia.org/wiki/Ruth_Coleman"
     ],
     "pollie_slug": "ruth-coleman",
-    "start_date": "1987-06-05"
+    "start_date": "1987-06-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and the Senate Biographical Dictionary confirm Ruth Coleman left parliament on 1987-06-05 and retired without documented post-parliamentary career roles; the 'Retired' placeholder reflects her status."
+    }
   },
   {
     "role": "Chairman",
@@ -12282,10 +12302,15 @@
     "sources": [
       "https://www.examiner.com.au/story/8817748/tasports-wins-legal-fight-over-bell-bay-lease-with-former-senator/",
       "https://www.examiner.com.au/story/7908915/former-senator-targets-gas-users-with-eco-friendly-wood-pellets-alternative/",
-      "https://www.linkedin.com/in/shayne-murphy-211867330/"
+      "https://www.linkedin.com/in/shayne-murphy-211867330/",
+      "https://en.wikipedia.org/wiki/Shayne_Murphy"
     ],
     "pollie_slug": "shayne-murphy",
-    "start_date": "2019"
+    "start_date": "2019",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -17092,10 +17117,15 @@
       "https://southwestvoice.com.au/campbelltown-sport-centre-excellence/",
       "https://www.examiner.com.au/story/7484849/questions-raised-over-tribunal-workloads/",
       "https://www.canberratimes.com.au/story/7484849/questions-raised-over-tribunal-workloads/",
-      "https://junkee.com/george-brandis-just-appointed-bunch-ex-politicians-cushy-government-roles/92282"
+      "https://junkee.com/george-brandis-just-appointed-bunch-ex-politicians-cushy-government-roles/92282",
+      "https://www.crikey.com.au/2016/12/16/george-brandis-brings-andrew-nikolic-to-the-aat/"
     ],
     "pollie_slug": "russell-matheson",
-    "start_date": "2016-12-15"
+    "start_date": "2017-01-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -18940,7 +18970,11 @@
       "https://www.gippslandtimes.com.au/news/2018/06/01/muir-timber-allegations/"
     ],
     "pollie_slug": "ricky-muir",
-    "start_date": "2016-09"
+    "start_date": "2016-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador to Ireland and the Holy See",
@@ -20395,7 +20429,12 @@
     ],
     "pollie_slug": "ruth-webber",
     "start_date": "2008-01-01",
-    "end_date": "2014-12-31"
+    "end_date": "2014-12-31",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Start date precedes her parliamentary departure (2008-06-30); Wikipedia's 'Later activities' section (citing The West Australian) identifies her post-parliamentary work as a lobbyist for Halden Burns, not as a consultant for 'Ruth Webber Consulting'. No credible source confirms this organisation existed."
+    }
   },
   {
     "role": "Deputy President",
@@ -21177,7 +21216,11 @@
       "https://www.marinerescuensw.com.au/bios/",
       "https://issuu.com/marinerescuensw/docs/financial_statements_and_reports_year_ended_30_jun"
     ],
-    "pollie_slug": "robert-mcclelland"
+    "pollie_slug": "robert-mcclelland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -21699,7 +21742,12 @@
       "https://balmaininstitute.com/2023/07/12/robert-tickner/",
       "https://icanw.org.au/australia-must-take-lead-on-nuclear-treaty-robert-tickner/"
     ],
-    "pollie_slug": "robert-tickner"
+    "pollie_slug": "robert-tickner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "end_date": "2016"
   },
   {
     "role": "Chair",
@@ -23565,7 +23613,12 @@
       "https://en.wikipedia.org/wiki/Rod_Culleton",
       "https://www.greataustralianparty.com.au/about"
     ],
-    "start_date": "2019-04-07"
+    "start_date": "2019-04-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Rod Culleton confirmed as leader of the Great Australian Party; AEC registration date of 7 April 2019 matches start_date. Post-parliament role (left parliament 11 January 2017)."
+    }
   },
   {
     "pollie_slug": "penny-wright",
@@ -28032,7 +28085,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Ray_Groom"
     ],
-    "pollie_slug": "raymond-groom"
+    "pollie_slug": "raymond-groom",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy President",
@@ -28983,10 +29040,15 @@
     "organisation": "Fisheries Research and Development Corporation",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
-      "https://www.queenslandcountrylife.com.au/story/4139893/ron-boswells-back-this-time-to-go-fishing/"
+      "https://www.queenslandcountrylife.com.au/story/4139893/ron-boswells-back-this-time-to-go-fishing/",
+      "https://en.wikipedia.org/wiki/Ron_Boswell"
     ],
     "start_date": "2016-09",
-    "end_date": "2020-03"
+    "end_date": "2020-03",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "robert-simms",
@@ -32089,7 +32151,12 @@
       "https://en.wikipedia.org/wiki/Dick_Klugman"
     ],
     "pollie_slug": "richard-klugman",
-    "start_date": "1990-02-19"
+    "start_date": "1990-02-19",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Role timing is incorrect. Dick Klugman was a member of the ANU Council from 15 March 1973 to 19 February 1990 (the date he left parliament) — a concurrent role during his parliamentary service (1969–1990), not a post-parliament gig."
+    }
   },
   {
     "role": "Ambassador to the Netherlands",
@@ -34259,7 +34326,11 @@
     ],
     "pollie_slug": "ralph-jacobi",
     "start_date": "1988-01-01",
-    "end_date": "1991-12-31"
+    "end_date": "1991-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director of Strategic Planning",
@@ -38230,7 +38301,11 @@
       "https://www.riccharlesworth.com/pages/curriculum-vitae"
     ],
     "pollie_slug": "richard-charlesworth",
-    "start_date": "2014-01-01"
+    "start_date": "2014-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Appointed Selector",
@@ -41575,7 +41650,12 @@
       "https://au.linkedin.com/in/dr-sam-mcmahon-ab2a704a",
       "https://www.ntvet.com.au/katherine-vets.html"
     ],
-    "pollie_slug": "sam-mcmahon"
+    "pollie_slug": "sam-mcmahon",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Pre-parliament role mistakenly tagged as post-parliament. The official NTVS website states Dr McMahon created Northern Territory Veterinary Services in Katherine before her 2019 election to the Senate (over 20 years as a vet, 19 in Katherine). It is a founder/pre-parliament business, not a post-parliament gig."
+    }
   },
   {
     "role": "Real Estate Agent",
