@@ -112,7 +112,8 @@ PYEOF
     --body "$PR_BODY" \
     >> "$LOG_FILE" 2>&1
   git checkout main
-  log "PR created on branch ${BRANCH}"
+  git branch -D "$BRANCH"
+  log "PR created on branch ${BRANCH}, local branch deleted"
 fi
 
 log "=== verify-gigs finished ==="
