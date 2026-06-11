@@ -25,8 +25,8 @@ This static site is hosted at `https://www.outofoffice.cv` using GitHub Pages.
 Two scripts run on weddle via systemd user timers (canonical unit files
 in `ops/systemd/`):
 
-- `cron-verify-gigs.sh` --- 00, 06, 12, 18 local; rechecks each known gig
-- `cron-find-gigs.sh` --- 03, 09, 15, 21 local; searches for new gigs
+- `cron-verify-gigs.sh` --- Sun 02:00 local; rechecks each known gig
+- `cron-find-gigs.sh` --- Sun 05:00 local; searches for new gigs
 
 Both have 30 min `RandomizedDelaySec` jitter and `Persistent=true`. Install:
 

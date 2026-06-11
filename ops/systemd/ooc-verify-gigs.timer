@@ -1,9 +1,9 @@
 [Unit]
-Description=Trigger OOC verify-gigs at 00, 06, 12, 18 local
+Description=Trigger OOC verify-gigs weekly, Sun 02:00 local
 Requires=ooc-verify-gigs.service
 
 [Timer]
-OnCalendar=00/6:00
+OnCalendar=Sun *-*-* 02:00:00
 RandomizedDelaySec=30min
 Persistent=true
 Unit=ooc-verify-gigs.service
