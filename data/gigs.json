@@ -13295,8 +13295,7 @@
       "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;db=CHAMBER;id=chamber/hansards/9a4abe02-6be0-4a2a-aa97-605357a73424/0084;query=Id:%22chamber/hansards/9a4abe02-6be0-4a2a-aa97-605357a73424/0051%22",
       "https://en.wikipedia.org/wiki/Mehmet_Tillem"
     ],
-    "pollie_slug": "mehmet-tillem",
-    "start_date": "2014-11-01"
+    "pollie_slug": "mehmet-tillem"
   },
   {
     "role": "Chief of Staff",
@@ -14956,7 +14955,6 @@
     "organisation": "Zimbabwe Platinum Mines",
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://www.whmspa.com.au/kerry-sibraa",
       "https://biography.senate.gov.au/sibraa-kerry-walter/",
       "https://en.wikipedia.org/wiki/Kerry_Sibraa"
     ],
@@ -31141,7 +31139,12 @@
       "https://announcements.asx.com.au/asxpdf/20170228/pdf/43gfp408706ttd.pdf",
       "https://arowanaco.com/wp-content/uploads/2017/06/AWN-HY-2016-12-31-Interim-Financial-Report-signed.pdf"
     ],
-    "pollie_slug": "john-moore"
+    "pollie_slug": "john-moore",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ASX filings confirm John Moore AO as a Non-Executive Director of Arowana International in 2016-2017; note the recorded role 'Non-Executive Chair' is contradicted (Kevin Chin was Executive Chairman)."
+    }
   },
   {
     "role": "Non-Executive Chair",
@@ -39538,7 +39541,12 @@
       "https://anzsog.edu.au/about-us/contact-directory/brian-howe/",
       "https://anzsog.edu.au/our-story/our-history"
     ],
-    "pollie_slug": "brian-howe"
+    "pollie_slug": "brian-howe",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Role incorrect. ANZSOG history confirms it was founded in 2002 by Terry Moran, Glyn Davis, and Max Moore-Wilton with Allan Fels as inaugural Dean; Brian Howe is listed as a Professorial Fellow, not a Founding Director."
+    }
   },
   {
     "role": "Director",
@@ -39549,7 +39557,12 @@
       "https://annual-report-2023.bsl.org.au/governance-and-financials",
       "https://www.bsl.org.au/about/our-people/"
     ],
-    "pollie_slug": "brian-howe"
+    "pollie_slug": "brian-howe",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Role incorrect. BSL 2023 annual report lists Brian Howe AO among Life Members, not as a Director. Wikipedia confirms board involvement but not the Director title."
+    }
   },
   {
     "role": "Patrons Council Member",
@@ -40383,7 +40396,13 @@
       "https://en.wikipedia.org/wiki/Victor_Garland",
       "https://nla.gov.au/nla.obj-415752682/findingaid"
     ],
-    "pollie_slug": "ransley-garland"
+    "pollie_slug": "ransley-garland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "1992-06-13",
+    "end_date": "1993-05-26"
   },
   {
     "role": "Vice Chair",
@@ -40442,7 +40461,13 @@
       "https://en.wikipedia.org/wiki/Victor_Garland",
       "https://find-and-update.company-information.service.gov.uk/company/00477692/officers"
     ],
-    "pollie_slug": "ransley-garland"
+    "pollie_slug": "ransley-garland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "1991-07-01",
+    "end_date": "1992-09-30"
   },
   {
     "role": "Director",
@@ -41183,7 +41208,11 @@
       "https://www.parliament.nsw.gov.au/ladocs/submissions/86242/Submission%20150%20-%20Ms%20Marjorie%20Henzell.pdf",
       "https://au.linkedin.com/in/marjorie-henzell-60249620"
     ],
-    "pollie_slug": "marjorie-henzell"
+    "pollie_slug": "marjorie-henzell",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Senior Social Worker",
@@ -41193,7 +41222,11 @@
       "https://www.parliament.nsw.gov.au/ladocs/submissions/86242/Submission%20150%20-%20Ms%20Marjorie%20Henzell.pdf",
       "https://au.linkedin.com/in/marjorie-henzell-60249620"
     ],
-    "pollie_slug": "marjorie-henzell"
+    "pollie_slug": "marjorie-henzell",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Strategic Advisor",
