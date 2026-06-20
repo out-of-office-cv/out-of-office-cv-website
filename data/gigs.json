@@ -14420,10 +14420,15 @@
     "organisation": "ACTA Shipping Group",
     "category": "Retail, Hospitality & Tourism",
     "sources": [
-      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22media/pressrel/HNC022016024895%22;src1=sm1"
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22media/pressrel/HNC022016024895%22;src1=sm1",
+      "https://www.bairdmaritime.com/shipping/obituary-peter-nixon-australias-former-minister-for-shipping-and-transport"
     ],
     "pollie_slug": "peter-nixon",
-    "start_date": "1983-07-31"
+    "start_date": "1983-07-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -40442,7 +40447,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Victor_Garland"
     ],
-    "pollie_slug": "ransley-garland"
+    "pollie_slug": "ransley-garland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -40451,7 +40460,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Victor_Garland"
     ],
-    "pollie_slug": "ransley-garland"
+    "pollie_slug": "ransley-garland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -40476,7 +40489,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Victor_Garland"
     ],
-    "pollie_slug": "ransley-garland"
+    "pollie_slug": "ransley-garland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -42141,7 +42158,11 @@
       "https://icsid.worldbank.org/resources/panels-of-arbitrators-and-of-conciliators",
       "https://www.greenslist.com.au/barrister/Neil-Brown-QC"
     ],
-    "pollie_slug": "neil-brown"
+    "pollie_slug": "neil-brown",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Panelist",
@@ -42158,9 +42179,14 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://icsid.worldbank.org/sites/default/files/arbitrators/2021-07/CV_Brown.pdf",
-      "https://ciidrc.org/panelist/hon-neil-brown/"
+      "https://vaniac.org/panelist/hon-neil-a-brown/"
     ],
-    "pollie_slug": "neil-brown"
+    "pollie_slug": "neil-brown",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Replaced dead CIIDRC source (404) with VanIAC profile confirming Adjunct Professor of Law at Murdoch University; identity anchored by ICSID CV (Member of Federal Parliament 1969-91)."
+    }
   },
   {
     "role": "Fellow",
