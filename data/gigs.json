@@ -5344,9 +5344,16 @@
     "organisation": "Women for Election",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.linkedin.com/in/celia-hammond-65bb54240/"
+      "https://www.linkedin.com/in/celia-hammond-65bb54240/",
+      "https://wfe.org.au/parliamentary-friends-group-of-women-for-election-australia-members/",
+      "https://www.acnc.gov.au/charity/charities/a11bc361-3aaf-e811-a95e-000d3ad24c60"
     ],
-    "pollie_slug": "celia-hammond"
+    "pollie_slug": "celia-hammond",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Celia Hammond (LIB, Curtin, left 2022-05-21) joined the board of Women for Election (ACNC-registered nonprofit) post-parliament; she is also a founding member of its Parliamentary Friends Group."
+    }
   },
   {
     "role": "Chair of Board of Governors",
@@ -10840,9 +10847,17 @@
     "organisation": "Quitonic",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://www.linkedin.com/in/graeme-mcdougall-943a48a5/"
+      "https://www.linkedin.com/in/graeme-mcdougall-943a48a5/",
+      "https://insidefmcg.com.au/2017/01/11/new-herbal-aid-to-help-quit-smoking/",
+      "https://www.tga.gov.au/resources/sponsor/quitonic-pty-ltd",
+      "https://en.wikipedia.org/wiki/Graeme_McDougall"
     ],
-    "pollie_slug": "graeme-mcdougall"
+    "pollie_slug": "graeme-mcdougall",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Graeme McDougall (LIB, Griffith 1996-1998) listed as Managing Director of Quitonic on LinkedIn; Quitonic is a registered Australian (TGA sponsor) smoking-cessation product relaunched 2015, well post-parliament."
+    }
   },
   {
     "role": "Commissioner for International Engagement",
@@ -14420,10 +14435,15 @@
     "organisation": "ACTA Shipping Group",
     "category": "Retail, Hospitality & Tourism",
     "sources": [
-      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22media/pressrel/HNC022016024895%22;src1=sm1"
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22media/pressrel/HNC022016024895%22;src1=sm1",
+      "https://www.bairdmaritime.com/shipping/obituary-peter-nixon-australias-former-minister-for-shipping-and-transport"
     ],
     "pollie_slug": "peter-nixon",
-    "start_date": "1983-07-31"
+    "start_date": "1983-07-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -28891,7 +28911,12 @@
       "https://www.news-mail.com.au/topic/brian-courtice/"
     ],
     "pollie_slug": "brian-courtice",
-    "start_date": "2019-01-01"
+    "start_date": "2019-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Identity confirmed via Wikipedia (ALP, Hinkler 1987-1993). MuckRack journalist profile and reader references confirm NewsMail opinion columns; dates plausible (well post-1993)."
+    }
   },
   {
     "pollie_slug": "melissa-parke",
@@ -30300,10 +30325,14 @@
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
       "https://au.linkedin.com/in/helen-coonan-a4aa9223",
-      "https://www.zoominfo.com/p/Helen-Coonan/2375667314",
       "https://www.verdantminerals.com.au/our-team"
     ],
-    "pollie_slug": "helen-coonan"
+    "pollie_slug": "helen-coonan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Verdant Minerals' official team page lists 'The Hon Helen Coonan'; identity confirmed (Senator NSW 1996-2011). Director role plausible given her directorship history."
+    }
   },
   {
     "role": "Advisory Council Member",
@@ -32147,7 +32176,12 @@
     "sources": [
       "https://www.linkedin.com/in/andrew-nikolic-18a11351/"
     ],
-    "pollie_slug": "andrew-nikolic"
+    "pollie_slug": "andrew-nikolic",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "No credible evidence Nikolic held a General Manager role at DefenceNT; sole source is an unverified LinkedIn profile. Authoritative sources instead show his Dec 2016 appointment to the Administrative Appeals Tribunal (commenced Jan 2017), which would overlap any DefenceNT role."
+    }
   },
   {
     "role": "Non-Resident Senior Advisor",
@@ -37120,7 +37154,12 @@
     "sources": [
       "https://www.bendigobank.com.au/siteassets/branchassets/communitycompanies/logancommunityfinancialserviceslimited/investorshareholder/financialstatements/2021-annual-report.pdf"
     ],
-    "pollie_slug": "brett-raguse"
+    "pollie_slug": "brett-raguse",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "The sole source (2021 Logan Community Financial Services annual report) attributes the REIQ Commercial & Industrial Committee Board membership to Jason Paul Luckhardt, not Brett Raguse; Raguse's profile in the same document makes no such claim."
+    }
   },
   {
     "role": "Member, Development Advisory Board",
@@ -40442,7 +40481,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Victor_Garland"
     ],
-    "pollie_slug": "ransley-garland"
+    "pollie_slug": "ransley-garland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -40451,7 +40494,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Victor_Garland"
     ],
-    "pollie_slug": "ransley-garland"
+    "pollie_slug": "ransley-garland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -40476,7 +40523,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Victor_Garland"
     ],
-    "pollie_slug": "ransley-garland"
+    "pollie_slug": "ransley-garland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -41519,7 +41570,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Chris_Crewther"
     ],
-    "pollie_slug": "chris-crewther"
+    "pollie_slug": "chris-crewther",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia (cited) states Crewther is a non-executive director of Global Voices; role/org match. Timing plausible between leaving federal parliament (2019) and entering Vic state parliament (2022)."
+    }
   },
   {
     "role": "Member of the Legislative Assembly",
@@ -42054,7 +42110,12 @@
     ],
     "pollie_slug": "sophie-mirabella-formerly-panopoulos",
     "start_date": "2013-12-17",
-    "end_date": "2016"
+    "end_date": "2016",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ASC Pty Ltd (submarine company) board appointment confirmed by Wikipedia and AustralianPolitics.com; start date 17 Dec 2013 matches. End date 2016 not precisely verified."
+    }
   },
   {
     "role": "Public Policy Fellow",
@@ -42098,7 +42159,12 @@
       "https://www.bordermail.com.au/story/7192600/former-mp-appointment-to-fair-work-commission-confirmed/"
     ],
     "pollie_slug": "sophie-mirabella-formerly-panopoulos",
-    "start_date": "2021-05-24"
+    "start_date": "2021-05-24",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Fair Work Commission Commissioner appointment confirmed; FWC ceremonial sitting transcript (25 May 2021) and news reports corroborate. Start date matches."
+    }
   },
   {
     "role": "Barrister",
@@ -42141,7 +42207,11 @@
       "https://icsid.worldbank.org/resources/panels-of-arbitrators-and-of-conciliators",
       "https://www.greenslist.com.au/barrister/Neil-Brown-QC"
     ],
-    "pollie_slug": "neil-brown"
+    "pollie_slug": "neil-brown",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Panelist",
@@ -42158,9 +42228,14 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://icsid.worldbank.org/sites/default/files/arbitrators/2021-07/CV_Brown.pdf",
-      "https://ciidrc.org/panelist/hon-neil-brown/"
+      "https://vaniac.org/panelist/hon-neil-a-brown/"
     ],
-    "pollie_slug": "neil-brown"
+    "pollie_slug": "neil-brown",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Replaced dead CIIDRC source (404) with VanIAC profile confirming Adjunct Professor of Law at Murdoch University; identity anchored by ICSID CV (Member of Federal Parliament 1969-91)."
+    }
   },
   {
     "role": "Fellow",
