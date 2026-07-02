@@ -33,19 +33,19 @@ Build the eligible set:
 
 Group eligible gigs by `pollie_slug`. Sort pollies by eligible-gig-count
 descending; tiebreak by pollie slug ascending. Accumulate pollies until the
-running eligible-gig total would exceed 20, then stop. A run typically picks
-4--7 pollies covering 15--25 gigs.
+running eligible-gig total would exceed 60, then stop.
 
 Print the selection (pollie slug + count) before dispatching.
 
 ## Step 2: dispatch one subagent per pollie in parallel
 
-Use the `Task` tool with `subagent_type: general-purpose` and `model: "haiku"`.
-Per-pollie verification has a strict schema, well-defined decision rules, and a
-clear source-authority hierarchy, so Haiku is sufficient --- and the
-conservative `"unverified"` default absorbs any borderline cases where a smarter
-model might have pushed through to `"verified"`. Send all dispatches in a single
-message so they run concurrently.
+Use the `Task` tool with `subagent_type: general-purpose` and `model: "sonnet"`
+(the `sonnet` alias resolves to Sonnet 5). Per-pollie verification hinges on
+identity disambiguation (is this the former MP, or a namesake?) and weighing
+source authority --- judgement calls where a stronger model reduces the pile of
+borderline `"unverified"` gigs. The conservative `"unverified"` default still
+backstops anything genuinely ambiguous. Send all dispatches in a single message
+so they run concurrently.
 
 Each subagent prompt must include:
 

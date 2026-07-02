@@ -38,18 +38,18 @@ Otherwise, build the eligible set:
   or has a `last_searched_at` more than 14 days before today.
 - Among eligible pollies, sort by current gig count (ascending) so those with
   fewer gigs are checked first. Among ties, randomise.
-- Select up to 5 pollies.
+- Select up to 15 pollies.
 
-The 5-pollie cap bounds the run; there's no separate gig cap.
+The 15-pollie cap bounds the run; there's no separate gig cap.
 
 Print the selection (slug + current gig count) before dispatching.
 
 ## Step 2: dispatch one subagent per pollie in parallel
 
 Use the `Task` tool with `subagent_type: general-purpose` and `model: "sonnet"`
-(per-pollie web search has a strict output shape and well-defined rules, so it
-doesn't need Opus). Send all dispatches in a single message so they run
-concurrently.
+(the `sonnet` alias resolves to Sonnet 5). Per-pollie web search has a strict
+output shape and well-defined rules, so it doesn't need Opus. Send all
+dispatches in a single message so they run concurrently.
 
 Each subagent prompt must include:
 
