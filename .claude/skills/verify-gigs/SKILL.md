@@ -21,15 +21,22 @@ Read in this order:
 
 1. `data/pollies.csv` --- pollie metadata.
 2. `data/gigs.json` --- all gigs.
-3. `data/verify-state.json` --- `{key: ISO-timestamp}` of last verify attempts.
+3. `data/verify-state.json` --- per-gig verify history, keyed by gig key.
 
 Build the eligible set:
 
-- A gig is _eligible_ if it has no `verification` field AND its key is either
-  absent from `verify-state.json` or has a `last_examined_at` more than 7 days
-  before today.
 - Key format: `<pollie_slug>|<role>|<organisation>|<start_date|null>` (use the
   literal string `null` if `start_date` is absent).
+- `verify-state.json` maps each key to `{ last_examined_at: ISO, attempts: N }`.
+  A bare ISO string is legacy shorthand for
+  `{ last_examined_at: <string>, attempts: 1 }`; read it that way.
+- A gig is _eligible_ only if ALL of these hold:
+  - it has no `verification` field (verified and rejected gigs are done); AND
+  - its key has fewer than 3 recorded `attempts`. After three passes that failed
+    to confirm it, a gig is _exhausted_: stop spending runs on it. It stays
+    visibly unverified on the site and becomes the human-review backlog; AND
+  - its key is absent from `verify-state.json`, OR its `last_examined_at` is
+    more than 7 days before today.
 
 Group eligible gigs by `pollie_slug`. Sort pollies by eligible-gig-count
 descending; tiebreak by pollie slug ascending. Accumulate pollies until the
@@ -60,17 +67,40 @@ Each subagent prompt must include:
 
 > For each gig, return one of three decisions:
 >
-> - `"verified"` --- high confidence (Wikipedia "would not need [citation > > >
->   > needed]" standard). All of: (1) at least one authoritative source clearly
->   > refers to this specific former MP/Senator (not a namesake); (2) role and
->   > organisation match; (3) dates plausible (after they left parliament).
+> - `"verified"` --- high confidence, to the standard where a Wikipedia claim
+>   would not be flagged as needing a citation. ALL of: (1) at least one
+>   authoritative source clearly refers to this specific former MP/Senator, not
+>   a namesake; (2) that same source substantiates THIS role at THIS
+>   organisation --- not merely that the person exists or had some other career;
+>   (3) dates plausible (after they left parliament). In the `note`, name the
+>   confirming source and quote or paraphrase the words that establish the role.
+>   A bio that proves the person but never mentions this role is NOT enough ---
+>   that is `"unverified"`.
 > - `"rejected"` --- high confidence the gig is wrong. Includes: source refers
->   to a different person with the same name; role doesn't exist or never
->   happened; pre-parliament role mistakenly tagged as post-parliament. A `note`
->   explaining the rejection is required.
-> - `"unverified"` --- anything else. Sources too weak, ambiguous identity,
->   dates uncertain, role unclear. Default if you can't reach high confidence
->   either way.
+>   to a different person with the same name; the cited source is about someone
+>   else entirely; the role or title contradicts what the source says; role
+>   never happened; pre-parliament role mistakenly tagged as post-parliament. A
+>   `note` explaining the rejection is required.
+> - `"unverified"` --- anything else. Sources too weak, ambiguous identity, the
+>   source confirms the person but not this specific role, dates uncertain, role
+>   unclear. Default if you can't reach high confidence either way.
+
+### Investigation method (verbatim in subagent prompt)
+
+> Do not judge on the cited sources alone. For every gig:
+>
+> 1. WebFetch each cited source and check it actually names this person AND this
+>    role at this organisation --- not just the person.
+> 2. If the cited sources don't clearly confirm the role, run fresh targeted
+>    searches for one that does: the organisation's own "about"/board/annual-
+>    report page, Hansard, `.gov.au`/`.edu.au` pages, or reputable Australian
+>    news. Many records were added with a source that proves the person but not
+>    the role --- your job is to find the source that proves the role, or to
+>    establish that none exists.
+> 3. If you find a strong source, `"verified"` and add it via
+>    `source_changes.add`. If a genuine hunt turns up nothing better,
+>    `"unverified"` is correct --- but say in the `note` what you searched, so
+>    the effort is on the record.
 
 ### Source authority hierarchy (verbatim in subagent prompt)
 
@@ -153,9 +183,17 @@ Write the file with `JSON.stringify(gigs, null, 2) + "\n"`.
 
 ## Step 5: update throttle state
 
-For every gig that was investigated (regardless of decision), record its key in
-`data/verify-state.json` with the current ISO timestamp. Preserve existing
-entries.
+For every gig that was investigated (regardless of decision), write its key in
+`data/verify-state.json` as
+`{ last_examined_at: <now ISO>, attempts: <previous attempts + 1> }`. A gig seen
+for the first time gets `attempts: 1`; a bare-string legacy value counts as one
+prior attempt. Preserve all other entries.
+
+Gigs that a `verified` or `rejected` decision resolved this run no longer matter
+for throttling (they now carry a `verification` field), but recording their
+attempt is harmless. Gigs left `unverified` that this write pushes to
+`attempts: 3` are now exhausted and won't be re-selected --- they are the ones
+worth a human's eyes.
 
 Write the file with `JSON.stringify(state, null, 2) + "\n"`.
 
@@ -173,7 +211,8 @@ Per pollie:
 - Source/date edits on still-unverified gigs: N
 - Untouched (still unverified, no edits): N
 
-Then a totals line.
+Then a totals line, and a count of gigs that reached `attempts: 3` this run and
+are now exhausted (the human-review backlog).
 
 ## Important rules
 
@@ -181,4 +220,7 @@ Then a totals line.
 - Always supply a `note` for rejections. Findings without a note are dropped.
 - Do not rerun against gigs that already have a `verification` field (those are
   filtered in Step 1's eligibility check; double-check before writing).
+- Do not rerun against exhausted gigs (`attempts >= 3` and still unverified) ---
+  they are also filtered in Step 1. A `verified`/`rejected` decision is the only
+  thing that ever clears a gig; three unconfirmed passes park it for a human.
 - Use Australian English in all communication.
