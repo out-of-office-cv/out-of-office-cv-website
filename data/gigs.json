@@ -4158,7 +4158,12 @@
       "https://au.linkedin.com/in/terrimbutler"
     ],
     "pollie_slug": "terri-butler",
-    "start_date": "2022-12-05"
+    "start_date": "2022-12-05",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Butler joined the Smart Energy Council board on 5 Dec 2022 but her title was Vice President, not President (confirmed by her own bio at mtai.edu.au). The Council's current board page does not list her as President. The specific role 'President' did not happen."
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -7396,10 +7401,18 @@
     "category": "Environment, Climate & Sustainability",
     "sources": [
       "https://www.crawfordfund.org/about/board-of-directors/board-bob-mcmullan/",
-      "https://press.un.org/en/2010/note6282.doc.htm"
+      "https://press.un.org/en/2010/note6282.doc.htm",
+      "https://devpolicy.org/a-reflection-on-climate-change-finance-after-cancun20110216/",
+      "https://en.wikipedia.org/wiki/High_Level_Advisory_Group_on_Climate_Financing"
     ],
     "pollie_slug": "robert-mcmullan",
-    "start_date": "2010-02-01"
+    "start_date": "2010-02-12",
+    "end_date": "2010-11-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by McMullan's own ANU Development Policy Centre account and Crawford Fund bio; UN group established 12 Feb 2010, final report 5 Nov 2010."
+    }
   },
   {
     "role": "Contributor",
@@ -7824,7 +7837,12 @@
       "https://en.wikipedia.org/wiki/Terry_Aulich"
     ],
     "pollie_slug": "terrence-aulich",
-    "start_date": "2012"
+    "start_date": "2012",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms: in 2012 he was appointed Chair of the Industry Reference Panel of the UNSW-led Alliance for Building Excellence, matching role, organisation and start date."
+    }
   },
   {
     "role": "Special Advisor in Gender and Politics",
@@ -8652,7 +8670,12 @@
     ],
     "pollie_slug": "joanna-gash",
     "start_date": "2012-09-08",
-    "end_date": "2016-09-17"
+    "end_date": "2016-09-17",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms exact matching dates (8 Sep 2012 - 17 Sep 2016) and the well-documented overlap with her final year in federal parliament (retired 5 Aug 2013)."
+    }
   },
   {
     "role": "Councillor (Ward 2)",
@@ -11353,7 +11376,12 @@
     "sources": [
       "https://biography.senate.gov.au/short-james-robert/"
     ],
-    "pollie_slug": "jim-short"
+    "pollie_slug": "jim-short",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Official Australian Senate Biographical Dictionary entry for James Robert Short explicitly states he served as chairman of technology company Iatia Ltd after leaving the Senate in 1997."
+    }
   },
   {
     "role": "Non-executive Director",
@@ -12002,7 +12030,12 @@
       "https://biography.senate.gov.au/crichton-browne-noel-ashley/",
       "https://www.crikey.com.au/2008/08/05/crichton-browne-buswells-departure-a-tragedy-sniff/"
     ],
-    "pollie_slug": "noel-crichton-browne"
+    "pollie_slug": "noel-crichton-browne",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate Biographical Dictionary confirms he contributed to online media including Crikey on political matters after leaving the Senate in 1996; the cited Crikey article carries his byline."
+    }
   },
   {
     "role": "Consul-General to Los Angeles",
@@ -12918,7 +12951,12 @@
     ],
     "pollie_slug": "jean-jenkins",
     "start_date": "1990-07-01",
-    "end_date": "1991-08-31"
+    "end_date": "1991-08-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and the Biographical Dictionary of the Australian Senate confirm Jenkins stayed on as adviser to Democrats leader Janet Powell after leaving the Senate in 1990 until Powell was deposed 19 August 1991."
+    }
   },
   {
     "role": "Breakfast Presenter",
@@ -13310,7 +13348,12 @@
       "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;db=CHAMBER;id=chamber/hansards/9a4abe02-6be0-4a2a-aa97-605357a73424/0084;query=Id:%22chamber/hansards/9a4abe02-6be0-4a2a-aa97-605357a73424/0051%22",
       "https://en.wikipedia.org/wiki/Mehmet_Tillem"
     ],
-    "pollie_slug": "mehmet-tillem"
+    "pollie_slug": "mehmet-tillem",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Hansard condolence motion: Dalidakis farewelled 'his friend and former chief of staff'; multiple sources confirm Tillem worked for Dalidakis and Eren in the Andrews government after leaving the Senate 30 June 2014."
+    }
   },
   {
     "role": "Chief of Staff",
@@ -13320,7 +13363,12 @@
       "https://www.thesenior.com.au/story/6483841/former-vic-senator-mehmet-tillem-dead/",
       "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;db=CHAMBER;id=chamber/hansards/9a4abe02-6be0-4a2a-aa97-605357a73424/0084;query=Id:%22chamber/hansards/9a4abe02-6be0-4a2a-aa97-605357a73424/0051%22"
     ],
-    "pollie_slug": "mehmet-tillem"
+    "pollie_slug": "mehmet-tillem",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same Hansard corroboration: Tillem worked for both Dalidakis and Eren after leaving the Senate."
+    }
   },
   {
     "role": "Volunteer (overseas development aid)",
@@ -13881,7 +13929,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Bill_Morrison_(politician)"
     ],
-    "pollie_slug": "william-morrison"
+    "pollie_slug": "william-morrison",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Sole cited source (Wikipedia, Bill Morrison) contains no mention of refugees or Rural Australians for Refugees; no corroborating source found. Possible confusion with his wife Marty Morrison."
+    }
   },
   {
     "role": "Working Group Leader",
@@ -13940,7 +13993,12 @@
     ],
     "pollie_slug": "david-macgibbon",
     "start_date": "2002-01-01",
-    "end_date": "2002-12-31"
+    "end_date": "2002-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Biographical Dictionary of the Australian Senate explicitly states MacGibbon was a member of the Commonwealth Observer Group for local government elections in Lesotho in 2002."
+    }
   },
   {
     "role": "Member",
@@ -14976,9 +15034,15 @@
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
       "https://biography.senate.gov.au/sibraa-kerry-walter/",
-      "https://en.wikipedia.org/wiki/Kerry_Sibraa"
+      "https://en.wikipedia.org/wiki/Kerry_Sibraa",
+      "https://www.whmspa.com.au/kerry-sibraa"
     ],
-    "pollie_slug": "kerry-sibraa"
+    "pollie_slug": "kerry-sibraa",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wells Haslem Mayhew's own team bio (his employer) states he is 'a former director of Zimbabwe Platinum Mines and World IT', with matching biographical detail (President of the Senate 1987-1994, High Commissioner to Zimbabwe)."
+    }
   },
   {
     "role": "Director",
@@ -14989,7 +15053,12 @@
       "https://biography.senate.gov.au/sibraa-kerry-walter/",
       "https://en.wikipedia.org/wiki/Kerry_Sibraa"
     ],
-    "pollie_slug": "kerry-sibraa"
+    "pollie_slug": "kerry-sibraa",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the whmspa.com.au employer bio page which explicitly names both directorships and matches his unique profile."
+    }
   },
   {
     "role": "President",
@@ -17689,7 +17758,12 @@
     "sources": [
       "https://biography.senate.gov.au/wood-william-robert/"
     ],
-    "pollie_slug": "william-wood"
+    "pollie_slug": "william-wood",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate Biographical Dictionary quotes Wood in 1992 (after his May 1988 Senate exit) describing his profession as youth work, community development and social planning."
+    }
   },
   {
     "role": "Council Member",
@@ -18765,11 +18839,18 @@
     "organisation": "Climate Institute",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://en.wikipedia.org/wiki/Susan_Jeanes"
+      "https://en.wikipedia.org/wiki/Susan_Jeanes",
+      "https://www.businessnews.com.au/Person/Susan-Jeanes",
+      "https://probonoaustralia.com.au/news/2017/07/australia-institute-continue-legacy-climate-institute-shuts-doors/"
     ],
     "pollie_slug": "susan-jeanes",
     "start_date": "2008-01-01",
-    "end_date": "2017-12-31"
+    "end_date": "2017-06-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and businessnews.com.au both confirm she was a director of The Climate Institute, which ceased operations 30 June 2017."
+    }
   },
   {
     "role": "Principal",
@@ -19960,7 +20041,12 @@
     ],
     "pollie_slug": "michael-ronaldson",
     "start_date": "2020",
-    "end_date": "2023-08"
+    "end_date": "2023-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "State Sport Centres Trust 2022-23 Annual Report identifies Ronaldson as Deputy Chairperson for the term 1 September 2020 to 31 August 2023, matching the given start."
+    }
   },
   {
     "role": "Accountant",
@@ -20110,7 +20196,12 @@
       "https://en.wikipedia.org/wiki/Tim_Fischer"
     ],
     "pollie_slug": "tim-fischer",
-    "start_date": "2004-01-01"
+    "start_date": "2004-01-01",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Neither cited source supports this. Wikipedia never mentions FreightLink. The aarail.com.au page mentions FreightLink only regarding a different person (Mike Wilde). Extensive obituaries listing his post-parliamentary boards never mention a FreightLink directorship."
+    }
   },
   {
     "role": "Chair",
@@ -21140,7 +21231,12 @@
       "https://en.wikipedia.org/wiki/Anna_Burke"
     ],
     "pollie_slug": "anna-burke",
-    "start_date": "2017-08-06"
+    "start_date": "2017-08-06",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Anna Burke as a RedR Australia board member; RedR's own published financial/annual report content gives an exact appointment date of 6 August 2017, matching the record."
+    }
   },
   {
     "role": "Chair",
@@ -32585,9 +32681,15 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://government.unimelb.edu.au/news-and-events/news/melbourne-school-of-government-appointments-announced",
-      "https://pursuit.unimelb.edu.au/individuals/jenny-macklin"
+      "https://pursuit.unimelb.edu.au/individuals/jenny-macklin",
+      "https://www.unimelb.edu.au/newsroom/news/2019/june/latest-vc-fellows-announced"
     ],
-    "start_date": "2019-07-01"
+    "start_date": "2019-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by University of Melbourne's own pages (government.unimelb.edu.au, pursuit.unimelb.edu.au) and a June 2019 unimelb.edu.au newsroom article announcing new VC Fellows, describing Macklin's appointment following her 2019 parliamentary retirement, hosted by Melbourne School of Government, supporting Melbourne Disability Institute."
+    }
   },
   {
     "pollie_slug": "jenny-macklin",
@@ -36208,7 +36310,12 @@
       "https://en.wikipedia.org/wiki/Joan_Child",
       "https://oa.anu.edu.au/obituary/child-gloria-joan-16271"
     ],
-    "pollie_slug": "joan-child"
+    "pollie_slug": "joan-child",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and ANU obituary both confirm she was a long-serving patron of the Epilepsy Foundation of Victoria; independently confirmed the Foundation maintains a formal Patrons' Council (other members include Elisabeth Murdoch, John Blackman), consistent with the specific role title."
+    }
   },
   {
     "role": "Barrister (industrial law and pro bono practice)",

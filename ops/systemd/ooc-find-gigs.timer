@@ -1,9 +1,9 @@
 [Unit]
-Description=Trigger OOC find-gigs weekly, Sun 05:00 local
+Description=Trigger OOC find-gigs daily, 05:00 local
 Requires=ooc-find-gigs.service
 
 [Timer]
-OnCalendar=Sun *-*-* 05:00:00
+OnCalendar=*-*-* 05:00:00
 RandomizedDelaySec=30min
 Persistent=true
 Unit=ooc-find-gigs.service
