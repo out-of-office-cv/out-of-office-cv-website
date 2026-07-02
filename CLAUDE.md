@@ -22,8 +22,8 @@ This static site is hosted at `https://www.outofoffice.cv` using GitHub Pages.
 
 ## Scheduled jobs
 
-Two scripts run on weddle via systemd user timers (canonical unit files
-in `ops/systemd/`):
+Two scripts run on weddle via systemd user timers (canonical unit files in
+`ops/systemd/`):
 
 - `cron-verify-gigs.sh` --- Sun 02:00 local; rechecks each known gig
 - `cron-find-gigs.sh` --- Sun 05:00 local; searches for new gigs
@@ -46,13 +46,15 @@ The two main types in this site's data model are `Pollie` (a politician) and
 
 - `astro.config.ts` --- site config
 - `src/types.ts` --- shared TypeScript interfaces
-- `src/utils/` --- shared utility functions (CSV parsing, date formatting, pollie helpers)
+- `src/utils/` --- shared utility functions (CSV parsing, date formatting,
+  pollie helpers)
 - `src/loaders.ts` --- data loading from CSV and JSON
 - `src/content.config.ts` --- Astro content collection with custom loader
 - `src/layouts/BaseLayout.astro` --- main page layout
 - `src/components/*.astro` --- server-rendered Astro components (zero JS)
 - `src/components/*.svelte` --- interactive Svelte 5 islands (client:load)
-- `src/stores/*.svelte.ts` --- Svelte 5 reactive stores (draft gigs, GitHub auth, PR)
+- `src/stores/*.svelte.ts` --- Svelte 5 reactive stores (draft gigs, GitHub
+  auth, PR)
 - `src/pages/index.astro` --- home page with PollieList island
 - `src/pages/about.md` --- about page
 - `src/pages/contribute.astro` --- contribute page with GigEntryForm island
