@@ -42528,5 +42528,60 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Managing Director",
+    "organisation": "Kattron",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.newcastleherald.com.au/story/2107149/hunter-hot-spots-blasted-by-lightning-strikes/",
+      "https://en.wikipedia.org/wiki/Ken_Ticehurst"
+    ],
+    "pollie_slug": "kenneth-ticehurst"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Stockman’s Hall of Fame",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ben_Humphreys",
+      "https://www.openaustralia.org.au/senate/?id=2019-11-25.105.2"
+    ],
+    "pollie_slug": "benjamin-humphreys"
+  },
+  {
+    "role": "Member, Commonwealth Observer Group (Fiji general election)",
+    "organisation": "Commonwealth Secretariat",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ben_Humphreys",
+      "https://www.openaustralia.org.au/senate/?id=2019-11-25.105.2"
+    ],
+    "pollie_slug": "benjamin-humphreys",
+    "start_date": "2001-08-01",
+    "end_date": "2001-08-01"
+  },
+  {
+    "role": "Author",
+    "organisation": "Porters Group",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://catalogue.nla.gov.au/catalog/4557822",
+      "https://www.mackayandwhitsundaylife.com/article/a-trip-down-memory-lane-456"
+    ],
+    "pollie_slug": "ray-braithwaite",
+    "start_date": "2008-01-01",
+    "end_date": "2008-12-31"
+  },
+  {
+    "role": "Doctoral Researcher",
+    "organisation": "Swinburne University of Technology",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tony_Lamb",
+      "https://figshare.swinburne.edu.au/articles/thesis/Of_measures_and_men_the_Victorian_Country_Party_1917_to_1945/26288467"
+    ],
+    "pollie_slug": "antony-lamb",
+    "end_date": "2009-01-01"
   }
 ]
