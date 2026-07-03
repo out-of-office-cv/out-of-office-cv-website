@@ -178,7 +178,12 @@
     ],
     "pollie_slug": "warwick-stacey",
     "start_date": "unknown",
-    "end_date": "present"
+    "end_date": "present",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Namesake mismatch. The eg.1 Global 'our-people' bio describes an executive-search leader and founding partner of Wilton & Bain. This does not match former One Nation NSW senator Warwick Desmond Stacey (b. 1952), whose documented career (Wikipedia, Steve Vickers Associates bio) is British Army officer then crisis/risk-management consultant (Control Risks, Aegis, Steve Vickers Associates). Incompatible professional histories; the eg.1 Global page is a different same-named person."
+    }
   },
   {
     "role": "Non-Executive Vice Chairman",
@@ -1153,7 +1158,12 @@
       "https://techcouncil.com.au/board/"
     ],
     "pollie_slug": "simon-birmingham",
-    "start_date": "2025-12-01"
+    "start_date": "2025-12-01",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Both cited sources checked; neither mentions Simon Birmingham. Startup Daily names Paul Fletcher and Jaala Pulford as the ex-pollie directors added to the Tech Council of Australia board; techcouncil.com.au/board does not list Birmingham. His documented post-Senate roles are ANZ Head of Asia Pacific Engagement then CEO of the Australian Banking Association. Gig conflates him with Paul Fletcher."
+    }
   },
   {
     "role": "Ambassador to the Holy See",
@@ -1577,7 +1587,12 @@
       "https://www.linkedin.com/in/keith-wolahan-b02b76108/"
     ],
     "pollie_slug": "keith-wolahan",
-    "start_date": "2025-06-01"
+    "start_date": "2025-06-01",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Organisation is wrong. His official chambers page (deverslist.com.au/barristers/keith-wolahan) confirms this is the same person (MP for Menzies 2022-2025) and shows he practises at Dever's List, a Victorian Bar chambers — not 'New Chambers', a separate unrelated Sydney chambers where a site search for 'Wolahan' returns nothing. LinkedIn source could not be fetched. Strong person-matching source contradicts the stated organisation."
+    }
   },
   {
     "role": "Principal",
@@ -2740,7 +2755,12 @@
       "https://www.portnews.com.au/story/2304410/rob-oakeshott-life-on-the-edge-photos/"
     ],
     "pollie_slug": "rob-oakeshott",
-    "start_date": "2014-01-01"
+    "start_date": "2014-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Port Macquarie News (24 May 2014) profile of Rob Oakeshott (former independent MP for Lyne) states: 'He does some work for the United Nations Development Program.' Confirms person and UNDP role; consistent with 2014 start after leaving parliament Aug 2013."
+    }
   },
   {
     "role": "Advisory Council Member",
@@ -3329,7 +3349,12 @@
       "https://grokipedia.com/page/Simon_Crean"
     ],
     "pollie_slug": "simon-crean",
-    "start_date": "2021-06"
+    "start_date": "2021-06",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Sole source is Grokipedia (AI-generated, not authoritative). No corroboration: Wikipedia and detailed 2023 obituaries cataloguing his post-parliamentary roles (Linfox, Luna Park Melbourne, Monash Council, European Australian Business Council, Australia-Korea Business Council) never mention Naval Group. Claimed June 2021 start predates the Sept 2021 AUKUS announcement said to have prompted the hiring — an internal inconsistency typical of AI content. High confidence the role never happened."
+    }
   },
   {
     "role": "Director",
@@ -4353,7 +4378,12 @@
     ],
     "pollie_slug": "warren-truss",
     "start_date": "2018-04-20",
-    "end_date": "2022-11-30"
+    "end_date": "2022-11-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by both cited sources. farmonline.com.au (20 Apr 2018): appointment of former Deputy PM Warren Truss as Chair of the Australian Rail Track Corporation for three years, matching start_date. ministers.finance.gov.au (21 Apr 2021): 'The Hon Warren Truss AC reappointed Chair of the ARTC'. End date 2022-11-30 corroborated by reporting that Peter Duncan AM succeeded him."
+    }
   },
   {
     "role": "Segment Contributor ('Gutter Politics')",
@@ -6435,7 +6465,12 @@
     ],
     "pollie_slug": "judi-moylan",
     "start_date": "2019-01-01",
-    "end_date": "2022-10-31"
+    "end_date": "2022-10-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Diabetes Australia media release confirms: 'Retiring President, Hon Judi Moylan AO... Ms Moylan will take up a new role as Diabetes Australia's Government Affairs Advisor.' Confirms person, role, organisation, start 1 Jan 2019."
+    }
   },
   {
     "role": "Leader",
@@ -7248,11 +7283,17 @@
     "category": "Legal & Judicial",
     "sources": [
       "https://www.xdlaw.au/about",
-      "https://www.crikey.com.au/2019/10/14/xenophon-law-firm/"
+      "https://www.crikey.com.au/2019/10/14/xenophon-law-firm/",
+      "https://xdlaw.au/about"
     ],
     "pollie_slug": "nick-xenophon",
     "start_date": "2018-01-01",
-    "end_date": "2023-01-01"
+    "end_date": "2023-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "xdlaw.au/about (successor firm) states 'Nick Xenophon was a founding partner of the firm Xenophon Davis after leaving the Australian Senate.' Crikey (14 Oct 2019) corroborates. Left Senate 2017, firm founded 2019; departed 2023, firm renamed XD Law & Advocacy."
+    }
   },
   {
     "role": "Strategic Counsel",
@@ -8045,9 +8086,15 @@
     "organisation": "GALS Government And Legal Solutions",
     "category": "Legal & Judicial",
     "sources": [
-      "https://www.linkedin.com/in/jenny-ware-mp/"
+      "https://www.linkedin.com/in/jenny-ware-mp/",
+      "https://www.theleader.com.au/story/9236297/jenny-ware-reveals-mental-health-struggles-after-hughes-loss/"
     ],
-    "pollie_slug": "jenny-ware"
+    "pollie_slug": "jenny-ware",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "St George & Sutherland Shire Leader (1 May 2026) about Jenny Ware, former federal MP for Hughes, states she launched 'GALS (Government and Legal Solutions)' representing clients with government difficulties, leaning on her experience as lawyer and MP. Confirms identity and the post-parliamentary venture. LinkedIn corroborates."
+    }
   },
   {
     "role": "Deputy Chairman",
@@ -11097,10 +11144,17 @@
     "organisation": "Real Republic",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Ted_Mack_(politician)"
+      "https://en.wikipedia.org/wiki/Ted_Mack_(politician)",
+      "https://www.sbs.com.au/news/article/father-of-independents-ted-mack-dies/76ex03hw0",
+      "https://architectureau.com/articles/architect-independent-politician-ted-mack-dies-aged-84/"
     ],
     "pollie_slug": "ted-mack",
-    "start_date": "1999"
+    "start_date": "1999",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "SBS News obituary: 'He became a director of the Real Republic, which pressed for direct election of the president.' ArchitectureAU obituary and Wikipedia corroborate the Director role at Real Republic. Reputable sources naming Ted Mack specifically. Role occurred 1998-99, after leaving parliament Jan 1996."
+    }
   },
   {
     "role": "Columnist",
@@ -13335,9 +13389,14 @@
     "organisation": "Medicines Australia",
     "category": "Pharmaceutical & Biotechnology",
     "sources": [
-      "https://sementis.com.au/team/martyn-evans/"
+      "https://web.archive.org/web/20240518161153/https://sementis.com.au/team/martyn-evans/"
     ],
-    "pollie_slug": "martyn-evans"
+    "pollie_slug": "martyn-evans",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Live sementis.com.au/team/martyn-evans/ now 404s; Wayback snapshot (2024-05-18) holds his Sementis board bio confirming identity (former State/Federal MP, SA Minister for Health 1992-93, member for Bonython) and the director role. Removed dead URL, added archived snapshot."
+    }
   },
   {
     "role": "Chief of Staff",
@@ -14022,7 +14081,12 @@
       "https://educateelc.au/our-team/",
       "https://www.linkedin.com/in/karen-mcnamara-28770413/"
     ],
-    "pollie_slug": "karen-mcnamara"
+    "pollie_slug": "karen-mcnamara",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Educate Early Learning Centres' own 'Our Team' page (https://educateelc.au/our-team/) confirms both identity and role: it states Karen McNamara 'served as a Member of the House of Representatives from 2013 to 2016, in which she delivered vital infrastructure and services to the electorate of Dobell' (matching Dobell/reps/2016 record), and lists her titles as Board Chair & Company Secretary, Non-Executive Director, Chair of Governance Committee, and Member of Strategic Growth Committee."
+    }
   },
   {
     "pollie_slug": "phillip-lynch",
@@ -14547,7 +14611,12 @@
       "https://snowyrivermail.com.au/12451/peter-james-nixon-22-3-1928-to-1-5-2025/"
     ],
     "pollie_slug": "peter-nixon",
-    "start_date": "1983"
+    "start_date": "1983",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Snowy River Mail obituary confirms Peter James Nixon, former federal MP for Gippsland: 'His transition to business was equally impressive, initially with Gippsland and Northern and later a host of other boards including LINFOX.' Identifies Gippsland and Northern (agricultural cooperative) as a post-parliamentary board role after his 1983 departure. No source contradicts."
+    }
   },
   {
     "role": "Director",
@@ -22158,7 +22227,12 @@
       "https://en.wikipedia.org/wiki/Stephen_Martin_(Australian_politician)"
     ],
     "pollie_slug": "stephen-martin",
-    "start_date": "2010-06"
+    "start_date": "2010-06",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Wikipedia and the Australian Dictionary of Biography confirm Martin's actual Southern Cross University role was Professor of Business Research and director of the DBA program (June-Nov 2010), a fixed-term academic appointment, not a 'Council Member' governance role. SCU's council-members page does not list him. He is a Council Member at the University of Wollongong (from March 2026), a different institution. This gig has the wrong role for the organisation."
+    }
   },
   {
     "role": "Council Member",
@@ -24032,7 +24106,12 @@
       "https://trove.nla.gov.au/newspaper/article/101979824"
     ],
     "start_date": "1988-04-01",
-    "end_date": "1991-01-01"
+    "end_date": "1991-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Trove (Canberra Times, 1 Mar 1988) confirms McVeigh was appointed Queensland Agent-General in London, prompting his resignation from Groom on 29 Feb 1988. Wikipedia Agent-General (Queensland) list gives his term as 'April 1988 - January 1991', matching the record's start and end dates. Confirms identity, role, organisation and dates."
+    }
   },
   {
     "pollie_slug": "michael-lavarch",
@@ -25197,8 +25276,15 @@
     "organisation": "Strategic Counsel",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.thestrategiccounsel.com.au/about-us.html"
-    ]
+      "https://www.thestrategiccounsel.com.au/about-us.html",
+      "https://web.archive.org/web/20250715002404/https://thestrategiccounsel.com.au/about-us.html",
+      "https://pharmadispatch.com/news/vale-donna-staunton"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Strategic Counsel's About Us page (via Wayback snapshot, live HTTPS broken) lists 'The Hon. Dr Michael Wooldridge' among its senior team with a bio uniquely identifying this pollie (Minister for Health 1996-2001), and names an 'Executive Assistant to Michael Wooldridge'. BioPharmaDispatch's obituary for co-founder Donna Staunton confirms she 'built the organisation with... Dr Michael Wooldridge', establishing him as co-founder/senior principal. Confirms identity and role."
+    }
   },
   {
     "pollie_slug": "michael-wooldridge",
@@ -26718,10 +26804,16 @@
     "organisation": "Meerbusch Consulting",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.linkedin.com/in/matt-williamssa/"
+      "https://www.linkedin.com/in/matt-williamssa/",
+      "https://rocketreach.co/matthew-williams-email_375019427"
     ],
     "pollie_slug": "matt-williams",
-    "start_date": "2016"
+    "start_date": "2016",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "RocketReach confirms this is the same Matt Williams (federal MP for Hindmarsh 2013-2016) and lists Meerbusch Consulting among his roles, placing it right after he left parliament in mid-2016, consistent with the start_date. Pairs with the bot-blocked LinkedIn source per the supporting-source rule. Exact 'Principal' title not independently corroborated beyond LinkedIn (noted gap)."
+    }
   },
   {
     "role": "Associate Partner",
@@ -31278,7 +31370,12 @@
     "sources": [
       "https://www.smjohn.com/article/john-moore-australian-politician-former-australian-politician"
     ],
-    "pollie_slug": "john-moore"
+    "pollie_slug": "john-moore",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Sole cited source (smjohn.com) is a low-quality auto-generated bio aggregator returning HTTP 500. No authoritative source (Wikipedia, ParlInfo, aph.gov.au, PM&C state-funeral notice) mentions any 'Mineral Securities Limited' or mining chairmanship for the former MP for Ryan/Defence Minister. A clearly distinct namesake John Moore is an actual mining figure (Camborne School of Mines engineer, non-exec chair of ASX junior miners), a much better fit. Source conflated the two same-named people."
+    }
   },
   {
     "role": "Advisor (Education)",
@@ -32809,7 +32906,12 @@
       "https://www.wwdhs.org.au/20th-july-2019-in-waggas-past-25-and-50-years-ago/",
       "https://www.dailyadvertiser.com.au/story/5077109/wal-fife-remembered-as-a-statesman-who-served-his-community/"
     ],
-    "start_date": "1994"
+    "start_date": "1994",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wagga Wagga & District Historical Society reprint (of a 1994 item) states 'Chairman of the Calvary Hospital Board, Wal Fife...', matching the 1994 start_date. Daily Advertiser obituary corroborates Fife's long involvement with Calvary Hospital. Identity as former Hume MP confirmed."
+    }
   },
   {
     "pollie_slug": "tsebin-tchen",
@@ -33494,7 +33596,12 @@
     "sources": [
       "https://www.zoominfo.com/p/Mark-Bishop/630737697"
     ],
-    "pollie_slug": "mark-bishop"
+    "pollie_slug": "mark-bishop",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "The cited ZoomInfo profile is itself titled 'Senior Member at Administrative Appeals Tribunal' and its details (LLB University of Adelaide, MPA Harvard Kennedy School) match this Mark Bishop's confirmed post-Senate AAT appointment, not a property career. Handle Property Group (Perth developer) shows no Mark Bishop in any role (RocketReach roster; MD is Peter Burke). No independent source ties him to Handle Property Group. High confidence this is a ZoomInfo misattribution."
+    }
   },
   {
     "role": "Business Development Executive",
@@ -34530,7 +34637,12 @@
     "sources": [
       "https://au.linkedin.com/in/ross-vasta"
     ],
-    "pollie_slug": "ross-vasta"
+    "pollie_slug": "ross-vasta",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "The only cited source (LinkedIn ross-vasta) belongs to a different same-named person ('Director of Strategic Planning at RJS Tech'), not the former Member for Bonner. Tech Council of Australia's official board page lists ten directors, none named Ross Vasta. Startup Daily confirms it was former Liberal MP Paul Fletcher, not Ross Vasta, who joined as ex-Coalition-minister director. No source ties the former MP to any TCA role."
+    }
   },
   {
     "role": "Host",
@@ -37858,7 +37970,7 @@
     "organisation": "CPAC Australia",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://www.cpac.network/speakers-2020/ross_cameron"
+      "https://www.facebook.com/CPACaustralia/videos/ross-cameron-on-the-cpac-stage-when-you-have-a-situation-when-an-australian-prim/1075084369837969/"
     ],
     "pollie_slug": "ross-cameron"
   },
@@ -38564,9 +38676,16 @@
     "category": "Health, Medical & Aged Care",
     "sources": [
       "https://www.australianageingagenda.com.au/executive/mirus-australia-manad-discuss-partnership/",
-      "https://www.mirusaustralia.com/about-mirus-australia"
+      "https://www.mirusaustralia.com/about-mirus-australia",
+      "https://www.australianageingagenda.com.au/"
     ],
-    "pollie_slug": "peter-staples"
+    "pollie_slug": "peter-staples",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "australianageingagenda.com.au (19 Mar 2025): 'ManAd chief executive officer Peter Staples – a former federal aged care minister – will become a member of the board of the merged entity' (Mirus Australia/ManAd merger). Identity matches Peter Staples (ALP, Jagajaga), former Minister for Aged Care."
+    },
+    "start_date": "2025-03-19"
   },
   {
     "role": "Commissioner",
@@ -38908,9 +39027,15 @@
     "organisation": "Community Legal Centres NSW",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.linkedin.com/in/kerry-nettle-60305870/"
+      "https://www.linkedin.com/in/kerry-nettle-60305870/",
+      "https://clcnsw.org.au/sites/default/files/2022-09/CLCNSW-Annual-Report-2012-2013.pdf"
     ],
-    "pollie_slug": "kerry-nettle"
+    "pollie_slug": "kerry-nettle",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CLCNSW 2012/13 Annual Report names Kerry Nettle as 'Director: Kerry Nettle, Locum Advocacy and Human Rights Officer (parental leave position)'. Official org source confirming staff role, consistent with former Greens Senator's advocacy background. Exact dates not stated, left null."
+    }
   },
   {
     "role": "Founder and Board Member",
@@ -40854,10 +40979,15 @@
     "organisation": "St Francis Social Services",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.howcatering.org.au/our-people/laurie-ferguson"
+      "http://web.archive.org/web/20250415230541/https://www.howcatering.org.au/our-people/laurie-ferguson"
     ],
     "pollie_slug": "laurie-ferguson",
-    "start_date": "2017-12-01"
+    "start_date": "2017-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Cited howcatering.org.au source now 404s. Recovered via Wayback Machine (2025-04-15) snapshot of the org's 'Our People' page (House of Welcome Catering, a project of St Francis Social Services): 'Laurie joined the Board of St Francis Social Services in December 2017,' with matching bio (Federal Member for Reid 1990-2010 and Werriwa 2010-2016). Confirms Director/board role and Dec 2017 start."
+    }
   },
   {
     "role": "Board of Advisors Member",
@@ -42325,9 +42455,14 @@
     "organisation": "Canadian International Internet Dispute Resolution Centre",
     "category": "Legal & Judicial",
     "sources": [
-      "https://ciidrc.org/panelist/hon-neil-brown/"
+      "https://icsid.worldbank.org/sites/default/files/arbitrators/2021-07/CV_Brown.pdf"
     ],
-    "pollie_slug": "neil-brown"
+    "pollie_slug": "neil-brown",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Original ciidrc.org source 404s. Replaced with World Bank ICSID arbitrator CV for Hon Neil Anthony Brown QC (former Australian federal Minister, MP for Menzies), which states he was 'Appointed by WIPO, the ADNDRC... and many other international institutions to a series of panels', confirming the CIIDRC panelist role. Web search corroborates a current CIIDRC panelist profile for Hon. Neil Brown, Melbourne."
+    }
   },
   {
     "role": "Adjunct Professor of Law",
