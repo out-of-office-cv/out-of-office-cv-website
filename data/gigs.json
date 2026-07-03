@@ -25629,7 +25629,12 @@
     "category": "Professional Services & Management Consulting",
     "sources": [
       "https://www.neca.asn.au/branch/advocacy-policy"
-    ]
+    ],
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Cited source (neca.asn.au/branch/advocacy-policy) only shows Fiona Scott in an uncaptioned photo with NECA CEO Oliver Judd; it states no title for her. NECA NSW's actual Director of Policy, Technical & Safety is a different person, Neil Roberts (confirmed via NECA NSW social posts). No evidence she ever held a 'Director of Policy' title at NECA; the claimed role is contradicted by the source identifying who actually holds it."
+    }
   },
   {
     "pollie_slug": "fiona-scott",
