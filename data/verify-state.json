@@ -662,10 +662,12 @@
   "christine-milne|Patron|Bob Brown Foundation|null": "2026-05-14T08:06:06.647Z",
   "christine-milne|Patron|Smart Energy Council|null": "2026-05-14T08:06:06.647Z",
   "christopher-haviland|Admin Officer|SEARCH Foundation|null": {
-    "last_examined_at": "2026-06-21T00:00:00.000Z"
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
   },
   "christopher-haviland|Branch Councillor|Australian Republic Movement|null": {
-    "last_examined_at": "2026-06-21T00:00:00.000Z"
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
   },
   "christopher-haviland|Self-employed Mathematics Tutor|Self-employed|null": "2026-05-29T00:00:00.000Z",
   "christopher-miles|Board Member|Foreign Investment Review Board|1999-01-01": "2026-05-09T00:00:00.000Z",
@@ -971,7 +973,8 @@
   "fiona-nash|Regional Education Commissioner|Australian Government|2021-12-01": "2026-05-10T02:10:32.931Z",
   "fiona-nash|Strategic Adviser, Regional Development|Charles Sturt University|2018-01-01": "2026-05-10T02:10:32.931Z",
   "fiona-scott|Director of Policy|National Electrical and Communications Association NSW|null": {
-    "last_examined_at": "2026-06-21T00:00:00.000Z"
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
   },
   "fiona-scott|Director|National Film and Sound Archive of Australia|2017-01-01": {
     "last_examined_at": "2026-05-25T00:00:00.000Z"
@@ -982,7 +985,8 @@
   "fiona-scott|Executive Director Federal Government|PremierNational|2017-01-01": "2026-05-18T00:00:00.000Z",
   "fiona-scott|Federal Vice President|Liberal Party of Australia|2024-06-01": "2026-05-18T00:00:00.000Z",
   "fiona-scott|Founder and Chief Executive Officer|Castlereagh Honey|2019-01-01": {
-    "last_examined_at": "2026-06-21T00:00:00.000Z"
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
   },
   "fiona-scott|Managing Partner|Castlereagh Advisory|2016-01-01": {
     "last_examined_at": "2026-06-04T00:00:00.000Z"
@@ -1499,7 +1503,8 @@
     "last_examined_at": "2026-06-04T00:00:00.000Z"
   },
   "jenny-ware|Principal / Consultant|GALS Government And Legal Solutions|null": {
-    "last_examined_at": "2026-06-04T00:00:00.000Z"
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
   },
   "jim-carlton|Adjunct Professor|National Institute for Governance, University of Canberra|null": "2026-05-19T08:05:54Z",
   "jim-carlton|Advisory Council Chair|National Archives of Australia|null": "2026-05-19T08:05:54Z",
@@ -1834,7 +1839,10 @@
   "john-mildren|President|Cornish Association of Australia|null": "2026-05-12T14:04:24.595Z",
   "john-moore|Chair|Australian Wine and Brandy Corporation|null": "2026-05-23T00:00:00.000Z",
   "john-moore|Chair|Herencia Resources plc|2006-01-19": "2026-05-23T00:00:00.000Z",
-  "john-moore|Non-Executive Chair|Mineral Securities Limited|null": "2026-06-13T16:25:51.278Z",
+  "john-moore|Non-Executive Chair|Mineral Securities Limited|null": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "john-moore|Non-Executive Director|Arowana International Limited|null": "2026-06-13T16:25:51.278Z",
   "john-olsen|Chair|Adelaide Football Club|2020-10-13": "2026-05-01T14:07:07.978Z",
   "john-olsen|Chair|Australian American Association|null": "2026-05-01T14:07:07.978Z",
@@ -1941,7 +1949,10 @@
   "john-woodley|Chair|Peacebuilders International|null": "2026-05-26T08:14:50.293Z",
   "john-woodley|Founding Patron|Global Cabin Air Quality Executive|2006-01-01": "2026-05-26T08:14:50.293Z",
   "john-woodley|National President|Australian Progressive Alliance|2003-04-03": "2026-05-26T08:14:50.293Z",
-  "judi-moylan|Government Affairs Adviser|Diabetes Australia|2019-01-01": "2026-06-05T00:00:00.000Z",
+  "judi-moylan|Government Affairs Adviser|Diabetes Australia|2019-01-01": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "judi-moylan|President & Chair of the Board|Diabetes Australia|2013-09-01": "2026-06-05T00:00:00.000Z",
   "julia-banks|Advisory Board Member|Mentor List|null": {
     "last_examined_at": "2026-06-09T00:00:00.000Z"
@@ -1972,7 +1983,10 @@
   "justine-keay|Project Officer|Wicking Dementia Research and Education Centre, University of Tasmania|2019-05-18": "2026-05-27T00:00:00.000Z",
   "justine-keay|Psychologist|Family Based Care Tasmania|null": "2026-05-27T00:00:00.000Z",
   "karen-mcnamara|Member|Administrative Appeals Tribunal|2017-01-01": "2026-06-05T00:00:00.000Z",
-  "karen-mcnamara|Non-Executive Director and Company Secretary|Educate Early Learning Centres|null": "2026-06-05T00:00:00.000Z",
+  "karen-mcnamara|Non-Executive Director and Company Secretary|Educate Early Learning Centres|null": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "karen-synon|Deputy President and Division Head, Social Services and Child Support Division|Administrative Appeals Tribunal|2021-02-22": "2026-05-13T02:05:04.657Z",
   "karen-synon|Director|Australian Housing and Urban Research Institute|2019-04-05": "2026-05-13T02:05:04.657Z",
   "karen-synon|Member (part-time)|Migration Review Tribunal|2004": "2026-06-05T00:00:00.000Z",
@@ -2186,7 +2200,10 @@
     "last_examined_at": "2026-05-20T08:03:04.103Z"
   },
   "laura-smyth|Senior Executive Lawyer and Melbourne, Adelaide and Perth Commercial Team Leader|Australian Government Solicitor|2024-03-28": "2026-06-05T00:00:00.000Z",
-  "laura-smyth|Senior Legal Counsel|AdventBalance|null": "2026-06-05T00:00:00.000Z",
+  "laura-smyth|Senior Legal Counsel|AdventBalance|null": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "laurence-neal|Anglican Deacon|Anglican Diocese of Wangaratta|1987-11-01": "2026-05-29T00:00:00.000Z",
   "laurence-neal|Commonwealth Parliamentary Research Fellow|Parliament of Australia|1993-01-01": "2026-05-29T00:00:00.000Z",
   "laurence-neal|Councillor|Shire of Nathalia|1989-01-01": "2026-05-29T00:00:00.000Z",
@@ -2206,7 +2223,10 @@
   },
   "laurie-brereton|Non-Executive Emeritus Director|Rock Art Australia|2023-05-31": "2026-05-06T00:00:00Z",
   "laurie-ferguson|Board of Advisors Member|Global Panel Foundation Australasia|null": "2026-06-05T00:00:00.000Z",
-  "laurie-ferguson|Director|St Francis Social Services|2017-12-01": "2026-06-05T00:00:00.000Z",
+  "laurie-ferguson|Director|St Francis Social Services|2017-12-01": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "lee-rhiannon|Commissioner|Investigate PH (International Coalition for Human Rights in the Philippines)|2020-01-01": "2026-06-05T00:00:00.000Z",
   "lee-rhiannon|Committee Member|SEARCH Foundation|2018-01-01": "2026-06-05T00:00:00.000Z",
   "leo-mcleay|Chair|Metropolitan Cemeteries Trust|2010-01-01": "2026-05-06T00:00:00Z",
@@ -2378,7 +2398,10 @@
   "mark-arbib|Chief Executive Officer|Australian Olympic Committee|2025-05-01": "2026-05-07T14:08:36.532Z",
   "mark-arbib|Director of Strategy and Business Development|Consolidated Press Holdings|2012-03-01": "2026-05-07T14:08:36.532Z",
   "mark-arbib|President|Athletics Australia|2015-01-01": "2026-05-07T14:08:36.532Z",
-  "mark-bishop|General Manager|Handle Property Group|null": "2026-06-09T00:00:00.000Z",
+  "mark-bishop|General Manager|Handle Property Group|null": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "mark-bishop|Member|Administrative Appeals Tribunal|null": "2026-05-27T00:00:00.000Z",
   "mark-bishop|Senior Member|Administrative Appeals Tribunal|2022-04-04": "2026-05-27T00:00:00.000Z",
   "mark-furner|Member for Ferny Grove|Queensland Parliament|2015-01-31": "2026-05-06T00:00:00Z",
@@ -2412,7 +2435,10 @@
   "martyn-evans|Chair|Sementis|null": "2026-05-08T00:00:00.000Z",
   "martyn-evans|Chair|South Australian Ministerial Advisory Committee on End of Life Matters|null": "2026-06-05T00:00:00.000Z",
   "martyn-evans|Director of Community Engagement|University of Adelaide|2007-07-01": "2026-05-08T00:00:00.000Z",
-  "martyn-evans|Policy and Government Affairs Adviser|Medicines Australia|null": "2026-06-05T00:00:00.000Z",
+  "martyn-evans|Policy and Government Affairs Adviser|Medicines Australia|null": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "mary-crawford|Adjunct Fellow, Faculty of Business|Southern Cross University|null": "2026-05-14T00:00:00.000Z",
   "mary-crawford|Board Member|National Foundation for Australian Women|null": "2026-05-14T00:00:00.000Z",
   "mary-crawford|Lecturer in Government/Business Relations|Queensland University of Technology|1997-01-01": "2026-05-06T00:00:00Z",
@@ -2430,7 +2456,10 @@
   "mary-fisher|Workplace Relations Advisor|Printing Industries Association of Australia|null": "2026-06-05T00:00:00.000Z",
   "matt-williams|Associate Partner|SEC Newgate Australia|2019": "2026-05-23T14:24:46.028Z",
   "matt-williams|Government Relations Adviser|Australian Pipelines and Gas Association|null": "2026-05-23T14:24:46.028Z",
-  "matt-williams|Principal|Meerbusch Consulting|2016": "2026-06-09T00:00:00.000Z",
+  "matt-williams|Principal|Meerbusch Consulting|2016": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "matt-williams|State Manager South Australia and Northern Territory and National Defence Manager|Consult Australia|2023": "2026-05-23T14:24:46.028Z",
   "maurice-neil|Barrister|11 Garfield Barwick Chambers|null": "2026-05-13T02:05:04.657Z",
   "maurice-neil|Barrister|New South Wales Bar|null": "2026-05-13T02:05:04.657Z",
@@ -2646,7 +2675,10 @@
   "michael-wooldridge|Director|Research Australia|2002-01-01": "2026-05-17T02:05:45.833Z",
   "michael-wooldridge|Director|Resonance Health Limited|null": "2026-06-06T00:00:00.000Z",
   "michael-wooldridge|Non-Executive Director|Australian Pharmaceutical Industries Limited|2006-01-01": "2026-05-17T02:05:45.833Z",
-  "michael-wooldridge|Principal|Strategic Counsel|null": "2026-06-06T00:00:00.000Z",
+  "michael-wooldridge|Principal|Strategic Counsel|null": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "michael-young|Chair|National Multicultural Advisory Council|1994-01-01": "2026-06-06T00:00:00.000Z",
   "michael-young|Political Consultant and Lobbyist|Self-employed|1988-02-08": "2026-06-06T00:00:00.000Z",
   "michelle-o-byrne|Ambassador for Gender Equality|Department of Foreign Affairs and Trade|2025-08-18": "2026-05-06T00:00:00Z",
@@ -2765,7 +2797,10 @@
   "nick-bolkus|Director|Australian Fisheries Academy|null": "2026-05-08T00:00:00.000Z",
   "nick-bolkus|Founding Director|Bespoke Approach|2008-01-01": "2026-05-08T00:00:00.000Z",
   "nick-bolkus|Principal|Kazaru|2016-01-01": "2026-06-10T00:00:00.000Z",
-  "nick-dondas|Vice-Patron|Northern Territory Rugby Union|2001-01-01": "2026-06-06T00:00:00.000Z",
+  "nick-dondas|Vice-Patron|Northern Territory Rugby Union|2001-01-01": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "nick-dondas|Volunteer|Darwin GleNTi Festival|null": "2026-06-06T00:00:00.000Z",
   "nick-minchin|Chair|Museum of Australian Democracy at Old Parliament House|2020-05-29": "2026-05-11T20:04:38.169Z",
   "nick-minchin|Chair|Responsible Wagering Australia|null": "2026-06-06T00:00:00.000Z",
@@ -2777,7 +2812,10 @@
   "nick-sherry|Chairman|Household Capital|null": "2026-05-08T08:06:43.658Z",
   "nick-sherry|Non-Executive Director|Citi Australia|2012-11-18": "2026-05-08T08:06:43.658Z",
   "nick-sherry|Non-Executive Director|Spotless|null": "2026-05-08T08:06:43.658Z",
-  "nick-xenophon|Founding Partner|Xenophon Davis|2018-01-01": "2026-06-06T00:00:00.000Z",
+  "nick-xenophon|Founding Partner|Xenophon Davis|2018-01-01": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "nick-xenophon|Strategic Counsel|Huawei Australia|2019-12-01": "2026-06-06T00:00:00.000Z",
   "nickolas-varvaris|Accountant|Varvaris & Co|null": "2026-06-06T00:00:00.000Z",
   "nickolas-varvaris|Parish President|Greek Orthodox Parish and Community of Kogarah|null": "2026-06-06T00:00:00.000Z",
@@ -2990,7 +3028,8 @@
     "last_examined_at": "2026-06-21T00:00:00.000Z"
   },
   "peter-nixon|Director|Gippsland and Northern|1983": {
-    "last_examined_at": "2026-06-21T00:00:00.000Z"
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
   },
   "peter-nixon|Director|Linfox|null": "2026-05-08T00:00:00.000Z",
   "peter-rae|Adviser|World Bank|null": {
@@ -3181,7 +3220,10 @@
   "rob-hulls|Trustee|Kardinia Park Stadium Trust|2019-06-01": {
     "last_examined_at": "2026-05-26T20:19:20.634Z"
   },
-  "rob-oakeshott|Consultant|United Nations Development Program|2014-01-01": "2026-06-08T00:00:00.000Z",
+  "rob-oakeshott|Consultant|United Nations Development Program|2014-01-01": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "rob-oakeshott|Medical Doctor (GP)|Port Macquarie|2022-11-01": "2026-06-08T00:00:00.000Z",
   "robert-ellicott|Arbitrator|Court of Arbitration for Sport|1995-01-01": "2026-05-19T00:00:00.000Z",
   "robert-ellicott|Barrister|New South Wales Bar|1983-01-01": "2026-05-19T00:00:00.000Z",
@@ -3253,14 +3295,17 @@
   "rod-kemp|Board Member|Books Alive|null": "2026-05-07T14:08:36.532Z",
   "rod-kemp|Board Member|Collections Council of Australia|null": "2026-05-07T14:08:36.532Z",
   "rod-kemp|Board Member|Jonathan M Shiff Productions|null": {
-    "last_examined_at": "2026-06-21T00:00:00.000Z"
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
   },
   "rod-kemp|Board Member|National Institute of Circus Arts|null": {
-    "last_examined_at": "2026-06-21T00:00:00.000Z"
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
   },
   "rod-kemp|Board Member|Sport Australia Hall of Fame|null": "2026-05-01T00:00:00.000Z",
   "rod-kemp|Board Member|Surfing Australia|null": {
-    "last_examined_at": "2026-06-21T00:00:00.000Z"
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
   },
   "rod-kemp|Chairman|Institute of Public Affairs|2008-08-01": "2026-05-01T00:00:00.000Z",
   "ronald-edwards|Chair|State Emergency Management Committee|null": "2026-05-09T14:09:44.510Z",
@@ -3315,7 +3360,10 @@
   "ross-cameron|Investment Banking Group (public-private partnerships)|Macquarie Bank|2004": "2026-05-30T08:28:24.718Z",
   "ross-cameron|Presenter and Commentator|Sky News Australia|2013": "2026-05-30T08:28:24.718Z",
   "ross-cameron|President|Libertarian Party New South Wales|2023": "2026-05-30T08:28:24.718Z",
-  "ross-cameron|Speaker and Advisory Board Member|CPAC Australia|null": "2026-06-10T08:17:43.455Z",
+  "ross-cameron|Speaker and Advisory Board Member|CPAC Australia|null": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "ross-hart|Candidate for Bass|Australian Labor Party|2021": {
     "last_examined_at": "2026-06-07T00:00:00.000Z"
   },
@@ -3341,7 +3389,10 @@
     "last_examined_at": "2026-06-01T00:00:00.000Z"
   },
   "ross-vasta|Director of Strategic Planning|RJS Tech Group|2025-07-01": "2026-06-07T00:00:00.000Z",
-  "ross-vasta|Director|Tech Council of Australia|null": "2026-06-07T00:00:00.000Z",
+  "ross-vasta|Director|Tech Council of Australia|null": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "russell-trood|Adjunct Professor|US Studies Centre, University of Sydney|null": "2026-05-01T02:04:50.738Z",
   "russell-trood|Board Member|Australia-Indonesia Institute|null": "2026-05-01T02:04:50.738Z",
   "russell-trood|Board Member|Australian-American Fulbright Commission|null": "2026-05-01T02:04:50.738Z",
@@ -3387,7 +3438,10 @@
     "last_examined_at": "2026-05-31T00:00:00.000Z"
   },
   "sean-edwards|Chair|Cooperative Research Centre for Contamination Assessment and Remediation of the Environment|null": "2026-05-24T02:17:47.846Z",
-  "sean-edwards|Director|Pristine Foods|2025-05-26": "2026-06-07T00:00:00.000Z",
+  "sean-edwards|Director|Pristine Foods|2025-05-26": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "sean-edwards|Executive Chair|Enterprise Corporation|null": "2026-06-07T00:00:00.000Z",
   "sean-edwards|Non-Executive Director|Kirrihill Wines|null": "2026-05-24T02:17:47.846Z",
   "sharman-stone|Ambassador for Women and Girls|Australian Government (DFAT)|2017-01-01": "2026-05-02T00:00:00.000Z",
@@ -3412,7 +3466,10 @@
   "sid-spindler|Co-founder|Defenders of Native Title|1997-01-01": "2026-06-04T00:00:00.000Z",
   "sid-spindler|Co-founder|Towards a Just Society Fund|2002-01-01": "2026-06-04T00:00:00.000Z",
   "sid-spindler|Member|Victorian Deaths in Custody Watch Committee|null": "2026-06-04T00:00:00.000Z",
-  "simon-birmingham|Board Member|Tech Council of Australia|2025-12-01": "2026-06-07T00:00:00.000Z",
+  "simon-birmingham|Board Member|Tech Council of Australia|2025-12-01": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "simon-birmingham|Head of Asia Pacific Engagement and Chairman, South Australia|ANZ|2025-02-01": "2026-06-07T00:00:00.000Z",
   "simon-crean|Board Member|McClelland Sculpture Park and Gallery|2021-05": "2026-04-29T22:03:48Z",
   "simon-crean|Chair, Smart Manufacturing Group|Deakin University|null": "2026-04-29T22:03:48Z",
@@ -3429,7 +3486,10 @@
   "simon-crean|Independent Board Director|Greater South East Melbourne|null": "2026-04-29T22:03:48Z",
   "simon-crean|Member, University Council|Monash University|2014": "2026-04-29T22:03:48Z",
   "simon-crean|Non-Executive Director|Linfox International Group|2014": "2026-04-29T22:03:48Z",
-  "simon-crean|Strategic Adviser|Naval Group|2021-06": "2026-06-07T00:00:00.000Z",
+  "simon-crean|Strategic Adviser|Naval Group|2021-06": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "sophie-mirabella-formerly-panopoulos|Commissioner|Fair Work Commission|2021-05-24": "2026-06-27T16:37:44.331Z",
   "sophie-mirabella-formerly-panopoulos|Director|ASC Pty Ltd|2013-12-17": "2026-06-27T16:37:44.331Z",
   "sophie-mirabella-formerly-panopoulos|General Manager, Government and Media Relations|Hancock Prospecting Pty Ltd|2016-08-12": {
@@ -3860,7 +3920,10 @@
     "last_examined_at": "2026-05-30T20:27:13.366Z"
   },
   "zoe-daniel|Board Member|Women for Election|2025-08-01": "2026-06-08T00:00:00.000Z",
-  "zoe-daniel|Consultant and Advocate|Alliance for Gambling Reform|null": "2026-06-08T00:00:00.000Z",
+  "zoe-daniel|Consultant and Advocate|Alliance for Gambling Reform|null": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "zoe-daniel|Independent Chair|Mental Health Victoria|2025-08-01": "2026-05-08T20:07:32.113Z",
   "robert-ray|Chair|Australian Political Exchange Council|2009-08-01": "2026-06-07T00:00:00.000Z",
   "robert-ray|Chair|Victorian Managed Insurance Authority|2010-03-01": "2026-06-07T00:00:00.000Z",
@@ -3995,7 +4058,8 @@
     "last_examined_at": "2026-06-09T00:00:00.000Z"
   },
   "keith-wolahan|Barrister|New Chambers (Victorian Bar)|2025-06-01": {
-    "last_examined_at": "2026-06-09T00:00:00.000Z"
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
   },
   "keith-wright|Founder and Director|International Language Academy Australia|null": {
     "last_examined_at": "2026-06-09T00:00:00.000Z"
@@ -4007,7 +4071,8 @@
     "last_examined_at": "2026-06-09T00:00:00.000Z"
   },
   "kerry-nettle|Staff Member|Community Legal Centres NSW|null": {
-    "last_examined_at": "2026-06-09T00:00:00.000Z"
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
   },
   "kerry-rea|Staff Member|Griffith University (Office of the Vice-Chancellor and President)|null": {
     "last_examined_at": "2026-06-09T00:00:00.000Z"
@@ -4068,7 +4133,10 @@
   "peter-dutton|Director|Queensland Investment Corporation|2026-04-10": "2026-06-10T00:00:00.000Z",
   "peter-georgiou|Associate|Crossbench Connect|null": "2026-06-10T00:00:00.000Z",
   "peter-johnson|Visiting Research Fellow|University of Southampton|null": "2026-06-10T00:00:00.000Z",
-  "peter-staples|Director|Mirus Australia|null": "2026-06-10T00:00:00.000Z",
+  "peter-staples|Director|Mirus Australia|null": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "philip-cleary|Podcast host|Cleary Independent|null": "2026-06-10T00:00:00.000Z",
   "philip-lightfoot|Author|BookPOD|2023-12-15": "2026-06-10T00:00:00.000Z",
   "rachel-siewert|Deputy Chief Executive Officer|Western Australian Council of Social Service|2022-07-25": "2026-06-10T00:00:00.000Z",
@@ -4084,7 +4152,10 @@
   "sam-dastyari|Celebrity Contestant|I'm a Celebrity...Get Me Out of Here! (Network Ten)|2019-01-13": "2026-06-10T08:17:43.455Z",
   "sam-mcmahon|Owner|Northern Territory Veterinary Services|null": "2026-06-10T08:17:43.455Z",
   "santo-santoro|Director and Lobbyist|Santoro Consulting (Sanlaan Pty Ltd)|null": "2026-06-10T08:17:43.455Z",
-  "sharon-grierson|Senior Manager Community & Place Partner|Roads and Maritime Services (NSW)|null": "2026-06-10T08:17:43.455Z",
+  "sharon-grierson|Senior Manager Community & Place Partner|Roads and Maritime Services (NSW)|null": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
+  },
   "shayne-murphy|Director|Ecopellets|2019": "2026-06-10T08:17:43.455Z",
   "neil-brown|Barrister|Victorian Bar|1991": "2026-06-10T00:00:00.000Z",
   "neil-brown|Arbitrator and Mediator|World Intellectual Property Organization Arbitration and Mediation Center|2007": "2026-06-10T00:00:00.000Z",
@@ -4092,7 +4163,8 @@
     "last_examined_at": "2026-06-21T00:00:00.000Z"
   },
   "neil-brown|Panelist|Canadian International Internet Dispute Resolution Centre|null": {
-    "last_examined_at": "2026-06-21T00:00:00.000Z"
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 2
   },
   "neil-brown|Adjunct Professor of Law|Murdoch University|null": {
     "last_examined_at": "2026-06-21T00:00:00.000Z"
@@ -4108,5 +4180,37 @@
   "stirling-griff|Commonwealth Government Representative, Advisory Board|SAiGENCI (South Australian immunoGENomics Cancer Institute)|null": "2026-06-10T00:00:00.000Z",
   "sue-boyce|Chair|Everhard Industries|2014-07-01": "2026-06-10T00:00:00.000Z",
   "mehmet-tillem|Chief of Staff|Office of the Minister for Small Business, Innovation and Trade (Phil Dalidakis), Victorian Government|null": "2026-07-03T00:00:00.000Z",
-  "robert-mcmullan|Member, High-level Advisory Group on Climate Change Financing|United Nations|2010-02-12": "2026-07-03T00:00:00.000Z"
+  "robert-mcmullan|Member, High-level Advisory Group on Climate Change Financing|United Nations|2010-02-12": "2026-07-03T00:00:00.000Z",
+  "stephen-martin|Council Member|Southern Cross University|2010-06": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 1
+  },
+  "susan-lamb|Vice Chancellor's Fellow|Queensland University of Technology|null": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 1
+  },
+  "ted-mack|Director|Real Republic|1999": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 1
+  },
+  "tim-storer|Director|Storer Asia|2019-07-01": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 1
+  },
+  "tom-mcveigh|Agent-General for Queensland|Queensland Government Office, London|1988-04-01": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 1
+  },
+  "wal-fife|Chair|Calvary Hospital Wagga Wagga|1994": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 1
+  },
+  "warren-truss|Chair|Australian Rail Track Corporation (ARTC)|2018-04-20": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 1
+  },
+  "warwick-stacey|Chief Executive Officer (CEO) of Executive Search|eg.1 Global|unknown": {
+    "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 1
+  }
 }
