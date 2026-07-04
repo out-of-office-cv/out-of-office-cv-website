@@ -42628,5 +42628,117 @@
       "by": "claude",
       "note": "Wikipedia's Tony Lamb article cites: 'Lamb, Antony H. (2009). Of measures and men: the Victorian Country Party, 1917 to 1945 (Ph.D.). Swinburne University of Technology.' Corroborated by Swinburne's research bank, which hosts the PDF as 'Antony Lamb Thesis.pdf', and by the figshare record. Author (Antony Hamilton Lamb) and thesis subject match this former ALP MP for La Trobe/Streeton; no namesake. Doctoral research role at Swinburne, published 2009."
     }
+  },
+  {
+    "role": "Conference Contributor",
+    "organisation": "Samuel Griffith Society",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.samuelgriffith.org/papers-by-author",
+      "https://static1.squarespace.com/static/596ef6aec534a5c54429ed9e/t/5c9c5fae53450a02c2cb0362/1553751986731/Vol2.pdf"
+    ],
+    "pollie_slug": "peter-durack",
+    "start_date": "1993-01-01"
+  },
+  {
+    "role": "Solicitor",
+    "organisation": "Private legal practice",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://michaeleasson.com/political-history/2013-michael-maher-m-p-put-his-heart-and-soul-into-bettering-lives/"
+    ],
+    "pollie_slug": "michael-maher",
+    "start_date": "1987-01-01"
+  },
+  {
+    "role": "Staff Member",
+    "organisation": "Teachers Union Health",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Leonie_Short"
+    ],
+    "pollie_slug": "leonie-short"
+  },
+  {
+    "role": "Staff Member",
+    "organisation": "DRUG ARM",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Leonie_Short"
+    ],
+    "pollie_slug": "leonie-short"
+  },
+  {
+    "role": "Founding Academic Staff Member, School of Dentistry and Oral Health",
+    "organisation": "Griffith University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Leonie_Short",
+      "https://www.e-deneducation.com/courses/dental-education-contributors/leonie-short/"
+    ],
+    "pollie_slug": "leonie-short",
+    "start_date": "2004-01-01"
+  },
+  {
+    "role": "Course Developer, Dental Assisting Certification",
+    "organisation": "Southbank Institute of TAFE",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://seniorsdentalcareaustralia.com.au/your-trainers/"
+    ],
+    "pollie_slug": "leonie-short",
+    "start_date": "2003-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Dental Council",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Leonie_Short",
+      "https://www.e-deneducation.com/courses/dental-education-contributors/leonie-short/"
+    ],
+    "pollie_slug": "leonie-short",
+    "start_date": "2004-01-01"
+  },
+  {
+    "role": "Associate Professor of Oral Health",
+    "organisation": "CQUniversity",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Leonie_Short",
+      "https://www.e-deneducation.com/courses/dental-education-contributors/leonie-short/",
+      "https://seniorsdentalcareaustralia.com.au/your-trainers/"
+    ],
+    "pollie_slug": "leonie-short"
+  },
+  {
+    "role": "Member",
+    "organisation": "Australasian Council of Dental Schools",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.e-deneducation.com/courses/dental-education-contributors/leonie-short/"
+    ],
+    "pollie_slug": "leonie-short",
+    "start_date": "2012-01-01"
+  },
+  {
+    "role": "Member",
+    "organisation": "Queensland Civil and Administrative Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://au.linkedin.com/in/leonie-m-short-2b04117"
+    ],
+    "pollie_slug": "leonie-short"
+  },
+  {
+    "role": "Owner, Director and Company Secretary",
+    "organisation": "Seniors Dental Care Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://seniorsdentalcareaustralia.com.au/your-trainers/",
+      "https://au.linkedin.com/in/leonie-m-short-2b04117"
+    ],
+    "pollie_slug": "leonie-short",
+    "start_date": "2021-03-01"
   }
 ]
