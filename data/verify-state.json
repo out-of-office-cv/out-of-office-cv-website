@@ -300,7 +300,10 @@
   "bob-carr|Council Member|Voiceless, the Animal Protection Institute|2009": "2026-05-08T02:09:59.929Z",
   "bob-carr|Director|Australia-China Relations Institute, University of Technology Sydney|2014": "2026-05-08T02:09:59.929Z",
   "bob-carr|Director|Dymocks Booksellers|2007-07": "2026-05-08T02:09:59.929Z",
-  "bob-carr|Director|Melbourne University Press|null": "2026-06-27T16:37:44.331Z",
+  "bob-carr|Director|Melbourne University Press|null": {
+    "last_examined_at": "2026-07-05T00:00:00.000Z",
+    "attempts": 2
+  },
   "bob-carr|Director|Sydney Water|2025-11-17": "2026-05-08T02:09:59.929Z",
   "bob-carr|Director|United States Studies Centre|2009": "2026-05-08T02:09:59.929Z",
   "bob-carr|Honorary Professor|Beijing Foreign Studies University|null": "2026-05-08T02:09:59.929Z",
@@ -371,7 +374,10 @@
   "brett-whiteley|Adviser|Office of the Assistant Minister for Cities and Digital Transformation|2017-04-01": {
     "last_examined_at": "2026-05-31T00:00:00.000Z"
   },
-  "brett-whiteley|Principal Adviser|Office of the Premier of Tasmania|null": "2026-06-27T16:37:44.331Z",
+  "brett-whiteley|Principal Adviser|Office of the Premier of Tasmania|null": {
+    "last_examined_at": "2026-07-05T00:00:00.000Z",
+    "attempts": 2
+  },
   "brian-courtice|Adviser (Queensland Projects)|Office of the Minister for Resources, David Beddall|1994-01-01": {
     "last_examined_at": "2026-05-31T00:00:00.000Z"
   },
@@ -956,7 +962,10 @@
   "eric-hutchinson|Chair|Kingston and Arthur's Vale Historic Area Advisory Committee|2017-04-01": {
     "last_examined_at": "2026-06-01T00:00:00.000Z"
   },
-  "ewen-jones|Business Development Manager|Pickerings Auto Group|null": "2026-06-27T16:37:44.331Z",
+  "ewen-jones|Business Development Manager|Pickerings Auto Group|null": {
+    "last_examined_at": "2026-07-05T00:00:00.000Z",
+    "attempts": 2
+  },
   "ewen-jones|Managing Director|All Points North Advisory|2017": "2026-05-30T08:28:24.718Z",
   "ewen-jones|Sales Team Lead|Golf World Townsville|null": {
     "last_examined_at": "2026-06-07T00:00:00.000Z"
@@ -1316,10 +1325,16 @@
     "last_examined_at": "2026-05-21T20:08:13.158Z"
   },
   "helen-kroger|Chair|Australian Fisheries Management Authority|2017-07-01": "2026-06-03T00:00:00.000Z",
-  "helen-kroger|Principal|Civic Creative|null": "2026-06-27T16:37:44.331Z",
+  "helen-kroger|Principal|Civic Creative|null": {
+    "last_examined_at": "2026-07-05T00:00:00.000Z",
+    "attempts": 2
+  },
   "ian-campbell|Advisory Board Member|Sea Shepherd Conservation Society|2008": "2026-05-15T00:00:00.000Z",
   "ian-campbell|Advisory Panel Member|Water West|2014-08": "2026-05-15T00:00:00.000Z",
-  "ian-campbell|Ambassador|Captain Paul Watson Foundation|null": "2026-06-27T16:37:44.331Z",
+  "ian-campbell|Ambassador|Captain Paul Watson Foundation|null": {
+    "last_examined_at": "2026-07-05T00:00:00.000Z",
+    "attempts": 2
+  },
   "ian-campbell|Chair|ASG Group|2015": "2026-05-15T00:00:00.000Z",
   "ian-campbell|Chair|Harry Butler Institute, Murdoch University|null": "2026-05-15T00:00:00.000Z",
   "ian-campbell|Chair|North West Infrastructure|2009-10": "2026-05-15T00:00:00.000Z",
@@ -1415,7 +1430,10 @@
   "jan-mclucas|Co-Chair, Consumer Reference Group|FNQ Connect|null": {
     "last_examined_at": "2026-06-03T02:31:27.072Z"
   },
-  "jan-mclucas|Consultant|Hawker Britton|2017": "2026-06-27T16:37:44.331Z",
+  "jan-mclucas|Consultant|Hawker Britton|2017": {
+    "last_examined_at": "2026-07-05T00:00:00.000Z",
+    "attempts": 2
+  },
   "jane-prentice|Chairperson|Tennis Queensland|2020-10-01": "2026-05-11T20:04:38.169Z",
   "jane-prentice|Director|Queensland Eye Institute Foundation|null": "2026-05-11T20:04:38.169Z",
   "jane-prentice|President|Scouts Queensland|null": "2026-05-11T20:04:38.169Z",
@@ -3942,7 +3960,10 @@
   "andrew-thomas|Director of Administration|Royal Western Australian Bowling Association|1993-01-01": "2026-06-07T00:00:00.000Z",
   "ann-corcoran|Student Ombudsman|Monash University|2007-11-01": "2026-06-07T00:00:00.000Z",
   "ann-sudmalis|Artist and Author|Reknu|null": "2026-06-07T00:00:00.000Z",
-  "annette-hurley|Board Member|Northern Park Lands Trust|null": "2026-06-27T16:37:44.331Z",
+  "annette-hurley|Board Member|Northern Park Lands Trust|null": {
+    "last_examined_at": "2026-07-05T00:00:00.000Z",
+    "attempts": 2
+  },
   "anthony-street|Committee Member|Melbourne Cricket Club|1984": "2026-06-07T00:00:00.000Z",
   "arthur-devlin|Secretary|Burnie Trades and Labour Council|1966": "2026-06-07T00:00:00.000Z",
   "barry-haase|Administrator of the Indian Ocean Territories|Australian Indian Ocean Territories (Christmas Island and Cocos (Keeling) Islands)|2014-10-05": "2026-06-07T00:00:00.000Z",
@@ -3975,11 +3996,17 @@
   "david-beddall|Chair|Industrea Limited|1999-03-01": "2026-06-08T00:00:00.000Z",
   "david-charles|Consul-General|Australian Consulate-General San Francisco|1990-02-19": "2026-06-08T00:00:00.000Z",
   "david-fawcett|Strategic Advisor|Larvotto Resources|2026-04-09": "2026-06-08T00:00:00.000Z",
-  "david-gillespie|Specialist Gastroenterologist|Port Macquarie Gastroenterology|null": "2026-06-27T16:37:44.331Z",
+  "david-gillespie|Specialist Gastroenterologist|Port Macquarie Gastroenterology|null": {
+    "last_examined_at": "2026-07-05T00:00:00.000Z",
+    "attempts": 2
+  },
   "david-jull|President|101FM|2007": "2026-06-08T00:00:00.000Z",
   "david-thomson|President|McEwen House (National Party headquarters)|null": "2026-06-08T00:00:00.000Z",
   "david-van|Head of Strategy|Arvio Technology|null": "2026-06-08T00:00:00.000Z",
-  "de-anne-kelly|Director|Calliope Investments Pty Ltd|null": "2026-06-27T16:37:44.331Z",
+  "de-anne-kelly|Director|Calliope Investments Pty Ltd|null": {
+    "last_examined_at": "2026-07-05T00:00:00.000Z",
+    "attempts": 2
+  },
   "donald-cameron|President|Clan Cameron Australia - Queensland Branch|null": "2026-06-08T00:00:00.000Z",
   "douglas-everingham|Coordinator, World Election Commission|World Government of World Citizens|null": "2026-06-08T00:00:00.000Z",
   "douglas-mcclelland|High Commissioner|Australian High Commission, United Kingdom|1987": "2026-06-08T00:00:00.000Z",
@@ -4211,6 +4238,26 @@
   },
   "warwick-stacey|Chief Executive Officer (CEO) of Executive Search|eg.1 Global|unknown": {
     "last_examined_at": "2026-07-04T02:30:00.000Z",
+    "attempts": 1
+  },
+  "kenneth-ticehurst|Managing Director|Kattron|null": {
+    "last_examined_at": "2026-07-05T00:00:00.000Z",
+    "attempts": 1
+  },
+  "benjamin-humphreys|Director|Australian Stockman’s Hall of Fame|null": {
+    "last_examined_at": "2026-07-05T00:00:00.000Z",
+    "attempts": 1
+  },
+  "benjamin-humphreys|Member, Commonwealth Observer Group (Fiji general election)|Commonwealth Secretariat|2001-08-01": {
+    "last_examined_at": "2026-07-05T00:00:00.000Z",
+    "attempts": 1
+  },
+  "ray-braithwaite|Author|Porters Group|2008-01-01": {
+    "last_examined_at": "2026-07-05T00:00:00.000Z",
+    "attempts": 1
+  },
+  "antony-lamb|Doctoral Researcher|Swinburne University of Technology|null": {
+    "last_examined_at": "2026-07-05T00:00:00.000Z",
     "attempts": 1
   }
 }
