@@ -42635,10 +42635,17 @@
     "category": "Legal & Judicial",
     "sources": [
       "https://www.samuelgriffith.org/papers-by-author",
-      "https://static1.squarespace.com/static/596ef6aec534a5c54429ed9e/t/5c9c5fae53450a02c2cb0362/1553751986731/Vol2.pdf"
+      "https://static1.squarespace.com/static/596ef6aec534a5c54429ed9e/t/5c9c5fae53450a02c2cb0362/1553751986731/Vol2.pdf",
+      "https://www.samuelgriffith.org/past-speakers",
+      "https://www.elizabethsbookshop.com.au/shop/australiana/upholding-the-australian-constitution-volume-2-proceedings-of-the-second-conference-of-the-samuel-griffith-society-melbourne-july-1993/"
     ],
     "pollie_slug": "peter-durack",
-    "start_date": "1993-01-01"
+    "start_date": "1993-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via samuelgriffith.org/papers-by-author, which lists Peter Durack as author of the paper \"What is to be Done?\" in Volume 2 of the Society's proceedings, and samuelgriffith.org/past-speakers, which lists \"The Honourable Peter Durack, QC\" under Commonwealth Attorneys-General speakers — the same Peter Durack (WA Liberal Senator and federal Attorney-General 1977-83). The source publication is \"Upholding the Australian Constitution Volume 2: Proceedings of the Second Conference of The Samuel Griffith Society, Melbourne, July 1993\". Correcting start_date to the actual conference date (July 1993)."
+    }
   },
   {
     "role": "Solicitor",
@@ -42648,7 +42655,12 @@
       "https://michaeleasson.com/political-history/2013-michael-maher-m-p-put-his-heart-and-soul-into-bettering-lives/"
     ],
     "pollie_slug": "michael-maher",
-    "start_date": "1987-01-01"
+    "start_date": "1987-07-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited tribute/obituary at michaeleasson.com (for Michael John Maher OAM, MP for Drummoyne 1973-82 and federal MP for Lowe 1982-87, d. 2013) explicitly states: \"Maher never returned to public life. Instead, as a solicitor, he served his clients with characteristic relentless dedication to solve their problems\" — framed as occurring after his 1987 election defeat, confirming a genuine post-parliamentary role. No specific firm name is given anywhere, so \"Private legal practice\" is a fair generic description. Corrected the start_date, which as recorded (1 January 1987) implausibly predates his 11 July 1987 departure from parliament; no source gives an exact month, so it has been set to his ceased_date as the best-supported lower bound."
+    }
   },
   {
     "role": "Staff Member",
@@ -42657,7 +42669,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Leonie_Short"
     ],
-    "pollie_slug": "leonie-short"
+    "pollie_slug": "leonie-short",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia states verbatim: \"Following her time in parliament, she worked at Teachers Union Health and DRUG ARM.\" This directly names her and this organisation post-parliament."
+    }
   },
   {
     "role": "Staff Member",
@@ -42666,7 +42683,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Leonie_Short"
     ],
-    "pollie_slug": "leonie-short"
+    "pollie_slug": "leonie-short",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same Wikipedia sentence confirms she worked at DRUG ARM after leaving parliament: \"Following her time in parliament, she worked at Teachers Union Health and DRUG ARM.\""
+    }
   },
   {
     "role": "Founding Academic Staff Member, School of Dentistry and Oral Health",
@@ -42677,7 +42699,12 @@
       "https://www.e-deneducation.com/courses/dental-education-contributors/leonie-short/"
     ],
     "pollie_slug": "leonie-short",
-    "start_date": "2004-01-01"
+    "start_date": "2004-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia: \"She then helped establish Australia's first new Dental School in 57 years at Griffith University on the Gold Coast.\" e-deneducation corroborates: \"Australia's first new dental school for 57 years at Griffith University in 2004.\" Confirms this specific person, role and 2004 start date."
+    }
   },
   {
     "role": "Course Developer, Dental Assisting Certification",
@@ -42687,7 +42714,12 @@
       "https://seniorsdentalcareaustralia.com.au/your-trainers/"
     ],
     "pollie_slug": "leonie-short",
-    "start_date": "2003-01-01"
+    "start_date": "2003-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "seniorsdentalcareaustralia.com.au (her own company's trainer bio) states she \"developed a Certificate III in Dental Assisting and a Certificate IV in Oral Health Education for Southbank TAFE in 2003\" — directly substantiates course-development role and 2003 start date."
+    }
   },
   {
     "role": "Director",
@@ -42698,7 +42730,12 @@
       "https://www.e-deneducation.com/courses/dental-education-contributors/leonie-short/"
     ],
     "pollie_slug": "leonie-short",
-    "start_date": "2004-01-01"
+    "start_date": "2004-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "e-deneducation: \"the first dental therapist to be appointed to the Australian Dental Council in 2004.\" The ADC's own governance pages show the Council's governing body is titled the Board of Directors, so appointment to the Council is appointment as a Director."
+    }
   },
   {
     "role": "Associate Professor of Oral Health",
@@ -42709,7 +42746,12 @@
       "https://www.e-deneducation.com/courses/dental-education-contributors/leonie-short/",
       "https://seniorsdentalcareaustralia.com.au/your-trainers/"
     ],
-    "pollie_slug": "leonie-short"
+    "pollie_slug": "leonie-short",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia: \"She is currently associate professor of Oral Health at Central Queensland University in Rockhampton.\" e-deneducation and seniorsdentalcareaustralia.com.au corroborate the CQUniversity Bachelor of Oral Health role (established 2012)."
+    }
   },
   {
     "role": "Member",
@@ -42719,7 +42761,12 @@
       "https://www.e-deneducation.com/courses/dental-education-contributors/leonie-short/"
     ],
     "pollie_slug": "leonie-short",
-    "start_date": "2012-01-01"
+    "start_date": "2012-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "e-deneducation: \"the first dental therapist to become a member of the Australasian Council of Dental Schools in 2012.\" Directly names this person, role and organisation with matching 2012 start date."
+    }
   },
   {
     "role": "Member",
@@ -42739,6 +42786,11 @@
       "https://au.linkedin.com/in/leonie-m-short-2b04117"
     ],
     "pollie_slug": "leonie-short",
-    "start_date": "2021-03-01"
+    "start_date": "2021-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "LinkedIn About section states: \"Owner, Director and Company Secretary of Seniors Dental Care Australia since March 2021.\" Corroborated by seniorsdentalcareaustralia.com.au, her own company's site, which features her as a trainer and links to the same LinkedIn profile."
+    }
   }
 ]
