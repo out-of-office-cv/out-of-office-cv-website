@@ -42792,5 +42792,16 @@
       "by": "claude",
       "note": "LinkedIn About section states: \"Owner, Director and Company Secretary of Seniors Dental Care Australia since March 2021.\" Corroborated by seniorsdentalcareaustralia.com.au, her own company's site, which features her as a trainer and links to the same LinkedIn profile."
     }
+  },
+  {
+    "role": "Author and Founder",
+    "organisation": "Ironbar Publishing",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.ironbarpublishing.au/",
+      "https://www.linkedin.com/posts/wilson-tuckey-27118bab_ironbar-tuckey-a-memoir-by-wilson-tuckey-activity-7093431102551314433-HdSJ"
+    ],
+    "pollie_slug": "wilson-tuckey",
+    "start_date": "2022-01-01"
   }
 ]
