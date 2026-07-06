@@ -7,6 +7,7 @@ description:
   the dataset.
 disable-model-invocation: true
 argument-hint: [pollie-slug or strategy]
+model: sonnet
 allowed-tools: Read, Grep, Glob, Bash, WebSearch, WebFetch, Task
 ---
 

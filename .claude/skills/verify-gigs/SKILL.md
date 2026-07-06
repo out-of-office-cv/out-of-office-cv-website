@@ -5,6 +5,7 @@ description:
   them via web research, and improves source quality. Use for periodic
   verification sweeps.
 disable-model-invocation: true
+model: sonnet
 allowed-tools: Read, Grep, Glob, Bash, WebSearch, WebFetch, Task
 ---
 
