@@ -42803,5 +42803,16 @@
     ],
     "pollie_slug": "wilson-tuckey",
     "start_date": "2022-01-01"
+  },
+  {
+    "role": "Author",
+    "organisation": "Independent (Snowflake's Hope)",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.crikey.com.au/2013/04/04/hawkes-spider-poem-and-scary-keating-novel-reveals-life-as-an-80s-mp/",
+      "https://web.archive.org/web/20170222164141/https://snowflakeshope.com/",
+      "https://en.wikipedia.org/wiki/Elizabeth_Harvey_(politician)"
+    ],
+    "pollie_slug": "elizabeth-harvey"
   }
 ]
