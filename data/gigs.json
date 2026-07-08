@@ -42811,8 +42811,14 @@
     "sources": [
       "https://www.crikey.com.au/2013/04/04/hawkes-spider-poem-and-scary-keating-novel-reveals-life-as-an-80s-mp/",
       "https://web.archive.org/web/20170222164141/https://snowflakeshope.com/",
-      "https://en.wikipedia.org/wiki/Elizabeth_Harvey_(politician)"
+      "https://en.wikipedia.org/wiki/Elizabeth_Harvey_(politician)",
+      "https://womensagenda.com.au/latest/elizabeth-harvey-life-under-hawke-as-an-80s-mp-in-fiction/"
     ],
-    "pollie_slug": "elizabeth-harvey"
+    "pollie_slug": "elizabeth-harvey",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms Elizabeth Harvey (ALP, Hawker, in office 11 Jul 1987 – 24 Mar 1990, matching the pollie record) 'published on a blog her novel, Snowflake's Hope, a fictionalised account of her experiences as a Federal MP.' Crikey (2013) independently confirms she 'has written a juicy novel about life as a marginal member in the 1980s — and she's publishing it online for free,' after deciding not to seek a publisher. Women's Agenda names the title explicitly: 'Each week Harvey publishes several chapters from her novel Snowflake's Hope...on her blog.' Together these confirm the specific role (self-published author) and organisation (independent/self-published, not a formal publisher)."
+    }
   }
 ]
