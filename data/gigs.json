@@ -42820,5 +42820,35 @@
       "by": "claude",
       "note": "Wikipedia confirms Elizabeth Harvey (ALP, Hawker, in office 11 Jul 1987 – 24 Mar 1990, matching the pollie record) 'published on a blog her novel, Snowflake's Hope, a fictionalised account of her experiences as a Federal MP.' Crikey (2013) independently confirms she 'has written a juicy novel about life as a marginal member in the 1980s — and she's publishing it online for free,' after deciding not to seek a publisher. Women's Agenda names the title explicitly: 'Each week Harvey publishes several chapters from her novel Snowflake's Hope...on her blog.' Together these confirm the specific role (self-published author) and organisation (independent/self-published, not a formal publisher)."
     }
+  },
+  {
+    "role": "Townsville Organiser, \"No\" Campaign",
+    "organisation": "1999 Australian Republic Referendum \"No\" Campaign",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paul_Marek"
+    ],
+    "pollie_slug": "paul-marek",
+    "end_date": "1999-11-06"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Sunshine Coast 2032",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://sunshinecoast2032.org.au/about/",
+      "https://www.ausleisure.com.au/news/sunshine-coast-2032-announces-key-leadership-appointments/",
+      "https://www.facebook.com/SunshineCoast2032/posts/supporting-our-next-generation-sunshine-coast-2032-board-members-mal-brough-jan-/491340780366319/"
+    ],
+    "pollie_slug": "mal-brough"
+  },
+  {
+    "role": "Director of Communications and Engagement",
+    "organisation": "SunCentral Maroochydore",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.linkedin.com/in/mal-brough-1363a3335/"
+    ],
+    "pollie_slug": "mal-brough"
   }
 ]
