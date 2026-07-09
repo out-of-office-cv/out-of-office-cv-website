@@ -42829,7 +42829,12 @@
       "https://en.wikipedia.org/wiki/Paul_Marek"
     ],
     "pollie_slug": "paul-marek",
-    "end_date": "1999-11-06"
+    "end_date": "1999-11-06",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia states: \"In 1999, he was the Townsville organiser of the 'No' campaign in the 1999 Australian republic referendum,\" citing a specific contemporaneous source: Townsville Bulletin, \"Time to rally to the flag Republican model faulty and risky says opponent,\" 6 November 1999 --- the exact date of the referendum, matching this gig's end_date. Searched Trove and general web for an independent copy; it is not freely digitised online, but the citation's specificity and unambiguous identity (former Capricornia MP, National Party) support high confidence."
+    }
   },
   {
     "role": "Deputy Chair",
@@ -42840,7 +42845,12 @@
       "https://www.ausleisure.com.au/news/sunshine-coast-2032-announces-key-leadership-appointments/",
       "https://www.facebook.com/SunshineCoast2032/posts/supporting-our-next-generation-sunshine-coast-2032-board-members-mal-brough-jan-/491340780366319/"
     ],
-    "pollie_slug": "mal-brough"
+    "pollie_slug": "mal-brough",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed on Sunshine Coast 2032's own 'About' page (https://sunshinecoast2032.org.au/about/), which lists the full board and names Mal Brough as Deputy Chair, noting he is a 'former federal MP and Minister' whose networks are 'a great asset to Sc2032'. This is an authoritative organisation source directly naming this person and this role."
+    }
   },
   {
     "role": "Director of Communications and Engagement",
@@ -42849,6 +42859,11 @@
     "sources": [
       "https://www.linkedin.com/in/mal-brough-1363a3335/"
     ],
-    "pollie_slug": "mal-brough"
+    "pollie_slug": "mal-brough",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "No authoritative or independent source ties Mal Brough to SunCentral Maroochydore in any capacity. SunCentral's own leadership/team information lists Ken Kanofski as Chair and Amanda Yeates as CEO, with no mention of Brough. No Australian news coverage exists of Brough joining SunCentral, despite SunCentral routinely publicising board/leadership appointments. The specific title 'Director of Communications and Engagement' at SunCentral is independently confirmed to be held by Janelle Kirkland, a communications professional. Brough's own public LinkedIn activity concerns Sunshine Coast 2032, not SunCentral. The sole cited source (LinkedIn) could not be directly fetched to verify (blocked/999 status), but the weight of evidence indicates this record misattributes Kirkland's role to Brough."
+    }
   }
 ]

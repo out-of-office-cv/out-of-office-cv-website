@@ -4311,5 +4311,17 @@
   "elizabeth-harvey|Author|Independent (Snowflake's Hope)|null": {
     "last_examined_at": "2026-07-09T00:00:00.000Z",
     "attempts": 1
+  },
+  "mal-brough|Deputy Chair|Sunshine Coast 2032|null": {
+    "last_examined_at": "2026-07-09T16:33:04.344Z",
+    "attempts": 1
+  },
+  "mal-brough|Director of Communications and Engagement|SunCentral Maroochydore|null": {
+    "last_examined_at": "2026-07-09T16:33:04.344Z",
+    "attempts": 1
+  },
+  "paul-marek|Townsville Organiser, \"No\" Campaign|1999 Australian Republic Referendum \"No\" Campaign|null": {
+    "last_examined_at": "2026-07-09T16:33:04.344Z",
+    "attempts": 1
   }
 }
