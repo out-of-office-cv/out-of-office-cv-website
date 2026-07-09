@@ -42865,5 +42865,15 @@
       "by": "claude",
       "note": "No authoritative or independent source ties Mal Brough to SunCentral Maroochydore in any capacity. SunCentral's own leadership/team information lists Ken Kanofski as Chair and Amanda Yeates as CEO, with no mention of Brough. No Australian news coverage exists of Brough joining SunCentral, despite SunCentral routinely publicising board/leadership appointments. The specific title 'Director of Communications and Engagement' at SunCentral is independently confirmed to be held by Janelle Kirkland, a communications professional. Brough's own public LinkedIn activity concerns Sunshine Coast 2032, not SunCentral. The sole cited source (LinkedIn) could not be directly fetched to verify (blocked/999 status), but the weight of evidence indicates this record misattributes Kirkland's role to Brough."
     }
+  },
+  {
+    "role": "Barrister",
+    "organisation": "NSW Bar",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jack_Birney"
+    ],
+    "pollie_slug": "reginald-birney",
+    "start_date": "1984-01-01"
   }
 ]
