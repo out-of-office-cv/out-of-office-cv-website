@@ -7515,10 +7515,17 @@
     "organisation": "Bob Hawke and Associates",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://en.wikipedia.org/wiki/Bob_Hawke"
+      "https://en.wikipedia.org/wiki/Bob_Hawke",
+      "https://www.nationalobserver.net/2006_campbell_68.htm",
+      "https://www.farminguk.com/news/australia-speciel-favored-relationship-with-china-will-boost-farm-sales-_14020.html"
     ],
     "pollie_slug": "robert-hawke",
-    "start_date": "1992"
+    "start_date": "1992",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia only refers generically to post-parliamentary 'directorships and consultancy positions'. Two independent sources name the firm: National Observer (Autumn 2006) states Hawke was 'now head of his own advisory firm Bob Hawke and Associates'; FarmingUK News (1 April 2009), reporting from the Advance Asia 50 Summit, states he 'has an office of his consulting group Robert JL Hawke and Associates Pty Ltd in downtown Shanghai'. Both confirm the former PM founded/headed a firm under his own name, dates plausible for post-1992."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -17211,7 +17218,12 @@
       "https://janellesaffin.com.au/about/",
       "https://en.wikipedia.org/wiki/Janelle_Saffin"
     ],
-    "pollie_slug": "janelle-saffin"
+    "pollie_slug": "janelle-saffin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Janelle Saffin's own official MP website (janellesaffin.com.au/about), which lists among her current positions 'Independent Director and Vice President, United Nations Association of Australia'. Clearly the former federal MP for Page. The Wikipedia source does not itself mention the role; UNAA's current board page doesn't list her (terms rotate), so no independent corroboration, but the official self-published bio meets the bar."
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -31338,7 +31350,12 @@
       "https://military-history.fandom.com/wiki/Vince_Connelly",
       "https://en.wikipedia.org/wiki/Vince_Connelly"
     ],
-    "pollie_slug": "vince-connelly"
+    "pollie_slug": "vince-connelly",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Pre-parliament community role mistagged as post-office, and the title doesn't match. Cited Wikipedia doesn't mention this organisation. Fandom-wiki snippets describe him as a 'board member' (not 'Director') of the Veterans Recovery & Restoration Centre, grouped with other charity memberships. A Hansard adjournment speech states Connelly 'joined the advisory board of the R and R transition centre a couple of years before the official launch' -- before his 2019 election, well before he ceased to be an MP on 2022-04-11. No source ties a post-parliament 'Director' role at this org to him."
+    }
   },
   {
     "role": "Chair",
@@ -36727,7 +36744,12 @@
     "sources": [
       "https://ausi.anu.edu.au/events/inspiring-women-reflect-hon-ros-kelly-ao-conversation-hon-anna-bligh-ac-sally-capp"
     ],
-    "pollie_slug": "roslyn-kelly"
+    "pollie_slug": "roslyn-kelly",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the ANU Australian Studies Institute's own event pages for the 'Inspiring Women Reflect' series featuring Hon Ros Kelly AO. Two sibling pages (13 Nov 2019 and 28 Mar 2022) carry an identical official biography stating verbatim 'She currently serves as an advisor to Women On Boards UK.' Clearly identifies the former ALP Minister for Canberra. The originally cited Nov 2022 page's bio was since updated and no longer mentions the role (replaced by ANU Senior Advisor and Women's Housing Company Patron), suggesting it ended by late 2022; no precise dates found."
+    }
   },
   {
     "role": "Relief Electorate Officer and Community Engagement Officer",
@@ -42874,6 +42896,11 @@
       "https://en.wikipedia.org/wiki/Jack_Birney"
     ],
     "pollie_slug": "reginald-birney",
-    "start_date": "1984-01-01"
+    "start_date": "1984-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Cited Wikipedia article ('Jack Birney') confirms Jack Birney's full name is Reginald John Birney, Liberal MP for Phillip 1975-1983 -- an exact match, so 'Jack' is his commonly used name, not a namesake. The article states he was a barrister before politics and after losing his seat in 1983 'returned to his legal practice', noting that in 1984 he represented Frank Hakim at a commission inquiry -- substantiating barrister role, NSW Bar and the 1984 start."
+    }
   }
 ]
