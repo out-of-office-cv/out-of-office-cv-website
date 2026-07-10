@@ -1444,7 +1444,10 @@
   "janelle-saffin|Advisory Board Member|CHEGA! National Centre|2023-09-27": "2026-05-10T08:05:04.759Z",
   "janelle-saffin|Chair|ALP International Party Development Committee|null": "2026-05-10T08:05:04.759Z",
   "janelle-saffin|Fellow|Southern Cross University|null": "2026-05-10T08:05:04.759Z",
-  "janelle-saffin|Independent Director and Vice President|United Nations Association of Australia|null": "2026-07-03T00:00:00.000Z",
+  "janelle-saffin|Independent Director and Vice President|United Nations Association of Australia|null": {
+    "last_examined_at": "2026-07-11T00:00:00.000Z",
+    "attempts": 2
+  },
   "janelle-saffin|Member, NSW Legislative Assembly|NSW Legislative Assembly|2019-03-23": "2026-05-10T08:05:04.759Z",
   "janelle-saffin|Minister for Recovery|NSW Government|2025-03-17": "2026-05-10T08:05:04.759Z",
   "janelle-saffin|Minister for Small Business|NSW Government|2025-03-17": "2026-05-10T08:05:04.759Z",
@@ -1992,7 +1995,10 @@
   "julian-mcgauran|Secondary School Teacher|Genazzano FCJ College|2012-01-01": "2026-06-03T00:00:00.000Z",
   "julian-mcgauran|Secondary School Teacher|Ivanhoe Girls' Grammar School|null": "2026-06-03T00:00:00.000Z",
   "julian-mcgauran|Secondary School Teacher|Marcellin College|null": "2026-06-03T00:00:00.000Z",
-  "julian-mcgauran|Secondary School Teacher|Sacred Heart Girls' College|2023-01-01": "2026-07-03T00:00:00.000Z",
+  "julian-mcgauran|Secondary School Teacher|Sacred Heart Girls' College|2023-01-01": {
+    "last_examined_at": "2026-07-11T00:00:00.000Z",
+    "attempts": 2
+  },
   "julian-mcgauran|Secondary School Teacher|Santa Maria College|null": "2026-06-03T00:00:00.000Z",
   "julian-simmonds|Board Member|South Bank Corporation|2024-01": "2026-05-12T14:04:24.595Z",
   "julian-simmonds|Chief Executive Officer|Economic Development Queensland|2025-04": "2026-05-12T14:04:24.595Z",
@@ -3217,7 +3223,10 @@
   "richard-evans|Executive Director|Clubs Victoria|null": "2026-06-06T00:00:00.000Z",
   "richard-evans|Executive Director|Council of Textile and Fashion Industries Australia|null": "2026-05-18T08:04:15.777Z",
   "richard-evans|Executive Director|Franchise Council of Australia|2002-01-01": "2026-05-18T08:04:15.777Z",
-  "richard-evans|Founder and Consultant|Profit Ability|null": "2026-07-03T00:00:00.000Z",
+  "richard-evans|Founder and Consultant|Profit Ability|null": {
+    "last_examined_at": "2026-07-11T00:00:00.000Z",
+    "attempts": 2
+  },
   "ricky-johnston|Member|Migration Review Tribunal|1999": "2026-06-06T00:00:00.000Z",
   "ricky-johnston|Member|Refugee Review Tribunal|2004": "2026-06-06T00:00:00.000Z",
   "rob-hulls|Adjunct Professor|RMIT University|2012-10-01": {
@@ -3263,7 +3272,10 @@
   "robert-hawke|Adjunct Professor, Research Schools of Pacific Studies and Social Sciences|Australian National University|1992": "2026-05-01T00:00:00Z",
   "robert-hawke|Chairman, Committee of Experts on Membership|Education International|null": "2026-05-01T00:00:00Z",
   "robert-hawke|Chairman, Hawke Research Institute Advisory Board|University of South Australia|null": "2026-05-01T00:00:00Z",
-  "robert-hawke|Founder|Bob Hawke and Associates|1992": "2026-07-03T00:00:00.000Z",
+  "robert-hawke|Founder|Bob Hawke and Associates|1992": {
+    "last_examined_at": "2026-07-11T00:00:00.000Z",
+    "attempts": 2
+  },
   "robert-hawke|Honorary Visiting Professor in Industrial Relations|University of Sydney|1992": "2026-05-01T00:00:00Z",
   "robert-hawke|Member, Advisory Council of the Institute for International Studies|Stanford University|1992": "2026-05-01T00:00:00Z",
   "robert-hawke|Member, Board of Advisers|Boao Forum for Asia|1998": "2026-05-01T00:00:00Z",
@@ -3356,7 +3368,10 @@
   "rosemary-crowley|Chair|South Australian Council for the Care of Children|2006": "2026-05-18T20:04:13.931Z",
   "rosemary-crowley|Chair|South Australian Ministerial Advisory Board on Ageing|2007": "2026-05-18T20:04:13.931Z",
   "rosemary-crowley|Chair|Young Media Australia|2004": "2026-05-18T20:04:13.931Z",
-  "roslyn-kelly|Advisor|Women On Boards UK|null": "2026-07-03T00:00:00.000Z",
+  "roslyn-kelly|Advisor|Women On Boards UK|null": {
+    "last_examined_at": "2026-07-11T00:00:00.000Z",
+    "attempts": 2
+  },
   "roslyn-kelly|Board Member|Westpac Emergency Helicopter Service|null": "2026-05-29T00:00:00.000Z",
   "roslyn-kelly|Chair|Commonwealth War Graves Foundation|null": "2026-05-29T00:00:00.000Z",
   "roslyn-kelly|Chair|National Breast Cancer Foundation|2005-01-01": "2026-05-29T00:00:00.000Z",
@@ -3854,7 +3869,10 @@
   "vince-connelly|Director|RSL Western Australia|2024-07-01": {
     "last_examined_at": "2026-06-01T00:00:00.000Z"
   },
-  "vince-connelly|Director|Veterans Recovery and Restoration Centre|null": "2026-07-03T00:00:00.000Z",
+  "vince-connelly|Director|Veterans Recovery and Restoration Centre|null": {
+    "last_examined_at": "2026-07-11T00:00:00.000Z",
+    "attempts": 2
+  },
   "vince-connelly|Member|Veterans Advisory Council WA|null": {
     "last_examined_at": "2026-06-01T00:00:00.000Z"
   },
@@ -4322,6 +4340,10 @@
   },
   "paul-marek|Townsville Organiser, \"No\" Campaign|1999 Australian Republic Referendum \"No\" Campaign|null": {
     "last_examined_at": "2026-07-09T16:33:04.344Z",
+    "attempts": 1
+  },
+  "reginald-birney|Barrister|NSW Bar|1984-01-01": {
+    "last_examined_at": "2026-07-11T00:00:00.000Z",
     "attempts": 1
   }
 }
