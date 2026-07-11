@@ -5264,7 +5264,8 @@
     "organisation": "Queensland University of Technology",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://rocketreach.co/susan-lamb-email_241570920"
+      "https://rocketreach.co/susan-lamb-email_241570920",
+      "https://au.linkedin.com/in/mssusanlamb"
     ],
     "pollie_slug": "susan-lamb"
   },
@@ -24124,7 +24125,12 @@
       "https://www.facebook.com/groups/296902363829088/posts/2325091104343527/",
       "https://au.linkedin.com/in/brettwhiteley"
     ],
-    "pollie_slug": "brett-whiteley"
+    "pollie_slug": "brett-whiteley",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Facebook group post confirms identity: 'Former Braddon MP Brett Whiteley has been given a job in the Premier's office'. LinkedIn profile title (au.linkedin.com/in/brettwhiteley) is consistently indexed as 'Brett Whiteley - Principal Adviser to Premier', supplying the precise title. The two sources triangulate; dates plausible (post-2016)."
+    }
   },
   {
     "pollie_slug": "tom-mcveigh",
@@ -36798,18 +36804,30 @@
     "organisation": "SEARCH Foundation",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.linkedin.com/in/chris-haviland-2a30b432/"
+      "https://www.linkedin.com/in/chris-haviland-2a30b432/",
+      "https://independentaustralia.net/profile-on/chris-haviland,941"
     ],
-    "pollie_slug": "christopher-haviland"
+    "pollie_slug": "christopher-haviland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "LinkedIn headline (indexed) reads 'Mathematics Tutor, progressive political activist, NSW Branch Councillor for the Australian Republic Movement, and Admin Officer at SEARCH Foundation.' Identity markers (maths tutor, NSW progressive/ALP activist) match the former MP for Macarthur's bio at independentaustralia.net."
+    }
   },
   {
     "role": "Branch Councillor",
     "organisation": "Australian Republic Movement",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://www.linkedin.com/in/chris-haviland-2a30b432/"
+      "https://www.linkedin.com/in/chris-haviland-2a30b432/",
+      "https://independentaustralia.net/profile-on/chris-haviland,941"
     ],
-    "pollie_slug": "christopher-haviland"
+    "pollie_slug": "christopher-haviland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same LinkedIn profile confirms 'NSW Branch Councillor for the Australian Republic Movement' alongside identity markers (maths tutor, progressive activist) matching the former MP's bio at independentaustralia.net."
+    }
   },
   {
     "role": "Self-employed Mathematics Tutor",
@@ -42913,7 +42931,12 @@
     ],
     "pollie_slug": "john-wheeldon",
     "start_date": "1981-09",
-    "end_date": "1995"
+    "end_date": "1995",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by biography.senate.gov.au: 'joined News Ltd as associate editor of The Australian' in September 1981 and 'served as chief editorial writer from 1981 to 1995' \u2014 matches recorded dates. Corroborated by Wikipedia."
+    }
   },
   {
     "role": "Director",
@@ -42923,7 +42946,12 @@
       "https://biography.senate.gov.au/wheeldon-john-murray/",
       "https://en.wikipedia.org/wiki/John_Wheeldon"
     ],
-    "pollie_slug": "john-wheeldon"
+    "pollie_slug": "john-wheeldon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by biography.senate.gov.au: Wheeldon 'became a board member of the conservative Quadrant magazine.'"
+    }
   },
   {
     "role": "Trustee",
@@ -42934,7 +42962,12 @@
       "https://australianpolitics.com/2003/08/27/abbott-i-was-acting-entirely-on-my-own.html/"
     ],
     "pollie_slug": "john-wheeldon",
-    "start_date": "1998"
+    "start_date": "1998",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by biography.senate.gov.au: Wheeldon 'served as trustee of a fund called Australians for Honest Politics, established in 1998 ... shared this role with Liberals Peter Coleman and Tony Abbott.' Corroborated by australianpolitics.com. Matches start_date 1998, predates his 2006 death."
+    }
   },
   {
     "role": "Blacksmith and Boilermaker",
@@ -42944,6 +42977,11 @@
       "https://www.thecourier.com.au/story/4244426/john-madigan-on-getting-back-on-the-tools-feature/",
       "https://www.keablesbolts.com.au/MADIGAN%20index.html"
     ],
-    "pollie_slug": "john-madigan"
+    "pollie_slug": "john-madigan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by keablesbolts.com.au industry bio naming the business 'JOHN J MADIGAN BLACKSMITH' and stating he 'has now returned to his first love & profession' after his Senate stint. Corroborated by The Courier's 22 Oct 2016 'getting back on the tools' feature (~3 months after his term ended 2016-07-02)."
+    }
   }
 ]
