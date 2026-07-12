@@ -43046,5 +43046,81 @@
       "by": "claude",
       "note": "Wheeler Centre bio states Georgiou was 'Vice-Chancellor's Fellow at the University of Melbourne'. Corroborated by myscience.org's report naming 'former Federal Liberal MP Petro Georgiou' as joint VC's Fellow 'at Melbourne and Monash', confirming identity and the Melbourne role. Start 27 May 2011, post-dating his July 2010 departure."
     }
+  },
+  {
+    "role": "Chair",
+    "organisation": "Special Research Centre for Applied Philosophy and Public Ethics, Charles Sturt University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://web.archive.org/web/2023/https://cdn.csu.edu.au/__data/assets/pdf_file/0010/629614/Reid-Margaret.pdf",
+      "https://cdn.csu.edu.au/__data/assets/pdf_file/0010/629614/Reid-Margaret.pdf"
+    ],
+    "pollie_slug": "margaret-reid",
+    "start_date": "2004-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Canberra Region Community Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://web.archive.org/web/2023/https://cdn.csu.edu.au/__data/assets/pdf_file/0010/629614/Reid-Margaret.pdf"
+    ],
+    "pollie_slug": "margaret-reid"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Foundation for Medical Health Research",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://web.archive.org/web/2023/https://cdn.csu.edu.au/__data/assets/pdf_file/0010/629614/Reid-Margaret.pdf"
+    ],
+    "pollie_slug": "margaret-reid"
+  },
+  {
+    "role": "Director",
+    "organisation": "Crawford Fund",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.crawfordfund.org/about/board-of-directors/board-margaret-reid/"
+    ],
+    "pollie_slug": "margaret-reid"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Goodwin",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://goodwin.org.au/about-goodwin/our-patron/"
+    ],
+    "pollie_slug": "margaret-reid"
+  },
+  {
+    "role": "Panel Member",
+    "organisation": "Independent Review of Aid Effectiveness",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.dfat.gov.au/sites/default/files/independent-review-of-aid-effectiveness.pdf",
+      "https://www.crawfordfund.org/about/board-of-directors/board-margaret-reid/"
+    ],
+    "pollie_slug": "margaret-reid",
+    "end_date": "2011-04-01"
+  },
+  {
+    "role": "President, Executive Committee",
+    "organisation": "Australian Council for International Development",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.crawfordfund.org/about/board-of-directors/board-margaret-reid/"
+    ],
+    "pollie_slug": "margaret-reid"
+  },
+  {
+    "role": "Member",
+    "organisation": "Council of the Australian National University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://web.archive.org/web/2023/https://cdn.csu.edu.au/__data/assets/pdf_file/0010/629614/Reid-Margaret.pdf"
+    ],
+    "pollie_slug": "margaret-reid"
   }
 ]
