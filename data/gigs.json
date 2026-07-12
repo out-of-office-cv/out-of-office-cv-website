@@ -42990,9 +42990,15 @@
     "category": "Professional Services & Management Consulting",
     "sources": [
       "https://www.linkedin.com/in/gavan-o-connor-56301b59/",
-      "https://au.linkedin.com/in/gavan-o-connor-56301b59"
+      "https://au.linkedin.com/in/gavan-o-connor-56301b59",
+      "https://abr.business.gov.au/ABN/View?abn=90131199589"
     ],
-    "pollie_slug": "gavan-o-connor"
+    "pollie_slug": "gavan-o-connor",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "LinkedIn profile (gavan-o-connor-56301b59) title names him Managing Director of Grandview Innovations Pty Ltd; indexed profile content lists Federal Member for Corio, Shadow Minister for Agriculture and Monash study, matching the former MP and ruling out a namesake. ABN Lookup confirms Grandview Innovations Pty Ltd (ABN 90 131 199 589) as an active company at North Geelong (adjoining Corio), registered May 2008 shortly after he left parliament."
+    }
   },
   {
     "role": "Barrister",
@@ -43012,10 +43018,16 @@
     "sources": [
       "https://www.monash.edu/news/articles/petro-georgiou-appointed-joint-vcs-fellow-1",
       "https://neoskosmos.com/en/2011/06/08/news/australia/petro-georgious-new-role/",
-      "https://www.wheelercentre.com/people/petro-georgiou"
+      "https://www.wheelercentre.com/people/petro-georgiou",
+      "https://www.myscience.org/news/wire/john_brumby_appointed_joint_vice_chancellor_amp_rsquo_s_fellow_at_melbourne_and_monash_universities-2011-melbourne"
     ],
     "pollie_slug": "petro-georgiou",
-    "start_date": "2011-05-27"
+    "start_date": "2011-05-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wheeler Centre bio states Georgiou was 'Vice-Chancellor's Professorial Fellow at Monash University'. Corroborated by myscience.org's report on John Brumby's appointment naming 'former Federal Liberal MP Petro Georgiou' as joint VC's Fellow at Melbourne and Monash, ruling out a namesake. Start 27 May 2011, after he left parliament."
+    }
   },
   {
     "role": "Vice-Chancellor's Professorial Fellow",
@@ -43024,9 +43036,15 @@
     "sources": [
       "https://www.monash.edu/news/articles/petro-georgiou-appointed-joint-vcs-fellow-1",
       "https://neoskosmos.com/en/2011/06/08/news/australia/petro-georgious-new-role/",
-      "https://www.wheelercentre.com/people/petro-georgiou"
+      "https://www.wheelercentre.com/people/petro-georgiou",
+      "https://www.myscience.org/news/wire/john_brumby_appointed_joint_vice_chancellor_amp_rsquo_s_fellow_at_melbourne_and_monash_universities-2011-melbourne"
     ],
     "pollie_slug": "petro-georgiou",
-    "start_date": "2011-05-27"
+    "start_date": "2011-05-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wheeler Centre bio states Georgiou was 'Vice-Chancellor's Fellow at the University of Melbourne'. Corroborated by myscience.org's report naming 'former Federal Liberal MP Petro Georgiou' as joint VC's Fellow 'at Melbourne and Monash', confirming identity and the Melbourne role. Start 27 May 2011, post-dating his July 2010 departure."
+    }
   }
 ]
