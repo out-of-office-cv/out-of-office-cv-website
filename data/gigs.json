@@ -43162,5 +43162,68 @@
       "by": "claude",
       "note": "Confirmed by the same CSU citation document, which lists her as a 'Council member of the Australian National University'."
     }
+  },
+  {
+    "role": "Farmer and Grazier",
+    "organisation": "Self-employed",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ian_Cameron_(politician)"
+    ],
+    "pollie_slug": "ian-cameron",
+    "start_date": "1990-02-19"
+  },
+  {
+    "role": "Partner",
+    "organisation": "Dawson Waldron",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://aboutregional.com.au/be-kind-john-haslem-reflects-on-decades-in-business-politics-and-love/428391/",
+      "https://en.wikipedia.org/wiki/John_Haslem_(politician)"
+    ],
+    "pollie_slug": "john-haslem",
+    "start_date": "1980"
+  },
+  {
+    "role": "Owner",
+    "organisation": "Fringe Benefits",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://aboutregional.com.au/be-kind-john-haslem-reflects-on-decades-in-business-politics-and-love/428391/"
+    ],
+    "pollie_slug": "john-haslem"
+  },
+  {
+    "role": "Real Estate Agent",
+    "organisation": "Ray White",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://aboutregional.com.au/be-kind-john-haslem-reflects-on-decades-in-business-politics-and-love/428391/"
+    ],
+    "pollie_slug": "john-haslem",
+    "start_date": "2002"
+  },
+  {
+    "role": "National President",
+    "organisation": "Association of Former Members of the Parliament of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Haslem_(politician)",
+      "https://aboutregional.com.au/be-kind-john-haslem-reflects-on-decades-in-business-politics-and-love/428391/"
+    ],
+    "pollie_slug": "john-haslem",
+    "start_date": "2018"
+  },
+  {
+    "role": "Member for Torrens",
+    "organisation": "South Australian Parliament",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dana_Wortley",
+      "https://en.wikipedia.org/wiki/2014_South_Australian_state_election"
+    ],
+    "pollie_slug": "dana-wortley",
+    "start_date": "2014-03-15",
+    "end_date": "2026-03-21"
   }
 ]
