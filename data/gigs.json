@@ -43259,5 +43259,197 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Housing sector organisation (unidentified — see LinkedIn headline)",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://au.linkedin.com/in/the-hon-luke-howarth-121707a3"
+    ],
+    "pollie_slug": "luke-howarth"
+  },
+  {
+    "role": "Liberal Candidate for Newland",
+    "organisation": "Liberal Party of Australia (South Australia)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Trish_Draper",
+      "https://en.wikipedia.org/wiki/Candidates_of_the_South_Australian_state_election,_2010"
+    ],
+    "pollie_slug": "trish-draper"
+  },
+  {
+    "role": "Committee Member",
+    "organisation": "Liberal Party of Australia (South Australia)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Trish_Draper"
+    ],
+    "pollie_slug": "trish-draper",
+    "start_date": "2022-01-01"
+  },
+  {
+    "role": "Member for Tweed",
+    "organisation": "Parliament of New South Wales",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=2077",
+      "https://en.wikipedia.org/wiki/Neville_Newell"
+    ],
+    "pollie_slug": "neville-newell",
+    "start_date": "1999-03-27",
+    "end_date": "2007-03-02"
+  },
+  {
+    "role": "Parliamentary Secretary to the Minister for Rural Affairs, Local Government, Emergency Services, and Lands",
+    "organisation": "New South Wales Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=2077"
+    ],
+    "pollie_slug": "neville-newell",
+    "start_date": "2003-05-08",
+    "end_date": "2005-08-03"
+  },
+  {
+    "role": "Parliamentary Secretary to the Minister for Justice, Juvenile Justice, Emergency Services, Lands and Rural Affairs",
+    "organisation": "New South Wales Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=2077"
+    ],
+    "pollie_slug": "neville-newell",
+    "start_date": "2005-08-04",
+    "end_date": "2007-03-02"
+  },
+  {
+    "role": "Retired",
+    "organisation": "Retired",
+    "category": "Retired",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Clyde_Holding",
+      "https://clydeholding.wordpress.com/"
+    ],
+    "pollie_slug": "clyde-holding",
+    "start_date": "1998-08-31"
+  },
+  {
+    "role": "Retired",
+    "organisation": "Retired",
+    "category": "Retired",
+    "sources": [
+      "https://biography.senate.gov.au/archer-brian-roper/",
+      "https://en.wikipedia.org/wiki/Brian_Archer",
+      "https://www.openaustralia.org.au/senate/?id=2013-03-13.94.2"
+    ],
+    "pollie_slug": "brian-archer",
+    "start_date": "1994-01-31"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Thoroughbred Breeders Australia",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://www.thoroughbrednews.com.au/news/story/aushorse-ceo-steps-down-53796?section=industry",
+      "https://michaelwest.com.au/peter-mcgauran/"
+    ],
+    "pollie_slug": "peter-mcgauran",
+    "start_date": "2008-05-01",
+    "end_date": "2011-01-01"
+  },
+  {
+    "role": "Director of Strategy, Marketing and Public Affairs",
+    "organisation": "Racing NSW",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://inglis.com.au/news/peter-mcgauran-joins-racing-nsw",
+      "https://michaelwest.com.au/peter-mcgauran/"
+    ],
+    "pollie_slug": "peter-mcgauran",
+    "start_date": "2012-01-09",
+    "end_date": "2012-07-01"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Racing Australia",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_McGauran",
+      "https://www.thoroughbrednews.com.au/news/story/mcgauran-resigns-as-ceo-of-racing-australia-90133?section=industry"
+    ],
+    "pollie_slug": "peter-mcgauran",
+    "start_date": "2012-07-01",
+    "end_date": "2016-12-01"
+  },
+  {
+    "role": "Special Advisor, Racing Industry",
+    "organisation": "Tabcorp Holdings",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://michaelwest.com.au/peter-mcgauran/",
+      "https://en.wikipedia.org/wiki/Peter_McGauran"
+    ],
+    "pollie_slug": "peter-mcgauran",
+    "start_date": "2017-01-01",
+    "end_date": "2017-09-01"
+  },
+  {
+    "role": "Consul-General and Senior Trade and Investment Commissioner",
+    "organisation": "Austrade",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.foreignminister.gov.au/minister/marise-payne/media-release/new-consuls-general-appointed-key-austrade-posts",
+      "https://austrade.gov.au/about/austrade-representatives/peter-mcgauran",
+      "https://en.wikipedia.org/wiki/Peter_McGauran"
+    ],
+    "pollie_slug": "peter-mcgauran",
+    "start_date": "2018-01-01",
+    "end_date": "2021-02-01"
+  },
+  {
+    "role": "Senior Adviser",
+    "organisation": "Bondi Partners",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.bondipartners.com/teams/peter-mcgauran-australia/"
+    ],
+    "pollie_slug": "peter-mcgauran",
+    "start_date": "2021-02-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Heart Research Institute",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.hri.org.au/news/hri-welcomes-new-chair-the-hon-peter-mcgauran",
+      "https://www.hri.org.au/about/meet-the-board/the-hon-peter-mcgauran"
+    ],
+    "pollie_slug": "peter-mcgauran",
+    "start_date": "2022-07-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Turf Club",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://www.thoroughbrednews.com.au/News/Story/atc-board-elects-peter-mcgauran-as-new-chairman-146278?section=industry",
+      "https://www.australianturfclub.com.au/the-board-and-team/"
+    ],
+    "pollie_slug": "peter-mcgauran",
+    "start_date": "2022-02-01",
+    "end_date": "2022-08-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Turf Club",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://www.thoroughbrednews.com.au/News/Story/atc-board-elects-peter-mcgauran-as-new-chairman-146278?section=industry",
+      "https://thestraight.com.au/peter-mcgauran-resigns-from-atc-amid-rosehill-fall-out/"
+    ],
+    "pollie_slug": "peter-mcgauran",
+    "start_date": "2022-08-01",
+    "end_date": "2025-07-01"
   }
 ]
