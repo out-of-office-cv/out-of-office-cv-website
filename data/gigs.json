@@ -42813,9 +42813,16 @@
     "organisation": "Queensland Civil and Administrative Tribunal",
     "category": "Legal & Judicial",
     "sources": [
-      "https://au.linkedin.com/in/leonie-m-short-2b04117"
+      "https://au.linkedin.com/in/leonie-m-short-2b04117",
+      "https://governmentbodies.premiers.qld.gov.au/BodyDisplay.aspx?Parameter=62"
     ],
-    "pollie_slug": "leonie-short"
+    "pollie_slug": "leonie-short",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2025-08-27",
+    "end_date": "2030-08-26"
   },
   {
     "role": "Owner, Director and Company Secretary",
@@ -43171,7 +43178,11 @@
       "https://en.wikipedia.org/wiki/Ian_Cameron_(politician)"
     ],
     "pollie_slug": "ian-cameron",
-    "start_date": "1990-02-19"
+    "start_date": "1990-02-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Partner",
@@ -43182,7 +43193,11 @@
       "https://en.wikipedia.org/wiki/John_Haslem_(politician)"
     ],
     "pollie_slug": "john-haslem",
-    "start_date": "1980"
+    "start_date": "1980",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Owner",
@@ -43191,7 +43206,11 @@
     "sources": [
       "https://aboutregional.com.au/be-kind-john-haslem-reflects-on-decades-in-business-politics-and-love/428391/"
     ],
-    "pollie_slug": "john-haslem"
+    "pollie_slug": "john-haslem",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Real Estate Agent",
@@ -43201,7 +43220,11 @@
       "https://aboutregional.com.au/be-kind-john-haslem-reflects-on-decades-in-business-politics-and-love/428391/"
     ],
     "pollie_slug": "john-haslem",
-    "start_date": "2002"
+    "start_date": "2002",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "National President",
@@ -43212,7 +43235,11 @@
       "https://aboutregional.com.au/be-kind-john-haslem-reflects-on-decades-in-business-politics-and-love/428391/"
     ],
     "pollie_slug": "john-haslem",
-    "start_date": "2018"
+    "start_date": "2018",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member for Torrens",
@@ -43220,10 +43247,17 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://en.wikipedia.org/wiki/Dana_Wortley",
-      "https://en.wikipedia.org/wiki/2014_South_Australian_state_election"
+      "https://en.wikipedia.org/wiki/2014_South_Australian_state_election",
+      "https://en.wikipedia.org/wiki/Electoral_district_of_Torrens",
+      "https://en.wikipedia.org/wiki/Candidates_of_the_2026_South_Australian_state_election",
+      "https://www.parliament.sa.gov.au/Search/Member?type=member&id=4848"
     ],
     "pollie_slug": "dana-wortley",
     "start_date": "2014-03-15",
-    "end_date": "2026-03-21"
+    "end_date": "2026-03-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   }
 ]
