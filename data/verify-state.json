@@ -4323,8 +4323,8 @@
     "attempts": 1
   },
   "wilson-tuckey|Author and Founder|Ironbar Publishing|2022-01-01": {
-    "last_examined_at": "2026-07-08T00:00:00.000Z",
-    "attempts": 1
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 2
   },
   "elizabeth-harvey|Author|Independent (Snowflake's Hope)|null": {
     "last_examined_at": "2026-07-09T00:00:00.000Z",
@@ -4432,6 +4432,74 @@
   },
   "ian-cameron|Farmer and Grazier|Self-employed|1990-02-19": {
     "last_examined_at": "2026-07-14T16:17:09.846Z",
+    "attempts": 1
+  },
+  "peter-mcgauran|Chief Executive Officer|Thoroughbred Breeders Australia|2008-05-01": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 1
+  },
+  "peter-mcgauran|Director of Strategy, Marketing and Public Affairs|Racing NSW|2012-01-09": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 1
+  },
+  "peter-mcgauran|Chief Executive Officer|Racing Australia|2012-07-01": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 1
+  },
+  "peter-mcgauran|Special Advisor, Racing Industry|Tabcorp Holdings|2017-01-01": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 1
+  },
+  "peter-mcgauran|Consul-General and Senior Trade and Investment Commissioner|Austrade|2018-01-01": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 1
+  },
+  "peter-mcgauran|Senior Adviser|Bondi Partners|2021-02-01": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 1
+  },
+  "peter-mcgauran|Chair|Heart Research Institute|2022-07-01": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 1
+  },
+  "peter-mcgauran|Director|Australian Turf Club|2022-02-01": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 1
+  },
+  "peter-mcgauran|Chair|Australian Turf Club|2022-08-01": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 1
+  },
+  "neville-newell|Member for Tweed|Parliament of New South Wales|1999-03-27": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 1
+  },
+  "neville-newell|Parliamentary Secretary to the Minister for Rural Affairs, Local Government, Emergency Services, and Lands|New South Wales Government|2003-05-08": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 1
+  },
+  "neville-newell|Parliamentary Secretary to the Minister for Justice, Juvenile Justice, Emergency Services, Lands and Rural Affairs|New South Wales Government|2005-08-04": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 1
+  },
+  "trish-draper|Liberal Candidate for Newland|Liberal Party of Australia (South Australia)|null": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 1
+  },
+  "trish-draper|Committee Member|Liberal Party of Australia (South Australia)|2022-01-01": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 1
+  },
+  "brian-archer|Retired|Retired|1994-01-31": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 1
+  },
+  "clyde-holding|Retired|Retired|1998-08-31": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
+    "attempts": 1
+  },
+  "luke-howarth|Non-Executive Director|Housing sector organisation (unidentified — see LinkedIn headline)|null": {
+    "last_examined_at": "2026-07-16T00:00:00.000Z",
     "attempts": 1
   }
 }

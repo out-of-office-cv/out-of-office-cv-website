@@ -42849,7 +42849,12 @@
       "https://www.linkedin.com/posts/wilson-tuckey-27118bab_ironbar-tuckey-a-memoir-by-wilson-tuckey-activity-7093431102551314433-HdSJ"
     ],
     "pollie_slug": "wilson-tuckey",
-    "start_date": "2022-01-01"
+    "start_date": "2022-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Google Books lists author 'Charles Wilson Tuckey', publisher 'Ironbar Publishing Pty Limited, 2022', published 30 June 2022 — independently confirming role and organisation. ironbarpublishing.au identifies the subject as the Federal Member for O'Connor for 30 years, matching this pollie exactly, and his own LinkedIn account announces the memoir's publication via Ironbar Publishing."
+    }
   },
   {
     "role": "Author",
@@ -43277,7 +43282,12 @@
       "https://en.wikipedia.org/wiki/Trish_Draper",
       "https://en.wikipedia.org/wiki/Candidates_of_the_South_Australian_state_election,_2010"
     ],
-    "pollie_slug": "trish-draper"
+    "pollie_slug": "trish-draper",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "en.wikipedia.org/wiki/Trish_Draper: 'In the lead up to 2010 South Australian state election, Draper stood for pre-selection for the state seat of Newland. She failed to win the seat at the subsequent election.' Corroborated by the SA 2010 candidates list page."
+    }
   },
   {
     "role": "Committee Member",
@@ -43287,7 +43297,12 @@
       "https://en.wikipedia.org/wiki/Trish_Draper"
     ],
     "pollie_slug": "trish-draper",
-    "start_date": "2022-01-01"
+    "start_date": "2022-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "en.wikipedia.org/wiki/Trish_Draper: 'In 2022, Draper was a part of the South Australian Liberals committee to examine all aspects of how to get more women into parliament.'"
+    }
   },
   {
     "role": "Member for Tweed",
@@ -43299,7 +43314,12 @@
     ],
     "pollie_slug": "neville-newell",
     "start_date": "1999-03-27",
-    "end_date": "2007-03-02"
+    "end_date": "2007-03-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "NSW Parliament official member page (pk=2077) identifies Neville Joseph Newell, Member for Tweed 27 Mar 1999 – 2 Mar 2007. Wikipedia confirms he is the same person who was federal ALP Member for Richmond 1990-96, ruling out a namesake. Dates match exactly."
+    }
   },
   {
     "role": "Parliamentary Secretary to the Minister for Rural Affairs, Local Government, Emergency Services, and Lands",
@@ -43310,7 +43330,12 @@
     ],
     "pollie_slug": "neville-newell",
     "start_date": "2003-05-08",
-    "end_date": "2005-08-03"
+    "end_date": "2005-08-03",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "NSW Parliament official member page (pk=2077) explicitly lists 'Parliamentary Secretary to the Minister for Rural Affairs, Local Govt., Emergency Services, and Lands' held 8 May 2003 – 3 Aug 2005 — exact match."
+    }
   },
   {
     "role": "Parliamentary Secretary to the Minister for Justice, Juvenile Justice, Emergency Services, Lands and Rural Affairs",
@@ -43321,7 +43346,12 @@
     ],
     "pollie_slug": "neville-newell",
     "start_date": "2005-08-04",
-    "end_date": "2007-03-02"
+    "end_date": "2007-03-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "NSW Parliament official member page (pk=2077) explicitly lists 'Parliamentary Secretary to Minister for Justice, Juvenile Justice, Emerg. Services, Lands, Rural Affairs' held 4 Aug 2005 – 2 Mar 2007 — exact match."
+    }
   },
   {
     "role": "Retired",
@@ -43332,7 +43362,12 @@
       "https://clydeholding.wordpress.com/"
     ],
     "pollie_slug": "clyde-holding",
-    "start_date": "1998-08-31"
+    "start_date": "1998-08-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "clydeholding.wordpress.com (family tribute page) confirms that after retiring from parliament in 1998 he wanted to return to law but could not due to illness — no further post-parliamentary career eventuated. Wikipedia and formerministers.dss.gov.au corroborate by silence. No post-1998 role found in search."
+    }
   },
   {
     "role": "Retired",
@@ -43344,7 +43379,12 @@
       "https://www.openaustralia.org.au/senate/?id=2013-03-13.94.2"
     ],
     "pollie_slug": "brian-archer",
-    "start_date": "1994-01-31"
+    "start_date": "1994-01-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Biographical Dictionary of the Australian Senate (biography.senate.gov.au) confirms Archer resigned 31 January 1994 and was 'retiring to Launceston' with no further career mentioned before his death in 2013, corroborated by Hansard Senate tributes quoting his own 1994 remarks about returning to private life. No post-1994 board/directorship/consultancy role found."
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -43356,7 +43396,12 @@
     ],
     "pollie_slug": "peter-mcgauran",
     "start_date": "2008-05-01",
-    "end_date": "2011-01-01"
+    "end_date": "2011-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "thoroughbrednews.com.au 'Aushorse CEO steps down' confirms TBA and Aushorse Marketing 'accepted with regret the resignation of joint CEO Peter McGauran', who 'had joined the two breeders' organizations in May 2008 after a 25 year career in Federal Parliament' and served 'the past three years' — matching start 2008-05-01/end 2011-01-01. Corroborated by michaelwest.com.au: 'CEO, Thoroughbred Breeders Australia (TBA) and Aushorse Marketing — 2008–2011'."
+    }
   },
   {
     "role": "Director of Strategy, Marketing and Public Affairs",
@@ -43368,7 +43413,12 @@
     ],
     "pollie_slug": "peter-mcgauran",
     "start_date": "2012-01-09",
-    "end_date": "2012-07-01"
+    "end_date": "2012-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "inglis.com.au confirms he was appointed 'Director of Strategy, Marketing and Public Affairs' at Racing NSW, exact start date Monday 9 January 2012, assisting the CEO/Board with 'strategic planning of the organisation, including infrastructure development, marketing, public affairs and Government relations.' Matches given dates exactly."
+    }
   },
   {
     "role": "Chief Executive Officer",
@@ -43380,7 +43430,12 @@
     ],
     "pollie_slug": "peter-mcgauran",
     "start_date": "2012-07-01",
-    "end_date": "2016-12-01"
+    "end_date": "2016-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "thoroughbrednews.com.au 'McGauran resigns as CEO of Racing Australia' (recovered via search cache) states he 'advised the Board in August 2016 that he would not be seeking to renew his contract of employment on its expiration in December 2016' after '4½ years' as CEO — consistent with 2012-07-01 to 2016-12-01. Wikipedia corroborates 'CEO of Racing Australia (2012–2016)'."
+    }
   },
   {
     "role": "Special Advisor, Racing Industry",
@@ -43392,7 +43447,12 @@
     ],
     "pollie_slug": "peter-mcgauran",
     "start_date": "2017-01-01",
-    "end_date": "2017-09-01"
+    "end_date": "2017-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "michaelwest.com.au states 'Special Advisor – Racing Industry, Tabcorp Holdings Ltd — January 2017–September 2017', an exact match to the given dates and title."
+    }
   },
   {
     "role": "Consul-General and Senior Trade and Investment Commissioner",
@@ -43401,21 +43461,33 @@
     "sources": [
       "https://www.foreignminister.gov.au/minister/marise-payne/media-release/new-consuls-general-appointed-key-austrade-posts",
       "https://austrade.gov.au/about/austrade-representatives/peter-mcgauran",
-      "https://en.wikipedia.org/wiki/Peter_McGauran"
+      "https://en.wikipedia.org/wiki/Peter_McGauran",
+      "https://michaelwest.com.au/peter-mcgauran/"
     ],
     "pollie_slug": "peter-mcgauran",
     "start_date": "2018-01-01",
-    "end_date": "2021-02-01"
+    "end_date": "2021-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "foreignminister.gov.au release confirms McGauran 'had been appointed by Trade Minister Steven Ciobo as the Consul-General of Australia in Houston, Texas in January 2018' with title Consul-General/Senior Trade and Investment Commissioner. Wikipedia and Bondi Partners' own bio (he joined Bondi 'after completing his term as Consul General in 2021') corroborate the Feb 2021 end."
+    }
   },
   {
     "role": "Senior Adviser",
     "organisation": "Bondi Partners",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.bondipartners.com/teams/peter-mcgauran-australia/"
+      "https://www.bondipartners.com/teams/peter-mcgauran-australia/",
+      "https://michaelwest.com.au/peter-mcgauran/"
     ],
     "pollie_slug": "peter-mcgauran",
-    "start_date": "2021-02-01"
+    "start_date": "2021-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "bondipartners.com/teams page confirms title 'Senior Advisor' at Bondi Partners. michaelwest.com.au independently confirms 'Senior Adviser, Bondi Partners — February 2021–Present', matching the given start date."
+    }
   },
   {
     "role": "Chair",
@@ -43426,7 +43498,12 @@
       "https://www.hri.org.au/about/meet-the-board/the-hon-peter-mcgauran"
     ],
     "pollie_slug": "peter-mcgauran",
-    "start_date": "2022-07-01"
+    "start_date": "2022-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "hri.org.au news article 'HRI welcomes new Chair, The Hon Peter McGauran' (dated 4 July 2022 per search results) and the hri.org.au board bio page confirm he is Chair, matching the given 2022-07-01 start."
+    }
   },
   {
     "role": "Director",
@@ -43434,11 +43511,17 @@
     "category": "Gambling, Gaming and Racing",
     "sources": [
       "https://www.thoroughbrednews.com.au/News/Story/atc-board-elects-peter-mcgauran-as-new-chairman-146278?section=industry",
-      "https://www.australianturfclub.com.au/the-board-and-team/"
+      "https://www.australianturfclub.com.au/the-board-and-team/",
+      "https://michaelwest.com.au/peter-mcgauran/"
     ],
     "pollie_slug": "peter-mcgauran",
     "start_date": "2022-02-01",
-    "end_date": "2022-08-01"
+    "end_date": "2022-08-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "thoroughbrednews.com.au 'ATC board elects Peter McGauran as new chairman' (recovered via search) states he was elected chairman in a unanimous vote in August 2022 'after his appointment to the board six months earlier', confirming a Director role from roughly Feb 2022 to Aug 2022 as recorded."
+    }
   },
   {
     "role": "Chair",
@@ -43446,10 +43529,16 @@
     "category": "Gambling, Gaming and Racing",
     "sources": [
       "https://www.thoroughbrednews.com.au/News/Story/atc-board-elects-peter-mcgauran-as-new-chairman-146278?section=industry",
-      "https://thestraight.com.au/peter-mcgauran-resigns-from-atc-amid-rosehill-fall-out/"
+      "https://thestraight.com.au/peter-mcgauran-resigns-from-atc-amid-rosehill-fall-out/",
+      "https://en.wikipedia.org/wiki/Peter_McGauran"
     ],
     "pollie_slug": "peter-mcgauran",
     "start_date": "2022-08-01",
-    "end_date": "2025-07-01"
+    "end_date": "2025-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia states 'Chair of the Australian Turf Club (August 2022 – July 2025)', matching the given dates exactly. thestraight.com.au 'Peter McGauran resigns from ATC amid Rosehill fall-out' confirms he was Chairman and resigned in July 2025 amid the Rosehill sale controversy."
+    }
   }
 ]
