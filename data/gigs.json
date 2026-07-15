@@ -43540,5 +43540,140 @@
       "by": "claude",
       "note": "Wikipedia states 'Chair of the Australian Turf Club (August 2022 – July 2025)', matching the given dates exactly. thestraight.com.au 'Peter McGauran resigns from ATC amid Rosehill fall-out' confirms he was Chairman and resigned in July 2025 amid the Rosehill sale controversy."
     }
+  },
+  {
+    "role": "Solicitor",
+    "organisation": "Eamon Lindsay and Richard Lindsay",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://lawyerlist.com.au/5511-Eamon-Lindsay-and-Richard-Lindsay.aspx",
+      "https://www.openinghours-au.com/solicitors/townsville"
+    ],
+    "pollie_slug": "eamon-lindsay"
+  },
+  {
+    "role": "Alderman",
+    "organisation": "Glenorchy City Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Harry_Quick"
+    ],
+    "pollie_slug": "harry-quick",
+    "start_date": "2014-10-25",
+    "end_date": "2018-10-27"
+  },
+  {
+    "role": "Deputy Mayor",
+    "organisation": "Glenorchy City Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Harry_Quick"
+    ],
+    "pollie_slug": "harry-quick",
+    "start_date": "2014-10-25",
+    "end_date": "2017-01-01"
+  },
+  {
+    "role": "Alderman",
+    "organisation": "Glenorchy City Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Harry_Quick",
+      "https://pulsetasmania.com.au/news/former-alderman-peter-ridler-wins-glenorchy-council-recount/"
+    ],
+    "pollie_slug": "harry-quick",
+    "start_date": "2022-10-22",
+    "end_date": "2024-10-19"
+  },
+  {
+    "role": "Managing Partner",
+    "organisation": "BKK Partners",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.realminvestments.com.au/wp-content/uploads/2019/09/130207-Costello-puts-on-new-hat-at-ecg-advisory.pdf"
+    ],
+    "pollie_slug": "peter-costello",
+    "start_date": "2009-11-01",
+    "end_date": "2013-01-01"
+  },
+  {
+    "role": "Chair, Advisory Board",
+    "organisation": "ECG Advisory Solutions",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.realminvestments.com.au/wp-content/uploads/2019/09/130207-Costello-puts-on-new-hat-at-ecg-advisory.pdf",
+      "https://www.gem.wiki/ECG_Advisory_Solutions"
+    ],
+    "pollie_slug": "peter-costello",
+    "start_date": "2013-01-01"
+  },
+  {
+    "role": "Chair, Independent Advisory Board",
+    "organisation": "World Bank",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://documents1.worldbank.org/curated/en/152281630077997713/pdf/Announcement-of-Former-Australian-Treasurer-U-S-Diplomat-Philippine-Ombudsman-and-Swiss-Jurist-Tapped-for-Anti-Corruption-Board-on-September-18-2008.pdf",
+      "https://en.wikipedia.org/wiki/Peter_Costello"
+    ],
+    "pollie_slug": "peter-costello",
+    "start_date": "2009-10-19",
+    "end_date": "2014-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Nine Entertainment Co",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.realminvestments.com.au/wp-content/uploads/2019/09/130207-Costello-puts-on-new-hat-at-ecg-advisory.pdf"
+    ],
+    "pollie_slug": "peter-costello",
+    "start_date": "2013-02-01",
+    "end_date": "2016-03-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Nine Entertainment Co",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://theconversation.com/peter-costello-quits-as-chairman-of-nine-in-the-wake-of-airport-fracas-with-reporter-232005",
+      "https://www.adnews.com.au/news/peter-costello-had-to-go-and-why-nine-journalists-are-glad-he-did"
+    ],
+    "pollie_slug": "peter-costello",
+    "start_date": "2016-03-01",
+    "end_date": "2024-06-01"
+  },
+  {
+    "role": "Guardian",
+    "organisation": "Future Fund",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://ministers.treasury.gov.au/ministers/wayne-swan-2007/media-releases/new-appointments-future-fund",
+      "https://www.moneymanagement.com.au/news/people-products/future-fund-chair-appointed-replace-costello"
+    ],
+    "pollie_slug": "peter-costello",
+    "start_date": "2009-12-01",
+    "end_date": "2014-02-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Future Fund",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://theconversation.com/former-labor-minister-greg-combet-to-succeed-peter-costello-as-chair-of-the-future-fund-222138",
+      "https://ministers.finance.gov.au/financeminister/media-release/2013/12/18/peter-costello-appointed-acting-chair-future-fund",
+      "https://www.miragenews.com/hon-peter-costello-acs-future-fund-chair-tenure-1100732/"
+    ],
+    "pollie_slug": "peter-costello",
+    "start_date": "2014-02-01",
+    "end_date": "2024-02-27"
+  },
+  {
+    "role": "Member, International Advisory Board",
+    "organisation": "Allianz",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.realminvestments.com.au/wp-content/uploads/2019/09/130207-Costello-puts-on-new-hat-at-ecg-advisory.pdf"
+    ],
+    "pollie_slug": "peter-costello"
   }
 ]
