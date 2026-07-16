@@ -43556,22 +43556,36 @@
     "organisation": "Glenorchy City Council",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://en.wikipedia.org/wiki/Harry_Quick"
+      "https://en.wikipedia.org/wiki/Harry_Quick",
+      "https://kevinbonham.blogspot.com/2017/10/glenorchy-what-happens-if-most-of.html",
+      "https://www.legislation.tas.gov.au/view/pdf/asmade/act-2017-048"
     ],
     "pollie_slug": "harry-quick",
     "start_date": "2014-10-25",
-    "end_date": "2018-10-27"
+    "end_date": "2017-11-22",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Identity and role confirmed by two independent sources: Wikipedia states Quick 'was elected in the 2014 general Tasmanian council elections to Glenorchy City Council as alderman', and Kevin Bonham's election-analysis blog names him explicitly: 'Former federal MP Harry Quick was elected Deputy on Johnston's ticket' at the 2014 election. The original end_date (2018-10-27) implies a quadrennial cycle that never happened: the whole Glenorchy council was suspended through 2017 and dismissed under the Glenorchy City Council (Dismissal of Councillors) Act 2017, which received Royal Assent on 22 November 2017. Corrected end_date to the statutory dismissal date."
+    }
   },
   {
     "role": "Deputy Mayor",
     "organisation": "Glenorchy City Council",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://en.wikipedia.org/wiki/Harry_Quick"
+      "https://en.wikipedia.org/wiki/Harry_Quick",
+      "https://kevinbonham.blogspot.com/2017/10/glenorchy-what-happens-if-most-of.html",
+      "https://www.legislation.tas.gov.au/view/pdf/asmade/act-2017-048"
     ],
     "pollie_slug": "harry-quick",
     "start_date": "2014-10-25",
-    "end_date": "2017-01-01"
+    "end_date": "2017-11-22",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and Kevin Bonham's blog both confirm Harry Quick was elected Deputy Mayor of Glenorchy alongside Mayor Kristie Johnston at the 2014 election. The original end_date (2017-01-01) is unsupported: Bonham's October 2017 post describes Quick as still an incumbent amid the council-wide suspension, which formally ended when the Glenorchy City Council (Dismissal of Councillors) Act 2017 received Royal Assent on 22 November 2017. Corrected end_date to the dismissal date."
+    }
   },
   {
     "role": "Alderman",
@@ -43583,29 +43597,46 @@
     ],
     "pollie_slug": "harry-quick",
     "start_date": "2022-10-22",
-    "end_date": "2024-10-19"
+    "end_date": "2024-10-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via Wikipedia ('was elected in the 2022 general Tasmanian council elections to Glenorchy City Council as alderman') and pulsetasmania.com.au, which names him directly: 'the late Harry Quick, former federal MP and alderman who passed away last month.' Quick died 19 October 2024, matching this record's end_date, consistent with him serving as alderman until his death in office."
+    }
   },
   {
     "role": "Managing Partner",
     "organisation": "BKK Partners",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.realminvestments.com.au/wp-content/uploads/2019/09/130207-Costello-puts-on-new-hat-at-ecg-advisory.pdf"
+      "https://www.realminvestments.com.au/wp-content/uploads/2019/09/130207-Costello-puts-on-new-hat-at-ECG-Advisory.pdf",
+      "https://en.wikipedia.org/wiki/Peter_Costello"
     ],
     "pollie_slug": "peter-costello",
     "start_date": "2009-11-01",
-    "end_date": "2013-01-01"
+    "end_date": "2013-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited PDF 404s at the given URL, but the same file exists at a case-corrected URL. The AFR article (Costello puts on new hat at ECG Advisory, 7 Feb 2013) states 'Mr Costello had been a founding partner of BKK after he left politics in 2009' and that he left BKK for ECG in Jan 2013, matching the 2009-11 to 2013-01 window. Wikipedia corroborates the title: 'managing partner of BKK Partners'."
+    }
   },
   {
     "role": "Chair, Advisory Board",
     "organisation": "ECG Advisory Solutions",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.realminvestments.com.au/wp-content/uploads/2019/09/130207-Costello-puts-on-new-hat-at-ecg-advisory.pdf",
-      "https://www.gem.wiki/ECG_Advisory_Solutions"
+      "https://www.gem.wiki/ECG_Advisory_Solutions",
+      "https://www.realminvestments.com.au/wp-content/uploads/2019/09/130207-Costello-puts-on-new-hat-at-ECG-Advisory.pdf",
+      "https://en.wikipedia.org/wiki/Peter_Costello"
     ],
     "pollie_slug": "peter-costello",
-    "start_date": "2013-01-01"
+    "start_date": "2013-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Case-corrected AFR PDF confirms Costello left BKK and 'will hang up his shingle at lobbying firm ECG Advisory... Mr Costello was already a part owner in ECG but last month moved into its Melbourne offices at 120 Collins Street' (Jan 2013), matching the 2013-01-01 start. Wikipedia states he 'chairs the advisory board of specialist corporate advisory firm ECG Advisory Solutions.' gem.wiki returned 403 on direct fetch so could not be independently checked, but is left in place as it was not confirmed dead."
+    }
   },
   {
     "role": "Chair, Independent Advisory Board",
@@ -43613,22 +43644,33 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://documents1.worldbank.org/curated/en/152281630077997713/pdf/Announcement-of-Former-Australian-Treasurer-U-S-Diplomat-Philippine-Ombudsman-and-Swiss-Jurist-Tapped-for-Anti-Corruption-Board-on-September-18-2008.pdf",
-      "https://en.wikipedia.org/wiki/Peter_Costello"
+      "https://en.wikipedia.org/wiki/Peter_Costello",
+      "https://petercostello.com.au/"
     ],
     "pollie_slug": "peter-costello",
     "start_date": "2009-10-19",
-    "end_date": "2014-01-01"
+    "end_date": "2014-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "World Bank press release (18 Sept 2008) confirms Peter Costello, 'Australia's Treasurer from 1996 to 2007,' was appointed to the Bank's new Independent Advisory Board on anti-corruption. Costello's own official site states he served as 'Member and then Chairman of the Independent Advisory Board to the World Bank in Washington 2009-2014', matching the recorded window."
+    }
   },
   {
     "role": "Director",
     "organisation": "Nine Entertainment Co",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://www.realminvestments.com.au/wp-content/uploads/2019/09/130207-Costello-puts-on-new-hat-at-ecg-advisory.pdf"
+      "https://www.realminvestments.com.au/wp-content/uploads/2019/09/130207-Costello-puts-on-new-hat-at-ECG-Advisory.pdf"
     ],
     "pollie_slug": "peter-costello",
     "start_date": "2013-02-01",
-    "end_date": "2016-03-01"
+    "end_date": "2016-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Case-corrected AFR PDF states Costello 'was recently appointed as a director to the newly recapitalised Nine Entertainment Co' in its 7 Feb 2013 edition, matching the 2013-02-01 start date. adnews confirms he 'joined the board in 2013' before becoming chairman in 2016, matching the 2016-03-01 end date."
+    }
   },
   {
     "role": "Chair",
@@ -43640,7 +43682,12 @@
     ],
     "pollie_slug": "peter-costello",
     "start_date": "2016-03-01",
-    "end_date": "2024-06-01"
+    "end_date": "2024-06-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Conversation confirms Costello was 'appointed chairman of Nine Entertainment' in February 2016 and 'resigned from Nine in June 2024 after allegedly assaulting a reporter at Canberra Airport.' adnews corroborates. Dates match."
+    }
   },
   {
     "role": "Guardian",
@@ -43648,11 +43695,17 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://ministers.treasury.gov.au/ministers/wayne-swan-2007/media-releases/new-appointments-future-fund",
-      "https://www.moneymanagement.com.au/news/people-products/future-fund-chair-appointed-replace-costello"
+      "https://www.moneymanagement.com.au/news/people-products/future-fund-chair-appointed-replace-costello",
+      "https://www.canberratimes.com.au/story/8379541/what-does-the-future-hold-for-govts-200b-fund/"
     ],
     "pollie_slug": "peter-costello",
     "start_date": "2009-12-01",
-    "end_date": "2014-02-01"
+    "end_date": "2014-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The two originally cited sources blocked automated fetching (403/timeout) but were not confirmed dead, so are left in place. The Canberra Times confirms he 'served at the Future Fund since late 2009, initially as a guardian', becoming chair in 2014 — matching the 2009-12-01 to 2014-02-01 window. A parlinfo search snippet independently confirms his appointment to the Board of Guardians took effect 18 December 2009."
+    }
   },
   {
     "role": "Chair",
@@ -43661,19 +43714,30 @@
     "sources": [
       "https://theconversation.com/former-labor-minister-greg-combet-to-succeed-peter-costello-as-chair-of-the-future-fund-222138",
       "https://ministers.finance.gov.au/financeminister/media-release/2013/12/18/peter-costello-appointed-acting-chair-future-fund",
-      "https://www.miragenews.com/hon-peter-costello-acs-future-fund-chair-tenure-1100732/"
+      "https://www.miragenews.com/hon-peter-costello-acs-future-fund-chair-tenure-1100732/",
+      "https://www.katygallagher.com.au/media-centre/media-releases/appointments-to-the-future-fund-board/"
     ],
     "pollie_slug": "peter-costello",
     "start_date": "2014-02-01",
-    "end_date": "2024-02-27"
+    "end_date": "2024-02-04",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Start date confirmed: Costello became Acting Chair in Jan 2014 and Chairman effective 4 Feb 2014. The recorded end_date of 2024-02-27 is contradicted by an official government media release (Minister for Finance): Mary Reemst 'will commence her role as Acting Chair on 4 February 2024, until Mr Combet commences' — meaning Costello's chairmanship ended by 4 Feb 2024. Consistent with his 2019 reappointment being 'for a period of five years from 4 February 2019'. Corrected end_date to 2024-02-04."
+    }
   },
   {
     "role": "Member, International Advisory Board",
     "organisation": "Allianz",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.realminvestments.com.au/wp-content/uploads/2019/09/130207-Costello-puts-on-new-hat-at-ecg-advisory.pdf"
+      "https://www.realminvestments.com.au/wp-content/uploads/2019/09/130207-Costello-puts-on-new-hat-at-ECG-Advisory.pdf"
     ],
-    "pollie_slug": "peter-costello"
+    "pollie_slug": "peter-costello",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited PDF 404s at the lowercase URL, but the identical file is reachable at a case-corrected URL. The AFR article (7 Feb 2013) states directly: 'He is also on the international advisory board of insurance giant Allianz' — confirming this exact role and organisation. No dates given in the source or the record."
+    }
   }
 ]
