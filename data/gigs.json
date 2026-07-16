@@ -43739,5 +43739,94 @@
       "by": "claude",
       "note": "The cited PDF 404s at the lowercase URL, but the identical file is reachable at a case-corrected URL. The AFR article (7 Feb 2013) states directly: 'He is also on the international advisory board of insurance giant Allianz' — confirming this exact role and organisation. No dates given in the source or the record."
     }
+  },
+  {
+    "role": "Special Adviser",
+    "organisation": "International Justice Mission Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Skye_Kakoschke-Moore",
+      "https://assets-sea.ijm.org/documents/Annual-Reports/IJM_ImpactReport_2018-WEB.pdf"
+    ],
+    "pollie_slug": "skye-kakoschke-moore",
+    "start_date": "2018-01-01"
+  },
+  {
+    "role": "Management Committee Member",
+    "organisation": "Centre Alliance",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Skye_Kakoschke-Moore"
+    ],
+    "pollie_slug": "skye-kakoschke-moore",
+    "start_date": "2017-11-22",
+    "end_date": "2019-05-18"
+  },
+  {
+    "role": "Team Leader, Policy & Projects",
+    "organisation": "JFA Purple Orange",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://au.linkedin.com/in/skye-kakoschke-moore-53b86919",
+      "https://cyda.org.au/breaking-news-cyda-welcomes-a-new-ceo/"
+    ],
+    "pollie_slug": "skye-kakoschke-moore",
+    "end_date": "2022-10-17"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Children and Young People with Disability Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://cyda.org.au/breaking-news-cyda-welcomes-a-new-ceo/",
+      "https://au.linkedin.com/posts/skye-kakoschke-moore-53b86919_i-am-thrilled-to-share-that-i-will-be-joining-activity-6982529300478517248-Jik4"
+    ],
+    "pollie_slug": "skye-kakoschke-moore",
+    "start_date": "2022-10-17"
+  },
+  {
+    "role": "Liberal Candidate for Robertson",
+    "organisation": "Liberal Party of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.nbnnews.com.au/2024/12/18/liberal-candidate-lucy-wicks-campaigning-for-federal-robertson-seat/",
+      "https://www.tallyroom.com.au/archive/aus2025/robertson2025",
+      "https://coastcommunitynews.com.au/central-coast/news/2024/11/lucy-wicks-to-stand-again-for-robertson/"
+    ],
+    "pollie_slug": "lucy-wicks",
+    "start_date": "2024-11-01",
+    "end_date": "2025-05-03"
+  },
+  {
+    "role": "Adviser",
+    "organisation": "Sayers Group",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://theklaxon.com.au/firm-secretly-owned-by-oecd-boss-given-taxpayer-millions/",
+      "https://theklaxon.com.au/oecd-boss-in-pwc-scandal/",
+      "https://www.aph.gov.au/DocumentStore.ashx?id=cb7ea63d-9fea-4a74-93ef-1346ddbccef1"
+    ],
+    "pollie_slug": "mathias-cormann",
+    "start_date": "2020-12-01"
+  },
+  {
+    "role": "President",
+    "organisation": "Bassendean Bowling Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://biography.senate.gov.au/coleman-ruth-nancy/"
+    ],
+    "pollie_slug": "ruth-coleman",
+    "start_date": "1999-01-01",
+    "end_date": "2002-12-31"
+  },
+  {
+    "role": "Member, External Advisory Group",
+    "organisation": "Centre for People, Place & Planet, Edith Cowan University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.ecu.edu.au/schools/education/research/centre-for-people-place-and-planet/members/external-advisory-group"
+    ],
+    "pollie_slug": "rachel-siewert"
   }
 ]
