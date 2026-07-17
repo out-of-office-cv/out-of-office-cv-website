@@ -493,7 +493,7 @@
   "cheryl-kernot|Associate Professor & Director of Teaching and Learning, Centre for Social Impact|University of New South Wales|2008-09-01": "2026-05-06T20:06:50.524Z",
   "cheryl-kernot|Director of Learning|School for Social Entrepreneurs|null": "2026-05-06T20:06:50.524Z",
   "cheryl-kernot|Director of Social Business, Centre for Social Impact|University of New South Wales|null": "2026-05-06T20:06:50.524Z",
-  "cheryl-kernot|Programme Director, Skoll Centre for Social Entrepreneurs|Saïd Business School, University of Oxford|2002-01-01": "2026-05-06T20:06:50.524Z",
+  "cheryl-kernot|Programme Director, Skoll Centre for Social Entrepreneurs|Sa\u00efd Business School, University of Oxford|2002-01-01": "2026-05-06T20:06:50.524Z",
   "chris-back|Chair, Australian Standards for the Export of Livestock Technical Advisory Committee|Australian Department of Agriculture|null": {
     "last_examined_at": "2026-06-03T00:00:00.000Z"
   },
@@ -607,10 +607,10 @@
   "chris-schacht|Director|Marathon Resources|2008-01-01": {
     "last_examined_at": "2026-05-23T02:12:06.664Z"
   },
-  "chris-schacht|Member, Board of Administration|Fédération Internationale de Volleyball|2011-01-01": {
+  "chris-schacht|Member, Board of Administration|F\u00e9d\u00e9ration Internationale de Volleyball|2011-01-01": {
     "last_examined_at": "2026-05-23T02:12:06.664Z"
   },
-  "chris-schacht|Member, Legal Commission|Fédération Internationale de Volleyball|2006-10-01": {
+  "chris-schacht|Member, Legal Commission|F\u00e9d\u00e9ration Internationale de Volleyball|2006-10-01": {
     "last_examined_at": "2026-05-23T02:12:06.664Z"
   },
   "chris-schacht|President|Australian Volleyball Federation|null": {
@@ -2752,7 +2752,7 @@
   "murray-sainsbury|Chief Executive Officer|Hindmarsh Group|1991": "2026-05-27T02:15:38.271Z",
   "murray-sainsbury|Consultant|Hindmarsh Group|null": "2026-05-27T02:15:38.271Z",
   "murray-sainsbury|President|Association of Former Members of the Parliament of Australia|null": "2026-05-27T02:15:38.271Z",
-  "natasha-griggs|Administrator of Christmas Island and Cocos (Keeling) Islands|Australian Government — Indian Ocean Territories Administration|2017-10-05": "2026-05-27T00:00:00.000Z",
+  "natasha-griggs|Administrator of Christmas Island and Cocos (Keeling) Islands|Australian Government \u2014 Indian Ocean Territories Administration|2017-10-05": "2026-05-27T00:00:00.000Z",
   "natasha-griggs|President|Chamber of Commerce Northern Territory|null": "2026-06-10T00:00:00.000Z",
   "natasha-griggs|President|Country Liberal Party|2025-02-16": "2026-05-27T00:00:00.000Z",
   "natasha-stott-despoja|Ambassador for Women and Girls|Australian Government (DFAT)|2013-12": "2026-04-30T12:08:44Z",
@@ -4262,7 +4262,7 @@
     "last_examined_at": "2026-07-05T00:00:00.000Z",
     "attempts": 1
   },
-  "benjamin-humphreys|Director|Australian Stockman’s Hall of Fame|null": {
+  "benjamin-humphreys|Director|Australian Stockman\u2019s Hall of Fame|null": {
     "last_examined_at": "2026-07-05T00:00:00.000Z",
     "attempts": 1
   },
@@ -4498,7 +4498,7 @@
     "last_examined_at": "2026-07-16T00:00:00.000Z",
     "attempts": 1
   },
-  "luke-howarth|Non-Executive Director|Housing sector organisation (unidentified — see LinkedIn headline)|null": {
+  "luke-howarth|Non-Executive Director|Housing sector organisation (unidentified \u2014 see LinkedIn headline)|null": {
     "last_examined_at": "2026-07-16T00:00:00.000Z",
     "attempts": 1
   },
@@ -4548,6 +4548,38 @@
   },
   "peter-costello|Member, International Advisory Board|Allianz|null": {
     "last_examined_at": "2026-07-16T16:23:22.290Z",
+    "attempts": 1
+  },
+  "skye-kakoschke-moore|Special Adviser|International Justice Mission Australia|2018-01-01": {
+    "last_examined_at": "2026-07-18T00:00:00Z",
+    "attempts": 1
+  },
+  "skye-kakoschke-moore|Management Committee Member|Centre Alliance|2017-11-22": {
+    "last_examined_at": "2026-07-18T00:00:00Z",
+    "attempts": 1
+  },
+  "skye-kakoschke-moore|Team Leader, Policy & Projects|JFA Purple Orange|null": {
+    "last_examined_at": "2026-07-18T00:00:00Z",
+    "attempts": 1
+  },
+  "skye-kakoschke-moore|Chief Executive Officer|Children and Young People with Disability Australia|2022-10-17": {
+    "last_examined_at": "2026-07-18T00:00:00Z",
+    "attempts": 1
+  },
+  "lucy-wicks|Liberal Candidate for Robertson|Liberal Party of Australia|2024-11-01": {
+    "last_examined_at": "2026-07-18T00:00:00Z",
+    "attempts": 1
+  },
+  "mathias-cormann|Adviser|Sayers Group|2020-12-01": {
+    "last_examined_at": "2026-07-18T00:00:00Z",
+    "attempts": 1
+  },
+  "rachel-siewert|Member, External Advisory Group|Centre for People, Place & Planet, Edith Cowan University|null": {
+    "last_examined_at": "2026-07-18T00:00:00Z",
+    "attempts": 1
+  },
+  "ruth-coleman|President|Bassendean Bowling Club|1999-01-01": {
+    "last_examined_at": "2026-07-18T00:00:00Z",
     "attempts": 1
   }
 }
