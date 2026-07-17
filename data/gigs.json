@@ -43868,5 +43868,17 @@
       "by": "claude",
       "note": "ECU's Centre for People, Place & Planet 'External Advisory Group' members page lists 'Rachel Siewert, Deputy CEO - WACOSS (WA Centre for Social Services), Perth, Western Australia, Australia' as a member. This matches the former WA Senator (2005-2021, Greens), independently confirmed to be Deputy CEO of WACOSS in Perth -- the same distinctive role/location combination, ruling out a namesake."
     }
+  },
+  {
+    "role": "Liberal Candidate for Boothby",
+    "organisation": "Liberal Party of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://thenightly.com.au/politics/federal-election-2025/ex-mp-nicolle-flints-rare-comeback-bid-in-key-marginal-seat-of-boothby-held-by-labors-louise-miller-frost-c-18498041",
+      "https://junctionjournalism.com/2025/04/28/albanese-labor-government-has-failed-our-local-community-nicolle-flint-campaigns-for-boothby-ahead-of-2025-federal-election/"
+    ],
+    "pollie_slug": "nicolle-flint",
+    "start_date": "2024-05-01",
+    "end_date": "2025-05-03"
   }
 ]
