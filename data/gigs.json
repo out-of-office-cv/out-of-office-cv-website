@@ -43885,5 +43885,60 @@
       "by": "claude",
       "note": "Confirmed via Wikipedia (Nicolle Flint): 'On 1 May 2024, Flint was announced as the Liberal Party candidate for the Division of Boothby in the 2025 Australian federal election.' thenightly.com.au corroborates the comeback candidacy by the same former member for Boothby; dates align with the 3 May 2025 election."
     }
+  },
+  {
+    "role": "Director",
+    "organisation": "Western Sydney Waste Board",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.parliament.nsw.gov.au/tp/files/16828/page%2081%20to%20100.pdf",
+      "https://static1.squarespace.com/static/64e6fc1c8ea323088ba6e7f4/t/6951fafabd5c89062ec9d202/1766980346715/Annual+Report+2003-4.pdf"
+    ],
+    "pollie_slug": "maggie-deahm",
+    "start_date": "1996",
+    "end_date": "2000"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Western Sydney Waste Board",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.parliament.nsw.gov.au/tp/files/16828/page%2081%20to%20100.pdf",
+      "https://static1.squarespace.com/static/64e6fc1c8ea323088ba6e7f4/t/6951fafabd5c89062ec9d202/1766980346715/Annual+Report+2003-4.pdf"
+    ],
+    "pollie_slug": "maggie-deahm",
+    "start_date": "2000",
+    "end_date": "2001"
+  },
+  {
+    "role": "Assessor",
+    "organisation": "Local Government Remuneration Tribunal",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.parliament.nsw.gov.au/tp/files/16828/page%2081%20to%20100.pdf",
+      "https://static1.squarespace.com/static/64e6fc1c8ea323088ba6e7f4/t/6951fafabd5c89062ec9d202/1766980346715/Annual+Report+2003-4.pdf"
+    ],
+    "pollie_slug": "maggie-deahm"
+  },
+  {
+    "role": "Director",
+    "organisation": "Sydney Catchment Authority",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.parliament.nsw.gov.au/tp/files/16828/page%2081%20to%20100.pdf"
+    ],
+    "pollie_slug": "maggie-deahm",
+    "start_date": "2002-03-04"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Jenolan Caves Reserve Trust",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://static1.squarespace.com/static/64e6fc1c8ea323088ba6e7f4/t/6951fafabd5c89062ec9d202/1766980346715/Annual+Report+2003-4.pdf",
+      "https://www.parliament.nsw.gov.au/tp/files/16828/page%2081%20to%20100.pdf"
+    ],
+    "pollie_slug": "maggie-deahm",
+    "end_date": "2004-01"
   }
 ]
