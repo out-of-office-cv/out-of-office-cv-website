@@ -43973,5 +43973,90 @@
       "by": "claude",
       "note": "Jenolan Caves Reserve Trust Annual Report 2003/2004: the outgoing Chair's message thanks 'the previous Board... in particular, the Chair, Professor Richard Mackay and Deputy Chair, Ms Maggie Deahm, for their advice and counsel', and her board bio confirms identity via matching career details. The report explains the previous Board's three-year term began February 2001 and was replaced mid-year by a ministerially appointed Administrator following a government review, consistent with the record's end_date of 2004-01."
     }
+  },
+  {
+    "role": "Employment Lawyer",
+    "organisation": "United Firefighters Union",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Adam_Bandt",
+      "https://au.headtopics.com/news/former-greens-leader-adam-bandt-s-new-gig-revealed-70992467"
+    ],
+    "pollie_slug": "adam-bandt",
+    "start_date": "2025-05-03"
+  },
+  {
+    "role": "Member, Earthcare Committee",
+    "organisation": "Australia Yearly Meeting (Religious Society of Friends)",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://australianfriend.org/know-thy-friend-jo-vallentine/"
+    ],
+    "pollie_slug": "josephine-vallentine",
+    "start_date": "2017-01-01"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Gallipoli Scholarship Fund",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://gallipolischolarship.com.au/our-history/goodwill-ambassadors/"
+    ],
+    "pollie_slug": "garrie-gibson"
+  },
+  {
+    "role": "Goodwill Ambassador",
+    "organisation": "Gallipoli Scholarship Fund",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://gallipolischolarship.com.au/our-history/goodwill-ambassadors/"
+    ],
+    "pollie_slug": "garrie-gibson",
+    "start_date": "2024-01-01"
+  },
+  {
+    "role": "Founding Secretary",
+    "organisation": "Veterans Benevolent Fund",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://gallipolischolarship.com.au/our-history/goodwill-ambassadors/"
+    ],
+    "pollie_slug": "garrie-gibson"
+  },
+  {
+    "role": "Secretary",
+    "organisation": "Shae Gibson Women's Cancer Support Fund",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://gallipolischolarship.com.au/our-history/goodwill-ambassadors/"
+    ],
+    "pollie_slug": "garrie-gibson"
+  },
+  {
+    "role": "President",
+    "organisation": "Fisher Federal Electorate Committee, Australian Labor Party",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://gallipolischolarship.com.au/our-history/goodwill-ambassadors/"
+    ],
+    "pollie_slug": "garrie-gibson"
+  },
+  {
+    "role": "General Manager, Canberra",
+    "organisation": "CPR Communications & Public Relations",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://au.linkedin.com/in/garrie-gibson-0aa7801b"
+    ],
+    "pollie_slug": "garrie-gibson"
+  },
+  {
+    "role": "Volunteer",
+    "organisation": "Sunshine Coast University Hospital",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://gallipolischolarship.com.au/our-history/goodwill-ambassadors/"
+    ],
+    "pollie_slug": "garrie-gibson"
   }
 ]
