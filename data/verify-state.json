@@ -4231,16 +4231,16 @@
     "attempts": 1
   },
   "susan-lamb|Vice Chancellor's Fellow|Queensland University of Technology|null": {
-    "last_examined_at": "2026-07-12T00:00:00.000Z",
-    "attempts": 2
+    "last_examined_at": "2026-07-20T00:00:00.000Z",
+    "attempts": 3
   },
   "ted-mack|Director|Real Republic|1999": {
     "last_examined_at": "2026-07-04T02:30:00.000Z",
     "attempts": 1
   },
   "tim-storer|Director|Storer Asia|2019-07-01": {
-    "last_examined_at": "2026-07-12T00:00:00.000Z",
-    "attempts": 2
+    "last_examined_at": "2026-07-20T00:00:00.000Z",
+    "attempts": 3
   },
   "tom-mcveigh|Agent-General for Queensland|Queensland Government Office, London|1988-04-01": {
     "last_examined_at": "2026-07-04T02:30:00.000Z",
@@ -4584,6 +4584,26 @@
   },
   "nicolle-flint|Liberal Candidate for Boothby|Liberal Party of Australia|2024-05-01": {
     "last_examined_at": "2026-07-19T00:00:00.000Z",
+    "attempts": 1
+  },
+  "maggie-deahm|Director|Western Sydney Waste Board|1996": {
+    "last_examined_at": "2026-07-20T00:00:00.000Z",
+    "attempts": 1
+  },
+  "maggie-deahm|Chair|Western Sydney Waste Board|2000": {
+    "last_examined_at": "2026-07-20T00:00:00.000Z",
+    "attempts": 1
+  },
+  "maggie-deahm|Assessor|Local Government Remuneration Tribunal|null": {
+    "last_examined_at": "2026-07-20T00:00:00.000Z",
+    "attempts": 1
+  },
+  "maggie-deahm|Director|Sydney Catchment Authority|2002-03-04": {
+    "last_examined_at": "2026-07-20T00:00:00.000Z",
+    "attempts": 1
+  },
+  "maggie-deahm|Deputy Chair|Jenolan Caves Reserve Trust|null": {
+    "last_examined_at": "2026-07-20T00:00:00.000Z",
     "attempts": 1
   }
 }

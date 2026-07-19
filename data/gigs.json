@@ -33953,7 +33953,12 @@
       "https://x.com/storertim",
       "https://www.linkedin.com/in/tim-storer-aa86853/"
     ],
-    "start_date": "2019-07-01"
+    "start_date": "2019-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Tim Storer's own X/Twitter account (@storertim, one of the cited sources) gives the bio: \"2018-19 Indep SA Senator, now Storer Asia consulting\" -- a first-person statement from the former Senator himself directly linking his Senate service to this specific post-Senate role. Corroborated by the AeroLeads aggregator page (also cited), which lists his title as \"Director for Storer Asia\". Start_date 2019-07-01 is the day after he ceased being a Senator (2019-06-30)."
+    }
   },
   {
     "pollie_slug": "duncan-spender",
@@ -43892,11 +43897,17 @@
     "category": "Environment, Climate & Sustainability",
     "sources": [
       "https://www.parliament.nsw.gov.au/tp/files/16828/page%2081%20to%20100.pdf",
-      "https://static1.squarespace.com/static/64e6fc1c8ea323088ba6e7f4/t/6951fafabd5c89062ec9d202/1766980346715/Annual+Report+2003-4.pdf"
+      "https://static1.squarespace.com/static/64e6fc1c8ea323088ba6e7f4/t/6951fafabd5c89062ec9d202/1766980346715/Annual+Report+2003-4.pdf",
+      "https://files.parliament.nsw.gov.au/fileapi/ParlFiles/GetArtifact?serverRelativeUrl=%2Ftp%2Ffiles%2F16828%2Fpage+81+to+100.pdf"
     ],
     "pollie_slug": "maggie-deahm",
     "start_date": "1996",
-    "end_date": "2000"
+    "end_date": "2000",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Jenolan Caves Reserve Trust Annual Report 2003/2004 board bio: 'She was a director of the Western Sydney Waste Board from 1996-2001 (Chair 2000-2001).' The Sydney Catchment Authority Annual Report 2002-2003 (parliament.nsw.gov.au) appendix bio corroborates: 'From 1996 to 2000, she served both as a member and chairman of the Western Sydney Waste Board.' Both bios confirm this is the same Maggie Deahm, Federal Member for Macquarie 1993-1996."
+    }
   },
   {
     "role": "Chair",
@@ -43904,11 +43915,17 @@
     "category": "Environment, Climate & Sustainability",
     "sources": [
       "https://www.parliament.nsw.gov.au/tp/files/16828/page%2081%20to%20100.pdf",
-      "https://static1.squarespace.com/static/64e6fc1c8ea323088ba6e7f4/t/6951fafabd5c89062ec9d202/1766980346715/Annual+Report+2003-4.pdf"
+      "https://static1.squarespace.com/static/64e6fc1c8ea323088ba6e7f4/t/6951fafabd5c89062ec9d202/1766980346715/Annual+Report+2003-4.pdf",
+      "https://files.parliament.nsw.gov.au/fileapi/ParlFiles/GetArtifact?serverRelativeUrl=%2Ftp%2Ffiles%2F16828%2Fpage+81+to+100.pdf"
     ],
     "pollie_slug": "maggie-deahm",
     "start_date": "2000",
-    "end_date": "2001"
+    "end_date": "2001",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Jenolan Caves Reserve Trust Annual Report 2003/2004 board bio confirms directly: 'She was a director of the Western Sydney Waste Board from 1996-2001 (Chair 2000-2001).' Same person confirmed via matching biographical details (Federal Member for Macquarie 1993-1996, Blue Mountains alderman)."
+    }
   },
   {
     "role": "Assessor",
@@ -43916,9 +43933,15 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.parliament.nsw.gov.au/tp/files/16828/page%2081%20to%20100.pdf",
-      "https://static1.squarespace.com/static/64e6fc1c8ea323088ba6e7f4/t/6951fafabd5c89062ec9d202/1766980346715/Annual+Report+2003-4.pdf"
+      "https://static1.squarespace.com/static/64e6fc1c8ea323088ba6e7f4/t/6951fafabd5c89062ec9d202/1766980346715/Annual+Report+2003-4.pdf",
+      "https://files.parliament.nsw.gov.au/fileapi/ParlFiles/GetArtifact?serverRelativeUrl=%2Ftp%2Ffiles%2F16828%2Fpage+81+to+100.pdf"
     ],
-    "pollie_slug": "maggie-deahm"
+    "pollie_slug": "maggie-deahm",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by both cited sources. Sydney Catchment Authority Annual Report 2002-2003 appendix bio: 'Ms Deahm is currently ... an Assessor to the Local Government Remuneration Tribunal.' Jenolan Caves Reserve Trust Annual Report 2003/2004 board bio: 'She is currently an assessor to the Local Government Remuneration Tribunal.' Both bios independently match her known post-parliamentary career details, confirming identity."
+    }
   },
   {
     "role": "Director",
@@ -43928,7 +43951,12 @@
       "https://www.parliament.nsw.gov.au/tp/files/16828/page%2081%20to%20100.pdf"
     ],
     "pollie_slug": "maggie-deahm",
-    "start_date": "2002-03-04"
+    "start_date": "2002-03-04",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Sydney Catchment Authority Annual Report 2002-2003 (parliament.nsw.gov.au PDF) lists Maggie Deahm as an SCA board member (appendix bio and Corporate Governance Committee membership list) and states: 'The three-year term of the Board commenced on Monday, 4 March 2002' -- matching the record's start_date of 2002-03-04. The Jenolan Caves Reserve Trust Annual Report 2003/2004 bio corroborates: 'a member of the Board of the Sydney Catchment Authority.'"
+    }
   },
   {
     "role": "Deputy Chair",
@@ -43939,6 +43967,11 @@
       "https://www.parliament.nsw.gov.au/tp/files/16828/page%2081%20to%20100.pdf"
     ],
     "pollie_slug": "maggie-deahm",
-    "end_date": "2004-01"
+    "end_date": "2004-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Jenolan Caves Reserve Trust Annual Report 2003/2004: the outgoing Chair's message thanks 'the previous Board... in particular, the Chair, Professor Richard Mackay and Deputy Chair, Ms Maggie Deahm, for their advice and counsel', and her board bio confirms identity via matching career details. The report explains the previous Board's three-year term began February 2001 and was replaced mid-year by a ministerially appointed Administrator following a government review, consistent with the record's end_date of 2004-01."
+    }
   }
 ]
