@@ -43983,7 +43983,12 @@
       "https://au.headtopics.com/news/former-greens-leader-adam-bandt-s-new-gig-revealed-70992467"
     ],
     "pollie_slug": "adam-bandt",
-    "start_date": "2025-05-03"
+    "start_date": "2025-05-03",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia's Adam Bandt article (Post-politics), which states he 'briefly returned to work as an employment lawyer with the United Firefighters Union (UFU) before contacting the Australian Conservation Foundation'. Corroborated by the SMH-sourced report (10 July 2025) that he 'is working for the United Firefighters Union'. Dates plausible: began shortly after ceasing as MP (3 May 2025), before his ACF CEO move (starting Jan 2026)."
+    }
   },
   {
     "role": "Member, Earthcare Committee",
@@ -43993,7 +43998,12 @@
       "https://australianfriend.org/know-thy-friend-jo-vallentine/"
     ],
     "pollie_slug": "josephine-vallentine",
-    "start_date": "2017-01-01"
+    "start_date": "2017-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Australian Friend (official publication of Australia Yearly Meeting, the Quaker organisation) confirms in 'Know Thy Friend: Jo Vallentine': 'Jo also initiated the \"Welcome Both Ways\" event at the Mount Lawley Friends' Meeting House in 2017, as part of the AYM Earthcare Committee witness.' Names the former WA Senator specifically; 2017 date matches recorded start_date."
+    }
   },
   {
     "role": "Deputy Chair",
@@ -44002,7 +44012,12 @@
     "sources": [
       "https://gallipolischolarship.com.au/our-history/goodwill-ambassadors/"
     ],
-    "pollie_slug": "garrie-gibson"
+    "pollie_slug": "garrie-gibson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Gallipoli Scholarship Fund's Goodwill Ambassadors page states: 'Garrie was a member of the Management Committee of the Gallipoli Scholarship Fund and was Deputy Chair for four years.' Identity confirmed via Wikipedia (Labor MP for Moreton, 1990-1996, ex CEO of RSL & Services Clubs Association NSW)."
+    }
   },
   {
     "role": "Goodwill Ambassador",
@@ -44012,7 +44027,12 @@
       "https://gallipolischolarship.com.au/our-history/goodwill-ambassadors/"
     ],
     "pollie_slug": "garrie-gibson",
-    "start_date": "2024-01-01"
+    "start_date": "2024-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same source confirms: 'was recently appointed as a Goodwill Ambassador for the Gallipoli Scholarship Fund'; page title 'Garrie Gibson - Goodwill Ambassador 2024' corroborates the 2024 start date."
+    }
   },
   {
     "role": "Founding Secretary",
@@ -44021,7 +44041,12 @@
     "sources": [
       "https://gallipolischolarship.com.au/our-history/goodwill-ambassadors/"
     ],
-    "pollie_slug": "garrie-gibson"
+    "pollie_slug": "garrie-gibson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same source: 'Garrie was also the Founding Secretary of the Veterans Benevolent Fund and was active in veterans' issues for his whole term as CEO of the RSL & Services Clubs Association.'"
+    }
   },
   {
     "role": "Secretary",
@@ -44030,7 +44055,12 @@
     "sources": [
       "https://gallipolischolarship.com.au/our-history/goodwill-ambassadors/"
     ],
-    "pollie_slug": "garrie-gibson"
+    "pollie_slug": "garrie-gibson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same source: 'Garrie is Secretary of a Cancer charity, the Shae Gibson Women's Cancer Support Fund.'"
+    }
   },
   {
     "role": "President",
@@ -44039,7 +44069,12 @@
     "sources": [
       "https://gallipolischolarship.com.au/our-history/goodwill-ambassadors/"
     ],
-    "pollie_slug": "garrie-gibson"
+    "pollie_slug": "garrie-gibson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same source: 'is President of the Fisher Federal Electorate Committee of the ALP.' Consistent with his identity as a former ALP MP."
+    }
   },
   {
     "role": "General Manager, Canberra",
@@ -44057,6 +44092,11 @@
     "sources": [
       "https://gallipolischolarship.com.au/our-history/goodwill-ambassadors/"
     ],
-    "pollie_slug": "garrie-gibson"
+    "pollie_slug": "garrie-gibson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same Gallipoli Scholarship Fund source: 'works as a Volunteer at the Sunshine Coast University Hospital.'"
+    }
   }
 ]

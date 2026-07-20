@@ -4375,8 +4375,8 @@
     "attempts": 1
   },
   "joe-ludwig|Barrister|Inns of Court|null": {
-    "last_examined_at": "2026-07-13T00:00:00.000Z",
-    "attempts": 1
+    "last_examined_at": "2026-07-21T00:00:00.000Z",
+    "attempts": 2
   },
   "margaret-reid|Chair|Special Research Centre for Applied Philosophy and Public Ethics, Charles Sturt University|2004-01-01": {
     "last_examined_at": "2026-07-14T00:00:00.000Z",
@@ -4604,6 +4604,42 @@
   },
   "maggie-deahm|Deputy Chair|Jenolan Caves Reserve Trust|null": {
     "last_examined_at": "2026-07-20T00:00:00.000Z",
+    "attempts": 1
+  },
+  "garrie-gibson|Deputy Chair|Gallipoli Scholarship Fund|null": {
+    "last_examined_at": "2026-07-21T00:00:00.000Z",
+    "attempts": 1
+  },
+  "garrie-gibson|Goodwill Ambassador|Gallipoli Scholarship Fund|2024-01-01": {
+    "last_examined_at": "2026-07-21T00:00:00.000Z",
+    "attempts": 1
+  },
+  "garrie-gibson|Founding Secretary|Veterans Benevolent Fund|null": {
+    "last_examined_at": "2026-07-21T00:00:00.000Z",
+    "attempts": 1
+  },
+  "garrie-gibson|Secretary|Shae Gibson Women's Cancer Support Fund|null": {
+    "last_examined_at": "2026-07-21T00:00:00.000Z",
+    "attempts": 1
+  },
+  "garrie-gibson|President|Fisher Federal Electorate Committee, Australian Labor Party|null": {
+    "last_examined_at": "2026-07-21T00:00:00.000Z",
+    "attempts": 1
+  },
+  "garrie-gibson|General Manager, Canberra|CPR Communications & Public Relations|null": {
+    "last_examined_at": "2026-07-21T00:00:00.000Z",
+    "attempts": 1
+  },
+  "garrie-gibson|Volunteer|Sunshine Coast University Hospital|null": {
+    "last_examined_at": "2026-07-21T00:00:00.000Z",
+    "attempts": 1
+  },
+  "adam-bandt|Employment Lawyer|United Firefighters Union|2025-05-03": {
+    "last_examined_at": "2026-07-21T00:00:00.000Z",
+    "attempts": 1
+  },
+  "josephine-vallentine|Member, Earthcare Committee|Australia Yearly Meeting (Religious Society of Friends)|2017-01-01": {
+    "last_examined_at": "2026-07-21T00:00:00.000Z",
     "attempts": 1
   }
 }
