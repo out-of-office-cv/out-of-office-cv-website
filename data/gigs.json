@@ -44098,5 +44098,19 @@
       "by": "claude",
       "note": "Same Gallipoli Scholarship Fund source: 'works as a Volunteer at the Sunshine Coast University Hospital.'"
     }
+  },
+  {
+    "role": "Opinion Columnist",
+    "organisation": "The Australian",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://qoshe.com/the-australian-au/jennie-george/keeping-the-door-closed-on-nuclear-makes-zero-sense/179540486",
+      "https://www.familyfirstparty.org.au/media-release_-_strong_jennie-george_s-blackout-warning-prompts-urgent-push-for-coal-and-gas_strong",
+      "https://www.macrobusiness.com.au/2026/02/three-cheers-for-australias-energy-patriot/",
+      "https://www.2gb.com/stuck-in-the-past-labor-figure-jennie-george-on-nuclear-power-ban/",
+      "https://www.linkedin.com/posts/ogcbm_jennie-georges-article-in-the-weekend-australian-activity-7231247029937565697-KXjv"
+    ],
+    "start_date": "2024-02-04",
+    "pollie_slug": "jennie-george"
   }
 ]
