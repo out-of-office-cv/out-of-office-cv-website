@@ -44111,6 +44111,11 @@
       "https://www.linkedin.com/posts/ogcbm_jennie-georges-article-in-the-weekend-australian-activity-7231247029937565697-KXjv"
     ],
     "start_date": "2024-02-04",
-    "pollie_slug": "jennie-george"
+    "pollie_slug": "jennie-george",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "This is the same Jennie George: former ACTU President and ALP member for Throsby (matches the pollie record). MacroBusiness (https://www.macrobusiness.com.au/2026/02/three-cheers-for-australias-energy-patriot/) directly ties identity to role, describing 'a comment published in The Australian last week' by 'a former president of the ACTU and a former Labor federal MP who represented Throsby'. Corroborated by 2GB, which references 'an alarming column in yesterday's Australian by former Labor federal minister Jennie George' on the Eraring/Liddell coal closure and blackout risk; by the Family First release quoting the same blackout-warning column; and by the LinkedIn post referencing 'Jennie George's article in The Weekend Australian'. An earlier column, 'The false promises of green-tech energy', was published in The Australian on 4 February 2024, matching the start_date. Together these show repeated opinion contributions to The Australian on energy/industrial policy from Feb 2024 through 2026, well after she left parliament in 2010."
+    }
   }
 ]
