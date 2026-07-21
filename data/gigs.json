@@ -44111,6 +44111,100 @@
       "https://www.linkedin.com/posts/ogcbm_jennie-georges-article-in-the-weekend-australian-activity-7231247029937565697-KXjv"
     ],
     "start_date": "2024-02-04",
-    "pollie_slug": "jennie-george"
+    "pollie_slug": "jennie-george",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "This is the same Jennie George: former ACTU President and ALP member for Throsby (matches the pollie record). MacroBusiness (https://www.macrobusiness.com.au/2026/02/three-cheers-for-australias-energy-patriot/) directly ties identity to role, describing 'a comment published in The Australian last week' by 'a former president of the ACTU and a former Labor federal MP who represented Throsby'. Corroborated by 2GB, which references 'an alarming column in yesterday's Australian by former Labor federal minister Jennie George' on the Eraring/Liddell coal closure and blackout risk; by the Family First release quoting the same blackout-warning column; and by the LinkedIn post referencing 'Jennie George's article in The Weekend Australian'. An earlier column, 'The false promises of green-tech energy', was published in The Australian on 4 February 2024, matching the start_date. Together these show repeated opinion contributions to The Australian on energy/industrial policy from Feb 2024 through 2026, well after she left parliament in 2010."
+    }
+  },
+  {
+    "role": "Contract Cabinet Maker",
+    "organisation": "Self-employed",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://biography.senate.gov.au/thomas-andrew-murray/"
+    ],
+    "pollie_slug": "andrew-thomas",
+    "start_date": "1984-01-01"
+  },
+  {
+    "role": "Retired",
+    "organisation": "Retired",
+    "category": "Retired",
+    "sources": [
+      "https://catholicweekly.com.au/jacinta-collins-steps-down-from-national-catholic-education-commission/",
+      "https://www.theeducatoronline.com/k12/news/seven-years-that-changed-catholic-education/287936"
+    ],
+    "pollie_slug": "jacinta-collins",
+    "start_date": "2026-03-01"
+  },
+  {
+    "role": "Founder",
+    "organisation": "Pallidon Pty Ltd",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Quirke_(politician)",
+      "https://biography.senate.gov.au/quirke-john-andrew/"
+    ],
+    "pollie_slug": "john-quirke",
+    "start_date": "2000-08-15",
+    "end_date": "2016-12-31"
+  },
+  {
+    "role": "Senior Advisor",
+    "organisation": "Navigate Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://navigateaustralia.com/team/hon-alan-tudge/",
+      "https://au.linkedin.com/in/alan-tudge-0970214a"
+    ],
+    "pollie_slug": "alan-tudge"
+  },
+  {
+    "role": "Delegate",
+    "organisation": "1998 Australian Constitutional Convention",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ted_Mack_(politician)",
+      "https://en.wikipedia.org/wiki/1998_Australian_Constitutional_Convention"
+    ],
+    "pollie_slug": "ted-mack",
+    "start_date": "1998-02-02",
+    "end_date": "1998-02-13"
+  },
+  {
+    "role": "Henry Parkes Orator",
+    "organisation": "Henry Parkes Foundation",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://parkesfoundation.org.au/activities/orations/2013-ted-mack/",
+      "https://parkesfoundation.org.au/2013/10/26/time-for-major-reform-of-the-way-we-do-government-ted-mack/"
+    ],
+    "pollie_slug": "ted-mack",
+    "start_date": "2013-10-26"
+  },
+  {
+    "role": "Campaign Advisor",
+    "organisation": "Stephen Ruff independent campaign for North Sydney",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.sbs.com.au/news/article/meet-stephen-ruff-the-independent-hoping-to-snatch-north-sydney-from-the-liberals/b5ag2295o",
+      "https://www.dailyliberal.com.au/story/3484252/surgeon-stands-as-independent/"
+    ],
+    "pollie_slug": "ted-mack",
+    "start_date": "2015"
+  },
+  {
+    "role": "Co-chair",
+    "organisation": "Australia Tibet Council",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.atc.org.au/about/",
+      "https://www.atc.org.au/2024-board-candidates/",
+      "https://johnmenadue.com/authors/janet-rice/"
+    ],
+    "pollie_slug": "janet-rice",
+    "start_date": "2024-12-01"
   }
 ]
