@@ -30,17 +30,17 @@ env -u CLAUDECODE /home/ben/.local/bin/claude \
 # The skill is told not to commit, but if it does anyway, fold the commits back
 # into the index so committed and uncommitted changes are handled identically.
 git reset --soft origin/main >> "$LOG_FILE" 2>&1
-git add data/gigs.json
+git add data/gigs.json data/find-state.json
 
-# If gigs.json was modified, commit, push, and open a PR
-if git diff --cached --quiet data/gigs.json; then
+# If either file was modified, commit, push, and open a PR. find-state.json is
+# included so the search throttle survives the next run's reset --hard.
+if git diff --cached --quiet data/gigs.json data/find-state.json; then
   log "No new gigs found, nothing to commit"
   git reset --hard origin/main >> "$LOG_FILE" 2>&1
 else
   BRANCH="find-gigs-$(date +%Y%m%d-%H%M%S)"
   git checkout -b "$BRANCH"
-  git add data/gigs.json
-  git show HEAD:data/gigs.json > /tmp/find-gigs-old.json
+  git show origin/main:data/gigs.json > /tmp/find-gigs-old.json
   python3 <<'PYEOF'
 import json
 from collections import Counter
@@ -62,7 +62,10 @@ title_suffix = ", ".join(slugs)
 if len(title_suffix) > 60:
     title_suffix = f"{len(counts)} pollies"
 gig_word = "gig" if len(added) == 1 else "gigs"
-title = f"Add {len(added)} {gig_word}: {title_suffix}"
+if not slugs:
+    title = "find-gigs: throttle update only"
+else:
+    title = f"Add {len(added)} {gig_word}: {title_suffix}"
 
 body_lines = [f"Found {len(added)} new {gig_word}:", ""]
 for slug, n in sorted(counts.items(), key=lambda x: (-x[1], x[0])):
