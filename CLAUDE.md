@@ -28,7 +28,25 @@ Two scripts run on weddle via systemd user timers (canonical unit files in
 - `cron-verify-gigs.sh` --- daily 02:00 local; rechecks each known gig
 - `cron-find-gigs.sh` --- daily 05:00 local; searches for new gigs
 
-Both have 30 min `RandomizedDelaySec` jitter and `Persistent=true`. Install:
+Both have 30 min `RandomizedDelaySec` jitter and `Persistent=true`.
+
+They do not run in this checkout. They run in a dedicated git worktree at
+`../out-of-office-cv-website-cron`, kept permanently detached at `origin/main`,
+so cron never touches whatever branch you have checked out here (and vice
+versa). Each run starts with `git fetch` +
+`git checkout -f --detach origin/main`, so it never rebases and can never wedge
+on a conflict. Detached rather than on `main` because two worktrees cannot check
+out the same branch.
+
+The worktree needs its own `node_modules` --- the skills run `pnpm build` (and
+`pnpm test`) --- but only once. Set up:
+
+```sh
+git worktree add --detach ../out-of-office-cv-website-cron origin/main
+cd ../out-of-office-cv-website-cron && pnpm install
+```
+
+Install the units (paths inside them point at the worktree):
 
 ```sh
 cp ops/systemd/*.{service,timer} ~/.config/systemd/user/
@@ -36,7 +54,8 @@ systemctl --user daemon-reload
 systemctl --user enable --now ooc-verify-gigs.timer ooc-find-gigs.timer
 ```
 
-Logs via `journalctl --user -u <name>.service -n 50`.
+Logs via `journalctl --user -u <name>.service -n 50`, or the per-day files in
+the worktree's `logs/`.
 
 ## Structure
 
