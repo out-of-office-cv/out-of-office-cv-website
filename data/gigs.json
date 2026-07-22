@@ -44126,7 +44126,12 @@
       "https://biography.senate.gov.au/thomas-andrew-murray/"
     ],
     "pollie_slug": "andrew-thomas",
-    "start_date": "1984-01-01"
+    "start_date": "1984-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "biography.senate.gov.au/thomas-andrew-murray/ confirms this exact person (Andrew Murray Thomas, Senator for WA, Liberal, Senate service 1975–1983) and the role: 'he retired with his wife to the beachside town of Mandurah, 75 kilometres south of Perth, and in 1984 went into business as a contract cabinet maker.' Dates match (1984, post-ceasing-date 1983-03-05)."
+    }
   },
   {
     "role": "Retired",
@@ -44134,10 +44139,16 @@
     "category": "Retired",
     "sources": [
       "https://catholicweekly.com.au/jacinta-collins-steps-down-from-national-catholic-education-commission/",
-      "https://www.theeducatoronline.com/k12/news/seven-years-that-changed-catholic-education/287936"
+      "https://www.theeducatoronline.com/k12/news/seven-years-that-changed-catholic-education/287936",
+      "https://therecord.com.au/news/national/ncec-appoints-new-executive-director/"
     ],
     "pollie_slug": "jacinta-collins",
-    "start_date": "2026-03-01"
+    "start_date": "2026-03-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Both cited sources confirm identity (former ALP Senator for Vic, 21 years in Federal Parliament) and role (Executive Director of the National Catholic Education Commission, appointed Feb 2019). Catholic Weekly (4 Sep 2025) and The Educator (5 Sep 2025) report she is retiring from the NCEC role in 2026. The Record (23 Jan 2026), added as a supporting source, gives the precise handover: successor Scott Ryan 'officially commenced his role on January 19, 2026' while Collins 'completes her term as Executive Director at the end of February 2026' -- i.e. her tenure ends 28 Feb 2026, matching the record's start_date of 2026-03-01 for 'Retired'. A further search (NCEC media centre announcements, Wikipedia) found no subsequent post-NCEC role for Collins, consistent with the 'Retired' category."
+    }
   },
   {
     "role": "Founder",
@@ -44149,17 +44160,27 @@
     ],
     "pollie_slug": "john-quirke",
     "start_date": "2000-08-15",
-    "end_date": "2016-12-31"
+    "end_date": "2016-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Australian Senate's own biographical dictionary (biography.senate.gov.au/quirke-john-andrew/): 'On leaving the Senate Quirke began a lobbying company, Pallidon Pty Ltd, and opened an office on South Terrace in Adelaide.' Wikipedia corroborates: 'Quirke and his wife operate a lobbying firm called Pallidon... the Australian Taxation Office sought to wind up Pallidon in 2016,' consistent with the recorded end_date of 2016-12-31."
+    }
   },
   {
     "role": "Senior Advisor",
     "organisation": "Navigate Australia",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://navigateaustralia.com/team/hon-alan-tudge/",
-      "https://au.linkedin.com/in/alan-tudge-0970214a"
+      "https://au.linkedin.com/in/alan-tudge-0970214a",
+      "http://web.archive.org/web/20251217095939/https://navigateaustralia.com/team/hon-alan-tudge/"
     ],
-    "pollie_slug": "alan-tudge"
+    "pollie_slug": "alan-tudge",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via Wayback Machine capture (2025-12-17) of Navigate Australia's own team page which explicitly lists 'Hon Alan Tudge — Senior Advisor' with a biography matching this pollie exactly (Cabinet Minister for Education, Immigration, Human Services and Urban Infrastructure; elected 2010; resigned February 2023). The live URL now returns HTTP 410 Gone and Tudge no longer appears in the site's team-sitemap.xml as of July 2026, so the dead live source was replaced with the archived capture."
+    }
   },
   {
     "role": "Delegate",
@@ -44171,7 +44192,12 @@
     ],
     "pollie_slug": "ted-mack",
     "start_date": "1998-02-02",
-    "end_date": "1998-02-13"
+    "end_date": "1998-02-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia's Ted Mack article states 'Mack was elected as an independent Republican delegate to the Australian Constitutional Convention', and the 1998 Australian Constitutional Convention Wikipedia page lists Ted Mack as an elected delegate (Order #3, 'Ted Mack Group', NSW) and confirms the convention ran 2-13 February 1998, matching the given dates exactly."
+    }
   },
   {
     "role": "Henry Parkes Orator",
@@ -44182,7 +44208,12 @@
       "https://parkesfoundation.org.au/2013/10/26/time-for-major-reform-of-the-way-we-do-government-ted-mack/"
     ],
     "pollie_slug": "ted-mack",
-    "start_date": "2013-10-26"
+    "start_date": "2013-10-26",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Henry Parkes Foundation's own oration page and media release confirm Ted Mack delivered the 2013 Henry Parkes Oration ('The State of the Federation') at Tenterfield on 26 October 2013, matching the given start_date; corroborated by a WebSearch of AustralianPolitics.com which also dates it 26 October 2013."
+    }
   },
   {
     "role": "Campaign Advisor",
@@ -44193,7 +44224,12 @@
       "https://www.dailyliberal.com.au/story/3484252/surgeon-stands-as-independent/"
     ],
     "pollie_slug": "ted-mack",
-    "start_date": "2015"
+    "start_date": "2015",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "SBS News (24 Nov 2015, updated 5 Dec 2015) states Dr Ruff 'has the endorsement of well-loved local Ted Mack, who held the seat as an independent before Mr Hockey'; the Daily Liberal article states 'Dr Stephen Ruff's campaign as an independent will be steered by Ted Mack, who twice won the blue-ribbon Liberal seat as an independent'. Both confirm Mack's advisory/campaign-steering role for Ruff's North Sydney by-election bid (poll held 5 Dec 2015), consistent with the 2015 start_date."
+    }
   },
   {
     "role": "Co-chair",
@@ -44205,6 +44241,11 @@
       "https://johnmenadue.com/authors/janet-rice/"
     ],
     "pollie_slug": "janet-rice",
-    "start_date": "2024-12-01"
+    "start_date": "2024-12-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "atc.org.au/about/ (official ATC page) confirms: 'Janet Rice joined the board in June 2024' and 'she was elected Co-chair in December 2024', matching the recorded start_date of 2024-12-01. Identity confirmed as the former Greens Senator via her own candidate statement at atc.org.au/2024-board-candidates/, which references her parliamentary role. johnmenadue.com independently corroborates the Co-chair title."
+    }
   }
 ]
