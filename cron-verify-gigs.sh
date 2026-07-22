@@ -15,17 +15,25 @@ cd "$PROJECT_DIR"
 
 log "=== verify-gigs started ==="
 
+# Local main is a pure mirror of origin/main: never rebase, so a conflict can
+# never wedge the job.
 git checkout main >> "$LOG_FILE" 2>&1
-git reset --hard >> "$LOG_FILE" 2>&1
-git pull --rebase origin main >> "$LOG_FILE" 2>&1
+git fetch origin >> "$LOG_FILE" 2>&1
+git reset --hard origin/main >> "$LOG_FILE" 2>&1
 
 env -u CLAUDECODE /home/ben/.local/bin/claude \
   --dangerously-skip-permissions \
   -p "/verify-gigs" \
   >> "$LOG_FILE" 2>&1 || true
 
-if git diff --quiet data/gigs.json data/verify-state.json; then
+# The skill is told not to commit, but if it does anyway, fold the commits back
+# into the index so committed and uncommitted changes are handled identically.
+git reset --soft origin/main >> "$LOG_FILE" 2>&1
+git add data/gigs.json data/verify-state.json
+
+if git diff --cached --quiet data/gigs.json data/verify-state.json; then
   log "No verification changes, nothing to commit"
+  git reset --hard origin/main >> "$LOG_FILE" 2>&1
 else
   BRANCH="verify-gigs-$(date +%Y%m%d-%H%M%S)"
   git checkout -b "$BRANCH"

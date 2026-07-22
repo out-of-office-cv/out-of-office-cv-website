@@ -224,4 +224,5 @@ are now exhausted (the human-review backlog).
 - Do not rerun against exhausted gigs (`attempts >= 3` and still unverified) ---
   they are also filtered in Step 1. A `verified`/`rejected` decision is the only
   thing that ever clears a gig; three unconfirmed passes park it for a human.
+- Do NOT commit the changes --- the calling script handles git operations.
 - Use Australian English in all communication.

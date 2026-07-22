@@ -16,18 +16,26 @@ cd "$PROJECT_DIR"
 
 log "=== find-gigs started ==="
 
+# Local main is a pure mirror of origin/main: never rebase, so a conflict can
+# never wedge the job.
 git checkout main >> "$LOG_FILE" 2>&1
-git reset --hard >> "$LOG_FILE" 2>&1
-git pull --rebase origin main >> "$LOG_FILE" 2>&1
+git fetch origin >> "$LOG_FILE" 2>&1
+git reset --hard origin/main >> "$LOG_FILE" 2>&1
 
 env -u CLAUDECODE /home/ben/.local/bin/claude \
   --dangerously-skip-permissions \
   -p "/find-gigs" \
   >> "$LOG_FILE" 2>&1 || true
 
+# The skill is told not to commit, but if it does anyway, fold the commits back
+# into the index so committed and uncommitted changes are handled identically.
+git reset --soft origin/main >> "$LOG_FILE" 2>&1
+git add data/gigs.json
+
 # If gigs.json was modified, commit, push, and open a PR
-if git diff --quiet data/gigs.json; then
+if git diff --cached --quiet data/gigs.json; then
   log "No new gigs found, nothing to commit"
+  git reset --hard origin/main >> "$LOG_FILE" 2>&1
 else
   BRANCH="find-gigs-$(date +%Y%m%d-%H%M%S)"
   git checkout -b "$BRANCH"
