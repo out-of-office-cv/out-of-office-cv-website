@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PROJECT_DIR="/home/ben/projects/out-of-office-cv-website"
+# Resolved from the script's own location, so the same script works in the main
+# checkout and in the dedicated cron worktree.
+PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LOG_DIR="${PROJECT_DIR}/logs"
 LOG_FILE="${LOG_DIR}/find-gigs-$(date +%Y-%m-%d).log"
 
@@ -16,10 +18,10 @@ cd "$PROJECT_DIR"
 
 log "=== find-gigs started ==="
 
-# Local main is a pure mirror of origin/main: never rebase, so a conflict can
-# never wedge the job.
-git checkout main >> "$LOG_FILE" 2>&1
+# Start detached at origin/main: never rebase, so a conflict can never wedge the
+# job, and no local branch to collide with the one the main checkout has out.
 git fetch origin >> "$LOG_FILE" 2>&1
+git checkout -f --detach origin/main >> "$LOG_FILE" 2>&1
 git reset --hard origin/main >> "$LOG_FILE" 2>&1
 
 env -u CLAUDECODE /home/ben/.local/bin/claude \
@@ -86,7 +88,7 @@ PYEOF
     --title "$PR_TITLE" \
     --body "$PR_BODY" \
     >> "$LOG_FILE" 2>&1
-  git checkout main
+  git checkout -f --detach origin/main
   git branch -D "$BRANCH"
   log "PR created on branch ${BRANCH}, local branch deleted"
 fi

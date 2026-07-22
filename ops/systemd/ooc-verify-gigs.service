@@ -1,12 +1,12 @@
 [Unit]
 Description=Out of Office CV: verify gigs (claude /verify-gigs + commit PR)
-Documentation=file:///home/ben/projects/out-of-office-cv-website/cron-verify-gigs.sh
+Documentation=file:///home/ben/projects/out-of-office-cv-website-cron/cron-verify-gigs.sh
 After=network-online.target
 Wants=network-online.target
 
 [Service]
 Type=oneshot
-WorkingDirectory=/home/ben/projects/out-of-office-cv-website
+WorkingDirectory=/home/ben/projects/out-of-office-cv-website-cron
 Environment=PATH=/home/ben/.local/share/mise/shims:/home/ben/.local/bin:/usr/local/bin:/usr/bin:/bin
-ExecStart=/home/ben/projects/out-of-office-cv-website/cron-verify-gigs.sh
+ExecStart=/home/ben/projects/out-of-office-cv-website-cron/cron-verify-gigs.sh
 TimeoutStartSec=2h
