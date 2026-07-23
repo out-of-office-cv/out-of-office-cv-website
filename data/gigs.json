@@ -44247,5 +44247,18 @@
       "by": "claude",
       "note": "atc.org.au/about/ (official ATC page) confirms: 'Janet Rice joined the board in June 2024' and 'she was elected Co-chair in December 2024', matching the recorded start_date of 2024-12-01. Identity confirmed as the former Greens Senator via her own candidate statement at atc.org.au/2024-board-candidates/, which references her parliamentary role. johnmenadue.com independently corroborates the Co-chair title."
     }
+  },
+  {
+    "role": "Member",
+    "organisation": "Friends of East Timor (Western Australia)",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://timorarchives.wordpress.com/wp-content/uploads/2019/03/gordon-mcintosh_otl-timor-biography.pdf",
+      "https://timorarchives.wordpress.com/2019/03/11/g-mcintosh-1925-2019/",
+      "https://timorarchive.ca/foet"
+    ],
+    "pollie_slug": "gordon-mcintosh",
+    "start_date": "1990-01-01",
+    "end_date": "1999-12-31"
   }
 ]
