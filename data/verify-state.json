@@ -4677,5 +4677,9 @@
   "john-quirke|Founder|Pallidon Pty Ltd|2000-08-15": {
     "last_examined_at": "2026-07-22T23:08:26Z",
     "attempts": 1
+  },
+  "gordon-mcintosh|Member|Friends of East Timor (Western Australia)|1990-01-01": {
+    "last_examined_at": "2026-07-25T00:00:00.000Z",
+    "attempts": 1
   }
 }
