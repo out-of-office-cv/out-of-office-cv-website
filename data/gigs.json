@@ -44265,5 +44265,24 @@
       "by": "claude",
       "note": "Confirmed by the cited timorarchives.wordpress.com PDF biography (compiled by John Waddingham, Clearing House for Archival Records on Timor, 22 April 2011), which lists in its chronology: '1990-1999 — Active member of Friends of East Timor (Western Australia).' The same document establishes identity as the WA Labor Senator (1974-1987), matching the pollie record. Dates match exactly (1990-01-01 to 1999-12-31)."
     }
+  },
+  {
+    "role": "Columnist (Rural View)",
+    "organisation": "Blayney Chronicle",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.blayneychronicle.com.au/story/1298839/letters-to-the-editor/"
+    ],
+    "pollie_slug": "michael-cobb"
+  },
+  {
+    "role": "Member, Stakeholder Advisory Board",
+    "organisation": "Age Assurance Technology Trial",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://ageassurance.com.au/people/yvette-dath/",
+      "https://ageassurance.com.au/stakeholder-advisory-board/"
+    ],
+    "pollie_slug": "yvette-dath"
   }
 ]
