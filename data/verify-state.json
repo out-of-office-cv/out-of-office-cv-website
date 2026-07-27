@@ -4375,8 +4375,8 @@
     "attempts": 1
   },
   "joe-ludwig|Barrister|Inns of Court|null": {
-    "last_examined_at": "2026-07-21T00:00:00.000Z",
-    "attempts": 2
+    "last_examined_at": "2026-07-27T16:07:22.993Z",
+    "attempts": 3
   },
   "margaret-reid|Chair|Special Research Centre for Applied Philosophy and Public Ethics, Charles Sturt University|2004-01-01": {
     "last_examined_at": "2026-07-14T00:00:00.000Z",
@@ -4627,8 +4627,8 @@
     "attempts": 1
   },
   "garrie-gibson|General Manager, Canberra|CPR Communications & Public Relations|null": {
-    "last_examined_at": "2026-07-21T00:00:00.000Z",
-    "attempts": 1
+    "last_examined_at": "2026-07-27T16:07:22.993Z",
+    "attempts": 2
   },
   "garrie-gibson|Volunteer|Sunshine Coast University Hospital|null": {
     "last_examined_at": "2026-07-21T00:00:00.000Z",
@@ -4680,6 +4680,14 @@
   },
   "gordon-mcintosh|Member|Friends of East Timor (Western Australia)|1990-01-01": {
     "last_examined_at": "2026-07-25T00:00:00.000Z",
+    "attempts": 1
+  },
+  "michael-cobb|Columnist (Rural View)|Blayney Chronicle|null": {
+    "last_examined_at": "2026-07-27T16:07:22.993Z",
+    "attempts": 1
+  },
+  "yvette-dath|Member, Stakeholder Advisory Board|Age Assurance Technology Trial|null": {
+    "last_examined_at": "2026-07-27T16:07:22.993Z",
     "attempts": 1
   }
 }

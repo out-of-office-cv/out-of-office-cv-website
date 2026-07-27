@@ -43023,8 +43023,7 @@
     "category": "Legal & Judicial",
     "sources": [
       "https://www.innsofcourt.com.au/barristers-area-of-practice-first",
-      "https://www.innsofcourt.com.au/barristers-floor-first-name-1",
-      "https://www.australianlawyersdirectory.com.au/6788/ludwig-senator-the-hon-joseph?lawyer=6788&lawyertitle=ludwig-senator-the-hon-joseph"
+      "https://www.innsofcourt.com.au/barristers-floor-first-name-1"
     ],
     "pollie_slug": "joe-ludwig"
   },
@@ -44083,7 +44082,12 @@
     "sources": [
       "https://au.linkedin.com/in/garrie-gibson-0aa7801b"
     ],
-    "pollie_slug": "garrie-gibson"
+    "pollie_slug": "garrie-gibson",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "The cited LinkedIn source describes a 'Garrie Gibson, GM Canberra, CPR Communications & Public Relations' who has held that role since 2008, but nothing on that profile ties him to a parliamentary career or the Moreton electorate. Independent sources (Wikipedia bio for Garrie David Gibson, ALP member for Moreton 1990-1996, corroborated by web search results) show this specific former MP's documented post-parliamentary career was as CEO of the RSL & Services Clubs Association (Queensland/NSW RSL clubs sector), a full-time executive role held for roughly 7.5 years until retiring in November 2021 (with indications he returned to a CEO role there in 2024). That continuous RSL executive tenure is incompatible with simultaneously being GM Canberra at a PR/government-relations consultancy since 2008. No source anywhere links the former MP to CPR Communications specifically. This looks like a namesake mix-up between the ex-politician and an unrelated Garrie Gibson working in Canberra PR, not the same person."
+    }
   },
   {
     "role": "Volunteer",
@@ -44273,7 +44277,12 @@
     "sources": [
       "https://www.blayneychronicle.com.au/story/1298839/letters-to-the-editor/"
     ],
-    "pollie_slug": "michael-cobb"
+    "pollie_slug": "michael-cobb",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited Blayney Chronicle page contains a reader letter responding directly to \"Michael Cobb's Rural View (7/2/12)\" and identifies him as \"a vet surgeon, farmer and former federal politician\" --- matching Michael Cobb, former MP for Parkes (a vet and farmer before entering parliament), ruling out a namesake. This confirms he wrote the Rural View column, dated February 2012, well after he left parliament in 1998."
+    }
   },
   {
     "role": "Member, Stakeholder Advisory Board",
@@ -44281,8 +44290,14 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://ageassurance.com.au/people/yvette-dath/",
-      "https://ageassurance.com.au/stakeholder-advisory-board/"
+      "https://ageassurance.com.au/stakeholder-advisory-board/",
+      "https://ageassurance.com.au/stakeholder-advisory-board/page/3/"
     ],
-    "pollie_slug": "yvette-dath"
+    "pollie_slug": "yvette-dath",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via the Age Assurance Technology Trial's own site. Her profile at ageassurance.com.au/people/yvette-dath/ gives a bio matching this exact former federal MP ('served as Queensland's Attorney-General and Minister for Justice... across her 17 years in Federal and Queensland parliaments'), ruling out a namesake. Page 3 of the paginated Stakeholder Advisory Board listing explicitly lists her as a board member alongside Chair Prof Jon Rouse APM; the site's advisory-board category listing also includes her. Dates are plausible (the role postdates her 2013 departure from federal parliament)."
+    }
   }
 ]
