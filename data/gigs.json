@@ -44299,5 +44299,17 @@
       "by": "claude",
       "note": "Confirmed via the Age Assurance Technology Trial's own site. Her profile at ageassurance.com.au/people/yvette-dath/ gives a bio matching this exact former federal MP ('served as Queensland's Attorney-General and Minister for Justice... across her 17 years in Federal and Queensland parliaments'), ruling out a namesake. Page 3 of the paginated Stakeholder Advisory Board listing explicitly lists her as a board member alongside Chair Prof Jon Rouse APM; the site's advisory-board category listing also includes her. Dates are plausible (the role postdates her 2013 departure from federal parliament)."
     }
+  },
+  {
+    "role": "Senate Candidate",
+    "organisation": "Australian Conservatives",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.theleader.com.au/story/5430271/no-campaigner-runs-for-senate-in-qld/",
+      "https://en.wikipedia.org/wiki/Joanna_Lindgren"
+    ],
+    "pollie_slug": "joanna-lindgren",
+    "start_date": "2018-05-26",
+    "end_date": "2019-05-18"
   }
 ]
