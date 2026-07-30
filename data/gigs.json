@@ -44310,6 +44310,11 @@
     ],
     "pollie_slug": "joanna-lindgren",
     "start_date": "2018-05-26",
-    "end_date": "2019-05-18"
+    "end_date": "2019-05-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "theleader.com.au (26 May 2018) reports 'Jo Lindgren', described as a 'Former Liberal National Party senator', joining Lyle Shelton on the Queensland Senate ticket for the Australian Conservatives — matching both identity/role and the start_date. Wikipedia's Joanna Lindgren article confirms she 'joined Cory Bernardi's Australian Conservatives in 2018' and 'ran as a Senate candidate on their Queensland ticket in the 2019 federal election' (unsuccessful); the 2019 federal election was held 18 May 2019, matching end_date exactly."
+    }
   }
 ]
