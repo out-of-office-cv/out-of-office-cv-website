@@ -44325,5 +44325,18 @@
       "https://catalogue.nla.gov.au/Record/506615"
     ],
     "pollie_slug": "barry-simon"
+  },
+  {
+    "role": "Candidate for Penrith",
+    "organisation": "Independent",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jackie_Kelly",
+      "https://en.wikipedia.org/wiki/Electoral_results_for_the_district_of_Penrith",
+      "https://westernweekender.com.au/2014/10/jackie-kelly-quits-liberals/"
+    ],
+    "pollie_slug": "jackie-kelly",
+    "start_date": "2014-10-16",
+    "end_date": "2015-03-28"
   }
 ]
