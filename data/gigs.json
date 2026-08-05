@@ -44343,5 +44343,15 @@
       "by": "claude",
       "note": "Confirmed by en.wikipedia.org/wiki/Jackie_Kelly: \"Kelly then contested Penrith at the 2015 New South Wales state election as an independent but was unsuccessful against Liberal incumbent Ayres,\" after resigning from the Liberal Party in October 2014. Corroborated by en.wikipedia.org/wiki/Electoral_results_for_the_district_of_Penrith, which lists \"Independent | Jackie Kelly | 4,272 | 9.0 | +9.0\" for the 2015 election. Dates match: NSW state election held 28 March 2015 (end_date) and Liberal Party resignation in October 2014 (start_date)."
     }
+  },
+  {
+    "role": "Vice Patron",
+    "organisation": "City of Bunbury Surf Life Saving Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.bunburyslsc.com.au/home"
+    ],
+    "pollie_slug": "nola-marino",
+    "start_date": "2025-07-01"
   }
 ]
