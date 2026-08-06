@@ -44352,7 +44352,12 @@
       "https://www.bunburyslsc.com.au/home"
     ],
     "pollie_slug": "nola-marino",
-    "start_date": "2025-07-01"
+    "start_date": "2025-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via the club's own official website (bunburyslsc.com.au/home), which lists under 2025/26 Patrons & Honorary Officers: 'Vice Patron - Hon. Don Punch MLA & Nola Marino'. Nola Marino was federal Member for Forrest (WA, covering Bunbury) until 2025-03-28."
+    }
   },
   {
     "role": "Councillor",
