@@ -44353,5 +44353,14 @@
     ],
     "pollie_slug": "nola-marino",
     "start_date": "2025-07-01"
+  },
+  {
+    "role": "Councillor",
+    "organisation": "Kiama Municipal Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.illawarramercury.com.au/story/3463734/colourful-peter-knott-remembered/"
+    ],
+    "pollie_slug": "peter-knott"
   }
 ]
