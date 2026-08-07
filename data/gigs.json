@@ -44324,7 +44324,12 @@
     "sources": [
       "https://catalogue.nla.gov.au/Record/506615"
     ],
-    "pollie_slug": "barry-simon"
+    "pollie_slug": "barry-simon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "NLA catalogue record 506615 (https://catalogue.nla.gov.au/Record/506615) is titled '[Biographical cuttings on Barry Simon, federal politician, lawyer, lobbyist...]' and is explicitly catalogued under the full name Barry Douglas Simon, matching this MP (LIB, McMillan, 1975-1980) with no known federal namesake. The NLA directly labels him 'lobbyist' alongside 'federal politician, lawyer', substantiating the role itself rather than just his existence. The organisation field ('Independent (various clients)') is generic, so no specific employer needed corroboration. No source gives a date range for this work, so no date changes made."
+    }
   },
   {
     "role": "Candidate for Penrith",
@@ -44349,10 +44354,16 @@
     "organisation": "City of Bunbury Surf Life Saving Club",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://www.bunburyslsc.com.au/home"
+      "https://www.bunburyslsc.com.au/home",
+      "https://static1.squarespace.com/static/64b6108befe8086f00864566/t/685236e5e24e4a6752cb1b7c/1750218515812/202425+Annual+Report.pdf"
     ],
     "pollie_slug": "nola-marino",
-    "start_date": "2025-07-01"
+    "start_date": "2025-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Original source (bunburyslsc.com.au/home) currently makes no mention of Nola Marino. Found the club's official 2024-25 Annual Report, which lists under 'Patrons and Honorary Members': Vice Patron — 'Hon. Nola Marino, Steve Thomas & Geoff Stewart'. This confirms both identity (Hon. Nola Marino, consistent with her electorate of Forrest, which includes Bunbury) and the specific role at this organisation. Dates are plausible: the report was published mid-2025, after she ceased parliament on 2025-03-28."
+    }
   },
   {
     "role": "Councillor",
