@@ -44383,7 +44383,12 @@
     ],
     "pollie_slug": "jann-mcfarlane",
     "start_date": "2005-01-01",
-    "end_date": "2007-12-31"
+    "end_date": "2007-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited honours.pmc.gov.au award record (id 3054063, OAM for Jann Sonya McFarlane of Scarborough WA, whose citation also lists \"Member for Stirling, 1998-2004\") states verbatim: \"Councillor, Osborne Ward, City of Stirling, 2005-2007.\" This exactly matches role, organisation, and dates. Note: the page is a JS SPA and doesn't render this text in plain HTML/WebFetch; it was retrieved from the site's backing search API (honours.services.pmc.gov.au/api/search/v1, filtered AwardId eq '3054063'), so the cited URL is correct and no source change is needed."
+    }
   },
   {
     "role": "Regional Coordinator",
@@ -44392,6 +44397,11 @@
     "sources": [
       "https://honours.pmc.gov.au/honours/awards/3054063"
     ],
-    "pollie_slug": "jann-mcfarlane"
+    "pollie_slug": "jann-mcfarlane",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same honours.pmc.gov.au citation (award id 3054063, confirmed as this MP via \"Member for Stirling, 1998-2004\" in the same record) states: \"Former Regional Coordinator, Joondalup and Districts Domestic Violence Group, 2000s.\" Role and organisation match exactly; only an approximate decade (\"2000s\") is given for dates, too vague to add precise start/end dates."
+    }
   }
 ]
