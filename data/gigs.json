@@ -44403,5 +44403,88 @@
       "by": "claude",
       "note": "Same honours.pmc.gov.au citation (award id 3054063, confirmed as this MP via \"Member for Stirling, 1998-2004\" in the same record) states: \"Former Regional Coordinator, Joondalup and Districts Domestic Violence Group, 2000s.\" Role and organisation match exactly; only an approximate decade (\"2000s\") is given for dates, too vague to add precise start/end dates."
     }
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Barrenjoey Capital Partners",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://barrenjoey.com/our-people-kelly-odwyer/",
+      "https://en.wikipedia.org/wiki/Kelly_O%27Dwyer",
+      "https://www.financialstandard.com.au/news/o-dwyer-joins-barrenjoey-179330762"
+    ],
+    "pollie_slug": "kelly-o-dwyer"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Equity Trustees",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.adviservoice.com.au/2021/03/eqt-holdings-limited-board-appointment/",
+      "https://www.moneymanagement.com.au/news/people-products/eqt-appoints-kelly-odwyer-non-exec-director",
+      "https://www.ifa.com.au/news/29677-equity-trustees-faces-adviser-revolt-over-o-dwyer-appointment"
+    ],
+    "pollie_slug": "kelly-o-dwyer",
+    "start_date": "2021-03-30"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "HMC Capital",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.hmccapital.com.au/investor-centre/asx-announcements/home-consortium-announces-board-changes/",
+      "https://australianpropertyjournal.com.au/2020/10/19/homeco-reveals-new-board",
+      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/kelly-odwyer.html"
+    ],
+    "pollie_slug": "kelly-o-dwyer",
+    "start_date": "2020-11-18"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "HealthCo Healthcare and Wellness REIT",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.hmccapital.com.au/investment-strategies/real-estate/healthco-healthcare-wellness-reit/",
+      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/kelly-odwyer.html"
+    ],
+    "pollie_slug": "kelly-o-dwyer"
+  },
+  {
+    "role": "Corporate Council Member",
+    "organisation": "European Australian Business Council",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/kelly-odwyer.html"
+    ],
+    "pollie_slug": "kelly-o-dwyer"
+  },
+  {
+    "role": "School Council Member",
+    "organisation": "Caulfield Grammar School",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/kelly-odwyer.html"
+    ],
+    "pollie_slug": "kelly-o-dwyer"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Queensland Alliance for Mental Health",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.qamh.org.au/wp-content/uploads/2025/08/QAMH-2024-Annual-Report-website-file.pdf",
+      "https://www.qamh.org.au/cathy-otoole/"
+    ],
+    "pollie_slug": "cathy-o-toole"
+  },
+  {
+    "role": "President",
+    "organisation": "Community Mental Health Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://cmha.org.au/tag/cathy-otoole/",
+      "https://cmha.org.au/author/wp_user/"
+    ],
+    "pollie_slug": "cathy-o-toole"
   }
 ]
