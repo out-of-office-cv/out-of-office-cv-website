@@ -44411,9 +44411,16 @@
     "sources": [
       "https://barrenjoey.com/our-people-kelly-odwyer/",
       "https://en.wikipedia.org/wiki/Kelly_O%27Dwyer",
-      "https://www.financialstandard.com.au/news/o-dwyer-joins-barrenjoey-179330762"
+      "https://www.financialstandard.com.au/news/o-dwyer-joins-barrenjoey-179330762",
+      "https://en.wikipedia.org/wiki/Barrenjoey_Capital_Partners"
     ],
-    "pollie_slug": "kelly-o-dwyer"
+    "pollie_slug": "kelly-o-dwyer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "AICD's official bio confirms she is 'a non-executive director of ... Barrenjoey Capital Partners Group Holdings Pty Ltd'. Barrenjoey Capital Partners' Wikipedia article states 'In April 2021, former government minister Kelly O'Dwyer was added to the board of directors as the firm sought to raise female representation.' Financial Standard's article 'O'Dwyer joins Barrenjoey' is dated 13 Apr 2021, corroborating the April 2021 timing (this conflicts with Kelly O'Dwyer's own Wikipedia page, which states April 2022 — I judged the Barrenjoey-specific sources more reliable for this detail)."
+    },
+    "start_date": "2021-04-13"
   },
   {
     "role": "Non-Executive Director",
@@ -44425,7 +44432,12 @@
       "https://www.ifa.com.au/news/29677-equity-trustees-faces-adviser-revolt-over-o-dwyer-appointment"
     ],
     "pollie_slug": "kelly-o-dwyer",
-    "start_date": "2021-03-30"
+    "start_date": "2021-03-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "adviservoice.com.au confirms: 'EQT Holdings Limited (ASX: EQT) has announced the appointment of The Hon. Kelly O'Dwyer as a non-executive director to its Board,' dated 30 Mar 2021, matching the recorded start_date exactly."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -44437,7 +44449,12 @@
       "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/kelly-odwyer.html"
     ],
     "pollie_slug": "kelly-o-dwyer",
-    "start_date": "2020-11-18"
+    "start_date": "2020-11-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "AICD bio confirms she is 'a non-executive director of HMC Capital (ASX:HMC).' Fresh search confirms she was elected at Home Consortium's AGM held 18 November 2020, matching the recorded start_date exactly."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -44447,25 +44464,43 @@
       "https://www.hmccapital.com.au/investment-strategies/real-estate/healthco-healthcare-wellness-reit/",
       "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/kelly-odwyer.html"
     ],
-    "pollie_slug": "kelly-o-dwyer"
+    "pollie_slug": "kelly-o-dwyer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "HMC Capital's own site lists 'The Hon. Kelly O'Dwyer - Non-Executive Director'. AICD bio corroborates: 'non-executive director of ... HealthCo Healthcare and Wellness REIT (ASX:HCW)'."
+    }
   },
   {
     "role": "Corporate Council Member",
     "organisation": "European Australian Business Council",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/kelly-odwyer.html"
+      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/kelly-odwyer.html",
+      "https://www.eabc.com.au/about/corporate-council-members/"
     ],
-    "pollie_slug": "kelly-o-dwyer"
+    "pollie_slug": "kelly-o-dwyer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "EABC's own official Corporate Council Members page lists 'Hon Kelly O'Dwyer' among members — a stronger, organisation-issued source than the AICD bio alone, which also corroborates the role."
+    }
   },
   {
     "role": "School Council Member",
     "organisation": "Caulfield Grammar School",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/kelly-odwyer.html"
+      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/kelly-odwyer.html",
+      "https://acncpubfilesprodstorage.blob.core.windows.net/public/d6e60144-3aaf-e811-a962-000d3ad24a0d-7ce8effa-d6bc-4d26-b5f5-cf68b363aa83-Financial%20Report-96c19ed2-2650-f111-bec7-7ced8d33fe37-Caulfield_Grammar_School_FY2025.pdf"
     ],
-    "pollie_slug": "kelly-o-dwyer"
+    "pollie_slug": "kelly-o-dwyer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Caulfield Grammar School's FY2025 Annual Report (filed with the ACNC) states: 'The School Council gratefully acknowledges the service of Hon Kelly O'Dwyer, who has concluded her tenure following a valued period of contribution since her appointment in 2019,' and lists her ceased 31 July 2025. AICD bio also corroborates."
+    },
+    "end_date": "2025-07-31"
   },
   {
     "role": "Chair",
@@ -44475,7 +44510,12 @@
       "https://www.qamh.org.au/wp-content/uploads/2025/08/QAMH-2024-Annual-Report-website-file.pdf",
       "https://www.qamh.org.au/cathy-otoole/"
     ],
-    "pollie_slug": "cathy-o-toole"
+    "pollie_slug": "cathy-o-toole",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by QAMH's own 2024 Annual Report: section header 'Message from the Board Chair — Cathy O'Toole', and the board-member table lists 'Cathy O'Toole — Skills-Based Director — Chair of Board since November 2022'."
+    }
   },
   {
     "role": "President",
@@ -44485,6 +44525,11 @@
       "https://cmha.org.au/tag/cathy-otoole/",
       "https://cmha.org.au/author/wp_user/"
     ],
-    "pollie_slug": "cathy-o-toole"
+    "pollie_slug": "cathy-o-toole",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by CMHA's own website (tag page): recent articles from June 2025 and October 2025 both quote her as 'Community Mental Health Australia (CMHA) President Cathy O'Toole'."
+    }
   }
 ]
