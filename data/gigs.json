@@ -44531,5 +44531,16 @@
       "by": "claude",
       "note": "Confirmed by CMHA's own website (tag page): recent articles from June 2025 and October 2025 both quote her as 'Community Mental Health Australia (CMHA) President Cathy O'Toole'."
     }
+  },
+  {
+    "role": "Community Host (Conversation and Dialogue Events)",
+    "organisation": "Patris",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://greekherald.com.au/community/from-patris-to-parliament-maria-vamvakinous-next-chapte/",
+      "https://neoskosmos.com/en/2025/02/07/news/community/the-famous-patris-launches-againthis-time-as-a-shop/"
+    ],
+    "pollie_slug": "maria-vamvakinou",
+    "start_date": "2025-03-28"
   }
 ]
