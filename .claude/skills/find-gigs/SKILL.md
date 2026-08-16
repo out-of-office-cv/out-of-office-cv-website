@@ -126,10 +126,14 @@ Each subagent prompt must include:
 > write a column. Quote the sentence that states it --- see `role_evidence` in
 > the output schema. If you cannot quote one, do not return the candidate.
 >
-> **Self-published sources.** The person's own LinkedIn _profile_ is fine
-> evidence of their own roles. Their own LinkedIn _posts_, X, or personal blog
-> are not, when they are the only evidence: those show activity, not
-> appointment. Pair them with something independent, or drop the candidate.
+> **Self-published sources are fine, as long as they are linkable.** The
+> person's own LinkedIn profile or posts, X, or personal blog all count. What
+> matters is that you can cite the specific post or page by URL, so a human can
+> follow it and see the same thing you did --- not a screenshot, not "their
+> LinkedIn feed", not a search results page. A self-published source still has
+> to _state the role_ like any other: "delighted to be joining the board of X"
+> passes, three posts linking their own articles do not, because none of them
+> says what the position is.
 >
 > **Obituaries and vale pieces** are good evidence for roles they explicitly
 > name, and no evidence at all for roles you infer from them.
@@ -244,8 +248,9 @@ sounds:
   event rather than a position held: an op-ed byline, "spoke at", "wrote in",
   "was awarded". A quote naming the position ("was appointed a director of",
   "chairs the board of", "writes a weekly column for") passes.
-- **Self-published only.** Every source is the person's own posting on a social
-  platform or personal site, and none is a profile page listing the role.
+- **Not linkable.** A source that is not a URL a human can open to the specific
+  post or page. Self-published sources are fine --- the person's own LinkedIn
+  posts count --- provided they are cited this way.
 - **One-off act.** The evidence covers a single dated occurrence and nothing
   suggests an ongoing position.
 
