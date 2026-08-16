@@ -4,11 +4,13 @@ title: Raise the find-gigs cadence to saturate the search throttle
 status: To Do
 assignee: []
 created_date: '2026-08-16 03:45'
+updated_date: '2026-08-16 04:12'
 labels:
   - ops
   - cron
 dependencies:
   - TASK-29
+  - TASK-29.1
   - TASK-30
 priority: medium
 ---
@@ -34,21 +36,27 @@ Each run does `git reset --hard origin/main`, so it sees whatever `data/find-sta
 
 At one run a day with same-day merging this rarely bites. At 4+ runs a day PRs queue, and every run in the queue sees the same stale find-state, re-picks the same pollies, re-searches them, and opens another PR with gigs that duplicate the pending one --- dedup cannot catch it, because dedup compares against origin/main's gigs.json, which also lacks them.
 
-So cadence cannot be raised until run-to-run state stops depending on merge latency. Either runs accumulate onto a single rolling branch rather than starting from main each time, or find-state stops travelling through the PR flow at all (it is bookkeeping, not reviewable content, and nothing about it needs human review).
+## Decision (2026-08-16): take state out of the PR flow
 
-## Reversibility
+Of the two candidates --- runs accumulating onto a rolling branch, or state leaving the PR flow --- the second wins on both simplicity and robustness.
 
-The cadence change belongs in a `.timer` drop-in, not the tracked unit, so backing it out is a file removal. Note that `OnCalendar=` is additive in systemd: a drop-in must set an empty `OnCalendar=` first to clear the tracked value, or the old and new schedules both apply. With the overlap guard from the hardening task in place, editing timers is no longer hazardous.
+`data/find-state.json` and `data/verify-state.json` become untracked, and the copy in the cron worktree is authoritative. Untracked files survive both `git checkout -f --detach origin/main` and `git reset --hard`, so the read path is just "the file is already there": no fetch, no branch, no merge, and no path by which a PR's state could be what a later run reads. After each run the pair is mirrored best-effort onto a long-lived `cron-state` branch for durability and inspection; a failed mirror push cannot fail a run, because the local file is the source of truth.
+
+Rejected: the rolling branch would forfeit the "start detached at origin/main, never rebase, can never wedge on a conflict" property the jobs were built around, which is the main reason they have been reliable.
+
+The bounded failure mode is losing the cron worktree, which makes the whole roster eligible again --- a re-sweep costs tokens but corrupts nothing, since dedup catches the re-found gigs, and the mirror branch makes it recoverable with a `git show`.
+
+This decision leaves PR volume unaddressed: gig PRs still accumulate one per run. That is deliberately deferred to observation rather than solved up front, since four small PRs a day may simply not be a problem outside the catch-up burst.
 <!-- SECTION:DESCRIPTION:END -->
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
 - [ ] #1 Run-to-run search state no longer depends on PR merge latency: two consecutive runs with the first run's PR left unmerged do not re-search the same pollies
 - [ ] #2 That same scenario produces no duplicate gigs across the two runs' output
-- [ ] #3 PR volume stays reviewable as cadence rises, rather than growing linearly with run count
-- [ ] #4 The find timer runs approximately every 6 hours in steady state, set via a .timer drop-in with an empty OnCalendar= first so the tracked daily schedule is cleared rather than added to
-- [ ] #5 Reverting to the daily schedule is a drop-in removal plus daemon-reload with no edit to the tracked unit, and has been exercised
-- [ ] #6 A temporary higher-cadence catch-up phase to clear the 570-pollie backlog is documented in CLAUDE.md, including how to start it and how to drop back to steady state
-- [ ] #7 Token usage at the raised cadence has been observed over at least a week and recorded, so the free-access quota position is known before the catch-up burst is run
-- [ ] #8 The verify job's cadence is reviewed against the raised find cadence, so newly found gigs do not sit unverified for longer than they do today
+- [ ] #3 The find timer runs approximately every 6 hours in steady state, set via a .timer drop-in with an empty OnCalendar= first so the tracked daily schedule is cleared rather than added to
+- [ ] #4 Reverting to the daily schedule is a drop-in removal plus daemon-reload with no edit to the tracked unit, and has been exercised
+- [ ] #5 A temporary higher-cadence catch-up phase to clear the 570-pollie backlog is documented in CLAUDE.md, including how to start it and how to drop back to steady state
+- [ ] #6 Token usage at the raised cadence has been observed over at least a week and recorded, so the free-access quota position is known before the catch-up burst is run
+- [ ] #7 The verify job's cadence is reviewed against the raised find cadence, so newly found gigs do not sit unverified for longer than they do today
+- [ ] #8 PR volume at the raised cadence has been observed and judged reviewable, or a rolling-branch scheme adopted if it is not
 <!-- AC:END -->

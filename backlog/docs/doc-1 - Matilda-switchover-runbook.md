@@ -3,36 +3,43 @@ id: doc-1
 title: Matilda switchover runbook
 type: guide
 created_date: '2026-08-16 03:45'
+updated_date: '2026-08-16 04:12'
 ---
-
-
 The plan for moving the gig cron jobs from claude to Matilda Code, and back
-again. Four tasks, in dependency order, each independently landable. Nothing
+again. Five tasks, in dependency order, each independently landable. Nothing
 here is irreversible: every step is either a default-off switch or a systemd
 drop-in that backs out by deleting a file.
 
 ## Why this order
 
-task-29 (hardening) comes first and has no dependencies, because everything else
-either lengthens runs or multiplies them, and both make the current
-shared-worktree and all-or-nothing-write-back weaknesses much likelier to fire.
-It is worth landing on the claude setup regardless of whether matilda ever
+Revised 2026-08-16. The original order put all of task-29 first, which meant the
+biggest piece of work --- redesigning how find-gigs writes its results --- stood
+between here and ever seeing matilda run. Task-29 is now split: the locking and
+observability half (task-29) is cheap and lands immediately, and the write-back
+half (task-29.1) moves to where it is actually needed, which is before the
+cadence rise rather than before the runner switch.
+
+task-29 still comes first, because everything else either lengthens runs or
+multiplies them, and both make the shared-worktree weakness much likelier to
+fire. It is worth landing on the claude setup regardless of whether matilda ever
 happens.
 
 task-28 (the switch) changes no behaviour on its own --- with the env var unset,
 both jobs run exactly as today.
 
-task-30 (the port) is what makes a matilda run actually good. It is gated on
-both of the above.
+task-30 (the port) is what makes a matilda run actually good.
+
+task-29.1 (per-pollie write-back) is a skill redesign, and only truly matters
+once runs are long (serial matilda) or frequent (task-31).
 
 task-31 (cadence) is last because raising frequency is unsafe until run-to-run
 state stops depending on PR merge latency.
 
 ## Sequence
 
-1. **Harden** (task-29). flock on the shared worktree, per-pollie write-back for
-   both `gigs.json` and `find-state.json`, agent exit code captured and logged.
-   Verify by starting both jobs by hand at once.
+1. **Harden** (task-29). flock on the shared worktree with a bounded wait, agent
+   exit code captured and logged, partial runs marked in the PR body. Verify by
+   starting both jobs by hand at once.
 2. **Land the switch** (task-28). `AGENT_CLI` defaults to claude. Confirm a
    normal claude run is byte-for-byte unchanged in behaviour before going on.
 3. **Port the skills** (task-30). Symlink `.matilda/skills/<name>` at the
@@ -41,8 +48,25 @@ state stops depending on PR merge latency.
 4. **Switch one job** via drop-in. verify-gigs first: it is the smaller job and
    the cheaper mistake. Watch a few runs, compare PR quality, then decide about
    find-gigs.
-5. **Raise cadence** (task-31), only once find-state no longer round-trips
+5. **Per-pollie write-back** (task-29.1), once the matilda read is good enough to
+   be worth investing in.
+6. **Raise cadence** (task-31), only once find-state no longer round-trips
    through an unmerged PR.
+
+## Search state no longer travels through PRs
+
+Decided 2026-08-16, ahead of task-31 because task-29.1 has to know what it is
+writing into. `data/find-state.json` and `data/verify-state.json` become
+untracked; the copy in the cron worktree is authoritative, since untracked files
+survive both `git checkout -f --detach origin/main` and `git reset --hard`. Each
+run mirrors the pair best-effort onto a long-lived `cron-state` branch, so a
+failed push cannot fail a run.
+
+The rejected alternative was accumulating runs onto a rolling branch, which
+would have forfeited the never-rebase-so-never-wedge property the jobs were
+built around. PR volume is left unsolved on purpose: four small PRs a day may
+simply not be a problem outside the catch-up burst, so it gets observed rather
+than pre-empted.
 
 ## Switching a job to matilda
 
