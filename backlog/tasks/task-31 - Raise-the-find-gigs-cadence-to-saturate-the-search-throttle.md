@@ -4,7 +4,7 @@ title: Raise the find-gigs cadence to saturate the search throttle
 status: To Do
 assignee: []
 created_date: '2026-08-16 03:45'
-updated_date: '2026-08-16 06:38'
+updated_date: '2026-08-16 04:30'
 labels:
   - ops
   - cron
@@ -53,18 +53,17 @@ This decision leaves PR volume unaddressed: gig PRs still accumulate one per run
 <!-- AC:BEGIN -->
 - [x] #1 Run-to-run search state no longer depends on PR merge latency: two consecutive runs with the first run's PR left unmerged do not re-search the same pollies
 - [ ] #2 That same scenario produces no duplicate gigs across the two runs' output
-- [x] #3 A temporary higher-cadence catch-up phase to clear the 570-pollie backlog is documented in CLAUDE.md, including how to start it and how to drop back to steady state
-- [ ] #4 Token usage at the raised cadence has been observed over at least a week and recorded, so the free-access quota position is known before the catch-up burst is run
-- [x] #5 The verify job's cadence is reviewed against the raised find cadence, so newly found gigs do not sit unverified for longer than they do today
-- [ ] #6 PR volume at the raised cadence has been observed and judged reviewable, or a rolling-branch scheme adopted if it is not
-- [x] #7 The find timer runs on a 3-hourly grid during catch-up and can be dropped back to steady state later, set via a .timer drop-in whose first entry is an empty OnCalendar= so the tracked daily schedule is cleared rather than added to
-- [x] #8 Reverting to the daily schedule is a drop-in removal plus daemon-reload with no edit to the tracked unit, and has been exercised
+- [ ] #3 The find timer runs approximately every 6 hours in steady state, set via a .timer drop-in with an empty OnCalendar= first so the tracked daily schedule is cleared rather than added to
+- [ ] #4 Reverting to the daily schedule is a drop-in removal plus daemon-reload with no edit to the tracked unit, and has been exercised
+- [ ] #5 A temporary higher-cadence catch-up phase to clear the 570-pollie backlog is documented in CLAUDE.md, including how to start it and how to drop back to steady state
+- [ ] #6 Token usage at the raised cadence has been observed over at least a week and recorded, so the free-access quota position is known before the catch-up burst is run
+- [ ] #7 The verify job's cadence is reviewed against the raised find cadence, so newly found gigs do not sit unverified for longer than they do today
+- [ ] #8 PR volume at the raised cadence has been observed and judged reviewable, or a rolling-branch scheme adopted if it is not
 <!-- AC:END -->
 
 ## Implementation Notes
 
 <!-- SECTION:NOTES:BEGIN -->
---------------------------------------------------
 Blocker cleared ahead of the cadence work: both state files are untracked as of commit 49cd8b5, the cron worktree's copy is authoritative, and each run mirrors the pair onto the cron-state branch.
 
 AC #1 verified in a scratch clone against a local bare origin: two consecutive runs with both PRs left unmerged and main never advancing, and the throttle state survived each run's checkout -f and reset --hard intact (248 entries, the pollie recorded by run 1 still present after run 2's sync). The PR branches carry data/gigs.json only.
@@ -72,16 +71,4 @@ AC #1 verified in a scratch clone against a local bare origin: two consecutive r
 Worth knowing before sizing the PR-volume worry: .github/workflows/auto-merge-gig-prs.yml already squash-merges collaborator gig PRs once tests pass, so merge latency in practice is minutes, and the queue this task feared only forms when auto-merge fails (a test failure, or a gigs.json conflict between two PRs branched from the same main). Also, verify runs that only advanced the throttle no longer open a PR at all, since state is not in the diff --- so the no-op PR class is gone.
 
 Still open: everything from AC #4 on, which is the cadence change itself, plus AC #2's duplicate check, which needs two live runs rather than a stubbed pair.
-
-## Cadence raised 2026-08-16
-
-Ben's call: a 3-hourly grid with verify holding the 02:00 slot and find taking the other seven (05, 08, 11, 14, 17, 20, 23). Seven find runs/day is 105 pollies/day against a saturation point of 58.4, so it is explicitly a catch-up setting to clear the never-searched backlog, with a drop back to ~6-hourly once the first sweep completes. Both documented in CLAUDE.md under 'Cadence'.
-
-Set via ~/.config/systemd/user/ooc-find-gigs.timer.d/cadence.conf, with the bare OnCalendar= reset first. Rollback exercised: deleting the file and reloading restored the tracked daily 05:00, reinstating it restored the seven slots, and neither triggered a spurious run.
-
-AC #8 answered with data rather than judgement: verify's batch cap is 60 gigs per run and the whole dataset currently holds 23 unverified gigs, 21 of them exhausted. Seven find runs produce roughly 7--14 new gigs a day, so one verify run a day has four to eight times the headroom it needs. No verify cadence change.
-
-As predicted by the note in this task, editing the timer with Persistent=true fired an immediate catch-up run. Harmless now the jobs hold a lock --- it just cost one unplanned agent run.
-
-Still open: AC #2 needs two runs with the first PR deliberately left unmerged, which auto-merge makes awkward to arrange and which #1 plus per-pollie selection already implies; AC #3 needs a few days of watching PR volume; AC #6's catch-up phase is running now, so its token cost accrues over the coming week.
 <!-- SECTION:NOTES:END -->
