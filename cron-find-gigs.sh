@@ -20,14 +20,9 @@ eval "$(/home/ben/.local/bin/mise activate bash)"
 cd "$PROJECT_DIR"
 
 take_lock || exit 0
+sync_checkout_and_reexec "$@"
 
 log "=== find-gigs started ==="
-
-# Start detached at origin/main: never rebase, so a conflict can never wedge the
-# job, and no local branch to collide with the one the main checkout has out.
-git fetch origin >> "$LOG_FILE" 2>&1
-git checkout -f --detach origin/main >> "$LOG_FILE" 2>&1
-git reset --hard origin/main >> "$LOG_FILE" 2>&1
 
 # The state file is untracked, so the checkout above can only remove it, never
 # restore it. Seed it from the mirror when this worktree has none.
@@ -41,7 +36,7 @@ mirror_state data/find-state.json
 # into the index so committed and uncommitted changes are handled identically.
 git reset --soft origin/main >> "$LOG_FILE" 2>&1
 git add data/gigs.json
-git reset -q origin/main -- data/find-state.json
+git reset -q origin/main -- data/find-state.json 2>/dev/null || true
 
 # If gigs.json was modified, commit, push, and open a PR. The state file is not
 # in it: it is bookkeeping, and routing it through a PR made the search throttle

@@ -15,12 +15,40 @@ log() { echo "$(date -Iseconds) $*" >> "$LOG_FILE"; }
 # run outlive the unit's TimeoutStartSec.
 take_lock() {
   local wait_secs="${LOCK_WAIT_SECS:-900}"
+
+  # Held across the re-exec in sync_checkout: fd 9 stays open through exec, so
+  # taking it again here would be this process waiting on its own lock.
+  if [[ "${CRON_LOCK_HELD:-}" == "1" ]]; then
+    return 0
+  fi
   exec 9>"${PROJECT_DIR}/.cron.lock"
   if flock -w "$wait_secs" 9; then
+    export CRON_LOCK_HELD=1
     return 0
   fi
   log "Lock held by the other gig job for ${wait_secs}s, skipping this run"
   return 1
+}
+
+# Bring the worktree to origin/main and then re-exec, because this script and
+# the library it sources are themselves among the files the checkout can change.
+# bash reads a script incrementally, so a run that carried on after swapping its
+# own source out would execute the remainder of a different file from a stale
+# byte offset. Re-exec is also why the lock is held on a fd rather than retaken.
+#
+# Detached at origin/main rather than rebasing: a conflict can then never wedge
+# the job, and there is no local branch to collide with the one the main
+# checkout has out.
+sync_checkout_and_reexec() {
+  if [[ "${CRON_SYNCED:-}" == "1" ]]; then
+    return 0
+  fi
+  git fetch origin >> "$LOG_FILE" 2>&1
+  git checkout -f --detach origin/main >> "$LOG_FILE" 2>&1
+  git reset --hard origin/main >> "$LOG_FILE" 2>&1
+  export CRON_SYNCED=1
+  log "Synced to origin/main, re-executing to pick up the checked-out scripts"
+  exec "$0" "$@"
 }
 
 # Run one skill under the agent CLI named by AGENT_CLI, leaving its exit status

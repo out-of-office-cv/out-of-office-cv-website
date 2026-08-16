@@ -19,14 +19,9 @@ eval "$(/home/ben/.local/bin/mise activate bash)"
 cd "$PROJECT_DIR"
 
 take_lock || exit 0
+sync_checkout_and_reexec "$@"
 
 log "=== verify-gigs started ==="
-
-# Start detached at origin/main: never rebase, so a conflict can never wedge the
-# job, and no local branch to collide with the one the main checkout has out.
-git fetch origin >> "$LOG_FILE" 2>&1
-git checkout -f --detach origin/main >> "$LOG_FILE" 2>&1
-git reset --hard origin/main >> "$LOG_FILE" 2>&1
 
 # The state file is untracked, so the checkout above can only remove it, never
 # restore it. Seed it from the mirror when this worktree has none.
@@ -40,7 +35,7 @@ mirror_state data/verify-state.json
 # into the index so committed and uncommitted changes are handled identically.
 git reset --soft origin/main >> "$LOG_FILE" 2>&1
 git add data/gigs.json
-git reset -q origin/main -- data/verify-state.json
+git reset -q origin/main -- data/verify-state.json 2>/dev/null || true
 
 if git diff --cached --quiet data/gigs.json; then
   log "No verification changes, nothing to commit"
@@ -50,7 +45,7 @@ else
   git checkout -b "$BRANCH"
   git show HEAD:data/gigs.json > /tmp/verify-gigs-old.json
   git add data/gigs.json
-git reset -q origin/main -- data/verify-state.json
+git reset -q origin/main -- data/verify-state.json 2>/dev/null || true
   python3 <<'PYEOF'
 import json
 from collections import defaultdict
