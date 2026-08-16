@@ -7,6 +7,8 @@ PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LOG_DIR="${PROJECT_DIR}/logs"
 LOG_FILE="${LOG_DIR}/verify-gigs-$(date +%Y-%m-%d).log"
 
+JOB_NAME=verify-gigs
+
 mkdir -p "$LOG_DIR"
 
 # shellcheck source=cron-lib.sh
@@ -26,21 +28,29 @@ git fetch origin >> "$LOG_FILE" 2>&1
 git checkout -f --detach origin/main >> "$LOG_FILE" 2>&1
 git reset --hard origin/main >> "$LOG_FILE" 2>&1
 
+# The state file is untracked, so the checkout above can only remove it, never
+# restore it. Seed it from the mirror when this worktree has none.
+load_state data/verify-state.json
+
 run_agent "verify-gigs"
+
+mirror_state data/verify-state.json
 
 # The skill is told not to commit, but if it does anyway, fold the commits back
 # into the index so committed and uncommitted changes are handled identically.
 git reset --soft origin/main >> "$LOG_FILE" 2>&1
-git add data/gigs.json data/verify-state.json
+git add data/gigs.json
+git reset -q origin/main -- data/verify-state.json
 
-if git diff --cached --quiet data/gigs.json data/verify-state.json; then
+if git diff --cached --quiet data/gigs.json; then
   log "No verification changes, nothing to commit"
   git reset --hard origin/main >> "$LOG_FILE" 2>&1
 else
   BRANCH="verify-gigs-$(date +%Y%m%d-%H%M%S)"
   git checkout -b "$BRANCH"
   git show HEAD:data/gigs.json > /tmp/verify-gigs-old.json
-  git add data/gigs.json data/verify-state.json
+  git add data/gigs.json
+git reset -q origin/main -- data/verify-state.json
   python3 <<'PYEOF'
 import json
 from collections import defaultdict

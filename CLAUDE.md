@@ -62,6 +62,29 @@ Both jobs serialise on `.cron.lock` in the worktree, waiting up to 15 minutes
 checkout. A skipped run logs why and exits zero; a crashed agent logs its exit
 code and marks the PR body as partial.
 
+### Search-throttle state
+
+`data/find-state.json` and `data/verify-state.json` are untracked. They are
+machine bookkeeping, and routing them through a PR made the throttle depend on
+merge latency: every run in a queue of unmerged PRs saw the same stale state,
+re-picked the same pollies, and duplicated the work.
+
+The copy in the cron worktree is authoritative --- untracked files survive both
+`git checkout -f --detach` and `git reset --hard`, so it is simply always there.
+Each run mirrors it onto the long-lived `cron-state` branch, and restores it from
+there when it is missing (a fresh worktree). The mirror is best effort: a failed
+push logs and moves on, because local is the source of truth.
+
+Read the current throttle without ssh:
+
+```sh
+git fetch origin cron-state
+git show origin/cron-state:data/find-state.json
+```
+
+Never merge `cron-state` into `main`; it is a parallel history holding only
+those two files.
+
 ### Choosing the agent CLI
 
 `AGENT_CLI` selects the runner and defaults to `claude`, so an unset environment

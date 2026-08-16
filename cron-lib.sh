@@ -75,3 +75,74 @@ run_agent() {
     log "Agent exited ${AGENT_EXIT}, output may be partial"
   fi
 }
+
+# The search-throttle state files (data/find-state.json, data/verify-state.json)
+# are untracked: they are machine bookkeeping, not reviewable content, and
+# routing them through a PR made the throttle depend on how quickly that PR was
+# merged. Untracked files survive `git checkout -f --detach` and `git reset
+# --hard`, so the copy in the cron worktree is simply always there, and is
+# authoritative.
+#
+# It is mirrored onto a long-lived branch so it is durable and inspectable
+# without ssh. Nothing in a run depends on that mirror succeeding.
+STATE_BRANCH="${STATE_BRANCH:-cron-state}"
+
+# Echo the mirror ref, or fail if there is no mirror yet.
+state_mirror_ref() {
+  local ref="refs/remotes/origin/${STATE_BRANCH}"
+  git fetch -q origin "+refs/heads/${STATE_BRANCH}:${ref}" 2>/dev/null || return 1
+  git rev-parse -q --verify "$ref"
+}
+
+# Restore any state file that is missing --- a fresh worktree, or the first run
+# after these files stopped being tracked, where checking out a commit that no
+# longer contains them deletes them. Never overwrites a file that is present:
+# local is authoritative, the mirror is only a fallback.
+load_state() {
+  local ref f
+  if ! ref="$(state_mirror_ref)"; then
+    log "No ${STATE_BRANCH} mirror yet, using whatever state is on disk"
+    return 0
+  fi
+  for f in "$@"; do
+    [[ -f "$f" ]] && continue
+    if git cat-file -e "${ref}:${f}" 2>/dev/null; then
+      git show "${ref}:${f}" > "$f"
+      log "Restored ${f} from ${STATE_BRANCH}"
+    fi
+  done
+}
+
+# Mirror the state files onto the state branch, best effort. Built from plumbing
+# against a scratch index so it never touches HEAD, the real index, or the
+# working tree, and so it cannot disturb the PR the caller is about to open.
+mirror_state() {
+  local tmp_index tree parent commit ref
+  local -a parent_args=()
+
+  tmp_index="$(mktemp -u)"
+  if ! GIT_INDEX_FILE="$tmp_index" git add --force -- "$@" 2>>"$LOG_FILE"; then
+    log "Could not stage state for the ${STATE_BRANCH} mirror, skipping it"
+    rm -f "$tmp_index"
+    return 0
+  fi
+  tree="$(GIT_INDEX_FILE="$tmp_index" git write-tree)"
+  rm -f "$tmp_index"
+
+  ref="refs/remotes/origin/${STATE_BRANCH}"
+  if parent="$(git rev-parse -q --verify "$ref")"; then
+    parent_args=(-p "$parent")
+    if [[ "$(git rev-parse "${parent}^{tree}")" == "$tree" ]]; then
+      log "State unchanged, nothing to mirror"
+      return 0
+    fi
+  fi
+
+  commit="$(git commit-tree "$tree" "${parent_args[@]}" \
+    -m "state: ${JOB_NAME:-cron} $(date -Iseconds)")"
+  if git push -q origin "${commit}:refs/heads/${STATE_BRANCH}" 2>>"$LOG_FILE"; then
+    log "Mirrored state to ${STATE_BRANCH}"
+  else
+    log "Could not push the ${STATE_BRANCH} mirror; local state still authoritative"
+  fi
+}

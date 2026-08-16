@@ -7,6 +7,8 @@ PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LOG_DIR="${PROJECT_DIR}/logs"
 LOG_FILE="${LOG_DIR}/find-gigs-$(date +%Y-%m-%d).log"
 
+JOB_NAME=find-gigs
+
 mkdir -p "$LOG_DIR"
 
 # shellcheck source=cron-lib.sh
@@ -27,16 +29,24 @@ git fetch origin >> "$LOG_FILE" 2>&1
 git checkout -f --detach origin/main >> "$LOG_FILE" 2>&1
 git reset --hard origin/main >> "$LOG_FILE" 2>&1
 
+# The state file is untracked, so the checkout above can only remove it, never
+# restore it. Seed it from the mirror when this worktree has none.
+load_state data/find-state.json
+
 run_agent "find-gigs"
+
+mirror_state data/find-state.json
 
 # The skill is told not to commit, but if it does anyway, fold the commits back
 # into the index so committed and uncommitted changes are handled identically.
 git reset --soft origin/main >> "$LOG_FILE" 2>&1
-git add data/gigs.json data/find-state.json
+git add data/gigs.json
+git reset -q origin/main -- data/find-state.json
 
-# If either file was modified, commit, push, and open a PR. find-state.json is
-# included so the search throttle survives the next run's reset --hard.
-if git diff --cached --quiet data/gigs.json data/find-state.json; then
+# If gigs.json was modified, commit, push, and open a PR. The state file is not
+# in it: it is bookkeeping, and routing it through a PR made the search throttle
+# depend on how quickly that PR got merged.
+if git diff --cached --quiet data/gigs.json; then
   log "No new gigs found, nothing to commit"
   git reset --hard origin/main >> "$LOG_FILE" 2>&1
 else

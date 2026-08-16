@@ -8,6 +8,11 @@ dist/
 
 mise.local.toml
 
+# Cron search-throttle state: machine bookkeeping, authoritative in the cron
+# worktree, mirrored to the cron-state branch rather than merged via PR.
+data/find-state.json
+data/verify-state.json
+
 # Allow .claude/skills/ to be tracked (overrides global ~/.gitignore)
 !.claude/
 .claude/*
