@@ -1,10 +1,10 @@
 ---
 id: TASK-30
 title: Port the gig skills to run correctly under matilda
-status: In Progress
+status: Done
 assignee: []
 created_date: '2026-08-16 03:44'
-updated_date: '2026-08-16 09:22'
+updated_date: '2026-08-16 09:52'
 labels:
   - ops
   - cron
@@ -56,7 +56,7 @@ Note this does not limit coverage: the useful steady-state cadence is about 4 ru
 - [x] #3 A claude run of each job after the skill rewording produces the same artefacts and comparable output quality to before it, so portability has not degraded the default runner
 - [x] #4 TimeoutStartSec on both services covers a serial matilda run, with the value justified against a measured run rather than guessed, and set via drop-in so removing it restores the current 2h
 - [x] #5 A matilda run of each job produces the same artefacts as a claude run: modified data/gigs.json plus the job's state file, no commits made by the agent itself, and a PR opened by the script
-- [ ] #6 A matilda find run and a claude find run over the same pinned set of pollie slugs have been compared on gig precision, not just gig count, and the result recorded on this task
+- [x] #6 A matilda find run and a claude find run over the same pinned set of pollie slugs have been compared on gig precision, not just gig count, and the result recorded on this task
 - [x] #7 Measured matilda token usage from ~/.matilda/usage_record.jsonl for one full find run is recorded on this task, with the implied daily cost at 4 runs/day extrapolated from it
 - [x] #8 Switching a job back to claude is a single drop-in removal plus daemon-reload, with no script or skill edit, and this has been exercised rather than only documented
 <!-- AC:END -->
@@ -64,6 +64,7 @@ Note this does not limit coverage: the useful steady-state cadence is about 4 ru
 ## Implementation Notes
 
 <!-- SECTION:NOTES:BEGIN -->
+--------------------------------------------------
 --------------------------------------------------
 --------------------------------------------------
 --------------------------------------------------
@@ -104,4 +105,22 @@ Output quality, for what one run is worth: 3 gigs from 15 pollies (matilda) agai
 Three measured matilda find runs: 45m30s, 57m, and 1h43m. The last had only 17 minutes of headroom against the tracked TimeoutStartSec=2h, so the earlier 'no drop-in needed' read from a single 45-minute sample was wrong. Both services now carry a timeout.conf drop-in setting 4h, with the measurements in a comment; deleting the file restores the tracked 2h.
 
 The 1h43m run was the second of two back-to-back runs: the 17:00 timer fired while the 16:32 catch-up was still going, so systemd queued it and started it the moment the first finished.
+
+## Pinned precision comparison, 2026-08-16 (AC #6)
+
+Three pollies, never searched, chosen to probe a different failure mode each: tony-windsor (prolific op-ed writer, tests the one-off-act rule), sue-boyce (senator likely to hold board roles), craig-thomson (heavy press coverage that is about scandal, not roles). Both CLIs over the same three, run directly rather than through the cron script, with data restored to baseline before each of the six runs. Find timer stopped for the duration.
+
+Result --- gigs added:
+  claude:  tony-windsor 0, sue-boyce 1, craig-thomson 0
+  matilda: tony-windsor 0, sue-boyce 0, craig-thomson 0
+
+claude's single gig, Director @ Everhard Industries, carried two sources and a clean evidence quote from the company's own announcement ('Sue will continue as a director of the company'), and was correctly Tier 2 flagged as the same organisation as an existing gig. Nothing was screened out on either side: matilda's subagents simply returned empty candidate arrays.
+
+So on this sample the difference is recall, not precision --- matilda found less rather than proposing worse. That is the opposite of the pre-screen picture, where matilda returned three gigs to claude's one and two of the three were marginal. The evidence screen appears to have removed the precision gap by removing the looseness that produced it.
+
+Runtime per single-pollie run: claude 164s/269s/122s, matilda 268s/578s/392s --- roughly 2--3x, consistent with the 6.8x seen on a full 15-pollie fan-out where serialisation compounds.
+
+Three pollies is a small sample and both CLIs finding nothing on two of them limits what it shows. It is enough to say matilda is not producing worse gigs under the new bar; it is not enough to conclude it finds fewer in general. The comparison worth trusting is the running one: claude's daily baseline against matilda's runs from here, which the nightly health check now surfaces.
+
+Also surfaced, and filed as task-32: matilda's subagents did not write their sidecars ('No sidecar was written (directory doesn't exist). Falling back to the returned JSON'), which undermines task-29.1's crash resilience for exactly the CLI whose runs are longest.
 <!-- SECTION:NOTES:END -->
