@@ -15,8 +15,23 @@ allowed-tools: Read, Grep, Glob, Bash, WebSearch, WebFetch, Task
 
 You orchestrate a search for jobs, roles, and positions that former Australian
 politicians have taken after leaving parliament. Per-pollie web research happens
-in parallel subagents; you handle selection, dedup, and write-back. Results land
-in `data/gigs.json` for human verification.
+in parallel subagents; you handle selection, dedup, and write-back. Each
+subagent banks its own findings in `data/.find-inflight/<slug>.json` first, so a
+run that stops early loses at most the pollies still in flight. Results land in
+`data/gigs.json` for human verification.
+
+## Step 0: merge leftover sidecars
+
+`data/.find-inflight/` holds one JSON file per pollie whose research finished but
+whose findings had not been merged when a run stopped. The directory is
+untracked, so those files are still there on the next run.
+
+If any are present, merge them now, before selection: Steps 3 to 5 handle them
+exactly as they handle a sidecar written this run. Doing it first is what stops
+those pollies being picked and researched a second time, since merging is what
+records them in `find-state.json`.
+
+If the directory is missing or empty, carry on.
 
 ## Step 1: select target politicians
 
@@ -60,6 +75,11 @@ Each subagent prompt must include:
 - The role-naming rules below (verbatim).
 - The category list below (verbatim).
 - The required output schema.
+- An instruction to write its result to `data/.find-inflight/<pollie_slug>.json`
+  (creating the directory if needed) as its last action before returning, and to
+  return that same JSON in a single fenced block. The file is what survives an
+  interrupted run; the returned block is only a fallback for a subagent that
+  died before writing.
 - An instruction to return only valid JSON in a single fenced block.
 
 ### Search instructions (verbatim in subagent prompt)
@@ -163,9 +183,12 @@ candidates.
 
 ## Step 3: collect findings
 
-Wait for all subagent tasks to return. For each one:
+Wait for all subagent tasks to return. Then, for each pollie dispatched this run
+and each leftover sidecar found in Step 0:
 
-- Parse the fenced JSON block.
+- Read `data/.find-inflight/<slug>.json`. Fall back to the subagent's returned
+  fenced JSON block only when the sidecar is missing.
+- Parse the JSON.
 - Validate against the schema. Drop entire subagent outputs that fail to parse;
   log which slugs were dropped.
 - A subagent that returns nothing parseable causes that pollie to be skipped,
@@ -215,26 +238,32 @@ the PR.
 `data/find-state.json` is untracked, so git cannot restore it if validation
 fails later. Copy it to `data/find-state.json.bak` before writing anything.
 
-For all non-duplicate, non-rejected candidates:
+Merge one pollie at a time, finishing each completely before starting the next,
+so a run that stops midway leaves whole pollies done rather than losing
+everything. For each pollie in turn:
 
 1. Read the current `data/gigs.json`.
-2. Append the new gigs to the array.
+2. Append that pollie's non-duplicate, non-rejected candidates.
 3. Write the updated array back (pretty-printed with 2-space indent, trailing
    newline).
+4. Record `slug: <ISO-timestamp>` in `data/find-state.json`, whether or not
+   anything was found for them. Preserve existing entries. Write with
+   `JSON.stringify(state, null, 2) + "\n"`.
 
-## Step 6: update find-state.json
+Leave the sidecars in place until Step 6 has passed.
 
-For every pollie that was searched (regardless of whether anything was found),
-record `slug: <ISO-timestamp>` in `data/find-state.json`. Preserve existing
-entries. Write with `JSON.stringify(state, null, 2) + "\n"`.
+## Step 6: validate
 
-## Step 7: validate
+Run `pnpm build`.
 
-Run `pnpm build`. If it fails, restore `data/gigs.json` with
-`git checkout -- data/gigs.json`, restore `data/find-state.json` from the backup
-taken in Step 5, and abort. Delete the backup once the build passes.
+If it passes, delete every sidecar merged in Step 5 and the
+`data/find-state.json.bak` backup.
 
-## Step 8: print summary
+If it fails, restore `data/gigs.json` with `git checkout -- data/gigs.json` and
+`data/find-state.json` from the backup, leave the sidecars where they are so the
+next run can retry them, and abort.
+
+## Step 7: print summary
 
 Per pollie:
 

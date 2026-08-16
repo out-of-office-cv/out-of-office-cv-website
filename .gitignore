@@ -14,6 +14,9 @@ data/find-state.json
 data/verify-state.json
 data/*.bak
 
+# Per-pollie find-gigs results, banked before the orchestrator merges them
+data/.find-inflight/
+
 # Allow .claude/skills/ to be tracked (overrides global ~/.gitignore)
 !.claude/
 .claude/*
