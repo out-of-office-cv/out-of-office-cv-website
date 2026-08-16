@@ -23,16 +23,50 @@ take_lock() {
   return 1
 }
 
-# Run one skill under the agent CLI, leaving its exit status in AGENT_EXIT
-# rather than swallowing it: a crashed agent and a genuinely quiet run both
-# produce no diff, and only the exit code tells them apart afterwards.
+# Run one skill under the agent CLI named by AGENT_CLI, leaving its exit status
+# in AGENT_EXIT rather than swallowing it: a crashed agent and a genuinely quiet
+# run both produce no diff, and only the exit code tells them apart afterwards.
+#
+# claude is the default, so an unset environment runs exactly as it always has.
+# Selecting the runner per job is a matter of an Environment= drop-in on the
+# .service --- never the .timer, since editing a timer with Persistent=true
+# fires an immediate catch-up of both gig timers at once.
 run_agent() {
   local skill="$1"
+  local cli="${AGENT_CLI:-claude}"
+  local bin
+  local -a cmd
+
+  case "$cli" in
+    claude)
+      bin="${CLAUDE_BIN:-/home/ben/.local/bin/claude}"
+      cmd=(env -u CLAUDECODE "$bin" --dangerously-skip-permissions -p "/${skill}")
+      ;;
+    matilda)
+      # --fresh so no earlier session is carried in; the env var silences a
+      # stderr nag about auto-approval. Auth is OAuth-only and the token lives
+      # in ~/.matilda/, so a stale profile fails the run rather than degrading
+      # it --- there is no key to plumb in here.
+      bin="${MATILDA_BIN:-/home/ben/.local/share/mise/shims/matilda}"
+      cmd=(env -u CLAUDECODE MATILDA_CODE_SUPPRESS_BOGAN_WARNING=1 \
+        "$bin" --yolo --fresh "/${skill}")
+      ;;
+    *)
+      log "Unrecognised AGENT_CLI=${cli}, expected claude or matilda"
+      exit 1
+      ;;
+  esac
+
+  if [[ ! -x "$bin" ]]; then
+    log "AGENT_CLI=${cli} but ${bin} is not executable"
+    exit 1
+  fi
+
+  # Recorded before the agent is invoked, so a killed run is still attributable.
+  log "Agent: ${cli} $("$bin" --version 2>&1 | head -1)"
+
   set +e
-  env -u CLAUDECODE /home/ben/.local/bin/claude \
-    --dangerously-skip-permissions \
-    -p "/${skill}" \
-    >> "$LOG_FILE" 2>&1
+  "${cmd[@]}" >> "$LOG_FILE" 2>&1
   AGENT_EXIT=$?
   set -e
   if [[ $AGENT_EXIT -eq 0 ]]; then

@@ -57,6 +57,37 @@ systemctl --user enable --now ooc-verify-gigs.timer ooc-find-gigs.timer
 Logs via `journalctl --user -u <name>.service -n 50`, or the per-day files in
 the worktree's `logs/`.
 
+Both jobs serialise on `.cron.lock` in the worktree, waiting up to 15 minutes
+(`LOCK_WAIT_SECS`) before skipping their slot, so two runs can never share the
+checkout. A skipped run logs why and exits zero; a crashed agent logs its exit
+code and marks the PR body as partial.
+
+### Choosing the agent CLI
+
+`AGENT_CLI` selects the runner and defaults to `claude`, so an unset environment
+behaves exactly as it always has. `matilda` is the other accepted value; anything
+else fails the run rather than falling back. Switch one job without touching the
+scripts:
+
+```sh
+mkdir -p ~/.config/systemd/user/ooc-find-gigs.service.d
+cat > ~/.config/systemd/user/ooc-find-gigs.service.d/runner.conf <<'CONF'
+[Service]
+Environment=AGENT_CLI=matilda
+CONF
+systemctl --user daemon-reload
+```
+
+Roll back by deleting that file and reloading. Two constraints worth knowing:
+
+- **Drop-ins go on the `.service`, never the `.timer`.** Editing a timer with
+  `Persistent=true` fires an immediate catch-up of both gig timers at once.
+- **Matilda auth is OAuth-only.** `matilda auth` has only login/logout/status,
+  the bearer token expires in ~24h, and only the CLI refreshes it. The profile
+  lives in `~/.matilda/`, so there is nothing to plumb into the unit --- but a
+  stale profile fails the job rather than degrading it. Matilda also serialises
+  subagent fan-out, so its runs take far longer than claude's.
+
 ## Structure
 
 The two main types in this site's data model are `Pollie` (a politician) and
