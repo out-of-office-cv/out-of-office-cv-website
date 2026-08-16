@@ -51,8 +51,12 @@ Otherwise, build the eligible set:
 
 - A pollie is _eligible_ if their slug is either absent from `find-state.json`
   or has a `last_searched_at` more than 14 days before today.
-- Among eligible pollies, sort by current gig count (ascending) so those with
-  fewer gigs are checked first. Among ties, randomise.
+- Put pollies who have never been searched (absent from `find-state.json`)
+  ahead of those merely due a re-search. Most of the roster has never been
+  searched, and treating both groups alike means a run spends most of its
+  budget re-searching pollies who already came up empty.
+- Within each group, sort by current gig count (ascending) so those with fewer
+  gigs are checked first. Among ties, randomise.
 - Select up to 15 pollies.
 
 The 15-pollie cap bounds the run; there's no separate gig cap.
@@ -109,9 +113,32 @@ Each subagent prompt must include:
 > - The role was taken AFTER leaving parliament.
 > - The source URL actually confirms the role.
 >
-> Every gig MUST have at least one source URL. It's fine if sources are weak
-> (e.g. LinkedIn only, or a passing mention) or if some details like dates are
-> missing --- that's the point of the human verification step. Err on inclusion.
+> **What counts as a gig.** A gig is a _position held over time_: a board seat,
+> a standing column, a professorship, an appointment, an executive or advisory
+> role. A one-off act is not a gig, however well sourced --- a single opinion
+> piece, one conference talk, a one-time award, a single quoted comment. If the
+> evidence shows the person doing something once, there is no gig to add.
+>
+> **The source must state the role.** At least one source has to say, in its own
+> words, that this person holds or held this position. A source that merely
+> shows them doing the activity does not establish a role: three bylined
+> articles are not evidence of the title "Columnist" unless something says they
+> write a column. Quote the sentence that states it --- see `role_evidence` in
+> the output schema. If you cannot quote one, do not return the candidate.
+>
+> **Self-published sources.** The person's own LinkedIn _profile_ is fine
+> evidence of their own roles. Their own LinkedIn _posts_, X, or personal blog
+> are not, when they are the only evidence: those show activity, not
+> appointment. Pair them with something independent, or drop the candidate.
+>
+> **Obituaries and vale pieces** are good evidence for roles they explicitly
+> name, and no evidence at all for roles you infer from them.
+>
+> Missing dates are still fine --- omit `start_date` rather than guessing. It is
+> role existence that has to be evidenced, not its detail.
+>
+> Prefer precision over coverage. A wrong gig goes onto a public site and costs
+> a human a verification pass to remove; a missed gig is picked up next sweep.
 > Do NOT fabricate gigs or source URLs. If your search turns up nothing, return
 > an empty `candidates` array rather than making things up.
 
@@ -167,6 +194,10 @@ type Candidate = {
   organisation: string;
   category: string; // one of the categories listed above
   sources: string[]; // at least one URL
+  role_evidence: {
+    url: string; // which source, must be one of `sources`
+    quote: string; // sentence from that page stating the person holds the role
+  };
   start_date?: string; // YYYY-MM-DD if known, omit otherwise
   end_date?: string; // YYYY-MM-DD if known, omit otherwise
 };
@@ -180,6 +211,10 @@ type SubagentOutput = {
 The subagent must return exactly one fenced JSON block matching
 `SubagentOutput`. Do NOT include a `verification` field --- these are unverified
 candidates.
+
+`role_evidence.quote` must be copied from the page, not paraphrased or composed.
+It is what Step 3a checks, and a candidate that cannot supply one does not
+belong in the output.
 
 ## Step 3: collect findings
 
@@ -196,6 +231,30 @@ and each leftover sidecar found in Step 0:
 
 Attach `pollie_slug` (from the wrapper) to each candidate before passing to
 Step 4.
+
+## Step 3a: evidence screen
+
+Before deduplicating, drop any candidate that fails the bar the subagents were
+given. Judge from `role_evidence` and `sources`, not from how plausible the gig
+sounds:
+
+- **No usable evidence.** `role_evidence` missing, `quote` empty, or `url` not
+  present in `sources`.
+- **Quote does not state a role.** It describes an action, an opinion or an
+  event rather than a position held: an op-ed byline, "spoke at", "wrote in",
+  "was awarded". A quote naming the position ("was appointed a director of",
+  "chairs the board of", "writes a weekly column for") passes.
+- **Self-published only.** Every source is the person's own posting on a social
+  platform or personal site, and none is a profile page listing the role.
+- **One-off act.** The evidence covers a single dated occurrence and nothing
+  suggests an ongoing position.
+
+Print a "Screened out" section listing each drop with its pollie, role,
+organisation and which rule caught it. Those lines go into the cron log, and are
+how a bar that is too tight gets noticed --- if a run screens out most of what
+it found, say so in the summary rather than silently shrinking.
+
+Screening is not dedup: a screened candidate is discarded, not flagged.
 
 ## Step 4: orchestrator dedup (tiered)
 
@@ -268,15 +327,19 @@ next run can retry them, and abort.
 Per pollie:
 
 - Candidates returned: N
+- Screened out on evidence (Step 3a): N
 - Added: N
 - Tier 1 skipped (hard duplicates): N
 - Tier 2 flagged (possible duplicates): N
 
-Then a totals line.
+Then a totals line. If screened-out exceeds added across the run, say so
+explicitly --- either the bar is mis-tuned or the subagents are not reading it.
 
 ## Important rules
 
 - Every gig MUST have at least one source URL. No exceptions.
+- Every candidate MUST carry a quoted `role_evidence` that states the role, and
+  is dropped in Step 3a if it does not. A position held, never a one-off act.
 - Only include roles taken AFTER the politician left parliament.
 - Do not fabricate gigs or source URLs.
 - Do NOT include a `verification` field --- these are unverified candidates. The
