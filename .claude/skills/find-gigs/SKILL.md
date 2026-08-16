@@ -20,9 +20,6 @@ in `data/gigs.json` for human verification.
 
 ## Step 1: select target politicians
 
-Current pollie data: !`head -5 data/pollies.csv` Current gig count:
-!`cat data/gigs.json | python3 -c "import sys,json; print(len(json.load(sys.stdin)))"`
-
 Read in this order:
 
 1. `data/pollies.csv` --- pollie metadata.
@@ -30,8 +27,10 @@ Read in this order:
 3. `data/find-state.json` --- `{slug: ISO-timestamp}` of last find attempts.
    Treat as `{}` if the file doesn't exist yet.
 
-If `$ARGUMENTS` is a pollie slug (e.g. `christopher-pyne`), use that single
-pollie and skip the eligibility check below.
+If the invocation supplied a pollie slug (e.g. `/find-gigs christopher-pyne`),
+use that single pollie and skip the eligibility check below. Read it off the
+invocation line as given: do not expect it to have been substituted into this
+file.
 
 Otherwise, build the eligible set:
 
@@ -213,6 +212,9 @@ the PR.
 
 ## Step 5: write to data file
 
+`data/find-state.json` is untracked, so git cannot restore it if validation
+fails later. Copy it to `data/find-state.json.bak` before writing anything.
+
 For all non-duplicate, non-rejected candidates:
 
 1. Read the current `data/gigs.json`.
@@ -228,8 +230,9 @@ entries. Write with `JSON.stringify(state, null, 2) + "\n"`.
 
 ## Step 7: validate
 
-Run `pnpm build`. If it fails, restore `data/gigs.json` and
-`data/find-state.json` from git and abort.
+Run `pnpm build`. If it fails, restore `data/gigs.json` with
+`git checkout -- data/gigs.json`, restore `data/find-state.json` from the backup
+taken in Step 5, and abort. Delete the backup once the build passes.
 
 ## Step 8: print summary
 

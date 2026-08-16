@@ -12,6 +12,7 @@ mise.local.toml
 # worktree, mirrored to the cron-state branch rather than merged via PR.
 data/find-state.json
 data/verify-state.json
+data/*.bak
 
 # Allow .claude/skills/ to be tracked (overrides global ~/.gitignore)
 !.claude/

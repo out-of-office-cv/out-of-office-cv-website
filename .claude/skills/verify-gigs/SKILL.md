@@ -162,6 +162,9 @@ Wait for all subagent tasks to return. For each one:
 
 ## Step 4: apply findings to data/gigs.json
 
+`data/verify-state.json` is untracked, so git cannot restore it if validation
+fails later. Copy it to `data/verify-state.json.bak` before writing anything.
+
 Each finding's `gig_index` refers to the position in _that subagent's input
 slice_ (the per-pollie eligible-gig list you passed in Step 2), NOT the position
 in `data/gigs.json`. Before mutating, look up the corresponding gig in
@@ -200,8 +203,9 @@ Write the file with `JSON.stringify(state, null, 2) + "\n"`.
 
 ## Step 6: validate
 
-Run `pnpm build && pnpm test`. If either fails, restore `data/gigs.json` and
-`data/verify-state.json` from git and abort.
+Run `pnpm build && pnpm test`. If either fails, restore `data/gigs.json` with
+`git checkout -- data/gigs.json`, restore `data/verify-state.json` from the
+backup taken in Step 4, and abort. Delete the backup once both pass.
 
 ## Step 7: print summary
 
