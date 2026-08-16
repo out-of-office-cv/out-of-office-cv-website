@@ -4707,8 +4707,8 @@
     "attempts": 1
   },
   "peter-knott|Councillor|Kiama Municipal Council|null": {
-    "last_examined_at": "2026-08-08T00:00:00.000Z",
-    "attempts": 1
+    "last_examined_at": "2026-08-15T16:27:13.550Z",
+    "attempts": 2
   },
   "jann-mcfarlane|Councillor, Osborne Ward|City of Stirling|2005-01-01": {
     "last_examined_at": "2026-08-09T00:00:00.000Z",
@@ -4748,6 +4748,14 @@
   },
   "cathy-o-toole|President|Community Mental Health Australia|null": {
     "last_examined_at": "2026-08-11T00:00:00.000Z",
+    "attempts": 1
+  },
+  "maria-vamvakinou|Community Host (Conversation and Dialogue Events)|Patris|2025-03-28": {
+    "last_examined_at": "2026-08-15T00:00:00.000Z",
+    "attempts": 1
+  },
+  "fraser-anning|Leader|Fraser Anning's Conservative National Party|2019-04-02": {
+    "last_examined_at": "2026-08-15T16:27:13.550Z",
     "attempts": 1
   }
 }
