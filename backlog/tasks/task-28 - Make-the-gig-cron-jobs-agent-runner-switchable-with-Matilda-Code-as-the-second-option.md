@@ -1,10 +1,10 @@
 ---
 id: TASK-28
 title: Make the gig cron jobs' agent runner switchable via one env var
-status: To Do
+status: In Progress
 assignee: []
 created_date: '2026-08-13 22:09'
-updated_date: '2026-08-13 23:25'
+updated_date: '2026-08-16 04:29'
 labels:
   - ops
   - cron
@@ -36,11 +36,23 @@ Editing a `.timer` with `Persistent=true` fires an immediate catch-up of both gi
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 Both cron scripts read the agent CLI from one env var that defaults to claude, so an unset environment runs exactly as it does today
-- [ ] #2 Setting that var to matilda makes each job run its skill via matilda --yolo --fresh with MATILDA_CODE_SUPPRESS_BOGAN_WARNING=1, with no other edit to the scripts
-- [ ] #3 An unrecognised value for the var fails the run loudly rather than silently falling back to claude
-- [ ] #4 Each run's log records which CLI and which CLI version produced it, written before the agent is invoked so a killed run is still attributable
-- [ ] #5 Which CLI a job uses can be changed per-job without editing the scripts, via an Environment= drop-in on the .service (never the .timer)
-- [ ] #6 The switch, the .service-not-.timer constraint, and the OAuth-only auth constraint are documented in CLAUDE.md
+- [x] #1 Both cron scripts read the agent CLI from one env var that defaults to claude, so an unset environment runs exactly as it does today
+- [x] #2 Setting that var to matilda makes each job run its skill via matilda --yolo --fresh with MATILDA_CODE_SUPPRESS_BOGAN_WARNING=1, with no other edit to the scripts
+- [x] #3 An unrecognised value for the var fails the run loudly rather than silently falling back to claude
+- [x] #4 Each run's log records which CLI and which CLI version produced it, written before the agent is invoked so a killed run is still attributable
+- [x] #5 Which CLI a job uses can be changed per-job without editing the scripts, via an Environment= drop-in on the .service (never the .timer)
+- [x] #6 The switch, the .service-not-.timer constraint, and the OAuth-only auth constraint are documented in CLAUDE.md
 - [ ] #7 A claude run of each job after the change produces the same artefacts as before it: modified data/gigs.json plus the job's state file, and a PR opened by the script
 <!-- AC:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+AGENT_CLI is read in run_agent (cron-lib.sh) and defaults to claude, so an unset environment invokes exactly the old command line. matilda maps to --yolo --fresh with MATILDA_CODE_SUPPRESS_BOGAN_WARNING=1. An unrecognised value, or a named CLI whose binary is not executable, logs and exits 1 rather than falling back. The CLI and its version are logged before the agent starts.
+
+Dispatch verified against stubs for all five paths: default, matilda, a crashing agent (exit 42 surfaced in AGENT_EXIT), an unrecognised value, and a missing binary.
+
+The verify-gigs drop-in is installed on weddle (AGENT_CLI=matilda) and its removal-plus-daemon-reload rollback has been exercised. CLAUDE.md documents the switch, the .service-not-.timer constraint and the OAuth-only auth constraint.
+
+AC #7 is left open deliberately: the artefact shape was verified end to end in a scratch clone with a stub agent (PR carries only data/gigs.json, state mirrored to cron-state, branch pushed, PR opened), but a live claude run cannot happen until main is pushed and the cron worktree picks the change up.
+<!-- SECTION:NOTES:END -->

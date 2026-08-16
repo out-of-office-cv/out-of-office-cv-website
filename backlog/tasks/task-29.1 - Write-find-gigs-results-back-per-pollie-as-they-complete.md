@@ -1,9 +1,10 @@
 ---
 id: TASK-29.1
 title: Write find-gigs results back per pollie as they complete
-status: To Do
+status: In Progress
 assignee: []
 created_date: '2026-08-16 04:11'
+updated_date: '2026-08-16 04:29'
 labels:
   - ops
   - cron
@@ -32,9 +33,19 @@ Because the sidecars are untracked and the cron worktree is never cleaned, a run
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 Each find-gigs subagent writes its own per-pollie sidecar file, so no two concurrent subagents write the same file
-- [ ] #2 The orchestrator merges sidecars into data/gigs.json through the existing dedup path and records each pollie in data/find-state.json as its sidecar is merged
-- [ ] #3 Sidecars left behind by a killed run are merged by the next run before it selects pollies, so that work is not redone
-- [ ] #4 A merged sidecar is deleted, so no sidecar is ever merged twice
+- [x] #1 Each find-gigs subagent writes its own per-pollie sidecar file, so no two concurrent subagents write the same file
+- [x] #2 The orchestrator merges sidecars into data/gigs.json through the existing dedup path and records each pollie in data/find-state.json as its sidecar is merged
+- [x] #3 Sidecars left behind by a killed run are merged by the next run before it selects pollies, so that work is not redone
+- [x] #4 A merged sidecar is deleted, so no sidecar is ever merged twice
 - [ ] #5 A run killed partway through the fan-out does not cause the pollies whose sidecars exist to be re-searched next run
 <!-- AC:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+find-gigs SKILL.md restructured: a new Step 0 merges any leftover sidecars before selection, Step 2 instructs each subagent to write data/.find-inflight/<slug>.json as its last action, Step 3 reads sidecars (falling back to the returned block only when a subagent died before writing), and Step 5 merges one pollie at a time, recording each in find-state as it goes.
+
+Sidecars are deleted in Step 6 only once pnpm build passes, so a validation failure retries them next run instead of dropping them. The directory is gitignored, which is what lets a killed run leave them for the next one.
+
+AC #5 needs a real interrupted run to confirm, so it stays open until find-gigs has run under the new skill.
+<!-- SECTION:NOTES:END -->

@@ -1,10 +1,10 @@
 ---
 id: TASK-29
 title: Harden the gig cron jobs against overlapping and interrupted runs
-status: To Do
+status: Done
 assignee: []
 created_date: '2026-08-16 03:44'
-updated_date: '2026-08-16 04:11'
+updated_date: '2026-08-16 04:29'
 labels:
   - ops
   - cron
@@ -36,10 +36,22 @@ Both scripts invoke the agent with a trailing `|| true`, so a crashed agent and 
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 A run that exits because it could not take the lock says so in its log and exits zero, so systemd does not report it as a failure
-- [ ] #2 Both scripts capture the agent's exit code and log it, so a crashed run is distinguishable in the log from a run that legitimately found nothing
-- [ ] #3 A non-zero agent exit is reflected in the PR body or the log summary, so a partial run's PR is identifiable as partial when triaging it
-- [ ] #4 The overlap guard is verified by starting both jobs concurrently by hand and confirming one exits cleanly with the other's output intact
-- [ ] #5 Both cron scripts serialise on one shared lockfile in the cron worktree, so a second run starting while one is in progress never shares the checkout
-- [ ] #6 A run that cannot take the lock within a bounded wait gives up rather than waiting indefinitely, so it cannot outlive its systemd start timeout
+- [x] #1 A run that exits because it could not take the lock says so in its log and exits zero, so systemd does not report it as a failure
+- [x] #2 Both scripts capture the agent's exit code and log it, so a crashed run is distinguishable in the log from a run that legitimately found nothing
+- [x] #3 A non-zero agent exit is reflected in the PR body or the log summary, so a partial run's PR is identifiable as partial when triaging it
+- [x] #4 The overlap guard is verified by starting both jobs concurrently by hand and confirming one exits cleanly with the other's output intact
+- [x] #5 Both cron scripts serialise on one shared lockfile in the cron worktree, so a second run starting while one is in progress never shares the checkout
+- [x] #6 A run that cannot take the lock within a bounded wait gives up rather than waiting indefinitely, so it cannot outlive its systemd start timeout
 <!-- AC:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+Locking and exit-code observability live in cron-lib.sh, sourced by both scripts.
+
+take_lock serialises on .cron.lock in the cron worktree and waits LOCK_WAIT_SECS (default 900) before giving up, logging the skip and exiting zero. run_agent captures the agent's status into AGENT_EXIT, logs it, and a non-zero status prefixes the PR body with a **Partial run** marker.
+
+AC #4 exercised for real rather than in theory: both scripts were run concurrently in a scratch clone against a local bare origin, with a stub agent holding the lock for six seconds. verify-gigs logged 'Lock held by the other gig job for 2s, skipping this run' and exited zero while find-gigs completed with its output intact.
+
+That same harness turned up a latent bug this task did not anticipate: a run checks out origin/main partway through, replacing the very script bash is reading, so it continued from a stale byte offset into a different file. Fixed by syncing first and re-execing (commit e7b1934), with the lock inherited across the exec on its fd.
+<!-- SECTION:NOTES:END -->

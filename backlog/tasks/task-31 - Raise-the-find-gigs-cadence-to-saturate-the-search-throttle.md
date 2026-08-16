@@ -4,7 +4,7 @@ title: Raise the find-gigs cadence to saturate the search throttle
 status: To Do
 assignee: []
 created_date: '2026-08-16 03:45'
-updated_date: '2026-08-16 04:12'
+updated_date: '2026-08-16 04:30'
 labels:
   - ops
   - cron
@@ -51,7 +51,7 @@ This decision leaves PR volume unaddressed: gig PRs still accumulate one per run
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 Run-to-run search state no longer depends on PR merge latency: two consecutive runs with the first run's PR left unmerged do not re-search the same pollies
+- [x] #1 Run-to-run search state no longer depends on PR merge latency: two consecutive runs with the first run's PR left unmerged do not re-search the same pollies
 - [ ] #2 That same scenario produces no duplicate gigs across the two runs' output
 - [ ] #3 The find timer runs approximately every 6 hours in steady state, set via a .timer drop-in with an empty OnCalendar= first so the tracked daily schedule is cleared rather than added to
 - [ ] #4 Reverting to the daily schedule is a drop-in removal plus daemon-reload with no edit to the tracked unit, and has been exercised
@@ -60,3 +60,15 @@ This decision leaves PR volume unaddressed: gig PRs still accumulate one per run
 - [ ] #7 The verify job's cadence is reviewed against the raised find cadence, so newly found gigs do not sit unverified for longer than they do today
 - [ ] #8 PR volume at the raised cadence has been observed and judged reviewable, or a rolling-branch scheme adopted if it is not
 <!-- AC:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+Blocker cleared ahead of the cadence work: both state files are untracked as of commit 49cd8b5, the cron worktree's copy is authoritative, and each run mirrors the pair onto the cron-state branch.
+
+AC #1 verified in a scratch clone against a local bare origin: two consecutive runs with both PRs left unmerged and main never advancing, and the throttle state survived each run's checkout -f and reset --hard intact (248 entries, the pollie recorded by run 1 still present after run 2's sync). The PR branches carry data/gigs.json only.
+
+Worth knowing before sizing the PR-volume worry: .github/workflows/auto-merge-gig-prs.yml already squash-merges collaborator gig PRs once tests pass, so merge latency in practice is minutes, and the queue this task feared only forms when auto-merge fails (a test failure, or a gigs.json conflict between two PRs branched from the same main). Also, verify runs that only advanced the throttle no longer open a PR at all, since state is not in the diff --- so the no-op PR class is gone.
+
+Still open: everything from AC #4 on, which is the cadence change itself, plus AC #2's duplicate check, which needs two live runs rather than a stubbed pair.
+<!-- SECTION:NOTES:END -->
