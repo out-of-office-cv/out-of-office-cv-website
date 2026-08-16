@@ -26,14 +26,9 @@ Two scripts run on weddle via systemd user timers (canonical unit files in
 `ops/systemd/`):
 
 - `cron-verify-gigs.sh` --- daily 02:00 local; rechecks each known gig
-- `cron-find-gigs.sh` --- 05, 08, 11, 14, 17, 20 and 23:00 local; searches for
-  new gigs
+- `cron-find-gigs.sh` --- daily 05:00 local; searches for new gigs
 
-Both have 30 min `RandomizedDelaySec` jitter and `Persistent=true`. The tracked
-units say daily 05:00 for find; the seven-slot schedule is a `.timer` drop-in
-(see "Cadence" below), so deleting one file restores daily.
-
-Both jobs run under matilda as of 2026-08-16.
+Both have 30 min `RandomizedDelaySec` jitter and `Persistent=true`.
 
 They do not run in this checkout. They run in a dedicated git worktree at
 `../out-of-office-cv-website-cron`, kept permanently detached at `origin/main`,
@@ -66,42 +61,6 @@ Both jobs serialise on `.cron.lock` in the worktree, waiting up to 15 minutes
 (`LOCK_WAIT_SECS`) before skipping their slot, so two runs can never share the
 checkout. A skipped run logs why and exits zero; a crashed agent logs its exit
 code and marks the PR body as partial.
-
-### Cadence
-
-The roster is 817 pollies at 15 per find run, and a pollie becomes eligible
-again 14 days after its last search, so saturation is about 58 pollies/day ---
-just under 4 runs/day. Seven runs/day is deliberately above that: it is a
-catch-up setting for the several-hundred-pollie never-searched backlog, not a
-steady state. Once the first full sweep completes, drop back to every 6h, or
-runs increasingly find fewer than 15 eligible pollies and taper into no-ops that
-still cost a full agent invocation.
-
-Verify stays at one run a day and has ample headroom either way: its batch cap
-is 60 gigs per run, against the 7--14 new gigs a day seven find runs produce.
-
-Change the cadence with a `.timer` drop-in, never the tracked unit:
-
-```sh
-mkdir -p ~/.config/systemd/user/ooc-find-gigs.timer.d
-cat > ~/.config/systemd/user/ooc-find-gigs.timer.d/cadence.conf <<'CONF'
-[Timer]
-OnCalendar=
-OnCalendar=*-*-* 05,08,11,14,17,20,23:00:00
-CONF
-systemctl --user daemon-reload
-```
-
-The bare `OnCalendar=` first is a reset: systemd accumulates `OnCalendar`
-entries across drop-ins, so without it the new schedule is *added* to the
-tracked 05:00 rather than replacing it. Dropping back to steady state means
-editing that file to `*-*-* 02/6:00:00`-style hours, or deleting it for the
-tracked daily schedule. Either way `daemon-reload` after.
-
-Expect a run to fire immediately after a timer edit: with `Persistent=true`
-systemd treats a slot that has passed since the last trigger as a missed run and
-catches it up. That is safe now the jobs hold a lock, but it does mean an edit
-can cost an unplanned agent run.
 
 ### Editing these scripts
 
