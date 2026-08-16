@@ -122,6 +122,16 @@ git -C ../out-of-office-cv-website-cron checkout -f --detach origin/main
 Skipping it costs one failed run, not data: state lives on the `cron-state`
 branch and the next run restores it.
 
+One invariant to preserve if you touch the git plumbing: **after the initial
+sync, a run must never refer to `origin/main` again.** Remote-tracking refs are
+shared across every worktree of a repository, so a `git fetch` in your checkout
+moves `origin/main` inside a job that is halfway through a 45-minute agent run.
+The script pins `RUN_BASE` at sync time and uses that instead; the finished
+data-only commit is then replayed onto current `origin/main` immediately before
+pushing. Both halves matter --- GitHub squash-merges a PR against main's tip, so
+a branch built on a stale base does not merely omit what landed in between, it
+reverts it.
+
 ### Search-throttle state
 
 `data/find-state.json` and `data/verify-state.json` are untracked. They are

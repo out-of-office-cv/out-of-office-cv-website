@@ -4,7 +4,7 @@ title: Harden the gig cron jobs against overlapping and interrupted runs
 status: Done
 assignee: []
 created_date: '2026-08-16 03:44'
-updated_date: '2026-08-16 04:29'
+updated_date: '2026-08-16 09:22'
 labels:
   - ops
   - cron
@@ -47,6 +47,7 @@ Both scripts invoke the agent with a trailing `|| true`, so a crashed agent and 
 ## Implementation Notes
 
 <!-- SECTION:NOTES:BEGIN -->
+--------------------------------------------------
 Locking and exit-code observability live in cron-lib.sh, sourced by both scripts.
 
 take_lock serialises on .cron.lock in the cron worktree and waits LOCK_WAIT_SECS (default 900) before giving up, logging the skip and exiting zero. run_agent captures the agent's status into AGENT_EXIT, logs it, and a non-zero status prefixes the PR body with a **Partial run** marker.
@@ -54,4 +55,12 @@ take_lock serialises on .cron.lock in the cron worktree and waits LOCK_WAIT_SECS
 AC #4 exercised for real rather than in theory: both scripts were run concurrently in a scratch clone against a local bare origin, with a stub agent holding the lock for six seconds. verify-gigs logged 'Lock held by the other gig job for 2s, skipping this run' and exited zero while find-gigs completed with its output intact.
 
 That same harness turned up a latent bug this task did not anticipate: a run checks out origin/main partway through, replacing the very script bash is reading, so it continued from a stale byte offset into a different file. Fixed by syncing first and re-execing (commit e7b1934), with the lock inherited across the exec on its fd.
+
+## Follow-up defect, found and fixed 2026-08-16 (ada9aca)
+
+Long matilda runs exposed a race the daily claude schedule had hidden. A run synced to origin/main, ran for the best part of an hour, then did `git reset --soft origin/main` before committing. Remote-tracking refs are shared across all worktrees of a repo, so a `git fetch` in the ordinary checkout moved origin/main mid-run: HEAD jumped to a commit the run had never checked out while the index still held the old file contents, and the resulting commit reverted everything that had landed in between. Auto-merge shipped it as PR #475, clobbering a skill file and two docs.
+
+Fixed by pinning RUN_BASE at sync time and using it for every later git reference, then replaying the finished data-only commit onto current origin/main just before pushing --- necessary because GitHub squash-merges against main's tip, so a stale-based branch reverts rather than omits.
+
+Reproduced in a scratch clone with an agent stub that pushes to main mid-run, and confirmed fixed: the branch is now parented on the current tip, contains only data/gigs.json, and the mid-run edit survives. Worth noting the first two attempts at that test passed misleadingly because the script re-execs the checked-out copy, so an uncommitted fix is never what runs.
 <!-- SECTION:NOTES:END -->

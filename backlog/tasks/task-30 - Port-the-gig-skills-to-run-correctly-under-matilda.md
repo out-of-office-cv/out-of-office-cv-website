@@ -4,7 +4,7 @@ title: Port the gig skills to run correctly under matilda
 status: In Progress
 assignee: []
 created_date: '2026-08-16 03:44'
-updated_date: '2026-08-16 06:24'
+updated_date: '2026-08-16 09:22'
 labels:
   - ops
   - cron
@@ -54,7 +54,7 @@ Note this does not limit coverage: the useful steady-state cadence is about 4 ru
 - [x] #1 Both SKILL.md files exist once in the repo and resolve under both CLIs, via symlinks from .matilda/skills/<name> to the .claude/skills copy, with no duplicated skill content to keep in sync
 - [x] #2 Skill bodies carry no claude-only mechanics: no reliance on $ARGUMENTS substitution and no inline bash injection, replaced by instructions that yield the same context under either CLI
 - [x] #3 A claude run of each job after the skill rewording produces the same artefacts and comparable output quality to before it, so portability has not degraded the default runner
-- [ ] #4 TimeoutStartSec on both services covers a serial matilda run, with the value justified against a measured run rather than guessed, and set via drop-in so removing it restores the current 2h
+- [x] #4 TimeoutStartSec on both services covers a serial matilda run, with the value justified against a measured run rather than guessed, and set via drop-in so removing it restores the current 2h
 - [x] #5 A matilda run of each job produces the same artefacts as a claude run: modified data/gigs.json plus the job's state file, no commits made by the agent itself, and a PR opened by the script
 - [ ] #6 A matilda find run and a claude find run over the same pinned set of pollie slugs have been compared on gig precision, not just gig count, and the result recorded on this task
 - [x] #7 Measured matilda token usage from ~/.matilda/usage_record.jsonl for one full find run is recorded on this task, with the implied daily cost at 4 runs/day extrapolated from it
@@ -64,6 +64,7 @@ Note this does not limit coverage: the useful steady-state cadence is about 4 ru
 ## Implementation Notes
 
 <!-- SECTION:NOTES:BEGIN -->
+--------------------------------------------------
 --------------------------------------------------
 --------------------------------------------------
 Symlinks .matilda/skills/{find,verify}-gigs point at the .claude/skills copies, so there is one SKILL.md per skill.
@@ -97,4 +98,10 @@ AC #5: artefacts match a claude run exactly --- data/gigs.json modified, state m
 AC #6 is NOT satisfied by this run and stays open: matilda selected its own 15 pollies, so this is not a like-for-like comparison. Doing it properly needs both CLIs run over a pinned slug list.
 
 Output quality, for what one run is worth: 3 gigs from 15 pollies (matilda) against 1 from 15 (claude, same day). Of matilda's three, mark-coulton as Director of the Page Research Centre is solid and sourced to the organisation's own people page; david-tollner as NT News columnist is sourced only to his own LinkedIn posts; stewart-west as SMH 'Opinion Contributor' is really a single 2014 op-ed plus an obituary, which is a source artefact rather than a role. So matilda is looser than claude here. verify-gigs is the filter for exactly this, and all three are unverified until it runs.
+
+## Timeout, settled 2026-08-16 (AC #4)
+
+Three measured matilda find runs: 45m30s, 57m, and 1h43m. The last had only 17 minutes of headroom against the tracked TimeoutStartSec=2h, so the earlier 'no drop-in needed' read from a single 45-minute sample was wrong. Both services now carry a timeout.conf drop-in setting 4h, with the measurements in a comment; deleting the file restores the tracked 2h.
+
+The 1h43m run was the second of two back-to-back runs: the 17:00 timer fired while the 16:32 catch-up was still going, so systemd queued it and started it the moment the first finished.
 <!-- SECTION:NOTES:END -->
