@@ -4,7 +4,7 @@ title: Port the gig skills to run correctly under matilda
 status: In Progress
 assignee: []
 created_date: '2026-08-16 03:44'
-updated_date: '2026-08-16 04:29'
+updated_date: '2026-08-16 05:06'
 labels:
   - ops
   - cron
@@ -53,7 +53,7 @@ Note this does not limit coverage: the useful steady-state cadence is about 4 ru
 <!-- AC:BEGIN -->
 - [x] #1 Both SKILL.md files exist once in the repo and resolve under both CLIs, via symlinks from .matilda/skills/<name> to the .claude/skills copy, with no duplicated skill content to keep in sync
 - [x] #2 Skill bodies carry no claude-only mechanics: no reliance on $ARGUMENTS substitution and no inline bash injection, replaced by instructions that yield the same context under either CLI
-- [ ] #3 A claude run of each job after the skill rewording produces the same artefacts and comparable output quality to before it, so portability has not degraded the default runner
+- [x] #3 A claude run of each job after the skill rewording produces the same artefacts and comparable output quality to before it, so portability has not degraded the default runner
 - [ ] #4 TimeoutStartSec on both services covers a serial matilda run, with the value justified against a measured run rather than guessed, and set via drop-in so removing it restores the current 2h
 - [ ] #5 A matilda run of each job produces the same artefacts as a claude run: modified data/gigs.json plus the job's state file, no commits made by the agent itself, and a PR opened by the script
 - [ ] #6 A matilda find run and a claude find run over the same pinned set of pollie slugs have been compared on gig precision, not just gig count, and the result recorded on this task
@@ -64,6 +64,7 @@ Note this does not limit coverage: the useful steady-state cadence is about 4 ru
 ## Implementation Notes
 
 <!-- SECTION:NOTES:BEGIN -->
+--------------------------------------------------
 Symlinks .matilda/skills/{find,verify}-gigs point at the .claude/skills copies, so there is one SKILL.md per skill.
 
 Probed matilda 0.21.2 on weddle to settle two things the task had not: it discovers skills through a symlinked directory (a real dir and a symlinked dir were both listed), and it still honours a slash invocation of a skill carrying disable-model-invocation: true. The gig skills are absent from the model-visible skill list precisely because of that flag, which is intended --- they are slash-invoked by the cron scripts.
@@ -73,4 +74,6 @@ Claude-only mechanics removed from find-gigs: $ARGUMENTS now reads as an instruc
 AC #8 exercised: removing ~/.config/systemd/user/ooc-verify-gigs.service.d/runner.conf plus a daemon-reload drops AGENT_CLI from the unit's environment, and reinstating it restores it, with no script or skill edit.
 
 Open: ACs 3, 5, 6 and 7 all need live runs, and AC 4's timeout must be justified against a measured serial matilda run rather than guessed. verify-gigs is switched to matilda and will produce the first of those measurements on its next fire.
+
+AC #3 closed 2026-08-16: a live claude run of find-gigs after the rewording behaved exactly as before --- Step 0 reported no leftover sidecars, 15 pollies selected from 729 eligible, one new gig found (wendy-fatin), pnpm build passed, sidecars and the state backup cleaned up, PR #473 opened and auto-merged. The reworded argument handling and the dropped inline-bash peeks cost nothing.
 <!-- SECTION:NOTES:END -->

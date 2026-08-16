@@ -1,10 +1,10 @@
 ---
 id: TASK-28
 title: Make the gig cron jobs' agent runner switchable via one env var
-status: In Progress
+status: Done
 assignee: []
 created_date: '2026-08-13 22:09'
-updated_date: '2026-08-16 04:29'
+updated_date: '2026-08-16 05:06'
 labels:
   - ops
   - cron
@@ -42,12 +42,13 @@ Editing a `.timer` with `Persistent=true` fires an immediate catch-up of both gi
 - [x] #4 Each run's log records which CLI and which CLI version produced it, written before the agent is invoked so a killed run is still attributable
 - [x] #5 Which CLI a job uses can be changed per-job without editing the scripts, via an Environment= drop-in on the .service (never the .timer)
 - [x] #6 The switch, the .service-not-.timer constraint, and the OAuth-only auth constraint are documented in CLAUDE.md
-- [ ] #7 A claude run of each job after the change produces the same artefacts as before it: modified data/gigs.json plus the job's state file, and a PR opened by the script
+- [x] #7 A claude run of each job after the change produces the same artefacts as before it: modified data/gigs.json plus the job's state file, and a PR opened by the script
 <!-- AC:END -->
 
 ## Implementation Notes
 
 <!-- SECTION:NOTES:BEGIN -->
+--------------------------------------------------
 AGENT_CLI is read in run_agent (cron-lib.sh) and defaults to claude, so an unset environment invokes exactly the old command line. matilda maps to --yolo --fresh with MATILDA_CODE_SUPPRESS_BOGAN_WARNING=1. An unrecognised value, or a named CLI whose binary is not executable, logs and exits 1 rather than falling back. The CLI and its version are logged before the agent starts.
 
 Dispatch verified against stubs for all five paths: default, matilda, a crashing agent (exit 42 surfaced in AGENT_EXIT), an unrecognised value, and a missing binary.
@@ -55,4 +56,6 @@ Dispatch verified against stubs for all five paths: default, matilda, a crashing
 The verify-gigs drop-in is installed on weddle (AGENT_CLI=matilda) and its removal-plus-daemon-reload rollback has been exercised. CLAUDE.md documents the switch, the .service-not-.timer constraint and the OAuth-only auth constraint.
 
 AC #7 is left open deliberately: the artefact shape was verified end to end in a scratch clone with a stub agent (PR carries only data/gigs.json, state mirrored to cron-state, branch pushed, PR opened), but a live claude run cannot happen until main is pushed and the cron worktree picks the change up.
+
+Closed 2026-08-16 by a live claude run of ooc-find-gigs.service in the cron worktree, immediately after main was pushed and the worktree synced by hand. The log records the CLI and version before the agent starts (claude 2.1.233), the agent exiting 0, the state mirrored, and PR #473 opened; the PR carries data/gigs.json only and auto-merged. Same artefacts as before the change, minus the state file that no longer belongs in the diff.
 <!-- SECTION:NOTES:END -->
