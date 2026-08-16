@@ -44565,5 +44565,14 @@
       "by": "claude",
       "note": "Both cited Wikipedia pages confirm this specific role. The Fraser Anning's Conservative National Party page infobox states Anning was 'Leader of the Conservative National Party' from '2 April 2019 – 23 September 2020' (matching the AEC registration date and the party's deregistration under Section 137(4) of the Commonwealth Electoral Act 1918), and identifies him as the party's founder. The main Fraser Anning page corroborates that he founded and led this party after being expelled from Katter's Australian Party in October 2018. Dates align exactly with the sourced timeline."
     }
+  },
+  {
+    "role": "Honorary Life Member",
+    "organisation": "Australian Reproductive Health Alliance",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wendy_Fatin"
+    ],
+    "pollie_slug": "wendy-fatin"
   }
 ]
