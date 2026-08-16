@@ -9,11 +9,14 @@ LOG_FILE="${LOG_DIR}/verify-gigs-$(date +%Y-%m-%d).log"
 
 mkdir -p "$LOG_DIR"
 
-log() { echo "$(date -Iseconds) $*" >> "$LOG_FILE"; }
+# shellcheck source=cron-lib.sh
+source "${PROJECT_DIR}/cron-lib.sh"
 
 eval "$(/home/ben/.local/bin/mise activate bash)"
 
 cd "$PROJECT_DIR"
+
+take_lock || exit 0
 
 log "=== verify-gigs started ==="
 
@@ -23,10 +26,7 @@ git fetch origin >> "$LOG_FILE" 2>&1
 git checkout -f --detach origin/main >> "$LOG_FILE" 2>&1
 git reset --hard origin/main >> "$LOG_FILE" 2>&1
 
-env -u CLAUDECODE /home/ben/.local/bin/claude \
-  --dangerously-skip-permissions \
-  -p "/verify-gigs" \
-  >> "$LOG_FILE" 2>&1 || true
+run_agent "verify-gigs"
 
 # The skill is told not to commit, but if it does anyway, fold the commits back
 # into the index so committed and uncommitted changes are handled identically.
@@ -113,6 +113,12 @@ with open("/tmp/verify-gigs-body", "w") as f:
 PYEOF
   PR_TITLE=$(cat /tmp/verify-gigs-title)
   PR_BODY=$(cat /tmp/verify-gigs-body)
+  if [[ $AGENT_EXIT -ne 0 ]]; then
+    PR_BODY="**Partial run**: the agent exited ${AGENT_EXIT}, so this is
+whatever it had finished before it stopped.
+
+${PR_BODY}"
+  fi
   rm -f /tmp/verify-gigs-old.json /tmp/verify-gigs-title /tmp/verify-gigs-body
   git commit -m "Verify gigs via cron job"
   git push -u origin "$BRANCH"
