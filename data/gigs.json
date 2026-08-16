@@ -44574,5 +44574,36 @@
       "https://en.wikipedia.org/wiki/Wendy_Fatin"
     ],
     "pollie_slug": "wendy-fatin"
+  },
+  {
+    "role": "Opinion Contributor",
+    "organisation": "Sydney Morning Herald",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.smh.com.au/opinion/time-to-live-up-to-our-refugee-responsibilities-20140226-33i9n.html",
+      "https://www.greenleft.org.au/2023/1381/analysis/vale-stewart-west-rare-labor-man-principle"
+    ],
+    "pollie_slug": "stewart-west",
+    "start_date": "2014-02-27"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "NT News",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.linkedin.com/posts/david-tollner-52749632_stop-the-nonsense-about-darwin-port-and-build-activity-7431793417342496768-riA4",
+      "https://www.linkedin.com/posts/david-tollner-52749632_my-latest-article-in-todays-nt-news-activity-7441620843069071360-Dhxu",
+      "https://www.linkedin.com/posts/david-tollner-52749632_from-todays-nt-news-activity-7482293816964841472-RwR9"
+    ],
+    "pollie_slug": "david-tollner"
+  },
+  {
+    "role": "Director",
+    "organisation": "Page Research Centre",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.page.org.au/about/people/"
+    ],
+    "pollie_slug": "mark-coulton"
   }
 ]
