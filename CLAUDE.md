@@ -62,6 +62,25 @@ Both jobs serialise on `.cron.lock` in the worktree, waiting up to 15 minutes
 checkout. A skipped run logs why and exits zero; a crashed agent logs its exit
 code and marks the PR body as partial.
 
+### Editing these scripts
+
+A run syncs the worktree to `origin/main` and then re-execs itself, because the
+scripts are among the files that checkout replaces, and bash reads a script
+incrementally --- without the re-exec, the rest of the run would execute a
+different file from a stale byte offset.
+
+That protects every change except the one that introduced it, since the run that
+first picks it up is still executing the old code. After pushing a change to
+these scripts, sync the cron worktree by hand before the next timer fires:
+
+```sh
+git -C ../out-of-office-cv-website-cron fetch origin
+git -C ../out-of-office-cv-website-cron checkout -f --detach origin/main
+```
+
+Skipping it costs one failed run, not data: state lives on the `cron-state`
+branch and the next run restores it.
+
 ### Search-throttle state
 
 `data/find-state.json` and `data/verify-state.json` are untracked. They are
@@ -84,6 +103,16 @@ git show origin/cron-state:data/find-state.json
 
 Never merge `cron-state` into `main`; it is a parallel history holding only
 those two files.
+
+### Interrupted find runs
+
+Each find-gigs subagent banks its pollie in `data/.find-inflight/<slug>.json`
+before returning, and the orchestrator merges those into `gigs.json` one pollie
+at a time. The directory is untracked, so a run killed mid-fan-out leaves its
+sidecars for the next run, which merges them before selecting --- those pollies
+are then recorded as searched instead of being researched again. Sidecars are
+deleted only after `pnpm build` passes, so a validation failure retries them
+rather than dropping them.
 
 ### Choosing the agent CLI
 
