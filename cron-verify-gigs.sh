@@ -21,6 +21,11 @@ cd "$PROJECT_DIR"
 take_lock || exit 0
 sync_checkout_and_reexec "$@"
 
+# Pin the commit this run is working against. origin/main is shared with every
+# other worktree of this repo and can move while the agent is running, so it is
+# not a safe reference once work has started.
+RUN_BASE="$(git rev-parse HEAD)"
+
 log "=== verify-gigs started ==="
 
 # The state file is untracked, so the checkout above can only remove it, never
@@ -33,19 +38,19 @@ mirror_state data/verify-state.json
 
 # The skill is told not to commit, but if it does anyway, fold the commits back
 # into the index so committed and uncommitted changes are handled identically.
-git reset --soft origin/main >> "$LOG_FILE" 2>&1
+git reset --soft "$RUN_BASE" >> "$LOG_FILE" 2>&1
 git add data/gigs.json
-git reset -q origin/main -- data/verify-state.json 2>/dev/null || true
+git reset -q "$RUN_BASE" -- data/verify-state.json 2>/dev/null || true
 
 if git diff --cached --quiet data/gigs.json; then
   log "No verification changes, nothing to commit"
-  git reset --hard origin/main >> "$LOG_FILE" 2>&1
+  git reset --hard "$RUN_BASE" >> "$LOG_FILE" 2>&1
 else
   BRANCH="verify-gigs-$(date +%Y%m%d-%H%M%S)"
   git checkout -b "$BRANCH"
-  git show HEAD:data/gigs.json > /tmp/verify-gigs-old.json
+  git show "$RUN_BASE":data/gigs.json > /tmp/verify-gigs-old.json
   git add data/gigs.json
-git reset -q origin/main -- data/verify-state.json 2>/dev/null || true
+git reset -q "$RUN_BASE" -- data/verify-state.json 2>/dev/null || true
   python3 <<'PYEOF'
 import json
 from collections import defaultdict
@@ -126,6 +131,7 @@ ${PR_BODY}"
   fi
   rm -f /tmp/verify-gigs-old.json /tmp/verify-gigs-title /tmp/verify-gigs-body
   git commit -m "Verify gigs via cron job"
+  rebase_onto_main || exit 1
   git push -u origin "$BRANCH"
   gh pr create \
     --title "$PR_TITLE" \

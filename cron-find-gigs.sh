@@ -22,6 +22,11 @@ cd "$PROJECT_DIR"
 take_lock || exit 0
 sync_checkout_and_reexec "$@"
 
+# Pin the commit this run is working against. origin/main is shared with every
+# other worktree of this repo and can move while the agent is running, so it is
+# not a safe reference once work has started.
+RUN_BASE="$(git rev-parse HEAD)"
+
 log "=== find-gigs started ==="
 
 # The state file is untracked, so the checkout above can only remove it, never
@@ -34,20 +39,20 @@ mirror_state data/find-state.json
 
 # The skill is told not to commit, but if it does anyway, fold the commits back
 # into the index so committed and uncommitted changes are handled identically.
-git reset --soft origin/main >> "$LOG_FILE" 2>&1
+git reset --soft "$RUN_BASE" >> "$LOG_FILE" 2>&1
 git add data/gigs.json
-git reset -q origin/main -- data/find-state.json 2>/dev/null || true
+git reset -q "$RUN_BASE" -- data/find-state.json 2>/dev/null || true
 
 # If gigs.json was modified, commit, push, and open a PR. The state file is not
 # in it: it is bookkeeping, and routing it through a PR made the search throttle
 # depend on how quickly that PR got merged.
 if git diff --cached --quiet data/gigs.json; then
   log "No new gigs found, nothing to commit"
-  git reset --hard origin/main >> "$LOG_FILE" 2>&1
+  git reset --hard "$RUN_BASE" >> "$LOG_FILE" 2>&1
 else
   BRANCH="find-gigs-$(date +%Y%m%d-%H%M%S)"
   git checkout -b "$BRANCH"
-  git show origin/main:data/gigs.json > /tmp/find-gigs-old.json
+  git show "$RUN_BASE":data/gigs.json > /tmp/find-gigs-old.json
   python3 <<'PYEOF'
 import json
 from collections import Counter
@@ -94,6 +99,7 @@ ${PR_BODY}"
   fi
   rm -f /tmp/find-gigs-old.json /tmp/find-gigs-title /tmp/find-gigs-body
   git commit -m "Add gigs found by cron job"
+  rebase_onto_main || exit 1
   git push -u origin "$BRANCH"
   gh pr create \
     --title "$PR_TITLE" \

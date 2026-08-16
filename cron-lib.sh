@@ -104,6 +104,29 @@ run_agent() {
   fi
 }
 
+# Replay this run's data-only commit onto current origin/main before pushing.
+#
+# A run commits against the tree it checked out, which can be an hour or more
+# stale by the time a serial matilda run finishes --- and origin/main is a
+# shared ref across every worktree of this repo, so a fetch anywhere moves it
+# under a running job. GitHub squash-merges a PR against main's tip, so a branch
+# built on a stale base does not merely omit what landed in between, it reverts
+# it. This is not hypothetical: it clobbered a skill and two docs on 2026-08-16.
+#
+# Rebasing one data-only commit cannot wedge the job: a conflict aborts, the
+# worktree goes back to origin/main, and the run fails loudly for the health
+# check to pick up.
+rebase_onto_main() {
+  git fetch origin >> "$LOG_FILE" 2>&1
+  if git rebase origin/main >> "$LOG_FILE" 2>&1; then
+    return 0
+  fi
+  git rebase --abort >> "$LOG_FILE" 2>&1 || true
+  git checkout -f --detach origin/main >> "$LOG_FILE" 2>&1 || true
+  log "Could not replay this run's data commit onto origin/main, leaving it unpushed"
+  return 1
+}
+
 # The search-throttle state files (data/find-state.json, data/verify-state.json)
 # are untracked: they are machine bookkeeping, not reviewable content, and
 # routing them through a PR made the throttle depend on how quickly that PR was
