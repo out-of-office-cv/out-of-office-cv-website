@@ -44605,5 +44605,90 @@
       "https://www.page.org.au/about/people/"
     ],
     "pollie_slug": "mark-coulton"
+  },
+  {
+    "pollie_slug": "alan-eggleston",
+    "role": "Research Fellow",
+    "organisation": "Asia Research Centre, Murdoch University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://linkedin.com/in/alan-eggleston-62b2171b"
+    ],
+    "role_evidence": {
+      "url": "https://linkedin.com/in/alan-eggleston-62b2171b",
+      "quote": "Formerly Senator for WA now Research Fellow Asia Research Centre Murdoch University"
+    }
+  },
+  {
+    "pollie_slug": "david-gillespie",
+    "role": "Advisor",
+    "organisation": "Deployable Energy",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://au.linkedin.com/in/david-gillespie-71976141",
+      "https://www.linkedin.com/posts/david-gillespie-71976141_im-sure-deployable-energy-will-have-generated-activity-7422010445374537728-vNhy"
+    ],
+    "role_evidence": {
+      "url": "https://au.linkedin.com/in/david-gillespie-71976141",
+      "quote": "Advisor at Deployable Energy with 11 months of experience"
+    },
+    "start_date": "2025-08-01"
+  },
+  {
+    "pollie_slug": "keith-wolahan",
+    "role": "Director",
+    "organisation": "Cormack Foundation",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.afr.com/rear-window/war-for-the-liberal-party-s-soul-goes-to-the-bank-20260503-p5zt8c"
+    ],
+    "role_evidence": {
+      "url": "https://www.afr.com/rear-window/war-for-the-liberal-party-s-soul-goes-to-the-bank-20260503-p5zt8c",
+      "quote": "Liberal Party's Cormack Foundation adds Mitch Fifield, Keith Wolahan and Tom Harley to board"
+    }
+  },
+  {
+    "pollie_slug": "stuart-robert",
+    "role": "Chief Executive Officer",
+    "organisation": "Explore My Store",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.brisbanetimes.com.au/cbd/former-mp-stuart-robert-explores-a-new-cause-saving-aussie-retail-20231204-p5eoy8.html",
+      "https://www.smh.com.au/cbd/former-mp-stuart-robert-explores-a-new-cause-saving-aussie-retail-20231204-p5eoy8.html"
+    ],
+    "role_evidence": {
+      "url": "https://www.smh.com.au/cbd/former-mp-stuart-robert-explores-a-new-cause-saving-aussie-retail-20231204-p5eoy8.html",
+      "quote": "Former minister Stuart Robert is CEO of a very strange online shopping portal"
+    }
+  },
+  {
+    "pollie_slug": "andrew-southcott",
+    "role": "Chair",
+    "organisation": "University of Adelaide",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.joblookup.com.au/p/andrew-southcott",
+      "https://linkedin.com/in/dr-andrew-southcott-fracgp-gaicd-27a3ba68"
+    ],
+    "role_evidence": {
+      "url": "https://www.joblookup.com.au/p/andrew-southcott",
+      "quote": "Chair, External Advisory Council, Faculty of Health and Medical Sciences"
+    },
+    "start_date": "2016-11",
+    "end_date": "2019-02"
+  },
+  {
+    "pollie_slug": "andrew-southcott",
+    "role": "Director",
+    "organisation": "Southcott Pty Ltd",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://linkedin.com/in/dr-andrew-southcott-fracgp-gaicd-27a3ba68"
+    ],
+    "role_evidence": {
+      "url": "https://linkedin.com/in/dr-andrew-southcott-fracgp-gaicd-27a3ba68",
+      "quote": "Director - Southcott Pty Ltd (Current)"
+    },
+    "start_date": "2023-12"
   }
 ]
