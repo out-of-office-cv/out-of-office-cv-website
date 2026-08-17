@@ -44860,5 +44860,158 @@
       "quote": "Director - Southcott Pty Ltd (Current)"
     },
     "start_date": "2023-12"
+  },
+  {
+    "pollie_slug": "damian-drum",
+    "role": "Vice President",
+    "organisation": "Shepparton Golf Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.sheppartongolf.net.au/cms/club/board-and-sub-committees/"
+    ],
+    "role_evidence": {
+      "url": "https://www.sheppartongolf.net.au/cms/club/board-and-sub-committees/",
+      "quote": "Vice President \u2013 Damian Drum"
+    }
+  },
+  {
+    "pollie_slug": "damian-drum",
+    "role": "Director",
+    "organisation": "Sandhurst Catholic Early Childhood Education and Care",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.linkedin.com/posts/catholic-education-sandhurst_as-we-wrap-up-the-year-we-acknowledge-and-activity-7405079230197325824-DBK2"
+    ],
+    "role_evidence": {
+      "url": "https://www.linkedin.com/posts/catholic-education-sandhurst_as-we-wrap-up-the-year-we-acknowledge-and-activity-7405079230197325824-DBK2",
+      "quote": "Damian Drum MP (Sandhurst Catholic Early Childhood Education & Care Ltd Board) for your leadership and service to Catholic education and early childhood in Sandhurst."
+    }
+  },
+  {
+    "pollie_slug": "damian-hale",
+    "role": "Coach",
+    "organisation": "Nightcliff Football Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.abc.net.au/news/2016-02-29/hale-window-smash-leads-to-political-spat/7206862",
+      "https://www.footyalmanac.com.au/coaching-movements-in-the-ntfl/"
+    ],
+    "role_evidence": {
+      "url": "https://www.abc.net.au/news/2016-02-29/hale-window-smash-leads-to-political-spat/7206862",
+      "quote": "Mr Hale, the Nightcliff Tigers coach, is also a Labor candidate in the upcoming Territory election, with the incident leading to a reprimand by his leader, Michael Gunner."
+    }
+  },
+  {
+    "pollie_slug": "john-alexander",
+    "role": "Advisory Board Chair",
+    "organisation": "Australian High Speed Rail Association",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://web.archive.org/web/20250601000000/https://www.auhsr.org/team-1",
+      "https://www.fastrackaustralia.net/post/take-outs-from-our-mini-conference",
+      "https://www.prosper.org.au/2025/09/transcript-regional-development-high-speed-rail-and-value-capture-a-bipartisan-approach/"
+    ],
+    "role_evidence": {
+      "url": "https://web.archive.org/web/20250601000000/https://www.auhsr.org/team-1",
+      "quote": "JOHN ALEXANDER, ADVISORY BOARD CHAIR"
+    }
+  },
+  {
+    "pollie_slug": "linda-reynolds",
+    "role": "Chair",
+    "organisation": "Legacy WA",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.linkedin.com/posts/legacywa_legacywa-lestweforget-koreanwar-activity-7487775175795617792-C4mo",
+      "https://www.linkedin.com/posts/legacywa_a-transformational-step-forward-for-legacy-activity-7408761020468465664-yxO0",
+      "https://www.linkedin.com/posts/linda-reynolds-6003219_legacy-wa-home-activity-7432982502262145024-7CeQ"
+    ],
+    "role_evidence": {
+      "url": "https://www.linkedin.com/posts/legacywa_legacywa-lestweforget-koreanwar-activity-7487775175795617792-C4mo",
+      "quote": "Yesterday, Legacy WA Board Chair, The Hon. Linda Reynolds CSC, attended the 73rd Anniversary of the Korean War Armistice Agreement Commemorative Service at the Korean War Memorial in Kings Park."
+    },
+    "start_date": "2026-01"
+  },
+  {
+    "pollie_slug": "christian-porter",
+    "role": "Solicitor and Barrister",
+    "organisation": "Henley Stirling Lawyers",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://millerchambers.com.au/"
+    ],
+    "role_evidence": {
+      "url": "https://millerchambers.com.au/",
+      "quote": "Since retiring from Federal politics in April 2022 Christian has returned to the law. He established Henley Stirling Lawyers where he worked as a Solicitor and Barrister, appearing in jury trials, appeals, sentencing matters and bail applications."
+    }
+  },
+  {
+    "pollie_slug": "max-chandler-mather",
+    "role": "Executive Director",
+    "organisation": "Green Institute",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.greeninstitute.org.au/release-max-chandler-mather-to-lead-revamped-green-institute/"
+    ],
+    "role_evidence": {
+      "url": "https://www.greeninstitute.org.au/release-max-chandler-mather-to-lead-revamped-green-institute/",
+      "quote": "Former Greens MP for Griffith and Greens Housing spokesperson Max Chandler-Mather has been appointed the Executive Director of The Green Institute, the national research institute for the Australian Greens."
+    },
+    "start_date": "2026-04-08"
+  },
+  {
+    "pollie_slug": "john-morris",
+    "role": "Director",
+    "organisation": "Greyhound Racing Authority NSW",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://biography.senate.gov.au/morris-john-joseph/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/morris-john-joseph/",
+      "quote": "Deeply involved in greyhound racing as an owner of greyhounds trained by his wife, he served on the board of the Greyhound Racing Authority NSW and the board of the Wentworth Park Sporting Complex Trust."
+    }
+  },
+  {
+    "pollie_slug": "john-morris",
+    "role": "Director",
+    "organisation": "Wentworth Park Sporting Complex Trust",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://biography.senate.gov.au/morris-john-joseph/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/morris-john-joseph/",
+      "quote": "Deeply involved in greyhound racing as an owner of greyhounds trained by his wife, he served on the board of the Greyhound Racing Authority NSW and the board of the Wentworth Park Sporting Complex Trust."
+    }
+  },
+  {
+    "pollie_slug": "steven-martin",
+    "role": "President",
+    "organisation": "Children's Book Council of Australia \u2013 Tasmanian Branch",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://cbcatas.org.au/",
+      "https://insidelocalgovernment.com.au/oam-for-devonport-city-councillor/"
+    ],
+    "role_evidence": {
+      "url": "https://insidelocalgovernment.com.au/oam-for-devonport-city-councillor/",
+      "quote": "He is also President at Children's Book Council of Australia \u2013 Tasmanian Branch; President of the Tasmanian Masters Games Inc and Founder and President of Toast for Kids Charity Inc."
+    },
+    "start_date": "2025-10-25"
+  },
+  {
+    "pollie_slug": "steven-martin",
+    "role": "President",
+    "organisation": "Tasmanian Masters Games Inc",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.thesenior.com.au/story/8706514/tasmanian-masters-games-2024-register-whats-on/",
+      "https://insidelocalgovernment.com.au/oam-for-devonport-city-councillor/"
+    ],
+    "role_evidence": {
+      "url": "https://insidelocalgovernment.com.au/oam-for-devonport-city-councillor/",
+      "quote": "He is also President at Children's Book Council of Australia \u2013 Tasmanian Branch; President of the Tasmanian Masters Games Inc and Founder and President of Toast for Kids Charity Inc."
+    }
   }
 ]
