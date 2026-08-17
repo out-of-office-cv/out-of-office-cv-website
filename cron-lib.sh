@@ -171,7 +171,19 @@ mirror_state() {
   local tmp_index tree parent commit ref
   local -a parent_args=()
 
+  ref="refs/remotes/origin/${STATE_BRANCH}"
+
   tmp_index="$(mktemp -u)"
+  # Seed the scratch index from the current mirror before adding this job's
+  # files. write-tree serialises the whole index, so without the seed the tree
+  # holds only "$@" and the commit deletes every path the other job owns. That
+  # is how data/verify-state.json disappeared from the branch on 2026-08-16:
+  # the seed carried both files, then the next find run replaced the tree with
+  # find-state.json alone. Each job must carry the other's state forward.
+  if git rev-parse -q --verify "$ref" > /dev/null &&
+    ! GIT_INDEX_FILE="$tmp_index" git read-tree "$ref" 2>>"$LOG_FILE"; then
+    log "Could not read the ${STATE_BRANCH} mirror; writing only this job's state"
+  fi
   if ! GIT_INDEX_FILE="$tmp_index" git add --force -- "$@" 2>>"$LOG_FILE"; then
     log "Could not stage state for the ${STATE_BRANCH} mirror, skipping it"
     rm -f "$tmp_index"
@@ -180,7 +192,6 @@ mirror_state() {
   tree="$(GIT_INDEX_FILE="$tmp_index" git write-tree)"
   rm -f "$tmp_index"
 
-  ref="refs/remotes/origin/${STATE_BRANCH}"
   if parent="$(git rev-parse -q --verify "$ref")"; then
     parent_args=(-p "$parent")
     if [[ "$(git rev-parse "${parent}^{tree}")" == "$tree" ]]; then
