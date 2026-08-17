@@ -93,7 +93,7 @@ systemctl --user daemon-reload
 ```
 
 The bare `OnCalendar=` first is a reset: systemd accumulates `OnCalendar`
-entries across drop-ins, so without it the new schedule is *added* to the
+entries across drop-ins, so without it the new schedule is _added_ to the
 tracked 05:00 rather than replacing it. Dropping back to steady state means
 editing that file to `*-*-* 02/6:00:00`-style hours, or deleting it for the
 tracked daily schedule. Either way `daemon-reload` after.
@@ -141,9 +141,9 @@ re-picked the same pollies, and duplicated the work.
 
 The copy in the cron worktree is authoritative --- untracked files survive both
 `git checkout -f --detach` and `git reset --hard`, so it is simply always there.
-Each run mirrors it onto the long-lived `cron-state` branch, and restores it from
-there when it is missing (a fresh worktree). The mirror is best effort: a failed
-push logs and moves on, because local is the source of truth.
+Each run mirrors it onto the long-lived `cron-state` branch, and restores it
+from there when it is missing (a fresh worktree). The mirror is best effort: a
+failed push logs and moves on, because local is the source of truth.
 
 Read the current throttle without ssh:
 
@@ -168,9 +168,9 @@ rather than dropping them.
 ### Choosing the agent CLI
 
 `AGENT_CLI` selects the runner and defaults to `claude`, so an unset environment
-behaves exactly as it always has. `matilda` is the other accepted value; anything
-else fails the run rather than falling back. Switch one job without touching the
-scripts:
+behaves exactly as it always has. `matilda` is the other accepted value;
+anything else fails the run rather than falling back. Switch one job without
+touching the scripts:
 
 ```sh
 mkdir -p ~/.config/systemd/user/ooc-find-gigs.service.d
