@@ -152,6 +152,14 @@ git fetch origin cron-state
 git show origin/cron-state:data/find-state.json
 ```
 
+Both jobs share that one branch, so a mirror must carry the file it does not
+own. `mirror_state` seeds its scratch index from the current mirror before
+adding the caller's paths; without that seed `write-tree` serialises an index
+holding only the caller's file and the commit deletes the other job's state.
+That is exactly what happened on 2026-08-16 --- the seed carried both files, the
+next find run replaced the tree with `find-state.json` alone, and
+`verify-state.json` was gone until it was restored from the last tracked copy.
+
 Never merge `cron-state` into `main`; it is a parallel history holding only
 those two files.
 
@@ -181,7 +189,14 @@ CONF
 systemctl --user daemon-reload
 ```
 
-Roll back by deleting that file and reloading. Two constraints worth knowing:
+`AGENT_MODEL` picks the model the same way and takes the same kind of drop-in.
+Unset leaves each CLI on its own default, which for claude is whatever
+`~/.claude/settings.json` pins. The value is passed through verbatim, so it is
+only as portable as the name itself: `sonnet` is a claude alias and means
+nothing to matilda. Prefer it over `ANTHROPIC_MODEL`, which the claude CLI reads
+directly but which evaporates silently the moment `AGENT_CLI=matilda`.
+
+Roll back by deleting either file and reloading. Two constraints worth knowing:
 
 - **Drop-ins go on the `.service`, never the `.timer`.** Editing a timer with
   `Persistent=true` fires an immediate catch-up of both gig timers at once.
