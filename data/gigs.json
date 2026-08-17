@@ -45013,5 +45013,156 @@
       "url": "https://insidelocalgovernment.com.au/oam-for-devonport-city-councillor/",
       "quote": "He is also President at Children's Book Council of Australia \u2013 Tasmanian Branch; President of the Tasmanian Masters Games Inc and Founder and President of Toast for Kids Charity Inc."
     }
+  },
+  {
+    "pollie_slug": "brendan-smyth",
+    "role": "Director",
+    "organisation": "Canberra Glassworks",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://canberraglassworks.com/wp-content/uploads/2025/01/Canberra-Glassworks-Ltd-2023-Audited-Annual-Report.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://canberraglassworks.com/wp-content/uploads/2025/01/Canberra-Glassworks-Ltd-2023-Audited-Annual-Report.pdf",
+      "quote": "Director from 26 November 2016 until 30 March 2023"
+    },
+    "start_date": "2016-11-26",
+    "end_date": "2023-03-30"
+  },
+  {
+    "pollie_slug": "brendan-smyth",
+    "role": "COVID-19 Local Business Commissioner",
+    "organisation": "ACT Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://citynews.com.au/2020/brendan-smyth-to-mediate-commercial-lease-issues/"
+    ],
+    "role_evidence": {
+      "url": "https://citynews.com.au/2020/brendan-smyth-to-mediate-commercial-lease-issues/",
+      "quote": "FORMER Liberal opposition leader Brendan Smyth has been appointed the new COVID-19 local business commissioner."
+    }
+  },
+  {
+    "pollie_slug": "darren-cheeseman",
+    "role": "Member for South Barwon",
+    "organisation": "Victorian Legislative Assembly",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Darren_Cheeseman",
+      "https://www.parliament.vic.gov.au/members/darren-cheeseman/"
+    ],
+    "role_evidence": {
+      "url": "https://en.wikipedia.org/wiki/Darren_Cheeseman",
+      "quote": "In 2018, Cheeseman was elected to the Victorian Legislative Assembly as the Labor member for South Barwon."
+    },
+    "start_date": "2018-11-24"
+  },
+  {
+    "pollie_slug": "darren-cheeseman",
+    "role": "Parliamentary Secretary for Education",
+    "organisation": "Victorian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.bay939.com.au/local-news/cheeseman-resigns-as-parliamentary-secretary/"
+    ],
+    "role_evidence": {
+      "url": "https://www.bay939.com.au/local-news/cheeseman-resigns-as-parliamentary-secretary/",
+      "quote": "Local MP Darren Cheeseman has been asked to resign as Parliamentary Secretary for Education."
+    },
+    "end_date": "2024-04-26"
+  },
+  {
+    "pollie_slug": "santo-santoro",
+    "role": "Director",
+    "organisation": "SAS Group",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://michaelwest.com.au/santo-santoro/"
+    ],
+    "role_evidence": {
+      "url": "https://michaelwest.com.au/santo-santoro/",
+      "quote": "Director, SAS Group"
+    }
+  },
+  {
+    "pollie_slug": "santo-santoro",
+    "role": "Director",
+    "organisation": "Aged Care Interiors",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://michaelwest.com.au/santo-santoro/"
+    ],
+    "role_evidence": {
+      "url": "https://michaelwest.com.au/santo-santoro/",
+      "quote": "Director, Aged Care Interiors"
+    }
+  },
+  {
+    "pollie_slug": "santo-santoro",
+    "role": "President",
+    "organisation": "Italian Chamber of Commerce and Industry (Queensland)",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://icci.com.au/team/",
+      "https://michaelwest.com.au/santo-santoro/"
+    ],
+    "role_evidence": {
+      "url": "https://icci.com.au/team/",
+      "quote": "Santo has served as Vice-President of Com.it.es Queensland and Northern Territory and President of the Italian Chamber of Commerce and Industry (Queensland) between 2011 and 2020."
+    },
+    "start_date": "2011",
+    "end_date": "2020"
+  },
+  {
+    "pollie_slug": "santo-santoro",
+    "role": "Vice President",
+    "organisation": "Italian Chamber of Commerce and Industry (Queensland)",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://icci.com.au/team/"
+    ],
+    "role_evidence": {
+      "url": "https://icci.com.au/team/",
+      "quote": "Santo's commitment to ICCI (Qld) has seen his return into the service of the Chamber as Vice President of ICCI (Qld)."
+    }
+  },
+  {
+    "pollie_slug": "santo-santoro",
+    "role": "Vice President",
+    "organisation": "Com.It.Es Queensland and Northern Territory",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://icci.com.au/team/"
+    ],
+    "role_evidence": {
+      "url": "https://icci.com.au/team/",
+      "quote": "Santo has served as Vice-President of Com.it.es Queensland and Northern Territory and President of the Italian Chamber of Commerce and Industry (Queensland) between 2011 and 2020."
+    }
+  },
+  {
+    "pollie_slug": "santo-santoro",
+    "role": "President",
+    "organisation": "Accademia Italiana della Cucina, Brisbane Chapter",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://icci.com.au/team/"
+    ],
+    "role_evidence": {
+      "url": "https://icci.com.au/team/",
+      "quote": "Currently, Santo serves as President of the Brisbane Chapter of the Accademia Italiana della Cucina, President of the Organising Committee of Festitalia and is also a proud member of the Sicilian Association of Queensland."
+    }
+  },
+  {
+    "pollie_slug": "santo-santoro",
+    "role": "President",
+    "organisation": "Festitalia Organising Committee",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://icci.com.au/team/"
+    ],
+    "role_evidence": {
+      "url": "https://icci.com.au/team/",
+      "quote": "Currently, Santo serves as President of the Brisbane Chapter of the Accademia Italiana della Cucina, President of the Organising Committee of Festitalia and is also a proud member of the Sicilian Association of Queensland."
+    }
   }
 ]
