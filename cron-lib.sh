@@ -59,16 +59,26 @@ sync_checkout_and_reexec() {
 # Selecting the runner per job is a matter of an Environment= drop-in on the
 # .service --- never the .timer, since editing a timer with Persistent=true
 # fires an immediate catch-up of both gig timers at once.
+#
+# AGENT_MODEL is passed through to whichever runner AGENT_CLI selected, and is
+# therefore only as portable as the name itself: `sonnet` is a claude alias and
+# means nothing to matilda. Unset leaves each CLI on its own default, which for
+# claude is whatever ~/.claude/settings.json pins.
 run_agent() {
   local skill="$1"
   local cli="${AGENT_CLI:-claude}"
+  local model="${AGENT_MODEL:-}"
   local bin
   local -a cmd
 
   case "$cli" in
     claude)
       bin="${CLAUDE_BIN:-/home/ben/.local/bin/claude}"
-      cmd=(env -u CLAUDECODE "$bin" --dangerously-skip-permissions -p "/${skill}")
+      cmd=(env -u CLAUDECODE "$bin" --dangerously-skip-permissions)
+      if [[ -n "$model" ]]; then
+        cmd+=(--model "$model")
+      fi
+      cmd+=(-p "/${skill}")
       ;;
     matilda)
       # --fresh so no earlier session is carried in; the env var silences a
@@ -77,7 +87,11 @@ run_agent() {
       # it --- there is no key to plumb in here.
       bin="${MATILDA_BIN:-/home/ben/.local/share/mise/shims/matilda}"
       cmd=(env -u CLAUDECODE MATILDA_CODE_SUPPRESS_BOGAN_WARNING=1 \
-        "$bin" --yolo --fresh "/${skill}")
+        "$bin" --yolo --fresh)
+      if [[ -n "$model" ]]; then
+        cmd+=(--model "$model")
+      fi
+      cmd+=("/${skill}")
       ;;
     *)
       log "Unrecognised AGENT_CLI=${cli}, expected claude or matilda"
@@ -91,7 +105,7 @@ run_agent() {
   fi
 
   # Recorded before the agent is invoked, so a killed run is still attributable.
-  log "Agent: ${cli} $("$bin" --version 2>&1 | head -1)"
+  log "Agent: ${cli} $("$bin" --version 2>&1 | head -1)${model:+ (model ${model})}"
 
   set +e
   "${cmd[@]}" >> "$LOG_FILE" 2>&1
