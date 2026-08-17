@@ -44571,9 +44571,14 @@
     "organisation": "Australian Reproductive Health Alliance",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://en.wikipedia.org/wiki/Wendy_Fatin"
+      "https://en.wikipedia.org/wiki/Wendy_Fatin",
+      "https://www.womenaustralia.info/entries/fatin-wendy-frances/"
     ],
-    "pollie_slug": "wendy-fatin"
+    "pollie_slug": "wendy-fatin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Opinion Contributor",
@@ -44584,7 +44589,11 @@
       "https://www.greenleft.org.au/2023/1381/analysis/vale-stewart-west-rare-labor-man-principle"
     ],
     "pollie_slug": "stewart-west",
-    "start_date": "2014-02-27"
+    "start_date": "2014-02-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Columnist",
@@ -44595,7 +44604,11 @@
       "https://www.linkedin.com/posts/david-tollner-52749632_my-latest-article-in-todays-nt-news-activity-7441620843069071360-Dhxu",
       "https://www.linkedin.com/posts/david-tollner-52749632_from-todays-nt-news-activity-7482293816964841472-RwR9"
     ],
-    "pollie_slug": "david-tollner"
+    "pollie_slug": "david-tollner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -44617,6 +44630,10 @@
     "role_evidence": {
       "url": "https://trademarkgroup.com.au/michael-sukkar-appointed-to-trademark-advisory-board/",
       "quote": "The Hon Michael Sukkar has joined the Board, bringing with him extensive experience in high-level government responsibilities across housing, taxation, and economic policy."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -44643,6 +44660,10 @@
     "role_evidence": {
       "url": "https://www.pflresearch.com/mintel/2016/9/26/fund-people-as-at-27-september-2016",
       "quote": "Super SA has appointed Annette Hurley and Richard Dennis to the board."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -44665,12 +44686,17 @@
     "organisation": "TAFE South Australia",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.indailysa.com.au/news/business/2026/05/11/corporate-ladder-your-weekly-guide-to-executive-appointments-in-south-australia-133"
+      "https://www.indailysa.com.au/news/business/2026/05/11/corporate-ladder-your-weekly-guide-to-executive-appointments-in-south-australia-133",
+      "https://www.tafesa.edu.au/docs/default-source/about_tafesa/tafesa_annualreport.pdf?sfvrsn=2"
     ],
     "pollie_slug": "annette-hurley",
     "role_evidence": {
       "url": "https://www.indailysa.com.au/news/business/2026/05/11/corporate-ladder-your-weekly-guide-to-executive-appointments-in-south-australia-133",
       "quote": "Hurley is an experienced board member, having served as treasurer and board member for the Northern Adelaide Community and Youth Services for more than 20 years, and a director on the board of TAFE South Australia."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -44684,6 +44710,10 @@
     "role_evidence": {
       "url": "https://www.abc.net.au/news/2017-12-21/lady-florence-dies/9277280",
       "quote": "As a staunch monarchist, she was president of Queenslanders for a Constitutional Monarchy, campaigning against a republic."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -44692,15 +44722,20 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://adb.anu.edu.au/biography/causley-ian-raymond-28218",
-      "https://www.foodmag.com.au/new-directors-for-sugar-research-appointed/"
+      "https://www.foodmag.com.au/new-directors-for-sugar-research-appointed/",
+      "https://elibrary.sugarresearch.com.au/server/api/core/bitstreams/ef07ad7d-a0f5-49a4-93df-673d431d825a/content"
     ],
     "pollie_slug": "ian-causley",
     "role_evidence": {
       "url": "https://adb.anu.edu.au/biography/causley-ian-raymond-28218",
       "quote": "Retiring to his farm at the mouth of the Clarence River, Causley resumed his role as a rural industry leader, serving as chair of the New South Wales Sugar Milling Co-operative (2009–17) and of the Sugar Research and Development Corporation board (2010–13)."
     },
-    "start_date": "2010-01-01",
-    "end_date": "2013-12-31"
+    "start_date": "2010-10-01",
+    "end_date": "2013-09-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -44715,7 +44750,11 @@
       "url": "https://crawford.anu.edu.au/crawford-school-public-policy/news/professor-janine-oflynn-appointed-board-anzsog",
       "quote": "The Director of the Crawford School of Public Policy takes her seat alongside two other new board members: Vice-Chancellor and President of the University of Canberra, The Hon Bill Shorten, and Simone Walker, Deputy Secretary, Corporate Services at the NSW Premier's Department."
     },
-    "start_date": "2026-06-02"
+    "start_date": "2026-06-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -44730,7 +44769,11 @@
       "url": "https://www.unisport.com.au/person/professor-shorten/",
       "quote": "In addition to his role at the University of Canberra, Bill will now serve as Chair of UniSport Australia, supporting the organisation's mission to enhance student wellbeing, leadership, connection and educational outcomes through sport and active recreation."
     },
-    "start_date": "2026-06-04"
+    "start_date": "2026-06-04",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
@@ -44745,7 +44788,11 @@
       "url": "https://www.abc.net.au/news/2017-06-27/ricky-muir-joins-shooters-fishers-farmers-party-victoria/8654618",
       "quote": "The Shooters, Fishers and Farmers Party (SFF), which holds two Upper House seats, have secured Mr Muir in an ambassadorial role for issues in his native Gippsland."
     },
-    "start_date": "2017-06-27"
+    "start_date": "2017-06-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -44760,7 +44807,11 @@
       "url": "https://www.worldskills.org.au/next-generation-of-aussie-skills-talent-gears-up-for-world-stage/",
       "quote": "Quotes attributable to WorldSkills Australia Patron and former Minister for Skills and Training, Hon Brendan O'Connor"
     },
-    "start_date": "2025-06-12"
+    "start_date": "2025-06-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Deputy Chair",
@@ -44774,6 +44825,10 @@
     "role_evidence": {
       "url": "https://www.linkedin.com/posts/european-australian-business-council_the-eabcs-2026-business-mission-to-europe-activity-7474541583179112448-O0V5",
       "quote": "The EABC's 2026 Business Mission to Europe kicked off in Brussels this afternoon, led by our co-deputy chairs Professor the Hon. Brendan O'Connor and Vicki Thomson."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -44782,7 +44837,8 @@
     "organisation": "Asia Research Centre, Murdoch University",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://linkedin.com/in/alan-eggleston-62b2171b"
+      "https://linkedin.com/in/alan-eggleston-62b2171b",
+      "https://au.linkedin.com/in/alan-eggleston-33b983150"
     ],
     "role_evidence": {
       "url": "https://linkedin.com/in/alan-eggleston-62b2171b",
@@ -44815,6 +44871,10 @@
     "role_evidence": {
       "url": "https://www.afr.com/rear-window/war-for-the-liberal-party-s-soul-goes-to-the-bank-20260503-p5zt8c",
       "quote": "Liberal Party's Cormack Foundation adds Mitch Fifield, Keith Wolahan and Tom Harley to board"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -44829,6 +44889,10 @@
     "role_evidence": {
       "url": "https://www.smh.com.au/cbd/former-mp-stuart-robert-explores-a-new-cause-saving-aussie-retail-20231204-p5eoy8.html",
       "quote": "Former minister Stuart Robert is CEO of a very strange online shopping portal"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -44838,14 +44902,19 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://www.joblookup.com.au/p/andrew-southcott",
-      "https://linkedin.com/in/dr-andrew-southcott-fracgp-gaicd-27a3ba68"
+      "https://linkedin.com/in/dr-andrew-southcott-fracgp-gaicd-27a3ba68",
+      "https://en.wikipedia.org/wiki/Andrew_Southcott"
     ],
     "role_evidence": {
       "url": "https://www.joblookup.com.au/p/andrew-southcott",
       "quote": "Chair, External Advisory Council, Faculty of Health and Medical Sciences"
     },
     "start_date": "2016-11",
-    "end_date": "2019-02"
+    "end_date": "2019-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "andrew-southcott",
@@ -44872,6 +44941,10 @@
     "role_evidence": {
       "url": "https://www.sheppartongolf.net.au/cms/club/board-and-sub-committees/",
       "quote": "Vice President – Damian Drum"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -44899,6 +44972,10 @@
     "role_evidence": {
       "url": "https://www.abc.net.au/news/2016-02-29/hale-window-smash-leads-to-political-spat/7206862",
       "quote": "Mr Hale, the Nightcliff Tigers coach, is also a Labor candidate in the upcoming Territory election, with the incident leading to a reprimand by his leader, Michael Gunner."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -44914,6 +44991,10 @@
     "role_evidence": {
       "url": "https://web.archive.org/web/20250601000000/https://www.auhsr.org/team-1",
       "quote": "JOHN ALEXANDER, ADVISORY BOARD CHAIR"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -44930,7 +45011,11 @@
       "url": "https://www.linkedin.com/posts/legacywa_legacywa-lestweforget-koreanwar-activity-7487775175795617792-C4mo",
       "quote": "Yesterday, Legacy WA Board Chair, The Hon. Linda Reynolds CSC, attended the 73rd Anniversary of the Korean War Armistice Agreement Commemorative Service at the Korean War Memorial in Kings Park."
     },
-    "start_date": "2026-01"
+    "start_date": "2026-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "christian-porter",
@@ -44943,6 +45028,10 @@
     "role_evidence": {
       "url": "https://millerchambers.com.au/",
       "quote": "Since retiring from Federal politics in April 2022 Christian has returned to the law. He established Henley Stirling Lawyers where he worked as a Solicitor and Barrister, appearing in jury trials, appeals, sentencing matters and bail applications."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -44951,13 +45040,18 @@
     "organisation": "Green Institute",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://www.greeninstitute.org.au/release-max-chandler-mather-to-lead-revamped-green-institute/"
+      "https://www.greeninstitute.org.au/release-max-chandler-mather-to-lead-revamped-green-institute/",
+      "https://www.southasiatimes.com.au/australia/greens-institute/"
     ],
     "role_evidence": {
       "url": "https://www.greeninstitute.org.au/release-max-chandler-mather-to-lead-revamped-green-institute/",
       "quote": "Former Greens MP for Griffith and Greens Housing spokesperson Max Chandler-Mather has been appointed the Executive Director of The Green Institute, the national research institute for the Australian Greens."
     },
-    "start_date": "2026-04-08"
+    "start_date": "2026-04-08",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "john-morris",
@@ -44970,6 +45064,10 @@
     "role_evidence": {
       "url": "https://biography.senate.gov.au/morris-john-joseph/",
       "quote": "Deeply involved in greyhound racing as an owner of greyhounds trained by his wife, he served on the board of the Greyhound Racing Authority NSW and the board of the Wentworth Park Sporting Complex Trust."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -44983,6 +45081,10 @@
     "role_evidence": {
       "url": "https://biography.senate.gov.au/morris-john-joseph/",
       "quote": "Deeply involved in greyhound racing as an owner of greyhounds trained by his wife, he served on the board of the Greyhound Racing Authority NSW and the board of the Wentworth Park Sporting Complex Trust."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -44998,7 +45100,11 @@
       "url": "https://insidelocalgovernment.com.au/oam-for-devonport-city-councillor/",
       "quote": "He is also President at Children's Book Council of Australia – Tasmanian Branch; President of the Tasmanian Masters Games Inc and Founder and President of Toast for Kids Charity Inc."
     },
-    "start_date": "2025-10-25"
+    "start_date": "2025-10-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "steven-martin",
@@ -45012,6 +45118,10 @@
     "role_evidence": {
       "url": "https://insidelocalgovernment.com.au/oam-for-devonport-city-councillor/",
       "quote": "He is also President at Children's Book Council of Australia – Tasmanian Branch; President of the Tasmanian Masters Games Inc and Founder and President of Toast for Kids Charity Inc."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -45027,7 +45137,11 @@
       "quote": "Director from 26 November 2016 until 30 March 2023"
     },
     "start_date": "2016-11-26",
-    "end_date": "2023-03-30"
+    "end_date": "2023-03-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "brendan-smyth",
@@ -45035,11 +45149,16 @@
     "organisation": "ACT Government",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://citynews.com.au/2020/brendan-smyth-to-mediate-commercial-lease-issues/"
+      "https://citynews.com.au/2020/brendan-smyth-to-mediate-commercial-lease-issues/",
+      "https://www.canberratimes.com.au/story/6045045/the-acts-first-commissioner-for-international-engagement-brendan-smyth-is-ready-to-fly-high/"
     ],
     "role_evidence": {
       "url": "https://citynews.com.au/2020/brendan-smyth-to-mediate-commercial-lease-issues/",
       "quote": "FORMER Liberal opposition leader Brendan Smyth has been appointed the new COVID-19 local business commissioner."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -45055,7 +45174,11 @@
       "url": "https://en.wikipedia.org/wiki/Darren_Cheeseman",
       "quote": "In 2018, Cheeseman was elected to the Victorian Legislative Assembly as the Labor member for South Barwon."
     },
-    "start_date": "2018-11-24"
+    "start_date": "2018-11-24",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "darren-cheeseman",
@@ -45069,7 +45192,11 @@
       "url": "https://www.bay939.com.au/local-news/cheeseman-resigns-as-parliamentary-secretary/",
       "quote": "Local MP Darren Cheeseman has been asked to resign as Parliamentary Secretary for Education."
     },
-    "end_date": "2024-04-26"
+    "end_date": "2024-04-26",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "santo-santoro",
@@ -45082,6 +45209,10 @@
     "role_evidence": {
       "url": "https://michaelwest.com.au/santo-santoro/",
       "quote": "Director, SAS Group"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -45095,6 +45226,10 @@
     "role_evidence": {
       "url": "https://michaelwest.com.au/santo-santoro/",
       "quote": "Director, Aged Care Interiors"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -45111,7 +45246,11 @@
       "quote": "Santo has served as Vice-President of Com.it.es Queensland and Northern Territory and President of the Italian Chamber of Commerce and Industry (Queensland) between 2011 and 2020."
     },
     "start_date": "2011",
-    "end_date": "2020"
+    "end_date": "2020",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "santo-santoro",
@@ -45124,6 +45263,10 @@
     "role_evidence": {
       "url": "https://icci.com.au/team/",
       "quote": "Santo's commitment to ICCI (Qld) has seen his return into the service of the Chamber as Vice President of ICCI (Qld)."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -45137,6 +45280,10 @@
     "role_evidence": {
       "url": "https://icci.com.au/team/",
       "quote": "Santo has served as Vice-President of Com.it.es Queensland and Northern Territory and President of the Italian Chamber of Commerce and Industry (Queensland) between 2011 and 2020."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -45150,6 +45297,10 @@
     "role_evidence": {
       "url": "https://icci.com.au/team/",
       "quote": "Currently, Santo serves as President of the Brisbane Chapter of the Accademia Italiana della Cucina, President of the Organising Committee of Festitalia and is also a proud member of the Sicilian Association of Queensland."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -45163,6 +45314,10 @@
     "role_evidence": {
       "url": "https://icci.com.au/team/",
       "quote": "Currently, Santo serves as President of the Brisbane Chapter of the Accademia Italiana della Cucina, President of the Organising Committee of Festitalia and is also a proud member of the Sicilian Association of Queensland."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -45172,12 +45327,18 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://statements.qld.gov.au/statements/85653",
-      "https://os-data-2.s3-ap-southeast-2.amazonaws.com/portsnorth-com-au/bundle1/ports_north_annual_report_fy2025_compliant_version.pdf"
+      "https://os-data-2.s3-ap-southeast-2.amazonaws.com/portsnorth-com-au/bundle1/ports_north_annual_report_fy2025_compliant_version.pdf",
+      "https://web.archive.org/web/20240317014314/https://www.portsnorth.com.au/about-us/corporate-governance/"
     ],
     "role_evidence": {
       "url": "https://os-data-2.s3-ap-southeast-2.amazonaws.com/portsnorth-com-au/bundle1/ports_north_annual_report_fy2025_compliant_version.pdf",
       "quote": "The Ports North Board farewell and thank Board Directors Robin Giason, Michael Clifford, John Hogg, Julia Leu and Donna-Maree O'Connor who recently retired from the Board and welcome new Directors Susan Casey, Justin Parer, Hon. Curtis Pitt, David Edwards and Georgina Twomey who joined the Board in February 2025."
-    }
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2018-10-01"
   },
   {
     "role": "Founding Patron",
@@ -45190,6 +45351,10 @@
     "role_evidence": {
       "url": "https://www.openaustralia.org.au/senate/?id=2025-02-06.180.2",
       "quote": "John, who was also a type 2 diabetic, was a founding patron of the Bribie Island Diabetes Support Group, and was made an honorary patron after 22 years in the role."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -45205,7 +45370,11 @@
       "url": "https://www.monarchist.org.au/eric_abetz_to_head_monarchist_campaign",
       "quote": "the Hon. Eric Abetz, is the new chairman of the monarchist campaign opposing the Albanese government's plans for a republic."
     },
-    "start_date": "2022-08-31"
+    "start_date": "2022-08-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "eric-abetz",
@@ -45213,11 +45382,16 @@
     "organisation": "Abetz Consulting",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://abetz.com.au/"
+      "https://abetz.com.au/",
+      "http://web.archive.org/web/20241018060521/https://www.khbec.com.au/member_business/eric-abetz-senator/"
     ],
     "role_evidence": {
       "url": "https://abetz.com.au/",
       "quote": "Eric runs a successful advisory consultancy beside serving on boards and as national campaign chair of the Australian Monarchist League -NO Republic campaign."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -45232,7 +45406,12 @@
     "role_evidence": {
       "url": "https://www.aihw.gov.au/news-media/news/2017/august/mrs-louise-markus-board-chair",
       "quote": "In December 2016, Louise Markus became the Institute's eighth Board Chair."
-    }
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2016-12-01"
   },
   {
     "pollie_slug": "cathy-mcgowan",
@@ -45240,11 +45419,16 @@
     "organisation": "Community Independents Project",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://www.communityindependentsproject.org/our-story"
+      "https://www.communityindependentsproject.org/our-story",
+      "https://www.communityindependentsproject.org/about-us"
     ],
     "role_evidence": {
       "url": "https://www.communityindependentsproject.org/our-story",
       "quote": "In response, Cathy McGowan, Alana Johnson and Jill Briggs from Indi and Tina Jackson from Warringah established the Community Independents Project to continue the work"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   },
   {
@@ -45259,6 +45443,10 @@
     "role_evidence": {
       "url": "https://web.archive.org/web/20041011214832/http://www.samuelgriffith.org.au/pages/Conf16/conf16speakers.html",
       "quote": "Defeated in 1993, he returned to academic life in Adelaide and then, successively, to Chairs in Otago, New Zealand and the University of the Northern Territory."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
     }
   }
 ]
