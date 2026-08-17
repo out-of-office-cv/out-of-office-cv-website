@@ -45448,5 +45448,118 @@
       "decision": "verified",
       "by": "claude"
     }
+  },
+  {
+    "role": "Founder",
+    "organisation": "Whistleblower Justice Fund",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.droptheprosecutions.org.au/about",
+      "https://www.westernadvocate.com.au/story/8356375/whistleblower-fund-tackles-persecution-by-prosecution/"
+    ],
+    "pollie_slug": "rex-patrick",
+    "start_date": "2023-09-20"
+  },
+  {
+    "role": "Contributor",
+    "organisation": "Crikey",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.crikey.com.au/author/rex-patrick/"
+    ],
+    "pollie_slug": "rex-patrick"
+  },
+  {
+    "role": "Honorary Fellow",
+    "organisation": "Australian Academy of Technology and Engineering",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.atse.org.au/who-we-are/our-fellows/all-fellows/kim-carr/",
+      "https://www.atse.org.au/who-we-are/our-fellows/new-fellows-2022/"
+    ],
+    "pollie_slug": "kim-carr"
+  },
+  {
+    "role": "Honorary Fellow",
+    "organisation": "Australian Academy of the Humanities",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://humanities.org.au/news/announcing-2022-academy-fellows/"
+    ],
+    "pollie_slug": "kim-carr"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Herefords Australia",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.herefordsaustralia.com.au/2021/05/ian-durkin-new-chair-of-herefords-australia-board/"
+    ],
+    "pollie_slug": "trish-worth"
+  },
+  {
+    "role": "Fellow",
+    "organisation": "Royal Historical Society of Queensland",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://independentaustralia.net/politics/politics-display/remembering-manfred-cross-polite-politician-in-a-world-of-tough-fights,18314"
+    ],
+    "pollie_slug": "manfred-cross"
+  },
+  {
+    "role": "President",
+    "organisation": "Community Broadcasting Foundation",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://cbf.org.au/vale-tony-staley-1939-2023/"
+    ],
+    "pollie_slug": "anthony-staley",
+    "start_date": "1985-01-01",
+    "end_date": "1996-12-31"
+  },
+  {
+    "role": "Director",
+    "organisation": "Melbourne International Comedy Festival",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.canberratimes.com.au/story/8181107/former-liberal-president-tony-staley-dies-aged-83/"
+    ],
+    "pollie_slug": "anthony-staley"
+  },
+  {
+    "role": "Member",
+    "organisation": "Racing Appeals Tribunal (Queensland)",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://hearsay.org.au/article-25/"
+    ],
+    "pollie_slug": "denis-killen"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Queensland Jockeys Association",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://hearsay.org.au/article-25/"
+    ],
+    "pollie_slug": "denis-killen"
+  },
+  {
+    "role": "Patron",
+    "organisation": "139 Club",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://hearsay.org.au/article-25/"
+    ],
+    "pollie_slug": "denis-killen"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Border Collie Club of Queensland",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://hearsay.org.au/article-25/"
+    ],
+    "pollie_slug": "denis-killen"
   }
 ]
