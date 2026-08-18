@@ -46074,5 +46074,33 @@
       "https://thefintechtimes.com/airwallex-assembles-political-and-financial-heavyweights-for-global-economic-advisory-council/"
     ],
     "start_date": "2026-05-12"
+  },
+  {
+    "role": "Director",
+    "organisation": "Omnipol Pty Ltd",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://law.justia.com/cases/federal/district-courts/FSupp2/244/1217/2287839/",
+      "https://en.wikipedia.org/wiki/Peter_Duncan_(Australian_politician)"
+    ],
+    "pollie_slug": "peter-duncan",
+    "role_evidence": {
+      "url": "https://law.justia.com/cases/federal/district-courts/FSupp2/244/1217/2287839/",
+      "quote": "Operating under its directors, defendants Peter Duncan and Malcolm Barns, OmniPol has been engaged in the design, construction, manufacture, and assembly of plastic injection molding machinery for the purpose of recycling plastic waste."
+    }
+  },
+  {
+    "role": "Patron",
+    "organisation": "Native Dog Society",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://biography.senate.gov.au/mulvihill-james-anthony/",
+      "https://www.goodreads.com/author_blog_posts/18942936-senator-led-parade-of-dingoes"
+    ],
+    "pollie_slug": "james-mulvihill",
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/mulvihill-james-anthony/",
+      "quote": "As patron of the Native Dog Society, he and his pure bred dingo, Peter Pan, often joined the Australia Day parades in Sydney."
+    }
   }
 ]
