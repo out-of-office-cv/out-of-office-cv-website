@@ -45458,7 +45458,12 @@
       "https://www.westernadvocate.com.au/story/8356375/whistleblower-fund-tackles-persecution-by-prosecution/"
     ],
     "pollie_slug": "rex-patrick",
-    "start_date": "2023-09-20"
+    "start_date": "2023-09-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by droptheprosecutions.org.au/about, which states the campaign was set up in 2023 by former Senator Rex Patrick, and by the Western Advocate article: 'Former senator Rex Patrick on Wednesday launched the Whistleblower Justice Fund amid growing calls to drop the criminal case against Richard Boyle,' with Patrick to 'spearhead' the campaign -- establishing him as founder of the Whistleblower Justice Fund."
+    }
   },
   {
     "role": "Contributor",
@@ -45467,7 +45472,12 @@
     "sources": [
       "https://www.crikey.com.au/author/rex-patrick/"
     ],
-    "pollie_slug": "rex-patrick"
+    "pollie_slug": "rex-patrick",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by crikey.com.au/author/rex-patrick/, Crikey's own author page, whose bio reads 'Rex Patrick is a former submariner, project manager, business owner and former senator for South Australia, and founded the Whistleblower Justice Fund,' and labels him 'Contributor and former senator', with multiple bylined articles listed on the page."
+    }
   },
   {
     "role": "Honorary Fellow",
@@ -45477,7 +45487,12 @@
       "https://www.atse.org.au/who-we-are/our-fellows/all-fellows/kim-carr/",
       "https://www.atse.org.au/who-we-are/our-fellows/new-fellows-2022/"
     ],
-    "pollie_slug": "kim-carr"
+    "pollie_slug": "kim-carr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ATSE's own fellow profile page (atse.org.au/who-we-are/our-fellows/all-fellows/kim-carr/) confirms: 'Fellow status Elected 2022, Honorary Fellow, Division VIC'. The bio on the same page identifies him as 'a Senator for 29 years' who served as 'Minister for Innovation, Industry, Science and Research' and notes his 'resignation from Parliament in 2022', clearly identifying this as the former Senator, not a namesake."
+    }
   },
   {
     "role": "Honorary Fellow",
@@ -45486,7 +45501,12 @@
     "sources": [
       "https://humanities.org.au/news/announcing-2022-academy-fellows/"
     ],
-    "pollie_slug": "kim-carr"
+    "pollie_slug": "kim-carr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Australian Academy of the Humanities' 2022 fellows announcement (humanities.org.au/news/announcing-2022-academy-fellows/) lists him under the '2022 Honorary Fellows' heading: 'Former Senator the Hon Kim Carr -- former Senator and Minister for science, innovation and research', honoured for his role in humanities/research and innovation policy. This directly confirms both identity (former Senator) and the specific Honorary Fellow role at this organisation."
+    }
   },
   {
     "role": "Chair",
@@ -45515,7 +45535,12 @@
     ],
     "pollie_slug": "anthony-staley",
     "start_date": "1985-01-01",
-    "end_date": "1996-12-31"
+    "end_date": "1996-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the cited source, the Community Broadcasting Foundation's own obituary (cbf.org.au/vale-tony-staley-1939-2023/), which states Tony Staley 'served as President of the Public Broadcasting Foundation (now the Community Broadcasting Foundation) for five years from 1985 to 1990 and again for a further five years from late 1991 to 1996.' Direct WebFetch of the page returned HTTP 403, but its content was corroborated via two independent search queries pulling the same quoted text from the official CBF site. This is an official organisation page about its own former president, naming both the person (former Chisholm MP and communications minister) and the specific role, with dates consistent with the recorded 1985-1996 span (across two non-contiguous terms)."
+    }
   },
   {
     "role": "Director",
@@ -45524,7 +45549,12 @@
     "sources": [
       "https://www.canberratimes.com.au/story/8181107/former-liberal-president-tony-staley-dies-aged-83/"
     ],
-    "pollie_slug": "anthony-staley"
+    "pollie_slug": "anthony-staley",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the cited Canberra Times obituary ('Former Liberal president Tony Staley dies aged 83'), fetched directly: 'Always interested in the arts, he directed the Melbourne International Comedy Festival.' Reputable Australian news source clearly identifying this person (former Chisholm MP) and this specific role."
+    }
   },
   {
     "role": "Member",
@@ -45533,7 +45563,12 @@
     "sources": [
       "https://hearsay.org.au/article-25/"
     ],
-    "pollie_slug": "denis-killen"
+    "pollie_slug": "denis-killen",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Identity confirmed: APH Parliamentary Handbook record 4U4 identifies this pollie as 'KILLEN, the Hon. Sir Denis James KCMG, AC', matching the Denis Killen/Moreton/LIB record exactly; publicly known as Sir James Killen. The cited hearsay.org.au/article-25/ obituary (Hearsay, Issue 18, June 2007, by James Crowley QC) states: 'He sat on the Racing Appeals Tribunal for some years in the late 1990s and early this century' -- after he left parliament in 1983, so dates are plausible."
+    }
   },
   {
     "role": "Patron",
@@ -45542,7 +45577,12 @@
     "sources": [
       "https://hearsay.org.au/article-25/"
     ],
-    "pollie_slug": "denis-killen"
+    "pollie_slug": "denis-killen",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same obituary (hearsay.org.au/article-25/) confirms: 'Organisations as diverse as the Border Collie Club of Queensland, the Queensland Jockeys Association, the 139 Club and the Guards Association proudly boasted his patronage' -- directly substantiates the Patron role at the Queensland Jockeys Association."
+    }
   },
   {
     "role": "Patron",
@@ -45551,7 +45591,12 @@
     "sources": [
       "https://hearsay.org.au/article-25/"
     ],
-    "pollie_slug": "denis-killen"
+    "pollie_slug": "denis-killen",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same obituary (hearsay.org.au/article-25/) lists the 139 Club among the organisations that 'proudly boasted his patronage', directly confirming the Patron role."
+    }
   },
   {
     "role": "Patron",
@@ -45560,7 +45605,12 @@
     "sources": [
       "https://hearsay.org.au/article-25/"
     ],
-    "pollie_slug": "denis-killen"
+    "pollie_slug": "denis-killen",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same obituary (hearsay.org.au/article-25/) lists the Border Collie Club of Queensland among the organisations that 'proudly boasted his patronage', directly confirming the Patron role."
+    }
   },
   {
     "role": "Consultant",
@@ -45590,7 +45640,13 @@
       "https://biography.senate.gov.au/teague-baden-chapman/"
     ],
     "pollie_slug": "baden-teague",
-    "start_date": "2003-01-01"
+    "start_date": "2003-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the official Australian Senate biography (biography.senate.gov.au/teague-baden-chapman/), which is the authoritative parliamentary record for this specific former Senator: he 'served [on the University of Adelaide Council] during two periods: 1995-97, 2003-04'. The gig's start_date (2003) matches the second, post-parliamentary term (he ceased 1996-06-30); adding an end_date of 2004 per the same source."
+    },
+    "end_date": "2004-01-01"
   },
   {
     "role": "Chair, History Committee",
@@ -45600,7 +45656,13 @@
       "https://biography.senate.gov.au/teague-baden-chapman/"
     ],
     "pollie_slug": "baden-teague",
-    "start_date": "2000-01-01"
+    "start_date": "2000-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the official Senate biography (biography.senate.gov.au/teague-baden-chapman/): he was 'chairman of the college's history committee (2000-11)' at St Peter's College. Matches the recorded start_date of 2000; adding an end_date of 2011 per the same source."
+    },
+    "end_date": "2011-01-01"
   },
   {
     "role": "People's Warden and Lay Reader",
@@ -45609,7 +45671,12 @@
     "sources": [
       "https://biography.senate.gov.au/teague-baden-chapman/"
     ],
-    "pollie_slug": "baden-teague"
+    "pollie_slug": "baden-teague",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the official Senate biography (biography.senate.gov.au/teague-baden-chapman/), which states he was 'people's warden and lay reader at St Peter's Cathedral, Adelaide'. No dates given in the source, so none added."
+    }
   },
   {
     "role": "Member, Synod",
@@ -45618,7 +45685,12 @@
     "sources": [
       "https://biography.senate.gov.au/teague-baden-chapman/"
     ],
-    "pollie_slug": "baden-teague"
+    "pollie_slug": "baden-teague",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the official Senate biography (biography.senate.gov.au/teague-baden-chapman/), which states he was a 'member of the Anglican synod of the diocese of Adelaide'. No dates given in the source, so none added."
+    }
   },
   {
     "role": "Leader",
@@ -45645,8 +45717,14 @@
     "category": "Legal & Judicial",
     "sources": [
       "https://lawconnect.com/en-au/l/chris-trevor-and-associates/chris-trevor",
-      "https://www.qls.com.au/qls-membership/services-and-benefits/professional-services/qls-senior-counsellors"
-    ]
+      "https://www.qls.com.au/qls-membership/services-and-benefits/professional-services/qls-senior-counsellors",
+      "https://www.gladstonesportsfoundation.com.au/about-us/"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Queensland Law Society's own page (https://www.qls.com.au/qls-membership/services-and-benefits/professional-services/qls-senior-counsellors), which lists Chris Trevor, Chris Trevor and Associates, Gladstone, as a Senior Counsellor. Identity and organisation match independently corroborated by the Gladstone & District Sports Foundation Trust's own about-us page, which states Chris Trevor 'is a solicitor of the Supreme Court of Queensland and the High Court of Australia, as well as a Justice of the Peace and Senior Counsellor of the Queensland Law Society' and 'was the first ever Federal Member for Flynn in the Australian House of Representatives' -- unambiguously the same person as this pollie record."
+    }
   },
   {
     "pollie_slug": "chris-trevor",
@@ -45654,8 +45732,14 @@
     "organisation": "Gladstone & District Sports Foundation Trust",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://lawconnect.com/en-au/l/chris-trevor-and-associates/chris-trevor"
-    ]
+      "https://lawconnect.com/en-au/l/chris-trevor-and-associates/chris-trevor",
+      "https://www.gladstonesportsfoundation.com.au/about-us/"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The lawconnect.com bio was the only original source and is a directory/marketing profile, but the Gladstone & District Sports Foundation Trust's own official 'About Us' page (https://www.gladstonesportsfoundation.com.au/about-us/) independently lists Chris Trevor as a Trustee, describing him as 'a former Gladstone Regional Councillor, former Deputy Mayor and was the first ever Federal Member for Flynn in the Australian House of Representatives' -- confirming both identity and the trustee/board role at this organisation to a high standard."
+    }
   },
   {
     "pollie_slug": "john-faulkner",
@@ -45674,7 +45758,12 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.southcoastregister.com.au/story/2440125/fund-gives-aspiring-student-a-hand-up/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "South Coast Register (24 July 2014, reputable Australian regional news) confirms both identity and role: \"SEF patron Shoalhaven Mayor Joanna Gash and Gilmore MP Ann Sudmalis donated money to kick off this year's fund-raising.\" The description as Shoalhaven Mayor alongside the sitting Gilmore MP (her successor) confirms this is the same Joanna Gash, former Member for Gilmore, and the article postdates her 2013-08-05 departure from parliament. Also checked WebSearch results (Wikidata, ACNC charity register, Shoalhaven Education Fund social pages) which are consistent but did not yield a stronger independent source than the news article; the ACNC people page timed out on fetch and was not usable as a corroborating source."
+    }
   },
   {
     "pollie_slug": "bob-baldwin",
@@ -45683,7 +45772,12 @@
     "category": "Defence & Military and Security",
     "sources": [
       "https://www.newcastleherald.com.au/story/8394053/bob-baldwin-denies-conflict-over-offshore-wind/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Newcastle Herald (20 Oct 2023) explicitly identifies him as 'Mr Baldwin, the former Liberal member for Paterson' and states 'Varley Group's director of government and corporate relations Bob Baldwin says he will continue to lobby against the proposed Hunter Offshore Wind Farm' -- confirms both identity and this specific role/organisation."
+    }
   },
   {
     "pollie_slug": "bob-baldwin",
@@ -45692,7 +45786,12 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://www.newcastleherald.com.au/story/8394053/bob-baldwin-denies-conflict-over-offshore-wind/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same Newcastle Herald article (20 Oct 2023) confirming identity as former MP for Paterson also states 'Mr Baldwin is also a director of the Newcastle-Port Stephens Game Fishing Association' -- confirms this specific role and organisation for the same person."
+    }
   },
   {
     "pollie_slug": "david-watson",
@@ -45704,7 +45803,12 @@
       "https://announcements.asx.com.au/asxpdf/20171222/pdf/43qf6v811337nm.pdf"
     ],
     "start_date": "2014-03-27",
-    "end_date": "2017-12-22"
+    "end_date": "2017-12-22",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Tatts Group Limited 2014 Annual Report lists 'Dr David Watson (appointed 27 March 2014)' among directors, 'Member of the Board since 27 March 2014' under Non-executive Director. The same document's director bio confirms identity: 'Dr Watson served in the Federal Parliament in the House of Representatives as the member for Forde from 1984 - 1987...' matching this pollie exactly. The 22 Dec 2017 ASX announcement confirms 'the resignation of ... David Watson ... as directors of Tatts Group effective from Implementation', dated 22 December 2017, matching the recorded end_date."
+    }
   },
   {
     "pollie_slug": "david-watson",
@@ -45714,7 +45818,12 @@
     "sources": [
       "https://www.labonline.com.au/content/lab-business/news/translational-research-institute-opens-in-brisbane-170353495",
       "https://www.annualreports.com/HostedData/AnnualReportArchive/T/ASX_TTS_2014.pdf"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Tatts Group Limited 2014 Annual Report director bio (same document as gig 0, which independently confirms identity via his Forde MP background) states: 'Dr Watson is currently the independent Chair of the Translational Research Institute, a leading Australian medical research and biopharmaceutical facility based in Brisbane.' Corroborated by the labonline.com.au article, which quotes: 'TRI Chairman Dr David Watson said the world-class facility ... would place Queensland at the forefront of medical research developments.'"
+    }
   },
   {
     "pollie_slug": "david-watson",
@@ -45723,7 +45832,12 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://statements.qld.gov.au/statements/77664"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Tatts Group Limited 2014 Annual Report director bio states 'He is also Deputy Chair of the Queensland Competition Authority.' Independently confirmed by the Queensland Government ministerial statement (statements.qld.gov.au/statements/77664, published 8 April 2016): 'The new members replace current Deputy Chair, Dr David Watson, who has served on the QCA Board since 2009 ... whose terms have expired.' Identity confirmed via the Tatts annual report bio noting he was the federal member for Forde 1984-1987. No date_changes: the source establishes QCA Board membership from 2009 and a term expiry around April 2016, but does not state precisely when he became Deputy Chair specifically, so no reliably accurate start_date could be set for the Deputy Chair role specifically."
+    }
   },
   {
     "pollie_slug": "jenny-ware",
@@ -45732,7 +45846,12 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://www.theleader.com.au/story/9236297/jenny-ware-reveals-mental-health-struggles-after-hughes-loss/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by www.theleader.com.au (9236297), an Australian Community Media regional news outlet, published 1 May 2026: describes her as 'Former Liberal MP Jenny Ware' who lost the federal seat of Hughes, and states 'She also has another role - helping with education policy development in the office of Cronulla MP Mark Speakman, the shadow education minister.' This matches the claimed role, organisation, and post-parliament timing (ceased_date 2025-05-03); article postdates that. No stronger corroborating source (e.g. Speakman's office page, Wikipedia) was found, but the cited article alone meets the bar: it names this specific former MP (not a namesake) and substantiates this exact role at this exact organisation."
+    }
   },
   {
     "role": "Special Counsel",
@@ -45745,7 +45864,12 @@
       "url": "https://cgrp.com.au/our-people/",
       "quote": "Jason Falinski brings both political and corporate expertise to his role as Special Counsel."
     },
-    "pollie_slug": "jason-falinski"
+    "pollie_slug": "jason-falinski",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "cgrp.com.au/our-people/ (Cornerstone Government Relations' own team page) directly confirms: \"Jason Falinski brings both political and corporate expertise to his role as Special Counsel.\" Confirms both identity (references his political background) and this specific role."
+    }
   },
   {
     "role": "Managing Partner",
@@ -45758,7 +45882,12 @@
       "url": "https://www.ergovideatur.com/",
       "quote": "As Jason Falinski, our Managing Partner, emphasizes in his insights shared with Management Today"
     },
-    "pollie_slug": "jason-falinski"
+    "pollie_slug": "jason-falinski",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ergovideatur.com (the firm's own site) directly names him as Managing Partner: \"As Jason Falinski, our Managing Partner, emphasizes in his insights shared with Management Today.\" Corroborated by his own site jasonfalinski.com.au/meet-jason, which lists \"Ergo Videatur (founder)\", and by consilium.org.au's CIS speaker bio, which states he \"established Procare Help and Ergo Videatur\"."
+    }
   },
   {
     "role": "Executive Chair",
@@ -45766,13 +45895,19 @@
     "category": "Health, Medical & Aged Care",
     "sources": [
       "https://au.linkedin.com/in/jason-falinski-b59256",
-      "https://www.jasonfalinski.com.au/meet-jason"
+      "https://www.jasonfalinski.com.au/meet-jason",
+      "https://consilium.org.au/consilium-speakers/jason-falinski/"
     ],
     "role_evidence": {
       "url": "https://au.linkedin.com/in/jason-falinski-b59256",
       "quote": "Jason Falinski - Executive Chair, Procare Help"
     },
-    "pollie_slug": "jason-falinski"
+    "pollie_slug": "jason-falinski",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "LinkedIn (au.linkedin.com/in/jason-falinski-b59256) titles the profile \"Jason Falinski - Executive Chair, Procare Help\" (confirmed via the page's indexed title across repeated searches; direct fetch was blocked by the site, 999/403). Paired with jasonfalinski.com.au/meet-jason, his own site, which independently confirms identity and that he founded Procare Help (\"established Procare Help and Ergo Videatur\"), and consilium.org.au's CIS speaker bio which corroborates the same. Per the source hierarchy, LinkedIn paired with an identity-confirming source is acceptable."
+    }
   },
   {
     "role": "Chair",
@@ -45785,20 +45920,32 @@
       "url": "https://www.moneymanagement.com.au/news/people-products/falinski-joins-qld-property-company",
       "quote": "Falinski had taken a role as the firm's chair this month following his election defeat in the Sydney seat of Mackellar to independent candidate, Sophie Scamps in May."
     },
-    "pollie_slug": "jason-falinski"
+    "pollie_slug": "jason-falinski",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "moneymanagement.com.au (reputable Australian financial-services trade press) states he \"had taken a role as the firm's chair this month following his election defeat in the Sydney seat of Mackellar ... in May [2022]\", naming Airtrip. Independently corroborated by consilium.org.au's CIS speaker bio, which lists \"2022 Chair, Airtrip\" and \"chairs Airtrip\". Direct WebFetch of moneymanagement.com.au was blocked (403) but the quote was verified via search results matching the cited role_evidence exactly."
+    }
   },
   {
     "role": "Non-Executive Chair",
     "organisation": "Bridge SaaS Limited",
     "category": "Technology (Software, IT & Digital Services)",
     "sources": [
-      "https://www.marketindex.com.au/asx/directors/jason-falinski"
+      "https://www.marketindex.com.au/asx/directors/jason-falinski",
+      "https://www.investogain.com.au/company/bridge-saas-limited/"
     ],
     "role_evidence": {
       "url": "https://www.marketindex.com.au/asx/directors/jason-falinski",
       "quote": "Jason Falinski | Non-Executive Chairman,Non-Executive Director | Bridge SaaS Limited"
     },
-    "pollie_slug": "jason-falinski"
+    "pollie_slug": "jason-falinski",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "investogain.com.au (ASX company/director data aggregator) directly confirms: \"Jason Falinski | Non Exec Chairman | 01/12/2025\" for Bridge SaaS Limited, matching the role and organisation. Corroborated by the originally cited marketindex.com.au listing and by consistent reporting from kalkine.com.au describing him as a Bridge SaaS director. Direct fetches of marketindex.com.au and several other aggregators were blocked by bot protection, but investogain.com.au's own content was fetched successfully and gives a specific appointment date."
+    },
+    "start_date": "2025-12-01"
   },
   {
     "role": "Consultant",
@@ -45813,7 +45960,12 @@
       "quote": "I'll still be staying in as a consultant."
     },
     "start_date": "2024-04-02",
-    "pollie_slug": "nick-xenophon"
+    "pollie_slug": "nick-xenophon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "lindblomslawyers.com.au (the acquiring firm's own announcement page) confirms Nick Xenophon of Nick Xenophon & Co. Lawyers transferred his clients/staff to Lindbloms Lawyers as of Tuesday 2 April 2024 and states he will stay on as a consultant ('I'll still be staying in as a consultant'), matching start_date 2024-04-02. Direct WebFetch of both cited URLs returned HTTP 403 (bot-blocked, not 404), so content was corroborated via targeted WebSearch queries, which returned the same quote and detail (merger date, consultant role, health-related reason) from both the Lindbloms page and the Neos Kosmos brain-tumour article, confirming this is the same former SA Senator (his own eponymous law firm) and that the specific consultant role is substantiated, not just his existence."
+    }
   },
   {
     "role": "Co-Owner",
@@ -45827,7 +45979,12 @@
       "quote": "At the helm of 'Thanks to Theo' are Alessandra and her partner Andrew (head chef), along with their business partner Nick Xenophon who's a former Senator of South Australia (from 2008 to 2017) and wants to support the new venture."
     },
     "start_date": "2023-12-01",
-    "pollie_slug": "nick-xenophon"
+    "pollie_slug": "nick-xenophon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "glamadelaide.com.au confirms via WebFetch: 'their business partner Nick Xenophon who's a former Senator of South Australia (from 2008 to 2017)' is backing the new Adelaide CBD Greek restaurant 'Thanks to Theo', which the article states opens 1 December 2023 at 6 East Terrace, Adelaide -- matching the recorded start_date of 2023-12-01. Identity is unambiguous (explicit former-Senator, SA, 2008-2017 tenure matches the pollie record) and the role (business partner/co-owner) is directly substantiated."
+    }
   },
   {
     "role": "Director",
@@ -45855,7 +46012,12 @@
       "url": "https://nofibs.com.au/lobbyists-public-commentary-reith-spotlight-mark-anning-1earthmedia-reports/",
       "quote": "Reith is a paid political lobbyist and chairman of the Victorian Government's task force on the eastern gas market."
     },
-    "pollie_slug": "peter-reith"
+    "pollie_slug": "peter-reith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "nofibs.com.au (1 Nov 2013, 'Lobbyists and public commentary: Reith in the spotlight') states 'Reith is a paid political lobbyist and chairman of the Victorian Government's task force on the eastern gas market.' Corroborating web search confirms the Victorian Gas Market Taskforce (which produced the November 2013 'Reith Report' recommending lifting the CSG/fracking moratorium) was headed by 'former Howard Government minister Peter Reith', confirming both identity and role."
+    }
   },
   {
     "role": "Columnist",
@@ -45868,7 +46030,12 @@
       "url": "https://en.wikipedia.org/wiki/Peter_Reith",
       "quote": "From 2014, Reith had been writing weekly for The Sydney Morning Herald and was a political commentator for Sky News Australia, appearing regularly on AM Agenda and The Cabinet."
     },
-    "pollie_slug": "peter-reith"
+    "pollie_slug": "peter-reith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia (Peter Reith) confirms: 'From 2014, Reith had been writing weekly for The Sydney Morning Herald ...'. Same article establishes identity as the former federal Liberal minister for Flinders."
+    }
   },
   {
     "role": "Political Commentator",
@@ -45881,7 +46048,12 @@
       "url": "https://en.wikipedia.org/wiki/Peter_Reith",
       "quote": "From 2014, Reith had been writing weekly for The Sydney Morning Herald and was a political commentator for Sky News Australia, appearing regularly on AM Agenda and The Cabinet."
     },
-    "pollie_slug": "peter-reith"
+    "pollie_slug": "peter-reith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia (Peter Reith) confirms: '...and was a political commentator for Sky News Australia, appearing regularly on AM Agenda and The Cabinet.' Same identity established as gig 1."
+    }
   },
   {
     "role": "Chair, Advisory Council",
@@ -45894,7 +46066,12 @@
       "url": "https://michaelwest.com.au/peter-reith/",
       "quote": "Chairman of the Advisory Council, Cornerstone Group Australia (June 2016 – Present)"
     },
-    "pollie_slug": "peter-reith"
+    "pollie_slug": "peter-reith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "michaelwest.com.au/peter-reith/ lists 'Chairman of the Advisory Council, Cornerstone Group Australia (June 2016 - Present)' under a profile explicitly identifying the subject as the 'Former Howard government defence minister Peter Reith'."
+    }
   },
   {
     "role": "Special Counsel",
@@ -45907,7 +46084,12 @@
       "url": "https://www.abc.net.au/news/peter-reith/2782056",
       "quote": "Peter Reith is Special Counsel to First State, a government and corporate relations advisory firm."
     },
-    "pollie_slug": "peter-reith"
+    "pollie_slug": "peter-reith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ABC News author profile (abc.net.au/news/peter-reith/2782056) states 'Peter Reith is Special Counsel to First State, a government and corporate relations advisory firm,' in a biographical section that identifies him as 'The Honourable Peter Reith ... senior cabinet minister in the Australian government from 1996 to 2001.'"
+    }
   },
   {
     "role": "Lobbyist",
@@ -45920,7 +46102,12 @@
       "url": "https://michaelwest.com.au/peter-reith/",
       "quote": "Other Industry Positions (Sole Trader Lobbyist) ... G4S Custodial Services Pty Ltd (Australian G4S subsidiary)(2014–Feb 2017)"
     },
-    "pollie_slug": "peter-reith"
+    "pollie_slug": "peter-reith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "michaelwest.com.au/peter-reith/ lists under 'Other Industry Positions (Sole Trader Lobbyist)': 'G4S Custodial Services Pty Ltd (Australian G4S subsidiary) (2014-Feb 2017)', on the same page identifying the subject as former Howard government minister Peter Reith."
+    }
   },
   {
     "role": "Lobbyist",
@@ -45933,7 +46120,12 @@
       "url": "https://michaelwest.com.au/peter-reith/",
       "quote": "Other Industry Positions (Sole Trader Lobbyist) ... Bechtel Infrastructure (Australia) Pty Ltd (2016–Feb 2017)"
     },
-    "pollie_slug": "peter-reith"
+    "pollie_slug": "peter-reith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "michaelwest.com.au/peter-reith/ lists under 'Other Industry Positions (Sole Trader Lobbyist)': 'Bechtel Infrastructure (Australia) Pty Ltd (2016-Feb 2017)', on the same page identifying the subject as former Howard government minister Peter Reith."
+    }
   },
   {
     "pollie_slug": "peter-garrett",
@@ -45945,7 +46137,12 @@
       "https://www.abc.net.au/news/2026-05-13/midnight-oil-frontman-peter-garrett-chairs-landcare-australia/106671062",
       "https://www.theland.com.au/story/9229794/peter-garrett-am-appointed-landcare-chair-plans-for-growth/"
     ],
-    "start_date": "2026-04-30"
+    "start_date": "2026-04-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Land (theland.com.au) confirms: \"Well known environmental advocate Peter Garrett AM will be appointed chair of Landcare Australia - effective April 30, 2026.\" ABC News confirms he is \"in his second week as the new chair of Landcare Australia\" (published 13 May 2026), and the Landcare Australia media release names him as successor to outgoing chair Doug Humann AM. All three sources identify him as the former Midnight Oil frontman and federal Environment Minister, matching this pollie record."
+    }
   },
   {
     "pollie_slug": "peter-garrett",
@@ -45954,7 +46151,12 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://www.atse.org.au/who-we-are/our-fellows/all-fellows/peter-garrett/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ATSE's Fellows page lists Peter Garrett with \"Fellow status Elected 2025 Honorary Fellow\", and his bio on the same page identifies him as \"the lead singer of Midnight Oil\" who \"entered parliament as a Labor MP in 2004\" and was \"president of the Australian Conservation Foundation\" beforehand -- confirming both identity and the specific Honorary Fellow status."
+    }
   },
   {
     "pollie_slug": "peter-garrett",
@@ -45963,7 +46165,12 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://burgmann.anu.edu.au/alumni-friends/about"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Burgmann College alumni \"about\" page states: \"Ms Judy Middlebrook and The Hon Peter Garrett AM are patrons of the Association.\" The \"Hon\" honorific matches his status as a former federal minister, consistent with this pollie record."
+    }
   },
   {
     "pollie_slug": "chris-ketter",
@@ -45973,7 +46180,12 @@
     "sources": [
       "https://www.austrade.gov.au/en/about-austrade/our-team/our-trade-commissioners/chris-ketter",
       "https://www.miragenews.com/new-consuls-general-in-uae-usa-and-germany-1042677/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the official Austrade .gov.au biography page, which states Chris Ketter (former Queensland Senator) was 'subsequently a senior adviser in the office of the Deputy Prime Minister and Minister for Defence' before his appointment as Consul-General. Corroborated by the Mirage News article quoting: 'Christopher Ketter is a former Australian Senator and is currently Senior Adviser to Deputy Prime Minister and Minister for Defence, the Hon. Richard Marles.' Both sources unambiguously name this specific former Senator and this specific role/organisation."
+    }
   },
   {
     "pollie_slug": "steve-hutchins",
@@ -45991,8 +46203,14 @@
     "category": "Pharmaceutical & Biotechnology",
     "sources": [
       "https://web.archive.org/web/20070828234100/http://www.stemcellcentre.edu.au/centre_org-structure_directors.aspx",
-      "https://biography.senate.gov.au/gibson-brian-francis/"
-    ]
+      "https://biography.senate.gov.au/gibson-brian-francis/",
+      "https://www.openaustralia.org.au/senate/?id=2017-08-17.166.2"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Biographical Dictionary of the Australian Senate (biography.senate.gov.au/gibson-brian-francis/), a parliamentary-authority source, which states Gibson \"served as the Australian Government-nominated director on the board of the Australian Stem Cell Centre.\" Independently corroborated by the Senate condolence motion of 17 August 2017 (Hansard, via openaustralia.org.au), which records that he \"served on the board of the Australian Stem Cell Centre\" after leaving parliament in 2002."
+    }
   },
   {
     "pollie_slug": "brian-gibson",
@@ -46011,7 +46229,12 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://www.abc.net.au/news/2018-05-24/braddon---electorate-profile-may-2018/9797044"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ABC News (24 May 2018) 'Braddon - electorate profile' names Brett Whiteley, former Member for Braddon who lost his seat in 2016, and states he 'is currently the vice-president of the Tasmanian Liberal Party.' The article also details his career as federal MP for Braddon (2013-2016), confirming identity beyond doubt (same electorate, same party). This confirms both the person and the specific role and organisation."
+    }
   },
   {
     "pollie_slug": "craig-laundy",
@@ -46020,7 +46243,12 @@
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://hostplus.com.au/about-us/who-we-are/board-of-directors/craig-laundy"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Craig Laundy's own corporate bio page (hostplus.com.au/about-us/who-we-are/board-of-directors/craig-laundy), an official organisation 'about' page, explicitly lists him as 'Honorary Board member, Bundanon Trust' alongside his verified biography (Federal Member for Reid, NSW, 2013-2018; Minister for Small & Family Business and Industrial Relations), which matches the pollie record exactly, ruling out a namesake. Corroborating searches found consistent independent references: the Bundanon Trust 2022-2023 Annual Report acknowledges him as a current director, and government Transparency Portal search snippets indicate he joined Bundanon Trust's Audit, Risk & Remuneration Committee from 13 April 2021. The original cited source alone meets the bar: it names this specific person and substantiates this specific role at this specific organisation."
+    }
   },
   {
     "pollie_slug": "helen-kroger",
@@ -46029,7 +46257,8 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://www.facebook.com/BevMcArthurMP/posts/helen-kroger-was-re-elected-unopposed-as-chair-of-the-victorian-liberal-womens-c/2299573543646581/",
-      "https://womensagenda.com.au/politics/women-in-the-liberal-party-an-already-rare-specie-under-threat/"
+      "https://womensagenda.com.au/politics/women-in-the-liberal-party-an-already-rare-specie-under-threat/",
+      "https://www.abc.net.au/news/2018-08-30/liberal-women-deny-bullying-problem/10181766"
     ]
   },
   {
@@ -46041,7 +46270,12 @@
       "https://www.vic.gov.au/independent-review-electoral-political-donations-system",
       "https://www.premier.vic.gov.au/expert-panel-strengthen-victorias-electoral-system"
     ],
-    "start_date": "2023-05-12"
+    "start_date": "2023-05-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by premier.vic.gov.au ('Expert panel to strengthen Victoria's electoral system', published Thursday 11 May 2023): 'Ms Williams will serve alongside Mr David Feeney and Ms Helen Kroger, who both hold extensive practical experience in electoral matters and community advocacy as former Members of the Commonwealth Parliament' -- naming Helen Kroger as a panel member of this specific review. Corroborated by the official vic.gov.au review page, which lists panel members Elizabeth Williams (Chair), David Feeney and Helen Kroger (Member), describes her as 'a Member of the Senate for Victoria from 2008 to 2014' (matching this pollie's record exactly), and gives the panel appointment date of 12 May 2023, matching the recorded start_date."
+    }
   },
   {
     "pollie_slug": "cory-bernardi",
@@ -46051,7 +46285,12 @@
     "sources": [
       "https://www.confidentialdaily.com/posts/bernardis-back/",
       "https://www.confidentialdaily.com/start-here/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "confidentialdaily.com/posts/bernardis-back/ states 'Bernardi is not just a candidate. He is the founder of Confidential Daily', directly naming Cory Bernardi as founder of the organisation. The start-here/ page corroborates his identity as the former Australian Senator who began the 'Weekly Dose of Common Sense' in 2008, which evolved into Confidential Daily (calling him a 'founding contributor'). Both sources are the organisation's own official pages (strong per hierarchy) and both remain live."
+    }
   },
   {
     "pollie_slug": "josh-frydenberg",
@@ -46062,7 +46301,12 @@
       "https://www.thedorfoundation.org.au/media/joshfrydenberg-launches-foundation-to-tackle-antisemitism",
       "https://www.thedorfoundation.org.au/about"
     ],
-    "start_date": "2025-02-15"
+    "start_date": "2025-02-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by https://www.thedorfoundation.org.au/media/joshfrydenberg-launches-foundation-to-tackle-antisemitism, which states \"Frydenberg, who will chair the foundation, said in a statement\". Corroborated by Australian Jewish News and J-Wire coverage of the February 2025 launch at the firebombed Adass Israel Synagogue in Melbourne, naming former Treasurer Josh Frydenberg as chair. Identity matches the Kooyong MP/former Treasurer (ceased 2022-05-21)."
+    }
   },
   {
     "pollie_slug": "josh-frydenberg",
@@ -46073,7 +46317,12 @@
       "https://www.airwallex.com/global/blog/introducing-the-airwallex-global-economic-advisory-council",
       "https://thefintechtimes.com/airwallex-assembles-political-and-financial-heavyweights-for-global-economic-advisory-council/"
     ],
-    "start_date": "2026-05-12"
+    "start_date": "2026-05-12",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by both cited sources: the Airwallex announcement lists \"The Hon. Josh Frydenberg - Former Treasurer of Australia (2018-2022)\" under \"Members of the Council\", and The Fintech Times names him as \"the former Treasurer of Australia (2018-2022) and current Chair of Goldman Sachs Australia\" among the founding members. Identity matches the Kooyong MP/former Treasurer."
+    }
   },
   {
     "role": "Director",
@@ -46101,6 +46350,11 @@
     "role_evidence": {
       "url": "https://biography.senate.gov.au/mulvihill-james-anthony/",
       "quote": "As patron of the Native Dog Society, he and his pure bred dingo, Peter Pan, often joined the Australia Day parades in Sydney."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the official Australian Senate biography (biography.senate.gov.au/mulvihill-james-anthony/), which states in its post-retirement section: \"As patron of the Native Dog Society, he and his pure bred dingo, Peter Pan, often joined the Australia Day parades in Sydney.\" This is an authoritative parliamentary source naming this specific senator (James Anthony Mulvihill) and this specific role, consistent with the ceased_date of 1983-02-04. The Goodreads blog post corroborates the same person and anecdote (referring to him as \"Tony Mulvihill,\" a common short form of Anthony, and repeating the identical Peter Pan the dingo detail), though it names the organisation slightly differently (\"Australian Native Dog Conservation society\")."
     }
   },
   {
@@ -46111,7 +46365,12 @@
       "https://www.diabetesaustralia.com.au/wp-content/uploads/National-Diabetes-Strategy-A-Strategic-Framework-for-Action.pdf"
     ],
     "start_date": "2013-12-02",
-    "pollie_slug": "judi-moylan"
+    "pollie_slug": "judi-moylan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited PDF (Diabetes Australia, National Diabetes Strategy Advisory Group, 'A Strategic Framework for Action', Aug 2015) confirms this at authoritative strength. Page 19: 'As a first step towards developing the National Diabetes Strategy, the Minister for Health... the Hon. Peter Dutton MP, announced the formation of a National Diabetes Strategy Advisory Group at the World Diabetes Congress in December 2013. Co-chaired by the Hon. Judi Moylan and Professor Paul Zimmet AO...' Page 47 lists members: 'The Hon. Judi Moylan - President, Diabetes Australia'. This is the same person (former Member for Pearce). The announcement date (2 December 2013) matches the gig's existing start_date of 2013-12-02 exactly."
+    }
   },
   {
     "role": "Deputy Chair",
@@ -46120,7 +46379,12 @@
     "sources": [
       "https://www.connectivity.org.au/wp-content/uploads/2026/01/Connectivity-2023-2024-Annual-Report.pdf"
     ],
-    "pollie_slug": "judi-moylan"
+    "pollie_slug": "judi-moylan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited PDF (Connectivity Traumatic Brain Injury Australia, 2023-2024 Annual Report) confirms this. Board Changes section: 'The Hon. Judi Moylan AO has been with the Connectivity Board since its inception and after 5 years of outstanding service to the organisation, has elected to step down from the Board. Judi was the inaugural Deputy Chair of the Board...' The board listing on the same page shows 'Judi Moylan ao -- Deputy-Chair of the Board'. Note: the current live board page no longer lists her, consistent with this annual report recording her stepping down during the 2023-2024 reporting period -- but no exact resignation date is given, so no end_date is added."
+    }
   },
   {
     "role": "Patron",
@@ -46129,7 +46393,12 @@
     "sources": [
       "https://www.pdgn.org.uk/about.php"
     ],
-    "pollie_slug": "judi-moylan"
+    "pollie_slug": "judi-moylan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited page (pdgn.org.uk/about.php) confirms this at authoritative strength. Under 'Officers' she is listed as 'Judi Moylan AO (Patron, Australia)', and her leadership profile identifies her as 'The Hon. Judi Moylan AO', who 'served as the Federal Member for Pearce from 1993 to 2013' -- matching this specific pollie (division Pearce, ceased 2013-08-05), not a namesake."
+    }
   },
   {
     "role": "Director",
@@ -46150,7 +46419,12 @@
       "https://adb.anu.edu.au/biography/andrew-john-neil-28203"
     ],
     "start_date": "2014",
-    "pollie_slug": "neil-andrew"
+    "pollie_slug": "neil-andrew",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Australian Dictionary of Biography (adb.anu.edu.au), a strong .edu.au authoritative source specifically about John Neil Andrew, former MP for Wakefield and Speaker: after retiring from parliament in 2004, he 'served on the boards of the Crawford Fund (chair, 2005-10)... Citrus Australia (2014); and the Murray-Darling Basin Authority (chair, 2015-19).' The 2014 date matches the recorded start_date and postdates his 2004 retirement."
+    }
   },
   {
     "role": "Member",
@@ -46197,7 +46471,12 @@
       "https://fandp.com.au/solid-foundations-laid-by-good-beginning-210369/"
     ],
     "start_date": "2000",
-    "pollie_slug": "ian-sinclair"
+    "pollie_slug": "ian-sinclair",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Northern Daily Leader profile (\"chairman of Australian agency Good Beginnings Australia\", role dated from 2000) and corroborated by fandp.com.au, which quotes him directly as \"chairman of the board the Rt Hon Ian Sinclair\" of Good Beginnings Australia."
+    }
   },
   {
     "role": "Chair",
@@ -46209,7 +46488,12 @@
     ],
     "start_date": "2001",
     "end_date": "2007",
-    "pollie_slug": "ian-sinclair"
+    "pollie_slug": "ian-sinclair",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Northern Daily Leader profile (\"Australian Sheep CRC, of which he was chairman from 2001-07\") and by theland.com.au, which states \"First chairman of Sheep CRC from 2001 to 2007 Ian Sinclair\", matching the recorded dates exactly."
+    }
   },
   {
     "role": "President",
@@ -46219,6 +46503,11 @@
       "https://www.northerndailyleader.com.au/story/5300724/faces-of-tamworth-barrister-grazier-politician-and-philanthropist-ian-sinclair/"
     ],
     "start_date": "2003",
-    "pollie_slug": "ian-sinclair"
+    "pollie_slug": "ian-sinclair",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Northern Daily Leader profile: \"Murray Darling Basin Commission from 2003, of which he was president.\" A follow-up search corroborates an appointment from December 2003, but the official MDBA/MDBC annual report pages returned HTTP 403 on fetch so were not added as sources; the single cited news source is a reputable Australian regional outlet naming this specific former MP and the specific role/date, meeting the verification bar without them."
+    }
   }
 ]
