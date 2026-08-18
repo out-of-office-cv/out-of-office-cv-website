@@ -45934,5 +45934,145 @@
       "quote": "Other Industry Positions (Sole Trader Lobbyist) ... Bechtel Infrastructure (Australia) Pty Ltd (2016–Feb 2017)"
     },
     "pollie_slug": "peter-reith"
+  },
+  {
+    "pollie_slug": "peter-garrett",
+    "role": "Chair",
+    "organisation": "Landcare Australia",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://landcareaustralia.org.au/media-release/peter-garrett-appointed-chair-of-landcare-australia-calling-on-australia-to-be-a-force-for-good-on-climate/",
+      "https://www.abc.net.au/news/2026-05-13/midnight-oil-frontman-peter-garrett-chairs-landcare-australia/106671062",
+      "https://www.theland.com.au/story/9229794/peter-garrett-am-appointed-landcare-chair-plans-for-growth/"
+    ],
+    "start_date": "2026-04-30"
+  },
+  {
+    "pollie_slug": "peter-garrett",
+    "role": "Honorary Fellow",
+    "organisation": "Australian Academy of Technological Sciences and Engineering",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.atse.org.au/who-we-are/our-fellows/all-fellows/peter-garrett/"
+    ]
+  },
+  {
+    "pollie_slug": "peter-garrett",
+    "role": "Patron",
+    "organisation": "Burgmann Alumni Association",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://burgmann.anu.edu.au/alumni-friends/about"
+    ]
+  },
+  {
+    "pollie_slug": "chris-ketter",
+    "role": "Senior Adviser",
+    "organisation": "Office of the Deputy Prime Minister and Minister for Defence",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.austrade.gov.au/en/about-austrade/our-team/our-trade-commissioners/chris-ketter",
+      "https://www.miragenews.com/new-consuls-general-in-uae-usa-and-germany-1042677/"
+    ]
+  },
+  {
+    "pollie_slug": "steve-hutchins",
+    "role": "Patron",
+    "organisation": "Care Leavers Australia Network",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.openaustralia.org.au/senate/?id=2017-11-30.130.2"
+    ]
+  },
+  {
+    "pollie_slug": "brian-gibson",
+    "role": "Director",
+    "organisation": "Australian Stem Cell Centre",
+    "category": "Pharmaceutical & Biotechnology",
+    "sources": [
+      "https://web.archive.org/web/20070828234100/http://www.stemcellcentre.edu.au/centre_org-structure_directors.aspx",
+      "https://biography.senate.gov.au/gibson-brian-francis/"
+    ]
+  },
+  {
+    "pollie_slug": "brian-gibson",
+    "role": "Director",
+    "organisation": "AMP Society (Tasmanian Advisory Board)",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://web.archive.org/web/20070828234100/http://www.stemcellcentre.edu.au/centre_org-structure_directors.aspx",
+      "https://en.wikipedia.org/wiki/Brian_Gibson_(politician)"
+    ]
+  },
+  {
+    "pollie_slug": "brett-whiteley",
+    "role": "Vice-President",
+    "organisation": "Tasmanian Liberal Party",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.abc.net.au/news/2018-05-24/braddon---electorate-profile-may-2018/9797044"
+    ]
+  },
+  {
+    "pollie_slug": "craig-laundy",
+    "role": "Honorary Board Member",
+    "organisation": "Bundanon Trust",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://hostplus.com.au/about-us/who-we-are/board-of-directors/craig-laundy"
+    ]
+  },
+  {
+    "pollie_slug": "helen-kroger",
+    "role": "Chair",
+    "organisation": "Victorian Liberal Women's Council",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.facebook.com/BevMcArthurMP/posts/helen-kroger-was-re-elected-unopposed-as-chair-of-the-victorian-liberal-womens-c/2299573543646581/",
+      "https://womensagenda.com.au/politics/women-in-the-liberal-party-an-already-rare-specie-under-threat/"
+    ]
+  },
+  {
+    "pollie_slug": "helen-kroger",
+    "role": "Panel Member",
+    "organisation": "Independent Review of Victoria's Electoral and Political Donations System",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.vic.gov.au/independent-review-electoral-political-donations-system",
+      "https://www.premier.vic.gov.au/expert-panel-strengthen-victorias-electoral-system"
+    ],
+    "start_date": "2023-05-12"
+  },
+  {
+    "pollie_slug": "cory-bernardi",
+    "role": "Founder",
+    "organisation": "Confidential Daily",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.confidentialdaily.com/posts/bernardis-back/",
+      "https://www.confidentialdaily.com/start-here/"
+    ]
+  },
+  {
+    "pollie_slug": "josh-frydenberg",
+    "role": "Chair",
+    "organisation": "The Dor Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.thedorfoundation.org.au/media/joshfrydenberg-launches-foundation-to-tackle-antisemitism",
+      "https://www.thedorfoundation.org.au/about"
+    ],
+    "start_date": "2025-02-15"
+  },
+  {
+    "pollie_slug": "josh-frydenberg",
+    "role": "Member, Global Economic Advisory Council",
+    "organisation": "Airwallex",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.airwallex.com/global/blog/introducing-the-airwallex-global-economic-advisory-council",
+      "https://thefintechtimes.com/airwallex-assembles-political-and-financial-heavyweights-for-global-economic-advisory-council/"
+    ],
+    "start_date": "2026-05-12"
   }
 ]
