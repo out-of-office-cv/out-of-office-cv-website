@@ -46853,5 +46853,46 @@
     },
     "start_date": "2020-01-15",
     "pollie_slug": "frederick-chaney"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Working Women's Centre Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.wwc.org.au/anne-mcewen-oam-to-lead-working-womens-centre-australia/"
+    ],
+    "role_evidence": {
+      "url": "https://www.wwc.org.au/anne-mcewen-oam-to-lead-working-womens-centre-australia/",
+      "quote": "Anne McEwen OAM will help lead the next stage of our national development as incoming Chair of Working Women's Centre Australia."
+    },
+    "pollie_slug": "anne-mcewen"
+  },
+  {
+    "role": "Advisory Committee Member",
+    "organisation": "QUT Pathways to Politics for Women",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://psnews.com.au/2019/07/01/on-track-quts-plans-to-help-women-walk-the-pathway-to-politics/",
+      "https://insidelocalgovernment.com.au/qut-pathways-to-politics-program-empowering-female-representation/"
+    ],
+    "role_evidence": {
+      "url": "https://psnews.com.au/2019/07/01/on-track-quts-plans-to-help-women-walk-the-pathway-to-politics/",
+      "quote": "The QUT Pathways to Politics for Women program's advisory committee includes a number of former Queensland politicians and QUT alumni, including former Federal MP and Parliamentary Secretary Dr Mary Crawford, former Federal MP, Parliamentary Secretary and Assistant Minister for Immigration and Citizenship Adjunct Professor Teresa Gambaro, and former Queensland Attorney-General and Minister for Justice Linda Lavarch."
+    },
+    "pollie_slug": "teresa-gambaro"
+  },
+  {
+    "role": "Owner",
+    "organisation": "Tea Shop, Fortitude Valley",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://westender.com.au/greens-party-elder-andrew-bartlett-assesses-the-candidates-and-the-issues-in-south-brisbane/",
+      "https://greens.org.au/qld/person/andrew-bartlett"
+    ],
+    "role_evidence": {
+      "url": "https://westender.com.au/greens-party-elder-andrew-bartlett-assesses-the-candidates-and-the-issues-in-south-brisbane/",
+      "quote": "He currently runs a tea shop in Fortitude Valley."
+    },
+    "pollie_slug": "andrew-bartlett"
   }
 ]
