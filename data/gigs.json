@@ -46102,5 +46102,123 @@
       "url": "https://biography.senate.gov.au/mulvihill-james-anthony/",
       "quote": "As patron of the Native Dog Society, he and his pure bred dingo, Peter Pan, often joined the Australia Day parades in Sydney."
     }
+  },
+  {
+    "role": "Co-chair",
+    "organisation": "National Diabetes Strategy Advisory Group",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.diabetesaustralia.com.au/wp-content/uploads/National-Diabetes-Strategy-A-Strategic-Framework-for-Action.pdf"
+    ],
+    "start_date": "2013-12-02",
+    "pollie_slug": "judi-moylan"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Connectivity Traumatic Brain Injury Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.connectivity.org.au/wp-content/uploads/2026/01/Connectivity-2023-2024-Annual-Report.pdf"
+    ],
+    "pollie_slug": "judi-moylan"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Parliamentarians for Diabetes Global Network",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.pdgn.org.uk/about.php"
+    ],
+    "pollie_slug": "judi-moylan"
+  },
+  {
+    "role": "Director",
+    "organisation": "European Bank for Reconstruction and Development",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22media/pressrel/6613467%22"
+    ],
+    "start_date": "2016",
+    "end_date": "2018",
+    "pollie_slug": "phillip-barresi"
+  },
+  {
+    "role": "Director",
+    "organisation": "Citrus Australia",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://adb.anu.edu.au/biography/andrew-john-neil-28203"
+    ],
+    "start_date": "2014",
+    "pollie_slug": "neil-andrew"
+  },
+  {
+    "role": "Member",
+    "organisation": "National Capital Authority",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://gawlerhistory.com/index.php/Andrew_AO_John_Neil"
+    ],
+    "pollie_slug": "neil-andrew"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "Australian Centre for International Agricultural Research",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://gawlerhistory.com/index.php/Andrew_AO_John_Neil"
+    ],
+    "pollie_slug": "neil-andrew"
+  },
+  {
+    "role": "Psychologist",
+    "organisation": "My Psychology Tasmania",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://mypsychology.org.au/"
+    ],
+    "pollie_slug": "justine-keay"
+  },
+  {
+    "role": "Member",
+    "organisation": "Tasmania Police Review Board",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.tasmaniapolicecharitytrust.com/hon-stephen-parry-2/"
+    ],
+    "pollie_slug": "stephen-parry"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Good Beginnings Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.northerndailyleader.com.au/story/5300724/faces-of-tamworth-barrister-grazier-politician-and-philanthropist-ian-sinclair/",
+      "https://fandp.com.au/solid-foundations-laid-by-good-beginning-210369/"
+    ],
+    "start_date": "2000",
+    "pollie_slug": "ian-sinclair"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Sheep Cooperative Research Centre",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.northerndailyleader.com.au/story/5300724/faces-of-tamworth-barrister-grazier-politician-and-philanthropist-ian-sinclair/",
+      "https://www.theland.com.au/story/5963934/final-curtain-for-sheep-crc/"
+    ],
+    "start_date": "2001",
+    "end_date": "2007",
+    "pollie_slug": "ian-sinclair"
+  },
+  {
+    "role": "President",
+    "organisation": "Murray-Darling Basin Commission",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.northerndailyleader.com.au/story/5300724/faces-of-tamworth-barrister-grazier-politician-and-philanthropist-ian-sinclair/"
+    ],
+    "start_date": "2003",
+    "pollie_slug": "ian-sinclair"
   }
 ]
