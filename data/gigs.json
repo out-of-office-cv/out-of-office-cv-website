@@ -45733,5 +45733,206 @@
     "sources": [
       "https://www.theleader.com.au/story/9236297/jenny-ware-reveals-mental-health-struggles-after-hughes-loss/"
     ]
+  },
+  {
+    "role": "Special Counsel",
+    "organisation": "Cornerstone Government Relations",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://cgrp.com.au/our-people/"
+    ],
+    "role_evidence": {
+      "url": "https://cgrp.com.au/our-people/",
+      "quote": "Jason Falinski brings both political and corporate expertise to his role as Special Counsel."
+    },
+    "pollie_slug": "jason-falinski"
+  },
+  {
+    "role": "Managing Partner",
+    "organisation": "Ergo Videatur",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.ergovideatur.com/"
+    ],
+    "role_evidence": {
+      "url": "https://www.ergovideatur.com/",
+      "quote": "As Jason Falinski, our Managing Partner, emphasizes in his insights shared with Management Today"
+    },
+    "pollie_slug": "jason-falinski"
+  },
+  {
+    "role": "Executive Chair",
+    "organisation": "Procare Help",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://au.linkedin.com/in/jason-falinski-b59256",
+      "https://www.jasonfalinski.com.au/meet-jason"
+    ],
+    "role_evidence": {
+      "url": "https://au.linkedin.com/in/jason-falinski-b59256",
+      "quote": "Jason Falinski - Executive Chair, Procare Help"
+    },
+    "pollie_slug": "jason-falinski"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Airtrip",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.moneymanagement.com.au/news/people-products/falinski-joins-qld-property-company"
+    ],
+    "role_evidence": {
+      "url": "https://www.moneymanagement.com.au/news/people-products/falinski-joins-qld-property-company",
+      "quote": "Falinski had taken a role as the firm's chair this month following his election defeat in the Sydney seat of Mackellar to independent candidate, Sophie Scamps in May."
+    },
+    "pollie_slug": "jason-falinski"
+  },
+  {
+    "role": "Non-Executive Chair",
+    "organisation": "Bridge SaaS Limited",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://www.marketindex.com.au/asx/directors/jason-falinski"
+    ],
+    "role_evidence": {
+      "url": "https://www.marketindex.com.au/asx/directors/jason-falinski",
+      "quote": "Jason Falinski | Non-Executive Chairman,Non-Executive Director | Bridge SaaS Limited"
+    },
+    "pollie_slug": "jason-falinski"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Lindbloms Lawyers",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://lindblomslawyers.com.au/nick-xenophon-co-lawyers-comes-under-the-umbrella-of-lindbloms-lawyers/",
+      "https://neoskosmos.com/en/2024/04/03/news/australia/former-senator-nick-xenophon-goes-public-with-benign-brain-tumour-diagnosis/"
+    ],
+    "role_evidence": {
+      "url": "https://lindblomslawyers.com.au/nick-xenophon-co-lawyers-comes-under-the-umbrella-of-lindbloms-lawyers/",
+      "quote": "I'll still be staying in as a consultant."
+    },
+    "start_date": "2024-04-02",
+    "pollie_slug": "nick-xenophon"
+  },
+  {
+    "role": "Co-Owner",
+    "organisation": "Thanks to Theo",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://glamadelaide.com.au/new-cbd-greek-restaurant-thanks-to-theo-to-open-in-partnership-with-nick-xenophon/"
+    ],
+    "role_evidence": {
+      "url": "https://glamadelaide.com.au/new-cbd-greek-restaurant-thanks-to-theo-to-open-in-partnership-with-nick-xenophon/",
+      "quote": "At the helm of 'Thanks to Theo' are Alessandra and her partner Andrew (head chef), along with their business partner Nick Xenophon who's a former Senator of South Australia (from 2008 to 2017) and wants to support the new venture."
+    },
+    "start_date": "2023-12-01",
+    "pollie_slug": "nick-xenophon"
+  },
+  {
+    "role": "Director",
+    "organisation": "Destination NSW",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.nsw.gov.au/ministerial-releases/new-members-appointed-to-destination-nsw-board",
+      "https://www.ausleisure.com.au/news/new-members-appointed-to-destination-nsw-board"
+    ],
+    "role_evidence": {
+      "url": "https://www.nsw.gov.au/ministerial-releases/new-members-appointed-to-destination-nsw-board",
+      "quote": "Former member for Barton The Hon. Linda Burney and Tom Malone will join the board on 1 June 2026 for a three-year term."
+    },
+    "start_date": "2026-06-01",
+    "pollie_slug": "linda-burney"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Gas Market Taskforce, Victorian Government",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://nofibs.com.au/lobbyists-public-commentary-reith-spotlight-mark-anning-1earthmedia-reports/"
+    ],
+    "role_evidence": {
+      "url": "https://nofibs.com.au/lobbyists-public-commentary-reith-spotlight-mark-anning-1earthmedia-reports/",
+      "quote": "Reith is a paid political lobbyist and chairman of the Victorian Government's task force on the eastern gas market."
+    },
+    "pollie_slug": "peter-reith"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "The Sydney Morning Herald",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Reith"
+    ],
+    "role_evidence": {
+      "url": "https://en.wikipedia.org/wiki/Peter_Reith",
+      "quote": "From 2014, Reith had been writing weekly for The Sydney Morning Herald and was a political commentator for Sky News Australia, appearing regularly on AM Agenda and The Cabinet."
+    },
+    "pollie_slug": "peter-reith"
+  },
+  {
+    "role": "Political Commentator",
+    "organisation": "Sky News Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Reith"
+    ],
+    "role_evidence": {
+      "url": "https://en.wikipedia.org/wiki/Peter_Reith",
+      "quote": "From 2014, Reith had been writing weekly for The Sydney Morning Herald and was a political commentator for Sky News Australia, appearing regularly on AM Agenda and The Cabinet."
+    },
+    "pollie_slug": "peter-reith"
+  },
+  {
+    "role": "Chair, Advisory Council",
+    "organisation": "Cornerstone Group Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://michaelwest.com.au/peter-reith/"
+    ],
+    "role_evidence": {
+      "url": "https://michaelwest.com.au/peter-reith/",
+      "quote": "Chairman of the Advisory Council, Cornerstone Group Australia (June 2016 – Present)"
+    },
+    "pollie_slug": "peter-reith"
+  },
+  {
+    "role": "Special Counsel",
+    "organisation": "First State",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.abc.net.au/news/peter-reith/2782056"
+    ],
+    "role_evidence": {
+      "url": "https://www.abc.net.au/news/peter-reith/2782056",
+      "quote": "Peter Reith is Special Counsel to First State, a government and corporate relations advisory firm."
+    },
+    "pollie_slug": "peter-reith"
+  },
+  {
+    "role": "Lobbyist",
+    "organisation": "G4S Custodial Services",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://michaelwest.com.au/peter-reith/"
+    ],
+    "role_evidence": {
+      "url": "https://michaelwest.com.au/peter-reith/",
+      "quote": "Other Industry Positions (Sole Trader Lobbyist) ... G4S Custodial Services Pty Ltd (Australian G4S subsidiary)(2014–Feb 2017)"
+    },
+    "pollie_slug": "peter-reith"
+  },
+  {
+    "role": "Lobbyist",
+    "organisation": "Bechtel Infrastructure (Australia)",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://michaelwest.com.au/peter-reith/"
+    ],
+    "role_evidence": {
+      "url": "https://michaelwest.com.au/peter-reith/",
+      "quote": "Other Industry Positions (Sole Trader Lobbyist) ... Bechtel Infrastructure (Australia) Pty Ltd (2016–Feb 2017)"
+    },
+    "pollie_slug": "peter-reith"
   }
 ]
