@@ -46509,5 +46509,349 @@
       "by": "claude",
       "note": "Confirmed by Northern Daily Leader profile: \"Murray Darling Basin Commission from 2003, of which he was president.\" A follow-up search corroborates an appointment from December 2003, but the official MDBA/MDBC annual report pages returned HTTP 403 on fetch so were not added as sources; the single cited news source is a reputable Australian regional outlet naming this specific former MP and the specific role/date, meeting the verification bar without them."
     }
+  },
+  {
+    "role": "Chair",
+    "organisation": "Healthy Land & Water",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://hlw.org.au/portfolio/trevor-evans"
+    ],
+    "role_evidence": {
+      "url": "https://hlw.org.au/portfolio/trevor-evans",
+      "quote": "Trevor Evans commenced in the role of Chair of Healthy Land & Water on 1 July 2026."
+    },
+    "start_date": "2026-07-01",
+    "pollie_slug": "trevor-evans"
+  },
+  {
+    "role": "President",
+    "organisation": "Western Australian Bar Association",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.murraychamberswa.com.au/barristers/the-hon.-r-i-viner-ao-kc"
+    ],
+    "role_evidence": {
+      "url": "https://www.murraychamberswa.com.au/barristers/the-hon.-r-i-viner-ao-kc",
+      "quote": "Ian is a member of the WA Bar Association of which he was President 2001-2004 and President of the Australian Bar Association 2005 and 2006."
+    },
+    "start_date": "2001-01-01",
+    "end_date": "2004-12-31",
+    "pollie_slug": "ian-viner"
+  },
+  {
+    "role": "President",
+    "organisation": "Australian Bar Association",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.murraychamberswa.com.au/barristers/the-hon.-r-i-viner-ao-kc"
+    ],
+    "role_evidence": {
+      "url": "https://www.murraychamberswa.com.au/barristers/the-hon.-r-i-viner-ao-kc",
+      "quote": "Ian is a member of the WA Bar Association of which he was President 2001-2004 and President of the Australian Bar Association 2005 and 2006."
+    },
+    "start_date": "2005-01-01",
+    "end_date": "2006-12-31",
+    "pollie_slug": "ian-viner"
+  },
+  {
+    "role": "President",
+    "organisation": "Liberal Party of Western Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ian_Viner"
+    ],
+    "role_evidence": {
+      "url": "https://en.wikipedia.org/wiki/Ian_Viner",
+      "quote": "Viner was elected state president of the Liberal Party in Western Australia in 1991."
+    },
+    "start_date": "1991-01-01",
+    "pollie_slug": "ian-viner"
+  },
+  {
+    "role": "General Manager",
+    "organisation": "Stanbroke",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.queenslandcountrylife.com.au/story/8456424/fortitude-valley-welcomes-new-italian-style-steak-restaurant/",
+      "https://www.edq.qld.gov.au/about/executive-team/julian-simmonds/"
+    ],
+    "role_evidence": {
+      "url": "https://www.queenslandcountrylife.com.au/story/8456424/fortitude-valley-welcomes-new-italian-style-steak-restaurant/",
+      "quote": "Stanbroke general manager Julian Simmonds said the restaurant name paid homage to Stanbroke's processing facility at Grantham in the Lockyer Valley region, their 1200 person operation in Queensland as well as their Italian heritage."
+    },
+    "pollie_slug": "julian-simmonds"
+  },
+  {
+    "role": "Executive",
+    "organisation": "CavCorp",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.edq.qld.gov.au/about/executive-team/julian-simmonds/"
+    ],
+    "role_evidence": {
+      "url": "https://www.edq.qld.gov.au/about/executive-team/julian-simmonds/",
+      "quote": "Mr Simmonds brings strategic and delivery expertise from the private sector through executive leadership roles at CavCorp and Stanbroke."
+    },
+    "pollie_slug": "julian-simmonds"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "John McEwen House Pty Ltd",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf",
+      "quote": "Deputy Chair, John McEwen House Pty Ltd, since 1991."
+    },
+    "start_date": "1991-01-01",
+    "pollie_slug": "alexander-mackenzie"
+  },
+  {
+    "role": "Federal Secretary",
+    "organisation": "The Nationals",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf",
+      "quote": "Federal Secretary, 1986-2000."
+    },
+    "start_date": "1986-01-01",
+    "end_date": "2000-01-01",
+    "pollie_slug": "alexander-mackenzie"
+  },
+  {
+    "role": "Federal Treasurer",
+    "organisation": "The Nationals",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf",
+      "quote": "Federal Treasurer, 2000-2003."
+    },
+    "start_date": "2000-01-01",
+    "end_date": "2003-01-01",
+    "pollie_slug": "alexander-mackenzie"
+  },
+  {
+    "role": "Cotton Farmers Committee Member",
+    "organisation": "Foundation for Rural and Regional Renewal",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf",
+      "quote": "Member, Cotton Farmers Committee, Foundation for Rural and Regional Renewal, 2017-2018."
+    },
+    "start_date": "2017-01-01",
+    "end_date": "2018-01-01",
+    "pollie_slug": "alexander-mackenzie"
+  },
+  {
+    "role": "Coordinator",
+    "organisation": "Campaign to Save the Lower Darling River",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf",
+      "quote": "Coordinator, Campaign to Save the Lower Darling River, 2017-2018."
+    },
+    "start_date": "2017-01-01",
+    "end_date": "2018-01-01",
+    "pollie_slug": "alexander-mackenzie"
+  },
+  {
+    "role": "Founder",
+    "organisation": "Avenel Action Group",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf",
+      "quote": "Founder, Avenel Action Group, 2005."
+    },
+    "start_date": "2005-01-01",
+    "pollie_slug": "alexander-mackenzie"
+  },
+  {
+    "role": "Member",
+    "organisation": "Australian Council for Children and Parenting",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf",
+      "quote": "Member, Australian Council for Children and Parenting, 2000-2004."
+    },
+    "start_date": "2000-01-01",
+    "end_date": "2004-01-01",
+    "pollie_slug": "alexander-mackenzie"
+  },
+  {
+    "role": "Members Council Member",
+    "organisation": "National Landcare Network",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf",
+      "quote": "Members Council, National Landcare Network, since 2013."
+    },
+    "start_date": "2013-01-01",
+    "pollie_slug": "alexander-mackenzie"
+  },
+  {
+    "role": "Members Council Member",
+    "organisation": "Landcare Victoria",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf",
+      "quote": "Members Council, Landcare Victoria, since 2015."
+    },
+    "start_date": "2015-01-01",
+    "pollie_slug": "alexander-mackenzie"
+  },
+  {
+    "role": "Coordinator",
+    "organisation": "Burnt Creek Landcare Group",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf",
+      "quote": "Coordinator, Burnt Creek Landcare Group, Avenel, 2006-2022."
+    },
+    "start_date": "2006-01-01",
+    "end_date": "2022-01-01",
+    "pollie_slug": "alexander-mackenzie"
+  },
+  {
+    "role": "Committee Member",
+    "organisation": "Goulburn Murray Water",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf",
+      "quote": "Member, Committee, Goulburn Murray Water, since 2010."
+    },
+    "start_date": "2010-01-01",
+    "pollie_slug": "alexander-mackenzie"
+  },
+  {
+    "role": "President, North Eastern Victorian and Riverina Branch",
+    "organisation": "Old Geelong Grammarians",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf",
+      "quote": "President, North Eastern Victorian and Riverina Branch, since 2016."
+    },
+    "start_date": "2016-01-01",
+    "pollie_slug": "alexander-mackenzie"
+  },
+  {
+    "role": "Executive Officer",
+    "organisation": "Geelong Grammar International Foundation",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf",
+      "quote": "Executive Officer, Geelong Grammar International Foundation, Thailand, 1994-1998."
+    },
+    "start_date": "1994-01-01",
+    "end_date": "1998-01-01",
+    "pollie_slug": "alexander-mackenzie"
+  },
+  {
+    "role": "Director",
+    "organisation": "Marcus Oldham Foundation",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.gg.gov.au/sites/default/files/2023-06/20230612%20-%20Media%20notes%20-%20AM%20M-Z%20-%20The%20King's%20Birthday%202023%20Honours%20List.pdf",
+      "quote": "Board Member, 1990-1998."
+    },
+    "start_date": "1990-01-01",
+    "end_date": "1998-01-01",
+    "pollie_slug": "alexander-mackenzie"
+  },
+  {
+    "role": "Vice-President",
+    "organisation": "Graham (Polly) Farmer Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fred_Chaney"
+    ],
+    "role_evidence": {
+      "url": "https://en.wikipedia.org/wiki/Fred_Chaney",
+      "quote": "as co-founder and Vice-President of The Graham (Polly) Farmer Foundation (1995–current)"
+    },
+    "start_date": "1995-01-01",
+    "pollie_slug": "frederick-chaney"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Desert Knowledge Australia",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://collected.uwa.edu.au/nodes/view/371"
+    ],
+    "role_evidence": {
+      "url": "https://collected.uwa.edu.au/nodes/view/371",
+      "quote": "Mr Chaney was appointed Chair of Desert Knowledge Australia in 2005."
+    },
+    "start_date": "2005-01-01",
+    "pollie_slug": "frederick-chaney"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Central Desert Native Title Services",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://australianoftheyear.org.au/recipients/fred-chaney-ao"
+    ],
+    "role_evidence": {
+      "url": "https://australianoftheyear.org.au/recipients/fred-chaney-ao",
+      "quote": "is Chair of Desert Knowledge Australia and chaired the Board of Central Desert Native Title services"
+    },
+    "pollie_slug": "frederick-chaney"
+  },
+  {
+    "role": "Member, National Co-Design Group",
+    "organisation": "National Indigenous Australians Agency",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.niaa.gov.au/news-and-media/indigenous-voice-national-co-design-group-announced"
+    ],
+    "role_evidence": {
+      "url": "https://www.niaa.gov.au/news-and-media/indigenous-voice-national-co-design-group-announced",
+      "quote": "The full membership of the National Co-Design Group is: Dr Donna Odegaard AM Mr Jamie Lowe Mr Rodney Dillon Prof Gracelyn Smallwood AM Mr Richard Weston Prof Cheryl Kickett-Tucker Ms Katrina Fanning PSM The Hon Jeff KennettAC Mr Damian Griffis Mr Steve Wanta Patrick Jampijinpa Ms Fiona McLeod SC Mr Marcus Stewart Ms Kristal Kinsela-Christie The Hon Fred Chaney AO Mr Joseph Elu AO Ms Zell Dodd"
+    },
+    "start_date": "2020-01-15",
+    "pollie_slug": "frederick-chaney"
   }
 ]
