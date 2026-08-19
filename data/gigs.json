@@ -47431,5 +47431,215 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Gordon_Dean_(Australian_politician)"
     ]
+  },
+  {
+    "pollie_slug": "cheryl-kernot",
+    "role": "Director",
+    "organisation": "Foresters Community Finance",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://good-design.org/ambassadors/cheryl-kernot/"
+    ],
+    "role_evidence": {
+      "url": "https://good-design.org/ambassadors/cheryl-kernot/",
+      "quote": "She served as an honorary board member of Foresters Community Finance for four years until 2011"
+    }
+  },
+  {
+    "pollie_slug": "cheryl-kernot",
+    "role": "Chair",
+    "organisation": "Fair Trade Association of Australia and New Zealand",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://good-design.org/ambassadors/cheryl-kernot/"
+    ],
+    "role_evidence": {
+      "url": "https://good-design.org/ambassadors/cheryl-kernot/",
+      "quote": "Cheryl has been elected Chair of the Fair Trade Association of Australia and NZ for the past four years."
+    }
+  },
+  {
+    "pollie_slug": "cheryl-kernot",
+    "role": "Social Business Fellow",
+    "organisation": "Centre for Social Impact",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://good-design.org/ambassadors/cheryl-kernot/"
+    ],
+    "role_evidence": {
+      "url": "https://good-design.org/ambassadors/cheryl-kernot/",
+      "quote": "Cheryl is the Social Business Fellow at the Centre for Social Impact (CSI)."
+    }
+  },
+  {
+    "pollie_slug": "cheryl-kernot",
+    "role": "Patron",
+    "organisation": "Women in Prison Advocacy Network",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cheryl_Kernot"
+    ],
+    "role_evidence": {
+      "url": "https://en.wikipedia.org/wiki/Cheryl_Kernot",
+      "quote": "In 2014 Kernot became the first patron of the Women in Prison Advocacy Network (WIPAN)."
+    }
+  },
+  {
+    "pollie_slug": "john-hyde",
+    "role": "Chair, Property Rights Committee",
+    "organisation": "Pastoralists and Graziers Association of Western Australia",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.aph.gov.au/parliamentary_business/committees/house_of_representatives_committees?url=environ%2Fpubgood%2Freport%2Fappendc.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.aph.gov.au/parliamentary_business/committees/house_of_representatives_committees?url=environ%2Fpubgood%2Freport%2Fappendc.pdf",
+      "quote": "Mr John Hyde, Chairman, Property Rights Committee"
+    }
+  },
+  {
+    "pollie_slug": "john-brown",
+    "role": "Director",
+    "organisation": "Macquarie Tourism and Leisure",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://web.archive.org/web/20170429000000/http://www.celebrityspeakers.com.au/political-speakers/john-brown-ao/"
+    ],
+    "role_evidence": {
+      "url": "https://web.archive.org/web/20170429000000/http://www.celebrityspeakers.com.au/political-speakers/john-brown-ao/",
+      "quote": "He has held positions including Director of Macquarie Tourism and Leisure, Director of Canterbury Bankstown Leagues Club and a consultant to Service Corporation International Australia."
+    }
+  },
+  {
+    "pollie_slug": "john-brown",
+    "role": "Consultant",
+    "organisation": "Service Corporation International Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://web.archive.org/web/20170429000000/http://www.celebrityspeakers.com.au/political-speakers/john-brown-ao/"
+    ],
+    "role_evidence": {
+      "url": "https://web.archive.org/web/20170429000000/http://www.celebrityspeakers.com.au/political-speakers/john-brown-ao/",
+      "quote": "He has held positions including Director of Macquarie Tourism and Leisure, Director of Canterbury Bankstown Leagues Club and a consultant to Service Corporation International Australia."
+    }
+  },
+  {
+    "pollie_slug": "mark-arbib",
+    "role": "Director",
+    "organisation": "Sydney FC",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://aleagues.com.au/news/mark-arbib-joins-sydney-fc-board/",
+      "https://sydneyfc.com/news/sydney-fc-appoint-new-member-board-directors/"
+    ],
+    "role_evidence": {
+      "url": "https://aleagues.com.au/news/mark-arbib-joins-sydney-fc-board/",
+      "quote": "I am also pleased to announce that Mark Arbib and Michael Crismale will join the Sydney FC Board."
+    }
+  },
+  {
+    "pollie_slug": "mark-arbib",
+    "role": "Board Member",
+    "organisation": "Packer Family Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://michaelwest.com.au/mark-arbib/"
+    ],
+    "role_evidence": {
+      "url": "https://michaelwest.com.au/mark-arbib/",
+      "quote": "Board member for the Packer Family Foundation since 2014."
+    }
+  },
+  {
+    "pollie_slug": "mark-arbib",
+    "role": "Advisory Board Member",
+    "organisation": "Precision Group",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://michaelwest.com.au/mark-arbib/"
+    ],
+    "role_evidence": {
+      "url": "https://michaelwest.com.au/mark-arbib/",
+      "quote": "Advisory Board Member of Precision Group since June 2020."
+    }
+  },
+  {
+    "pollie_slug": "mark-arbib",
+    "role": "Advisory Board Member",
+    "organisation": "Prezzee",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://michaelwest.com.au/mark-arbib/"
+    ],
+    "role_evidence": {
+      "url": "https://michaelwest.com.au/mark-arbib/",
+      "quote": "Advisory Board Member of Prezzee since May 2021"
+    }
+  },
+  {
+    "pollie_slug": "david-brownhill",
+    "role": "Chair",
+    "organisation": "Merrilong Pastoral Company",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://biography.senate.gov.au/brownhill-david-gordon-cadell/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/brownhill-david-gordon-cadell/",
+      "quote": "He remained as chairman of his family companies, the principal being Merrilong Pastoral Company Pty Ltd, until retiring in 2006."
+    }
+  },
+  {
+    "pollie_slug": "david-brownhill",
+    "role": "Deputy Chair",
+    "organisation": "AMPS Agribusiness",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://ampsagribusiness.com.au/new-chairperson-for-amps-"
+    ],
+    "role_evidence": {
+      "url": "https://ampsagribusiness.com.au/new-chairperson-for-amps-",
+      "quote": "Continuing the legacy of strong leadership, current Board Member David Brownhill will join Kate as Deputy Chair."
+    }
+  },
+  {
+    "pollie_slug": "david-brownhill",
+    "role": "Chair",
+    "organisation": "Nuffield Australia",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://ampsagribusiness.com.au/board"
+    ],
+    "role_evidence": {
+      "url": "https://ampsagribusiness.com.au/board",
+      "quote": "David has served as a director of the Royal Agricultural Society of NSW (RAS) Foundation and is a past Chairman of the Nuffield Australia Board."
+    }
+  },
+  {
+    "pollie_slug": "claire-moore",
+    "role": "Chair",
+    "organisation": "Newstead House",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Tabled-Papers/docs/5825t1434/5825t1434.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Tabled-Papers/docs/5825t1434/5825t1434.pdf",
+      "quote": "Ms Claire Moore, Chairperson and Queensland Government representative"
+    },
+    "start_date": "2023-11-02"
+  },
+  {
+    "pollie_slug": "claire-moore",
+    "role": "Vice President",
+    "organisation": "Australia Palestine Advocacy Network",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Australia_Palestine_Advocacy_Network"
+    ],
+    "role_evidence": {
+      "url": "https://en.wikipedia.org/wiki/Australia_Palestine_Advocacy_Network",
+      "quote": "Past members of the executive board include Labor politician Claire Moore (who was also vice president for some time)."
+    }
   }
 ]
