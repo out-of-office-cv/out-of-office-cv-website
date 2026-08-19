@@ -47924,5 +47924,129 @@
       "url": "https://en.wikipedia.org/wiki/Australia_Palestine_Advocacy_Network",
       "quote": "Past members of the executive board include Labor politician Claire Moore (who was also vice president for some time)."
     }
+  },
+  {
+    "role": "Adjunct Professor",
+    "organisation": "University of Canberra",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.celebrityspeakers.com.au/speakers/julia-banks/?speaker=Julia+Banks",
+      "https://www.saxton.com.au/speakers/julia-banks"
+    ],
+    "pollie_slug": "julia-banks"
+  },
+  {
+    "role": "Interim Chief Executive Officer",
+    "organisation": "Australian Forest Products Association",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://ausfpa.com.au/departure-of-chief-executive-officer-of-the-australian-forest-products-association-in-february-2023-hon-joel-fitzgibbon-appointed-interim-ceo-from-february-2023/"
+    ],
+    "pollie_slug": "joel-fitzgibbon",
+    "start_date": "2023-02-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Trademark Group of Companies",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://trademarkgroup.com.au/hon-joel-fitzgibbon-appointed-as-australian-chairman-of-trademark-group-of-companies/"
+    ],
+    "pollie_slug": "joel-fitzgibbon"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Commando Welfare Trust",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://commandotrust.com/hon-joel-fitzgibbon-joins-commando-welfare-trust-as-patron-turning-tragedy-into-fighting-for-veterans-welfare/",
+      "https://commandotrust.com/about-us/board-of-trustees/"
+    ],
+    "pollie_slug": "joel-fitzgibbon"
+  },
+  {
+    "role": "Co-Chair",
+    "organisation": "AUKUS Forum",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.crikey.com.au/2024/01/23/aukus-forum-fitzgibbon-sinodinos-promote-media-banned/"
+    ],
+    "pollie_slug": "joel-fitzgibbon"
+  },
+  {
+    "role": "Committee Member",
+    "organisation": "Australian Lawyers' Alliance (Tasmania)",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://tasbar.com.au/barrister/the-honourable-peter-slipper/"
+    ],
+    "pollie_slug": "peter-slipper"
+  },
+  {
+    "role": "Committee Member",
+    "organisation": "Tasmanian Prisoners' Legal Service",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://tasbar.com.au/barrister/the-honourable-peter-slipper/"
+    ],
+    "pollie_slug": "peter-slipper"
+  },
+  {
+    "role": "Committee Member",
+    "organisation": "Sunshine Coast Bar Association",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://tasbar.com.au/barrister/the-honourable-peter-slipper/"
+    ],
+    "pollie_slug": "peter-slipper"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "Fairfax",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://biography.senate.gov.au/button-john-norman/"
+    ],
+    "pollie_slug": "john-button"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "The Monthly",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://biography.senate.gov.au/button-john-norman/"
+    ],
+    "pollie_slug": "john-button"
+  },
+  {
+    "role": "Campaign Director",
+    "organisation": "CitizenGO Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.confidentialdaily.com/author/george/"
+    ],
+    "pollie_slug": "george-christensen"
+  },
+  {
+    "role": "Councillor",
+    "organisation": "Mackay Regional Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.mackayandwhitsundaylife.com/article/new-mackay-regional-council-takes-office",
+      "https://en.wikipedia.org/wiki/George_Christensen"
+    ],
+    "pollie_slug": "george-christensen",
+    "start_date": "2024-03-16",
+    "end_date": "2025-05-30"
+  },
+  {
+    "role": "Adviser to the Minister for Trade, Tourism and Investment",
+    "organisation": "Australian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://web.archive.org/web/20221018044349/https://www.newgatecomms.com.au/people/matt-williams/",
+      "https://www.consultaustralia.com.au/home/advocacy/Consulting-Matters-Feb-Mar-2023/massive-market-opportunities-ahead"
+    ],
+    "pollie_slug": "matt-williams"
   }
 ]
