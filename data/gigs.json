@@ -48123,5 +48123,94 @@
       "https://www.mpnews.com.au/2023/09/18/push-for-more-democracy-in-planning/"
     ],
     "pollie_slug": "kelvin-thomson"
+  },
+  {
+    "role": "Candidate for Moore",
+    "organisation": "Liberal Party of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.abc.net.au/news/2024-02-17/wa-liberal-preselection-moore-ian-goodenough-beaten-by-connelly/103478256",
+      "https://www.abc.net.au/news/elections/federal/2025/guide/moor",
+      "https://en.wikipedia.org/wiki/Vince_Connelly"
+    ],
+    "start_date": "2024-02-17",
+    "end_date": "2025-05-03",
+    "pollie_slug": "vince-connelly"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Celamin Holdings",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.proactiveinvestors.co.uk/companies/news/31310/celamin-holdings-strengthens-board-with-chairman-appointment-37432.html"
+    ],
+    "start_date": "2012-01-04",
+    "pollie_slug": "andrew-thomson"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Athena Resources",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.proactiveinvestors.co.uk/companies/news/31310/celamin-holdings-strengthens-board-with-chairman-appointment-37432.html"
+    ],
+    "pollie_slug": "andrew-thomson"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Gulf & Asian Mining",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.proactiveinvestors.co.uk/companies/news/31310/celamin-holdings-strengthens-board-with-chairman-appointment-37432.html"
+    ],
+    "pollie_slug": "andrew-thomson"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Citadel Resources Group",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.proactiveinvestors.co.uk/companies/news/31310/celamin-holdings-strengthens-board-with-chairman-appointment-37432.html"
+    ],
+    "pollie_slug": "andrew-thomson"
+  },
+  {
+    "role": "Director",
+    "organisation": "Wondertreat Australia",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nick_Bolkus",
+      "https://michaelwest.com.au/nick-bolkus/"
+    ],
+    "pollie_slug": "nick-bolkus"
+  },
+  {
+    "role": "Director",
+    "organisation": "Ecofertiliser",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nick_Bolkus",
+      "https://michaelwest.com.au/nick-bolkus/"
+    ],
+    "pollie_slug": "nick-bolkus"
+  },
+  {
+    "role": "Adviser",
+    "organisation": "Australian Hokkien Association",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nick_Bolkus",
+      "https://michaelwest.com.au/nick-bolkus/"
+    ],
+    "pollie_slug": "nick-bolkus"
+  },
+  {
+    "role": "Chair",
+    "organisation": "SA Progressive Business",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.abc.net.au/news/2025-12-25/nick-bolkus-obituary/106178484"
+    ],
+    "pollie_slug": "nick-bolkus"
   }
 ]
