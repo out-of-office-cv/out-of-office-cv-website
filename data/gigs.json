@@ -48848,5 +48848,243 @@
       "by": "claude",
       "note": "Confirmed by The Courier (26 Jan 2025): 'he is still a part of the Australian Multicultural Foundation, where he has been a board member for the past seven years.'"
     }
+  },
+  {
+    "pollie_slug": "kerry-sibraa",
+    "role": "Chair",
+    "organisation": "Manly-Warringah Rugby League Football Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.facebook.com/MWRLFC/posts/happy-birthday-kerry-sibraa-aomwrlfc-co-patron197594-nsw-senator198794-president/1234237038740418/"
+    ],
+    "role_evidence": {
+      "url": "https://www.facebook.com/MWRLFC/posts/happy-birthday-kerry-sibraa-aomwrlfc-co-patron197594-nsw-senator198794-president/1234237038740418/",
+      "quote": "2004–06 MWRLFC Chairman."
+    }
+  },
+  {
+    "pollie_slug": "kerry-sibraa",
+    "role": "Co-Patron",
+    "organisation": "Manly-Warringah Rugby League Football Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.facebook.com/MWRLFC/posts/happy-birthday-kerry-sibraa-aomwrlfc-co-patron197594-nsw-senator198794-president/1234237038740418/"
+    ],
+    "role_evidence": {
+      "url": "https://www.facebook.com/MWRLFC/posts/happy-birthday-kerry-sibraa-aomwrlfc-co-patron197594-nsw-senator198794-president/1234237038740418/",
+      "quote": "MWRLFC Co-Patron."
+    }
+  },
+  {
+    "pollie_slug": "paul-keating",
+    "role": "Chair, Design Excellence Review Panel",
+    "organisation": "Barangaroo Delivery Authority",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barangaroo,_New_South_Wales",
+      "https://architectureau.com/articles/working-the-detail/"
+    ],
+    "role_evidence": {
+      "url": "https://en.wikipedia.org/wiki/Barangaroo,_New_South_Wales",
+      "quote": "Supporting the Authority is a Design Excellence Review Panel that comprised Paul Keating (Chairman from 2005 until 2011)"
+    }
+  },
+  {
+    "pollie_slug": "paul-keating",
+    "role": "Patron",
+    "organisation": "Canterbury-Bankstown Bulldogs",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paul_Keating"
+    ],
+    "role_evidence": {
+      "url": "https://en.wikipedia.org/wiki/Paul_Keating",
+      "quote": "Keating was formerly the patron of the Canterbury-Bankstown Bulldogs in the National Rugby League."
+    }
+  },
+  {
+    "pollie_slug": "scott-ludlam",
+    "role": "Ambassador",
+    "organisation": "International Campaign to Abolish Nuclear Weapons",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://icanw.org.au/making-waves-speaking-tour/",
+      "https://peaceboat.org/english/news/scott-ludlam-101st-voyage"
+    ],
+    "role_evidence": {
+      "url": "https://icanw.org.au/making-waves-speaking-tour/",
+      "quote": "Scott Ludlam, former federal Senator and ICAN Ambassador"
+    }
+  },
+  {
+    "pollie_slug": "graham-richardson",
+    "role": "Special Counsel",
+    "organisation": "PremierNational",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://premiernational.com.au/pn-brief/graham-richardson-special-counsel"
+    ],
+    "role_evidence": {
+      "url": "https://premiernational.com.au/pn-brief/graham-richardson-special-counsel",
+      "quote": "PremierNational Appoints The Hon Graham Richardson AO as Special Counsel"
+    }
+  },
+  {
+    "pollie_slug": "ken-wyatt",
+    "role": "Director",
+    "organisation": "Swan Districts Football Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://swandistrictsfc.com.au/blog/ken-wyatt-joins-swans-board/"
+    ],
+    "role_evidence": {
+      "url": "https://swandistrictsfc.com.au/blog/ken-wyatt-joins-swans-board/",
+      "quote": "Former Australian federal government minister Ken Wyatt has agreed to join the Swan Districts Football Club Board of Directors."
+    }
+  },
+  {
+    "pollie_slug": "ken-wyatt",
+    "role": "Non-Executive Director",
+    "organisation": "EON Protection",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.eonprotection.com.au/about/our-board/"
+    ],
+    "role_evidence": {
+      "url": "https://www.eonprotection.com.au/about/our-board/",
+      "quote": "THE HON KEN WYATT AM — NON-EXECUTIVE DIRECTOR"
+    }
+  },
+  {
+    "pollie_slug": "ken-wyatt",
+    "role": "Director",
+    "organisation": "The Kids Research Institute Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.thekids.org.au/about-us/our-leadership/our-board/"
+    ],
+    "role_evidence": {
+      "url": "https://www.thekids.org.au/about-us/our-leadership/our-board/",
+      "quote": "Ken joined The Kids Board in May 2025 and is a member of the People and Culture Committee."
+    }
+  },
+  {
+    "pollie_slug": "michael-macklin",
+    "role": "Advisory Board Member",
+    "organisation": "Biographical Dictionary of the Australian Senate",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/macklin-michael-john/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/macklin-michael-john/",
+      "quote": "He is a member of the Advisory Board of the Biographical Dictionary of the Australian Senate and was one of the project's earliest advocates."
+    }
+  },
+  {
+    "pollie_slug": "michael-beahan",
+    "role": "President",
+    "organisation": "United Nations Association of Australia (WA Division)",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://biography.senate.gov.au/beahan-michael-eamon/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/beahan-michael-eamon/",
+      "quote": "On leaving Parliament he became President of the WA Branch of the United Nations Association of Australia."
+    }
+  },
+  {
+    "pollie_slug": "michael-beahan",
+    "role": "Chair, Advisory Committee",
+    "organisation": "Monash University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/beahan-michael-eamon/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/beahan-michael-eamon/",
+      "quote": "chairman of an advisory committee managed by Monash University"
+    }
+  },
+  {
+    "pollie_slug": "michael-beahan",
+    "role": "Chair, Review of Political Governance Aid",
+    "organisation": "AusAID",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://biography.senate.gov.au/beahan-michael-eamon/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/beahan-michael-eamon/",
+      "quote": "Between 2008 and 2009 he chaired a review of political governance aid for the Rudd Labor Government."
+    }
+  },
+  {
+    "pollie_slug": "michael-beahan",
+    "role": "Chair",
+    "organisation": "Merri Health",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://tutaboldexperiment.com.au/2022/02/23/vale-michael-beahan-part-1/"
+    ],
+    "role_evidence": {
+      "url": "https://tutaboldexperiment.com.au/2022/02/23/vale-michael-beahan-part-1/",
+      "quote": "He Chaired Merri Health for a decade"
+    }
+  },
+  {
+    "pollie_slug": "kerryn-phelps",
+    "role": "Ambassador",
+    "organisation": "National Council of Jewish Women of Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.jwire.com.au/ncjwa-unveils-landmark-ambassadors-initiative-appoints-dr-kerryn-phelps/",
+      "https://www.ncjwa.org.au/conference"
+    ],
+    "role_evidence": {
+      "url": "https://www.jwire.com.au/ncjwa-unveils-landmark-ambassadors-initiative-appoints-dr-kerryn-phelps/",
+      "quote": "The National Council of Jewish Women of Australia (NCJWA) has announced a landmark initiative, appointing Dr Kerryn Phelps as its first ambassador in a programme designed to elevate Jewish women’s voices and strengthen their role in shaping Australian society."
+    },
+    "start_date": "2025-09-01"
+  },
+  {
+    "pollie_slug": "kerryn-phelps",
+    "role": "Patron",
+    "organisation": "Pride in Health+Wellbeing",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://prideinhealth.com.au/who-we-are/patrons/"
+    ],
+    "role_evidence": {
+      "url": "https://prideinhealth.com.au/who-we-are/patrons/",
+      "quote": "Our Pride in Health + Wellbeing co-patrons advocate for better health outcomes for LGBTQ+ communities."
+    }
+  },
+  {
+    "pollie_slug": "ben-morton",
+    "role": "Chair",
+    "organisation": "Harry Perkins Institute of Medical Research",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://perkins.org.au/hon-ben-morton-takes-the-helm-of-the-harry-perkins-institute/"
+    ],
+    "role_evidence": {
+      "url": "https://perkins.org.au/hon-ben-morton-takes-the-helm-of-the-harry-perkins-institute/",
+      "quote": "The Harry Perkins Institute of Medical Research welcomes the appointment of The Hon Ben Morton as Chair of the Board"
+    }
+  },
+  {
+    "pollie_slug": "warren-snowdon",
+    "role": "Advisor",
+    "organisation": "Phosphate Resources Limited",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.awm.gov.au/about/our-people/council"
+    ],
+    "role_evidence": {
+      "url": "https://www.awm.gov.au/about/our-people/council",
+      "quote": "Warren is a part-time government affairs advisor to Diabetes Australia (since 2022), an advisor to Phosphate Resources Limited (since 2023), a member of the Australian War Memorial Council and Finance, Audit and Compliance Committee (since 2024), and was appointed to the board of the Old Parliament House in February 2025."
+    }
   }
 ]
