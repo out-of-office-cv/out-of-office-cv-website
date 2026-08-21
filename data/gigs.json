@@ -46591,7 +46591,12 @@
       "url": "https://www.queenslandcountrylife.com.au/story/8456424/fortitude-valley-welcomes-new-italian-style-steak-restaurant/",
       "quote": "Stanbroke general manager Julian Simmonds said the restaurant name paid homage to Stanbroke's processing facility at Grantham in the Lockyer Valley region, their 1200 person operation in Queensland as well as their Italian heritage."
     },
-    "pollie_slug": "julian-simmonds"
+    "pollie_slug": "julian-simmonds",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Queensland Country Life (Dec 2023) directly quotes him: 'Stanbroke general manager Julian Simmonds said...'; corroborated by official EDQ bio."
+    }
   },
   {
     "role": "Executive",
@@ -46604,7 +46609,12 @@
       "url": "https://www.edq.qld.gov.au/about/executive-team/julian-simmonds/",
       "quote": "Mr Simmonds brings strategic and delivery expertise from the private sector through executive leadership roles at CavCorp and Stanbroke."
     },
-    "pollie_slug": "julian-simmonds"
+    "pollie_slug": "julian-simmonds",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Official EDQ executive-team bio (.qld.gov.au) states he 'brings strategic and delivery expertise from the private sector through executive leadership roles at CavCorp and Stanbroke'."
+    }
   },
   {
     "role": "Deputy Chair",
@@ -47235,18 +47245,29 @@
     ],
     "pollie_slug": "deane-wells",
     "start_date": "1989",
-    "end_date": "1995"
+    "end_date": "1995",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms same person as pollie record (federal MP for Petrie 5 March 1983 - 1 December 1984, matching ceased date exactly), later Queensland state MP for Murrumba, Attorney-General 1989-1995."
+    }
   },
   {
     "role": "Minister for Justice, Minister for Arts",
     "organisation": "Queensland Government",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://en.wikipedia.org/wiki/Dean_Wells_(politician)"
+      "https://en.wikipedia.org/wiki/Dean_Wells_(politician)",
+      "https://en.wikipedia.org/wiki/Minister_for_the_Arts_(Queensland)"
     ],
     "pollie_slug": "deane-wells",
     "start_date": "1992",
-    "end_date": "1995"
+    "end_date": "1995",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same identity; Minister for Justice 1992-1995 confirmed, Minister for Arts dates independently confirmed via 'Minister for the Arts (Queensland)' Wikipedia article listing tenure 24 September 1992 - 31 July 1995."
+    }
   },
   {
     "role": "Senior Advisor",
@@ -47256,7 +47277,12 @@
       "https://globalaustralians.org/wyatt-roy",
       "https://www.innovationaus.com/gig-guide-wyatt-roy-heads-to-saudi-arabia/"
     ],
-    "pollie_slug": "wyatt-roy"
+    "pollie_slug": "wyatt-roy",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "globalaustralians.org and innovationaus.com both confirm 'Senior Advisor to McKinsey & Company' for the former youngest-elected federal MP."
+    }
   },
   {
     "role": "Strategic Advisor",
@@ -47264,9 +47290,15 @@
     "category": "Energy (Renewables & Traditional)",
     "sources": [
       "https://globalaustralians.org/wyatt-roy",
-      "https://www.innovationaus.com/manufacturing-is-key-in-sundrives-21m-capital-raise/"
+      "https://www.innovationaus.com/manufacturing-is-key-in-sundrives-21m-capital-raise/",
+      "https://reneweconomy.com.au/solar-innovator-sundrive-maps-out-plan-for-5gw-of-australian-pv-manufacturing/"
     ],
-    "pollie_slug": "wyatt-roy"
+    "pollie_slug": "wyatt-roy",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "globalaustralians.org confirms 'Strategic Advisor to SunDrive Solar'; reneweconomy.com.au independently confirms title and identity in one sentence."
+    }
   },
   {
     "role": "Director",
@@ -47276,7 +47308,12 @@
       "https://find-and-update.company-information.service.gov.uk/officers/JLjxWBrIDzWKQJzSA63_3ESUoto/appointments"
     ],
     "pollie_slug": "wyatt-roy",
-    "start_date": "2024-03-15"
+    "start_date": "2024-03-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UK Companies House officer record confirms 'Wyatt ROY - Director (appointed 15 March 2024)' for The Advance Charitable Fund UK, matching Australian nationality and May 1990 birth year."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -47356,7 +47393,12 @@
     "sources": [
       "https://www.qimrb.edu.au/whats-on/news/qimr-berghofer-and-toowoomba-surat-basin-enterprise-announce-strategic-partnership"
     ],
-    "pollie_slug": "john-mcveigh"
+    "pollie_slug": "john-mcveigh",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "QIMR Berghofer's own news page: 'TSBE Executive Director, the Honourable Dr John McVeigh, welcomed the strategic partnership.'"
+    }
   },
   {
     "role": "Chair",
@@ -47365,7 +47407,12 @@
     "sources": [
       "https://www.twb.catholic.edu.au/parents-and-community/toowoomba-catholic-schools-council/"
     ],
-    "pollie_slug": "john-mcveigh"
+    "pollie_slug": "john-mcveigh",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Toowoomba Catholic Schools' own council page lists 'Dr John McVeigh - Chair'."
+    }
   },
   {
     "role": "Director",
@@ -47374,7 +47421,12 @@
     "sources": [
       "https://www.unisq.edu.au/news/2024/08/chancellor-announcement"
     ],
-    "pollie_slug": "john-mcveigh"
+    "pollie_slug": "john-mcveigh",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UniSQ's 2024 Chancellor-announcement page states he 'is currently ... a board member of the Royal Agricultural Society of Queensland.'"
+    }
   },
   {
     "role": "President",
@@ -47620,8 +47672,14 @@
     "organisation": "Menzies Research Centre",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://www.arc-conference.com/advisory-board"
-    ]
+      "https://www.arc-conference.com/advisory-board",
+      "https://www.menziesrc.org/news-feed/justice-system-must-protect-all"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Menzies Research Centre's own website: an article she authored (23 Feb 2023, after her Senate exit) carries the author bio 'a former LNP senator for Queensland and a distinguished fellow of the Menzies Research Centre.'"
+    }
   },
   {
     "pollie_slug": "john-herron",
@@ -47659,7 +47717,12 @@
     "category": "Legal & Judicial",
     "sources": [
       "https://en.wikipedia.org/wiki/Gordon_Dean_(Australian_politician)"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited Wikipedia article's subject is Arthur Gordon Dean, Liberal MP for Herbert (10 Dec 1977 - 5 Mar 1983), matching this pollie's ceased date exactly despite the article title saying 'Gordon Dean'. States he worked 'as an associate for James Byrne & Associates and then Ray Rinaudo'."
+    }
   },
   {
     "pollie_slug": "arthur-dean",
@@ -47668,7 +47731,12 @@
     "category": "Legal & Judicial",
     "sources": [
       "https://en.wikipedia.org/wiki/Gordon_Dean_(Australian_politician)"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same source and identity confirmation as gig 0; article confirms sequential associate roles at James Byrne & Associates then Ray Rinaudo."
+    }
   },
   {
     "pollie_slug": "cheryl-kernot",
@@ -47765,11 +47833,17 @@
     "organisation": "Macquarie Tourism and Leisure",
     "category": "Retail, Hospitality & Tourism",
     "sources": [
-      "https://web.archive.org/web/20170429000000/http://www.celebrityspeakers.com.au/political-speakers/john-brown-ao/"
+      "https://web.archive.org/web/20170429000000/http://www.celebrityspeakers.com.au/political-speakers/john-brown-ao/",
+      "https://en.wikipedia.org/wiki/John_Brown_(Australian_politician)"
     ],
     "role_evidence": {
       "url": "https://web.archive.org/web/20170429000000/http://www.celebrityspeakers.com.au/political-speakers/john-brown-ao/",
       "quote": "He has held positions including Director of Macquarie Tourism and Leisure, Director of Canterbury Bankstown Leagues Club and a consultant to Service Corporation International Australia."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Celebrity Speakers Bureau bio for 'John Brown AO' matches pollie's exact ALP/Parramatta/ceased-1990-02-19 record. Wikipedia article on John Brown (Australian politician) cites the identical sentence naming both roles, unflagged."
     }
   },
   {
@@ -47778,11 +47852,17 @@
     "organisation": "Service Corporation International Australia",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://web.archive.org/web/20170429000000/http://www.celebrityspeakers.com.au/political-speakers/john-brown-ao/"
+      "https://web.archive.org/web/20170429000000/http://www.celebrityspeakers.com.au/political-speakers/john-brown-ao/",
+      "https://en.wikipedia.org/wiki/John_Brown_(Australian_politician)"
     ],
     "role_evidence": {
       "url": "https://web.archive.org/web/20170429000000/http://www.celebrityspeakers.com.au/political-speakers/john-brown-ao/",
       "quote": "He has held positions including Director of Macquarie Tourism and Leisure, Director of Canterbury Bankstown Leagues Club and a consultant to Service Corporation International Australia."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same source and identity reasoning as gig 0: bio states he was 'a consultant to Service Corporation International Australia'."
     }
   },
   {
@@ -47904,13 +47984,19 @@
     "organisation": "Newstead House",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Tabled-Papers/docs/5825t1434/5825t1434.pdf"
+      "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Tabled-Papers/docs/5825t1434/5825t1434.pdf",
+      "https://statements.qld.gov.au/statements/100768"
     ],
     "role_evidence": {
       "url": "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Tabled-Papers/docs/5825t1434/5825t1434.pdf",
       "quote": "Ms Claire Moore, Chairperson and Queensland Government representative"
     },
-    "start_date": "2023-11-02"
+    "start_date": "2023-11-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Queensland Government ministerial statement naming 'Board of Trustees of Newstead House chair, Claire Moore', corroborating the tabled-paper role_evidence."
+    }
   },
   {
     "pollie_slug": "claire-moore",
@@ -47918,11 +48004,17 @@
     "organisation": "Australia Palestine Advocacy Network",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://en.wikipedia.org/wiki/Australia_Palestine_Advocacy_Network"
+      "https://en.wikipedia.org/wiki/Australia_Palestine_Advocacy_Network",
+      "https://en.wikipedia.org/wiki/Claire_Moore_(politician)"
     ],
     "role_evidence": {
       "url": "https://en.wikipedia.org/wiki/Australia_Palestine_Advocacy_Network",
       "quote": "Past members of the executive board include Labor politician Claire Moore (who was also vice president for some time)."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Cited Wikipedia source (APAN) states she was vice president; corroborated by Claire Moore's own Wikipedia biography stating she 'was an executive member of the Australia Palestine Advocacy Network in the early 2020s'."
     }
   },
   {
@@ -47943,7 +48035,12 @@
       "https://ausfpa.com.au/departure-of-chief-executive-officer-of-the-australian-forest-products-association-in-february-2023-hon-joel-fitzgibbon-appointed-interim-ceo-from-february-2023/"
     ],
     "pollie_slug": "joel-fitzgibbon",
-    "start_date": "2023-02-01"
+    "start_date": "2023-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by AFPA's own announcement page naming Hon Joel Fitzgibbon as Interim CEO from February 2023."
+    }
   },
   {
     "role": "Chair",
@@ -47952,7 +48049,12 @@
     "sources": [
       "https://trademarkgroup.com.au/hon-joel-fitzgibbon-appointed-as-australian-chairman-of-trademark-group-of-companies/"
     ],
-    "pollie_slug": "joel-fitzgibbon"
+    "pollie_slug": "joel-fitzgibbon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Trademark Group's own announcement page naming him Australian Chairman."
+    }
   },
   {
     "role": "Patron",
@@ -47962,16 +48064,27 @@
       "https://commandotrust.com/hon-joel-fitzgibbon-joins-commando-welfare-trust-as-patron-turning-tragedy-into-fighting-for-veterans-welfare/",
       "https://commandotrust.com/about-us/board-of-trustees/"
     ],
-    "pollie_slug": "joel-fitzgibbon"
+    "pollie_slug": "joel-fitzgibbon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by two Commando Welfare Trust pages naming him Patron."
+    }
   },
   {
     "role": "Co-Chair",
     "organisation": "AUKUS Forum",
     "category": "Defence & Military and Security",
     "sources": [
-      "https://www.crikey.com.au/2024/01/23/aukus-forum-fitzgibbon-sinodinos-promote-media-banned/"
+      "https://www.crikey.com.au/2024/01/23/aukus-forum-fitzgibbon-sinodinos-promote-media-banned/",
+      "https://www.australianmanufacturing.com.au/landmark-partnership-between-aukus-forum-local-govt-to-highlight-regional-manufacturing-in-qld/"
     ],
-    "pollie_slug": "joel-fitzgibbon"
+    "pollie_slug": "joel-fitzgibbon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the cited Crikey article plus a second independent source (Australian Manufacturing, 29 Jan 2024) naming him co-chair of AUKUS Forum."
+    }
   },
   {
     "role": "Committee Member",
@@ -47980,7 +48093,12 @@
     "sources": [
       "https://tasbar.com.au/barrister/the-honourable-peter-slipper/"
     ],
-    "pollie_slug": "peter-slipper"
+    "pollie_slug": "peter-slipper",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "tasbar.com.au official barrister directory entry lists 'Australian Lawyers' Alliance (Tasmania) - committee member' for former Speaker/MP for Fisher Peter Slipper."
+    }
   },
   {
     "role": "Committee Member",
@@ -47989,7 +48107,12 @@
     "sources": [
       "https://tasbar.com.au/barrister/the-honourable-peter-slipper/"
     ],
-    "pollie_slug": "peter-slipper"
+    "pollie_slug": "peter-slipper",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same tasbar.com.au profile lists 'Tasmanian Prisoners' Legal Service - committee member'."
+    }
   },
   {
     "role": "Committee Member",
@@ -47998,7 +48121,12 @@
     "sources": [
       "https://tasbar.com.au/barrister/the-honourable-peter-slipper/"
     ],
-    "pollie_slug": "peter-slipper"
+    "pollie_slug": "peter-slipper",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same tasbar.com.au bio states 'Member of the Committee of the Sunshine Coast Bar Association', plausible given he is also admitted in Queensland (Fisher is on the Sunshine Coast)."
+    }
   },
   {
     "role": "Columnist",
@@ -48007,7 +48135,12 @@
     "sources": [
       "https://biography.senate.gov.au/button-john-norman/"
     ],
-    "pollie_slug": "john-button"
+    "pollie_slug": "john-button",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biographical dictionary entry for John Norman Button states he wrote 'regular columns for the Fairfax papers and The Monthly magazine' after leaving parliament in 1993."
+    }
   },
   {
     "role": "Columnist",
@@ -48016,16 +48149,27 @@
     "sources": [
       "https://biography.senate.gov.au/button-john-norman/"
     ],
-    "pollie_slug": "john-button"
+    "pollie_slug": "john-button",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same source confirms both Fairfax and The Monthly columns in one passage."
+    }
   },
   {
     "role": "Campaign Director",
     "organisation": "CitizenGO Australia",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.confidentialdaily.com/author/george/"
+      "https://www.confidentialdaily.com/author/george/",
+      "https://www.facebook.com/citizengo/videos/citizengo-australias-national-campaigns-director-george-christensen-comes-to-the/1715582989396014/"
     ],
-    "pollie_slug": "george-christensen"
+    "pollie_slug": "george-christensen",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "confidentialdaily.com carries his own bio: 'campaign director for CitizenGO Australia'; corroborated by CitizenGO's own Facebook page."
+    }
   },
   {
     "role": "Councillor",
@@ -48033,11 +48177,17 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.mackayandwhitsundaylife.com/article/new-mackay-regional-council-takes-office",
-      "https://en.wikipedia.org/wiki/George_Christensen"
+      "https://en.wikipedia.org/wiki/George_Christensen",
+      "https://www.localelections.com.au/post/george-christensen-announces-resignation-as-mackay-councillor-for-family-reasons"
     ],
     "pollie_slug": "george-christensen",
     "start_date": "2024-03-16",
-    "end_date": "2025-05-30"
+    "end_date": "2025-05-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "mackayandwhitsundaylife.com confirms he joined the new Mackay Regional Council (election 16 March 2024); localelections.com.au confirms resignation effective 30 May 2025, matching recorded dates."
+    }
   },
   {
     "role": "Adviser to the Minister for Trade, Tourism and Investment",
@@ -48075,7 +48225,12 @@
     "sources": [
       "https://fishability.org.au/patron/"
     ],
-    "pollie_slug": "graham-edwards"
+    "pollie_slug": "graham-edwards",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Fishability's own patron page confirms: 'when approached by Fishability to act as Patron, he didn't hesitate in taking on the role.'"
+    }
   },
   {
     "role": "Chair",
@@ -48084,7 +48239,12 @@
     "sources": [
       "https://fishability.org.au/patron/"
     ],
-    "pollie_slug": "graham-edwards"
+    "pollie_slug": "graham-edwards",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same source states in his bio: 'he was Chairman of the Prime Minister's Advisory Council on Veterans.'"
+    }
   },
   {
     "role": "National President",
@@ -48094,7 +48254,12 @@
       "https://alp.org.au/national-secretary-media/election-of-the-alp-national-president-and-two-vice-presidents/"
     ],
     "pollie_slug": "kate-ellis",
-    "start_date": "2026-07-23"
+    "start_date": "2026-07-23",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ALP's own announcement page confirms election as National President, assuming role at 50th National Conference (23-25 July 2026)."
+    }
   },
   {
     "role": "Board Member",
@@ -48103,7 +48268,12 @@
     "sources": [
       "https://www.rarefindfoundation.org/about-us/who-we-are/"
     ],
-    "pollie_slug": "kate-ellis"
+    "pollie_slug": "kate-ellis",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Rare Find Foundation 'Who We Are' page states: 'Kate Ellis Board Member. Kate Ellis is a politician, who represented the Division of Adelaide... 2004-2019.'"
+    }
   },
   {
     "role": "Director",
@@ -48113,7 +48283,12 @@
       "https://www.afc.com.au/news/1699960/crows-thank-kate-ellis"
     ],
     "pollie_slug": "kate-ellis",
-    "end_date": "2024-11-29"
+    "end_date": "2024-11-29",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "AFC.com.au article confirms she 'has sat on... the Adelaide Crows Foundation Board'; Adelaide Crows' own tweet announcing departure timestamped 2024-11-29 UTC matches recorded end_date."
+    }
   },
   {
     "role": "Convenor",
@@ -48142,37 +48317,67 @@
     "organisation": "Celamin Holdings",
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://www.proactiveinvestors.co.uk/companies/news/31310/celamin-holdings-strengthens-board-with-chairman-appointment-37432.html"
+      "https://www.proactiveinvestors.co.uk/companies/news/31310/celamin-holdings-strengthens-board-with-chairman-appointment-37432.html",
+      "https://web.archive.org/web/20250311002407/https://athenaresources.com.au/wp-content/uploads/2023/02/athena-annual-report-2011.pdf"
     ],
     "start_date": "2012-01-04",
-    "pollie_slug": "andrew-thomson"
+    "pollie_slug": "andrew-thomson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Proactiveinvestors and Athena Resources' 2011 Annual Report confirm identity as former MP for a Sydney seat (Wentworth, ceased 2001-10-08), Minister for Sport, Tourism, and confirm Celamin Holdings chairmanship."
+    }
   },
   {
     "role": "Chair",
     "organisation": "Athena Resources",
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://www.proactiveinvestors.co.uk/companies/news/31310/celamin-holdings-strengthens-board-with-chairman-appointment-37432.html"
+      "https://www.proactiveinvestors.co.uk/companies/news/31310/celamin-holdings-strengthens-board-with-chairman-appointment-37432.html",
+      "https://web.archive.org/web/20250311002407/https://athenaresources.com.au/wp-content/uploads/2023/02/athena-annual-report-2011.pdf"
     ],
-    "pollie_slug": "andrew-thomson"
+    "pollie_slug": "andrew-thomson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Athena Resources' own 2011 Annual Report lists 'Andrew Peter Thomson / Chairman' since 17 May 2008, with bio confirming former MP identity."
+    },
+    "start_date": "2008-05-17"
   },
   {
     "role": "Chair",
     "organisation": "Gulf & Asian Mining",
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://www.proactiveinvestors.co.uk/companies/news/31310/celamin-holdings-strengthens-board-with-chairman-appointment-37432.html"
+      "https://www.proactiveinvestors.co.uk/companies/news/31310/celamin-holdings-strengthens-board-with-chairman-appointment-37432.html",
+      "https://www.dfat.gov.au/sites/default/files/sa-gulf-asian.pdf",
+      "https://web.archive.org/web/20250311002407/https://athenaresources.com.au/wp-content/uploads/2023/02/athena-annual-report-2011.pdf"
     ],
-    "pollie_slug": "andrew-thomson"
+    "pollie_slug": "andrew-thomson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "DFAT (.gov.au) publication profiles 'Andrew Thomson, Chairman, Gulf + Asian Mining', corroborated by Athena Resources' 2011 Annual Report."
+    }
   },
   {
     "role": "Chair",
     "organisation": "Citadel Resources Group",
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://www.proactiveinvestors.co.uk/companies/news/31310/celamin-holdings-strengthens-board-with-chairman-appointment-37432.html"
+      "https://www.proactiveinvestors.co.uk/companies/news/31310/celamin-holdings-strengthens-board-with-chairman-appointment-37432.html",
+      "https://announcements.asx.com.au/asxpdf/20101224/pdf/41vw60g8p4j96c.pdf",
+      "https://www.dfat.gov.au/sites/default/files/sa-gulf-asian.pdf",
+      "https://web.archive.org/web/20250311002407/https://athenaresources.com.au/wp-content/uploads/2023/02/athena-annual-report-2011.pdf"
     ],
-    "pollie_slug": "andrew-thomson"
+    "pollie_slug": "andrew-thomson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by ASX/Equinox Minerals board-change announcement (22 Dec 2010) naming Chairman Mr Andrew Thomson; Athena Resources' 2011 Annual Report gives appointment 16/06/2008, resignation 31/03/2011."
+    },
+    "start_date": "2008-06-16",
+    "end_date": "2011-03-31"
   },
   {
     "role": "Director",
@@ -48182,7 +48387,12 @@
       "https://en.wikipedia.org/wiki/Nick_Bolkus",
       "https://michaelwest.com.au/nick-bolkus/"
     ],
-    "pollie_slug": "nick-bolkus"
+    "pollie_slug": "nick-bolkus",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia and michaelwest.com.au, both listing 'Director, Wondertreat Australia P/L'."
+    }
   },
   {
     "role": "Director",
@@ -48192,7 +48402,12 @@
       "https://en.wikipedia.org/wiki/Nick_Bolkus",
       "https://michaelwest.com.au/nick-bolkus/"
     ],
-    "pollie_slug": "nick-bolkus"
+    "pollie_slug": "nick-bolkus",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia and michaelwest.com.au, both listing 'Director, Ecofertiliser P/L'."
+    }
   },
   {
     "role": "Adviser",
@@ -48202,7 +48417,12 @@
       "https://en.wikipedia.org/wiki/Nick_Bolkus",
       "https://michaelwest.com.au/nick-bolkus/"
     ],
-    "pollie_slug": "nick-bolkus"
+    "pollie_slug": "nick-bolkus",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Wikipedia and michaelwest.com.au: 'Advisor, Australian Hokkien Association'."
+    }
   },
   {
     "role": "Chair",
@@ -48211,7 +48431,12 @@
     "sources": [
       "https://www.abc.net.au/news/2025-12-25/nick-bolkus-obituary/106178484"
     ],
-    "pollie_slug": "nick-bolkus"
+    "pollie_slug": "nick-bolkus",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by ABC obituary: he 'continued to play an influential role in the Labor Party as chair of its local fundraising arm, SA Progressive Business.'"
+    }
   },
   {
     "role": "Distinguished Statesman",
@@ -48226,7 +48451,12 @@
       "quote": "Kevin Rudd, former prime minister of Australia, will join CSIS as a distinguished statesman."
     },
     "start_date": "2014-06-11",
-    "pollie_slug": "kevin-rudd"
+    "pollie_slug": "kevin-rudd",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by CSIS's own press release: 'Kevin Rudd, former prime minister of Australia, will join CSIS as a distinguished statesman', dated 2014-06-11."
+    }
   },
   {
     "role": "Distinguished Fellow",
@@ -48240,33 +48470,51 @@
       "quote": "The Paulson Institute has appointed Kevin Rudd, the former prime minister of Australia and a veteran China expert, as the institute's first distinguished fellow."
     },
     "start_date": "2014-10-14",
-    "pollie_slug": "kevin-rudd"
+    "pollie_slug": "kevin-rudd",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by University of Chicago's news release for the Paulson Institute, dated 2014-10-14."
+    }
   },
   {
     "role": "Distinguished Visiting Fellow",
     "organisation": "Chatham House",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://berggruen.org/people/kevin-rudd"
+      "https://berggruen.org/people/kevin-rudd",
+      "https://www.chathamhouse.org/news/2014-06-20-kevin-rudd-joins-chatham-house-distinguished-visiting-fellow"
     ],
     "role_evidence": {
       "url": "https://berggruen.org/people/kevin-rudd",
       "quote": "He is a Distinguished Visiting Fellow at Chatham House."
     },
-    "pollie_slug": "kevin-rudd"
+    "pollie_slug": "kevin-rudd",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "berggruen.org bio confirms Chatham House Distinguished Visiting Fellow; corroborated by Chatham House's own dated news announcement found via search."
+    },
+    "start_date": "2014-06-20"
   },
   {
     "role": "Visiting Professor",
     "organisation": "Tsinghua University",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://berggruen.org/people/kevin-rudd"
+      "https://berggruen.org/people/kevin-rudd",
+      "https://www.csis.org/people/kevin-rudd"
     ],
     "role_evidence": {
       "url": "https://berggruen.org/people/kevin-rudd",
       "quote": "He is proficient in Mandarin Chinese and a Visiting Professor at Tsinghua University."
     },
-    "pollie_slug": "kevin-rudd"
+    "pollie_slug": "kevin-rudd",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "berggruen.org bio confirms Tsinghua Visiting Professor; independently corroborated by CSIS's own official bio page for Rudd."
+    }
   },
   {
     "role": "Founding Chair",
@@ -48279,7 +48527,12 @@
       "url": "https://kevinrudd.com/about",
       "quote": "Dr. Rudd is also Founding President of the Asia Society Policy Institute, a \"think-and-do tank\" focused on global engagement with Asia, and the Founding Chair of its Center for China Analysis."
     },
-    "pollie_slug": "kevin-rudd"
+    "pollie_slug": "kevin-rudd",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "kevinrudd.com/about (his official site) confirms: 'the Founding Chair of its Center for China Analysis' at the Asia Society Policy Institute."
+    }
   },
   {
     "role": "President",
@@ -48387,7 +48640,12 @@
       "url": "https://perthusasia.edu.au/stephen-smith/",
       "quote": "He was appointed Chair of the Centre in March 2026."
     },
-    "pollie_slug": "stephen-smith"
+    "pollie_slug": "stephen-smith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by perthusasia.edu.au/stephen-smith/ (official centre bio page): 'He was appointed Chair of the Centre in March 2026.'"
+    }
   },
   {
     "role": "Director",
@@ -48400,7 +48658,12 @@
       "url": "https://perthusasia.edu.au/stephen-smith/",
       "quote": "He was a member of the Board of the Perth USAsia Centre from 2014-2022."
     },
-    "pollie_slug": "stephen-smith"
+    "pollie_slug": "stephen-smith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by perthusasia.edu.au/stephen-smith/ (official centre bio page): 'He was a member of the Board of the Perth USAsia Centre from 2014-2022.'"
+    }
   },
   {
     "role": "Chair",
@@ -48414,7 +48677,12 @@
       "quote": "I am pleased to announce that former Foreign Minister and Defence Minister Stephen Smith will be Australia's Chair of the new dialogue."
     },
     "start_date": "2026-06-16",
-    "pollie_slug": "stephen-smith"
+    "pollie_slug": "stephen-smith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by miragenews.com article (16 June 2026): 'former Foreign Minister and Defence Minister Stephen Smith will be Australia's Chair of the new dialogue.'"
+    }
   },
   {
     "role": "Co-Chair, Defence Strategic Review External Advisory Panel",
@@ -48428,7 +48696,12 @@
       "quote": "The Panel will be co-chaired by the DSR authors Stephen Smith and Sir Angus Houston."
     },
     "start_date": "2023-05-27",
-    "pollie_slug": "stephen-smith"
+    "pollie_slug": "stephen-smith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by australiandefence.com.au: 'The Panel will be co-chaired by the DSR authors Stephen Smith and Sir Angus Houston.'"
+    }
   },
   {
     "role": "Chair, Advisory Board",
@@ -48442,7 +48715,12 @@
       "quote": "The new Institute will be overseen by an advisory board of defence-related stakeholders, chaired by former Federal Defence Minister Professor the Hon. Stephen Smith"
     },
     "start_date": "2021-03-05",
-    "pollie_slug": "stephen-smith"
+    "pollie_slug": "stephen-smith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by uwa.edu.au news article (5 March 2021): 'The new Institute will be overseen by an advisory board of defence-related stakeholders, chaired by former Federal Defence Minister Professor the Hon. Stephen Smith.'"
+    }
   },
   {
     "role": "Chair, Advisory Board",
@@ -48455,7 +48733,12 @@
       "url": "https://www.news.uwa.edu.au/archive/2018052310635/uwa-public-policy-institute-help-shape-future/",
       "quote": "UWA Professor, former Australian Defence and Foreign Affairs Minister, and Chair of the Advisory Board for the Institute, Stephen Smith, said the Public Policy Institute would allow UWA to better work with government, industry and community organisations on solutions to real-world problems."
     },
-    "pollie_slug": "stephen-smith"
+    "pollie_slug": "stephen-smith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by news.uwa.edu.au archive article (23 May 2018): 'UWA Professor, former Australian Defence and Foreign Affairs Minister, and Chair of the Advisory Board for the Institute, Stephen Smith...'"
+    }
   },
   {
     "role": "Chair",
@@ -48468,7 +48751,12 @@
       "url": "https://www.abc.net.au/news/2021-06-14/kay-hull-ao-queens-birthday-honours/100212852",
       "quote": "Chairperson, Calvary Palliative Care Enhancement Council, since 2017"
     },
-    "pollie_slug": "kay-hull"
+    "pollie_slug": "kay-hull",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ABC News (2021-06-14) Queen's Birthday Honours citation: 'Chairperson, Calvary Palliative Care Enhancement Council, since 2017'."
+    }
   },
   {
     "role": "President",
@@ -48481,7 +48769,12 @@
       "url": "https://www.abc.net.au/news/2021-06-14/kay-hull-ao-queens-birthday-honours/100212852",
       "quote": "NSW Can Assist President, 2012-2016 and Board Member, 2010-2016"
     },
-    "pollie_slug": "kay-hull"
+    "pollie_slug": "kay-hull",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same ABC News article: 'NSW Can Assist President, 2012-2016 and Board Member, 2010-2016'."
+    }
   },
   {
     "role": "Patron",
@@ -48494,7 +48787,12 @@
       "url": "https://www.abc.net.au/news/2021-06-14/kay-hull-ao-queens-birthday-honours/100212852",
       "quote": "Former Patron, Kurrajong Waratah"
     },
-    "pollie_slug": "kay-hull"
+    "pollie_slug": "kay-hull",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same ABC News article: 'Former Patron, Kurrajong Waratah'."
+    }
   },
   {
     "role": "Development Committee Member",
@@ -48507,7 +48805,12 @@
       "url": "https://biography.senate.gov.au/short-james-robert/",
       "quote": "a member of the development committee of the National Stroke Foundation"
     },
-    "pollie_slug": "jim-short"
+    "pollie_slug": "jim-short",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Senate biographical dictionary: 'a member of the development committee of the National Stroke Foundation'."
+    }
   },
   {
     "role": "Council Member",
@@ -48520,7 +48823,13 @@
       "url": "https://biography.senate.gov.au/short-james-robert/",
       "quote": "From 2009 Short was a member of the council of the Victorian branch of the Australian Institute of International Affairs."
     },
-    "pollie_slug": "jim-short"
+    "pollie_slug": "jim-short",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Senate biographical dictionary: 'From 2009 Short was a member of the council of the Victorian branch of the Australian Institute of International Affairs.'"
+    },
+    "start_date": "2009"
   },
   {
     "role": "Board Member",
@@ -48533,6 +48842,11 @@
       "url": "https://www.thecourier.com.au/story/8874802/former-ballarat-mp-jim-short-honoured-on-australia-day/",
       "quote": "he is still a part of the Australian Multicultural Foundation, where he has been a board member for the past seven years"
     },
-    "pollie_slug": "jim-short"
+    "pollie_slug": "jim-short",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by The Courier (26 Jan 2025): 'he is still a part of the Australian Multicultural Foundation, where he has been a board member for the past seven years.'"
+    }
   }
 ]
