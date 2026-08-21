@@ -48212,5 +48212,327 @@
       "https://www.abc.net.au/news/2025-12-25/nick-bolkus-obituary/106178484"
     ],
     "pollie_slug": "nick-bolkus"
+  },
+  {
+    "role": "Distinguished Statesman",
+    "organisation": "Center for Strategic and International Studies",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.csis.org/news/former-australian-prime-minister-kevin-rudd-joins-csis-distinguished-statesman",
+      "https://www.csis.org/people/kevin-rudd"
+    ],
+    "role_evidence": {
+      "url": "https://www.csis.org/news/former-australian-prime-minister-kevin-rudd-joins-csis-distinguished-statesman",
+      "quote": "Kevin Rudd, former prime minister of Australia, will join CSIS as a distinguished statesman."
+    },
+    "start_date": "2014-06-11",
+    "pollie_slug": "kevin-rudd"
+  },
+  {
+    "role": "Distinguished Fellow",
+    "organisation": "Paulson Institute",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://news.uchicago.edu/story/former-australian-prime-minister-joins-paulson-institute-distinguished-fellow"
+    ],
+    "role_evidence": {
+      "url": "https://news.uchicago.edu/story/former-australian-prime-minister-joins-paulson-institute-distinguished-fellow",
+      "quote": "The Paulson Institute has appointed Kevin Rudd, the former prime minister of Australia and a veteran China expert, as the institute's first distinguished fellow."
+    },
+    "start_date": "2014-10-14",
+    "pollie_slug": "kevin-rudd"
+  },
+  {
+    "role": "Distinguished Visiting Fellow",
+    "organisation": "Chatham House",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://berggruen.org/people/kevin-rudd"
+    ],
+    "role_evidence": {
+      "url": "https://berggruen.org/people/kevin-rudd",
+      "quote": "He is a Distinguished Visiting Fellow at Chatham House."
+    },
+    "pollie_slug": "kevin-rudd"
+  },
+  {
+    "role": "Visiting Professor",
+    "organisation": "Tsinghua University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://berggruen.org/people/kevin-rudd"
+    ],
+    "role_evidence": {
+      "url": "https://berggruen.org/people/kevin-rudd",
+      "quote": "He is proficient in Mandarin Chinese and a Visiting Professor at Tsinghua University."
+    },
+    "pollie_slug": "kevin-rudd"
+  },
+  {
+    "role": "Founding Chair",
+    "organisation": "Center for China Analysis, Asia Society Policy Institute",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://kevinrudd.com/about"
+    ],
+    "role_evidence": {
+      "url": "https://kevinrudd.com/about",
+      "quote": "Dr. Rudd is also Founding President of the Asia Society Policy Institute, a \"think-and-do tank\" focused on global engagement with Asia, and the Founding Chair of its Center for China Analysis."
+    },
+    "pollie_slug": "kevin-rudd"
+  },
+  {
+    "role": "President",
+    "organisation": "Evatt Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.evatt.org.au/post/peace-anti-nukes-tom-uren"
+    ],
+    "role_evidence": {
+      "url": "https://www.evatt.org.au/post/peace-anti-nukes-tom-uren",
+      "quote": "Tom was President of the Evatt Foundation from 1989 to 1997."
+    },
+    "pollie_slug": "tom-uren"
+  },
+  {
+    "role": "Senior Adviser",
+    "organisation": "Northern Territory Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.abc.net.au/news/2007-09-21/former-senator-bob-collins-dies/676952"
+    ],
+    "role_evidence": {
+      "url": "https://www.abc.net.au/news/2007-09-21/former-senator-bob-collins-dies/676952",
+      "quote": "He remained as a senior NT Government adviser until his car crash in Kakadu National Park in June 2004."
+    },
+    "pollie_slug": "bob-collins"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "Constitution Commission of Victoria",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.aspg.org.au/wp-content/uploads/2017/08/Victorias-house-of-review-Ten-years-after-1.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.aspg.org.au/wp-content/uploads/2017/08/Victorias-house-of-review-Ten-years-after-1.pdf",
+      "quote": "The Constitution Commission was composed of two experienced Liberal Party parliamentarians (Hon. Alan Hunt AM, previously a Victorian cabinet minister and President of the Legislative Council, and Hon. Ian Macphee AO, a former federal minister), as well as the Hon. George Hampel QC, former Justice of the Supreme Court of Victoria."
+    },
+    "pollie_slug": "ian-macphee"
+  },
+  {
+    "role": "Director",
+    "organisation": "Chime Communications",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://find-and-update.company-information.service.gov.uk/officers/Bv1mv5zN77fQ998z40wX4A3h7Kw/appointments"
+    ],
+    "role_evidence": {
+      "url": "https://find-and-update.company-information.service.gov.uk/officers/Bv1mv5zN77fQ998z40wX4A3h7Kw/appointments",
+      "quote": "CHIME COMMUNICATIONS LIMITED (01983857) Director Appointed on 2 July 2008 Resigned on 31 December 2013"
+    },
+    "start_date": "2008-07-02",
+    "end_date": "2013-12-31",
+    "pollie_slug": "richard-alston"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "National Advisory",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.nationaladvisory.com.au/"
+    ],
+    "role_evidence": {
+      "url": "https://www.nationaladvisory.com.au/",
+      "quote": "Hon Richard Alston AO Chairman"
+    },
+    "pollie_slug": "richard-alston"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Victorian Liberal Women's Organisation",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://biography.senate.gov.au/synon-karen/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/synon-karen/",
+      "quote": "She remained active within the Liberal Party, chairing the Victorian Liberal Women's Organisation in 2004."
+    },
+    "pollie_slug": "karen-synon"
+  },
+  {
+    "role": "Government and Advocacy Advisor",
+    "organisation": "Whitsundays Chamber of Commerce and Industry",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.mackayandwhitsundaylife.com/article/chamber-expands-leadership-team-as-growth-continues",
+      "https://www.mackayandwhitsundaylife.com/article/two-local-chambers-merge",
+      "https://www.whitsundaycoastchamber.com.au/about-us/"
+    ],
+    "role_evidence": {
+      "url": "https://www.mackayandwhitsundaylife.com/article/chamber-expands-leadership-team-as-growth-continues",
+      "quote": "The Chamber also continues to receive specialist government and business advocacy advice from former Federal Member of Parliament Richard Evans."
+    },
+    "pollie_slug": "richard-evans"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Perth USAsia Centre",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://perthusasia.edu.au/stephen-smith/"
+    ],
+    "role_evidence": {
+      "url": "https://perthusasia.edu.au/stephen-smith/",
+      "quote": "He was appointed Chair of the Centre in March 2026."
+    },
+    "pollie_slug": "stephen-smith"
+  },
+  {
+    "role": "Director",
+    "organisation": "Perth USAsia Centre",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://perthusasia.edu.au/stephen-smith/"
+    ],
+    "role_evidence": {
+      "url": "https://perthusasia.edu.au/stephen-smith/",
+      "quote": "He was a member of the Board of the Perth USAsia Centre from 2014-2022."
+    },
+    "pollie_slug": "stephen-smith"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australia-Japan Leadership Dialogue",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.miragenews.com/strengthening-australia-japan-ties-on-50th-1692800/"
+    ],
+    "role_evidence": {
+      "url": "https://www.miragenews.com/strengthening-australia-japan-ties-on-50th-1692800/",
+      "quote": "I am pleased to announce that former Foreign Minister and Defence Minister Stephen Smith will be Australia's Chair of the new dialogue."
+    },
+    "start_date": "2026-06-16",
+    "pollie_slug": "stephen-smith"
+  },
+  {
+    "role": "Co-Chair, Defence Strategic Review External Advisory Panel",
+    "organisation": "Department of Defence",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.australiandefence.com.au/news/dsr-external-advisory-panel-appointed"
+    ],
+    "role_evidence": {
+      "url": "https://www.australiandefence.com.au/news/dsr-external-advisory-panel-appointed",
+      "quote": "The Panel will be co-chaired by the DSR authors Stephen Smith and Sir Angus Houston."
+    },
+    "start_date": "2023-05-27",
+    "pollie_slug": "stephen-smith"
+  },
+  {
+    "role": "Chair, Advisory Board",
+    "organisation": "University of Western Australia Defence and Security Institute",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.uwa.edu.au/news/article/2021/march/uwa-launches-defence-and-security-institute"
+    ],
+    "role_evidence": {
+      "url": "https://www.uwa.edu.au/news/article/2021/march/uwa-launches-defence-and-security-institute",
+      "quote": "The new Institute will be overseen by an advisory board of defence-related stakeholders, chaired by former Federal Defence Minister Professor the Hon. Stephen Smith"
+    },
+    "start_date": "2021-03-05",
+    "pollie_slug": "stephen-smith"
+  },
+  {
+    "role": "Chair, Advisory Board",
+    "organisation": "University of Western Australia Public Policy Institute",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.news.uwa.edu.au/archive/2018052310635/uwa-public-policy-institute-help-shape-future/"
+    ],
+    "role_evidence": {
+      "url": "https://www.news.uwa.edu.au/archive/2018052310635/uwa-public-policy-institute-help-shape-future/",
+      "quote": "UWA Professor, former Australian Defence and Foreign Affairs Minister, and Chair of the Advisory Board for the Institute, Stephen Smith, said the Public Policy Institute would allow UWA to better work with government, industry and community organisations on solutions to real-world problems."
+    },
+    "pollie_slug": "stephen-smith"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Calvary Palliative Care Enhancement Council",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.abc.net.au/news/2021-06-14/kay-hull-ao-queens-birthday-honours/100212852"
+    ],
+    "role_evidence": {
+      "url": "https://www.abc.net.au/news/2021-06-14/kay-hull-ao-queens-birthday-honours/100212852",
+      "quote": "Chairperson, Calvary Palliative Care Enhancement Council, since 2017"
+    },
+    "pollie_slug": "kay-hull"
+  },
+  {
+    "role": "President",
+    "organisation": "Can Assist",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.abc.net.au/news/2021-06-14/kay-hull-ao-queens-birthday-honours/100212852"
+    ],
+    "role_evidence": {
+      "url": "https://www.abc.net.au/news/2021-06-14/kay-hull-ao-queens-birthday-honours/100212852",
+      "quote": "NSW Can Assist President, 2012-2016 and Board Member, 2010-2016"
+    },
+    "pollie_slug": "kay-hull"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Kurrajong Waratah",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.abc.net.au/news/2021-06-14/kay-hull-ao-queens-birthday-honours/100212852"
+    ],
+    "role_evidence": {
+      "url": "https://www.abc.net.au/news/2021-06-14/kay-hull-ao-queens-birthday-honours/100212852",
+      "quote": "Former Patron, Kurrajong Waratah"
+    },
+    "pollie_slug": "kay-hull"
+  },
+  {
+    "role": "Development Committee Member",
+    "organisation": "National Stroke Foundation",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://biography.senate.gov.au/short-james-robert/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/short-james-robert/",
+      "quote": "a member of the development committee of the National Stroke Foundation"
+    },
+    "pollie_slug": "jim-short"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Australian Institute of International Affairs (Victoria)",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://biography.senate.gov.au/short-james-robert/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/short-james-robert/",
+      "quote": "From 2009 Short was a member of the council of the Victorian branch of the Australian Institute of International Affairs."
+    },
+    "pollie_slug": "jim-short"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Australian Multicultural Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.thecourier.com.au/story/8874802/former-ballarat-mp-jim-short-honoured-on-australia-day/"
+    ],
+    "role_evidence": {
+      "url": "https://www.thecourier.com.au/story/8874802/former-ballarat-mp-jim-short-honoured-on-australia-day/",
+      "quote": "he is still a part of the Australian Multicultural Foundation, where he has been a board member for the past seven years"
+    },
+    "pollie_slug": "jim-short"
   }
 ]
