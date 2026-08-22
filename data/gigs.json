@@ -49086,5 +49086,147 @@
       "url": "https://www.awm.gov.au/about/our-people/council",
       "quote": "Warren is a part-time government affairs advisor to Diabetes Australia (since 2022), an advisor to Phosphate Resources Limited (since 2023), a member of the Australian War Memorial Council and Finance, Audit and Compliance Committee (since 2024), and was appointed to the board of the Old Parliament House in February 2025."
     }
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Life Education Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://lifeed.org.au/news/leading-by-example/"
+    ],
+    "pollie_slug": "alan-cadman"
+  },
+  {
+    "role": "President",
+    "organisation": "Woollahra History and Heritage Society",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://heritagewoollahra.org.au/our-story/",
+      "https://www.qsc.com.au/barristers/peter-king/"
+    ],
+    "pollie_slug": "peter-king"
+  },
+  {
+    "role": "Chair of the Energy Transition Platform",
+    "organisation": "HMC Capital",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://www.hmccapital.com.au/insights/the-hon-julia-gillard-ac-to-chair-hmc-energy-transition-platform/",
+      "https://www.juliagillard.com.au/julia-gillard/current-work"
+    ],
+    "pollie_slug": "julia-gillard",
+    "start_date": "2024-05-07"
+  },
+  {
+    "role": "Honorary Professor",
+    "organisation": "University of Adelaide",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.juliagillard.com.au/julia-gillard/current-work",
+      "https://www.abc.net.au/news/2013-08-31/gillard-to-receive-honorary-professorship/4926038"
+    ],
+    "pollie_slug": "julia-gillard",
+    "start_date": "2013-11-01"
+  },
+  {
+    "role": "Adviser to Amplo",
+    "organisation": "Amplo",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.juliagillard.com.au/julia-gillard/current-work"
+    ],
+    "pollie_slug": "julia-gillard"
+  },
+  {
+    "role": "Director",
+    "organisation": "CVS Lane Capital Partners",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.juliagillard.com.au/julia-gillard/current-work",
+      "https://www.commercialrealestate.com.au/news/former-pm-julia-gillard-joins-liberman-backed-financier-cvs-lane-49072/"
+    ],
+    "pollie_slug": "julia-gillard"
+  },
+  {
+    "role": "Member of Global Leadership Council",
+    "organisation": "LeapFrog Investments",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.juliagillard.com.au/julia-gillard/current-work"
+    ],
+    "pollie_slug": "julia-gillard"
+  },
+  {
+    "role": "Director",
+    "organisation": "Andela",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://www.juliagillard.com.au/julia-gillard/current-work"
+    ],
+    "pollie_slug": "julia-gillard"
+  },
+  {
+    "role": "Patron",
+    "organisation": "CAMFED",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.juliagillard.com.au/julia-gillard/current-work"
+    ],
+    "pollie_slug": "julia-gillard"
+  },
+  {
+    "role": "Patron",
+    "organisation": "John Curtin Prime Ministerial Library",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.juliagillard.com.au/julia-gillard/current-work"
+    ],
+    "pollie_slug": "julia-gillard"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Western Chances",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.juliagillard.com.au/julia-gillard/current-work"
+    ],
+    "pollie_slug": "julia-gillard"
+  },
+  {
+    "role": "Patron",
+    "organisation": "McKinnon Prize",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.juliagillard.com.au/julia-gillard/current-work"
+    ],
+    "pollie_slug": "julia-gillard"
+  },
+  {
+    "role": "Founding Patron",
+    "organisation": "A Monument of One's Own",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.juliagillard.com.au/julia-gillard/current-work"
+    ],
+    "pollie_slug": "julia-gillard"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Museum of Australian Democracy",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.juliagillard.com.au/julia-gillard/current-work"
+    ],
+    "pollie_slug": "julia-gillard"
+  },
+  {
+    "role": "Founder",
+    "organisation": "Way to St James Cygnet Pilgrimage",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://cathnews.com/2025/01/17/tasmanias-way-to-st-james-cygnet-pilgrimage-goes-global/",
+      "https://www.abc.net.au/news/2015-08-02/el-camino-de-santiago-in-spain-inspires-tasmanian-pilgramage/6666162"
+    ],
+    "pollie_slug": "michael-tate"
   }
 ]
