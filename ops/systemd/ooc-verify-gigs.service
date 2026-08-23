@@ -1,5 +1,5 @@
 [Unit]
-Description=Out of Office CV: verify gigs (claude /verify-gigs + commit PR)
+Description=Out of Office CV: verify gigs (agent /verify-gigs + commit PR)
 Documentation=file:///home/ben/projects/out-of-office-cv-website-cron/cron-verify-gigs.sh
 # No `After=network-online.target` here: that is a system target, so in the
 # user manager it silently resolves to nothing and orders nothing. The real

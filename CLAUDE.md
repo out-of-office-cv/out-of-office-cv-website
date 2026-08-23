@@ -173,38 +173,38 @@ are then recorded as searched instead of being researched again. Sidecars are
 deleted only after `pnpm build` passes, so a validation failure retries them
 rather than dropping them.
 
-### Choosing the agent CLI
+### Choosing the agent profile
 
-`AGENT_CLI` selects the runner and defaults to `claude`, so an unset environment
-behaves exactly as it always has. `matilda` is the other accepted value;
-anything else fails the run rather than falling back. Switch one job without
-touching the scripts:
+The jobs run through `~/.dotfiles/bin/agent-run`. `AGENT_PROFILE` selects its
+profile and defaults to `claude-sub`, so an unset environment still runs native
+Claude Code against Ben's subscription. Switch one job without touching the
+scripts:
 
 ```sh
 mkdir -p ~/.config/systemd/user/ooc-find-gigs.service.d
 cat > ~/.config/systemd/user/ooc-find-gigs.service.d/runner.conf <<'CONF'
 [Service]
-Environment=AGENT_CLI=matilda
+Environment=AGENT_PROFILE=codex-sub
 CONF
 systemctl --user daemon-reload
 ```
 
 `AGENT_MODEL` picks the model the same way and takes the same kind of drop-in.
-Unset leaves each CLI on its own default, which for claude is whatever
-`~/.claude/settings.json` pins. The value is passed through verbatim, so it is
-only as portable as the name itself: `sonnet` is a claude alias and means
-nothing to matilda. Prefer it over `ANTHROPIC_MODEL`, which the claude CLI reads
-directly but which evaporates silently the moment `AGENT_CLI=matilda`.
+Unset takes the profile's model, or the native CLI's default when that profile
+does not declare one. The live service drop-ins keep both jobs on `sonnet`,
+exactly as before this migration. A model name is only as portable as the
+provider that serves it, so change or remove that drop-in when changing from
+`claude-sub` to `deepseek` or `openrouter`.
 
-Roll back by deleting either file and reloading. Two constraints worth knowing:
+The shared profiles are `claude-sub`, `codex-sub`, `deepseek` and `openrouter`;
+list them with `agent-run --list-profiles`. DeepSeek and OpenRouter use API keys
+from the untracked local mise environment. The subscription profiles invoke the
+official CLIs directly; the dispatcher never imports their OAuth tokens.
+
+Roll back by deleting either file and reloading. One constraint is load-bearing:
 
 - **Drop-ins go on the `.service`, never the `.timer`.** Editing a timer with
   `Persistent=true` fires an immediate catch-up of both gig timers at once.
-- **Matilda auth is OAuth-only.** `matilda auth` has only login/logout/status,
-  the bearer token expires in ~24h, and only the CLI refreshes it. The profile
-  lives in `~/.matilda/`, so there is nothing to plumb into the unit --- but a
-  stale profile fails the job rather than degrading it. Matilda also serialises
-  subagent fan-out, so its runs take far longer than claude's.
 
 ## Structure
 

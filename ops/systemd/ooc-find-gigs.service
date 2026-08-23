@@ -1,5 +1,5 @@
 [Unit]
-Description=Out of Office CV: find new gigs (claude /find-gigs + open PR)
+Description=Out of Office CV: find new gigs (agent /find-gigs + open PR)
 Documentation=file:///home/ben/projects/out-of-office-cv-website-cron/cron-find-gigs.sh
 # No `After=network-online.target` here: that is a system target, so in the
 # user manager it silently resolves to nothing and orders nothing. The real

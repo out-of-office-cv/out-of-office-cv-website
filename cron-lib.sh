@@ -51,61 +51,46 @@ sync_checkout_and_reexec() {
   exec "$0" "$@"
 }
 
-# Run one skill under the agent CLI named by AGENT_CLI, leaving its exit status
+# Run one skill through the shared dotfiles dispatcher, leaving its exit status
 # in AGENT_EXIT rather than swallowing it: a crashed agent and a genuinely quiet
 # run both produce no diff, and only the exit code tells them apart afterwards.
 #
-# claude is the default, so an unset environment runs exactly as it always has.
-# Selecting the runner per job is a matter of an Environment= drop-in on the
-# .service --- never the .timer, since editing a timer with Persistent=true
-# fires an immediate catch-up of both gig timers at once.
+# claude-sub is the default, so an unset environment still runs native Claude
+# Code against Ben's subscription. Selecting another profile per job is a
+# matter of an Environment= drop-in on the .service --- never the .timer, since
+# editing a timer with Persistent=true fires an immediate catch-up of both gig
+# timers at once.
 #
-# AGENT_MODEL is passed through to whichever runner AGENT_CLI selected, and is
-# therefore only as portable as the name itself: `sonnet` is a claude alias and
-# means nothing to matilda. Unset leaves each CLI on its own default, which for
-# claude is whatever ~/.claude/settings.json pins.
+# AGENT_MODEL is read directly by agent-run. Unset takes the profile's default
+# model, or the native CLI's default when the profile does not declare one.
 run_agent() {
   local skill="$1"
-  local cli="${AGENT_CLI:-claude}"
+  local profile="${AGENT_PROFILE:-claude-sub}"
   local model="${AGENT_MODEL:-}"
-  local bin
-  local -a cmd
+  local bin="${AGENT_RUN_BIN:-/home/ben/.dotfiles/bin/agent-run}"
+  local -a cmd=(
+    "$bin"
+    --profile "$profile"
+    --cwd "$PROJECT_DIR"
+    --claude-dangerously-skip-permissions
+    --codex-sandbox danger-full-access
+  )
+  local -a describe_cmd=("$bin" --profile "$profile")
 
-  case "$cli" in
-    claude)
-      bin="${CLAUDE_BIN:-/home/ben/.local/bin/claude}"
-      cmd=(env -u CLAUDECODE "$bin" --dangerously-skip-permissions)
-      if [[ -n "$model" ]]; then
-        cmd+=(--model "$model")
-      fi
-      cmd+=(-p "/${skill}")
-      ;;
-    matilda)
-      # --fresh so no earlier session is carried in; the env var silences a
-      # stderr nag about auto-approval. Auth is OAuth-only and the token lives
-      # in ~/.matilda/, so a stale profile fails the run rather than degrading
-      # it --- there is no key to plumb in here.
-      bin="${MATILDA_BIN:-/home/ben/.local/share/mise/shims/matilda}"
-      cmd=(env -u CLAUDECODE MATILDA_CODE_SUPPRESS_BOGAN_WARNING=1 \
-        "$bin" --yolo --fresh)
-      if [[ -n "$model" ]]; then
-        cmd+=(--model "$model")
-      fi
-      cmd+=("/${skill}")
-      ;;
-    *)
-      log "Unrecognised AGENT_CLI=${cli}, expected claude or matilda"
-      exit 1
-      ;;
-  esac
+  if [[ -n "$model" ]]; then
+    cmd+=(--model "$model")
+    describe_cmd+=(--model "$model")
+  fi
+  cmd+=("/${skill}")
+  describe_cmd+=(--describe)
 
   if [[ ! -x "$bin" ]]; then
-    log "AGENT_CLI=${cli} but ${bin} is not executable"
+    log "Agent dispatcher ${bin} is not executable"
     exit 1
   fi
 
   # Recorded before the agent is invoked, so a killed run is still attributable.
-  log "Agent: ${cli} $("$bin" --version 2>&1 | head -1)${model:+ (model ${model})}"
+  log "Agent: $("${describe_cmd[@]}" 2>&1)"
 
   set +e
   "${cmd[@]}" >> "$LOG_FILE" 2>&1
