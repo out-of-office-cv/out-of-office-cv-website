@@ -45708,7 +45708,12 @@
     "sources": [
       "https://ciom.edu.au/personnel/the-hon-luke-hartsuyker-governance/"
     ],
-    "pollie_slug": "luke-hartsuyker"
+    "pollie_slug": "luke-hartsuyker",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Canterbury Institute of Management's own personnel page confirms Governing Council membership."
+    }
   },
   {
     "pollie_slug": "chris-trevor",
@@ -45748,8 +45753,16 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.nsw.gov.au/departments-and-agencies/dciths/state-records-nsw/news-and-updates/for-record-may-2025",
-      "https://www.nsw.gov.au/departments-and-agencies/dciths/state-records-nsw/meet-our-board"
-    ]
+      "https://www.nsw.gov.au/departments-and-agencies/dciths/state-records-nsw/meet-our-board",
+      "https://www.nsw.gov.au/sites/default/files/2025-05/tco-a7887750-disclosure-log.pdf"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "State Records NSW's own board page and NSW Cabinet Office disclosure log confirm Chair role with exact dates."
+    },
+    "start_date": "2025-03-16",
+    "end_date": "2028-03-15"
   },
   {
     "pollie_slug": "joanna-gash",
@@ -45992,14 +46005,20 @@
     "category": "Retail, Hospitality & Tourism",
     "sources": [
       "https://www.nsw.gov.au/ministerial-releases/new-members-appointed-to-destination-nsw-board",
-      "https://www.ausleisure.com.au/news/new-members-appointed-to-destination-nsw-board"
+      "https://www.ausleisure.com.au/news/new-members-appointed-to-destination-nsw-board",
+      "https://www.miragenews.com/new-members-appointed-to-destination-nsw-board-1683608/"
     ],
     "role_evidence": {
       "url": "https://www.nsw.gov.au/ministerial-releases/new-members-appointed-to-destination-nsw-board",
       "quote": "Former member for Barton The Hon. Linda Burney and Tom Malone will join the board on 1 June 2026 for a three-year term."
     },
     "start_date": "2026-06-01",
-    "pollie_slug": "linda-burney"
+    "pollie_slug": "linda-burney",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "NSW Government ministerial release confirms Destination NSW board appointment; corroborated by Mirage News."
+    }
   },
   {
     "role": "Chair",
@@ -46449,9 +46468,15 @@
     "organisation": "My Psychology Tasmania",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://mypsychology.org.au/"
+      "https://mypsychology.org.au/",
+      "https://www.examiner.com.au/story/7104405/labors-keay-not-keen-to-re-contest-braddon/"
     ],
-    "pollie_slug": "justine-keay"
+    "pollie_slug": "justine-keay",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "My Psychology's own page names her; corroborated by The Examiner reporting she retrained as a psychologist."
+    }
   },
   {
     "role": "Member",
@@ -46977,7 +47002,12 @@
       "url": "https://www.wwc.org.au/anne-mcewen-oam-to-lead-working-womens-centre-australia/",
       "quote": "Anne McEwen OAM will help lead the next stage of our national development as incoming Chair of Working Women's Centre Australia."
     },
-    "pollie_slug": "anne-mcewen"
+    "pollie_slug": "anne-mcewen",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Organisation's own announcement page confirms Chair appointment and identity as former SA Senator."
+    }
   },
   {
     "role": "Advisory Committee Member",
@@ -47005,7 +47035,12 @@
       "url": "https://westender.com.au/greens-party-elder-andrew-bartlett-assesses-the-candidates-and-the-issues-in-south-brisbane/",
       "quote": "He currently runs a tea shop in Fortitude Valley."
     },
-    "pollie_slug": "andrew-bartlett"
+    "pollie_slug": "andrew-bartlett",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Westender article and QLD Greens bio corroborate tea shop business in Fortitude Valley, Oct 2020."
+    }
   },
   {
     "role": "Chair",
@@ -47131,7 +47166,12 @@
     "sources": [
       "https://www.bze.org.au/about-us/team/board"
     ],
-    "pollie_slug": "kylea-tink"
+    "pollie_slug": "kylea-tink",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "BZE's own current board page lists her as Chair; media release confirms board appointment Oct 2025."
+    }
   },
   {
     "role": "Instructor",
@@ -47140,7 +47180,12 @@
     "sources": [
       "https://biography.senate.gov.au/woodley-john/"
     ],
-    "pollie_slug": "john-woodley"
+    "pollie_slug": "john-woodley",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms he taught at the Alan Walker College of Evangelism after his 2001 retirement."
+    }
   },
   {
     "role": "Director",
@@ -47234,7 +47279,12 @@
       "https://psnews.com.au/queanbeyan-service-planned-to-honour-former-parliamentarian-jim-snow/168118/",
       "https://en.wikipedia.org/wiki/Jim_Snow"
     ],
-    "pollie_slug": "james-snow"
+    "pollie_slug": "james-snow",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "psnews.com.au and Wikipedia corroborate HOME in Queanbeyan membership."
+    }
   },
   {
     "role": "Attorney-General",
@@ -47320,9 +47370,15 @@
     "organisation": "The U Group & Co",
     "category": "Technology (Software, IT & Digital Services)",
     "sources": [
-      "https://www.businessnews.com.au/Person/Michael-Keenan"
+      "https://www.businessnews.com.au/Person/Michael-Keenan",
+      "https://theorg.com/org/the-u-group-co"
     ],
-    "pollie_slug": "michael-keenan"
+    "pollie_slug": "michael-keenan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "businessnews.com.au profile confirms Non-Executive Director role; corroborated by theorg.com."
+    }
   },
   {
     "role": "Council Member",
@@ -47332,7 +47388,12 @@
       "https://www.minister.defence.gov.au/media-releases/2022-03-29/appointment-new-executive-director-australian-strategic-policy-institute-aspi"
     ],
     "pollie_slug": "michael-keenan",
-    "start_date": "2022-03-29"
+    "start_date": "2022-03-29",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Defence media release names him among new ASPI Council appointments, 29 March 2022."
+    }
   },
   {
     "role": "Columnist",
@@ -47344,7 +47405,12 @@
     ],
     "pollie_slug": "barry-cohen",
     "start_date": "1987",
-    "end_date": "1991"
+    "end_date": "1991",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia and archived Celebrity Speakers bio confirm Bulletin columnist role 1987-91, continuing after leaving parliament."
+    }
   },
   {
     "role": "Vice President",
@@ -47352,9 +47418,15 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://biography.senate.gov.au/coulter-john-richard/",
-      "https://www.populationmedia.org/people/john-coulter-md"
+      "https://www.populationmedia.org/people/john-coulter-md",
+      "https://population.org.au/john-coulter/"
     ],
-    "pollie_slug": "john-coulter"
+    "pollie_slug": "john-coulter",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography and Sustainable Population Australia's own bio page corroborate Vice President role."
+    }
   },
   {
     "role": "Chair",
@@ -47364,7 +47436,12 @@
       "https://biography.senate.gov.au/wriedt-kenneth-shaw/"
     ],
     "pollie_slug": "kenneth-wriedt",
-    "start_date": "1980-11"
+    "start_date": "1980-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms State Grants Commission chairmanship from November 1980."
+    }
   },
   {
     "role": "Member, State Executive",
@@ -47375,7 +47452,12 @@
     ],
     "pollie_slug": "kenneth-wriedt",
     "start_date": "1981",
-    "end_date": "1982-05"
+    "end_date": "1982-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms Bicentennial Authority state executive membership 1981-1982."
+    }
   },
   {
     "role": "President",
@@ -47436,7 +47518,12 @@
       "https://www.gapfootball.org.au/news/arch-bevis-steps-down/"
     ],
     "pollie_slug": "arch-bevis",
-    "end_date": "2020-05-31"
+    "end_date": "2020-05-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Gap FC's own article confirms President role and May 2020 stepping-down date."
+    }
   },
   {
     "role": "Director",
@@ -47445,7 +47532,12 @@
     "sources": [
       "https://www.theland.com.au/story/7552658/former-nsw-senator-to-lead-charge-in-fight-for-bush-education/"
     ],
-    "pollie_slug": "fiona-nash"
+    "pollie_slug": "fiona-nash",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Land article confirms NSW Skills Board director role, correctly identifying her as former NSW Senator."
+    }
   },
   {
     "pollie_slug": "carmen-lawrence",
@@ -47690,7 +47782,12 @@
       "https://www.qimrb.edu.au/whats-on/news/vale-dr-john-herron-ao"
     ],
     "start_date": "2014-11-01",
-    "end_date": "2015-04-30"
+    "end_date": "2015-04-30",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "QIMR Berghofer's own obituary confirms Council role and exact dates matching the record."
+    }
   },
   {
     "pollie_slug": "john-williams",
@@ -47699,7 +47796,12 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.northerndailyleader.com.au/story/8497461/former-nsw-senator-wacka-williams-recognised-with-an-oam/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Northern Daily Leader article confirms past chair role at Asbestos Safety and Eradication Council."
+    }
   },
   {
     "pollie_slug": "tony-smith",
@@ -47825,6 +47927,11 @@
     "role_evidence": {
       "url": "https://www.aph.gov.au/parliamentary_business/committees/house_of_representatives_committees?url=environ%2Fpubgood%2Freport%2Fappendc.pdf",
       "quote": "Mr John Hyde, Chairman, Property Rights Committee"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "aph.gov.au committee hearing document confirms Chairman, Property Rights Committee role at a Feb 2001 hearing."
     }
   },
   {
@@ -48197,7 +48304,12 @@
       "https://web.archive.org/web/20221018044349/https://www.newgatecomms.com.au/people/matt-williams/",
       "https://www.consultaustralia.com.au/home/advocacy/Consulting-Matters-Feb-Mar-2023/massive-market-opportunities-ahead"
     ],
-    "pollie_slug": "matt-williams"
+    "pollie_slug": "matt-williams",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Archived SEC Newgate bio and consultaustralia.com.au corroborate adviser role to Trade/Tourism/Investment Minister post-parliament."
+    }
   },
   {
     "role": "Chair",
@@ -48207,16 +48319,28 @@
       "https://cmha.org.au/our-board/",
       "https://cmha.org.au/1-in-7-australians-living-in-poverty/"
     ],
-    "pollie_slug": "cathy-otoole"
+    "pollie_slug": "cathy-otoole",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "CMHA's own board page and press release consistently give her title as President, not Chair -- the recorded role directly contradicts what both sources say."
+    }
   },
   {
     "role": "Chair",
     "organisation": "Mandatory Renewable Energy Target Review Panel",
     "category": "Energy (Renewables & Traditional)",
     "sources": [
-      "https://biography.senate.gov.au/tambling-grant-ernest-john/"
+      "https://biography.senate.gov.au/tambling-grant-ernest-john/",
+      "https://theconversation.com/killing-renewables-softly-with-endless-reviews-23409"
     ],
-    "pollie_slug": "grant-tambling"
+    "pollie_slug": "grant-tambling",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography and The Conversation corroborate the 2003 Mandatory Renewable Energy Target review chairmanship."
+    },
+    "start_date": "2003"
   },
   {
     "role": "Patron",
@@ -48295,9 +48419,15 @@
     "organisation": "Planning Democracy",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://www.mpnews.com.au/2023/09/18/push-for-more-democracy-in-planning/"
+      "https://www.mpnews.com.au/2023/09/18/push-for-more-democracy-in-planning/",
+      "https://candobetter.net/kelvin-thomson/blog/6533/planning-democracy-convenors-report-no-20-december-19-2022"
     ],
-    "pollie_slug": "kelvin-thomson"
+    "pollie_slug": "kelvin-thomson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "MPNews article and his own Planning Democracy convenor's report corroborate the role."
+    }
   },
   {
     "role": "Candidate for Moore",
@@ -48552,33 +48682,49 @@
     "organisation": "Northern Territory Government",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.abc.net.au/news/2007-09-21/former-senator-bob-collins-dies/676952"
+      "https://www.abc.net.au/news/2007-09-21/former-senator-bob-collins-dies/676952",
+      "https://biography.senate.gov.au/collins-robert-lindsay/"
     ],
     "role_evidence": {
       "url": "https://www.abc.net.au/news/2007-09-21/former-senator-bob-collins-dies/676952",
       "quote": "He remained as a senior NT Government adviser until his car crash in Kakadu National Park in June 2004."
     },
-    "pollie_slug": "bob-collins"
+    "pollie_slug": "bob-collins",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ABC obituary and Senate biography corroborate NT Government adviser role."
+    },
+    "end_date": "2004-06-30"
   },
   {
     "role": "Commissioner",
     "organisation": "Constitution Commission of Victoria",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.aspg.org.au/wp-content/uploads/2017/08/Victorias-house-of-review-Ten-years-after-1.pdf"
+      "https://www.aspg.org.au/wp-content/uploads/2017/08/Victorias-house-of-review-Ten-years-after-1.pdf",
+      "https://www.aspg.org.au/wp-content/uploads/2017/09/03-Costar-LegisCouncilReform.pdf"
     ],
     "role_evidence": {
       "url": "https://www.aspg.org.au/wp-content/uploads/2017/08/Victorias-house-of-review-Ten-years-after-1.pdf",
       "quote": "The Constitution Commission was composed of two experienced Liberal Party parliamentarians (Hon. Alan Hunt AM, previously a Victorian cabinet minister and President of the Legislative Council, and Hon. Ian Macphee AO, a former federal minister), as well as the Hon. George Hampel QC, former Justice of the Supreme Court of Victoria."
     },
-    "pollie_slug": "ian-macphee"
+    "pollie_slug": "ian-macphee",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ASPG sources confirm Constitution Commission of Victoria membership, 2001-2002."
+    },
+    "start_date": "2001-03-19",
+    "end_date": "2002-07-01"
   },
   {
     "role": "Director",
     "organisation": "Chime Communications",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://find-and-update.company-information.service.gov.uk/officers/Bv1mv5zN77fQ998z40wX4A3h7Kw/appointments"
+      "https://find-and-update.company-information.service.gov.uk/officers/Bv1mv5zN77fQ998z40wX4A3h7Kw/appointments",
+      "https://en.wikipedia.org/wiki/Richard_Alston_(politician)"
     ],
     "role_evidence": {
       "url": "https://find-and-update.company-information.service.gov.uk/officers/Bv1mv5zN77fQ998z40wX4A3h7Kw/appointments",
@@ -48586,20 +48732,31 @@
     },
     "start_date": "2008-07-02",
     "end_date": "2013-12-31",
-    "pollie_slug": "richard-alston"
+    "pollie_slug": "richard-alston",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UK Companies House identity details match; Wikipedia corroborates six-year Chime plc directorship."
+    }
   },
   {
     "role": "Chairman",
     "organisation": "National Advisory",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.nationaladvisory.com.au/"
+      "https://www.nationaladvisory.com.au/",
+      "https://en.wikipedia.org/wiki/Richard_Alston_(politician)"
     ],
     "role_evidence": {
       "url": "https://www.nationaladvisory.com.au/",
       "quote": "Hon Richard Alston AO Chairman"
     },
-    "pollie_slug": "richard-alston"
+    "pollie_slug": "richard-alston",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "National Advisory's own site confirms chairmanship; corroborated by Wikipedia."
+    }
   },
   {
     "role": "Chair",
@@ -48612,7 +48769,13 @@
       "url": "https://biography.senate.gov.au/synon-karen/",
       "quote": "She remained active within the Liberal Party, chairing the Victorian Liberal Women's Organisation in 2004."
     },
-    "pollie_slug": "karen-synon"
+    "pollie_slug": "karen-synon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms Victorian Liberal Women's Organisation chairing in 2004."
+    },
+    "start_date": "2004"
   },
   {
     "role": "Government and Advocacy Advisor",
@@ -48855,11 +49018,17 @@
     "organisation": "Manly-Warringah Rugby League Football Club",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://www.facebook.com/MWRLFC/posts/happy-birthday-kerry-sibraa-aomwrlfc-co-patron197594-nsw-senator198794-president/1234237038740418/"
+      "https://www.facebook.com/MWRLFC/posts/happy-birthday-kerry-sibraa-aomwrlfc-co-patron197594-nsw-senator198794-president/1234237038740418/",
+      "https://biography.senate.gov.au/sibraa-kerry-walter/"
     ],
     "role_evidence": {
       "url": "https://www.facebook.com/MWRLFC/posts/happy-birthday-kerry-sibraa-aomwrlfc-co-patron197594-nsw-senator198794-president/1234237038740418/",
       "quote": "2004–06 MWRLFC Chairman."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography independently corroborates Chairman role."
     }
   },
   {
@@ -48868,11 +49037,17 @@
     "organisation": "Manly-Warringah Rugby League Football Club",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://www.facebook.com/MWRLFC/posts/happy-birthday-kerry-sibraa-aomwrlfc-co-patron197594-nsw-senator198794-president/1234237038740418/"
+      "https://www.facebook.com/MWRLFC/posts/happy-birthday-kerry-sibraa-aomwrlfc-co-patron197594-nsw-senator198794-president/1234237038740418/",
+      "https://biography.senate.gov.au/sibraa-kerry-walter/"
     ],
     "role_evidence": {
       "url": "https://www.facebook.com/MWRLFC/posts/happy-birthday-kerry-sibraa-aomwrlfc-co-patron197594-nsw-senator198794-president/1234237038740418/",
       "quote": "MWRLFC Co-Patron."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography independently corroborates co-patron role."
     }
   },
   {
@@ -48882,11 +49057,17 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://en.wikipedia.org/wiki/Barangaroo,_New_South_Wales",
-      "https://architectureau.com/articles/working-the-detail/"
+      "https://architectureau.com/articles/working-the-detail/",
+      "https://www.abc.net.au/news/2011-05-08/keating-quits-from-barangaroo-team/2708282"
     ],
     "role_evidence": {
       "url": "https://en.wikipedia.org/wiki/Barangaroo,_New_South_Wales",
       "quote": "Supporting the Authority is a Design Excellence Review Panel that comprised Paul Keating (Chairman from 2005 until 2011)"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ArchitectureAU and ABC News confirm Barangaroo Design Review Panel chairmanship 2005-2011."
     }
   },
   {
@@ -48927,7 +49108,13 @@
     "role_evidence": {
       "url": "https://premiernational.com.au/pn-brief/graham-richardson-special-counsel",
       "quote": "PremierNational Appoints The Hon Graham Richardson AO as Special Counsel"
-    }
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "PremierNational's own announcement confirms Special Counsel appointment, March 2022."
+    },
+    "start_date": "2022-03-31"
   },
   {
     "pollie_slug": "ken-wyatt",
@@ -48940,6 +49127,11 @@
     "role_evidence": {
       "url": "https://swandistrictsfc.com.au/blog/ken-wyatt-joins-swans-board/",
       "quote": "Former Australian federal government minister Ken Wyatt has agreed to join the Swan Districts Football Club Board of Directors."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Swan Districts FC blog confirms board director appointment."
     }
   },
   {
@@ -48953,6 +49145,11 @@
     "role_evidence": {
       "url": "https://www.eonprotection.com.au/about/our-board/",
       "quote": "THE HON KEN WYATT AM — NON-EXECUTIVE DIRECTOR"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "EON Protection's own board page confirms Non-Executive Director role."
     }
   },
   {
@@ -48966,6 +49163,11 @@
     "role_evidence": {
       "url": "https://www.thekids.org.au/about-us/our-leadership/our-board/",
       "quote": "Ken joined The Kids Board in May 2025 and is a member of the People and Culture Committee."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Kids Research Institute's own board page confirms he joined May 2025."
     }
   },
   {
@@ -48979,6 +49181,11 @@
     "role_evidence": {
       "url": "https://biography.senate.gov.au/macklin-michael-john/",
       "quote": "He is a member of the Advisory Board of the Biographical Dictionary of the Australian Senate and was one of the project's earliest advocates."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate's own Biographical Dictionary site confirms Advisory Board membership directly."
     }
   },
   {
@@ -48992,6 +49199,11 @@
     "role_evidence": {
       "url": "https://biography.senate.gov.au/beahan-michael-eamon/",
       "quote": "On leaving Parliament he became President of the WA Branch of the United Nations Association of Australia."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms UNAA WA President role on leaving Parliament."
     }
   },
   {
@@ -49005,6 +49217,11 @@
     "role_evidence": {
       "url": "https://biography.senate.gov.au/beahan-michael-eamon/",
       "quote": "chairman of an advisory committee managed by Monash University"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms Monash University advisory committee chairmanship."
     }
   },
   {
@@ -49013,11 +49230,17 @@
     "organisation": "AusAID",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://biography.senate.gov.au/beahan-michael-eamon/"
+      "https://biography.senate.gov.au/beahan-michael-eamon/",
+      "https://www.dfat.gov.au/about-us/publications/Pages/power-to-the-people-australia-s-support-in-strengthening-political-governance-in-developing-countries"
     ],
     "role_evidence": {
       "url": "https://biography.senate.gov.au/beahan-michael-eamon/",
       "quote": "Between 2008 and 2009 he chaired a review of political governance aid for the Rudd Labor Government."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography and DFAT publication corroborate AusAID governance review chair 2008-2009."
     }
   },
   {
@@ -49046,7 +49269,12 @@
       "url": "https://www.jwire.com.au/ncjwa-unveils-landmark-ambassadors-initiative-appoints-dr-kerryn-phelps/",
       "quote": "The National Council of Jewish Women of Australia (NCJWA) has announced a landmark initiative, appointing Dr Kerryn Phelps as its first ambassador in a programme designed to elevate Jewish women’s voices and strengthen their role in shaping Australian society."
     },
-    "start_date": "2025-09-01"
+    "start_date": "2025-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "NCJWA's own conference page independently confirms Ambassador role."
+    }
   },
   {
     "pollie_slug": "kerryn-phelps",
@@ -49059,6 +49287,11 @@
     "role_evidence": {
       "url": "https://prideinhealth.com.au/who-we-are/patrons/",
       "quote": "Our Pride in Health + Wellbeing co-patrons advocate for better health outcomes for LGBTQ+ communities."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Organisation's own patrons page names her specifically as co-patron."
     }
   },
   {
@@ -49067,11 +49300,17 @@
     "organisation": "Harry Perkins Institute of Medical Research",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://perkins.org.au/hon-ben-morton-takes-the-helm-of-the-harry-perkins-institute/"
+      "https://perkins.org.au/hon-ben-morton-takes-the-helm-of-the-harry-perkins-institute/",
+      "https://www.businessnews.com.au/article/Ben-Morton-starts-as-Harry-Perkins-chair"
     ],
     "role_evidence": {
       "url": "https://perkins.org.au/hon-ben-morton-takes-the-helm-of-the-harry-perkins-institute/",
       "quote": "The Harry Perkins Institute of Medical Research welcomes the appointment of The Hon Ben Morton as Chair of the Board"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Perkins Institute's own page confirms Chair appointment; corroborated by businessnews.com.au."
     }
   },
   {
@@ -49094,7 +49333,13 @@
     "sources": [
       "https://lifeed.org.au/news/leading-by-example/"
     ],
-    "pollie_slug": "alan-cadman"
+    "pollie_slug": "alan-cadman",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Life Ed's own article confirms board member/chairman roles from Feb 2008."
+    },
+    "start_date": "2008-02-01"
   },
   {
     "role": "President",
@@ -49115,7 +49360,12 @@
       "https://www.juliagillard.com.au/julia-gillard/current-work"
     ],
     "pollie_slug": "julia-gillard",
-    "start_date": "2024-05-07"
+    "start_date": "2024-05-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "HMC Capital's own announcement confirms Julia Gillard as Chair of the Energy Transition Platform, dated 7 May 2024."
+    }
   },
   {
     "role": "Honorary Professor",
@@ -49126,16 +49376,27 @@
       "https://www.abc.net.au/news/2013-08-31/gillard-to-receive-honorary-professorship/4926038"
     ],
     "pollie_slug": "julia-gillard",
-    "start_date": "2013-11-01"
+    "start_date": "2013-11-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ABC News confirms University of Adelaide honorary professorship; juliagillard.com.au confirms since 2013."
+    }
   },
   {
     "role": "Adviser to Amplo",
     "organisation": "Amplo",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.juliagillard.com.au/julia-gillard/current-work"
+      "https://www.juliagillard.com.au/julia-gillard/current-work",
+      "https://www.amplovc.com/"
     ],
-    "pollie_slug": "julia-gillard"
+    "pollie_slug": "julia-gillard",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Amplo's own team page lists Julia Gillard AC as Board Partner/adviser."
+    }
   },
   {
     "role": "Director",
@@ -49143,81 +49404,143 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://www.juliagillard.com.au/julia-gillard/current-work",
-      "https://www.commercialrealestate.com.au/news/former-pm-julia-gillard-joins-liberman-backed-financier-cvs-lane-49072/"
+      "https://cvslane.com.au/about/",
+      "https://www.apartments.com.au/news/julia-gillard-joins-cvs-lane-property-financing-board"
     ],
-    "pollie_slug": "julia-gillard"
+    "pollie_slug": "julia-gillard",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Original commercialrealestate.com.au source now dead; replaced with CVS Lane's own about page and apartments.com.au news confirming she joined the board July 2017."
+    },
+    "start_date": "2017-07"
   },
   {
     "role": "Member of Global Leadership Council",
     "organisation": "LeapFrog Investments",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.juliagillard.com.au/julia-gillard/current-work"
+      "https://www.juliagillard.com.au/julia-gillard/current-work",
+      "https://leapfroginvest.com/people/julia-gillard-ac/"
     ],
-    "pollie_slug": "julia-gillard"
+    "pollie_slug": "julia-gillard",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "LeapFrog Investments' own people page lists her under Global Leadership Council."
+    }
   },
   {
     "role": "Director",
     "organisation": "Andela",
     "category": "Technology (Software, IT & Digital Services)",
     "sources": [
-      "https://www.juliagillard.com.au/julia-gillard/current-work"
+      "https://www.juliagillard.com.au/julia-gillard/current-work",
+      "https://www.prnewswire.com/news-releases/andela-raises-40m-to-connect-africas-engineering-talent-with-global-technology-companies-300533747.html",
+      "https://www.prnewswire.com/news-releases/andela-appoints-carrol-chang-as-chief-executive-officer-302228244.html"
     ],
-    "pollie_slug": "julia-gillard"
+    "pollie_slug": "julia-gillard",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "PR Newswire confirms Amplo Board Partner Julia Gillard joining Andela's board Oct 2017; later release confirms Chair title."
+    },
+    "start_date": "2017-10"
   },
   {
     "role": "Patron",
     "organisation": "CAMFED",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.juliagillard.com.au/julia-gillard/current-work"
+      "https://www.juliagillard.com.au/julia-gillard/current-work",
+      "https://www.prlog.org/12532519-julia-gillard-becomes-patron-of-camfed-to-help-address-urgency-and-action-for-girls-education.html"
     ],
-    "pollie_slug": "julia-gillard"
+    "pollie_slug": "julia-gillard",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "PRLog press release confirms CAMFED patron appointment, Feb 2016."
+    },
+    "start_date": "2016-02"
   },
   {
     "role": "Patron",
     "organisation": "John Curtin Prime Ministerial Library",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://www.juliagillard.com.au/julia-gillard/current-work"
+      "https://www.juliagillard.com.au/julia-gillard/current-work",
+      "https://www.curtin.edu.au/news/media-release/julia-gillard-appointed-patron-john-curtin-prime-ministerial-library/"
     ],
-    "pollie_slug": "julia-gillard"
+    "pollie_slug": "julia-gillard",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Curtin University's own media release confirms JCPML patron appointment, Jan 2015."
+    },
+    "start_date": "2015-01"
   },
   {
     "role": "Patron",
     "organisation": "Western Chances",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.juliagillard.com.au/julia-gillard/current-work"
+      "https://www.juliagillard.com.au/julia-gillard/current-work",
+      "https://www.westernchances.org.au/blog/a-new-patron-for-western-chances"
     ],
-    "pollie_slug": "julia-gillard"
+    "pollie_slug": "julia-gillard",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Western Chances' own blog post confirms new patron announcement, Feb 2020."
+    },
+    "start_date": "2020-02"
   },
   {
     "role": "Patron",
     "organisation": "McKinnon Prize",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://www.juliagillard.com.au/julia-gillard/current-work"
+      "https://www.juliagillard.com.au/julia-gillard/current-work",
+      "https://mckinnon.co/leadership/mckinnon-prize/insights/diverse-group-of-eminent-australians-to-decide-mckinnon-prize-for-political-leadership"
     ],
-    "pollie_slug": "julia-gillard"
+    "pollie_slug": "julia-gillard",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "McKinnon Prize's own site confirms her as existing Patron."
+    }
   },
   {
     "role": "Founding Patron",
     "organisation": "A Monument of One's Own",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.juliagillard.com.au/julia-gillard/current-work"
+      "https://www.juliagillard.com.au/julia-gillard/current-work",
+      "https://www.amonumentofonesown.com/foundingpatron"
     ],
-    "pollie_slug": "julia-gillard"
+    "pollie_slug": "julia-gillard",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Organisation's own site lists her as Founding Patron; juliagillard.com.au dates to 2022."
+    },
+    "start_date": "2022"
   },
   {
     "role": "Patron",
     "organisation": "Museum of Australian Democracy",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://www.juliagillard.com.au/julia-gillard/current-work"
+      "https://www.juliagillard.com.au/julia-gillard/current-work",
+      "https://www.moadoph.gov.au/support/partnerships/our-prime-minister-patrons"
     ],
-    "pollie_slug": "julia-gillard"
+    "pollie_slug": "julia-gillard",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "MoAD's own .gov.au site lists her among prime ministerial patrons; dated to 2022."
+    },
+    "start_date": "2022"
   },
   {
     "role": "Founder",
