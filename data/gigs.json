@@ -49551,5 +49551,247 @@
       "https://www.abc.net.au/news/2015-08-02/el-camino-de-santiago-in-spain-inspires-tasmanian-pilgramage/6666162"
     ],
     "pollie_slug": "michael-tate"
+  },
+  {
+    "pollie_slug": "brett-mason",
+    "role": "Chair",
+    "organisation": "Queensland Museum",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://governmentbodies.premiers.qld.gov.au/BodyDisplay.aspx?Parameter=166",
+      "https://www.museum.qld.gov.au/about/key-people/"
+    ],
+    "role_evidence": {
+      "url": "https://governmentbodies.premiers.qld.gov.au/BodyDisplay.aspx?Parameter=166",
+      "quote": "Mason | Brett | Chairperson | 01-06-2026 | 31-05-2029"
+    },
+    "start_date": "2026-06-01",
+    "end_date": "2029-05-31"
+  },
+  {
+    "pollie_slug": "bruce-baird",
+    "role": "Chair, Advisory Board",
+    "organisation": "Screen Producers Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://ttf.org.au/conference/greenrevolution2024/speakers/hon-bruce-baird-am/"
+    ],
+    "role_evidence": {
+      "url": "https://ttf.org.au/conference/greenrevolution2024/speakers/hon-bruce-baird-am/",
+      "quote": "Prior Board positions include Chair of the National Rail Corporation, Chair of the National Heavy Vehicle Regulator, Chair of Advisory Board of Screen Producers Australia, Chair of Kamay Project-Heart Research Institute Board, Chair of BE Sydney, Trustee of Sydney Opera House, Board Member of Sydney Theatre Company and Member of International Advisory Board of Cubic Transportation Systems."
+    }
+  },
+  {
+    "pollie_slug": "bruce-baird",
+    "role": "Director",
+    "organisation": "Sydney Theatre Company",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.broadwayworld.com/sydney/article/Sydney-Theatre-Company-Appoints-Three-New-Board-Members-20190708",
+      "https://ttf.org.au/conference/greenrevolution2024/speakers/hon-bruce-baird-am/"
+    ],
+    "role_evidence": {
+      "url": "https://www.broadwayworld.com/sydney/article/Sydney-Theatre-Company-Appoints-Three-New-Board-Members-20190708",
+      "quote": "We also salute directors The Hon. Bruce Baird AM and Daniel Petre AO who have retired from the board following the conclusion of their terms."
+    }
+  },
+  {
+    "pollie_slug": "bruce-baird",
+    "role": "Advisory Board Member",
+    "organisation": "Cubic Transportation Systems",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://ttf.org.au/conference/greenrevolution2024/speakers/hon-bruce-baird-am/"
+    ],
+    "role_evidence": {
+      "url": "https://ttf.org.au/conference/greenrevolution2024/speakers/hon-bruce-baird-am/",
+      "quote": "Prior Board positions include Chair of the National Rail Corporation, Chair of the National Heavy Vehicle Regulator, Chair of Advisory Board of Screen Producers Australia, Chair of Kamay Project-Heart Research Institute Board, Chair of BE Sydney, Trustee of Sydney Opera House, Board Member of Sydney Theatre Company and Member of International Advisory Board of Cubic Transportation Systems."
+    }
+  },
+  {
+    "pollie_slug": "bruce-baird",
+    "role": "Appointed Member (Business and Tourism)",
+    "organisation": "Lord Howe Island Board",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://arr.news/2022/01/10/lord-howe-island-board-report/"
+    ],
+    "role_evidence": {
+      "url": "https://arr.news/2022/01/10/lord-howe-island-board-report/",
+      "quote": "We welcome Ms Chris Bath and Mr Bruce Baird AM who will serve as the appointed members serving the interests of Conservation and Business and Tourism respectively from 29/11/2021 to 28/11/2024."
+    },
+    "start_date": "2021-11-29",
+    "end_date": "2024-11-28"
+  },
+  {
+    "pollie_slug": "graham-harris",
+    "role": "Chair",
+    "organisation": "Kilmour Investments",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://kilmourinvestments.com/timeline/4-august-2025-graham-mcdonald-harris-obituary/"
+    ],
+    "role_evidence": {
+      "url": "https://kilmourinvestments.com/timeline/4-august-2025-graham-mcdonald-harris-obituary/",
+      "quote": "In 1990 he succeeded to Chairman, a position he held for 38 years before stepping down in 2018."
+    }
+  },
+  {
+    "pollie_slug": "brendan-nelson",
+    "role": "Distinguished Research Fellow",
+    "organisation": "ANU Centre for European Studies",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.canberratimes.com.au/story/6157648/nelson-named-distinguished-research-fellow-by-anu/",
+      "https://ces.cass.anu.edu.au/people/dr-brendan-nelson-ao"
+    ],
+    "role_evidence": {
+      "url": "https://www.canberratimes.com.au/story/6157648/nelson-named-distinguished-research-fellow-by-anu/",
+      "quote": "Former leader of the Liberal Party, the Hon. Dr Brendan Nelson has been appointed a Distinguished Research Fellow with the Centre for European Studies at ANU."
+    },
+    "start_date": "2013-04-15"
+  },
+  {
+    "pollie_slug": "laurence-neal",
+    "role": "Teacher",
+    "organisation": "Hadfield High School",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/neal-laurence-william/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/neal-laurence-william/",
+      "quote": "Neal had 'always enjoyed' teaching, and from 1982 continued his career at Hadfield High School, Galen Catholic College, Wangaratta, Nathalia High School, Wangaratta High School, and Marian College, Myrtleford, teaching history, politics, film and media, geography and English, before retiring from full-time teaching at the end of 2007."
+    }
+  },
+  {
+    "pollie_slug": "laurence-neal",
+    "role": "Teacher",
+    "organisation": "Galen Catholic College",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/neal-laurence-william/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/neal-laurence-william/",
+      "quote": "Neal had 'always enjoyed' teaching, and from 1982 continued his career at Hadfield High School, Galen Catholic College, Wangaratta, Nathalia High School, Wangaratta High School, and Marian College, Myrtleford, teaching history, politics, film and media, geography and English, before retiring from full-time teaching at the end of 2007."
+    }
+  },
+  {
+    "pollie_slug": "laurence-neal",
+    "role": "Teacher",
+    "organisation": "Nathalia High School",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/neal-laurence-william/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/neal-laurence-william/",
+      "quote": "Neal had 'always enjoyed' teaching, and from 1982 continued his career at Hadfield High School, Galen Catholic College, Wangaratta, Nathalia High School, Wangaratta High School, and Marian College, Myrtleford, teaching history, politics, film and media, geography and English, before retiring from full-time teaching at the end of 2007."
+    }
+  },
+  {
+    "pollie_slug": "laurence-neal",
+    "role": "Teacher",
+    "organisation": "Wangaratta High School",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/neal-laurence-william/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/neal-laurence-william/",
+      "quote": "Neal had 'always enjoyed' teaching, and from 1982 continued his career at Hadfield High School, Galen Catholic College, Wangaratta, Nathalia High School, Wangaratta High School, and Marian College, Myrtleford, teaching history, politics, film and media, geography and English, before retiring from full-time teaching at the end of 2007."
+    }
+  },
+  {
+    "pollie_slug": "laurence-neal",
+    "role": "Teacher",
+    "organisation": "Marian College, Myrtleford",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/neal-laurence-william/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/neal-laurence-william/",
+      "quote": "Neal had 'always enjoyed' teaching, and from 1982 continued his career at Hadfield High School, Galen Catholic College, Wangaratta, Nathalia High School, Wangaratta High School, and Marian College, Myrtleford, teaching history, politics, film and media, geography and English, before retiring from full-time teaching at the end of 2007."
+    }
+  },
+  {
+    "pollie_slug": "laurence-neal",
+    "role": "State Executive Member",
+    "organisation": "Victorian Council of School Organisations",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/neal-laurence-william/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/neal-laurence-william/",
+      "quote": "Neal served for two years on the state executive of the Victorian Council of School Organisations, and was also a member of the Ministry of Education Regional Board Reference Group for the Goulburn North-Eastern Region."
+    }
+  },
+  {
+    "pollie_slug": "laurence-neal",
+    "role": "Member",
+    "organisation": "Ministry of Education Regional Board Reference Group (Goulburn North-Eastern Region)",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://biography.senate.gov.au/neal-laurence-william/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/neal-laurence-william/",
+      "quote": "Neal served for two years on the state executive of the Victorian Council of School Organisations, and was also a member of the Ministry of Education Regional Board Reference Group for the Goulburn North-Eastern Region."
+    }
+  },
+  {
+    "pollie_slug": "laurence-neal",
+    "role": "President",
+    "organisation": "University of the Third Age",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://biography.senate.gov.au/neal-laurence-william/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/neal-laurence-william/",
+      "quote": "President of the local branch of the University of the Third Age for four years (and again in 2008), Neal completed an MA in international relations at Deakin University in 1997, obtained a graduate diploma in gerontology from La Trobe University in 2000, and is working towards a PhD in agrarian politics at La Trobe University."
+    }
+  },
+  {
+    "pollie_slug": "laurence-neal",
+    "role": "Locum Minister",
+    "organisation": "Anglican Parish of Corowa",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://biography.senate.gov.au/neal-laurence-william/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/neal-laurence-william/",
+      "quote": "In November 1987 Neal was ordained into the Anglican ministry, subsequently serving as deacon at various churches in the dioceses of Wangaratta and Riverina, including a term as locum minister at Corowa in 2007."
+    }
+  },
+  {
+    "pollie_slug": "jim-turnour",
+    "role": "Committee Member",
+    "organisation": "Cairns and District Chinese Association",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.cadcai.org.au/about"
+    ],
+    "role_evidence": {
+      "url": "https://www.cadcai.org.au/about",
+      "quote": "committee member Jim Turnour"
+    }
+  },
+  {
+    "pollie_slug": "jean-melzer",
+    "role": "Victorian Convenor",
+    "organisation": "Movement Against Uranium Mining",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://biography.senate.gov.au/melzer-jean-isabel/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/melzer-jean-isabel/",
+      "quote": "She was Victorian convenor of the Movement Against Uranium Mining in 1983, and worked with the South Australian socialist left to further the anti-uranium cause."
+    }
   }
 ]
