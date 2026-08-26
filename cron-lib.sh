@@ -110,6 +110,27 @@ run_agent() {
   fi
 }
 
+# End the run, failing the unit when the agent did.
+#
+# Nothing else answers "did the agent work?". A dead agent and a genuinely quiet
+# search leave the same absent diff, so the caller's "nothing to commit" branch
+# reports both as success --- which is how a hardcoded dispatcher flag killed
+# every run for a day from 2026-08-25 while the log said "No new gigs found" and
+# systemd said the unit was fine. Exiting with the agent's own status makes the
+# failure visible to `systemctl --user --failed` and to the health check that
+# reads it, and preserves the exit code itself for diagnosis.
+#
+# This fires even when the run committed and opened a PR: partial work is still
+# a fault, and the PR body saying "partial" only reaches whoever opens the PR.
+finish_run() {
+  local exit_code="${AGENT_EXIT:-0}"
+  if [[ $exit_code -ne 0 ]]; then
+    log "=== ${JOB_NAME} finished, failing the unit: agent exited ${exit_code} ==="
+    exit "$exit_code"
+  fi
+  log "=== ${JOB_NAME} finished ==="
+}
+
 # Replay this run's data-only commit onto current origin/main before pushing.
 #
 # A run commits against the tree it checked out, which can be an hour or more

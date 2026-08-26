@@ -64,8 +64,16 @@ the worktree's `logs/`.
 
 Both jobs serialise on `.cron.lock` in the worktree, waiting up to 15 minutes
 (`LOCK_WAIT_SECS`) before skipping their slot, so two runs can never share the
-checkout. A skipped run logs why and exits zero; a crashed agent logs its exit
-code and marks the PR body as partial.
+checkout. A skipped run logs why and exits zero.
+
+A crashed agent instead exits with the agent's own status, so systemd marks the
+unit failed and `systemctl --user --failed` shows it. That holds even when the
+run still committed and opened a PR (whose body is marked partial): the exit
+status is the only signal a health check reads, and partial work is still a
+fault. It matters because a dead agent and a genuinely quiet search leave the
+same absent diff --- for a day from 2026-08-25 every run died on a bad
+dispatcher flag while the log said "No new gigs found" and the unit said it had
+succeeded.
 
 ### Cadence
 

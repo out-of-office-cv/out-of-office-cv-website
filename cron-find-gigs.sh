@@ -47,7 +47,11 @@ git reset -q "$RUN_BASE" -- data/find-state.json 2>/dev/null || true
 # in it: it is bookkeeping, and routing it through a PR made the search throttle
 # depend on how quickly that PR got merged.
 if git diff --cached --quiet data/gigs.json; then
-  log "No new gigs found, nothing to commit"
+  if [[ $AGENT_EXIT -ne 0 ]]; then
+    log "Agent exited ${AGENT_EXIT} and left no changes; not an empty search"
+  else
+    log "No new gigs found, nothing to commit"
+  fi
   git reset --hard "$RUN_BASE" >> "$LOG_FILE" 2>&1
 else
   BRANCH="find-gigs-$(date +%Y%m%d-%H%M%S)"
@@ -110,4 +114,4 @@ ${PR_BODY}"
   log "PR created on branch ${BRANCH}, local branch deleted"
 fi
 
-log "=== find-gigs finished ==="
+finish_run

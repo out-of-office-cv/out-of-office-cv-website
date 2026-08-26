@@ -43,7 +43,11 @@ git add data/gigs.json
 git reset -q "$RUN_BASE" -- data/verify-state.json 2>/dev/null || true
 
 if git diff --cached --quiet data/gigs.json; then
-  log "No verification changes, nothing to commit"
+  if [[ $AGENT_EXIT -ne 0 ]]; then
+    log "Agent exited ${AGENT_EXIT} and left no changes; not a clean recheck"
+  else
+    log "No verification changes, nothing to commit"
+  fi
   git reset --hard "$RUN_BASE" >> "$LOG_FILE" 2>&1
 else
   BRANCH="verify-gigs-$(date +%Y%m%d-%H%M%S)"
@@ -142,4 +146,4 @@ ${PR_BODY}"
   log "PR created on branch ${BRANCH}, local branch deleted"
 fi
 
-log "=== verify-gigs finished ==="
+finish_run
