@@ -44372,7 +44372,12 @@
     "sources": [
       "https://www.illawarramercury.com.au/story/3463734/colourful-peter-knott-remembered/"
     ],
-    "pollie_slug": "peter-knott"
+    "pollie_slug": "peter-knott",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Cited obituary states this Kiama council service occurred 'before entering parliament', not after he left in 1996 — a pre-parliament role mistakenly tagged as post-parliament."
+    }
   },
   {
     "role": "Councillor, Osborne Ward",
@@ -44617,7 +44622,12 @@
     "sources": [
       "https://www.page.org.au/about/people/"
     ],
-    "pollie_slug": "mark-coulton"
+    "pollie_slug": "mark-coulton",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Cited page is a stale pre-retirement bio; the Centre's current board page and current staff page (both dated 2026) list seven named directors and staff, and Coulton is not among them on either — high confidence this role does not currently exist."
+    }
   },
   {
     "role": "Director",
@@ -44922,7 +44932,8 @@
     "organisation": "Southcott Pty Ltd",
     "category": "Science, Engineering & Technical Professions",
     "sources": [
-      "https://linkedin.com/in/dr-andrew-southcott-fracgp-gaicd-27a3ba68"
+      "https://linkedin.com/in/dr-andrew-southcott-fracgp-gaicd-27a3ba68",
+      "https://www.ausdoc.com.au/news/road-less-travelled-dr-southcotts-journey-federal-mp-gp/"
     ],
     "role_evidence": {
       "url": "https://linkedin.com/in/dr-andrew-southcott-fracgp-gaicd-27a3ba68",
@@ -45513,9 +45524,15 @@
     "organisation": "Herefords Australia",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
-      "https://www.herefordsaustralia.com.au/2021/05/ian-durkin-new-chair-of-herefords-australia-board/"
+      "https://www.herefordsaustralia.com.au/2021/05/ian-durkin-new-chair-of-herefords-australia-board/",
+      "https://www.theland.com.au/story/7263831/durkin-named-new-herefords-chair/"
     ],
-    "pollie_slug": "trish-worth"
+    "pollie_slug": "trish-worth",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Herefords Australia article: 'Ian replaces the Hon. Trish Worth who served as Chairman for the past 12 months', corroborated by a second independent article in The Land."
+    }
   },
   {
     "role": "Fellow",
@@ -45619,7 +45636,12 @@
     "sources": [
       "https://www.linkedin.com/posts/trent-zimmerman-42037739_some-career-news-from-me-i-am-excited-that-activity-7091693438559006720-TOBf"
     ],
-    "pollie_slug": "trent-zimmerman"
+    "pollie_slug": "trent-zimmerman",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Trent Zimmerman's own first-person LinkedIn post: 'It means an end to my time at Bondi Partners and the wonderful opportunity I have had to work with Joe Hockey and the team at Bondi in their consulting business', a self-attested, unambiguous confirmation."
+    }
   },
   {
     "role": "Director",
@@ -45630,7 +45652,12 @@
       "https://www.campion.edu.au/about/governance/board-of-trustees/"
     ],
     "pollie_slug": "zed-seselja",
-    "start_date": "2023-01-01"
+    "start_date": "2023-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Campion College's own site: 'Mr Seselja joined the Campion College Board as a Director and Trustee in 2023'; corroborated by the Board of Trustees governance page listing him as a current trustee."
+    }
   },
   {
     "role": "Council Member",
@@ -45697,9 +45724,15 @@
     "organisation": "South Australian Greens",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://www.indailysa.com.au/news/just-in/2026/02/12/greens-on-board-for-hills-seat-battle-the-robert-simms-campaign-story"
+      "https://www.indailysa.com.au/news/just-in/2026/02/12/greens-on-board-for-hills-seat-battle-the-robert-simms-campaign-story",
+      "https://www.abc.net.au/listen/programs/adelaide-breakfast/robert-simms-greens/106485172"
     ],
-    "pollie_slug": "robert-simms"
+    "pollie_slug": "robert-simms",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "InDaily: 'Robert Simms, leader of the South Australian Greens'; corroborated by ABC captioning him 'Greens SA leader Robert Simms'; identity confirmed as the former federal Greens Senator for SA."
+    }
   },
   {
     "role": "Member of the Governing Council",
@@ -46213,7 +46246,12 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.openaustralia.org.au/senate/?id=2017-11-30.130.2"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate condolence motion Hansard: 'he then became patron of the CLAN network—the Care Leavers Australia Network', confirming identity and role."
+    }
   },
   {
     "pollie_slug": "brian-gibson",
@@ -46349,12 +46387,18 @@
     "category": "Environment, Climate & Sustainability",
     "sources": [
       "https://law.justia.com/cases/federal/district-courts/FSupp2/244/1217/2287839/",
-      "https://en.wikipedia.org/wiki/Peter_Duncan_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Peter_Duncan_(Australian_politician)",
+      "https://www.abc.net.au/news/2008-11-03/duncan-fraud-trial-starts-in-sa/"
     ],
     "pollie_slug": "peter-duncan",
     "role_evidence": {
       "url": "https://law.justia.com/cases/federal/district-courts/FSupp2/244/1217/2287839/",
       "quote": "Operating under its directors, defendants Peter Duncan and Malcolm Barns, OmniPol has been engaged in the design, construction, manufacture, and assembly of plastic injection molding machinery for the purpose of recycling plastic waste."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Justia court record names 'Peter Duncan' as an Omnipol director; Wikipedia and ABC News (fraud trial coverage) corroborate identity as the former Makin MP and Hawke minister, ruling out the SA state-politician namesake."
     }
   },
   {
@@ -46428,7 +46472,12 @@
     ],
     "start_date": "2016",
     "end_date": "2018",
-    "pollie_slug": "phillip-barresi"
+    "pollie_slug": "phillip-barresi",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "EBRD's own website news item lists 'Phillip Barresi, Director, Australia, Korea, New Zealand, Egypt' (2017), within the claimed 2016-2018 window."
+    }
   },
   {
     "role": "Director",
@@ -46485,7 +46534,12 @@
     "sources": [
       "https://www.tasmaniapolicecharitytrust.com/hon-stephen-parry-2/"
     ],
-    "pollie_slug": "stephen-parry"
+    "pollie_slug": "stephen-parry",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Tasmania Police Charity Trust's own bio page: 'Stephen has been appointed to the Tasmania Police Review Board', identifying him as the former Senator and ex-police officer."
+    }
   },
   {
     "role": "Chair",
@@ -46547,7 +46601,12 @@
       "quote": "Trevor Evans commenced in the role of Chair of Healthy Land & Water on 1 July 2026."
     },
     "start_date": "2026-07-01",
-    "pollie_slug": "trevor-evans"
+    "pollie_slug": "trevor-evans",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Healthy Land & Water's own portfolio page: 'Trevor Evans commenced in the role of Chair of Healthy Land & Water on 1 July 2026', identifying him as the former Federal Member for Brisbane."
+    }
   },
   {
     "role": "President",
@@ -47021,7 +47080,12 @@
       "url": "https://psnews.com.au/2019/07/01/on-track-quts-plans-to-help-women-walk-the-pathway-to-politics/",
       "quote": "The QUT Pathways to Politics for Women program's advisory committee includes a number of former Queensland politicians and QUT alumni, including former Federal MP and Parliamentary Secretary Dr Mary Crawford, former Federal MP, Parliamentary Secretary and Assistant Minister for Immigration and Citizenship Adjunct Professor Teresa Gambaro, and former Queensland Attorney-General and Minister for Justice Linda Lavarch."
     },
-    "pollie_slug": "teresa-gambaro"
+    "pollie_slug": "teresa-gambaro",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "PS News and Inside Local Government both name 'former Federal MP, Parliamentary Secretary and Assistant Minister for Immigration and Citizenship Adjunct Professor Teresa Gambaro' as an advisory committee member."
+    }
   },
   {
     "role": "Owner",
@@ -47269,7 +47333,12 @@
     "sources": [
       "https://biography.senate.gov.au/wood-william-robert/"
     ],
-    "pollie_slug": "william-wood"
+    "pollie_slug": "william-wood",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography: after relocating to Victoria in 1992 he 'became a member of the state executive, co-edited the newsletter for a period ... for the party's lead candidate for the Senate at the 1993 election' for the Australian Democrats' Victorian division, resolving the apparent NSW/Victoria mismatch."
+    }
   },
   {
     "role": "Member",
@@ -47466,7 +47535,12 @@
     "sources": [
       "https://www.areanews.com.au/story/8181940/big-birthday-planned-for-u3a/"
     ],
-    "pollie_slug": "noel-hicks"
+    "pollie_slug": "noel-hicks",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Area News: 'The first president of the Griffith U3A was well known identity Noel Hicks', corroborated by other coverage identifying him as the former Riverina MP based in Griffith."
+    }
   },
   {
     "role": "Executive Director",
@@ -47810,7 +47884,12 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://srwfoundation.anu.edu.au/about/foundation-board/hon-anthony-smith"
-    ]
+    ],
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "The cited ANU source describes a different Tony Smith: MP 2001-2022, Speaker of the House 2015-2022 (Liberal, Casey, Victoria) — not the IND MP for Dickson, Qld who left parliament in 1998. Wrong person, same name."
+    }
   },
   {
     "pollie_slug": "arthur-dean",
@@ -48440,7 +48519,12 @@
     ],
     "start_date": "2024-02-17",
     "end_date": "2025-05-03",
-    "pollie_slug": "vince-connelly"
+    "pollie_slug": "vince-connelly",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ABC News: 'Moore MP Ian Goodenough has lost his bid for Liberal preselection to former Army officer Vince Connelly'; Wikipedia corroborates the 2024 preselection win and 2025 election loss, matching the recorded dates."
+    }
   },
   {
     "role": "Chair",
@@ -48669,13 +48753,21 @@
     "organisation": "Evatt Foundation",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.evatt.org.au/post/peace-anti-nukes-tom-uren"
+      "https://www.evatt.org.au/post/peace-anti-nukes-tom-uren",
+      "https://www.evatt.org.au/post/tom-uren-1921-2015"
     ],
     "role_evidence": {
       "url": "https://www.evatt.org.au/post/peace-anti-nukes-tom-uren",
       "quote": "Tom was President of the Evatt Foundation from 1989 to 1997."
     },
-    "pollie_slug": "tom-uren"
+    "pollie_slug": "tom-uren",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Evatt Foundation's own site (cited) and its obituary page both confirm 'President of the Evatt Foundation from 1989 to 1997', a role that continued well into his post-parliamentary years."
+    },
+    "start_date": "1989",
+    "end_date": "1997"
   },
   {
     "role": "Senior Adviser",
@@ -48784,13 +48876,19 @@
     "sources": [
       "https://www.mackayandwhitsundaylife.com/article/chamber-expands-leadership-team-as-growth-continues",
       "https://www.mackayandwhitsundaylife.com/article/two-local-chambers-merge",
-      "https://www.whitsundaycoastchamber.com.au/about-us/"
+      "https://www.whitsundaycoastchamber.com.au/about-us/",
+      "https://en.wikipedia.org/wiki/Richard_Evans_(Australian_politician)"
     ],
     "role_evidence": {
       "url": "https://www.mackayandwhitsundaylife.com/article/chamber-expands-leadership-team-as-growth-continues",
       "quote": "The Chamber also continues to receive specialist government and business advocacy advice from former Federal Member of Parliament Richard Evans."
     },
-    "pollie_slug": "richard-evans"
+    "pollie_slug": "richard-evans",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia confirms this Richard Evans (Liberal, Cowan, ceased 1998-10-03) lives in the Whitsundays; the chamber's own about-us page and news article confirm the government/advocacy advisor role."
+    }
   },
   {
     "role": "Chair",
@@ -49095,6 +49193,11 @@
     "role_evidence": {
       "url": "https://icanw.org.au/making-waves-speaking-tour/",
       "quote": "Scott Ludlam, former federal Senator and ICAN Ambassador"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ICAN Australia's own site: 'Scott Ludlam, former federal Senator and ICAN Ambassador'; corroborated by Peace Boat's own news page."
     }
   },
   {
@@ -49324,6 +49427,11 @@
     "role_evidence": {
       "url": "https://www.awm.gov.au/about/our-people/council",
       "quote": "Warren is a part-time government affairs advisor to Diabetes Australia (since 2022), an advisor to Phosphate Resources Limited (since 2023), a member of the Australian War Memorial Council and Finance, Audit and Compliance Committee (since 2024), and was appointed to the board of the Old Parliament House in February 2025."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Australian War Memorial's own council biography page states he is 'an advisor to Phosphate Resources Limited (since 2023)', naming this specific former MP."
     }
   },
   {
@@ -49349,7 +49457,12 @@
       "https://heritagewoollahra.org.au/our-story/",
       "https://www.qsc.com.au/barristers/peter-king/"
     ],
-    "pollie_slug": "peter-king"
+    "pollie_slug": "peter-king",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Woollahra History and Heritage Society's own page lists 'Peter King (President)'; his barrister profile ties this person to both the parliamentary and heritage roles via a quoted Daily Telegraph article."
+    }
   },
   {
     "role": "Chair of the Energy Transition Platform",
@@ -49548,9 +49661,15 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://cathnews.com/2025/01/17/tasmanias-way-to-st-james-cygnet-pilgrimage-goes-global/",
-      "https://www.abc.net.au/news/2015-08-02/el-camino-de-santiago-in-spain-inspires-tasmanian-pilgramage/6666162"
+      "https://www.abc.net.au/news/2015-08-02/el-camino-de-santiago-in-spain-inspires-tasmanian-pilgramage/6666162",
+      "https://www.abc.net.au/news/2026-06-06/former-senator-catholic-priest-michael-tate-dies-aged-80/106765672"
     ],
-    "pollie_slug": "michael-tate"
+    "pollie_slug": "michael-tate",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ABC News obituary: 'Fr Tate founded the Way to St James, a pilgrimage in the Huon Valley south of Hobart, inspired by Spain's Camino de Santiago', explicitly identifying the founder as the former ALP Senator turned priest."
+    }
   },
   {
     "pollie_slug": "brett-mason",
@@ -49559,14 +49678,20 @@
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://governmentbodies.premiers.qld.gov.au/BodyDisplay.aspx?Parameter=166",
-      "https://www.museum.qld.gov.au/about/key-people/"
+      "https://www.museum.qld.gov.au/about/key-people/",
+      "https://www.abc.net.au/news/2026-07-25/john-paul-langbroek-qld-cultural-centre-board-appointments/106947714"
     ],
     "role_evidence": {
       "url": "https://governmentbodies.premiers.qld.gov.au/BodyDisplay.aspx?Parameter=166",
       "quote": "Mason | Brett | Chairperson | 01-06-2026 | 31-05-2029"
     },
     "start_date": "2026-06-01",
-    "end_date": "2029-05-31"
+    "end_date": "2029-05-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Queensland Government's official board register and Queensland Museum's own page confirm Chair role; ABC News confirms identity as former Queensland Liberal senator."
+    }
   },
   {
     "pollie_slug": "bruce-baird",
@@ -49574,11 +49699,17 @@
     "organisation": "Screen Producers Australia",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://ttf.org.au/conference/greenrevolution2024/speakers/hon-bruce-baird-am/"
+      "https://ttf.org.au/conference/greenrevolution2024/speakers/hon-bruce-baird-am/",
+      "https://ttf.org.au/conference/greenrevolution2023/speakers/hon-bruce-baird-am/"
     ],
     "role_evidence": {
       "url": "https://ttf.org.au/conference/greenrevolution2024/speakers/hon-bruce-baird-am/",
       "quote": "Prior Board positions include Chair of the National Rail Corporation, Chair of the National Heavy Vehicle Regulator, Chair of Advisory Board of Screen Producers Australia, Chair of Kamay Project-Heart Research Institute Board, Chair of BE Sydney, Trustee of Sydney Opera House, Board Member of Sydney Theatre Company and Member of International Advisory Board of Cubic Transportation Systems."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "TTF speaker bio confirms former Federal Member for Cook held 'Chair of Advisory Board of Screen Producers Australia'."
     }
   },
   {
@@ -49593,6 +49724,11 @@
     "role_evidence": {
       "url": "https://www.broadwayworld.com/sydney/article/Sydney-Theatre-Company-Appoints-Three-New-Board-Members-20190708",
       "quote": "We also salute directors The Hon. Bruce Baird AM and Daniel Petre AO who have retired from the board following the conclusion of their terms."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "BroadwayWorld quotes STC Chairman: 'The Hon. Bruce Baird AM ... retired from the board following the conclusion of their terms.'"
     }
   },
   {
@@ -49601,11 +49737,17 @@
     "organisation": "Cubic Transportation Systems",
     "category": "Technology (Software, IT & Digital Services)",
     "sources": [
-      "https://ttf.org.au/conference/greenrevolution2024/speakers/hon-bruce-baird-am/"
+      "https://ttf.org.au/conference/greenrevolution2024/speakers/hon-bruce-baird-am/",
+      "https://ttf.org.au/conference/greenrevolution2023/speakers/hon-bruce-baird-am/"
     ],
     "role_evidence": {
       "url": "https://ttf.org.au/conference/greenrevolution2024/speakers/hon-bruce-baird-am/",
       "quote": "Prior Board positions include Chair of the National Rail Corporation, Chair of the National Heavy Vehicle Regulator, Chair of Advisory Board of Screen Producers Australia, Chair of Kamay Project-Heart Research Institute Board, Chair of BE Sydney, Trustee of Sydney Opera House, Board Member of Sydney Theatre Company and Member of International Advisory Board of Cubic Transportation Systems."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "TTF speaker bio confirms 'Member of International Advisory Board of Cubic Transportation Systems', corroborated across two separately published bio pages."
     }
   },
   {
@@ -49621,7 +49763,12 @@
       "quote": "We welcome Ms Chris Bath and Mr Bruce Baird AM who will serve as the appointed members serving the interests of Conservation and Business and Tourism respectively from 29/11/2021 to 28/11/2024."
     },
     "start_date": "2021-11-29",
-    "end_date": "2024-11-28"
+    "end_date": "2024-11-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "arr.news: 'Mr Bruce Baird AM who will serve as the appointed members serving the interests of ... Business and Tourism ... from 29/11/2021 to 28/11/2024', corroborated by LHIB records."
+    }
   },
   {
     "pollie_slug": "graham-harris",
@@ -49629,11 +49776,17 @@
     "organisation": "Kilmour Investments",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://kilmourinvestments.com/timeline/4-august-2025-graham-mcdonald-harris-obituary/"
+      "https://kilmourinvestments.com/timeline/4-august-2025-graham-mcdonald-harris-obituary/",
+      "https://kilmourinvestments.com/board-directors/"
     ],
     "role_evidence": {
       "url": "https://kilmourinvestments.com/timeline/4-august-2025-graham-mcdonald-harris-obituary/",
       "quote": "In 1990 he succeeded to Chairman, a position he held for 38 years before stepping down in 2018."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Kilmour Investments obituary confirms this is the former Chisholm MP (1980-1983) and states 'In 1990 he succeeded to Chairman'; corroborated by Kilmour's own board/directors page."
     }
   },
   {
@@ -49649,7 +49802,12 @@
       "url": "https://www.canberratimes.com.au/story/6157648/nelson-named-distinguished-research-fellow-by-anu/",
       "quote": "Former leader of the Liberal Party, the Hon. Dr Brendan Nelson has been appointed a Distinguished Research Fellow with the Centre for European Studies at ANU."
     },
-    "start_date": "2013-04-15"
+    "start_date": "2013-04-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Canberra Times: 'the Hon. Dr Brendan Nelson has been appointed a Distinguished Research Fellow with the Centre for European Studies at ANU', corroborated by ANU's own staff page."
+    }
   },
   {
     "pollie_slug": "laurence-neal",
@@ -49657,11 +49815,17 @@
     "organisation": "Hadfield High School",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://biography.senate.gov.au/neal-laurence-william/"
+      "https://biography.senate.gov.au/neal-laurence-william/",
+      "https://en.wikipedia.org/wiki/Laurence_Neal"
     ],
     "role_evidence": {
       "url": "https://biography.senate.gov.au/neal-laurence-william/",
       "quote": "Neal had 'always enjoyed' teaching, and from 1982 continued his career at Hadfield High School, Galen Catholic College, Wangaratta, Nathalia High School, Wangaratta High School, and Marian College, Myrtleford, teaching history, politics, film and media, geography and English, before retiring from full-time teaching at the end of 2007."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms teaching career at Hadfield High School from 1982."
     }
   },
   {
@@ -49670,11 +49834,17 @@
     "organisation": "Galen Catholic College",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://biography.senate.gov.au/neal-laurence-william/"
+      "https://biography.senate.gov.au/neal-laurence-william/",
+      "https://en.wikipedia.org/wiki/Laurence_Neal"
     ],
     "role_evidence": {
       "url": "https://biography.senate.gov.au/neal-laurence-william/",
       "quote": "Neal had 'always enjoyed' teaching, and from 1982 continued his career at Hadfield High School, Galen Catholic College, Wangaratta, Nathalia High School, Wangaratta High School, and Marian College, Myrtleford, teaching history, politics, film and media, geography and English, before retiring from full-time teaching at the end of 2007."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms teaching career at Galen Catholic College from 1982."
     }
   },
   {
@@ -49683,11 +49853,17 @@
     "organisation": "Nathalia High School",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://biography.senate.gov.au/neal-laurence-william/"
+      "https://biography.senate.gov.au/neal-laurence-william/",
+      "https://en.wikipedia.org/wiki/Laurence_Neal"
     ],
     "role_evidence": {
       "url": "https://biography.senate.gov.au/neal-laurence-william/",
       "quote": "Neal had 'always enjoyed' teaching, and from 1982 continued his career at Hadfield High School, Galen Catholic College, Wangaratta, Nathalia High School, Wangaratta High School, and Marian College, Myrtleford, teaching history, politics, film and media, geography and English, before retiring from full-time teaching at the end of 2007."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms teaching career at Nathalia High School from 1982."
     }
   },
   {
@@ -49696,11 +49872,17 @@
     "organisation": "Wangaratta High School",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://biography.senate.gov.au/neal-laurence-william/"
+      "https://biography.senate.gov.au/neal-laurence-william/",
+      "https://en.wikipedia.org/wiki/Laurence_Neal"
     ],
     "role_evidence": {
       "url": "https://biography.senate.gov.au/neal-laurence-william/",
       "quote": "Neal had 'always enjoyed' teaching, and from 1982 continued his career at Hadfield High School, Galen Catholic College, Wangaratta, Nathalia High School, Wangaratta High School, and Marian College, Myrtleford, teaching history, politics, film and media, geography and English, before retiring from full-time teaching at the end of 2007."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms teaching career at Wangaratta High School from 1982."
     }
   },
   {
@@ -49709,11 +49891,17 @@
     "organisation": "Marian College, Myrtleford",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://biography.senate.gov.au/neal-laurence-william/"
+      "https://biography.senate.gov.au/neal-laurence-william/",
+      "https://en.wikipedia.org/wiki/Laurence_Neal"
     ],
     "role_evidence": {
       "url": "https://biography.senate.gov.au/neal-laurence-william/",
       "quote": "Neal had 'always enjoyed' teaching, and from 1982 continued his career at Hadfield High School, Galen Catholic College, Wangaratta, Nathalia High School, Wangaratta High School, and Marian College, Myrtleford, teaching history, politics, film and media, geography and English, before retiring from full-time teaching at the end of 2007."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms teaching career at Marian College, Myrtleford from 1982."
     }
   },
   {
@@ -49727,6 +49915,11 @@
     "role_evidence": {
       "url": "https://biography.senate.gov.au/neal-laurence-william/",
       "quote": "Neal served for two years on the state executive of the Victorian Council of School Organisations, and was also a member of the Ministry of Education Regional Board Reference Group for the Goulburn North-Eastern Region."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography: 'served for two years on the state executive of the Victorian Council of School Organisations'."
     }
   },
   {
@@ -49740,6 +49933,11 @@
     "role_evidence": {
       "url": "https://biography.senate.gov.au/neal-laurence-william/",
       "quote": "Neal served for two years on the state executive of the Victorian Council of School Organisations, and was also a member of the Ministry of Education Regional Board Reference Group for the Goulburn North-Eastern Region."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography: 'was also a member of the Ministry of Education Regional Board Reference Group for the Goulburn North-Eastern Region'."
     }
   },
   {
@@ -49753,6 +49951,11 @@
     "role_evidence": {
       "url": "https://biography.senate.gov.au/neal-laurence-william/",
       "quote": "President of the local branch of the University of the Third Age for four years (and again in 2008), Neal completed an MA in international relations at Deakin University in 1997, obtained a graduate diploma in gerontology from La Trobe University in 2000, and is working towards a PhD in agrarian politics at La Trobe University."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography: 'President of the local branch of the University of the Third Age for four years'."
     }
   },
   {
@@ -49761,11 +49964,17 @@
     "organisation": "Anglican Parish of Corowa",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://biography.senate.gov.au/neal-laurence-william/"
+      "https://biography.senate.gov.au/neal-laurence-william/",
+      "https://en.wikipedia.org/wiki/Laurence_Neal"
     ],
     "role_evidence": {
       "url": "https://biography.senate.gov.au/neal-laurence-william/",
       "quote": "In November 1987 Neal was ordained into the Anglican ministry, subsequently serving as deacon at various churches in the dioceses of Wangaratta and Riverina, including a term as locum minister at Corowa in 2007."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography: ordained Anglican minister 1987, 'including a term as locum minister at Corowa in 2007', within the Riverina diocese."
     }
   },
   {
@@ -49774,11 +49983,17 @@
     "organisation": "Cairns and District Chinese Association",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.cadcai.org.au/about"
+      "https://www.cadcai.org.au/about",
+      "https://en.wikipedia.org/wiki/Jim_Turnour"
     ],
     "role_evidence": {
       "url": "https://www.cadcai.org.au/about",
       "quote": "committee member Jim Turnour"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Organisation's own about page lists 'committee member Jim Turnour'; corroborated by Wikipedia listing this among his post-parliamentary community involvements."
     }
   },
   {
@@ -49792,6 +50007,11 @@
     "role_evidence": {
       "url": "https://biography.senate.gov.au/melzer-jean-isabel/",
       "quote": "She was Victorian convenor of the Movement Against Uranium Mining in 1983, and worked with the South Australian socialist left to further the anti-uranium cause."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography: 'She was Victorian convenor of the Movement Against Uranium Mining in 1983'."
     }
   }
 ]
