@@ -63,6 +63,14 @@ sync_checkout_and_reexec() {
 #
 # AGENT_MODEL is read directly by agent-run. Unset takes the profile's default
 # model, or the native CLI's default when the profile does not declare one.
+#
+# Permissions go through the runner-agnostic --bypass-permissions rather than a
+# --claude-* or --codex-* flag, because the profile is a drop-in away from
+# changing and agent-run rejects an option aimed at a runner the profile does
+# not select. Naming one runner's flag here made the whole job depend on which
+# profile happened to be configured: the hardcoded --codex-sandbox exited 2
+# under the default claude-sub profile for a day, and every run in between
+# reported a quiet "nothing found" rather than a failure.
 run_agent() {
   local skill="$1"
   local profile="${AGENT_PROFILE:-claude-sub}"
@@ -72,8 +80,7 @@ run_agent() {
     "$bin"
     --profile "$profile"
     --cwd "$PROJECT_DIR"
-    --claude-dangerously-skip-permissions
-    --codex-sandbox danger-full-access
+    --bypass-permissions
   )
   local -a describe_cmd=("$bin" --profile "$profile")
 
