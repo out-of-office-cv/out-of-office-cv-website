@@ -50013,5 +50013,222 @@
       "by": "claude",
       "note": "Senate biography: 'She was Victorian convenor of the Movement Against Uranium Mining in 1983'."
     }
+  },
+  {
+    "pollie_slug": "gary-humphries",
+    "role": "Columnist",
+    "organisation": "The Canberra Times",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.canberratimes.com.au/national/act/former-act-senator-gary-humphries-now-sits-in-judgment-20150610-ghkxif.html"
+    ]
+  },
+  {
+    "pollie_slug": "wayne-swan",
+    "role": "Director",
+    "organisation": "Super Members Council of Australia",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://smcaustralia.com/about-us/our-board/"
+    ]
+  },
+  {
+    "pollie_slug": "robert-hill",
+    "role": "Chair",
+    "organisation": "Cooperative Research Centre for Low Carbon Living",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.re-group.com/leadership/the-hon-robert-hill/"
+    ]
+  },
+  {
+    "pollie_slug": "robert-hill",
+    "role": "Chair",
+    "organisation": "NSW Biodiversity Conservation Trust",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://snelandcare.org.au/landcare-news/latest-news/1064-biodiversity-conservation-trust-board-enters-new-era.html"
+    ]
+  },
+  {
+    "pollie_slug": "robert-hill",
+    "role": "Chair",
+    "organisation": "Antarctic Science Foundation",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://dragomanglobal.com/robert-hill"
+    ]
+  },
+  {
+    "pollie_slug": "robert-hill",
+    "role": "Governor",
+    "organisation": "WWF Australia",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://dragomanglobal.com/robert-hill",
+      "https://wwf.org.au/about-us/leaders/governors/"
+    ]
+  },
+  {
+    "pollie_slug": "robert-hill",
+    "role": "Asia Pacific Board Member",
+    "organisation": "The Nature Conservancy",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://dragomanglobal.com/robert-hill"
+    ]
+  },
+  {
+    "pollie_slug": "robert-hill",
+    "role": "Council Member",
+    "organisation": "Australian Strategic Policy Institute",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://dragomanglobal.com/robert-hill"
+    ]
+  },
+  {
+    "pollie_slug": "robert-hill",
+    "role": "Chair",
+    "organisation": "Viva Energy Group",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.tipranks.com/news/company-announcements/viva-energy-names-sarah-ryan-as-next-chair-and-adds-alistair-bell-in-board-renewal",
+      "https://www.businessnews.com.au/Person/Robert-Hill"
+    ]
+  },
+  {
+    "pollie_slug": "robert-hill",
+    "role": "Chair, Advisory Board",
+    "organisation": "Global Change Institute, University of Queensland",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://alumni.uq.edu.au/story/5144/honourable-robert-hill-ac"
+    ]
+  },
+  {
+    "pollie_slug": "robert-hill",
+    "role": "President",
+    "organisation": "United Nations Association of Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://alumni.uq.edu.au/story/5144/honourable-robert-hill-ac"
+    ]
+  },
+  {
+    "pollie_slug": "robert-hill",
+    "role": "Deputy Chair",
+    "organisation": "International Democratic Union",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://alumni.uq.edu.au/story/5144/honourable-robert-hill-ac"
+    ]
+  },
+  {
+    "pollie_slug": "robert-hill",
+    "role": "Non-Executive Director",
+    "organisation": "Rheinmetall Defence Australia",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robert_Hill_(Australian_politician)"
+    ],
+    "start_date": "2016-06-28"
+  },
+  {
+    "pollie_slug": "robert-hill",
+    "role": "Director",
+    "organisation": "Climateworks Australia",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robert_Hill_(Australian_politician)"
+    ]
+  },
+  {
+    "pollie_slug": "robert-hill",
+    "role": "Director",
+    "organisation": "North Harbour Clean Energy",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robert_Hill_(Australian_politician)"
+    ]
+  },
+  {
+    "pollie_slug": "robert-hill",
+    "role": "Advisory Board Member",
+    "organisation": "United Against Nuclear Iran",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robert_Hill_(Australian_politician)"
+    ]
+  },
+  {
+    "pollie_slug": "robert-hill",
+    "role": "Member, First Principles Review Oversight Board",
+    "organisation": "Australian Defence Force",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robert_Hill_(Australian_politician)"
+    ],
+    "start_date": "2015-05-11"
+  },
+  {
+    "pollie_slug": "nick-minchin",
+    "role": "Patron",
+    "organisation": "Australians for Constitutional Monarchy",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://norepublic.com.au/senator-nick-minchin-acm-patron/"
+    ],
+    "start_date": "2011-08-09"
+  },
+  {
+    "pollie_slug": "nick-minchin",
+    "role": "National Council Member",
+    "organisation": "Australians for Constitutional Monarchy",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://norepublic.com.au/senator-nick-minchin-acm-patron/"
+    ],
+    "start_date": "2011-08-09"
+  },
+  {
+    "pollie_slug": "lisa-singh",
+    "role": "Fellow",
+    "organisation": "Australian Institute of International Affairs",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://aii.unimelb.edu.au/teams/the-hon-lisa-singh/",
+      "https://www.internationalaffairs.org.au/about-us/aiia-fellows/"
+    ]
+  },
+  {
+    "pollie_slug": "terri-butler",
+    "role": "Commissioner",
+    "organisation": "Queensland Industrial Relations Commission",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://statements.qld.gov.au/statements/99384",
+      "https://en.wikipedia.org/wiki/Terri_Butler"
+    ],
+    "start_date": "2024-01-08",
+    "end_date": "2024-08-31"
+  },
+  {
+    "pollie_slug": "kay-patterson",
+    "role": "Acting Chair",
+    "organisation": "EveryAGE Counts",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.everyagecounts.org.au/meet_our_board"
+    ]
+  },
+  {
+    "pollie_slug": "kay-patterson",
+    "role": "Patron",
+    "organisation": "Australian Institute for Intergenerational Practice",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.uow.edu.au/alumni/honorary-alumni/honorary-doctorates/kay-patterson-ao/"
+    ]
   }
 ]
