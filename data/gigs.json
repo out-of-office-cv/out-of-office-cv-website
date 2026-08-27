@@ -50230,5 +50230,339 @@
     "sources": [
       "https://www.uow.edu.au/alumni/honorary-alumni/honorary-doctorates/kay-patterson-ao/"
     ]
+  },
+  {
+    "role": "Independent Director",
+    "organisation": "Australian Composites Manufacturing Cooperative Research Centre",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.acmcrc.com/our-team",
+      "https://tsbe.com.au/about/tsbe-board"
+    ],
+    "pollie_slug": "ian-macfarlane"
+  },
+  {
+    "role": "Interim Chair",
+    "organisation": "AI-Enhanced Drug Discovery Cooperative Research Centre",
+    "category": "Pharmaceutical & Biotechnology",
+    "sources": [
+      "https://www.aieddcrc.com/teams",
+      "https://tsbe.com.au/about/tsbe-board"
+    ],
+    "pollie_slug": "ian-macfarlane"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Toowoomba & Surat Basin Enterprise",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://tsbe.com.au/about/tsbe-board",
+      "https://www.indailyqld.com.au/news/just-in/2026/07/15/corporate-ladder-your-guide-to-executive-appointments-in-queensland-10"
+    ],
+    "pollie_slug": "ian-macfarlane"
+  },
+  {
+    "role": "Member",
+    "organisation": "UQ Rural Clinical School Toowoomba Community Advisory Committee",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.qrc.org.au/qrc-chief-announces-plans-to-retire-from-role-by-end-of-2023/"
+    ],
+    "pollie_slug": "ian-macfarlane"
+  },
+  {
+    "role": "Member, NSW Activism Leadership Committee",
+    "organisation": "Amnesty International Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.amnesty.org.au/wp-content/uploads/2024/05/Director-Candidate-Brief-2024.docx.pdf"
+    ],
+    "pollie_slug": "belinda-neal",
+    "start_date": "2019-01-01",
+    "end_date": "2023-01-01"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Bupa Australia & New Zealand",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://media.bupa.com.au/nicola-roxon-to-replace-john-conde-as-bupa-chairman/",
+      "https://media.bupa.com.au/bryan-mogridge-appointed-as-chairman-of-bupa-australia-new-zealand"
+    ],
+    "pollie_slug": "nicola-roxon",
+    "start_date": "2018-03",
+    "end_date": "2019-06"
+  },
+  {
+    "role": "Interim Chair",
+    "organisation": "Super Members Council of Australia",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.theweeklysource.com.au/development/lifestyle-communities-director-nicola-roxon-to-chair-new-14trn-industry-super-lobby-group",
+      "https://smcaustralia.com/media/ann-sherry-ao-to-chair-the-super-members-council-2/"
+    ],
+    "pollie_slug": "nicola-roxon",
+    "start_date": "2023-09",
+    "end_date": "2024-06"
+  },
+  {
+    "role": "Director",
+    "organisation": "Super Members Council of Australia",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://smcaustralia.com/about-us/our-board/",
+      "https://smcaustralia.com/media/ann-sherry-ao-to-chair-the-super-members-council-2/"
+    ],
+    "pollie_slug": "nicola-roxon",
+    "start_date": "2024-07"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Sir Zelman Cowen Centre, Victoria University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.vu.edu.au/news-events/news/nicola-roxon-takes-up-new-role-at-victoria-university",
+      "https://www.vu.edu.au/about-vu/news-events/news/cowen-centre-welcomes-karen-mahlab-am-as-chair"
+    ],
+    "pollie_slug": "nicola-roxon",
+    "start_date": "2015",
+    "end_date": "2018"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Racing Christian Chaplaincy",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://arcc.org.au/news/arcc-appoints-first-chief-executive-officer/",
+      "https://arcc.org.au/about/"
+    ],
+    "pollie_slug": "karin-sowada"
+  },
+  {
+    "role": "Independent Chair",
+    "organisation": "Australian Professional Leagues",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://wswanderersfc.com.au/news/hon-stephen-conroy-announced-as-independent-chair-of-the-australian-professional-leagues/"
+    ],
+    "pollie_slug": "stephen-conroy",
+    "start_date": "2023-09-26"
+  },
+  {
+    "role": "Independent Chair of Advisory Board",
+    "organisation": "Day By Day",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://www.cio.com/article/201453/stephen-conroy-joins-board-of-blockchain-startup.html"
+    ],
+    "pollie_slug": "stephen-conroy",
+    "start_date": "2019-12-18"
+  },
+  {
+    "role": "Director",
+    "organisation": "Swire Australia",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.maynereport.com/articles/2009/11/23-1615-6931.html",
+      "https://oa.anu.edu.au/obituary/anthony-john-douglas-doug-31361"
+    ],
+    "pollie_slug": "john-anthony"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Pan Australia Mining",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.maynereport.com/articles/2009/11/23-1615-6931.html"
+    ],
+    "pollie_slug": "john-anthony"
+  },
+  {
+    "role": "Executive Chair",
+    "organisation": "Aqualand Group",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.aqualand.com.au/team/the-hon-warwick-smith-ao/"
+    ],
+    "pollie_slug": "warwick-smith"
+  },
+  {
+    "role": "Chair",
+    "organisation": "AL Capital",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://alcapital.com.au/about/team/"
+    ],
+    "pollie_slug": "warwick-smith"
+  },
+  {
+    "role": "Chair, Advisory Board",
+    "organisation": "Dragoman Global",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://dragomanglobal.com/warwick-smith"
+    ],
+    "pollie_slug": "warwick-smith"
+  },
+  {
+    "role": "Chair, Advisory Board",
+    "organisation": "Australia-China Relations Institute (UTS:ACRI)",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.uts.edu.au/research/centres/australia-china-relations-institute/about/advisory-board/warwick-smith"
+    ],
+    "pollie_slug": "warwick-smith"
+  },
+  {
+    "role": "Chair, Advisory Board",
+    "organisation": "Australian Capital Equity",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.aald.org/advisory-board/warwick-smith/"
+    ],
+    "pollie_slug": "warwick-smith"
+  },
+  {
+    "role": "Director",
+    "organisation": "Marinus Link Pty Ltd",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://www.marinuslink.com.au/2022/08/marinus-link-pty-ltd-welcomes-new-board-appointments/"
+    ],
+    "pollie_slug": "warwick-smith",
+    "start_date": "2022-08-15"
+  },
+  {
+    "role": "Director",
+    "organisation": "Estia Health Limited",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.estiahealth.com.au/globalassets/about-us/results-centre/2020/appendix_4e_and_annual_financial_report.pdf"
+    ],
+    "pollie_slug": "warwick-smith",
+    "start_date": "2017-05-17",
+    "end_date": "2022-03-31"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Ord Minnett",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.ords.com.au/about/leadership"
+    ],
+    "pollie_slug": "warwick-smith"
+  },
+  {
+    "role": "Administrator",
+    "organisation": "South Gippsland Shire Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.premier.vic.gov.au/administrators-appointed-south-gippsland-shire"
+    ],
+    "pollie_slug": "christian-zahra",
+    "start_date": "2019-07-24",
+    "end_date": "2021"
+  },
+  {
+    "role": "Administrator",
+    "organisation": "City of Whittlesea",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://ncreview.com.au/2023/04/11/city-of-whittlesea-appoints-new-administrator/"
+    ],
+    "pollie_slug": "christian-zahra",
+    "start_date": "2023-03",
+    "end_date": "2024-10"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Regional Development Australia Fund Advisory Panel",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.thecourier.com.au/story/5462295/a-voice-championing-regional-australia/"
+    ],
+    "pollie_slug": "christian-zahra"
+  },
+  {
+    "role": "Independent Monitor",
+    "organisation": "International Red Cross and Red Crescent Movement",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://rcrcconference.org/app/uploads/2022/06/15_CoD-2022_MoU-AOA_Ind-Monitor-progress-report-FINAL-EN.pdf"
+    ],
+    "pollie_slug": "robert-tickner"
+  },
+  {
+    "role": "Chair",
+    "organisation": "AIDS Trust of Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.starobserver.com.au/news/national-news/new-south-wales-news/trust-blames-iris-for-delay-in-money-31703/7068",
+      "https://biography.senate.gov.au/puplick-christopher-john-guelph/"
+    ],
+    "pollie_slug": "chris-puplick",
+    "start_date": "1999",
+    "end_date": "2008"
+  },
+  {
+    "role": "Chair",
+    "organisation": "National Taskforce on Whaling",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://biography.senate.gov.au/puplick-christopher-john-guelph/"
+    ],
+    "pollie_slug": "chris-puplick",
+    "start_date": "1996",
+    "end_date": "2000"
+  },
+  {
+    "role": "Director",
+    "organisation": "Griffin Theatre Company",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://biography.senate.gov.au/puplick-christopher-john-guelph/"
+    ],
+    "pollie_slug": "chris-puplick",
+    "start_date": "1990",
+    "end_date": "2005"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Archive Forum",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Puplick"
+    ],
+    "pollie_slug": "chris-puplick",
+    "start_date": "2003",
+    "end_date": "2008"
+  },
+  {
+    "role": "Senior Member",
+    "organisation": "Administrative Appeals Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://johnmenadue.com/chris-puplick-drug-reform-series-the-evidence-for-drug-policy-reform-is-clear/"
+    ],
+    "pollie_slug": "chris-puplick"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Justice Health and Forensic Mental Health Network",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://johnmenadue.com/chris-puplick-drug-reform-series-the-evidence-for-drug-policy-reform-is-clear/"
+    ],
+    "pollie_slug": "chris-puplick"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Lee Family Office",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://leefamilyoffice.com.au/about/",
+      "https://www.capitalbrief.com/article/joe-hockey-is-now-the-chair-of-a-billionaire-casino-whales-family-office-32843126-bfa2-40a0-b247-c2ae55c70066/"
+    ],
+    "pollie_slug": "joe-hockey"
   }
 ]
