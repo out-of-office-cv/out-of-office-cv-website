@@ -46654,14 +46654,20 @@
     "organisation": "Liberal Party of Western Australia",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Ian_Viner"
+      "https://en.wikipedia.org/wiki/Ian_Viner",
+      "https://www.waliberal.org.au/our-history/"
     ],
     "role_evidence": {
       "url": "https://en.wikipedia.org/wiki/Ian_Viner",
       "quote": "Viner was elected state president of the Liberal Party in Western Australia in 1991."
     },
     "start_date": "1991-01-01",
-    "pollie_slug": "ian-viner"
+    "pollie_slug": "ian-viner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Liberal Party of WA's own 'Our History' page, listing past state presidents including '1991-92 Hon Ian Viner'."
+    }
   },
   {
     "role": "General Manager",
@@ -48076,11 +48082,17 @@
     "organisation": "Packer Family Foundation",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://michaelwest.com.au/mark-arbib/"
+      "https://michaelwest.com.au/mark-arbib/",
+      "https://en.wikipedia.org/wiki/Mark_Arbib"
     ],
     "role_evidence": {
       "url": "https://michaelwest.com.au/mark-arbib/",
       "quote": "Board member for the Packer Family Foundation since 2014."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia's 'Post Politics' section confirms Arbib was a board member of the Packer Family Foundation; corroborated by a ministryofsport.com writeup of his 2025 AOC CEO appointment."
     }
   },
   {
@@ -50021,7 +50033,12 @@
     "category": "Media, Communications & Public Relations",
     "sources": [
       "https://www.canberratimes.com.au/national/act/former-act-senator-gary-humphries-now-sits-in-judgment-20150610-ghkxif.html"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited Canberra Times article states directly: 'He was hired as a lobbyist ... and also became a columnist for The Canberra Times.' Corroborated by a later Canberra Times byline showing continued opinion contributions."
+    }
   },
   {
     "pollie_slug": "wayne-swan",
@@ -50038,8 +50055,14 @@
     "organisation": "Cooperative Research Centre for Low Carbon Living",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://www.re-group.com/leadership/the-hon-robert-hill/"
-    ]
+      "https://www.re-group.com/leadership/the-hon-robert-hill/",
+      "http://www.lowcarbonlivingcrc.com.au/about-us/board-directors/hon-robert-hill-ac"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "re-group.com's own leadership bio for Hill states 'Chairman of the CRC for Low Carbon Living at UNSW'. Independently confirmed by the CRC's own bio page."
+    }
   },
   {
     "pollie_slug": "robert-hill",
@@ -50048,7 +50071,12 @@
     "category": "Environment, Climate & Sustainability",
     "sources": [
       "https://snelandcare.org.au/landcare-news/latest-news/1064-biodiversity-conservation-trust-board-enters-new-era.html"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Cited source (NSW Government/BCT media statement) states: 'The Minister thanked outgoing inaugural Chair, the Hon Robert Hill AC ... for their service and advocacy for biodiversity throughout NSW.'"
+    }
   },
   {
     "pollie_slug": "robert-hill",
@@ -50057,7 +50085,12 @@
     "category": "Environment, Climate & Sustainability",
     "sources": [
       "https://dragomanglobal.com/robert-hill"
-    ]
+    ],
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "The Antarctic Science Foundation's own board page (antarcticsciencefoundation.org/our-board) gives a complete chair history (Woodthorpe 2019-2021, Haymet 2021-2025, Walmsley 2025-present) with no mention of Robert Hill anywhere, contradicting the sole cited source (his own consultancy's bio page)."
+    }
   },
   {
     "pollie_slug": "robert-hill",
@@ -50067,7 +50100,12 @@
     "sources": [
       "https://dragomanglobal.com/robert-hill",
       "https://wwf.org.au/about-us/leaders/governors/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "wwf.org.au's own Governors page lists 'The Hon Robert Hill AC' among WWF-Australia's Governors."
+    }
   },
   {
     "pollie_slug": "robert-hill",
@@ -50075,8 +50113,14 @@
     "organisation": "The Nature Conservancy",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://dragomanglobal.com/robert-hill"
-    ]
+      "https://dragomanglobal.com/robert-hill",
+      "http://www.lowcarbonlivingcrc.com.au/about-us/board-directors/hon-robert-hill-ac"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "dragomanglobal.com states he is 'member of the Asia Pacific Board of The Nature Conservancy'. Independently confirmed by the CRC for Low Carbon Living's own bio page."
+    }
   },
   {
     "pollie_slug": "robert-hill",
@@ -50084,8 +50128,14 @@
     "organisation": "Australian Strategic Policy Institute",
     "category": "Defence & Military and Security",
     "sources": [
-      "https://dragomanglobal.com/robert-hill"
-    ]
+      "https://dragomanglobal.com/robert-hill",
+      "https://www.aspi.org.au/news/new-aspi-council-members/"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ASPI's own news page confirms 'the term of outgoing ASPI Council member the Hon Robert Hill AC concluded in 2022.'"
+    }
   },
   {
     "pollie_slug": "robert-hill",
@@ -50095,7 +50145,13 @@
     "sources": [
       "https://www.tipranks.com/news/company-announcements/viva-energy-names-sarah-ryan-as-next-chair-and-adds-alistair-bell-in-board-renewal",
       "https://www.businessnews.com.au/Person/Robert-Hill"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "TipRanks (ASX company announcement) states: 'Chair Robert Hill AC to retire on 1 March 2026 after a decade on the board.' Adding end_date since that date has now passed."
+    },
+    "end_date": "2026-03-01"
   },
   {
     "pollie_slug": "robert-hill",
@@ -50104,7 +50160,12 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://alumni.uq.edu.au/story/5144/honourable-robert-hill-ac"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "alumni.uq.edu.au states: 'Until recently he was chair of the advisory board to The University of Queensland's Global Change Institute.'"
+    }
   },
   {
     "pollie_slug": "robert-hill",
@@ -50112,8 +50173,14 @@
     "organisation": "United Nations Association of Australia",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://alumni.uq.edu.au/story/5144/honourable-robert-hill-ac"
-    ]
+      "https://alumni.uq.edu.au/story/5144/honourable-robert-hill-ac",
+      "http://www.lowcarbonlivingcrc.com.au/about-us/board-directors/hon-robert-hill-ac"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "alumni.uq.edu.au describes him as 'a former President of the United Nations Association of Australia'. Corroborated by the CRC for Low Carbon Living bio page."
+    }
   },
   {
     "pollie_slug": "robert-hill",
@@ -50122,7 +50189,12 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://alumni.uq.edu.au/story/5144/honourable-robert-hill-ac"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "alumni.uq.edu.au states he is 'an erstwhile deputy chair of the International Democratic Union.'"
+    }
   },
   {
     "pollie_slug": "robert-hill",
@@ -50130,9 +50202,15 @@
     "organisation": "Rheinmetall Defence Australia",
     "category": "Defence & Military and Security",
     "sources": [
-      "https://en.wikipedia.org/wiki/Robert_Hill_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Robert_Hill_(Australian_politician)",
+      "https://asiapacificdefencereporter.com/robert-hill-ac-and-john-caligari-ao-appointed-to-inaugural-rheinmetall-defence-australia-supervisory-board/"
     ],
-    "start_date": "2016-06-28"
+    "start_date": "2016-06-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Corroborated by Asia Pacific Defence Reporter (28 June 2016): 'the Hon. Robert Hill AC, a former Australian Defence Minister' appointed to Rheinmetall's inaugural Supervisory Board."
+    }
   },
   {
     "pollie_slug": "robert-hill",
@@ -50140,8 +50218,15 @@
     "organisation": "Climateworks Australia",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://en.wikipedia.org/wiki/Robert_Hill_(Australian_politician)"
-    ]
+      "https://en.wikipedia.org/wiki/Robert_Hill_(Australian_politician)",
+      "https://www.climateworkscentre.org/news/prominent-australians-join-the-board-of-climateworks/"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Climateworks' own 14 August 2012 press release: 'the appointment of former Federal Environment Minister, Robert Hill AC ... to its board of directors.'"
+    },
+    "start_date": "2012-08-14"
   },
   {
     "pollie_slug": "robert-hill",
@@ -50149,8 +50234,14 @@
     "organisation": "North Harbour Clean Energy",
     "category": "Energy (Renewables & Traditional)",
     "sources": [
-      "https://en.wikipedia.org/wiki/Robert_Hill_(Australian_politician)"
-    ]
+      "https://en.wikipedia.org/wiki/Robert_Hill_(Australian_politician)",
+      "https://nhcleanenergy.com/who-we-are/"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "North Harbour Clean Energy's own 'Who We Are' page lists 'The Hon. Robert Hill - Director'."
+    }
   },
   {
     "pollie_slug": "robert-hill",
@@ -50158,8 +50249,14 @@
     "organisation": "United Against Nuclear Iran",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Robert_Hill_(Australian_politician)"
-    ]
+      "https://en.wikipedia.org/wiki/Robert_Hill_(Australian_politician)",
+      "https://militarist-monitor.org/profile/united_against_nuclear_iran/"
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Corroborated by militarist-monitor.org watchdog profile listing 'Robert Hill' in UANI's Advisory Board (2019) roster."
+    }
   },
   {
     "pollie_slug": "robert-hill",
@@ -50167,9 +50264,15 @@
     "organisation": "Australian Defence Force",
     "category": "Defence & Military and Security",
     "sources": [
-      "https://en.wikipedia.org/wiki/Robert_Hill_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Robert_Hill_(Australian_politician)",
+      "https://www.minister.defence.gov.au/media-releases/2015-05-11/minister-defence-membership-first-principles-review-oversight-board"
     ],
-    "start_date": "2015-05-11"
+    "start_date": "2015-05-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Government press release 'Minister for Defence - Membership of the First Principles Review Oversight Board' (11 May 2015): 'Membership comprises Mr David Peever as Chair, the Hon Robert Hill AC...'"
+    }
   },
   {
     "pollie_slug": "nick-minchin",
@@ -50179,7 +50282,12 @@
     "sources": [
       "https://norepublic.com.au/senator-nick-minchin-acm-patron/"
     ],
-    "start_date": "2011-08-09"
+    "start_date": "2011-08-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ACM's own site states: 'Senator Minchin has accepted appointment as an ACM Patron and to the ACM National Council.'"
+    }
   },
   {
     "pollie_slug": "nick-minchin",
@@ -50189,7 +50297,12 @@
     "sources": [
       "https://norepublic.com.au/senator-nick-minchin-acm-patron/"
     ],
-    "start_date": "2011-08-09"
+    "start_date": "2011-08-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same ACM source separately substantiates the National Council Member role alongside the Patron role."
+    }
   },
   {
     "pollie_slug": "lisa-singh",
@@ -50199,7 +50312,12 @@
     "sources": [
       "https://aii.unimelb.edu.au/teams/the-hon-lisa-singh/",
       "https://www.internationalaffairs.org.au/about-us/aiia-fellows/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Australia India Institute bio lists among her professional roles 'Fellow, Australian Institute of International Affairs'. Independently corroborated by AIIA's own 'Fellows 2025' roster."
+    }
   },
   {
     "pollie_slug": "terri-butler",
@@ -50211,7 +50329,12 @@
       "https://en.wikipedia.org/wiki/Terri_Butler"
     ],
     "start_date": "2024-01-08",
-    "end_date": "2024-08-31"
+    "end_date": "2024-08-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Queensland Government statement announces Minister Grace Grace's appointment of Ms Terri Butler to the QIRC effective 8 January 2024. Wikipedia's infobox corroborates dates matching the record exactly."
+    }
   },
   {
     "pollie_slug": "kay-patterson",
@@ -50220,7 +50343,12 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.everyagecounts.org.au/meet_our_board"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "everyagecounts.org.au/meet_our_board lists 'Hon Dr Kay Patterson AO, Acting Chair'."
+    }
   },
   {
     "pollie_slug": "kay-patterson",
@@ -50229,7 +50357,12 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.uow.edu.au/alumni/honorary-alumni/honorary-doctorates/kay-patterson-ao/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UOW's honorary alumni bio states verbatim she serves 'as a Director of Every Age Counts, Patron for the Australian Institute for Intergenerational Practice'."
+    }
   },
   {
     "role": "Independent Director",
@@ -50239,7 +50372,12 @@
       "https://www.acmcrc.com/our-team",
       "https://tsbe.com.au/about/tsbe-board"
     ],
-    "pollie_slug": "ian-macfarlane"
+    "pollie_slug": "ian-macfarlane",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "acmcrc.com/our-team names Ian Macfarlane as Independent Director, matching this pollie's ministerial background."
+    }
   },
   {
     "role": "Interim Chair",
@@ -50249,7 +50387,12 @@
       "https://www.aieddcrc.com/teams",
       "https://tsbe.com.au/about/tsbe-board"
     ],
-    "pollie_slug": "ian-macfarlane"
+    "pollie_slug": "ian-macfarlane",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "aieddcrc.com/teams lists 'The Hon. Ian Macfarlane' as Interim Chair."
+    }
   },
   {
     "role": "Chair",
@@ -50259,7 +50402,12 @@
       "https://tsbe.com.au/about/tsbe-board",
       "https://www.indailyqld.com.au/news/just-in/2026/07/15/corporate-ladder-your-guide-to-executive-appointments-in-queensland-10"
     ],
-    "pollie_slug": "ian-macfarlane"
+    "pollie_slug": "ian-macfarlane",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "tsbe.com.au/about/tsbe-board states 'Ian Macfarlane is interim Chair of Toowoomba & Surat Basin Enterprise.' Corroborated by indailyqld.com.au (15 Jul 2026)."
+    }
   },
   {
     "role": "Member",
@@ -50268,18 +50416,30 @@
     "sources": [
       "https://www.qrc.org.au/qrc-chief-announces-plans-to-retire-from-role-by-end-of-2023/"
     ],
-    "pollie_slug": "ian-macfarlane"
+    "pollie_slug": "ian-macfarlane",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "qrc.org.au article states he 'will continue to serve on ... UQ's Rural Clinical School Toowoomba Community Advisory Committee' and confirms identity as longest-serving federal Resources and Energy Minister."
+    }
   },
   {
     "role": "Member, NSW Activism Leadership Committee",
     "organisation": "Amnesty International Australia",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.amnesty.org.au/wp-content/uploads/2024/05/Director-Candidate-Brief-2024.docx.pdf"
+      "https://www.amnesty.org.au/wp-content/uploads/2024/05/Director-Candidate-Brief-2024.docx.pdf",
+      "https://www.amnesty.org.au/wp-content/uploads/2025/02/Statement-Belinda-Neal-2025final2.pdf",
+      "https://www.newcastleherald.com.au/story/8740030/belinda-neal-among-high-profile-candidates-for-central-coast-council-elections/"
     ],
     "pollie_slug": "belinda-neal",
     "start_date": "2019-01-01",
-    "end_date": "2023-01-01"
+    "end_date": "2023-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "A first-person 'Statement of Belinda Neal, Democratically elected Amnesty Director' on amnesty.org.au states she 'was the longest serving member of the NSW ALC' before becoming Director in 2023, consistent with 2019-2023 dates. Identity corroborated by news coverage referring to her as 'Former Labor MP'."
+    }
   },
   {
     "role": "Chair",
@@ -50291,7 +50451,12 @@
     ],
     "pollie_slug": "nicola-roxon",
     "start_date": "2018-03",
-    "end_date": "2019-06"
+    "end_date": "2019-06",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Bupa's own media release confirms appointment as Bupa Australia chairman from March 2018; corroborated by the 2019 succession release naming her exit in June 2019."
+    }
   },
   {
     "role": "Interim Chair",
@@ -50303,7 +50468,12 @@
     ],
     "pollie_slug": "nicola-roxon",
     "start_date": "2023-09",
-    "end_date": "2024-06"
+    "end_date": "2024-06",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "theweeklysource.com.au confirms 'appointed Chair of the Super Members Council of Australia'; SMC's own release confirms the 'interim' qualifier and transition to Ann Sherry from July 2024."
+    }
   },
   {
     "role": "Director",
@@ -50314,7 +50484,12 @@
       "https://smcaustralia.com/media/ann-sherry-ao-to-chair-the-super-members-council-2/"
     ],
     "pollie_slug": "nicola-roxon",
-    "start_date": "2024-07"
+    "start_date": "2024-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "smcaustralia.com's own board page lists 'The Honourable Nicola Roxon' as a non-executive director from July 2024."
+    }
   },
   {
     "role": "Chair",
@@ -50326,7 +50501,12 @@
     ],
     "pollie_slug": "nicola-roxon",
     "start_date": "2015",
-    "end_date": "2018"
+    "end_date": "2018",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "VU's Cowen Centre succession announcement states 'Mahlab assumes the position from the Hon Nicola Roxon who served as Chair from 2015 to 2018.'"
+    }
   },
   {
     "role": "Chair",
@@ -50336,7 +50516,12 @@
       "https://arcc.org.au/news/arcc-appoints-first-chief-executive-officer/",
       "https://arcc.org.au/about/"
     ],
-    "pollie_slug": "karin-sowada"
+    "pollie_slug": "karin-sowada",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ARCC's own about page lists 'Dr Karin Sowada (Chair) ... former senator'. Corroborated by ARCC's news page quoting 'ARCC Committee Chair, Dr. Karin Sowada.'"
+    }
   },
   {
     "role": "Independent Chair",
@@ -50346,7 +50531,12 @@
       "https://wswanderersfc.com.au/news/hon-stephen-conroy-announced-as-independent-chair-of-the-australian-professional-leagues/"
     ],
     "pollie_slug": "stephen-conroy",
-    "start_date": "2023-09-26"
+    "start_date": "2023-09-26",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "wswanderersfc.com.au confirms 'the appointment of its inaugural Independent Chair, the Hon Stephen Conroy' (26 September 2023)."
+    }
   },
   {
     "role": "Independent Chair of Advisory Board",
@@ -50356,7 +50546,12 @@
       "https://www.cio.com/article/201453/stephen-conroy-joins-board-of-blockchain-startup.html"
     ],
     "pollie_slug": "stephen-conroy",
-    "start_date": "2019-12-18"
+    "start_date": "2019-12-18",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "cio.com confirms 'Stephen Conroy has joined ... Day By Day as the first independent chairman of its advisory board' (18 December 2019)."
+    }
   },
   {
     "role": "Director",
@@ -50364,9 +50559,15 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://www.maynereport.com/articles/2009/11/23-1615-6931.html",
-      "https://oa.anu.edu.au/obituary/anthony-john-douglas-doug-31361"
+      "https://oa.anu.edu.au/obituary/anthony-john-douglas-doug-31361",
+      "https://peopleaustralia.anu.edu.au/biography/anthony-john-douglas-doug-31361"
     ],
-    "pollie_slug": "john-anthony"
+    "pollie_slug": "john-anthony",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by oa.anu.edu.au obituary: 'stints on the boards of Clyde Agriculture and its successor, Swire Australia'; corroborated by The Mayne Report and ANU People Australia biography."
+    }
   },
   {
     "role": "Chair",
@@ -50384,7 +50585,12 @@
     "sources": [
       "https://www.aqualand.com.au/team/the-hon-warwick-smith-ao/"
     ],
-    "pollie_slug": "warwick-smith"
+    "pollie_slug": "warwick-smith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "aqualand.com.au team page lists him as 'Executive Chairman, Aqualand Group'."
+    }
   },
   {
     "role": "Chair",
@@ -50393,7 +50599,12 @@
     "sources": [
       "https://alcapital.com.au/about/team/"
     ],
-    "pollie_slug": "warwick-smith"
+    "pollie_slug": "warwick-smith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "alcapital.com.au team page states 'Warwick Smith is Chairman of AL Capital board'."
+    }
   },
   {
     "role": "Chair, Advisory Board",
@@ -50402,7 +50613,12 @@
     "sources": [
       "https://dragomanglobal.com/warwick-smith"
     ],
-    "pollie_slug": "warwick-smith"
+    "pollie_slug": "warwick-smith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "dragomanglobal.com/warwick-smith states 'Mr. Smith is Chairman, Advisory Board'."
+    }
   },
   {
     "role": "Chair, Advisory Board",
@@ -50411,16 +50627,27 @@
     "sources": [
       "https://www.uts.edu.au/research/centres/australia-china-relations-institute/about/advisory-board/warwick-smith"
     ],
-    "pollie_slug": "warwick-smith"
+    "pollie_slug": "warwick-smith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UTS:ACRI advisory board page states 'The Hon Warwick Smith AO is Chair of the Advisory Board'."
+    }
   },
   {
     "role": "Chair, Advisory Board",
     "organisation": "Australian Capital Equity",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.aald.org/advisory-board/warwick-smith/"
+      "https://www.aald.org/advisory-board/warwick-smith/",
+      "https://www.energystoragehub.org.au/warwick-smith"
     ],
-    "pollie_slug": "warwick-smith"
+    "pollie_slug": "warwick-smith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "AALD bio states 'Chairman of the Advisory Board at Australian Capital Equity'. Corroborated by energystoragehub.org.au bio."
+    }
   },
   {
     "role": "Director",
@@ -50430,7 +50657,12 @@
       "https://www.marinuslink.com.au/2022/08/marinus-link-pty-ltd-welcomes-new-board-appointments/"
     ],
     "pollie_slug": "warwick-smith",
-    "start_date": "2022-08-15"
+    "start_date": "2022-08-15",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "marinuslink.com.au board-appointments announcement (15 August 2022) lists 'The Hon Warwick Smith AO (Commonwealth nominee)'."
+    }
   },
   {
     "role": "Director",
@@ -50441,7 +50673,12 @@
     ],
     "pollie_slug": "warwick-smith",
     "start_date": "2017-05-17",
-    "end_date": "2022-03-31"
+    "end_date": "2022-03-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Estia Health's Appendix 4E identifies 'HON. WARWICK L SMITH AO' as director; appointment/resignation dates match record exactly."
+    }
   },
   {
     "role": "Chair",
@@ -50450,38 +50687,61 @@
     "sources": [
       "https://www.ords.com.au/about/leadership"
     ],
-    "pollie_slug": "warwick-smith"
+    "pollie_slug": "warwick-smith",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ords.com.au leadership page states 'Hon. Warwick Smith AO has been the Chairman at Ord Minnett since March 2020'."
+    }
   },
   {
     "role": "Administrator",
     "organisation": "South Gippsland Shire Council",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.premier.vic.gov.au/administrators-appointed-south-gippsland-shire"
+      "https://www.premier.vic.gov.au/administrators-appointed-south-gippsland-shire",
+      "https://en.wikipedia.org/wiki/Christian_Zahra"
     ],
     "pollie_slug": "christian-zahra",
     "start_date": "2019-07-24",
-    "end_date": "2021"
+    "end_date": "2021",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "premier.vic.gov.au confirms 'Mr Christian Zahra AM' appointed administrator, South Gippsland Shire Council, effective 24 July 2019 to the 2021 election."
+    }
   },
   {
     "role": "Administrator",
     "organisation": "City of Whittlesea",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://ncreview.com.au/2023/04/11/city-of-whittlesea-appoints-new-administrator/"
+      "https://ncreview.com.au/2023/04/11/city-of-whittlesea-appoints-new-administrator/",
+      "https://en.wikipedia.org/wiki/Christian_Zahra"
     ],
     "pollie_slug": "christian-zahra",
     "start_date": "2023-03",
-    "end_date": "2024-10"
+    "end_date": "2024-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia bio states he was appointed to the Whittlesea panel of administrators in 2023, serving through the October 2024 election, matching record dates."
+    }
   },
   {
     "role": "Chair",
     "organisation": "Regional Development Australia Fund Advisory Panel",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.thecourier.com.au/story/5462295/a-voice-championing-regional-australia/"
+      "https://www.thecourier.com.au/story/5462295/a-voice-championing-regional-australia/",
+      "https://en.wikipedia.org/wiki/Christian_Zahra"
     ],
-    "pollie_slug": "christian-zahra"
+    "pollie_slug": "christian-zahra",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Courier quotes Zahra directly: 'being the chairman of the Regional Development Advisory Fund'."
+    }
   },
   {
     "role": "Independent Monitor",
@@ -50490,7 +50750,13 @@
     "sources": [
       "https://rcrcconference.org/app/uploads/2022/06/15_CoD-2022_MoU-AOA_Ind-Monitor-progress-report-FINAL-EN.pdf"
     ],
-    "pollie_slug": "robert-tickner"
+    "pollie_slug": "robert-tickner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited PDF (Council of Delegates progress report) states: 'Robert Tickner, AO, was appointed in 2016 to continue the monitoring of the MDA-PRCS MoU and its sister agreement.'"
+    },
+    "start_date": "2016"
   },
   {
     "role": "Chair",
@@ -50502,7 +50768,12 @@
     ],
     "pollie_slug": "chris-puplick",
     "start_date": "1999",
-    "end_date": "2008"
+    "end_date": "2008",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography confirms 'Chair, AIDS Trust of Australia (1999-2008)' verbatim. Star Observer (2008) independently corroborates."
+    }
   },
   {
     "role": "Chair",
@@ -50513,7 +50784,12 @@
     ],
     "pollie_slug": "chris-puplick",
     "start_date": "1996",
-    "end_date": "2000"
+    "end_date": "2000",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography lists 'Chair, National Taskforce on Whaling (1996-2000)'."
+    }
   },
   {
     "role": "Director",
@@ -50524,7 +50800,12 @@
     ],
     "pollie_slug": "chris-puplick",
     "start_date": "1990",
-    "end_date": "2005"
+    "end_date": "2005",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography lists 'Board Member, Griffin Theatre Company (1990-2005)'."
+    }
   },
   {
     "role": "Chair",
@@ -50535,25 +50816,43 @@
     ],
     "pollie_slug": "chris-puplick",
     "start_date": "2003",
-    "end_date": "2008"
+    "end_date": "2008",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia states he was 'Chair of the Archive Forum (2003-2008)'."
+    }
   },
   {
     "role": "Senior Member",
     "organisation": "Administrative Appeals Tribunal",
     "category": "Legal & Judicial",
     "sources": [
-      "https://johnmenadue.com/chris-puplick-drug-reform-series-the-evidence-for-drug-policy-reform-is-clear/"
+      "https://johnmenadue.com/chris-puplick-drug-reform-series-the-evidence-for-drug-policy-reform-is-clear/",
+      "https://www.buzzfeed.com/joshtaylor/george-brandis-appointed-his-former-chief-of-staff-to-a"
     ],
-    "pollie_slug": "chris-puplick"
+    "pollie_slug": "chris-puplick",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "johnmenadue.com (Aug 2018) states he 'serves as a full time senior member of the Administrative Appeals Tribunal.' Corroborated by BuzzFeed News (1 Dec 2017)."
+    },
+    "start_date": "2017"
   },
   {
     "role": "Chair",
     "organisation": "Justice Health and Forensic Mental Health Network",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://johnmenadue.com/chris-puplick-drug-reform-series-the-evidence-for-drug-policy-reform-is-clear/"
+      "https://johnmenadue.com/chris-puplick-drug-reform-series-the-evidence-for-drug-policy-reform-is-clear/",
+      "https://www.harmreductionaustralia.org.au/chris-puplick/"
     ],
-    "pollie_slug": "chris-puplick"
+    "pollie_slug": "chris-puplick",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "johnmenadue.com states he is 'Chair of the Justice health and Forensic Mental health Network of NSW'. Corroborated by Harm Reduction Australia bio."
+    }
   },
   {
     "role": "Chair",
@@ -50563,6 +50862,11 @@
       "https://leefamilyoffice.com.au/about/",
       "https://www.capitalbrief.com/article/joe-hockey-is-now-the-chair-of-a-billionaire-casino-whales-family-office-32843126-bfa2-40a0-b247-c2ae55c70066/"
     ],
-    "pollie_slug": "joe-hockey"
+    "pollie_slug": "joe-hockey",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Lee Family Office's own About page lists 'Chairman The Hon Joe Hockey' among its leadership. Corroborated by Capital Brief reporting."
+    }
   }
 ]
