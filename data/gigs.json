@@ -50868,5 +50868,228 @@
       "by": "claude",
       "note": "The Lee Family Office's own About page lists 'Chairman The Hon Joe Hockey' among its leadership. Corroborated by Capital Brief reporting."
     }
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Peter Hendy Consulting",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.phcaustralia.com.au/people/hon-dr-peter-hendy/",
+      "https://www.phcaustralia.com.au/about-us/"
+    ],
+    "pollie_slug": "peter-hendy"
+  },
+  {
+    "role": "Co-Chair, International Advisory Board",
+    "organisation": "Global Centre for the Responsibility to Protect",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.globalr2p.org/resources/global-centre-international-advisory-board-co-chair-prof-the-hon-gareth-evans-interviewed-for-the-inside-geneva-podcast/"
+    ],
+    "pollie_slug": "gareth-evans"
+  },
+  {
+    "role": "Honorary Fellow",
+    "organisation": "Magdalen College, Oxford",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.magd.ox.ac.uk/people/the-hon-gareth-evans/"
+    ],
+    "pollie_slug": "gareth-evans"
+  },
+  {
+    "role": "Member, Supervisory Council",
+    "organisation": "International Luxembourg Forum on Preventing Nuclear Catastrophe",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "http://www.luxembourgforum.org/en/structure/evans-gareth/"
+    ],
+    "pollie_slug": "gareth-evans"
+  },
+  {
+    "role": "Distinguished Fellow",
+    "organisation": "Australia India Institute",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://aii.unimelb.edu.au/teams/prof-gareth-evans-qc-ac/"
+    ],
+    "pollie_slug": "gareth-evans"
+  },
+  {
+    "role": "Member, Advisory Council",
+    "organisation": "Independent Diplomat",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.independentdiplomat.org/about-us/board-and-advisory-council"
+    ],
+    "pollie_slug": "gareth-evans"
+  },
+  {
+    "role": "Honorary Professorial Fellow",
+    "organisation": "University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gareth_Evans_(politician)"
+    ],
+    "pollie_slug": "gareth-evans"
+  },
+  {
+    "role": "Member, Board of Sponsors",
+    "organisation": "Bulletin of the Atomic Scientists",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://thebulletin.org/biography/gareth-evans/",
+      "https://thebulletin.org/2015/05/bulletin-of-the-atomic-scientists-announces-new-additions-to-its-board-of-sponsors-and-governing-board-gareth-evans-and-david-wolf/"
+    ],
+    "pollie_slug": "gareth-evans"
+  },
+  {
+    "role": "Fellow",
+    "organisation": "Australia and New Zealand School of Government",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://anzsog.edu.au/about-us/contact-directory/david-kemp/"
+    ],
+    "pollie_slug": "david-kemp"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Australian Prudential Regulation Authority",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/deputy-chair-appointments-australian-prudential",
+      "https://thenightly.com.au/politics/kpmg-partner-and-former-labor-mp-david-bradbury-appointed-to-be-deputy-chair-of-banking-super-regulator-c-22525139",
+      "https://www.investmentmagazine.com.au/2026/07/apra-deputy-chair-appointment-sparks-political-backlash/"
+    ],
+    "start_date": "2026-09-01",
+    "pollie_slug": "david-bradbury"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Alliance for Forgotten Australians",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.morethanourchildhoods.org/stories/andrew-murray/"
+    ],
+    "pollie_slug": "andrew-murray"
+  },
+  {
+    "role": "Director",
+    "organisation": "Justice Reform Initiative",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.justicereforminitiative.org.au/our_team"
+    ],
+    "pollie_slug": "bob-debus"
+  },
+  {
+    "role": "Director",
+    "organisation": "Public Interest Advocacy Centre",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.lawsociety.com.au/sites/default/files/2019-07/2019_SpeakerBio_TheHonBDedus.pdf"
+    ],
+    "pollie_slug": "bob-debus"
+  },
+  {
+    "role": "Ambassador",
+    "organisation": "Just Reinvest NSW",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.lawsociety.com.au/sites/default/files/2019-07/2019_SpeakerBio_TheHonBDedus.pdf"
+    ],
+    "pollie_slug": "bob-debus"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Geospatial Council of Australia",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.unsw.edu.au/news/2023/12/kate-lundy-takes-reigns-as-gca-president",
+      "https://www.spatialsource.com.au/kate-lundy-takes-reigns-as-gca-president/"
+    ],
+    "start_date": "2023-12-05",
+    "pollie_slug": "kate-lundy"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "FrontierSI",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://frontiersi.com.au/frontiersi-welcomes-new-board-member-and-deputy-chair-kate-lundy/"
+    ],
+    "pollie_slug": "kate-lundy"
+  },
+  {
+    "role": "Distinguished Adviser",
+    "organisation": "National Security College, Australian National University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://nsc.anu.edu.au/people/hon-kate-lundy-honlittd-gaicd"
+    ],
+    "pollie_slug": "kate-lundy"
+  },
+  {
+    "role": "Honorary Associate Professor",
+    "organisation": "Australian National University Research School of Physics",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://nsc.anu.edu.au/people/hon-kate-lundy-honlittd-gaicd"
+    ],
+    "pollie_slug": "kate-lundy"
+  },
+  {
+    "role": "Advisory Board Chair",
+    "organisation": "Heavy Ion Accelerators",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://nsc.anu.edu.au/people/hon-kate-lundy-honlittd-gaicd"
+    ],
+    "pollie_slug": "kate-lundy"
+  },
+  {
+    "role": "Advisory Board Member",
+    "organisation": "Institute for Space, Australian National University",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://nsc.anu.edu.au/people/hon-kate-lundy-honlittd-gaicd"
+    ],
+    "pollie_slug": "kate-lundy"
+  },
+  {
+    "role": "ACT Defence Industry Adviser",
+    "organisation": "ACT Government",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://nsc.anu.edu.au/people/hon-kate-lundy-honlittd-gaicd"
+    ],
+    "pollie_slug": "kate-lundy"
+  },
+  {
+    "role": "Honorary Fellow",
+    "organisation": "Jesus College, Oxford",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.jesus.ox.ac.uk/about-jesus-college/our-community/people/the-hon-neal-blewett-ac-frhists/"
+    ],
+    "pollie_slug": "neal-blewett"
+  },
+  {
+    "role": "Life Governor",
+    "organisation": "Kirby Institute",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.abc.net.au/news/2014-07-16/poltical-rivals-honoured-for-joint-aids-work/5598392"
+    ],
+    "pollie_slug": "neal-blewett"
+  },
+  {
+    "role": "Director",
+    "organisation": "ID Consultancy",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://irinadunn.com.au/"
+    ],
+    "pollie_slug": "irina-dunn"
   }
 ]
