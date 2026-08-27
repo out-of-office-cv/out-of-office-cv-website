@@ -5351,8 +5351,8 @@
     "attempts": 1
   },
   "christopher-haviland|Branch Secretary|Hornsby Branch, Australian Labor Party|null": {
-    "last_examined_at": "2026-08-20T00:00:00.000Z",
-    "attempts": 1
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 2
   },
   "frederick-chaney|Vice-President|Graham (Polly) Farmer Foundation|1995-01-01": {
     "last_examined_at": "2026-08-20T00:00:00.000Z",
@@ -5391,16 +5391,16 @@
     "attempts": 1
   },
   "mark-arbib|Board Member|Packer Family Foundation|null": {
-    "last_examined_at": "2026-08-20T00:00:00.000Z",
-    "attempts": 1
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 2
   },
   "mark-arbib|Advisory Board Member|Precision Group|null": {
-    "last_examined_at": "2026-08-20T00:00:00.000Z",
-    "attempts": 1
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 2
   },
   "mark-arbib|Advisory Board Member|Prezzee|null": {
-    "last_examined_at": "2026-08-20T00:00:00.000Z",
-    "attempts": 1
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 2
   },
   "carmen-lawrence|Commissioner|AUKUS Public Inquiry|2026-06-02": {
     "last_examined_at": "2026-08-20T00:00:00.000Z",
@@ -5435,8 +5435,8 @@
     "attempts": 1
   },
   "ian-viner|President|Liberal Party of Western Australia|1991-01-01": {
-    "last_examined_at": "2026-08-20T00:00:00.000Z",
-    "attempts": 1
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 2
   },
   "stephen-smith|Chair|Perth USAsia Centre|null": {
     "last_examined_at": "2026-08-21T16:30:11.064Z",
@@ -6064,6 +6064,226 @@
   },
   "zed-seselja|Director|Campion College|2023-01-01": {
     "last_examined_at": "2026-08-27T00:00:00.000Z",
+    "attempts": 1
+  },
+  "robert-hill|Chair|Cooperative Research Centre for Low Carbon Living|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "robert-hill|Chair|NSW Biodiversity Conservation Trust|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "robert-hill|Chair|Antarctic Science Foundation|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "robert-hill|Governor|WWF Australia|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "robert-hill|Asia Pacific Board Member|The Nature Conservancy|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "robert-hill|Council Member|Australian Strategic Policy Institute|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "robert-hill|Chair|Viva Energy Group|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "robert-hill|Chair, Advisory Board|Global Change Institute, University of Queensland|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "robert-hill|President|United Nations Association of Australia|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "robert-hill|Deputy Chair|International Democratic Union|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "robert-hill|Non-Executive Director|Rheinmetall Defence Australia|2016-06-28": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "robert-hill|Director|Climateworks Australia|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "robert-hill|Director|North Harbour Clean Energy|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "robert-hill|Advisory Board Member|United Against Nuclear Iran|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "robert-hill|Member, First Principles Review Oversight Board|Australian Defence Force|2015-05-11": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "warwick-smith|Executive Chair|Aqualand Group|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "warwick-smith|Chair|AL Capital|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "warwick-smith|Chair, Advisory Board|Dragoman Global|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "warwick-smith|Chair, Advisory Board|Australia-China Relations Institute (UTS:ACRI)|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "warwick-smith|Chair, Advisory Board|Australian Capital Equity|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "warwick-smith|Director|Marinus Link Pty Ltd|2022-08-15": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "warwick-smith|Director|Estia Health Limited|2017-05-17": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "warwick-smith|Chair|Ord Minnett|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "chris-puplick|Chair|AIDS Trust of Australia|1999": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "chris-puplick|Chair|National Taskforce on Whaling|1996": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "chris-puplick|Director|Griffin Theatre Company|1990": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "chris-puplick|Chair|Archive Forum|2003": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "chris-puplick|Senior Member|Administrative Appeals Tribunal|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "chris-puplick|Chair|Justice Health and Forensic Mental Health Network|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "ian-macfarlane|Independent Director|Australian Composites Manufacturing Cooperative Research Centre|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "ian-macfarlane|Interim Chair|AI-Enhanced Drug Discovery Cooperative Research Centre|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "ian-macfarlane|Chair|Toowoomba & Surat Basin Enterprise|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "ian-macfarlane|Member|UQ Rural Clinical School Toowoomba Community Advisory Committee|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "nicola-roxon|Chair|Bupa Australia & New Zealand|2018-03": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "nicola-roxon|Interim Chair|Super Members Council of Australia|2023-09": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "nicola-roxon|Director|Super Members Council of Australia|2024-07": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "nicola-roxon|Chair|Sir Zelman Cowen Centre, Victoria University|2015": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "christian-zahra|Administrator|South Gippsland Shire Council|2019-07-24": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "christian-zahra|Administrator|City of Whittlesea|2023-03": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "christian-zahra|Chair|Regional Development Australia Fund Advisory Panel|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "john-anthony|Director|Swire Australia|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "john-anthony|Chair|Pan Australia Mining|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "kay-patterson|Acting Chair|EveryAGE Counts|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "kay-patterson|Patron|Australian Institute for Intergenerational Practice|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "nick-minchin|Patron|Australians for Constitutional Monarchy|2011-08-09": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "nick-minchin|National Council Member|Australians for Constitutional Monarchy|2011-08-09": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "stephen-conroy|Independent Chair|Australian Professional Leagues|2023-09-26": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "stephen-conroy|Independent Chair of Advisory Board|Day By Day|2019-12-18": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "belinda-neal|Member, NSW Activism Leadership Committee|Amnesty International Australia|2019-01-01": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "gary-humphries|Columnist|The Canberra Times|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "joe-hockey|Chair|Lee Family Office|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "karin-sowada|Chair|Australian Racing Christian Chaplaincy|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "lisa-singh|Fellow|Australian Institute of International Affairs|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "robert-tickner|Independent Monitor|International Red Cross and Red Crescent Movement|null": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "terri-butler|Commissioner|Queensland Industrial Relations Commission|2024-01-08": {
+    "last_examined_at": "2026-08-28T00:00:00.000Z",
     "attempts": 1
   }
 }
