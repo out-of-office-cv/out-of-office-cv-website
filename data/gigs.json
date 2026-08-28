@@ -50047,7 +50047,12 @@
     "category": "Financial Services and Banking",
     "sources": [
       "https://smcaustralia.com/about-us/our-board/"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "smcaustralia.com/about-us/our-board/ (the organisation's own board page) lists 'The Hon. Wayne Swan — Director' and notes he is also Chair of Cbus Super."
+    }
   },
   {
     "pollie_slug": "robert-hill",
@@ -50877,7 +50882,12 @@
       "https://www.phcaustralia.com.au/people/hon-dr-peter-hendy/",
       "https://www.phcaustralia.com.au/about-us/"
     ],
-    "pollie_slug": "peter-hendy"
+    "pollie_slug": "peter-hendy",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "phcaustralia.com.au identifies him as 'The Hon. Dr Peter Hendy', 'The former Federal Member for Eden Monaro (2013-2016)', and lists his title as 'Chief Executive Officer, Peter Hendy Consulting'."
+    }
   },
   {
     "role": "Co-Chair, International Advisory Board",
@@ -50886,7 +50896,12 @@
     "sources": [
       "https://www.globalr2p.org/resources/global-centre-international-advisory-board-co-chair-prof-the-hon-gareth-evans-interviewed-for-the-inside-geneva-podcast/"
     ],
-    "pollie_slug": "gareth-evans"
+    "pollie_slug": "gareth-evans",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "globalr2p.org confirms: \"Global Centre International Advisory Board co-Chair, Professor the Honourable Gareth Evans\" — matches role and organisation exactly."
+    }
   },
   {
     "role": "Honorary Fellow",
@@ -50895,7 +50910,12 @@
     "sources": [
       "https://www.magd.ox.ac.uk/people/the-hon-gareth-evans/"
     ],
-    "pollie_slug": "gareth-evans"
+    "pollie_slug": "gareth-evans",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "magd.ox.ac.uk official college page lists him with \"College appointment: Honorary Fellow\"."
+    }
   },
   {
     "role": "Member, Supervisory Council",
@@ -50904,7 +50924,12 @@
     "sources": [
       "http://www.luxembourgforum.org/en/structure/evans-gareth/"
     ],
-    "pollie_slug": "gareth-evans"
+    "pollie_slug": "gareth-evans",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "luxembourgforum.org states \"He is a member of the Supervisory Council of the Luxembourg Forum on Preventing Nuclear Catastrophe,\" with bio confirming ANU Chancellor and Foreign Minister 1988-96."
+    }
   },
   {
     "role": "Distinguished Fellow",
@@ -50913,7 +50938,12 @@
     "sources": [
       "https://aii.unimelb.edu.au/teams/prof-gareth-evans-qc-ac/"
     ],
-    "pollie_slug": "gareth-evans"
+    "pollie_slug": "gareth-evans",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "aii.unimelb.edu.au lists \"Distinguished Fellow\" with bio confirming Foreign Minister 1988-96 and ANU Chancellor 2010-2019."
+    }
   },
   {
     "role": "Member, Advisory Council",
@@ -50922,16 +50952,27 @@
     "sources": [
       "https://www.independentdiplomat.org/about-us/board-and-advisory-council"
     ],
-    "pollie_slug": "gareth-evans"
+    "pollie_slug": "gareth-evans",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "independentdiplomat.org Advisory Council page lists Gareth Evans with bio confirming former Foreign Minister of Australia (1988-96)."
+    }
   },
   {
     "role": "Honorary Professorial Fellow",
     "organisation": "University of Melbourne",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://en.wikipedia.org/wiki/Gareth_Evans_(politician)"
+      "https://en.wikipedia.org/wiki/Gareth_Evans_(politician)",
+      "https://www.independentdiplomat.org/about-us/board-and-advisory-council"
     ],
-    "pollie_slug": "gareth-evans"
+    "pollie_slug": "gareth-evans",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia states he \"returned to academic life as an honorary professorial fellow ... in the School of Social and Political Sciences at the University of Melbourne.\" Corroborated by independentdiplomat.org bio line \"Honorary Professorial Fellow at the University of Melbourne\"."
+    }
   },
   {
     "role": "Member, Board of Sponsors",
@@ -50941,7 +50982,12 @@
       "https://thebulletin.org/biography/gareth-evans/",
       "https://thebulletin.org/2015/05/bulletin-of-the-atomic-scientists-announces-new-additions-to-its-board-of-sponsors-and-governing-board-gareth-evans-and-david-wolf/"
     ],
-    "pollie_slug": "gareth-evans"
+    "pollie_slug": "gareth-evans",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "thebulletin.org biography page lists \"Member, Board of Sponsors\"; the 2015 announcement article confirms \"the Honorable Gareth Evans, Chancellor of Australian National University, will join the Board of Sponsors.\""
+    }
   },
   {
     "role": "Fellow",
@@ -50950,7 +50996,12 @@
     "sources": [
       "https://anzsog.edu.au/about-us/contact-directory/david-kemp/"
     ],
-    "pollie_slug": "david-kemp"
+    "pollie_slug": "david-kemp",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ANZSOG's own contact-directory page states: \"David Kemp AC is a Fellow with the Australia and New Zealand School of Government, and an independent consultant on government and public affairs.\" Bio matches this pollie (LIB, Goldstein)."
+    }
   },
   {
     "role": "Deputy Chair",
@@ -50962,7 +51013,12 @@
       "https://www.investmentmagazine.com.au/2026/07/apra-deputy-chair-appointment-sparks-political-backlash/"
     ],
     "start_date": "2026-09-01",
-    "pollie_slug": "david-bradbury"
+    "pollie_slug": "david-bradbury",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ministers.treasury.gov.au release: 'the Hon David Bradbury be appointed as Deputy Chair of the Australian Prudential Regulation Authority (APRA)' commencing 1 September 2026. Corroborated by thenightly.com.au and investmentmagazine.com.au."
+    }
   },
   {
     "role": "Patron",
@@ -50971,7 +51027,12 @@
     "sources": [
       "https://www.morethanourchildhoods.org/stories/andrew-murray/"
     ],
-    "pollie_slug": "andrew-murray"
+    "pollie_slug": "andrew-murray",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "morethanourchildhoods.org/stories/andrew-murray/ names former WA Senator Andrew Murray specifically (former child migrant who launched AFA in 2007, later a Commissioner on the Royal Commission into Institutional Responses to Child Sexual Abuse 2013-2017) and states 'Murray served as Patron of both CLAN and AFA', later noting he 'resigned as Patron of CLAN and AFA to avoid the perception of a conflict of interest' upon his Royal Commission appointment."
+    }
   },
   {
     "role": "Director",
@@ -50980,7 +51041,12 @@
     "sources": [
       "https://www.justicereforminitiative.org.au/our_team"
     ],
-    "pollie_slug": "bob-debus"
+    "pollie_slug": "bob-debus",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Justice Reform Initiative's own 'Our Team' page lists 'Bob Debus AM' under Board Members, bio: 'Former NSW Attorney General and former Federal Minister for Home Affairs' — matches this pollie exactly."
+    }
   },
   {
     "role": "Director",
@@ -50989,7 +51055,12 @@
     "sources": [
       "https://www.lawsociety.com.au/sites/default/files/2019-07/2019_SpeakerBio_TheHonBDedus.pdf"
     ],
-    "pollie_slug": "bob-debus"
+    "pollie_slug": "bob-debus",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Law Society 2019 speaker bio PDF for 'The Honourable Bob Debus AM' states he 'is... a board member of the Public Interest Advocacy Centre'; bio's career history uniquely identifies this pollie."
+    }
   },
   {
     "role": "Ambassador",
@@ -50998,7 +51069,12 @@
     "sources": [
       "https://www.lawsociety.com.au/sites/default/files/2019-07/2019_SpeakerBio_TheHonBDedus.pdf"
     ],
-    "pollie_slug": "bob-debus"
+    "pollie_slug": "bob-debus",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same Law Society speaker bio PDF states Bob Debus 'is... an ambassador for the non government organisation Just Reinvest, which seeks to establish community solutions for the reduction of Aboriginal incarceration in New South Wales'."
+    }
   },
   {
     "role": "Chair",
@@ -51009,7 +51085,12 @@
       "https://www.spatialsource.com.au/kate-lundy-takes-reigns-as-gca-president/"
     ],
     "start_date": "2023-12-05",
-    "pollie_slug": "kate-lundy"
+    "pollie_slug": "kate-lundy",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UNSW news and Spatial Source confirm the Hon Kate Lundy was elected Chair/President of the Geospatial Council of Australia at its board meeting on 5 December 2023, matching the recorded start_date."
+    }
   },
   {
     "role": "Deputy Chair",
@@ -51018,7 +51099,13 @@
     "sources": [
       "https://frontiersi.com.au/frontiersi-welcomes-new-board-member-and-deputy-chair-kate-lundy/"
     ],
-    "pollie_slug": "kate-lundy"
+    "pollie_slug": "kate-lundy",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "FrontierSI's own press release confirms 'the Honourable Kate Lundy's appointment as a Director and Deputy Chair of FrontierSI's Governing Board', officially joining in January 2024."
+    },
+    "start_date": "2024-01-01"
   },
   {
     "role": "Distinguished Adviser",
@@ -51027,7 +51114,12 @@
     "sources": [
       "https://nsc.anu.edu.au/people/hon-kate-lundy-honlittd-gaicd"
     ],
-    "pollie_slug": "kate-lundy"
+    "pollie_slug": "kate-lundy",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ANU National Security College bio page states directly: 'Distinguished Adviser at the National Security College, ANU'."
+    }
   },
   {
     "role": "Honorary Associate Professor",
@@ -51036,7 +51128,12 @@
     "sources": [
       "https://nsc.anu.edu.au/people/hon-kate-lundy-honlittd-gaicd"
     ],
-    "pollie_slug": "kate-lundy"
+    "pollie_slug": "kate-lundy",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same NSC/ANU bio page states: 'Honorary Associate Professor at the ANU Research School of Physics'."
+    }
   },
   {
     "role": "Advisory Board Chair",
@@ -51045,7 +51142,12 @@
     "sources": [
       "https://nsc.anu.edu.au/people/hon-kate-lundy-honlittd-gaicd"
     ],
-    "pollie_slug": "kate-lundy"
+    "pollie_slug": "kate-lundy",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same NSC/ANU bio page states: 'Advisory Board Chair of Heavy Ion Accelerators (HIA), which are NCRIS supported facilities at ANU and UoM'."
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -51054,16 +51156,29 @@
     "sources": [
       "https://nsc.anu.edu.au/people/hon-kate-lundy-honlittd-gaicd"
     ],
-    "pollie_slug": "kate-lundy"
+    "pollie_slug": "kate-lundy",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same NSC/ANU bio page states she is 'member of advisory board of the Institute for Space at ANU'."
+    }
   },
   {
     "role": "ACT Defence Industry Adviser",
     "organisation": "ACT Government",
     "category": "Defence & Military and Security",
     "sources": [
-      "https://nsc.anu.edu.au/people/hon-kate-lundy-honlittd-gaicd"
+      "https://nsc.anu.edu.au/people/hon-kate-lundy-honlittd-gaicd",
+      "https://www.defenceconnect.com.au/joint-capabilities/439-act-looks-to-grow-local-economy-and-defence-industry"
     ],
-    "pollie_slug": "kate-lundy"
+    "pollie_slug": "kate-lundy",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "NSC/ANU bio states 'Between 2017 and 2023, Kate was the ACT Defence Industry Adviser...'. Corroborated by Defence Connect listing her on the ACT Defence Industry Advisory Board."
+    },
+    "start_date": "2017-01-01",
+    "end_date": "2023-12-31"
   },
   {
     "role": "Honorary Fellow",
@@ -51072,7 +51187,12 @@
     "sources": [
       "https://www.jesus.ox.ac.uk/about-jesus-college/our-community/people/the-hon-neal-blewett-ac-frhists/"
     ],
-    "pollie_slug": "neal-blewett"
+    "pollie_slug": "neal-blewett",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Jesus College Oxford's official page confirms this is the former MP for Bonython (1977-1994) and Health Minister (1983-1991), and states 'He was appointed an Honorary Fellow of Jesus College Oxford in 1998.'"
+    }
   },
   {
     "role": "Life Governor",
@@ -51081,7 +51201,12 @@
     "sources": [
       "https://www.abc.net.au/news/2014-07-16/poltical-rivals-honoured-for-joint-aids-work/5598392"
     ],
-    "pollie_slug": "neal-blewett"
+    "pollie_slug": "neal-blewett",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ABC News (16 Jul 2014): 'Former Labor health minister Neal Blewett and his then Liberal counterpart, Dr Peter Baume, will be presented with life governorships of the Kirby Institute.'"
+    }
   },
   {
     "role": "Director",
@@ -51090,7 +51215,12 @@
     "sources": [
       "https://irinadunn.com.au/"
     ],
-    "pollie_slug": "irina-dunn"
+    "pollie_slug": "irina-dunn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Her own official biography page (irinadunn.com.au) states: 'She is Director of ID Consultancy, which provides teaching and educational resources for migrants and refugees.'"
+    }
   },
   {
     "role": "Chair",
@@ -51103,7 +51233,12 @@
       "url": "https://www.abc.net.au/news/2013-07-08/cameron-replacing-the-harbour-bridge/4806114",
       "quote": "Chairman of Towncars.com and AspireSydney infrastructure consortium (in which he has a financial interest)."
     },
-    "pollie_slug": "ross-cameron"
+    "pollie_slug": "ross-cameron",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ABC News (2013-07-08) identifies him as 'Ross Cameron ... a former federal MP and Macquarie Banker, now Chairman of Towncars.com and AspireSydney infrastructure consortium.'"
+    }
   },
   {
     "role": "Chair",
@@ -51116,7 +51251,12 @@
       "url": "https://www.abc.net.au/news/2013-07-08/cameron-replacing-the-harbour-bridge/4806114",
       "quote": "Chairman of Towncars.com and AspireSydney infrastructure consortium (in which he has a financial interest)."
     },
-    "pollie_slug": "ross-cameron"
+    "pollie_slug": "ross-cameron",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same ABC News article confirms he is 'Chairman of Towncars.com and AspireSydney infrastructure consortium.'"
+    }
   },
   {
     "role": "Deputy Chair",
@@ -51129,7 +51269,12 @@
       "url": "https://www.maynereport.com/articles/2009/11/23-1615-6931.html",
       "quote": "the former Federal Minister of Transport and Primary Industry was the first chair of Southern Cross Broadcasting in the 1990s and also a former deputy chairman of Bob Ansett's failed Budget Corp."
     },
-    "pollie_slug": "peter-nixon"
+    "pollie_slug": "peter-nixon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "maynereport.com names 'Peter Nixon' as 'the former Federal Minister of Transport and Primary Industry' who was 'a former deputy chairman of Bob Ansett's failed Budget Corp.'"
+    }
   },
   {
     "role": "Chair",
@@ -51142,7 +51287,12 @@
       "url": "https://www.bridgetmckenzie.com.au/speeches/the-hon-peter-james-nixon-ao-condolence-motion/",
       "quote": "The list of organisations he was involved in is too many to mention, but ranged from a landmark report into the Tasmanian economy to the chair of the Victorian high-speed train committee."
     },
-    "pollie_slug": "peter-nixon"
+    "pollie_slug": "peter-nixon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senator Bridget McKenzie's condolence motion confirms Peter James Nixon AO was 'the dedicated member for Gippsland' 1961-1983 and states his post-career roles 'ranged from a landmark report into the Tasmanian economy to the chair of the Victorian high-speed train committee.'"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -51156,7 +51306,12 @@
       "quote": "DBG Health has appointed former Federal Minister for Health and Aged Care, Prof Greg Hunt, to its Board as a non-executive director."
     },
     "start_date": "2026-08-12",
-    "pollie_slug": "greg-hunt"
+    "pollie_slug": "greg-hunt",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Pharmacy Daily: 'DBG Health has appointed former Federal Minister for Health and Aged Care, Prof Greg Hunt, to its Board as a non-executive director.' Corroborated by BioPharmaDispatch."
+    }
   },
   {
     "role": "Distinguished Fellow",
@@ -51170,7 +51325,12 @@
       "quote": "The GFCC is pleased to announce that Prof. Greg Hunt has joined our esteemed group of Distinguished Fellows."
     },
     "start_date": "2024-10-14",
-    "pollie_slug": "greg-hunt"
+    "pollie_slug": "greg-hunt",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "GFCC page: 'The GFCC is pleased to announce that Prof. Greg Hunt has joined our esteemed group of Distinguished Fellows,' identifying him as former Australian Minister for Health, Environment and Innovation."
+    }
   },
   {
     "role": "Executive Director",
@@ -51184,22 +51344,33 @@
       "quote": "The Motor Trades Association of Australia (MTAA) today announced the appointment of the Hon Bruce Billson as its new Executive Director, effective today."
     },
     "start_date": "2026-07-01",
-    "pollie_slug": "bruce-billson"
+    "pollie_slug": "bruce-billson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "MTAA's own news release confirms: 'The Motor Trades Association of Australia (MTAA) today announced the appointment of the Hon Bruce Billson as its new Executive Director, effective today,' dated 1 July 2026, matching the recorded start_date."
+    }
   },
   {
     "role": "Chair",
     "organisation": "Australian Property Institute",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://ceoinstitute.com/bruce-billson"
+      "https://ceoinstitute.com/bruce-billson",
+      "https://www.api.org.au/about/annual-reports/2020-annual-report/"
     ],
     "role_evidence": {
       "url": "https://ceoinstitute.com/bruce-billson",
       "quote": "Independent Director/Chair, Australian Property Institute (2016 - 2021)"
     },
-    "start_date": "2016-01-01",
+    "start_date": "2019-11-01",
     "end_date": "2021-12-31",
-    "pollie_slug": "bruce-billson"
+    "pollie_slug": "bruce-billson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Australian Property Institute's own 2020 Annual Report lists 'Hon. Bruce Billson' as 'Independent Director (API Chair)'. Corroborated by Property Council Australia coverage of his appointment effective 29 April 2019 and becoming independent chair around November 2019. Corrected start_date from 2016-01-01 (implausible, predates his API board appointment) to 2019-11-01."
+    }
   },
   {
     "role": "Independent Director",
@@ -51229,7 +51400,12 @@
     },
     "start_date": "2020-01-01",
     "end_date": "2021-12-31",
-    "pollie_slug": "bruce-billson"
+    "pollie_slug": "bruce-billson",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "Whittlesea Council's own records and independent news coverage confirm Bruce Billson served on the City of Whittlesea's Panel of Administrators from 19 June 2020 to March 2021, with the official title 'Administrator' (per the Local Government (Whittlesea City Council) Act 2020), not 'Commissioner'. Since role/title cannot be edited, rejecting rather than silently correcting."
+    }
   },
   {
     "role": "Advisory Council Member",
@@ -51272,7 +51448,13 @@
       "url": "https://www.suncorp.co.nz/about/board-of-directors/lindsay-tanner.html",
       "quote": "Non-Executive director, Lindsay Tanner, joined the Vero Insurance New Zealand Limited and Vero Liability Insurance Limited Board in March 2023."
     },
-    "pollie_slug": "lindsay-tanner"
+    "pollie_slug": "lindsay-tanner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "suncorp.co.nz board page: 'Non-Executive director, Lindsay Tanner, joined the Vero Insurance New Zealand Limited and Vero Liability Insurance Limited Board in March 2023.'"
+    },
+    "start_date": "2023-03-01"
   },
   {
     "role": "Advisor",
@@ -51285,7 +51467,12 @@
       "url": "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner",
       "quote": "Lindsay Tanner is a former member of the Australian Government as Minister for Finance from 2007 to 2010 and currently serves as Director of the Suncorp Group, Virgin Australia International and the Future Skills Organisation, Chair of AFL Victoria and Advisor for Gane Energy & Resources Pty Ltd."
     },
-    "pollie_slug": "lindsay-tanner"
+    "pollie_slug": "lindsay-tanner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ifminvestors.com bio lists Tanner as currently 'Advisor for Gane Energy & Resources Pty Ltd'."
+    }
   },
   {
     "role": "Chair",
@@ -51298,7 +51485,12 @@
       "url": "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner",
       "quote": "Lindsay has previously served as Chair of the Mitchell Institute for Health and Education Research, Australasian Railway Association, Certane Group and Essendon Football Club."
     },
-    "pollie_slug": "lindsay-tanner"
+    "pollie_slug": "lindsay-tanner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ifminvestors.com bio: 'Lindsay has previously served as Chair of the Mitchell Institute for Health and Education Research, Australasian Railway Association, Certane Group and Essendon Football Club.'"
+    }
   },
   {
     "role": "Chair",
@@ -51311,7 +51503,12 @@
       "url": "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner",
       "quote": "Lindsay has previously served as Chair of the Mitchell Institute for Health and Education Research, Australasian Railway Association, Certane Group and Essendon Football Club."
     },
-    "pollie_slug": "lindsay-tanner"
+    "pollie_slug": "lindsay-tanner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same ifminvestors.com sentence as gig 2 confirms Chair of Australasian Railway Association."
+    }
   },
   {
     "role": "Chair",
@@ -51324,7 +51521,12 @@
       "url": "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner",
       "quote": "Lindsay has previously served as Chair of the Mitchell Institute for Health and Education Research, Australasian Railway Association, Certane Group and Essendon Football Club."
     },
-    "pollie_slug": "lindsay-tanner"
+    "pollie_slug": "lindsay-tanner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same ifminvestors.com sentence as gig 2 confirms Chair of Certane Group."
+    }
   },
   {
     "role": "Director",
@@ -51337,7 +51539,12 @@
       "url": "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner",
       "quote": "He has also served as Director of National Financial Solutions Pty Ltd and Covata Ltd, as well as Member of the Department of Defence First Principles Review and Australian Advisory Board to Canada Steamships Ltd."
     },
-    "pollie_slug": "lindsay-tanner"
+    "pollie_slug": "lindsay-tanner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ifminvestors.com bio: 'He has also served as Director of National Financial Solutions Pty Ltd and Covata Ltd...'."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -51351,7 +51558,12 @@
       "quote": "Covata is pleased to announce the appointments of Mr David Irvine and Mr Lindsay Tanner as independent Non-Executive Directors to its Board."
     },
     "start_date": "2017-01-01",
-    "pollie_slug": "lindsay-tanner"
+    "pollie_slug": "lindsay-tanner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Press release text (reproduced via web search after 403 on direct fetch): 'Covata announced the appointments of Mr David Irvine and Mr Lindsay Tanner as independent Non-Executive Directors to its Board' (21 Dec 2016). Corroborated by ifminvestors.com bio."
+    }
   },
   {
     "role": "Member",
@@ -51364,7 +51576,12 @@
       "url": "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner",
       "quote": "He has also served as Director of National Financial Solutions Pty Ltd and Covata Ltd, as well as Member of the Department of Defence First Principles Review and Australian Advisory Board to Canada Steamships Ltd."
     },
-    "pollie_slug": "lindsay-tanner"
+    "pollie_slug": "lindsay-tanner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ifminvestors.com bio: '...Member of the Department of Defence First Principles Review...'."
+    }
   },
   {
     "role": "Member, Australian Advisory Board",
@@ -51377,7 +51594,12 @@
       "url": "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner",
       "quote": "He has also served as Director of National Financial Solutions Pty Ltd and Covata Ltd, as well as Member of the Department of Defence First Principles Review and Australian Advisory Board to Canada Steamships Ltd."
     },
-    "pollie_slug": "lindsay-tanner"
+    "pollie_slug": "lindsay-tanner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ifminvestors.com bio: '...Australian Advisory Board to Canada Steamships Ltd.'"
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -51390,7 +51612,12 @@
       "url": "https://australianfintech.com.au/robo-adviser-six-park-launches-brian-watson-lindsay-tanner-paul-costello-advisory-board/",
       "quote": "Six Park's team includes former Federal Finance Minister Lindsay Tanner, founding chief of the Future Fund Paul Costello and Six Park co-founder and former J.P. Morgan Australia Chairman Brian Watson on the company's Advisory Board."
     },
-    "pollie_slug": "lindsay-tanner"
+    "pollie_slug": "lindsay-tanner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Web search reproduced article text: 'Six Park's team includes former Federal Finance Minister Lindsay Tanner ... on the company's Advisory Board.' Corroborated by moneymanagement.com.au."
+    }
   },
   {
     "role": "Fellow",
@@ -51403,20 +51630,31 @@
       "url": "https://www.internationalaffairs.org.au/australianoutlook/russell-trood-a-voice-for-the-national-interest/",
       "quote": "Russell was elected a Fellow of the Australian Institute of International Affairs in 2016, in recognition of his outstanding contribution to the study and practice of Australian international affairs."
     },
-    "pollie_slug": "russell-trood"
+    "pollie_slug": "russell-trood",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "AIIA's own publication, Australian Outlook: 'Russell was elected a Fellow of the Australian Institute of International Affairs in 2016, in recognition of his outstanding contribution to the study and practice of Australian international affairs.'"
+    }
   },
   {
     "role": "Corporate Council Member",
     "organisation": "European Australian Business Council",
     "category": "Diplomacy & International Relations",
     "sources": [
-      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/kelly-odwyer.html"
+      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/kelly-odwyer.html",
+      "https://eabc.com.au/about/corporate-council-members/"
     ],
     "role_evidence": {
       "url": "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/kelly-odwyer.html",
       "quote": "Kelly is a Corporate Council Member of the European Australian Business Council, a member of the School Council at Caulfield Grammar School and served as a member of the Hospice Rebuild Capital Fundraising Committee for Very Special Kids."
     },
-    "pollie_slug": "kelly-odwyer"
+    "pollie_slug": "kelly-odwyer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "AICD author/speaker bio states 'Kelly is a Corporate Council Member of the European Australian Business Council.' Confirmed by EABC's own official Corporate Council Members page."
+    }
   },
   {
     "role": "Assistant Director Research (Security and Political Engagement)",
@@ -51429,6 +51667,11 @@
       "url": "https://www.lowyinstitute.org/people/contributor/bio/john-langmore",
       "quote": "Professor John Langmore is the Assistant Director Research (Security and Political Engagement) in the Melbourne School of Government."
     },
-    "pollie_slug": "john-langmore"
+    "pollie_slug": "john-langmore",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Lowy Institute bio confirms he was elected to Parliament in 1984 representing Fraser, retired 1996 (matches pollie record), then states 'Professor John Langmore is the Assistant Director Research (Security and Political Engagement) at the Melbourne School of Government.'"
+    }
   }
 ]
