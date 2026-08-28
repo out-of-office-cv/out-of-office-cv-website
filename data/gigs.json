@@ -51091,5 +51091,344 @@
       "https://irinadunn.com.au/"
     ],
     "pollie_slug": "irina-dunn"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Towncars.com",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.abc.net.au/news/2013-07-08/cameron-replacing-the-harbour-bridge/4806114"
+    ],
+    "role_evidence": {
+      "url": "https://www.abc.net.au/news/2013-07-08/cameron-replacing-the-harbour-bridge/4806114",
+      "quote": "Chairman of Towncars.com and AspireSydney infrastructure consortium (in which he has a financial interest)."
+    },
+    "pollie_slug": "ross-cameron"
+  },
+  {
+    "role": "Chair",
+    "organisation": "AspireSydney",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.abc.net.au/news/2013-07-08/cameron-replacing-the-harbour-bridge/4806114"
+    ],
+    "role_evidence": {
+      "url": "https://www.abc.net.au/news/2013-07-08/cameron-replacing-the-harbour-bridge/4806114",
+      "quote": "Chairman of Towncars.com and AspireSydney infrastructure consortium (in which he has a financial interest)."
+    },
+    "pollie_slug": "ross-cameron"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Budget Corp",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://www.maynereport.com/articles/2009/11/23-1615-6931.html"
+    ],
+    "role_evidence": {
+      "url": "https://www.maynereport.com/articles/2009/11/23-1615-6931.html",
+      "quote": "the former Federal Minister of Transport and Primary Industry was the first chair of Southern Cross Broadcasting in the 1990s and also a former deputy chairman of Bob Ansett's failed Budget Corp."
+    },
+    "pollie_slug": "peter-nixon"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Victorian High-Speed Train Committee",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.bridgetmckenzie.com.au/speeches/the-hon-peter-james-nixon-ao-condolence-motion/"
+    ],
+    "role_evidence": {
+      "url": "https://www.bridgetmckenzie.com.au/speeches/the-hon-peter-james-nixon-ao-condolence-motion/",
+      "quote": "The list of organisations he was involved in is too many to mention, but ranged from a landmark report into the Tasmanian economy to the chair of the Victorian high-speed train committee."
+    },
+    "pollie_slug": "peter-nixon"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "DBG Health",
+    "category": "Pharmaceutical & Biotechnology",
+    "sources": [
+      "https://pharmacydaily.com.au/news/greg-hunt-joins-dbg-board/121978"
+    ],
+    "role_evidence": {
+      "url": "https://pharmacydaily.com.au/news/greg-hunt-joins-dbg-board/121978",
+      "quote": "DBG Health has appointed former Federal Minister for Health and Aged Care, Prof Greg Hunt, to its Board as a non-executive director."
+    },
+    "start_date": "2026-08-12",
+    "pollie_slug": "greg-hunt"
+  },
+  {
+    "role": "Distinguished Fellow",
+    "organisation": "Global Federation of Competitiveness Councils",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.thegfcc.org/post/former-australian-minister-greg-hunt-becomes-a-distinguished-fellow"
+    ],
+    "role_evidence": {
+      "url": "https://www.thegfcc.org/post/former-australian-minister-greg-hunt-becomes-a-distinguished-fellow",
+      "quote": "The GFCC is pleased to announce that Prof. Greg Hunt has joined our esteemed group of Distinguished Fellows."
+    },
+    "start_date": "2024-10-14",
+    "pollie_slug": "greg-hunt"
+  },
+  {
+    "role": "Executive Director",
+    "organisation": "Motor Trades Association of Australia",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://mtaa.webflow.io/news/the-hon-bruce-billson-appointed-mtaa-executive-director"
+    ],
+    "role_evidence": {
+      "url": "https://mtaa.webflow.io/news/the-hon-bruce-billson-appointed-mtaa-executive-director",
+      "quote": "The Motor Trades Association of Australia (MTAA) today announced the appointment of the Hon Bruce Billson as its new Executive Director, effective today."
+    },
+    "start_date": "2026-07-01",
+    "pollie_slug": "bruce-billson"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Property Institute",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://ceoinstitute.com/bruce-billson"
+    ],
+    "role_evidence": {
+      "url": "https://ceoinstitute.com/bruce-billson",
+      "quote": "Independent Director/Chair, Australian Property Institute (2016 - 2021)"
+    },
+    "start_date": "2016-01-01",
+    "end_date": "2021-12-31",
+    "pollie_slug": "bruce-billson"
+  },
+  {
+    "role": "Independent Director",
+    "organisation": "Plumbing Industry Climate Action Centre",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://ceoinstitute.com/bruce-billson"
+    ],
+    "role_evidence": {
+      "url": "https://ceoinstitute.com/bruce-billson",
+      "quote": "Independent Director, Plumbing Industry Climate Action Centre (2020 - 2021)"
+    },
+    "start_date": "2020-01-01",
+    "end_date": "2021-12-31",
+    "pollie_slug": "bruce-billson"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "City of Whittlesea",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://ceoinstitute.com/bruce-billson"
+    ],
+    "role_evidence": {
+      "url": "https://ceoinstitute.com/bruce-billson",
+      "quote": "Commissioner, City of Whittlesea (2020 - 2021)"
+    },
+    "start_date": "2020-01-01",
+    "end_date": "2021-12-31",
+    "pollie_slug": "bruce-billson"
+  },
+  {
+    "role": "Advisory Council Member",
+    "organisation": "Endeavour Group",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://ceoinstitute.com/bruce-billson"
+    ],
+    "role_evidence": {
+      "url": "https://ceoinstitute.com/bruce-billson",
+      "quote": "Endeavour Group advisory council (2018-2021)"
+    },
+    "start_date": "2018-01-01",
+    "end_date": "2021-12-31",
+    "pollie_slug": "bruce-billson"
+  },
+  {
+    "role": "Contributor",
+    "organisation": "Sky News Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://ceoinstitute.com/bruce-billson"
+    ],
+    "role_evidence": {
+      "url": "https://ceoinstitute.com/bruce-billson",
+      "quote": "Sky News contributor, Australian News Channel (2018)"
+    },
+    "start_date": "2018-01-01",
+    "end_date": "2018-12-31",
+    "pollie_slug": "bruce-billson"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Vero Insurance New Zealand Limited",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.suncorp.co.nz/about/board-of-directors/lindsay-tanner.html"
+    ],
+    "role_evidence": {
+      "url": "https://www.suncorp.co.nz/about/board-of-directors/lindsay-tanner.html",
+      "quote": "Non-Executive director, Lindsay Tanner, joined the Vero Insurance New Zealand Limited and Vero Liability Insurance Limited Board in March 2023."
+    },
+    "pollie_slug": "lindsay-tanner"
+  },
+  {
+    "role": "Advisor",
+    "organisation": "Gane Energy & Resources Pty Ltd",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner"
+    ],
+    "role_evidence": {
+      "url": "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner",
+      "quote": "Lindsay Tanner is a former member of the Australian Government as Minister for Finance from 2007 to 2010 and currently serves as Director of the Suncorp Group, Virgin Australia International and the Future Skills Organisation, Chair of AFL Victoria and Advisor for Gane Energy & Resources Pty Ltd."
+    },
+    "pollie_slug": "lindsay-tanner"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Mitchell Institute for Health and Education Research",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner"
+    ],
+    "role_evidence": {
+      "url": "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner",
+      "quote": "Lindsay has previously served as Chair of the Mitchell Institute for Health and Education Research, Australasian Railway Association, Certane Group and Essendon Football Club."
+    },
+    "pollie_slug": "lindsay-tanner"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australasian Railway Association",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner"
+    ],
+    "role_evidence": {
+      "url": "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner",
+      "quote": "Lindsay has previously served as Chair of the Mitchell Institute for Health and Education Research, Australasian Railway Association, Certane Group and Essendon Football Club."
+    },
+    "pollie_slug": "lindsay-tanner"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Certane Group",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner"
+    ],
+    "role_evidence": {
+      "url": "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner",
+      "quote": "Lindsay has previously served as Chair of the Mitchell Institute for Health and Education Research, Australasian Railway Association, Certane Group and Essendon Football Club."
+    },
+    "pollie_slug": "lindsay-tanner"
+  },
+  {
+    "role": "Director",
+    "organisation": "National Financial Solutions Pty Ltd",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner"
+    ],
+    "role_evidence": {
+      "url": "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner",
+      "quote": "He has also served as Director of National Financial Solutions Pty Ltd and Covata Ltd, as well as Member of the Department of Defence First Principles Review and Australian Advisory Board to Canada Steamships Ltd."
+    },
+    "pollie_slug": "lindsay-tanner"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Covata Ltd",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://australiansecuritymagazine.com.au/former-director-general-of-asio-david-irvine-and-former-minister-for-finance-and-deregulation-lindsay-tanner-appointed-as-non-executive-directors-to-covatas-board/"
+    ],
+    "role_evidence": {
+      "url": "https://australiansecuritymagazine.com.au/former-director-general-of-asio-david-irvine-and-former-minister-for-finance-and-deregulation-lindsay-tanner-appointed-as-non-executive-directors-to-covatas-board/",
+      "quote": "Covata is pleased to announce the appointments of Mr David Irvine and Mr Lindsay Tanner as independent Non-Executive Directors to its Board."
+    },
+    "start_date": "2017-01-01",
+    "pollie_slug": "lindsay-tanner"
+  },
+  {
+    "role": "Member",
+    "organisation": "First Principles Review of Defence",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner"
+    ],
+    "role_evidence": {
+      "url": "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner",
+      "quote": "He has also served as Director of National Financial Solutions Pty Ltd and Covata Ltd, as well as Member of the Department of Defence First Principles Review and Australian Advisory Board to Canada Steamships Ltd."
+    },
+    "pollie_slug": "lindsay-tanner"
+  },
+  {
+    "role": "Member, Australian Advisory Board",
+    "organisation": "Canada Steamships Ltd",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner"
+    ],
+    "role_evidence": {
+      "url": "https://www.ifminvestors.com/people/the-hon.-lindsay-tanner",
+      "quote": "He has also served as Director of National Financial Solutions Pty Ltd and Covata Ltd, as well as Member of the Department of Defence First Principles Review and Australian Advisory Board to Canada Steamships Ltd."
+    },
+    "pollie_slug": "lindsay-tanner"
+  },
+  {
+    "role": "Advisory Board Member",
+    "organisation": "Six Park",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://australianfintech.com.au/robo-adviser-six-park-launches-brian-watson-lindsay-tanner-paul-costello-advisory-board/"
+    ],
+    "role_evidence": {
+      "url": "https://australianfintech.com.au/robo-adviser-six-park-launches-brian-watson-lindsay-tanner-paul-costello-advisory-board/",
+      "quote": "Six Park's team includes former Federal Finance Minister Lindsay Tanner, founding chief of the Future Fund Paul Costello and Six Park co-founder and former J.P. Morgan Australia Chairman Brian Watson on the company's Advisory Board."
+    },
+    "pollie_slug": "lindsay-tanner"
+  },
+  {
+    "role": "Fellow",
+    "organisation": "Australian Institute of International Affairs",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.internationalaffairs.org.au/australianoutlook/russell-trood-a-voice-for-the-national-interest/"
+    ],
+    "role_evidence": {
+      "url": "https://www.internationalaffairs.org.au/australianoutlook/russell-trood-a-voice-for-the-national-interest/",
+      "quote": "Russell was elected a Fellow of the Australian Institute of International Affairs in 2016, in recognition of his outstanding contribution to the study and practice of Australian international affairs."
+    },
+    "pollie_slug": "russell-trood"
+  },
+  {
+    "role": "Corporate Council Member",
+    "organisation": "European Australian Business Council",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/kelly-odwyer.html"
+    ],
+    "role_evidence": {
+      "url": "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/kelly-odwyer.html",
+      "quote": "Kelly is a Corporate Council Member of the European Australian Business Council, a member of the School Council at Caulfield Grammar School and served as a member of the Hospice Rebuild Capital Fundraising Committee for Very Special Kids."
+    },
+    "pollie_slug": "kelly-odwyer"
+  },
+  {
+    "role": "Assistant Director Research (Security and Political Engagement)",
+    "organisation": "University of Melbourne, Melbourne School of Government",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.lowyinstitute.org/people/contributor/bio/john-langmore"
+    ],
+    "role_evidence": {
+      "url": "https://www.lowyinstitute.org/people/contributor/bio/john-langmore",
+      "quote": "Professor John Langmore is the Assistant Director Research (Security and Political Engagement) in the Melbourne School of Government."
+    },
+    "pollie_slug": "john-langmore"
   }
 ]
