@@ -51673,5 +51673,243 @@
       "by": "claude",
       "note": "Lowy Institute bio confirms he was elected to Parliament in 1984 representing Fraser, retired 1996 (matches pollie record), then states 'Professor John Langmore is the Assistant Director Research (Security and Political Engagement) at the Melbourne School of Government.'"
     }
+  },
+  {
+    "role": "Advisor",
+    "organisation": "LFI",
+    "category": "Technology (Software, IT & Digital Services)",
+    "sources": [
+      "https://thequantuminsider.com/2026/05/19/former-australian-ambassador-joins-industrial-quantum-management-firm/"
+    ],
+    "pollie_slug": "arthur-sinodinos",
+    "start_date": "2026-05-19"
+  },
+  {
+    "role": "Senior Advisor",
+    "organisation": "American Global Strategies",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/arthur-sinodinos-joins-american-global-strategies-as-a-senior-advisor-302714905.html"
+    ],
+    "pollie_slug": "arthur-sinodinos",
+    "start_date": "2026-03-16"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Hellenic Australian Chamber of Commerce and Industry National Federation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://greekherald.com.au/news/arthur-sinodinos-ao-appointed-inaugural-patron-of-hacci-national-federation/"
+    ],
+    "pollie_slug": "arthur-sinodinos",
+    "start_date": "2025-09-25"
+  },
+  {
+    "role": "Advisory Board Member",
+    "organisation": "Quad Investors Network",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://quadinvestorsnetwork.org/blog/the-quad-investors-network-launches-with-advisory-board-expert-groups"
+    ],
+    "pollie_slug": "arthur-sinodinos",
+    "start_date": "2023-05-20"
+  },
+  {
+    "role": "Member",
+    "organisation": "Women's Economic Equality Taskforce",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.katherinetimes.com.au/story/7912904/meet-the-12-members-of-the-womens-economic-equality-taskforce/",
+      "https://ministers.pmc.gov.au/gallagher/2023/womens-economic-equality-taskforce-reports-government"
+    ],
+    "pollie_slug": "jenny-macklin",
+    "start_date": "2022-09-21"
+  },
+  {
+    "role": "Chair, Advisory Committee",
+    "organisation": "Tax and Transfer Policy Institute, Australian National University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://crawford.anu.edu.au/people/john-hewson-am"
+    ],
+    "pollie_slug": "john-hewson"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Ocean Nourishment Foundation",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://crawford.anu.edu.au/people/john-hewson-am"
+    ],
+    "pollie_slug": "john-hewson"
+  },
+  {
+    "role": "Contributor",
+    "organisation": "Sky News Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://crawford.anu.edu.au/people/john-hewson-am"
+    ],
+    "pollie_slug": "john-hewson"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "Nine Media",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://crawford.anu.edu.au/people/john-hewson-am"
+    ],
+    "pollie_slug": "john-hewson"
+  },
+  {
+    "role": "Columnist",
+    "organisation": "Australian Community Media",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://crawford.anu.edu.au/people/john-hewson-am"
+    ],
+    "pollie_slug": "john-hewson"
+  },
+  {
+    "role": "Adjunct Professor",
+    "organisation": "University of Technology Sydney",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://crawford.anu.edu.au/people/john-hewson-am"
+    ],
+    "pollie_slug": "john-hewson"
+  },
+  {
+    "role": "Adjunct Professor",
+    "organisation": "University of Canberra",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://crawford.anu.edu.au/people/john-hewson-am",
+      "https://www.canberra.edu.au/uc-research/institutes/iae/our-people"
+    ],
+    "pollie_slug": "john-hewson"
+  },
+  {
+    "role": "Adjunct Professor",
+    "organisation": "Griffith University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://crawford.anu.edu.au/people/john-hewson-am"
+    ],
+    "pollie_slug": "john-hewson"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Osteoporosis Australia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://healthybonesaustralia.org.au/news/healthy-bones-australia-announces-new-chair/"
+    ],
+    "pollie_slug": "john-hewson"
+  },
+  {
+    "role": "Chair",
+    "organisation": "KidsXpress",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://crawford.anu.edu.au/people/john-hewson-am",
+      "https://kidsxpress.org.au/a-new-chapter-for-kidsxpress-looking-ahead-to-a-bigger-bolder-future/"
+    ],
+    "pollie_slug": "john-hewson"
+  },
+  {
+    "role": "Chair",
+    "organisation": "CaSPA Care",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.caspacare.org.au/annual-general-meeting/"
+    ],
+    "pollie_slug": "lyn-allison"
+  },
+  {
+    "role": "Chair",
+    "organisation": "UCL Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://en.wikipedia.org/wiki/UCL_Australia"
+    ],
+    "pollie_slug": "martin-ferguson"
+  },
+  {
+    "role": "Trustee",
+    "organisation": "University of Western Australia Energy and Minerals Institute",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.businessnews.com.au/article/Ferguson-joins-UWA-s-resources-institute"
+    ],
+    "pollie_slug": "martin-ferguson",
+    "start_date": "2013-10-21"
+  },
+  {
+    "role": "Director",
+    "organisation": "McKell Institute",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://mckellinstitute.org.au/about/"
+    ],
+    "pollie_slug": "mary-easson"
+  },
+  {
+    "role": "Director",
+    "organisation": "Campion College",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://mckellinstitute.org.au/about/"
+    ],
+    "pollie_slug": "mary-easson",
+    "start_date": "2005-01-01",
+    "end_date": "2009-12-31"
+  },
+  {
+    "role": "Honorary Fellow",
+    "organisation": "Campion College",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.campion.edu.au/about/fellowships/"
+    ],
+    "pollie_slug": "mary-easson"
+  },
+  {
+    "role": "Director",
+    "organisation": "John Curtin Research Centre",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://mckellinstitute.org.au/about/"
+    ],
+    "pollie_slug": "mary-easson"
+  },
+  {
+    "role": "Senior Vice President",
+    "organisation": "Professions Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Terry_Aulich"
+    ],
+    "pollie_slug": "terrence-aulich",
+    "end_date": "2012"
+  },
+  {
+    "role": "President",
+    "organisation": "Liberal Party of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.abc.net.au/news/2026-05-29/tony-abbott-elected-liberal-president-angus-taylor/106738822"
+    ],
+    "pollie_slug": "tony-abbott",
+    "start_date": "2026-05-29"
+  },
+  {
+    "role": "Chairman",
+    "organisation": "Quadrant",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.foxcorporation.com/management/board-of-directors/tony-abbott-ac/"
+    ],
+    "pollie_slug": "tony-abbott"
   }
 ]
