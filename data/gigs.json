@@ -47836,7 +47836,11 @@
     "category": "Media, Communications & Public Relations",
     "sources": [
       "https://www.arc-conference.com/advisory-board"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "pollie_slug": "amanda-stoker",
@@ -51682,7 +51686,11 @@
       "https://thequantuminsider.com/2026/05/19/former-australian-ambassador-joins-industrial-quantum-management-firm/"
     ],
     "pollie_slug": "arthur-sinodinos",
-    "start_date": "2026-05-19"
+    "start_date": "2026-05-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Senior Advisor",
@@ -51692,17 +51700,26 @@
       "https://www.prnewswire.com/news-releases/arthur-sinodinos-joins-american-global-strategies-as-a-senior-advisor-302714905.html"
     ],
     "pollie_slug": "arthur-sinodinos",
-    "start_date": "2026-03-16"
+    "start_date": "2026-03-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
     "organisation": "Hellenic Australian Chamber of Commerce and Industry National Federation",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://greekherald.com.au/news/arthur-sinodinos-ao-appointed-inaugural-patron-of-hacci-national-federation/"
+      "https://greekherald.com.au/news/arthur-sinodinos-ao-appointed-inaugural-patron-of-hacci-national-federation/",
+      "https://neoskosmos.com/en/2025/09/26/news/community/hacci-nf-secures-arthur-sinodinos-as-first-patron/"
     ],
     "pollie_slug": "arthur-sinodinos",
-    "start_date": "2025-09-25"
+    "start_date": "2025-09-25",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -51712,7 +51729,11 @@
       "https://quadinvestorsnetwork.org/blog/the-quad-investors-network-launches-with-advisory-board-expert-groups"
     ],
     "pollie_slug": "arthur-sinodinos",
-    "start_date": "2023-05-20"
+    "start_date": "2023-05-20",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -51723,7 +51744,11 @@
       "https://ministers.pmc.gov.au/gallagher/2023/womens-economic-equality-taskforce-reports-government"
     ],
     "pollie_slug": "jenny-macklin",
-    "start_date": "2022-09-21"
+    "start_date": "2022-09-21",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Advisory Committee",
@@ -51732,7 +51757,11 @@
     "sources": [
       "https://crawford.anu.edu.au/people/john-hewson-am"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -51741,7 +51770,11 @@
     "sources": [
       "https://crawford.anu.edu.au/people/john-hewson-am"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Contributor",
@@ -51750,7 +51783,11 @@
     "sources": [
       "https://crawford.anu.edu.au/people/john-hewson-am"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Columnist",
@@ -51759,16 +51796,25 @@
     "sources": [
       "https://crawford.anu.edu.au/people/john-hewson-am"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Columnist",
     "organisation": "Australian Community Media",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://crawford.anu.edu.au/people/john-hewson-am"
+      "https://crawford.anu.edu.au/people/john-hewson-am",
+      "https://www.canberratimes.com.au/story/7311502/govt-spending-abuses-being-hidden-by-lies-sycophantic-journalists/"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adjunct Professor",
@@ -51777,7 +51823,11 @@
     "sources": [
       "https://crawford.anu.edu.au/people/john-hewson-am"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adjunct Professor",
@@ -51787,7 +51837,11 @@
       "https://crawford.anu.edu.au/people/john-hewson-am",
       "https://www.canberra.edu.au/uc-research/institutes/iae/our-people"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Adjunct Professor",
@@ -51796,7 +51850,11 @@
     "sources": [
       "https://crawford.anu.edu.au/people/john-hewson-am"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -51805,7 +51863,12 @@
     "sources": [
       "https://healthybonesaustralia.org.au/news/healthy-bones-australia-announces-new-chair/"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "end_date": "2021-03-16"
   },
   {
     "role": "Chair",
@@ -51815,7 +51878,11 @@
       "https://crawford.anu.edu.au/people/john-hewson-am",
       "https://kidsxpress.org.au/a-new-chapter-for-kidsxpress-looking-ahead-to-a-bigger-bolder-future/"
     ],
-    "pollie_slug": "john-hewson"
+    "pollie_slug": "john-hewson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -51824,16 +51891,26 @@
     "sources": [
       "https://www.caspacare.org.au/annual-general-meeting/"
     ],
-    "pollie_slug": "lyn-allison"
+    "pollie_slug": "lyn-allison",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
     "organisation": "UCL Australia",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://en.wikipedia.org/wiki/UCL_Australia"
+      "https://en.wikipedia.org/wiki/UCL_Australia",
+      "https://www.akbc.com.au/executive-committee/hon-martin-ferguson-am",
+      "https://insight.thomsonreuters.com.au/legal/posts/martin-ferguson-steps-out-of-labors-shadow"
     ],
-    "pollie_slug": "martin-ferguson"
+    "pollie_slug": "martin-ferguson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Trustee",
@@ -51843,7 +51920,11 @@
       "https://www.businessnews.com.au/article/Ferguson-joins-UWA-s-resources-institute"
     ],
     "pollie_slug": "martin-ferguson",
-    "start_date": "2013-10-21"
+    "start_date": "2013-10-21",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -51852,7 +51933,11 @@
     "sources": [
       "https://mckellinstitute.org.au/about/"
     ],
-    "pollie_slug": "mary-easson"
+    "pollie_slug": "mary-easson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -51863,7 +51948,11 @@
     ],
     "pollie_slug": "mary-easson",
     "start_date": "2005-01-01",
-    "end_date": "2009-12-31"
+    "end_date": "2009-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Honorary Fellow",
@@ -51872,7 +51961,11 @@
     "sources": [
       "https://www.campion.edu.au/about/fellowships/"
     ],
-    "pollie_slug": "mary-easson"
+    "pollie_slug": "mary-easson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -51881,7 +51974,11 @@
     "sources": [
       "https://mckellinstitute.org.au/about/"
     ],
-    "pollie_slug": "mary-easson"
+    "pollie_slug": "mary-easson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Senior Vice President",
@@ -51891,7 +51988,11 @@
       "https://en.wikipedia.org/wiki/Terry_Aulich"
     ],
     "pollie_slug": "terrence-aulich",
-    "end_date": "2012"
+    "end_date": "2012",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "President",
@@ -51901,7 +52002,11 @@
       "https://www.abc.net.au/news/2026-05-29/tony-abbott-elected-liberal-president-angus-taylor/106738822"
     ],
     "pollie_slug": "tony-abbott",
-    "start_date": "2026-05-29"
+    "start_date": "2026-05-29",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chairman",
@@ -51910,7 +52015,11 @@
     "sources": [
       "https://www.foxcorporation.com/management/board-of-directors/tony-abbott-ac/"
     ],
-    "pollie_slug": "tony-abbott"
+    "pollie_slug": "tony-abbott",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Independent Non-Executive Director",
@@ -51920,14 +52029,19 @@
       "https://www.yellowcakeplc.com/our-leadership/"
     ],
     "pollie_slug": "alexander-downer",
-    "start_date": "2018-01-01"
+    "start_date": "2018-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Co-Founder",
     "organisation": "Tenjin Consulting",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://au.linkedin.com/company/tenjin-consulting"
+      "https://au.linkedin.com/company/tenjin-consulting",
+      "https://michaelwest.com.au/alexander-downer/"
     ],
     "pollie_slug": "alexander-downer",
     "start_date": "2018-01-01"
@@ -51940,7 +52054,11 @@
       "https://www.abc.net.au/news/2013-02-01/downer-appointed-by-rinehart/4496542"
     ],
     "pollie_slug": "alexander-downer",
-    "start_date": "2013-02-01"
+    "start_date": "2013-02-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -51950,7 +52068,11 @@
       "https://www.proactiveinvestors.com/companies/news/50990/mondays-most-followed-in-us-including-crocs-cooper-tire-wendys-ford-toyota-cal-maine-twitter-sony--50990.html"
     ],
     "pollie_slug": "alexander-downer",
-    "start_date": "2013-09-02"
+    "start_date": "2013-09-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Distinguished Fellow",
@@ -51959,7 +52081,11 @@
     "sources": [
       "https://www.thegfcc.org/fellows-1/alexander-downer"
     ],
-    "pollie_slug": "alexander-downer"
+    "pollie_slug": "alexander-downer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Distinguished Visiting Fellow",
@@ -51968,7 +52094,11 @@
     "sources": [
       "https://www.hoover.org/profiles/alexander-john-gosse-downer"
     ],
-    "pollie_slug": "alexander-downer"
+    "pollie_slug": "alexander-downer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Distinguished Fellow",
@@ -51977,7 +52107,12 @@
     "sources": [
       "https://www.rusi.org/people/downer-ac"
     ],
-    "pollie_slug": "alexander-downer"
+    "pollie_slug": "alexander-downer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "end_date": "2024-11"
   },
   {
     "role": "Distinguished Fellow",
@@ -51987,7 +52122,11 @@
       "https://www.thegfcc.org/post/john-anderson-ac-joins-the-gfcc-as-distinguished-fellow"
     ],
     "pollie_slug": "john-anderson",
-    "start_date": "2025-04-16"
+    "start_date": "2025-04-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -51996,7 +52135,11 @@
     "sources": [
       "https://www.nac.edu.au/honourable-gary-hardgrave/"
     ],
-    "pollie_slug": "gary-hardgrave"
+    "pollie_slug": "gary-hardgrave",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -52007,7 +52150,11 @@
       "https://www.nac.edu.au/honourable-gary-hardgrave/"
     ],
     "pollie_slug": "gary-hardgrave",
-    "end_date": "2025-07-24"
+    "end_date": "2025-07-24",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -52016,7 +52163,11 @@
     "sources": [
       "https://www.akbc.com.au/executive-committee/hon-mark-vaile-ao"
     ],
-    "pollie_slug": "mark-vaile"
+    "pollie_slug": "mark-vaile",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -52025,16 +52176,25 @@
     "sources": [
       "https://www.aald.org/board-of-directors/mark-vaile-ao/"
     ],
-    "pollie_slug": "mark-vaile"
+    "pollie_slug": "mark-vaile",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Environmental Consultant",
     "organisation": "Western Australian Department of Environment and Conservation",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://www.abc.net.au/news/2009-06-09/ellison-job-my-idea-barnett/1708764"
+      "https://www.abc.net.au/news/2009-06-09/ellison-job-my-idea-barnett/1708764",
+      "https://library.dbca.wa.gov.au/static/FullTextFiles/025167.pdf"
     ],
-    "pollie_slug": "chris-ellison"
+    "pollie_slug": "chris-ellison",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -52043,7 +52203,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Billy_Snedden"
     ],
-    "pollie_slug": "billy-snedden"
+    "pollie_slug": "billy-snedden",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -52053,7 +52217,11 @@
       "https://bolttech.io/leadership/",
       "https://theorg.com/org/bolttech/org-chart/malcolm-turnbull"
     ],
-    "pollie_slug": "malcolm-turnbull"
+    "pollie_slug": "malcolm-turnbull",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
@@ -52062,7 +52230,11 @@
     "sources": [
       "https://www.consultancy.com.au/news/1755/former-prime-minister-malcolm-turnbull-joins-board-of-findex"
     ],
-    "pollie_slug": "malcolm-turnbull"
+    "pollie_slug": "malcolm-turnbull",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Board Member",
@@ -52071,7 +52243,11 @@
     "sources": [
       "https://www.prnewswire.com/news-releases/hiro-capital-welcomes-sir-nick-clegg-as-general-partner-and-launches-hiro-iii-european-scaleup-vc-fund-with-new-advisory-board-of-global-leaders-including-yann-lecun-302638029.html"
     ],
-    "pollie_slug": "malcolm-turnbull"
+    "pollie_slug": "malcolm-turnbull",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair",
@@ -52081,7 +52257,11 @@
       "https://reneweconomy.com.au/turnbull-sells-two-pumped-hydro-storage-projects-to-help-agl-switch-from-coal-to-renewables/",
       "https://www.hydropower.org/our-members/upper-hunter-hydro"
     ],
-    "pollie_slug": "malcolm-turnbull"
+    "pollie_slug": "malcolm-turnbull",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Co-Chair",
@@ -52090,14 +52270,19 @@
     "sources": [
       "https://www.hydropower.org/team/malcolm-turnbull"
     ],
-    "pollie_slug": "malcolm-turnbull"
+    "pollie_slug": "malcolm-turnbull",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Director",
     "organisation": "Quantum Resources",
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
-      "https://lostmessiahdotcom.wordpress.com/2016/08/09/diamond-joe-gutnick-murray-huberfeld-and-david-bodner/"
+      "https://lostmessiahdotcom.wordpress.com/2016/08/09/diamond-joe-gutnick-murray-huberfeld-and-david-bodner/",
+      "http://www.barrons.com/articles/SB109889201344257225"
     ],
     "pollie_slug": "robert-hawke"
   },
@@ -52108,7 +52293,11 @@
     "sources": [
       "https://www.newcastleherald.com.au/story/6130178/bob-hawke-and-his-links-to-the-hunter-region-gallery/"
     ],
-    "pollie_slug": "robert-hawke"
+    "pollie_slug": "robert-hawke",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -52117,7 +52306,11 @@
     "sources": [
       "https://www.newcastleherald.com.au/story/6130178/bob-hawke-and-his-links-to-the-hunter-region-gallery/"
     ],
-    "pollie_slug": "robert-hawke"
+    "pollie_slug": "robert-hawke",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Patron",
@@ -52127,7 +52320,11 @@
       "https://engineeringaid.org/vale-our-patron/"
     ],
     "pollie_slug": "robert-hawke",
-    "end_date": "2019-05-16"
+    "end_date": "2019-05-16",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Member",
@@ -52136,7 +52333,11 @@
     "sources": [
       "https://labouraustralia.anu.edu.au/biography/edwards-ronald-frederick-ron-28221"
     ],
-    "pollie_slug": "ronald-edwards"
+    "pollie_slug": "ronald-edwards",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Chair, Stakeholder Reference Group",
@@ -52145,6 +52346,11 @@
     "sources": [
       "https://labouraustralia.anu.edu.au/biography/edwards-ronald-frederick-ron-28221"
     ],
-    "pollie_slug": "ronald-edwards"
+    "pollie_slug": "ronald-edwards",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "start_date": "2017"
   }
 ]
