@@ -5603,8 +5603,8 @@
     "attempts": 1
   },
   "amanda-stoker|Columnist|Australian Financial Review|null": {
-    "last_examined_at": "2026-08-21T16:30:11.064Z",
-    "attempts": 1
+    "last_examined_at": "2026-08-29T16:11:16.634Z",
+    "attempts": 2
   },
   "amanda-stoker|Fellow|Menzies Research Centre|null": {
     "last_examined_at": "2026-08-21T16:30:11.064Z",
@@ -6484,6 +6484,206 @@
   },
   "wayne-swan|Director|Super Members Council of Australia|null": {
     "last_examined_at": "2026-08-28T16:30:29.057Z",
+    "attempts": 1
+  },
+  "john-hewson|Chair, Advisory Committee|Tax and Transfer Policy Institute, Australian National University|null": {
+    "last_examined_at": "2026-08-29T16:11:16.631Z",
+    "attempts": 1
+  },
+  "john-hewson|Patron|Ocean Nourishment Foundation|null": {
+    "last_examined_at": "2026-08-29T16:11:16.631Z",
+    "attempts": 1
+  },
+  "john-hewson|Contributor|Sky News Australia|null": {
+    "last_examined_at": "2026-08-29T16:11:16.631Z",
+    "attempts": 1
+  },
+  "john-hewson|Columnist|Nine Media|null": {
+    "last_examined_at": "2026-08-29T16:11:16.631Z",
+    "attempts": 1
+  },
+  "john-hewson|Columnist|Australian Community Media|null": {
+    "last_examined_at": "2026-08-29T16:11:16.631Z",
+    "attempts": 1
+  },
+  "john-hewson|Adjunct Professor|University of Technology Sydney|null": {
+    "last_examined_at": "2026-08-29T16:11:16.631Z",
+    "attempts": 1
+  },
+  "john-hewson|Adjunct Professor|University of Canberra|null": {
+    "last_examined_at": "2026-08-29T16:11:16.631Z",
+    "attempts": 1
+  },
+  "john-hewson|Adjunct Professor|Griffith University|null": {
+    "last_examined_at": "2026-08-29T16:11:16.632Z",
+    "attempts": 1
+  },
+  "john-hewson|Chair|Osteoporosis Australia|null": {
+    "last_examined_at": "2026-08-29T16:11:16.632Z",
+    "attempts": 1
+  },
+  "john-hewson|Chair|KidsXpress|null": {
+    "last_examined_at": "2026-08-29T16:11:16.632Z",
+    "attempts": 1
+  },
+  "alexander-downer|Independent Non-Executive Director|Yellow Cake Plc|2018-01-01": {
+    "last_examined_at": "2026-08-29T16:11:16.632Z",
+    "attempts": 1
+  },
+  "alexander-downer|Co-Founder|Tenjin Consulting|2018-01-01": {
+    "last_examined_at": "2026-08-29T16:11:16.632Z",
+    "attempts": 1
+  },
+  "alexander-downer|Non-Executive Director|Lakes Oil|2013-02-01": {
+    "last_examined_at": "2026-08-29T16:11:16.632Z",
+    "attempts": 1
+  },
+  "alexander-downer|Director|Sun Resources|2013-09-02": {
+    "last_examined_at": "2026-08-29T16:11:16.632Z",
+    "attempts": 1
+  },
+  "alexander-downer|Distinguished Fellow|Global Federation of Competitiveness Councils|null": {
+    "last_examined_at": "2026-08-29T16:11:16.632Z",
+    "attempts": 1
+  },
+  "alexander-downer|Distinguished Visiting Fellow|Hoover Institution|null": {
+    "last_examined_at": "2026-08-29T16:11:16.632Z",
+    "attempts": 1
+  },
+  "alexander-downer|Distinguished Fellow|Royal United Services Institute|null": {
+    "last_examined_at": "2026-08-29T16:11:16.632Z",
+    "attempts": 1
+  },
+  "malcolm-turnbull|Non-Executive Director|bolttech|null": {
+    "last_examined_at": "2026-08-29T16:11:16.632Z",
+    "attempts": 1
+  },
+  "malcolm-turnbull|Director|Findex|null": {
+    "last_examined_at": "2026-08-29T16:11:16.632Z",
+    "attempts": 1
+  },
+  "malcolm-turnbull|Advisory Board Member|Hiro Capital|null": {
+    "last_examined_at": "2026-08-29T16:11:16.632Z",
+    "attempts": 1
+  },
+  "malcolm-turnbull|Chair|Upper Hunter Hydro|null": {
+    "last_examined_at": "2026-08-29T16:11:16.632Z",
+    "attempts": 1
+  },
+  "malcolm-turnbull|Co-Chair|International Forum on Pumped Storage Hydropower|null": {
+    "last_examined_at": "2026-08-29T16:11:16.632Z",
+    "attempts": 1
+  },
+  "arthur-sinodinos|Advisor|LFI|2026-05-19": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "arthur-sinodinos|Senior Advisor|American Global Strategies|2026-03-16": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "arthur-sinodinos|Patron|Hellenic Australian Chamber of Commerce and Industry National Federation|2025-09-25": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "arthur-sinodinos|Advisory Board Member|Quad Investors Network|2023-05-20": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "mary-easson|Director|McKell Institute|null": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "mary-easson|Director|Campion College|2005-01-01": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "mary-easson|Honorary Fellow|Campion College|null": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "mary-easson|Director|John Curtin Research Centre|null": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "robert-hawke|Director|Quantum Resources|null": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "robert-hawke|Chair|Jack Newton Junior Golf Foundation|null": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "robert-hawke|Patron|Jack Newton Celebrity Classic|null": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "robert-hawke|Patron|Engineering Aid Australia|null": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "gary-hardgrave|Chair|Nova Anglia College|null": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "gary-hardgrave|Chair|Regional Development Australia Logan and Redlands|null": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "mark-vaile|Director|Australia-Korea Business Council|null": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "mark-vaile|Director|Australian American Leadership Dialogue|null": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "martin-ferguson|Chair|UCL Australia|null": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "martin-ferguson|Trustee|University of Western Australia Energy and Minerals Institute|2013-10-21": {
+    "last_examined_at": "2026-08-29T16:11:16.633Z",
+    "attempts": 1
+  },
+  "ronald-edwards|Member|Seafood Trade and Market Access Forum|null": {
+    "last_examined_at": "2026-08-29T16:11:16.634Z",
+    "attempts": 1
+  },
+  "ronald-edwards|Chair, Stakeholder Reference Group|Murujuga Rock Art Strategy|null": {
+    "last_examined_at": "2026-08-29T16:11:16.634Z",
+    "attempts": 1
+  },
+  "tony-abbott|President|Liberal Party of Australia|2026-05-29": {
+    "last_examined_at": "2026-08-29T16:11:16.634Z",
+    "attempts": 1
+  },
+  "tony-abbott|Chairman|Quadrant|null": {
+    "last_examined_at": "2026-08-29T16:11:16.634Z",
+    "attempts": 1
+  },
+  "billy-snedden|Patron|Professional Boxing Association of Australia|null": {
+    "last_examined_at": "2026-08-29T16:11:16.634Z",
+    "attempts": 1
+  },
+  "chris-ellison|Environmental Consultant|Western Australian Department of Environment and Conservation|null": {
+    "last_examined_at": "2026-08-29T16:11:16.634Z",
+    "attempts": 1
+  },
+  "jenny-macklin|Member|Women's Economic Equality Taskforce|2022-09-21": {
+    "last_examined_at": "2026-08-29T16:11:16.634Z",
+    "attempts": 1
+  },
+  "john-anderson|Distinguished Fellow|Global Federation of Competitiveness Councils|2025-04-16": {
+    "last_examined_at": "2026-08-29T16:11:16.634Z",
+    "attempts": 1
+  },
+  "lyn-allison|Chair|CaSPA Care|null": {
+    "last_examined_at": "2026-08-29T16:11:16.634Z",
+    "attempts": 1
+  },
+  "terrence-aulich|Senior Vice President|Professions Australia|null": {
+    "last_examined_at": "2026-08-29T16:11:16.634Z",
     "attempts": 1
   }
 }
