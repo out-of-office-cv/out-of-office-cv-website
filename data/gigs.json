@@ -51911,5 +51911,240 @@
       "https://www.foxcorporation.com/management/board-of-directors/tony-abbott-ac/"
     ],
     "pollie_slug": "tony-abbott"
+  },
+  {
+    "role": "Independent Non-Executive Director",
+    "organisation": "Yellow Cake Plc",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.yellowcakeplc.com/our-leadership/"
+    ],
+    "pollie_slug": "alexander-downer",
+    "start_date": "2018-01-01"
+  },
+  {
+    "role": "Co-Founder",
+    "organisation": "Tenjin Consulting",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://au.linkedin.com/company/tenjin-consulting"
+    ],
+    "pollie_slug": "alexander-downer",
+    "start_date": "2018-01-01"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Lakes Oil",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.abc.net.au/news/2013-02-01/downer-appointed-by-rinehart/4496542"
+    ],
+    "pollie_slug": "alexander-downer",
+    "start_date": "2013-02-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "Sun Resources",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://www.proactiveinvestors.com/companies/news/50990/mondays-most-followed-in-us-including-crocs-cooper-tire-wendys-ford-toyota-cal-maine-twitter-sony--50990.html"
+    ],
+    "pollie_slug": "alexander-downer",
+    "start_date": "2013-09-02"
+  },
+  {
+    "role": "Distinguished Fellow",
+    "organisation": "Global Federation of Competitiveness Councils",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.thegfcc.org/fellows-1/alexander-downer"
+    ],
+    "pollie_slug": "alexander-downer"
+  },
+  {
+    "role": "Distinguished Visiting Fellow",
+    "organisation": "Hoover Institution",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.hoover.org/profiles/alexander-john-gosse-downer"
+    ],
+    "pollie_slug": "alexander-downer"
+  },
+  {
+    "role": "Distinguished Fellow",
+    "organisation": "Royal United Services Institute",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.rusi.org/people/downer-ac"
+    ],
+    "pollie_slug": "alexander-downer"
+  },
+  {
+    "role": "Distinguished Fellow",
+    "organisation": "Global Federation of Competitiveness Councils",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.thegfcc.org/post/john-anderson-ac-joins-the-gfcc-as-distinguished-fellow"
+    ],
+    "pollie_slug": "john-anderson",
+    "start_date": "2025-04-16"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Nova Anglia College",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.nac.edu.au/honourable-gary-hardgrave/"
+    ],
+    "pollie_slug": "gary-hardgrave"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Regional Development Australia Logan and Redlands",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/remarks-regional-development-australia-logan-redlands-summit",
+      "https://www.nac.edu.au/honourable-gary-hardgrave/"
+    ],
+    "pollie_slug": "gary-hardgrave",
+    "end_date": "2025-07-24"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australia-Korea Business Council",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.akbc.com.au/executive-committee/hon-mark-vaile-ao"
+    ],
+    "pollie_slug": "mark-vaile"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian American Leadership Dialogue",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.aald.org/board-of-directors/mark-vaile-ao/"
+    ],
+    "pollie_slug": "mark-vaile"
+  },
+  {
+    "role": "Environmental Consultant",
+    "organisation": "Western Australian Department of Environment and Conservation",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.abc.net.au/news/2009-06-09/ellison-job-my-idea-barnett/1708764"
+    ],
+    "pollie_slug": "chris-ellison"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Professional Boxing Association of Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Billy_Snedden"
+    ],
+    "pollie_slug": "billy-snedden"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "bolttech",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://bolttech.io/leadership/",
+      "https://theorg.com/org/bolttech/org-chart/malcolm-turnbull"
+    ],
+    "pollie_slug": "malcolm-turnbull"
+  },
+  {
+    "role": "Director",
+    "organisation": "Findex",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.consultancy.com.au/news/1755/former-prime-minister-malcolm-turnbull-joins-board-of-findex"
+    ],
+    "pollie_slug": "malcolm-turnbull"
+  },
+  {
+    "role": "Advisory Board Member",
+    "organisation": "Hiro Capital",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/hiro-capital-welcomes-sir-nick-clegg-as-general-partner-and-launches-hiro-iii-european-scaleup-vc-fund-with-new-advisory-board-of-global-leaders-including-yann-lecun-302638029.html"
+    ],
+    "pollie_slug": "malcolm-turnbull"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Upper Hunter Hydro",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://reneweconomy.com.au/turnbull-sells-two-pumped-hydro-storage-projects-to-help-agl-switch-from-coal-to-renewables/",
+      "https://www.hydropower.org/our-members/upper-hunter-hydro"
+    ],
+    "pollie_slug": "malcolm-turnbull"
+  },
+  {
+    "role": "Co-Chair",
+    "organisation": "International Forum on Pumped Storage Hydropower",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://www.hydropower.org/team/malcolm-turnbull"
+    ],
+    "pollie_slug": "malcolm-turnbull"
+  },
+  {
+    "role": "Director",
+    "organisation": "Quantum Resources",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://lostmessiahdotcom.wordpress.com/2016/08/09/diamond-joe-gutnick-murray-huberfeld-and-david-bodner/"
+    ],
+    "pollie_slug": "robert-hawke"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Jack Newton Junior Golf Foundation",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.newcastleherald.com.au/story/6130178/bob-hawke-and-his-links-to-the-hunter-region-gallery/"
+    ],
+    "pollie_slug": "robert-hawke"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Jack Newton Celebrity Classic",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.newcastleherald.com.au/story/6130178/bob-hawke-and-his-links-to-the-hunter-region-gallery/"
+    ],
+    "pollie_slug": "robert-hawke"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Engineering Aid Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://engineeringaid.org/vale-our-patron/"
+    ],
+    "pollie_slug": "robert-hawke",
+    "end_date": "2019-05-16"
+  },
+  {
+    "role": "Member",
+    "organisation": "Seafood Trade and Market Access Forum",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://labouraustralia.anu.edu.au/biography/edwards-ronald-frederick-ron-28221"
+    ],
+    "pollie_slug": "ronald-edwards"
+  },
+  {
+    "role": "Chair, Stakeholder Reference Group",
+    "organisation": "Murujuga Rock Art Strategy",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://labouraustralia.anu.edu.au/biography/edwards-ronald-frederick-ron-28221"
+    ],
+    "pollie_slug": "ronald-edwards"
   }
 ]
