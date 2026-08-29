@@ -52352,5 +52352,207 @@
       "by": "claude"
     },
     "start_date": "2017"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Cities Expert Advisory Panel, COAG Reform Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.scribd.com/document/87581398/Review-of-Capital-City-Strategic-Planning-Systems"
+    ],
+    "pollie_slug": "brian-howe"
+  },
+  {
+    "role": "Senior Fellow",
+    "organisation": "Queen's College, University of Melbourne",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://queens.unimelb.edu.au/history/fellows"
+    ],
+    "pollie_slug": "brian-howe"
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Wilderness Australia",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.wildernessaustralia.org.au/christine_board",
+      "https://www.wildernessaustralia.org.au/our_people"
+    ],
+    "pollie_slug": "christine-milne"
+  },
+  {
+    "role": "Convenor",
+    "organisation": "Lake Pedder Restoration Committee",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://lakepedder.org/theplan/"
+    ],
+    "pollie_slug": "christine-milne"
+  },
+  {
+    "role": "Honorary Fellow",
+    "organisation": "Surveying and Spatial Sciences Institute",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.spatialsource.com.au/vale-the-hon-gary-nairn-ao-surveyor/"
+    ],
+    "pollie_slug": "gary-nairn"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Adelaide Oval Stadium Management Authority",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.adelaideoval.com.au/news/john-olsen-appointed-new-chairman-of-adelaide-oval-sma/",
+      "https://www.adelaideoval.com.au/news/john-olsen-appointment/"
+    ],
+    "pollie_slug": "john-olsen",
+    "start_date": "2014-04-29",
+    "end_date": "2020-10-13"
+  },
+  {
+    "role": "Director",
+    "organisation": "Palladium Group",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://thepalladiumgroup.com/news/Julie-Bishop-Joins-Palladium-Board-of-Directors",
+      "https://theorg.com/org/palladium/org-chart/julie-bishop"
+    ],
+    "pollie_slug": "julie-bishop",
+    "start_date": "2019-07-01"
+  },
+  {
+    "role": "Chair, Asia Pacific",
+    "organisation": "Greensill Capital",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://publicintegrity.org.au/i-wasnt-lobbying-for-greensill-julie-bishop/",
+      "https://theorg.com/org/greensill/org-chart/julie-bishop"
+    ],
+    "pollie_slug": "julie-bishop"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Tom Uren Memorial Fund",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://icanw.org.au/who-we-are/",
+      "https://icanw.org.au/tumf/"
+    ],
+    "pollie_slug": "melissa-parke"
+  },
+  {
+    "role": "Patron",
+    "organisation": "American Australian Association",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://americanaustralian.org/about-us/governance/"
+    ],
+    "pollie_slug": "michael-baume"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Renewable Energy Industry Development Board of Tasmania",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://wwindea.org/wwea-welcomes-tasmania-as-a-global-renewable-energy-leader-with-its-200-renewable-energy-target"
+    ],
+    "pollie_slug": "peter-rae"
+  },
+  {
+    "role": "Honorary Board Member",
+    "organisation": "Energy Globe Foundation",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Rae"
+    ],
+    "pollie_slug": "peter-rae"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Female Factory Historic Site",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://biography.senate.gov.au/rae-peter-elliot/"
+    ],
+    "pollie_slug": "peter-rae"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Royal National Agricultural and Pastoral Society of Tasmania",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://biography.senate.gov.au/rae-peter-elliot/"
+    ],
+    "pollie_slug": "peter-rae"
+  },
+  {
+    "role": "Global Strategic Advisor",
+    "organisation": "BLS International Services Ltd",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.peoplematters.in/news/appointments/former-australian-pm-scott-morrison-joins-bls-international-as-global-strategic-advisor-50399",
+      "https://www.bwmarketingworld.com/article/bls-international-appoints-former-australian-pm-scott-morrison-as-global-strategic-advisor-611303"
+    ],
+    "pollie_slug": "scott-morrison",
+    "start_date": "2026-06-19"
+  },
+  {
+    "role": "Chair",
+    "organisation": "South Australian Centre for Geothermal Energy Research, University of Adelaide",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "http://jeanesholland.com.au/profiles.html"
+    ],
+    "pollie_slug": "susan-jeanes"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Centre for Energy Technologies, University of Adelaide",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "http://jeanesholland.com.au/profiles.html"
+    ],
+    "pollie_slug": "susan-jeanes"
+  },
+  {
+    "role": "Member",
+    "organisation": "CSIRO Energy and Transport Sector Advisory Council",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "http://jeanesholland.com.au/profiles.html"
+    ],
+    "pollie_slug": "susan-jeanes"
+  },
+  {
+    "role": "Director",
+    "organisation": "Institute for Mineral and Energy Resources, University of Adelaide",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "http://jeanesholland.com.au/profiles.html"
+    ],
+    "pollie_slug": "susan-jeanes"
+  },
+  {
+    "role": "President",
+    "organisation": "Netball NT",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://nt.netball.com.au/vale-trish-crossin"
+    ],
+    "pollie_slug": "trish-crossin",
+    "start_date": "2014-01-01"
+  },
+  {
+    "role": "Director",
+    "organisation": "The Gordon Institute of TAFE",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.thegordon.edu.au/blog/april-2026/the-gordon-mourns-the-passing-of-board-chair-trish-crossin-am"
+    ],
+    "pollie_slug": "trish-crossin",
+    "start_date": "2022-08-01",
+    "end_date": "2024-09-01"
   }
 ]
