@@ -52554,5 +52554,570 @@
     "pollie_slug": "trish-crossin",
     "start_date": "2022-08-01",
     "end_date": "2024-09-01"
+  },
+  {
+    "pollie_slug": "margaret-guilfoyle",
+    "role": "Chair",
+    "organisation": "Liberal Women's Forum",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.canberratimes.com.au/story/7020649/guilfoyle-broke-glass-ceilings-quietly/",
+      "https://womensagenda.com.au/latest/vale-dame-margaret-guilfoyle-australias-first-female-cabinet-minister/"
+    ],
+    "role_evidence": {
+      "url": "https://www.canberratimes.com.au/story/7020649/guilfoyle-broke-glass-ceilings-quietly/",
+      "quote": "When John Hewson set up the Liberal Women's Forum in 1993, she became its chair."
+    }
+  },
+  {
+    "pollie_slug": "maxine-mckew",
+    "role": "Director",
+    "organisation": "Australian Contemporary Opera Co.",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.acoco.org.au/team"
+    ],
+    "role_evidence": {
+      "url": "https://www.acoco.org.au/team",
+      "quote": "Journalist / Former Member of Parliament / Board Director"
+    }
+  },
+  {
+    "pollie_slug": "maxine-mckew",
+    "role": "Advisory Board Member",
+    "organisation": "The Nature Conservancy Australia",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.natureaustralia.org.au/about-us/who-we-are/our-people/maxine-mckew/"
+    ],
+    "role_evidence": {
+      "url": "https://www.natureaustralia.org.au/about-us/who-we-are/our-people/maxine-mckew/",
+      "quote": "Advisory Board Member"
+    }
+  },
+  {
+    "pollie_slug": "christopher-pyne",
+    "role": "Chair, Advisory Board",
+    "organisation": "Australian Missile Corporation",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://www.amc.com.au/latest-news/australian-missile-corporation-selected-for-guided-weapons-program"
+    ],
+    "role_evidence": {
+      "url": "https://www.amc.com.au/latest-news/australian-missile-corporation-selected-for-guided-weapons-program",
+      "quote": "The AMC's advisory board, chaired by former defence minister Christopher Pyne, comprises some of the sharpest minds in the industry."
+    }
+  },
+  {
+    "pollie_slug": "christopher-pyne",
+    "role": "Adviser",
+    "organisation": "Dar al Handasah",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/christopher-pyne.html"
+    ],
+    "role_evidence": {
+      "url": "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/christopher-pyne.html",
+      "quote": "adviser to the Dubai headquartered, international consulting group, Dar al Handasah"
+    }
+  },
+  {
+    "pollie_slug": "christopher-pyne",
+    "role": "Patron",
+    "organisation": "Robe to Recovery",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/christopher-pyne.html"
+    ],
+    "role_evidence": {
+      "url": "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/christopher-pyne.html",
+      "quote": "Patron of the veterans charity, Robe to Recovery"
+    }
+  },
+  {
+    "pollie_slug": "christopher-pyne",
+    "role": "Ambassador",
+    "organisation": "Adelaide Football Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/christopher-pyne.html"
+    ],
+    "role_evidence": {
+      "url": "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/christopher-pyne.html",
+      "quote": "Ambassador for the Adelaide Football Club"
+    }
+  },
+  {
+    "pollie_slug": "christopher-pyne",
+    "role": "Executive Consultant",
+    "organisation": "EY Defence",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://michaelwest.com.au/christopher-pyne/",
+      "https://www.abc.net.au/news/2019-06-27/christopher-pyne-called-out-for-taking-defence-job/11250526"
+    ],
+    "role_evidence": {
+      "url": "https://michaelwest.com.au/christopher-pyne/",
+      "quote": "Executive Consultant, EY Defence (7.6.19–present)"
+    },
+    "start_date": "2019-06-07"
+  },
+  {
+    "pollie_slug": "christopher-pyne",
+    "role": "Chair, Advisory Board and Investment Committee",
+    "organisation": "Arawa Capital",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://michaelwest.com.au/war-with-china-zero-logic-yet-the-weapons-lobby-has-42-of-australians-believing-it/"
+    ],
+    "role_evidence": {
+      "url": "https://michaelwest.com.au/war-with-china-zero-logic-yet-the-weapons-lobby-has-42-of-australians-believing-it/",
+      "quote": "Chair of its Advisory Board and Investment Committee for a fund investing in weapons systems"
+    }
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Chair",
+    "organisation": "Cooperative Research Centre for Temperate Hardwood Forestry",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "1995 - 1997 Career position - Chairman, CRC for Temperate Hardwood Forestry"
+    },
+    "start_date": "1995-01-01",
+    "end_date": "1997-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Chair",
+    "organisation": "Cooperative Research Centre for Weed Management Systems",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "1995 - 1999 Career position - Chairman, CRC for Weed Management Systems"
+    },
+    "start_date": "1995-01-01",
+    "end_date": "1999-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Chair",
+    "organisation": "Cooperative Research Centre for Soil and Land Management",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "1995 - 1999 Career position - Chairman, CRC Soil and Land Management"
+    },
+    "start_date": "1995-01-01",
+    "end_date": "1999-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Chair",
+    "organisation": "Cooperative Research Centre for the Sustainable Development of Tropical Savannahs",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "1995 - 2001 Career position - Chairman, CRC for the Sustainable Development of Tropical Savannahs"
+    },
+    "start_date": "1995-01-01",
+    "end_date": "2001-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Chair",
+    "organisation": "Cooperative Research Centre for Sensor Signal and Information Processing",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "1996 - 2005 Career position - Chairman, CRC for Sensor Signal and Information Processing"
+    },
+    "start_date": "1996-01-01",
+    "end_date": "2005-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Chair",
+    "organisation": "Cooperative Research Centre for Sustainable Production Forestry",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "1997 - 2005 Career position - Chairman, CRC Sustainable Production Forestry"
+    },
+    "start_date": "1997-01-01",
+    "end_date": "2005-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "National Committee Member",
+    "organisation": "UNICEF Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm",
+      "https://johnmenadue.com/post/2023/04/vale-john-kerin-an-authentic-hero-of-our-time/"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "1997 - 2007 Career position - National Committee Member, UNICEF Australia"
+    },
+    "start_date": "1997-01-01",
+    "end_date": "2007-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Chair",
+    "organisation": "Queensland Trawl Management Advisory Committee",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "1999 - 2001 Career position - Chairman, Queensland Trawl Management Advisory Committee"
+    },
+    "start_date": "1999-01-01",
+    "end_date": "2001-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Member",
+    "organisation": "Whitlam Institute",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "2001 - 2002 Career position - Member, Whitlam Institute"
+    },
+    "start_date": "2001-01-01",
+    "end_date": "2002-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Chair",
+    "organisation": "New South Wales State Forests",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm",
+      "https://johnmenadue.com/post/2023/04/vale-john-kerin-an-authentic-hero-of-our-time/"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "2001 - 2004 Career position - Chairman, New South Wales State Forests"
+    },
+    "start_date": "2001-01-01",
+    "end_date": "2004-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Chair",
+    "organisation": "Cooperative Research Centre for Tropical Savannah Management",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "2001 - 2008 Career position - Chairman, CRC for Tropical Savannah Management"
+    },
+    "start_date": "2001-01-01",
+    "end_date": "2008-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Chair",
+    "organisation": "Cooperative Research Centre for Australian Weed Management",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "2001 - 2008 Career position - Chairman, CRC for Australian Weed Management"
+    },
+    "start_date": "2001-01-01",
+    "end_date": "2008-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Member",
+    "organisation": "Safe Production New South Wales Advisory Committee",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "2002 - 2004 Career position - Member, Safe Production New South Wales Advisory Committee"
+    },
+    "start_date": "2002-01-01",
+    "end_date": "2004-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Chair",
+    "organisation": "Marine Stewardship Council",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "2002 - 2004 Career position - Chairman, Marine Stewardship Council"
+    },
+    "start_date": "2002-01-01",
+    "end_date": "2004-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Council Member",
+    "organisation": "Birds Australia",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "2003 - 2005 Career position - Member of Council, Birds Australia"
+    },
+    "start_date": "2003-01-01",
+    "end_date": "2005-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Chair",
+    "organisation": "National Ovine Johne's Disease Program Advisory Committee",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm",
+      "https://www.crawfordfund.org/news/vale-john-kerin-ao/"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "2004 - 2006 Career position - Chairman, National Ovine Johne's Disease Program Advisory Committee"
+    },
+    "start_date": "2004-01-01",
+    "end_date": "2006-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "President",
+    "organisation": "ACT Branch, Australian Agricultural and Resource Economics Society",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "2004 - 2007 Career position - President, ACT Branch, Australian Agriculture and Research Economics Society"
+    },
+    "start_date": "2004-01-01",
+    "end_date": "2007-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Chair",
+    "organisation": "Interim Committee, Australian Weeds Research Centre",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "2008 - 2012 Career position - Chairman, Interim Committee, Australian Weeds Research Centre"
+    },
+    "start_date": "2008-01-01",
+    "end_date": "2012-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Board Member",
+    "organisation": "Ian Clunies Ross Memorial Foundation",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "2009 - 2011 Career position - Board Member, Ian Clunies Ross Memorial Foundation"
+    },
+    "start_date": "2009-01-01",
+    "end_date": "2011-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Chair",
+    "organisation": "Weeds Advisory Committee, Rural Industries Research and Development Corporation",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "2010 - 2012 Career position - Chairman, Weeds Advisory Committee, Rural Industries Research and Development Corporation"
+    },
+    "start_date": "2010-01-01",
+    "end_date": "2012-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Chair",
+    "organisation": "Living Landscapes, Bundanoon Trust",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "2012 - 2015 Career position - Chairman, Living Landscapes, Bundanoon Trust"
+    },
+    "start_date": "2012-01-01",
+    "end_date": "2015-12-31"
+  },
+  {
+    "pollie_slug": "john-kerin",
+    "role": "Adjunct Professor",
+    "organisation": "Australian National University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.eoas.info/biogs/P007478b.htm"
+    ],
+    "role_evidence": {
+      "url": "https://www.eoas.info/biogs/P007478b.htm",
+      "quote": "2013 - 2014 Career position - Adjunct Professor, Australian National University"
+    },
+    "start_date": "2013-01-01",
+    "end_date": "2014-12-31"
+  },
+  {
+    "pollie_slug": "janelle-saffin",
+    "role": "Patron",
+    "organisation": "Australia-Myanmar University Constitutional Democracy Project",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://janellesaffin.com.au/about/",
+      "https://www.netimes.com.au/2026/08/09/saffin-wins-national-human-rights-award/"
+    ],
+    "role_evidence": {
+      "url": "https://janellesaffin.com.au/about/",
+      "quote": "She is Patron of the Australia-Myanmar University Constitutional Democracy Project"
+    }
+  },
+  {
+    "pollie_slug": "janelle-saffin",
+    "role": "Founding Patron",
+    "organisation": "Australia-Myanmar Chamber of Commerce",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://janellesaffin.com.au/about/"
+    ],
+    "role_evidence": {
+      "url": "https://janellesaffin.com.au/about/",
+      "quote": "She was a founding Patron of the Australia-Myanmar Chamber of Commerce"
+    }
+  },
+  {
+    "pollie_slug": "guy-barnett",
+    "role": "Minister for Justice, Corrections and Rehabilitation",
+    "organisation": "Government of Tasmania",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://tas.liberal.org.au/our-team/guy-barnett",
+      "https://en.wikipedia.org/wiki/Guy_Barnett_(Australian_politician)"
+    ],
+    "role_evidence": {
+      "url": "https://tas.liberal.org.au/our-team/guy-barnett",
+      "quote": "Deputy Premier, Attorney-General, Minister for Justice Corrections and Rehabilitation, Minister for Small Business Trade and Consumer Affairs, Minister for Environment and Climate Change, Member for Lyons"
+    },
+    "start_date": "2024-04-11"
+  },
+  {
+    "pollie_slug": "guy-barnett",
+    "role": "Minister for Small Business, Trade and Consumer Affairs",
+    "organisation": "Government of Tasmania",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://tas.liberal.org.au/our-team/guy-barnett",
+      "https://en.wikipedia.org/wiki/Guy_Barnett_(Australian_politician)"
+    ],
+    "role_evidence": {
+      "url": "https://tas.liberal.org.au/our-team/guy-barnett",
+      "quote": "Deputy Premier, Attorney-General, Minister for Justice Corrections and Rehabilitation, Minister for Small Business Trade and Consumer Affairs, Minister for Environment and Climate Change, Member for Lyons"
+    },
+    "start_date": "2025-08-07"
+  },
+  {
+    "pollie_slug": "guy-barnett",
+    "role": "Minister for Environment and Climate Change",
+    "organisation": "Government of Tasmania",
+    "category": "Environment, Climate & Sustainability",
+    "sources": [
+      "https://pulsetasmania.com.au/news/rockliff-announces-reshuffled-cabinet-after-madeleine-ogilvie-quits/",
+      "https://tas.liberal.org.au/our-team/guy-barnett"
+    ],
+    "role_evidence": {
+      "url": "https://pulsetasmania.com.au/news/rockliff-announces-reshuffled-cabinet-after-madeleine-ogilvie-quits/",
+      "quote": "Deputy Premier Guy Barnett will take on the Environment and Climate Change portfolio."
+    },
+    "start_date": "2026-06-05"
+  },
+  {
+    "pollie_slug": "bernie-ripoll",
+    "role": "Advisory Board Member",
+    "organisation": "Credi",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.wholesaleinvestor.com/credi-raises-465k-from-successful-first-round-over-50m-of-loans-in-6-months/"
+    ],
+    "role_evidence": {
+      "url": "https://www.wholesaleinvestor.com/credi-raises-465k-from-successful-first-round-over-50m-of-loans-in-6-months/",
+      "quote": "Andrew Chick has joined Bernie Ripoll on our advisory board."
+    }
+  },
+  {
+    "pollie_slug": "peter-baume",
+    "role": "Facilitator in Medicine",
+    "organisation": "University of New South Wales",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.harmreductionaustralia.org.au/peter-baume/",
+      "https://en.wikipedia.org/wiki/Peter_Baume"
+    ],
+    "role_evidence": {
+      "url": "https://www.harmreductionaustralia.org.au/peter-baume/",
+      "quote": "Now Facilitator in Medicine, University of New South Wales."
+    }
+  },
+  {
+    "pollie_slug": "amanda-vanstone",
+    "role": "Opinion Columnist",
+    "organisation": "Australian Community Media",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.canberratimes.com.au/profile/1408/amanda-vanstone"
+    ],
+    "role_evidence": {
+      "url": "https://www.canberratimes.com.au/profile/1408/amanda-vanstone",
+      "quote": "She writes fortnightly for ACM."
+    }
   }
 ]
