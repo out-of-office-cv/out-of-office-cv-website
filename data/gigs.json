@@ -53405,5 +53405,300 @@
       "by": "claude",
       "note": "Canberra Times profile confirms 'She writes fortnightly for ACM'; columns syndicated across multiple ACM mastheads."
     }
+  },
+  {
+    "role": "President",
+    "organisation": "Australian Volunteers International",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://avi.org.au/avi-patron-president-announcement/"
+    ],
+    "pollie_slug": "natasha-stott-despoja",
+    "start_date": "2025-11-10"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Torrens University Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.torrens.edu.au/stories/newsroom/university-news/natasha-stott-despoja-ao-appointed-to-governing-board"
+    ],
+    "pollie_slug": "natasha-stott-despoja",
+    "start_date": "2026-05-07"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Carrie's Beanies for Brain Cancer",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.apln.network/members/australia/natasha-stott-despoja/bio"
+    ],
+    "pollie_slug": "natasha-stott-despoja"
+  },
+  {
+    "role": "Ambassador",
+    "organisation": "Australians Investing in Women",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.aiiw.org.au/team-profiles/natasha-stott-despoja-ao/"
+    ],
+    "pollie_slug": "natasha-stott-despoja"
+  },
+  {
+    "role": "Advisory Group Member",
+    "organisation": "Broad Agenda 50:50 by 2030",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.apln.network/members/australia/natasha-stott-despoja/bio"
+    ],
+    "pollie_slug": "natasha-stott-despoja"
+  },
+  {
+    "role": "Women's World Cup 2023 Steering Committee Member",
+    "organisation": "Fédération Internationale de Football Association (FIFA)",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.apln.network/members/australia/natasha-stott-despoja/bio"
+    ],
+    "pollie_slug": "natasha-stott-despoja"
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Australian National University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.torrens.edu.au/stories/newsroom/university-news/natasha-stott-despoja-ao-appointed-to-governing-board",
+      "https://www.apln.network/members/australia/natasha-stott-despoja/bio"
+    ],
+    "pollie_slug": "natasha-stott-despoja"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Reconciliation Action Plan Committee, BWM Dentsu",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://omny.fm/shows/talking-business/dr-aden-ridgeway-partner-cox-inall-ridgeway-and-ch"
+    ],
+    "pollie_slug": "aden-ridgeway"
+  },
+  {
+    "role": "Non-Executive Chair",
+    "organisation": "CBMA Group Limited",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://cbmagroup.com.au/board-and-senior-management/"
+    ],
+    "pollie_slug": "andrew-robb"
+  },
+  {
+    "role": "Chair",
+    "organisation": "BOW Projects",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://www.andrewrobb.com.au/biography-1"
+    ],
+    "pollie_slug": "andrew-robb"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "Menzies Australia Institute, King's College London",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.kcl.ac.uk/people/ros-kelly"
+    ],
+    "pollie_slug": "roslyn-kelly"
+  },
+  {
+    "role": "Director",
+    "organisation": "Aspen Medical Indonesia",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.abc.net.au/news/2022-05-02/aspen-medical-political-access-pandemic-profits-four-corners/101022230"
+    ],
+    "pollie_slug": "michael-wooldridge"
+  },
+  {
+    "role": "Professor of Practice",
+    "organisation": "Deakin University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://experts.deakin.edu.au/66500-chris-pearce"
+    ],
+    "pollie_slug": "chris-pearce"
+  },
+  {
+    "role": "Director",
+    "organisation": "Foundation for Rural & Regional Renewal",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://frrr.org.au/blog/tag/simon-crean/"
+    ],
+    "pollie_slug": "simon-crean"
+  },
+  {
+    "role": "Director",
+    "organisation": "Playgroup Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.playgroupaustralia.org.au/playgroup-australia-board-expansion/"
+    ],
+    "pollie_slug": "stephen-martin",
+    "start_date": "2022-11-28"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Illawarra Academy of Sport",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://ias.org.au/wp-content/uploads/2021/08/IASyearbook_2009.pdf"
+    ],
+    "pollie_slug": "stephen-martin"
+  },
+  {
+    "role": "Distinguished Visiting Fellow",
+    "organisation": "S. Rajaratnam School of International Studies, Nanyang Technological University",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.uts.edu.au/research/centres/australia-china-relations-institute/about/contributor/bob-carr"
+    ],
+    "pollie_slug": "bob-carr"
+  },
+  {
+    "role": "Honorary Scholar",
+    "organisation": "Australian American Leadership Dialogue",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.uts.edu.au/research/centres/australia-china-relations-institute/about/contributor/bob-carr"
+    ],
+    "pollie_slug": "bob-carr"
+  },
+  {
+    "role": "Director",
+    "organisation": "Cambia",
+    "category": "Pharmaceutical & Biotechnology",
+    "sources": [
+      "https://www.michaellavarch.com/"
+    ],
+    "pollie_slug": "michael-lavarch"
+  },
+  {
+    "role": "Chair, Consultative Committee",
+    "organisation": "Council of Australian Governments National Legal Profession Reform Taskforce",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.michaellavarch.com/"
+    ],
+    "pollie_slug": "michael-lavarch"
+  },
+  {
+    "role": "Director",
+    "organisation": "Australian Stock Exchange Supervisory Review",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.michaellavarch.com/"
+    ],
+    "pollie_slug": "michael-lavarch"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Millhouse IAG",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.michaellavarch.com/"
+    ],
+    "pollie_slug": "michael-lavarch"
+  },
+  {
+    "role": "Director",
+    "organisation": "Colly Cotton",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.michaellavarch.com/"
+    ],
+    "pollie_slug": "michael-lavarch"
+  },
+  {
+    "role": "Advisory Board Member",
+    "organisation": "Institute for Ethics, Governance and Law, Griffith University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.michaellavarch.com/"
+    ],
+    "pollie_slug": "michael-lavarch"
+  },
+  {
+    "role": "Advisory Board Member",
+    "organisation": "Key Centre for Law, Ethics and Governance, Griffith University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.michaellavarch.com/"
+    ],
+    "pollie_slug": "michael-lavarch"
+  },
+  {
+    "role": "Director",
+    "organisation": "Plan Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.michaellavarch.com/"
+    ],
+    "pollie_slug": "michael-lavarch"
+  },
+  {
+    "role": "Advisory Board Member",
+    "organisation": "Forde Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.michaellavarch.com/"
+    ],
+    "pollie_slug": "michael-lavarch"
+  },
+  {
+    "role": "Member",
+    "organisation": "Senate of the University of Queensland",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.michaellavarch.com/"
+    ],
+    "pollie_slug": "michael-lavarch"
+  },
+  {
+    "role": "Chair, Standing Committee on Legal Practice",
+    "organisation": "Council of Australian Law Deans",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.michaellavarch.com/"
+    ],
+    "pollie_slug": "michael-lavarch"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Qualifications Framework Council",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.tvetaustralia.com.au/board_of_directors/john_dawkins",
+      "https://www.sbs.com.au/news/article/dawkins-quits-as-vocation-chairman/1pdu3gzh7"
+    ],
+    "pollie_slug": "john-dawkins"
+  },
+  {
+    "role": "Chair",
+    "organisation": "National Skills Standards Council",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.sbs.com.au/news/article/dawkins-quits-as-vocation-chairman/1pdu3gzh7"
+    ],
+    "pollie_slug": "john-dawkins"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Labor Friends of Israel",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.laborfriendsofisrael.au/patrons/",
+      "https://www.australianjewishnews.com/andrews-and-peris-to-become-patrons-of-labor-friends-of-israel/"
+    ],
+    "pollie_slug": "nova-peris",
+    "start_date": "2024-06-21"
   }
 ]
