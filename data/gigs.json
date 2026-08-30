@@ -52360,7 +52360,12 @@
     "sources": [
       "https://www.scribd.com/document/87581398/Review-of-Capital-City-Strategic-Planning-Systems"
     ],
-    "pollie_slug": "brian-howe"
+    "pollie_slug": "brian-howe",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "COAG Reform Council report lists 'Professor Brian Howe AO (Chair)' on the Cities Expert Advisory Panel."
+    }
   },
   {
     "role": "Senior Fellow",
@@ -52369,7 +52374,12 @@
     "sources": [
       "https://queens.unimelb.edu.au/history/fellows"
     ],
-    "pollie_slug": "brian-howe"
+    "pollie_slug": "brian-howe",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "queens.unimelb.edu.au lists 'Brian L Howe AO' under Senior Fellows, bio confirms former Deputy PM."
+    }
   },
   {
     "role": "Deputy Chair",
@@ -52379,7 +52389,12 @@
       "https://www.wildernessaustralia.org.au/christine_board",
       "https://www.wildernessaustralia.org.au/our_people"
     ],
-    "pollie_slug": "christine-milne"
+    "pollie_slug": "christine-milne",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wilderness Australia pages list 'Christine Milne AO - Deputy Chair' with matching bio."
+    }
   },
   {
     "role": "Convenor",
@@ -52388,7 +52403,12 @@
     "sources": [
       "https://lakepedder.org/theplan/"
     ],
-    "pollie_slug": "christine-milne"
+    "pollie_slug": "christine-milne",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "lakepedder.org states 'The Lake Pedder Restoration Committee, convened by Christine Milne...'"
+    }
   },
   {
     "role": "Honorary Fellow",
@@ -52397,7 +52417,12 @@
     "sources": [
       "https://www.spatialsource.com.au/vale-the-hon-gary-nairn-ao-surveyor/"
     ],
-    "pollie_slug": "gary-nairn"
+    "pollie_slug": "gary-nairn",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Spatial Source obituary: 'He was an Honorary Fellow of SSSI (now the Geospatial Council of Australia, GCA)'."
+    }
   },
   {
     "role": "Chair",
@@ -52409,7 +52434,12 @@
     ],
     "pollie_slug": "john-olsen",
     "start_date": "2014-04-29",
-    "end_date": "2020-10-13"
+    "end_date": "2020-10-13",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Adelaide Oval's own press releases confirm appointment (29 Apr 2014) and departure (13 Oct 2020); corroborated by AFC board bio and Canberra Times."
+    }
   },
   {
     "role": "Director",
@@ -52420,7 +52450,12 @@
       "https://theorg.com/org/palladium/org-chart/julie-bishop"
     ],
     "pollie_slug": "julie-bishop",
-    "start_date": "2019-07-01"
+    "start_date": "2019-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "thepalladiumgroup.com press release confirms Director appointment dated 1 July 2019."
+    }
   },
   {
     "role": "Chair, Asia Pacific",
@@ -52430,7 +52465,12 @@
       "https://publicintegrity.org.au/i-wasnt-lobbying-for-greensill-julie-bishop/",
       "https://theorg.com/org/greensill/org-chart/julie-bishop"
     ],
-    "pollie_slug": "julie-bishop"
+    "pollie_slug": "julie-bishop",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "publicintegrity.org.au confirms she became a Greensill board adviser and was named chairwoman of Greensill Asia Pacific in late 2019."
+    }
   },
   {
     "role": "Patron",
@@ -52440,7 +52480,12 @@
       "https://icanw.org.au/who-we-are/",
       "https://icanw.org.au/tumf/"
     ],
-    "pollie_slug": "melissa-parke"
+    "pollie_slug": "melissa-parke",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "icanw.org.au: 'Melissa is a patron of the Tom Uren Memorial Fund'; page identifies her as former federal member for Fremantle."
+    }
   },
   {
     "role": "Patron",
@@ -52449,7 +52494,12 @@
     "sources": [
       "https://americanaustralian.org/about-us/governance/"
     ],
-    "pollie_slug": "michael-baume"
+    "pollie_slug": "michael-baume",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "American Australian Association's own governance page lists 'Hon. Michael Baume AO' as Patron."
+    }
   },
   {
     "role": "Chair",
@@ -52458,7 +52508,12 @@
     "sources": [
       "https://wwindea.org/wwea-welcomes-tasmania-as-a-global-renewable-energy-leader-with-its-200-renewable-energy-target"
     ],
-    "pollie_slug": "peter-rae"
+    "pollie_slug": "peter-rae",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "wwindea.org article: 'former Chairman ... of the Renewable Energy Industry Development Board of Tasmania.'"
+    }
   },
   {
     "role": "Honorary Board Member",
@@ -52467,7 +52522,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Peter_Rae"
     ],
-    "pollie_slug": "peter-rae"
+    "pollie_slug": "peter-rae",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia (matching senator bio) confirms Honorary Board Member, Energy Globe Foundation."
+    }
   },
   {
     "role": "Chair",
@@ -52476,7 +52536,12 @@
     "sources": [
       "https://biography.senate.gov.au/rae-peter-elliot/"
     ],
-    "pollie_slug": "peter-rae"
+    "pollie_slug": "peter-rae",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Official Senate biography confirms he 'Presided over boards of the Female Factory Historic Site'."
+    }
   },
   {
     "role": "Chair",
@@ -52485,7 +52550,12 @@
     "sources": [
       "https://biography.senate.gov.au/rae-peter-elliot/"
     ],
-    "pollie_slug": "peter-rae"
+    "pollie_slug": "peter-rae",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same Senate biography confirms 'Royal National Agricultural and Pastoral Society'."
+    }
   },
   {
     "role": "Global Strategic Advisor",
@@ -52493,28 +52563,46 @@
     "category": "Professional Services & Management Consulting",
     "sources": [
       "https://www.peoplematters.in/news/appointments/former-australian-pm-scott-morrison-joins-bls-international-as-global-strategic-advisor-50399",
-      "https://www.bwmarketingworld.com/article/bls-international-appoints-former-australian-pm-scott-morrison-as-global-strategic-advisor-611303"
+      "https://www.bwmarketingworld.com/article/bls-international-appoints-former-australian-pm-scott-morrison-as-global-strategic-advisor-611303",
+      "https://mediabrief.com/bls-international-appoints-former-australian-pm-scott-morrison-as-global-strategic-advisor/"
     ],
     "pollie_slug": "scott-morrison",
-    "start_date": "2026-06-19"
+    "start_date": "2026-06-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "peoplematters.in and mediabrief.com both confirm BLS International appointment as Global Strategic Advisor dated 19 June 2026."
+    }
   },
   {
     "role": "Chair",
     "organisation": "South Australian Centre for Geothermal Energy Research, University of Adelaide",
     "category": "Energy (Renewables & Traditional)",
     "sources": [
-      "http://jeanesholland.com.au/profiles.html"
+      "http://jeanesholland.com.au/profiles.html",
+      "https://www.transparency.gov.au/publications/environment-and-energy/australian-renewable-energy-agency/australian-renewable-energy-agency-annual-report-2019-20/about-arena/board-member-profiles"
     ],
-    "pollie_slug": "susan-jeanes"
+    "pollie_slug": "susan-jeanes",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ARENA 2019-20 Annual Report board profile: 'She currently chairs the South Australian Centre for Geothermal Energy Research and the Centre for Energy Technology.'"
+    }
   },
   {
     "role": "Chair",
     "organisation": "Centre for Energy Technologies, University of Adelaide",
     "category": "Energy (Renewables & Traditional)",
     "sources": [
-      "http://jeanesholland.com.au/profiles.html"
+      "http://jeanesholland.com.au/profiles.html",
+      "https://www.transparency.gov.au/publications/environment-and-energy/australian-renewable-energy-agency/australian-renewable-energy-agency-annual-report-2019-20/about-arena/board-member-profiles"
     ],
-    "pollie_slug": "susan-jeanes"
+    "pollie_slug": "susan-jeanes",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same ARENA board profile confirms she chairs the Centre for Energy Technology."
+    }
   },
   {
     "role": "Member",
@@ -52542,7 +52630,12 @@
       "https://nt.netball.com.au/vale-trish-crossin"
     ],
     "pollie_slug": "trish-crossin",
-    "start_date": "2014-01-01"
+    "start_date": "2014-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "nt.netball.com.au obituary: 'In 2014, Trish stepped into a leadership role as President of Netball NT.'"
+    }
   },
   {
     "role": "Director",
@@ -52553,7 +52646,12 @@
     ],
     "pollie_slug": "trish-crossin",
     "start_date": "2022-08-01",
-    "end_date": "2024-09-01"
+    "end_date": "2024-09-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "thegordon.edu.au obituary: 'Trish joined The Gordon Board in August 2022' and 'served as Board Chair from September 2024'."
+    }
   },
   {
     "pollie_slug": "margaret-guilfoyle",
@@ -52567,7 +52665,13 @@
     "role_evidence": {
       "url": "https://www.canberratimes.com.au/story/7020649/guilfoyle-broke-glass-ceilings-quietly/",
       "quote": "When John Hewson set up the Liberal Women's Forum in 1993, she became its chair."
-    }
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Canberra Times and Women's Agenda obituaries both state she became chair of the Liberal Women's Forum in 1993, set up by John Hewson."
+    },
+    "start_date": "1993"
   },
   {
     "pollie_slug": "maxine-mckew",
@@ -52580,6 +52684,11 @@
     "role_evidence": {
       "url": "https://www.acoco.org.au/team",
       "quote": "Journalist / Former Member of Parliament / Board Director"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ACOCO's own team page lists Maxine McKew AM as 'Journalist / Former Member of Parliament / Board Director'."
     }
   },
   {
@@ -52593,6 +52702,11 @@
     "role_evidence": {
       "url": "https://www.natureaustralia.org.au/about-us/who-we-are/our-people/maxine-mckew/",
       "quote": "Advisory Board Member"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Nature Conservancy Australia's own people page confirms she is an Advisory Board Member / non-executive director."
     }
   },
   {
@@ -52606,6 +52720,11 @@
     "role_evidence": {
       "url": "https://www.amc.com.au/latest-news/australian-missile-corporation-selected-for-guided-weapons-program",
       "quote": "The AMC's advisory board, chaired by former defence minister Christopher Pyne, comprises some of the sharpest minds in the industry."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "AMC's own site: 'The AMC's advisory board, chaired by former defence minister Christopher Pyne...'"
     }
   },
   {
@@ -52614,11 +52733,17 @@
     "organisation": "Dar al Handasah",
     "category": "Professional Services & Management Consulting",
     "sources": [
-      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/christopher-pyne.html"
+      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/christopher-pyne.html",
+      "https://www.abc.net.au/news/2019-12-18/dar-worley-takeover-mired-in-political-intrigue/11802584"
     ],
     "role_evidence": {
       "url": "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/christopher-pyne.html",
       "quote": "adviser to the Dubai headquartered, international consulting group, Dar al Handasah"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "AICD bio confirms adviser role to Dar al Handasah; corroborated by ABC News on Dar Group / GC Advisory."
     }
   },
   {
@@ -52640,11 +52765,17 @@
     "organisation": "Adelaide Football Club",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/christopher-pyne.html"
+      "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/christopher-pyne.html",
+      "https://researchcentre.army.gov.au/about-us/contributor-biographies/christopher-pyne"
     ],
     "role_evidence": {
       "url": "https://www.aicd.com.au/about-aicd/authors-speakers/n-t/christopher-pyne.html",
       "quote": "Ambassador for the Adelaide Football Club"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "AICD bio confirms Ambassador role; corroborated by researchcentre.army.gov.au contributor bio ('Christopher is an Adelaide Crows Ambassador')."
     }
   },
   {
@@ -52660,7 +52791,12 @@
       "url": "https://michaelwest.com.au/christopher-pyne/",
       "quote": "Executive Consultant, EY Defence (7.6.19–present)"
     },
-    "start_date": "2019-06-07"
+    "start_date": "2019-06-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by michaelwest.com.au revolving-door register and independently by ABC News (27.6.19) on Pyne's EY Defence role; start date matches."
+    }
   },
   {
     "pollie_slug": "christopher-pyne",
@@ -52673,6 +52809,11 @@
     "role_evidence": {
       "url": "https://michaelwest.com.au/war-with-china-zero-logic-yet-the-weapons-lobby-has-42-of-australians-believing-it/",
       "quote": "Chair of its Advisory Board and Investment Committee for a fund investing in weapons systems"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "michaelwest.com.au reports Arawa Capital's own press release naming Pyne Chair of its Advisory Board and Investment Committee."
     }
   },
   {
@@ -52688,7 +52829,12 @@
       "quote": "1995 - 1997 Career position - Chairman, CRC for Temperate Hardwood Forestry"
     },
     "start_date": "1995-01-01",
-    "end_date": "1997-12-31"
+    "end_date": "1997-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms verbatim: '1995 - 1997 Career position - Chairman, CRC for Temperate Hardwood Forestry'."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52703,7 +52849,12 @@
       "quote": "1995 - 1999 Career position - Chairman, CRC for Weed Management Systems"
     },
     "start_date": "1995-01-01",
-    "end_date": "1999-12-31"
+    "end_date": "1999-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms verbatim: '1995 - 1999 Career position - Chairman, CRC for Weed Management Systems'."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52718,7 +52869,12 @@
       "quote": "1995 - 1999 Career position - Chairman, CRC Soil and Land Management"
     },
     "start_date": "1995-01-01",
-    "end_date": "1999-12-31"
+    "end_date": "1999-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms verbatim: '1995 - 1999 Career position - Chairman, CRC Soil and Land Management'."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52733,7 +52889,12 @@
       "quote": "1995 - 2001 Career position - Chairman, CRC for the Sustainable Development of Tropical Savannahs"
     },
     "start_date": "1995-01-01",
-    "end_date": "2001-12-31"
+    "end_date": "2001-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms verbatim: '1995 - 2001 Career position - Chairman, CRC for the Sustainable Development of Tropical Savannahs'."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52748,7 +52909,12 @@
       "quote": "1996 - 2005 Career position - Chairman, CRC for Sensor Signal and Information Processing"
     },
     "start_date": "1996-01-01",
-    "end_date": "2005-12-31"
+    "end_date": "2005-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms verbatim: '1996 - 2005 Career position - Chairman, CRC for Sensor Signal and Information Processing'."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52763,7 +52929,12 @@
       "quote": "1997 - 2005 Career position - Chairman, CRC Sustainable Production Forestry"
     },
     "start_date": "1997-01-01",
-    "end_date": "2005-12-31"
+    "end_date": "2005-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms verbatim: '1997 - 2005 Career position - Chairman, CRC Sustainable Production Forestry'."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52772,14 +52943,20 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.eoas.info/biogs/P007478b.htm",
-      "https://johnmenadue.com/post/2023/04/vale-john-kerin-an-authentic-hero-of-our-time/"
+      "https://johnmenadue.com/post/2023/04/vale-john-kerin-an-authentic-hero-of-our-time/",
+      "https://www.crawfordfund.org/about/board-of-directors/board-john-kerin/"
     ],
     "role_evidence": {
       "url": "https://www.eoas.info/biogs/P007478b.htm",
       "quote": "1997 - 2007 Career position - National Committee Member, UNICEF Australia"
     },
     "start_date": "1997-01-01",
-    "end_date": "2007-12-31"
+    "end_date": "2007-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms '1997 - 2007 - National Committee Member, UNICEF Australia'; corroborated by johnmenadue.com obituary and the Crawford Fund board bio."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52794,7 +52971,12 @@
       "quote": "1999 - 2001 Career position - Chairman, Queensland Trawl Management Advisory Committee"
     },
     "start_date": "1999-01-01",
-    "end_date": "2001-12-31"
+    "end_date": "2001-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms verbatim: '1999 - 2001 Career position - Chairman, Queensland Trawl Management Advisory Committee'."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52809,7 +52991,12 @@
       "quote": "2001 - 2002 Career position - Member, Whitlam Institute"
     },
     "start_date": "2001-01-01",
-    "end_date": "2002-12-31"
+    "end_date": "2002-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms verbatim: '2001 - 2002 Career position - Member, Whitlam Institute'."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52825,7 +53012,12 @@
       "quote": "2001 - 2004 Career position - Chairman, New South Wales State Forests"
     },
     "start_date": "2001-01-01",
-    "end_date": "2004-12-31"
+    "end_date": "2004-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms '2001 - 2004 - Chairman, New South Wales State Forests', corroborated by johnmenadue.com obituary."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52833,14 +53025,20 @@
     "organisation": "Cooperative Research Centre for Tropical Savannah Management",
     "category": "Environment, Climate & Sustainability",
     "sources": [
-      "https://www.eoas.info/biogs/P007478b.htm"
+      "https://www.eoas.info/biogs/P007478b.htm",
+      "https://www.crawfordfund.org/about/board-of-directors/board-john-kerin/"
     ],
     "role_evidence": {
       "url": "https://www.eoas.info/biogs/P007478b.htm",
       "quote": "2001 - 2008 Career position - Chairman, CRC for Tropical Savannah Management"
     },
     "start_date": "2001-01-01",
-    "end_date": "2008-12-31"
+    "end_date": "2008-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms '2001 - 2008 - Chairman, CRC for Tropical Savannah Management', corroborated by the Crawford Fund board bio."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52855,7 +53053,12 @@
       "quote": "2001 - 2008 Career position - Chairman, CRC for Australian Weed Management"
     },
     "start_date": "2001-01-01",
-    "end_date": "2008-12-31"
+    "end_date": "2008-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms verbatim: '2001 - 2008 Career position - Chairman, CRC for Australian Weed Management'."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52870,7 +53073,12 @@
       "quote": "2002 - 2004 Career position - Member, Safe Production New South Wales Advisory Committee"
     },
     "start_date": "2002-01-01",
-    "end_date": "2004-12-31"
+    "end_date": "2004-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms verbatim: '2002 - 2004 Career position - Member, Safe Production New South Wales Advisory Committee'."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52900,7 +53108,12 @@
       "quote": "2003 - 2005 Career position - Member of Council, Birds Australia"
     },
     "start_date": "2003-01-01",
-    "end_date": "2005-12-31"
+    "end_date": "2005-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms '2003 - 2005 - Member of Council, Birds Australia'."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52909,14 +53122,20 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://www.eoas.info/biogs/P007478b.htm",
-      "https://www.crawfordfund.org/news/vale-john-kerin-ao/"
+      "https://www.crawfordfund.org/news/vale-john-kerin-ao/",
+      "https://www.crawfordfund.org/about/board-of-directors/board-john-kerin/"
     ],
     "role_evidence": {
       "url": "https://www.eoas.info/biogs/P007478b.htm",
       "quote": "2004 - 2006 Career position - Chairman, National Ovine Johne's Disease Program Advisory Committee"
     },
     "start_date": "2004-01-01",
-    "end_date": "2006-12-31"
+    "end_date": "2006-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms '2004 - 2006 - Chairman, National Ovine Johne's Disease Program Advisory Committee', corroborated by Crawford Fund vale article and board bio."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52931,7 +53150,12 @@
       "quote": "2004 - 2007 Career position - President, ACT Branch, Australian Agriculture and Research Economics Society"
     },
     "start_date": "2004-01-01",
-    "end_date": "2007-12-31"
+    "end_date": "2007-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms (near-verbatim) '2004 - 2007 - President, ACT Branch, Australian Agriculture and Research Economics Society' (same body as AARES)."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52939,14 +53163,20 @@
     "organisation": "Interim Committee, Australian Weeds Research Centre",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
-      "https://www.eoas.info/biogs/P007478b.htm"
+      "https://www.eoas.info/biogs/P007478b.htm",
+      "https://www.crawfordfund.org/about/board-of-directors/board-john-kerin/"
     ],
     "role_evidence": {
       "url": "https://www.eoas.info/biogs/P007478b.htm",
       "quote": "2008 - 2012 Career position - Chairman, Interim Committee, Australian Weeds Research Centre"
     },
     "start_date": "2008-01-01",
-    "end_date": "2012-12-31"
+    "end_date": "2012-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms '2008 - 2012 - Chairman, Interim Committee, Australian Weeds Research Centre', corroborated by Crawford Fund board bio."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52961,7 +53191,12 @@
       "quote": "2009 - 2011 Career position - Board Member, Ian Clunies Ross Memorial Foundation"
     },
     "start_date": "2009-01-01",
-    "end_date": "2011-12-31"
+    "end_date": "2011-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms '2009 - 2011 - Board Member, Ian Clunies Ross Memorial Foundation'."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52976,7 +53211,12 @@
       "quote": "2010 - 2012 Career position - Chairman, Weeds Advisory Committee, Rural Industries Research and Development Corporation"
     },
     "start_date": "2010-01-01",
-    "end_date": "2012-12-31"
+    "end_date": "2012-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms '2010 - 2012 - Chairman, Weeds Advisory Committee, Rural Industries Research and Development Corporation'."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -52991,7 +53231,12 @@
       "quote": "2012 - 2015 Career position - Chairman, Living Landscapes, Bundanoon Trust"
     },
     "start_date": "2012-01-01",
-    "end_date": "2015-12-31"
+    "end_date": "2015-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms '2012 - 2015 - Chairman, Living Landscapes, Bundanoon Trust'."
+    }
   },
   {
     "pollie_slug": "john-kerin",
@@ -53006,7 +53251,12 @@
       "quote": "2013 - 2014 Career position - Adjunct Professor, Australian National University"
     },
     "start_date": "2013-01-01",
-    "end_date": "2014-12-31"
+    "end_date": "2014-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "eoas.info bio confirms '2013 - 2014 - Adjunct Professor, Australian National University'."
+    }
   },
   {
     "pollie_slug": "janelle-saffin",
@@ -53020,6 +53270,11 @@
     "role_evidence": {
       "url": "https://janellesaffin.com.au/about/",
       "quote": "She is Patron of the Australia-Myanmar University Constitutional Democracy Project"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by her own bio page and independently by the New England Times (2026-08-09) article on her human rights award."
     }
   },
   {
@@ -53048,7 +53303,12 @@
       "url": "https://tas.liberal.org.au/our-team/guy-barnett",
       "quote": "Deputy Premier, Attorney-General, Minister for Justice Corrections and Rehabilitation, Minister for Small Business Trade and Consumer Affairs, Minister for Environment and Climate Change, Member for Lyons"
     },
-    "start_date": "2024-04-11"
+    "start_date": "2024-04-11",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by official Tas Liberal bio page and Wikipedia dating the appointment to April 2024."
+    }
   },
   {
     "pollie_slug": "guy-barnett",
@@ -53063,7 +53323,12 @@
       "url": "https://tas.liberal.org.au/our-team/guy-barnett",
       "quote": "Deputy Premier, Attorney-General, Minister for Justice Corrections and Rehabilitation, Minister for Small Business Trade and Consumer Affairs, Minister for Environment and Climate Change, Member for Lyons"
     },
-    "start_date": "2025-08-07"
+    "start_date": "2025-08-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by official Tas Liberal bio page; Wikipedia dates appointment to August 2025."
+    }
   },
   {
     "pollie_slug": "guy-barnett",
@@ -53078,7 +53343,12 @@
       "url": "https://pulsetasmania.com.au/news/rockliff-announces-reshuffled-cabinet-after-madeleine-ogilvie-quits/",
       "quote": "Deputy Premier Guy Barnett will take on the Environment and Climate Change portfolio."
     },
-    "start_date": "2026-06-05"
+    "start_date": "2026-06-05",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by pulsetasmania.com.au report on the 5 June 2026 cabinet reshuffle and the official Tas Liberal bio page."
+    }
   },
   {
     "pollie_slug": "bernie-ripoll",
@@ -53091,6 +53361,11 @@
     "role_evidence": {
       "url": "https://www.wholesaleinvestor.com/credi-raises-465k-from-successful-first-round-over-50m-of-loans-in-6-months/",
       "quote": "Andrew Chick has joined Bernie Ripoll on our advisory board."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "wholesaleinvestor.com: 'Andrew Chick has joined Bernie Ripoll on our advisory board' (Dec 2017); identity corroborated by SAS Group/Crunchbase bios."
     }
   },
   {
@@ -53105,6 +53380,11 @@
     "role_evidence": {
       "url": "https://www.harmreductionaustralia.org.au/peter-baume/",
       "quote": "Now Facilitator in Medicine, University of New South Wales."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Harm Reduction Australia bio and Wikipedia both confirm Facilitator in Medicine role at UNSW."
     }
   },
   {
@@ -53113,11 +53393,17 @@
     "organisation": "Australian Community Media",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://www.canberratimes.com.au/profile/1408/amanda-vanstone"
+      "https://www.canberratimes.com.au/profile/1408/amanda-vanstone",
+      "https://www.begadistrictnews.com.au/story/9331269/amanda-vanstone-welcome-to-country-ceremonies-spark-fatigue/"
     ],
     "role_evidence": {
       "url": "https://www.canberratimes.com.au/profile/1408/amanda-vanstone",
       "quote": "She writes fortnightly for ACM."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Canberra Times profile confirms 'She writes fortnightly for ACM'; columns syndicated across multiple ACM mastheads."
     }
   }
 ]
