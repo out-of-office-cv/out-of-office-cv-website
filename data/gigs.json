@@ -53700,5 +53700,167 @@
     ],
     "pollie_slug": "nova-peris",
     "start_date": "2024-06-21"
+  },
+  {
+    "pollie_slug": "malcolm-fraser",
+    "role": "Senior Advisor",
+    "organisation": "International Crisis Group",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://www.asrc.org.au/wp-content/uploads/2013/05/mfraser.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.asrc.org.au/wp-content/uploads/2013/05/mfraser.pdf",
+      "quote": "Senior Advisor to the ICG 2000 - …"
+    },
+    "start_date": "2000-01-01"
+  },
+  {
+    "pollie_slug": "malcolm-fraser",
+    "role": "Director",
+    "organisation": "Australian International Health Institute",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.asrc.org.au/wp-content/uploads/2013/05/mfraser.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.asrc.org.au/wp-content/uploads/2013/05/mfraser.pdf",
+      "quote": "Australian International Health Institute Board Member, 2001 - …"
+    },
+    "start_date": "2001-01-01"
+  },
+  {
+    "pollie_slug": "malcolm-fraser",
+    "role": "Joint Patron",
+    "organisation": "Journey of Healing, National Sorry Day Committee",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.asrc.org.au/wp-content/uploads/2013/05/mfraser.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.asrc.org.au/wp-content/uploads/2013/05/mfraser.pdf",
+      "quote": "Joint Patron: Journey of Healing, National Sorry Day Committee 2002-2006."
+    },
+    "start_date": "2002-01-01",
+    "end_date": "2006-12-31"
+  },
+  {
+    "pollie_slug": "malcolm-fraser",
+    "role": "Patron",
+    "organisation": "Stolen Generations Alliance",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.asrc.org.au/wp-content/uploads/2013/05/mfraser.pdf",
+      "https://catalogue.nla.gov.au/catalog/4504928"
+    ],
+    "role_evidence": {
+      "url": "https://catalogue.nla.gov.au/catalog/4504928",
+      "quote": "the patrons are Professor Lowitja O'Donoghue and Malcolm Fraser"
+    },
+    "start_date": "2007-01-01"
+  },
+  {
+    "pollie_slug": "stephen-loosley",
+    "role": "Deputy Chair",
+    "organisation": "Asia Society Australia",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://biography.senate.gov.au/loosley-stephen/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/loosley-stephen/",
+      "quote": "a deputy chairman of the Asia Society Australia (from 2012)"
+    }
+  },
+  {
+    "pollie_slug": "stephen-loosley",
+    "role": "Senior Vice President",
+    "organisation": "European Australian Business Council",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://biography.senate.gov.au/loosley-stephen/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/loosley-stephen/",
+      "quote": "a senior vice president of the European Australian Business Council (2010–14)"
+    }
+  },
+  {
+    "pollie_slug": "stephen-loosley",
+    "role": "Book Reviewer",
+    "organisation": "The Australian",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://biography.senate.gov.au/loosley-stephen/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/loosley-stephen/",
+      "quote": "He has been a published author, a book reviewer for The Australian and The Spectator Australia and a regular media commentator on Australian and US politics."
+    }
+  },
+  {
+    "pollie_slug": "stephen-loosley",
+    "role": "Book Reviewer",
+    "organisation": "The Spectator Australia",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://biography.senate.gov.au/loosley-stephen/"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/loosley-stephen/",
+      "quote": "He has been a published author, a book reviewer for The Australian and The Spectator Australia and a regular media commentator on Australian and US politics."
+    }
+  },
+  {
+    "pollie_slug": "stephen-loosley",
+    "role": "Fellow",
+    "organisation": "Royal Society of New South Wales",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.royalsoc.org.au/fellows/stephen-loosley-fellow-2018-sydney/"
+    ],
+    "role_evidence": {
+      "url": "https://www.royalsoc.org.au/fellows/stephen-loosley-fellow-2018-sydney/",
+      "quote": "Stephen Loosley, Fellow (2018) : Sydney"
+    }
+  },
+  {
+    "pollie_slug": "tim-fischer",
+    "role": "Patron",
+    "organisation": "Country Education Foundation of Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.miragenews.com/cef-marks-30-years-of-profound-impact-on-1123862/"
+    ],
+    "role_evidence": {
+      "url": "https://www.miragenews.com/cef-marks-30-years-of-profound-impact-on-1123862/",
+      "quote": "The Hon. Tim Fischer, AC, served as CEF Patron for more than 15 years"
+    }
+  },
+  {
+    "pollie_slug": "john-brumby",
+    "role": "Patron",
+    "organisation": "Victorian Goldfields World Heritage Bid",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://goldfieldsworldheritage.com.au/patron/the-hon-john-brumby-ao/"
+    ],
+    "role_evidence": {
+      "url": "https://goldfieldsworldheritage.com.au/patron/the-hon-john-brumby-ao/",
+      "quote": "I am very proud to be a patron of the bid to have the Goldfields declared a UNESCO World Heritage Site."
+    }
+  },
+  {
+    "pollie_slug": "john-brumby",
+    "role": "Chair of Trustees",
+    "organisation": "Joe Welch Bursary Trust",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.acyd.org.au/past-speakers/2013"
+    ],
+    "role_evidence": {
+      "url": "https://www.acyd.org.au/past-speakers/2013",
+      "quote": "Mr Brumby is also the Chairman of Trustees of the Joe Welch Bursary Trust and an Australia Day Ambassador."
+    }
   }
 ]
