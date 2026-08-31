@@ -53414,7 +53414,11 @@
       "https://avi.org.au/avi-patron-president-announcement/"
     ],
     "pollie_slug": "natasha-stott-despoja",
-    "start_date": "2025-11-10"
+    "start_date": "2025-11-10",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Board Member",
@@ -53424,7 +53428,11 @@
       "https://www.torrens.edu.au/stories/newsroom/university-news/natasha-stott-despoja-ao-appointed-to-governing-board"
     ],
     "pollie_slug": "natasha-stott-despoja",
-    "start_date": "2026-05-07"
+    "start_date": "2026-05-07",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -53433,7 +53441,11 @@
     "sources": [
       "https://www.apln.network/members/australia/natasha-stott-despoja/bio"
     ],
-    "pollie_slug": "natasha-stott-despoja"
+    "pollie_slug": "natasha-stott-despoja",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Ambassador",
@@ -53442,7 +53454,11 @@
     "sources": [
       "https://www.aiiw.org.au/team-profiles/natasha-stott-despoja-ao/"
     ],
-    "pollie_slug": "natasha-stott-despoja"
+    "pollie_slug": "natasha-stott-despoja",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Advisory Group Member",
@@ -53451,7 +53467,11 @@
     "sources": [
       "https://www.apln.network/members/australia/natasha-stott-despoja/bio"
     ],
-    "pollie_slug": "natasha-stott-despoja"
+    "pollie_slug": "natasha-stott-despoja",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Women's World Cup 2023 Steering Committee Member",
@@ -53460,7 +53480,11 @@
     "sources": [
       "https://www.apln.network/members/australia/natasha-stott-despoja/bio"
     ],
-    "pollie_slug": "natasha-stott-despoja"
+    "pollie_slug": "natasha-stott-despoja",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    }
   },
   {
     "role": "Council Member",
@@ -53468,18 +53492,31 @@
     "category": "Education, Academia & Research",
     "sources": [
       "https://www.torrens.edu.au/stories/newsroom/university-news/natasha-stott-despoja-ao-appointed-to-governing-board",
-      "https://www.apln.network/members/australia/natasha-stott-despoja/bio"
+      "https://www.apln.network/members/australia/natasha-stott-despoja/bio",
+      "https://www.anu.edu.au/news/all-news/council-news-meeting-30-july-2021",
+      "https://www.anu.edu.au/about/governance/committees/ms-natasha-stott-despoja-ao"
     ],
-    "pollie_slug": "natasha-stott-despoja"
+    "pollie_slug": "natasha-stott-despoja",
+    "verification": {
+      "decision": "verified",
+      "by": "claude"
+    },
+    "end_date": "2021-06-30"
   },
   {
     "role": "Chair",
     "organisation": "Reconciliation Action Plan Committee, BWM Dentsu",
     "category": "Media, Communications & Public Relations",
     "sources": [
-      "https://omny.fm/shows/talking-business/dr-aden-ridgeway-partner-cox-inall-ridgeway-and-ch"
+      "https://omny.fm/shows/talking-business/dr-aden-ridgeway-partner-cox-inall-ridgeway-and-ch",
+      "https://www.dentsu.com/au/en/news-releases/bwm-dentsu-group-launches-reconciliation-action-plan-to-help-address-inequality-in-the-creative-and-media-sector"
     ],
-    "pollie_slug": "aden-ridgeway"
+    "pollie_slug": "aden-ridgeway",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "omny.fm podcast page states his title: 'Dr. Aden Ridgeway Partner, Cox Inall Ridgeway and Chairman, Reconciliation Action Plan (RAP) Committee, BWM Dentsu.' Corroborated by Dentsu press release."
+    }
   },
   {
     "role": "Non-Executive Chair",
@@ -53488,7 +53525,12 @@
     "sources": [
       "https://cbmagroup.com.au/board-and-senior-management/"
     ],
-    "pollie_slug": "andrew-robb"
+    "pollie_slug": "andrew-robb",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "cbmagroup.com.au board page: 'The Hon Andrew Robb AO — Non Executive Chairman'."
+    }
   },
   {
     "role": "Chair",
@@ -53497,7 +53539,12 @@
     "sources": [
       "https://www.andrewrobb.com.au/biography-1"
     ],
-    "pollie_slug": "andrew-robb"
+    "pollie_slug": "andrew-robb",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "andrewrobb.com.au biography page confirms Chairman of BOW Projects."
+    }
   },
   {
     "role": "Board Member",
@@ -53506,7 +53553,12 @@
     "sources": [
       "https://www.kcl.ac.uk/people/ros-kelly"
     ],
-    "pollie_slug": "roslyn-kelly"
+    "pollie_slug": "roslyn-kelly",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "King's College London profile page identifies her as 'Former Member of Parliament for Canberra and Government Minister' and 'Board Member for the Menzies Australia Institute'."
+    }
   },
   {
     "role": "Director",
@@ -53515,16 +53567,27 @@
     "sources": [
       "https://www.abc.net.au/news/2022-05-02/aspen-medical-political-access-pandemic-profits-four-corners/101022230"
     ],
-    "pollie_slug": "michael-wooldridge"
+    "pollie_slug": "michael-wooldridge",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ABC/Four Corners (2022-05-02) confirms he is 'currently a director of Aspen's $1.3 billion Indonesian joint venture'."
+    }
   },
   {
     "role": "Professor of Practice",
     "organisation": "Deakin University",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://experts.deakin.edu.au/66500-chris-pearce"
+      "https://experts.deakin.edu.au/66500-chris-pearce",
+      "https://en.wikipedia.org/wiki/Chris_Pearce_(politician)"
     ],
-    "pollie_slug": "chris-pearce"
+    "pollie_slug": "chris-pearce",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Deakin's own staff directory lists 'Professor of Practice' at Deakin Business School. Wikipedia corroborates: 'In 2019, Pearce was appointed adjunct professor at Deakin Business School.'"
+    }
   },
   {
     "role": "Director",
@@ -53533,7 +53596,14 @@
     "sources": [
       "https://frrr.org.au/blog/tag/simon-crean/"
     ],
-    "pollie_slug": "simon-crean"
+    "pollie_slug": "simon-crean",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "FRRR's own tribute page: 'FRRR's Board and staff mourn the passing of the Honourable Simon Crean, who was a Director since 2019.'"
+    },
+    "start_date": "2019-07-01",
+    "end_date": "2023-06-25"
   },
   {
     "role": "Director",
@@ -53543,16 +53613,27 @@
       "https://www.playgroupaustralia.org.au/playgroup-australia-board-expansion/"
     ],
     "pollie_slug": "stephen-martin",
-    "start_date": "2022-11-28"
+    "start_date": "2022-11-28",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "playgroupaustralia.org.au confirms 'Professor the Hon Stephen Martin AO: A former Speaker of the House of Representatives' appointed director, 28 Nov 2022."
+    }
   },
   {
     "role": "Patron",
     "organisation": "Illawarra Academy of Sport",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://ias.org.au/wp-content/uploads/2021/08/IASyearbook_2009.pdf"
+      "https://ias.org.au/wp-content/uploads/2021/08/IASyearbook_2009.pdf",
+      "https://adb.anu.edu.au/biography/martin-stephen-paul-28210"
     ],
-    "pollie_slug": "stephen-martin"
+    "pollie_slug": "stephen-martin",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Australian Dictionary of Biography entry for Stephen Paul Martin states 'He was also a patron of the Illawarra Academy of Sport.'"
+    }
   },
   {
     "role": "Distinguished Visiting Fellow",
@@ -53561,7 +53642,12 @@
     "sources": [
       "https://www.uts.edu.au/research/centres/australia-china-relations-institute/about/contributor/bob-carr"
     ],
-    "pollie_slug": "bob-carr"
+    "pollie_slug": "bob-carr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UTS ACRI contributor page: 'He is a recipient of the RSIS Distinguished Visiting Fellowship from Nanyang Technological University.'"
+    }
   },
   {
     "role": "Honorary Scholar",
@@ -53570,106 +53656,198 @@
     "sources": [
       "https://www.uts.edu.au/research/centres/australia-china-relations-institute/about/contributor/bob-carr"
     ],
-    "pollie_slug": "bob-carr"
+    "pollie_slug": "bob-carr",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UTS ACRI contributor page: 'He has served as Honorary Scholar of the Australian American Leadership Dialogue.'"
+    }
   },
   {
     "role": "Director",
     "organisation": "Cambia",
     "category": "Pharmaceutical & Biotechnology",
     "sources": [
-      "https://www.michaellavarch.com/"
+      "https://www.michaellavarch.com/",
+      "https://www.michaellavarch.com/wp-content/uploads/2018/08/Michael-Lavarch-CV.pdf"
     ],
-    "pollie_slug": "michael-lavarch"
+    "pollie_slug": "michael-lavarch",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by Lavarch's own CV PDF: 'Director, Cambia' 2009-2012, described as 'an independent non-profit institute creating new technologies, tools and paradigms to promote change and enable innovation' — matches the real Cambia biotech nonprofit."
+    },
+    "start_date": "2009",
+    "end_date": "2012"
   },
   {
     "role": "Chair, Consultative Committee",
     "organisation": "Council of Australian Governments National Legal Profession Reform Taskforce",
     "category": "Legal & Judicial",
     "sources": [
-      "https://www.michaellavarch.com/"
+      "https://www.michaellavarch.com/",
+      "https://www.michaellavarch.com/wp-content/uploads/2018/08/Michael-Lavarch-CV.pdf"
     ],
-    "pollie_slug": "michael-lavarch"
+    "pollie_slug": "michael-lavarch",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CV PDF confirms 'Chair of Consultative Committee to COAG NLPR Taskforce', 2009-2010."
+    },
+    "start_date": "2009",
+    "end_date": "2010"
   },
   {
     "role": "Director",
     "organisation": "Australian Stock Exchange Supervisory Review",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.michaellavarch.com/"
+      "https://www.michaellavarch.com/",
+      "https://www.michaellavarch.com/wp-content/uploads/2018/08/Michael-Lavarch-CV.pdf"
     ],
-    "pollie_slug": "michael-lavarch"
+    "pollie_slug": "michael-lavarch",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CV PDF: 'Member, Board of Directors, Australian Stock Exchange Supervisory Review (ASXSR) - 2004-2006.'"
+    },
+    "start_date": "2004",
+    "end_date": "2006"
   },
   {
     "role": "Chair",
     "organisation": "Millhouse IAG",
     "category": "Financial Services and Banking",
     "sources": [
-      "https://www.michaellavarch.com/"
+      "https://www.michaellavarch.com/",
+      "https://www.michaellavarch.com/wp-content/uploads/2018/08/Michael-Lavarch-CV.pdf"
     ],
-    "pollie_slug": "michael-lavarch"
+    "pollie_slug": "michael-lavarch",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CV PDF: 'Chairman, Millhouse IAG' 1998-2001."
+    },
+    "start_date": "1998",
+    "end_date": "2001"
   },
   {
     "role": "Director",
     "organisation": "Colly Cotton",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
-      "https://www.michaellavarch.com/"
+      "https://www.michaellavarch.com/",
+      "https://www.michaellavarch.com/wp-content/uploads/2018/08/Michael-Lavarch-CV.pdf"
     ],
-    "pollie_slug": "michael-lavarch"
+    "pollie_slug": "michael-lavarch",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CV PDF: 'Colly Cotton (1996-1998).'"
+    },
+    "start_date": "1996",
+    "end_date": "1998"
   },
   {
     "role": "Advisory Board Member",
     "organisation": "Institute for Ethics, Governance and Law, Griffith University",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.michaellavarch.com/"
+      "https://www.michaellavarch.com/",
+      "https://www.michaellavarch.com/wp-content/uploads/2018/08/Michael-Lavarch-CV.pdf"
     ],
-    "pollie_slug": "michael-lavarch"
+    "pollie_slug": "michael-lavarch",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CV PDF: 'Advisory Board, Institute for Ethics, Governance and Law, Griffith University' from 2012."
+    },
+    "start_date": "2012"
   },
   {
     "role": "Advisory Board Member",
     "organisation": "Key Centre for Law, Ethics and Governance, Griffith University",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.michaellavarch.com/"
+      "https://www.michaellavarch.com/",
+      "https://www.michaellavarch.com/wp-content/uploads/2018/08/Michael-Lavarch-CV.pdf"
     ],
-    "pollie_slug": "michael-lavarch"
+    "pollie_slug": "michael-lavarch",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CV PDF: 'From 1997-2004 I was a Member of the Advisory Board of the Key Centre for Law, Ethics and Governance at Griffith University.'"
+    },
+    "start_date": "1997",
+    "end_date": "2004"
   },
   {
     "role": "Director",
     "organisation": "Plan Australia",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.michaellavarch.com/"
+      "https://www.michaellavarch.com/",
+      "https://www.michaellavarch.com/wp-content/uploads/2018/08/Michael-Lavarch-CV.pdf"
     ],
-    "pollie_slug": "michael-lavarch"
+    "pollie_slug": "michael-lavarch",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CV PDF: 'Director, Plan Australia' 1997-2003."
+    },
+    "start_date": "1997",
+    "end_date": "2003"
   },
   {
     "role": "Advisory Board Member",
     "organisation": "Forde Foundation",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.michaellavarch.com/"
+      "https://www.michaellavarch.com/",
+      "https://www.michaellavarch.com/wp-content/uploads/2018/08/Michael-Lavarch-CV.pdf"
     ],
-    "pollie_slug": "michael-lavarch"
+    "pollie_slug": "michael-lavarch",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CV PDF: 'Advisory Board, Forde Foundation' 1998-2004."
+    },
+    "start_date": "1998",
+    "end_date": "2004"
   },
   {
     "role": "Member",
     "organisation": "Senate of the University of Queensland",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.michaellavarch.com/"
+      "https://www.michaellavarch.com/",
+      "https://www.michaellavarch.com/wp-content/uploads/2018/08/Michael-Lavarch-CV.pdf"
     ],
-    "pollie_slug": "michael-lavarch"
+    "pollie_slug": "michael-lavarch",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CV PDF: Member of the Senate of the University of Queensland, 1999-2002."
+    },
+    "start_date": "1999",
+    "end_date": "2002"
   },
   {
     "role": "Chair, Standing Committee on Legal Practice",
     "organisation": "Council of Australian Law Deans",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://www.michaellavarch.com/"
+      "https://www.michaellavarch.com/",
+      "https://www.michaellavarch.com/wp-content/uploads/2018/08/Michael-Lavarch-CV.pdf"
     ],
-    "pollie_slug": "michael-lavarch"
+    "pollie_slug": "michael-lavarch",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "CV PDF: 'Chair, Standing Committee on Legal Practice, CALD' 2006-2012."
+    },
+    "start_date": "2006",
+    "end_date": "2012"
   },
   {
     "role": "Chair",
@@ -53679,7 +53857,12 @@
       "https://www.tvetaustralia.com.au/board_of_directors/john_dawkins",
       "https://www.sbs.com.au/news/article/dawkins-quits-as-vocation-chairman/1pdu3gzh7"
     ],
-    "pollie_slug": "john-dawkins"
+    "pollie_slug": "john-dawkins",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "tvetaustralia.com.au board bio: 'He is Chair of the Australian Qualifications Framework Council.'"
+    }
   },
   {
     "role": "Chair",
@@ -53688,7 +53871,12 @@
     "sources": [
       "https://www.sbs.com.au/news/article/dawkins-quits-as-vocation-chairman/1pdu3gzh7"
     ],
-    "pollie_slug": "john-dawkins"
+    "pollie_slug": "john-dawkins",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "SBS article: 'At the time, he chaired the National Skills Standards Council and the Australian Qualifications Framework Council.'"
+    }
   },
   {
     "role": "Patron",
@@ -53699,7 +53887,12 @@
       "https://www.australianjewishnews.com/andrews-and-peris-to-become-patrons-of-labor-friends-of-israel/"
     ],
     "pollie_slug": "nova-peris",
-    "start_date": "2024-06-21"
+    "start_date": "2024-06-21",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Australian Jewish News identifies her as 'former Labor Senator Nova Peris' who agreed to serve as inaugural patron. Corroborated by Labor Friends of Israel's own patrons page."
+    }
   },
   {
     "pollie_slug": "malcolm-fraser",
@@ -53713,7 +53906,12 @@
       "url": "https://www.asrc.org.au/wp-content/uploads/2013/05/mfraser.pdf",
       "quote": "Senior Advisor to the ICG 2000 - …"
     },
-    "start_date": "2000-01-01"
+    "start_date": "2000-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ASRC biography PDF confirms 'Senior Advisor to the ICG 2000 - …'."
+    }
   },
   {
     "pollie_slug": "malcolm-fraser",
@@ -53727,7 +53925,12 @@
       "url": "https://www.asrc.org.au/wp-content/uploads/2013/05/mfraser.pdf",
       "quote": "Australian International Health Institute Board Member, 2001 - …"
     },
-    "start_date": "2001-01-01"
+    "start_date": "2001-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ASRC biography PDF confirms 'Australian International Health Institute Board Member, 2001 - …'."
+    }
   },
   {
     "pollie_slug": "malcolm-fraser",
@@ -53742,7 +53945,12 @@
       "quote": "Joint Patron: Journey of Healing, National Sorry Day Committee 2002-2006."
     },
     "start_date": "2002-01-01",
-    "end_date": "2006-12-31"
+    "end_date": "2006-12-31",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ASRC biography PDF confirms 'Joint Patron: Journey of Healing, National Sorry Day Committee 2002-2006'."
+    }
   },
   {
     "pollie_slug": "malcolm-fraser",
@@ -53757,7 +53965,12 @@
       "url": "https://catalogue.nla.gov.au/catalog/4504928",
       "quote": "the patrons are Professor Lowitja O'Donoghue and Malcolm Fraser"
     },
-    "start_date": "2007-01-01"
+    "start_date": "2007-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ASRC biography PDF and NLA catalogue record both confirm Patron of Stolen Generations Alliance from 2007."
+    }
   },
   {
     "pollie_slug": "stephen-loosley",
@@ -53770,6 +53983,11 @@
     "role_evidence": {
       "url": "https://biography.senate.gov.au/loosley-stephen/",
       "quote": "a deputy chairman of the Asia Society Australia (from 2012)"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Australian Senate's official Biographical Dictionary page: 'a deputy chairman of the Asia Society Australia (from 2012)'."
     }
   },
   {
@@ -53783,6 +54001,11 @@
     "role_evidence": {
       "url": "https://biography.senate.gov.au/loosley-stephen/",
       "quote": "a senior vice president of the European Australian Business Council (2010–14)"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography page: 'a senior vice president of the European Australian Business Council (2010–14)'."
     }
   },
   {
@@ -53796,6 +54019,11 @@
     "role_evidence": {
       "url": "https://biography.senate.gov.au/loosley-stephen/",
       "quote": "He has been a published author, a book reviewer for The Australian and The Spectator Australia and a regular media commentator on Australian and US politics."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography page confirms book reviewer role at The Australian."
     }
   },
   {
@@ -53809,6 +54037,11 @@
     "role_evidence": {
       "url": "https://biography.senate.gov.au/loosley-stephen/",
       "quote": "He has been a published author, a book reviewer for The Australian and The Spectator Australia and a regular media commentator on Australian and US politics."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography page confirms book reviewer role at The Spectator Australia."
     }
   },
   {
@@ -53822,6 +54055,11 @@
     "role_evidence": {
       "url": "https://www.royalsoc.org.au/fellows/stephen-loosley-fellow-2018-sydney/",
       "quote": "Stephen Loosley, Fellow (2018) : Sydney"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Royal Society of NSW fellows page: 'Stephen Loosley, Fellow (2018): Sydney'."
     }
   },
   {
@@ -53830,11 +54068,17 @@
     "organisation": "Country Education Foundation of Australia",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.miragenews.com/cef-marks-30-years-of-profound-impact-on-1123862/"
+      "https://www.miragenews.com/cef-marks-30-years-of-profound-impact-on-1123862/",
+      "https://cef.org.au/our-people/patrons-ambassadors/"
     ],
     "role_evidence": {
       "url": "https://www.miragenews.com/cef-marks-30-years-of-profound-impact-on-1123862/",
       "quote": "The Hon. Tim Fischer, AC, served as CEF Patron for more than 15 years"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Mirage News confirms 'The Hon. Tim Fischer, AC, served as CEF Patron for more than 15 years.' CEF's own Patrons & Ambassadors page lists him as 'Former CEF Patron (2003-2008, 2014-2019)'."
     }
   },
   {
@@ -53848,6 +54092,11 @@
     "role_evidence": {
       "url": "https://goldfieldsworldheritage.com.au/patron/the-hon-john-brumby-ao/",
       "quote": "I am very proud to be a patron of the bid to have the Goldfields declared a UNESCO World Heritage Site."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "goldfieldsworldheritage.com.au patron page confirms role and identity (Federal MHR for Bendigo, Premier of Victoria)."
     }
   },
   {
@@ -53861,6 +54110,11 @@
     "role_evidence": {
       "url": "https://www.acyd.org.au/past-speakers/2013",
       "quote": "Mr Brumby is also the Chairman of Trustees of the Joe Welch Bursary Trust and an Australia Day Ambassador."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "acyd.org.au/past-speakers/2013 confirms Chairman of Trustees of the Joe Welch Bursary Trust."
     }
   }
 ]
