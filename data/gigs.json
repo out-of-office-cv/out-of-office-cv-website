@@ -45541,7 +45541,12 @@
     "sources": [
       "https://independentaustralia.net/politics/politics-display/remembering-manfred-cross-polite-politician-in-a-world-of-tough-fights,18314"
     ],
-    "pollie_slug": "manfred-cross"
+    "pollie_slug": "manfred-cross",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited Independent Australia obituary/tribute (specifically about this former ALP Member for Brisbane) states he was 'a Fellow of the Historical Society of Queensland, writing several articles for the society's Bulletin.' Confirmed the organisation's full official name is 'The Royal Historical Society of Queensland' (via queenslandhistory.org, its own site), consistent with the record's organisation name — the article's shorthand refers to the same body. This is a dedicated piece about this specific individual (former MP for Brisbane, 1961-75 and 1980-90), not a namesake, so identity and role are both established by the source."
+    }
   },
   {
     "role": "President",
@@ -49190,11 +49195,17 @@
     "organisation": "Canterbury-Bankstown Bulldogs",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://en.wikipedia.org/wiki/Paul_Keating"
+      "https://en.wikipedia.org/wiki/Paul_Keating",
+      "https://www.smh.com.au/sport/nrl/league-chief-knew-of-bulldogs-breach-before-story-broke-icac-told-20021119-gdfu1s.html"
     ],
     "role_evidence": {
       "url": "https://en.wikipedia.org/wiki/Paul_Keating",
       "quote": "Keating was formerly the patron of the Canterbury-Bankstown Bulldogs in the National Rugby League."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia's own citation for this claim traces to a Sydney Morning Herald article (19 Nov 2002, 'League chief knew of Bulldogs' breach before story broke, ICAC told'), which directly confirms the role: a club official states he spoke to Keating during a meeting 'because he was the club's patron', and the article separately notes Keating had 'attended only about five matches in the past 15 years' as patron -- implying the role began c. late 1980s and was still current in 2002. No documented end date found despite Wikipedia's 'formerly' phrasing, so no date_changes applied."
     }
   },
   {
@@ -49368,11 +49379,18 @@
     "organisation": "Merri Health",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://tutaboldexperiment.com.au/2022/02/23/vale-michael-beahan-part-1/"
+      "https://tutaboldexperiment.com.au/2022/02/23/vale-michael-beahan-part-1/",
+      "https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-details/HANSARD-974425065-16061",
+      "https://en.wikipedia.org/wiki/Michael_Beahan"
     ],
     "role_evidence": {
       "url": "https://tutaboldexperiment.com.au/2022/02/23/vale-michael-beahan-part-1/",
       "quote": "He Chaired Merri Health for a decade"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via the cited tribute (tutaboldexperiment.com.au, 'Vale Michael Beahan', written by Max Ogden, a long-time friend and trade-union colleague of Beahan's): 'He Chaired Merri Health for a decade.' The obituary clearly identifies this Michael Beahan as the former Senator for WA and President of the Senate (1994-96) who died 30 January 2022 and lived in Brunswick, so there is no namesake ambiguity. Corroborated by the official condolence motion in Victorian Parliament Hansard (9 February 2022), which records 'his service and contribution to Merri Health, both as a board member and later as a patron', and by Wikipedia, which notes he 'was a director of Merri Health'. Neither of these contradicts the chair claim -- a board member serving a decade plausibly included a period as chair -- and no source suggests anyone else held the chair during an overlapping period. No firm start/end dates could be found for the chairmanship (Merri Health's old website has since redirected to holstephealth.org.au following a 2024 merger, and its historical annual reports are no longer accessible), so dates are left unset."
     }
   },
   {
