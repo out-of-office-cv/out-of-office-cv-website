@@ -54134,5 +54134,20 @@
       "by": "claude",
       "note": "acyd.org.au/past-speakers/2013 confirms Chairman of Trustees of the Joe Welch Bursary Trust."
     }
+  },
+  {
+    "role": "Executive Director",
+    "organisation": "Ricegrowers' Association of Australia",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.rga.org.au/",
+      "https://www.denipt.com.au/news/new-era-for-ricegrowers/",
+      "https://www.graincentral.com/news/people-on-the-move-in-the-grain-industry-39/"
+    ],
+    "pollie_slug": "perin-davey",
+    "role_evidence": {
+      "url": "https://www.denipt.com.au/news/new-era-for-ricegrowers/",
+      "quote": "Former local senator Perin Davey has been appointed executive director of the Ricegrowers' Association of Australia."
+    }
   }
 ]
