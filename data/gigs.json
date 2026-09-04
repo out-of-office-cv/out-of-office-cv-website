@@ -44933,7 +44933,9 @@
     "category": "Science, Engineering & Technical Professions",
     "sources": [
       "https://linkedin.com/in/dr-andrew-southcott-fracgp-gaicd-27a3ba68",
-      "https://www.ausdoc.com.au/news/road-less-travelled-dr-southcotts-journey-federal-mp-gp/"
+      "https://www.ausdoc.com.au/news/road-less-travelled-dr-southcotts-journey-federal-mp-gp/",
+      "https://abr.business.gov.au/ABN/View?abn=27007870662",
+      "https://www.southcott.com.au/about-us"
     ],
     "role_evidence": {
       "url": "https://linkedin.com/in/dr-andrew-southcott-fracgp-gaicd-27a3ba68",
@@ -46282,7 +46284,12 @@
     "sources": [
       "https://web.archive.org/web/20070828234100/http://www.stemcellcentre.edu.au/centre_org-structure_directors.aspx",
       "https://en.wikipedia.org/wiki/Brian_Gibson_(politician)"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Archived Australian Stem Cell Centre 'Board of Directors' page (already cited) contains a bio of 'The Hon Brian Gibson AM' stating he 'is currently the Director of the Tasmanian Advisory Board of the AMP Society', and confirms he was Senator for Tasmania 1993-2002, matching the pollie record."
+    }
   },
   {
     "pollie_slug": "brett-whiteley",
@@ -46321,7 +46328,12 @@
       "https://www.facebook.com/BevMcArthurMP/posts/helen-kroger-was-re-elected-unopposed-as-chair-of-the-victorian-liberal-womens-c/2299573543646581/",
       "https://womensagenda.com.au/politics/women-in-the-liberal-party-an-already-rare-specie-under-threat/",
       "https://www.abc.net.au/news/2018-08-30/liberal-women-deny-bullying-problem/10181766"
-    ]
+    ],
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Facebook post by Bev McArthur MP states 'Helen Kroger was re-elected unopposed as Chair of the Victorian Liberal Women's Council', corroborated by ABC News (30 Aug 2018) and Women's Agenda, both describing her as the former Liberal senator now chairing the party's women's committee."
+    }
   },
   {
     "pollie_slug": "helen-kroger",
@@ -47232,7 +47244,12 @@
     "sources": [
       "https://independentaustralia.net/profile-on/chris-haviland,941"
     ],
-    "pollie_slug": "christopher-haviland"
+    "pollie_slug": "christopher-haviland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "independentaustralia.net's profile identifies him as the former Federal Labor MP for Macarthur (1993-1996) and states he is 'Secretary of the Hornsby Branch' of the ALP."
+    }
   },
   {
     "role": "Chair",
@@ -48115,6 +48132,11 @@
     "role_evidence": {
       "url": "https://michaelwest.com.au/mark-arbib/",
       "quote": "Advisory Board Member of Precision Group since June 2020."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "michaelwest.com.au/mark-arbib/ profile confirms this Mark Arbib (Senator for NSW, resigned 5 March 2012) and states 'Advisory Board Member of Precision Group since June 2020.'"
     }
   },
   {
@@ -48128,6 +48150,11 @@
     "role_evidence": {
       "url": "https://michaelwest.com.au/mark-arbib/",
       "quote": "Advisory Board Member of Prezzee since May 2021"
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "michaelwest.com.au/mark-arbib/ profile confirms this Mark Arbib and states 'Advisory Board Member of Prezzee since May 2021.'"
     }
   },
   {
@@ -50603,7 +50630,12 @@
     "sources": [
       "https://www.maynereport.com/articles/2009/11/23-1615-6931.html"
     ],
-    "pollie_slug": "john-anthony"
+    "pollie_slug": "john-anthony",
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "The cited Mayne Report source does not mention John Anthony. It states that Doug Anthony -- a different (though related) National Party politician and former Deputy PM who also represented Richmond -- 'chaired a company called Pan Australia Mining'. This is a misattribution confusing John Anthony (Richmond, ceased 1984) with his relative Doug Anthony."
+    }
   },
   {
     "role": "Executive Chair",
@@ -54148,6 +54180,11 @@
     "role_evidence": {
       "url": "https://www.denipt.com.au/news/new-era-for-ricegrowers/",
       "quote": "Former local senator Perin Davey has been appointed executive director of the Ricegrowers' Association of Australia."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by three sources: RGA's own site (media release dated 18 August 2026), Deniliquin Pastoral Times ('Former local senator Perin Davey has been appointed executive director of the Ricegrowers' Association of Australia'), and Grain Central (26 August 2026)."
     }
   }
 ]
