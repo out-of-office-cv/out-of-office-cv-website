@@ -54186,5 +54186,47 @@
       "by": "claude",
       "note": "Confirmed by three sources: RGA's own site (media release dated 18 August 2026), Deniliquin Pastoral Times ('Former local senator Perin Davey has been appointed executive director of the Ricegrowers' Association of Australia'), and Grain Central (26 August 2026)."
     }
+  },
+  {
+    "role": "President",
+    "organisation": "Northern Tasmanian Football Association",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.examiner.com.au/story/1957516/dedicated-members-honoured-to-receive-life-membership/",
+      "https://www.examiner.com.au/story/2784644/new-look-for-ntfa-board/"
+    ],
+    "role_evidence": {
+      "url": "https://www.examiner.com.au/story/1957516/dedicated-members-honoured-to-receive-life-membership/",
+      "quote": "NTFA president Geoff Lyons said."
+    },
+    "pollie_slug": "geoff-lyons"
+  },
+  {
+    "role": "Shadow Minister for TAFE, Skills and Training",
+    "organisation": "Tasmanian Labor",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/brian-mitchell",
+      "https://en.wikipedia.org/wiki/Brian_Mitchell_(politician)"
+    ],
+    "role_evidence": {
+      "url": "https://en.wikipedia.org/wiki/Brian_Mitchell_(politician)",
+      "quote": "Mitchell was appointed as Shadow Minister for TAFE, Skills and training, and small business in the Willie Shadow Ministry."
+    },
+    "pollie_slug": "brian-mitchell"
+  },
+  {
+    "role": "Shadow Minister for Small Business",
+    "organisation": "Tasmanian Labor",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/brian-mitchell",
+      "https://en.wikipedia.org/wiki/Brian_Mitchell_(politician)"
+    ],
+    "role_evidence": {
+      "url": "https://en.wikipedia.org/wiki/Brian_Mitchell_(politician)",
+      "quote": "Mitchell was appointed as Shadow Minister for TAFE, Skills and training, and small business in the Willie Shadow Ministry."
+    },
+    "pollie_slug": "brian-mitchell"
   }
 ]
