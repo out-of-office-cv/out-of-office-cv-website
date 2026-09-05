@@ -52094,7 +52094,12 @@
       "https://michaelwest.com.au/alexander-downer/"
     ],
     "pollie_slug": "alexander-downer",
-    "start_date": "2018-01-01"
+    "start_date": "2018-01-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the cited Tenjin Consulting LinkedIn company page, which states: \"Founded in 2018, Tenjin Consulting is led by Alexander Downer and Georgina Downer who together bring over six decades of experience of international affairs, government and politics\" — matching the 2018-01-01 start date and identifying this as the well-known former Foreign Minister (paired with his daughter Georgina Downer). The Michael West Media bio corroborates with \"Principal, Tenjin Consulting (2020 – Present)\" in its list of his post-parliamentary business roles. No same-name ambiguity given the joint Downer family framing across both sources."
+    }
   },
   {
     "role": "Non-Executive Director",
@@ -52332,9 +52337,15 @@
     "category": "Natural Resources (Mining, Oil & Gas)",
     "sources": [
       "https://lostmessiahdotcom.wordpress.com/2016/08/09/diamond-joe-gutnick-murray-huberfeld-and-david-bodner/",
-      "http://www.barrons.com/articles/SB109889201344257225"
+      "http://www.barrons.com/articles/SB109889201344257225",
+      "https://www.crikey.com.au/2000/10/29/the-agm-line-up-for-season-2000/"
     ],
-    "pollie_slug": "robert-hawke"
+    "pollie_slug": "robert-hawke",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "This is Bob Hawke (Robert James Lee Hawke), former PM — pollie record (ALP, Wills, Reps, ceased 1992-02-20) matches exactly, and sources explicitly identify him as \"Australia's former prime minister, Bob Hawke.\" The Barron's 'Unholy Gains' article (William Alpert, 30 Oct 2000 — the famous piece that triggered the Dow Jones & Co Inc v Gutnick High Court defamation case) states: \"Australia's former prime minister, Bob Hawke, sits on the board of Gutnick's Quantum Resources and has helped promote Gutnick's hedge fund.\" The cited barrons.com URL is live via Wayback Machine (200 status, snapshot 2022-12-26), so it was not removed as dead. This is independently corroborated by Crikey's 'The AGM line-up for season 2000' (29 Oct 2000), a reputable Australian outlet, which lists Quantum Resources' AGM (11 Nov 2000, Kimberley Gardens Hotel, East St Kilda) with Hawke up for re-election as director, noting the stock's collapse from $7 to 7c. Two independent sources — one a landmark piece of financial journalism, one contemporaneous Australian trade press — confirm the specific role at the specific organisation. Dates are plausible (well after 1992 departure from parliament, active as of the 2000 AGM)."
+    }
   },
   {
     "role": "Chair",
@@ -54193,13 +54204,20 @@
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://www.examiner.com.au/story/1957516/dedicated-members-honoured-to-receive-life-membership/",
-      "https://www.examiner.com.au/story/2784644/new-look-for-ntfa-board/"
+      "https://www.examiner.com.au/story/2784644/new-look-for-ntfa-board/",
+      "https://www.examiner.com.au/story/7121293/labor-choose-candidate-for-windermere-election/"
     ],
     "role_evidence": {
       "url": "https://www.examiner.com.au/story/1957516/dedicated-members-honoured-to-receive-life-membership/",
       "quote": "NTFA president Geoff Lyons said."
     },
-    "pollie_slug": "geoff-lyons"
+    "pollie_slug": "geoff-lyons",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The two cited Examiner articles confirm 'NTFA president Geoff Lyons' (Dec 2013) and that Ian Morrison succeeded him as president (Dec 2014), but neither states he is the former federal MP. A third Examiner article, 'Former federal Bass MHR Geoff Lyons to run for Labor in Windermere at upper house poll' (examiner.com.au/story/7121293), explicitly bridges the identity: it describes him as the former federal member for Bass who 'previously was involved with the Launceston General Hospital, Northern Tasmanian Netball Association and the Northern Tasmanian Football Association.' This, combined with plausible timing (NTFA president by Dec 2013, just after ceasing to be MP in Sept 2013, and succeeded by Ian Morrison in Dec 2014), confirms the gig."
+    },
+    "end_date": "2014-12"
   },
   {
     "role": "Shadow Minister for TAFE, Skills and Training",
@@ -54207,13 +54225,20 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/brian-mitchell",
-      "https://en.wikipedia.org/wiki/Brian_Mitchell_(politician)"
+      "https://en.wikipedia.org/wiki/Brian_Mitchell_(politician)",
+      "https://en.wikipedia.org/wiki/Willie_shadow_ministry",
+      "https://pulsetasmania.com.au/news/brian-mitchell-seeks-labor-preselection-for-tasmanian-state-election-in-lyons/"
     ],
     "role_evidence": {
       "url": "https://en.wikipedia.org/wiki/Brian_Mitchell_(politician)",
       "quote": "Mitchell was appointed as Shadow Minister for TAFE, Skills and training, and small business in the Willie Shadow Ministry."
     },
-    "pollie_slug": "brian-mitchell"
+    "pollie_slug": "brian-mitchell",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed same person, not a namesake: pulsetasmania.com.au reports Mitchell 'served as federal Lyons MP from 2016 until earlier this year' before seeking Labor preselection for the Tasmanian state seat of Lyons, and an ABC News article covers his federal preselection payout in the same period. The Wikipedia 'Willie shadow ministry' article (formed 27 August 2025, after his 28 March 2025 federal exit) lists Brian Mitchell (Lyons) holding the 'TAFE, Skills & Training' portfolio, matching the cited Brian_Mitchell_(politician) Wikipedia quote about appointment in the Willie Shadow Ministry."
+    }
   },
   {
     "role": "Shadow Minister for Small Business",
@@ -54221,12 +54246,19 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/brian-mitchell",
-      "https://en.wikipedia.org/wiki/Brian_Mitchell_(politician)"
+      "https://en.wikipedia.org/wiki/Brian_Mitchell_(politician)",
+      "https://en.wikipedia.org/wiki/Willie_shadow_ministry",
+      "https://pulsetasmania.com.au/news/brian-mitchell-seeks-labor-preselection-for-tasmanian-state-election-in-lyons/"
     ],
     "role_evidence": {
       "url": "https://en.wikipedia.org/wiki/Brian_Mitchell_(politician)",
       "quote": "Mitchell was appointed as Shadow Minister for TAFE, Skills and training, and small business in the Willie Shadow Ministry."
     },
-    "pollie_slug": "brian-mitchell"
+    "pollie_slug": "brian-mitchell",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same identity confirmation as the TAFE, Skills and Training gig (pulsetasmania.com.au ties the federal Lyons MP to the state Lyons candidacy). The Wikipedia 'Willie shadow ministry' article confirms Brian Mitchell (Lyons) also holds the 'Small Business' portfolio in the same shadow ministry, matching the cited quote from the Brian_Mitchell_(politician) article."
+    }
   }
 ]
