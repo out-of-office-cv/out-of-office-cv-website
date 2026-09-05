@@ -6531,8 +6531,8 @@
     "attempts": 1
   },
   "alexander-downer|Co-Founder|Tenjin Consulting|2018-01-01": {
-    "last_examined_at": "2026-08-29T16:11:16.632Z",
-    "attempts": 1
+    "last_examined_at": "2026-09-05T16:25:54.854Z",
+    "attempts": 2
   },
   "alexander-downer|Non-Executive Director|Lakes Oil|2013-02-01": {
     "last_examined_at": "2026-08-29T16:11:16.632Z",
@@ -6607,8 +6607,8 @@
     "attempts": 1
   },
   "robert-hawke|Director|Quantum Resources|null": {
-    "last_examined_at": "2026-08-29T16:11:16.633Z",
-    "attempts": 1
+    "last_examined_at": "2026-09-05T16:25:54.854Z",
+    "attempts": 2
   },
   "robert-hawke|Chair|Jack Newton Junior Golf Foundation|null": {
     "last_examined_at": "2026-08-29T16:11:16.633Z",
@@ -7104,6 +7104,18 @@
   },
   "perin-davey|Executive Director|Ricegrowers' Association of Australia|null": {
     "last_examined_at": "2026-09-04T16:25:14.488Z",
+    "attempts": 1
+  },
+  "brian-mitchell|Shadow Minister for TAFE, Skills and Training|Tasmanian Labor|null": {
+    "last_examined_at": "2026-09-05T16:25:54.854Z",
+    "attempts": 1
+  },
+  "brian-mitchell|Shadow Minister for Small Business|Tasmanian Labor|null": {
+    "last_examined_at": "2026-09-05T16:25:54.854Z",
+    "attempts": 1
+  },
+  "geoff-lyons|President|Northern Tasmanian Football Association|null": {
+    "last_examined_at": "2026-09-05T16:25:54.854Z",
     "attempts": 1
   }
 }
