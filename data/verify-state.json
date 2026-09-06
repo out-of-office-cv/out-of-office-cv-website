@@ -6739,8 +6739,8 @@
     "attempts": 1
   },
   "john-kerin|Chair|Marine Stewardship Council|2002-01-01": {
-    "last_examined_at": "2026-08-30T16:11:19.505Z",
-    "attempts": 1
+    "last_examined_at": "2026-09-06T16:14:55.524Z",
+    "attempts": 2
   },
   "john-kerin|Council Member|Birds Australia|2003-01-01": {
     "last_examined_at": "2026-08-30T16:11:19.505Z",
@@ -6783,8 +6783,8 @@
     "attempts": 1
   },
   "christopher-pyne|Patron|Robe to Recovery|null": {
-    "last_examined_at": "2026-08-30T16:11:19.505Z",
-    "attempts": 1
+    "last_examined_at": "2026-09-06T16:14:55.524Z",
+    "attempts": 2
   },
   "christopher-pyne|Ambassador|Adelaide Football Club|null": {
     "last_examined_at": "2026-08-30T16:11:19.505Z",
@@ -6823,12 +6823,12 @@
     "attempts": 1
   },
   "susan-jeanes|Member|CSIRO Energy and Transport Sector Advisory Council|null": {
-    "last_examined_at": "2026-08-30T16:11:19.505Z",
-    "attempts": 1
+    "last_examined_at": "2026-09-06T16:14:55.524Z",
+    "attempts": 2
   },
   "susan-jeanes|Director|Institute for Mineral and Energy Resources, University of Adelaide|null": {
-    "last_examined_at": "2026-08-30T16:11:19.505Z",
-    "attempts": 1
+    "last_examined_at": "2026-09-06T16:14:55.524Z",
+    "attempts": 2
   },
   "guy-barnett|Minister for Justice, Corrections and Rehabilitation|Government of Tasmania|2024-04-11": {
     "last_examined_at": "2026-08-30T16:11:19.505Z",
@@ -6863,8 +6863,8 @@
     "attempts": 1
   },
   "janelle-saffin|Founding Patron|Australia-Myanmar Chamber of Commerce|null": {
-    "last_examined_at": "2026-08-30T16:11:19.505Z",
-    "attempts": 1
+    "last_examined_at": "2026-09-06T16:14:55.524Z",
+    "attempts": 2
   },
   "julie-bishop|Director|Palladium Group|2019-07-01": {
     "last_examined_at": "2026-08-30T16:11:19.505Z",
@@ -7116,6 +7116,10 @@
   },
   "geoff-lyons|President|Northern Tasmanian Football Association|null": {
     "last_examined_at": "2026-09-05T16:25:54.854Z",
+    "attempts": 1
+  },
+  "ian-goodenough|Member, School of Business and Law Consultative Committee|Edith Cowan University|null": {
+    "last_examined_at": "2026-09-06T16:14:55.524Z",
     "attempts": 1
   }
 }
