@@ -54290,5 +54290,40 @@
       "by": "claude",
       "note": "Confirmed by Ian Goodenough's own LinkedIn post announcing the appointment, corroborated by ECU's official consultative committees page listing 'Mr Ian Goodenough' as a member of the Law Consultative Committee."
     }
+  },
+  {
+    "role": "Deputy Chief Minister, Treasurer",
+    "organisation": "Northern Territory Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.abc.net.au/news/2013-03-14/giles-denies-plot-to-overthrow-mills/4573472",
+      "https://www.abc.net.au/news/2014-08-22/nt-deputy-leader-dave-tollner-resigns-over-gay-slur-comments/5690686"
+    ],
+    "pollie_slug": "david-tollner",
+    "start_date": "2013-03-13",
+    "end_date": "2014-08-22"
+  },
+  {
+    "role": "Treasurer",
+    "organisation": "Northern Territory Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.abc.net.au/news/2015-02-10/dave-tollner-back-as-giles-announces-nt-cabinet-reshuffle/6083710",
+      "https://www.sbs.com.au/news/outgoing-nt-treasurer-tollner-blessed"
+    ],
+    "pollie_slug": "david-tollner",
+    "start_date": "2015-02-10"
+  },
+  {
+    "role": "Minister for Trade and Investment",
+    "organisation": "South Australian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/First_Malinauskas_ministry",
+      "https://en.wikipedia.org/wiki/Nick_Champion"
+    ],
+    "pollie_slug": "nick-champion",
+    "start_date": "2022-03-24",
+    "end_date": "2024-04-15"
   }
 ]
