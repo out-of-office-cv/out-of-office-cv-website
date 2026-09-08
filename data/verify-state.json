@@ -5875,8 +5875,8 @@
     "attempts": 1
   },
   "julia-banks|Adjunct Professor|University of Canberra|null": {
-    "last_examined_at": "2026-09-01T16:05:30.022Z",
-    "attempts": 2
+    "last_examined_at": "2026-09-08T16:20:09.686Z",
+    "attempts": 3
   },
   "justine-keay|Psychologist|My Psychology Tasmania|null": {
     "last_examined_at": "2026-08-24T16:34:15.097Z",
@@ -7132,6 +7132,14 @@
   },
   "nick-champion|Minister for Trade and Investment|South Australian Government|2022-03-24": {
     "last_examined_at": "2026-09-07T16:17:33.766Z",
+    "attempts": 1
+  },
+  "gavan-oconnor|Executive Producer|East Hill Film Co.|null": {
+    "last_examined_at": "2026-09-08T16:20:09.686Z",
+    "attempts": 1
+  },
+  "gavan-oconnor|Director|Waterfront Film Foundation Limited|null": {
+    "last_examined_at": "2026-09-08T16:20:09.686Z",
     "attempts": 1
   }
 }
