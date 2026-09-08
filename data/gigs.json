@@ -48259,7 +48259,12 @@
       "https://www.celebrityspeakers.com.au/speakers/julia-banks/?speaker=Julia+Banks",
       "https://www.saxton.com.au/speakers/julia-banks"
     ],
-    "pollie_slug": "julia-banks"
+    "pollie_slug": "julia-banks",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Both original sources confirm the role in detail: Saxton Speakers and Celebrity Speakers each state Julia Banks is 'Adjunct Professor in the Faculty of Business, Government and Law at the University of Canberra', and both correctly identify her as the former federal MP (Chisholm, resigned from the Liberal Party). A third independent speaker bureau, ICMI, corroborates with 'adjunct professor University of Canberra'. Her LinkedIn profile title also reads 'Julia Banks - University of Canberra'. UC's public adjuncts listing has not yet been updated to include her name (checked directly), likely reflecting a recent appointment lag. No source contradicts the role or suggests a namesake."
+    }
   },
   {
     "role": "Interim Chief Executive Officer",
@@ -54355,7 +54360,12 @@
       "url": "https://www.easthillfilmco.com/about",
       "quote": "He has been the Executive Producer on all of East Hill Film Co. films, and specialises in financial strategy and management."
     },
-    "pollie_slug": "gavan-oconnor"
+    "pollie_slug": "gavan-oconnor",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "East Hill Film Co.'s own about page (easthillfilmco.com/about) names him as a former Federal Member for Corio (1993-2007), matching the pollie record, and states \"He has been the Executive Producer on all of East Hill Film Co. films, and specialises in financial strategy and management.\" Confirms both identity and role."
+    }
   },
   {
     "role": "Director",
@@ -54368,6 +54378,11 @@
       "url": "https://www.geelongwaterfrontfilm.com.au/directors/",
       "quote": "Director"
     },
-    "pollie_slug": "gavan-oconnor"
+    "pollie_slug": "gavan-oconnor",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Geelong Waterfront Film's own directors page (geelongwaterfrontfilm.com.au/directors/) bio confirms identity: \"Gavan is an Australian politican who was an ALP member of the Australian House of Representatives (1993-2007), representing the Division of Corio, Victoria... Gavan owns two production companies.\" He is listed on this directors page as a Director, confirming the role."
+    }
   }
 ]
