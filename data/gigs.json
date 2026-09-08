@@ -54384,5 +54384,71 @@
       "by": "claude",
       "note": "Geelong Waterfront Film's own directors page (geelongwaterfrontfilm.com.au/directors/) bio confirms identity: \"Gavan is an Australian politican who was an ALP member of the Australian House of Representatives (1993-2007), representing the Division of Corio, Victoria... Gavan owns two production companies.\" He is listed on this directors page as a Director, confirming the role."
     }
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "LifeFlight Commercial",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://www.lifeflight.org.au/news/lifeflight-commercial-board-bolstered-with-peter-dutton-appointment/"
+    ],
+    "role_evidence": {
+      "url": "https://www.lifeflight.org.au/news/lifeflight-commercial-board-bolstered-with-peter-dutton-appointment/",
+      "quote": "Former Federal Liberal Party leader Peter Dutton has been appointed to the Board of LifeFlight Commercial (LFC) as a non-executive director."
+    },
+    "start_date": "2026-03-01",
+    "pollie_slug": "peter-dutton"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Piper Alderman",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://piperalderman.com.au/member/james-porter/"
+    ],
+    "role_evidence": {
+      "url": "https://piperalderman.com.au/member/james-porter/",
+      "quote": "James Porter OAM Consultant"
+    },
+    "pollie_slug": "james-porter"
+  },
+  {
+    "role": "Chair",
+    "organisation": "SA Water",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://piperalderman.com.au/member/james-porter/"
+    ],
+    "role_evidence": {
+      "url": "https://piperalderman.com.au/member/james-porter/",
+      "quote": "James was Chairman of SA Water from 1995 to 2002."
+    },
+    "pollie_slug": "james-porter"
+  },
+  {
+    "role": "National Vice President",
+    "organisation": "Australian Institute of Company Directors",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://piperalderman.com.au/member/james-porter/"
+    ],
+    "role_evidence": {
+      "url": "https://piperalderman.com.au/member/james-porter/",
+      "quote": "He has served as the National Vice President Australian Institute of Company Directors and State President SA Division."
+    },
+    "pollie_slug": "james-porter"
+  },
+  {
+    "role": "State President, SA Division",
+    "organisation": "Australian Institute of Company Directors",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://piperalderman.com.au/member/james-porter/"
+    ],
+    "role_evidence": {
+      "url": "https://piperalderman.com.au/member/james-porter/",
+      "quote": "He has served as the National Vice President Australian Institute of Company Directors and State President SA Division."
+    },
+    "pollie_slug": "james-porter"
   }
 ]
