@@ -54343,5 +54343,31 @@
       "by": "claude",
       "note": "Confirmed as the same person: Wikipedia's Nick Champion page states he represented the federal Division of Spence (18 May 2019 - 22 February 2022) before resigning to contest the SA state seat of Taylor, winning it in March 2022, and being immediately appointed to the Malinauskas cabinet. Role and dates corroborated by a reputable independent source: InDaily (South Australian news outlet), reporting the 15 April 2024 cabinet reshuffle, states 'Nick Champion, previously the minister for trade investment and housing and urban development, will head a new housing super portfolio...' with Joe Szakacs 'picked up trade and investment from Champion' -- confirming Champion held Minister for Trade and Investment continuously up to that reshuffle date. This matches the record's end_date of 2024-04-15 exactly. The Wikipedia First Malinauskas ministry and Nick Champion pages independently corroborate start_date 24 March 2022. Dates are plausible (well after his 2022-02-22 federal departure)."
     }
+  },
+  {
+    "role": "Executive Producer",
+    "organisation": "East Hill Film Co.",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.easthillfilmco.com/about"
+    ],
+    "role_evidence": {
+      "url": "https://www.easthillfilmco.com/about",
+      "quote": "He has been the Executive Producer on all of East Hill Film Co. films, and specialises in financial strategy and management."
+    },
+    "pollie_slug": "gavan-oconnor"
+  },
+  {
+    "role": "Director",
+    "organisation": "Waterfront Film Foundation Limited",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.geelongwaterfrontfilm.com.au/directors/"
+    ],
+    "role_evidence": {
+      "url": "https://www.geelongwaterfrontfilm.com.au/directors/",
+      "quote": "Director"
+    },
+    "pollie_slug": "gavan-oconnor"
   }
 ]
