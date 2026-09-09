@@ -54390,14 +54390,20 @@
     "organisation": "LifeFlight Commercial",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://www.lifeflight.org.au/news/lifeflight-commercial-board-bolstered-with-peter-dutton-appointment/"
+      "https://www.lifeflight.org.au/news/lifeflight-commercial-board-bolstered-with-peter-dutton-appointment/",
+      "https://australianaviation.com.au/2026/04/ex-liberal-leader-joins-lifeflight-board/"
     ],
     "role_evidence": {
       "url": "https://www.lifeflight.org.au/news/lifeflight-commercial-board-bolstered-with-peter-dutton-appointment/",
       "quote": "Former Federal Liberal Party leader Peter Dutton has been appointed to the Board of LifeFlight Commercial (LFC) as a non-executive director."
     },
     "start_date": "2026-03-01",
-    "pollie_slug": "peter-dutton"
+    "pollie_slug": "peter-dutton",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "LifeFlight's own news release (fetched directly) confirms: \"Former Federal Liberal Party leader Peter Dutton has been appointed to the Board of LifeFlight Commercial (LFC) as a non-executive director,\" with the appointment \"effective March 1\" and biographical details (23 years in Parliament, Defence/Immigration/Home Affairs portfolios) that unambiguously identify the former MP for Dickson, not a namesake. Corroborated by Australian Aviation (10 April 2026), which reports Dutton \"replaced former director Stewart Morland as of last month\" -- i.e. March 2026 -- confirming the same role, organisation and start date. The recorded start_date of 2026-03-01 is not a placeholder; it is exactly what both sources state, and it postdates his 2025-05-03 exit from Parliament."
+    }
   },
   {
     "role": "Consultant",
@@ -54410,7 +54416,12 @@
       "url": "https://piperalderman.com.au/member/james-porter/",
       "quote": "James Porter OAM Consultant"
     },
-    "pollie_slug": "james-porter"
+    "pollie_slug": "james-porter",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Piper Alderman's own member bio page (piperalderman.com.au/member/james-porter/) lists his current role directly: \"James Porter OAM Consultant\". Identity confirmed as the Liberal MP for Barker (SA, 1975-1990) via Wikipedia's James Porter (Australian politician) article, matching ceased date 1990-02-19 and ruling out confusion with Christian Porter."
+    }
   },
   {
     "role": "Chair",
@@ -54423,7 +54434,12 @@
       "url": "https://piperalderman.com.au/member/james-porter/",
       "quote": "James was Chairman of SA Water from 1995 to 2002."
     },
-    "pollie_slug": "james-porter"
+    "pollie_slug": "james-porter",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Piper Alderman bio states \"James was Chairman of SA Water from 1995 to 2002,\" naming this specific person and role. Dates are plausible post-parliament (ceased 1990) and consistent with SA Water's 1995 corporatisation (per eoas.info historical background, though that page does not itself name Porter). No independent source names him as chair, but the firm's own professional bio is a strong primary source and no contradicting evidence was found."
+    }
   },
   {
     "role": "National Vice President",
@@ -54436,7 +54452,12 @@
       "url": "https://piperalderman.com.au/member/james-porter/",
       "quote": "He has served as the National Vice President Australian Institute of Company Directors and State President SA Division."
     },
-    "pollie_slug": "james-porter"
+    "pollie_slug": "james-porter",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Piper Alderman bio states \"He has served as the National Vice President Australian Institute of Company Directors and State President SA Division,\" directly naming this role for this person. Searched for independent AICD confirmation but found none beyond aggregations repeating the same bio; identity is firmly established via Wikipedia cross-check."
+    }
   },
   {
     "role": "State President, SA Division",
@@ -54449,7 +54470,12 @@
       "url": "https://piperalderman.com.au/member/james-porter/",
       "quote": "He has served as the National Vice President Australian Institute of Company Directors and State President SA Division."
     },
-    "pollie_slug": "james-porter"
+    "pollie_slug": "james-porter",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same Piper Alderman bio sentence covers both AICD roles together: \"...National Vice President Australian Institute of Company Directors and State President SA Division.\" As with gig 2, no independent AICD-side source was found, but the firm's own bio directly substantiates the specific title, not merely the person's existence."
+    }
   },
   {
     "role": "Adjunct",
@@ -54459,6 +54485,11 @@
       "https://www.canberra.edu.au/about-uc/media/media-releases/2025/april/adjunct-appointments-create-opportunity-to-bolster-ucs-government-and-policy-related-course-delivery"
     ],
     "start_date": "2025-04-03",
-    "pollie_slug": "mike-kelly"
+    "pollie_slug": "mike-kelly",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "University of Canberra's own April 2025 media release confirms Dr Mike Kelly, former Member for Eden-Monaro (2007-2020) and retired Army Colonel, was appointed as an Adjunct in the Faculty of Business, Government and Law, quoting him: 'My appointment as an Adjunct is exactly what I was looking for in this phase of my life.' Identity and role both clearly confirmed by this authoritative .edu.au source; no namesake risk."
+    }
   }
 ]
