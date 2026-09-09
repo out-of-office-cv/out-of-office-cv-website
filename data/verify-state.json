@@ -7141,5 +7141,29 @@
   "gavan-oconnor|Director|Waterfront Film Foundation Limited|null": {
     "last_examined_at": "2026-09-08T16:20:09.686Z",
     "attempts": 1
+  },
+  "james-porter|Consultant|Piper Alderman|null": {
+    "last_examined_at": "2026-09-10T00:00:00.000Z",
+    "attempts": 1
+  },
+  "james-porter|Chair|SA Water|null": {
+    "last_examined_at": "2026-09-10T00:00:00.000Z",
+    "attempts": 1
+  },
+  "james-porter|National Vice President|Australian Institute of Company Directors|null": {
+    "last_examined_at": "2026-09-10T00:00:00.000Z",
+    "attempts": 1
+  },
+  "james-porter|State President, SA Division|Australian Institute of Company Directors|null": {
+    "last_examined_at": "2026-09-10T00:00:00.000Z",
+    "attempts": 1
+  },
+  "mike-kelly|Adjunct|University of Canberra|2025-04-03": {
+    "last_examined_at": "2026-09-10T00:00:00.000Z",
+    "attempts": 1
+  },
+  "peter-dutton|Non-Executive Director|LifeFlight Commercial|2026-03-01": {
+    "last_examined_at": "2026-09-10T00:00:00.000Z",
+    "attempts": 1
   }
 }
