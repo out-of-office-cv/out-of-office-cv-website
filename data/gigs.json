@@ -54491,5 +54491,20 @@
       "by": "claude",
       "note": "University of Canberra's own April 2025 media release confirms Dr Mike Kelly, former Member for Eden-Monaro (2007-2020) and retired Army Colonel, was appointed as an Adjunct in the Faculty of Business, Government and Law, quoting him: 'My appointment as an Adjunct is exactly what I was looking for in this phase of my life.' Identity and role both clearly confirmed by this authoritative .edu.au source; no namesake risk."
     }
+  },
+  {
+    "pollie_slug": "robert-halverson",
+    "role": "Primary Producer",
+    "organisation": "Kildrummie (beef cattle property, Holbrook, NSW)",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.sbs.com.au/news/ex-federal-speaker-bob-halverson-dies",
+      "https://adb.anu.edu.au/biography/halverson-robert-george-bob-28207"
+    ],
+    "role_evidence": {
+      "url": "https://www.sbs.com.au/news/ex-federal-speaker-bob-halverson-dies",
+      "quote": "After he retired from public life, Mr Halverson moved to his Holbrook farm and worked as a primary producer."
+    },
+    "end_date": "2016-02-09"
   }
 ]
