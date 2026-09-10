@@ -54506,5 +54506,35 @@
       "quote": "After he retired from public life, Mr Halverson moved to his Holbrook farm and worked as a primary producer."
     },
     "end_date": "2016-02-09"
+  },
+  {
+    "role": "Minister for Local Government",
+    "organisation": "Government of New South Wales",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Harry_Woods_(Australian_politician)",
+      "https://en.wikipedia.org/wiki/Carr_ministry_(1999%E2%80%932003)"
+    ],
+    "pollie_slug": "harry-woods",
+    "start_date": "1999-04-08",
+    "end_date": "2003-04-02"
+  },
+  {
+    "role": "Professional Fisherman",
+    "organisation": "Self-employed",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Harry_Woods_(Australian_politician)"
+    ],
+    "pollie_slug": "harry-woods"
+  },
+  {
+    "role": "Accredited Mediator",
+    "organisation": "Self-employed",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Harry_Woods_(Australian_politician)"
+    ],
+    "pollie_slug": "harry-woods"
   }
 ]
