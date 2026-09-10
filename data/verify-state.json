@@ -7165,5 +7165,21 @@
   "peter-dutton|Non-Executive Director|LifeFlight Commercial|2026-03-01": {
     "last_examined_at": "2026-09-10T00:00:00.000Z",
     "attempts": 1
+  },
+  "harry-woods|Minister for Local Government|Government of New South Wales|1999-04-08": {
+    "last_examined_at": "2026-09-10T16:29:00.263Z",
+    "attempts": 1
+  },
+  "harry-woods|Professional Fisherman|Self-employed|null": {
+    "last_examined_at": "2026-09-10T16:29:00.263Z",
+    "attempts": 1
+  },
+  "harry-woods|Accredited Mediator|Self-employed|null": {
+    "last_examined_at": "2026-09-10T16:29:00.263Z",
+    "attempts": 1
+  },
+  "robert-halverson|Primary Producer|Kildrummie (beef cattle property, Holbrook, NSW)|null": {
+    "last_examined_at": "2026-09-10T16:29:00.263Z",
+    "attempts": 1
   }
 }
