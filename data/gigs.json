@@ -54553,5 +54553,57 @@
       "by": "claude",
       "note": "Same FRDC source as the Professional Fisherman gig confirms \"the Hon. Harry Woods... worked as an accredited mediator\" alongside his professional fishing and property development work, in an official government-corporation publication about his FRDC director appointment."
     }
+  },
+  {
+    "role": "Director",
+    "organisation": "Balanced Coordination Support Services (Balcor)",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://palmerston.nt.gov.au/sites/default/files/20250409%20-%20Register%20-%20Elected%20Member%20Annual%20Return%20of%20Interests%20-%2010th%20Council.pdf"
+    ],
+    "pollie_slug": "damian-hale",
+    "role_evidence": {
+      "url": "https://palmerston.nt.gov.au/sites/default/files/20250409%20-%20Register%20-%20Elected%20Member%20Annual%20Return%20of%20Interests%20-%2010th%20Council.pdf",
+      "quote": "Registered in a company directorship: Balanced Coordination Support Services (Balcor) Director"
+    }
+  },
+  {
+    "role": "Deputy Chair",
+    "organisation": "Hillsong Church Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://hillsong.com/australia/leadership/board/"
+    ],
+    "pollie_slug": "louise-markus",
+    "role_evidence": {
+      "url": "https://hillsong.com/australia/leadership/board/",
+      "quote": "Louise Markus Australian Board Director Deputy Chair ANC Committee Member"
+    }
+  },
+  {
+    "role": "District Legal Officer",
+    "organisation": "Rotary District 9830",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://rotarytasmania.squarespace.com/s/2023-24-Rotary-Directory-V4-07_02_24.pdf"
+    ],
+    "pollie_slug": "ross-hart",
+    "role_evidence": {
+      "url": "https://rotarytasmania.squarespace.com/s/2023-24-Rotary-Directory-V4-07_02_24.pdf",
+      "quote": "DISTRICT LEGAL ASSISTANCE: For assistance to clubs with legal enquiries regarding Rotary matters. District Legal Officer: Ross Hart Launceston"
+    }
+  },
+  {
+    "role": "Oversight Committee Member",
+    "organisation": "Australian Labor Party (Tasmanian Branch)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.examiner.com.au/story/7840124/labors-d-day-national-takeover-as-party-looks-to-reset/"
+    ],
+    "pollie_slug": "ross-hart",
+    "role_evidence": {
+      "url": "https://www.examiner.com.au/story/7840124/labors-d-day-national-takeover-as-party-looks-to-reset/",
+      "quote": "Former Labor senators Doug Cameron and Nick Sherry were appointed administrators to be helped by an oversight committee of senators Helen Polley and Carol Brown, leader Rebecca White, former Bass MHR Ross Hart and former union officials Robert Flanagan and Chris Brown."
+    }
   }
 ]
