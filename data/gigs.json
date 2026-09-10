@@ -54517,24 +54517,41 @@
     ],
     "pollie_slug": "harry-woods",
     "start_date": "1999-04-08",
-    "end_date": "2003-04-02"
+    "end_date": "2003-04-02",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "No namesake mix-up: Harry Francis Woods (b. 1947) is the SAME person as our federal record. Wikipedia confirms he was federal Member for Page 1990-1996 (ALP), then immediately entered NSW state politics as Member for Clarence (NSW Legislative Assembly) 1996-2003, and served as Minister for Local Government in the Carr government. The Carr ministry Wikipedia article independently lists his term as Minister for Local Government as 8 April 1999 - 2 April 2003, matching the gig's start_date/end_date exactly. This is a genuine post-federal-parliament role (a subsequent state political career), not a different person."
+    }
   },
   {
     "role": "Professional Fisherman",
     "organisation": "Self-employed",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
-      "https://en.wikipedia.org/wiki/Harry_Woods_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Harry_Woods_(Australian_politician)",
+      "https://www.frdc.com.au/fish-vol-23-4/new-directors-drive-new-direction-frdc"
     ],
-    "pollie_slug": "harry-woods"
+    "pollie_slug": "harry-woods",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via an official Fisheries Research and Development Corporation (FRDC, a Commonwealth statutory body) article, \"New directors to drive new direction for the FRDC\" (frdc.com.au, 1 Dec 2015), reporting his appointment as an FRDC director/chair and stating he \"has spent time as a professional fisher... worked as an accredited mediator and has been involved in the development and building of commercial property,\" referring to him as \"the Hon. Harry Woods\" (confirming the former-minister identity, not the unrelated Sydney barrister of the same name who turned up in searches). Direct WebFetch of frdc.com.au returned 403, but the content was corroborated via two independent search-snippet retrievals with consistent wording, and the citation is the one actually used by the Wikipedia article for this claim."
+    }
   },
   {
     "role": "Accredited Mediator",
     "organisation": "Self-employed",
     "category": "Legal & Judicial",
     "sources": [
-      "https://en.wikipedia.org/wiki/Harry_Woods_(Australian_politician)"
+      "https://en.wikipedia.org/wiki/Harry_Woods_(Australian_politician)",
+      "https://www.frdc.com.au/fish-vol-23-4/new-directors-drive-new-direction-frdc"
     ],
-    "pollie_slug": "harry-woods"
+    "pollie_slug": "harry-woods",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same FRDC source as the Professional Fisherman gig confirms \"the Hon. Harry Woods... worked as an accredited mediator\" alongside his professional fishing and property development work, in an official government-corporation publication about his FRDC director appointment."
+    }
   }
 ]
