@@ -54633,5 +54633,45 @@
       "by": "claude",
       "note": "WebFetch of the cited Examiner article confirms the exact quoted passage, which explicitly names him 'former Bass MHR Ross Hart' as a member of the oversight committee appointed to help administrators Doug Cameron and Nick Sherry during the 2022 Tasmanian Labor takeover, alongside senators Helen Polley and Carol Brown and leader Rebecca White. Identity and role are both directly substantiated by this single strong news source; no better source needed."
     }
+  },
+  {
+    "pollie_slug": "petro-georgiou",
+    "role": "Director",
+    "organisation": "State Library of Victoria",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.wheelercentre.com/people/petro-georgiou"
+    ],
+    "role_evidence": {
+      "url": "https://www.wheelercentre.com/people/petro-georgiou",
+      "quote": "His community activities include board membership of the State Library of Victoria."
+    }
+  },
+  {
+    "pollie_slug": "michael-hodgman",
+    "role": "Patron",
+    "organisation": "Vietnam Veterans' Association of Australia, Tasmania Branch",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.vvaa.org.au/SUMMER%2012%20Debrief%20Final.pdf",
+      "https://www.vvaa.org.au/WINTER%2013.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.vvaa.org.au/SUMMER%2012%20Debrief%20Final.pdf",
+      "quote": "Earlier this year I had the good fortune of being able to visit Mr. Michael Hodgman A.M. QC., Patron of the Tasmania Branch."
+    }
+  },
+  {
+    "pollie_slug": "michael-hodgman",
+    "role": "Convenor",
+    "organisation": "Australians for Constitutional Monarchy",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://norepublic.com.au/michael-hodgman-qc-am-2/"
+    ],
+    "role_evidence": {
+      "url": "https://norepublic.com.au/michael-hodgman-qc-am-2/",
+      "quote": "Mr. Hodgman was until his retirement convener for ACM in the Tasmanian Parliament."
+    }
   }
 ]
