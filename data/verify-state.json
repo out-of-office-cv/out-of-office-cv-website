@@ -6391,20 +6391,20 @@
     "attempts": 1
   },
   "bruce-billson|Independent Director|Plumbing Industry Climate Action Centre|2020-01-01": {
-    "last_examined_at": "2026-09-04T16:25:14.488Z",
-    "attempts": 2
+    "last_examined_at": "2026-09-11T16:27:01.285Z",
+    "attempts": 3
   },
   "bruce-billson|Commissioner|City of Whittlesea|2020-01-01": {
     "last_examined_at": "2026-08-28T16:30:29.057Z",
     "attempts": 1
   },
   "bruce-billson|Advisory Council Member|Endeavour Group|2018-01-01": {
-    "last_examined_at": "2026-09-04T16:25:14.488Z",
-    "attempts": 2
+    "last_examined_at": "2026-09-11T16:27:01.285Z",
+    "attempts": 3
   },
   "bruce-billson|Contributor|Sky News Australia|2018-01-01": {
-    "last_examined_at": "2026-09-04T16:25:14.488Z",
-    "attempts": 2
+    "last_examined_at": "2026-09-11T16:27:01.285Z",
+    "attempts": 3
   },
   "bob-debus|Director|Justice Reform Initiative|null": {
     "last_examined_at": "2026-08-28T16:30:29.057Z",
@@ -7180,6 +7180,22 @@
   },
   "robert-halverson|Primary Producer|Kildrummie (beef cattle property, Holbrook, NSW)|null": {
     "last_examined_at": "2026-09-10T16:29:00.263Z",
+    "attempts": 1
+  },
+  "ross-hart|District Legal Officer|Rotary District 9830|null": {
+    "last_examined_at": "2026-09-11T16:27:01.285Z",
+    "attempts": 1
+  },
+  "ross-hart|Oversight Committee Member|Australian Labor Party (Tasmanian Branch)|null": {
+    "last_examined_at": "2026-09-11T16:27:01.285Z",
+    "attempts": 1
+  },
+  "damian-hale|Director|Balanced Coordination Support Services (Balcor)|null": {
+    "last_examined_at": "2026-09-11T16:27:01.285Z",
+    "attempts": 1
+  },
+  "louise-markus|Deputy Chair|Hillsong Church Australia|null": {
+    "last_examined_at": "2026-09-11T16:27:01.285Z",
     "attempts": 1
   }
 }
