@@ -54673,5 +54673,34 @@
       "url": "https://norepublic.com.au/michael-hodgman-qc-am-2/",
       "quote": "Mr. Hodgman was until his retirement convener for ACM in the Tasmanian Parliament."
     }
+  },
+  {
+    "role": "Committee Member",
+    "organisation": "New England and Western Tenants Advice and Advocacy Service Incorporated",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.acnc.gov.au/charity/charities/14614b84-39af-e811-a961-000d3ad24182/people",
+      "https://www.acnc.gov.au/api/dynamics/entity/14614b84-39af-e811-a961-000d3ad24182"
+    ],
+    "pollie_slug": "marjorie-henzell"
+  },
+  {
+    "role": "Associate",
+    "organisation": "Groupwork Centre",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://www.groupwork.com.au/our-team/janet-rice-1"
+    ],
+    "pollie_slug": "janet-rice"
+  },
+  {
+    "role": "Commissioner",
+    "organisation": "International Observer Mission (International Coalition for Human Rights in the Philippines)",
+    "category": "Diplomacy & International Relations",
+    "sources": [
+      "https://johnmenadue.com/post/2025/06/international-observers-find-philippine-mid-term-elections-not-free-and-fair/",
+      "https://www.philstar.com/headlines/2022/06/28/2191514/election-monitors-disenfranchisement-glitches-undermined-may-polls"
+    ],
+    "pollie_slug": "lee-rhiannon"
   }
 ]
