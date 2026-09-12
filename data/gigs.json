@@ -54734,5 +54734,34 @@
       "by": "claude",
       "note": "johnmenadue.com (2025) quotes 'one IOM Commissioner, former Australian Senator Lee Rhiannon,' directly naming her and the Commissioner title. Confirmed further by the organisation's own site, ichrp.net, which quotes 'IOM Commissioner Lee Rhiannon' — the International Observer Mission is ICHRP's own election-observation initiative. philstar.com (2022) also identifies her as 'former Australian Senator Lee Rhiannon' participating in the same IOM. Dates (2022, 2025) are well after her 2018-08-15 Senate exit."
     }
+  },
+  {
+    "role": "Lead Senate Candidate (Western Australia)",
+    "organisation": "Pauline Hanson's One Nation",
+    "category": "Politics, Campaigning & Party Operations",
+    "pollie_slug": "paul-filing",
+    "sources": [
+      "https://wamnnews.com.au/news/exclusive-paul-filing-confident-one-nation-will-win-seats-at-federal-election/"
+    ],
+    "role_evidence": {
+      "url": "https://wamnnews.com.au/news/exclusive-paul-filing-confident-one-nation-will-win-seats-at-federal-election/",
+      "quote": "Mr Filing is One Nation's lead Senate candidate for the election"
+    },
+    "start_date": "2022-01-26",
+    "end_date": "2022-05-21"
+  },
+  {
+    "role": "Barrister",
+    "organisation": "Dever's List",
+    "category": "Legal & Judicial",
+    "pollie_slug": "keith-wolahan",
+    "sources": [
+      "https://www.deverslist.com.au/barristers/keith-wolahan",
+      "https://www.deverslist.com.au/barristers-list"
+    ],
+    "role_evidence": {
+      "url": "https://www.deverslist.com.au/barristers/keith-wolahan",
+      "quote": "Keith practises in commercial and public law. He remained a Member of the Bar while serving as the Federal Member for Menzies (2022-2025), during which he sat on the Economics and National Anti-Corruption Commission Committees."
+    }
   }
 ]
