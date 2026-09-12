@@ -54645,6 +54645,11 @@
     "role_evidence": {
       "url": "https://www.wheelercentre.com/people/petro-georgiou",
       "quote": "His community activities include board membership of the State Library of Victoria."
+    },
+    "verification": {
+      "decision": "rejected",
+      "by": "claude",
+      "note": "State Library Victoria's own annual reports (2011-12 through 2015-16, at slv.vic.gov.au/sites/default/files/) confirm Petro Georgiou was appointed to the Library Board of Victoria in July 2011 and served through at least 2015-16, sitting on its Executive Appointments and Remuneration, and Audit and Risk Management committees. In every report he is listed as 'The Hon. Petro Georgiou' / 'Mr Petro Georgiou AO', a Board member — the reports never use the title 'Director', and no other source (Wikipedia, ABC News obituary, Neos Kosmos, death notices) uses it either. The cited Wheeler Centre bio itself only says 'board membership', not 'Director'. The recorded title contradicts what every authoritative source says about this role."
     }
   },
   {
@@ -54659,6 +54664,11 @@
     "role_evidence": {
       "url": "https://www.vvaa.org.au/SUMMER%2012%20Debrief%20Final.pdf",
       "quote": "Earlier this year I had the good fortune of being able to visit Mr. Michael Hodgman A.M. QC., Patron of the Tasmania Branch."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by both cited VVAA Tasmania Branch newsletters (extracted via pdftotext, since the raw PDFs are binary/compressed). Summer 2012: 'Mr. Michael Hodgman A.M. QC., Patron of the Tasmania Branch.' Winter 2013 obituary headline: 'TASMANIA BRANCH PATRON HONOURABLE WILLIAM MICHAEL HODGMAN A.M., Q.C.', confirming he held the Patron role until his death in June 2013 — well after his 1987 federal ceased date, and unambiguously this person."
     }
   },
   {
@@ -54672,6 +54682,11 @@
     "role_evidence": {
       "url": "https://norepublic.com.au/michael-hodgman-qc-am-2/",
       "quote": "Mr. Hodgman was until his retirement convener for ACM in the Tasmanian Parliament."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by norepublic.com.au, which is Australians for Constitutional Monarchy's own site: 'Mr. Hodgman was until his retirement convener for ACM in the Tasmanian Parliament.' A web search confirmed his final retirement (from the Tasmanian state parliament, seat of Denison) was in 2010, so the role postdates his 1987 federal ceased date. Corroborated by the VVAA Winter 2013 obituary, which independently describes him as 'Tasmanian Legal Director and Chief Advocate for Australians for a Constitutional Monarchy' — confirming both identity and ongoing ACM involvement."
     }
   },
   {
@@ -54680,9 +54695,15 @@
     "category": "Nonprofit, NGO and Charity",
     "sources": [
       "https://www.acnc.gov.au/charity/charities/14614b84-39af-e811-a961-000d3ad24182/people",
-      "https://www.acnc.gov.au/api/dynamics/entity/14614b84-39af-e811-a961-000d3ad24182"
+      "https://www.acnc.gov.au/api/dynamics/entity/14614b84-39af-e811-a961-000d3ad24182",
+      "https://en.wikipedia.org/wiki/Marjorie_Henzell"
     ],
-    "pollie_slug": "marjorie-henzell"
+    "pollie_slug": "marjorie-henzell",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The NSW location initially looked like a namesake mismatch (NEWTAAS operates only in Armidale/Tamworth/Dubbo, NSW, while Henzell was Capricornia's Qld MP), but Wikipedia's biography of this specific Marjorie Henzell (the same article documenting her 1993-96 Capricornia term) states: 'She later relocated to Armidale in New South Wales' and 'has contributed as a community member to a New England charity' -- and its citation for that exact sentence (ref 17) is the same ACNC charity-register URL already cited for this gig, for New England And Western Tenants Advice And Advocacy Service Incorporated. This confirms the person and the org are correctly linked: after leaving parliament she moved from Qld to Armidale, resolving the apparent geographic mismatch."
+    }
   },
   {
     "role": "Associate",
@@ -54691,7 +54712,12 @@
     "sources": [
       "https://www.groupwork.com.au/our-team/janet-rice-1"
     ],
-    "pollie_slug": "janet-rice"
+    "pollie_slug": "janet-rice",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Groupwork Centre's own team page (groupwork.com.au/our-team/janet-rice-1) confirms identity as 'A former Greens senator, Janet Rice' and states she 'became a Groupwork Associate in 2024,' matching the role, organisation and post-Senate timing (ceased 2024-04-19)."
+    }
   },
   {
     "role": "Commissioner",
@@ -54699,8 +54725,14 @@
     "category": "Diplomacy & International Relations",
     "sources": [
       "https://johnmenadue.com/post/2025/06/international-observers-find-philippine-mid-term-elections-not-free-and-fair/",
-      "https://www.philstar.com/headlines/2022/06/28/2191514/election-monitors-disenfranchisement-glitches-undermined-may-polls"
+      "https://www.philstar.com/headlines/2022/06/28/2191514/election-monitors-disenfranchisement-glitches-undermined-may-polls",
+      "https://ichrp.net/international-observer-mission-2025-report-now-available/"
     ],
-    "pollie_slug": "lee-rhiannon"
+    "pollie_slug": "lee-rhiannon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "johnmenadue.com (2025) quotes 'one IOM Commissioner, former Australian Senator Lee Rhiannon,' directly naming her and the Commissioner title. Confirmed further by the organisation's own site, ichrp.net, which quotes 'IOM Commissioner Lee Rhiannon' — the International Observer Mission is ICHRP's own election-observation initiative. philstar.com (2022) also identifies her as 'former Australian Senator Lee Rhiannon' participating in the same IOM. Dates (2022, 2025) are well after her 2018-08-15 Senate exit."
+    }
   }
 ]
