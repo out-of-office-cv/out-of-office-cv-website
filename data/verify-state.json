@@ -6823,8 +6823,8 @@
     "attempts": 1
   },
   "susan-jeanes|Member|CSIRO Energy and Transport Sector Advisory Council|null": {
-    "last_examined_at": "2026-09-06T16:14:55.524Z",
-    "attempts": 2
+    "last_examined_at": "2026-09-13T16:26:14.256Z",
+    "attempts": 3
   },
   "susan-jeanes|Director|Institute for Mineral and Energy Resources, University of Adelaide|null": {
     "last_examined_at": "2026-09-06T16:14:55.524Z",
@@ -6863,8 +6863,8 @@
     "attempts": 1
   },
   "janelle-saffin|Founding Patron|Australia-Myanmar Chamber of Commerce|null": {
-    "last_examined_at": "2026-09-06T16:14:55.524Z",
-    "attempts": 2
+    "last_examined_at": "2026-09-13T16:26:14.256Z",
+    "attempts": 3
   },
   "julie-bishop|Director|Palladium Group|2019-07-01": {
     "last_examined_at": "2026-08-30T16:11:19.505Z",
@@ -7220,6 +7220,26 @@
   },
   "petro-georgiou|Director|State Library of Victoria|null": {
     "last_examined_at": "2026-09-12T16:25:03.971Z",
+    "attempts": 1
+  },
+  "florence-bjelke-petersen|Founder|Flo's Country Kitchen|null": {
+    "last_examined_at": "2026-09-13T16:26:14.256Z",
+    "attempts": 1
+  },
+  "keith-wolahan|Barrister|Dever's List|null": {
+    "last_examined_at": "2026-09-13T16:26:14.256Z",
+    "attempts": 1
+  },
+  "kevin-andrews|Council Member|Newman College|null": {
+    "last_examined_at": "2026-09-13T16:26:14.256Z",
+    "attempts": 1
+  },
+  "paul-filing|Lead Senate Candidate (Western Australia)|Pauline Hanson's One Nation|2022-01-26": {
+    "last_examined_at": "2026-09-13T16:26:14.256Z",
+    "attempts": 1
+  },
+  "steven-martin|Founder and President|Toast for Kids Charity Inc|null": {
+    "last_examined_at": "2026-09-13T16:26:14.256Z",
     "attempts": 1
   }
 }
