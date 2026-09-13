@@ -54836,5 +54836,45 @@
       "by": "claude",
       "note": "Catholic Weekly obituary confirms identity ('the Liberal member for Menzies from 1991 until 2022') and the role: 'At the time of his passing into eternal life he was serving on the council of Newman Catholic College at the University of Melbourne.' Wikipedia independently corroborates. Death date 14 December 2024 confirmed via ABC News, matching the given end_date."
     }
+  },
+  {
+    "role": "Advisor",
+    "organisation": "Laundy Hotel Group",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://hostplus.com.au/about-us/who-we-are/board-of-directors/craig-laundy"
+    ],
+    "pollie_slug": "craig-laundy"
+  },
+  {
+    "role": "Liberal Candidate for Chisholm",
+    "organisation": "Liberal Party of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://neoskosmos.com/en/2024/09/25/news/australia/liberal-party-faces-backlash-as-theo-zographos-replaced-by-katie-allen-in-chisholm/",
+      "https://en.wikipedia.org/wiki/Katie_Allen_(politician)"
+    ],
+    "pollie_slug": "katie-allen",
+    "start_date": "2024-09-08",
+    "end_date": "2025-05-03"
+  },
+  {
+    "role": "Superstars of STEM Mentor",
+    "organisation": "Science and Technology Australia",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://scienceandtechnologyaustralia.org.au/profile/katie-allen/"
+    ],
+    "pollie_slug": "katie-allen"
+  },
+  {
+    "role": "Co-Host",
+    "organisation": "I'm Usually More Professional (Sportsbet)",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.greataustralianpods.com/im-usually-more-professional/",
+      "https://podcasts.apple.com/au/podcast/im-usually-more-professional/id1459351226"
+    ],
+    "pollie_slug": "sam-dastyari"
   }
 ]
