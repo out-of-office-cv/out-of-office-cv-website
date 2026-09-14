@@ -54852,11 +54852,17 @@
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
       "https://neoskosmos.com/en/2024/09/25/news/australia/liberal-party-faces-backlash-as-theo-zographos-replaced-by-katie-allen-in-chisholm/",
-      "https://en.wikipedia.org/wiki/Katie_Allen_(politician)"
+      "https://en.wikipedia.org/wiki/Katie_Allen_(politician)",
+      "https://www.abc.net.au/news/elections/federal/2025/guide/chis"
     ],
     "pollie_slug": "katie-allen",
     "start_date": "2024-09-08",
-    "end_date": "2025-05-03"
+    "end_date": "2025-05-03",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed as the same person: multiple sources explicitly identify her as former Higgins MP. ABC News' 2025 federal election guide (abc.net.au/news/elections/federal/2025/guide/chis) states she was the Liberal candidate for Chisholm in the 3 May 2025 election (lost to Labor's Carina Garland, 44.3% to 55.7%). Neos Kosmos/News24 reporting (Sept 2024) confirms the Liberal Party's preselection committee replaced Theo Zographos with 'moderate ex-MP Katie Allen' for Chisholm after Higgins was abolished in the redistribution, matching the 2024-09-08 start date. Dates are plausible (post-2022 Higgins loss) and end date matches election day."
+    }
   },
   {
     "role": "Superstars of STEM Mentor",
@@ -54865,7 +54871,12 @@
     "sources": [
       "https://scienceandtechnologyaustralia.org.au/profile/katie-allen/"
     ],
-    "pollie_slug": "katie-allen"
+    "pollie_slug": "katie-allen",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Science and Technology Australia's own profile page (scienceandtechnologyaustralia.org.au/profile/katie-allen/) lists her with the title 'Superstars of STEM Mentor' and identifies her as 'Dr Katie Allen (MBBS, BMedSc, FRACP, PhD, FAHMS) was Federal Member for Higgins in the Coalition Government 2019-2022' — an authoritative organisational source confirming both identity and this specific role."
+    }
   },
   {
     "role": "Co-Host",
@@ -54875,7 +54886,12 @@
       "https://www.greataustralianpods.com/im-usually-more-professional/",
       "https://podcasts.apple.com/au/podcast/im-usually-more-professional/id1459351226"
     ],
-    "pollie_slug": "sam-dastyari"
+    "pollie_slug": "sam-dastyari",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Both cited sources name Sam Dastyari specifically. The Great Australian Pods directory (greataustralianpods.com) lists the podcast's hosts as 'A H Cayley, Sam Dastyari, and Joe Hildebrand', and Apple Podcasts (podcasts.apple.com/au/podcast/im-usually-more-professional/id1459351226) likewise lists 'Joe Hildebrand, Alice Workman and Sam Dastyari' as the primary hosts of this Sportsbet-produced politics podcast. A further web search corroborates the same three-host lineup and 2019-2020 run. This is unambiguously the former senator — he is well known for a post-Senate media career (Triple M, KIIS FM, I'm a Celebrity) and the podcast is explicitly a politics show, ruling out a namesake. The 2019-2020 run postdates his 2018-01-25 departure from the Senate, so dates are plausible. I could not reach Sportsbet's own site (news.sportsbet.com.au and sportsbet.com.au/blog both blocked the fetch — connection refused / 403), so no additional source was added, but the two independent existing sources are sufficient for verification."
+    }
   },
   {
     "role": "Chair",
@@ -54883,14 +54899,20 @@
     "category": "Pharmaceutical & Biotechnology",
     "sources": [
       "https://www.abc.net.au/news/2014-08-01/medicinal-cannabis-trial-gets-green-light-on-norfolk-island/5642110",
-      "https://www.sbs.com.au/news/article/firm-awaits-nod-for-norfolk-cannabis-plan/890vn6ik1"
+      "https://www.sbs.com.au/news/article/firm-awaits-nod-for-norfolk-cannabis-plan/890vn6ik1",
+      "https://www.examiner.com.au/story/2548775/cannabis-trial-approval-comes-too-late-for-company/"
     ],
     "role_evidence": {
       "url": "https://www.abc.net.au/news/2014-08-01/medicinal-cannabis-trial-gets-green-light-on-norfolk-island/5642110",
       "quote": "\"The Health Minister on Norfolk Island Robin Adams has now given us a production licence to go ahead and progress to grow on Norfolk medical cannabinoids,\" said the chairman of THC, Dr Mal Washer."
     },
     "start_date": "2014-08-01",
-    "pollie_slug": "mal-washer"
+    "pollie_slug": "mal-washer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by both cited sources plus a third. The ABC article (2014-08-01) directly quotes 'the chairman of THC, Dr Mal Washer' announcing Norfolk Island's production licence for medical cannabinoids. The SBS article removes any identity doubt, explicitly naming him 'former Liberal MP Mal Washer' as TasCann's (i.e. Tasman Health Cannabinoids') chairman. The Examiner (Launceston) article independently corroborates the chairmanship and gives further detail on the company's Tasmania trial being rejected before it pivoted to Norfolk Island. Dates are plausible (2014, after his 2013-08-05 ceasing date). Note for the record: SBS also reports TasCann was later dissolved and Washer became chairman of a successor entity, AusCann — that is a distinct organisation/gig and out of scope here, not touched."
+    }
   },
   {
     "role": "Deputy Chancellor",
@@ -54904,7 +54926,12 @@
       "quote": "At its first meeting on 29 May 2014, the Council elected The Hon Peter Lindsay, Deputy Chancellor for the life of the 16 th Council."
     },
     "start_date": "2014-05-29",
-    "pollie_slug": "peter-lindsay"
+    "pollie_slug": "peter-lindsay",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the archived James Cook University news release (web-public.jcu.edu.au, captured 2014-06-18), which verbatim states: 'At its first meeting on 29 May 2014, the Council elected The Hon Peter Lindsay, Deputy Chancellor for the life of the 16th Council.' This is an authoritative .edu.au source naming this specific former Federal Member for Herbert, and is corroborated by the archived Defence Honours and Awards Appeals Tribunal bio, which independently notes 'following his retirement as the member for Herbert, Mr Lindsay was appointed as the Deputy Chancellor of James Cook University in Townsville.' Start date of 2014-05-29 matches the source exactly."
+    }
   },
   {
     "role": "Member",
@@ -54917,7 +54944,12 @@
       "url": "https://web.archive.org/web/20190226154027/https://defence-honours-tribunal.gov.au/about/former-chairs-and-members/the-hon-peter-lindsay/",
       "quote": "The Hon Peter Lindsay was appointed to the Defence Honours and Awards Appeals Tribunal as a Member in August 2014 for three years."
     },
-    "pollie_slug": "peter-lindsay"
+    "pollie_slug": "peter-lindsay",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the archived Defence Honours and Awards Appeals Tribunal 'Former Chairs and Members' page (defence-honours-tribunal.gov.au, captured 2019-02-26), an authoritative .gov.au source, which states: 'The Hon Peter Lindsay was appointed to the Defence Honours and Awards Appeals Tribunal as a Member in August 2014 for three years.' The same page unambiguously identifies him as 'Mr Lindsay [who] retired as a Member of Parliament in 2010 having served as the Federal member for Herbert in Queensland since 1996,' ruling out a namesake."
+    }
   },
   {
     "role": "Member",
@@ -54930,6 +54962,11 @@
       "url": "https://web.archive.org/web/20160122023604/http://www.justice.qld.gov.au/corporate/sponsorships-and-grants/grants/community-benefit-funding-programs/gambling-community-benefit-fund-committee-members2",
       "quote": "He has continued to work with the local community and is currently a member of Townsville Enterprise Ltd's Economic Development Strategic Advisory Committee Townsville."
     },
-    "pollie_slug": "peter-lindsay"
+    "pollie_slug": "peter-lindsay",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the archived Queensland Department of Justice and Attorney-General 'Gambling Community Benefit Fund committee members' page (justice.qld.gov.au, captured 2016-01-22), a .gov.au source, whose bio for 'The Hon Peter Lindsay' (identified as former Councillor for Townsville City Council and Federal Member for Herbert) states: \"He has continued to work with the local community and is currently a member of Townsville Enterprise Ltd's Economic Development Strategic Advisory Committee Townsville.\" Although the page's main subject is a different appointment (the Gambling Community Benefit Committee), it explicitly names this role and organisation for this specific person, meeting the verification bar."
+    }
   }
 ]
