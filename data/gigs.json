@@ -54876,5 +54876,60 @@
       "https://podcasts.apple.com/au/podcast/im-usually-more-professional/id1459351226"
     ],
     "pollie_slug": "sam-dastyari"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Tasman Health Cannabinoids",
+    "category": "Pharmaceutical & Biotechnology",
+    "sources": [
+      "https://www.abc.net.au/news/2014-08-01/medicinal-cannabis-trial-gets-green-light-on-norfolk-island/5642110",
+      "https://www.sbs.com.au/news/article/firm-awaits-nod-for-norfolk-cannabis-plan/890vn6ik1"
+    ],
+    "role_evidence": {
+      "url": "https://www.abc.net.au/news/2014-08-01/medicinal-cannabis-trial-gets-green-light-on-norfolk-island/5642110",
+      "quote": "\"The Health Minister on Norfolk Island Robin Adams has now given us a production licence to go ahead and progress to grow on Norfolk medical cannabinoids,\" said the chairman of THC, Dr Mal Washer."
+    },
+    "start_date": "2014-08-01",
+    "pollie_slug": "mal-washer"
+  },
+  {
+    "role": "Deputy Chancellor",
+    "organisation": "James Cook University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://web.archive.org/web/20140618231722/http://www-public.jcu.edu.au/news/JCU_138115"
+    ],
+    "role_evidence": {
+      "url": "https://web.archive.org/web/20140618231722/http://www-public.jcu.edu.au/news/JCU_138115",
+      "quote": "At its first meeting on 29 May 2014, the Council elected The Hon Peter Lindsay, Deputy Chancellor for the life of the 16 th Council."
+    },
+    "start_date": "2014-05-29",
+    "pollie_slug": "peter-lindsay"
+  },
+  {
+    "role": "Member",
+    "organisation": "Defence Honours and Awards Appeals Tribunal",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://web.archive.org/web/20190226154027/https://defence-honours-tribunal.gov.au/about/former-chairs-and-members/the-hon-peter-lindsay/"
+    ],
+    "role_evidence": {
+      "url": "https://web.archive.org/web/20190226154027/https://defence-honours-tribunal.gov.au/about/former-chairs-and-members/the-hon-peter-lindsay/",
+      "quote": "The Hon Peter Lindsay was appointed to the Defence Honours and Awards Appeals Tribunal as a Member in August 2014 for three years."
+    },
+    "pollie_slug": "peter-lindsay"
+  },
+  {
+    "role": "Member",
+    "organisation": "Townsville Enterprise Economic Development Strategic Advisory Committee",
+    "category": "Retail, Hospitality & Tourism",
+    "sources": [
+      "https://web.archive.org/web/20160122023604/http://www.justice.qld.gov.au/corporate/sponsorships-and-grants/grants/community-benefit-funding-programs/gambling-community-benefit-fund-committee-members2"
+    ],
+    "role_evidence": {
+      "url": "https://web.archive.org/web/20160122023604/http://www.justice.qld.gov.au/corporate/sponsorships-and-grants/grants/community-benefit-funding-programs/gambling-community-benefit-fund-committee-members2",
+      "quote": "He has continued to work with the local community and is currently a member of Townsville Enterprise Ltd's Economic Development Strategic Advisory Committee Townsville."
+    },
+    "pollie_slug": "peter-lindsay"
   }
 ]
