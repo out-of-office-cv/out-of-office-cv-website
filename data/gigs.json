@@ -54968,5 +54968,20 @@
       "by": "claude",
       "note": "Confirmed by the archived Queensland Department of Justice and Attorney-General 'Gambling Community Benefit Fund committee members' page (justice.qld.gov.au, captured 2016-01-22), a .gov.au source, whose bio for 'The Hon Peter Lindsay' (identified as former Councillor for Townsville City Council and Federal Member for Herbert) states: \"He has continued to work with the local community and is currently a member of Townsville Enterprise Ltd's Economic Development Strategic Advisory Committee Townsville.\" Although the page's main subject is a different appointment (the Gambling Community Benefit Committee), it explicitly names this role and organisation for this specific person, meeting the verification bar."
     }
+  },
+  {
+    "role": "Director",
+    "organisation": "Snowy Hydro Limited",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://www.sbs.com.au/news/article/labor-appoints-former-liberal-leader-sussan-ley-to-snowy-hydro-board-role/wq0fddpte",
+      "https://www.thenewdaily.com.au/news/people/2026/09/14/sussan-ley-snowy-hydro",
+      "https://www.themandarin.com.au/320423-movers-shakers-snowy-hydro-welcomes-former-opposition-leader/"
+    ],
+    "role_evidence": {
+      "url": "https://www.sbs.com.au/news/article/labor-appoints-former-liberal-leader-sussan-ley-to-snowy-hydro-board-role/wq0fddpte",
+      "quote": "Sussan Ley will sit on the Snowy Hydro board following her resignation from politics earlier this year, Climate Minister Chris Bowen announced on Monday."
+    },
+    "pollie_slug": "sussan-ley"
   }
 ]
