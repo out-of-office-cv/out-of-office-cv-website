@@ -7179,8 +7179,8 @@
     "attempts": 1
   },
   "robert-halverson|Primary Producer|Kildrummie (beef cattle property, Holbrook, NSW)|null": {
-    "last_examined_at": "2026-09-10T16:29:00.263Z",
-    "attempts": 1
+    "last_examined_at": "2026-09-18T16:15:24.393Z",
+    "attempts": 2
   },
   "ross-hart|District Legal Officer|Rotary District 9830|null": {
     "last_examined_at": "2026-09-11T16:27:01.285Z",
@@ -7272,6 +7272,10 @@
   },
   "sam-dastyari|Co-Host|I'm Usually More Professional (Sportsbet)|null": {
     "last_examined_at": "2026-09-15T00:00:00.000Z",
+    "attempts": 1
+  },
+  "sussan-ley|Director|Snowy Hydro Limited|null": {
+    "last_examined_at": "2026-09-18T16:15:24.393Z",
     "attempts": 1
   }
 }
