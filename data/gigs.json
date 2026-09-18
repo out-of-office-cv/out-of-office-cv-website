@@ -54982,6 +54982,11 @@
       "url": "https://www.sbs.com.au/news/article/labor-appoints-former-liberal-leader-sussan-ley-to-snowy-hydro-board-role/wq0fddpte",
       "quote": "Sussan Ley will sit on the Snowy Hydro board following her resignation from politics earlier this year, Climate Minister Chris Bowen announced on Monday."
     },
-    "pollie_slug": "sussan-ley"
+    "pollie_slug": "sussan-ley",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "SBS News (cited source) reports: \"Sussan Ley will sit on the Snowy Hydro board following her resignation from politics earlier this year, Climate Minister Chris Bowen announced on Monday\" (Monday 14 Sept 2026). She replaces outgoing board member Sandra Dodds and is appointed alongside Merryn York. The Mandarin (Movers & Shakers, 18 Sept 2026) independently states \"Sussan Ley and Merryn York have joined the Snowy Hydro Limited board\" and describes her as the former opposition leader and former environment and water minister. Both sources name her as a director-level board member of Snowy Hydro Limited after she left parliament (ceased 2026-02-27), so the date is plausible. No term or formal start date is given, so start_date is left unset. The New Daily URL returned HTTP 403 to the fetch tool, which looks like bot-blocking rather than a dead link, so it is kept but was not read."
+    }
   }
 ]
