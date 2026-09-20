@@ -54988,5 +54988,20 @@
       "by": "claude",
       "note": "SBS News (cited source) reports: \"Sussan Ley will sit on the Snowy Hydro board following her resignation from politics earlier this year, Climate Minister Chris Bowen announced on Monday\" (Monday 14 Sept 2026). She replaces outgoing board member Sandra Dodds and is appointed alongside Merryn York. The Mandarin (Movers & Shakers, 18 Sept 2026) independently states \"Sussan Ley and Merryn York have joined the Snowy Hydro Limited board\" and describes her as the former opposition leader and former environment and water minister. Both sources name her as a director-level board member of Snowy Hydro Limited after she left parliament (ceased 2026-02-27), so the date is plausible. No term or formal start date is given, so start_date is left unset. The New Daily URL returned HTTP 403 to the fetch tool, which looks like bot-blocking rather than a dead link, so it is kept but was not read."
     }
+  },
+  {
+    "role": "Member for Braddon",
+    "organisation": "Tasmanian House of Assembly",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/gavin-pearce",
+      "https://en.wikipedia.org/wiki/Gavin_Pearce"
+    ],
+    "role_evidence": {
+      "url": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/gavin-pearce",
+      "quote": "Liberal member for Braddon"
+    },
+    "pollie_slug": "gavin-pearce",
+    "start_date": "2025-07-19"
   }
 ]
