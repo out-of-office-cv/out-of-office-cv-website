@@ -55060,5 +55060,17 @@
       "quote": "McQueen was one of the four vice presidents of the federal Liberal Party of Australia serving from 2017 to 2023 after securing the position from incumbent Trish Worth."
     },
     "pollie_slug": "trish-worth"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Sea Shepherd Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.abc.net.au/news/2014-04-03/bob-brown-steps-down-as-sea-shepherd-chairman/5363616",
+      "https://www.abc.net.au/news/2013-01-08/bob-brown-takes-sea-shepherd-helm/4456424"
+    ],
+    "pollie_slug": "bob-brown",
+    "start_date": "2013-01-08",
+    "end_date": "2014-04-03"
   }
 ]
