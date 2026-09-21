@@ -54995,14 +54995,20 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/gavin-pearce",
-      "https://en.wikipedia.org/wiki/Gavin_Pearce"
+      "https://en.wikipedia.org/wiki/Gavin_Pearce",
+      "https://www.parliament.tas.gov.au/visit-and-learn/historyindex/members/gavin-pearce"
     ],
     "role_evidence": {
       "url": "https://www.parliament.tas.gov.au/house-of-assembly/currentmembers/gavin-pearce",
       "quote": "Liberal member for Braddon"
     },
     "pollie_slug": "gavin-pearce",
-    "start_date": "2025-07-19"
+    "start_date": "2025-07-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Parliament of Tasmania member page describes The Honourable Gavin Pearce MP as \"Liberal member for Braddon. First elected in 2025.\" Wikipedia gives his House of Assembly service as from 19 July 2025, after his federal term ended on 28 March 2025."
+    }
   },
   {
     "role": "Director",
@@ -55016,7 +55022,12 @@
       "url": "https://thestraight.com.au/matthew-mcgrath-to-lead-new-look-rq-board/",
       "quote": "Former federal Liberal MP Jane Prentice and public affairs/crisis management professional Sally Branson also join the nine-person board."
     },
-    "pollie_slug": "jane-prentice"
+    "pollie_slug": "jane-prentice",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Straight (13 March 2026): \"Former federal Liberal MP Jane Prentice and public affairs/crisis management professional Sally Branson also join the nine-person board\" of Racing Queensland. Queensland Government ministerial statement 104679 lists The Honourable Jane Prentice among the new board appointees."
+    }
   },
   {
     "role": "Board Member",
@@ -55030,7 +55041,12 @@
       "quote": "The Australian Government has appointed Mr Ewen Jones as a member of the Board of the National Film and Sound Archive (NFSA) for a period of three years."
     },
     "start_date": "2019-04-10",
-    "pollie_slug": "ewen-jones"
+    "pollie_slug": "ewen-jones",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Mitch Fifield's (then Minister for Communications and the Arts) April 2019 media release: \"The Australian Government has appointed Mr Ewen Jones as a member of the Board of the National Film and Sound Archive (NFSA) for a period of three years.\" It identifies him as the former Member for Herbert (2010--2016), ruling out a namesake."
+    }
   },
   {
     "role": "Federal Vice-President",
