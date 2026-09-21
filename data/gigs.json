@@ -55003,5 +55003,46 @@
     },
     "pollie_slug": "gavin-pearce",
     "start_date": "2025-07-19"
+  },
+  {
+    "role": "Director",
+    "organisation": "Racing Queensland",
+    "category": "Gambling, Gaming and Racing",
+    "sources": [
+      "https://thestraight.com.au/matthew-mcgrath-to-lead-new-look-rq-board/",
+      "https://statements.qld.gov.au/statements/104679"
+    ],
+    "role_evidence": {
+      "url": "https://thestraight.com.au/matthew-mcgrath-to-lead-new-look-rq-board/",
+      "quote": "Former federal Liberal MP Jane Prentice and public affairs/crisis management professional Sally Branson also join the nine-person board."
+    },
+    "pollie_slug": "jane-prentice"
+  },
+  {
+    "role": "Board Member",
+    "organisation": "National Film and Sound Archive of Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.mitchfifield.com/2019/04/national-film-and-sound-archive-board-appointment/"
+    ],
+    "role_evidence": {
+      "url": "https://www.mitchfifield.com/2019/04/national-film-and-sound-archive-board-appointment/",
+      "quote": "The Australian Government has appointed Mr Ewen Jones as a member of the Board of the National Film and Sound Archive (NFSA) for a period of three years."
+    },
+    "start_date": "2019-04-10",
+    "pollie_slug": "ewen-jones"
+  },
+  {
+    "role": "Federal Vice-President",
+    "organisation": "Liberal Party of Australia",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Teena_McQueen"
+    ],
+    "role_evidence": {
+      "url": "https://en.wikipedia.org/wiki/Teena_McQueen",
+      "quote": "McQueen was one of the four vice presidents of the federal Liberal Party of Australia serving from 2017 to 2023 after securing the position from incumbent Trish Worth."
+    },
+    "pollie_slug": "trish-worth"
   }
 ]
