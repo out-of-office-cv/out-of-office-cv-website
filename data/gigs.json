@@ -55082,5 +55082,18 @@
       "by": "claude",
       "note": "Confirmed by ABC News (2014-04-03), which identifies him unambiguously as 'Former Greens leader Bob Brown' who 'was leader of the Australian Greens from 1989 until he resigned on June 15, 2012' (exactly matching this pollie's ceased_date, ruling out the NSW ALP namesake), and states 'The outgoing chairman of Sea Shepherd Australia Bob Brown...' confirming the Chair role at Sea Shepherd Australia. The companion ABC article (2013-01-08) confirms he took on the leadership role at Sea Shepherd in Hobart on that date, and the 2014 article corroborates 'Brown had joined Sea Shepherd in January 2013.' Dates are plausible and consistent across both sources."
     }
+  },
+  {
+    "role": "Guest Lecturer and Mentor",
+    "organisation": "University of Notre Dame Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://cathnews.com/2026/09/02/notre-dame-awards-honorary-doctorate-to-father-of-reconciliation/"
+    ],
+    "role_evidence": {
+      "url": "https://cathnews.com/2026/09/02/notre-dame-awards-honorary-doctorate-to-father-of-reconciliation/",
+      "quote": "He continues to support the university as a guest lecturer and mentor."
+    },
+    "pollie_slug": "pat-dodson"
   }
 ]
