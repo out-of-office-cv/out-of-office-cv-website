@@ -54844,7 +54844,12 @@
     "sources": [
       "https://hostplus.com.au/about-us/who-we-are/board-of-directors/craig-laundy"
     ],
-    "pollie_slug": "craig-laundy"
+    "pollie_slug": "craig-laundy",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited Hostplus board bio page (hostplus.com.au/about-us/who-we-are/board-of-directors/craig-laundy), while primarily about his Hostplus Employer Director role, includes an experience section that explicitly states 'Advisor to the Laundy Hotel Group.' The page names this specific former MP (Federal Member for Reid, ministerial titles matching his parliamentary record exactly), resolving the apparent source/organisation mismatch. Corroborated by Wikipedia and news coverage confirming his family's ownership of the Laundy Hotel Group and his return to the business after leaving parliament in 2019. No source gives precise start/end dates for the advisor title, so dates are left as-is."
+    }
   },
   {
     "role": "Liberal Candidate for Chisholm",
@@ -55071,6 +55076,11 @@
     ],
     "pollie_slug": "bob-brown",
     "start_date": "2013-01-08",
-    "end_date": "2014-04-03"
+    "end_date": "2014-04-03",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by ABC News (2014-04-03), which identifies him unambiguously as 'Former Greens leader Bob Brown' who 'was leader of the Australian Greens from 1989 until he resigned on June 15, 2012' (exactly matching this pollie's ceased_date, ruling out the NSW ALP namesake), and states 'The outgoing chairman of Sea Shepherd Australia Bob Brown...' confirming the Chair role at Sea Shepherd Australia. The companion ABC article (2013-01-08) confirms he took on the leadership role at Sea Shepherd in Hobart on that date, and the 2014 article corroborates 'Brown had joined Sea Shepherd in January 2013.' Dates are plausible and consistent across both sources."
+    }
   }
 ]
