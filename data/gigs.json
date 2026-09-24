@@ -55100,5 +55100,62 @@
       "by": "claude",
       "note": "CathNews (2026-09-02, 'Notre Dame awards honorary doctorate to Father of Reconciliation') names Patrick 'Pat' Dodson specifically and states 'He continues to support the university as a guest lecturer and mentor' in the context of his honorary doctorate from University of Notre Dame Australia \u2014 confirming both the person and the exact role/organisation. Corroborating search also found he holds/held an adjunct professor role at Notre Dame's Broome campus, consistent with ongoing involvement, though I could not independently fetch a second primary source (notredame.edu.au honorary-doctorates page returned HTTP 403). Dates are plausible (well after his 2024-01-26 Senate departure)."
     }
+  },
+  {
+    "role": "Founder",
+    "organisation": "Australian-American Chamber of Commerce, Los Angeles",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22chamber/hansardr/2001-02-06/0004%22;src1=sm1"
+    ],
+    "role_evidence": {
+      "url": "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22chamber/hansardr/2001-02-06/0004%22;src1=sm1",
+      "quote": "During this time he founded the Australian-American Chamber of Commerce in Los Angeles."
+    },
+    "start_date": "1981",
+    "end_date": "1983",
+    "pollie_slug": "john-mcleay"
+  },
+  {
+    "role": "Minister for Housing Infrastructure",
+    "organisation": "South Australian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.parliament.sa.gov.au/-/media/Project/Parliament/Documents/Members/Ministry-as-at-29-January-2025.pdf",
+      "https://www.indailysa.com.au/news/archive/2024/04/15/housing-a-big-move-as-premier-announces-cabinet-reshuffle"
+    ],
+    "role_evidence": {
+      "url": "https://www.parliament.sa.gov.au/-/media/Project/Parliament/Documents/Members/Ministry-as-at-29-January-2025.pdf",
+      "quote": "Hon Nicholas David (Nick) CHAMPION, BA, MP\nMinister for Housing and Urban Development\nMinister for Housing Infrastructure\nMinister for Planning"
+    },
+    "start_date": "2024-04-15",
+    "pollie_slug": "nick-champion"
+  },
+  {
+    "role": "Director",
+    "organisation": "Museum of Australian Democracy",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.tonyburke.com.au/media-releases/2026/new-appointment-to-arts-boards"
+    ],
+    "role_evidence": {
+      "url": "https://www.tonyburke.com.au/media-releases/2026/new-appointment-to-arts-boards",
+      "quote": "The Hon Linda Burney appointed to the Board of Museum of Australian Democracy for a 3-year term."
+    },
+    "pollie_slug": "linda-burney"
+  },
+  {
+    "role": "Parliamentary Secretary for Community Sport",
+    "organisation": "Victorian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://timesnewsgroup.com.au/geelongtimes/news/cheeseman-appointed-to-new-role/"
+    ],
+    "role_evidence": {
+      "url": "https://timesnewsgroup.com.au/geelongtimes/news/cheeseman-appointed-to-new-role/",
+      "quote": "Earlier today, Premier Daniel Andrews released a statement announcing 'several changes to parliamentary secretary responsibilities', including that Mr Cheeseman would become Parliamentary Secretary for Community Sport."
+    },
+    "start_date": "2023-08-01",
+    "pollie_slug": "darren-cheeseman"
   }
 ]
