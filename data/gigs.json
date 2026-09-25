@@ -55157,5 +55157,18 @@
     },
     "start_date": "2023-08-01",
     "pollie_slug": "darren-cheeseman"
+  },
+  {
+    "role": "Chair",
+    "organisation": "The Opera Foundation For Young Australians",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://theoperafoundation.com.au/our-people-2/"
+    ],
+    "role_evidence": {
+      "url": "https://theoperafoundation.com.au/our-people-2/",
+      "quote": "The Hon Bronwyn Bishop AO – Chairman"
+    },
+    "pollie_slug": "bronwyn-bishop"
   }
 ]
