@@ -55200,5 +55200,18 @@
       "by": "claude",
       "note": "The organisation's own 'Our People' page (theoperafoundation.com.au/our-people-2/) lists 'The Hon Bronwyn Bishop AO \u2013 Chairman' among its Board of Directors, directly naming her honorific title matching the former Liberal Senator (AO, styled 'The Hon'). Identity and role both corroborated by Opera Australia's own site, which hosts an 'In Conversation with the Hon. Bronwyn Bishop AO' feature, and her AO honorific/parliamentary record align with the well-known former Senator, not a namesake."
     }
+  },
+  {
+    "role": "Institute Director",
+    "organisation": "MATS Plan Institute",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://matsplan.org/about"
+    ],
+    "role_evidence": {
+      "url": "https://matsplan.org/about",
+      "quote": "In September 2021, Institute Director Bob Day AO, a former Senator, builder and Highways Department Technical Officer (Materials and Research Laboratories), advocated for a connector bridge to be built over the Port River and Barker Inlet to link the new Osborne shipyards to the M2 motorway."
+    },
+    "pollie_slug": "bob-day"
   }
 ]
