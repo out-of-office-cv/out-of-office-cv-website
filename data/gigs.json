@@ -55114,7 +55114,12 @@
     },
     "start_date": "1981",
     "end_date": "1983",
-    "pollie_slug": "john-mcleay"
+    "pollie_slug": "john-mcleay",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed via direct fetch of the cited Hansard condolence motion (CONDOLENCES: McLeay, Hon. John Elden, 6 Feb 2001), which names this exact pollie (son of Sir John McLeay Sr, member for Boothby, retired 1981). Full text reads: 'He resigned from parliament in 1981 and was appointed Australia's Consul General to Los Angeles from 1981 to 1983. During this time he founded the Australian-American Chamber of Commerce in Los Angeles. For this he received a special commendation from the United States Secretary of State.' This resolves the ambiguity flagged in the brief: 'this time' unambiguously refers to the 1981\u20131983 Consul-General posting, which exactly matches the gig's start_date/end_date. Parliamentary Hansard record is a strong-authority source and directly substantiates this specific role (Founder) at this specific organisation."
+    }
   },
   {
     "role": "Minister for Housing Infrastructure",
@@ -55122,41 +55127,61 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": [
       "https://www.parliament.sa.gov.au/-/media/Project/Parliament/Documents/Members/Ministry-as-at-29-January-2025.pdf",
-      "https://www.indailysa.com.au/news/archive/2024/04/15/housing-a-big-move-as-premier-announces-cabinet-reshuffle"
+      "https://www.indailysa.com.au/news/archive/2024/04/15/housing-a-big-move-as-premier-announces-cabinet-reshuffle",
+      "https://www.parliament.sa.gov.au/Search/Member?id=6889&type=member"
     ],
     "role_evidence": {
       "url": "https://www.parliament.sa.gov.au/-/media/Project/Parliament/Documents/Members/Ministry-as-at-29-January-2025.pdf",
       "quote": "Hon Nicholas David (Nick) CHAMPION, BA, MP\nMinister for Housing and Urban Development\nMinister for Housing Infrastructure\nMinister for Planning"
     },
     "start_date": "2024-04-15",
-    "pollie_slug": "nick-champion"
+    "pollie_slug": "nick-champion",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Identity confirmed: this is the same Nick Champion who was federal ALP member for Wakefield (2007\u201319) then Spence (2019\u201322); he resigned from federal parliament in Feb 2022 to contest the SA state seat of Taylor, won it, and joined the Malinauskas Labor Government's cabinet. The official SA Parliament member profile (parliament.sa.gov.au/Search/Member?id=6889) explicitly lists his three concurrent portfolios \u2014 'Minister for Housing and Urban Development', 'Minister for Housing Infrastructure', and 'Minister for Planning' \u2014 confirming 'Minister for Housing Infrastructure' is a genuine, exact title, not a mangling of 'Housing and Urban Development'. The cited Ministry-as-at-29-January-2025 PDF (also parliament.sa.gov.au) corroborates the same three-title listing. The cited InDaily article (15 April 2024) confirms this expanded 'housing super portfolio' (covering housing, infrastructure, urban development and planning) was created on that date via a cabinet reshuffle by Premier Malinauskas, matching the given start_date. Hansard portfolio filters (hansardsearch.parliament.sa.gov.au) independently show 'Minister for Housing Infrastructure' as an active portfolio under which Champion answered questions in the House of Assembly."
+    }
   },
   {
     "role": "Director",
     "organisation": "Museum of Australian Democracy",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://www.tonyburke.com.au/media-releases/2026/new-appointment-to-arts-boards"
+      "https://www.tonyburke.com.au/media-releases/2026/new-appointment-to-arts-boards",
+      "https://moadoph.gov.au/about/board-old-parliament-house"
     ],
     "role_evidence": {
       "url": "https://www.tonyburke.com.au/media-releases/2026/new-appointment-to-arts-boards",
       "quote": "The Hon Linda Burney appointed to the Board of Museum of Australian Democracy for a 3-year term."
     },
-    "pollie_slug": "linda-burney"
+    "pollie_slug": "linda-burney",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed by the Museum of Australian Democracy's own board page (moadoph.gov.au/about/board-old-parliament-house), which lists 'The Hon, Linda Burney, Member \u2014 Former Minister for Indigenous Australians, August 2026\u2013August 2029'. The cited Tony Burke MP media release independently corroborates the same appointment ('The Hon Linda Burney appointed to the Board of Museum of Australian Democracy for a 3-year term'), consistent with the August 2026\u2013August 2029 term on MoAD's site. Note on title terminology: MoAD's own governance page calls board members 'Member', not 'Director' \u2014 the recorded role 'Director' isn't the org's own usage, but per the mutation rules role/organisation cannot be altered, so left as-is; flagging for awareness."
+    }
   },
   {
     "role": "Parliamentary Secretary for Community Sport",
     "organisation": "Victorian Government",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://timesnewsgroup.com.au/geelongtimes/news/cheeseman-appointed-to-new-role/"
+      "https://timesnewsgroup.com.au/geelongtimes/news/cheeseman-appointed-to-new-role/",
+      "https://www.bay939.com.au/news/local-news/141173-cheeseman-retains-parliamentary-secretary-role",
+      "https://en.wikipedia.org/wiki/Darren_Cheeseman"
     ],
     "role_evidence": {
       "url": "https://timesnewsgroup.com.au/geelongtimes/news/cheeseman-appointed-to-new-role/",
       "quote": "Earlier today, Premier Daniel Andrews released a statement announcing 'several changes to parliamentary secretary responsibilities', including that Mr Cheeseman would become Parliamentary Secretary for Community Sport."
     },
     "start_date": "2023-08-01",
-    "pollie_slug": "darren-cheeseman"
+    "pollie_slug": "darren-cheeseman",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Confirmed same person: federal MP for Corangamite 2007-2013 who later won the Victorian state seat of South Barwon in 2018 (Wikipedia, Parliament of Victoria, ABC all corroborate same bio/prior federal seat) -- a legitimate post-federal career move into state politics, analogous to Nick Champion. The cited Geelong Times article (2023-08-01) explicitly names him 'SOUTH Barwon MP Darren Cheeseman' and quotes Premier Daniel Andrews confirming his move to Parliamentary Secretary for Community Sport, supporting Minister Ros Spence on community sporting codes and the All Abilities Sport Fund -- independently corroborated same-day by bay93.9. Role was short-lived: when Jacinta Allan's ministry was sworn in 2023-10-02, Cheeseman moved to Parliamentary Secretary for Education (confirmed by a primarycommsgroup.com.au cabinet brief dated October 2023, and by the ABC's April 2024 report on his resignation 'as parliamentary secretary for education'), so an end_date of 2023-10-02 is added."
+    },
+    "end_date": "2023-10-02"
   },
   {
     "role": "Chair",
@@ -55167,8 +55192,13 @@
     ],
     "role_evidence": {
       "url": "https://theoperafoundation.com.au/our-people-2/",
-      "quote": "The Hon Bronwyn Bishop AO – Chairman"
+      "quote": "The Hon Bronwyn Bishop AO \u2013 Chairman"
     },
-    "pollie_slug": "bronwyn-bishop"
+    "pollie_slug": "bronwyn-bishop",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The organisation's own 'Our People' page (theoperafoundation.com.au/our-people-2/) lists 'The Hon Bronwyn Bishop AO \u2013 Chairman' among its Board of Directors, directly naming her honorific title matching the former Liberal Senator (AO, styled 'The Hon'). Identity and role both corroborated by Opera Australia's own site, which hosts an 'In Conversation with the Hon. Bronwyn Bishop AO' feature, and her AO honorific/parliamentary record align with the well-known former Senator, not a namesake."
+    }
   }
 ]
