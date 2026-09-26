@@ -7179,8 +7179,8 @@
     "attempts": 1
   },
   "robert-halverson|Primary Producer|Kildrummie (beef cattle property, Holbrook, NSW)|null": {
-    "last_examined_at": "2026-09-18T16:15:24.393Z",
-    "attempts": 2
+    "last_examined_at": "2026-09-27T00:00:00.000Z",
+    "attempts": 3
   },
   "ross-hart|District Legal Officer|Rotary District 9830|null": {
     "last_examined_at": "2026-09-11T16:27:01.285Z",
@@ -7320,6 +7320,10 @@
   },
   "nick-champion|Minister for Housing Infrastructure|South Australian Government|2024-04-15": {
     "last_examined_at": "2026-09-25T16:16:21.356Z",
+    "attempts": 1
+  },
+  "bob-day|Institute Director|MATS Plan Institute|null": {
+    "last_examined_at": "2026-09-27T00:00:00.000Z",
     "attempts": 1
   }
 }
