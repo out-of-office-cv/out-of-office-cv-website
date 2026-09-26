@@ -54510,13 +54510,20 @@
     "category": "Agriculture, Forestry & Fisheries",
     "sources": [
       "https://www.sbs.com.au/news/ex-federal-speaker-bob-halverson-dies",
-      "https://adb.anu.edu.au/biography/halverson-robert-george-bob-28207"
+      "https://adb.anu.edu.au/biography/halverson-robert-george-bob-28207",
+      "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22chamber/hansardr/dff2f362-577c-44bb-a29c-3d98a57a635a/0231%22"
     ],
     "role_evidence": {
       "url": "https://www.sbs.com.au/news/ex-federal-speaker-bob-halverson-dies",
       "quote": "After he retired from public life, Mr Halverson moved to his Holbrook farm and worked as a primary producer."
     },
-    "end_date": "2016-02-09"
+    "end_date": "2016-02-09",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "SBS (fetched) and ADB (fetched) confirm Halverson worked as a primary producer on a beef farm near Holbrook after leaving public life, but neither names the property. Found the missing link in the official Commonwealth Hansard: House of Representatives Federation Chamber condolence motion for Robert George (Bob) Halverson, 24 Feb 2016 (p.2172), speech by Dr Sharman Stone MP: 'Bob retired to Holbrook in 2003 to become a prime beef producer on his property Kildrummie... His long beloved wife Maggie helped transform a unique home at Kildrummie; in fact, the house was a converted cattle stud selling station.' This confirms the specific person (former Speaker, member for Casey), the role (primary producer/prime beef producer), and the organisation/property name (Kildrummie). The same Hansard record also confirms he died 9 February 2016, matching the existing end_date. Added start_date of 2003 per Stone's statement that he retired to Holbrook that year (precise month/day not given)."
+    },
+    "start_date": "2003"
   },
   {
     "role": "Minister for Local Government",
@@ -55212,6 +55219,11 @@
       "url": "https://matsplan.org/about",
       "quote": "In September 2021, Institute Director Bob Day AO, a former Senator, builder and Highways Department Technical Officer (Materials and Research Laboratories), advocated for a connector bridge to be built over the Port River and Barker Inlet to link the new Osborne shipyards to the M2 motorway."
     },
-    "pollie_slug": "bob-day"
+    "pollie_slug": "bob-day",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The organisation's own about page (https://matsplan.org/about, confirmed via WebFetch) names \"Institute Director Bob Day AO, a former Senator, builder and Highways Department Technical Officer (Materials and Research Laboratories)\" -- this biographical detail (builder, former Senator, ex-Highways Department Materials and Research Laboratories technical officer) matches the real Bob Day precisely, ruling out a namesake, and the same sentence directly states his role (Institute Director) at this organisation (MATS Plan Institute). The page dates his advocacy activity in the role to September 2021, well after his Senate departure (2016-11-01), so dates are plausible. Cited source alone meets the bar for verified."
+    }
   }
 ]
