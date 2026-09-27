@@ -55237,6 +55237,11 @@
     "role_evidence": {
       "url": "https://councilmagazine.com.au/new-president-of-local-government-nsw-elected/",
       "quote": "Metropolitan/Urban Board Directors declared elected were Cr Michael Forshaw (Sutherland Shire), Cr George Greiss (City of Campbelltown), Cr Julie Griffith (City of Blacktown), Cr Nathan Hagarty (City of Liverpool), Cr Karen McKeown (City of Penrith), Cr Carmelo Pesce (Sutherland Shire), and Cr Philipa Veitch (City of Randwick)."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "councilmagazine.com.au ('New President of Local Government NSW elected') names 'Cr Michael Forshaw (Sutherland Shire)' among the Metropolitan/Urban Board Directors declared elected to the LGNSW board -- the cited role_evidence quote is accurate to the article (direct WebFetch was blocked with HTTP 403, but the identical passage is independently corroborated in web-search snippets of the same article). Identity is confirmed as the former ALP Senator: Wikipedia's Michael Forshaw article states 'In September 2016, he was elected to Sutherland Shire Council as a Councillor and in September 2020 he became Deputy Mayor', matching the 'Cr Michael Forshaw (Sutherland Shire)' identification in the LGNSW article and post-dating his 2011 Senate exit. Could not pin down an exact start date for the LGNSW board term (election appears to be late 2021, around the LGNSW annual conference) despite searching, so no date_changes added -- sources consulted only give the year, not a specific date, so a precise start_date would be unsupported."
     }
   },
   {
@@ -55258,11 +55263,18 @@
     "organisation": "Anthroposophical Society in Australia (Tasmanian Branch)",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.anthroposophyau.org.au/updates/introducing-our-new-general-secretary-jane-bradshaw/"
+      "https://www.anthroposophyau.org.au/updates/introducing-our-new-general-secretary-jane-bradshaw/",
+      "https://biography.senate.gov.au/hearn-jean-margaret/"
     ],
     "role_evidence": {
       "url": "https://www.anthroposophyau.org.au/updates/introducing-our-new-general-secretary-jane-bradshaw/",
       "quote": "With Jean Hearn (the then Tasmanian Branch secretary of the ASinA) as her spiritual mentor, Jane gradually became more deeply and actively engaged in the Anthroposophical movement"
-    }
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Identity confirmed independently: the official Senate biography (biography.senate.gov.au) states Jean Margaret Hearn (1921-2017, ALP Senator for Tas 1980-85) joined the Australian Anthroposophical Society in 1962 and 'maintained her association with the Australian Anthroposophical Society' throughout her life, ruling out a namesake. The cited ASinA source is the organisation's own website and explicitly names her formal role: 'Jean Hearn (the then Tasmanian Branch secretary of the ASinA)'. The same article dates the leadership handover to Jane Bradshaw to 2009, when Hearn (aged 88) stepped back -- a plausible post-parliamentary volunteer role held well after her 1985 retirement from the Senate. Added end_date 2009 based on this evidence (exact month/day not given; start date of the secretaryship is not stated in any source found, so left unset)."
+    },
+    "end_date": "2009"
   }
 ]
