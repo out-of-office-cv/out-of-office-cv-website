@@ -7325,5 +7325,17 @@
   "bob-day|Institute Director|MATS Plan Institute|null": {
     "last_examined_at": "2026-09-27T00:00:00.000Z",
     "attempts": 1
+  },
+  "cameron-thompson|Editorial Coordinator|Today Newspaper Group|null": {
+    "last_examined_at": "2026-09-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "jean-hearn|Secretary|Anthroposophical Society in Australia (Tasmanian Branch)|null": {
+    "last_examined_at": "2026-09-28T00:00:00.000Z",
+    "attempts": 1
+  },
+  "michael-forshaw|Director|Local Government NSW|null": {
+    "last_examined_at": "2026-09-28T00:00:00.000Z",
+    "attempts": 1
   }
 }
