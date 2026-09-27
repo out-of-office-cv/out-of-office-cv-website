@@ -55276,5 +55276,14 @@
       "note": "Identity confirmed independently: the official Senate biography (biography.senate.gov.au) states Jean Margaret Hearn (1921-2017, ALP Senator for Tas 1980-85) joined the Australian Anthroposophical Society in 1962 and 'maintained her association with the Australian Anthroposophical Society' throughout her life, ruling out a namesake. The cited ASinA source is the organisation's own website and explicitly names her formal role: 'Jean Hearn (the then Tasmanian Branch secretary of the ASinA)'. The same article dates the leadership handover to Jane Bradshaw to 2009, when Hearn (aged 88) stepped back -- a plausible post-parliamentary volunteer role held well after her 1985 retirement from the Senate. Added end_date 2009 based on this evidence (exact month/day not given; start date of the secretaryship is not stated in any source found, so left unset)."
     },
     "end_date": "2009"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Educate Early Learning Centres",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://educateelc.au/our-team/"
+    ],
+    "pollie_slug": "karen-mcnamara"
   }
 ]
