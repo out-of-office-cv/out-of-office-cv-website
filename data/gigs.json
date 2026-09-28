@@ -55285,5 +55285,59 @@
       "https://educateelc.au/our-team/"
     ],
     "pollie_slug": "karen-mcnamara"
+  },
+  {
+    "role": "Secretary",
+    "organisation": "Australian Labor Party (Armidale State Electoral Council)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marjorie_Henzell"
+    ],
+    "pollie_slug": "marjorie-henzell"
+  },
+  {
+    "role": "Adviser",
+    "organisation": "Office of Darren Webber MP",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.abc.net.au/news/2014-10-15/lloyd-preselect/5816658"
+    ],
+    "pollie_slug": "jim-lloyd"
+  },
+  {
+    "role": "Director",
+    "organisation": "Red Meat Advisory Council",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.rmac.com.au/our-people"
+    ],
+    "pollie_slug": "chris-back"
+  },
+  {
+    "role": "Director",
+    "organisation": "Nadia + Alf Taylor Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://nadiaandalftaylorfoundation.org/about/"
+    ],
+    "pollie_slug": "patrick-farmer"
+  },
+  {
+    "role": "Adviser",
+    "organisation": "China's Real Estate Investment Trusts",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.canberratimes.com.au/story/9114950/former-liberal-mp-pat-farmer-lobbying-for-chinese-state-owned-university/"
+    ],
+    "pollie_slug": "patrick-farmer"
+  },
+  {
+    "role": "Registered Foreign Agent",
+    "organisation": "Central South University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.canberratimes.com.au/story/9114950/former-liberal-mp-pat-farmer-lobbying-for-chinese-state-owned-university/"
+    ],
+    "pollie_slug": "patrick-farmer"
   }
 ]
