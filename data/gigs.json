@@ -55284,7 +55284,12 @@
     "sources": [
       "https://educateelc.au/our-team/"
     ],
-    "pollie_slug": "karen-mcnamara"
+    "pollie_slug": "karen-mcnamara",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The organisation's own Our Team page confirms identity and role: it states Karen served as a Member of the House of Representatives from 2013 to 2016 for the electorate of Dobell, and lists her current positions as 'Board Chair & Company Secretary', matching both the person and the specific role (Chair)."
+    }
   },
   {
     "role": "Secretary",
@@ -55293,7 +55298,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Marjorie_Henzell"
     ],
-    "pollie_slug": "marjorie-henzell"
+    "pollie_slug": "marjorie-henzell",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Wikipedia article on Marjorie Henzell is specifically about this former Member for Capricornia, not a namesake, and states she served as secretary of the ALP's Armidale State Electoral Council, footnoted to a dated regional source (Armidale Express, 4 Feb 2007). The Armidale/Capricornia geographic mismatch is explained rather than contradicted: her documented post-parliamentary life shows she relocated to Armidale, NSW after losing her seat in 1996."
+    }
   },
   {
     "role": "Adviser",
@@ -55302,7 +55312,12 @@
     "sources": [
       "https://www.abc.net.au/news/2014-10-15/lloyd-preselect/5816658"
     ],
-    "pollie_slug": "jim-lloyd"
+    "pollie_slug": "jim-lloyd",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ABC News (15 Oct 2014) directly states 'Jim Lloyd works as an advisor to Wyong MP, Darren Webber' and confirms the same Jim Lloyd was the federal MP defeated by Belinda Neal in 2007, matching the pollie record for Robertson."
+    }
   },
   {
     "role": "Director",
@@ -55311,7 +55326,12 @@
     "sources": [
       "https://www.rmac.com.au/our-people"
     ],
-    "pollie_slug": "chris-back"
+    "pollie_slug": "chris-back",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "RMAC's own 'Our People' board page lists Chris Back among current Directors, with a biography identifying him as 'the first veterinarian elected to Australia's Senate', who chaired the Foreign Affairs, Defence and Trade Committee and was involved in reversing the 2011 ban on beef cattle exports to Indonesia — uniquely matching WA Senator Chris Back (ceased 2017-07-31), not a namesake."
+    }
   },
   {
     "role": "Director",
@@ -55320,7 +55340,12 @@
     "sources": [
       "https://nadiaandalftaylorfoundation.org/about/"
     ],
-    "pollie_slug": "patrick-farmer"
+    "pollie_slug": "patrick-farmer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The foundation's own About page (nadiaandalftaylorfoundation.org/about/) names Pat Farmer AM on its board, describing him as 'a professional ultra-marathon runner, former Australian parliamentarian, and philanthropist' — confirming both identity and the Director/board role at this specific organisation."
+    }
   },
   {
     "role": "Adviser",
@@ -55329,7 +55354,12 @@
     "sources": [
       "https://www.canberratimes.com.au/story/9114950/former-liberal-mp-pat-farmer-lobbying-for-chinese-state-owned-university/"
     ],
-    "pollie_slug": "patrick-farmer"
+    "pollie_slug": "patrick-farmer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Canberra Times article confirms this specific person — 'former Liberal MP Pat Farmer' who 'served in the Howard government' and 'left federal politics in 2010' (matching the ceased date of 2010-07-19) — registered his new role as an adviser to China's Real Estate Investment Trusts."
+    }
   },
   {
     "role": "Registered Foreign Agent",
@@ -55338,6 +55368,11 @@
     "sources": [
       "https://www.canberratimes.com.au/story/9114950/former-liberal-mp-pat-farmer-lobbying-for-chinese-state-owned-university/"
     ],
-    "pollie_slug": "patrick-farmer"
+    "pollie_slug": "patrick-farmer",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Same Canberra Times article confirms that four days after the REIT registration, Farmer registered himself as a foreign agent for Central South University, a Chinese government-owned institution, to help explore offshore-campus opportunities for Australian universities in China."
+    }
   }
 ]
