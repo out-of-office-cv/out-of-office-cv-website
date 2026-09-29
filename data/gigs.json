@@ -55374,5 +55374,23 @@
       "by": "claude",
       "note": "Same Canberra Times article confirms that four days after the REIT registration, Farmer registered himself as a foreign agent for Central South University, a Chinese government-owned institution, to help explore offshore-campus opportunities for Australian universities in China."
     }
+  },
+  {
+    "role": "Chair",
+    "organisation": "Vasse Branch, National Party of Australia (WA)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stuart_St._Clair"
+    ],
+    "pollie_slug": "stuart-st-clair"
+  },
+  {
+    "role": "President",
+    "organisation": "Rotary Club of Busselton-Geographe Bay",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stuart_St._Clair"
+    ],
+    "pollie_slug": "stuart-st-clair"
   }
 ]
