@@ -55392,5 +55392,15 @@
       "https://en.wikipedia.org/wiki/Stuart_St._Clair"
     ],
     "pollie_slug": "stuart-st-clair"
+  },
+  {
+    "role": "Director",
+    "organisation": "National ICT Australia (NICTA)",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://itwire.com/business-it-news/business-technology/new-board-appointments-to-nicta"
+    ],
+    "pollie_slug": "george-campbell",
+    "start_date": "2009-04-27"
   }
 ]
