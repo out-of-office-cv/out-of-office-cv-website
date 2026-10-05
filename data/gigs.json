@@ -55402,5 +55402,14 @@
     ],
     "pollie_slug": "george-campbell",
     "start_date": "2009-04-27"
+  },
+  {
+    "role": "President",
+    "organisation": "United Nations Association of Australia, Queensland Division",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.unaa.org.au/event/unaa-qld-annual-doug-everingham-oration/"
+    ],
+    "pollie_slug": "douglas-everingham"
   }
 ]
