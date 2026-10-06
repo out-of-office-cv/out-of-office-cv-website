@@ -55255,6 +55255,11 @@
     "role_evidence": {
       "url": "https://pageturnerawards.com/users/cameroncamm",
       "quote": "Cameron Thompson is an Editorial Coordinator for the Today Newspaper Group, based in Ipswich, Queensland."
+    },
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited Page Turner Awards profile identifies the former MP (Member for Blair for nine years to 2007) and says he \"is an Editorial Coordinator for the Today Newspaper Group, based in Ipswich, Queensland\". The bio appears self-authored and undated; not independently corroborated."
     }
   },
   {
@@ -55401,7 +55406,12 @@
       "https://itwire.com/business-it-news/business-technology/new-board-appointments-to-nicta"
     ],
     "pollie_slug": "george-campbell",
-    "start_date": "2009-04-27"
+    "start_date": "2009-04-27",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ITWire, 27 April 2009, announces the \"appointment to the board of Professor Barney Glover and George Campbell\" at NICTA, describing Campbell as a former NSW senator."
+    }
   },
   {
     "role": "President",
@@ -55410,6 +55420,11 @@
     "sources": [
       "https://www.unaa.org.au/event/unaa-qld-annual-doug-everingham-oration/"
     ],
-    "pollie_slug": "douglas-everingham"
+    "pollie_slug": "douglas-everingham",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The UNAA Oration page says: \"After retirement from Parliament in 1984, [he] later served as President of the UNAA Qld\". Exact dates not found."
+    }
   }
 ]
