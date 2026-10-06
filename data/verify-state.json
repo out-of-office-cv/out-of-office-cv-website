@@ -7327,8 +7327,8 @@
     "attempts": 1
   },
   "cameron-thompson|Editorial Coordinator|Today Newspaper Group|null": {
-    "last_examined_at": "2026-09-28T00:00:00.000Z",
-    "attempts": 1
+    "last_examined_at": "2026-10-06T15:22:54.443Z",
+    "attempts": 2
   },
   "jean-hearn|Secretary|Anthroposophical Society in Australia (Tasmanian Branch)|null": {
     "last_examined_at": "2026-09-28T00:00:00.000Z",
@@ -7372,6 +7372,14 @@
   },
   "stuart-st-clair|President|Rotary Club of Busselton-Geographe Bay|null": {
     "last_examined_at": "2026-09-29T16:22:23.604Z",
+    "attempts": 1
+  },
+  "douglas-everingham|President|United Nations Association of Australia, Queensland Division|null": {
+    "last_examined_at": "2026-10-06T15:22:54.443Z",
+    "attempts": 1
+  },
+  "george-campbell|Director|National ICT Australia (NICTA)|2009-04-27": {
+    "last_examined_at": "2026-10-06T15:22:54.443Z",
     "attempts": 1
   }
 }
