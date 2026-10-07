@@ -55065,13 +55065,19 @@
     "organisation": "Liberal Party of Australia",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://en.wikipedia.org/wiki/Teena_McQueen"
+      "https://en.wikipedia.org/wiki/Teena_McQueen",
+      "https://www.indailysa.com.au/news/politics/2019/03/08/lib-stalwart-warns-factional-opponents-against-pyne-succession-meddling/"
     ],
     "role_evidence": {
       "url": "https://en.wikipedia.org/wiki/Teena_McQueen",
       "quote": "McQueen was one of the four vice presidents of the federal Liberal Party of Australia serving from 2017 to 2023 after securing the position from incumbent Trish Worth."
     },
-    "pollie_slug": "trish-worth"
+    "pollie_slug": "trish-worth",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "InDaily (8 Mar 2019): Worth was \"rolled as one of four federal vice-presidents\" of the Liberal Party; Teena McQueen Wikipedia page confirms McQueen took the position from incumbent Trish Worth."
+    }
   },
   {
     "role": "Chair",
@@ -55396,7 +55402,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Stuart_St._Clair"
     ],
-    "pollie_slug": "stuart-st-clair"
+    "pollie_slug": "stuart-st-clair",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia: \"currently 2018-2019 the President of the Rotary Club of Busselton-Geographe Bay\"; Busselton Mail snippet describes him as former president."
+    }
   },
   {
     "role": "Director",
@@ -55435,6 +55446,11 @@
       "https://mumbrella.com.au/?p=302956"
     ],
     "pollie_slug": "alan-ferguson",
-    "start_date": "2015-07-01"
+    "start_date": "2015-07-01",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Mumbrella: \"The Hon Alan Ferguson has been appointed the inaugural Independent Chair of the ABAC Management Committee.\""
+    }
   }
 ]
