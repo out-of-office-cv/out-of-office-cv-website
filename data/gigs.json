@@ -55426,5 +55426,15 @@
       "by": "claude",
       "note": "The UNAA Oration page says: \"After retirement from Parliament in 1984, [he] later served as President of the UNAA Qld\". Exact dates not found."
     }
+  },
+  {
+    "role": "Independent Chair",
+    "organisation": "ABAC Management Committee",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://mumbrella.com.au/?p=302956"
+    ],
+    "pollie_slug": "alan-ferguson",
+    "start_date": "2015-07-01"
   }
 ]
