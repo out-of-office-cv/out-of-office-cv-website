@@ -55460,7 +55460,12 @@
     "sources": [
       "https://asiapacificdefencereporter.com/nioa-announces-changes-to-advisory-board/"
     ],
-    "pollie_slug": "brendan-oconnor"
+    "pollie_slug": "brendan-oconnor",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Asia Pacific Defence Reporter (2025): NIOA 'pleased to welcome Brendan O'Connor to the Advisory Board'; identified as former federal MP 2001-2025."
+    }
   },
   {
     "role": "Director",
@@ -55487,7 +55492,12 @@
     "sources": [
       "https://www.australianmanufacturing.com.au/container-exchange-names-trevor-evans-as-new-ceo/"
     ],
-    "pollie_slug": "trevor-evans"
+    "pollie_slug": "trevor-evans",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Australian Manufacturing (2026): 'He currently serves as ... a Director of the South Bank Corporation'."
+    }
   },
   {
     "role": "Non-Grower Director",
@@ -55496,16 +55506,27 @@
     "sources": [
       "https://www.therural.com.au/story/6501446/fiona-nash-joins-grain-board/"
     ],
-    "pollie_slug": "fiona-nash"
+    "pollie_slug": "fiona-nash",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Rural (2019): 'Fiona Nash has been appointed as a non-grower director to the GrainGrowers board'."
+    }
   },
   {
     "role": "Chair",
     "organisation": ".au Domain Administration",
     "category": "Telecommunications & Network Infrastructure",
     "sources": [
-      "https://www.auda.org.au/statement/vale-tony-staley"
+      "https://www.auda.org.au/statement/vale-tony-staley",
+      "https://files.auda.org.au/documents/20230504_auda_statement_vale_tony_staley.pdf"
     ],
-    "pollie_slug": "anthony-staley"
+    "pollie_slug": "anthony-staley",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "auDA statement 'Vale Tony Staley' (2023): 'Tony was Chair of auDA from 2000 to 2015'."
+    }
   },
   {
     "role": "Consultant",
@@ -55521,9 +55542,15 @@
     "organisation": "Classification Review Board",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.miragenews.com/appointment-to-board-of-old-parliament-house-14-1256049/"
+      "https://www.miragenews.com/appointment-to-board-of-old-parliament-house-14-1256049/",
+      "https://www.mitchfifield.com/2017/10/classification-review-board-appointments/"
     ],
-    "pollie_slug": "susan-knowles"
+    "pollie_slug": "susan-knowles",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Mirage News lists 'Member of the Classification Review Board (2015-2017)'; Fifield release 6 Oct 2017 confirms her Review Board service."
+    }
   },
   {
     "role": "National Patron",
@@ -55539,9 +55566,15 @@
     "organisation": "Osteopore",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://businessnews.com.au/node/420449"
+      "https://businessnews.com.au/node/420449",
+      "https://www.marketindex.com.au/asx/directors/hon-keenan"
     ],
-    "pollie_slug": "michael-keenan"
+    "pollie_slug": "michael-keenan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Business News WA (2023): Osteopore 'has appointed former federal cabinet minister Michael Keenan to its board'."
+    }
   },
   {
     "role": "Director",
@@ -55550,16 +55583,27 @@
     "sources": [
       "https://www.hscentre.org/wp-content/uploads/2014/08/Final-AB-U.Stephens.pdf"
     ],
-    "pollie_slug": "ursula-stephens"
+    "pollie_slug": "ursula-stephens",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Health and Social Care Centre advisory board bio (2014): former NSW Senator, 'a Director of Life Education (NSW)'."
+    }
   },
   {
     "role": "Non-Executive Director",
     "organisation": "Moorebank Intermodal Company",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://www.crikey.com.au/?p=575548"
+      "https://www.crikey.com.au/?p=575548",
+      "https://ministers.finance.gov.au/financeminister/media-release/2016/12/16/appointment-moorebank-intermodal-company-board"
     ],
-    "pollie_slug": "jamie-briggs"
+    "pollie_slug": "jamie-briggs",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Crikey (2016): appointed non-executive director of the Moorebank Intermodal Company Board, three-year term; Finance Minister release 16 Dec 2016."
+    }
   },
   {
     "role": "Director",
@@ -55580,7 +55624,12 @@
       "https://petergarrett.com.au/aukus-public-enquiry-peter-garrett-announced-as-lead-commissioner/"
     ],
     "start_date": "2026-06-02",
-    "pollie_slug": "peter-garrett"
+    "pollie_slug": "peter-garrett",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Region Canberra (3 June 2026) and Garrett's site (2 June 2026) announce him as lead commissioner of the AUKUS Public Inquiry."
+    }
   },
   {
     "role": "Founding Member",
@@ -55591,33 +55640,56 @@
       "https://en.wikipedia.org/wiki/Moss_Cass"
     ],
     "start_date": "2007-01-01",
-    "pollie_slug": "moses-cass"
+    "pollie_slug": "moses-cass",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Australian Jewish News obituary: in 2007 he 'became a founding member of Independent Australian Jewish Voices'."
+    }
   },
   {
     "role": "Member of Council",
     "organisation": "National Health and Medical Research Council",
     "category": "Health, Medical & Aged Care",
     "sources": [
-      "https://diabetesaustralia.com.au/blog/diabetes-australia-president-appointed-to-the-council-of-the-national-health-and-medical-research-council"
+      "https://diabetesaustralia.com.au/blog/diabetes-australia-president-appointed-to-the-council-of-the-national-health-and-medical-research-council",
+      "https://www.health.gov.au/ministers/the-hon-greg-hunt-mp/media/women-take-the-lead-in-nhmrc-council-appointments"
     ],
-    "pollie_slug": "judi-moylan"
+    "pollie_slug": "judi-moylan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Diabetes Australia (2018): Moylan 'was recently appointed to the new Council of the National Health and Medical Research Council'; Health Minister announcement."
+    }
   },
   {
     "role": "Chair, Parliamentary Crime and Corruption Committee",
     "organisation": "Queensland Parliament",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://markfurnermp.com.au/mark-furner/"
+      "https://markfurnermp.com.au/mark-furner/",
+      "https://en.wikipedia.org/wiki/Mark_Furner"
     ],
-    "pollie_slug": "mark-furner"
+    "pollie_slug": "mark-furner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Own site describes him as Chair of the Parliamentary Crime and Corruption Committee; he entered Queensland Parliament in 2015, after the Senate."
+    }
   },
   {
     "role": "Chair, Legal Affairs and Community Safety Committee",
     "organisation": "Queensland Parliament",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://markfurnermp.com.au/mark-furner/"
+      "https://markfurnermp.com.au/mark-furner/",
+      "https://en.wikipedia.org/wiki/Mark_Furner"
     ],
-    "pollie_slug": "mark-furner"
+    "pollie_slug": "mark-furner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Own site: 'Upon first entering Queensland Parliament Mark served as Chair of the Legal Affairs and Community Safety Committee'."
+    }
   }
 ]
