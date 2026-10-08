@@ -55691,5 +55691,72 @@
       "by": "claude",
       "note": "Own site: 'Upon first entering Queensland Parliament Mark served as Chair of the Legal Affairs and Community Safety Committee'."
     }
+  },
+  {
+    "role": "Director",
+    "organisation": "LEADR – Association of Dispute Resolvers",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.lawyersweekly.com.au/appointments/15642-former-attorney-general-joins-boutique-firm"
+    ],
+    "role_evidence": {
+      "url": "https://www.lawyersweekly.com.au/appointments/15642-former-attorney-general-joins-boutique-firm",
+      "quote": "He is a director on LEADR – Association of Dispute Resolvers, and the White Ribbon Foundation."
+    },
+    "pollie_slug": "robert-mcclelland"
+  },
+  {
+    "role": "Director",
+    "organisation": "White Ribbon Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.lawyersweekly.com.au/appointments/15642-former-attorney-general-joins-boutique-firm"
+    ],
+    "role_evidence": {
+      "url": "https://www.lawyersweekly.com.au/appointments/15642-former-attorney-general-joins-boutique-firm",
+      "quote": "He is a director on LEADR – Association of Dispute Resolvers, and the White Ribbon Foundation."
+    },
+    "pollie_slug": "robert-mcclelland"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Heritage Council",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.greghunt.com.au/five-distinguished-australians-appointed-to-australian-heritage-council/"
+    ],
+    "role_evidence": {
+      "url": "https://www.greghunt.com.au/five-distinguished-australians-appointed-to-australian-heritage-council/",
+      "quote": "the current Chairperson Professor Carmen Lawrence"
+    },
+    "pollie_slug": "carmen-lawrence"
+  },
+  {
+    "role": "Director, Centre for the Study of Social Change",
+    "organisation": "University of Western Australia",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://freopedia.org/Carmen_Lawrence"
+    ],
+    "role_evidence": {
+      "url": "https://freopedia.org/Carmen_Lawrence",
+      "quote": "She was Director of the Centre for the Study of Social Change in the School of Psychological Science at UWA"
+    },
+    "start_date": "2010-01-01",
+    "end_date": "2018-12-31",
+    "pollie_slug": "carmen-lawrence"
+  },
+  {
+    "role": "Ambassador",
+    "organisation": "Rottnest Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.rottnestfoundation.org.au/news/graham-edwards-am-appointed-as-ambassador"
+    ],
+    "role_evidence": {
+      "url": "https://www.rottnestfoundation.org.au/news/graham-edwards-am-appointed-as-ambassador",
+      "quote": "We are pleased to announce the appointment of Graham Edwards AM as our newest Rottnest Foundation Ambassador."
+    },
+    "pollie_slug": "graham-edwards"
   }
 ]
