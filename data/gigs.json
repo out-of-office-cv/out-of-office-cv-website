@@ -55452,5 +55452,123 @@
       "by": "claude",
       "note": "Mumbrella: \"The Hon Alan Ferguson has been appointed the inaugural Independent Chair of the ABAC Management Committee.\""
     }
+  },
+  {
+    "role": "Advisory Board Member",
+    "organisation": "NIOA Group",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://asiapacificdefencereporter.com/nioa-announces-changes-to-advisory-board/"
+    ],
+    "pollie_slug": "brendan-oconnor"
+  },
+  {
+    "role": "Director",
+    "organisation": "Ensemble Theatre",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.ensemble.com.au/about/"
+    ],
+    "pollie_slug": "trent-zimmerman"
+  },
+  {
+    "role": "Director",
+    "organisation": "Asia Society Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.internationalaffairs.org.au/aiia-team/the-hon-simon-birmingham/"
+    ],
+    "pollie_slug": "simon-birmingham"
+  },
+  {
+    "role": "Director",
+    "organisation": "South Bank Corporation",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.australianmanufacturing.com.au/container-exchange-names-trevor-evans-as-new-ceo/"
+    ],
+    "pollie_slug": "trevor-evans"
+  },
+  {
+    "role": "Non-Grower Director",
+    "organisation": "GrainGrowers",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://www.therural.com.au/story/6501446/fiona-nash-joins-grain-board/"
+    ],
+    "pollie_slug": "fiona-nash"
+  },
+  {
+    "role": "Chair",
+    "organisation": ".au Domain Administration",
+    "category": "Telecommunications & Network Infrastructure",
+    "sources": [
+      "https://www.auda.org.au/statement/vale-tony-staley"
+    ],
+    "pollie_slug": "anthony-staley"
+  },
+  {
+    "role": "Consultant",
+    "organisation": "Client Solutions",
+    "category": "Media, Communications & Public Relations",
+    "sources": [
+      "https://www.crikey.com.au/?p=5622"
+    ],
+    "pollie_slug": "trish-worth"
+  },
+  {
+    "role": "Member",
+    "organisation": "Classification Review Board",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.miragenews.com/appointment-to-board-of-old-parliament-house-14-1256049/"
+    ],
+    "pollie_slug": "susan-knowles"
+  },
+  {
+    "role": "National Patron",
+    "organisation": "Lifeline Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.polioaustralia.org.au/john-tierney/"
+    ],
+    "pollie_slug": "john-tierney"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Osteopore",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://businessnews.com.au/node/420449"
+    ],
+    "pollie_slug": "michael-keenan"
+  },
+  {
+    "role": "Director",
+    "organisation": "Life Education NSW",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.hscentre.org/wp-content/uploads/2014/08/Final-AB-U.Stephens.pdf"
+    ],
+    "pollie_slug": "ursula-stephens"
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Moorebank Intermodal Company",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.crikey.com.au/?p=575548"
+    ],
+    "pollie_slug": "jamie-briggs"
+  },
+  {
+    "role": "Director",
+    "organisation": "Volleyball Australia",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://asianvolleyball.net/new/?p=135365",
+      "https://volleyball.org.au/blog/michael-johnson-appointed-to-va-board/"
+    ],
+    "pollie_slug": "michael-johnson"
   }
 ]
