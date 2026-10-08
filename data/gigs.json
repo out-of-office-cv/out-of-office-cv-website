@@ -55570,5 +55570,54 @@
       "https://volleyball.org.au/blog/michael-johnson-appointed-to-va-board/"
     ],
     "pollie_slug": "michael-johnson"
+  },
+  {
+    "role": "Lead Commissioner",
+    "organisation": "AUKUS Public Inquiry (Australian Peace and Security Forum)",
+    "category": "Defence & Military and Security",
+    "sources": [
+      "https://region.com.au/peter-garrett-to-head-up-independent-inquiry-into-aukus-as-ranks-break-in-caucus/971464/",
+      "https://petergarrett.com.au/aukus-public-enquiry-peter-garrett-announced-as-lead-commissioner/"
+    ],
+    "start_date": "2026-06-02",
+    "pollie_slug": "peter-garrett"
+  },
+  {
+    "role": "Founding Member",
+    "organisation": "Independent Australian Jewish Voices",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.australianjewishnews.com/former-federal-minister-mourned/",
+      "https://en.wikipedia.org/wiki/Moss_Cass"
+    ],
+    "start_date": "2007-01-01",
+    "pollie_slug": "moses-cass"
+  },
+  {
+    "role": "Member of Council",
+    "organisation": "National Health and Medical Research Council",
+    "category": "Health, Medical & Aged Care",
+    "sources": [
+      "https://diabetesaustralia.com.au/blog/diabetes-australia-president-appointed-to-the-council-of-the-national-health-and-medical-research-council"
+    ],
+    "pollie_slug": "judi-moylan"
+  },
+  {
+    "role": "Chair, Parliamentary Crime and Corruption Committee",
+    "organisation": "Queensland Parliament",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://markfurnermp.com.au/mark-furner/"
+    ],
+    "pollie_slug": "mark-furner"
+  },
+  {
+    "role": "Chair, Legal Affairs and Community Safety Committee",
+    "organisation": "Queensland Parliament",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://markfurnermp.com.au/mark-furner/"
+    ],
+    "pollie_slug": "mark-furner"
   }
 ]
