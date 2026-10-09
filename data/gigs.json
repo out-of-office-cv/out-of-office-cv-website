@@ -55784,5 +55784,33 @@
       "by": "claude",
       "note": "Rottnest Foundation news page: \"We are pleased to announce the appointment of Graham Edwards AM as our newest Rottnest Foundation Ambassador.\" It describes his WA ministerial and Legislative Council career, matching the Member for Cowan (1998-2007). Appointment postdates 2007; page shows no year, snippets indicate 2025."
     }
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Australian Strategic Policy Institute",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://events.aspi.org.au/DefenceConference2026/speaker/2262410/david-feeney"
+    ],
+    "pollie_slug": "david-feeney"
+  },
+  {
+    "role": "Director",
+    "organisation": "Oceanfast",
+    "category": "Science, Engineering & Technical Professions",
+    "sources": [
+      "https://bairdmaritime.com/work-boat-world/john-button-a-great-contributor"
+    ],
+    "pollie_slug": "john-button"
+  },
+  {
+    "role": "Leader, Queensland Development Committee",
+    "organisation": "Guildford Coal",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": [
+      "https://announcements.asx.com.au/asxpdf/20130902/pdf/42j30fcvrqr3ck.pdf"
+    ],
+    "start_date": "2013-09-02",
+    "pollie_slug": "peter-lindsay"
   }
 ]
