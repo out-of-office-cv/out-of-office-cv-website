@@ -55703,7 +55703,12 @@
       "url": "https://www.lawyersweekly.com.au/appointments/15642-former-attorney-general-joins-boutique-firm",
       "quote": "He is a director on LEADR – Association of Dispute Resolvers, and the White Ribbon Foundation."
     },
-    "pollie_slug": "robert-mcclelland"
+    "pollie_slug": "robert-mcclelland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Lawyers Weekly (appointments/15642) on former Attorney-General Robert McClelland joining Carroll & O'Dea Lawyers states: \"He is a director on LEADR – Association of Dispute Resolvers, and the White Ribbon Foundation.\" Post-parliament; end date unknown."
+    }
   },
   {
     "role": "Director",
@@ -55716,7 +55721,12 @@
       "url": "https://www.lawyersweekly.com.au/appointments/15642-former-attorney-general-joins-boutique-firm",
       "quote": "He is a director on LEADR – Association of Dispute Resolvers, and the White Ribbon Foundation."
     },
-    "pollie_slug": "robert-mcclelland"
+    "pollie_slug": "robert-mcclelland",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Lawyers Weekly (appointments/15642) on former Attorney-General Robert McClelland states: \"He is a director on LEADR – Association of Dispute Resolvers, and the White Ribbon Foundation.\" Post-parliament; end date unknown."
+    }
   },
   {
     "role": "Chair",
@@ -55729,14 +55739,20 @@
       "url": "https://www.greghunt.com.au/five-distinguished-australians-appointed-to-australian-heritage-council/",
       "quote": "the current Chairperson Professor Carmen Lawrence"
     },
-    "pollie_slug": "carmen-lawrence"
+    "pollie_slug": "carmen-lawrence",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Greg Hunt ministerial media release (19 March 2015) refers to \"the current Chairperson Professor Carmen Lawrence\" of the Australian Heritage Council, after she left parliament in 2007. A UWA advisory board profile also says she chaired the Council 2010 to 2015."
+    }
   },
   {
     "role": "Director, Centre for the Study of Social Change",
     "organisation": "University of Western Australia",
     "category": "Education, Academia & Research",
     "sources": [
-      "https://freopedia.org/Carmen_Lawrence"
+      "https://freopedia.org/Carmen_Lawrence",
+      "https://www.uwa.edu.au/schools/psychological-science/psychological-science-events/community-movie-night-and-panel-discussion---in-my-blood-it-runs"
     ],
     "role_evidence": {
       "url": "https://freopedia.org/Carmen_Lawrence",
@@ -55744,7 +55760,12 @@
     },
     "start_date": "2010-01-01",
     "end_date": "2018-12-31",
-    "pollie_slug": "carmen-lawrence"
+    "pollie_slug": "carmen-lawrence",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "UWA School of Psychological Science (.edu.au) page says that after leaving politics in 2007 Carmen Lawrence \"was Director of the Centre for the Study of Social Change in the School of Psychological Science at UWA\". Existing dates consistent with freopedia (2010 to 2018); UWA page gives no dates."
+    }
   },
   {
     "role": "Ambassador",
@@ -55757,6 +55778,11 @@
       "url": "https://www.rottnestfoundation.org.au/news/graham-edwards-am-appointed-as-ambassador",
       "quote": "We are pleased to announce the appointment of Graham Edwards AM as our newest Rottnest Foundation Ambassador."
     },
-    "pollie_slug": "graham-edwards"
+    "pollie_slug": "graham-edwards",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Rottnest Foundation news page: \"We are pleased to announce the appointment of Graham Edwards AM as our newest Rottnest Foundation Ambassador.\" It describes his WA ministerial and Legislative Council career, matching the Member for Cowan (1998-2007). Appointment postdates 2007; page shows no year, snippets indicate 2025."
+    }
   }
 ]
