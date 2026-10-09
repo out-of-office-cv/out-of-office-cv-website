@@ -7457,5 +7457,25 @@
   "simon-birmingham|Director|Asia Society Australia|null": {
     "last_examined_at": "2026-10-08T15:26:26.418Z",
     "attempts": 1
+  },
+  "carmen-lawrence|Chair|Australian Heritage Council|null": {
+    "last_examined_at": "2026-10-09T15:18:35.293Z",
+    "attempts": 1
+  },
+  "carmen-lawrence|Director, Centre for the Study of Social Change|University of Western Australia|2010-01-01": {
+    "last_examined_at": "2026-10-09T15:18:35.293Z",
+    "attempts": 1
+  },
+  "robert-mcclelland|Director|LEADR – Association of Dispute Resolvers|null": {
+    "last_examined_at": "2026-10-09T15:18:35.293Z",
+    "attempts": 1
+  },
+  "robert-mcclelland|Director|White Ribbon Foundation|null": {
+    "last_examined_at": "2026-10-09T15:18:35.293Z",
+    "attempts": 1
+  },
+  "graham-edwards|Ambassador|Rottnest Foundation|null": {
+    "last_examined_at": "2026-10-09T15:18:35.293Z",
+    "attempts": 1
   }
 }
