@@ -7477,5 +7477,17 @@
   "graham-edwards|Ambassador|Rottnest Foundation|null": {
     "last_examined_at": "2026-10-09T15:18:35.293Z",
     "attempts": 1
+  },
+  "david-feeney|Council Member|Australian Strategic Policy Institute|null": {
+    "last_examined_at": "2026-10-10T15:23:30.363Z",
+    "attempts": 1
+  },
+  "john-button|Director|Oceanfast|null": {
+    "last_examined_at": "2026-10-10T15:23:30.363Z",
+    "attempts": 1
+  },
+  "peter-lindsay|Leader, Queensland Development Committee|Guildford Coal|2013-09-02": {
+    "last_examined_at": "2026-10-10T15:23:30.363Z",
+    "attempts": 1
   }
 }
