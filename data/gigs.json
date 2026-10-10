@@ -55792,7 +55792,12 @@
     "sources": [
       "https://events.aspi.org.au/DefenceConference2026/speaker/2262410/david-feeney"
     ],
-    "pollie_slug": "david-feeney"
+    "pollie_slug": "david-feeney",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ASPI Defence Conference 2026 speaker page lists 'Hon. Dr. David Feeney' with position 'ASPI Council Member', Australian Strategic Policy Institute; bio notes his Victorian Senate service and ALP roles."
+    }
   },
   {
     "role": "Director",
@@ -55801,7 +55806,12 @@
     "sources": [
       "https://bairdmaritime.com/work-boat-world/john-button-a-great-contributor"
     ],
-    "pollie_slug": "john-button"
+    "pollie_slug": "john-button",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Baird Maritime editorial (2 May 2008) on 'former Senator John Button' says his 'post-retirement involvement as a director of Oceanfast' was one of the most notable in the industry."
+    }
   },
   {
     "role": "Leader, Queensland Development Committee",
@@ -55811,6 +55821,11 @@
       "https://announcements.asx.com.au/asxpdf/20130902/pdf/42j30fcvrqr3ck.pdf"
     ],
     "start_date": "2013-09-02",
-    "pollie_slug": "peter-lindsay"
+    "pollie_slug": "peter-lindsay",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Guildford Coal ASX announcement (2 Sep 2013): The Honourable Peter Lindsay resigned as Chairman and 'agreed to transition to a new role leading the Guildford Coal Queensland Development Committee'."
+    }
   }
 ]
