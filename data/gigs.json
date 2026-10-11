@@ -55827,5 +55827,45 @@
       "by": "claude",
       "note": "Guildford Coal ASX announcement (2 Sep 2013): The Honourable Peter Lindsay resigned as Chairman and 'agreed to transition to a new role leading the Guildford Coal Queensland Development Committee'."
     }
+  },
+  {
+    "role": "Director",
+    "organisation": "Hoc Mai Australia-Vietnam Medical Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.evatt.org.au/?p=291"
+    ],
+    "role_evidence": {
+      "url": "https://www.evatt.org.au/?p=291",
+      "quote": "she is also the chair of the Jessie Street Trust and a board member of Hoc Mai, the Australia-Vietnam Medical Foundation."
+    },
+    "pollie_slug": "jeannette-mchugh"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Evatt Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.evatt.org.au/?p=291"
+    ],
+    "role_evidence": {
+      "url": "https://www.evatt.org.au/?p=291",
+      "quote": "Patron of the Evatt Foundation"
+    },
+    "pollie_slug": "jeannette-mchugh"
+  },
+  {
+    "role": "Member",
+    "organisation": "Council for the Order of Australia",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://www.pm.gov.au/media/appointments-council-order-australia"
+    ],
+    "role_evidence": {
+      "url": "https://www.pm.gov.au/media/appointments-council-order-australia",
+      "quote": "Ms Cathy McGowan AO and Professor Samina Yasmeen AM have been appointed to the Council as community representatives."
+    },
+    "start_date": "2022-10-14",
+    "pollie_slug": "cathy-mcgowan"
   }
 ]
