@@ -55846,13 +55846,19 @@
     "organisation": "Evatt Foundation",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://www.evatt.org.au/?p=291"
+      "https://www.evatt.org.au/?p=291",
+      "https://www.evatt.org.au/about/our-patrons/"
     ],
     "role_evidence": {
       "url": "https://www.evatt.org.au/?p=291",
       "quote": "Patron of the Evatt Foundation"
     },
-    "pollie_slug": "jeannette-mchugh"
+    "pollie_slug": "jeannette-mchugh",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Evatt Foundation page (evatt.org.au/?p=291) headed \"Patron of the Evatt Foundation\" for Jeannette McHugh; Our Patrons page lists her profile."
+    }
   },
   {
     "role": "Member",
@@ -55866,6 +55872,11 @@
       "quote": "Ms Cathy McGowan AO and Professor Samina Yasmeen AM have been appointed to the Council as community representatives."
     },
     "start_date": "2022-10-14",
-    "pollie_slug": "cathy-mcgowan"
+    "pollie_slug": "cathy-mcgowan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "PM media release of 14 Oct 2022 (pm.gov.au): \"Ms Cathy McGowan AO ... appointed to the Council as community representatives.\""
+    }
   }
 ]
