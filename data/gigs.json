@@ -55878,5 +55878,72 @@
       "by": "claude",
       "note": "PM media release of 14 Oct 2022 (pm.gov.au): \"Ms Cathy McGowan AO ... appointed to the Council as community representatives.\""
     }
+  },
+  {
+    "role": "Director",
+    "organisation": "Western Australian Cricket Association",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://bdtimes.com.au/sport/cricket/christian-porter-former-attorney-general-of-australia-to-join-wa-cricket-association-board-c-16064030"
+    ],
+    "role_evidence": {
+      "url": "https://bdtimes.com.au/sport/cricket/christian-porter-former-attorney-general-of-australia-to-join-wa-cricket-association-board-c-16064030",
+      "quote": "the board had resolved to appoint Mr Porter to the vacant position."
+    },
+    "start_date": "2024-09-15",
+    "pollie_slug": "christian-porter"
+  },
+  {
+    "role": "Director",
+    "organisation": "Sturt Football Club",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://sevoice.com.au/flint-poised-for-stint-as-new-member/"
+    ],
+    "role_evidence": {
+      "url": "https://sevoice.com.au/flint-poised-for-stint-as-new-member/",
+      "quote": "Last month, Ms Flint was appointed to the board of the Sturt Football Club."
+    },
+    "start_date": "2023-06-01",
+    "pollie_slug": "nicolle-flint"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Liberal Party of Australia (South Australian Division) Rural and Regional Council",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://sevoice.com.au/libs-tour-region/"
+    ],
+    "role_evidence": {
+      "url": "https://sevoice.com.au/libs-tour-region/",
+      "quote": "She is the chairman of the Rural and Regional Council of the Liberal Party."
+    },
+    "pollie_slug": "nicolle-flint"
+  },
+  {
+    "role": "Director",
+    "organisation": "Newcastle Airport Limited",
+    "category": "Telecommunications & Network Infrastructure",
+    "sources": [
+      "https://monumentaustralia.org/themes/people/government---federal/display/120451-peter-morris"
+    ],
+    "role_evidence": {
+      "url": "https://monumentaustralia.org/themes/people/government---federal/display/120451-peter-morris",
+      "quote": "and Director of Newcastle Airport Ltd."
+    },
+    "pollie_slug": "peter-morris"
+  },
+  {
+    "role": "Sessional Lecturer",
+    "organisation": "Macquarie University",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://www.ur.edu.pl/files/user_directory/915/Biogramy/Stephen%20Mutch.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://www.ur.edu.pl/files/user_directory/915/Biogramy/Stephen%20Mutch.pdf",
+      "quote": "Following his parliamentary career, Dr Mutch taught at UNSW and then Macquarie University, where he was an Honorary Associate (later Honorary Fellow), and a sessional lecturer."
+    },
+    "pollie_slug": "stephen-mutch"
   }
 ]
