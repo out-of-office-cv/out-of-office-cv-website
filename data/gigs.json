@@ -55884,14 +55884,21 @@
     "organisation": "Western Australian Cricket Association",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://bdtimes.com.au/sport/cricket/christian-porter-former-attorney-general-of-australia-to-join-wa-cricket-association-board-c-16064030"
+      "https://bdtimes.com.au/sport/cricket/christian-porter-former-attorney-general-of-australia-to-join-wa-cricket-association-board-c-16064030",
+      "https://www.geraldtonguardian.com.au/sport/cricket/former-wa-attorney-general-christian-porter-elevated-as-mike-snell-resigns-from-board-at-wa-cricket-agm-c-16108799",
+      "https://wacricket.com.au/wa-cricket/board"
     ],
     "role_evidence": {
       "url": "https://bdtimes.com.au/sport/cricket/christian-porter-former-attorney-general-of-australia-to-join-wa-cricket-association-board-c-16064030",
       "quote": "the board had resolved to appoint Mr Porter to the vacant position."
     },
     "start_date": "2024-09-15",
-    "pollie_slug": "christian-porter"
+    "pollie_slug": "christian-porter",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited bdtimes.com.au article (15 Sep 2024) says former Attorney-General Christian Porter is joining the WACA board, the board having resolved to appoint him to the vacant position. A Geraldton Guardian report and the WACA board page corroborate (seen via search results only). Start date is after he left parliament in 2022."
+    }
   },
   {
     "role": "Director",
@@ -55905,7 +55912,12 @@
       "quote": "Last month, Ms Flint was appointed to the board of the Sturt Football Club."
     },
     "start_date": "2023-06-01",
-    "pollie_slug": "nicolle-flint"
+    "pollie_slug": "nicolle-flint",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "SE Voice article 'Flint poised for stint as new member' (11 July 2023) about former Boothby MP Nicolle Flint: 'Last month, Ms Flint was appointed to the board of the Sturt Football Club.' Consistent with the June 2023 start date."
+    }
   },
   {
     "role": "Chair",
@@ -55918,7 +55930,12 @@
       "url": "https://sevoice.com.au/libs-tour-region/",
       "quote": "She is the chairman of the Rural and Regional Council of the Liberal Party."
     },
-    "pollie_slug": "nicolle-flint"
+    "pollie_slug": "nicolle-flint",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "SE Voice article 'Libs tour region' (25 January 2024) about Nicolle Flint: 'She is the chairman of the Rural and Regional Council of the Liberal Party.' Context refers to the Liberal Party of South Australia. No start date given."
+    }
   },
   {
     "role": "Director",
@@ -55931,7 +55948,12 @@
       "url": "https://monumentaustralia.org/themes/people/government---federal/display/120451-peter-morris",
       "quote": "and Director of Newcastle Airport Ltd."
     },
-    "pollie_slug": "peter-morris"
+    "pollie_slug": "peter-morris",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Monument Australia entry 120451 transcribes a plaque dedicated 13 December 2000 describing him as 'former MHR [1972-1998], former Minister in the Commonwealth Government and Director of Newcastle Airport Ltd', matching Peter Morris of Shortland. No dates found."
+    }
   },
   {
     "role": "Sessional Lecturer",
