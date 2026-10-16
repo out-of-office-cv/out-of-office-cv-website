@@ -55611,9 +55611,16 @@
     "category": "Arts, Culture & Sport",
     "sources": [
       "https://asianvolleyball.net/new/?p=135365",
-      "https://volleyball.org.au/blog/michael-johnson-appointed-to-va-board/"
+      "https://volleyball.org.au/blog/michael-johnson-appointed-to-va-board/",
+      "https://asianvolleyball.net/new/?p=135390"
     ],
-    "pollie_slug": "michael-johnson"
+    "pollie_slug": "michael-johnson",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Volleyball Australia news post (28 Oct 2024) and Asian Volleyball Confederation report state former Member of Federal Parliament Michael Johnson was appointed to the Volleyball Australia Board at the AGM in Hobart."
+    },
+    "start_date": "2024-10-28"
   },
   {
     "role": "Lead Commissioner",
