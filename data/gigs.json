@@ -55986,7 +55986,12 @@
       "url": "https://peopleaustralia.anu.edu.au/biography/mulvihill-james-anthony-tony-35230",
       "quote": "Mulvihill served on the National Population Council and the Security Appeals Tribunal."
     },
-    "pollie_slug": "james-mulvihill"
+    "pollie_slug": "james-mulvihill",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "People Australia (ANU) biography of James Anthony \"Tony\" Mulvihill: \"After retirement from the Senate at the 1983 general elections, Mulvihill served on the National Population Council and the Security Appeals Tribunal.\" No dates given."
+    }
   },
   {
     "role": "Chair",
@@ -55999,6 +56004,11 @@
       "url": "https://peopleaustralia.anu.edu.au/biography/mulvihill-james-anthony-tony-35230",
       "quote": "chairman of ALP NSW branch Ethnic Affairs Committee in 1990 at least."
     },
-    "pollie_slug": "james-mulvihill"
+    "pollie_slug": "james-mulvihill",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "People Australia (ANU) biography: \"chairman of ALP NSW branch Ethnic Affairs Committee in 1990 at least.\" Post-dates his 1983 departure."
+    }
   }
 ]
