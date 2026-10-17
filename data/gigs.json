@@ -55974,5 +55974,31 @@
       "quote": "Following his parliamentary career, Dr Mutch taught at UNSW and then Macquarie University, where he was an Honorary Associate (later Honorary Fellow), and a sessional lecturer."
     },
     "pollie_slug": "stephen-mutch"
+  },
+  {
+    "role": "Member",
+    "organisation": "Security Appeals Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://peopleaustralia.anu.edu.au/biography/mulvihill-james-anthony-tony-35230"
+    ],
+    "role_evidence": {
+      "url": "https://peopleaustralia.anu.edu.au/biography/mulvihill-james-anthony-tony-35230",
+      "quote": "Mulvihill served on the National Population Council and the Security Appeals Tribunal."
+    },
+    "pollie_slug": "james-mulvihill"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Australian Labor Party NSW Branch Ethnic Affairs Committee",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://peopleaustralia.anu.edu.au/biography/mulvihill-james-anthony-tony-35230"
+    ],
+    "role_evidence": {
+      "url": "https://peopleaustralia.anu.edu.au/biography/mulvihill-james-anthony-tony-35230",
+      "quote": "chairman of ALP NSW branch Ethnic Affairs Committee in 1990 at least."
+    },
+    "pollie_slug": "james-mulvihill"
   }
 ]
