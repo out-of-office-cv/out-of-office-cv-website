@@ -55846,7 +55846,12 @@
       "url": "https://www.evatt.org.au/?p=291",
       "quote": "she is also the chair of the Jessie Street Trust and a board member of Hoc Mai, the Australia-Vietnam Medical Foundation."
     },
-    "pollie_slug": "jeannette-mchugh"
+    "pollie_slug": "jeannette-mchugh",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Evatt Foundation page (https://www.evatt.org.au/?p=291) is a bio of Jeannette McHugh, former Grayndler MP. It says she \"is also the chair of the Jessie Street Trust and a board member of Hoc Mai, the Australia-Vietnam Medical Foundation.\" Names her, the organisation and a board role matching Director."
+    }
   },
   {
     "role": "Patron",
