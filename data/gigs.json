@@ -55978,7 +55978,12 @@
       "url": "https://www.ur.edu.pl/files/user_directory/915/Biogramy/Stephen%20Mutch.pdf",
       "quote": "Following his parliamentary career, Dr Mutch taught at UNSW and then Macquarie University, where he was an Honorary Associate (later Honorary Fellow), and a sessional lecturer."
     },
-    "pollie_slug": "stephen-mutch"
+    "pollie_slug": "stephen-mutch",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "University of Rzeszów 6th International Congress of Human Rights speaker biography (PDF text extracted) identifies Stephen Mutch as former NSW Legislative Council and federal House of Representatives member (1988-1998) and says: \"Following his parliamentary career, Dr Mutch taught at UNSW and then Macquarie University, where he was an Honorary Associate (later Honorary Fellow), and a sessional lecturer.\" Wikipedia corroborates an honorary fellowship teaching Australian politics at Macquarie."
+    }
   },
   {
     "role": "Member",
