@@ -56020,5 +56020,53 @@
       "by": "claude",
       "note": "People Australia (ANU) biography: \"chairman of ALP NSW branch Ethnic Affairs Committee in 1990 at least.\" Post-dates his 1983 departure."
     }
+  },
+  {
+    "role": "Minister for Business, Industry and Resources",
+    "organisation": "Tasmanian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Eric_Abetz"
+    ],
+    "start_date": "2024-04-11",
+    "pollie_slug": "eric-abetz"
+  },
+  {
+    "role": "Minister for Transport",
+    "organisation": "Tasmanian Government",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Eric_Abetz"
+    ],
+    "start_date": "2024-04-11",
+    "pollie_slug": "eric-abetz"
+  },
+  {
+    "role": "Executive Member",
+    "organisation": "C.E.W. Bean Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://nsw.gov.au/departments-and-agencies/dciths/state-records-nsw/meet-our-board"
+    ],
+    "pollie_slug": "john-faulkner"
+  },
+  {
+    "role": "Patron",
+    "organisation": "Friends of the Noel Butlin Archives Centre",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://nsw.gov.au/departments-and-agencies/dciths/state-records-nsw/meet-our-board"
+    ],
+    "pollie_slug": "john-faulkner"
+  },
+  {
+    "role": "Chief Executive Officer",
+    "organisation": "Energy Users Association of Australia",
+    "category": "Energy (Renewables & Traditional)",
+    "sources": [
+      "https://euaa.com.au/wp-content/uploads/2017/05/MR-2015-09-21-EUAA-Welcomes-new-Turnbull-Ministry.pdf",
+      "https://ministers.finance.gov.au/assistant/media-release/2019/04/10/board-appointments-national-housing-finance-and-investment-corporation"
+    ],
+    "pollie_slug": "phillip-barresi"
   }
 ]
