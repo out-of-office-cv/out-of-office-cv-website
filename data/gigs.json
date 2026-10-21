@@ -56026,38 +56026,62 @@
     "organisation": "Tasmanian Government",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://en.wikipedia.org/wiki/Eric_Abetz"
+      "https://en.wikipedia.org/wiki/Eric_Abetz",
+      "https://www.gazette.tas.gov.au/editions/2024/october-2024/22431_-_Special_23_October_2024.pdf"
     ],
     "start_date": "2024-04-11",
-    "pollie_slug": "eric-abetz"
+    "pollie_slug": "eric-abetz",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia (Eric Abetz) states he was appointed to the Rockliff Government ministry with the role dated from 11 April 2024; the Tasmanian Government Gazette notice of 23 October 2024 lists his Business, Industry and Resources and Transport portfolios. Start date is after he left the Senate on 2022-06-30."
+    }
   },
   {
     "role": "Minister for Transport",
     "organisation": "Tasmanian Government",
     "category": "Government, Public Administration & Civil Service",
     "sources": [
-      "https://en.wikipedia.org/wiki/Eric_Abetz"
+      "https://en.wikipedia.org/wiki/Eric_Abetz",
+      "https://www.gazette.tas.gov.au/editions/2024/october-2024/22431_-_Special_23_October_2024.pdf"
     ],
     "start_date": "2024-04-11",
-    "pollie_slug": "eric-abetz"
+    "pollie_slug": "eric-abetz",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia (Eric Abetz) states he was appointed to the Rockliff Government ministry with the role dated from 11 April 2024; the Tasmanian Government Gazette notice of 23 October 2024 lists his Business, Industry and Resources and Transport portfolios. Start date is after he left the Senate on 2022-06-30."
+    }
   },
   {
     "role": "Executive Member",
     "organisation": "C.E.W. Bean Foundation",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://nsw.gov.au/departments-and-agencies/dciths/state-records-nsw/meet-our-board"
+      "https://nsw.gov.au/departments-and-agencies/dciths/state-records-nsw/meet-our-board",
+      "https://camd.org.au/?p=34337"
     ],
-    "pollie_slug": "john-faulkner"
+    "pollie_slug": "john-faulkner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "NSW Government announcement of his May 2025 appointment as Chair of State Records Authority NSW (reposted by CAMD) says he is an Executive Member of the C.E.W. Bean Foundation; the same text identifies him as NSW Senator 1989-2015."
+    }
   },
   {
     "role": "Patron",
     "organisation": "Friends of the Noel Butlin Archives Centre",
     "category": "Nonprofit, NGO and Charity",
     "sources": [
-      "https://nsw.gov.au/departments-and-agencies/dciths/state-records-nsw/meet-our-board"
+      "https://nsw.gov.au/departments-and-agencies/dciths/state-records-nsw/meet-our-board",
+      "https://camd.org.au/?p=34337"
     ],
-    "pollie_slug": "john-faulkner"
+    "pollie_slug": "john-faulkner",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "NSW Government announcement of his May 2025 appointment as Chair of State Records Authority NSW (reposted by CAMD) says he is a Patron of the Friends of the Noel Butlin Archives Centre; the same text identifies him as NSW Senator 1989-2015."
+    }
   },
   {
     "role": "Chief Executive Officer",
