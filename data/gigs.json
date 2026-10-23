@@ -55483,7 +55483,12 @@
     "sources": [
       "https://www.internationalaffairs.org.au/aiia-team/the-hon-simon-birmingham/"
     ],
-    "pollie_slug": "simon-birmingham"
+    "pollie_slug": "simon-birmingham",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "AIIA team page for The Hon Simon Birmingham says he 'is a Director of Asia Society Australia'; identifies him as the former Senator. No Asia Society board page found to corroborate dates."
+    }
   },
   {
     "role": "Director",
