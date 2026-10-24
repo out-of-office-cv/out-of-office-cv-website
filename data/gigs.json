@@ -56109,7 +56109,12 @@
       "url": "https://www.bobbrown.org.au/about",
       "quote": "Founded by environmentalist Dr Bob Brown, our Foundation takes bold, direct action to protect Earth’s precious wild places."
     },
-    "pollie_slug": "bob-brown"
+    "pollie_slug": "bob-brown",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Foundation's own about page (bobbrown.org.au/about): \"Founded by environmentalist Dr Bob Brown\"."
+    }
   },
   {
     "role": "Foundation Director",
@@ -56122,6 +56127,11 @@
       "url": "https://biography.senate.gov.au/?p=2741",
       "quote": "He was a foundation director of the Club Plus Super superannuation fund."
     },
-    "pollie_slug": "john-morris"
+    "pollie_slug": "john-morris",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Senate biography (biography.senate.gov.au/?p=2741), in the section on his life after the Senate: \"He was a foundation director of the Club Plus Super superannuation fund.\" No exact date given."
+    }
   }
 ]
