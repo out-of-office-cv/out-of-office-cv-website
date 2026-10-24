@@ -56097,5 +56097,31 @@
       "https://ministers.finance.gov.au/assistant/media-release/2019/04/10/board-appointments-national-housing-finance-and-investment-corporation"
     ],
     "pollie_slug": "phillip-barresi"
+  },
+  {
+    "role": "Founder",
+    "organisation": "Bob Brown Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.bobbrown.org.au/about"
+    ],
+    "role_evidence": {
+      "url": "https://www.bobbrown.org.au/about",
+      "quote": "Founded by environmentalist Dr Bob Brown, our Foundation takes bold, direct action to protect Earth’s precious wild places."
+    },
+    "pollie_slug": "bob-brown"
+  },
+  {
+    "role": "Foundation Director",
+    "organisation": "Club Plus Super",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://biography.senate.gov.au/?p=2741"
+    ],
+    "role_evidence": {
+      "url": "https://biography.senate.gov.au/?p=2741",
+      "quote": "He was a foundation director of the Club Plus Super superannuation fund."
+    },
+    "pollie_slug": "john-morris"
   }
 ]
