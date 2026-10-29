@@ -56133,5 +56133,14 @@
       "by": "claude",
       "note": "Senate biography (biography.senate.gov.au/?p=2741), in the section on his life after the Senate: \"He was a foundation director of the Club Plus Super superannuation fund.\" No exact date given."
     }
+  },
+  {
+    "role": "President",
+    "organisation": "Piano Plus",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.pianoplus.com.au/profiles/bronwyn-bishop/"
+    ],
+    "pollie_slug": "bronwyn-bishop"
   }
 ]
