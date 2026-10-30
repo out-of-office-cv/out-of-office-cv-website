@@ -56139,8 +56139,14 @@
     "organisation": "Piano Plus",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://www.pianoplus.com.au/profiles/bronwyn-bishop/"
+      "https://www.pianoplus.com.au/profiles/bronwyn-bishop/",
+      "https://www.pianoplus.com.au/?p=10800"
     ],
-    "pollie_slug": "bronwyn-bishop"
+    "pollie_slug": "bronwyn-bishop",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Piano+ own profile page (pianoplus.com.au/profiles/bronwyn-bishop/) is headed \"Hon Bronwyn Bishop AO\" with the title \"President\"; the honorifics match the former Member for Mackellar. Piano+ event pages also style her \"The President The Hon. Bronwyn Bishop AO\"."
+    }
   }
 ]
