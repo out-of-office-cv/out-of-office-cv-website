@@ -56156,6 +56156,11 @@
     "sources": [
       "https://www.businessnews.com.au/node/22542"
     ],
-    "pollie_slug": "peter-cook"
+    "pollie_slug": "peter-cook",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Business News (businessnews.com.au/node/22542): \"OUTGOING Senator Peter Cook has been appointed an adjunct professor at Curtin University of Technology.\" Outgoing WA Labor senator (ceased 2005-06-30); Curtin is in Perth."
+    }
   }
 ]
