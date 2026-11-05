@@ -57,22 +57,18 @@ describe("pollie page generation", () => {
   });
 
   it("generates correct number of pollie pages", () => {
-    const dirs = readdirSync(distPolliesDir, { withFileTypes: true })
-      .filter((d) => d.isDirectory());
+    const dirs = readdirSync(distPolliesDir, { withFileTypes: true }).filter((d) =>
+      d.isDirectory(),
+    );
     expect(dirs.length).toBeGreaterThan(700);
   });
 
   it("deduplicates pollies with multiple terms, keeping most recent", () => {
-    const broadbentPath = resolve(
-      distPolliesDir,
-      "russell-broadbent/index.html",
-    );
+    const broadbentPath = resolve(distPolliesDir, "russell-broadbent/index.html");
     expect(existsSync(broadbentPath)).toBe(true);
 
     const page = readFileSync(broadbentPath, "utf-8");
-    const header = page.match(
-      /<header class="pollie-masthead[\s\S]*?<\/header>/,
-    )?.[0] ?? "";
+    const header = page.match(/<header class="pollie-masthead[\s\S]*?<\/header>/)?.[0] ?? "";
     expect(header).toContain("Monash");
     expect(header).toContain("IND");
     expect(header).not.toContain("Corinella");
@@ -116,27 +112,19 @@ describe("gig integration", () => {
   });
 
   it("includes gigs section on pollie page", () => {
-    const abbottPath = resolve(
-      distPolliesDir,
-      "tony-abbott/index.html",
-    );
+    const abbottPath = resolve(distPolliesDir, "tony-abbott/index.html");
     const content = readFileSync(abbottPath, "utf-8");
 
     expect(content).toContain("Post-office roles");
     expect(content).toContain("Board Member");
     expect(content).toContain("Test Corp");
-    expect(content).toContain(
-      "Professional Services &amp; Management Consulting",
-    );
+    expect(content).toContain("Professional Services &amp; Management Consulting");
     expect(content).toContain("15 June 2020");
     expect(content).toContain("present");
   });
 
   it("formats gig date ranges correctly", () => {
-    const abbottPath = resolve(
-      distPolliesDir,
-      "tony-abbott/index.html",
-    );
+    const abbottPath = resolve(distPolliesDir, "tony-abbott/index.html");
     const content = readFileSync(abbottPath, "utf-8");
 
     expect(content).toContain("Advisor");
@@ -145,10 +133,7 @@ describe("gig integration", () => {
   });
 
   it("includes source links for gigs", () => {
-    const abbottPath = resolve(
-      distPolliesDir,
-      "tony-abbott/index.html",
-    );
+    const abbottPath = resolve(distPolliesDir, "tony-abbott/index.html");
     const content = readFileSync(abbottPath, "utf-8");
 
     expect(content).toContain("https://example.com/source");
@@ -156,10 +141,7 @@ describe("gig integration", () => {
   });
 
   it("shows no gigs message for pollies without gigs", () => {
-    const broadbentPath = resolve(
-      distPolliesDir,
-      "russell-broadbent/index.html",
-    );
+    const broadbentPath = resolve(distPolliesDir, "russell-broadbent/index.html");
     const content = readFileSync(broadbentPath, "utf-8");
 
     expect(content).toContain("Post-office roles");

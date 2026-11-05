@@ -1,9 +1,5 @@
 import { describe, it, expect } from "vitest";
-import {
-  getDecade,
-  isDecade1980sOrLater,
-  getPolliesByDecade,
-} from "../src/utils/decade";
+import { getDecade, isDecade1980sOrLater, getPolliesByDecade } from "../src/utils/decade";
 
 describe("getDecade", () => {
   it("returns Current for null", () => {
@@ -77,9 +73,7 @@ describe("getPolliesByDecade", () => {
       makeEntry({ slug: "old", ceasedDate: "1975-01-01" }),
       makeEntry({ slug: "new", ceasedDate: "2024-01-01" }),
     ]);
-    expect(result.flatMap((g) => g.pollies).map((p) => p.slug)).toEqual([
-      "new",
-    ]);
+    expect(result.flatMap((g) => g.pollies).map((p) => p.slug)).toEqual(["new"]);
   });
 
   it("excludes pollies with unparseable dates", () => {
@@ -87,9 +81,7 @@ describe("getPolliesByDecade", () => {
       makeEntry({ slug: "missing", ceasedDate: "" }),
       makeEntry({ slug: "valid", ceasedDate: "2024-01-01" }),
     ]);
-    expect(result.flatMap((g) => g.pollies).map((p) => p.slug)).toEqual([
-      "valid",
-    ]);
+    expect(result.flatMap((g) => g.pollies).map((p) => p.slug)).toEqual(["valid"]);
   });
 
   it("sorts pollies within a decade by ceased date desc", () => {
@@ -98,10 +90,6 @@ describe("getPolliesByDecade", () => {
       makeEntry({ slug: "late", ceasedDate: "2024-12-31" }),
       makeEntry({ slug: "mid", ceasedDate: "2022-06-15" }),
     ]);
-    expect(result[0].pollies.map((p) => p.slug)).toEqual([
-      "late",
-      "mid",
-      "early",
-    ]);
+    expect(result[0].pollies.map((p) => p.slug)).toEqual(["late", "mid", "early"]);
   });
 });

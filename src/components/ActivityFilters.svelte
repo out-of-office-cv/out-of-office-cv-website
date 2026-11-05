@@ -1,75 +1,75 @@
 <script lang="ts">
   interface Props {
-    actions: string[]
-    bys: string[]
-    total: number
+    actions: string[];
+    bys: string[];
+    total: number;
   }
 
-  let { actions, bys, total }: Props = $props()
+  let { actions, bys, total }: Props = $props();
 
-  let search = $state("")
-  let actionFilter = $state(new Set<string>())
-  let byFilter = $state(new Set<string>())
-  let sortDir = $state<"desc" | "asc">("desc")
-  let visibleCount = $state(total)
+  let search = $state("");
+  let actionFilter = $state(new Set<string>());
+  let byFilter = $state(new Set<string>());
+  let sortDir = $state<"desc" | "asc">("desc");
+  let visibleCount = $state(total);
 
-  let eventEls: HTMLLIElement[] = []
-  let listEl: HTMLOListElement | null = null
+  let eventEls: HTMLLIElement[] = [];
+  let listEl: HTMLOListElement | null = null;
 
   function init() {
-    if (typeof document === "undefined") return
-    listEl = document.querySelector<HTMLOListElement>(".event-list")
-    eventEls = Array.from(document.querySelectorAll<HTMLLIElement>(".event-list .event"))
-    applyFilters()
+    if (typeof document === "undefined") return;
+    listEl = document.querySelector<HTMLOListElement>(".event-list");
+    eventEls = Array.from(document.querySelectorAll<HTMLLIElement>(".event-list .event"));
+    applyFilters();
   }
 
   function applyFilters() {
-    if (eventEls.length === 0) return
-    const q = search.toLowerCase().trim()
-    let count = 0
+    if (eventEls.length === 0) return;
+    const q = search.toLowerCase().trim();
+    let count = 0;
     for (const el of eventEls) {
-      const searchText = el.dataset.search || ""
-      const action = el.dataset.action || ""
-      const by = el.dataset.by || ""
+      const searchText = el.dataset.search || "";
+      const action = el.dataset.action || "";
+      const by = el.dataset.by || "";
 
-      let visible = true
-      if (actionFilter.size && !actionFilter.has(action)) visible = false
-      if (visible && byFilter.size && !byFilter.has(by)) visible = false
-      if (visible && q && !searchText.includes(q)) visible = false
+      let visible = true;
+      if (actionFilter.size && !actionFilter.has(action)) visible = false;
+      if (visible && byFilter.size && !byFilter.has(by)) visible = false;
+      if (visible && q && !searchText.includes(q)) visible = false;
 
-      el.hidden = !visible
-      if (visible) count++
+      el.hidden = !visible;
+      if (visible) count++;
     }
-    visibleCount = count
+    visibleCount = count;
   }
 
   function applySort() {
-    if (!listEl || eventEls.length === 0) return
-    const dir = sortDir
+    if (!listEl || eventEls.length === 0) return;
+    const dir = sortDir;
     const sorted = [...eventEls].sort((a, b) => {
-      const da = a.dataset.date || ""
-      const db = b.dataset.date || ""
-      return dir === "desc" ? db.localeCompare(da) : da.localeCompare(db)
-    })
-    for (const el of sorted) listEl.appendChild(el)
-    eventEls = sorted
+      const da = a.dataset.date || "";
+      const db = b.dataset.date || "";
+      return dir === "desc" ? db.localeCompare(da) : da.localeCompare(db);
+    });
+    for (const el of sorted) listEl.appendChild(el);
+    eventEls = sorted;
   }
 
   function toggle(set: Set<string>, value: string): Set<string> {
-    const next = new Set(set)
-    if (next.has(value)) next.delete(value)
-    else next.add(value)
-    return next
+    const next = new Set(set);
+    if (next.has(value)) next.delete(value);
+    else next.add(value);
+    return next;
   }
 
   function toggleSort() {
-    sortDir = sortDir === "desc" ? "asc" : "desc"
-    applySort()
+    sortDir = sortDir === "desc" ? "asc" : "desc";
+    applySort();
   }
 
   $effect(() => {
-    init()
-  })
+    init();
+  });
 </script>
 
 <section class="controls-section" aria-label="Activity filters">
@@ -94,7 +94,10 @@
         type="button"
         class="chip"
         class:active={actionFilter.has(a)}
-        onclick={() => { actionFilter = toggle(actionFilter, a); applyFilters() }}
+        onclick={() => {
+          actionFilter = toggle(actionFilter, a);
+          applyFilters();
+        }}
       >
         {a}
       </button>
@@ -108,7 +111,10 @@
         type="button"
         class="chip"
         class:active={byFilter.has(b)}
-        onclick={() => { byFilter = toggle(byFilter, b); applyFilters() }}
+        onclick={() => {
+          byFilter = toggle(byFilter, b);
+          applyFilters();
+        }}
       >
         {b}
       </button>
@@ -141,17 +147,29 @@
     font-style: italic;
     font-size: 1rem;
   }
-  .search:focus { outline: none; border-bottom-color: var(--color-accent); }
+  .search:focus {
+    outline: none;
+    border-bottom-color: var(--color-accent);
+  }
   .sort-btn {
-    background: none; border: none; cursor: pointer;
-    color: var(--color-ink-2); font-family: var(--font-sans-stack);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-ink-2);
+    font-family: var(--font-sans-stack);
     font-size: var(--text-meta);
   }
   .filter-row {
-    display: flex; flex-wrap: wrap; gap: var(--space-xs);
-    align-items: baseline; margin-bottom: var(--space-sm);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    align-items: baseline;
+    margin-bottom: var(--space-sm);
   }
-  .filter-label { color: var(--color-ink-3); margin-right: var(--space-xs); }
+  .filter-label {
+    color: var(--color-ink-3);
+    margin-right: var(--space-xs);
+  }
   .chip {
     background: transparent;
     border: 1px solid var(--color-rule-strong);

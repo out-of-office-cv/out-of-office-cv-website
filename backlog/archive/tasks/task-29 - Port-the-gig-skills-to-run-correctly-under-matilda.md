@@ -3,7 +3,7 @@ id: TASK-29
 title: Port the gig skills to run correctly under matilda
 status: To Do
 assignee: []
-created_date: '2026-08-13 23:25'
+created_date: "2026-08-13 23:25"
 labels:
   - ops
   - cron
@@ -16,6 +16,7 @@ priority: medium
 ## Description
 
 <!-- SECTION:DESCRIPTION:BEGIN -->
+
 Make find-gigs and verify-gigs actually produce good output under matilda, once the runner switch exists. The blocker is not auth or frontmatter --- it is that matilda serialises subagents, and find-gigs is architecturally a fan-out.
 
 Decision taken 2026-08-14: accept the serialisation. Keep one subagent per pollie (do not batch several pollies into one subagent, which would blunt the per-pollie research), let them run serially, and pay for it with a longer timeout plus the two safety changes below that the longer timeout forces.
@@ -48,10 +49,13 @@ Raising that timeout has two second-order consequences, both of which need handl
 
 - **Shared-worktree collision.** verify starts 02:00--02:30, find 05:00--05:30, both in the same cron worktree doing `git checkout -f --detach` + `reset --hard`. The current 2h timeout means verify always ends by 04:30, a 30-minute margin. Past ~2.5h the two can overlap and clobber each other mid-run.
 - **All-or-nothing write-back.** find-gigs Step 5 writes `data/gigs.json` once, after every subagent has returned. A 7-minute parallel run has almost no exposure to being killed mid-flight; a ~100-minute serial one has a lot, and a kill at minute 90 currently yields zero output.
+
 <!-- SECTION:DESCRIPTION:END -->
 
 ## Acceptance Criteria
+
 <!-- AC:BEGIN -->
+
 - [ ] #1 Both SKILL.md files exist once in the repo and resolve under both CLIs, via symlinks from .matilda/skills/<name> to the .claude/skills copy, with no duplicated skill content to keep in sync
 - [ ] #2 Skill bodies carry no claude-only mechanics: no reliance on $ARGUMENTS substitution and no inline bash injection, replaced by instructions that yield the same context under either CLI
 - [ ] #3 A claude run of each job after the skill rewording still produces the same artefacts and comparable output quality to before it, so portability has not degraded the default runner
@@ -61,4 +65,5 @@ Raising that timeout has two second-order consequences, both of which need handl
 - [ ] #7 A matilda run of each job produces the same artefacts as a claude run: modified data/gigs.json plus the job's state file, no commits made by the agent itself, and a PR opened by the script
 - [ ] #8 A matilda find run and a claude find run over the same pinned set of pollie slugs have been compared on gig precision, not just gig count, and the result recorded on this task
 - [ ] #9 Observed matilda token usage from ~/.matilda/usage_record.jsonl for a full find run is recorded on this task, so the free-access quota risk is known rather than assumed
+
 <!-- AC:END -->

@@ -1,10 +1,5 @@
 import { Octokit } from "@octokit/rest";
-import {
-  REPO_OWNER,
-  REPO_NAME,
-  REPO_BASE_BRANCH,
-  DATA_FILE_PATH,
-} from "../config";
+import { REPO_OWNER, REPO_NAME, REPO_BASE_BRANCH, DATA_FILE_PATH } from "../config";
 
 function base64ToUtf8(base64: string): string {
   const binary = atob(base64.replace(/\n/g, ""));

@@ -3,8 +3,8 @@ id: TASK-31
 title: Raise the find-gigs cadence to saturate the search throttle
 status: To Do
 assignee: []
-created_date: '2026-08-16 03:45'
-updated_date: '2026-08-16 06:38'
+created_date: "2026-08-16 03:45"
+updated_date: "2026-08-16 06:38"
 labels:
   - ops
   - cron
@@ -18,6 +18,7 @@ priority: medium
 ## Description
 
 <!-- SECTION:DESCRIPTION:BEGIN -->
+
 Daily find runs are badly under-provisioned for the roster, and free Matilda tokens make a higher cadence affordable. Raising it is not safe today, though: one specific interaction silently breaks the search throttle as soon as PRs stop being merged promptly.
 
 ## The roster arithmetic
@@ -50,7 +51,9 @@ This decision leaves PR volume unaddressed: gig PRs still accumulate one per run
 <!-- SECTION:DESCRIPTION:END -->
 
 ## Acceptance Criteria
+
 <!-- AC:BEGIN -->
+
 - [x] #1 Run-to-run search state no longer depends on PR merge latency: two consecutive runs with the first run's PR left unmerged do not re-search the same pollies
 - [ ] #2 That same scenario produces no duplicate gigs across the two runs' output
 - [x] #3 A temporary higher-cadence catch-up phase to clear the 570-pollie backlog is documented in CLAUDE.md, including how to start it and how to drop back to steady state
@@ -59,12 +62,15 @@ This decision leaves PR volume unaddressed: gig PRs still accumulate one per run
 - [ ] #6 PR volume at the raised cadence has been observed and judged reviewable, or a rolling-branch scheme adopted if it is not
 - [x] #7 The find timer runs on a 3-hourly grid during catch-up and can be dropped back to steady state later, set via a .timer drop-in whose first entry is an empty OnCalendar= so the tracked daily schedule is cleared rather than added to
 - [x] #8 Reverting to the daily schedule is a drop-in removal plus daemon-reload with no edit to the tracked unit, and has been exercised
+
 <!-- AC:END -->
 
 ## Implementation Notes
 
 <!-- SECTION:NOTES:BEGIN -->
---------------------------------------------------
+
+---
+
 Blocker cleared ahead of the cadence work: both state files are untracked as of commit 49cd8b5, the cron worktree's copy is authoritative, and each run mirrors the pair onto the cron-state branch.
 
 AC #1 verified in a scratch clone against a local bare origin: two consecutive runs with both PRs left unmerged and main never advancing, and the throttle state survived each run's checkout -f and reset --hard intact (248 entries, the pollie recorded by run 1 still present after run 2's sync). The PR branches carry data/gigs.json only.

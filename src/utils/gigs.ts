@@ -3,8 +3,7 @@ import type { Gig, GigCountSplit } from "../types";
 export function countGigsByPollie(gigs: Gig[]): Map<string, GigCountSplit> {
   const counts = new Map<string, GigCountSplit>();
   for (const gig of gigs) {
-    const current =
-      counts.get(gig.pollie_slug) ?? { verified: 0, unverified: 0, rejected: 0 };
+    const current = counts.get(gig.pollie_slug) ?? { verified: 0, unverified: 0, rejected: 0 };
     if (gig.verification?.decision === "verified") {
       current.verified += 1;
     } else if (gig.verification?.decision === "rejected") {

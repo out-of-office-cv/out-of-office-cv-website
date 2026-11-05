@@ -30,4 +30,5 @@ Completed data model changes:
 - Updated pollies/[slug].paths.ts to handle array sources and missing dates
 - Updated test fixtures
 - All tests passing
+
 <!-- SECTION:NOTES:END -->

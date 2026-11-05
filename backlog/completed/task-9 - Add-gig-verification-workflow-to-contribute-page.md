@@ -50,5 +50,6 @@ The PR should modify the existing gig entry in `data/gigs.ts` to add the
 - [x] #7 Submitting creates a PR that modifies existing gig entries to add
       verified_by
 - [x] #8 Only mapped GitHub users can verify (out-of-office-cv -> khoi, benswift
-    -> ben)
+      -> ben)
+
 <!-- AC:END -->

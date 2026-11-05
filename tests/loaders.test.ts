@@ -39,10 +39,7 @@ describe("loadGigs", () => {
   });
 
   it("throws on schema-invalid gig (missing required field)", () => {
-    writeFileSync(
-      join(dir, "gigs.json"),
-      JSON.stringify([{ role: "Board Member" }]),
-    );
+    writeFileSync(join(dir, "gigs.json"), JSON.stringify([{ role: "Board Member" }]));
     expect(() => loadGigs(dir)).toThrow();
   });
 

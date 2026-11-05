@@ -8,13 +8,7 @@ export function slugify(name: string): string {
     .replace(/^-|-$/g, "");
 }
 
-export type PartyColour =
-  | "red"
-  | "blue"
-  | "green"
-  | "grey"
-  | "orange"
-  | "purple";
+export type PartyColour = "red" | "blue" | "green" | "grey" | "orange" | "purple";
 
 const partyColourMap: Record<string, PartyColour> = {
   ALP: "red",
@@ -55,9 +49,9 @@ export function groupParty(party: string): PartyGroup {
   return partyGroupMap[party] ?? "Other";
 }
 
-export function deduplicatePollies<
-  T extends { slug: string; ceasedDate: string },
->(pollies: T[]): T[] {
+export function deduplicatePollies<T extends { slug: string; ceasedDate: string }>(
+  pollies: T[],
+): T[] {
   const pollieMap = new Map<string, T>();
 
   for (const pollie of pollies) {

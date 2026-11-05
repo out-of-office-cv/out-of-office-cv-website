@@ -1,65 +1,61 @@
 <script lang="ts">
-  import type { Gig, GigCategory } from "../types"
-  import { GIG_CATEGORIES } from "../types"
-  import GitHubAuthSection from "./GitHubAuthSection.svelte"
-  import GigForm from "./GigForm.svelte"
-  import DraftGigList from "./DraftGigList.svelte"
-  import VerifyGigList from "./VerifyGigList.svelte"
-  import PrStatusIndicator from "./PrStatusIndicator.svelte"
-  import { createDraftGigs, type DraftGig } from "../stores/draft-gigs.svelte"
-  import { createGitHubAuth } from "../stores/github-auth.svelte"
-  import { createPullRequest, type PrStatus } from "../stores/pull-request.svelte"
+  import type { Gig, GigCategory } from "../types";
+  import { GIG_CATEGORIES } from "../types";
+  import GitHubAuthSection from "./GitHubAuthSection.svelte";
+  import GigForm from "./GigForm.svelte";
+  import DraftGigList from "./DraftGigList.svelte";
+  import VerifyGigList from "./VerifyGigList.svelte";
+  import PrStatusIndicator from "./PrStatusIndicator.svelte";
+  import { createDraftGigs, type DraftGig } from "../stores/draft-gigs.svelte";
+  import { createGitHubAuth } from "../stores/github-auth.svelte";
+  import { createPullRequest, type PrStatus } from "../stores/pull-request.svelte";
 
   interface PollieOption {
-    slug: string
-    name: string
+    slug: string;
+    name: string;
   }
 
   interface GigWithIndex extends Gig {
-    index: number
+    index: number;
   }
 
-  let pollies = $state<PollieOption[]>([])
-  let gigs = $state<GigWithIndex[]>([])
+  let pollies = $state<PollieOption[]>([]);
+  let gigs = $state<GigWithIndex[]>([]);
 
-  let mode = $state<"add" | "verify">("add")
+  let mode = $state<"add" | "verify">("add");
 
-  const auth = createGitHubAuth()
-  const drafts = createDraftGigs()
-  const pr = createPullRequest(() => auth.getStoredToken())
+  const auth = createGitHubAuth();
+  const drafts = createDraftGigs();
+  const pr = createPullRequest(() => auth.getStoredToken());
 
-  let unverifiedGigs = $derived(
-    gigs.filter((g) => g.verification?.decision !== "verified"),
-  )
+  let unverifiedGigs = $derived(gigs.filter((g) => g.verification?.decision !== "verified"));
 
-  let canSubmitAdd = $derived(auth.isAuthenticated && drafts.gigs.length > 0)
+  let canSubmitAdd = $derived(auth.isAuthenticated && drafts.gigs.length > 0);
 
   let editingGig = $derived(
-    drafts.editingGigId
-      ? drafts.gigs.find((g) => g.id === drafts.editingGigId) || null
-      : null,
-  )
+    drafts.editingGigId ? drafts.gigs.find((g) => g.id === drafts.editingGigId) || null : null,
+  );
 
   function handleGigSubmit(gig: Omit<DraftGig, "id">) {
     if (drafts.editingGigId) {
-      drafts.updateGig(drafts.editingGigId, gig)
-      drafts.cancelEditing()
+      drafts.updateGig(drafts.editingGigId, gig);
+      drafts.cancelEditing();
     } else {
-      drafts.addGig(gig)
+      drafts.addGig(gig);
     }
-    drafts.setLastPollie(gig.pollie_slug)
+    drafts.setLastPollie(gig.pollie_slug);
   }
 
   function handleGigEdit(gig: DraftGig) {
-    drafts.startEditing(gig.id)
+    drafts.startEditing(gig.id);
   }
 
   function handleGigDelete(id: string) {
-    drafts.deleteGig(id)
+    drafts.deleteGig(id);
   }
 
   async function submitAddPR() {
-    if (!canSubmitAdd) return
+    if (!canSubmitAdd) return;
 
     await pr.createPR({
       branchPrefix: "gig-contribution",
@@ -72,7 +68,7 @@
         .join("\n"),
       updateFile: (content: string) => drafts.generateFileUpdate(content),
       onMerged: () => drafts.clearDrafts(),
-    })
+    });
   }
 
   function applyVerificationToGigs(
@@ -81,30 +77,30 @@
     verifier: string,
     edits: Record<number, Partial<Gig>>,
   ): string {
-    const allGigs: Gig[] = JSON.parse(content)
+    const allGigs: Gig[] = JSON.parse(content);
     for (const index of indicesToVerify) {
       if (allGigs[index]) {
-        allGigs[index].verification = { decision: "verified", by: verifier }
+        allGigs[index].verification = { decision: "verified", by: verifier };
         if (edits[index]) {
-          Object.assign(allGigs[index], edits[index])
+          Object.assign(allGigs[index], edits[index]);
         }
       }
     }
-    return JSON.stringify(allGigs, null, 2) + "\n"
+    return JSON.stringify(allGigs, null, 2) + "\n";
   }
 
-  let verifyListRef: { clearSelection: () => void } | undefined = $state()
+  let verifyListRef: { clearSelection: () => void } | undefined = $state();
 
   async function handleVerifySubmit(
     indices: number[],
     verifier: string,
     edits: Record<number, Partial<Gig>>,
   ) {
-    const gigsToVerify = gigs.filter((g) => indices.includes(g.index))
+    const gigsToVerify = gigs.filter((g) => indices.includes(g.index));
     const editedIndices = Object.keys(edits)
       .map(Number)
-      .filter((i) => indices.includes(i))
-    const pollieNames = [...new Set(gigsToVerify.map((g) => g.pollie_slug))]
+      .filter((i) => indices.includes(i));
+    const pollieNames = [...new Set(gigsToVerify.map((g) => g.pollie_slug))];
 
     await pr.createPR({
       branchPrefix: "gig-verification",
@@ -117,25 +113,24 @@
               `- ${g.role} at ${g.organisation} (${g.pollie_slug})${editedIndices.includes(g.index) ? " (edited)" : ""}`,
           )
           .join("\n"),
-      updateFile: (content: string) =>
-        applyVerificationToGigs(content, indices, verifier, edits),
+      updateFile: (content: string) => applyVerificationToGigs(content, indices, verifier, edits),
       onMerged: () => verifyListRef?.clearSelection(),
-    })
+    });
   }
 
   $effect(() => {
-    drafts.loadDrafts()
-    auth.initAuth()
+    drafts.loadDrafts();
+    auth.initAuth();
     Promise.all([
       fetch("/pollies-index.json").then((r) => r.json()),
       fetch("/gigs-index.json").then((r) => r.json()),
     ])
       .then(([p, g]) => {
-        pollies = p
-        gigs = g
+        pollies = p;
+        gigs = g;
       })
-      .catch(() => {})
-  })
+      .catch(() => {});
+  });
 </script>
 
 <div class="gig-entry-form">
@@ -179,11 +174,7 @@
       oncancel={() => drafts.cancelEditing()}
     />
 
-    <DraftGigList
-      drafts={drafts.gigs}
-      onedit={handleGigEdit}
-      ondelete={handleGigDelete}
-    />
+    <DraftGigList drafts={drafts.gigs} onedit={handleGigEdit} ondelete={handleGigDelete} />
 
     {#if drafts.gigs.length > 0}
       <section class="submit-section">
@@ -221,21 +212,22 @@
         <p class="notice notice-warn">Connect to GitHub above to verify gigs.</p>
       {:else if !auth.canVerify}
         <p class="notice notice-warn">
-          Your GitHub account (@{auth.username}) is not authorised to verify
-          gigs. Contact the project maintainers if you should have access.
+          Your GitHub account (@{auth.username}) is not authorised to verify gigs. Contact the
+          project maintainers if you should have access.
         </p>
       {:else}
         <VerifyGigList
           bind:this={verifyListRef}
           verifierId={auth.verifierId!}
-          unverifiedGigs={unverifiedGigs}
+          {unverifiedGigs}
           {pollies}
           onsubmit={handleVerifySubmit}
         >
           {#snippet submitSlot({ count, onSubmit })}
             {#if pr.status === "idle"}
               <button type="button" class="btn-primary btn-large" onclick={onSubmit}>
-                Verify {count} {count === 1 ? "gig" : "gigs"} as {auth.verifierId}
+                Verify {count}
+                {count === 1 ? "gig" : "gigs"} as {auth.verifierId}
               </button>
             {:else}
               <PrStatusIndicator

@@ -1,13 +1,13 @@
 <script lang="ts">
-  import type { DraftGig } from "../stores/draft-gigs.svelte"
+  import type { DraftGig } from "../stores/draft-gigs.svelte";
 
   interface Props {
-    drafts: DraftGig[]
-    onedit: (gig: DraftGig) => void
-    ondelete: (id: string) => void
+    drafts: DraftGig[];
+    onedit: (gig: DraftGig) => void;
+    ondelete: (id: string) => void;
   }
 
-  let { drafts, onedit, ondelete }: Props = $props()
+  let { drafts, onedit, ondelete }: Props = $props();
 </script>
 
 {#if drafts.length > 0}

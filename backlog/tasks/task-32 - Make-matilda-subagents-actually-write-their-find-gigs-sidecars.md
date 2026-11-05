@@ -3,8 +3,8 @@ id: TASK-32
 title: Make matilda subagents actually write their find-gigs sidecars
 status: To Do
 assignee: []
-created_date: '2026-08-16 09:52'
-updated_date: '2026-08-17 09:08'
+created_date: "2026-08-16 09:52"
+updated_date: "2026-08-17 09:08"
 labels:
   - ops
   - cron
@@ -16,6 +16,7 @@ priority: medium
 ## Description
 
 <!-- SECTION:DESCRIPTION:BEGIN -->
+
 The per-pollie sidecar in task-29.1 is what makes a killed find run keep the pollies it had already researched. It matters most under matilda, where a run takes 45--105 minutes instead of 7, so there is far more run to lose.
 
 Matilda does not reliably honour the instruction. In the pinned comparison of 2026-08-16 the orchestrator reported: "No sidecar was written (directory doesn't exist). Falling back to the returned JSON". The fallback did its job, so nothing was lost in that run --- but a run killed mid-fan-out has no returned JSON to fall back to, which is the entire scenario the sidecar exists for.
@@ -36,9 +37,12 @@ Two things follow. The merge in Step 5 should reject a sidecar that does not par
 <!-- SECTION:DESCRIPTION:END -->
 
 ## Acceptance Criteria
+
 <!-- AC:BEGIN -->
+
 - [ ] #1 A matilda find run leaves one sidecar per dispatched pollie in data/.find-inflight/ while the fan-out is in progress, verified by inspecting the directory mid-run
 - [ ] #2 A matilda find run killed partway through the fan-out leaves sidecars behind, and the next run merges them rather than re-searching those pollies
 - [ ] #3 The orchestrator merges per pollie as Step 5 describes rather than batching through an improvised script, or the skill is reworded so that whatever it does reliably is what the skill asks for
 - [ ] #4 A sidecar that does not match the documented shape is reported as a validation failure in the run summary rather than silently contributing zero candidates
+
 <!-- AC:END -->

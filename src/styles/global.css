@@ -5,15 +5,15 @@
 
 :root {
   /* --- Surfaces: warm paper, tinted toward brand hue for secondaries --- */
-  --color-paper: oklch(98.5% 0.008 85);           /* primary reading surface */
-  --color-paper-alt: oklch(96.5% 0.012 155);      /* secondary surface, faint brand tint */
-  --color-paper-deep: oklch(93.5% 0.014 155);     /* form fields, code, inset */
-  --color-paper-tint: oklch(94% 0.028 155);       /* accent hover / selected row */
+  --color-paper: oklch(98.5% 0.008 85); /* primary reading surface */
+  --color-paper-alt: oklch(96.5% 0.012 155); /* secondary surface, faint brand tint */
+  --color-paper-deep: oklch(93.5% 0.014 155); /* form fields, code, inset */
+  --color-paper-tint: oklch(94% 0.028 155); /* accent hover / selected row */
 
   /* --- Ink: warm near-black, stepped for hierarchy --- */
-  --color-ink: oklch(22% 0.015 90);               /* primary text */
-  --color-ink-2: oklch(42% 0.015 90);             /* secondary text */
-  --color-ink-3: oklch(56% 0.012 155);            /* metadata / tertiary */
+  --color-ink: oklch(22% 0.015 90); /* primary text */
+  --color-ink-2: oklch(42% 0.015 90); /* secondary text */
+  --color-ink-3: oklch(56% 0.012 155); /* metadata / tertiary */
 
   /* --- Rules: hairline dividers, tinted to brand --- */
   --color-rule: oklch(87% 0.01 155);
@@ -29,7 +29,7 @@
   --color-error-soft: oklch(95% 0.025 25);
   --color-warn: oklch(55% 0.12 75);
   --color-warn-soft: oklch(96% 0.04 85);
-  --color-success: oklch(42% 0.09 155);            /* same hue as accent */
+  --color-success: oklch(42% 0.09 155); /* same hue as accent */
 
   /* --- Chamber & party markers: low-saturation archival stamps --- */
   /* Senate (traditional red) */
@@ -64,8 +64,12 @@
   --marker-default-rule: var(--color-rule);
 
   /* --- Type families (from astro:fonts) --- */
-  --font-serif-stack: var(--font-serif, "Source Serif 4"), "Iowan Old Style", Charter, Palatino, "Book Antiqua", Georgia, serif;
-  --font-sans-stack: var(--font-sans, "Public Sans"), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif-stack:
+    var(--font-serif, "Source Serif 4"), "Iowan Old Style", Charter, Palatino, "Book Antiqua",
+    Georgia, serif;
+  --font-sans-stack:
+    var(--font-sans, "Public Sans"), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
 
   /* --- Type scale: fluid on display headings, fixed below --- */
   --text-masthead: clamp(1.625rem, 1.25rem + 1.8vw, 2.375rem);
@@ -84,15 +88,15 @@
   --lh-tight: 1.35;
 
   /* --- Spacing scale (4pt, semantic) --- */
-  --space-2xs: 0.25rem;   /* 4px */
-  --space-xs: 0.5rem;     /* 8px */
-  --space-sm: 0.75rem;    /* 12px */
-  --space-md: 1rem;       /* 16px */
-  --space-lg: 1.5rem;     /* 24px */
-  --space-xl: 2rem;       /* 32px */
-  --space-2xl: 3rem;      /* 48px */
-  --space-3xl: 4rem;      /* 64px */
-  --space-4xl: 6rem;      /* 96px */
+  --space-2xs: 0.25rem; /* 4px */
+  --space-xs: 0.5rem; /* 8px */
+  --space-sm: 0.75rem; /* 12px */
+  --space-md: 1rem; /* 16px */
+  --space-lg: 1.5rem; /* 24px */
+  --space-xl: 2rem; /* 32px */
+  --space-2xl: 3rem; /* 48px */
+  --space-3xl: 4rem; /* 64px */
+  --space-4xl: 6rem; /* 96px */
 
   /* --- Measure (line length) --- */
   --measure-reading: 68ch;
@@ -123,14 +127,14 @@
 
 html {
   font-family: var(--font-serif-stack);
-  font-size: 17px;  /* slightly bumped reading size */
+  font-size: 17px; /* slightly bumped reading size */
   line-height: var(--lh-body);
   color: var(--color-ink);
   background: var(--color-paper);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  font-feature-settings: "kern", "liga", "onum";  /* old-style numerals in body */
+  font-feature-settings: "kern", "liga", "onum"; /* old-style numerals in body */
   hanging-punctuation: first last;
 }
 
@@ -145,14 +149,19 @@ body {
    Typographic rhythm
    ============================================================ */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-serif-stack);
   font-weight: 600;
   line-height: var(--lh-heading);
   color: var(--color-ink);
   margin: 0;
   text-wrap: balance;
-  font-feature-settings: "kern", "liga", "lnum";  /* lining figures in headings */
+  font-feature-settings: "kern", "liga", "lnum"; /* lining figures in headings */
 }
 
 h1 {
@@ -203,9 +212,10 @@ a {
   text-decoration-thickness: 1px;
   text-underline-offset: 0.18em;
   text-decoration-color: color-mix(in oklch, var(--color-accent) 55%, transparent);
-  transition: text-decoration-thickness var(--dur-fast) var(--ease-out),
-              text-decoration-color var(--dur-fast) var(--ease-out),
-              color var(--dur-fast) var(--ease-out);
+  transition:
+    text-decoration-thickness var(--dur-fast) var(--ease-out),
+    text-decoration-color var(--dur-fast) var(--ease-out),
+    color var(--dur-fast) var(--ease-out);
 }
 
 a:hover {
@@ -237,11 +247,13 @@ code {
   color: var(--color-ink);
 }
 
-strong, b {
+strong,
+b {
   font-weight: 600;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
@@ -278,7 +290,7 @@ textarea,
   font-family: var(--font-sans-stack);
   font-size: var(--text-meta);
   color: var(--color-ink-3);
-  font-feature-settings: "kern", "liga", "tnum";  /* tabular figures in metadata */
+  font-feature-settings: "kern", "liga", "tnum"; /* tabular figures in metadata */
 }
 
 /* ============================================================
@@ -307,9 +319,10 @@ textarea,
   padding: 0.55rem 1rem;
   border-radius: var(--radius-sm);
   cursor: pointer;
-  transition: background var(--dur-fast) var(--ease-out),
-              color var(--dur-fast) var(--ease-out),
-              border-color var(--dur-fast) var(--ease-out);
+  transition:
+    background var(--dur-fast) var(--ease-out),
+    color var(--dur-fast) var(--ease-out),
+    border-color var(--dur-fast) var(--ease-out);
 }
 
 .btn-primary {
@@ -371,9 +384,10 @@ textarea,
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: background var(--dur-fast) var(--ease-out),
-              color var(--dur-fast) var(--ease-out),
-              border-color var(--dur-fast) var(--ease-out);
+  transition:
+    background var(--dur-fast) var(--ease-out),
+    color var(--dur-fast) var(--ease-out),
+    border-color var(--dur-fast) var(--ease-out);
 }
 
 .btn-icon:hover {
@@ -446,9 +460,12 @@ textarea:focus {
 select {
   cursor: pointer;
   appearance: none;
-  background-image: linear-gradient(45deg, transparent 50%, var(--color-ink-2) 50%),
-                    linear-gradient(-45deg, transparent 50%, var(--color-ink-2) 50%);
-  background-position: calc(100% - 1rem) 50%, calc(100% - 0.6rem) 50%;
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--color-ink-2) 50%),
+    linear-gradient(-45deg, transparent 50%, var(--color-ink-2) 50%);
+  background-position:
+    calc(100% - 1rem) 50%,
+    calc(100% - 0.6rem) 50%;
   background-size: 6px 6px;
   background-repeat: no-repeat;
   padding-right: 2rem;

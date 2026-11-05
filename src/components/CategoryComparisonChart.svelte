@@ -122,12 +122,7 @@
 
 <div class="chart-scroll">
   <div class="chart-min">
-    <div
-      id="comparison-chart"
-      class="chart"
-      bind:this={chartDiv}
-      aria-hidden="true"
-    ></div>
+    <div id="comparison-chart" class="chart" bind:this={chartDiv} aria-hidden="true"></div>
   </div>
 </div>
 
@@ -152,7 +147,8 @@
     text-transform: uppercase;
     color: var(--color-ink-2);
     cursor: pointer;
-    transition: background var(--dur-fast) var(--ease-out),
+    transition:
+      background var(--dur-fast) var(--ease-out),
       color var(--dur-fast) var(--ease-out);
   }
   .toggle-btn:last-child {

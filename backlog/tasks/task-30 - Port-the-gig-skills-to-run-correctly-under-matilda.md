@@ -3,8 +3,8 @@ id: TASK-30
 title: Port the gig skills to run correctly under matilda
 status: Done
 assignee: []
-created_date: '2026-08-16 03:44'
-updated_date: '2026-08-16 09:52'
+created_date: "2026-08-16 03:44"
+updated_date: "2026-08-16 09:52"
 labels:
   - ops
   - cron
@@ -18,6 +18,7 @@ priority: medium
 ## Description
 
 <!-- SECTION:DESCRIPTION:BEGIN -->
+
 Make find-gigs and verify-gigs produce good output under matilda, once the runner switch exists and the jobs are hardened. The blocker is not auth or frontmatter --- it is that matilda serialises subagents, and find-gigs is architecturally a fan-out.
 
 Decision taken 2026-08-14: accept the serialisation. Keep one subagent per pollie (do not batch several pollies into one subagent, which would blunt the per-pollie research), let them run serially, and pay for it with a longer timeout.
@@ -50,7 +51,9 @@ Note this does not limit coverage: the useful steady-state cadence is about 4 ru
 <!-- SECTION:DESCRIPTION:END -->
 
 ## Acceptance Criteria
+
 <!-- AC:BEGIN -->
+
 - [x] #1 Both SKILL.md files exist once in the repo and resolve under both CLIs, via symlinks from .matilda/skills/<name> to the .claude/skills copy, with no duplicated skill content to keep in sync
 - [x] #2 Skill bodies carry no claude-only mechanics: no reliance on $ARGUMENTS substitution and no inline bash injection, replaced by instructions that yield the same context under either CLI
 - [x] #3 A claude run of each job after the skill rewording produces the same artefacts and comparable output quality to before it, so portability has not degraded the default runner
@@ -59,15 +62,21 @@ Note this does not limit coverage: the useful steady-state cadence is about 4 ru
 - [x] #6 A matilda find run and a claude find run over the same pinned set of pollie slugs have been compared on gig precision, not just gig count, and the result recorded on this task
 - [x] #7 Measured matilda token usage from ~/.matilda/usage_record.jsonl for one full find run is recorded on this task, with the implied daily cost at 4 runs/day extrapolated from it
 - [x] #8 Switching a job back to claude is a single drop-in removal plus daemon-reload, with no script or skill edit, and this has been exercised rather than only documented
+
 <!-- AC:END -->
 
 ## Implementation Notes
 
 <!-- SECTION:NOTES:BEGIN -->
---------------------------------------------------
---------------------------------------------------
---------------------------------------------------
---------------------------------------------------
+
+---
+
+---
+
+---
+
+---
+
 Symlinks .matilda/skills/{find,verify}-gigs point at the .claude/skills copies, so there is one SKILL.md per skill.
 
 Probed matilda 0.21.2 on weddle to settle two things the task had not: it discovers skills through a symlinked directory (a real dir and a symlinked dir were both listed), and it still honours a slash invocation of a skill carrying disable-model-invocation: true. The gig skills are absent from the model-visible skill list precisely because of that flag, which is intended --- they are slash-invoked by the cron scripts.
@@ -89,9 +98,9 @@ Wall clock: 45 min 30 s agent time (15:36:39 to 16:22:09), against 6 min 44 s fo
 AC #4: the existing TimeoutStartSec=2h leaves 2.6x headroom on this run, so no timeout drop-in is needed. Left unchecked because one sample is thin --- a batch of pollies with richer web presence would run longer, and the value should be revisited if a run ever approaches 90 min.
 
 AC #7, measured from the single new record in ~/.matilda/usage_record.jsonl:
-  totalTokens   7,434,216   (inputTokens 7,331,043, of which cachedTokens 5,794,528)
-  outputTokens    103,173   (thoughtsTokens 42,430)
-  tools: agent 15, web_search 280, web_fetch 99, read_file 12, run_shell_command 9
+totalTokens 7,434,216 (inputTokens 7,331,043, of which cachedTokens 5,794,528)
+outputTokens 103,173 (thoughtsTokens 42,430)
+tools: agent 15, web_search 280, web_fetch 99, read_file 12, run_shell_command 9
 Extrapolated: ~29.7M tokens/day at 4 runs/day, ~52M/day at the 7 find runs/day a 3-hourly cadence would give. Whether the free tier tolerates that is still unknown.
 
 AC #5: artefacts match a claude run exactly --- data/gigs.json modified, state mirrored to cron-state, no commits made by the agent (worktree HEAD unmoved), sidecars written, merged and cleaned up, and PR #474 opened by the script. It auto-merged on its own checks.
@@ -111,8 +120,8 @@ The 1h43m run was the second of two back-to-back runs: the 17:00 timer fired whi
 Three pollies, never searched, chosen to probe a different failure mode each: tony-windsor (prolific op-ed writer, tests the one-off-act rule), sue-boyce (senator likely to hold board roles), craig-thomson (heavy press coverage that is about scandal, not roles). Both CLIs over the same three, run directly rather than through the cron script, with data restored to baseline before each of the six runs. Find timer stopped for the duration.
 
 Result --- gigs added:
-  claude:  tony-windsor 0, sue-boyce 1, craig-thomson 0
-  matilda: tony-windsor 0, sue-boyce 0, craig-thomson 0
+claude: tony-windsor 0, sue-boyce 1, craig-thomson 0
+matilda: tony-windsor 0, sue-boyce 0, craig-thomson 0
 
 claude's single gig, Director @ Everhard Industries, carried two sources and a clean evidence quote from the company's own announcement ('Sue will continue as a director of the company'), and was correctly Tier 2 flagged as the same organisation as an existing gig. Nothing was screened out on either side: matilda's subagents simply returned empty candidate arrays.
 

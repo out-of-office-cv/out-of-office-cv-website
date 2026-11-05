@@ -1,136 +1,132 @@
 <script lang="ts">
-  import type { Gig } from "../types"
-  import { GIG_CATEGORIES } from "../types"
-  import { validateGigDate, DATE_HINT, sortGigsForVerification } from "../utils"
-  import type { Snippet } from "svelte"
+  import type { Gig } from "../types";
+  import { GIG_CATEGORIES } from "../types";
+  import { validateGigDate, DATE_HINT, sortGigsForVerification } from "../utils";
+  import type { Snippet } from "svelte";
 
   interface GigWithIndex extends Gig {
-    index: number
+    index: number;
   }
 
   interface PollieOption {
-    slug: string
-    name: string
+    slug: string;
+    name: string;
   }
 
   interface Props {
-    verifierId: string
-    unverifiedGigs: GigWithIndex[]
-    pollies: PollieOption[]
-    onsubmit: (
-      indices: number[],
-      verifierId: string,
-      edits: Record<number, Partial<Gig>>,
-    ) => void
-    submitSlot?: Snippet<[{ count: number; onSubmit: () => void }]>
+    verifierId: string;
+    unverifiedGigs: GigWithIndex[];
+    pollies: PollieOption[];
+    onsubmit: (indices: number[], verifierId: string, edits: Record<number, Partial<Gig>>) => void;
+    submitSlot?: Snippet<[{ count: number; onSubmit: () => void }]>;
   }
 
-  let { verifierId, unverifiedGigs, pollies, onsubmit, submitSlot }: Props = $props()
+  let { verifierId, unverifiedGigs, pollies, onsubmit, submitSlot }: Props = $props();
 
-  let verifySearch = $state("")
-  let selectedIndices = $state(new Set<number>())
-  let expandedIndex = $state<number | null>(null)
-  let gigEdits = $state<Record<number, Partial<Gig>>>({})
+  let verifySearch = $state("");
+  let selectedIndices = $state(new Set<number>());
+  let expandedIndex = $state<number | null>(null);
+  let gigEdits = $state<Record<number, Partial<Gig>>>({});
 
-  let sortedGigs = $derived(sortGigsForVerification(unverifiedGigs))
+  let sortedGigs = $derived(sortGigsForVerification(unverifiedGigs));
 
   let filteredGigs = $derived.by(() => {
-    const query = verifySearch.toLowerCase().trim()
-    if (!query) return sortedGigs
+    const query = verifySearch.toLowerCase().trim();
+    if (!query) return sortedGigs;
     return sortedGigs.filter(
       (gig) =>
         gig.role.toLowerCase().includes(query) ||
         gig.organisation.toLowerCase().includes(query) ||
         gig.pollie_slug.toLowerCase().includes(query) ||
         gig.category.toLowerCase().includes(query),
-    )
-  })
+    );
+  });
 
   function getPollieNameBySlug(slug: string): string {
-    const pollie = pollies.find((p) => p.slug === slug)
-    return pollie?.name || slug
+    const pollie = pollies.find((p) => p.slug === slug);
+    return pollie?.name || slug;
   }
 
   function getHostname(url: string): string {
     try {
-      return new URL(url).hostname.replace(/^www\./, "")
+      return new URL(url).hostname.replace(/^www\./, "");
     } catch {
-      return url
+      return url;
     }
   }
 
   function toggleSelection(index: number) {
     if (selectedIndices.has(index)) {
-      selectedIndices.delete(index)
+      selectedIndices.delete(index);
     } else {
-      selectedIndices.add(index)
+      selectedIndices.add(index);
     }
-    selectedIndices = new Set(selectedIndices)
+    selectedIndices = new Set(selectedIndices);
   }
 
   function selectAllVisible() {
     for (const gig of filteredGigs) {
-      selectedIndices.add(gig.index)
+      selectedIndices.add(gig.index);
     }
-    selectedIndices = new Set(selectedIndices)
+    selectedIndices = new Set(selectedIndices);
   }
 
   function clearSelection() {
-    selectedIndices = new Set()
-    gigEdits = {}
+    selectedIndices = new Set();
+    gigEdits = {};
   }
 
   function toggleExpand(index: number) {
-    expandedIndex = expandedIndex === index ? null : index
+    expandedIndex = expandedIndex === index ? null : index;
   }
 
   function getFieldValue(gig: GigWithIndex, field: keyof Gig): string {
-    const edits = gigEdits[gig.index]
+    const edits = gigEdits[gig.index];
     if (edits && field in edits) {
-      return (edits[field] as string) ?? ""
+      return (edits[field] as string) ?? "";
     }
-    return (gig[field] as string) ?? ""
+    return (gig[field] as string) ?? "";
   }
 
   function getSourcesValue(gig: GigWithIndex): string[] {
-    const edits = gigEdits[gig.index]
+    const edits = gigEdits[gig.index];
     if (edits && "sources" in edits) {
-      return edits.sources!
+      return edits.sources!;
     }
-    return gig.sources
+    return gig.sources;
   }
 
   function isFieldModified(index: number, field: keyof Gig): boolean {
-    const edits = gigEdits[index]
-    return edits !== undefined && field in edits
+    const edits = gigEdits[index];
+    return edits !== undefined && field in edits;
   }
 
   function getDateValidation(gig: GigWithIndex, field: "start_date" | "end_date") {
-    const val = getFieldValue(gig, field)
-    return val ? validateGigDate(val) : null
+    const val = getFieldValue(gig, field);
+    return val ? validateGigDate(val) : null;
   }
 
   function hasAnyEdits(index: number): boolean {
-    const edits = gigEdits[index]
-    return edits !== undefined && Object.keys(edits).length > 0
+    const edits = gigEdits[index];
+    return edits !== undefined && Object.keys(edits).length > 0;
   }
 
   function setEditField(index: number, field: string, value: unknown) {
-    gigEdits = { ...gigEdits, [index]: { ...gigEdits[index], [field]: value } }
+    gigEdits = { ...gigEdits, [index]: { ...gigEdits[index], [field]: value } };
   }
 
   function removeEditField(index: number, field: string) {
-    const edits = gigEdits[index]
-    if (!edits) return
-    const updated = { ...edits }
-    delete (updated as Record<string, unknown>)[field]
-    const newEdits = { ...gigEdits }
+    const edits = gigEdits[index];
+    if (!edits) return;
+    const updated = { ...edits };
+    delete (updated as Record<string, unknown>)[field];
+    const newEdits = { ...gigEdits };
     if (Object.keys(updated).length === 0) {
-      delete newEdits[index]
+      delete newEdits[index];
     } else {
-      newEdits[index] = updated as Partial<Gig>
+      newEdits[index] = updated as Partial<Gig>;
     }
-    gigEdits = newEdits
+    gigEdits = newEdits;
   }
 
   function updateStringField(
@@ -139,69 +135,69 @@
     value: string,
     original: string | undefined,
   ) {
-    const isDateField = field === "start_date" || field === "end_date"
-    const normValue = isDateField ? value || undefined : value
-    const normOriginal = isDateField ? original || undefined : (original ?? "")
+    const isDateField = field === "start_date" || field === "end_date";
+    const normValue = isDateField ? value || undefined : value;
+    const normOriginal = isDateField ? original || undefined : (original ?? "");
     if (normValue === normOriginal) {
-      removeEditField(index, field)
+      removeEditField(index, field);
     } else {
-      setEditField(index, field, normValue)
+      setEditField(index, field, normValue);
     }
   }
 
   function updateCategory(index: number, value: string, original: string) {
     if (value === original) {
-      removeEditField(index, "category")
+      removeEditField(index, "category");
     } else {
-      setEditField(index, "category", value)
+      setEditField(index, "category", value);
     }
   }
 
   function arraysEqual(a: string[], b: string[]): boolean {
-    if (a.length !== b.length) return false
-    return a.every((val, i) => val === b[i])
+    if (a.length !== b.length) return false;
+    return a.every((val, i) => val === b[i]);
   }
 
   function updateSource(gig: GigWithIndex, sourceIndex: number, value: string) {
-    const currentSources = [...getSourcesValue(gig)]
-    currentSources[sourceIndex] = value
+    const currentSources = [...getSourcesValue(gig)];
+    currentSources[sourceIndex] = value;
     if (arraysEqual(currentSources, gig.sources)) {
-      removeEditField(gig.index, "sources")
+      removeEditField(gig.index, "sources");
     } else {
-      setEditField(gig.index, "sources", currentSources)
+      setEditField(gig.index, "sources", currentSources);
     }
   }
 
   function addSource(gig: GigWithIndex) {
-    const currentSources = [...getSourcesValue(gig), ""]
-    setEditField(gig.index, "sources", currentSources)
+    const currentSources = [...getSourcesValue(gig), ""];
+    setEditField(gig.index, "sources", currentSources);
   }
 
   function removeSource(gig: GigWithIndex, sourceIndex: number) {
-    const currentSources = getSourcesValue(gig).filter((_, i) => i !== sourceIndex)
+    const currentSources = getSourcesValue(gig).filter((_, i) => i !== sourceIndex);
     if (arraysEqual(currentSources, gig.sources)) {
-      removeEditField(gig.index, "sources")
+      removeEditField(gig.index, "sources");
     } else {
-      setEditField(gig.index, "sources", currentSources)
+      setEditField(gig.index, "sources", currentSources);
     }
   }
 
   function revertField(index: number, field: keyof Gig) {
-    removeEditField(index, field)
+    removeEditField(index, field);
   }
 
   function handleSubmit() {
-    onsubmit(Array.from(selectedIndices), verifierId, gigEdits)
+    onsubmit(Array.from(selectedIndices), verifierId, gigEdits);
   }
 
-  export { clearSelection }
+  export { clearSelection };
 </script>
 
 <div class="verify-section">
   <p class="verify-intro">
-    Select gigs you've confirmed are accurate, then open a pull request to
-    mark them as verified by <strong>{verifierId}</strong>. Expand a gig to
-    edit its details before verifying.
+    Select gigs you've confirmed are accurate, then open a pull request to mark them as verified by <strong
+      >{verifierId}</strong
+    >. Expand a gig to edit its details before verifying.
   </p>
 
   <div class="verify-controls">
@@ -284,31 +280,51 @@
                     <div class="edit-field-header">
                       <label class="field-label" for={`role-${gig.index}`}>Role</label>
                       {#if isFieldModified(gig.index, "role")}
-                        <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "role")}>↩ revert</button>
+                        <button
+                          type="button"
+                          class="btn-revert"
+                          title="Revert"
+                          onclick={() => revertField(gig.index, "role")}>↩ revert</button
+                        >
                       {/if}
                     </div>
                     <input
                       id={`role-${gig.index}`}
                       type="text"
                       value={getFieldValue(gig, "role")}
-                      oninput={(e) => updateStringField(gig.index, "role", e.currentTarget.value, gig.role)}
+                      oninput={(e) =>
+                        updateStringField(gig.index, "role", e.currentTarget.value, gig.role)}
                     />
                     {#if isFieldModified(gig.index, "role")}
                       <span class="was-text">was: {gig.role}</span>
                     {/if}
                   </div>
-                  <div class="edit-field" class:field-modified={isFieldModified(gig.index, "organisation")}>
+                  <div
+                    class="edit-field"
+                    class:field-modified={isFieldModified(gig.index, "organisation")}
+                  >
                     <div class="edit-field-header">
                       <label class="field-label" for={`org-${gig.index}`}>Organisation</label>
                       {#if isFieldModified(gig.index, "organisation")}
-                        <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "organisation")}>↩ revert</button>
+                        <button
+                          type="button"
+                          class="btn-revert"
+                          title="Revert"
+                          onclick={() => revertField(gig.index, "organisation")}>↩ revert</button
+                        >
                       {/if}
                     </div>
                     <input
                       id={`org-${gig.index}`}
                       type="text"
                       value={getFieldValue(gig, "organisation")}
-                      oninput={(e) => updateStringField(gig.index, "organisation", e.currentTarget.value, gig.organisation)}
+                      oninput={(e) =>
+                        updateStringField(
+                          gig.index,
+                          "organisation",
+                          e.currentTarget.value,
+                          gig.organisation,
+                        )}
                     />
                     {#if isFieldModified(gig.index, "organisation")}
                       <span class="was-text">was: {gig.organisation}</span>
@@ -316,11 +332,19 @@
                   </div>
                 </div>
 
-                <div class="edit-field" class:field-modified={isFieldModified(gig.index, "category")}>
+                <div
+                  class="edit-field"
+                  class:field-modified={isFieldModified(gig.index, "category")}
+                >
                   <div class="edit-field-header">
                     <label class="field-label" for={`cat-${gig.index}`}>Category</label>
                     {#if isFieldModified(gig.index, "category")}
-                      <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "category")}>↩ revert</button>
+                      <button
+                        type="button"
+                        class="btn-revert"
+                        title="Revert"
+                        onclick={() => revertField(gig.index, "category")}>↩ revert</button
+                      >
                     {/if}
                   </div>
                   <select
@@ -338,11 +362,19 @@
                 </div>
 
                 <div class="edit-field-row">
-                  <div class="edit-field" class:field-modified={isFieldModified(gig.index, "start_date")}>
+                  <div
+                    class="edit-field"
+                    class:field-modified={isFieldModified(gig.index, "start_date")}
+                  >
                     <div class="edit-field-header">
                       <label class="field-label" for={`sd-${gig.index}`}>Start date</label>
                       {#if isFieldModified(gig.index, "start_date")}
-                        <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "start_date")}>↩ revert</button>
+                        <button
+                          type="button"
+                          class="btn-revert"
+                          title="Revert"
+                          onclick={() => revertField(gig.index, "start_date")}>↩ revert</button
+                        >
                       {/if}
                     </div>
                     <input
@@ -350,9 +382,16 @@
                       type="text"
                       value={getFieldValue(gig, "start_date")}
                       placeholder={DATE_HINT}
-                      class:date-invalid={getDateValidation(gig, "start_date") && !getDateValidation(gig, "start_date")?.valid}
+                      class:date-invalid={getDateValidation(gig, "start_date") &&
+                        !getDateValidation(gig, "start_date")?.valid}
                       class:date-valid={getDateValidation(gig, "start_date")?.valid}
-                      oninput={(e) => updateStringField(gig.index, "start_date", e.currentTarget.value, gig.start_date)}
+                      oninput={(e) =>
+                        updateStringField(
+                          gig.index,
+                          "start_date",
+                          e.currentTarget.value,
+                          gig.start_date,
+                        )}
                     />
                     {#if getDateValidation(gig, "start_date") && !getDateValidation(gig, "start_date")?.valid}
                       <span class="date-error">Not a valid date — use {DATE_HINT}</span>
@@ -361,11 +400,19 @@
                       <span class="was-text">was: {gig.start_date || "none"}</span>
                     {/if}
                   </div>
-                  <div class="edit-field" class:field-modified={isFieldModified(gig.index, "end_date")}>
+                  <div
+                    class="edit-field"
+                    class:field-modified={isFieldModified(gig.index, "end_date")}
+                  >
                     <div class="edit-field-header">
                       <label class="field-label" for={`ed-${gig.index}`}>End date</label>
                       {#if isFieldModified(gig.index, "end_date")}
-                        <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "end_date")}>↩ revert</button>
+                        <button
+                          type="button"
+                          class="btn-revert"
+                          title="Revert"
+                          onclick={() => revertField(gig.index, "end_date")}>↩ revert</button
+                        >
                       {/if}
                     </div>
                     <input
@@ -373,9 +420,16 @@
                       type="text"
                       value={getFieldValue(gig, "end_date")}
                       placeholder={DATE_HINT}
-                      class:date-invalid={getDateValidation(gig, "end_date") && !getDateValidation(gig, "end_date")?.valid}
+                      class:date-invalid={getDateValidation(gig, "end_date") &&
+                        !getDateValidation(gig, "end_date")?.valid}
                       class:date-valid={getDateValidation(gig, "end_date")?.valid}
-                      oninput={(e) => updateStringField(gig.index, "end_date", e.currentTarget.value, gig.end_date)}
+                      oninput={(e) =>
+                        updateStringField(
+                          gig.index,
+                          "end_date",
+                          e.currentTarget.value,
+                          gig.end_date,
+                        )}
                     />
                     {#if getDateValidation(gig, "end_date") && !getDateValidation(gig, "end_date")?.valid}
                       <span class="date-error">Not a valid date — use {DATE_HINT}</span>
@@ -386,11 +440,19 @@
                   </div>
                 </div>
 
-                <div class="edit-field" class:field-modified={isFieldModified(gig.index, "sources")}>
+                <div
+                  class="edit-field"
+                  class:field-modified={isFieldModified(gig.index, "sources")}
+                >
                   <div class="edit-field-header">
                     <span class="field-label">Sources</span>
                     {#if isFieldModified(gig.index, "sources")}
-                      <button type="button" class="btn-revert" title="Revert" onclick={() => revertField(gig.index, "sources")}>↩ revert</button>
+                      <button
+                        type="button"
+                        class="btn-revert"
+                        title="Revert"
+                        onclick={() => revertField(gig.index, "sources")}>↩ revert</button
+                      >
                     {/if}
                   </div>
                   <div class="sources-list">
@@ -416,11 +478,17 @@
                       </div>
                     {/each}
                   </div>
-                  <button type="button" class="btn-secondary btn-small add-src-btn" onclick={() => addSource(gig)}>
+                  <button
+                    type="button"
+                    class="btn-secondary btn-small add-src-btn"
+                    onclick={() => addSource(gig)}
+                  >
                     + Add source
                   </button>
                   {#if isFieldModified(gig.index, "sources")}
-                    <span class="was-text">was: {gig.sources.map((s) => getHostname(s)).join(", ")}</span>
+                    <span class="was-text"
+                      >was: {gig.sources.map((s) => getHostname(s)).join(", ")}</span
+                    >
                   {/if}
                 </div>
               </div>

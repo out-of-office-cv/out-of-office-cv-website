@@ -45,8 +45,7 @@ export function createGitHubAuth() {
     const user = await validateToken(token);
     if (user) {
       if (!safeSetItem(STORAGE_KEY_TOKEN, token)) {
-        tokenError =
-          "Could not save token — browser storage is full or disabled.";
+        tokenError = "Could not save token — browser storage is full or disabled.";
         return;
       }
       username = user;

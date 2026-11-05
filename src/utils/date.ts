@@ -1,22 +1,22 @@
 export type DateValidation =
   | { valid: true; format: "full" | "year-month" | "year" }
-  | { valid: false }
+  | { valid: false };
 
-export const DATE_HINT = "YYYY, YYYY-MM, or YYYY-MM-DD"
+export const DATE_HINT = "YYYY, YYYY-MM, or YYYY-MM-DD";
 
 export function validateGigDate(value: string): DateValidation {
   if (/^\d{4}-\d{2}-\d{2}$/.test(value)) {
-    const d = new Date(value)
-    return isNaN(d.getTime()) ? { valid: false } : { valid: true, format: "full" }
+    const d = new Date(value);
+    return isNaN(d.getTime()) ? { valid: false } : { valid: true, format: "full" };
   }
   if (/^\d{4}-\d{2}$/.test(value)) {
-    const d = new Date(`${value}-01`)
-    return isNaN(d.getTime()) ? { valid: false } : { valid: true, format: "year-month" }
+    const d = new Date(`${value}-01`);
+    return isNaN(d.getTime()) ? { valid: false } : { valid: true, format: "year-month" };
   }
   if (/^\d{4}$/.test(value)) {
-    return { valid: true, format: "year" }
+    return { valid: true, format: "year" };
   }
-  return { valid: false }
+  return { valid: false };
 }
 
 export function parseDate(dateStr: string): Date | null {
@@ -45,8 +45,7 @@ export function formatDate(dateStr: string): string {
 }
 
 export function formatISODate(isoDateStr: string): string {
-  if (!isoDateStr || isoDateStr === "unknown" || isoDateStr === "present")
-    return isoDateStr || "";
+  if (!isoDateStr || isoDateStr === "unknown" || isoDateStr === "present") return isoDateStr || "";
 
   const yearOnly = /^\d{4}$/.test(isoDateStr);
   if (yearOnly) return isoDateStr;
@@ -71,9 +70,7 @@ export function timeAgo(dateStr: string): string {
   const date = parseDate(dateStr);
   if (!date) return "";
   const now = new Date();
-  const months =
-    (now.getFullYear() - date.getFullYear()) * 12 +
-    (now.getMonth() - date.getMonth());
+  const months = (now.getFullYear() - date.getFullYear()) * 12 + (now.getMonth() - date.getMonth());
   if (months < 12) {
     return `${months} month${months === 1 ? "" : "s"} ago`;
   }

@@ -36,6 +36,7 @@ they'll show up on the website.
 - [ ] #5 Appends unverified gigs to data/gigs.ts
 - [ ] #6 Validates output with tsc before saving
 - [ ] #7 Handles API errors gracefully
+
 <!-- AC:END -->
 
 ## Implementation Plan

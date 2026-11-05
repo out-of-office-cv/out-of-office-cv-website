@@ -9,10 +9,8 @@ export function getVegaConfig(): Config {
   const ink = readVar(styles, "--color-ink") || "#1a1a1a";
   const ink2 = readVar(styles, "--color-ink-2") || "#555";
   const rule = readVar(styles, "--color-rule") || "#ddd";
-  const sansStack =
-    readVar(styles, "--font-sans-stack") || "Public Sans, sans-serif";
-  const serifStack =
-    readVar(styles, "--font-serif-stack") || "Source Serif 4, serif";
+  const sansStack = readVar(styles, "--font-sans-stack") || "Public Sans, sans-serif";
+  const serifStack = readVar(styles, "--font-serif-stack") || "Source Serif 4, serif";
 
   return {
     background: "transparent",

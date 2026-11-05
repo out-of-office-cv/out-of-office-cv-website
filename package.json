@@ -2,12 +2,11 @@
   "name": "outofoffice-cv",
   "version": "2.0.0",
   "description": "An open database for tracking what Australian Parliamentarians do when they leave office.",
+  "keywords": [],
   "homepage": "https://outofoffice.cv",
+  "license": "ISC",
+  "author": "",
   "type": "module",
-  "engines": {
-    "node": ">=24",
-    "pnpm": ">=11"
-  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -18,9 +17,6 @@
     "format:check": "oxfmt --check .",
     "fetch-pollies": "tsx scripts/fetch-pollies.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@octokit/rest": "^22.0.1",
     "vega": "^6.2.0",
@@ -43,5 +39,9 @@
     "tsx": "^4.22.3",
     "typescript": "^6.0.3",
     "vitest": "^4.1.7"
+  },
+  "engines": {
+    "node": ">=24",
+    "pnpm": ">=11"
   }
 }

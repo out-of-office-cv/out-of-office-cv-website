@@ -3,8 +3,8 @@ id: task-21
 title: Migrate pollie data to APH Parliamentary Handbook API
 status: Done
 assignee: []
-created_date: '2025-12-15 09:50'
-updated_date: '2025-12-15 10:01'
+created_date: "2025-12-15 09:50"
+updated_date: "2025-12-15 10:01"
 labels:
   - data
   - api
@@ -16,6 +16,7 @@ priority: medium
 ## Description
 
 <!-- SECTION:DESCRIPTION:BEGIN -->
+
 Replace the current OpenAustralia CSV files (`data/representatives.csv`, `data/senators.csv`) with a single `data/pollies.csv` populated from the official APH Parliamentary Handbook API. This provides:
 
 - Official, canonical data source
@@ -32,17 +33,17 @@ Replace the current OpenAustralia CSV files (`data/representatives.csv`, `data/s
 
 ## Key API fields
 
-| Field | Description |
-|-------|-------------|
-| `PHID` | Unique ID (e.g., `EZ5` for Abbott) |
-| `GivenName`, `MiddleNames`, `FamilyName` | Name components |
-| `PartyAbbrev` | Party code (e.g., `LIB`, `ALP`) |
-| `Electorate` | Division for MPs (empty for senators) |
-| `SenateState` | State for senators (empty for MPs) |
-| `StateAbbrev` | State code (e.g., `NSW`) |
-| `MPorSenator` | Array: `["Member"]` or `["Senator"]` |
-| `ServiceHistory_End` | Date left office (ISO format) |
-| `InCurrentParliament` | `"True"` or `"False"` |
+| Field                                    | Description                           |
+| ---------------------------------------- | ------------------------------------- |
+| `PHID`                                   | Unique ID (e.g., `EZ5` for Abbott)    |
+| `GivenName`, `MiddleNames`, `FamilyName` | Name components                       |
+| `PartyAbbrev`                            | Party code (e.g., `LIB`, `ALP`)       |
+| `Electorate`                             | Division for MPs (empty for senators) |
+| `SenateState`                            | State for senators (empty for MPs)    |
+| `StateAbbrev`                            | State code (e.g., `NSW`)              |
+| `MPorSenator`                            | Array: `["Member"]` or `["Senator"]`  |
+| `ServiceHistory_End`                     | Date left office (ISO format)         |
+| `InCurrentParliament`                    | `"True"` or `"False"`                 |
 
 ## New CSV format
 
@@ -99,6 +100,7 @@ EZ5,Anthony John Abbott,Warringah,NSW,LIB,2019-05-18,reps
 ## Testing
 
 ### Unit tests for fetch script
+
 - Mock API responses
 - Test pagination handling
 - Test CSV output format
@@ -106,20 +108,25 @@ EZ5,Anthony John Abbott,Warringah,NSW,LIB,2019-05-18,reps
 - Test handling of MPs vs senators
 
 ### Integration tests
+
 - Test that photos load correctly (spot check a few PHIDs)
 - Test that all existing pollie slugs still resolve
 - Test PollieHeader renders photo correctly
 - Test fallback when photo unavailable
 
 ### Manual verification
+
 - Run `npm run dev` and check several pollie pages
 - Verify photos display correctly
 - Verify data matches APH website
 - Check both MPs and senators
+
 <!-- SECTION:DESCRIPTION:END -->
 
 ## Acceptance Criteria
+
 <!-- AC:BEGIN -->
+
 - [x] #1 Fetch script successfully retrieves all former pollies from 1980 onwards
 - [x] #2 Single pollies.csv file replaces representatives.csv and senators.csv
 - [x] #3 Photos display on pollie pages using APH image endpoint
@@ -127,4 +134,5 @@ EZ5,Anthony John Abbott,Warringah,NSW,LIB,2019-05-18,reps
 - [x] #5 Build passes with no type errors
 - [x] #6 Integration tests pass
 - [x] #7 Date format consistently uses ISO (YYYY-MM-DD) internally
+
 <!-- AC:END -->

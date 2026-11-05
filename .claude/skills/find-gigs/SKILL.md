@@ -1,7 +1,6 @@
 ---
 name: find-gigs
-description:
-  Searches the internet for post-parliamentary gigs/roles for Australian
+description: Searches the internet for post-parliamentary gigs/roles for Australian
   politicians and adds verified candidates to data/gigs.json. Use when finding
   new gigs, searching for politician jobs after parliament, or adding roles to
   the dataset.

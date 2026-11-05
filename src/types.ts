@@ -20,14 +20,7 @@ export interface GigCountSplit {
 
 export type PollieListItem = Pick<
   Pollie,
-  | "slug"
-  | "name"
-  | "division"
-  | "state"
-  | "party"
-  | "ceasedDate"
-  | "house"
-  | "photoUrl"
+  "slug" | "name" | "division" | "state" | "party" | "ceasedDate" | "house" | "photoUrl"
 > & {
   gigCount: GigCountSplit;
 };

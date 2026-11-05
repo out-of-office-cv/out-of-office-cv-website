@@ -1,9 +1,5 @@
 import { describe, it, expect } from "vitest";
-import {
-  countGigsByPollie,
-  sortGigsForDisplay,
-  sortGigsForVerification,
-} from "../src/utils/gigs";
+import { countGigsByPollie, sortGigsForDisplay, sortGigsForVerification } from "../src/utils/gigs";
 import type { Gig } from "../src/types";
 
 const baseGig = {
@@ -21,7 +17,11 @@ describe("countGigsByPollie", () => {
       { ...baseGig, pollie_slug: "a", verification: { decision: "verified", by: "ben" } },
       { ...baseGig, pollie_slug: "a" },
       { ...baseGig, pollie_slug: "b", verification: { decision: "verified", by: "khoi" } },
-      { ...baseGig, pollie_slug: "b", verification: { decision: "rejected", by: "claude", note: "wrong person" } },
+      {
+        ...baseGig,
+        pollie_slug: "b",
+        verification: { decision: "rejected", by: "claude", note: "wrong person" },
+      },
       { ...baseGig, pollie_slug: "c" },
     ];
     const counts = countGigsByPollie(gigs);
@@ -36,8 +36,7 @@ describe("countGigsByPollie", () => {
 });
 
 describe("sortGigsForDisplay", () => {
-  const verified = (by = "ben") =>
-    ({ decision: "verified", by } as const);
+  const verified = (by = "ben") => ({ decision: "verified", by }) as const;
 
   it("puts verified gigs before unverified", () => {
     const gigs: Gig[] = [

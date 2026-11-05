@@ -33,9 +33,7 @@ function key3(g: Gig): string {
 }
 
 function key4(g: Gig): string {
-  return [g.pollie_slug, g.role, g.organisation, g.start_date ?? "null"].join(
-    "|",
-  );
+  return [g.pollie_slug, g.role, g.organisation, g.start_date ?? "null"].join("|");
 }
 
 function commitHasClaudeVerification(after: Gig[], before: Gig[]): boolean {
@@ -104,8 +102,7 @@ function emitChangeEvents(
       note: a.verification!.note,
     });
   }
-  const sourcesChanged =
-    JSON.stringify(b.sources) !== JSON.stringify(a.sources);
+  const sourcesChanged = JSON.stringify(b.sources) !== JSON.stringify(a.sources);
   if (sourcesChanged) {
     events.push({
       ...meta,
@@ -114,8 +111,7 @@ function emitChangeEvents(
       note: summariseSourceChange(b.sources, a.sources),
     });
   }
-  const datesChanged =
-    b.start_date !== a.start_date || b.end_date !== a.end_date;
+  const datesChanged = b.start_date !== a.start_date || b.end_date !== a.end_date;
   if (datesChanged) {
     events.push({
       ...meta,
@@ -126,11 +122,7 @@ function emitChangeEvents(
   }
 }
 
-export function classifyDiff(
-  before: Gig[],
-  after: Gig[],
-  commit: CommitMeta,
-): ActivityEvent[] {
+export function classifyDiff(before: Gig[], after: Gig[], commit: CommitMeta): ActivityEvent[] {
   // Match using the 4-part key (pollie, role, org, start_date) to keep
   // distinct-tenure entries separate (e.g. someone holding the same role
   // twice). When start_date changes on the same gig, fall back to a 3-part
@@ -214,10 +206,7 @@ export function loadActivityEvents(repoRoot: string): ActivityEvent[] {
     const [sha, author, date] = line.split("\x1f");
     let after: Gig[] = [];
     try {
-      const out = execSync(
-        `git -C "${repoRoot}" show ${sha}:${filePath}`,
-        { encoding: "utf-8" },
-      );
+      const out = execSync(`git -C "${repoRoot}" show ${sha}:${filePath}`, { encoding: "utf-8" });
       after = JSON.parse(out);
     } catch {
       after = [];

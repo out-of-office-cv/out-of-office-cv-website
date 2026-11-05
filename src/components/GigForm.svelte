@@ -1,87 +1,87 @@
 <script lang="ts">
-  import type { GigCategory } from "../types"
-  import { GIG_CATEGORIES } from "../types"
-  import { validateGigDate, DATE_HINT } from "../utils"
-  import type { DraftGig } from "../stores/draft-gigs.svelte"
+  import type { GigCategory } from "../types";
+  import { GIG_CATEGORIES } from "../types";
+  import { validateGigDate, DATE_HINT } from "../utils";
+  import type { DraftGig } from "../stores/draft-gigs.svelte";
 
   interface PollieOption {
-    slug: string
-    name: string
+    slug: string;
+    name: string;
   }
 
   interface Props {
-    editingGig: DraftGig | null
-    lastPollieSlug: string | null
-    pollies: PollieOption[]
-    onsubmit: (gig: Omit<DraftGig, "id">) => void
-    oncancel: () => void
+    editingGig: DraftGig | null;
+    lastPollieSlug: string | null;
+    pollies: PollieOption[];
+    onsubmit: (gig: Omit<DraftGig, "id">) => void;
+    oncancel: () => void;
   }
 
-  let { editingGig, lastPollieSlug, pollies, onsubmit, oncancel }: Props = $props()
+  let { editingGig, lastPollieSlug, pollies, onsubmit, oncancel }: Props = $props();
 
-  let role = $state("")
-  let organisation = $state("")
-  let category = $state<GigCategory | "">("")
-  let sources = $state<string[]>([""])
-  let pollieSlug = $state("")
-  let startDate = $state("")
-  let endDate = $state("")
+  let role = $state("");
+  let organisation = $state("");
+  let category = $state<GigCategory | "">("");
+  let sources = $state<string[]>([""]);
+  let pollieSlug = $state("");
+  let startDate = $state("");
+  let endDate = $state("");
 
-  let pollieSearch = $state("")
-  let pollieComboboxOpen = $state(false)
-  let pollieHighlightedIndex = $state(-1)
-  let formErrors = $state<Record<string, string>>({})
+  let pollieSearch = $state("");
+  let pollieComboboxOpen = $state(false);
+  let pollieHighlightedIndex = $state(-1);
+  let formErrors = $state<Record<string, string>>({});
 
-  const DATE_PATTERN = String.raw`\d{4}(-\d{2}(-\d{2})?)?`
+  const DATE_PATTERN = String.raw`\d{4}(-\d{2}(-\d{2})?)?`;
 
   let filteredPollies = $derived.by(() => {
-    const query = pollieSearch.toLowerCase().trim()
-    if (!query) return []
+    const query = pollieSearch.toLowerCase().trim();
+    if (!query) return [];
     return pollies
       .filter((p) => p.name.toLowerCase().includes(query) || p.slug.includes(query))
-      .slice(0, 10)
-  })
+      .slice(0, 10);
+  });
 
   let pollieWarning = $derived.by(() => {
-    if (!pollieSlug) return ""
-    const exists = pollies.some((p) => p.slug === pollieSlug)
-    return exists ? "" : "This slug doesn't match any known politician"
-  })
+    if (!pollieSlug) return "";
+    const exists = pollies.some((p) => p.slug === pollieSlug);
+    return exists ? "" : "This slug doesn't match any known politician";
+  });
 
   function validateForm(): boolean {
-    formErrors = {}
+    formErrors = {};
 
-    if (!role.trim()) formErrors.role = "Role is required"
-    if (!organisation.trim()) formErrors.organisation = "Organisation is required"
-    if (!category) formErrors.category = "Category is required"
-    const validSources = sources.filter((s) => s.trim())
+    if (!role.trim()) formErrors.role = "Role is required";
+    if (!organisation.trim()) formErrors.organisation = "Organisation is required";
+    if (!category) formErrors.category = "Category is required";
+    const validSources = sources.filter((s) => s.trim());
     if (validSources.length === 0) {
-      formErrors.sources = "At least one source URL is required"
+      formErrors.sources = "At least one source URL is required";
     } else {
       for (const s of validSources) {
         try {
-          new URL(s)
+          new URL(s);
         } catch {
-          formErrors.sources = "All sources must be valid URLs"
-          break
+          formErrors.sources = "All sources must be valid URLs";
+          break;
         }
       }
     }
-    if (!pollieSlug.trim()) formErrors.pollieSlug = "Pollie slug is required"
+    if (!pollieSlug.trim()) formErrors.pollieSlug = "Pollie slug is required";
     if (startDate && !validateGigDate(startDate).valid) {
-      formErrors.startDate = `Must be ${DATE_HINT}`
+      formErrors.startDate = `Must be ${DATE_HINT}`;
     }
     if (endDate && !validateGigDate(endDate).valid) {
-      formErrors.endDate = `Must be ${DATE_HINT}`
+      formErrors.endDate = `Must be ${DATE_HINT}`;
     }
 
-    return Object.keys(formErrors).length === 0
+    return Object.keys(formErrors).length === 0;
   }
 
   function handleSubmit() {
-    if (!validateForm()) return
+    if (!validateForm()) return;
 
-    const validSources = sources.filter((s) => s.trim()).map((s) => s.trim())
+    const validSources = sources.filter((s) => s.trim()).map((s) => s.trim());
 
     const gig: Omit<DraftGig, "id"> = {
       role: role.trim(),
@@ -89,83 +89,89 @@
       category: category as GigCategory,
       sources: validSources,
       pollie_slug: pollieSlug.trim(),
-    }
+    };
 
-    if (startDate) gig.start_date = startDate
-    if (endDate) gig.end_date = endDate
+    if (startDate) gig.start_date = startDate;
+    if (endDate) gig.end_date = endDate;
 
-    onsubmit(gig)
-    clearForm()
+    onsubmit(gig);
+    clearForm();
   }
 
   function clearForm() {
-    role = ""
-    organisation = ""
-    category = ""
-    sources = [""]
-    startDate = ""
-    endDate = ""
-    formErrors = {}
+    role = "";
+    organisation = "";
+    category = "";
+    sources = [""];
+    startDate = "";
+    endDate = "";
+    formErrors = {};
   }
 
   function handlePollieSelect(slug: string) {
-    pollieSlug = slug
-    const pollie = pollies.find((p) => p.slug === slug)
-    if (pollie) pollieSearch = pollie.name
-    pollieComboboxOpen = false
+    pollieSlug = slug;
+    const pollie = pollies.find((p) => p.slug === slug);
+    if (pollie) pollieSearch = pollie.name;
+    pollieComboboxOpen = false;
   }
 
   function handlePollieInput() {
-    pollieComboboxOpen = pollieSearch.trim().length > 0
-    pollieHighlightedIndex = -1
-    pollieSlug = ""
+    pollieComboboxOpen = pollieSearch.trim().length > 0;
+    pollieHighlightedIndex = -1;
+    pollieSlug = "";
   }
 
   function handlePollieKeydown(e: KeyboardEvent) {
-    if (!pollieComboboxOpen) return
+    if (!pollieComboboxOpen) return;
     if (e.key === "ArrowDown") {
-      e.preventDefault()
-      pollieHighlightedIndex = Math.min(pollieHighlightedIndex + 1, filteredPollies.length - 1)
+      e.preventDefault();
+      pollieHighlightedIndex = Math.min(pollieHighlightedIndex + 1, filteredPollies.length - 1);
     } else if (e.key === "ArrowUp") {
-      e.preventDefault()
-      pollieHighlightedIndex = Math.max(pollieHighlightedIndex - 1, 0)
+      e.preventDefault();
+      pollieHighlightedIndex = Math.max(pollieHighlightedIndex - 1, 0);
     } else if (e.key === "Enter" && pollieHighlightedIndex >= 0) {
-      e.preventDefault()
-      handlePollieSelect(filteredPollies[pollieHighlightedIndex].slug)
+      e.preventDefault();
+      handlePollieSelect(filteredPollies[pollieHighlightedIndex].slug);
     } else if (e.key === "Escape") {
-      pollieComboboxOpen = false
+      pollieComboboxOpen = false;
     }
   }
 
   $effect(() => {
     if (editingGig) {
-      role = editingGig.role
-      organisation = editingGig.organisation
-      category = editingGig.category
-      sources = editingGig.sources.length > 0 ? [...editingGig.sources] : [""]
-      pollieSlug = editingGig.pollie_slug
+      role = editingGig.role;
+      organisation = editingGig.organisation;
+      category = editingGig.category;
+      sources = editingGig.sources.length > 0 ? [...editingGig.sources] : [""];
+      pollieSlug = editingGig.pollie_slug;
       pollieSearch =
-        pollies.find((p) => p.slug === editingGig.pollie_slug)?.name ||
-        editingGig.pollie_slug
-      startDate = editingGig.start_date || ""
-      endDate = editingGig.end_date || ""
+        pollies.find((p) => p.slug === editingGig.pollie_slug)?.name || editingGig.pollie_slug;
+      startDate = editingGig.start_date || "";
+      endDate = editingGig.end_date || "";
     }
-  })
+  });
 
   $effect(() => {
     if (lastPollieSlug && !editingGig) {
-      pollieSlug = lastPollieSlug
-      const pollie = pollies.find((p) => p.slug === lastPollieSlug)
-      if (pollie) pollieSearch = pollie.name
+      pollieSlug = lastPollieSlug;
+      const pollie = pollies.find((p) => p.slug === lastPollieSlug);
+      if (pollie) pollieSearch = pollie.name;
     }
-  })
+  });
 </script>
 
 <section class="form-section">
   <h2>{editingGig ? "Edit gig" : "Add a new gig"}</h2>
-  <form onsubmit={(e) => { e.preventDefault(); handleSubmit() }}>
+  <form
+    onsubmit={(e) => {
+      e.preventDefault();
+      handleSubmit();
+    }}
+  >
     <div class="form-group">
-      <label for="pollie-search" class="field-label">Politician <span class="required" aria-hidden="true">·</span></label>
+      <label for="pollie-search" class="field-label"
+        >Politician <span class="required" aria-hidden="true">·</span></label
+      >
       <div class="autocomplete-wrapper">
         <!-- svelte-ignore a11y_role_supports_aria_props -->
         <input
@@ -174,15 +180,21 @@
           bind:value={pollieSearch}
           oninput={handlePollieInput}
           onkeydown={handlePollieKeydown}
-          onfocusin={() => { if (pollieSearch.trim()) pollieComboboxOpen = true }}
-          onfocusout={() => { setTimeout(() => pollieComboboxOpen = false, 150) }}
+          onfocusin={() => {
+            if (pollieSearch.trim()) pollieComboboxOpen = true;
+          }}
+          onfocusout={() => {
+            setTimeout(() => (pollieComboboxOpen = false), 150);
+          }}
           placeholder="Search by name…"
           autocomplete="off"
           role="combobox"
           aria-expanded={pollieComboboxOpen}
           aria-controls="pollie-autocomplete-listbox"
           aria-autocomplete="list"
-          aria-activedescendant={pollieHighlightedIndex >= 0 ? `pollie-ac-option-${pollieHighlightedIndex}` : undefined}
+          aria-activedescendant={pollieHighlightedIndex >= 0
+            ? `pollie-ac-option-${pollieHighlightedIndex}`
+            : undefined}
         />
         {#if pollieComboboxOpen && filteredPollies.length > 0}
           <ul id="pollie-autocomplete-listbox" class="autocomplete-content" role="listbox">
@@ -194,7 +206,9 @@
                 class:highlighted={i === pollieHighlightedIndex}
                 aria-selected={i === pollieHighlightedIndex}
                 onmousedown={() => handlePollieSelect(pollie.slug)}
-                onmouseenter={() => { pollieHighlightedIndex = i }}
+                onmouseenter={() => {
+                  pollieHighlightedIndex = i;
+                }}
               >
                 {pollie.name}
               </li>
@@ -212,15 +226,31 @@
 
     <div class="form-grid-two">
       <div class="form-group">
-        <label for="role" class="field-label">Role <span class="required" aria-hidden="true">·</span></label>
-        <input id="role" bind:value={role} type="text" required placeholder="e.g. Non-Executive Director" />
+        <label for="role" class="field-label"
+          >Role <span class="required" aria-hidden="true">·</span></label
+        >
+        <input
+          id="role"
+          bind:value={role}
+          type="text"
+          required
+          placeholder="e.g. Non-Executive Director"
+        />
         {#if formErrors.role}
           <p class="error-text">{formErrors.role}</p>
         {/if}
       </div>
       <div class="form-group">
-        <label for="organisation" class="field-label">Organisation <span class="required" aria-hidden="true">·</span></label>
-        <input id="organisation" bind:value={organisation} type="text" required placeholder="e.g. Acme Corp" />
+        <label for="organisation" class="field-label"
+          >Organisation <span class="required" aria-hidden="true">·</span></label
+        >
+        <input
+          id="organisation"
+          bind:value={organisation}
+          type="text"
+          required
+          placeholder="e.g. Acme Corp"
+        />
         {#if formErrors.organisation}
           <p class="error-text">{formErrors.organisation}</p>
         {/if}
@@ -228,7 +258,9 @@
     </div>
 
     <div class="form-group">
-      <label for="category" class="field-label">Category <span class="required" aria-hidden="true">·</span></label>
+      <label for="category" class="field-label"
+        >Category <span class="required" aria-hidden="true">·</span></label
+      >
       <select id="category" bind:value={category} required>
         <option value="">Select a category…</option>
         {#each GIG_CATEGORIES as cat}
@@ -276,7 +308,8 @@
     </div>
 
     <div class="form-group">
-      <span class="field-label">Source URLs <span class="required" aria-hidden="true">·</span></span>
+      <span class="field-label">Source URLs <span class="required" aria-hidden="true">·</span></span
+      >
       <div class="sources-list">
         {#each sources as _, index}
           <div class="source-row">
@@ -287,7 +320,9 @@
                 class="btn-icon btn-danger"
                 title="Remove source"
                 aria-label="Remove source"
-                onclick={() => { sources = sources.filter((_, i) => i !== index) }}
+                onclick={() => {
+                  sources = sources.filter((_, i) => i !== index);
+                }}
               >
                 ×
               </button>
@@ -298,7 +333,9 @@
       <button
         type="button"
         class="btn-secondary btn-small add-source-btn"
-        onclick={() => { sources = [...sources, ""] }}
+        onclick={() => {
+          sources = [...sources, ""];
+        }}
       >
         + Add another source
       </button>
@@ -312,9 +349,7 @@
         {editingGig ? "Update gig" : "Add to drafts"}
       </button>
       {#if editingGig}
-        <button type="button" class="btn-secondary" onclick={oncancel}>
-          Cancel
-        </button>
+        <button type="button" class="btn-secondary" onclick={oncancel}> Cancel </button>
       {/if}
     </div>
   </form>

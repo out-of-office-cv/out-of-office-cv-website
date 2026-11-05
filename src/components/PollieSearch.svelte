@@ -1,40 +1,40 @@
 <script lang="ts">
-  import { getPartyColour } from "../utils/pollie"
-  import type { House } from "../types"
+  import { getPartyColour } from "../utils/pollie";
+  import type { House } from "../types";
 
   interface PollieOption {
-    slug: string
-    name: string
-    party: string
-    house: House
-    division: string
-    state: string
+    slug: string;
+    name: string;
+    party: string;
+    house: House;
+    division: string;
+    state: string;
   }
 
-  let inputValue = $state("")
-  let open = $state(false)
-  let highlightedIndex = $state(-1)
-  let pollies = $state<PollieOption[]>([])
-  let loaded = $state(false)
-  let loading = $state(false)
+  let inputValue = $state("");
+  let open = $state(false);
+  let highlightedIndex = $state(-1);
+  let pollies = $state<PollieOption[]>([]);
+  let loaded = $state(false);
+  let loading = $state(false);
 
   async function loadPollies() {
-    if (loaded || loading) return
-    loading = true
+    if (loaded || loading) return;
+    loading = true;
     try {
-      const res = await fetch("/pollies-index.json")
+      const res = await fetch("/pollies-index.json");
       if (res.ok) {
-        pollies = await res.json()
-        loaded = true
+        pollies = await res.json();
+        loaded = true;
       }
     } finally {
-      loading = false
+      loading = false;
     }
   }
 
   let filtered = $derived.by(() => {
-    const query = inputValue.toLowerCase().trim()
-    if (!query) return []
+    const query = inputValue.toLowerCase().trim();
+    if (!query) return [];
     return pollies
       .filter(
         (p) =>
@@ -44,44 +44,42 @@
           p.state.toLowerCase().includes(query) ||
           p.party.toLowerCase().includes(query),
       )
-      .slice(0, 20)
-  })
+      .slice(0, 20);
+  });
 
   function handleKeydown(e: KeyboardEvent) {
-    if (!open) return
+    if (!open) return;
     if (e.key === "ArrowDown") {
-      e.preventDefault()
-      highlightedIndex = Math.min(highlightedIndex + 1, filtered.length - 1)
+      e.preventDefault();
+      highlightedIndex = Math.min(highlightedIndex + 1, filtered.length - 1);
     } else if (e.key === "ArrowUp") {
-      e.preventDefault()
-      highlightedIndex = Math.max(highlightedIndex - 1, 0)
+      e.preventDefault();
+      highlightedIndex = Math.max(highlightedIndex - 1, 0);
     } else if (e.key === "Enter" && highlightedIndex >= 0) {
-      e.preventDefault()
-      window.location.href = `/pollies/${filtered[highlightedIndex].slug}`
+      e.preventDefault();
+      window.location.href = `/pollies/${filtered[highlightedIndex].slug}`;
     } else if (e.key === "Escape") {
-      open = false
+      open = false;
     }
   }
 
   function handleInput() {
-    open = inputValue.trim().length > 0
-    highlightedIndex = -1
+    open = inputValue.trim().length > 0;
+    highlightedIndex = -1;
   }
 
   function markerClass(party: string): string {
-    const colour = getPartyColour(party)
-    return `marker marker-${colour || "default"}`
+    const colour = getPartyColour(party);
+    return `marker marker-${colour || "default"}`;
   }
 
   function houseClass(house: House): string {
-    return `marker marker-${house}`
+    return `marker marker-${house}`;
   }
 </script>
 
 <div class="pollie-search-wrapper">
-  <label for="pollie-detail-search" class="visually-hidden">
-    Jump to another politician
-  </label>
+  <label for="pollie-detail-search" class="visually-hidden"> Jump to another politician </label>
   <div class="search-wrapper">
     <!-- svelte-ignore a11y_role_supports_aria_props -->
     <input
@@ -90,15 +88,22 @@
       bind:value={inputValue}
       oninput={handleInput}
       onkeydown={handleKeydown}
-      onfocusin={() => { loadPollies(); if (inputValue.trim()) open = true }}
-      onfocusout={() => { setTimeout(() => open = false, 150) }}
+      onfocusin={() => {
+        loadPollies();
+        if (inputValue.trim()) open = true;
+      }}
+      onfocusout={() => {
+        setTimeout(() => (open = false), 150);
+      }}
       placeholder="Jump to another politician…"
       class="search-input"
       role="combobox"
       aria-expanded={open}
       aria-controls="pollie-search-listbox"
       aria-autocomplete="list"
-      aria-activedescendant={highlightedIndex >= 0 ? `pollie-search-option-${highlightedIndex}` : undefined}
+      aria-activedescendant={highlightedIndex >= 0
+        ? `pollie-search-option-${highlightedIndex}`
+        : undefined}
     />
     {#if open && inputValue.trim()}
       <ul id="pollie-search-listbox" class="combobox-content" role="listbox">
@@ -112,8 +117,12 @@
               class="combobox-item"
               class:highlighted={i === highlightedIndex}
               aria-selected={i === highlightedIndex}
-              onmousedown={() => { window.location.href = `/pollies/${pollie.slug}` }}
-              onmouseenter={() => { highlightedIndex = i }}
+              onmousedown={() => {
+                window.location.href = `/pollies/${pollie.slug}`;
+              }}
+              onmouseenter={() => {
+                highlightedIndex = i;
+              }}
             >
               <span class="combobox-name">{pollie.name}</span>
               <span class="combobox-meta">
@@ -252,13 +261,49 @@
     line-height: 1.3;
   }
 
-  .marker-senate { background: var(--marker-senate-bg); color: var(--marker-senate-ink); border: 1px solid var(--marker-senate-rule); }
-  .marker-reps { background: var(--marker-reps-bg); color: var(--marker-reps-ink); border: 1px solid var(--marker-reps-rule); }
-  .marker-red { background: var(--marker-red-bg); color: var(--marker-red-ink); border: 1px solid var(--marker-red-rule); }
-  .marker-blue { background: var(--marker-blue-bg); color: var(--marker-blue-ink); border: 1px solid var(--marker-blue-rule); }
-  .marker-green { background: var(--marker-green-bg); color: var(--marker-green-ink); border: 1px solid var(--marker-green-rule); }
-  .marker-grey { background: var(--marker-grey-bg); color: var(--marker-grey-ink); border: 1px solid var(--marker-grey-rule); }
-  .marker-orange { background: var(--marker-orange-bg); color: var(--marker-orange-ink); border: 1px solid var(--marker-orange-rule); }
-  .marker-purple { background: var(--marker-purple-bg); color: var(--marker-purple-ink); border: 1px solid var(--marker-purple-rule); }
-  .marker-default { background: var(--marker-default-bg); color: var(--marker-default-ink); border: 1px solid var(--marker-default-rule); }
+  .marker-senate {
+    background: var(--marker-senate-bg);
+    color: var(--marker-senate-ink);
+    border: 1px solid var(--marker-senate-rule);
+  }
+  .marker-reps {
+    background: var(--marker-reps-bg);
+    color: var(--marker-reps-ink);
+    border: 1px solid var(--marker-reps-rule);
+  }
+  .marker-red {
+    background: var(--marker-red-bg);
+    color: var(--marker-red-ink);
+    border: 1px solid var(--marker-red-rule);
+  }
+  .marker-blue {
+    background: var(--marker-blue-bg);
+    color: var(--marker-blue-ink);
+    border: 1px solid var(--marker-blue-rule);
+  }
+  .marker-green {
+    background: var(--marker-green-bg);
+    color: var(--marker-green-ink);
+    border: 1px solid var(--marker-green-rule);
+  }
+  .marker-grey {
+    background: var(--marker-grey-bg);
+    color: var(--marker-grey-ink);
+    border: 1px solid var(--marker-grey-rule);
+  }
+  .marker-orange {
+    background: var(--marker-orange-bg);
+    color: var(--marker-orange-ink);
+    border: 1px solid var(--marker-orange-rule);
+  }
+  .marker-purple {
+    background: var(--marker-purple-bg);
+    color: var(--marker-purple-ink);
+    border: 1px solid var(--marker-purple-rule);
+  }
+  .marker-default {
+    background: var(--marker-default-bg);
+    color: var(--marker-default-ink);
+    border: 1px solid var(--marker-default-rule);
+  }
 </style>

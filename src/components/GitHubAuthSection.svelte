@@ -1,11 +1,11 @@
 <script lang="ts">
-  import type { createGitHubAuth } from "../stores/github-auth.svelte"
+  import type { createGitHubAuth } from "../stores/github-auth.svelte";
 
   interface Props {
-    auth: ReturnType<typeof createGitHubAuth>
+    auth: ReturnType<typeof createGitHubAuth>;
   }
 
-  let { auth }: Props = $props()
+  let { auth }: Props = $props();
 </script>
 
 <section class="auth-section" aria-labelledby="auth-heading">
@@ -41,8 +41,7 @@
   {:else}
     <div class="auth-setup">
       <p>
-        Submitting gigs requires a GitHub Personal Access Token. One-time setup,
-        about a minute.
+        Submitting gigs requires a GitHub Personal Access Token. One-time setup, about a minute.
       </p>
       <h3>Create a classic token</h3>
       <ol class="setup-steps">
@@ -57,9 +56,9 @@
           (log in if prompted).
         </li>
         <li>
-          The form should be pre-filled. If not, add a note like "Out of Office
-          CV" and tick <code>public_repo</code> under scopes (the minimum
-          permission needed).
+          The form should be pre-filled. If not, add a note like "Out of Office CV" and tick <code
+            >public_repo</code
+          > under scopes (the minimum permission needed).
         </li>
         <li>Scroll down and click <strong>Generate token</strong>.</li>
         <li>

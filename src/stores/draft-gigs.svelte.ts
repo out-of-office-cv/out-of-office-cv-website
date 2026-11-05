@@ -20,8 +20,7 @@ export function createDraftGigs() {
       localStorage.setItem(STORAGE_KEY_DRAFTS, JSON.stringify(gigs));
       storageError = "";
     } catch {
-      storageError =
-        "Could not save drafts — browser storage is full or disabled.";
+      storageError = "Could not save drafts — browser storage is full or disabled.";
     }
   }
 

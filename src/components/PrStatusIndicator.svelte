@@ -1,16 +1,16 @@
 <script lang="ts">
-  import type { PrStatus } from "../stores/pull-request.svelte"
+  import type { PrStatus } from "../stores/pull-request.svelte";
 
   interface Props {
-    status: PrStatus
-    prNumber: number | null
-    prUrl: string
-    prError: string
-    actionLabel: string
-    onreset: () => void
+    status: PrStatus;
+    prNumber: number | null;
+    prUrl: string;
+    prError: string;
+    actionLabel: string;
+    onreset: () => void;
   }
 
-  let { status, prNumber, prUrl, prError, actionLabel, onreset }: Props = $props()
+  let { status, prNumber, prUrl, prError, actionLabel, onreset }: Props = $props();
 </script>
 
 {#if status === "creating"}
@@ -44,9 +44,7 @@
 {:else if status === "error"}
   <div class="pr-status error" role="alert">
     <p class="error-text">{prError}</p>
-    <button type="button" class="btn-secondary" onclick={onreset}>
-      Try again
-    </button>
+    <button type="button" class="btn-secondary" onclick={onreset}> Try again </button>
   </div>
 {/if}
 
@@ -114,7 +112,9 @@
   }
 
   @keyframes dot-pulse {
-    0%, 70%, 100% {
+    0%,
+    70%,
+    100% {
       opacity: 0.35;
       transform: scale(1);
     }

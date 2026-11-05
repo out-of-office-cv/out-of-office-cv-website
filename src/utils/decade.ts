@@ -56,9 +56,7 @@ export function getPolliesByDecade(
     decadeMap.set(decade, list);
   }
 
-  const decadeOrder = Array.from(decadeMap.keys()).sort((a, b) =>
-    b.localeCompare(a),
-  );
+  const decadeOrder = Array.from(decadeMap.keys()).sort((a, b) => b.localeCompare(a));
 
   return decadeOrder.map((decade) => ({
     decade,

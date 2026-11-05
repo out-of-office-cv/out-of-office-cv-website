@@ -18,9 +18,6 @@ describe("getVerifierId", () => {
 
 describe("VERIFIER_MAP", () => {
   it("only contains expected verifiers", () => {
-    expect(Object.keys(VERIFIER_MAP).sort()).toEqual([
-      "benswift",
-      "out-of-office-cv",
-    ]);
+    expect(Object.keys(VERIFIER_MAP).sort()).toEqual(["benswift", "out-of-office-cv"]);
   });
 });

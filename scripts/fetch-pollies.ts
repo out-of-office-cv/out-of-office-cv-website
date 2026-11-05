@@ -53,10 +53,9 @@ function buildApiUrl(since: number, skip: number): string {
     "InCurrentParliament",
   ].join(",");
 
-  const filter = [
-    `InCurrentParliament eq 'False'`,
-    `ServiceHistory_End ge '${since}-01-01'`,
-  ].join(" and ");
+  const filter = [`InCurrentParliament eq 'False'`, `ServiceHistory_End ge '${since}-01-01'`].join(
+    " and ",
+  );
 
   const params = new URLSearchParams({
     $select: select,
@@ -128,9 +127,7 @@ function transformParliamentarian(p: ApiParliamentarian): CsvPollie {
 async function fetchPage(url: string): Promise<ApiResponse> {
   const response = await fetch(url);
   if (!response.ok) {
-    throw new Error(
-      `API request failed: ${response.status} ${response.statusText}`,
-    );
+    throw new Error(`API request failed: ${response.status} ${response.statusText}`);
   }
   return response.json() as Promise<ApiResponse>;
 }

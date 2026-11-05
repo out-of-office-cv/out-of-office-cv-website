@@ -33,9 +33,7 @@ const pollies = defineCollection({
     const gigCounts = countGigsByPollie(allGigs);
 
     // Filter rejected gigs out of public surfaces; counts above still see them.
-    const visibleGigs = allGigs.filter(
-      (g) => g.verification?.decision !== "rejected",
-    );
+    const visibleGigs = allGigs.filter((g) => g.verification?.decision !== "rejected");
     const gigsByPollie = new Map<string, Gig[]>();
     for (const gig of visibleGigs) {
       const existing = gigsByPollie.get(gig.pollie_slug) || [];
@@ -46,8 +44,7 @@ const pollies = defineCollection({
     return allPollies.map((pollie) => ({
       id: pollie.slug,
       ...pollie,
-      gigCount:
-        gigCounts.get(pollie.slug) ?? { verified: 0, unverified: 0, rejected: 0 },
+      gigCount: gigCounts.get(pollie.slug) ?? { verified: 0, unverified: 0, rejected: 0 },
       gigs: gigsByPollie.get(pollie.slug) || [],
     }));
   },
@@ -81,14 +78,7 @@ const activity = defineCollection({
     pollie_slug: z.string(),
     role: z.string(),
     organisation: z.string(),
-    action: z.enum([
-      "added",
-      "verified",
-      "rejected",
-      "sources-edited",
-      "dates-edited",
-      "removed",
-    ]),
+    action: z.enum(["added", "verified", "rejected", "sources-edited", "dates-edited", "removed"]),
     by: z.string(),
     note: z.string().optional(),
   }),

@@ -31,9 +31,7 @@ describe("classifyDiff", () => {
 
   it("emits a `verified` event when verification.decision becomes verified", () => {
     const before = [baseGig];
-    const after = [
-      { ...baseGig, verification: { decision: "verified" as const, by: "ben" } },
-    ];
+    const after = [{ ...baseGig, verification: { decision: "verified" as const, by: "ben" } }];
     const events = classifyDiff(before, after, commit);
     expect(events).toHaveLength(1);
     expect(events[0]).toMatchObject({ action: "verified", by: "ben" });

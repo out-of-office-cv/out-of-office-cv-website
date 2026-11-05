@@ -2,9 +2,10 @@
 id: doc-1
 title: Matilda switchover runbook
 type: guide
-created_date: '2026-08-16 03:45'
-updated_date: '2026-08-16 04:12'
+created_date: "2026-08-16 03:45"
+updated_date: "2026-08-16 04:12"
 ---
+
 The plan for moving the gig cron jobs from claude to Matilda Code, and back
 again. Five tasks, in dependency order, each independently landable. Nothing
 here is irreversible: every step is either a default-off switch or a systemd
@@ -99,7 +100,7 @@ Two rollback properties are acceptance criteria rather than prose, so they get
 exercised rather than assumed: task-30 requires the runner rollback to have been
 performed, and task-31 requires the cadence rollback to have been performed.
 
-Rolling back the *skills* is different in kind: the task-30 rewording is a
+Rolling back the _skills_ is different in kind: the task-30 rewording is a
 permanent change to the shared SKILL.md files, deliberately kept good under both
 CLIs. It is covered by its own AC (a claude run after rewording must match one
 before it), not by a switch.

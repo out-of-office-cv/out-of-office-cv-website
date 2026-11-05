@@ -42,9 +42,7 @@ function buildColumnCells<Col extends string>(
     columnTotals.set(col, (columnTotals.get(col) ?? 0) + 1);
   }
 
-  const columns = Array.from(counts.keys()).sort((a, b) =>
-    String(a).localeCompare(String(b)),
-  );
+  const columns = Array.from(counts.keys()).sort((a, b) => String(a).localeCompare(String(b)));
 
   const cells: ColumnCell<Col>[] = [];
   for (const col of columns) {

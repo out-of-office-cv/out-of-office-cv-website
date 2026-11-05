@@ -61,6 +61,7 @@ be frictionless.
 - [x] #11 #11 Remember last pollie slug to streamline repeat entries
 - [x] #12 #12 Show GitHub username when authenticated for confirmation
 - [x] #13 #13 Display PR status after submission (created → merged)
+
 <!-- AC:END -->
 
 ## Implementation Plan

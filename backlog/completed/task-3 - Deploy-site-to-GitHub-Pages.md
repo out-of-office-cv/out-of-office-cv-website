@@ -26,6 +26,7 @@ Requirements:
 - Build the site with `npm run build`
 - Deploy the `.vitepress/dist` output to GitHub Pages
 - Configure the repository settings for Pages deployment
+
 <!-- SECTION:DESCRIPTION:END -->
 
 ## Acceptance Criteria
@@ -37,4 +38,5 @@ Requirements:
 - [x] #3 Uses matching Node.js version from local dev environment
 - [x] #4 Site builds and deploys successfully to GitHub Pages
 - [x] #5 Pages URL serves the live site
+
 <!-- AC:END -->

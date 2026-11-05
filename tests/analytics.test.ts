@@ -13,9 +13,7 @@ describe("computeAnalytics", () => {
     const result = computeAnalytics([
       { category: "Legal & Judicial", partyGroup: "ALP", decade: "2010s" },
     ]);
-    expect(result.categoryTotals).toEqual([
-      { category: "Legal & Judicial", count: 1 },
-    ]);
+    expect(result.categoryTotals).toEqual([{ category: "Legal & Judicial", count: 1 }]);
     expect(result.byParty).toEqual([
       {
         category: "Legal & Judicial",
@@ -102,9 +100,7 @@ describe("computeAnalytics", () => {
     for (const cell of result.byParty) {
       totalByCol.set(cell.column, (totalByCol.get(cell.column) ?? 0) + cell.count);
       expect(cell.columnTotal).toBe(
-        result.byParty
-          .filter((c) => c.column === cell.column)
-          .reduce((acc, c) => acc + c.count, 0),
+        result.byParty.filter((c) => c.column === cell.column).reduce((acc, c) => acc + c.count, 0),
       );
     }
     expect(totalByCol.get("ALP")).toBe(3);
@@ -126,14 +122,10 @@ describe("computeAnalytics", () => {
     ]);
     // ALP has Legal but not Retired; Liberal has Retired but not Legal.
     expect(
-      result.byParty.find(
-        (c) => c.column === "ALP" && c.category === "Retired",
-      ),
+      result.byParty.find((c) => c.column === "ALP" && c.category === "Retired"),
     ).toBeUndefined();
     expect(
-      result.byParty.find(
-        (c) => c.column === "Liberal" && c.category === "Legal & Judicial",
-      ),
+      result.byParty.find((c) => c.column === "Liberal" && c.category === "Legal & Judicial"),
     ).toBeUndefined();
   });
 

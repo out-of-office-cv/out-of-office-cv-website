@@ -1,14 +1,10 @@
 const NARROW_QUERY = "(max-width: 36rem)";
 
 export function isNarrowViewport(): boolean {
-  return (
-    typeof window !== "undefined" && window.matchMedia(NARROW_QUERY).matches
-  );
+  return typeof window !== "undefined" && window.matchMedia(NARROW_QUERY).matches;
 }
 
-export function watchNarrowViewport(
-  onChange: (narrow: boolean) => void,
-): () => void {
+export function watchNarrowViewport(onChange: (narrow: boolean) => void): () => void {
   const mq = window.matchMedia(NARROW_QUERY);
   const handler = (e: MediaQueryListEvent) => onChange(e.matches);
   mq.addEventListener("change", handler);
