@@ -1,5 +1,0 @@
-{
-  "extends": ["@nkzw/oxlint-config"],
-  "plugins": ["typescript"],
-  "ignorePatterns": ["dist/", ".astro/"]
-}
