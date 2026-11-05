@@ -1,37 +1,36 @@
 ---
-import type { House } from "../types"
-import PollieBadge from "./PollieBadge.astro"
+import type { House } from "../types";
+import PollieBadge from "./PollieBadge.astro";
 
 interface Props {
-  name: string
-  division: string
-  state: string
-  party: string
-  house: House
-  leftOfficeDate: string
-  leftOfficeAgo: string
-  photoUrl?: string
+  name: string;
+  division: string;
+  state: string;
+  party: string;
+  house: House;
+  leftOfficeDate: string;
+  leftOfficeAgo: string;
+  photoUrl?: string;
 }
 
-const { name, division, state, party, house, leftOfficeDate, leftOfficeAgo, photoUrl } = Astro.props
+const { name, division, state, party, house, leftOfficeDate, leftOfficeAgo, photoUrl } =
+  Astro.props;
 ---
 
 <header class="pollie-masthead">
   <div class="masthead-grid">
-    {photoUrl && (
-      <div class="portrait-frame">
-        <img
-          src={photoUrl}
-          alt={`Portrait of ${name}`}
-          width="144"
-          height="180"
-          class="portrait"
-          loading="eager"
-          fetchpriority="high"
-          decoding="sync"
-        />
-      </div>
-    )}
+    {photoUrl && <div class="portrait-frame">
+      <img
+        src={photoUrl}
+        alt={`Portrait of ${name}`}
+        width="144"
+        height="180"
+        class="portrait"
+        loading="eager"
+        fetchpriority="high"
+        decoding="sync"
+      />
+    </div>}
     <div class="info">
       <h1 class="pollie-name">{name}</h1>
       <div class="markers">
@@ -43,25 +42,21 @@ const { name, division, state, party, house, leftOfficeDate, leftOfficeAgo, phot
         </PollieBadge>
       </div>
       <dl class="meta">
-        {division && (
-          <div class="meta-row">
-            <dt class="caps">Electorate</dt>
-            <dd>{division}</dd>
-          </div>
-        )}
+        {division && <div class="meta-row">
+          <dt class="caps">Electorate</dt>
+          <dd>{division}</dd>
+        </div>}
         <div class="meta-row">
           <dt class="caps">State</dt>
           <dd>{state}</dd>
         </div>
-        {leftOfficeDate && (
-          <div class="meta-row">
-            <dt class="caps">Left office</dt>
-            <dd>
-              {leftOfficeDate}
-              <span class="meta-qualifier">({leftOfficeAgo})</span>
-            </dd>
-          </div>
-        )}
+        {leftOfficeDate && <div class="meta-row">
+          <dt class="caps">Left office</dt>
+          <dd>
+            {leftOfficeDate}
+            <span class="meta-qualifier">({leftOfficeAgo})</span>
+          </dd>
+        </div>}
       </dl>
     </div>
   </div>

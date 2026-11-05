@@ -1,48 +1,40 @@
 ---
 interface ActivityRow {
-  id: string
-  sha: string
-  date: string
-  pollie_slug: string
-  pollie_name: string
-  role: string
-  organisation: string
-  action:
-    | "added"
-    | "verified"
-    | "rejected"
-    | "sources-edited"
-    | "dates-edited"
-    | "removed"
-  by: string
-  note?: string
+  id: string;
+  sha: string;
+  date: string;
+  pollie_slug: string;
+  pollie_name: string;
+  role: string;
+  organisation: string;
+  action: "added" | "verified" | "rejected" | "sources-edited" | "dates-edited" | "removed";
+  by: string;
+  note?: string;
 }
 
 interface Props {
-  events: ActivityRow[]
+  events: ActivityRow[];
 }
 
-const { events } = Astro.props
-const sorted = [...events].sort((a, b) => b.date.localeCompare(a.date))
+const { events } = Astro.props;
+const sorted = [...events].sort((a, b) => b.date.localeCompare(a.date));
 ---
 
 <ol class="event-list">
-  {sorted.map((e) => (
-    <li
-      class="event"
-      data-search={`${e.pollie_name} ${e.role} ${e.organisation}`.toLowerCase()}
-      data-action={e.action}
-      data-by={e.by}
-      data-date={e.date}
-    >
-      <time class="event-date">{e.date.slice(0, 10)}</time>
-      <a class="event-pollie" href={`/pollies/${e.pollie_slug}`}>{e.pollie_name}</a>
-      <span class="event-gig">{e.role} @ {e.organisation}</span>
-      <span class={`event-action action-${e.action}`}>{e.action}</span>
-      <span class="event-by">{e.by}</span>
-      {e.note && <span class="event-note">{e.note}</span>}
-    </li>
-  ))}
+  {sorted.map((e) => <li
+    class="event"
+    data-search={`${e.pollie_name} ${e.role} ${e.organisation}`.toLowerCase()}
+    data-action={e.action}
+    data-by={e.by}
+    data-date={e.date}
+  >
+    <time class="event-date">{e.date.slice(0, 10)}</time>
+    <a class="event-pollie" href={`/pollies/${e.pollie_slug}`}>{e.pollie_name}</a>
+    <span class="event-gig">{e.role} @ {e.organisation}</span>
+    <span class={`event-action action-${e.action}`}>{e.action}</span>
+    <span class="event-by">{e.by}</span>
+    {e.note && <span class="event-note">{e.note}</span>}
+  </li>)}
 </ol>
 
 <style>
@@ -85,7 +77,10 @@ const sorted = [...events].sort((a, b) => b.date.localeCompare(a.date))
     font-weight: 600;
     color: var(--color-ink);
   }
-  .event-gig { color: var(--color-ink-2); }
+
+  .event-gig {
+    color: var(--color-ink-2);
+  }
 
   .event-action {
     font-family: var(--font-sans-stack);
@@ -94,11 +89,27 @@ const sorted = [...events].sort((a, b) => b.date.localeCompare(a.date))
     letter-spacing: 0.06em;
     font-weight: 600;
   }
-  .action-added { color: var(--color-accent); }
-  .action-verified { color: oklch(45% 0.12 145deg); }
-  .action-rejected { color: var(--color-error); }
-  .action-sources-edited, .action-dates-edited { color: var(--color-ink-2); }
-  .action-removed { color: var(--color-ink-3); }
+
+  .action-added {
+    color: var(--color-accent);
+  }
+
+  .action-verified {
+    color: oklch(45% 0.12 145deg);
+  }
+
+  .action-rejected {
+    color: var(--color-error);
+  }
+
+  .action-sources-edited,
+  .action-dates-edited {
+    color: var(--color-ink-2);
+  }
+
+  .action-removed {
+    color: var(--color-ink-3);
+  }
 
   .event-by {
     font-family: var(--font-sans-stack);
@@ -118,7 +129,16 @@ const sorted = [...events].sort((a, b) => b.date.localeCompare(a.date))
       grid-template-columns: 1fr auto;
       gap: 0.25rem var(--space-sm);
     }
-    .event-date, .event-by, .event-action { font-size: var(--text-meta); }
-    .event-gig, .event-note { grid-column: 1 / -1; }
+
+    .event-date,
+    .event-by,
+    .event-action {
+      font-size: var(--text-meta);
+    }
+
+    .event-gig,
+    .event-note {
+      grid-column: 1 / -1;
+    }
   }
 </style>

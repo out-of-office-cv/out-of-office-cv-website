@@ -1,31 +1,31 @@
 ---
-import { getPartyColour } from "../utils"
-import type { House } from "../types"
+import { getPartyColour } from "../utils";
+import type { House } from "../types";
 
 interface Props {
-  variant: "party" | "house" | "status" | "category"
-  party?: string
-  house?: House
-  status?: "in-office" | "left-office"
+  variant: "party" | "house" | "status" | "category";
+  party?: string;
+  house?: House;
+  status?: "in-office" | "left-office";
 }
 
-const { variant, party, house, status } = Astro.props
+const { variant, party, house, status } = Astro.props;
 
 function getMarkerClass(): string {
   if (variant === "party" && party) {
-    const colour = getPartyColour(party)
-    return `marker-party marker-${colour || "default"}`
+    const colour = getPartyColour(party);
+    return `marker-party marker-${colour || "default"}`;
   }
   if (variant === "house" && house) {
-    return `marker-house marker-${house}`
+    return `marker-house marker-${house}`;
   }
   if (variant === "status" && status) {
-    return `marker-status marker-${status}`
+    return `marker-status marker-${status}`;
   }
   if (variant === "category") {
-    return "marker-category"
+    return "marker-category";
   }
-  return ""
+  return "";
 }
 ---
 

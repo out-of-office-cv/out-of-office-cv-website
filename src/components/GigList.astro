@@ -1,31 +1,31 @@
 ---
-import type { Gig } from "../types"
-import { formatISODate, sortGigsForDisplay } from "../utils"
-import PollieBadge from "./PollieBadge.astro"
+import type { Gig } from "../types";
+import { formatISODate, sortGigsForDisplay } from "../utils";
+import PollieBadge from "./PollieBadge.astro";
 
 interface Props {
-  gigs: Gig[]
+  gigs: Gig[];
 }
 
-const { gigs } = Astro.props
-const sortedGigs = sortGigsForDisplay(gigs)
+const { gigs } = Astro.props;
+const sortedGigs = sortGigsForDisplay(gigs);
 
 function getDateRange(gig: Gig): string {
-  const hasEnd = gig.end_date && gig.end_date !== "unknown" && gig.end_date !== "present"
-  const hasStart = gig.start_date && gig.start_date !== "unknown"
+  const hasEnd = gig.end_date && gig.end_date !== "unknown" && gig.end_date !== "present";
+  const hasStart = gig.start_date && gig.start_date !== "unknown";
   if (hasStart) {
     return hasEnd
       ? `${formatISODate(gig.start_date!)} – ${formatISODate(gig.end_date!)}`
-      : `${formatISODate(gig.start_date!)} – present`
+      : `${formatISODate(gig.start_date!)} – present`;
   }
-  return hasEnd ? `until ${formatISODate(gig.end_date!)}` : ""
+  return hasEnd ? `until ${formatISODate(gig.end_date!)}` : "";
 }
 
 function getHostname(url: string): string {
   try {
-    return new URL(url).hostname.replace(/^www\./, "")
+    return new URL(url).hostname.replace(/^www\./, "");
   } catch {
-    return url
+    return url;
   }
 }
 ---
@@ -41,46 +41,40 @@ function getHostname(url: string): string {
     </p>
   ) : (
     <ol class="gig-list">
-      {sortedGigs.map((gig) => (
-        <li class:list={["gig", gig.verification?.decision !== "verified" && "gig-unverified"]}>
-          <div class="gig-headline">
-            <span class="gig-role">{gig.role}</span>
-            <span class="gig-at">at</span>
-            <span class="gig-org">{gig.organisation}</span>
-            {gig.verification?.decision !== "verified" && (
-              <span class="unverified-tag" title="This role has not been human-verified yet">
-                · unverified
-              </span>
-            )}
-          </div>
-          <div class="gig-meta">
-            <PollieBadge variant="category">{gig.category}</PollieBadge>
-            {getDateRange(gig) && (
-              <span class="gig-dates">{getDateRange(gig)}</span>
-            )}
-          </div>
-          <div class="gig-sources">
-            <span class="caps sources-label">
-              {gig.sources.length === 1 ? "Source" : "Sources"}
-            </span>
-            <span class="sources-list">
-              {gig.sources.map((source, i) => (
-                <>
-                  <a
-                    href={source}
-                    target="_blank"
-                    rel="noopener"
-                    class="source-link"
-                  >
-                    {getHostname(source)}
-                  </a>
-                  {i < gig.sources.length - 1 && <span class="source-sep">·</span>}
-                </>
-              ))}
-            </span>
-          </div>
-        </li>
-      ))}
+      {sortedGigs.map((gig) => <li
+        class:list={["gig", gig.verification?.decision !== "verified" && "gig-unverified"]}
+      >
+        <div class="gig-headline">
+          <span class="gig-role">{gig.role}</span>
+          <span class="gig-at">at</span>
+          <span class="gig-org">{gig.organisation}</span>
+          {gig.verification?.decision !== "verified" && <span
+            class="unverified-tag"
+            title="This role has not been human-verified yet"
+          >
+            · unverified
+          </span>}
+        </div>
+        <div class="gig-meta">
+          <PollieBadge variant="category">{gig.category}</PollieBadge>
+          {getDateRange(gig) && <span class="gig-dates">{getDateRange(gig)}</span>}
+        </div>
+        <div class="gig-sources">
+          <span class="caps sources-label">
+            {gig.sources.length === 1 ? "Source" : "Sources"}
+          </span>
+          <span class="sources-list">
+            {gig.sources.map((source, i) => (
+              <>
+                <a href={source} target="_blank" rel="noopener" class="source-link">
+                  {getHostname(source)}
+                </a>
+                {i < gig.sources.length - 1 && <span class="source-sep">·</span>}
+              </>
+            ))}
+          </span>
+        </div>
+      </li>)}
     </ol>
   )}
 </section>

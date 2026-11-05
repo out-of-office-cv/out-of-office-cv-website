@@ -1,100 +1,108 @@
 ---
-import type { PolliesByDecade } from "../types"
-import { getPartyColour } from "../utils/pollie"
+import type { PolliesByDecade } from "../types";
+import { getPartyColour } from "../utils/pollie";
 
 interface Props {
-  polliesByDecade: PolliesByDecade[]
+  polliesByDecade: PolliesByDecade[];
 }
 
-const { polliesByDecade } = Astro.props
+const { polliesByDecade } = Astro.props;
 
 function partyColourClass(party: string): string {
-  const colour = getPartyColour(party)
-  return `marker marker-${colour || "default"}`
+  const colour = getPartyColour(party);
+  return `marker marker-${colour || "default"}`;
 }
 ---
 
-{polliesByDecade.map((group) => (
-  <section class="decade-section" data-decade={group.decade} aria-labelledby={`decade-${group.decade}`}>
-    <header class="decade-header">
-      <h2 id={`decade-${group.decade}`} class="decade-heading">{group.decade}</h2>
-      <span class="decade-count caps" data-decade-count>
-        <span data-visible-count>{group.pollies.length}</span>
-        <span data-entry-label>{group.pollies.length === 1 ? "entry" : "entries"}</span>
-      </span>
-    </header>
-    <ol class="entry-list">
-      {group.pollies.map((pollie) => (
-        <li
-          class="entry"
-          data-name={pollie.name.toLowerCase()}
-          data-division={pollie.division.toLowerCase()}
-          data-state={pollie.state}
-          data-party={pollie.party.trim()}
-          data-house={pollie.house}
-        >
-          <a href={`/pollies/${pollie.slug}`} class="entry-link">
-            {pollie.photoUrl ? (
-              <img
-                src={pollie.photoUrl}
-                alt=""
-                width="48"
-                height="60"
-                class="entry-portrait"
-                loading="lazy"
-                decoding="async"
-                onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'entry-portrait entry-portrait-placeholder',ariaHidden:'true',textContent:this.dataset.initials||''}))"
-                data-initials={pollie.name.split(/\s+/).slice(0, 2).map((s) => s[0]).join("")}
-              />
-            ) : (
-              <span class="entry-portrait entry-portrait-placeholder" aria-hidden="true">
-                {pollie.name.split(/\s+/).slice(0, 2).map((s) => s[0]).join("")}
-              </span>
-            )}
-            <div class="entry-body">
-              <span class="entry-name">{pollie.name}</span>
-              <span class="entry-meta">
-                <span class={partyColourClass(pollie.party)}>{pollie.party}</span>
-                <span class={`marker marker-${pollie.house}`}>
-                  {pollie.house === "senate" ? "Senator" : "MP"}
-                </span>
-                <span class="entry-location">
-                  {pollie.division || pollie.state}{pollie.division ? `, ${pollie.state}` : ""}
-                </span>
-              </span>
-            </div>
-            <span class="entry-gigs">
-              {pollie.gigCount.verified > 0 && pollie.gigCount.unverified === 0 && (
-                <span class="gig-count">
-                  <span class="gig-number">{pollie.gigCount.verified}</span>
-                  <span class="gig-label">{pollie.gigCount.verified === 1 ? "gig" : "gigs"}</span>
-                </span>
-              )}
-              {pollie.gigCount.verified > 0 && pollie.gigCount.unverified > 0 && (
-                <span class="gig-count">
-                  <span class="gig-number">{pollie.gigCount.verified}</span>
-                  <span class="gig-label">{pollie.gigCount.verified === 1 ? "gig" : "gigs"}</span>
-                  <span class="gig-plus">+ {pollie.gigCount.unverified} unverified</span>
-                </span>
-              )}
-              {pollie.gigCount.verified === 0 && pollie.gigCount.unverified > 0 && (
-                <span class="gig-count gig-count-unverified">
-                  <span class="gig-number">{pollie.gigCount.unverified}</span>
-                  <span class="gig-label">unverified</span>
-                </span>
-              )}
-              {pollie.gigCount.verified === 0 && pollie.gigCount.unverified === 0 && (
-                <span class="gig-count gig-count-empty">
-                  <span class="gig-label">—</span>
-                </span>
-              )}
+{polliesByDecade.map((group) => <section
+  class="decade-section"
+  data-decade={group.decade}
+  aria-labelledby={`decade-${group.decade}`}
+>
+  <header class="decade-header">
+    <h2 id={`decade-${group.decade}`} class="decade-heading">{group.decade}</h2>
+    <span class="decade-count caps" data-decade-count>
+      <span data-visible-count>{group.pollies.length}</span>
+      <span data-entry-label>{group.pollies.length === 1 ? "entry" : "entries"}</span>
+    </span>
+  </header>
+  <ol class="entry-list">
+    {group.pollies.map((pollie) => <li
+      class="entry"
+      data-name={pollie.name.toLowerCase()}
+      data-division={pollie.division.toLowerCase()}
+      data-state={pollie.state}
+      data-party={pollie.party.trim()}
+      data-house={pollie.house}
+    >
+      <a href={`/pollies/${pollie.slug}`} class="entry-link">
+        {pollie.photoUrl ? (
+          <img
+            src={pollie.photoUrl}
+            alt=""
+            width="48"
+            height="60"
+            class="entry-portrait"
+            loading="lazy"
+            decoding="async"
+            onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'entry-portrait entry-portrait-placeholder',ariaHidden:'true',textContent:this.dataset.initials||''}))"
+            data-initials={pollie.name
+              .split(/\s+/)
+              .slice(0, 2)
+              .map((s) => s[0])
+              .join("")}
+          />
+        ) : (
+          <span class="entry-portrait entry-portrait-placeholder" aria-hidden="true">
+            {pollie.name
+              .split(/\s+/)
+              .slice(0, 2)
+              .map((s) => s[0])
+              .join("")}
+          </span>
+        )}
+        <div class="entry-body">
+          <span class="entry-name">{pollie.name}</span>
+          <span class="entry-meta">
+            <span class={partyColourClass(pollie.party)}>{pollie.party}</span>
+            <span class={`marker marker-${pollie.house}`}>
+              {pollie.house === "senate" ? "Senator" : "MP"}
             </span>
-          </a>
-        </li>
-      ))}
-    </ol>
-  </section>
-))}
+            <span class="entry-location">
+              {pollie.division || pollie.state}{pollie.division ? `, ${pollie.state}` : ""}
+            </span>
+          </span>
+        </div>
+        <span class="entry-gigs">
+          {pollie.gigCount.verified > 0 && pollie.gigCount.unverified === 0 && <span
+            class="gig-count"
+          >
+            <span class="gig-number">{pollie.gigCount.verified}</span>
+            <span class="gig-label">{pollie.gigCount.verified === 1 ? "gig" : "gigs"}</span>
+          </span>}
+          {pollie.gigCount.verified > 0 && pollie.gigCount.unverified > 0 && <span
+            class="gig-count"
+          >
+            <span class="gig-number">{pollie.gigCount.verified}</span>
+            <span class="gig-label">{pollie.gigCount.verified === 1 ? "gig" : "gigs"}</span>
+            <span class="gig-plus">+ {pollie.gigCount.unverified} unverified</span>
+          </span>}
+          {pollie.gigCount.verified === 0 && pollie.gigCount.unverified > 0 && <span
+            class="gig-count gig-count-unverified"
+          >
+            <span class="gig-number">{pollie.gigCount.unverified}</span>
+            <span class="gig-label">unverified</span>
+          </span>}
+          {pollie.gigCount.verified === 0 && pollie.gigCount.unverified === 0 && <span
+            class="gig-count gig-count-empty"
+          >
+            <span class="gig-label">—</span>
+          </span>}
+        </span>
+      </a>
+    </li>)}
+  </ol>
+</section>)}
 
 <style>
   .decade-section {

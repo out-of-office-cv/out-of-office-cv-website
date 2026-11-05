@@ -1,14 +1,14 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro"
-import ActivityFilters from "../components/ActivityFilters.svelte"
-import ActivityListServer from "../components/ActivityListServer.astro"
-import { getCollection, type CollectionEntry } from "astro:content"
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ActivityFilters from "../components/ActivityFilters.svelte";
+import ActivityListServer from "../components/ActivityListServer.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
 
-const events = await getCollection("activity")
-const pollies = await getCollection("pollies")
+const events = await getCollection("activity");
+const pollies = await getCollection("pollies");
 const nameBySlug = new Map(
   pollies.map((p: CollectionEntry<"pollies">) => [p.data.slug, p.data.name]),
-)
+);
 
 const rows = events.map((e: CollectionEntry<"activity">) => ({
   id: e.id,
@@ -21,20 +21,21 @@ const rows = events.map((e: CollectionEntry<"activity">) => ({
   action: e.data.action,
   by: e.data.by,
   note: e.data.note,
-}))
+}));
 
-const actions = Array.from(new Set(rows.map((r: { action: string }) => r.action))).sort() as string[]
-const bys = Array.from(new Set(rows.map((r: { by: string }) => r.by))).sort() as string[]
+const actions = Array.from(
+  new Set(rows.map((r: { action: string }) => r.action)),
+).sort() as string[];
+const bys = Array.from(new Set(rows.map((r: { by: string }) => r.by))).sort() as string[];
 ---
 
 <BaseLayout title="Activity">
   <section class="page-intro">
     <h1>Verification activity</h1>
     <p>
-      Every change to <code>data/gigs.json</code> — additions, verifications,
-      rejections, source and date edits — recorded straight from git history.
-      This page exists so every decision (including those made by claude) is
-      auditable.
+      Every change to <code>data/gigs.json</code> — additions, verifications, rejections, source and
+      date edits — recorded straight from git history. This page exists so every decision (including
+      those made by claude) is auditable.
     </p>
   </section>
   <ActivityFilters {actions} {bys} total={rows.length} client:load />

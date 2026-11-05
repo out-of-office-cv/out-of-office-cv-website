@@ -1,27 +1,25 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro"
-import PollieHeader from "../../components/PollieHeader.astro"
-import GigList from "../../components/GigList.astro"
-import VerificationNote from "../../components/VerificationNote.astro"
-import PollieSearch from "../../components/PollieSearch.svelte"
-import { getCollection } from "astro:content"
-import { formatDate, timeAgo } from "../../utils"
-import type { Pollie, Gig, GigCountSplit } from "../../types"
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PollieHeader from "../../components/PollieHeader.astro";
+import GigList from "../../components/GigList.astro";
+import VerificationNote from "../../components/VerificationNote.astro";
+import PollieSearch from "../../components/PollieSearch.svelte";
+import { getCollection } from "astro:content";
+import { formatDate, timeAgo } from "../../utils";
+import type { Pollie, Gig, GigCountSplit } from "../../types";
 
-type PollieData = Pollie & { gigCount: GigCountSplit; gigs: Gig[] }
+type PollieData = Pollie & { gigCount: GigCountSplit; gigs: Gig[] };
 
 export async function getStaticPaths() {
-  const pollies = await getCollection("pollies")
+  const pollies = await getCollection("pollies");
   return pollies.map((pollie: { data: PollieData }) => ({
     params: { slug: pollie.data.slug },
     props: { pollie: pollie.data },
-  }))
+  }));
 }
 
-const { pollie } = Astro.props as { pollie: PollieData }
-const hasUnverified = pollie.gigs.some(
-  (g) => g.verification?.decision !== "verified",
-)
+const { pollie } = Astro.props as { pollie: PollieData };
+const hasUnverified = pollie.gigs.some((g) => g.verification?.decision !== "verified");
 ---
 
 <BaseLayout title={pollie.name}>
