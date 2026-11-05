@@ -43,9 +43,11 @@ sync_checkout_and_reexec() {
   if [[ "${CRON_SYNCED:-}" == "1" ]]; then
     return 0
   fi
-  git fetch origin >> "$LOG_FILE" 2>&1
-  git checkout -f --detach origin/main >> "$LOG_FILE" 2>&1
-  git reset --hard origin/main >> "$LOG_FILE" 2>&1
+  {
+    git fetch origin
+    git checkout -f --detach origin/main
+    git reset --hard origin/main
+  } >> "$LOG_FILE" 2>&1
   export CRON_SYNCED=1
   log "Synced to origin/main, re-executing to pick up the checked-out scripts"
   exec "$0" "$@"
