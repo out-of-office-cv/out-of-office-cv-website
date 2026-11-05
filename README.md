@@ -14,21 +14,21 @@ you.
 
 ## Development
 
-This project uses [mise](https://mise.jdx.dev/) to manage Node.js and npm
+This project uses [mise](https://mise.jdx.dev/) to manage Node.js and pnpm
 versions.
 
 ```sh
 # install dependencies
-mise exec -- npm install
+mise exec -- pnpm install
 
 # run development server
-mise exec -- npm run dev
+mise exec -- pnpm dev
 
 # build for production
-mise exec -- npm run build
+mise exec -- pnpm build
 
 # run tests
-mise exec -- npm run test
+mise exec -- pnpm test
 ```
 
 ## License
