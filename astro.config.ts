@@ -1,13 +1,16 @@
 import { defineConfig, fontProviders } from "astro/config";
 import svelte from "@astrojs/svelte";
+import { unified } from "@astrojs/markdown-remark";
 import remarkSmartypants from "remark-smartypants";
 
 export default defineConfig({
   site: "https://www.outofoffice.cv",
   trailingSlash: "never",
+  compressHTML: true,
   integrations: [svelte()],
   vite: {},
   markdown: {
+    processor: unified(),
     remarkPlugins: [[remarkSmartypants as never, { dashes: "oldschool" }]],
   },
   fonts: [
