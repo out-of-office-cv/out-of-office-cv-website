@@ -54051,5 +54051,14 @@
       "by": "claude",
       "note": "Business News (businessnews.com.au/node/22542): \"OUTGOING Senator Peter Cook has been appointed an adjunct professor at Curtin University of Technology.\" Outgoing WA Labor senator (ceased 2005-06-30); Curtin is in Perth."
     }
+  },
+  {
+    "role": "Trustee",
+    "organisation": "National Party of Australia (NSW)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.investsmart.com.au/investment-news/influential-minister-in-the-fraser-government/25151"
+    ],
+    "pollie_slug": "ralph-hunt"
   }
 ]
