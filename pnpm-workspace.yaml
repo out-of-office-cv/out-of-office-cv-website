@@ -1,0 +1,5 @@
+# pnpm 11+ fails the install on unreviewed build scripts. Neither package needs
+# its script: both ship prebuilt binaries as optional dependencies.
+allowBuilds:
+  esbuild: false
+  sharp: false
