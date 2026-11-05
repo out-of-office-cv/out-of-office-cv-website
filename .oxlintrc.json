@@ -1,5 +1,16 @@
 {
-  "extends": ["@nkzw/oxlint-config"],
-  "plugins": ["typescript"],
-  "ignorePatterns": ["dist/", ".astro/"]
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "unicorn", "oxc"],
+  "categories": {
+    "correctness": "error"
+  },
+  "ignorePatterns": ["dist/", ".astro/", ".worktrees/", ".vitepress/"],
+  "overrides": [
+    {
+      "files": ["**/*.svelte"],
+      "rules": {
+        "no-unassigned-vars": "off"
+      }
+    }
+  ]
 }

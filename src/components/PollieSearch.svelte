@@ -186,7 +186,7 @@
     padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
     white-space: nowrap;
     border: 0;
   }
@@ -266,41 +266,49 @@
     color: var(--marker-senate-ink);
     border: 1px solid var(--marker-senate-rule);
   }
+
   .marker-reps {
     background: var(--marker-reps-bg);
     color: var(--marker-reps-ink);
     border: 1px solid var(--marker-reps-rule);
   }
+
   .marker-red {
     background: var(--marker-red-bg);
     color: var(--marker-red-ink);
     border: 1px solid var(--marker-red-rule);
   }
+
   .marker-blue {
     background: var(--marker-blue-bg);
     color: var(--marker-blue-ink);
     border: 1px solid var(--marker-blue-rule);
   }
+
   .marker-green {
     background: var(--marker-green-bg);
     color: var(--marker-green-ink);
     border: 1px solid var(--marker-green-rule);
   }
+
   .marker-grey {
     background: var(--marker-grey-bg);
     color: var(--marker-grey-ink);
     border: 1px solid var(--marker-grey-rule);
   }
+
   .marker-orange {
     background: var(--marker-orange-bg);
     color: var(--marker-orange-ink);
     border: 1px solid var(--marker-orange-rule);
   }
+
   .marker-purple {
     background: var(--marker-purple-bg);
     color: var(--marker-purple-ink);
     border: 1px solid var(--marker-purple-rule);
   }
+
   .marker-default {
     background: var(--marker-default-bg);
     color: var(--marker-default-ink);

@@ -128,6 +128,7 @@
   .controls-section {
     max-width: var(--measure-wide);
   }
+
   .controls {
     display: flex;
     gap: var(--space-md);
@@ -136,6 +137,7 @@
     padding-bottom: var(--space-sm);
     border-bottom: 1px solid var(--color-rule);
   }
+
   .search {
     flex: 1;
     background: transparent;
@@ -147,10 +149,12 @@
     font-style: italic;
     font-size: 1rem;
   }
+
   .search:focus {
     outline: none;
     border-bottom-color: var(--color-accent);
   }
+
   .sort-btn {
     background: none;
     border: none;
@@ -159,6 +163,7 @@
     font-family: var(--font-sans-stack);
     font-size: var(--text-meta);
   }
+
   .filter-row {
     display: flex;
     flex-wrap: wrap;
@@ -166,10 +171,12 @@
     align-items: baseline;
     margin-bottom: var(--space-sm);
   }
+
   .filter-label {
     color: var(--color-ink-3);
     margin-right: var(--space-xs);
   }
+
   .chip {
     background: transparent;
     border: 1px solid var(--color-rule-strong);
@@ -180,11 +187,13 @@
     color: var(--color-ink-2);
     cursor: pointer;
   }
+
   .chip.active {
     background: var(--color-accent-soft);
     border-color: var(--color-accent);
     color: var(--color-accent);
   }
+
   .count {
     font-family: var(--font-sans-stack);
     font-size: var(--text-meta);

@@ -135,6 +135,7 @@
     border-radius: var(--radius-sm);
     overflow: hidden;
   }
+
   .toggle-btn {
     background: transparent;
     border: none;
@@ -151,24 +152,30 @@
       background var(--dur-fast) var(--ease-out),
       color var(--dur-fast) var(--ease-out);
   }
+
   .toggle-btn:last-child {
     border-right: none;
   }
+
   .toggle-btn:hover {
     color: var(--color-ink);
     background: var(--color-paper-alt);
   }
+
   .toggle-btn.active {
     background: var(--color-accent-soft);
     color: var(--color-accent);
   }
+
   .chart-scroll {
     overflow-x: auto;
     overscroll-behavior-x: contain;
   }
+
   .chart-min {
     min-width: 22rem;
   }
+
   .chart {
     width: 100%;
     min-height: 22rem;

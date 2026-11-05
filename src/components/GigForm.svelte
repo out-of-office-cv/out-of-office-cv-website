@@ -485,7 +485,7 @@
 
   .warning-text {
     font-family: var(--font-sans-stack);
-    color: oklch(40% 0.1 75);
+    color: oklch(40% 0.1 75deg);
     font-size: var(--text-meta);
     margin: 0;
     font-style: italic;

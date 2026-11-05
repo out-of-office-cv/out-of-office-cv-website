@@ -95,9 +95,11 @@
     overflow-x: auto;
     overscroll-behavior-x: contain;
   }
+
   .chart-min {
     min-width: 22rem;
   }
+
   .chart {
     width: 100%;
     min-height: 18rem;

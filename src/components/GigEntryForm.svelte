@@ -326,8 +326,8 @@
 
   .notice-warn {
     background: var(--color-warn-soft);
-    color: oklch(32% 0.08 75);
-    border: 1px solid oklch(82% 0.08 75);
+    color: oklch(32% 0.08 75deg);
+    border: 1px solid oklch(82% 0.08 75deg);
   }
 
   .notice-text {

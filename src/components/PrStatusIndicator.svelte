@@ -118,6 +118,7 @@
       opacity: 0.35;
       transform: scale(1);
     }
+
     35% {
       opacity: 1;
       transform: scale(1.25);

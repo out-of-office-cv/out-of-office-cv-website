@@ -5,70 +5,73 @@
 
 :root {
   /* --- Surfaces: warm paper, tinted toward brand hue for secondaries --- */
-  --color-paper: oklch(98.5% 0.008 85); /* primary reading surface */
-  --color-paper-alt: oklch(96.5% 0.012 155); /* secondary surface, faint brand tint */
-  --color-paper-deep: oklch(93.5% 0.014 155); /* form fields, code, inset */
-  --color-paper-tint: oklch(94% 0.028 155); /* accent hover / selected row */
+  --color-paper: oklch(98.5% 0.008 85deg); /* primary reading surface */
+  --color-paper-alt: oklch(96.5% 0.012 155deg); /* secondary surface, faint brand tint */
+  --color-paper-deep: oklch(93.5% 0.014 155deg); /* form fields, code, inset */
+  --color-paper-tint: oklch(94% 0.028 155deg); /* accent hover / selected row */
 
   /* --- Ink: warm near-black, stepped for hierarchy --- */
-  --color-ink: oklch(22% 0.015 90); /* primary text */
-  --color-ink-2: oklch(42% 0.015 90); /* secondary text */
-  --color-ink-3: oklch(56% 0.012 155); /* metadata / tertiary */
+  --color-ink: oklch(22% 0.015 90deg); /* primary text */
+  --color-ink-2: oklch(42% 0.015 90deg); /* secondary text */
+  --color-ink-3: oklch(56% 0.012 155deg); /* metadata / tertiary */
 
   /* --- Rules: hairline dividers, tinted to brand --- */
-  --color-rule: oklch(87% 0.01 155);
-  --color-rule-strong: oklch(72% 0.018 155);
+  --color-rule: oklch(87% 0.01 155deg);
+  --color-rule-strong: oklch(72% 0.018 155deg);
 
   /* --- Accent: reading-room bottle green --- */
-  --color-accent: oklch(38% 0.075 155);
-  --color-accent-hover: oklch(30% 0.08 155);
-  --color-accent-soft: oklch(94% 0.03 155);
+  --color-accent: oklch(38% 0.075 155deg);
+  --color-accent-hover: oklch(30% 0.08 155deg);
+  --color-accent-soft: oklch(94% 0.03 155deg);
 
   /* --- Status colours, all tuned to paper --- */
-  --color-error: oklch(45% 0.16 25);
-  --color-error-soft: oklch(95% 0.025 25);
-  --color-warn: oklch(55% 0.12 75);
-  --color-warn-soft: oklch(96% 0.04 85);
-  --color-success: oklch(42% 0.09 155); /* same hue as accent */
+  --color-error: oklch(45% 0.16 25deg);
+  --color-error-soft: oklch(95% 0.025 25deg);
+  --color-warn: oklch(55% 0.12 75deg);
+  --color-warn-soft: oklch(96% 0.04 85deg);
+  --color-success: oklch(42% 0.09 155deg); /* same hue as accent */
 
   /* --- Chamber & party markers: low-saturation archival stamps --- */
+
   /* Senate (traditional red) */
-  --marker-senate-ink: oklch(38% 0.11 22);
-  --marker-senate-bg: oklch(95% 0.025 22);
-  --marker-senate-rule: oklch(82% 0.06 22);
+  --marker-senate-ink: oklch(38% 0.11 22deg);
+  --marker-senate-bg: oklch(95% 0.025 22deg);
+  --marker-senate-rule: oklch(82% 0.06 22deg);
+
   /* Reps (traditional green — distinct from brand green by hue) */
-  --marker-reps-ink: oklch(38% 0.09 145);
-  --marker-reps-bg: oklch(95% 0.02 145);
-  --marker-reps-rule: oklch(82% 0.05 145);
+  --marker-reps-ink: oklch(38% 0.09 145deg);
+  --marker-reps-bg: oklch(95% 0.02 145deg);
+  --marker-reps-rule: oklch(82% 0.05 145deg);
+
   /* Party colours */
-  --marker-red-ink: oklch(42% 0.14 28);
-  --marker-red-bg: oklch(95% 0.03 28);
-  --marker-red-rule: oklch(82% 0.07 28);
-  --marker-blue-ink: oklch(40% 0.11 248);
-  --marker-blue-bg: oklch(95% 0.025 248);
-  --marker-blue-rule: oklch(82% 0.06 248);
-  --marker-green-ink: oklch(40% 0.09 140);
-  --marker-green-bg: oklch(95% 0.02 140);
-  --marker-green-rule: oklch(82% 0.05 140);
-  --marker-grey-ink: oklch(42% 0.008 155);
-  --marker-grey-bg: oklch(94% 0.006 155);
-  --marker-grey-rule: oklch(82% 0.008 155);
-  --marker-orange-ink: oklch(48% 0.13 55);
-  --marker-orange-bg: oklch(95% 0.035 55);
-  --marker-orange-rule: oklch(82% 0.08 55);
-  --marker-purple-ink: oklch(40% 0.12 300);
-  --marker-purple-bg: oklch(95% 0.025 300);
-  --marker-purple-rule: oklch(82% 0.06 300);
+  --marker-red-ink: oklch(42% 0.14 28deg);
+  --marker-red-bg: oklch(95% 0.03 28deg);
+  --marker-red-rule: oklch(82% 0.07 28deg);
+  --marker-blue-ink: oklch(40% 0.11 248deg);
+  --marker-blue-bg: oklch(95% 0.025 248deg);
+  --marker-blue-rule: oklch(82% 0.06 248deg);
+  --marker-green-ink: oklch(40% 0.09 140deg);
+  --marker-green-bg: oklch(95% 0.02 140deg);
+  --marker-green-rule: oklch(82% 0.05 140deg);
+  --marker-grey-ink: oklch(42% 0.008 155deg);
+  --marker-grey-bg: oklch(94% 0.006 155deg);
+  --marker-grey-rule: oklch(82% 0.008 155deg);
+  --marker-orange-ink: oklch(48% 0.13 55deg);
+  --marker-orange-bg: oklch(95% 0.035 55deg);
+  --marker-orange-rule: oklch(82% 0.08 55deg);
+  --marker-purple-ink: oklch(40% 0.12 300deg);
+  --marker-purple-bg: oklch(95% 0.025 300deg);
+  --marker-purple-rule: oklch(82% 0.06 300deg);
   --marker-default-ink: var(--color-ink-2);
   --marker-default-bg: var(--color-paper-alt);
   --marker-default-rule: var(--color-rule);
 
   /* --- Type families (from astro:fonts) --- */
   --font-serif-stack:
-    var(--font-serif, "Source Serif 4"), "Iowan Old Style", Charter, Palatino, "Book Antiqua",
-    Georgia, serif;
+    var(--font-serif, "Source Serif 4"), "Iowan Old Style", charter, palatino, "Book Antiqua",
+    georgia, serif;
   --font-sans-stack:
-    var(--font-sans, "Public Sans"), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    var(--font-sans, "Public Sans"), -apple-system, blinkmacsystemfont, "Segoe UI", roboto,
     sans-serif;
 
   /* --- Type scale: fluid on display headings, fixed below --- */
@@ -482,7 +485,7 @@ select {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
   white-space: nowrap;
   border: 0;
 }
