@@ -34,12 +34,9 @@ before building.
 timers (`ops/systemd/`), through matilda, in a separate detached worktree at
 `../out-of-office-cv-website-cron`. Never work in that worktree. The scripts'
 headers and `cron-lib.sh` explain the lock, the sync and re-exec, `RUN_BASE`,
-the `cron-state` mirror and the agent profile; read them before changing the
-git plumbing.
+the `cron-state` mirror and the agent profile; read them before changing the git
+plumbing.
 
-- The worktree has its own `node_modules`, and the skills run `pnpm build` and
-  `pnpm test` there. After a dependency change lands on `main`, run
-  `pnpm install` in it.
 - A run executes the scripts it checked out, so a change to them first takes
   effect on the run after it. After pushing one, sync the worktree by hand
   (`git -C ../out-of-office-cv-website-cron fetch origin` then
@@ -76,7 +73,8 @@ The two main types in this site's data model are `Pollie` (a politician) and
   auth, PR)
 - `src/pages/index.astro` --- home page with DirectoryFilters island
 - `src/pages/about.md` --- about page
-- `src/pages/contribute.astro` --- contribute page with GigEntryForm island (`client:idle`)
+- `src/pages/contribute.astro` --- contribute page with GigEntryForm island
+  (`client:idle`)
 - `src/pages/pollies/[slug].astro` --- dynamic pollie detail pages
 - `data/pollies.csv` --- pollie data from APH Parliamentary Handbook API
 - `data/gigs.json` --- post-office roles data

@@ -47,6 +47,9 @@ sync_checkout_and_reexec() {
     git fetch origin
     git checkout -f --detach origin/main
     git reset --hard origin/main
+    # The skills build and test in this checkout, so its node_modules must
+    # match the lockfile it just checked out.
+    pnpm install --frozen-lockfile
   } >> "$LOG_FILE" 2>&1
   export CRON_SYNCED=1
   log "Synced to origin/main, re-executing to pick up the checked-out scripts"
