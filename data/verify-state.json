@@ -7565,5 +7565,13 @@
   "peter-cook|Adjunct Professor|Curtin University of Technology|null": {
     "last_examined_at": "2026-11-03T15:14:41.311Z",
     "attempts": 1
+  },
+  "karen-andrews|Adjunct Professor|University of Canberra|null": {
+    "last_examined_at": "2026-11-06T15:06:58.637Z",
+    "attempts": 1
+  },
+  "ralph-hunt|Trustee|National Party of Australia (NSW)|null": {
+    "last_examined_at": "2026-11-06T15:06:58.637Z",
+    "attempts": 1
   }
 }
