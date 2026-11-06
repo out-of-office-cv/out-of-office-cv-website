@@ -54057,15 +54057,26 @@
     "organisation": "National Party of Australia (NSW)",
     "category": "Politics, Campaigning & Party Operations",
     "sources": [
-      "https://www.investsmart.com.au/investment-news/influential-minister-in-the-fraser-government/25151"
+      "https://www.investsmart.com.au/investment-news/influential-minister-in-the-fraser-government/25151",
+      "https://www.miragenews.com/in-memoriam-miriam-anne-mim-hunt-1243263/"
     ],
-    "pollie_slug": "ralph-hunt"
+    "pollie_slug": "ralph-hunt",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "InvestSmart obituary says after his 1989 retirement Hunt continued to serve the Nationals, including as a state and federal trustee. NSW Nationals memorial notice for Mim Hunt (Mirage News) lists Trustee, National Party of Australia (NSW) from 1976. The trusteeship began while in parliament but continued after 1989. Dates unchanged."
+    }
   },
   {
     "role": "Adjunct Professor",
     "organisation": "University of Canberra",
     "category": "Education, Academia & Research",
     "sources": ["https://www.innovationaus.com/gig-guide-karen-andrews-returns-to-canberra/"],
-    "pollie_slug": "karen-andrews"
+    "pollie_slug": "karen-andrews",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "InnovationAus (Gig Guide: Karen Andrews returns to Canberra, 12 June 2026) states Karen Andrews will join the University of Canberra as an adjunct professor. Headline and context identify the former McPherson MP; date is after she left parliament (28 March 2025). Reported as upcoming, so start date unconfirmed. No second source found."
+    }
   }
 ]
