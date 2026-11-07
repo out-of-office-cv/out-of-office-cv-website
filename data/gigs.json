@@ -54078,5 +54078,19 @@
       "by": "claude",
       "note": "InnovationAus (Gig Guide: Karen Andrews returns to Canberra, 12 June 2026) states Karen Andrews will join the University of Canberra as an adjunct professor. Headline and context identify the former McPherson MP; date is after she left parliament (28 March 2025). Reported as upcoming, so start date unconfirmed. No second source found."
     }
+  },
+  {
+    "role": "Member",
+    "organisation": "Administrative Appeals Tribunal",
+    "category": "Legal & Judicial",
+    "sources": [
+      "https://www.abc.net.au/news/2026-10-02/former-minister-de-anne-kelly-co-founded-offshore-casino/107197106",
+      "https://markdreyfus.com/media/media-releases/appointments-and-short-term-re-appointments-to-the-administrative-appeals-tribunal-mark-dreyfus-kc-mp/"
+    ],
+    "role_evidence": {
+      "url": "https://www.abc.net.au/news/2026-10-02/former-minister-de-anne-kelly-co-founded-offshore-casino/107197106",
+      "quote": "serving as a member of Australia's Administrative Appeals Tribunal"
+    },
+    "pollie_slug": "de-anne-kelly"
   }
 ]
