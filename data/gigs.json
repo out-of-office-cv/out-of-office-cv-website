@@ -54091,6 +54091,11 @@
       "url": "https://www.abc.net.au/news/2026-10-02/former-minister-de-anne-kelly-co-founded-offshore-casino/107197106",
       "quote": "serving as a member of Australia's Administrative Appeals Tribunal"
     },
-    "pollie_slug": "de-anne-kelly"
+    "pollie_slug": "de-anne-kelly",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "ABC (2026-10-02) says she \"was serving as a member of Australia's Administrative Appeals Tribunal\" when LuckyBet applied for its licence in March 2024; Mark Dreyfus media release (18 Dec 2023) lists Ms De-Anne Kelly among AAT Members short-term re-appointed until 30 June 2024."
+    }
   }
 ]
