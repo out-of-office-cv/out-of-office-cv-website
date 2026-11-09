@@ -54097,5 +54097,15 @@
       "by": "claude",
       "note": "ABC (2026-10-02) says she \"was serving as a member of Australia's Administrative Appeals Tribunal\" when LuckyBet applied for its licence in March 2024; Mark Dreyfus media release (18 Dec 2023) lists Ms De-Anne Kelly among AAT Members short-term re-appointed until 30 June 2024."
     }
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Australian War Memorial",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://www.canberratimes.com.au/story/9388138/peter-dutton-lands-new-australian-war-memorial-board-role/"
+    ],
+    "start_date": "2026-11-14",
+    "pollie_slug": "peter-dutton"
   }
 ]
