@@ -54097,5 +54097,12 @@
       "by": "claude",
       "note": "ABC (2026-10-02) says she \"was serving as a member of Australia's Administrative Appeals Tribunal\" when LuckyBet applied for its licence in March 2024; Mark Dreyfus media release (18 Dec 2023) lists Ms De-Anne Kelly among AAT Members short-term re-appointed until 30 June 2024."
     }
+  },
+  {
+    "role": "Chair",
+    "organisation": "NSW Canegrowers",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": ["https://cvnews.com.au/rip-ian-causley-man-of-cane-politician-of-stone/"],
+    "pollie_slug": "ian-causley"
   }
 ]
