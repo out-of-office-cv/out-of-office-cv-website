@@ -54110,5 +54110,20 @@
       "note": "The cited CV News obituary (also published by Clarence Valley News) is about Ian Causley, the former Page MP who died in 2020. It says he served \"as an executive in the sugar industry for 51 years, first being elected to Clarence Canegrowers executive and later the chair of NSW Canegrowers in 2009.\" That names the role and organisation, and 2009 is after he left parliament in 2007. A web search found no second source for the 2009 date."
     },
     "start_date": "2009"
+  },
+  {
+    "role": "Vice-Chancellor's Fellow",
+    "organisation": "La Trobe University",
+    "category": "Education, Academia & Research",
+    "sources": ["https://www.nationaltribune.com.au/cathy-mcgowan-ao-new-role-with-la-trobe/"],
+    "pollie_slug": "cathy-mcgowan"
+  },
+  {
+    "role": "Member for Taylor",
+    "organisation": "South Australian House of Assembly",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": ["https://en.wikipedia.org/wiki/Nick_Champion"],
+    "pollie_slug": "nick-champion",
+    "start_date": "2022-03-19"
   }
 ]
