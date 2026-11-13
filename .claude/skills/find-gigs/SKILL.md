@@ -1,24 +1,22 @@
 ---
 name: find-gigs
-description:
-  Searches the internet for post-parliamentary gigs/roles for Australian
+description: Searches the internet for post-parliamentary gigs/roles for Australian
   politicians and adds verified candidates to data/gigs.json. Use when finding
   new gigs, searching for politician jobs after parliament, or adding roles to
   the dataset.
 disable-model-invocation: true
-argument-hint: [pollie-slug or strategy]
+argument-hint: "[pollie-slug or strategy]"
 model: sonnet
 allowed-tools: Read, Grep, Glob, Bash, WebSearch, WebFetch, Task
 ---
 
 # Find post-parliamentary gigs
 
-You orchestrate a search for jobs, roles, and positions that former Australian
-politicians have taken after leaving parliament. Per-pollie web research happens
-in parallel subagents; you handle selection, dedup, and write-back. Each
-subagent banks its own findings in `data/.find-inflight/<slug>.json` first, so a
-run that stops early loses at most the pollies still in flight. Results land in
-`data/gigs.json` for human verification.
+Per-pollie web research happens in parallel subagents; you handle selection,
+dedup, and write-back. Each subagent banks its findings in
+`data/.find-inflight/<slug>.json` first, so a run that stops early loses at most
+the pollies still in flight. Results land in `data/gigs.json` for human
+verification.
 
 ## Step 0: merge leftover sidecars
 
@@ -65,10 +63,7 @@ Print the selection (slug + current gig count) before dispatching.
 
 ## Step 2: dispatch one subagent per pollie in parallel
 
-Use the `Task` tool with `subagent_type: general-purpose` and `model: "sonnet"`
-(the `sonnet` alias resolves to Sonnet 5). Per-pollie web search has a strict
-output shape and well-defined rules, so it doesn't need Opus. Send all
-dispatches in a single message so they run concurrently.
+Dispatch one sonnet subagent per pollie, concurrently.
 
 Each subagent prompt must include:
 
@@ -84,11 +79,10 @@ Each subagent prompt must include:
   return that same JSON in a single fenced block. The file is what survives an
   interrupted run; the returned block is only a fallback for a subagent that
   died before writing.
-- An instruction to return only valid JSON in a single fenced block.
 
 ### Search instructions (verbatim in subagent prompt)
 
-> Conduct a thorough web search using multiple query patterns:
+> Search the web using these query patterns:
 >
 > 1. `"[Name]" former politician board director appointment`
 > 2. `"[Name]" after parliament consulting advisory role`
@@ -110,7 +104,7 @@ Each subagent prompt must include:
 > For each potential gig, use WebFetch to visit the source page and confirm:
 >
 > - The person is indeed the former politician (not a namesake).
-> - The role was taken AFTER leaving parliament.
+> - The role was taken after leaving parliament.
 > - The source URL actually confirms the role.
 >
 > **What counts as a gig.** A gig is a _position held over time_: a board seat,
@@ -143,7 +137,7 @@ Each subagent prompt must include:
 >
 > Prefer precision over coverage. A wrong gig goes onto a public site and costs
 > a human a verification pass to remove; a missed gig is picked up next sweep.
-> Do NOT fabricate gigs or source URLs. If your search turns up nothing, return
+> Do not fabricate gigs or source URLs. If your search turns up nothing, return
 > an empty `candidates` array rather than making things up.
 
 ### Role-naming rules (verbatim in subagent prompt)
@@ -213,8 +207,9 @@ type SubagentOutput = {
 ```
 
 The subagent must return exactly one fenced JSON block matching
-`SubagentOutput`. Do NOT include a `verification` field --- these are unverified
-candidates.
+`SubagentOutput`. It must not include a `verification` field: these are
+unverified candidates, and `verification` is only set by the human verification
+flow or by the verify-gigs skill.
 
 `role_evidence.quote` must be copied from the page, not paraphrased or composed.
 It is what Step 3a checks, and a candidate that cannot supply one does not
@@ -222,8 +217,7 @@ belong in the output.
 
 ## Step 3: collect findings
 
-Wait for all subagent tasks to return. Then, for each pollie dispatched this run
-and each leftover sidecar found in Step 0:
+For each pollie dispatched this run and each leftover sidecar found in Step 0:
 
 - Read `data/.find-inflight/<slug>.json`. Fall back to the subagent's returned
   fenced JSON block only when the sidecar is missing.
@@ -340,15 +334,7 @@ Per pollie:
 Then a totals line. If screened-out exceeds added across the run, say so
 explicitly --- either the bar is mis-tuned or the subagents are not reading it.
 
-## Important rules
+## Boundaries
 
-- Every gig MUST have at least one source URL. No exceptions.
-- Every candidate MUST carry a quoted `role_evidence` that states the role, and
-  is dropped in Step 3a if it does not. A position held, never a one-off act.
-- Only include roles taken AFTER the politician left parliament.
-- Do not fabricate gigs or source URLs.
-- Do NOT include a `verification` field --- these are unverified candidates. The
-  `verification` object is only set by the human verification flow or by the
-  verify-gigs skill.
-- Do NOT commit the changes --- the calling script handles git operations.
+- Do not commit the changes --- the calling script handles git operations.
 - Use Australian English in all communication.
