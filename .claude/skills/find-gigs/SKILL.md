@@ -1,6 +1,7 @@
 ---
 name: find-gigs
-description: Searches the internet for post-parliamentary gigs/roles for Australian
+description:
+  Searches the internet for post-parliamentary gigs/roles for Australian
   politicians and adds verified candidates to data/gigs.json. Use when finding
   new gigs, searching for politician jobs after parliament, or adding roles to
   the dataset.
@@ -21,8 +22,8 @@ run that stops early loses at most the pollies still in flight. Results land in
 
 ## Step 0: merge leftover sidecars
 
-`data/.find-inflight/` holds one JSON file per pollie whose research finished but
-whose findings had not been merged when a run stopped. The directory is
+`data/.find-inflight/` holds one JSON file per pollie whose research finished
+but whose findings had not been merged when a run stopped. The directory is
 untracked, so those files are still there on the next run.
 
 If any are present, merge them now, before selection: Steps 3 to 5 handle them
@@ -50,10 +51,10 @@ Otherwise, build the eligible set:
 
 - A pollie is _eligible_ if their slug is either absent from `find-state.json`
   or has a `last_searched_at` more than 14 days before today.
-- Put pollies who have never been searched (absent from `find-state.json`)
-  ahead of those merely due a re-search. Most of the roster has never been
-  searched, and treating both groups alike means a run spends most of its
-  budget re-searching pollies who already came up empty.
+- Put pollies who have never been searched (absent from `find-state.json`) ahead
+  of those merely due a re-search. Most of the roster has never been searched,
+  and treating both groups alike means a run spends most of its budget
+  re-searching pollies who already came up empty.
 - Within each group, sort by current gig count (ascending) so those with fewer
   gigs are checked first. Among ties, randomise.
 - Select up to 15 pollies.
