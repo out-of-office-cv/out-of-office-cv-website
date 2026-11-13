@@ -1,8 +1,7 @@
 # Out of Office CV
 
 Astro 7 site with TypeScript and Svelte 5. Data loaded at build time from CSV
-and JSON. Always do things the idiomatic Astro way, using modern TypeScript,
-Svelte 5 runes, and Astro best practices.
+and JSON.
 
 This static site is hosted at `https://www.outofoffice.cv` using GitHub Pages.
 
@@ -11,12 +10,7 @@ This static site is hosted at `https://www.outofoffice.cv` using GitHub Pages.
 Node and pnpm come from `mise.toml`; prefix with `mise exec --` outside a mise
 shell.
 
-- `pnpm dev` --- development server
-- `pnpm build` --- production build
-- `pnpm typecheck` --- Astro type checking
-- `pnpm lint` --- oxlint, then stylelint (`pnpm lint:css`)
-- `pnpm format` / `pnpm format:check` --- oxfmt
-- `pnpm test` --- run integration tests
+The scripts are in `package.json` (`pnpm lint` runs oxlint, then stylelint).
 
 CI (`.github/workflows/deploy.yml`) runs typecheck, lint, format:check and test
 before building.
@@ -60,23 +54,6 @@ The two main types in this site's data model are `Pollie` (a politician) and
 `Gig` (a gig/job/role they take after leaving office). These are defined in
 `src/types.ts`.
 
-- `astro.config.ts` --- site config
-- `src/types.ts` --- shared TypeScript interfaces
-- `src/utils/` --- shared utility functions (CSV parsing, date formatting,
-  pollie helpers)
-- `src/loaders.ts` --- data loading from CSV and JSON
-- `src/content.config.ts` --- Astro content collection with custom loader
-- `src/layouts/BaseLayout.astro` --- main page layout
-- `src/components/*.astro` --- server-rendered Astro components (zero JS)
-- `src/components/*.svelte` --- interactive Svelte 5 islands (client:load)
-- `src/stores/*.svelte.ts` --- Svelte 5 reactive stores (draft gigs, GitHub
-  auth, PR)
-- `src/pages/index.astro` --- home page with DirectoryFilters island
-- `src/pages/about.md` --- about page
-- `src/pages/contribute.astro` --- contribute page with GigEntryForm island
-  (`client:idle`)
-- `src/pages/pollies/[slug].astro` --- dynamic pollie detail pages
-- `data/pollies.csv` --- pollie data from APH Parliamentary Handbook API
-- `data/gigs.json` --- post-office roles data
-- `data/gigs.ts` --- typed re-export of `gigs.json` as `Gig[]`
-- `data/gigs-schema.ts` --- Zod schema for gig validation
+`data/` holds `pollies.csv` (from the APH Parliamentary Handbook API),
+`gigs.json` (post-office roles), `gigs.ts` (typed re-export as `Gig[]`) and
+`gigs-schema.ts` (Zod schema for gig validation).
