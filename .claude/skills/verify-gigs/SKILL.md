@@ -1,6 +1,7 @@
 ---
 name: verify-gigs
-description: Investigates existing unverified gigs in data/gigs.json, confirms or rejects
+description: >
+  Investigates existing unverified gigs in data/gigs.json, confirms or rejects
   them via web research, and improves source quality. Use for periodic
   verification sweeps.
 disable-model-invocation: true
