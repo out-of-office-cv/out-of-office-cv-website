@@ -54103,6 +54103,12 @@
     "organisation": "NSW Canegrowers",
     "category": "Agriculture, Forestry & Fisheries",
     "sources": ["https://cvnews.com.au/rip-ian-causley-man-of-cane-politician-of-stone/"],
-    "pollie_slug": "ian-causley"
+    "pollie_slug": "ian-causley",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited CV News obituary (also published by Clarence Valley News) is about Ian Causley, the former Page MP who died in 2020. It says he served \"as an executive in the sugar industry for 51 years, first being elected to Clarence Canegrowers executive and later the chair of NSW Canegrowers in 2009.\" That names the role and organisation, and 2009 is after he left parliament in 2007. A web search found no second source for the 2009 date."
+    },
+    "start_date": "2009"
   }
 ]
