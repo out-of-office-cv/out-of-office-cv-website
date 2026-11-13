@@ -1,7 +1,6 @@
 ---
 name: verify-gigs
-description:
-  Investigates existing unverified gigs in data/gigs.json, confirms or rejects
+description: Investigates existing unverified gigs in data/gigs.json, confirms or rejects
   them via web research, and improves source quality. Use for periodic
   verification sweeps.
 disable-model-invocation: true
@@ -10,11 +9,6 @@ allowed-tools: Read, Grep, Glob, Bash, WebSearch, WebFetch, Task
 ---
 
 # Verify post-parliamentary gigs
-
-You are verifying existing unverified gigs in `data/gigs.json`. For each
-candidate gig you investigate the original source, check it really refers to the
-named former MP/Senator, and decide whether to mark it `verified`, `rejected`,
-or leave it `unverified` for a human.
 
 ## Step 1: select a batch of gigs
 
@@ -47,13 +41,7 @@ Print the selection (pollie slug + count) before dispatching.
 
 ## Step 2: dispatch one subagent per pollie in parallel
 
-Use the `Task` tool with `subagent_type: general-purpose` and `model: "sonnet"`
-(the `sonnet` alias resolves to Sonnet 5). Per-pollie verification hinges on
-identity disambiguation (is this the former MP, or a namesake?) and weighing
-source authority --- judgement calls where a stronger model reduces the pile of
-borderline `"unverified"` gigs. The conservative `"unverified"` default still
-backstops anything genuinely ambiguous. Send all dispatches in a single message
-so they run concurrently.
+Dispatch one sonnet subagent per pollie, concurrently.
 
 Each subagent prompt must include:
 
@@ -152,7 +140,7 @@ The subagent must return exactly one fenced JSON block matching
 
 ## Step 3: collect findings
 
-Wait for all subagent tasks to return. For each one:
+For each subagent result:
 
 - Parse the fenced JSON block.
 - Validate against the schema above. Drop findings that fail validation; log
@@ -219,14 +207,7 @@ Per pollie:
 Then a totals line, and a count of gigs that reached `attempts: 3` this run and
 are now exhausted (the human-review backlog).
 
-## Important rules
+## Boundaries
 
-- Do NOT touch role, organisation, category, or pollie_slug --- ever.
-- Always supply a `note` for rejections. Findings without a note are dropped.
-- Do not rerun against gigs that already have a `verification` field (those are
-  filtered in Step 1's eligibility check; double-check before writing).
-- Do not rerun against exhausted gigs (`attempts >= 3` and still unverified) ---
-  they are also filtered in Step 1. A `verified`/`rejected` decision is the only
-  thing that ever clears a gig; three unconfirmed passes park it for a human.
-- Do NOT commit the changes --- the calling script handles git operations.
+- Do not commit the changes --- the calling script handles git operations.
 - Use Australian English in all communication.
