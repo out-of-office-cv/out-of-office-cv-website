@@ -54116,7 +54116,12 @@
     "organisation": "La Trobe University",
     "category": "Education, Academia & Research",
     "sources": ["https://www.nationaltribune.com.au/cathy-mcgowan-ao-new-role-with-la-trobe/"],
-    "pollie_slug": "cathy-mcgowan"
+    "pollie_slug": "cathy-mcgowan",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited National Tribune article (3 March 2020, a reprint of the La Trobe news release) says: 'Cathy McGowan AO was recognised as Vice-Chancellor's Fellow for La Trobe University.' This is after she left parliament in April 2019."
+    }
   },
   {
     "role": "Member for Taylor",
@@ -54124,7 +54129,12 @@
     "category": "Government, Public Administration & Civil Service",
     "sources": ["https://en.wikipedia.org/wiki/Nick_Champion"],
     "pollie_slug": "nick-champion",
-    "start_date": "2022-03-19"
+    "start_date": "2022-03-19",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Wikipedia: resigned from federal parliament on 22 Feb 2022 to contest the state election; infobox lists him as Member of the South Australian House of Assembly for Taylor from 19 March 2022."
+    }
   },
   {
     "role": "Member",
