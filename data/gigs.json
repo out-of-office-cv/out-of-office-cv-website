@@ -54125,5 +54125,16 @@
     "sources": ["https://en.wikipedia.org/wiki/Nick_Champion"],
     "pollie_slug": "nick-champion",
     "start_date": "2022-03-19"
+  },
+  {
+    "role": "Member",
+    "organisation": "Anzac Centenary Advisory Board",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": ["https://en.wikipedia.org/wiki/ANZAC_Centenary_Advisory_Board"],
+    "role_evidence": {
+      "url": "https://en.wikipedia.org/wiki/ANZAC_Centenary_Advisory_Board",
+      "quote": "The Hon. Sandy Macdonald | Member | Former Parliamentary Secretary for Defence"
+    },
+    "pollie_slug": "sandy-macdonald"
   }
 ]
