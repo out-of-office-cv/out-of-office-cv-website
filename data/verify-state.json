@@ -7581,5 +7581,17 @@
   "ian-causley|Chair|NSW Canegrowers|null": {
     "last_examined_at": "2026-11-13T15:22:07.747Z",
     "attempts": 1
+  },
+  "cathy-mcgowan|Vice-Chancellor's Fellow|La Trobe University|null": {
+    "last_examined_at": "2026-11-14T15:15:39.424Z",
+    "attempts": 1
+  },
+  "nick-champion|Member for Taylor|South Australian House of Assembly|2022-03-19": {
+    "last_examined_at": "2026-11-14T15:15:39.424Z",
+    "attempts": 1
+  },
+  "sandy-macdonald|Member|Anzac Centenary Advisory Board|null": {
+    "last_examined_at": "2026-11-14T15:15:39.424Z",
+    "attempts": 1
   }
 }
