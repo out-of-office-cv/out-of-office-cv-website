@@ -54164,6 +54164,11 @@
     "organisation": "Municipal Association of Victoria",
     "category": "Government, Public Administration & Civil Service",
     "sources": ["https://www.maynereport.com/images/2021/02/21-1EY0CG5VW00.pdf"],
-    "pollie_slug": "mike-symon"
+    "pollie_slug": "mike-symon",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited source is Cr Mike Symon's 2021 candidate statement for MAV President. It describes him as the \"current Board member for the Eastern Metro Region\" and \"2 years as the MAV Metro East Board Member\", elected for the current term in 2019, and lists \"6 years in Federal Parliament as the Federal Labor MP for Deakin\". The source is a candidate self-description; MAV board pages returned 403 and no second independent source was found."
+    }
   }
 ]
