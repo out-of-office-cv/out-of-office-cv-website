@@ -54177,6 +54177,11 @@
     "category": "Health, Medical & Aged Care",
     "sources": ["https://mnclhd.health.nsw.gov.au/latest-news/new-board-members-welcomed/"],
     "pollie_slug": "luke-hartsuyker",
-    "start_date": "2021-07-14"
+    "start_date": "2021-07-14",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited source is the Mid North Coast Local Health District's own news page ('New board members welcomed', 16 July 2021). It says: 'Also appointed to the Governing Board is former Federal Member for Cowper the Hon Luke Hartsuyker.' District Governing Board minutes from 2023 and 2024 and the board members page also list him (as Deputy Chair)."
+    }
   }
 ]
