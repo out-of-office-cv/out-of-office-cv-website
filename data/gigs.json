@@ -56324,5 +56324,15 @@
       "by": "claude",
       "note": "Crawford Fund news post 'Welcome to our new Board members' (25 August 2026): 'Dr John Allen and the Hon Sussan Ley were officially welcomed at the most recent Crawford Fund Board meeting' as new appointments to the Board of Directors; describes her as a former Leader of the Opposition."
     }
+  },
+  {
+    "role": "Member for Bass",
+    "organisation": "Tasmanian House of Assembly",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bridget_Archer"
+    ],
+    "pollie_slug": "bridget-archer",
+    "start_date": "2025-07-19"
   }
 ]
