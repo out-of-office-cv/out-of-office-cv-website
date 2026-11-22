@@ -56266,7 +56266,12 @@
       "url": "https://en.wikipedia.org/wiki/ANZAC_Centenary_Advisory_Board",
       "quote": "The Hon. Sandy Macdonald | Member | Former Parliamentary Secretary for Defence"
     },
-    "pollie_slug": "sandy-macdonald"
+    "pollie_slug": "sandy-macdonald",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Wikipedia page 'ANZAC Centenary Advisory Board' lists 'The Hon. Sandy Macdonald' as a Member, with the descriptor 'Former Parliamentary Secretary for Defence', matching the former National Party Senator for NSW. The board was set up around 2012-13, after he left parliament on 2008-06-30."
+    }
   },
   {
     "role": "Managing Director",
