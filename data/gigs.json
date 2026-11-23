@@ -56346,5 +56346,14 @@
       "by": "claude",
       "note": "The Parliament of Tasmania history page for Bridget Kathleen Archer lists her as a Liberal member for Bass in the House of Assembly from 19 July 2025, with no end date. It also notes her earlier service as federal Member for Bass (2019-2025), so this is the same person. Wikipedia says she was 'elected to the state seat of Bass at the 2025 Tasmanian State election' and gives 'assumed office' as 19 July 2025. The Tasmanian Electoral Commission's 2025 candidates-elected page also lists her. The start date of 19 July 2025 is the election date and falls after she left federal parliament on 3 May 2025."
     }
+  },
+  {
+    "role": "Non-Executive Director",
+    "organisation": "Bank of Sydney",
+    "category": "Financial Services and Banking",
+    "sources": [
+      "https://www.banksyd.com.au/about-us/news/2025/Bank-of-Sydney-Board-Appointments/"
+    ],
+    "pollie_slug": "kristina-keneally"
   }
 ]
