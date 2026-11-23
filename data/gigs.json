@@ -56354,6 +56354,11 @@
     "sources": [
       "https://www.banksyd.com.au/about-us/news/2025/Bank-of-Sydney-Board-Appointments/"
     ],
-    "pollie_slug": "kristina-keneally"
+    "pollie_slug": "kristina-keneally",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "Bank of Sydney news page (2025 Board Appointments) announces new board appointments \"including the Hon Kristina Keneally, Mr Dunstan de Souza, and Ms Diane Khoury, as non-executive directors\"."
+    }
   }
 ]
