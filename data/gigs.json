@@ -56380,5 +56380,18 @@
       "by": "claude",
       "note": "The cited RHSQ December 2012 Bulletin (organisation publication) tribute says he \"resigned his from his position as Vice-President of the RHSQ in September\" and identifies him as the former MP for Brisbane (1961-75, 1980-90). RHSQ September 2007 Bulletin also lists him among the Vice-presidents."
     }
+  },
+  {
+    "role": "Council Member",
+    "organisation": "Australian War Memorial",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://thenightly.com.au/politics/albanese-government-hands-former-opposition-leader-peter-dutton-new-job-c-23133721"
+    ],
+    "role_evidence": {
+      "url": "https://thenightly.com.au/politics/albanese-government-hands-former-opposition-leader-peter-dutton-new-job-c-23133721",
+      "quote": "will join the AWM Council later this month for a three-year term."
+    },
+    "pollie_slug": "peter-dutton"
   }
 ]
