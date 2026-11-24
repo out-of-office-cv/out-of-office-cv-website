@@ -56360,5 +56360,19 @@
       "by": "claude",
       "note": "Bank of Sydney news page (2025 Board Appointments) announces new board appointments \"including the Hon Kristina Keneally, Mr Dunstan de Souza, and Ms Diane Khoury, as non-executive directors\"."
     }
+  },
+  {
+    "role": "Vice-President",
+    "organisation": "Royal Historical Society of Queensland",
+    "category": "Arts, Culture & Sport",
+    "sources": [
+      "https://queenslandhistory.org/s/770-December-2012-Bulletin.pdf"
+    ],
+    "role_evidence": {
+      "url": "https://queenslandhistory.org/s/770-December-2012-Bulletin.pdf",
+      "quote": "Manfred Cross, who resigned his from his position as Vice-President of the RHSQ in September."
+    },
+    "end_date": "2012-09",
+    "pollie_slug": "manfred-cross"
   }
 ]
