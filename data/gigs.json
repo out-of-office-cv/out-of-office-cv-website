@@ -56366,13 +56366,19 @@
     "organisation": "Royal Historical Society of Queensland",
     "category": "Arts, Culture & Sport",
     "sources": [
-      "https://queenslandhistory.org/s/770-December-2012-Bulletin.pdf"
+      "https://queenslandhistory.org/s/770-December-2012-Bulletin.pdf",
+      "https://queenslandhistory.org/s/712-September-07.pdf"
     ],
     "role_evidence": {
       "url": "https://queenslandhistory.org/s/770-December-2012-Bulletin.pdf",
       "quote": "Manfred Cross, who resigned his from his position as Vice-President of the RHSQ in September."
     },
     "end_date": "2012-09",
-    "pollie_slug": "manfred-cross"
+    "pollie_slug": "manfred-cross",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The cited RHSQ December 2012 Bulletin (organisation publication) tribute says he \"resigned his from his position as Vice-President of the RHSQ in September\" and identifies him as the former MP for Brisbane (1961-75, 1980-90). RHSQ September 2007 Bulletin also lists him among the Vice-presidents."
+    }
   }
 ]
