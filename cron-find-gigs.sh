@@ -40,6 +40,7 @@ mirror_state data/find-state.json
 # The skill is told not to commit, but if it does anyway, fold the commits back
 # into the index so committed and uncommitted changes are handled identically.
 git reset --soft "$RUN_BASE" >>"$LOG_FILE" 2>&1
+format_data data/gigs.json
 git add data/gigs.json
 git reset -q "$RUN_BASE" -- data/find-state.json 2>/dev/null || true
 

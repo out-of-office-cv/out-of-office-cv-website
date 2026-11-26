@@ -136,6 +136,16 @@ finish_run() {
     log "=== ${JOB_NAME} finished ==="
 }
 
+# Format what the agent wrote before it is staged. CI runs `oxfmt --check`, and
+# an agent that rewrites a whole data file rather than editing entries in place
+# leaves it in JSON.stringify's layout, which fails that check and blocks every
+# deploy until someone reformats the file by hand. A formatter failure is
+# logged and the run carries on: unformatted data is better than no PR.
+format_data() {
+    pnpm exec oxfmt "$@" >>"$LOG_FILE" 2>&1 ||
+        log "oxfmt failed on $*, committing it unformatted"
+}
+
 # Replay this run's data-only commit onto current origin/main before pushing.
 #
 # A run commits against the tree it checked out, which can be an hour or more
