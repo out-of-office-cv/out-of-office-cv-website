@@ -39,7 +39,7 @@ mirror_state data/find-state.json
 
 # The skill is told not to commit, but if it does anyway, fold the commits back
 # into the index so committed and uncommitted changes are handled identically.
-git reset --soft "$RUN_BASE" >> "$LOG_FILE" 2>&1
+git reset --soft "$RUN_BASE" >>"$LOG_FILE" 2>&1
 git add data/gigs.json
 git reset -q "$RUN_BASE" -- data/find-state.json 2>/dev/null || true
 
@@ -47,17 +47,17 @@ git reset -q "$RUN_BASE" -- data/find-state.json 2>/dev/null || true
 # in it: it is bookkeeping, and routing it through a PR made the search throttle
 # depend on how quickly that PR got merged.
 if git diff --cached --quiet data/gigs.json; then
-  if [[ $AGENT_EXIT -ne 0 ]]; then
-    log "Agent exited ${AGENT_EXIT} and left no changes; not an empty search"
-  else
-    log "No new gigs found, nothing to commit"
-  fi
-  git reset --hard "$RUN_BASE" >> "$LOG_FILE" 2>&1
+    if [[ $AGENT_EXIT -ne 0 ]]; then
+        log "Agent exited ${AGENT_EXIT} and left no changes; not an empty search"
+    else
+        log "No new gigs found, nothing to commit"
+    fi
+    git reset --hard "$RUN_BASE" >>"$LOG_FILE" 2>&1
 else
-  BRANCH="find-gigs-$(date +%Y%m%d-%H%M%S)"
-  git checkout -b "$BRANCH"
-  git show "$RUN_BASE":data/gigs.json > /tmp/find-gigs-old.json
-  python3 <<'PYEOF'
+    BRANCH="find-gigs-$(date +%Y%m%d-%H%M%S)"
+    git checkout -b "$BRANCH"
+    git show "$RUN_BASE":data/gigs.json >/tmp/find-gigs-old.json
+    python3 <<'PYEOF'
 import json
 from collections import Counter
 
@@ -93,25 +93,25 @@ with open("/tmp/find-gigs-title", "w") as f:
 with open("/tmp/find-gigs-body", "w") as f:
     f.write("\n".join(body_lines))
 PYEOF
-  PR_TITLE=$(cat /tmp/find-gigs-title)
-  PR_BODY=$(cat /tmp/find-gigs-body)
-  if [[ $AGENT_EXIT -ne 0 ]]; then
-    PR_BODY="**Partial run**: the agent exited ${AGENT_EXIT}, so this is
+    PR_TITLE=$(cat /tmp/find-gigs-title)
+    PR_BODY=$(cat /tmp/find-gigs-body)
+    if [[ $AGENT_EXIT -ne 0 ]]; then
+        PR_BODY="**Partial run**: the agent exited ${AGENT_EXIT}, so this is
 whatever it had finished before it stopped.
 
 ${PR_BODY}"
-  fi
-  rm -f /tmp/find-gigs-old.json /tmp/find-gigs-title /tmp/find-gigs-body
-  git commit -m "Add gigs found by cron job"
-  rebase_onto_main || exit 1
-  git push -u origin "$BRANCH"
-  gh pr create \
-    --title "$PR_TITLE" \
-    --body "$PR_BODY" \
-    >> "$LOG_FILE" 2>&1
-  git checkout -f --detach origin/main
-  git branch -D "$BRANCH"
-  log "PR created on branch ${BRANCH}, local branch deleted"
+    fi
+    rm -f /tmp/find-gigs-old.json /tmp/find-gigs-title /tmp/find-gigs-body
+    git commit -m "Add gigs found by cron job"
+    rebase_onto_main || exit 1
+    git push -u origin "$BRANCH"
+    gh pr create \
+        --title "$PR_TITLE" \
+        --body "$PR_BODY" \
+        >>"$LOG_FILE" 2>&1
+    git checkout -f --detach origin/main
+    git branch -D "$BRANCH"
+    log "PR created on branch ${BRANCH}, local branch deleted"
 fi
 
 finish_run

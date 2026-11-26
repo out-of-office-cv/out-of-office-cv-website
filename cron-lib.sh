@@ -2,7 +2,7 @@
 # Shared helpers for cron-find-gigs.sh and cron-verify-gigs.sh. Sourced, never
 # executed: the caller sets PROJECT_DIR and LOG_FILE before sourcing.
 
-log() { echo "$(date -Iseconds) $*" >> "$LOG_FILE"; }
+log() { echo "$(date -Iseconds) $*" >>"$LOG_FILE"; }
 
 # Serialise the two jobs on one lockfile. Both start with `git checkout -f
 # --detach`, so a second run sharing the checkout pulls the ground out from
@@ -14,20 +14,20 @@ log() { echo "$(date -Iseconds) $*" >> "$LOG_FILE"; }
 # skip the whole slot. Bounded, though, so a stuck holder can never make this
 # run outlive the unit's TimeoutStartSec.
 take_lock() {
-  local wait_secs="${LOCK_WAIT_SECS:-900}"
+    local wait_secs="${LOCK_WAIT_SECS:-900}"
 
-  # Held across the re-exec in sync_checkout: fd 9 stays open through exec, so
-  # taking it again here would be this process waiting on its own lock.
-  if [[ "${CRON_LOCK_HELD:-}" == "1" ]]; then
-    return 0
-  fi
-  exec 9>"${PROJECT_DIR}/.cron.lock"
-  if flock -w "$wait_secs" 9; then
-    export CRON_LOCK_HELD=1
-    return 0
-  fi
-  log "Lock held by the other gig job for ${wait_secs}s, skipping this run"
-  return 1
+    # Held across the re-exec in sync_checkout: fd 9 stays open through exec, so
+    # taking it again here would be this process waiting on its own lock.
+    if [[ "${CRON_LOCK_HELD:-}" == "1" ]]; then
+        return 0
+    fi
+    exec 9>"${PROJECT_DIR}/.cron.lock"
+    if flock -w "$wait_secs" 9; then
+        export CRON_LOCK_HELD=1
+        return 0
+    fi
+    log "Lock held by the other gig job for ${wait_secs}s, skipping this run"
+    return 1
 }
 
 # Bring the worktree to origin/main and then re-exec, because this script and
@@ -40,20 +40,20 @@ take_lock() {
 # the job, and there is no local branch to collide with the one the main
 # checkout has out.
 sync_checkout_and_reexec() {
-  if [[ "${CRON_SYNCED:-}" == "1" ]]; then
-    return 0
-  fi
-  {
-    git fetch origin
-    git checkout -f --detach origin/main
-    git reset --hard origin/main
-    # The skills build and test in this checkout, so its node_modules must
-    # match the lockfile it just checked out.
-    pnpm install --frozen-lockfile
-  } >> "$LOG_FILE" 2>&1
-  export CRON_SYNCED=1
-  log "Synced to origin/main, re-executing to pick up the checked-out scripts"
-  exec "$0" "$@"
+    if [[ "${CRON_SYNCED:-}" == "1" ]]; then
+        return 0
+    fi
+    {
+        git fetch origin
+        git checkout -f --detach origin/main
+        git reset --hard origin/main
+        # The skills build and test in this checkout, so its node_modules must
+        # match the lockfile it just checked out.
+        pnpm install --frozen-lockfile
+    } >>"$LOG_FILE" 2>&1
+    export CRON_SYNCED=1
+    log "Synced to origin/main, re-executing to pick up the checked-out scripts"
+    exec "$0" "$@"
 }
 
 # Run one skill through the shared dotfiles dispatcher, leaving its exit status
@@ -77,42 +77,42 @@ sync_checkout_and_reexec() {
 # under the default claude-sub profile for a day, and every run in between
 # reported a quiet "nothing found" rather than a failure.
 run_agent() {
-  local skill="$1"
-  local profile="${AGENT_PROFILE:-claude-sub}"
-  local model="${AGENT_MODEL:-}"
-  local bin="${AGENT_RUN_BIN:-/home/ben/.dotfiles/bin/agent-run}"
-  local -a cmd=(
-    "$bin"
-    --profile "$profile"
-    --cwd "$PROJECT_DIR"
-    --bypass-permissions
-  )
-  local -a describe_cmd=("$bin" --profile "$profile")
+    local skill="$1"
+    local profile="${AGENT_PROFILE:-claude-sub}"
+    local model="${AGENT_MODEL:-}"
+    local bin="${AGENT_RUN_BIN:-/home/ben/.dotfiles/bin/agent-run}"
+    local -a cmd=(
+        "$bin"
+        --profile "$profile"
+        --cwd "$PROJECT_DIR"
+        --bypass-permissions
+    )
+    local -a describe_cmd=("$bin" --profile "$profile")
 
-  if [[ -n "$model" ]]; then
-    cmd+=(--model "$model")
-    describe_cmd+=(--model "$model")
-  fi
-  cmd+=("/${skill}")
-  describe_cmd+=(--describe)
+    if [[ -n "$model" ]]; then
+        cmd+=(--model "$model")
+        describe_cmd+=(--model "$model")
+    fi
+    cmd+=("/${skill}")
+    describe_cmd+=(--describe)
 
-  if [[ ! -x "$bin" ]]; then
-    log "Agent dispatcher ${bin} is not executable"
-    exit 1
-  fi
+    if [[ ! -x "$bin" ]]; then
+        log "Agent dispatcher ${bin} is not executable"
+        exit 1
+    fi
 
-  # Recorded before the agent is invoked, so a killed run is still attributable.
-  log "Agent: $("${describe_cmd[@]}" 2>&1)"
+    # Recorded before the agent is invoked, so a killed run is still attributable.
+    log "Agent: $("${describe_cmd[@]}" 2>&1)"
 
-  set +e
-  "${cmd[@]}" >> "$LOG_FILE" 2>&1
-  AGENT_EXIT=$?
-  set -e
-  if [[ $AGENT_EXIT -eq 0 ]]; then
-    log "Agent exited 0"
-  else
-    log "Agent exited ${AGENT_EXIT}, output may be partial"
-  fi
+    set +e
+    "${cmd[@]}" >>"$LOG_FILE" 2>&1
+    AGENT_EXIT=$?
+    set -e
+    if [[ $AGENT_EXIT -eq 0 ]]; then
+        log "Agent exited 0"
+    else
+        log "Agent exited ${AGENT_EXIT}, output may be partial"
+    fi
 }
 
 # End the run, failing the unit when the agent did.
@@ -128,12 +128,12 @@ run_agent() {
 # This fires even when the run committed and opened a PR: partial work is still
 # a fault, and the PR body saying "partial" only reaches whoever opens the PR.
 finish_run() {
-  local exit_code="${AGENT_EXIT:-0}"
-  if [[ $exit_code -ne 0 ]]; then
-    log "=== ${JOB_NAME} finished, failing the unit: agent exited ${exit_code} ==="
-    exit "$exit_code"
-  fi
-  log "=== ${JOB_NAME} finished ==="
+    local exit_code="${AGENT_EXIT:-0}"
+    if [[ $exit_code -ne 0 ]]; then
+        log "=== ${JOB_NAME} finished, failing the unit: agent exited ${exit_code} ==="
+        exit "$exit_code"
+    fi
+    log "=== ${JOB_NAME} finished ==="
 }
 
 # Replay this run's data-only commit onto current origin/main before pushing.
@@ -149,14 +149,14 @@ finish_run() {
 # worktree goes back to origin/main, and the run fails loudly for the health
 # check to pick up.
 rebase_onto_main() {
-  git fetch origin >> "$LOG_FILE" 2>&1
-  if git rebase origin/main >> "$LOG_FILE" 2>&1; then
-    return 0
-  fi
-  git rebase --abort >> "$LOG_FILE" 2>&1 || true
-  git checkout -f --detach origin/main >> "$LOG_FILE" 2>&1 || true
-  log "Could not replay this run's data commit onto origin/main, leaving it unpushed"
-  return 1
+    git fetch origin >>"$LOG_FILE" 2>&1
+    if git rebase origin/main >>"$LOG_FILE" 2>&1; then
+        return 0
+    fi
+    git rebase --abort >>"$LOG_FILE" 2>&1 || true
+    git checkout -f --detach origin/main >>"$LOG_FILE" 2>&1 || true
+    log "Could not replay this run's data commit onto origin/main, leaving it unpushed"
+    return 1
 }
 
 # The search-throttle state files (data/find-state.json, data/verify-state.json)
@@ -172,9 +172,9 @@ STATE_BRANCH="${STATE_BRANCH:-cron-state}"
 
 # Echo the mirror ref, or fail if there is no mirror yet.
 state_mirror_ref() {
-  local ref="refs/remotes/origin/${STATE_BRANCH}"
-  git fetch -q origin "+refs/heads/${STATE_BRANCH}:${ref}" 2>/dev/null || return 1
-  git rev-parse -q --verify "$ref"
+    local ref="refs/remotes/origin/${STATE_BRANCH}"
+    git fetch -q origin "+refs/heads/${STATE_BRANCH}:${ref}" 2>/dev/null || return 1
+    git rev-parse -q --verify "$ref"
 }
 
 # Restore any state file that is missing --- a fresh worktree, or the first run
@@ -182,61 +182,61 @@ state_mirror_ref() {
 # longer contains them deletes them. Never overwrites a file that is present:
 # local is authoritative, the mirror is only a fallback.
 load_state() {
-  local ref f
-  if ! ref="$(state_mirror_ref)"; then
-    log "No ${STATE_BRANCH} mirror yet, using whatever state is on disk"
-    return 0
-  fi
-  for f in "$@"; do
-    [[ -f "$f" ]] && continue
-    if git cat-file -e "${ref}:${f}" 2>/dev/null; then
-      git show "${ref}:${f}" > "$f"
-      log "Restored ${f} from ${STATE_BRANCH}"
+    local ref f
+    if ! ref="$(state_mirror_ref)"; then
+        log "No ${STATE_BRANCH} mirror yet, using whatever state is on disk"
+        return 0
     fi
-  done
+    for f in "$@"; do
+        [[ -f "$f" ]] && continue
+        if git cat-file -e "${ref}:${f}" 2>/dev/null; then
+            git show "${ref}:${f}" >"$f"
+            log "Restored ${f} from ${STATE_BRANCH}"
+        fi
+    done
 }
 
 # Mirror the state files onto the state branch, best effort. Built from plumbing
 # against a scratch index so it never touches HEAD, the real index, or the
 # working tree, and so it cannot disturb the PR the caller is about to open.
 mirror_state() {
-  local tmp_index tree parent commit ref
-  local -a parent_args=()
+    local tmp_index tree parent commit ref
+    local -a parent_args=()
 
-  ref="refs/remotes/origin/${STATE_BRANCH}"
+    ref="refs/remotes/origin/${STATE_BRANCH}"
 
-  tmp_index="$(mktemp -u)"
-  # Seed the scratch index from the current mirror before adding this job's
-  # files. write-tree serialises the whole index, so without the seed the tree
-  # holds only "$@" and the commit deletes every path the other job owns. That
-  # is how data/verify-state.json disappeared from the branch on 2026-08-16:
-  # the seed carried both files, then the next find run replaced the tree with
-  # find-state.json alone. Each job must carry the other's state forward.
-  if git rev-parse -q --verify "$ref" > /dev/null &&
-    ! GIT_INDEX_FILE="$tmp_index" git read-tree "$ref" 2>>"$LOG_FILE"; then
-    log "Could not read the ${STATE_BRANCH} mirror; writing only this job's state"
-  fi
-  if ! GIT_INDEX_FILE="$tmp_index" git add --force -- "$@" 2>>"$LOG_FILE"; then
-    log "Could not stage state for the ${STATE_BRANCH} mirror, skipping it"
-    rm -f "$tmp_index"
-    return 0
-  fi
-  tree="$(GIT_INDEX_FILE="$tmp_index" git write-tree)"
-  rm -f "$tmp_index"
-
-  if parent="$(git rev-parse -q --verify "$ref")"; then
-    parent_args=(-p "$parent")
-    if [[ "$(git rev-parse "${parent}^{tree}")" == "$tree" ]]; then
-      log "State unchanged, nothing to mirror"
-      return 0
+    tmp_index="$(mktemp -u)"
+    # Seed the scratch index from the current mirror before adding this job's
+    # files. write-tree serialises the whole index, so without the seed the tree
+    # holds only "$@" and the commit deletes every path the other job owns. That
+    # is how data/verify-state.json disappeared from the branch on 2026-08-16:
+    # the seed carried both files, then the next find run replaced the tree with
+    # find-state.json alone. Each job must carry the other's state forward.
+    if git rev-parse -q --verify "$ref" >/dev/null &&
+        ! GIT_INDEX_FILE="$tmp_index" git read-tree "$ref" 2>>"$LOG_FILE"; then
+        log "Could not read the ${STATE_BRANCH} mirror; writing only this job's state"
     fi
-  fi
+    if ! GIT_INDEX_FILE="$tmp_index" git add --force -- "$@" 2>>"$LOG_FILE"; then
+        log "Could not stage state for the ${STATE_BRANCH} mirror, skipping it"
+        rm -f "$tmp_index"
+        return 0
+    fi
+    tree="$(GIT_INDEX_FILE="$tmp_index" git write-tree)"
+    rm -f "$tmp_index"
 
-  commit="$(git commit-tree "$tree" "${parent_args[@]}" \
-    -m "state: ${JOB_NAME:-cron} $(date -Iseconds)")"
-  if git push -q origin "${commit}:refs/heads/${STATE_BRANCH}" 2>>"$LOG_FILE"; then
-    log "Mirrored state to ${STATE_BRANCH}"
-  else
-    log "Could not push the ${STATE_BRANCH} mirror; local state still authoritative"
-  fi
+    if parent="$(git rev-parse -q --verify "$ref")"; then
+        parent_args=(-p "$parent")
+        if [[ "$(git rev-parse "${parent}^{tree}")" == "$tree" ]]; then
+            log "State unchanged, nothing to mirror"
+            return 0
+        fi
+    fi
+
+    commit="$(git commit-tree "$tree" "${parent_args[@]}" \
+        -m "state: ${JOB_NAME:-cron} $(date -Iseconds)")"
+    if git push -q origin "${commit}:refs/heads/${STATE_BRANCH}" 2>>"$LOG_FILE"; then
+        log "Mirrored state to ${STATE_BRANCH}"
+    else
+        log "Could not push the ${STATE_BRANCH} mirror; local state still authoritative"
+    fi
 }

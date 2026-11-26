@@ -38,24 +38,24 @@ mirror_state data/verify-state.json
 
 # The skill is told not to commit, but if it does anyway, fold the commits back
 # into the index so committed and uncommitted changes are handled identically.
-git reset --soft "$RUN_BASE" >> "$LOG_FILE" 2>&1
+git reset --soft "$RUN_BASE" >>"$LOG_FILE" 2>&1
 git add data/gigs.json
 git reset -q "$RUN_BASE" -- data/verify-state.json 2>/dev/null || true
 
 if git diff --cached --quiet data/gigs.json; then
-  if [[ $AGENT_EXIT -ne 0 ]]; then
-    log "Agent exited ${AGENT_EXIT} and left no changes; not a clean recheck"
-  else
-    log "No verification changes, nothing to commit"
-  fi
-  git reset --hard "$RUN_BASE" >> "$LOG_FILE" 2>&1
+    if [[ $AGENT_EXIT -ne 0 ]]; then
+        log "Agent exited ${AGENT_EXIT} and left no changes; not a clean recheck"
+    else
+        log "No verification changes, nothing to commit"
+    fi
+    git reset --hard "$RUN_BASE" >>"$LOG_FILE" 2>&1
 else
-  BRANCH="verify-gigs-$(date +%Y%m%d-%H%M%S)"
-  git checkout -b "$BRANCH"
-  git show "$RUN_BASE":data/gigs.json > /tmp/verify-gigs-old.json
-  git add data/gigs.json
-git reset -q "$RUN_BASE" -- data/verify-state.json 2>/dev/null || true
-  python3 <<'PYEOF'
+    BRANCH="verify-gigs-$(date +%Y%m%d-%H%M%S)"
+    git checkout -b "$BRANCH"
+    git show "$RUN_BASE":data/gigs.json >/tmp/verify-gigs-old.json
+    git add data/gigs.json
+    git reset -q "$RUN_BASE" -- data/verify-state.json 2>/dev/null || true
+    python3 <<'PYEOF'
 import json
 from collections import defaultdict
 
@@ -125,25 +125,25 @@ with open("/tmp/verify-gigs-title", "w") as f:
 with open("/tmp/verify-gigs-body", "w") as f:
     f.write("\n".join(body))
 PYEOF
-  PR_TITLE=$(cat /tmp/verify-gigs-title)
-  PR_BODY=$(cat /tmp/verify-gigs-body)
-  if [[ $AGENT_EXIT -ne 0 ]]; then
-    PR_BODY="**Partial run**: the agent exited ${AGENT_EXIT}, so this is
+    PR_TITLE=$(cat /tmp/verify-gigs-title)
+    PR_BODY=$(cat /tmp/verify-gigs-body)
+    if [[ $AGENT_EXIT -ne 0 ]]; then
+        PR_BODY="**Partial run**: the agent exited ${AGENT_EXIT}, so this is
 whatever it had finished before it stopped.
 
 ${PR_BODY}"
-  fi
-  rm -f /tmp/verify-gigs-old.json /tmp/verify-gigs-title /tmp/verify-gigs-body
-  git commit -m "Verify gigs via cron job"
-  rebase_onto_main || exit 1
-  git push -u origin "$BRANCH"
-  gh pr create \
-    --title "$PR_TITLE" \
-    --body "$PR_BODY" \
-    >> "$LOG_FILE" 2>&1
-  git checkout -f --detach origin/main
-  git branch -D "$BRANCH"
-  log "PR created on branch ${BRANCH}, local branch deleted"
+    fi
+    rm -f /tmp/verify-gigs-old.json /tmp/verify-gigs-title /tmp/verify-gigs-body
+    git commit -m "Verify gigs via cron job"
+    rebase_onto_main || exit 1
+    git push -u origin "$BRANCH"
+    gh pr create \
+        --title "$PR_TITLE" \
+        --body "$PR_BODY" \
+        >>"$LOG_FILE" 2>&1
+    git checkout -f --detach origin/main
+    git branch -D "$BRANCH"
+    log "PR created on branch ${BRANCH}, local branch deleted"
 fi
 
 finish_run
