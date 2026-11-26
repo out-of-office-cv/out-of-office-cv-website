@@ -7625,5 +7625,9 @@
   "peter-dutton|Council Member|Australian War Memorial|null": {
     "last_examined_at": "2026-11-25T15:10:26.626Z",
     "attempts": 1
+  },
+  "douglas-scott|Farmer|Self-employed|null": {
+    "last_examined_at": "2026-11-26T15:05:30.645Z",
+    "attempts": 1
   }
 }
