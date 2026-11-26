@@ -56398,5 +56398,15 @@
       "by": "claude",
       "note": "The cited Nightly article (9 Nov 2026) reports Veterans' Affairs Minister Matt Keogh announcing that Peter Dutton \"will join the AWM Council later this month for a three-year term\". Dutton also said he was honoured to be appointed to the Australian War Memorial Council. Other coverage (Newcastle Herald, The New Daily, region.com.au) gives a term starting 14 Nov 2026, replacing Glenn Keys. Dates fall after he left parliament in May 2025."
     }
+  },
+  {
+    "role": "Farmer",
+    "organisation": "Self-employed",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": [
+      "https://biography.senate.gov.au/scott-douglas-barr/",
+      "https://en.wikipedia.org/wiki/Douglas_Scott_(politician)"
+    ],
+    "pollie_slug": "douglas-scott"
   }
 ]
