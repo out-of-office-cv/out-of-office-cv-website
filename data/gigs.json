@@ -54282,5 +54282,68 @@
       "by": "claude",
       "note": "The Senate Biographical Dictionary entry for Douglas Barr Scott says that \"after leaving the Senate Scott returned to his property near Grenfell\" and to the farming industry."
     }
+  },
+  {
+    "role": "Director",
+    "organisation": "Operation Flinders Foundation",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.parliament.sa.gov.au/-/media/Project/Parliament/Documents/Members/Oral-Histories/Oral-Histories-John-Quirke.pdf"
+    ],
+    "pollie_slug": "john-quirke"
+  },
+  {
+    "role": "Co-Editor",
+    "organisation": "Illawarra Unity",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://theconversation.com/profiles/michael-organ-10791",
+      "https://michaelorganresearch.blogspot.com/2020/11/michael-organ-publications.html"
+    ],
+    "pollie_slug": "michael-organ"
+  },
+  {
+    "role": "Secretary",
+    "organisation": "Tasmanian Pacing Club",
+    "category": "Gambling, Gaming and Racing",
+    "sources": ["https://biography.senate.gov.au/devereux-john-robert/"],
+    "pollie_slug": "john-devereux"
+  },
+  {
+    "role": "Adjunct Professor",
+    "organisation": "University of Canberra",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://events.humanitix.com/the-2025-federal-election-an-insider-s-view",
+      "https://www.canberra.edu.au/about-uc/faculties/busgovlaw/our-people/adjuncts"
+    ],
+    "pollie_slug": "scott-ryan"
+  },
+  {
+    "role": "Director of Government Relations",
+    "organisation": "Printing Industries Association of Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": [
+      "https://print21.com.au/news/piaa-condemns-partisan-fwc/",
+      "https://print21.com.au/news/a-solid-role-for-print-in-parliament-piaa/"
+    ],
+    "pollie_slug": "mary-fisher"
+  },
+  {
+    "role": "Manager of Member Services (South Australia and Northern Territory)",
+    "organisation": "Printing Industries Association of Australia",
+    "category": "Professional Services & Management Consulting",
+    "sources": ["https://print21.com.au/news/sea-change-of-staff-at-piaa/"],
+    "pollie_slug": "mary-fisher"
+  },
+  {
+    "role": "Senior Research Fellow",
+    "organisation": "Menzies Research Centre",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.menziesrc.org/latest-research/childcare-policy-needs-more-choice-not-just-more-money",
+      "https://www.menziesrc.org/staff"
+    ],
+    "pollie_slug": "alan-tudge"
   }
 ]
