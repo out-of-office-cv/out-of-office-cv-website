@@ -54276,6 +54276,11 @@
       "https://biography.senate.gov.au/scott-douglas-barr/",
       "https://en.wikipedia.org/wiki/Douglas_Scott_(politician)"
     ],
-    "pollie_slug": "douglas-scott"
+    "pollie_slug": "douglas-scott",
+    "verification": {
+      "decision": "verified",
+      "by": "claude",
+      "note": "The Senate Biographical Dictionary entry for Douglas Barr Scott says that \"after leaving the Senate Scott returned to his property near Grenfell\" and to the farming industry."
+    }
   }
 ]
