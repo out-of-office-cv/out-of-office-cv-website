@@ -54412,5 +54412,35 @@
       "note": "Confirmed by the cited PCA Award (PCA Case No. 2023-40, 26 September 2025), para 181(i): Mr Palmer 'has held numerous positions in Mineralogy since its inception and continues to do so currently as director since February 2019', citing an ASIC company extract."
     },
     "start_date": "2019-02"
+  },
+  {
+    "role": "Independent Director, Advisory Board",
+    "organisation": "Australian Institute of Tropical Health and Medicine",
+    "category": "Education, Academia & Research",
+    "sources": [
+      "https://os-data.s3-ap-southeast-2.amazonaws.com/aithm-jcu-edu-au/bundle8/online_version_jcu_aithm_ar_2023-lr.pdf"
+    ],
+    "pollie_slug": "jan-mclucas"
+  },
+  {
+    "role": "Child and Young Person's Visitor",
+    "organisation": "Office of the Guardian for Children and Young People (South Australia)",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": [
+      "https://gcyp.sa.gov.au/wordpress/wp-content/uploads/2021/04/GCYP-Annual-Report-2018-19.pdf",
+      "https://gcyp.sa.gov.au/2021/08/24/guardian-resigns-from-her-role-of-child-and-young-persons-visitor/"
+    ],
+    "start_date": "2018-02-26",
+    "end_date": "2021-08-23",
+    "pollie_slug": "penny-wright"
+  },
+  {
+    "role": "Steering Committee Member",
+    "organisation": "Council for Inclusive Capitalism",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.inclusivecapitalism.com/news-insights/council-for-inclusive-capitalism-convenes-global-ceos-and-faith-leaders-to-advance-a-more-inclusive-and-sustainable-economy/"
+    ],
+    "pollie_slug": "mathias-cormann"
   }
 ]
