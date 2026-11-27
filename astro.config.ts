@@ -2,12 +2,13 @@ import { defineConfig, fontProviders } from "astro/config";
 import svelte from "@astrojs/svelte";
 import { unified } from "@astrojs/markdown-remark";
 import remarkSmartypants from "remark-smartypants";
+import plausible from "./src/plausible";
 
 export default defineConfig({
   site: "https://www.outofoffice.cv",
   trailingSlash: "never",
   compressHTML: true,
-  integrations: [svelte()],
+  integrations: [svelte(), plausible("outofoffice.cv")],
   vite: {},
   markdown: {
     processor: unified(),
