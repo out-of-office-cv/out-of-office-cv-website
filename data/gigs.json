@@ -54345,5 +54345,19 @@
       "https://www.menziesrc.org/staff"
     ],
     "pollie_slug": "alan-tudge"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Zeph Investments Pte Ltd",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": ["https://pcacases.com/web/sendAttach/90853"],
+    "pollie_slug": "clive-palmer"
+  },
+  {
+    "role": "Director",
+    "organisation": "Mineralogy Pty Ltd",
+    "category": "Natural Resources (Mining, Oil & Gas)",
+    "sources": ["https://pcacases.com/web/sendAttach/90853"],
+    "pollie_slug": "clive-palmer"
   }
 ]
