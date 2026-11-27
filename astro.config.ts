@@ -11,8 +11,9 @@ export default defineConfig({
   integrations: [svelte(), plausible("outofoffice.cv")],
   vite: {},
   markdown: {
-    processor: unified(),
-    remarkPlugins: [[remarkSmartypants as never, { dashes: "oldschool" }]],
+    processor: unified({
+      remarkPlugins: [[remarkSmartypants as never, { dashes: "oldschool" }]],
+    }),
   },
   fonts: [
     {
