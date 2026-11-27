@@ -7629,5 +7629,41 @@
   "douglas-scott|Farmer|Self-employed|null": {
     "last_examined_at": "2026-11-26T15:05:30.645Z",
     "attempts": 1
+  },
+  "clive-palmer|Chair|Zeph Investments Pte Ltd|null": {
+    "last_examined_at": "2026-11-27T15:15:55.856Z",
+    "attempts": 1
+  },
+  "clive-palmer|Director|Mineralogy Pty Ltd|null": {
+    "last_examined_at": "2026-11-27T15:15:55.856Z",
+    "attempts": 1
+  },
+  "mary-fisher|Director of Government Relations|Printing Industries Association of Australia|null": {
+    "last_examined_at": "2026-11-27T15:15:55.856Z",
+    "attempts": 1
+  },
+  "mary-fisher|Manager of Member Services (South Australia and Northern Territory)|Printing Industries Association of Australia|null": {
+    "last_examined_at": "2026-11-27T15:15:55.856Z",
+    "attempts": 1
+  },
+  "alan-tudge|Senior Research Fellow|Menzies Research Centre|null": {
+    "last_examined_at": "2026-11-27T15:15:55.856Z",
+    "attempts": 1
+  },
+  "john-devereux|Secretary|Tasmanian Pacing Club|null": {
+    "last_examined_at": "2026-11-27T15:15:55.856Z",
+    "attempts": 1
+  },
+  "john-quirke|Director|Operation Flinders Foundation|null": {
+    "last_examined_at": "2026-11-27T15:15:55.856Z",
+    "attempts": 1
+  },
+  "michael-organ|Co-Editor|Illawarra Unity|null": {
+    "last_examined_at": "2026-11-27T15:15:55.856Z",
+    "attempts": 1
+  },
+  "scott-ryan|Adjunct Professor|University of Canberra|null": {
+    "last_examined_at": "2026-11-27T15:15:55.856Z",
+    "attempts": 1
   }
 }
