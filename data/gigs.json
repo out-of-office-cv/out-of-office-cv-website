@@ -54442,5 +54442,82 @@
       "https://www.inclusivecapitalism.com/news-insights/council-for-inclusive-capitalism-convenes-global-ceos-and-faith-leaders-to-advance-a-more-inclusive-and-sustainable-economy/"
     ],
     "pollie_slug": "mathias-cormann"
+  },
+  {
+    "role": "Director",
+    "organisation": "Council of Small Business Organisations Australia",
+    "category": "Nonprofit, NGO and Charity",
+    "sources": [
+      "https://www.theadviser.com.au/broker/49107-cafba-chief-elected-to-small-business-peak-body-board",
+      "https://cosboa.org.au/post/cosboa-welcomes-new-board-and-recognises-outgoing-chair-matthew-addison/"
+    ],
+    "pollie_slug": "david-bushby"
+  },
+  {
+    "role": "President",
+    "organisation": "Liberal Party of Australia (Queensland Division)",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://www.abc.net.au/news/2008-05-31/brough-wins-qld-liberals-presidency/2455344",
+      "https://en.wikipedia.org/wiki/Mal_Brough"
+    ],
+    "start_date": "2008-05-31",
+    "end_date": "2008-09-26",
+    "pollie_slug": "mal-brough"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Industry Transition Task Force (Victorian Government)",
+    "category": "Agriculture, Forestry & Fisheries",
+    "sources": ["https://littledarwin.blogspot.com/2024/08/pete-steedmans-last-ride-latest.html"],
+    "pollie_slug": "alan-steedman"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Victorian Firearms Consultative Committee",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": ["https://littledarwin.blogspot.com/2024/08/pete-steedmans-last-ride-latest.html"],
+    "pollie_slug": "alan-steedman"
+  },
+  {
+    "role": "Chair",
+    "organisation": "Commonwealth Consultative Committee on Firearms",
+    "category": "Government, Public Administration & Civil Service",
+    "sources": ["https://littledarwin.blogspot.com/2024/08/pete-steedmans-last-ride-latest.html"],
+    "pollie_slug": "alan-steedman"
+  },
+  {
+    "role": "Adviser",
+    "organisation": "Office of Senator Amanda Vanstone",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://region.com.au/international-commissioner-helping-canberra-to-fly-high/262740/"
+    ],
+    "pollie_slug": "brendan-smyth"
+  },
+  {
+    "role": "Adviser",
+    "organisation": "Office of Peter Reith",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": [
+      "https://region.com.au/international-commissioner-helping-canberra-to-fly-high/262740/"
+    ],
+    "pollie_slug": "brendan-smyth"
+  },
+  {
+    "role": "Member for Brindabella",
+    "organisation": "Australian Capital Territory Legislative Assembly",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": ["https://en.wikipedia.org/wiki/Brendan_Smyth_(politician)"],
+    "start_date": "1998-02-21",
+    "end_date": "2016-07-15",
+    "pollie_slug": "brendan-smyth"
+  },
+  {
+    "role": "Leader of the Opposition",
+    "organisation": "Australian Capital Territory Legislative Assembly",
+    "category": "Politics, Campaigning & Party Operations",
+    "sources": ["https://en.wikipedia.org/wiki/Brendan_Smyth_(politician)"],
+    "pollie_slug": "brendan-smyth"
   }
 ]
